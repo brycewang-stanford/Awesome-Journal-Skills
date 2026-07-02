@@ -66,6 +66,7 @@ Click any discipline name to jump to its explanation. Representative subfields a
     <a href="#-the-skill-packs">📚 The Skill Packs</a> ·
     <a href="#-how-to-use">⚡ How to Use</a> ·
     <a href="showcase/README.md">🧪 Executed Empirical Showcase</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue Index (185 venues, machine-readable)</a> ·
     <a href="#-roadmap">🗺 Roadmap</a> ·
     <a href="README.md">🌐 简体中文</a>
   </sub>
@@ -1320,7 +1321,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change (12 skills)
 ├── Agricultural-Systems-Skills/   → Agricultural Systems (12 skills)
 ├── Field-Crops-Research-Skills/   → Field Crops Research (12 skills)
-│   # Root marketplace manifest (aggregates all 193 in-repo packs)
+│   # Root marketplace manifest (aggregates all 195 in-repo packs)
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1330,6 +1331,20 @@ Clone this repository normally; it has no git submodules:
 git clone https://github.com/brycewang-stanford/awesome-journal-skills.git
 cd awesome-journal-skills
 ```
+
+---
+
+## 🧪 Executed Empirical Showcase (Real Run Evidence)
+
+The "automated empirical research" claim in this repository has a verifiable evidence layer: [`showcase/`](showcase/README.md) contains five **actually executed** end-to-end empirical cases (research question → design identification → estimation → robustness audit → paper-grade conclusion). Every number is quoted **verbatim** from real StatsPAI MCP tool calls, with the full call log and robustness checks attached. The five cases cover all five design families of the shared execution playbook ([`shared-resources/empirical-methods/execution-with-mcp.md`](shared-resources/empirical-methods/execution-with-mcp.md)) — they show users the real pipeline and give skill authors an acceptance benchmark.
+
+| Design | Case | Headline result |
+|---|---|---|
+| Synthetic control (SCM) | [California Prop 99 tobacco law](showcase/scm-california-prop99/README.md) | ATT −18.19 (placebo p=0.026) |
+| Staggered DiD (CS-DiD) | [Castle Doctrine laws & homicide](showcase/did-castle-doctrine/README.md) | ATT +0.110 (p=0.004, Honest-DiD robust) |
+| Instrumental variables (IV) | [Card 1995 college proximity & returns to schooling](showcase/iv-card-college-proximity/README.md) | 0.132, with AR/CLR/tF weak-IV panel |
+| Regression discontinuity (RDD) | [Close elections & legislator voting](showcase/rdd-close-elections/README.md) | RD effect 43.85 ADA points (density test p=0.72) |
+| Double machine learning (DML) | [DML returns to schooling](showcase/dml-returns-to-schooling/README.md) | 0.074 (flexible-controls benchmark) |
 
 ---
 

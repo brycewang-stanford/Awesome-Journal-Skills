@@ -66,6 +66,7 @@
     <a href="#-skill-pack-一览">📚 Skill Pack 一览</a> ·
     <a href="#-如何使用">⚡ 如何使用</a> ·
     <a href="showcase/README.md">🧪 自动实证 Showcase（真实运行证据）</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（185 刊机读表）</a> ·
     <a href="#-路线图">🗺 路线图</a> ·
     <a href="README.en.md">🌐 English</a>
   </sub>
@@ -1320,7 +1321,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change（12 skills）
 ├── Agricultural-Systems-Skills/   → Agricultural Systems（12 skills）
 ├── Field-Crops-Research-Skills/   → Field Crops Research（12 skills）
-│   # 根级 marketplace 清单（聚合全部 193 个仓库内 pack）
+│   # 根级 marketplace 清单（聚合全部 195 个仓库内 pack）
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1330,6 +1331,20 @@ awesome-journal-skills/
 git clone https://github.com/brycewang-stanford/awesome-journal-skills.git
 cd awesome-journal-skills
 ```
+
+---
+
+## 🧪 自动实证 Showcase（真实运行证据）
+
+本仓库的「自动实证」能力有一个可查证的证据层：[`showcase/`](showcase/README.md) 收录五条**真实执行**的端到端实证案例（研究问题 → 设计识别 → 估计 → 稳健性审计 → 论文级结论），所有数字均**逐字**摘自实际运行的 StatsPAI MCP 工具调用，并附完整调用记录与稳健性检查。五条案例覆盖共享执行手册（[`shared-resources/empirical-methods/execution-with-mcp.md`](shared-resources/empirical-methods/execution-with-mcp.md)）的全部五个设计族，既给用户看真实链路，也给 skill 作者当验收基准。
+
+| 设计 | 案例 | 关键结果 |
+|---|---|---|
+| 合成控制 (SCM) | [加州 Prop 99 禁烟法案](showcase/scm-california-prop99/README.md) | ATT −18.19（安慰剂 p=0.026） |
+| 交错 DiD (CS-DiD) | [Castle Doctrine 法案与凶杀率](showcase/did-castle-doctrine/README.md) | ATT +0.110（p=0.004，Honest DiD 稳健） |
+| 工具变量 (IV) | [Card 1995 大学距离与教育回报](showcase/iv-card-college-proximity/README.md) | 0.132，附 AR/CLR/tF 弱 IV 面板 |
+| 断点回归 (RDD) | [差额胜选与议员投票行为](showcase/rdd-close-elections/README.md) | RD 效应 43.85 ADA 分（密度检验 p=0.72） |
+| 双重机器学习 (DML) | [教育回报的 DML 估计](showcase/dml-returns-to-schooling/README.md) | 0.074（灵活控制基准） |
 
 ---
 
