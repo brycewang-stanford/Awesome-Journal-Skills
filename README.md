@@ -65,6 +65,7 @@
     <a href="#-快速浏览与布局指南">🧭 布局指南</a> ·
     <a href="#-skill-pack-一览">📚 Skill Pack 一览</a> ·
     <a href="#-如何使用">⚡ 如何使用</a> ·
+    <a href="showcase/README.md">🧪 自动实证 Showcase（真实运行证据）</a> ·
     <a href="#-路线图">🗺 路线图</a> ·
     <a href="README.en.md">🌐 English</a>
   </sub>

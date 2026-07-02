@@ -65,6 +65,7 @@ Click any discipline name to jump to its explanation. Representative subfields a
     <a href="#-quick-browsing--layout-guide">🧭 Layout Guide</a> ·
     <a href="#-the-skill-packs">📚 The Skill Packs</a> ·
     <a href="#-how-to-use">⚡ How to Use</a> ·
+    <a href="showcase/README.md">🧪 Executed Empirical Showcase</a> ·
     <a href="#-roadmap">🗺 Roadmap</a> ·
     <a href="README.md">🌐 简体中文</a>
   </sub>
