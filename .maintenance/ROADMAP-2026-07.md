@@ -42,8 +42,9 @@
       （Abadie 面板 + Mixtape 复现数据）。
 - [x] 每条案例反向链接执行手册与 reviewer checklist；中英 README 首屏入口已挂
       （2026-07-01）。
-- [ ] 把 showcase 纳入 `audit_repo.py` 清点（tripwire 更新）——待 Week 3 与
-      venue 索引一起做。
+- [x] 把 showcase 纳入 `audit_repo.py` 清点（2026-07-02 完成）：
+      `EXPECTED_SHOWCASE_CASES=5` 硬门槛，检查索引链接、逐案例 README、
+      运行日期与运行备注证据标记。
 - 附注：运行中累计发现 7 处 StatsPAI 上游缺陷（synth_time_placebo/synth_loo
   年份类型强转、aggte/pretrends_test/dml_sensitivity 句柄不解析、
   anderson_rubin_test 空载荷、rdplacebo 连接崩溃、list_replications 格式化错误），
@@ -51,11 +52,17 @@
 
 ## Week 3（07-15 ~ 07-21）：可发现性 + 中英对齐
 
-- [ ] README.en.md 与 README.md 逐节 parity 审计（结构、计数、新增 showcase 入口）。
-- [ ] `gen_venue_index.py` 产出的 venue 索引挂到 README 首屏；GitHub topics、
-      badges（CI 状态、pack 数、skill 数）补齐。
-- [ ] gallery / 封面墙检查：所有 SVG 可渲染（rsvg-convert 渲染到真实文件验证）。
-- [ ] 打 v1.0 release tag + release notes（中英双语）。
+- [x] README.en.md 与 README.md 逐节 parity 审计（2026-07-02 完成）：38 个标题
+      1:1 对应；双语新增 showcase 正文小节（五案例 + 数字表）；修复两处陈旧
+      193→195 计数。
+- [x] venue 索引挂双语首屏导航（185 刊机读表）；生成器修复为确定性输出
+      （排除 Toolkit pack）；GitHub topics 换入 causal-inference /
+      empirical-research / econometrics / replication（20 上限内置换）。
+- [x] gallery / 封面墙检查（2026-07-02）：README 引用的 406 个本地图片全部存在
+      （git 索引大小写精确校验），13 个 SVG rsvg-convert 渲染到真实文件全部通过，
+      393 个 PNG/JPG 文件头正常，零修复。
+- [x] v1.0.0 已发布（2026-07-02）：annotated tag + 双语 release notes，
+      https://github.com/brycewang-stanford/Awesome-Journal-Skills/releases/tag/v1.0.0
 
 ## Week 4（07-22 ~ 07-31）：外部对标 + 社区漏斗 + 总验收
 
