@@ -166,6 +166,9 @@ def is_depth_pack(p: Path) -> bool:
         return False
     if p.name in IMPORTED:
         return False
+    # toolkit packs are cross-venue workflow bundles, not journal venues
+    if p.name.endswith("Toolkit-Skills"):
+        return False
     skills = list((p / "skills").glob("*/SKILL.md")) if (p / "skills").is_dir() else []
     if not skills:
         return False

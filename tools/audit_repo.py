@@ -23,6 +23,10 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED_SKILL_COUNT = 2902
 EXPECTED_PACK_COUNT = 195
 EXPECTED_ROOT_JOURNAL_ENTRIES = 200
+# Executed empirical evidence cases under showcase/. Each is a real MCP tool
+# run committed as documentation; removing one silently would weaken the
+# repo's central "automated empirical research" claim.
+EXPECTED_SHOWCASE_CASES = 5
 
 IMPORTED_ROOTS = {
     "AER-Skills",
@@ -444,6 +448,33 @@ def check_skill_frontmatter(errors: list[str]) -> None:
             errors.append(f"duplicate first-party skill name {name!r}: {locations}")
 
 
+def check_showcase(errors: list[str]) -> None:
+    showcase = ROOT / "showcase"
+    index = showcase / "README.md"
+    if not index.exists():
+        errors.append("showcase/README.md is missing")
+        return
+    index_text = index.read_text(encoding="utf-8", errors="replace")
+    case_dirs = sorted(p for p in showcase.iterdir() if p.is_dir())
+    if len(case_dirs) != EXPECTED_SHOWCASE_CASES:
+        errors.append(
+            f"expected {EXPECTED_SHOWCASE_CASES} showcase case directories, "
+            f"found {len(case_dirs)}"
+        )
+    for case in case_dirs:
+        readme = case / "README.md"
+        if not readme.exists():
+            errors.append(f"{rel(case)} has no README.md")
+            continue
+        if f"{case.name}/README.md" not in index_text:
+            errors.append(f"showcase/README.md does not link {case.name}/README.md")
+        case_text = readme.read_text(encoding="utf-8", errors="replace")
+        if "运行日期" not in case_text:
+            errors.append(f"{rel(readme)} lacks the 运行日期 (run date) evidence marker")
+        if "运行备注" not in case_text:
+            errors.append(f"{rel(readme)} lacks the 运行备注 (honest run notes) section")
+
+
 def markdown_files_to_check() -> list[Path]:
     return sorted(
         path
@@ -524,6 +555,7 @@ def main() -> int:
     check_pack_documentation(errors)
     check_source_maps(errors)
     check_skill_frontmatter(errors)
+    check_showcase(errors)
     check_markdown_links(errors)
 
     if errors:
@@ -536,7 +568,8 @@ def main() -> int:
         "Repository audit passed: "
         f"{EXPECTED_SKILL_COUNT} canonical skills, "
         f"{EXPECTED_PACK_COUNT} curated packs, "
-        f"{EXPECTED_ROOT_JOURNAL_ENTRIES} root journal entries."
+        f"{EXPECTED_ROOT_JOURNAL_ENTRIES} root journal entries, "
+        f"{EXPECTED_SHOWCASE_CASES} executed showcase cases."
     )
     return 0
 
