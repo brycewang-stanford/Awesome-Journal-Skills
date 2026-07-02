@@ -4,6 +4,10 @@ on:
   pull_request:
   push:
   workflow_dispatch:
+  schedule:
+    # Weekly freshness run (Mon 02:17 UTC) so content rot is caught even when
+    # no one is pushing. The external-link job below only runs on this trigger.
+    - cron: "17 2 * * 1"
 
 permissions:
   contents: read
@@ -22,3 +26,22 @@ jobs:
 
       - name: Run standard hard checks
         run: python3 tools/run_checks.py --skip-reports
+
+  # Advisory only: external publisher pages often answer bots with 403/429,
+  # so this job reports DEAD/REDIRECT links in the run log without ever
+  # failing the build (see tools/external_link_audit.py docstring).
+  external-links:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: External link liveness report (advisory)
+        run: python3 tools/external_link_audit.py || true
