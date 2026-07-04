@@ -2019,3 +2019,5 @@ MIT
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=brycewang-stanford/Awesome-Journal-Skills&type=Date" />
   </picture>
 </a>
+
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates + 5 Claude Code skills for giving AI agents deep personal context. MIT-licensed, one-command install.
