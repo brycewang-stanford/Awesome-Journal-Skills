@@ -1,6 +1,6 @@
 ---
 name: pnasnexus-fit
-description: Use first, before any writing, to stress-test whether a result fits PNAS Nexus — high-quality, broadly significant, multidisciplinary research across biological/health/medical, physical sciences & engineering, and social & political sciences — and to make the realistic call between PNAS Nexus, flagship PNAS, and a field journal, including the PNAS-to-PNAS-Nexus transfer route.
+description: Use before any writing — as the first gate — to stress-test whether a result fits PNAS Nexus — high-quality, broadly significant, multidisciplinary research across biological/health/medical, physical sciences & engineering, and social & political sciences — and to make the realistic call between PNAS Nexus, flagship PNAS, and a field journal, including the PNAS-to-PNAS-Nexus transfer route.
 ---
 
 # Scope & Significance Fit (pnasnexus-fit)

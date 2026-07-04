@@ -95,6 +95,29 @@ The router's job is to stop a promising-but-thin story from being polished into 
 | "Final check before upload" | Preflight | `cc-submission` |
 | "Three reviewers came back" | Revision | `cc-peer-review-revision` |
 
+## Evidence-spine manifest
+
+Cancer Cell's unit is a mechanism validated across orthogonal systems. Track the spine as a
+manifest and route on the first `MISSING`: front-matter polish is premature until cells +
+in vivo + (ideally) human evidence converge on one mechanism.
+
+```yaml
+evidence_spine:
+  mechanism:        OK | UNCLEAR      # molecular intermediate linking cause -> phenotype
+  cell_system_1:    OK | MISSING
+  cell_system_2:    OK | MISSING      # orthogonal line / method, not a technical replicate
+  in_vivo:          OK | MISSING      # perturbation in an immunocompetent model
+  human_data:       OK | MISSING      # patient cohort / clinical specimens
+  rigor:
+    key_resources_table: yes | no     # cc-reporting-standards
+    cell_line_authenticated: yes | no
+    n_defined_no_pseudorep: yes | no  # cc-statistics
+    image_quantification: yes | no    # cc-figures-tables
+  deposition:
+    geo_or_pride_accession: yes | no  # cc-ethics-registration
+route_rule: "first MISSING/UNCLEAR above -> its listed skill; do not draft Summary/Highlights until the spine is OK"
+```
+
 ## Anti-patterns
 
 - **Do not** skip `cc-scope-fit` — editors triage on mechanism + translational fit first

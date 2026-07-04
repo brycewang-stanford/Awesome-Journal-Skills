@@ -55,6 +55,24 @@ If the two read the same, the Significance Statement is wrong — fix it in `pna
 - "elucidate", "delineate", "interrogate", "leverage" as filler verbs.
 - Hedging stacks: "may potentially suggest that it could…".
 
+## Before / after: opening a PNAS abstract for a general reader
+
+The first sentence is read by scientists outside your field. Lead with the stake, not the apparatus.
+
+- **Before:** "Using single-molecule FRET with ALEX and HMM state assignment, we interrogated the conformational landscape of protein X to elucidate its allosteric coupling."
+- **After:** "How a protein converts a signal at one site into a response at a distant site is a long-standing question across biology. We tracked single molecules of protein X in real time and found that two conformations exchange 40-fold faster when the regulator is bound (rate 12 ± 2 s⁻¹), revealing the coupling step directly."
+
+The revision opens on a cross-division stake, drops the undefined acronym stack, and puts a quantified result with uncertainty where a broad reader can see it.
+
+## Referee-facing checklist for the abstract
+
+A PNAS editor scanning the abstract before assigning reviewers checks:
+
+- [ ] **First sentence is field-general** — a reader from another PNAS division grasps why the question matters.
+- [ ] **The headline result is quantified** — magnitude, unit, and uncertainty, not "significantly."
+- [ ] **The advance matches the Significance Statement's claim** — no broader promise here than the paper delivers.
+- [ ] **Register differs from the Significance Statement** — technical-but-clear here; plain-language why-it-matters there.
+
 ## Output format
 
 ```

@@ -93,6 +93,25 @@ If the manuscript has data, measures, and statistical tests, an empirical-manage
 A common failure is sending an AMR draft that is really an under-powered empirical paper,
 or an AMJ draft whose "theory" is a literature summary. Pick the right stack early.
 
+## Stage ledger (paste at the top of your working file)
+
+Keep one honest line per stage. AMR reviewers judge the *theory*, so the ledger tracks
+argument-state, not word count. Mark a stage `DONE` only when its gate is truly cleared.
+
+```text
+AMR THEORY-BUILDING LEDGER  —  manuscript: ____________________
+[ ] puzzle        why does existing theory FAIL to explain X?  ......... route: amr-topic-selection
+[ ] conversation  whose theory am I extending / challenging? ........... route: amr-literature-positioning
+[ ] constructs    each construct: name + domain + What/How/Why (Whetten) route: amr-theory-development
+[ ] propositions  P1..Pn stated; each has an explicit causal logic ..... route: amr-data-analysis
+[ ] boundaries    Who/Where/When conditions named for the theory ....... route: amr-theory-development
+[ ] contribution  one sentence: "New vs. prior theory is ____" ......... route: amr-contribution-framing
+[ ] figure        box-and-arrow shows a MECHANISM, not a taxonomy ...... route: amr-tables-figures
+[ ] prose         reads as argument, not literature review ............. route: amr-writing-style
+[ ] preflight     200-word abstract, APA refs, ScholarOne fields ....... route: amr-submission
+GATE: no data, no hypothesis tests, no results section — if present, this is an AMJ paper.
+```
+
 ## Anti-patterns
 
 - **Do not** skip `amr-literature-positioning` and jump to building — reviewers first ask whose conversation you are in.

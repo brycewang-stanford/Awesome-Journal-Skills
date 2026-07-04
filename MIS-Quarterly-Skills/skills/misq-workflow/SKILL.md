@@ -62,6 +62,35 @@ Default assumption: unless the user says otherwise, treat the target as **MIS Qu
 - "Over the page limit / lots of supplementary files" → `misq-tables-figures` then `misq-submission`
 - "Got a major revision with an SE letter" → `misq-review-process` then `misq-rebuttal`
 
+## Stage ledger (keep it live in the conversation)
+
+MISQ is pluralistic across four traditions and enforces a page limit that counts everything, so the two load-bearing rows are **tradition/category match** and **page budget**. Track them explicitly:
+
+```text
+MIS QUARTERLY MANUSCRIPT STAGE LEDGER
+=====================================
+Tradition (primary): behavioral | design science | economics | organizational   Blend: ______
+Category           : Research Article (50pp) | Research Notes | Theory Development (55pp)
+                     | Theory-Generative Synthesis (65pp) | Design Science | Issues & Opinions
+IT artifact central: yes | no (FIX — likely wrong venue)
+Stage gates (✓ / ✗ / n/a):
+  [ ] misq-topic-selection        IS question; tradition named; category chosen
+  [ ] misq-theory-development      mechanism / design theory / model / process theory built
+  [ ] misq-literature-positioning  IS conversation engaged; canonical work cited
+  [ ] misq-methods                 design/evaluation matches question & tradition
+  [ ] misq-data-analysis           validity / identification / artifact evaluation sound
+  [ ] misq-contribution-framing    contribution explicit for IS theory AND practice
+  [ ] misq-tables-figures          exhibits within the page limit
+  [ ] misq-writing-style           APA-7 / MISQ style
+  [ ] misq-submission              ScholarOne preflight + transparency commitment
+  [ ] misq-review-process          SE/AE double-anonymous expectations set
+  [ ] misq-rebuttal                (revision only) revise first, then respond
+Page count         : ___ / limit ___   (limit counts text+tables+figures+refs+appendices)
+Current bottleneck : ______             Next skill: misq-______
+```
+
+Refresh after each sub-skill. A ✗ on tradition/category match is a *fit* failure that outranks any quality gate downstream — resolve it before polishing.
+
 ## Anti-patterns
 
 - **Do not** treat MISQ as a single-paradigm journal — picking the wrong category/tradition is a fit problem before it is a quality problem.

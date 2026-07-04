@@ -55,6 +55,19 @@ fields and payment prompt before relying on a saved checklist.
 - [ ] Data/materials posture decided and stated honestly (encouraged, not required — see `spq-data-and-transparency`)
 - [ ] **$25 processing fee** ready (or student/resubmission waiver applies)
 
+## Last-mile sweep (the checks people forget)
+
+- Acknowledgments and funding lines belong **only** on the separate title page — a thank-you footnote
+  left in the manuscript file breaks masking as surely as a byline does.
+- The abstract page repeats the title but never the authors; keywords sit under the abstract on that
+  page, not only in a portal field.
+- PDF conversion can resurrect stripped metadata — re-open the converted file and re-check the
+  document properties after the final export.
+- Selecting the "ASA Student Member Submission" article type is what triggers the fee waiver in
+  SageTrack; a note to the editorial office does not.
+- If the office returns an under-blinded file for reformatting, the submission clock restarts —
+  budget days, not hours, before any deadline that matters to you.
+
 ## Anti-patterns
 
 - Leaving author identifiers in the text, acknowledgments, or file metadata (temporary rejection)

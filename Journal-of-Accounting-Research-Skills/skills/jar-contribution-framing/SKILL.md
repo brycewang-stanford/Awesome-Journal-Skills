@@ -45,6 +45,27 @@ For a **Ray Ball JAR Annual Conference** submission the contribution should spea
 - **Overclaiming causality** beyond what the identification supports.
 - **Ignoring the nearest paper**, leaving the increment ambiguous.
 
+## Before/after: the contribution sentence
+
+- **Before (description as contribution):** "We find that firms with higher disclosure quality have lower bid-ask spreads, consistent with prior literature."
+- **After (identified, magnitude-bearing contribution):** "Using the staggered adoption of [mandate] as identifying variation, we show that mandated disclosure causally narrows bid-ask spreads by roughly 8% of a within-firm standard deviation, operating through reduced adverse selection rather than changed trading volume — evidence that the disclosure channel, not a liquidity-provision channel, drives the information-environment result."
+
+The after sentence carries the identifying variation, the economic magnitude, the mechanism, and the adjudication in one breath — the shape a JAR discussion section is expected to defend.
+
+## Worked magnitude translations (referees want to *feel* the effect)
+
+| Raw output | Referee-legible framing |
+|------------|-------------------------|
+| "β = 0.012, p < 0.01" | "an 8% of within-firm-SD change in spread" |
+| "significant coefficient on treatment" | "≈ 3 bps of the average 40 bps quoted spread" |
+| "positive association with cost of capital" | "≈ 15 bps of annual implied cost of equity" |
+
+## Track-fit checklist
+
+- [ ] Regular submission: contribution speaks to a specific accounting conversation, not a method.
+- [ ] Ray Ball Conference: contribution ties to the year's theme and a broad accounting audience.
+- [ ] Registered Report: contribution is framed around the *question and design*, so a well-identified null is genuinely informative (acceptance is outcome-independent).
+
 ## Output format
 
 ```

@@ -50,6 +50,29 @@ description: Use when deciding which cfe-* sub-skill to invoke next, or when seq
 
 > `cfe-abstract` 与 `cfe-style` 是**后段 polish 阶段**触发，不要在识别策略未立住时去做。
 
+## 进度自检卡（先填卡，再问"下一步"）
+
+把这张卡放进稿件工作目录，每次工作前自上而下勾选；**第一个未勾选项**就是当前要调用的 skill。
+
+```text
+《财经研究》稿件进度自检卡
+稿件标题：____________________  当前版本：v___  日期：________
+──────────────────────────────────────────────
+[ ] 1. 选题定位   → cfe-topic-selection    理论贡献 + 中国现实问题均已锁定？
+[ ] 2. 文献对话   → cfe-literature-review  理论经典与近三年同主题中文文献均已覆盖？
+[ ] 3. 识别策略   → cfe-identification     DID/IV/RDD 设计成立，交错处理批评已回应？
+[ ] 4. 机制分析   → cfe-mechanism          机制路径有检验，不止"我们认为可能是"？
+[ ] 5. 异质性     → cfe-heterogeneity      切分维度与理论对应，不止东中西 / 国企非国企？
+[ ] 6. 表格图形   → cfe-tables-figures     主表列数受控，注释与数据来源规范？
+[ ] 7. 政策含义   → cfe-policy-implication 有可执行含义，非"加强完善推进"套话？
+[ ] 8. 摘要       → cfe-abstract           五句法成立，含量化结果，中英文对齐？
+[ ] 9. 语言风格   → cfe-style              "具有重要意义"等套话已清零？
+[ ] 10. 投稿准备  → cfe-submission         preflight checklist 全部通过？
+──────────────────────────────────────────────
+封锁规则：第 6、8、9 项在第 3 项勾选之前一律不启动。
+外审之后：先改正文，再进入 cfe-rebuttal 写回复信。
+```
+
 ## 决策口诀
 
 - "我有数据但没理论故事 / 不知道为什么在中国值得做" → `cfe-topic-selection`

@@ -31,6 +31,14 @@ POM's defining structural norm: you submit to **one named Department**, and the 
 
 Because POM bars resubmission of a rejected paper to the same *or a different* department unless explicitly invited, choosing the right department and confirming fit **before** submitting matters more here than at most journals.
 
+## Worked routing example
+
+A study of nurse staffing and patient boarding, estimated on emergency-department visit records, could plausibly route three ways. If the payoff is a staffing decision rule with queueing intuition behind it, route to Healthcare Operations. If the labor-supply mechanism and the identification strategy carry the paper, JOM or another empirically oriented outlet may own that audience. If the core novelty is the estimator itself, expect POM referees to ask "which operations decision improves?" — a question the abstract, not the appendix, must answer. Practical test: write one sentence per candidate department naming the decision, the metric (boarding hours, throughput, overtime cost), and the lever; the department whose sentence needs no stretching is the route.
+
+## What the department desk screen rewards
+
+Department Editors screen fast for four things: a named operational decision on page one; a performance metric a plant, hospital, warehouse, or supply chain actually tracks; a plausible argument that the insight travels beyond the studied setting; and an honest accounting of same-data siblings. A paper missing any of these risks a desk reject that — given the one-shot rule — cannot be retried in another department.
+
 ## Checklist
 
 - [ ] Operations decision and decision maker named

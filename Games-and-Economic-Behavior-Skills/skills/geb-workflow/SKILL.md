@@ -50,7 +50,23 @@ Default assumption: unless the user says otherwise, treat the target as GEB — 
 
 > `geb-writing-style` is a late-stage polish. Do not rewrite the introduction before the theorems and assumptions are settled — the statements will change.
 
-## Decision shortcuts
+## Stage log
+
+Keep this log with the manuscript and update it after each working pass; the **first unresolved line is your route**:
+
+```text
+GEB stage log  (✓ = settled, ? = open — first ? wins)
+contribution  one-line advance to game theory written out verbatim ..... [?]
+positioning   nearest frontier papers named + what you generalize ...... [?]
+results       theorems stated, assumptions listed, proofs readable ..... [?]
+evidence      experiment powered / numerical examples verified ......... [?]
+exhibits      game trees and payoff matrices self-contained ............ [?]
+prose         abstract ≤250 words; model reachable within intro ........ [?]
+sharing       data/code plan drafted (encouraged, not required) ........ [?]
+process       Editor-in-Charge path + desk-reject risks reviewed ....... [?]
+submit        Editorial Manager preflight; conference version flagged .. [?]
+--- decision letter in hand? ignore every line above → geb-rebuttal ---
+```
 
 - "Is this big enough for GEB?" → `geb-topic-selection`
 - "Who am I building on / generalizing?" → `geb-literature-positioning`

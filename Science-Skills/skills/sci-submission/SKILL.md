@@ -1,6 +1,6 @@
 ---
 name: sci-submission
-description: Use as the final preflight before submitting to Science — a complete checklist across significance, format, figures, statistics, data, references, and required files. Bundles templates.
+description: Use as the final preflight before submitting to Science (AAAS) — a complete checklist across significance, format, figures, statistics, data availability, references, and required submission files, so nothing that triggers an editorial bounce is left unresolved. Bundles ready-to-fill templates.
 ---
 
 # Submission Preflight (sci-submission)

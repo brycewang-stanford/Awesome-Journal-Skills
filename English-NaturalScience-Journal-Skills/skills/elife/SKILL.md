@@ -1,6 +1,6 @@
 ---
 name: elife
-description: Use when targeting eLife or deciding whether a life-sciences manuscript fits this open-access venue. Encodes eLife's unique Reviewed-Preprint model, fit, framing, method-and-evidence bar, house style, official-submission re-check, and desk-reject heuristics.
+description: Use when targeting eLife or deciding whether a life-sciences manuscript fits this open-access life-sciences journal. Encodes eLife's unique Reviewed-Preprint model, fit, framing, method-and-evidence bar, house style, official-submission re-check, and desk-reject heuristics.
 ---
 
 # eLife (elife)

@@ -57,6 +57,25 @@ PNAS spans **Biological, Physical, and Social Sciences**, so match the rigor con
 - For confirmatory studies (especially human-subjects / behavioral work in the Social Sciences division), note **pre-registration** (OSF/AsPredicted) if done.
 - Separate pre-specified analyses from post-hoc exploration explicitly in the text.
 
+## Before / after: a reporting sentence in PNAS register
+
+PNAS reviewers span divisions, so a statistics sentence has to survive a reader who does not share your field's shorthand. Tighten a vague claim into the reporting backbone.
+
+- **Before:** "Treatment significantly increased expression (P < 0.05, n = 3), confirming our hypothesis."
+- **After:** "Treatment raised expression 2.4-fold (95% CI 1.7–3.3; two-sided Welch's t test, P = 0.008; n = 6 biological replicates, each the mean of 3 technical replicates), consistent with the predicted mechanism."
+
+The revision names the effect and its uncertainty, states the unit of replication, gives an exact P, and separates biological from technical n — the four things a PNAS editor flags when a general-audience claim rests on thin evidence.
+
+## PNAS editor / referee expectation checklist
+
+What a PNAS handling editor and cross-division referees actively look for:
+
+- [ ] **Broad significance is earned, not asserted** — the statistical advance supports the general claim in the Significance Statement, not a narrower one.
+- [ ] **Reporting standards met** — every panel's n, test, and error definition appears in its legend, not buried in Methods.
+- [ ] **Reproducibility** — a referee could re-run the analysis from deposited code, versions, and seeds (`pnas-data`).
+- [ ] **Data availability** — primary data underlying each quantitative figure is deposited, not "available on request."
+- [ ] **No selective reporting** — exploratory and confirmatory analyses are labeled; excluded data and its rationale are disclosed.
+
 ## Output format
 
 ```

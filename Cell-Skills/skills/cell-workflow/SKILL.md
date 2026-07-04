@@ -75,6 +75,33 @@ Cell editors reject **most submissions before review**. The bar is **conceptual 
 - **Cell** vs **Cell Reports Medicine**: translational / clinically oriented complete stories.
 - **Cell** vs **Nature/Science**: all three gate on broad significance, but Cell most explicitly demands **mechanistic completeness** ("a complete story") and uses **author–date** references (opposite of Science's numbered-by-appearance), a **Summary** (not a one-sentence summary), **Highlights**, an **eTOC/In Brief blurb**, a **Graphical Abstract**, and **STAR Methods**. Do not port a Nature/Science manuscript over without these conversions.
 
+## Stage tracker (fill and re-run the router)
+
+Keep this manifest with your draft; the top unfinished row names the skill to invoke next. The gate row must clear before any polish row is touched.
+
+```
+CELL MANUSCRIPT — stage tracker
+one-line story : [hypothesis → mechanism → why a broad readership cares]
+sibling check  : Cell vs Molecular Cell / Cell Reports / Cell Reports Medicine
+
+stage                         status        next skill
+----------------------------  ------------  -------------------
+GATE: complete mechanistic    [in-progress] cell-fit
+      story, broad interest
+narrative arc                 [todo]        cell-framing
+article text + length         [todo]        cell-writing
+figure budget                 [todo]        cell-figures
+STAR Methods + KRT + QSA      [todo]        cell-star-methods
+data / code deposition        [todo]        cell-data
+Summary (≤150 words)          [todo]        cell-summary       (late)
+Highlights / eTOC / GA        [todo]        cell-highlights    (late)
+author–date references        [todo]        cell-citation      (late)
+cover letter + preflight      [todo]        cell-submission
+reviews / revision            [—]           cell-rebuttal
+
+rule: if the GATE row is not [done], every row below stays frozen.
+```
+
 ## Anti-patterns
 
 - **Do not** skip `cell-fit` and start polishing prose — the modal outcome is pre-review rejection.

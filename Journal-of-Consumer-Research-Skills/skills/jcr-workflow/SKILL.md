@@ -71,6 +71,32 @@ Default assumption: unless the user says otherwise, treat the target as JCR — 
 
 If your paper is a managerial-strategy or analytical-modeling marketing paper with no real consumer-theory advance, JCR is the wrong venue.
 
+## Stage tracker (fill and re-run the router)
+
+Keep this manifest at the top of your working notes; update the status column after each session and let the first `todo` row decide the next skill.
+
+```
+JCR MANUSCRIPT — stage tracker
+question   : [one-sentence consumer-behavior question]
+genre      : experiments / CCT / mixed
+target     : JCR (vs JCP / JMR / JM)  fit=[yes/borderline/no]
+
+stage                     status        next skill
+------------------------  ------------  --------------------------
+topic & fit               [done]        jcr-topic-selection
+theory / mechanism        [in-progress] jcr-theory-development
+literature positioning    [todo]        jcr-literature-positioning
+methods (studies/CCT)     [todo]        jcr-methods
+data / process evidence   [todo]        jcr-data-analysis
+contribution + CRS        [todo]        jcr-contribution-framing
+tables & figures          [todo]        jcr-tables-figures   (late)
+writing style             [todo]        jcr-writing-style    (late)
+submission preflight      [todo]        jcr-submission
+decision / R&R            [—]           jcr-review-process → jcr-rebuttal
+
+rule: never mark "contribution + CRS" done while theory is in-progress.
+```
+
 ## Anti-patterns
 
 - **Do not** skip `jcr-theory-development` — JCR rejects atheoretical "interesting effects."

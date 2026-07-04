@@ -29,6 +29,17 @@ Note what is **待核实**: a separately *enforced*, AEA/Econometrica-style **ma
 - **A master script** (`run_all`) that regenerates every table, figure, and IRF from raw inputs.
 - **Appendices**: the online supplementary appendix (exempt from the 40-page cap) and a README documenting steps, seeds, and runtime.
 
+## What monetary-macro referees actually re-run
+
+Build the package around the objects a JME referee is most likely to reconstruct, not around generic tidiness:
+
+- **The identified shock series itself.** If identification rests on high-frequency policy surprises or narrative shocks, deposit the series *and* its construction code. Referees swap in alternative shock measures and re-trace the IRFs; a package that ships only the final impulse responses invites a hostile report.
+- **DSGE posterior machinery.** Include priors, the posterior mode, chain settings, and convergence diagnostics — and pin the Dynare release, because steady-state solvers and default options shift across versions and can move estimated parameters.
+- **Real-time vintages.** For Taylor-rule, forecasting, or policy-reaction work, archive the exact data vintage used; revised series change coefficients, and "latest vintage" is not a reproducible input.
+- **Moment-matching map.** For calibrated or estimated models, ship one script that prints the data moments next to the model moments in the paper's Table order, so the fit claim is checkable in minutes.
+
+An editor deciding whether to require materials as a condition of publication reads this layer as the difference between a deposit and an afterthought.
+
 ## Checklist
 
 - [ ] Data and/or construction code deposited (proprietary series handled with access notes)

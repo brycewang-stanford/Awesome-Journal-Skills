@@ -39,6 +39,20 @@ description: Use when drafting the revision and point-by-point response after a 
 - Surface referee conflicts to the Department Editor and state your chosen resolution.
 - Do not reframe a barred resubmission as a normal revision — only an explicit invitation reopens POM.
 
+## Worked micro-example: weak vs. strong response
+
+Referee comment: *"The base-stock result appears to hinge on full backordering; under lost sales the structure could collapse."*
+
+- **Weak response:** "We thank the referee for this observation. Backordering is a standard assumption in the inventory literature (citations)." — This concedes nothing, tests nothing, and will read to the Department Editor as evasion of a legitimate modeling concern.
+- **Strong response:** "We agree the demand-fulfillment regime deserves scrutiny. We re-derived the ordering policy under lost sales (new e-companion section EC.4): the base-stock structure survives, the optimal level rises modestly across our calibrated instances, and the managerial ranking — dual sourcing dominates expediting — is unchanged. Revised Section 5.2 and Table 3 report the comparison; full proofs remain in EC.4." — New analysis, quantified operational consequence, exact main-paper and e-companion locations.
+
+## What POM referees probe, by method track
+
+- **Analytical:** every load-bearing assumption defended in operational terms (why stationary demand, why exponential service times), and tractability choices priced — a numerical study showing what relaxing them changes.
+- **Empirical:** identification threats named and countered — endogenous inventory or capacity choices, demand censoring in sales records — plus robustness of any structural estimates to alternative specifications and samples.
+- **Behavioral:** incentive compatibility of the experimental design and an argued bridge from the lab decision to real ordering or scheduling behavior.
+- **Data science:** operational value demonstrated beyond predictive accuracy — a decision that improves, not merely a metric that rises.
+
 ## Checklist
 
 - [ ] Manuscript actually revised before the letter was written

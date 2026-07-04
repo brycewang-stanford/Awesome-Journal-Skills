@@ -70,6 +70,27 @@ Default assumption: unless the user says otherwise, treat the target as **Admini
 
 A pure conceptual paper fits an AMR-style stack better. A hypothesis-testing study aimed purely at firm-performance outcomes with no organizational-theory surprise may belong at SMJ — at ASQ a thin contribution dressed in a strong method will not survive screening, however clean the identification.
 
+## Bottleneck triage sheet
+
+When a draft is thrashing, score each row 0–2 (0 = broken, 1 = shaky, 2 = solid). The
+**lowest** row is your next skill — at ASQ a low "surprise" or "so-what" score outranks any
+polished exhibit. Craft never rescues a thin idea here.
+
+```text
+ASQ BOTTLENECK TRIAGE          score(0-2)   route if lowest
+surprise / puzzle .............  [   ]       asq-topic-selection
+theoretical engine (mechanism)   [   ]       asq-theory-development
+dialogue w/ org-theory canon ..  [   ]       asq-literature-positioning
+design fits the question ......  [   ]       asq-methods
+data -> theory link is visible   [   ]       asq-data-analysis
+"so what" for organization theory[   ]       asq-contribution-framing
+exhibits show the data structure [   ]       asq-tables-figures
+prose is process-, not variance- [   ]       asq-writing-style
+-------------------------------------------------------------
+RULE: fix the lowest theory row before touching any craft row.
+      qualitative & quantitative are equally first-class — method follows the question.
+```
+
 ## Anti-patterns
 
 - **Do not** skip `asq-theory-development` and rush to data — at ASQ the contribution is theoretical, not methodological.

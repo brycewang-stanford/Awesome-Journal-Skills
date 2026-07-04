@@ -61,6 +61,50 @@ Default assumption: unless told otherwise, treat the target as JME — Elsevier'
 - "Submitting tomorrow; do I pay the fee now?" → `jme-submission`
 - "Got an R&R — what does 'up or out' mean for me?" → `jme-rebuttal`
 
+## Routing snapshot (copy, fill, keep at the top of the working notes)
+
+```text
+JME MANUSCRIPT ROUTING SNAPSHOT
+================================================================
+Venue          : Journal of Monetary Economics (Elsevier)
+Portal         : Editorial Manager — editorialmanager.com/monec/
+Editors        : S. Borağan Aruoba (Maryland) | Eric Swanson (UC Irvine)
+Issue track    : [ ] regular   [ ] Carnegie-Rochester-NYU policy issue
+Review model   : single-blind, at least two referees
+Revision rule  : first revision is "up or out" — resubmission ends in
+                 accept or reject; R&R only if publication likelihood
+                 is judged roughly >= 50%
+
+STAGE GATES — mark exactly one line CURRENT
+[ ] G1  scope        question is aggregate/monetary ... jme-topic-selection
+[ ] G2  positioning  frontier delta staked .......... jme-literature-positioning
+[ ] G3  framing      "new + policy lesson" pitched .. jme-contribution-framing
+[ ] G4  identification  shock/mechanism defended .... jme-identification-strategy
+[ ] G5  estimation   VAR/LP/DSGE stress-tested ...... jme-data-analysis
+[ ] G6  exhibits     IRFs/tables fit the cap ........ jme-tables-figures
+[ ] G7  prose        house style applied ............ jme-writing-style
+[ ] G8  deposit      replication package staged ..... jme-replication-and-data-policy
+[ ] G9  process      review rules understood ........ jme-review-process
+[ ] G10 submission   Editorial Manager preflight .... jme-submission
+[ ] G11 rebuttal     up-or-out response drafted ..... jme-rebuttal
+
+SUBMISSION PREFLIGHT (all must be Y before G10 closes)
+[ ] Abstract <= 100 words; does NOT begin with "This paper" or "We"
+[ ] Text + references + footnotes <= 40 pages (accepted-paper cap;
+    online supplement exempt)
+[ ] Tables + figures combined <= 10
+[ ] Submission fee ready: US$350 (US$200 full-time PhD students),
+    paid up front; no fee on resubmission
+[ ] Generative-AI declaration included per Elsevier policy
+
+BLOCKER LOG
+- current bottleneck : ______________________________________
+- routed sub-skill   : jme-__________________________________
+- unverified fact to re-check on the official page: __________
+```
+
+Re-fill the snapshot after every decision letter: a reject closes the file; an R&R moves CURRENT straight to G11 with the up-or-out clock running.
+
 ## Anti-patterns
 
 - **Do not** skip `jme-literature-positioning` and jump to estimation — referees judge the contribution first

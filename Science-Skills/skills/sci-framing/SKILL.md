@@ -1,6 +1,6 @@
 ---
 name: sci-framing
-description: Use to lock the conceptual advance and the "why now" before drafting — converts a correct result into a Science-shaped narrative that leads with the advance, not the background.
+description: Use when locking the conceptual advance and the "why now" before drafting for Science (AAAS) — converts a correct result into a Science-shaped narrative that leads with the broad advance rather than the background, and seeds the title, abstract, and cover letter.
 ---
 
 # Advance Framing (sci-framing)
@@ -38,7 +38,11 @@ Editors favor work that is timely. Name explicitly which applies:
 
 If none apply, the work may be correct but not *Science-timely* → revisit `sci-fit`.
 
-## Title discipline
+## Worked micro-rewrite: opening paragraph
+
+**Before (background-first, field-internal):**
+
+> "The Wnt signaling pathway has been extensively studied since its
 
 - **Declarative and specific** beats vague and grand. "X regulates Y by Z" > "Insights into the regulation of Y."
 - Avoid "Towards", "A study of", "Investigating", "Novel".
@@ -53,6 +57,23 @@ If none apply, the work may be correct but not *Science-timely* → revisit `sci
 | "Little is known about…"                        | "Whether [specific question] has been unresolved because…" |
 | "Our results are consistent with…"              | "Our results decide between competing models, favoring…" |
 | Chronological lab-notebook order                | Logical order toward the single claim               |
+
+## Worked example: reframing a solid-but-narrow result
+
+*Raw finding:* a new cryo-EM structure of a bacterial transporter, resolved at 2.9 Å, showing an unexpected occluded state.
+
+- **Method-led (rejectable) frame:** "We determined the structure of transporter T by cryo-EM and observed a new conformation." — a specialist result; a physicist would not read it.
+- **Advance-led (Science-shaped) frame:** "We show that transporter T captures substrate through a previously unseen occluded state, revealing a general gating mechanism shared across the superfamily — which means models of secondary active transport must include an intermediate step." — the claim now generalizes beyond one protein and carries a lesson for the whole field.
+
+The move is not spin: the occluded state and the superfamily conservation must be *in the data*. Framing surfaces the general claim the evidence already supports; it never manufactures one (if it would, return to `sci-fit`).
+
+## Editor/referee expectation checklist for framing
+
+- [ ] The first 150 words contain the advance, stated so a non-specialist grasps the stakes.
+- [ ] The "why now" is explicit and matches one of the five triggers below — editors screen for timeliness.
+- [ ] The general claim is demonstrated by a specific result, not asserted in the closing paragraph.
+- [ ] The title is declarative and parseable by an outside-field editor.
+- [ ] No superlatives doing the work that data should ("unprecedented", "paradigm-shifting").
 
 ## Output format
 

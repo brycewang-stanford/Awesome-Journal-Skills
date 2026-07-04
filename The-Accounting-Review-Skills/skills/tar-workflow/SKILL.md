@@ -63,6 +63,27 @@ Default assumption: unless the user says otherwise, treat the target as **The Ac
 - "Submitting this week" → `tar-submission`
 - "Got an R&R with two reviewers + the editor" → `tar-review-process` then `tar-rebuttal`
 
+## Submission-day upload set
+
+When every routing symptom above is cleared, the Editorial Manager package should look like this — if any piece is missing, the annotation names the skill that produces it:
+
+```text
+editorialmanager.com/accr upload set (TAR, double-blind)
+├── manuscript.pdf         # <=55 pages initial; Chicago Manual of Style;
+│                          # no author names, acknowledgments, or
+│                          # self-identifying citations       gaps → tar-writing-style / tar-tables-figures
+├── title-page.pdf         # separate file: authors, affiliations,
+│                          # ORCID iDs, acknowledgments        gaps → tar-submission
+├── online-appendix.pdf    # robustness tests and variable
+│                          # definitions cited from the text   gaps → tar-data-analysis
+├── data-authenticity/     # code that rebuilds the sample from
+│                          # raw sources (e.g., Compustat pull
+│                          # -> final panel)                   gaps → tar-data-analysis
+└── disclosures/           # AI-use disclosure; submission fee
+                           # $285 member / $680 non-member
+                           # (待核实 on the AAA pages)          gaps → tar-submission
+```
+
 ## Difference vs. JAR / JAE and the AAA family
 
 - **TAR**: AAA flagship; open to all rigorous methods, contribution-to-the-literature is the bar; double-blind review; Editorial Manager at editorialmanager.com/accr; 55-page initial limit; Chicago Manual of Style.

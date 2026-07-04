@@ -1,6 +1,6 @@
 ---
 name: pnas-fit
-description: Use first, before any writing, to stress-test whether a result clears PNAS's bar — high quality and broad significance to a general scientific readership — and to make the realistic call between PNAS, Science/Nature, and a specialist field journal.
+description: Use before any writing begins to stress-test whether a result clears PNAS's bar — high quality and broad significance to a general scientific readership — and to make the realistic call between PNAS, Science/Nature, and a specialist field journal.
 ---
 
 # Scope & Significance Fit (pnas-fit)

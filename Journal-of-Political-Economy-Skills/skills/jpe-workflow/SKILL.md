@@ -65,6 +65,28 @@ The single organizing question behind every JPE skill: **"What does economic the
 - "Submitting tomorrow" → `jpe-submission`
 - "Got three referee reports" → `jpe-rebuttal`
 
+## Pipeline status manifest
+
+Track where the manuscript actually is before asking "what next?". Keep this block at the top of the project notes and update it after every working session; the first `blocked` or `todo` row is the skill to invoke.
+
+```yaml
+jpe_pipeline:
+  target: JPE proper          # or: JPE Micro | JPE Macro — decide in jpe-topic-selection
+  stages:
+    - {skill: jpe-topic-selection,        status: done,    gate: "economic question + mechanism locked"}
+    - {skill: jpe-literature-positioning, status: done,    gate: "contribution stated in Chicago author-date frame"}
+    - {skill: jpe-identification,         status: blocked, gate: "causal claim defensible to a Chicago referee"}
+    - {skill: jpe-theory-model,           status: todo,    gate: "model disciplines the empirical specification"}
+    - {skill: jpe-robustness,             status: todo,    gate: "alternative explanations killed, not just noted"}
+    - {skill: jpe-tables-figures,         status: todo,    gate: "each exhibit carries economic content"}
+    - {skill: jpe-writing-style,          status: todo,    gate: "spare analytical register throughout"}
+    - {skill: jpe-referee-strategy,       status: todo,    gate: "price-theory / GE objections pre-answered"}
+    - {skill: jpe-replication-package,    status: todo,    gate: "DCAS package ready for JPE Dataverse deposit"}
+    - {skill: jpe-submission,             status: todo,    gate: "Editorial Express preflight; $250/$125 fee cleared"}
+    - {skill: jpe-rebuttal,               status: n/a,     gate: "activates only after an R&R decision"}
+  rule: "route to the first stage whose status is blocked or todo; never polish downstream of a blocked gate"
+```
+
 ## Differences vs. QJE / Econometrica / REStud stacks
 
 JPE sits among the top-five but has a distinct house taste:

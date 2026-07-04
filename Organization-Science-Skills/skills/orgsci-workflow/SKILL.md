@@ -53,6 +53,30 @@ Default assumption: unless told otherwise, treat the target as Organization Scie
 
 > `orgsci-tables-figures` and `orgsci-writing-style` are **late-stage polish**. Do not invoke them while the theoretical contribution is still unsettled.
 
+## Routing diagnosis worksheet
+
+When the bottleneck is unclear, fill this worksheet top to bottom; the first blank or shaky row is
+the stage to route to. It mirrors what a senior editor probes in the first read.
+
+```text
+ORGANIZATION SCIENCE ROUTING DIAGNOSIS
+Question ............ theory-driven question about organizations, stated in
+                      one sentence?                    blank -> orgsci-topic-selection
+Level ............... micro / meso / macro / cross-level named, and the
+                      mechanism operates at that level? shaky -> orgsci-theory-development
+Conversation ........ which organization-theory conversation does the paper
+                      join (not a gap claim)?          blank -> orgsci-literature-positioning
+Design .............. qualitative / quant / experiment / computational /
+                      formal — matched to the question? shaky -> orgsci-methods
+Evidence ............ analysis transparent; trustworthiness shown for
+                      inductive work?                  shaky -> orgsci-data-analysis
+Contribution ........ <500-word cover-letter statement drafted and beyond
+                      "theoretical novelty"?           blank -> orgsci-contribution-framing
+Package ............. exhibits, INFORMS author-date prose, ScholarOne files,
+                      anonymization, ~50-page norm?    shaky -> orgsci-tables-figures /
+                                                       orgsci-writing-style / orgsci-submission
+```
+
 ## Decision shortcuts
 
 - "I have rich field data but no theory yet" → `orgsci-topic-selection` then `orgsci-theory-development`

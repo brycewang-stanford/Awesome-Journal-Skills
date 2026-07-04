@@ -1,6 +1,6 @@
 ---
 name: qe-topic-selection
-description: Use early, when judging whether a project fits Quantitative Economics (QE) — a substantive economic question answered with serious quantitative methods (empirical, structural/computational, experimental, or simulation), sister to Econometrica and Theoretical Economics. Tests fit and sharpens the question; it does not design the estimation.
+description: Use when first judging whether a project fits Quantitative Economics (QE) — a substantive economic question answered with serious quantitative methods (empirical, structural/computational, experimental, or simulation), sister to Econometrica and Theoretical Economics. Tests fit and sharpens the question; it does not design the estimation.
 ---
 
 # Topic Selection (qe-topic-selection)

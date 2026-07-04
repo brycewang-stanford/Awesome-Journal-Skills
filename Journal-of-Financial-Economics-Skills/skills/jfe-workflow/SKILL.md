@@ -52,6 +52,36 @@ JFE at a glance (verify on jfinec.com): Elsevier/North-Holland, ISSN 0304-405X, 
 
 > `jfe-writing-style` and parts of `jfe-tables-figures` are **late-stage polish**. Do not burn effort there while identification or the core design is still unsettled — JFE referees will not be charmed by clean tables sitting on a weak design.
 
+## Bottleneck triage card
+
+Answer the questions in order and stop at the **first "no"** — that is the skill to invoke now. Everything below the first "no" is premature polish.
+
+```text
+JFE bottleneck triage — run top to bottom, stop at first "no"
+-------------------------------------------------------------------------
+Q1  Can you state the contribution in one sentence a co-editor
+    would care about?                          no -> jfe-topic-selection
+Q2  Does related work say why JF/RFS haven't already covered it?
+                                               no -> jfe-literature-positioning
+Q3  Would the identification survive a hostile referee report?
+    (staggered-DID bias addressed? instrument defended?)
+                                               no -> jfe-identification
+Q4  Are factor construction, estimator, SEs, and GMM choices
+    settled and justified?                     no -> jfe-empirical-design
+Q5  Does the result survive the obvious alternative specs a
+    thorough JFE referee will run?             no -> jfe-robustness
+Q6  Are main exhibits readable and in JFE house style?
+                                               no -> jfe-tables-figures
+Q7  Are proofs and extra tests offloaded to the Internet Appendix?
+                                               no -> jfe-internet-appendix
+Q8  Is the prose at JFE register, contribution up front,
+    abstract at 100 words?                     no -> jfe-writing-style
+-------------------------------------------------------------------------
+All yes -> jfe-submission (editorialmanager.com/finec preflight: fee,
+           Mendeley Data code/data deposit), then jfe-referee-strategy.
+Decision letter arrived -> revise first, then jfe-rebuttal.
+```
+
 ## Decision shortcuts
 
 - "I have data but no sharp economic question" -> `jfe-topic-selection`

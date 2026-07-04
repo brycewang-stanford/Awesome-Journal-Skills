@@ -36,6 +36,21 @@ For the predictable reviewer challenge, prepare a one-sentence answer to each:
 - State the **conditions** under which the prescription holds (your boundary conditions become managerial guardrails).
 - Where relevant, draw out **policy or societal** implications (consumer welfare, fairness, well-being, sustainability) — JM's stakeholders include policy makers and society, not only firms.
 
+## Before / after: the contribution sentence
+
+*Before (setting-as-contribution):* "We contribute by examining brand activism in the fast-fashion industry, an understudied context."
+
+*After (marketing-thought contribution):* "We show that brand activism builds equity only when the stance is costly to the firm — cheap talk backfires, depressing brand attitude among the very consumers it targets — which tells CMOs that perceived authenticity is bought with visible sacrifice, not messaging volume."
+
+The after-version answers JM's core question: *what do we now know about marketing that we did not know before, and who acts differently because of it?* A durable diagnostic: delete the industry name from your sentence. If the claim still stands, the contribution is substantive; if it collapses, you wrote a context claim.
+
+## What JM reviewers weigh
+
+- **Contribution to marketing thought** — a mechanism, reversal, boundary condition, or magnitude the discipline lacked, stated in marketing terms (brands, customers, channels, markets).
+- **Substantive importance** — the phenomenon operates at market scale, not only inside one lab cell or one campaign.
+- **Breadth of evidence** — when one study cannot carry the claim, JM's big tent expects convergent support (say, field data plus an experiment) and some demonstration that the effect travels across categories or customer segments.
+- **A managerial implications section that earns its name** — decisions and magnitudes, not aspirations.
+
 ## Checklist
 
 - [ ] One-sentence substantive contribution (new, consequential understanding) written

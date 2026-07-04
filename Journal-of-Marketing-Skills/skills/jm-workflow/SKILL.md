@@ -63,6 +63,54 @@ Default assumption: unless the user says otherwise, treat the target as JM — t
 - "Conditional acceptance — what do I deposit?" → `jm-submission` / `jm-data-analysis` (JM Dataverse packet)
 - "Got an R&R" → `jm-review-process` then `jm-rebuttal`
 
+## Stage snapshot template
+
+Fill this in at the start of each working session to pick the next `jm-*` route; keep it alongside the manuscript so coauthors see the same state.
+
+```text
+JM MANUSCRIPT ROUTING SNAPSHOT
+==============================
+Manuscript : [working title]
+Target     : Journal of Marketing (AMA/SAGE) — ScholarOne: mc.manuscriptcentral.com/ama_jm
+Date       : [YYYY-MM-DD]
+
+GATE 0 — VENUE FIT (all three or reroute)
+[ ] Substantive marketing question, not a methods/model showcase -> else JMR / Marketing Science
+[ ] Managerial / policy / societal relevance articulable         -> else jm-topic-selection
+[ ] Not a new-context replication of known findings              -> else jm-literature-positioning
+
+STAGE LADDER (mark: [ ] todo  [~] in progress  [x] done)
+[ ] 1.  Question locked (substantive + decision maker named)          jm-topic-selection
+[ ] 2.  Conceptual logic grounded in the real-world phenomenon        jm-theory-development
+[ ] 3.  Conversation joined; new-context defense drafted              jm-literature-positioning
+[ ] 4.  Design matched to question (big tent: exp/field/survey/...)   jm-methods
+[ ] 5.  Identification + exact p-values, SEs, effect sizes            jm-data-analysis
+[ ] 6.  Substantive + managerial contribution sentences written       jm-contribution-framing
+[ ] 7.  Exhibits carry managerial takeaways                           jm-tables-figures
+[ ] 8.  Prose front-loads the substantive argument (AMA style)        jm-writing-style
+[ ] 9.  Preflight passed (anonymization, 50-page format, files)       jm-submission
+[ ] 10. Under double-anonymized review; expectations set              jm-review-process
+[ ] 11. R&R: revisions planned and made, then response drafted        jm-rebuttal
+
+SUBMISSION PREFLIGHT SUMMARY (full detail lives in jm-submission)
+[ ] Anonymized manuscript — no author/institution identifiers
+[ ] Separate title page + Data Availability Statement
+[ ] Main document <= 50 pages inclusive; web appendices excluded
+[ ] Web Appendix file(s) prepared for supplementary results
+[ ] Exact statistics reported (actual p-values, SEs, effect sizes)
+[ ] JM Dataverse replication packet planned for conditional acceptance
+[ ] Cover letter states fit + substantive + managerial contribution
+
+CURRENT BLOCKER
+- Symptom    : [one line — what is stuck]
+- Routed to  : jm-[skill]
+- Exit test  : [what "done" looks like before the next snapshot]
+
+NEXT ROUTE: jm-[skill]
+```
+
+Rules of use: never mark stages 7–8 in progress while stages 1–6 have an open blocker (they are late-stage polish); if Gate 0 fails twice in a row, stop and reconsider the venue rather than iterating the manuscript.
+
 ## Difference vs. JMR / Marketing Science / JCR stacks
 
 - **JM**: substantive insight into real-world marketing questions *with managerial/policy/societal relevance*; "big tent" empirics-first; AMA/SAGE; 50-page inclusive limit; ScholarOne at mc.manuscriptcentral.com/ama_jm.

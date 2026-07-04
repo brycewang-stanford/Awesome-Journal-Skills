@@ -67,6 +67,30 @@ advance of broad interest, with claims fully supported by data and controls.
 - "Submitting tomorrow" → `jacs-submission`
 - "Got three referee reports" → `jacs-revision`
 
+## Submission package tree
+
+Before running `jacs-submission`, the working directory should already look like
+this — each item maps to the skill that produces it. A missing file tells you
+which stage was skipped.
+
+```text
+jacs-manuscript/
+├── manuscript.docx           # main text, ACS house style        → jacs-writing-style
+│                             #   type decided (Article vs Comm.) → jacs-length-management
+├── figures/
+│   ├── scheme-1.tif          # reaction scheme, ACS style        → jacs-figures
+│   ├── figure-1.tif          # headline result figure            → jacs-figures
+│   └── toc-graphic.tif       # table-of-contents graphic         → jacs-figures
+├── supporting-information/
+│   ├── SI.pdf                # procedures + characterization     → jacs-supplementary
+│   │                         #   (purity, NMR, HRMS for new compounds → jacs-methods)
+│   ├── spectra/              # copies of NMR spectra             → jacs-supplementary
+│   └── crystallography/      # CIFs + CCDC deposition numbers    → jacs-supplementary
+├── cover-letter.pdf          # advance + broad-interest fit      → jacs-cover-letter
+└── reviewers.txt             # suggested / excluded reviewers    → jacs-referee-strategy
+# upload target: ACS Paragon Plus                                 → jacs-submission
+```
+
 ## Differences vs. specialized ACS journal stacks
 
 If the work is narrow in scope (e.g., a single subfield advance with limited

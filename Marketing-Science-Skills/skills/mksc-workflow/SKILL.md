@@ -51,6 +51,35 @@ Default assumption: unless told otherwise, the target is **Marketing Science**, 
 - Polishing exhibits (`mksc-tables-figures`) before identification is settled.
 - Treating a consumer-psychology experiment with no formal model as MKSC-ready — that is a JCR paper.
 
+## Stage ledger (keep it live in the conversation)
+
+Marketing Science gates on a *formal model* that identifies an important marketing effect and yields a managerial counterfactual. The load-bearing rows are therefore **model genre**, **identification**, and **counterfactual** — track them explicitly, plus the Frontiers word cap if that track is in play:
+
+```text
+MARKETING SCIENCE MANUSCRIPT STAGE LEDGER
+=========================================
+Model genre     : structural econometric | analytical/game-theoretic | causal-ML-in-service-of-model
+Identification  : instrument | exclusion restriction | functional form | exogenous shock | (FIX: none)
+Counterfactual  : managerial decision margin the model makes answerable: ______
+Track           : regular (no fixed cap) | Frontiers (6,000-word TOTAL cap) | Database | Practice
+Stage gates (✓ / ✗ / n/a):
+  [ ] mksc-topic-selection        modeling-worthy marketing question (not reduced-form)
+  [ ] mksc-theory-development      analytical/structural model + identification logic built
+  [ ] mksc-literature-positioning  modeling conversation engaged
+  [ ] mksc-methods                 genre chosen; model estimable
+  [ ] mksc-data-analysis           estimation, fit, counterfactuals, robustness
+  [ ] mksc-contribution-framing    primary contribution dimension named
+  [ ] mksc-tables-figures          estimate/counterfactual exhibits, INFORMS style
+  [ ] mksc-writing-style           model intuition front-loaded; INFORMS author-year
+  [ ] mksc-submission              ScholarOne preflight; blinded; replication package
+  [ ] mksc-review-process          double-anonymous SE/AE expectations set
+  [ ] mksc-rebuttal                (R&R only) revise + re-estimate first, then respond
+Word count (if Frontiers): ___ / 6000 (counts refs, tables, appendices)
+Current bottleneck : ______        Next skill: mksc-______
+```
+
+Refresh after each sub-skill. A ✗ on model genre or identification blocks `mksc-data-analysis` — MKSC rejects model-free correlation regardless of how clean the data work is.
+
 ## Router pass for Marketing Science
 
 Use this as a second-pass capability check. First lock the demand/supply mechanism, fit evidence, and counterfactual decision margin; then test whether the manuscript addresses quantitative marketing reviewers who read the model through the managerial counterfactual it makes possible.

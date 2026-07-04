@@ -36,6 +36,17 @@ JMR uses an **EIC + Coeditor** model. A single **Editor-in-Chief** oversees a pa
 - Expect multiple rounds; reviewers are domain experts who will probe identification, process evidence, and exact-statistics reporting.
 - A desk reject is usually about fit or conformance, not a verdict on quality — re-target or fix conformance.
 
+## First 48 hours with the letter
+
+- Read the **editor's** letter twice before opening any review; the editor tells you which concerns
+  are pivotal and which are optional — reviewers advise, they do not vote.
+- Build a one-line-per-comment inventory tagged *rigor* / *substance* / *exposition* before deciding
+  anything. An R&R that looks brutal often reduces to two pivotal asks plus exposition cleanup.
+- Note where reviewers conflict; conflicts are resolved by the editor's framing, and flagging a
+  genuine conflict explicitly in the eventual response is legitimate, not evasive.
+- Resist drafting responses now — that is `jmr-rebuttal`'s job, and it starts only after the
+  revision plan (new analyses, new studies, reframing) actually exists.
+
 ## Anti-patterns
 
 - Treating a desk reject as a content verdict (it is usually scope/fit/format).

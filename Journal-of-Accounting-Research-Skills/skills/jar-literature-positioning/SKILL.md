@@ -48,6 +48,23 @@ If your contribution is purely methodological with no accounting question, recon
 - **Wrong-venue framing**: positioning a finance or pure-methods paper as accounting.
 - **Hiding the closest paper**: failing to cite the obvious nearest study (referees will know it).
 
+## Before/after: the positioning paragraph
+
+JAR referees read the opening for the *conversation* and the *marginal move*, in that order. Rewrite gap-spotting into contribution:
+
+- **Before (gap-spotting):** "Prior research has examined disclosure and the cost of capital. However, no study has examined the effect of [narrow disclosure item] on [narrow outcome] in [narrow setting]. We fill this gap."
+- **After (conversation + increment):** "The information-environment literature links greater disclosure to a lower cost of capital (Ball-Brown lineage; voluntary-disclosure stream). Whether this reflects a genuine reduction in adverse selection or merely correlated firm quality has remained unresolved because prior settings could not separate the two. We exploit [staggered mandate] to isolate the disclosure channel, showing the cost-of-capital response survives firm-quality controls."
+
+The after version names the stream, states what is economically *open*, and pins the increment to identification — not to novelty.
+
+## Referee expectation checklist (accounting-economist reader)
+
+- [ ] The **closest** paper is cited and engaged, not hidden — referees almost always know it and will surface it.
+- [ ] The open question is framed as economically consequential (for investors, auditors, creditors, standard-setters), not just "unstudied".
+- [ ] The increment is one of: new setting/shock, cleaner identification, new construct/measure, or adjudication between theories.
+- [ ] Canonical anchors in the focal stream are present (a standard referee spot-check).
+- [ ] Venue fit vs. JAE/TAR/RAST/CAR is argued, not assumed — a finance-flavored paper mispositioned as accounting draws an immediate desk-level doubt.
+
 ## Output format
 
 ```

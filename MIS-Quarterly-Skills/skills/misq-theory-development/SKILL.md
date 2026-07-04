@@ -35,6 +35,22 @@ A MISQ design-science contribution is not "we built a system." Anchor it in the 
 
 IS effects are often contingent on the artifact, the user, the task, and the context. Name where the theory holds and where it breaks — reviewers reward a theorized scope condition over an over-claimed universal law.
 
+## Before/after: from correlation to IS mechanism
+
+- **Before (descriptive, borrowed theory):** "Drawing on TAM, we hypothesize that perceived usefulness of the analytics tool increases usage." — an application, not a contribution; the IT is interchangeable.
+- **After (IT-specific mechanism):** "Because the analytics tool renders *previously tacit* peer benchmarks visible, it triggers upward social comparison specifically among below-median performers, raising effort — an effect that a non-comparative tool of equal accuracy would not produce (H1), and that reverses when benchmarks are anonymized (H2, boundary)." The IT property (making tacit comparisons visible) is load-bearing, the mechanism is named, and the boundary is theorized.
+
+## Design-science worked chain (kernel → principle → proposition)
+
+For a design-science submission, referees look for an explicit chain, not a system description:
+
+1. **Kernel theory:** cognitive load theory explains why analysts miss anomalies in dense logs.
+2. **Design principle:** "Surface anomalies through progressive disclosure keyed to deviation magnitude" — stated so it generalizes beyond this instantiation.
+3. **Testable utility proposition:** "Artifacts embodying principle P let analysts detect injected anomalies faster than a flat-dashboard baseline (P1)."
+4. **Evaluation hook:** the proposition is what `misq-methods`/`misq-data-analysis` will later evaluate.
+
+State each link; a chain that jumps from "we built X" to "it works" is the modal design-science rejection.
+
 ## Checklist
 
 - [ ] The tradition's correct *form* of theory is used (mechanism / design theory / economic model / process theory)

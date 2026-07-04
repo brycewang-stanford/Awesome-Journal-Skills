@@ -34,6 +34,13 @@ The main document is capped at **32 pages** (1.5 spacing, 11-pt, one-inch margin
 - **Model/empirics:** assumptions and validity stated in operational language.
 - **Discussion:** actionable practice implications with boundary conditions.
 
+## Before/after micro-rewrites in POM's register
+
+- **Opening paragraph.** Before: "In this paper, we develop a Markov decision process framework and characterize its structural properties." After: "Hospitals routinely divert transfer patients while downstream beds sit idle; we show when a two-threshold admission rule recovers most of the lost throughput." Decision and setting first; machinery second.
+- **Stating a result.** Before: "Proposition 3 establishes monotonicity of the value function in the lead-time parameter." After: "Proposition 3 says the planner should raise safety stock as supplier lead-time variability grows — never lower it — which rules out a heuristic common in practice." Say what the structure buys the operator.
+- **Reporting magnitude.** Translate improvements into units an operations manager tracks: "cuts expected boarding time by roughly a quarter at the busiest shift" clears the practice gate; a bare percentage cost reduction does not say for whom or where.
+- **Hedging.** Replace "may potentially offer insights for practitioners" with the boundary condition itself: "the pooling benefit holds when capacity is the binding constraint and vanishes when servers are amply staffed."
+
 ## Checklist
 
 - [ ] Operations problem and managerial takeaway front-loaded

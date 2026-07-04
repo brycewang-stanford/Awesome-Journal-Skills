@@ -68,6 +68,29 @@ claim is itself a theoretical commitment. References follow the **ASA Style Guid
 > is valid (`soctheory-argument-development`) and the contribution is named
 > (`soctheory-contribution-framing`).
 
+## Session gate sheet
+
+Open each ST work session by filling this sheet; the first blank or "no" is the route.
+Gate 0 is ST-specific: a manuscript that cannot name its *kind* of theory will drift.
+
+```text
+SOCIOLOGICAL THEORY — SESSION GATE SHEET
+Gate 0  Which sense of "theory" (Abend 2008) is this paper doing?  kind: ______________
+Gate 1  What existing theory cannot see is stated ............. soctheory-topic-selection
+Gate 2  Tradition / conversation intervened in is named ....... soctheory-literature-positioning
+Gate 3  Concepts, mechanisms, propositions are built .......... soctheory-theory-construction
+Gate 4  Chain of reasoning valid; rivals engaged .............. soctheory-argument-development
+Gate 5  Scope + domain stated; over-reach trimmed ............. soctheory-boundary-conditions
+Gate 6  Typology / mechanism / process figure drafted ......... soctheory-conceptual-exhibits
+Gate 7  The new way of seeing is nameable (before -> after) ... soctheory-contribution-framing
+Gate 8  Prose argues; ASA author-date style throughout ........ soctheory-writing-style
+Gate 9  Manuscript Central preflight complete ................. soctheory-submission
+Gate 10 Double-anonymous multi-round review understood ........ soctheory-review-process
+Gate 11 R&R response revises the THEORY, then the letter ...... soctheory-rebuttal
+
+Standing rule: Gates 6–8 wait on Gate 4; data mentioned anywhere stays illustrative, never a test.
+```
+
 ## Decision shortcuts
 
 - "I have an interesting phenomenon but no theory" → `soctheory-topic-selection`

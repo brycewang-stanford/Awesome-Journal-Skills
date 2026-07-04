@@ -55,6 +55,17 @@ When citing "where methods like this are published," be precise:
   *Journal of Educational and Behavioral Statistics* are neighbors, not SMR. Attribute exemplar
   papers to the correct venue (see `resources/exemplars/library.md`).
 
+## What an SMR reviewer checks first
+
+A methodologist refereeing the positioning section typically does three things in order: (1) scans the
+reference list for the primary derivation of your direct ancestor — if only a handbook chapter appears,
+credibility drops before page two; (2) asks whether the strongest competitor is named *and* carried into
+the simulation, because a review that names it and a simulation that omits it reads as evasion; (3)
+checks the cross-discipline column — a reviewer trained in psychometrics or biostatistics will recognize
+a renamed finite-mixture or IPW variant instantly. Write the review so each of these three probes finds
+its answer within one paragraph, and state explicitly which neighboring literature you searched and
+found empty, so the referee does not assume you never looked.
+
 ## Checklist
 
 - [ ] Direct method ancestors are cited from primary sources, not textbooks.

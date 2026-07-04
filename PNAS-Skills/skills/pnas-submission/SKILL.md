@@ -74,6 +74,23 @@ description: Use as the final preflight before submitting to PNAS — a complete
 - `templates/checklist.md` — copyable preflight checklist.
 - `templates/cover_letter_template.md` — PNAS cover-letter scaffold (significance + track + suggested editor/reviewers).
 
+## Track-specific preflight, side by side
+
+The three PNAS tracks fail preflight for different reasons — check the one you chose:
+
+- **Direct Submission:** the editor is assigned by PNAS, so the cover letter must argue broad significance and name suggested editors/reviewers. Blocker: no suggested editor in a field where the paper is cross-divisional.
+- **Contributed:** an NAS member communicates their own paper, secures ≥2 independent reviewers, and submits their reviews plus author responses. Blockers: member over the annual quota; reviewers not demonstrably independent; review file missing.
+- **Prearranged Editor:** an NAS member is lined up to handle a Direct submission before upload. Blocker: the editor arrangement is claimed but not confirmed in the cover letter.
+
+## Cover-letter significance paragraph: before / after
+
+The cover letter's opening is the editor's first read of your general-significance case.
+
+- **Before:** "Please consider our manuscript, which reports new results on system X of interest to specialists in the field."
+- **After:** "We report that system X resolves a question debated across two PNAS divisions: [one-sentence broad claim]. Because the result [general implication], it will interest readers well beyond the immediate subfield — which is why we submit to PNAS rather than a specialist journal."
+
+The revision states the cross-division stake, ties it to the Significance Statement, and justifies the venue choice — exactly what a handling editor triages on.
+
 ## Output format
 
 ```

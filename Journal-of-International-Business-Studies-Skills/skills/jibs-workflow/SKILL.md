@@ -53,6 +53,31 @@ Default assumption: unless the user says otherwise, treat the target as JIBS —
 
 > `jibs-tables-figures` and `jibs-writing-style` are **late-stage polish**. Do not invoke them while the phenomenon, IB contribution, or identification is still unsettled.
 
+## Routing log
+
+Copy this log into your project notes and update it at the end of each session; the topmost unchecked item is the skill to open next, subject to the two gates.
+
+```markdown
+### JIBS manuscript routing log — <working title>, session of <date>
+- [ ] 1. IB phenomenon named; JIBS fit over AMJ/SMJ argued .... jibs-topic-selection
+- [ ] 2. Cross-level mechanism built; hypotheses derived
+        with country/culture as explicit levels ............... jibs-theory-development
+- [ ] 3. IB conversation joined (no "no one has studied X
+        in country Y" gap-spotting) ........................... jibs-literature-positioning
+- [ ] 4. Design matches the cross-country/multilevel claim .... jibs-methods
+- [ ] 5. Measurement equivalence, CMV, endogeneity handled;
+        estimator defensible .................................. jibs-data-analysis
+- [ ] 6. Contribution to IB theory stated explicitly .......... jibs-contribution-framing
+- [ ] 7. Exhibits self-explanatory per JIBS Style Guide ....... jibs-tables-figures
+- [ ] 8. Prose phenomenon-forward, author-date clean .......... jibs-writing-style
+- [ ] 9. mc.manuscriptcentral.com preflight: anonymization,
+        DART/DAS statement, file formats ...................... jibs-submission
+
+**Gate A (polish):** items 7-8 stay closed until 1-6 are all checked.
+**Gate B (response):** after a decision letter, read jibs-review-process,
+revise the manuscript itself, and only then open jibs-rebuttal.
+```
+
 ## Decision shortcuts
 
 - "I have a finding but no IB theory story" → `jibs-topic-selection` then `jibs-theory-development`

@@ -73,6 +73,28 @@ A generic LaTeX/writing helper optimizes for readability alone. This stack is tu
 the Annals standard: **the importance bar is unusually high, and a single hidden gap is
 fatal**. Significance and complete rigor dominate every routing decision here.
 
+## Submission bundle layout
+
+The final preflight (`anmath-submission`) checks a concrete file tree. A single hidden gap
+is fatal at Annals, so the arXiv/journal package must let a referee verify the proof
+end-to-end with nothing missing. Target layout:
+
+```text
+paper-submission/
+├── main.tex              % single self-contained source; amsart or Annals class
+├── main.pdf              % compiled, matches .tex exactly
+├── refs.bib              % all cited works; MathSciNet-verified keys
+├── figures/              % vector (.pdf/.eps); each referenced in text
+│   └── fig-1.pdf
+└── README.txt            % MSC 2020 primary+secondary, arXiv id, prior-submission note
+CHECK before upload:
+  [ ] main theorem stated precisely in the introduction, with hypotheses explicit
+  [ ] every lemma either proved here or cited to a verifiable source
+  [ ] no "clearly" / "it is easy to see" standing in for an unwritten step
+  [ ] appendices hold long computations; the main line stays readable
+  [ ] cover letter frames significance for the editors (anmath-cover-letter)
+```
+
 ## Anti-patterns
 
 - **Do not** skip `anmath-scope-fit` — Annals desk-screens on importance first

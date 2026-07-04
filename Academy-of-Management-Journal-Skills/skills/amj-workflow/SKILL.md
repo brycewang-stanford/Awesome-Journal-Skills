@@ -53,6 +53,27 @@ Default assumption: unless the user says otherwise, treat the target as AMJ — 
 
 > `amj-tables-figures` and `amj-writing-style` are **late-stage polish**. Do not invoke them while the theoretical contribution or identification is still unsettled — you will polish an argument you may still have to rebuild.
 
+## Stage card
+
+Fill this in before asking "what next?" — route to the first gate still marked `no`.
+
+```yaml
+# AMJ manuscript stage card
+manuscript: <working title>
+gates:
+  theory_driven_question_locked: no    # amj-topic-selection
+  mechanism_and_a_priori_hypotheses: no # amj-theory-development
+  conversation_engaged_not_gap_spotted: no # amj-literature-positioning
+  design_matches_question: no          # amj-methods
+  measurement_cmb_endogeneity: no      # amj-data-analysis
+  theoretical_contribution_explicit: no # amj-contribution-framing
+  exhibits_aom_house_style: no         # amj-tables-figures
+  prose_front_loaded_active: no        # amj-writing-style
+  scholarone_preflight_done: no        # amj-submission
+decision_letter_in_hand: no            # yes -> amj-review-process, then amj-rebuttal
+route_to: <first gate above still "no">
+```
+
 ## Decision shortcuts
 
 - "I have a finding but no theory story" → `amj-topic-selection` then `amj-theory-development`

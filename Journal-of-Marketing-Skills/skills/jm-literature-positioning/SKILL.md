@@ -28,6 +28,23 @@ JM's stated exclusion is sharp: papers that "merely replicate existing theory or
 
 For each potential reviewer objection "we already know this," prepare one sentence: *What about the answer is new, surprising, or decision-changing beyond what prior work already told us?* If you cannot write that sentence, the paper is a new-context replication and needs a sharper question (return to `jm-topic-selection`).
 
+## Before / after: rewriting a gap-spotting front end
+
+*Before (gap-spotting; invites a desk reject):* "Although influencer endorsements have been studied extensively, no research has examined them in live-stream commerce. We fill this gap."
+
+*After (conversation-joining, JM register):* "The prevailing view in the advertising-effectiveness conversation is that endorser credibility transfers to the brand. We show that in live selling this transfer reverses once viewers watch other buyers hesitate in real time — a boundary condition that flips the optimal influencer-tier decision for e-commerce category managers."
+
+The rewrite names the conversation, states the prevailing understanding, supplies a reversal rather than a gap, and lands on a decision. Run every intro paragraph through this before/after test until the "no one has studied" sentence disappears.
+
+## What the desk reader scans for
+
+Within the first two pages, the handling Coeditor is judging whether the paper advances marketing thought or recycles it. Anticipate these implicit screens:
+
+- Is the question substantively important to marketing — would a brand, channel, retail, or policy audience recognize the stakes without coaching?
+- Does the positioning promise something we did not know *about marketing*, rather than about one setting?
+- Are the load-bearing citations substantive marketing works, so the paper routes to the right reviewer pool?
+- Is the managerial or societal payoff visible before the method ever appears?
+
 ## Checklist
 
 - [ ] The substantive conversation is named (not a method label)

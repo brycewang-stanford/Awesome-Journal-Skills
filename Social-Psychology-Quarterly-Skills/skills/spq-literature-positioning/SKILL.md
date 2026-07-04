@@ -41,6 +41,21 @@ they expect you to engage the right ones. Positioning is where you show the pape
 | an interpretive study of identity work | identity theory and the symbolic-interactionist canon it speaks to |
 | an affect/emotion study | both affect control / sentiment theory and the sociology of emotion |
 
+## Micro-rewrite: off-field vs. SPQ-ready
+
+**Before (reads as individual psychology):** "Prior research shows self-esteem buffers stress, but the
+moderating role of group membership remains understudied."
+
+**After (SPQ register):** "Identity theory holds that verification of role identities sustains
+self-worth; what remains contested within SSP is whether structural position — here, occupational
+standing — conditions the verification process itself, a question that bears directly on how
+stratification enters the self."
+
+Why the second version lands: it names the program (identity theory, SSP), states what is *contested*
+rather than merely unstudied, and puts the structure–individual link in the sentence's spine — the
+first thing an SPQ reviewer scans the opening pages for. The "before" sentence could open a JPSP
+paper unchanged; that is the tell that it will lose the sociological reviewers.
+
 ## Anti-patterns
 
 - A "literature dump" with no organizing program or debate

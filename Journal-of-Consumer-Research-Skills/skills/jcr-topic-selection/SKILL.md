@@ -35,6 +35,15 @@ A strong topic commits to one genre's logic (or a principled mix) rather than st
 - [ ] You can name the **genre** (experiments vs. CCT vs. mixed) and it suits the question.
 - [ ] You can articulate **consumer relevance** in a sentence — a preview of the required 300-word Consumer Relevance and Contribution Statement.
 
+## Worked reframe: effect → conceptual contribution
+
+The single most common desk-reject pattern is a real, replicable effect that never becomes a theoretical claim. Rewrite the pitch until the *understanding gained* is the headline, not the effect.
+
+- **Before (effect-first, curiosity):** "Across five studies, consumers choose smaller portions when a menu uses handwritten fonts." — A robust finding, but the editor cannot see which conversation about consumption it changes.
+- **After (contribution-first, JCR register):** "We show that perceived human effort cues in marketing materials activate a reciprocity-based consumption norm, leading consumers to self-regulate intake — extending effort-based theories of value from acquisition to consumption restraint." — Now the font effect is evidence for a theoretical move (effort → reciprocity → self-regulation) that advances an identifiable literature.
+
+The diagnostic question the reframe answers: *if the specific stimulus (handwritten fonts) were swapped for another effort cue, would the theory still predict the result?* If yes, you have a mechanism, not a stimulus artifact.
+
 ## Venue routing
 
 - Managerial-strategy or analytical-modeling marketing question → **JMR / JM / Marketing Science**, not JCR.

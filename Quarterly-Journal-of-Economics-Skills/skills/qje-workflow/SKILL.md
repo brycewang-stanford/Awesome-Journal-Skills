@@ -50,6 +50,25 @@ Default assumption: unless the user says otherwise, treat the target as QJE — 
 
 > `qje-writing-style` is a late-stage polish. Do not rewrite the intro before the identification is settled — the argument will change.
 
+## Pipeline status check
+
+Fill this in before asking "what next?" — work top-down and take the **first NO** as the route.
+
+```text
+QJE PIPELINE STATUS — first NO wins
+Big question answerable in one sentence a non-specialist cares about?  NO -> qje-topic-selection
+Delta vs. the frontier papers named, not just cited?                   NO -> qje-literature-positioning
+Causal design survives the toughest referee attack you can imagine?    NO -> qje-identification
+Headline coefficient has a conceptual frame or model behind it?        NO -> qje-theory-model
+Online appendix already covers the checks referees will demand?        NO -> qje-robustness
+Main exhibits figure-forward; no table past ~6 columns?                NO -> qje-tables-figures
+Abstract states question, design, and magnitude in plain prose?        NO -> qje-writing-style
+QJE Dataverse deposit (data + code) assembled and re-runnable?         NO -> qje-replication-package
+Referee objections war-gamed and pre-empted in the draft?              NO -> qje-referee-strategy
+Single anonymized PDF ready for Editorial Express (no fee due)?        NO -> qje-submission
+Decision letter with an R&R in hand?                                   YES -> qje-rebuttal
+```
+
 ## Decision shortcuts
 
 - "I have data but no big idea" → `qje-topic-selection`

@@ -23,6 +23,16 @@ ISR houses **behavioral/empirical** and **analytical/economic & design-science**
 
 ISR's distinctive identity is **bridging IS silos**. The strongest manuscripts let the social and the technical co-determine the outcome and connect perspectives that usually stay separate — e.g., an economic model whose parameters are disciplined by behavioral evidence, or a behavioral study whose design is informed by a design-science artifact. Single-paradigm theory is publishable but the intradisciplinary, silo-bridging move is what ISR prizes. If you are combining methods, the 2025 multimethod-research framework editorial (ISR 36(2)) expects you to state how each method's theory informs the others.
 
+## Worked micro-rewrite: generic prediction → IT-anchored mechanism
+
+The reviewer complaint "this could be any social science" is fatal at ISR. The fix is to make a feature of the IT artifact the causal pivot, not the setting.
+
+- **Before (context-only):** "H1: Users who receive more feedback exhibit higher engagement." — True of any feedback in any medium; the technology is a backdrop, so an SE reads it as organizational behavior, not IS.
+- **After (IT-anchored, behavioral):** "Because the platform's algorithmic feedback is *quantified and socially comparative* (a design property absent in offline feedback), it triggers upward social comparison that raises effort for below-median users but induces disengagement among bottom-decile users — a non-monotonic effect the feature's granularity uniquely produces." — Now the artifact's design does the theoretical work and the prediction changes if the feature changes.
+- **After (analytical variant):** model a platform choosing feedback granularity g; users hold comparison-sensitivity θ; derive that the engagement-maximizing g is interior and falls as the θ-distribution's left tail thickens. The comparative static ∂g*/∂(tail mass) < 0 *is* the proposition — the IS insight ("platforms should coarsen feedback when discouraged users are numerous"), not the algebra.
+
+Both variants pass the swap test in the next section: change the feature, and the prediction moves.
+
 ## Anchor every construct to the IT artifact
 
 The IT artifact must do theoretical work. For each construct, ask: would the prediction change if the technology were different? If not, the theory is not yet about IS.

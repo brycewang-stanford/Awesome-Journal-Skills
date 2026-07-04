@@ -51,6 +51,31 @@ Default assumption: unless the user says otherwise, treat the target as **The Re
 
 > `rfs-writing-style` is a **late-stage polish** trigger. Do not run it while the identification or novelty story is still unsettled.
 
+## Routing triage form
+
+Complete the stage block top-down; the special-route block can override the default order
+because RFS offers paths (Registered Reports, Cavalcade dual submission) its siblings do not.
+
+```text
+RFS ROUTING TRIAGE
+-- stage block: answer in order, stop at the first "open" ------------------
+novelty delta vs. JF/JFE/RFS stated in one sentence?   open -> rfs-topic-selection / rfs-literature-positioning
+endogeneity story closed, not just acknowledged?       open -> rfs-identification
+sample, estimators, factor/structural choices fixed?   open -> rfs-empirical-design
+multiple-testing + placebo + out-of-sample handled?    open -> rfs-robustness
+exhibits publication-grade with SEs/clustering noted?  open -> rfs-tables-figures
+main text lean; overflow moved to the IA?              open -> rfs-internet-appendix
+contribution visible in abstract + first page?         open -> rfs-writing-style
+-- special routes: check before submitting ---------------------------------
+[ ] strong design, results not yet collected      -> Registered Report path:
+                                                     rfs-identification + rfs-empirical-design BEFORE data
+[ ] paper headed to SFS Cavalcade                 -> flag dual submission in rfs-submission
+[ ] public code release planned from day one     -> rfs-internet-appendix + rfs-submission early
+-- terminal ----------------------------------------------------------------
+submitting            -> rfs-submission then rfs-referee-strategy
+decision letter back  -> rfs-rebuttal (manuscript first, letter second)
+```
+
 ## Decision heuristics
 
 - "I have clean data but no new question" → `rfs-topic-selection`

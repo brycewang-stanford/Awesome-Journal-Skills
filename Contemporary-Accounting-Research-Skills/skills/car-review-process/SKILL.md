@@ -25,6 +25,16 @@ description: Use when you need to understand how Contemporary Accounting Researc
 - **Revise and resubmit (R&R).** The expected path to acceptance at a top accounting journal. Map each reviewer's and the Editor's points; the subject Editor's letter signals which concerns are first-order. **Invited revisions pay no further submission fee.**
 - **Conditional acceptance / acceptance.** The EIC must approve; expect final-version requirements (code archiving, data availability statement, CAR Style Guide conformance, author X/Twitter handles for promotion).
 
+## Decoding the subject Editor's letter
+
+At CAR the subject Editor's cover letter — not the raw reviewer reports — is the authoritative map of what a revision must do. Reviewers raise many points; the Editor tells you which are dispositive. Read the letter in this order:
+
+- **The framing paragraph.** If the Editor restates your contribution in their own words, that framing is the one you must satisfy; a revision that fights it usually fails. If they hedge the contribution ("the paper may be of interest to…"), treat it as a first-order concern, not a courtesy.
+- **Ordering and emphasis.** Points the Editor lists first, or explicitly endorses from a reviewer, outrank the reviewer's own ordering. A reviewer's minor typo list is not equal to the Editor's identification worry.
+- **Conflicting reviewers.** When R1 and R2 disagree (common in CAR's method-agnostic mix — e.g., an archival reviewer wanting more identification, an analytical reviewer wanting cleaner assumptions), the Editor's letter signals which side to privilege; do not average them.
+
+**Micro-example.** Editor writes: "R2's concern about the parallel-trends assumption is central; R1's request for additional institutional detail is secondary." → Your response memo leads with a new pre-trends test and event-study plot, and handles the institutional detail briefly. Inverting that order reads as missing the point.
+
 ## Appeals (CAR-specific)
 
 CAR has a **formal appeals process** with a built-in **one-month waiting period**, a **six-month deadline**, and a **new submission fee** required to appeal. Appeal only with a substantive, specific basis (a clear factual error or misreading), not general disagreement.

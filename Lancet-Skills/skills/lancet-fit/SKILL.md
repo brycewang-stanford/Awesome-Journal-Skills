@@ -1,6 +1,6 @@
 ---
 name: lancet-fit
-description: Use first, before any writing, to stress-test whether a study clears The Lancet's bar — clinically or public-health important, globally relevant, and likely to change practice or policy, often with an equity lens. Decides The Lancet vs a Lancet family title vs another general medical journal.
+description: Use when scoping a project and before any writing, to stress-test whether a study clears The Lancet's bar — clinically or public-health important, globally relevant, and likely to change practice or policy, often with an equity lens. Decides The Lancet vs a Lancet family title vs another general medical journal.
 ---
 
 # Scope & Significance Fit (lancet-fit)

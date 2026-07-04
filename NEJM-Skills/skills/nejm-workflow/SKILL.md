@@ -70,6 +70,37 @@ All four enforce ICMJE policy (trial registration, disclosures, data sharing), s
 
 > `nejm-abstract` and `nejm-citation` are **late-stage polish**. Do not perfect the abstract before significance, design, and reporting are settled.
 
+## Triage gate log
+
+Run this gate sequence on any incoming clinical draft before routing. Answer each in order; the first NO names the next skill. Keep the filled-in log with the manuscript so co-authors see why work is sequenced this way.
+
+```text
+NEJM ROUTING TRIAGE — complete top to bottom, stop at the first NO
+─────────────────────────────────────────────────────────────────
+[ ] G1  Practice-changing? Would a clinician act differently on
+        this result, and is it definitive enough to justify that?
+        NO → nejm-fit (and consider a sibling journal instead)
+[ ] G2  Prospectively registered, with protocol + SAP in hand?
+        NO → nejm-study-design (surface this before any writing)
+[ ] G3  Correct EQUATOR checklist chosen; flow diagram drafted?
+        NO → nejm-reporting
+[ ] G4  Main text terse IMRAD, near the ~2700-word Original
+        Article norm, discussion free of over-claims?
+        NO → nejm-writing
+[ ] G5  CIs alongside P values; ITT stated; subgroups
+        pre-specified and not over-read?
+        NO → nejm-statistics
+[ ] G6  Table 1 / Kaplan–Meier / forest plot / CONSORT diagram
+        built to house conventions?              NO → nejm-figures-tables
+[ ] G7  IRB, consent, ICMJE disclosures, data-sharing statement
+        all present?                             NO → nejm-ethics
+[ ] G8  Structured abstract ≤250 words with registration number?
+        NO → nejm-abstract   (late polish only — after G1–G7)
+[ ] G9  References in Vancouver / ICMJE numbered style?
+        NO → nejm-citation   (late polish only)
+ALL YES → nejm-submission; after reviews arrive → nejm-rebuttal
+```
+
 ## Anti-patterns
 
 - **Do not** skip `nejm-fit` and start polishing prose — the modal outcome is desk rejection.

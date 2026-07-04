@@ -1,6 +1,6 @@
 ---
 name: cell-fit
-description: Use first, before any writing, to stress-test whether a study clears Cell's bar — a complete, mechanistic, hypothesis-driven story with converging evidence. Decides Cell vs Molecular Cell vs Cell Reports vs Cell Reports Medicine.
+description: Use when triaging a study before any writing — stress-tests whether it clears Cell's bar (a complete, mechanistic, hypothesis-driven story with multiple converging lines of evidence) or belongs at a sibling. Use this first to decide Cell vs Molecular Cell vs Cell Reports vs Cell Reports Medicine before investing in framing or figures.
 ---
 
 # Scope & Significance Fit (cell-fit)

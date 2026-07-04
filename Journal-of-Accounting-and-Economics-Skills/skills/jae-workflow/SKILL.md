@@ -53,6 +53,28 @@ Default assumption: unless the user says otherwise, treat the target as JAE — 
 
 > `jae-tables-figures` and `jae-writing-style` are **late-stage polish**. Do not invoke them while the identification strategy or economic mechanism is still unsettled.
 
+## Stage ledger (fill in before asking "what next?")
+
+Keep this ledger with the manuscript and update it each working session; the first stage still marked `open` names the next skill to invoke.
+
+```yaml
+# JAE manuscript stage ledger
+manuscript: "<working title>"
+target: Journal of Accounting and Economics (JAE)
+stages:
+  economics_question:  {skill: jae-topic-selection,         status: open, evidence: "economics-based question stated; JAE fit vs JAR/TAR/RAST argued"}
+  mechanism:           {skill: jae-theory-development,      status: open, evidence: "agency / information / contracting channel named; predictions derived"}
+  positioning:         {skill: jae-literature-positioning,  status: open, evidence: "positive-accounting conversation engaged, not gap-spotted"}
+  identification:      {skill: jae-methods,                 status: open, evidence: "shock / IV / DiD design matched to the prediction"}
+  estimation:          {skill: jae-data-analysis,           status: open, evidence: "sample, fixed effects, two-way clustering, robustness done"}
+  contribution:        {skill: jae-contribution-framing,    status: open, evidence: "so-what for accounting AND economics written"}
+  exhibits:            {skill: jae-tables-figures,          status: blocked_until: [identification, estimation]}
+  prose:               {skill: jae-writing-style,           status: blocked_until: [identification, estimation]}
+  preflight:           {skill: jae-submission,              status: open, evidence: "anonymization, Highlights, JEL codes, fee reconfirmed on live Guide for Authors"}
+routing_rule: "Next skill = first stage with status: open, respecting blocked_until."
+after_decision: "R&R received -> jae-review-process for expectations, then jae-rebuttal only after the revision itself is done."
+```
+
 ## Difference vs. JAR / TAR / RAST / JFE stacks
 
 - **JAE**: economics-based positive accounting; Watts-Zimmerman tradition; voluntary Elsevier data-sharing default; fee-bearing submission; double-anonymized; editor-final model.

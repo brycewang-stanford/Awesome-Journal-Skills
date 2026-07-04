@@ -69,6 +69,30 @@ formal soundness plays the role statistics play at empirical journals. Second, t
 > derivations stand up (`psychrev-argument-development`) and the contribution is
 > differentiated (`psychrev-contribution-framing`).
 
+## Stage-gate audit sheet
+
+Re-run this audit at the start of each work session. Route to the **first open gate**;
+never check a later gate while an earlier one is open.
+
+```text
+PSYCHOLOGICAL REVIEW — THEORY MANUSCRIPT GATE SHEET
+Manuscript: ____________________   Session date: __________
+
+[ ] G1  Theoretical problem stated; confirmed non-empirical ......... psychrev-topic-selection
+[ ] G2  Theories extended + rival models to beat are named .......... psychrev-literature-positioning
+[ ] G3  Assumptions, mechanisms, formal structure built ............. psychrev-theory-construction
+[ ] G4  Predictions derived; confronted with data and rivals ........ psychrev-argument-development
+[ ] G5  Scope, identifiability, and non-explananda stated ........... psychrev-boundary-conditions
+[ ] G6  Model diagram + simulated-behavior figures render ........... psychrev-conceptual-exhibits
+[ ] G7  Advance over the prior model articulated .................... psychrev-contribution-framing
+[ ] G8  Prose is mechanism-first APA, not a review essay ............ psychrev-writing-style
+[ ] G9  Editorial Manager preflight passed (model code attached) .... psychrev-submission
+[ ] G10 Masked-review + Theoretical Notes expectations understood ... psychrev-review-process
+[ ] G11 Response document tracks the revised THEORY, not letters .... psychrev-rebuttal
+
+Hard rule: G6–G8 are polish gates — they stay closed until G4 holds.
+```
+
 ## Decision shortcuts
 
 - "I have a striking phenomenon but no model" → `psychrev-topic-selection`

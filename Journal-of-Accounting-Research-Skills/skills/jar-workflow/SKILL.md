@@ -72,6 +72,35 @@ Default assumption: unless the user says otherwise, treat the target as the **Jo
 
 If your paper is purely a methods/statistics contribution with no accounting question, or has no identification leverage, JAR is likely the wrong venue.
 
+## Stage ledger (maintain this in the conversation)
+
+Keep an explicit, auditable ledger of where the JAR manuscript sits and what each gate still needs. JAR's identity — clean identification plus an economic story, enforced by a Senior Editor panel and a mandatory data-and-code package — makes the "identification settled?" and "code package runnable?" rows load-bearing:
+
+```text
+JAR MANUSCRIPT STAGE LEDGER
+===========================
+Question / setting : ______            JAR-fit rung: analytical | archival | experimental | field
+Identification     : shock/DID | IV | RD | structural | descriptive-only (FIX)
+Economic channel   : named & signed? ______
+Stage gates (✓ / ✗ / n/a):
+  [ ] jar-topic-selection       accounting question that matters; credible setting
+  [ ] jar-theory-development     mechanism built; predictions signed
+  [ ] jar-literature-positioning conversation named; marginal contribution stated
+  [ ] jar-methods                identification strategy defensible
+  [ ] jar-data-analysis          clustering, endogeneity, construct measurement, robustness
+  [ ] jar-contribution-framing   estimate → contribution to accounting knowledge
+  [ ] jar-tables-figures         exhibits self-explanatory, house style
+  [ ] jar-writing-style          design-forward, economically literate prose
+  [ ] jar-submission             Research Exchange preflight; anonymized; fee tier chosen
+  [ ] data-and-code package      runnable; matches tables; deposit-ready (POLICY: mandatory)
+  [ ] jar-review-process         track chosen: regular | Registered Report | Ray Ball Conference
+  [ ] jar-rebuttal               (R&R only) revise first, then point-by-point
+Fee tier           : $750 | $500 | $50   (verify current schedule on Chookaszian JAR pages)
+Current bottleneck : ______            Next skill: jar-______
+```
+
+Refresh the ledger after each sub-skill. A ✗ on identification or the data-and-code package blocks `jar-submission` regardless of how polished the prose is.
+
 ## Anti-patterns
 
 - **Do not** skip `jar-theory-development` and present a regression with no economic channel.

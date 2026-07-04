@@ -50,6 +50,25 @@ Default assumption: unless the user says otherwise, treat the target as JOLE —
 
 > `jole-writing-style` is a late-stage polish. Do not rewrite the intro before identification is settled — the argument will change.
 
+## Routing ledger
+
+Tick each gate in order; route to the first one left open. Keep the ledger with the draft so co-authors see the same bottleneck.
+
+```text
+JOLE routing ledger
+[ ] labor question of broad interest locked ....... jole-topic-selection
+[ ] frontier staked vs. 2-3 closest papers ........ jole-literature-positioning
+[ ] causal design defensible to a labor referee ... jole-identification-strategy
+[ ] estimation + robustness meet labor norms ...... jole-data-analysis
+[ ] "what is new for labor" pitch framed .......... jole-contribution-framing
+[ ] exhibits fit the 500-words-per-page budget .... jole-tables-figures
+[ ] 100-word abstract + intro land ................ jole-writing-style
+[ ] JOLE Dataverse deposit assembled .............. jole-replication-and-data-policy
+[ ] fee / single-blind expectations set ........... jole-review-process
+[ ] Editorial Manager preflight complete .......... jole-submission
+[ ] R&R response strategy (only after revision) ... jole-rebuttal
+```
+
 ## Decision shortcuts
 
 - "I have data but no labor angle" → `jole-topic-selection`

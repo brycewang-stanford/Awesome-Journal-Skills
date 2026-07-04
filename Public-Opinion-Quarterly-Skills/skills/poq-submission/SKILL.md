@@ -56,6 +56,27 @@ relying on them.
 - [ ] Ethics / IRB / human-subjects compliance addressed
 - [ ] Figures/tables self-contained and accessible (see `poq-tables-figures`)
 
+## How the editorial office reads your upload
+
+Think of the ScholarOne package as being screened in this order, and stage files so each check
+passes on the first look:
+
+1. **Anonymity sweep** — the anonymized main document is opened first. A name in the running
+   header, an "as we showed (Author 2023)" self-citation, or author initials in tracked-changes
+   metadata sends the package back before any editor reads the abstract. Export a fresh PDF/DOCX
+   and check File → Properties, not just the visible text.
+2. **Type-and-cap check** — the declared submission type is compared against the word count you
+   enter. Count text + notes yourself before upload; an Article-length manuscript declared as a
+   Research Note is returned, not silently retyped.
+3. **Disclosure scan** — the office looks for Appendix A by name. Label it exactly "Appendix A:
+   Disclosure Elements," one block per dataset, response-rate formula named (e.g., AAPOR RR3), so a
+   screener can verify completeness without reading the methods section.
+4. **Endmatter** — Data Availability Statement present, Dataverse plan stated, IRB noted. Missing
+   endmatter is the most common cause of a revise-before-review email.
+
+A package that survives all four screens goes to the editor with no round-trip — often saving two
+weeks of calendar time before first decision.
+
 ## Anti-patterns
 
 - Leaving author identifiers in the text, acknowledgments, or file metadata (breaks double-blind)

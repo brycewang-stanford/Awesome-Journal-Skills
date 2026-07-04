@@ -50,6 +50,18 @@ A compact roadmap closes the introduction; do not over-signpost.
 - Disclose **generative-AI tool use** in the back matter when applicable; if none was used, no
   acknowledgement is needed.
 
+## Before/after micro-rewrites in the SMR register
+
+- *Before:* "Latent class analysis has received considerable attention in recent years." → *After:*
+  "When classes are weakly separated, standard LCA enumeration selects the wrong number of classes in
+  a majority of realistic samples." (opens on the failure, not the fashion)
+- *Before:* "Equation (7) follows from substituting (5) into (6) and rearranging." → *After:* "Equation
+  (7) says the bias grows with the imbalance ratio: applied users with rare exposure groups are hit
+  hardest." (interprets, does not re-derive)
+- *Before:* "Our results suggest the estimator performs well." → *After:* "We prove consistency under
+  A1–A3; the simulation shows the nominal 95% interval covers between 93.1% and 95.4% across designs."
+  (labels evidentiary status and quantifies)
+
 ## Checklist
 
 - [ ] The introduction follows problem → why methods fail → contribution → evidence → payoff.

@@ -57,6 +57,28 @@ Route to `pnasnexus-fit` first, always. The first question is **"is this high-qu
 
 > `pnasnexus-significance`, `pnasnexus-abstract`, and `pnasnexus-citation` are **late-stage polish** — but the Significance Statement is high-value and editor-facing, so draft it as soon as the claim is locked.
 
+## Manuscript state ledger
+
+Keep one ledger per manuscript and update it after every routing decision. The two early gates
+(fit and open access) are binary and block everything downstream; the rest are progress fields.
+
+```text
+PNAS NEXUS ROUTE LEDGER
+manuscript: __________________   date: __________
+[gate] fit verdict ........ in-scope / transfer-from-PNAS / wrong venue
+[gate] APC funding ........ confirmed / waiver-discount pending / unresolved
+[gate] license ............ CC BY / CC BY-NC (funder-compatible? Y/N)
+article type .............. Research Report / Brief Report / Perspective /
+                            Review / Registered Report
+page budget ............... current ___ pp vs type budget (Methods in main text)
+graphical elements ........ ___ used / budget for type
+significance statement .... drafted (50-120 words) Y/N
+abstract .................. single paragraph, <=250 words Y/N
+data + code deposition .... repository chosen + raw images retained Y/N
+references ................ internally consistent (style-neutral at submission)
+next skill ................ pnasnexus-______
+```
+
 ## Decision shortcuts
 
 - "PNAS declined us — should we accept the PNAS Nexus transfer?" → `pnasnexus-fit`

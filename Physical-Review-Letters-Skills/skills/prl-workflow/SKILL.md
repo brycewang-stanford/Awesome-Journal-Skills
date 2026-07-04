@@ -64,6 +64,33 @@ Default assumption: unless the user says otherwise, the target is **Physical Rev
 - "Who should I suggest as a referee?" → `prl-referee-strategy`
 - "Three referee reports just landed" → `prl-revision`
 
+## Letter status board
+
+A Letter's readiness is a two-column question: is the *content* settled, and does it *fit the container*? Fill this board before invoking `prl-submission`; any cell still marked OPEN routes you back to the named skill.
+
+```text
+PRL STATUS BOARD                          verdict   owner skill
+========================================  ========  =====================
+GATE  importance + broad interest         OPEN      prl-scope-fit
+      (fails → retarget PR A–E / PRR)
+CLAIM one central result, stated for      OPEN      prl-results-framing
+      physicists outside the subfield
+BODY  methods trimmed to what earns       OPEN      prl-methods
+      trust; remainder moved to SM
+FIG   lead figure = central result        OPEN      prl-figures
+      at a glance
+SM    Letter stands alone; SM holds       OPEN      prl-supplementary
+      derivations / extended data only
+STYLE APS house style, notation defined   OPEN      prl-writing-style
+FIT   inside the deductible length        OPEN      prl-length-management
+      limit (figures/equations count)
+CASE  cover letter argues importance      OPEN      prl-cover-letter
+REFS  suggested / opposed referees named  OPEN      prl-referee-strategy
+----------------------------------------  --------  ---------------------
+all rows CLOSED → prl-submission preflight → submit
+referee report arrives → prl-revision
+```
+
 ## Differences vs. specialized Physical Review journals
 
 PRL and Phys. Rev. A–E / PR Research share APS production and rigor standards but differ on the **gate**:

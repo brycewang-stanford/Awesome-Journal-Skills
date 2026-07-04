@@ -1,6 +1,6 @@
 ---
 name: sci-writing
-description: Use to choose the Science format (Research Article vs Report) and hold its length and structure budgets — main text, word/figure caps, and what belongs in Supplementary Materials.
+description: Use when choosing the Science (AAAS) format (Research Article vs Report) and holding its length and structure budgets — main-text word caps, figure caps, argument-ordered Results, and deciding what belongs in the main text versus Supplementary Materials.
 ---
 
 # Main-Text Writing & Format (sci-writing)
@@ -44,6 +44,26 @@ Each Results paragraph: **claim sentence first**, then the evidence (figure call
 - Move any sentence that a general reader can skip → Supplementary.
 - Methods detail, validation, controls → Supplementary (cited as "fig. S3", "table S1").
 - Cut "In order to" → "To"; cut "It is worth noting that"; cut throat-clearing.
+
+## Before/after: compressing to the Science register
+
+Science prose earns its word budget sentence by sentence. Typical compressions:
+
+| Draft (lab-report register) | Science register |
+|-----------------------------|------------------|
+| "In order to investigate whether X affects Y, we performed a series of experiments in which…" | "To test whether X affects Y, we…" |
+| "It is worth noting that the observed effect was statistically significant (p < 0.05)." | "The effect was robust (Δ = 12 ± 2%, P = 0.003, n = 14)." |
+| "As can be seen in Fig. 2, there appears to be a trend toward increased activity." | "Activity increased threefold (Fig. 2)." |
+| "These results may suggest a possible role for Z in this process." | "Z is required for this process (fig. S4)." |
+
+The pattern: verbs over nominalizations, numbers over adjectives, one hedge maximum per claim, and every figure callout attached to a quantitative statement rather than "as shown in".
+
+## What Science referees expect from the body text
+
+- Each Results paragraph is checkable: a referee can match the claim sentence to a specific panel and a specific statistic without hunting.
+- Alternative explanations are ruled out **in the main text**, even if the ruling-out data live in the SM ("this was not due to A or B; figs. S5 and S6").
+- The final paragraph states scope and limits in one or two sentences — referees at a general-science weekly flag manuscripts whose conclusions quietly exceed the shown systems or conditions.
+- No forward references to unpublished work as load-bearing evidence.
 
 ## Reference and supplement cross-refs
 

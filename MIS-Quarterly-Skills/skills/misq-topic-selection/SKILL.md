@@ -45,6 +45,27 @@ Page limits count **everything** (text, tables, figures, references, appendices)
 - [ ] Which category fits — and does the question's scope fit that page budget?
 - [ ] What does an IS reader learn that they could not get from a top management, marketing, or CS venue?
 
+## The "swap test" for IT centrality, worked
+
+The fastest fit diagnostic: can you swap the IT artifact for a generic treatment without changing the theory? Three cases:
+
+- **Fails the swap test (not IS):** "Firms that adopted [a new dashboard] improved performance." Replace "dashboard" with "any management intervention" and the hypothesis is unchanged — the IT is window dressing. Route to a management venue.
+- **Passes (behavioral IS):** "A recommendation algorithm's *opacity* raises users' perceived autonomy loss, dampening reliance — an effect absent for equally accurate transparent recommendations." Opacity is a property of the artifact; remove the IT and the mechanism disappears.
+- **Passes (economics of IS):** "Platform-mediated price steering shifts surplus because the platform observes cross-side search — a channel that exists only because the IT intermediates the market."
+
+If the mechanism survives deleting the technology, it is not yet a MISQ paper; return to the mechanism before choosing a category.
+
+## Worked category selection
+
+| Situation | Category | Why |
+|-----------|----------|-----|
+| A single clean field experiment on IT-enabled nudging | Research Note | Focused single contribution; ~half a Research Article |
+| A build-and-evaluate of a novel ML pipeline with design principles | Design Science | Prescriptive design knowledge is the contribution |
+| A new theory of algorithmic control at work, lightly empirical | Theory Development (55pp) | Theory is the primary output |
+| A synthesis of the IS-security literature that generates propositions | Theory-Generative Synthesis (65pp) | Synthesis that yields theory |
+
+Because the page limit counts *everything*, choose the category before scoping the study, not after drafting.
+
 ## Anti-patterns
 
 - A management/marketing study with IT as window dressing → wrong venue.

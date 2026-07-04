@@ -1,6 +1,6 @@
 ---
 name: jie-workflow
-description: Router for the Journal of International Economics (JIE) skill pack — given where a manuscript stands (idea, identification, data, framing, exhibits, polish, replication, review, submission, rebuttal), it names the next jie-* skill to use. Routes only; it does not produce manuscript content.
+description: Use when deciding which jie-* sub-skill a Journal of International Economics (JIE) manuscript needs next — given where it stands (idea, identification, data, framing, exhibits, polish, replication, review, submission, rebuttal), this router names the next skill in the trade / international macro-finance pipeline. Routes only; it does not produce manuscript content.
 ---
 
 # Workflow Router (jie-workflow)

@@ -50,7 +50,24 @@ description: Use when deciding which cpa-* sub-skill to invoke next, or when seq
 
 > `cpa-abstract` 与 `cpa-style` 是**后段 polish 阶段**触发，不要在研究设计未立住时去做。
 
-## 决策口诀
+## 路由诊断卡
+
+不确定卡在哪一环时，逐题作答；**遇到第一个"否"就停**，右侧即下一个 skill：
+
+```text
+【《中国行政管理》路由诊断卡】
+Q1  理论框架能用一句话说出（框架名=____）？        否 → cpa-topic-selection
+Q2  综述在与公共管理理论"对话"而非罗列？          否 → cpa-literature-review
+Q3  方法与问题匹配（定量/定性/规范，选=____）？    否 → cpa-identification
+Q4  治理或政策过程的机制黑箱已打开？              否 → cpa-mechanism
+Q5  跨地区/层级/治理情境的条件性已分析？          否 → cpa-heterogeneity
+Q6  主表、资料编码表、机制图均已规范？            否 → cpa-tables-figures
+Q7  政策建议有分析支撑且可操作？                  否 → cpa-policy-implication
+Q8  摘要含"问题—方法—发现"三要素？               否 → cpa-abstract
+Q9  全文黑名单短语命中 0 处？                     否 → cpa-style
+Q10 投稿 checklist 全部通过？                     否 → cpa-submission
+（已收到匿名评审意见 → 跳过 Q1–Q10，直接 cpa-rebuttal）
+```
 
 - "我有个大题目但不知怎么落地" → `cpa-topic-selection`
 - "综述里没引治理 / 政策过程 / 街头官僚的经典" → `cpa-literature-review`

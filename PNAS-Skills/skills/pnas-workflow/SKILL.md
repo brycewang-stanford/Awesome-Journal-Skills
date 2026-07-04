@@ -72,6 +72,54 @@ PNAS is selective but **more accepting than Science or Nature**: it values solid
 - **Abstract**: PNAS abstracts run to **~250 words** — do **not** copy Science's ≤125-word abstract or one-sentence summary.
 - **Methods**: PNAS keeps a **Materials and Methods** section in the main text (unlike Science Reports / Cell, which push methods elsewhere).
 
+## Manuscript-stage routing snapshot
+
+Copy this manifest into your working notes and update the status as each pnas-* skill clears. It mirrors the default order above and the PNAS-specific facts this router tracks — the three submission tracks, the ≤120-word Significance Statement, the ~250-word abstract, and the general-scientific-readership bar. Nothing here is a live editorial rule; confirm current caps in the author guidelines.
+
+```yaml
+pnas_manuscript_snapshot:
+  divisions: [Biological Sciences, Physical Sciences, Social Sciences]
+  cross_division_reader_test: pending   # pass | borderline | fail
+  significance_bar: high-quality + broadly significant (not only the flashiest)
+
+  submission_track:
+    choice: undecided                   # Direct | Contributed | Prearranged Editor
+    direct:      { editor_assigned: true,  suggested_reviewers_ready: false }
+    contributed: { nas_member: false, within_annual_quota: null, reviewers_secured: 0 }
+    decide_by: early                    # track shapes handling + reviewer choice
+
+  stage_gates:
+    - skill: pnas-fit           # step 1: clear the broad-significance bar
+      status: not_started       # not_started | in_progress | cleared
+    - skill: pnas-track         # step 2: Direct vs Contributed (decide early)
+      status: not_started
+    - skill: pnas-writing       # step 3: structure, classification, Methods in-text
+      status: not_started
+    - skill: pnas-figures       # step 4: display items within budget
+      status: not_started
+    - skill: pnas-statistics    # step 5: rigor + reproducibility reporting
+      status: not_started
+    - skill: pnas-data          # step 6: data/code availability + deposition
+      status: not_started
+    - skill: pnas-significance  # step 7: Significance Statement (<=120 words, editor-facing)
+      status: not_started
+    - skill: pnas-abstract      # step 8: self-contained abstract (~250 words)
+      status: not_started
+    - skill: pnas-citation      # step 9: PNAS numbered reference style
+      status: not_started
+    - skill: pnas-submission    # step 10: preflight + cover letter -> GO/NO-GO
+      status: not_started
+    - skill: pnas-rebuttal      # step 11: after review
+      status: not_started
+
+  key_artifacts:
+    significance_statement: { required: true,  max_words: 120, distinct_from_abstract: null }
+    abstract:               { required: true,  approx_words: 250, single_paragraph: true }
+    materials_and_methods:  { location: main-text }
+
+  verdict: NO-GO                        # flips to GO only when pnas-submission clears
+```
+
 ## Anti-patterns
 
 - **Do not** skip `pnas-fit` and start polishing prose.

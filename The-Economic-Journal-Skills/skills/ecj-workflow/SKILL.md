@@ -62,6 +62,38 @@ Default assumption: unless the user says otherwise, treat the target as EJ. Oper
 - "Submitting tomorrow" → `ecj-submission`
 - "Got referee reports" → `ecj-rebuttal`
 
+## Question ladder
+
+Answer the questions in order; the **first "no"** routes you. Note the ladder never says "anonymize" — EJ review is single-blind and author identity is expected.
+
+```text
+ecj-workflow question ladder (EJ, single-blind)
+Q1  breadth       would an economist outside your field finish
+                  this paper?                                        no → ecj-topic-selection
+Q1b length        result sharp but compact? consider the short
+                  paper (<6,000 words, 5 exhibits,
+                  AER:Insights style)                                yes → flag for ecj-submission
+Q2  positioning   does the intro say what economics at large
+                  learns, not just who wrote before?                 no → ecj-literature-positioning
+Q3  causal claim  is the empirical claim defended beyond
+                  OLS + controls?                                    no → ecj-identification
+Q4  mechanism     is there a model or mechanism disciplining
+                  the reduced form?                                  no → ecj-theory-model
+Q5  robustness    does the result survive off a single
+                  specification?                                     no → ecj-robustness
+Q6  exhibits      does each table and figure carry the
+                  economic story on its own?                         no → ecj-tables-figures
+Q7  exposition    can a generalist still follow the argument
+                  by page 3?                                         no → ecj-writing-style
+Q8  pre-mortem    have the expected referee objections been
+                  patched in the draft?                              no → ecj-referee-strategy
+Q9  package       DCAS-standard replication set ready for the
+                  EJ Data Editor (Zenodo or another trusted
+                  repository)?                                       no → ecj-replication-package
+ALL YES → Editorial Express preflight (JEL codes, paper type) → ecj-submission
+R&R arrives → ecj-rebuttal
+```
+
 ## Differences vs. JEEA / EER / top-5 stacks
 
 EJ is a leading general-interest journal just below the top-5, with a distinct taste:

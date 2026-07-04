@@ -74,6 +74,29 @@ Econometrica papers come in two broad shapes; route accordingly:
 > theorem or its proof is still unstable. Likewise, do not build tables before the
 > identification / asymptotics are settled.
 
+## Submission-package tree
+
+Keep the working directory shaped like the final Editorial Express upload from day one —
+the Zenodo deposit and Data Editor check arrive at conditional acceptance, when it is too
+late to reconstruct a replication folder from scratch:
+
+```text
+econometrica-submission/
+├── main.pdf                 # ≤45 pages incl. references and appendices
+├── supplement.pdf           # Supplemental Appendix, ≤25 pages
+├── cover-letter.pdf         # ES membership stated; fee tier noted
+├── replication/             # ES Data and Code Availability Policy
+│   ├── README.md            # exact commands regenerating every exhibit
+│   ├── code/                # Monte Carlo + estimation scripts
+│   └── data/                # raw data, or access instructions if proprietary
+└── working-notes/           # not uploaded — internal gates
+    ├── theorem-ledger.md    # per theorem: statement / proof / regularity conditions
+    └── referee-redteam.md   # output of ecta-referee-strategy
+```
+
+A purely theoretical paper drops `data/` but keeps `code/` if any result is verified
+numerically; an estimator paper's "data" may be entirely its simulation code.
+
 ## Decision mnemonics
 
 - "I have a result but I'm not sure it's general enough" → `ecta-topic-selection`

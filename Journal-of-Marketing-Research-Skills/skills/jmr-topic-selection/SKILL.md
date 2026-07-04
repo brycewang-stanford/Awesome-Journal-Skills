@@ -44,6 +44,22 @@ The genre sets which downstream skills do the heavy lifting (`jmr-methods`, `jmr
 - An explicit "what we learn" sentence — substantive, methodological, or both.
 - Feasible data/stimuli that can survive the **exact-statistics** mandate (p-values to three digits, SEs, effect sizes) and **replication** disclosure.
 
+## Pitch stress-test: one rewrite, both bars
+
+**Managerial-only pitch (JM signal):** "We show retailers can lift loyalty-program enrollment with
+default-framed sign-up prompts."
+
+**JMR-ready pitch:** "Across preregistered field experiments with a retail partner, we identify when
+default-framed enrollment prompts raise sign-ups, show the effect reverses under high perceived
+monitoring, and offer a process account that revises what choice-architecture work predicts for
+opt-in marketing programs."
+
+The rewrite clears both bars in one breath: the rigor bar is stated up front (preregistered field
+experiments, a reversal that disciplines the process story) and the substance bar is explicit (a
+boundary condition plus a revised prediction — something marketing researchers *learn*, not just an
+effect size a manager could deploy). If your best one-sentence pitch cannot be rewritten this way,
+the genre or the venue is wrong.
+
 ## Anti-patterns
 
 - Choosing a topic on managerial appeal alone (a JM signal, not JMR).

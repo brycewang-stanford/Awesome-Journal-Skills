@@ -47,6 +47,24 @@ against you. This skill is about reaching the POQ audience and respecting format
 - Tighten footnotes — they **count** toward the limit (notes are in the cap).
 - Prefer one decisive trend figure to three redundant tables.
 
+## Micro-rewrites in the POQ register
+
+- **Claim-first, not data-first.** *Before:* "The data show significant differences across
+  demographic groups (p < .05)." → *After:* "Partisanship, not education, drives the gap: the
+  partisan difference is 23 points versus 4 points across education levels." POQ readers want the
+  substantive magnitude, then the inference.
+- **Name the error source, don't gesture.** *Before:* "We account for potential survey biases." →
+  *After:* "Because the panel under-covers non-internet households, we benchmark against the CPS and
+  weight on the coverage-related variables." A survey scientist can now evaluate the fix.
+- **Un-bury the contribution.** *Before:* an intro that spends four paragraphs on the history of
+  polarization research. → *After:* paragraph two ends with "We show that item wording, not true
+  attitude change, produced the apparent trend — a measurement contribution." State the lane
+  (opinion theory / current opinion / survey validity) in the intro, in those terms.
+
+Two referee tics worth pre-empting: POQ methodologists flag any inference language ("significant,"
+"effect") that outruns the design (cross-sectional, nonprobability), and substantive referees flag
+acronym walls — one undefined DEFF or AMCE in the intro reads as writing for insiders only.
+
 ## Anti-patterns
 
 - An intro that never states whether the contribution is to opinion or to survey methods

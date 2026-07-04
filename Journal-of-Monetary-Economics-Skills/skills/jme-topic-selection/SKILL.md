@@ -26,6 +26,14 @@ Two scope tells make JME distinctive. First, **one issue each year is devoted to
 - [ ] The question is **first-order**, not a marginal refinement of a settled result
 - [ ] If policy-conference-flavored, consider the **Carnegie-Rochester-NYU** or **Gerzensee** fit
 
+## Worked fit calls
+
+- **Borderline, rescuable.** Firm-level pass-through of funding costs to lending rates is micro-banking as posed. It becomes JME-shaped once the estimates feed an aggregation step — e.g., the cross-sectional heterogeneity implies a state-dependent transmission of a 100-bp policy surprise, with the counterfactual computed for the aggregate lending channel.
+- **Strong fit.** A HANK-style model in which the distribution of marginal propensities to consume determines how far forward guidance substitutes for conventional rate cuts: a disciplined quantitative mechanism with a lesson a central bank can act on.
+- **Off-fit unless re-anchored.** An asset-pricing anomaly with no monetary mechanism belongs in a finance journal; the same data speak to JME if the object becomes the term-premium channel of balance-sheet policy or the transmission of policy surprises through intermediary constraints.
+
+**Editor screen (three questions before writing a model):** Would a central bank research department cite this? Does the answer move a policy counterfactual — a rule comparison, a transmission elasticity, an optimal-response margin? Is the shock or mechanism first-order at business-cycle frequency, rather than a second-decimal refinement?
+
 ## Off-fit signals (redirect)
 
 - A pure labor/IO/development micro paper with no macro aggregation → a field or generalist journal

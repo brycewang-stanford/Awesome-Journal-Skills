@@ -29,6 +29,19 @@ description: Use when drafting the revision and response letter after a Marketin
 - **"Replication."** Update the data-and-code package; confirm the master script reproduces every revised table/figure/counterfactual.
 - **Adding analysis vs. length.** Heavy new derivations or robustness usually live in the **online appendix**; for a **Frontiers** paper, the 6,000-word total cap still binds, so move detail online.
 
+## Before/after: answering the signature "identification" objection
+
+The modal MKSC first-round comment is some form of "I am not convinced the model identifies the effect." Compare responses:
+
+- **Weak (citation-padding, will draw a second round):** "We thank the reviewer. We have added references to prior structural work establishing that this class of models is identified (Section 3)."
+- **Strong (re-analysis, closes the point):** "We agree the argument was implicit. We now (i) state the exclusion restriction explicitly — cost shifter Z shifts supply but not demand conditional on our controls (Section 3.2); (ii) add a Monte Carlo that recovers the known parameters from simulated data within 3% (Appendix C.1); and (iii) report a sensitivity analysis showing the counterfactual moves less than 5% as we perturb the restriction (Table C4). Together these address the concern that [assumption] drove the estimate."
+
+The strong version does real work — an explicit restriction, a recovery experiment, and a sensitivity bound — and tells the AE exactly where each lives.
+
+## Reconciling conflicting reviewers for the AE
+
+When reviewers pull in opposite directions (R1: "the model is too stylized"; R2: "the model is over-parameterized"), do not silently satisfy one. State the trade-off to the AE, choose a resolution, and justify it: e.g., "We keep the parsimonious specification R2 favored and add R1's richer variant as a robustness check in Appendix D, showing the main counterfactual is unchanged." Surfacing the conflict with a defended choice reads as judgment; picking a side silently reads as evasion.
+
 ## Tone and tactics
 
 - Be respectful and substantive; concede gracefully and make the change.

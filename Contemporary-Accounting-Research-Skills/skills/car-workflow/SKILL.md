@@ -62,6 +62,34 @@ Default assumption: unless the user says otherwise, treat the target as **Contem
 - "Submitting this week; what does Editorial Manager need?" → `car-submission`
 - "Got an R&R from two reviewers and a subject Editor" → `car-review-process` then `car-rebuttal`
 
+## Stage tracker (fill and re-run the router)
+
+Because CAR is method-agnostic, the *tradition* row drives every downstream standard. Fill it first, then let the top unfinished stage name the next skill.
+
+```
+CAR MANUSCRIPT — stage tracker
+question   : [one-sentence accounting question]
+tradition  : archival / experimental / analytical / field-qualitative
+target     : CAR (vs TAR / JAR / JAE / RAST)  fit=[yes/borderline/no]
+
+stage                          status        next skill
+-----------------------------  ------------  --------------------------
+topic & fit (which tradition)  [done]        car-topic-selection
+theory / hypotheses / model    [in-progress] car-theory-development
+literature positioning         [todo]        car-literature-positioning
+design & identification        [todo]        car-methods
+estimation + robustness        [todo]        car-data-analysis
++ code-sharing prep
+accounting contribution        [todo]        car-contribution-framing
+exhibits (Style Guide)         [todo]        car-tables-figures   (late)
+prose polish                   [todo]        car-writing-style    (late)
+Editorial Manager preflight    [todo]        car-submission
+decision / R&R                 [—]           car-review-process → car-rebuttal
+
+rule: identification (archival) / internal validity (exp) / model (analytical)
+      must be settled before any (late) row is touched.
+```
+
 ## Anti-patterns
 
 - **Do not** route an archival paper, an experiment, and an analytical model through identical analysis advice — CAR's big-tent scope means the standards differ by tradition.

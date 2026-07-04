@@ -50,6 +50,27 @@ A strong POQ paper usually clears all four:
 - **Polls in Context** — short, timely interpretation of current poll data, ≤ 2,500 words.
 - **Research Synthesis** — integrative review consolidating a literature, ≤ 6,500 words.
 
+## Reframing toward POQ (before → after)
+
+The same study often clears or fails the fit test depending on how the question is posed. Three
+micro-rewrites in the POQ register:
+
+- **Topic survey → opinion theory.** *Before:* "We surveyed 2,000 adults about climate change." →
+  *After:* "Using a probability panel, we test whether motivated reasoning or elite-cue exposure
+  better explains the partisan gap in climate attitudes." The dataset is the same; the second
+  version names a theoretical mechanism POQ readers can adjudicate.
+- **Method demo → survey validity.** *Before:* "We compare two question formats." → *After:* "We
+  quantify how much measurement error a forced-choice versus check-all format introduces in
+  sensitive-behavior reports, and for which respondent groups." Now the payoff is an error source
+  (measurement) with stated generalizability.
+- **Poll dump → current opinion.** *Before:* "Recent polls on issue X are summarized." → *After:*
+  "Three probability polls fielded across the campaign show opinion moved only among low-attention
+  independents — evidence against the saturation account." That is a Polls in Context claim, not a
+  compilation.
+
+If no rewrite produces a mechanism, an error source, or an interpretable movement in opinion, the
+project is off-fit — stop before drafting.
+
 ## Anti-patterns
 
 - "We ran a survey on topic X" with no opinion-theory or survey-methods payoff

@@ -39,6 +39,23 @@ JM is a **"big tent"** on data and champions an **empirics-first** stance: a que
 | Core contribution is interdisciplinary consumer-behavior theory | JCR               |
 | General-management question, not marketing-specific           | Out of scope (management journals) |
 
+## Worked example: sharpening a dataset into a JM question
+
+*Starting point (data-first, unsharpened):* "We have loyalty-program transaction data from a grocery chain — does personalization increase spending?"
+
+*JM-sharp version:* "When does personalized promotion depth build profitable purchase habits versus teach customers to wait for deals — and which segments should a retail CMO exempt from targeting altogether?"
+
+The sharpened question names a genuine tension in customer management, an outcome managers actually track (margin-adjusted customer lifetime value, not clicks), and a concrete decision (whom to target, whom to leave alone). The vague version invites the new-context verdict; the sharp one promises marketing knowledge that ends in a prescription.
+
+## Early screening questions
+
+Answer these honestly before investing in design — they mirror how JM's first readers triage:
+
+- Could you brief a CMO or a regulator on this question in ninety seconds and hold their interest without mentioning your data?
+- Would the answer genuinely surprise a well-read marketing scholar, or only re-confirm intuition in fresh clothing?
+- Does the phenomenon exist at market scale — across categories, customer bases, or platforms — so the evidence can travel beyond one setting?
+- Can the big-tent toolkit (experiment, field, survey, secondary, qualitative) plausibly deliver credible evidence within your time and access constraints?
+
 ## Checklist
 
 - [ ] One-sentence substantive question a practitioner recognizes

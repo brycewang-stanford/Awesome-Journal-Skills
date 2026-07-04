@@ -69,6 +69,33 @@ Science rejects **most submissions without external review**. The editorial bar 
 - **Science (Reports / Research Articles)** vs **Science Advances** (open-access, broader acceptance, longer): if the work is solid but not top-1% general interest, Advances may be the realistic target — say so.
 - **Science vs Nature**: both gate on broad significance, but Science requires a **one-sentence summary** and uses a **single numbered reference list with full author names**; Nature uses a different reference and summary-paragraph convention. Do not copy a Nature-formatted manuscript over without a style pass (`sci-citation`, `sci-abstract`).
 
+## Stage ledger (copy into the conversation and keep it updated)
+
+Track the manuscript's position in the pipeline with this ledger so every routing decision is explicit and auditable:
+
+```text
+SCIENCE (AAAS) MANUSCRIPT STAGE LEDGER
+======================================
+Target venue      : Science | Science Advances | reroute → ______
+Format            : Report | Research Article | undecided
+Stage gates (mark ✓ / ✗ / n/a, with date):
+  [ ] sci-fit          significance rung ≥3, general-interest test passed
+  [ ] sci-framing      one-sentence advance locked; why-now named
+  [ ] sci-writing      format chosen; main text within word budget
+  [ ] sci-figures      display items ≤ budget; fonts/colors compliant
+  [ ] sci-statistics   n, tests, effect sizes, error bars reported
+  [ ] sci-data         deposition + accession numbers + availability statement
+  [ ] sci-abstract     ≤125-word abstract + one-sentence summary
+  [ ] sci-citation     numbered refs, order of appearance, full author lists
+  [ ] sci-cover-letter significance-forward editor pitch drafted
+  [ ] sci-submission   preflight checklist clean
+  [ ] sci-rebuttal     (post-review only) point-by-point response
+Current bottleneck : ______            Next skill: sci-______
+Open risks         : over-claiming? length? missing deposition? ______
+```
+
+Re-emit the ledger after each sub-skill completes; a gate marked ✗ upstream (especially `sci-fit`) invalidates every ✓ downstream of it.
+
 ## Anti-patterns
 
 - **Do not** skip `sci-fit` and start polishing prose — the modal outcome is desk rejection.

@@ -60,6 +60,35 @@ Default assumption: unless the user says otherwise, treat the target as ISR — 
 - **JMIS**: Basket-of-Eight; overlapping scope but distinct editorial conventions.
 - **Management Science**: also INFORMS, but a broader management/OR journal (and the one that charges the $79 original-submission fee) — not IS-specific.
 
+## Stage tracker (fill and re-run the router)
+
+ISR's genre row governs the shape of theory, analysis, and contribution. Fill it first; the top unfinished stage names the next skill. Keep the sociotechnical/intradisciplinary bridge visible in the header.
+
+```
+ISR MANUSCRIPT — stage tracker
+question   : [one-sentence sociotechnical question; IT artifact = ...]
+genre      : behavioral-empirical / analytical-economic / design-science / multimethod
+bridge     : [which IS silos does this connect?]
+target     : ISR (vs MISQ / JMIS / Management Science)  fit=[yes/borderline/no]
+
+stage                          status        next skill
+-----------------------------  ------------  ---------------------------
+topic & fit (sociotechnical)   [done]        isr-topic-selection
+mechanism / propositions       [in-progress] isr-theory-development
+literature positioning         [todo]        isr-literature-positioning
+   (bridge the silos)
+methods / genre match          [todo]        isr-methods
+identification or proof        [todo]        isr-data-analysis
+contribution to IS (~500w)     [todo]        isr-contribution-framing
+exhibits; proofs→companion     [todo]        isr-tables-figures   (late)
+prose polish                   [todo]        isr-writing-style    (late)
+ScholarOne preflight           [todo]        isr-submission
+decision / R&R                 [—]           isr-review-process → isr-rebuttal
+
+rule: single-paradigm result is not automatically ISR-fit — the bridge row
+      must be non-empty before contribution framing is marked done.
+```
+
 ## Anti-patterns
 
 - **Do not** skip `isr-theory-development` and jump to estimation/derivation — ISR rejects atheoretical phenomenon-mining.

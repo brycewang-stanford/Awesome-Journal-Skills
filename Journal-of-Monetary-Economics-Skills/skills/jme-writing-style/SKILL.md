@@ -27,6 +27,13 @@ description: Use when applying Journal of Monetary Economics (JME) house style �
 
 JME readers are macroeconomists and central bankers. The intro should state the **question, the identified shock or mechanism, the headline result, and the policy lesson** quickly. Define the shock units (e.g., a 100-bp policy surprise) early. Keep the prose disciplined: the 40-page cap rewards a tight argument, with derivations and extra robustness in the online supplement.
 
+## Before/after micro-rewrites in the JME register
+
+- **Abstract opener.** Before: *"We show that monetary policy shocks have heterogeneous effects across firms."* After: *"Contractionary monetary policy surprises depress investment roughly twice as strongly at financially constrained firms, dampening aggregate transmission when credit spreads are wide."* The rewrite leads with the finding (legal under the no-"We" rule), quantifies it, and lands the aggregate policy margin inside one sentence.
+- **Method-inventory sentence.** Before: *"We estimate a VAR and also run local projections as a robustness check."* After: *"High-frequency policy surprises identify the shock; the VAR and local projections deliver the same peak impulse response, so the mechanism — not the estimator — carries the result."* Referees read the second version as an identification claim, not a to-do list.
+- **DSGE contribution sentence.** Before: *"Our model extends the standard framework with financial frictions."* After: *"Adding an intermediary balance-sheet constraint lets the model match the observed spread response to a 100-bp surprise and reverses the welfare ranking of the two policy rules."* Name the friction, the matched moment, and the counterfactual it overturns.
+- **Hedge pruning.** Delete "it could be argued that," "somewhat," and "interestingly"; each costs words against the 40-page cap without adding an estimate, a moment, or a mechanism.
+
 ## Checklist
 
 - [ ] Abstract ≤ 100 words and does **not** begin with "This paper" or "We"

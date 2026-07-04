@@ -41,6 +41,19 @@ Citation mechanics are JOLE-specific and load-bearing here:
 - [ ] Self-citations written naturally (single-blind)
 - [ ] No standalone survey; citations locate the contribution, nothing more
 
+## Micro-rewrite: survey register vs. stake register
+
+**Survey register:** "A large literature studies wages and mobility (many citations). We contribute
+to this literature."
+
+**Stake register:** "The closest work identifies wage effects from state-level policy variation but
+cannot separate incumbent wage growth from workforce composition; using matched employer–employee
+records, we hold composition fixed and show roughly how much of the measured gain is compositional."
+
+The stake version names what the nearest paper established, what it could not do, and the exact
+margin your data or design adds — in two sentences that cost almost nothing against the ~20,000-word
+budget. That is the shape a JOLE referee expects.
+
 ## Anti-patterns
 
 - A two-page survey that never says what is new

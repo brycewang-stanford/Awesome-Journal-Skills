@@ -1,6 +1,6 @@
 ---
 name: sci-fit
-description: Use first, before any writing, to stress-test whether a result clears Science's desk-reject filter — broad significance and general interest across disciplines. Decides Science vs Science Advances vs a specialist journal.
+description: Use before any writing to stress-test whether a result clears Science's (AAAS) desk-reject filter — broad significance and general interest across disciplines. Decides Science vs Science Advances vs a specialist journal before you invest in prose.
 ---
 
 # Scope & Significance Fit (sci-fit)
@@ -50,6 +50,21 @@ If you cannot place the work at rung 3+, Science is a long shot — be honest wi
 | Deep but specialist                                             | top **field journal**  |
 | Clinical/medical with patient outcomes                          | **NEJM / Lancet** (use those packs) |
 | Strong but needs more mechanism to be decisive                  | add experiments before submitting |
+
+## Worked triage: three results, three verdicts
+
+- **Result A** — "A gut microbe metabolite lowers blood pressure in mice." A physiologist is excited; a physicist and a geologist are indifferent. Rung 2 (extends a known axis to one more metabolite). *Verdict:* specialist journal, not Science, unless a general mechanism (e.g., a receptor that generalizes across mammals including humans) is demonstrated.
+- **Result B** — "A machine-learning model predicts protein structure at near-experimental accuracy." Structural biologists, chemists, drug developers, and computational scientists all care; it changes how a broad community works. Rung 4–5. *Verdict:* Science/Nature tier — the breadth is real and the lesson transfers.
+- **Result C** — "We resolve a decades-old controversy over whether trait T is heritable, using a dataset an order of magnitude larger than prior work." Rung 3, timely (new dataset crossed a threshold — a valid "why now"). *Verdict:* strong Science fit if the resolution is decisive and not merely suggestive.
+
+The discriminating question in every case is not difficulty but **transfer**: does the conclusion change how a community *outside the authors' subfield* thinks or acts?
+
+## Editor's-eye rubric (score before you claim breadth)
+
+- [ ] Can a one-sentence significance claim be written with **zero** subfield jargon? If not, breadth is probably absent.
+- [ ] Would the result plausibly be summarized in a *Science* Perspective or a news outlet? Editors think about this.
+- [ ] Is the general lesson **shown** (data in this paper) or **asserted** (a closing hand-wave)? Only "shown" survives.
+- [ ] Is there concurrent work that erases your distinguishing advance? If so, name what still makes yours decisive.
 
 ## Output format
 

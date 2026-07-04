@@ -57,6 +57,31 @@ volatile specifics (portal routing, editors, open themed calls) on the official 
 
 > `joe-writing-style` is a late polish. Do not rewrite the intro before the theorems and Monte Carlo are settled — the claims will change.
 
+## Stage-gate audit
+
+Before advancing down the default order, run this self-audit. Any `NO` answer names the skill to
+invoke; do not proceed past an open gate — JoE referees read the theory first, and a gap at G2 or G3
+sinks the paper regardless of how polished the later stages are.
+
+```text
+JoE STAGE-GATE AUDIT (one line per gate; stop at the first NO)
+G1 Contribution   New estimator / test / identification result / asymptotic
+                  theory named in one sentence?          NO -> joe-topic-selection
+G2 Frontier       Nearest three methods papers cited and beaten on stated
+                  dimensions (weaker assumptions, wider class, sharper rate)?
+                                                         NO -> joe-literature-positioning
+G3 Theory         Every theorem has stated regularity conditions and a
+                  complete proof or proof sketch?        NO -> joe-identification-strategy
+G4 Evidence       Monte Carlo covers size AND power, with a DGP a referee
+                  would call fair; empirical illustration runs?
+                                                         NO -> joe-data-analysis
+G5 Package        Code/data archive reproduces every table; Elsevier data
+                  norms met?                             NO -> joe-replication-and-data-policy
+G6 Preflight      250-word abstract, single-anonymized files, USD $75 fee,
+                  correct portal (Editorial Manager new / Editorial Express
+                  resubmission), track chosen?           NO -> joe-submission
+```
+
 ## Anti-patterns
 
 - **Do not** skip `joe-literature-positioning` — referees judge the methodological novelty first

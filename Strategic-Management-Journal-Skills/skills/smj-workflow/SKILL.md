@@ -61,6 +61,33 @@ Default assumption: unless you say otherwise, the target is the **Strategic Mana
 - "I submit tomorrow" → `smj-submission`
 - "I got a Major Revision" → `smj-review-process` then `smj-rebuttal`
 
+## Stage-gate triage
+
+Run the gates top to bottom; the **first FAIL** names the skill to invoke today. Do not skip ahead — a later gate passed on top of an earlier failure is wasted polish.
+
+```text
+SMJ stage-gate triage — first FAIL wins
+GATE 1  Strategy DV     dependent construct ties to firm performance
+                        or competitive advantage?                        FAIL → smj-topic-selection
+GATE 2  Mechanism       each hypothesis states WHY, not just a sign?     FAIL → smj-theory-development
+GATE 3  Conversation    intro names the strategy debate it joins?        FAIL → smj-literature-positioning
+GATE 4  Design          unit of analysis, sample, measures,
+                        identification plan all fixed?                   FAIL → smj-methods
+GATE 5  Endogeneity     selection into the strategic choice and
+                        reverse causality explicitly defeated?           FAIL → smj-data-analysis
+GATE 6  So-what         contribution to strategy theory statable
+                        in two sentences?                                FAIL → smj-contribution-framing
+GATE 7  Exhibits        every table self-contained; a path/effect
+                        figure carries the argument?                     FAIL → smj-tables-figures
+GATE 8  Prose           argument visible on a skim; hedging and
+                        jargon trimmed?                                  FAIL → smj-writing-style
+GATE 9  Preflight       two abstracts (research + managerial,
+                        <=125 words each), 5 keywords, APA refs,
+                        ~40-page budget, anonymized for
+                        double-blind review?                             FAIL → smj-submission
+ALL PASS → submit; then smj-review-process, and smj-rebuttal when the decision arrives
+```
+
 ## Differences vs. AMJ / ASQ / AMR stacks
 
 If the paper's center of gravity is general organizational behavior, HRM, or micro-OB, the [Academy of Management Journal](https://github.com/brycewang-stanford/amj-skills) stack fits better. If the contribution is purely conceptual with no data, use an [AMR](https://github.com/brycewang-stanford/amr-skills) theory-only stack. SMJ's distinctive bar: the dependent construct should connect to **firm performance or competitive advantage**, and the empirics must survive an **endogeneity** interrogation.
