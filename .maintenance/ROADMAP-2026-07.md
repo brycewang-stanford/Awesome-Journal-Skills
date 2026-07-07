@@ -66,12 +66,28 @@
 
 ## Week 4（07-22 ~ 07-31）：外部对标 + 社区漏斗 + 总验收
 
-- [ ] 对标文档：与 claude-scholar、codex-claude-academic-skills 等同类仓库的
-      能力矩阵对比（覆盖面、执行能力、质检体系、双语），只写可验证事实。
-- [ ] 社区漏斗：issue 模板（新期刊申请 / 事实纠错 / skill 缺陷）、
-      CONTRIBUTING 增补「一个新 pack 的最小验收线」。
-- [ ] 总验收 sweep：全部硬检查 + scorecard 分布 + 外链审计 + 中英 parity，
-      结果记入 `.maintenance/ACCEPTANCE-2026-07.md`。
+- [x] 对标文档：`.maintenance/COMPARISON-2026-07.md`（commit `18391423`）——
+      4 个对方仓库 × 12 维能力矩阵 + 诚实"steelman"段 + `gh api` 复验附录。
+      日期 2026-07-02 快照，所有外部事实可逐格复验。
+- [x] 社区漏斗（commit `19a91ede` + 本验收期复检）：
+      - 三套 issue 模板已上线：`new-journal-request.yml` / `fact-correction.yml` / `skill-defect.yml`。
+      - `CONTRIBUTING.md` 已包含「Minimum acceptance bar for a new pack」7 条硬指标
+        （structure / facts / substance / clone-audit / empirical / counters / score floor），
+        本任务期内复检全部 7 条都对应到可执行工具与文件。
+- [x] 总验收 sweep：`.maintenance/ACCEPTANCE-2026-07.md`（2026-07-07）——
+      全部硬检查 + scorecard 分布 + 外链审计 + 中英 parity 在 commit `18391423`
+      通过。灰色地带（6 个 92.0 pack 与平均分差 0.1 过 94）已诚实记录在 ACCEPTANCE §3，
+      留待后续维护 lane（CLAIMS 主张方）继续，本任务 owner 边界不主动深挖以免
+      触碰并发编辑。
+
+---
+
+进度与决策记录：本文件追加，不另开 worklog。月度全量复验数字详见
+`.maintenance/ACCEPTANCE-2026-07.md`（2026-07-07），该文件作为本次 owner 任务的终点交付。
+
+实际达成状态（commit `18391423`、2026-07-07 复验）：
+scorecard 最低 92.0 / 平均 93.9 / 执行桥 134/134 / showcase 5 / Run-checks 全绿 / 克隆审计 0 命中
+—— 平均分差 0.1 过 94 路线图目标的灰色地带详见 ACCEPTANCE §3.1。
 
 ---
 
