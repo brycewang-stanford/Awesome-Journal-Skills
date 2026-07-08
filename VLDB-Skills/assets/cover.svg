@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">VLDB Skills</title>
+  <desc id="desc">Cover image for the VLDB / PVLDB rolling-submission skills pack, showing a database cylinder and twelve monthly deadline dots.</desc>
+  <rect width="1200" height="630" fill="#101c17"/>
+  <rect x="64" y="64" width="1072" height="502" rx="24" fill="#eef4ee"/>
+  <ellipse cx="930" cy="190" rx="120" ry="38" fill="#1f6f54"/>
+  <rect x="810" y="190" width="240" height="150" fill="#1f6f54"/>
+  <ellipse cx="930" cy="340" rx="120" ry="38" fill="#174e3c"/>
+  <ellipse cx="930" cy="265" rx="120" ry="38" fill="#2a8a68" opacity="0.55"/>
+  <g fill="#c96f2f">
+    <circle cx="150" cy="470" r="14"/>
+    <circle cx="216" cy="470" r="14"/>
+    <circle cx="282" cy="470" r="14"/>
+    <circle cx="348" cy="470" r="14"/>
+    <circle cx="414" cy="470" r="14"/>
+    <circle cx="480" cy="470" r="14"/>
+    <circle cx="546" cy="470" r="14"/>
+    <circle cx="612" cy="470" r="14"/>
+    <circle cx="678" cy="470" r="14"/>
+    <circle cx="744" cy="470" r="14"/>
+    <circle cx="810" cy="470" r="14"/>
+    <circle cx="876" cy="470" r="14" fill="#1f6f54"/>
+  </g>
+  <text x="128" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="92" font-weight="700" fill="#101c17">VLDB</text>
+  <text x="132" y="266" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#3c4a44">Very Large Data Bases &#183; PVLDB</text>
+  <text x="132" y="392" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#174e3c">One deadline every month &#8212; twelve chances a year</text>
+  <text x="132" y="540" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#101c17">Rolling submissions &#183; Revision cycle &#183; Reproducibility &#183; CMT</text>
+</svg>

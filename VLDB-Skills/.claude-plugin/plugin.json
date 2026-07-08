@@ -1,0 +1,22 @@
+{
+  "name": "vldb-skills",
+  "description": "A 12-skill depth pack for VLDB / PVLDB submissions: month picking on the rolling calendar, CMT submission audits, the one-shot revision, PVLDB camera-ready and PDF/A, the Reproducibility Evaluation, scalable-systems experiments, related work, writing style, and venue routing. Grounded in the PVLDB Volume 19/20 submission guidelines, the VLDB 2026/2027 research-track calls, and the pVLDB reproducibility pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "vldb",
+    "pvldb",
+    "database-systems",
+    "data-management",
+    "rolling-submission",
+    "revision",
+    "reproducibility",
+    "conference-submission"
+  ]
+}

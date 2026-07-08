@@ -1,0 +1,22 @@
+{
+  "name": "focs-skills",
+  "description": "A 12-skill depth pack for FOCS submissions: foundations-venue fit, the April HotCRP deadline, the ten-page attention window, full-version submissions, double-blind hygiene, proof checkability, computer-assisted steps, the no-rebuttal review arc, IEEE proceedings camera-ready, and the arXiv/ECCC public record. Grounded in the official FOCS 2026 CFP, IEEE TCMF pages, and award records checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "focs",
+    "theoretical-computer-science",
+    "algorithms",
+    "computational-complexity",
+    "ieee-tcmf",
+    "conference-submission",
+    "hotcrp",
+    "arxiv-full-version"
+  ]
+}

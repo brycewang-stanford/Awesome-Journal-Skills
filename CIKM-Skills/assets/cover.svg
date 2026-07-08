@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CIKM Skills</title>
+  <desc id="desc">Cover image for the CIKM conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#1d2a24"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f0e6"/>
+  <line x1="240" y1="420" x2="470" y2="300" stroke="#8a6f3c" stroke-width="10"/>
+  <line x1="470" y1="300" x2="720" y2="380" stroke="#8a6f3c" stroke-width="10"/>
+  <line x1="720" y1="380" x2="980" y2="250" stroke="#8a6f3c" stroke-width="10"/>
+  <line x1="470" y1="300" x2="980" y2="250" stroke="#c8b98a" stroke-width="6" stroke-dasharray="14 10"/>
+  <circle cx="240" cy="420" r="34" fill="#2e5e4e"/>
+  <circle cx="470" cy="300" r="46" fill="#a34a2e"/>
+  <circle cx="720" cy="380" r="34" fill="#8a6f3c"/>
+  <circle cx="980" cy="250" r="46" fill="#2e5e4e"/>
+  <text x="132" y="192" font-family="Georgia, 'Times New Roman', serif" font-size="88" font-weight="700" fill="#1d2a24">CIKM</text>
+  <text x="136" y="262" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#44403a">Information retrieval · data mining · knowledge management</text>
+  <text x="136" y="514" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1d2a24">Five tracks · EasyChair · GenAI disclosure · ACM proceedings</text>
+</svg>

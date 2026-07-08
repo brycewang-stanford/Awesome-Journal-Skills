@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SODA Skills</title>
+  <desc id="desc">Cover image for the SODA discrete-algorithms conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#1c2a25"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f3f4ee"/>
+  <path d="M170 470 L170 330 L340 330 L340 250 L560 250 L560 380 L760 380 L760 200 L1030 200" fill="none" stroke="#2d6a4f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="340" cy="330" r="34" fill="#b5573a"/>
+  <circle cx="560" cy="250" r="34" fill="#2d6a4f"/>
+  <circle cx="760" cy="380" r="34" fill="#8a5a83"/>
+  <circle cx="1030" cy="200" r="34" fill="#c9a227"/>
+  <text x="132" y="186" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1c2a25">SODA</text>
+  <text x="136" y="264" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#3f4a45">ACM-SIAM Symposium on Discrete Algorithms</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1c2a25">HotCRP · Full versions · Rebuttal · SIAM proceedings · ALENEX / SOSA</text>
+</svg>

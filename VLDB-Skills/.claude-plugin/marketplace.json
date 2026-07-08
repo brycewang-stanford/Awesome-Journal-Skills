@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "vldb-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for PVLDB rolling monthly submissions, the revise-and-resubmit cycle, PVLDB proceedings production, the Reproducibility Evaluation, and VLDB conference planning.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "vldb-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve VLDB-specific skills for database-systems paper strategy under the PVLDB rolling monthly journal model, grounded in the PVLDB Volume 19/20 submission guidelines, VLDB 2026/2027 research-track calls, and pVLDB reproducibility pages.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "vldb",
+        "pvldb",
+        "rolling-deadlines",
+        "revision-cycle",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/vldb-submission",
+        "skills/vldb-author-response",
+        "skills/vldb-camera-ready",
+        "skills/vldb-artifact-evaluation",
+        "skills/vldb-reproducibility",
+        "skills/vldb-supplementary",
+        "skills/vldb-review-process",
+        "skills/vldb-writing-style",
+        "skills/vldb-related-work",
+        "skills/vldb-experiments",
+        "skills/vldb-workflow",
+        "skills/vldb-topic-selection"
+      ]
+    }
+  ]
+}

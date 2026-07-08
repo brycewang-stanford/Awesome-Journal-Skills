@@ -1,0 +1,22 @@
+{
+  "name": "cikm-skills",
+  "description": "A 12-skill depth pack for CIKM (ACM International Conference on Information and Knowledge Management) submissions: tri-community venue fit across IR, data mining, and knowledge management, five-track routing, EasyChair submission checks, GenAI usage disclosure, review-stage strategy, ACM camera-ready, artifacts, reproducibility, and workflow. Grounded in the official CIKM 2026 site (Rome, November 7-11, 2026), track CFPs, submission policies, ACM DL proceedings, and dblp, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "cikm",
+    "information-retrieval",
+    "knowledge-management",
+    "data-mining",
+    "knowledge-graphs",
+    "conference-submission",
+    "easychair",
+    "acm-proceedings"
+  ]
+}

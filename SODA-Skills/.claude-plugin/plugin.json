@@ -1,0 +1,22 @@
+{
+  "name": "soda-skills",
+  "description": "A 12-skill depth pack for SODA (ACM-SIAM Symposium on Discrete Algorithms) submissions: venue fit and routing across the theory calendar, HotCRP submission with the no-page-limit full-version norm, lightweight double-blind hygiene, the short rebuttal window, SIAM proceedings camera-ready, ALENEX/SOSA satellite routing, and full-cycle workflow. Grounded in the SODA 2027 SIAM pages and HotCRP site, SIAM epubs proceedings volumes, and dblp, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "soda",
+    "discrete-algorithms",
+    "acm-siam",
+    "theoretical-computer-science",
+    "conference-submission",
+    "hotcrp",
+    "siam-proceedings",
+    "algorithm-engineering"
+  ]
+}

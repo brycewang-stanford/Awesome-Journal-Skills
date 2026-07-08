@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "asplos-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ASPLOS manuscript planning, two-cycle HotCRP submission, rapid review and rebuttal, Major Revision, ACM artifact badges, and camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "asplos-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ASPLOS-specific skills for architecture/PL/OS conference submission strategy, grounded in the official ASPLOS 2027 CFP, HotCRP cycle pages, artifact-evaluation instructions, and ACM DL proceedings.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "asplos",
+        "hotcrp",
+        "rapid-review",
+        "major-revision",
+        "artifact-badges",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/asplos-submission",
+        "skills/asplos-author-response",
+        "skills/asplos-camera-ready",
+        "skills/asplos-artifact-evaluation",
+        "skills/asplos-reproducibility",
+        "skills/asplos-supplementary",
+        "skills/asplos-review-process",
+        "skills/asplos-writing-style",
+        "skills/asplos-related-work",
+        "skills/asplos-experiments",
+        "skills/asplos-workflow",
+        "skills/asplos-topic-selection"
+      ]
+    }
+  ]
+}

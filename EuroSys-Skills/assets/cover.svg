@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">EuroSys Skills</title>
+  <desc id="desc">Cover image for the EuroSys computer-systems conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#1b2a3a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f0e6"/>
+  <rect x="150" y="330" width="180" height="120" rx="14" fill="none" stroke="#2f6f8f" stroke-width="12"/>
+  <rect x="420" y="270" width="180" height="180" rx="14" fill="none" stroke="#b3593f" stroke-width="12"/>
+  <rect x="690" y="220" width="180" height="230" rx="14" fill="none" stroke="#5a4a8f" stroke-width="12"/>
+  <path d="M330 390 L420 390 M600 360 L690 360" stroke="#1b2a3a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="960" cy="335" r="46" fill="#2f6f8f"/>
+  <text x="132" y="186" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1b2a3a">EuroSys</text>
+  <text x="136" y="256" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#3d4a57">European Conference on Computer Systems</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1b2a3a">Dual deadlines · HotCRP · sysartifacts badges · ACM SIGOPS Europe</text>
+</svg>

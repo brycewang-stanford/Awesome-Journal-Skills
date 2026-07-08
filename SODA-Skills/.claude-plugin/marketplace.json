@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "soda-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for SODA (ACM-SIAM Symposium on Discrete Algorithms): manuscript planning, HotCRP submission, the short rebuttal, SIAM proceedings camera-ready, and ALENEX/SOSA satellite routing.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "soda-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve SODA-specific skills for algorithms-conference submission strategy, grounded in the SODA 2027 SIAM conference and submission pages, the soda27 HotCRP site, SIAM epubs proceedings volumes, and dblp, checked on 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "soda",
+        "discrete-algorithms",
+        "hotcrp",
+        "rebuttal",
+        "siam-proceedings",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/soda-submission",
+        "skills/soda-author-response",
+        "skills/soda-camera-ready",
+        "skills/soda-artifact-evaluation",
+        "skills/soda-reproducibility",
+        "skills/soda-supplementary",
+        "skills/soda-review-process",
+        "skills/soda-writing-style",
+        "skills/soda-related-work",
+        "skills/soda-experiments",
+        "skills/soda-workflow",
+        "skills/soda-topic-selection"
+      ]
+    }
+  ]
+}

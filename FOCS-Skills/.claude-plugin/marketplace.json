@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "focs-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for FOCS theory-paper planning, HotCRP submission under the ten-page window, double-blind full versions, the summer review arc, and IEEE proceedings camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "focs-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve FOCS-specific skills for IEEE Symposium on Foundations of Computer Science submission strategy, grounded in the official FOCS 2026 Call for Papers, the IEEE TCMF pages, HotCRP portal, IEEE Xplore proceedings records, and FOCS award citations.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "focs",
+        "hotcrp",
+        "theory-of-computation",
+        "camera-ready",
+        "double-blind",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/focs-submission",
+        "skills/focs-author-response",
+        "skills/focs-camera-ready",
+        "skills/focs-artifact-evaluation",
+        "skills/focs-reproducibility",
+        "skills/focs-supplementary",
+        "skills/focs-review-process",
+        "skills/focs-writing-style",
+        "skills/focs-related-work",
+        "skills/focs-experiments",
+        "skills/focs-workflow",
+        "skills/focs-topic-selection"
+      ]
+    }
+  ]
+}

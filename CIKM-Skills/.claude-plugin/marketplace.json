@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cikm-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for CIKM manuscript planning: tri-community topic fit, five-track routing, EasyChair submission, GenAI disclosure, review strategy, ACM camera-ready, and artifact work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "cikm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve CIKM-specific skills for the ACM International Conference on Information and Knowledge Management, grounded in the official CIKM 2026 site (35th edition, Rome), per-track CFPs, submission policies, ACM Digital Library records, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "cikm",
+        "easychair",
+        "genai-disclosure",
+        "camera-ready",
+        "knowledge-graphs",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/cikm-submission",
+        "skills/cikm-author-response",
+        "skills/cikm-camera-ready",
+        "skills/cikm-artifact-evaluation",
+        "skills/cikm-reproducibility",
+        "skills/cikm-supplementary",
+        "skills/cikm-review-process",
+        "skills/cikm-writing-style",
+        "skills/cikm-related-work",
+        "skills/cikm-experiments",
+        "skills/cikm-workflow",
+        "skills/cikm-topic-selection"
+      ]
+    }
+  ]
+}

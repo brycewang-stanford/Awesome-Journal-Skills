@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "popl-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for POPL manuscript strategy: theory-first venue fit, HotCRP submission, full double-blind reviewing, author response, conditional acceptance, proof-artifact evaluation, and PACMPL Issue POPL publication.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "popl-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve POPL-specific skills for principles-of-programming-languages submission strategy, grounded in the POPL 2027 Call for Papers, popl27.sigplan.org important dates, POPL artifact-evaluation criteria, PACMPL ACM Digital Library pages, and dblp records.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "popl",
+        "hotcrp",
+        "mechanized-proofs",
+        "conditional-acceptance",
+        "pacmpl",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/popl-submission",
+        "skills/popl-author-response",
+        "skills/popl-camera-ready",
+        "skills/popl-artifact-evaluation",
+        "skills/popl-reproducibility",
+        "skills/popl-supplementary",
+        "skills/popl-review-process",
+        "skills/popl-writing-style",
+        "skills/popl-related-work",
+        "skills/popl-experiments",
+        "skills/popl-workflow",
+        "skills/popl-topic-selection"
+      ]
+    }
+  ]
+}

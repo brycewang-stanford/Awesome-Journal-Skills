@@ -50,7 +50,15 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `STOC-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
 | `NSDI-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
 | `USENIX-Security-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
-| `NDSS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack — category-8 at 32/100 |
+| `NDSS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
+| `FOCS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
+| `SODA-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
+| `POPL-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
+| `OOPSLA-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
+| `VLDB-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
+| `CIKM-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
+| `EuroSys-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
+| `ASPLOS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack — category-8 at 40/100 |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |
@@ -176,5 +184,5 @@ targets, 10 Chinese targets, a first 24-pack AI-first launch batch, and CS/AI pa
 `AISTATS-Skills` are the first six completed depth packs from that launch batch. Parallel W1 also
 added six category-1 field-economics depth packs: JDE, JPubE, JOLE, JIE, JME, and RJE.
 
-Next task: category-8 at 32/100. Continue EN core-61 production (e.g. FOCS, SODA, POPL, OOPSLA, VLDB, CIKM, EuroSys, ASPLOS, UIST, CSCW, INTERSPEECH, COLM), preserving
+Next task: category-8 at 40/100. Continue EN core-61 production (e.g. UIST, CSCW, ISCA, MICRO, RSS, CoRL, INTERSPEECH, COLM, ICDE, ICDM, RecSys, MobiCom), preserving
 official-source checks and clone-audit gates per pack.
