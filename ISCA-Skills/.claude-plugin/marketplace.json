@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "isca-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ISCA computer-architecture papers: venue routing, the November submission gate, simulator-grade evidence, rebuttal-plus-revision review, and badge-backed artifacts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "isca-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ISCA-specific skills covering the full arc from architecture-venue fit through HotCRP submission, two-round review with rebuttal and revision, camera-ready, and ACM-badged artifact evaluation, grounded in ISCA 2026 official pages checked 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "isca",
+        "computer-architecture",
+        "hotcrp",
+        "rebuttal-revision",
+        "artifact-badges",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/isca-submission",
+        "skills/isca-author-response",
+        "skills/isca-camera-ready",
+        "skills/isca-artifact-evaluation",
+        "skills/isca-reproducibility",
+        "skills/isca-supplementary",
+        "skills/isca-review-process",
+        "skills/isca-writing-style",
+        "skills/isca-related-work",
+        "skills/isca-experiments",
+        "skills/isca-workflow",
+        "skills/isca-topic-selection"
+      ]
+    }
+  ]
+}

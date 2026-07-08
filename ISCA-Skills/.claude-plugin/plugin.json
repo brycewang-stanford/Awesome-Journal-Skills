@@ -1,0 +1,22 @@
+{
+  "name": "isca-skills",
+  "description": "A 12-skill depth pack for ISCA, the ACM/IEEE International Symposium on Computer Architecture: venue fit and the architecture-conference calendar, the November abstract+paper gate, simulation-grade evaluation, the two-round review with rebuttal and revision, camera-ready, and ACM-badged artifact evaluation. Grounded in ISCA 2026 official pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "isca",
+    "computer-architecture",
+    "sigarch",
+    "ieee-tcca",
+    "conference-submission",
+    "hotcrp",
+    "simulation-methodology",
+    "artifact-evaluation"
+  ]
+}

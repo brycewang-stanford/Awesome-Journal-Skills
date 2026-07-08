@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "interspeech-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for Interspeech (ISCA flagship) papers: speech-venue routing, 4-page manuscript discipline, CMT submission and paper-update window, rebuttal, ISCA Archive camera-ready, audio artifacts, and speech evaluation rigor.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "interspeech-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve Interspeech-specific skills covering the full ISCA conference cycle — topic fit, submission, paper update, review and rebuttal, camera-ready, artifacts, reproducibility, and presentation — grounded in Interspeech 2026 (Sydney) official sources checked 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "interspeech",
+        "isca",
+        "speech-technology",
+        "cmt",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/interspeech-submission",
+        "skills/interspeech-author-response",
+        "skills/interspeech-camera-ready",
+        "skills/interspeech-artifact-evaluation",
+        "skills/interspeech-reproducibility",
+        "skills/interspeech-supplementary",
+        "skills/interspeech-review-process",
+        "skills/interspeech-writing-style",
+        "skills/interspeech-related-work",
+        "skills/interspeech-experiments",
+        "skills/interspeech-workflow",
+        "skills/interspeech-topic-selection"
+      ]
+    }
+  ]
+}

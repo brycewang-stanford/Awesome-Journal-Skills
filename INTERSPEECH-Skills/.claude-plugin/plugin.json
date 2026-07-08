@@ -1,0 +1,22 @@
+{
+  "name": "interspeech-skills",
+  "description": "A 12-skill depth pack for Interspeech, the ISCA (International Speech Communication Association) flagship conference: venue fit for speech science and technology, the 4-page-plus-references format, the post-deadline paper-update window, CMT submission, rebuttal, ISCA Archive camera-ready, audio artifacts, speech evaluation rigor (WER/MOS/EER with significance), and cycle management. Grounded in Interspeech 2026 (Sydney) sources checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "interspeech",
+    "isca",
+    "speech-processing",
+    "speech-recognition",
+    "speech-synthesis",
+    "conference-submission",
+    "isca-archive",
+    "speech-evaluation"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "cscw-skills",
+  "description": "A 12-skill depth pack for CSCW submissions: venue fit and CHI/ICWSM routing, the PACMHCI journal model with Revise-and-Resubmit rounds, PCS and Manuscript Central submission, qualitative and quantitative methods rigor, sensitive community-data ethics, response letters, and PACMHCI camera-ready production. Grounded in cscw.acm.org CFP pages, the rolling-model announcement, ACM DL PACMHCI issues, and dblp, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "cscw",
+    "social-computing",
+    "collaboration",
+    "pacmhci",
+    "revise-and-resubmit",
+    "conference-submission",
+    "qualitative-methods",
+    "research-ethics"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "colm-skills",
+  "description": "A 12-skill depth pack for COLM (Conference on Language Modeling) submissions: venue routing for LM research, the March abstract/paper deadlines, 9-page format, OpenReview rebuttal, contamination-aware evaluation, API-model reproducibility, compute disclosure, camera-ready, and conference planning. Grounded in COLM 2026 official pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "colm",
+    "language-models",
+    "llm-research",
+    "conference-submission",
+    "openreview",
+    "evaluation-contamination",
+    "reproducibility",
+    "compute-disclosure"
+  ]
+}

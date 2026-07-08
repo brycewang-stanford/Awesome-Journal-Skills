@@ -303,6 +303,13 @@
       "category": "academic"
     },
     {
+      "name": "colm-skills",
+      "source": "./COLM-Skills",
+      "description": "Twelve COLM-specific skills for language-modeling research submissions, grounded in the COLM 2026 Call for Papers, key-dates page, submission instructions, author guide, and OpenReview group, checked on 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "colt-skills",
       "source": "./COLT-Skills",
       "description": "Twelve COLT-specific skills for learning-theory conference strategy, grounded in the COLT 2026 Call for Papers, learningtheory.org conference pages, and PMLR proceedings volumes checked on 2026-07-08.",
@@ -345,6 +352,13 @@
       "category": "academic"
     },
     {
+      "name": "corl-skills",
+      "source": "./CoRL-Skills",
+      "description": "Twelve CoRL-specific skills for robot-learning conference strategy, grounded in the official CoRL 2026 author, reviewer, and rebuttal instructions, the OpenReview group, and PMLR proceedings volumes.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "crim-skills",
       "source": "./Criminology-Skills",
       "description": "Twelve-skill bundle covering the Criminology (ASC / Wiley) manuscript lifecycle, from theory-forward topic selection through crime-data analysis, transparency, blinded review, and R&R rebuttals.",
@@ -355,6 +369,13 @@
       "name": "ci-skills",
       "source": "./Critical-Inquiry-Skills",
       "description": "Twelve-skill bundle covering the Critical Inquiry essay lifecycle — from a bold interdisciplinary theoretical intervention through the reading of texts, images, and objects, to Chicago-style submission and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "cscw-skills",
+      "source": "./CSCW-Skills",
+      "description": "Twelve CSCW-specific skills covering the PACMHCI journal-model pipeline from topic routing through R&R response letters to journal-issue publication, grounded in cscw.acm.org CFP and rolling-model pages, ACM DL PACMHCI records, and dblp, checked 2026-07-08.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -649,6 +670,20 @@
       "name": "io-skills",
       "source": "./International-Organization-Skills",
       "description": "Twelve-skill bundle covering the International Organization (IO) manuscript lifecycle for international-relations research, centered on IR theory, IPE/security scope, and IO's verify-before-publication transparency policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "interspeech-skills",
+      "source": "./INTERSPEECH-Skills",
+      "description": "Twelve Interspeech-specific skills covering the full ISCA conference cycle — topic fit, submission, paper update, review and rebuttal, camera-ready, artifacts, reproducibility, and presentation — grounded in Interspeech 2026 (Sydney) official sources checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "isca-skills",
+      "source": "./ISCA-Skills",
+      "description": "Twelve ISCA-specific skills covering the full arc from architecture-venue fit through HotCRP submission, two-round review with rebuttal and revision, camera-ready, and ACM-badged artifact evaluation, grounded in ISCA 2026 official pages checked 2026-07-08.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1136,6 +1171,13 @@
       "category": "academic"
     },
     {
+      "name": "micro-skills",
+      "source": "./MICRO-Skills",
+      "description": "Twelve MICRO-specific skills for microarchitecture conference submission strategy, grounded in the official MICRO 2026 Call for Papers, submission guidelines, HotCRP site, SIGMICRO award pages, and ACM DL / IEEE Xplore proceedings records.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "mind-skills",
       "source": "./Mind-Skills",
       "description": "Twelve-skill bundle covering the Mind article lifecycle for analytic philosophy — from a sharp thesis and sound argument through objections and replies, conceptual method, exposition, the MIND house style, triple-anonymous review, and post-decision revision.",
@@ -1423,6 +1465,13 @@
       "category": "academic"
     },
     {
+      "name": "rss-skills",
+      "source": "./RSS-Skills",
+      "description": "Twelve RSS-specific skills for the single-track robotics flagship: science-first framing, OpenReview mechanics, the two-stage review with invited rebuttals, and free open-access proceedings, grounded in the RSS 2026 Sydney cycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "science-skills",
       "source": "./Science-Skills",
       "description": "Twelve-skill bundle covering the Science manuscript lifecycle: workflow router, scope/significance fit, advance framing, abstract + one-sentence summary, main-text writing, display items, statistics & reproducibility, data/materials/code availability, reference style, cover letter, submission preflight, and reviewer rebuttal.",
@@ -1552,6 +1601,13 @@
       "name": "uai-skills",
       "source": "./UAI-Skills",
       "description": "Twelve UAI-specific skills for probabilistic-AI conference submission strategy, grounded in official AUAI / UAI 2026 conference pages, the UAI OpenReview group, PMLR proceedings volumes, and the AUAI Code of Conduct.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "uist-skills",
+      "source": "./UIST-Skills",
+      "description": "Twelve UIST-specific skills for interface-systems conference strategy, grounded in the official UIST 2026 Call for Participation, Author Guide, and organizers pages, plus ACM DL and dblp proceedings records, checked on 2026-07-08.",
       "version": "0.1.0",
       "category": "academic"
     },

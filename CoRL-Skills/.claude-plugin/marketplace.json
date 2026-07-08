@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "corl-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for CoRL robot-learning papers: venue routing, OpenReview submission, one-page rebuttal, evaluation-episode rigor, video evidence, and PMLR camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "corl-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve CoRL-specific skills for robot-learning conference strategy, grounded in the official CoRL 2026 author, reviewer, and rebuttal instructions, the OpenReview group, and PMLR proceedings volumes.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "corl",
+        "robot-learning",
+        "openreview",
+        "rebuttal",
+        "sim-to-real",
+        "camera-ready"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/corl-submission",
+        "skills/corl-author-response",
+        "skills/corl-camera-ready",
+        "skills/corl-artifact-evaluation",
+        "skills/corl-reproducibility",
+        "skills/corl-supplementary",
+        "skills/corl-review-process",
+        "skills/corl-writing-style",
+        "skills/corl-related-work",
+        "skills/corl-experiments",
+        "skills/corl-workflow",
+        "skills/corl-topic-selection"
+      ]
+    }
+  ]
+}

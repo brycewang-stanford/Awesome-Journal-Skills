@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">UIST Skills</title>
+  <desc id="desc">Cover image for the ACM UIST conference submission skills pack, showing layered interface windows and a pointer.</desc>
+  <rect width="1200" height="630" fill="#0e3b43"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#fdf6e3"/>
+  <g>
+    <rect x="640" y="150" width="330" height="220" rx="14" fill="#3c6e71"/>
+    <rect x="640" y="150" width="330" height="42" rx="14" fill="#2a5052"/>
+    <rect x="700" y="215" width="330" height="220" rx="14" fill="#d9a404"/>
+    <rect x="700" y="215" width="330" height="42" rx="14" fill="#b38703"/>
+    <rect x="760" y="280" width="330" height="220" rx="14" fill="#9c2b63"/>
+    <rect x="760" y="280" width="330" height="42" rx="14" fill="#7c1f4e"/>
+    <path d="M905 380 L905 470 L928 448 L946 486 L964 478 L947 441 L978 439 Z" fill="#fdf6e3" stroke="#0e3b43" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <text x="132" y="200" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#0e3b43">UIST</text>
+  <text x="134" y="278" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#41403a">User interface software and technology</text>
+  <text x="134" y="340" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#5a5850">Interaction techniques · Toolkits · Hardware · Demos</text>
+  <text x="134" y="512" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0e3b43">PCS · Video figure · Rebuttal · TAPS · Detroit 2026</text>
+</svg>

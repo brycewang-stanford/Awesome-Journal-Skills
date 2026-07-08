@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CoRL Skills</title>
+  <desc id="desc">Cover image for the Conference on Robot Learning submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101c17"/>
+  <rect x="64" y="64" width="1072" height="502" rx="24" fill="#f2f4ee"/>
+  <g stroke="#20614e" stroke-width="16" stroke-linecap="round" fill="none">
+    <path d="M210 470 L210 350 L330 300 L430 340"/>
+    <path d="M430 340 L540 250 L660 290"/>
+  </g>
+  <circle cx="210" cy="350" r="26" fill="#20614e"/>
+  <circle cx="330" cy="300" r="26" fill="#c2632f"/>
+  <circle cx="430" cy="340" r="26" fill="#20614e"/>
+  <circle cx="540" cy="250" r="26" fill="#c2632f"/>
+  <rect x="632" y="262" width="56" height="56" rx="10" fill="#4a3f78"/>
+  <g stroke="#9aa694" stroke-width="4" stroke-dasharray="2 14" fill="none">
+    <path d="M660 290 C 760 210, 880 210, 980 260"/>
+  </g>
+  <circle cx="980" cy="260" r="18" fill="#4a3f78"/>
+  <text x="128" y="180" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#101c17">CoRL</text>
+  <text x="132" y="234" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#3c4a42">Conference on Robot Learning</text>
+  <text x="132" y="520" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#20614e">Policies · Real Robots · Sim-to-Real · PMLR · OpenReview</text>
+</svg>

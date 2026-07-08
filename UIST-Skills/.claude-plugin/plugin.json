@@ -1,0 +1,22 @@
+{
+  "name": "uist-skills",
+  "description": "A 12-skill depth pack for UIST submissions: interface-systems venue routing, PCS submission audits, video-figure evidence, the 5,000-character rebuttal, TAPS camera-ready with accessibility requirements, artifact and demo packaging, technical-plus-user evaluation design, and full-cycle workflow. Grounded in official UIST 2026 pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "uist",
+    "human-computer-interaction",
+    "interactive-systems",
+    "interaction-techniques",
+    "conference-submission",
+    "pcs",
+    "video-figure",
+    "acm-taps"
+  ]
+}

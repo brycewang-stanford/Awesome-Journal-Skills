@@ -58,7 +58,15 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `VLDB-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
 | `CIKM-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
 | `EuroSys-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
-| `ASPLOS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack — category-8 at 40/100 |
+| `ASPLOS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 third-tranche depth pack |
+| `UIST-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fourth-tranche depth pack |
+| `CSCW-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fourth-tranche depth pack |
+| `ISCA-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fourth-tranche depth pack |
+| `MICRO-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fourth-tranche depth pack |
+| `RSS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fourth-tranche depth pack |
+| `CoRL-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fourth-tranche depth pack |
+| `INTERSPEECH-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fourth-tranche depth pack |
+| `COLM-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fourth-tranche depth pack — category-8 at 48/100 |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |
@@ -184,5 +192,5 @@ targets, 10 Chinese targets, a first 24-pack AI-first launch batch, and CS/AI pa
 `AISTATS-Skills` are the first six completed depth packs from that launch batch. Parallel W1 also
 added six category-1 field-economics depth packs: JDE, JPubE, JOLE, JIE, JME, and RJE.
 
-Next task: category-8 at 40/100. Continue EN core-61 production (e.g. UIST, CSCW, ISCA, MICRO, RSS, CoRL, INTERSPEECH, COLM, ICDE, ICDM, RecSys, MobiCom), preserving
+Next task: category-8 at 48/100. Continue EN core-61 production (e.g. HPCA, IROS, ICDE, ICDM, RecSys, MobiCom, ACM MM, ICASSP, EACL, SIGCOMM), preserving
 official-source checks and clone-audit gates per pack.

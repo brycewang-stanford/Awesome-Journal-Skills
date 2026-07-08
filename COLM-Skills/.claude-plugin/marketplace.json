@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "colm-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for COLM (Conference on Language Modeling) paper planning, OpenReview submission, rebuttal, LM-specific evaluation rigor, and camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "colm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve COLM-specific skills for language-modeling research submissions, grounded in the COLM 2026 Call for Papers, key-dates page, submission instructions, author guide, and OpenReview group, checked on 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "colm",
+        "language-models",
+        "openreview",
+        "rebuttal",
+        "camera-ready",
+        "llm-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/colm-submission",
+        "skills/colm-author-response",
+        "skills/colm-camera-ready",
+        "skills/colm-artifact-evaluation",
+        "skills/colm-reproducibility",
+        "skills/colm-supplementary",
+        "skills/colm-review-process",
+        "skills/colm-writing-style",
+        "skills/colm-related-work",
+        "skills/colm-experiments",
+        "skills/colm-workflow",
+        "skills/colm-topic-selection"
+      ]
+    }
+  ]
+}

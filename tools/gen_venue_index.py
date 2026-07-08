@@ -91,6 +91,10 @@ DISC = [
     ("POPL", "cs-ai (conference)"), ("OOPSLA", "cs-ai (conference)"),
     ("VLDB", "cs-ai (conference)"), ("CIKM", "cs-ai (conference)"),
     ("EuroSys", "cs-ai (conference)"), ("ASPLOS", "cs-ai (conference)"),
+    ("UIST", "cs-ai (conference)"), ("CSCW", "cs-ai (conference)"),
+    ("ISCA-Skills", "cs-ai (conference)"), ("MICRO-Skills", "cs-ai (conference)"),
+    ("RSS-Skills", "cs-ai (conference)"), ("CoRL", "cs-ai (conference)"),
+    ("INTERSPEECH", "cs-ai (conference)"), ("COLM", "cs-ai (conference)"),
     # specific economics flagships / subfields not caught generically
     ("AEJ-Applied", "economics/applied"), ("AEJ-Macro", "economics/macro"),
     ("AEJ-Micro", "economics/micro"), ("AER-Insights", "economics"),
