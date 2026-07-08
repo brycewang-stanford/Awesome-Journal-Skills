@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "uist-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for UIST interface-systems papers: venue routing, PCS submission, video figures, rebuttal, demos, and ACM TAPS camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "uist-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve UIST-specific skills for interface-systems conference strategy, grounded in the official UIST 2026 Call for Participation, Author Guide, and organizers pages, plus ACM DL and dblp proceedings records, checked on 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "uist",
+        "pcs",
+        "video-figure",
+        "rebuttal",
+        "camera-ready",
+        "interactive-systems"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/uist-submission",
+        "skills/uist-author-response",
+        "skills/uist-camera-ready",
+        "skills/uist-artifact-evaluation",
+        "skills/uist-reproducibility",
+        "skills/uist-supplementary",
+        "skills/uist-review-process",
+        "skills/uist-writing-style",
+        "skills/uist-related-work",
+        "skills/uist-experiments",
+        "skills/uist-workflow",
+        "skills/uist-topic-selection"
+      ]
+    }
+  ]
+}

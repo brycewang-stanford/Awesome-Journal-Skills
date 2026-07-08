@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "rss-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for Robotics: Science and Systems (RSS) paper planning, OpenReview submission, the invited rebuttal, real-robot evidence, supplementary video, and roboticsproceedings.org camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "rss-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve RSS-specific skills for the single-track robotics flagship: science-first framing, OpenReview mechanics, the two-stage review with invited rebuttals, and free open-access proceedings, grounded in the RSS 2026 Sydney cycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "rss",
+        "robotics",
+        "openreview",
+        "rebuttal",
+        "real-robot-evidence",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/rss-submission",
+        "skills/rss-author-response",
+        "skills/rss-camera-ready",
+        "skills/rss-artifact-evaluation",
+        "skills/rss-reproducibility",
+        "skills/rss-supplementary",
+        "skills/rss-review-process",
+        "skills/rss-writing-style",
+        "skills/rss-related-work",
+        "skills/rss-experiments",
+        "skills/rss-workflow",
+        "skills/rss-topic-selection"
+      ]
+    }
+  ]
+}

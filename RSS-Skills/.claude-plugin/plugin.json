@@ -1,0 +1,22 @@
+{
+  "name": "rss-skills",
+  "description": "A 12-skill depth pack for Robotics: Science and Systems (RSS) submissions: venue fit and the ICRA/IROS/RSS/CoRL routing calendar, OpenReview submission audits, the invited one-page rebuttal, real-robot evidence and reproducibility, supplementary video packaging, camera-ready for the free roboticsproceedings.org archive, and conference-week planning. Grounded in the RSS 2026 (Sydney) CFP, review-process page, OpenReview group, and roboticsproceedings.org, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "rss",
+    "robotics",
+    "science-and-systems",
+    "single-track-conference",
+    "conference-submission",
+    "openreview",
+    "real-robot-experiments",
+    "open-access-proceedings"
+  ]
+}

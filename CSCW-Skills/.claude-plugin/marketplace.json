@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cscw-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for CSCW paper strategy: social-computing venue fit, the PACMHCI journal model, Revise-and-Resubmit navigation, methods-pluralist evidence, community-data ethics, and journal camera-ready production.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "cscw-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve CSCW-specific skills covering the PACMHCI journal-model pipeline from topic routing through R&R response letters to journal-issue publication, grounded in cscw.acm.org CFP and rolling-model pages, ACM DL PACMHCI records, and dblp, checked 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "cscw",
+        "pacmhci",
+        "revise-and-resubmit",
+        "social-computing",
+        "qualitative-rigor",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/cscw-submission",
+        "skills/cscw-author-response",
+        "skills/cscw-camera-ready",
+        "skills/cscw-artifact-evaluation",
+        "skills/cscw-reproducibility",
+        "skills/cscw-supplementary",
+        "skills/cscw-review-process",
+        "skills/cscw-writing-style",
+        "skills/cscw-related-work",
+        "skills/cscw-experiments",
+        "skills/cscw-workflow",
+        "skills/cscw-topic-selection"
+      ]
+    }
+  ]
+}

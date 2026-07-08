@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MICRO Skills</title>
+  <desc id="desc">Cover image for the MICRO microarchitecture symposium submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#10201a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f0f4ee"/>
+  <g fill="none" stroke="#c05621" stroke-width="11">
+    <rect x="140" y="330" width="130" height="90" rx="10"/>
+    <rect x="330" y="330" width="130" height="90" rx="10"/>
+    <rect x="520" y="330" width="130" height="90" rx="10"/>
+    <rect x="710" y="330" width="130" height="90" rx="10"/>
+    <rect x="900" y="330" width="130" height="90" rx="10"/>
+  </g>
+  <path d="M270 375 H330 M460 375 H520 M650 375 H710 M840 375 H900" fill="none" stroke="#846358" stroke-width="9" stroke-linecap="round"/>
+  <path d="M585 330 V270 H1030 V330" fill="none" stroke="#2f855a" stroke-width="9" stroke-linecap="round" stroke-dasharray="2 16"/>
+  <circle cx="205" cy="470" r="16" fill="#d69e2e"/>
+  <circle cx="585" cy="470" r="16" fill="#2f855a"/>
+  <circle cx="965" cy="470" r="16" fill="#c05621"/>
+  <text x="132" y="186" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" fill="#10201a">MICRO</text>
+  <text x="136" y="256" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#3f4a44">The microarchitecture flagship since 1968</text>
+  <text x="136" y="522" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#10201a">Pipelines · Cycle-level evidence · Rebuttal · Test of Time</text>
+</svg>

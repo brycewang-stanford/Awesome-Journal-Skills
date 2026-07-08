@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CSCW Skills</title>
+  <desc id="desc">Cover image for the CSCW social-computing conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#1d2a3a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f0e6"/>
+  <path d="M210 400 L420 400 M315 300 L315 500 M700 260 L920 260 M810 180 L810 340" fill="none" stroke="#3e7c6f" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="315" cy="400" r="40" fill="#c46a4f"/>
+  <circle cx="810" cy="260" r="40" fill="#3e7c6f"/>
+  <circle cx="1010" cy="440" r="40" fill="#5d4a8a"/>
+  <path d="M355 400 L770 280 M850 280 L972 420" fill="none" stroke="#8a94a6" stroke-width="10" stroke-linecap="round" stroke-dasharray="4 18"/>
+  <text x="132" y="192" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1d2a3a">CSCW</text>
+  <text x="136" y="270" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#374151">Collaboration, social computing, and cooperative work</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1d2a3a">PACMHCI · Revise &amp; Resubmit · Rolling Submissions · Community Ethics</text>
+</svg>

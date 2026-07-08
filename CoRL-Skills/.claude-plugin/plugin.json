@@ -1,0 +1,22 @@
+{
+  "name": "corl-skills",
+  "description": "A 12-skill depth pack for CoRL, the Conference on Robot Learning: venue routing at the ML/robotics intersection, OpenReview submission, the one-page PDF rebuttal, first-round rejection triage, learning-grade experiments (seeds, episodes, sim-to-real), supplementary video evidence, and the PMLR camera-ready. Grounded in official corl.org 2026 pages, OpenReview, and PMLR volumes checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "corl",
+    "robot-learning",
+    "machine-learning",
+    "robotics",
+    "sim-to-real",
+    "conference-submission",
+    "openreview",
+    "pmlr"
+  ]
+}

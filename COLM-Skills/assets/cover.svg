@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">COLM Skills</title>
+  <desc id="desc">Cover image for the COLM Conference on Language Modeling submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#1b1430"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f0ea"/>
+  <rect x="150" y="330" width="120" height="52" rx="12" fill="#7a5af5"/>
+  <rect x="286" y="330" width="168" height="52" rx="12" fill="#2f8f6f"/>
+  <rect x="470" y="330" width="96" height="52" rx="12" fill="#d97742"/>
+  <rect x="582" y="330" width="200" height="52" rx="12" fill="#7a5af5"/>
+  <rect x="798" y="330" width="140" height="52" rx="12" fill="#2f8f6f"/>
+  <rect x="954" y="330" width="88" height="52" rx="12" fill="#c8bfae"/>
+  <path d="M150 428 h892" stroke="#1b1430" stroke-width="4" stroke-dasharray="10 12" fill="none"/>
+  <text x="132" y="192" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1b1430">COLM</text>
+  <text x="136" y="270" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#43405a">Conference on Language Modeling</text>
+  <text x="136" y="512" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1b1430">LM research · OpenReview · Rebuttal · Contamination-aware evaluation</text>
+</svg>

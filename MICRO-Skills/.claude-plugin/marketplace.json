@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "micro-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for MICRO (IEEE/ACM International Symposium on Microarchitecture) manuscript planning, HotCRP submission, rebuttal/revision, artifact evaluation, and camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "micro-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve MICRO-specific skills for microarchitecture conference submission strategy, grounded in the official MICRO 2026 Call for Papers, submission guidelines, HotCRP site, SIGMICRO award pages, and ACM DL / IEEE Xplore proceedings records.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "micro",
+        "microarchitecture",
+        "hotcrp",
+        "rebuttal",
+        "artifact-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/micro-submission",
+        "skills/micro-author-response",
+        "skills/micro-camera-ready",
+        "skills/micro-artifact-evaluation",
+        "skills/micro-reproducibility",
+        "skills/micro-supplementary",
+        "skills/micro-review-process",
+        "skills/micro-writing-style",
+        "skills/micro-related-work",
+        "skills/micro-experiments",
+        "skills/micro-workflow",
+        "skills/micro-topic-selection"
+      ]
+    }
+  ]
+}
