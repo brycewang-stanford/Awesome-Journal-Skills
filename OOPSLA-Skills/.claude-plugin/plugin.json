@@ -1,0 +1,22 @@
+{
+  "name": "oopsla-skills",
+  "description": "A 12-skill depth pack for OOPSLA papers published as PACMPL Issue OOPSLA: choosing a submission round, the two-round Accept/Minor-Revision/Major-Revision/Reject pipeline, revision strategy, artifact badges, SIGPLAN empirical standards, and SPLASH presentation. Grounded in the OOPSLA 2026 CFP and PACMPL sources checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "oopsla",
+    "splash",
+    "sigplan",
+    "pacmpl",
+    "programming-languages",
+    "two-round-review",
+    "artifact-evaluation",
+    "conference-submission"
+  ]
+}

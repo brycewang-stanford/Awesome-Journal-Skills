@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">POPL Skills</title>
+  <desc id="desc">Cover image for the POPL principles-of-programming-languages skills pack.</desc>
+  <rect width="1200" height="630" fill="#1d1a2e"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1ea"/>
+  <path d="M170 420 L340 420 L340 300 L520 300 L520 380 L710 380 L710 240 L900 240 L900 320 L1040 320" fill="none" stroke="#4a5fa5" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="340" cy="300" r="38" fill="#b8574f"/>
+  <circle cx="710" cy="240" r="38" fill="#4a5fa5"/>
+  <circle cx="1040" cy="320" r="38" fill="#3f7d5c"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1d1a2e">POPL</text>
+  <text x="136" y="268" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#3d4451">Semantics, type systems, and verification</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1d1a2e">HotCRP · Mechanized proofs · PACMPL · January</text>
+</svg>

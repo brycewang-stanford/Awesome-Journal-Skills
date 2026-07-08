@@ -205,6 +205,13 @@
       "category": "academic"
     },
     {
+      "name": "asplos-skills",
+      "source": "./ASPLOS-Skills",
+      "description": "Twelve ASPLOS-specific skills for architecture/PL/OS conference submission strategy, grounded in the official ASPLOS 2027 CFP, HotCRP cycle pages, artifact-evaluation instructions, and ACM DL proceedings.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "british-journal-of-political-science-skills",
       "source": "./British-Journal-of-Political-Science-Skills",
       "description": "Twelve-skill bundle covering the British Journal of Political Science (BJPS) manuscript lifecycle across all political-science subfields and the journal's Research Article, Letter, and Comment formats.",
@@ -271,6 +278,13 @@
       "name": "chinese-sport-science-journal-skills",
       "source": "./Chinese-Sport-Science-Journal-Skills",
       "description": "Chinese sport-science journal routing and per-journal fit skills with official-submission-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "cikm-skills",
+      "source": "./CIKM-Skills",
+      "description": "Twelve CIKM-specific skills for the ACM International Conference on Information and Knowledge Management, grounded in the official CIKM 2026 site (35th edition, Rome), per-track CFPs, submission policies, ACM Digital Library records, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -471,6 +485,13 @@
       "category": "academic"
     },
     {
+      "name": "eurosys-skills",
+      "source": "./EuroSys-Skills",
+      "description": "Twelve EuroSys-specific skills for systems-conference submission strategy, grounded in the EuroSys 2027 Call for Papers, the spring/fall HotCRP instances, sysartifacts artifact-evaluation pages, and the European Chapter of ACM SIGOPS at eurosys.org.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "experimental-economics-skills",
       "source": "./Experimental-Economics-Skills",
       "description": "Twelve-skill bundle covering the Experimental Economics manuscript lifecycle.",
@@ -488,6 +509,13 @@
       "name": "financial-management-skills",
       "source": "./Financial-Management-Skills",
       "description": "Twelve-skill bundle covering the Financial Management manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "focs-skills",
+      "source": "./FOCS-Skills",
+      "description": "Twelve FOCS-specific skills for IEEE Symposium on Foundations of Computer Science submission strategy, grounded in the official FOCS 2026 Call for Papers, the IEEE TCMF pages, HotCRP portal, IEEE Xplore proceedings records, and FOCS award citations.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1178,6 +1206,13 @@
       "category": "academic"
     },
     {
+      "name": "oopsla-skills",
+      "source": "./OOPSLA-Skills",
+      "description": "Twelve OOPSLA-specific skills covering the two-round PACMPL review model, Minor/Major Revision handling, double-anonymous HotCRP submission, artifact evaluation, and the SPLASH conference calendar, grounded in official OOPSLA 2026 and PACMPL sources.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "ors-skills",
       "source": "./Operations-Research-Skills",
       "description": "Twelve-skill bundle covering the Operations Research (OR) manuscript lifecycle.",
@@ -1244,6 +1279,13 @@
       "name": "pnas-skills",
       "source": "./PNAS-Skills",
       "description": "Twelve-skill bundle covering the PNAS manuscript lifecycle: workflow router, scope/significance fit, submission-track selection (Direct vs Contributed), the ≤120-word Significance Statement, ≤250-word abstract, main-text writing with in-text Materials and Methods + classification, display items, statistics & reproducibility, data/code availability, numbered reference style, submission preflight, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "popl-skills",
+      "source": "./POPL-Skills",
+      "description": "Twelve POPL-specific skills for principles-of-programming-languages submission strategy, grounded in the POPL 2027 Call for Papers, popl27.sigplan.org important dates, POPL artifact-evaluation criteria, PACMPL ACM Digital Library pages, and dblp records.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1444,6 +1486,13 @@
       "category": "academic"
     },
     {
+      "name": "soda-skills",
+      "source": "./SODA-Skills",
+      "description": "Twelve SODA-specific skills for algorithms-conference submission strategy, grounded in the SODA 2027 SIAM conference and submission pages, the soda27 HotCRP site, SIAM epubs proceedings volumes, and dblp, checked on 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "sosp-skills",
       "source": "./SOSP-Skills",
       "description": "Twelve SOSP-specific skills for operating-systems conference submission strategy, grounded in the official SOSP 2026 CFP and author guidelines on sigops.org, the sosp26 HotCRP deadlines page, and the sysartifacts artifact-evaluation program.",
@@ -1510,6 +1559,13 @@
       "name": "usenix-security-skills",
       "source": "./USENIX-Security-Skills",
       "description": "Twelve USENIX Security-specific skills for security conference submission strategy, grounded in the USENIX Security '26 Call for Papers, the '27 cycle calendar, the Call for Artifacts, and the ethics guidelines.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "vldb-skills",
+      "source": "./VLDB-Skills",
+      "description": "Twelve VLDB-specific skills for database-systems paper strategy under the PVLDB rolling monthly journal model, grounded in the PVLDB Volume 19/20 submission guidelines, VLDB 2026/2027 research-track calls, and pVLDB reproducibility pages.",
       "version": "0.1.0",
       "category": "academic"
     },

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ASPLOS Skills</title>
+  <desc id="desc">Cover image for the ASPLOS conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#1d1a2f"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f2efe6"/>
+  <rect x="150" y="330" width="180" height="120" rx="14" fill="none" stroke="#8a4f2d" stroke-width="12"/>
+  <rect x="420" y="280" width="180" height="170" rx="14" fill="none" stroke="#2d6a4f" stroke-width="12"/>
+  <rect x="690" y="230" width="180" height="220" rx="14" fill="none" stroke="#3d5a80" stroke-width="12"/>
+  <path d="M330 390 H420 M600 365 H690 M870 340 H1020" fill="none" stroke="#1d1a2f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1020" cy="340" r="30" fill="#8a4f2d"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1d1a2f">ASPLOS</text>
+  <text x="136" y="262" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#374151">Architecture x Programming Languages x Operating Systems</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1d1a2f">HotCRP · Two deadlines · Major Revision · ACM artifact badges</text>
+</svg>

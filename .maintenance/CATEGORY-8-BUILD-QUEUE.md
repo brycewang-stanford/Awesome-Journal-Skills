@@ -7,16 +7,17 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 32 verified pack roots. The ENTIRE Wave 25-A launch batch
-  (24/24) finished 2026-07-08, and the first EN core-61 second tranche
-  (NAACL, ECCV, PLDI, SIGMOD, STOC, NSDI, USENIX Security, NDSS — 8 packs)
-  landed the same day: `NeurIPS-Skills`, `ICML-Skills`, `ICLR-Skills`,
+- Complete category-8 depth packs: 40 verified pack roots. The ENTIRE Wave 25-A launch batch
+  (24/24) finished 2026-07-08; the first EN core-61 second tranche
+  (NAACL, ECCV, PLDI, SIGMOD, STOC, NSDI, USENIX Security, NDSS) and the third tranche
+  (FOCS, SODA, POPL, OOPSLA, VLDB, CIKM, EuroSys, ASPLOS) landed the same day: `NeurIPS-Skills`, `ICML-Skills`, `ICLR-Skills`,
   `AAAI-Skills`, `IJCAI-Skills`, `AISTATS-Skills`, `UAI-Skills`, `COLT-Skills`, `MLSys-Skills`,
   `KDD-Skills`, `The-Web-Conference-Skills`, `WSDM-Skills`, `SIGIR-Skills`, `CVPR-Skills`,
   `ICCV-Skills`, `ACL-Skills`, `EMNLP-Skills`, `ICRA-Skills`, `CHI-Skills`, `SOSP-Skills`,
   `OSDI-Skills`, `IEEE-SP-Skills`, `ACM-CCS-Skills`, `ICSE-Skills`, `NAACL-Skills`, `ECCV-Skills`,
   `PLDI-Skills`, `SIGMOD-Skills`, `STOC-Skills`, `NSDI-Skills`, `USENIX-Security-Skills`,
-  `NDSS-Skills`.
+  `NDSS-Skills`, `FOCS-Skills`, `SODA-Skills`, `POPL-Skills`, `OOPSLA-Skills`, `VLDB-Skills`,
+  `CIKM-Skills`, `EuroSys-Skills`, `ASPLOS-Skills`.
 - Existing category-8 breadth seeds:
   - 155 conference profiles in `Computer-Science-Conference-Skills`.
   - 3 journal profiles in `English-NaturalScience-Journal-Skills`: `nature-machine-intelligence`,

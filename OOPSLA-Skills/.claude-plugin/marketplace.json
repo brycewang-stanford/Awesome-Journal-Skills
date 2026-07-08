@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "oopsla-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for OOPSLA round selection, HotCRP submission, revision-cycle strategy, PACMPL Issue OOPSLA publication, artifact badges, and SPLASH presentation planning.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "oopsla-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve OOPSLA-specific skills covering the two-round PACMPL review model, Minor/Major Revision handling, double-anonymous HotCRP submission, artifact evaluation, and the SPLASH conference calendar, grounded in official OOPSLA 2026 and PACMPL sources.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "oopsla",
+        "pacmpl",
+        "two-round-review",
+        "major-revision",
+        "artifact-badges",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/oopsla-submission",
+        "skills/oopsla-author-response",
+        "skills/oopsla-camera-ready",
+        "skills/oopsla-artifact-evaluation",
+        "skills/oopsla-reproducibility",
+        "skills/oopsla-supplementary",
+        "skills/oopsla-review-process",
+        "skills/oopsla-writing-style",
+        "skills/oopsla-related-work",
+        "skills/oopsla-experiments",
+        "skills/oopsla-workflow",
+        "skills/oopsla-topic-selection"
+      ]
+    }
+  ]
+}

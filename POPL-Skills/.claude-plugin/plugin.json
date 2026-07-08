@@ -1,0 +1,23 @@
+{
+  "name": "popl-skills",
+  "description": "A 12-skill depth pack for POPL submissions: venue fit for semantics/types/verification work, HotCRP submission under the 25-page acmsmall cap, full double-blind hygiene, author response, conditional-acceptance revision, mechanized-proof artifact evaluation, PACMPL Issue POPL camera-ready, and the July-to-January campaign calendar. Grounded in the POPL 2027 CFP, popl27.sigplan.org dates, POPL artifact-evaluation track pages, PACMPL on the ACM Digital Library, and dblp, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "popl",
+    "programming-languages",
+    "semantics",
+    "type-systems",
+    "verification",
+    "mechanized-proofs",
+    "pacmpl",
+    "sigplan",
+    "conference-submission"
+  ]
+}

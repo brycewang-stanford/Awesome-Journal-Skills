@@ -24,7 +24,7 @@ Claude SkillOpt、W1/W2 workflow 波次）已完成并归档至
 
 | Lane / Pack | Agent | Status | Notes |
 |------|-------|--------|-------|
-| ROADMAP-2026-08 全量执行 | Claude (owner) | done (2026-07-08) | 四周工作流 + 三轮增补全部完成：质量满分收尾、Wave 25-A 24/24、清欠、治理、banner；终态 213 pack / 3118 skill |
+| ROADMAP-2026-08 全量执行 | Claude (owner) | done (2026-07-08) | 四周工作流 + 多轮增补全部完成：质量满分收尾、Wave 25-A 24/24 + 两个 EN core-61 梯队（共 40 会议深度包）、清欠、治理、banner、PR #6/#7 合并；终态 229 pack / 3310 skill |
 
 ## 常设规则
 

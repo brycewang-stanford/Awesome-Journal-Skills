@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "eurosys-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for EuroSys paper planning, dual-deadline strategy, HotCRP submission, one-shot revisions, sysartifacts artifact evaluation, and ACM camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "eurosys-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve EuroSys-specific skills for systems-conference submission strategy, grounded in the EuroSys 2027 Call for Papers, the spring/fall HotCRP instances, sysartifacts artifact-evaluation pages, and the European Chapter of ACM SIGOPS at eurosys.org.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "eurosys",
+        "hotcrp",
+        "one-shot-revision",
+        "camera-ready",
+        "artifact-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/eurosys-submission",
+        "skills/eurosys-author-response",
+        "skills/eurosys-camera-ready",
+        "skills/eurosys-artifact-evaluation",
+        "skills/eurosys-reproducibility",
+        "skills/eurosys-supplementary",
+        "skills/eurosys-review-process",
+        "skills/eurosys-writing-style",
+        "skills/eurosys-related-work",
+        "skills/eurosys-experiments",
+        "skills/eurosys-workflow",
+        "skills/eurosys-topic-selection"
+      ]
+    }
+  ]
+}
