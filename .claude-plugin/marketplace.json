@@ -44,6 +44,20 @@
       "category": "academic"
     },
     {
+      "name": "acl-skills",
+      "source": "./ACL-Skills",
+      "description": "Twelve ACL-specific skills for NLP conference submission strategy under ACL Rolling Review, grounded in the ACL 2026 CFP, aclrollingreview.org policies, OpenReview ARR groups, and the ACL Anthology.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "acm-ccs-skills",
+      "source": "./ACM-CCS-Skills",
+      "description": "Twelve CCS-specific skills for security-conference submission strategy, grounded in the official ACM CCS 2026 Call for Papers, call for artifacts, HotCRP cycle sites, and SIGSAC award and steering pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "asq-skills",
       "source": "./Administrative-Science-Quarterly-Skills",
       "description": "Twelve-skill bundle covering the Administrative Science Quarterly (ASQ) manuscript lifecycle.",
@@ -212,6 +226,13 @@
       "category": "academic"
     },
     {
+      "name": "chi-skills",
+      "source": "./CHI-Skills",
+      "description": "Twelve CHI-specific skills for human-computer interaction conference strategy, grounded in the CHI 2027 Papers call, review-process pages, SIGCHI accessibility and video guides, and ACM open-access policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "china-economic-quarterly-skills",
       "source": "./China-Economic-Quarterly-Skills",
       "description": "Twelve-skill bundle covering the 《经济学(季刊)》 manuscript lifecycle: workflow router, fit positioning, internationally-legible topic selection, field-benchmarked literature review, structural / quasi-experimental identification, modern staggered-DID compliance, inference rigor, mechanism evidence, figures-over-tables, English abstract, submission preflight, and rebuttal.",
@@ -264,6 +285,13 @@
       "name": "cognitive-psychology-skills",
       "source": "./Cognitive-Psychology-Skills",
       "description": "Twelve-skill bundle covering the Cognitive Psychology (Elsevier) manuscript lifecycle, including its long-form, multi-experiment, computational-modeling house style and code-transparency expectations.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "colt-skills",
+      "source": "./COLT-Skills",
+      "description": "Twelve COLT-specific skills for learning-theory conference strategy, grounded in the COLT 2026 Call for Papers, learningtheory.org conference pages, and PMLR proceedings volumes checked on 2026-07-08.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -324,6 +352,13 @@
       "category": "academic"
     },
     {
+      "name": "cvpr-skills",
+      "source": "./CVPR-Skills",
+      "description": "Twelve CVPR-specific skills covering the full cycle of the largest computer-vision conference — submission, review at 16k-paper scale, rebuttal, artifacts, and publication — grounded in official CVPR 2026 author/reviewer pages checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "demog-skills",
       "source": "./Demography-Skills",
       "description": "Twelve-skill bundle covering the Demography manuscript lifecycle across population science, with demographic methods (life tables, decomposition, event history, age-period-cohort, multistate, microsimulation, projections) and the journal's Subscribe to Open access model.",
@@ -363,6 +398,13 @@
       "source": "./Economic-Research-Journal-Skills",
       "description": "Eighteen-skill bundle covering the 《经济研究》 manuscript lifecycle: workflow router, topic selection, introduction, literature review, theory & hypotheses, data & sample, modern identification (DID/IV/RDD/DML), mechanism (post-江艇 2022), heterogeneity, robustness, tables / figures, policy implications, abstract, house style, reviewer-lens self-audit, reproducibility, submission preflight, and R&R rebuttal — plus a runnable Stata + Python code library.",
       "version": "0.3.0",
+      "category": "academic"
+    },
+    {
+      "name": "emnlp-skills",
+      "source": "./EMNLP-Skills",
+      "description": "Twelve EMNLP-specific skills for empirical NLP conference submission strategy, grounded in the EMNLP 2026 Call for Papers, the ACL Rolling Review May 2026 cycle, OpenReview groups, and the ACL Anthology.",
+      "version": "0.1.0",
       "category": "academic"
     },
     {
@@ -492,6 +534,13 @@
       "category": "academic"
     },
     {
+      "name": "iccv-skills",
+      "source": "./ICCV-Skills",
+      "description": "Twelve ICCV-specific skills for the odd-year IEEE/CVF International Conference on Computer Vision, grounded in the ICCV 2025 Call for Papers, Author and Reviewer Guidelines, the 2025 Changes page, OpenReview group, and CVF open access, checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "iclr-skills",
       "source": "./ICLR-Skills",
       "description": "Twelve ICLR-specific skills for ML conference submission strategy, grounded in official ICLR 2026 CFP, Author Guide, Reviewer Guide, Code of Ethics, Code of Conduct, and LLM-use policy.",
@@ -502,6 +551,27 @@
       "name": "icml-skills",
       "source": "./ICML-Skills",
       "description": "Twelve ICML-specific skills for ML conference submission strategy, grounded in official ICML 2026 author instructions, CFP, Peer Review FAQ, review instructions, and LLM-review policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icra-skills",
+      "source": "./ICRA-Skills",
+      "description": "Twelve ICRA-specific skills covering robotics venue routing (direct ICRA vs RA-L with conference presentation), PaperPlaza mechanics, the 6+2 page rule, video attachments, real-robot experiment standards, and IEEE camera-ready publication, anchored to the verified ICRA 2026 cycle and announced ICRA 2027 pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icse-skills",
+      "source": "./ICSE-Skills",
+      "description": "Twelve ICSE-specific skills for software-engineering conference strategy, grounded in the official ICSE 2027 Research Track call for papers, important dates, artifact-evaluation track, and ICSE 2026 cycle records.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ieee-sp-skills",
+      "source": "./IEEE-SP-Skills",
+      "description": "Twelve IEEE S&P-specific skills for security/privacy conference submission strategy, grounded in the official S&P 2027 Call for Papers, cycle deadline pages, the S&P 2026 artifact-evaluation pages, and the IEEE TC on Security and Privacy site.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -989,6 +1059,13 @@
       "category": "academic"
     },
     {
+      "name": "kdd-skills",
+      "source": "./KDD-Skills",
+      "description": "Twelve KDD-specific skills covering data-mining conference strategy across both submission cycles: track selection, sigconf submission, rebuttal, Resubmit handling, deployment evidence, and ACM proceedings publication, grounded in official KDD 2026 CFPs and OpenReview groups.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "lancet-skills",
       "source": "./Lancet-Skills",
       "description": "Twelve-skill bundle covering the Lancet manuscript lifecycle: workflow router, scope/significance fit, study design + trial registration, EQUATOR reporting guidelines, the Research in context panel, the structured abstract, main-text writing, clinical statistics, clinical figures/tables, ethics + declaration of interests + role of funding source, submission preflight, and reviewer rebuttal.",
@@ -1038,6 +1115,13 @@
       "category": "academic"
     },
     {
+      "name": "mlsys-skills",
+      "source": "./MLSys-Skills",
+      "description": "Twelve MLSys-specific skills for machine-learning-and-systems conference submission strategy, grounded in the official MLSys 2026 Call for Research Papers, Industrial Track CFP, Call for Artifact Evaluations, and dates/organization pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "nankai-business-review-skills",
       "source": "./Nankai-Business-Review-Skills",
       "description": "Twelve-skill bundle covering the 《南开管理评论》 manuscript lifecycle: workflow router, fit positioning, theory-gap articulation, mechanism-backed hypothesis development, measurement rigor (reliability / validity / common-method-bias), survey-SEM (mediation / moderation / moderated mediation / HLM), experiments, multi-case / grounded theory, China contextualization, discussion that advances a management theory, submission preflight, and rebuttal.",
@@ -1083,6 +1167,13 @@
       "name": "organization-studies-skills",
       "source": "./Organization-Studies-Skills",
       "description": "Twelve-skill bundle covering the Organization Studies manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "osdi-skills",
+      "source": "./OSDI-Skills",
+      "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '26 Call for Papers, Call for Artifacts, HotCRP site, and USENIX open-access policy pages.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1262,6 +1353,13 @@
       "category": "academic"
     },
     {
+      "name": "sigir-skills",
+      "source": "./SIGIR-Skills",
+      "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "sf-skills",
       "source": "./Social-Forces-Skills",
       "description": "Twelve-skill bundle covering the Social Forces manuscript lifecycle across the generalist sociological and social-science subfields the journal serves, under its strict reference-inclusive 10,000-word cap and Chicago author-date style.",
@@ -1304,6 +1402,13 @@
       "category": "academic"
     },
     {
+      "name": "sosp-skills",
+      "source": "./SOSP-Skills",
+      "description": "Twelve SOSP-specific skills for operating-systems conference submission strategy, grounded in the official SOSP 2026 CFP and author guidelines on sigops.org, the sosp26 HotCRP deadlines page, and the sysartifacts artifact-evaluation program.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "smj-skills",
       "source": "./Strategic-Management-Journal-Skills",
       "description": "Twelve-skill bundle covering the Strategic Management Journal (SMJ) manuscript lifecycle.",
@@ -1339,6 +1444,20 @@
       "category": "academic"
     },
     {
+      "name": "the-web-conference-skills",
+      "source": "./The-Web-Conference-Skills",
+      "description": "Twelve Web Conference-specific skills for submitting to the ACM Web Conference (formerly WWW), grounded in the WWW 2026 research-tracks CFP, artifact-badging call, ACM Digital Library proceedings records, and SIGWEB venue announcements.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "uai-skills",
+      "source": "./UAI-Skills",
+      "description": "Twelve UAI-specific skills for probabilistic-AI conference submission strategy, grounded in official AUAI / UAI 2026 conference pages, the UAI OpenReview group, PMLR proceedings volumes, and the AUAI Code of Conduct.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "wber-skills",
       "source": "./World-Bank-Economic-Review-Skills",
       "description": "Twelve-skill bundle covering the The World Bank Economic Review manuscript lifecycle.",
@@ -1356,6 +1475,13 @@
       "name": "wp-skills",
       "source": "./World-Politics-Skills",
       "description": "Twelve-skill bundle covering the World Politics manuscript lifecycle for comparative-politics and international-relations research, including the journal's research-article and review-article tracks.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "wsdm-skills",
+      "source": "./WSDM-Skills",
+      "description": "Twelve WSDM-specific skills for web search and data mining conference submissions, grounded in the WSDM 2026 CFP, the WSDM 2027 conference site, ACM Digital Library proceedings, and dblp metadata.",
       "version": "0.1.0",
       "category": "academic"
     },

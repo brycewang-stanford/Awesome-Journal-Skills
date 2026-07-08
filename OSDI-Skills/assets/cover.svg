@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">OSDI Skills</title>
+  <desc id="desc">Cover image for the OSDI systems-conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101c18"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#eef3ee"/>
+  <path d="M150 452 L150 336 L330 336 L330 402 L510 402 L510 268 L690 268 L690 356 L870 356 L870 210 L1046 210" fill="none" stroke="#1f6f54" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="330" cy="336" r="38" fill="#b3552f"/>
+  <circle cx="690" cy="268" r="38" fill="#1f6f54"/>
+  <circle cx="1046" cy="210" r="38" fill="#3b5b8f"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#101c18">OSDI</text>
+  <text x="136" y="268" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#33413a">Operating systems design and implementation</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#101c18">USENIX · HotCRP · Open Access · Artifact Badges</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "name": "wsdm-skills",
+  "description": "A 12-skill depth pack for WSDM (ACM International Conference on Web Search and Data Mining): venue fit, EasyChair submission audit, the no-rebuttal review reality, camera-ready via ACM production, artifacts and reproducibility for log-driven research, appendix-inclusive page budgeting, writing style, related work, experiments, and the single-cycle calendar. Grounded in the WSDM 2026 CFP (19th edition, Boise), WSDM 2025/2027 official pages, ACM DL proceedings, and dblp records checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "wsdm",
+    "web-search",
+    "data-mining",
+    "information-retrieval",
+    "recommender-systems",
+    "conference-submission",
+    "easychair",
+    "acm"
+  ]
+}

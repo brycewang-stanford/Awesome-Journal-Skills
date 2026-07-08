@@ -1,0 +1,22 @@
+{
+  "name": "ieee-sp-skills",
+  "description": "A 12-skill depth pack for IEEE Symposium on Security and Privacy (IEEE S&P, 'Oakland') submissions: venue fit, the two-cycle HotCRP submission year, early reject and interactive rebuttal, the Revise pathway, ethics and responsible disclosure, artifact badges, and IEEE camera-ready. Grounded in the S&P 2027 CFP and cycle pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "ieee-sp",
+    "oakland",
+    "security",
+    "privacy",
+    "conference-submission",
+    "hotcrp",
+    "responsible-disclosure",
+    "artifact-evaluation"
+  ]
+}

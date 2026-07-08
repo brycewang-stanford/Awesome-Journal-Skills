@@ -83,7 +83,8 @@ git diff --check
 A new depth pack is mergeable only when ALL of the following hold. This is the
 same bar the repo's own maintenance waves are held to:
 
-1. **Structure** — 8–14 skills, each a `skills/<name>/SKILL.md` with `name` +
+1. **Structure** — 8–20 skills (12 is the house norm; go past 14 only for a
+   deliberately deepened flagship), each a `skills/<name>/SKILL.md` with `name` +
    `description` frontmatter; a pack `README.md` and `README.zh-CN.md`; a
    `.claude-plugin/plugin.json`; registration in the root
    `.claude-plugin/marketplace.json`.
@@ -103,5 +104,33 @@ same bar the repo's own maintenance waves are held to:
 6. **Counters** — bump `tools/audit_repo.py` tripwires and both README count
    blocks in the same commit; `python3 tools/run_checks.py --skip-reports`
    passes end-to-end.
-7. **Score floor** — the pack scores ≥90 on
-   `python3 tools/quality_scorecard.py` (current repo floor is 92; aim there).
+7. **Score floor** — the pack scores **94.0** (the formula ceiling) on
+   `python3 tools/quality_scorecard.py`. Every existing pack sits at 94.0 and
+   CI enforces `--min-score 94` as a regression floor, so a new pack below the
+   ceiling fails the hard checks; build to full spec before opening the PR.
+
+## How to reuse a pack bundle（如何复用一个 pack bundle）
+
+Everything here is MIT-licensed: you may copy any pack's layout for your own
+target venue, in your own repo or as a contribution back. The rules below keep
+a replica from becoming the one failure mode this repo audits hardest against —
+the find-replace clone.
+
+1. **Reuse structure, not prose.** Copy the file layout (12-skill lifecycle,
+   `.claude-plugin/` metadata, bilingual READMEs, `resources/` roles) freely.
+   The skill *bodies* must be rewritten around the target venue's real
+   workflow; swapping the journal name in existing text is not a replica, it is
+   a clone and will be rejected by `tools/clone_audit.py` (0.75 review
+   threshold, 0.90 hard fail).
+2. **Re-source every volatile fact.** Fees, word/page limits, editor names,
+   platforms, policies: each one must trace to the *target* venue's official
+   page (URL + access date in `resources/official-source-map.md`) or be marked
+   `待核实`. Facts inherited from the source pack are wrong by default.
+3. **Contribute back or fork out.** A replica aimed at this repo goes through
+   the "Minimum acceptance bar for a new pack" above, counters and all. A
+   replica for your own repo has no obligations beyond the MIT license — but
+   opening a `bundle-replication-request` issue first gets you a maintainer
+   sanity-check on venue fit and a pointer to the closest existing template.
+4. **Pick the closest sibling as your base.** Same discipline, same review
+   platform, same publication form (conference vs journal, theory vs
+   empirical) — the fewer facts you must replace, the fewer you will miss.

@@ -1,0 +1,23 @@
+{
+  "name": "mlsys-skills",
+  "description": "A 12-skill depth pack for MLSys (Conference on Machine Learning and Systems) submissions: venue fit at the ML-systems intersection, OpenReview submission checks, the short author-response window, camera-ready, badge-driven artifact evaluation, performance-measurement reproducibility, appendix packaging, review process, systems writing style, related work, benchmark-rigor experiments, and cycle workflow. Grounded in the official MLSys 2026 Call for Research Papers, Industrial Track CFP, Call for Artifact Evaluations, dates page, and organizing-committee page, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "mlsys",
+    "machine-learning-systems",
+    "systems-for-ml",
+    "ml-for-systems",
+    "artifact-evaluation",
+    "benchmarking",
+    "conference-submission",
+    "openreview",
+    "reproducibility"
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ICCV Skills</title>
+  <desc id="desc">Cover image for the ICCV international computer vision conference skills pack, with two interleaved orbits marking the biennial cycle.</desc>
+  <rect width="1200" height="630" fill="#241028"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f5efe4"/>
+  <ellipse cx="870" cy="280" rx="200" ry="112" fill="none" stroke="#9c2b4a" stroke-width="14" transform="rotate(-18 870 280)"/>
+  <ellipse cx="870" cy="280" rx="200" ry="112" fill="none" stroke="#534a9c" stroke-width="14" transform="rotate(18 870 280)"/>
+  <circle cx="870" cy="280" r="52" fill="#d9982b"/>
+  <circle cx="870" cy="280" r="22" fill="#241028"/>
+  <circle cx="1046" cy="216" r="16" fill="#9c2b4a"/>
+  <circle cx="694" cy="344" r="16" fill="#534a9c"/>
+  <text x="132" y="196" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#241028">ICCV</text>
+  <text x="136" y="272" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#4a4046">International computer vision, every odd year</text>
+  <text x="136" y="512" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#241028">Biennial Cycle · Marr Prize · Reviewer Duty · CVF + IEEE Xplore</text>
+</svg>

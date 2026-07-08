@@ -1,0 +1,123 @@
+---
+name: icse-reproducibility
+description: Use when building the verifiability story of an ICSE research-track paper, covering the open-science policy's sharing-by-default expectation, the Data Availability section, anonymized replication packages at review time, provenance pinning for mining and LLM studies, and honest non-sharing justifications.
+---
+
+# ICSE Reproducibility
+
+At ICSE, reproducibility is not an optional badge chase bolted on after
+acceptance — it is one of the four scored review criteria. The 2027 call
+(read 2026-07-08) scores **Verifiability and Transparency**: whether the paper
+gives enough information to understand how the innovation works, how data was
+obtained, analyzed, and interpreted, and whether independent verification or
+replication is supported. Build for that score at review time; the
+post-acceptance badge process (`icse-artifact-evaluation`) then becomes cheap.
+
+## The open-science posture
+
+The research track is governed by the ICSE Open Science policy. Its verified
+2027 shape:
+
+- Research results should be accessible to the public; empirical studies
+  should be reproducible where possible.
+- **Sharing is the default; non-sharing is what requires justification.**
+- Authors provide anonymized links to data/repositories, or upload anonymized
+  material via HotCRP's supplementary option.
+- Authors who cannot share add a short statement of reasons in a **Data
+  Availability section placed after the Conclusion**.
+- Sharing is not formally mandatory for acceptance — but it is scored terrain.
+
+## Availability statements that read as honest
+
+```latex
+% Full sharing
+\section*{Data Availability}
+Our replication package -- tool source, the 17-project benchmark with
+version pins, all scripts, and raw result CSVs -- is archived anonymously
+at <anonymized-link>. Post-acceptance it moves to a DOI-issuing archive.
+
+% Partial sharing, justified
+\section*{Data Availability}
+Scripts, codebooks, and aggregated results are at <anonymized-link>.
+Interview recordings and transcripts cannot be shared: our IRB protocol
+and consent forms promise participants non-disclosure. We include the
+interview guide and the full codebook so the analysis can be audited
+and the study re-run in another organization.
+```
+
+The failing pattern is the vague middle: "data available upon reasonable
+request" — reviewers read it as *no*. Name exactly what is in the package,
+exactly what is withheld, and the specific reason (IRB terms, NDA, licensing),
+plus what you provide *instead* so partial verification remains possible.
+
+## Reproducibility evidence by study type
+
+| Study type | What the package must pin down |
+|---|---|
+| Tool + benchmark evaluation | Source, build recipe, exact benchmark versions, run scripts, seeds, timeouts, raw outputs, analysis notebooks |
+| Repository mining | Corpus construction queries, repo list with SHAs, mining date, filtering code, intermediate datasets |
+| LLM-based technique | Prompts verbatim, model identifiers with versions/dates, decoding parameters, cached raw responses, cost logs |
+| Controlled experiment / survey | Instruments, task materials, anonymized responses, analysis scripts, power/sampling notes |
+| Qualitative study | Interview guide, codebook with definitions, agreement computation, anonymized excerpts as consent allows |
+
+Two SE-specific provenance rules. **Mining decays:** repositories get
+force-pushed, deleted, and relicensed, so archive the extracted dataset, not
+just the query. **LLM outputs decay faster:** hosted models change silently,
+so cached raw responses are the only durable record — a package that requires
+re-querying a hosted API cannot reproduce your numbers, only re-sample them,
+and should say so explicitly.
+
+## Determinism ledger for tool experiments
+
+Before the evaluation runs at scale, freeze and record: random seeds and where
+they enter; dependency lockfiles and container digest; hardware and OS;
+timeout and memory limits; any nondeterminism you could not remove (thread
+scheduling, hosted-API sampling) with its measured impact across repeated
+runs. Ten minutes of ledger discipline in May prevents the September review
+comment "results could not be understood well enough to assess" — a
+verifiability score you cannot response your way out of.
+
+## Anonymity vs verifiability at review time
+
+The package must be double-anonymous like the paper. Use an anonymizing host
+or a scrubbed archive; strip git history (`git archive`, never a `.git`
+clone), notebook author fields, container labels, hard-coded home paths, and
+lab-server hostnames in configs. Do not let anonymization destroy usefulness:
+replace identifying strings with placeholders, but keep the code runnable —
+an artifact that fails to run because anonymization broke imports scores as
+absent.
+
+## Five-question self-audit
+
+Run this on the eve of submission, answering as a hostile stranger:
+
+1. Can each headline table be regenerated by a named command in the package?
+2. Is every dataset either included, fetchable by pinned script, or its
+   absence justified in the availability statement?
+3. Would the numbers survive the disappearance of every external service the
+   study touched (GitHub, a hosted model API, a CI provider)?
+4. Does the paper's method section alone — without the package — let a peer
+   re-implement the technique's core?
+5. Is anything in the package identifying, and is anything in it broken *by*
+   de-identification?
+
+Any "no" maps to a specific review sentence you can predict — and preempt.
+
+## Reverify each cycle
+
+The policy's mechanics (HotCRP supplementary option, statement placement,
+badge linkage) are cycle-set; the sharing-by-default principle has held across
+recent editions but its enforcement wording moves. Whether reviewers are
+*required* to examine supplementary material was not verifiable for 2027 —
+待核实 — so keep every decision-critical fact in the 10 pages and treat the
+package as evidence, not overflow.
+
+## Output format
+
+```text
+[Verifiability score forecast] can a stranger re-derive each headline number? per-claim y/n
+[Availability statement] full / partial-justified / missing; vague-middle phrases found
+[Package audit] study-type row above -> items present / absent
+[Provenance] pins recorded (SHAs, model versions, dates); decay risks named
+[Anonymity] scrub pass results; runnability after scrubbing confirmed
+```

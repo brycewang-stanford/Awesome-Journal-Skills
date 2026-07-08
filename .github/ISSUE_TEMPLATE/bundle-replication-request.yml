@@ -1,0 +1,53 @@
+name: Pack 模板复用申请 / Bundle replication request
+description: 想把某个现有 pack 的版式复用到你自己的目标刊物 / Reuse an existing pack's layout for your own target venue
+title: "[复用] "
+labels: ["bundle-replication"]
+body:
+  - type: input
+    id: source-pack
+    attributes:
+      label: 想复用的 pack · Source pack to replicate
+      placeholder: e.g. AISTATS-Skills / Economic-Research-Journal-Skills
+    validations:
+      required: true
+  - type: input
+    id: target-venue
+    attributes:
+      label: 你的目标刊物/会议 · Your target venue
+      placeholder: e.g. Journal of Behavioral and Experimental Economics
+    validations:
+      required: true
+  - type: input
+    id: official-url
+    attributes:
+      label: 目标刊物官网 · Target venue official URL
+      description: 必须是官方来源（出版社或期刊/会议自己的页面）· Must be an official source
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: destination
+    attributes:
+      label: 复用去向 · Where the replica will live
+      options:
+        - 贡献回本仓库 Contribute back to this repo（走新 pack 最小验收线）
+        - 自己的仓库 My own repository（MIT 许可下自由复用）
+        - 不确定 Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: 复用计划 · Replication plan
+      description: 你打算保留哪些结构、替换哪些 venue 事实 · Which structure you keep, which venue facts you will replace
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认 · Pre-submit checks
+      options:
+        - label: 我已读 CONTRIBUTING「如何复用一个 pack bundle」小节，理解复用 ≠ 换名克隆，克隆审计必须零命中 · I read the "How to reuse a pack bundle" section; a replica must pass the clone audit, not just swap names
+          required: true
+        - label: 每条易变事实（费用、字数、政策）都会替换为目标刊物官方来源或标 待核实 · Every volatile fact will be re-sourced to the target venue or marked 待核实
+          required: true

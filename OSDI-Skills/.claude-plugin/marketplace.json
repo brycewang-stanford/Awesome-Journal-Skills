@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "osdi-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for OSDI systems-paper planning, HotCRP submission, USENIX open-access publication, sysartifacts artifact evaluation, and evaluation design.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "osdi-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '26 Call for Papers, Call for Artifacts, HotCRP site, and USENIX open-access policy pages.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "osdi",
+        "usenix",
+        "hotcrp",
+        "artifact-evaluation",
+        "systems-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/osdi-submission",
+        "skills/osdi-author-response",
+        "skills/osdi-camera-ready",
+        "skills/osdi-artifact-evaluation",
+        "skills/osdi-reproducibility",
+        "skills/osdi-supplementary",
+        "skills/osdi-review-process",
+        "skills/osdi-writing-style",
+        "skills/osdi-related-work",
+        "skills/osdi-experiments",
+        "skills/osdi-workflow",
+        "skills/osdi-topic-selection"
+      ]
+    }
+  ]
+}

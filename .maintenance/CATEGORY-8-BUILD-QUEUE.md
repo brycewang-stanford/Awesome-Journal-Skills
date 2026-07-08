@@ -7,8 +7,12 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 6 verified pack roots: `NeurIPS-Skills`, `ICML-Skills`,
-  `ICLR-Skills`, `AAAI-Skills`, `IJCAI-Skills`, `AISTATS-Skills`.
+- Complete category-8 depth packs: 24 verified pack roots — the ENTIRE Wave 25-A launch batch
+  is now complete (24/24, finished 2026-07-08): `NeurIPS-Skills`, `ICML-Skills`, `ICLR-Skills`,
+  `AAAI-Skills`, `IJCAI-Skills`, `AISTATS-Skills`, `UAI-Skills`, `COLT-Skills`, `MLSys-Skills`,
+  `KDD-Skills`, `The-Web-Conference-Skills`, `WSDM-Skills`, `SIGIR-Skills`, `CVPR-Skills`,
+  `ICCV-Skills`, `ACL-Skills`, `EMNLP-Skills`, `ICRA-Skills`, `CHI-Skills`, `SOSP-Skills`,
+  `OSDI-Skills`, `IEEE-SP-Skills`, `ACM-CCS-Skills`, `ICSE-Skills`.
 - Existing category-8 breadth seeds:
   - 155 conference profiles in `Computer-Science-Conference-Skills`.
   - 3 journal profiles in `English-NaturalScience-Journal-Skills`: `nature-machine-intelligence`,
@@ -51,24 +55,24 @@ value plus existing breadth seeds.
 | 4 | AAAI | conference | `aaai-conference-on-artificial-intelligence`; depth pack `AAAI-Skills` complete |
 | 5 | IJCAI | conference | `international-joint-conference-on-artificial-intelligence`; depth pack `IJCAI-Skills` complete |
 | 6 | AISTATS | conference | `artificial-intelligence-and-statistics`; depth pack `AISTATS-Skills` complete |
-| 7 | UAI | conference | `uncertainty-in-artificial-intelligence` |
-| 8 | COLT | conference | `conference-on-learning-theory` |
-| 9 | MLSys | conference | `conference-on-machine-learning-and-systems` |
-| 10 | KDD | conference | `acm-sigkdd-conference-on-knowledge-discovery-and-data-mining` |
-| 11 | The Web Conference | conference | `the-web-conference` |
-| 12 | WSDM | conference | `acm-international-conference-on-web-search-and-data-mining` |
-| 13 | SIGIR | conference | `acm-sigir-conference-on-research-and-development-in-information-retrieval` |
-| 14 | CVPR | conference | `computer-vision-and-pattern-recognition` |
-| 15 | ICCV | conference | `international-conference-on-computer-vision` |
-| 16 | ACL | conference | `annual-meeting-of-the-association-for-computational-linguistics` |
-| 17 | EMNLP | conference | `conference-on-empirical-methods-in-natural-language-processing` |
-| 18 | ICRA | conference | `ieee-international-conference-on-robotics-and-automation` |
-| 19 | CHI | conference | `acm-chi-conference-on-human-factors-in-computing-systems` |
-| 20 | SOSP | conference | `acm-symposium-on-operating-systems-principles` |
-| 21 | OSDI | conference | `usenix-symposium-on-operating-systems-design-and-implementation` |
-| 22 | IEEE S&P | conference | `ieee-symposium-on-security-and-privacy` |
-| 23 | ACM CCS | conference | `acm-conference-on-computer-and-communications-security` |
-| 24 | ICSE | conference | `international-conference-on-software-engineering` |
+| 7 | UAI | conference | `uncertainty-in-artificial-intelligence`; depth pack `UAI-Skills` complete |
+| 8 | COLT | conference | `conference-on-learning-theory`; depth pack `COLT-Skills` complete |
+| 9 | MLSys | conference | `conference-on-machine-learning-and-systems`; depth pack `MLSys-Skills` complete |
+| 10 | KDD | conference | `acm-sigkdd-conference-on-knowledge-discovery-and-data-mining`; depth pack `KDD-Skills` complete |
+| 11 | The Web Conference | conference | `the-web-conference`; depth pack `The-Web-Conference-Skills` complete |
+| 12 | WSDM | conference | `acm-international-conference-on-web-search-and-data-mining`; depth pack `WSDM-Skills` complete |
+| 13 | SIGIR | conference | `acm-sigir-conference-on-research-and-development-in-information-retrieval`; depth pack `SIGIR-Skills` complete |
+| 14 | CVPR | conference | `computer-vision-and-pattern-recognition`; depth pack `CVPR-Skills` complete |
+| 15 | ICCV | conference | `international-conference-on-computer-vision`; depth pack `ICCV-Skills` complete |
+| 16 | ACL | conference | `annual-meeting-of-the-association-for-computational-linguistics`; depth pack `ACL-Skills` complete |
+| 17 | EMNLP | conference | `conference-on-empirical-methods-in-natural-language-processing`; depth pack `EMNLP-Skills` complete |
+| 18 | ICRA | conference | `ieee-international-conference-on-robotics-and-automation`; depth pack `ICRA-Skills` complete |
+| 19 | CHI | conference | `acm-chi-conference-on-human-factors-in-computing-systems`; depth pack `CHI-Skills` complete |
+| 20 | SOSP | conference | `acm-symposium-on-operating-systems-principles`; depth pack `SOSP-Skills` complete |
+| 21 | OSDI | conference | `usenix-symposium-on-operating-systems-design-and-implementation`; depth pack `OSDI-Skills` complete |
+| 22 | IEEE S&P | conference | `ieee-symposium-on-security-and-privacy`; depth pack `IEEE-SP-Skills` complete |
+| 23 | ACM CCS | conference | `acm-conference-on-computer-and-communications-security`; depth pack `ACM-CCS-Skills` complete |
+| 24 | ICSE | conference | `international-conference-on-software-engineering`; depth pack `ICSE-Skills` complete |
 
 ## English 90 Target List
 

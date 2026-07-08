@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wsdm-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for WSDM manuscript strategy: single-track venue fit, EasyChair submission, no-rebuttal review, log-data reproducibility, and ACM camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "wsdm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve WSDM-specific skills for web search and data mining conference submissions, grounded in the WSDM 2026 CFP, the WSDM 2027 conference site, ACM Digital Library proceedings, and dblp metadata.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "wsdm",
+        "easychair",
+        "web-search",
+        "recommender-systems",
+        "camera-ready",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/wsdm-submission",
+        "skills/wsdm-author-response",
+        "skills/wsdm-camera-ready",
+        "skills/wsdm-artifact-evaluation",
+        "skills/wsdm-reproducibility",
+        "skills/wsdm-supplementary",
+        "skills/wsdm-review-process",
+        "skills/wsdm-writing-style",
+        "skills/wsdm-related-work",
+        "skills/wsdm-experiments",
+        "skills/wsdm-workflow",
+        "skills/wsdm-topic-selection"
+      ]
+    }
+  ]
+}

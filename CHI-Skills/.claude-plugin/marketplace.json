@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "chi-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM CHI paper planning, subcommittee selection, PCS submission, revise-and-resubmit, HCI study rigor, video supplements, and accessible TAPS camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "chi-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve CHI-specific skills for human-computer interaction conference strategy, grounded in the CHI 2027 Papers call, review-process pages, SIGCHI accessibility and video guides, and ACM open-access policy.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "chi",
+        "hci",
+        "pcs",
+        "subcommittee",
+        "revise-and-resubmit",
+        "accessibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/chi-submission",
+        "skills/chi-author-response",
+        "skills/chi-camera-ready",
+        "skills/chi-artifact-evaluation",
+        "skills/chi-reproducibility",
+        "skills/chi-supplementary",
+        "skills/chi-review-process",
+        "skills/chi-writing-style",
+        "skills/chi-related-work",
+        "skills/chi-experiments",
+        "skills/chi-workflow",
+        "skills/chi-topic-selection"
+      ]
+    }
+  ]
+}

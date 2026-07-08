@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">EMNLP Skills</title>
+  <desc id="desc">Cover image for the EMNLP conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#1f2a1f"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f2f4ec"/>
+  <path d="M150 430 L318 282 L484 356 L650 226 L816 306 L1040 176" fill="none" stroke="#4a7c59" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="318" cy="282" r="42" fill="#c98a3d"/>
+  <circle cx="650" cy="226" r="42" fill="#4a7c59"/>
+  <circle cx="1040" cy="176" r="42" fill="#7a4a8f"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1f2a1f">EMNLP</text>
+  <text x="136" y="268" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#3d4a3d">Empirical methods in natural language processing</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1f2a1f">ACL Rolling Review · Findings · Anthology · Evaluation</text>
+</svg>

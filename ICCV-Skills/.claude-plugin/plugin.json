@@ -1,0 +1,22 @@
+{
+  "name": "iccv-skills",
+  "description": "A 12-skill depth pack for ICCV, the biennial IEEE/CVF International Conference on Computer Vision: odd-year cycle planning, the early-March single submission deadline, every-author reviewer duty, the May rebuttal week, CVF open access + IEEE Xplore publication, and the CVPR/ICCV/ECCV retargeting triangle. Grounded in ICCV 2025 (Honolulu) official pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "iccv",
+    "computer-vision",
+    "biennial-conference",
+    "openreview",
+    "cvf-open-access",
+    "ieee-xplore",
+    "rebuttal",
+    "conference-submission"
+  ]
+}

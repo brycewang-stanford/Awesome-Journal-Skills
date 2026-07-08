@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sosp-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for SOSP manuscript planning, HotCRP submission, author response, shepherded camera-ready, sysartifacts artifact evaluation, and the annual SOSP cycle.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sosp-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve SOSP-specific skills for operating-systems conference submission strategy, grounded in the official SOSP 2026 CFP and author guidelines on sigops.org, the sosp26 HotCRP deadlines page, and the sysartifacts artifact-evaluation program.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "sosp",
+        "hotcrp",
+        "author-response",
+        "camera-ready",
+        "artifact-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/sosp-submission",
+        "skills/sosp-author-response",
+        "skills/sosp-camera-ready",
+        "skills/sosp-artifact-evaluation",
+        "skills/sosp-reproducibility",
+        "skills/sosp-supplementary",
+        "skills/sosp-review-process",
+        "skills/sosp-writing-style",
+        "skills/sosp-related-work",
+        "skills/sosp-experiments",
+        "skills/sosp-workflow",
+        "skills/sosp-topic-selection"
+      ]
+    }
+  ]
+}

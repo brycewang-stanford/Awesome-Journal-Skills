@@ -43,11 +43,29 @@ IMPORTED_ROOTS = {
 
 CONFERENCE_DEPTH_PACKS = {
     "AAAI-Skills",
+    "ACL-Skills",
+    "ACM-CCS-Skills",
     "AISTATS-Skills",
+    "CHI-Skills",
+    "COLT-Skills",
+    "CVPR-Skills",
+    "EMNLP-Skills",
+    "ICCV-Skills",
     "ICLR-Skills",
     "ICML-Skills",
+    "ICRA-Skills",
+    "ICSE-Skills",
+    "IEEE-SP-Skills",
     "IJCAI-Skills",
+    "KDD-Skills",
+    "MLSys-Skills",
     "NeurIPS-Skills",
+    "OSDI-Skills",
+    "SIGIR-Skills",
+    "SOSP-Skills",
+    "The-Web-Conference-Skills",
+    "UAI-Skills",
+    "WSDM-Skills",
 }
 
 TOOLKIT_PACKS = {
@@ -309,14 +327,21 @@ def score_pack(pack: Path) -> dict:
         )
     # Runnable code inside skill bodies (empirical capability signal).
     runnable = min(5, (code_block_skills / n) * 5) if n else 0
-    # Structure hygiene.
+    # Structure hygiene. The full-credit bands describe "size fits the pack's
+    # role", not an absolute scale: a breadth bundle earns structure credit by
+    # shipping its canonical router plus a genuine roster (>= 12 venue cards
+    # guards against stubs — the classifier itself accepts small focused
+    # bundles, so structure must not re-penalise them for size), and a depth
+    # pack earns it by staying within the 8-20 lifecycle band (8 guards
+    # against stubs; 20 guards against unfocused sprawl while admitting
+    # deliberately deepened flagships such as the 18-skill ERJ pack).
     structure = 0.0
     if is_toolkit:
         structure += 3 if 5 <= n <= 10 and has_router else (1 if n else 0)
     elif is_breadth:
-        structure += 3 if n >= 50 and has_router else (1 if n else 0)
+        structure += 3 if n >= 12 and has_router else (1 if n else 0)
     else:
-        structure += 3 if 8 <= n <= 14 else (1 if n else 0)
+        structure += 3 if 8 <= n <= 20 else (1 if n else 0)
     structure += 1.5 if has_readme else 0
     structure += 1.5 if has_readme_zh else 0
 

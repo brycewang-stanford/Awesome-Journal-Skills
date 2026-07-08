@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "uai-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for UAI manuscript planning, OpenReview submission, author response, reproducibility, artifact packaging, and PMLR camera-ready work at the Conference on Uncertainty in Artificial Intelligence.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "uai-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve UAI-specific skills for probabilistic-AI conference submission strategy, grounded in official AUAI / UAI 2026 conference pages, the UAI OpenReview group, PMLR proceedings volumes, and the AUAI Code of Conduct.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "uai",
+        "openreview",
+        "author-response",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/uai-submission",
+        "skills/uai-author-response",
+        "skills/uai-camera-ready",
+        "skills/uai-artifact-evaluation",
+        "skills/uai-reproducibility",
+        "skills/uai-supplementary",
+        "skills/uai-review-process",
+        "skills/uai-writing-style",
+        "skills/uai-related-work",
+        "skills/uai-experiments",
+        "skills/uai-workflow",
+        "skills/uai-topic-selection"
+      ]
+    }
+  ]
+}

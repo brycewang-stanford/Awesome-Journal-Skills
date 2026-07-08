@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "icra-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ICRA robotics-paper planning, PaperPlaza submission, video attachments, real-robot evidence, the RA-L presentation pathway, and IEEE Xplore camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "icra-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ICRA-specific skills covering robotics venue routing (direct ICRA vs RA-L with conference presentation), PaperPlaza mechanics, the 6+2 page rule, video attachments, real-robot experiment standards, and IEEE camera-ready publication, anchored to the verified ICRA 2026 cycle and announced ICRA 2027 pages.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "icra",
+        "robotics",
+        "paperplaza",
+        "ra-l",
+        "video-attachment",
+        "camera-ready"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/icra-submission",
+        "skills/icra-author-response",
+        "skills/icra-camera-ready",
+        "skills/icra-artifact-evaluation",
+        "skills/icra-reproducibility",
+        "skills/icra-supplementary",
+        "skills/icra-review-process",
+        "skills/icra-writing-style",
+        "skills/icra-related-work",
+        "skills/icra-experiments",
+        "skills/icra-workflow",
+        "skills/icra-topic-selection"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CVPR Skills</title>
+  <desc id="desc">Cover image for the CVPR computer-vision conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101c24"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#eef2ee"/>
+  <rect x="700" y="150" width="330" height="230" rx="10" fill="none" stroke="#1f6f54" stroke-width="12"/>
+  <rect x="760" y="300" width="190" height="130" rx="10" fill="none" stroke="#c2571f" stroke-width="12"/>
+  <circle cx="865" cy="265" r="34" fill="#3d5a99"/>
+  <path d="M700 150 h44 M700 150 v44 M1030 380 h-44 M1030 380 v-44" stroke="#101c24" stroke-width="10" stroke-linecap="round"/>
+  <text x="132" y="196" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#101c24">CVPR</text>
+  <text x="136" y="272" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#40484a">Computer vision and pattern recognition</text>
+  <text x="136" y="512" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#101c24">OpenReview · Rebuttal · Benchmarks · CVF Open Access</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "name": "acm-ccs-skills",
+  "description": "A 12-skill depth pack for ACM CCS submissions: venue routing across the security big four, HotCRP dual-cycle submission checks, rebuttal strategy, threat-model writing, adaptive-attack evaluation, artifact evaluation with ACM badges, ethics appendices, and ACM camera-ready work. Grounded in the official CCS 2026 CFP, call for artifacts, HotCRP cycle sites, and SIGSAC pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "acm-ccs",
+    "computer-security",
+    "sigsac",
+    "conference-submission",
+    "hotcrp",
+    "threat-model",
+    "artifact-evaluation",
+    "responsible-disclosure"
+  ]
+}

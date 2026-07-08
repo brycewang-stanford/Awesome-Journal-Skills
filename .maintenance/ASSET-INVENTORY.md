@@ -25,6 +25,24 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `AER-Skills` | imported depth pack | 1 Econ & Management | reusable / upgrade only if needed |
 | `AAAI-Skills` | depth pack | 8 CS & AI | reusable; fourth category-8 Wave 25-A depth pack |
 | `AISTATS-Skills` | depth pack | 8 CS & AI | reusable; sixth category-8 Wave 25-A depth pack |
+| `UAI-Skills` | depth pack | 8 CS & AI | reusable; seventh category-8 Wave 25-A depth pack |
+| `COLT-Skills` | depth pack | 8 CS & AI | reusable; eighth category-8 Wave 25-A depth pack |
+| `MLSys-Skills` | depth pack | 8 CS & AI | reusable; ninth category-8 Wave 25-A depth pack |
+| `KDD-Skills` | depth pack | 8 CS & AI | reusable; tenth category-8 Wave 25-A depth pack |
+| `The-Web-Conference-Skills` | depth pack | 8 CS & AI | reusable; eleventh category-8 Wave 25-A depth pack |
+| `WSDM-Skills` | depth pack | 8 CS & AI | reusable; twelfth category-8 Wave 25-A depth pack |
+| `SIGIR-Skills` | depth pack | 8 CS & AI | reusable; thirteenth category-8 Wave 25-A depth pack |
+| `CVPR-Skills` | depth pack | 8 CS & AI | reusable; fourteenth category-8 Wave 25-A depth pack |
+| `ICCV-Skills` | depth pack | 8 CS & AI | reusable; fifteenth category-8 Wave 25-A depth pack |
+| `ACL-Skills` | depth pack | 8 CS & AI | reusable; sixteenth category-8 Wave 25-A depth pack |
+| `EMNLP-Skills` | depth pack | 8 CS & AI | reusable; seventeenth category-8 Wave 25-A depth pack |
+| `ICRA-Skills` | depth pack | 8 CS & AI | reusable; eighteenth category-8 Wave 25-A depth pack |
+| `CHI-Skills` | depth pack | 8 CS & AI | reusable; nineteenth category-8 Wave 25-A depth pack |
+| `SOSP-Skills` | depth pack | 8 CS & AI | reusable; twentieth category-8 Wave 25-A depth pack |
+| `OSDI-Skills` | depth pack | 8 CS & AI | reusable; twenty-first category-8 Wave 25-A depth pack |
+| `IEEE-SP-Skills` | depth pack | 8 CS & AI | reusable; twenty-second category-8 Wave 25-A depth pack |
+| `ACM-CCS-Skills` | depth pack | 8 CS & AI | reusable; twenty-third category-8 Wave 25-A depth pack |
+| `ICSE-Skills` | depth pack | 8 CS & AI | reusable; twenty-fourth category-8 Wave 25-A depth pack — Wave 25-A launch batch complete (24/24) |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |
@@ -150,5 +168,5 @@ targets, 10 Chinese targets, a first 24-pack AI-first launch batch, and CS/AI pa
 `AISTATS-Skills` are the first six completed depth packs from that launch batch. Parallel W1 also
 added six category-1 field-economics depth packs: JDE, JPubE, JOLE, JIE, JME, and RJE.
 
-Next task: continue Wave 25-A depth-pack production with UAI, COLT, MLSys, and KDD, preserving
+Next task: Wave 25-A launch batch is COMPLETE (24/24). Continue category-8 production from the EN core-61 list (e.g. NAACL, ECCV, PLDI, SIGMOD, STOC, NSDI, USENIX Security, NDSS), preserving
 official-source checks and clone-audit gates per pack.
