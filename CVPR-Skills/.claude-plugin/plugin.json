@@ -1,0 +1,22 @@
+{
+  "name": "cvpr-skills",
+  "description": "A 12-skill depth pack for CVPR submissions: venue fit at 16k-submission scale, OpenReview submission audits, the one-page rebuttal, mandatory reviewer duties for authors, the Compute Reporting Form, supplementary videos, benchmark-grade experiments, and CVF open-access / IEEE Xplore camera-ready work. Grounded in official CVPR 2026 pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "cvpr",
+    "computer-vision",
+    "pattern-recognition",
+    "conference-submission",
+    "openreview",
+    "cvf-open-access",
+    "rebuttal",
+    "benchmarks"
+  ]
+}

@@ -20,8 +20,8 @@ ROOT = Path(__file__).resolve().parents[1]
 # additions. When you intentionally add/remove packs, update these three values
 # (and the README badges) in the same commit. Run `python3 tools/audit_repo.py
 # --counts` to print the live numbers to copy in.
-EXPECTED_SKILL_COUNT = 2950
-EXPECTED_PACK_COUNT = 199
+EXPECTED_SKILL_COUNT = 2998
+EXPECTED_PACK_COUNT = 203
 EXPECTED_ROOT_JOURNAL_ENTRIES = 200
 # Executed empirical evidence cases under showcase/. Each is a real MCP tool
 # run committed as documentation; removing one silently would weaken the

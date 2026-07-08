@@ -7,9 +7,10 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 10 verified pack roots: `NeurIPS-Skills`, `ICML-Skills`,
+- Complete category-8 depth packs: 14 verified pack roots: `NeurIPS-Skills`, `ICML-Skills`,
   `ICLR-Skills`, `AAAI-Skills`, `IJCAI-Skills`, `AISTATS-Skills`, `UAI-Skills`, `COLT-Skills`,
-  `MLSys-Skills`, `KDD-Skills` (UAI/COLT/MLSys/KDD added 2026-07-08).
+  `MLSys-Skills`, `KDD-Skills`, `The-Web-Conference-Skills`, `WSDM-Skills`, `SIGIR-Skills`,
+  `CVPR-Skills` (UAI through CVPR added 2026-07-08).
 - Existing category-8 breadth seeds:
   - 155 conference profiles in `Computer-Science-Conference-Skills`.
   - 3 journal profiles in `English-NaturalScience-Journal-Skills`: `nature-machine-intelligence`,
@@ -56,10 +57,10 @@ value plus existing breadth seeds.
 | 8 | COLT | conference | `conference-on-learning-theory`; depth pack `COLT-Skills` complete |
 | 9 | MLSys | conference | `conference-on-machine-learning-and-systems`; depth pack `MLSys-Skills` complete |
 | 10 | KDD | conference | `acm-sigkdd-conference-on-knowledge-discovery-and-data-mining`; depth pack `KDD-Skills` complete |
-| 11 | The Web Conference | conference | `the-web-conference` |
-| 12 | WSDM | conference | `acm-international-conference-on-web-search-and-data-mining` |
-| 13 | SIGIR | conference | `acm-sigir-conference-on-research-and-development-in-information-retrieval` |
-| 14 | CVPR | conference | `computer-vision-and-pattern-recognition` |
+| 11 | The Web Conference | conference | `the-web-conference`; depth pack `The-Web-Conference-Skills` complete |
+| 12 | WSDM | conference | `acm-international-conference-on-web-search-and-data-mining`; depth pack `WSDM-Skills` complete |
+| 13 | SIGIR | conference | `acm-sigir-conference-on-research-and-development-in-information-retrieval`; depth pack `SIGIR-Skills` complete |
+| 14 | CVPR | conference | `computer-vision-and-pattern-recognition`; depth pack `CVPR-Skills` complete |
 | 15 | ICCV | conference | `international-conference-on-computer-vision` |
 | 16 | ACL | conference | `annual-meeting-of-the-association-for-computational-linguistics` |
 | 17 | EMNLP | conference | `conference-on-empirical-methods-in-natural-language-processing` |

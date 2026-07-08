@@ -331,6 +331,13 @@
       "category": "academic"
     },
     {
+      "name": "cvpr-skills",
+      "source": "./CVPR-Skills",
+      "description": "Twelve CVPR-specific skills covering the full cycle of the largest computer-vision conference — submission, review at 16k-paper scale, rebuttal, artifacts, and publication — grounded in official CVPR 2026 author/reviewer pages checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "demog-skills",
       "source": "./Demography-Skills",
       "description": "Twelve-skill bundle covering the Demography manuscript lifecycle across population science, with demographic methods (life tables, decomposition, event history, age-period-cohort, multistate, microsimulation, projections) and the journal's Subscribe to Open access model.",
@@ -1283,6 +1290,13 @@
       "category": "academic"
     },
     {
+      "name": "sigir-skills",
+      "source": "./SIGIR-Skills",
+      "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "sf-skills",
       "source": "./Social-Forces-Skills",
       "description": "Twelve-skill bundle covering the Social Forces manuscript lifecycle across the generalist sociological and social-science subfields the journal serves, under its strict reference-inclusive 10,000-word cap and Chicago author-date style.",
@@ -1360,6 +1374,13 @@
       "category": "academic"
     },
     {
+      "name": "the-web-conference-skills",
+      "source": "./The-Web-Conference-Skills",
+      "description": "Twelve Web Conference-specific skills for submitting to the ACM Web Conference (formerly WWW), grounded in the WWW 2026 research-tracks CFP, artifact-badging call, ACM Digital Library proceedings records, and SIGWEB venue announcements.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "uai-skills",
       "source": "./UAI-Skills",
       "description": "Twelve UAI-specific skills for probabilistic-AI conference submission strategy, grounded in official AUAI / UAI 2026 conference pages, the UAI OpenReview group, PMLR proceedings volumes, and the AUAI Code of Conduct.",
@@ -1384,6 +1405,13 @@
       "name": "wp-skills",
       "source": "./World-Politics-Skills",
       "description": "Twelve-skill bundle covering the World Politics manuscript lifecycle for comparative-politics and international-relations research, including the journal's research-article and review-article tracks.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "wsdm-skills",
+      "source": "./WSDM-Skills",
+      "description": "Twelve WSDM-specific skills for web search and data mining conference submissions, grounded in the WSDM 2026 CFP, the WSDM 2027 conference site, ACM Digital Library proceedings, and dblp metadata.",
       "version": "0.1.0",
       "category": "academic"
     },

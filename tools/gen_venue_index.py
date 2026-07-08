@@ -76,6 +76,8 @@ DISC = [
     ("ICML", "cs-ai (conference)"), ("IJCAI", "cs-ai (conference)"),
     ("KDD", "cs-ai (conference)"), ("MLSys", "cs-ai (conference)"),
     ("NeurIPS", "cs-ai (conference)"), ("UAI", "cs-ai (conference)"),
+    ("Web-Conference", "cs-ai (conference)"), ("WSDM", "cs-ai (conference)"),
+    ("SIGIR", "cs-ai (conference)"), ("CVPR", "cs-ai (conference)"),
     # specific economics flagships / subfields not caught generically
     ("AEJ-Applied", "economics/applied"), ("AEJ-Macro", "economics/macro"),
     ("AEJ-Micro", "economics/micro"), ("AER-Insights", "economics"),

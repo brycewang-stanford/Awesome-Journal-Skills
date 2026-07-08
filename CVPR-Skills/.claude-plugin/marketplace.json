@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cvpr-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for CVPR paper strategy: topic routing, OpenReview submission, one-page rebuttals, reviewer-duty compliance, compute reporting, and CVF/IEEE camera-ready delivery.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "cvpr-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve CVPR-specific skills covering the full cycle of the largest computer-vision conference — submission, review at 16k-paper scale, rebuttal, artifacts, and publication — grounded in official CVPR 2026 author/reviewer pages checked 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "cvpr",
+        "computer-vision",
+        "openreview",
+        "rebuttal",
+        "camera-ready",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/cvpr-submission",
+        "skills/cvpr-author-response",
+        "skills/cvpr-camera-ready",
+        "skills/cvpr-artifact-evaluation",
+        "skills/cvpr-reproducibility",
+        "skills/cvpr-supplementary",
+        "skills/cvpr-review-process",
+        "skills/cvpr-writing-style",
+        "skills/cvpr-related-work",
+        "skills/cvpr-experiments",
+        "skills/cvpr-workflow",
+        "skills/cvpr-topic-selection"
+      ]
+    }
+  ]
+}

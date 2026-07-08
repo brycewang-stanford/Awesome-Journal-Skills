@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "the-web-conference-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for The ACM Web Conference (WWW): track routing, research-tracks submission, rebuttal, ACM camera-ready, artifact badging, and web-scale evidence work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "the-web-conference-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve Web Conference-specific skills for submitting to the ACM Web Conference (formerly WWW), grounded in the WWW 2026 research-tracks CFP, artifact-badging call, ACM Digital Library proceedings records, and SIGWEB venue announcements.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "the-web-conference",
+        "www",
+        "rebuttal",
+        "camera-ready",
+        "artifact-badging",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/webconf-submission",
+        "skills/webconf-author-response",
+        "skills/webconf-camera-ready",
+        "skills/webconf-artifact-evaluation",
+        "skills/webconf-reproducibility",
+        "skills/webconf-supplementary",
+        "skills/webconf-review-process",
+        "skills/webconf-writing-style",
+        "skills/webconf-related-work",
+        "skills/webconf-experiments",
+        "skills/webconf-workflow",
+        "skills/webconf-topic-selection"
+      ]
+    }
+  ]
+}

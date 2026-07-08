@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2950 个 Agent Skill、199 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：2998 个 Agent Skill、203 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -366,11 +366,11 @@
 | <a id="discipline-life-sciences"></a>🧬 **生命科学** | 细胞 · 分子 · 基因组 · 免疫 · 微生物 · 神经 · 植物 · 生态演化 | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | 深度包 + 英文自然科学广度合集 |
 | <a id="discipline-medicine-health"></a>🩺 **医学与健康** | 临床综合 · 肿瘤 · 心血管 · 神经 · 感染 · 内科 · 公共健康 · 转化医学 | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | 深度包 + 临床医学广度合集 + 英文自然科学广度合集 |
 | <a id="discipline-engineering-tech"></a>⚙️ **工程与技术** | 控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料 | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文工程技术广度合集 |
-| <a id="discipline-cs-ai"></a>🤖 **计算机科学与 AI** | AI/ML · CV · NLP · 数据挖掘 · 系统 · 数据库 · 安全 · HCI · 理论 | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD + 155 个会议 | CS/AI 深度包 + 会议广度合集 |
+| <a id="discipline-cs-ai"></a>🤖 **计算机科学与 AI** | AI/ML · CV · NLP · 数据挖掘 · 系统 · 数据库 · 安全 · HCI · 理论 | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · WebConf · WSDM · SIGIR · CVPR + 155 个会议 | CS/AI 深度包 + 会议广度合集 |
 | <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
 | <a id="discipline-sport-science"></a>🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
-<sub>共 <b>199 个 pack / 2950 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>203 个 pack / 2998 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -394,7 +394,7 @@
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2950 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 2998 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -514,6 +514,10 @@
 | **COLT** Conference on Learning Theory | [COLT-Skills/](COLT-Skills/) | 学习理论投稿、证明组织与附录、作者回复、PMLR camera-ready、理论型可复现性与代码规范、审稿流程、写作风格、相关工作、workflow 与选题定位 | 12 |
 | **MLSys** Conference on Machine Learning and Systems | [MLSys-Skills/](MLSys-Skills/) | Research/Industrial 双轨投稿、artifact evaluation 徽章、性能测量方法学、可复现性、补充材料、审稿流程、系统写作、实验、workflow 与选题定位 | 12 |
 | **KDD** ACM SIGKDD Conference on Knowledge Discovery and Data Mining | [KDD-Skills/](KDD-Skills/) | Research/ADS 双轨与双投稿周期、sigconf 与 ACM TAPS、rebuttal 与 Resubmit、部署证据、可复现性、补充材料、实验、workflow 与选题定位 | 12 |
+| **The Web Conference** ACM Web Conference (WWW) | [The-Web-Conference-Skills/](The-Web-Conference-Skills/) | 十研究轨选择、EasyChair 投稿、摘要期作者名单冻结、单 PDF 12 页页数算术、7 篇投稿上限、rebuttal、camera-ready、可复现性、实验、workflow 与选题定位 | 12 |
+| **WSDM** ACM International Conference on Web Search and Data Mining | [WSDM-Skills/](WSDM-Skills/) | EasyChair 投稿、含附录页数预算、ethical-considerations 必备节、无 rebuttal 场景下的防桌拒、匿名化、审稿流程、写作风格、实验、workflow 与选题定位 | 12 |
+| **SIGIR** ACM SIGIR Conference on Research and Development in Information Retrieval | [SIGIR-Skills/](SIGIR-Skills/) | full/short 双格式页数预算（附录计内）、per-track OpenReview、PC 提名义务、IR 评测严谨性（测试集/显著性）、ACM TAPS、可复现性、workflow 与选题定位 | 12 |
+| **CVPR** IEEE/CVF Conference on Computer Vision and Pattern Recognition | [CVPR-Skills/](CVPR-Skills/) | 摘要注册与 OpenReview profile 义务、8 页含图表限制、Compute Reporting Form、reviewer 义务、超大规模评审、补充材料、CVF 开放获取 camera-ready、workflow 与选题定位 | 12 |
 
 这个合集把 AI 会议放在最前面：NeurIPS、ICML、ICLR、AAAI、IJCAI、AISTATS、UAI、COLT、MLSys、KDD、CVPR、ACL、EMNLP、SIGIR、ICRA、CHI、SOSP、IEEE S&P、ICSE、PLDI、SIGMOD、STOC，以及 130+ 个其它 CS 会议。每个 profile 都是“会议 fit + 当年投稿要求核验清单”；deadline、页数、模板、AI 使用政策、artifact 规则、rebuttal 格式、camera-ready 要求等易变事实，必须以当前官方 CFP / author kit 为准。
 
@@ -1191,7 +1195,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>2950</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>199 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>2275</b>（189 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>2950</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>2998</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>203 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>2323</b>（193 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>2998</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1310,6 +1314,10 @@ awesome-journal-skills/
 ├── COLT-Skills/                   → COLT 主会（12 skills）
 ├── MLSys-Skills/                  → MLSys 主会（12 skills）
 ├── KDD-Skills/                    → KDD 主会（12 skills）
+├── The-Web-Conference-Skills/     → The Web Conference 主会（12 skills）
+├── WSDM-Skills/                   → WSDM 主会（12 skills）
+├── SIGIR-Skills/                  → SIGIR 主会（12 skills）
+├── CVPR-Skills/                   → CVPR 主会（12 skills）
 │   # 自然科学与临床深度包（本仓库内编写维护）
 ├── Science-Skills/                → Science（AAAS）（12 skills）
 ├── Cell-Skills/                   → Cell（Cell Press）（12 skills）
@@ -1329,7 +1337,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change（12 skills）
 ├── Agricultural-Systems-Skills/   → Agricultural Systems（12 skills）
 ├── Field-Crops-Research-Skills/   → Field Crops Research（12 skills）
-│   # 根级 marketplace 清单（聚合全部 199 个仓库内 pack）
+│   # 根级 marketplace 清单（聚合全部 203 个仓库内 pack）
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1422,7 +1430,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **199 个 pack / 2950 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **203 个 pack / 2998 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1446,7 +1454,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - **英文自然科学：** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics（另收录 Nature 包）
   - **英文环境 / 生态 / 农业：** Environmental Science & Technology · Conservation Biology · Global Change Biology · Global Environmental Change · Agricultural Systems · Field Crops Research
   - **人文与广义社科（24）：** 社会学 ASR · AJS · Social Forces · SPQ · JMF · Criminology；人口学 Demography；政治学/IR APSR · AJPS · JOP · World Politics · International Organization；心理学 JPSP · Psychological Bulletin · Psychological Science；传播/舆论 Journal of Communication · POQ；教育 AERJ；人文 The American Historical Review · The Art Bulletin · Mind · PMLA · Critical Inquiry · JAAR
-  - **CS/AI 会议：** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD
+  - **CS/AI 会议：** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · The Web Conference · WSDM · SIGIR · CVPR
   - **中文重点刊（15）：** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
 ### 🚧 待办 —— 下一梯队扩展

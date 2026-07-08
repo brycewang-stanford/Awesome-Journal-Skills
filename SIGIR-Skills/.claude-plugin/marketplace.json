@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sigir-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for SIGIR information-retrieval papers: track routing, full/short-paper submission, IR evaluation rigor, resources and reproducibility tracks, review strategy, and ACM camera-ready production.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sigir-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "sigir",
+        "information-retrieval",
+        "test-collections",
+        "significance-testing",
+        "acm-taps",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/sigir-submission",
+        "skills/sigir-author-response",
+        "skills/sigir-camera-ready",
+        "skills/sigir-artifact-evaluation",
+        "skills/sigir-reproducibility",
+        "skills/sigir-supplementary",
+        "skills/sigir-review-process",
+        "skills/sigir-writing-style",
+        "skills/sigir-related-work",
+        "skills/sigir-experiments",
+        "skills/sigir-workflow",
+        "skills/sigir-topic-selection"
+      ]
+    }
+  ]
+}

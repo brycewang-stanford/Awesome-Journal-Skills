@@ -1,0 +1,22 @@
+{
+  "name": "the-web-conference-skills",
+  "description": "A 12-skill depth pack for The ACM Web Conference (WWW): topic and track selection, research-tracks submission audits, rebuttal drafting, ACM camera-ready and TAPS, artifact badging, web-data reproducibility, appendix packaging, review-process reasoning, writing style, related work, web-scale experiments, and cycle workflow. Grounded in the WWW 2026 research-tracks CFP, important-dates page, artifact-badging call, ACM DL proceedings records, and SIGWEB announcements checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "the-web-conference",
+    "www",
+    "web-research",
+    "acm-sigweb",
+    "conference-submission",
+    "rebuttal",
+    "artifact-badging",
+    "web-mining"
+  ]
+}

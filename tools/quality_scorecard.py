@@ -45,13 +45,17 @@ CONFERENCE_DEPTH_PACKS = {
     "AAAI-Skills",
     "AISTATS-Skills",
     "COLT-Skills",
+    "CVPR-Skills",
     "ICLR-Skills",
     "ICML-Skills",
     "IJCAI-Skills",
     "KDD-Skills",
     "MLSys-Skills",
     "NeurIPS-Skills",
+    "SIGIR-Skills",
+    "The-Web-Conference-Skills",
     "UAI-Skills",
+    "WSDM-Skills",
 }
 
 TOOLKIT_PACKS = {
