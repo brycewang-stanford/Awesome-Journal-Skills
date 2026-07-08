@@ -43,6 +43,14 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `IEEE-SP-Skills` | depth pack | 8 CS & AI | reusable; twenty-second category-8 Wave 25-A depth pack |
 | `ACM-CCS-Skills` | depth pack | 8 CS & AI | reusable; twenty-third category-8 Wave 25-A depth pack |
 | `ICSE-Skills` | depth pack | 8 CS & AI | reusable; twenty-fourth category-8 Wave 25-A depth pack — Wave 25-A launch batch complete (24/24) |
+| `NAACL-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
+| `ECCV-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
+| `PLDI-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
+| `SIGMOD-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
+| `STOC-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
+| `NSDI-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
+| `USENIX-Security-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack |
+| `NDSS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 second-tranche depth pack — category-8 at 32/100 |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |
@@ -168,5 +176,5 @@ targets, 10 Chinese targets, a first 24-pack AI-first launch batch, and CS/AI pa
 `AISTATS-Skills` are the first six completed depth packs from that launch batch. Parallel W1 also
 added six category-1 field-economics depth packs: JDE, JPubE, JOLE, JIE, JME, and RJE.
 
-Next task: Wave 25-A launch batch is COMPLETE (24/24). Continue category-8 production from the EN core-61 list (e.g. NAACL, ECCV, PLDI, SIGMOD, STOC, NSDI, USENIX Security, NDSS), preserving
+Next task: category-8 at 32/100. Continue EN core-61 production (e.g. FOCS, SODA, POPL, OOPSLA, VLDB, CIKM, EuroSys, ASPLOS, UIST, CSCW, INTERSPEECH, COLM), preserving
 official-source checks and clone-audit gates per pack.

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "usenix-security-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for USENIX Security Symposium manuscript planning, HotCRP cycle submission, ethics and Open Science appendices, artifact evaluation, and camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "usenix-security-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve USENIX Security-specific skills for security conference submission strategy, grounded in the USENIX Security '26 Call for Papers, the '27 cycle calendar, the Call for Artifacts, and the ethics guidelines.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "usenix-security",
+        "hotcrp",
+        "artifact-evaluation",
+        "open-science",
+        "vulnerability-disclosure",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/usenixsec-submission",
+        "skills/usenixsec-author-response",
+        "skills/usenixsec-camera-ready",
+        "skills/usenixsec-artifact-evaluation",
+        "skills/usenixsec-reproducibility",
+        "skills/usenixsec-supplementary",
+        "skills/usenixsec-review-process",
+        "skills/usenixsec-writing-style",
+        "skills/usenixsec-related-work",
+        "skills/usenixsec-experiments",
+        "skills/usenixsec-workflow",
+        "skills/usenixsec-topic-selection"
+      ]
+    }
+  ]
+}

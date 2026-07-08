@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sigmod-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM SIGMOD data-management research: PACMMOD round planning, CMT submission, revision letters, ARI artifact badges, and camera-ready porting.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sigmod-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve SIGMOD-specific skills for database and data-management paper strategy under the PACMMOD multi-round journal model, grounded in the SIGMOD 2027 Call for Papers, PACMMOD author guidelines, and the Availability & Reproducibility Initiative pages.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "sigmod",
+        "pacmmod",
+        "revision-rounds",
+        "camera-ready",
+        "reproducibility",
+        "database-research"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/sigmod-submission",
+        "skills/sigmod-author-response",
+        "skills/sigmod-camera-ready",
+        "skills/sigmod-artifact-evaluation",
+        "skills/sigmod-reproducibility",
+        "skills/sigmod-supplementary",
+        "skills/sigmod-review-process",
+        "skills/sigmod-writing-style",
+        "skills/sigmod-related-work",
+        "skills/sigmod-experiments",
+        "skills/sigmod-workflow",
+        "skills/sigmod-topic-selection"
+      ]
+    }
+  ]
+}

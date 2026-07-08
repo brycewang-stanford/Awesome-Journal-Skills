@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "nsdi-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for NSDI networked-systems papers: two-deadline planning, HotCRP submission, one-shot revisions, deployment evidence, artifacts, and USENIX open-access publication.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "nsdi-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve NSDI-specific skills covering the spring/fall submission calendar, track choice, evaluation design with real traces and testbeds, one-shot revise-and-resubmit, artifact badges, and camera-ready duties, grounded in the NSDI '27 and NSDI '26 official pages checked on 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "nsdi",
+        "usenix",
+        "hotcrp",
+        "one-shot-revision",
+        "artifact-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/nsdi-submission",
+        "skills/nsdi-author-response",
+        "skills/nsdi-camera-ready",
+        "skills/nsdi-artifact-evaluation",
+        "skills/nsdi-reproducibility",
+        "skills/nsdi-supplementary",
+        "skills/nsdi-review-process",
+        "skills/nsdi-writing-style",
+        "skills/nsdi-related-work",
+        "skills/nsdi-experiments",
+        "skills/nsdi-workflow",
+        "skills/nsdi-topic-selection"
+      ]
+    }
+  ]
+}

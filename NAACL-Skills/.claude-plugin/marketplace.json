@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "naacl-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for NAACL (Nations of the Americas Chapter of the ACL): ARR-cycle planning, commitment strategy, author response, Findings handling, Anthology camera-ready, and Americas-aware NLP evidence work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "naacl-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve NAACL-specific skills covering the full arc from *ACL venue routing through ACL Rolling Review, commitment, decision, and ACL Anthology publication, with the chapter's Nations-of-the-Americas identity and skipped-year calendar built into the advice.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "naacl",
+        "acl-rolling-review",
+        "commitment",
+        "findings",
+        "acl-anthology",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/naacl-submission",
+        "skills/naacl-author-response",
+        "skills/naacl-camera-ready",
+        "skills/naacl-artifact-evaluation",
+        "skills/naacl-reproducibility",
+        "skills/naacl-supplementary",
+        "skills/naacl-review-process",
+        "skills/naacl-writing-style",
+        "skills/naacl-related-work",
+        "skills/naacl-experiments",
+        "skills/naacl-workflow",
+        "skills/naacl-topic-selection"
+      ]
+    }
+  ]
+}

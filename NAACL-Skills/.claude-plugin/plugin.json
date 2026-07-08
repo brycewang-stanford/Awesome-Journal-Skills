@@ -1,0 +1,22 @@
+{
+  "name": "naacl-skills",
+  "description": "A 12-skill depth pack for NAACL, the Annual Conference of the Nations of the Americas Chapter of the ACL: venue routing across the *ACL family, ACL Rolling Review submission and commitment mechanics, author response, Main vs Findings outcomes, camera-ready and ACL Anthology publication, multilingual and Americas-focused evidence standards, and skipped-year calendar planning. Grounded in naacl.org, the NAACL 2024/2025 calls, and ARR pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "naacl",
+    "nations-of-the-americas",
+    "computational-linguistics",
+    "nlp",
+    "acl-rolling-review",
+    "findings",
+    "acl-anthology",
+    "conference-submission"
+  ]
+}

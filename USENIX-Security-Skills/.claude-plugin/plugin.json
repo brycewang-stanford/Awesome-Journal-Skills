@@ -1,0 +1,22 @@
+{
+  "name": "usenix-security-skills",
+  "description": "A 12-skill depth pack for USENIX Security Symposium submissions: venue fit, HotCRP cycle submission, shepherding and author interaction, camera-ready, two-phase artifact evaluation, Open Science compliance, appendix strategy, review process, writing style, related work, experiments, and the two-cycle workflow. Grounded in USENIX Security '26/'27 pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "usenix-security",
+    "security",
+    "privacy",
+    "conference-submission",
+    "hotcrp",
+    "artifact-evaluation",
+    "open-science",
+    "vulnerability-disclosure"
+  ]
+}

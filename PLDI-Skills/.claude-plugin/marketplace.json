@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "pldi-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for PLDI paper planning, HotCRP double-blind submission, author response, PACMPL publication, and badge-earning artifact evaluation.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "pldi-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve PLDI-specific skills for programming-languages conference strategy, grounded in the PLDI 2026 Call for Papers, pldi26.sigplan.org track pages, PACMPL author guidelines, and SIGPLAN's Empirical Evaluation Guidelines.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "pldi",
+        "hotcrp",
+        "pacmpl",
+        "artifact-evaluation",
+        "compilers",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/pldi-submission",
+        "skills/pldi-author-response",
+        "skills/pldi-camera-ready",
+        "skills/pldi-artifact-evaluation",
+        "skills/pldi-reproducibility",
+        "skills/pldi-supplementary",
+        "skills/pldi-review-process",
+        "skills/pldi-writing-style",
+        "skills/pldi-related-work",
+        "skills/pldi-experiments",
+        "skills/pldi-workflow",
+        "skills/pldi-topic-selection"
+      ]
+    }
+  ]
+}

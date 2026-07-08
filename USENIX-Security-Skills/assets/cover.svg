@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">USENIX Security Skills</title>
+  <desc id="desc">Cover image for the USENIX Security Symposium submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101c2c"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f0e6"/>
+  <path d="M180 470 L180 330 Q180 250 300 250 L420 250" fill="none" stroke="#b3452e" stroke-width="16" stroke-linecap="round"/>
+  <path d="M1020 470 L1020 330 Q1020 250 900 250 L780 250" fill="none" stroke="#2b6e5a" stroke-width="16" stroke-linecap="round"/>
+  <rect x="530" y="210" width="140" height="110" rx="18" fill="none" stroke="#101c2c" stroke-width="14"/>
+  <path d="M560 210 v-28 a40 40 0 0 1 80 0 v28" fill="none" stroke="#101c2c" stroke-width="14"/>
+  <circle cx="600" cy="262" r="14" fill="#b3452e"/>
+  <text x="132" y="168" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700" fill="#101c2c">USENIX Security</text>
+  <text x="136" y="430" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#374151">USENIX Security Symposium</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#101c2c">Two cycles · HotCRP · Ethics &amp; Open Science · Artifact badges</text>
+</svg>
