@@ -34,11 +34,11 @@ workflow/topic-selection）。锚点：**CCF-A/B 会议优先** + CSRankings。
 
 ### 英文 90 —— 会议在前
 **AI / ML (顶)**：NeurIPS [A-depth] · ICML [A-depth] · ICLR [A-depth] · AAAI [A-depth] · IJCAI [A-depth] · COLT [A-depth] · AISTATS [A-depth] · UAI [A-depth]
-**计算机视觉**：CVPR [A-depth] · ICCV · ECCV
-**自然语言处理**：ACL · EMNLP · NAACL
+**计算机视觉**：CVPR [A-depth] · ICCV [A-depth] · ECCV
+**自然语言处理**：ACL [A-depth] · EMNLP [A-depth] · NAACL
 **数据挖掘 / Web**：KDD [A-depth] · WWW (The Web Conf) [A-depth] · WSDM [A-depth] · CIKM · ICDM · SIGIR [A-depth]
 **多媒体 / 语音**：ACM MM · INTERSPEECH · ICASSP
-**机器人**：ICRA · IROS · RSS · CoRL
+**机器人**：ICRA [A-depth] · IROS · RSS · CoRL
 **计算机图形**：SIGGRAPH · SIGGRAPH Asia
 **人机交互**：CHI · UIST · CSCW
 **系统**：OSDI · SOSP · NSDI · EuroSys · USENIX ATC · ASPLOS

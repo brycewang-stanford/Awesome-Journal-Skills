@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "acl-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACL papers under ACL Rolling Review: cycle planning, ARR submission, author response, venue commitment, Responsible NLP checklist, camera-ready, and ACL Anthology publication.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "acl-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ACL-specific skills for NLP conference submission strategy under ACL Rolling Review, grounded in the ACL 2026 CFP, aclrollingreview.org policies, OpenReview ARR groups, and the ACL Anthology.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "acl",
+        "acl-rolling-review",
+        "author-response",
+        "commitment",
+        "responsible-nlp-checklist",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/acl-submission",
+        "skills/acl-author-response",
+        "skills/acl-camera-ready",
+        "skills/acl-artifact-evaluation",
+        "skills/acl-reproducibility",
+        "skills/acl-supplementary",
+        "skills/acl-review-process",
+        "skills/acl-writing-style",
+        "skills/acl-related-work",
+        "skills/acl-experiments",
+        "skills/acl-workflow",
+        "skills/acl-topic-selection"
+      ]
+    }
+  ]
+}

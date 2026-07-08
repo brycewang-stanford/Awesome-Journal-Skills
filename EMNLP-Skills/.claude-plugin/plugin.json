@@ -1,0 +1,22 @@
+{
+  "name": "emnlp-skills",
+  "description": "A 12-skill depth pack for EMNLP submissions: venue fit, ACL Rolling Review submission checks, author response, camera-ready, artifacts, reproducibility, appendices, review-and-commitment process, writing style, related work, experiments, and workflow. Grounded in the EMNLP 2026 CFP, the ARR May 2026 cycle, OpenReview groups, and the ACL Anthology, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "emnlp",
+    "natural-language-processing",
+    "acl-rolling-review",
+    "conference-submission",
+    "openreview",
+    "acl-anthology",
+    "findings",
+    "evaluation"
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ACL Skills</title>
+  <desc id="desc">Cover image for the ACL conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#1f1533"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f0ea"/>
+  <path d="M150 430 L318 282 L484 356 L650 226 L816 306 L1040 176" fill="none" stroke="#8a2d3b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="318" cy="282" r="42" fill="#3d7068"/>
+  <circle cx="650" cy="226" r="42" fill="#8a2d3b"/>
+  <circle cx="1040" cy="176" r="42" fill="#c9a227"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1f1533">ACL</text>
+  <text x="136" y="268" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#374151">Computational linguistics and NLP</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1f1533">Rolling Review · Commitment · Findings · Anthology</text>
+</svg>

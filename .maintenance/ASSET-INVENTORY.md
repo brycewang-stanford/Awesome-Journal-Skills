@@ -33,6 +33,10 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `WSDM-Skills` | depth pack | 8 CS & AI | reusable; twelfth category-8 Wave 25-A depth pack |
 | `SIGIR-Skills` | depth pack | 8 CS & AI | reusable; thirteenth category-8 Wave 25-A depth pack |
 | `CVPR-Skills` | depth pack | 8 CS & AI | reusable; fourteenth category-8 Wave 25-A depth pack |
+| `ICCV-Skills` | depth pack | 8 CS & AI | reusable; fifteenth category-8 Wave 25-A depth pack |
+| `ACL-Skills` | depth pack | 8 CS & AI | reusable; sixteenth category-8 Wave 25-A depth pack |
+| `EMNLP-Skills` | depth pack | 8 CS & AI | reusable; seventeenth category-8 Wave 25-A depth pack |
+| `ICRA-Skills` | depth pack | 8 CS & AI | reusable; eighteenth category-8 Wave 25-A depth pack |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |
@@ -158,5 +162,5 @@ targets, 10 Chinese targets, a first 24-pack AI-first launch batch, and CS/AI pa
 `AISTATS-Skills` are the first six completed depth packs from that launch batch. Parallel W1 also
 added six category-1 field-economics depth packs: JDE, JPubE, JOLE, JIE, JME, and RJE.
 
-Next task: continue Wave 25-A depth-pack production with ICCV, ACL, EMNLP, and ICRA, preserving
+Next task: continue Wave 25-A depth-pack production with CHI, SOSP, OSDI, and IEEE S&P, preserving
 official-source checks and clone-audit gates per pack.

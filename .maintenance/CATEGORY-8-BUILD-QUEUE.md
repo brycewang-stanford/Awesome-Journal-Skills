@@ -7,10 +7,11 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 14 verified pack roots: `NeurIPS-Skills`, `ICML-Skills`,
+- Complete category-8 depth packs: 18 verified pack roots: `NeurIPS-Skills`, `ICML-Skills`,
   `ICLR-Skills`, `AAAI-Skills`, `IJCAI-Skills`, `AISTATS-Skills`, `UAI-Skills`, `COLT-Skills`,
   `MLSys-Skills`, `KDD-Skills`, `The-Web-Conference-Skills`, `WSDM-Skills`, `SIGIR-Skills`,
-  `CVPR-Skills` (UAI through CVPR added 2026-07-08).
+  `CVPR-Skills`, `ICCV-Skills`, `ACL-Skills`, `EMNLP-Skills`, `ICRA-Skills`
+  (UAI through ICRA added 2026-07-08).
 - Existing category-8 breadth seeds:
   - 155 conference profiles in `Computer-Science-Conference-Skills`.
   - 3 journal profiles in `English-NaturalScience-Journal-Skills`: `nature-machine-intelligence`,
@@ -61,10 +62,10 @@ value plus existing breadth seeds.
 | 12 | WSDM | conference | `acm-international-conference-on-web-search-and-data-mining`; depth pack `WSDM-Skills` complete |
 | 13 | SIGIR | conference | `acm-sigir-conference-on-research-and-development-in-information-retrieval`; depth pack `SIGIR-Skills` complete |
 | 14 | CVPR | conference | `computer-vision-and-pattern-recognition`; depth pack `CVPR-Skills` complete |
-| 15 | ICCV | conference | `international-conference-on-computer-vision` |
-| 16 | ACL | conference | `annual-meeting-of-the-association-for-computational-linguistics` |
-| 17 | EMNLP | conference | `conference-on-empirical-methods-in-natural-language-processing` |
-| 18 | ICRA | conference | `ieee-international-conference-on-robotics-and-automation` |
+| 15 | ICCV | conference | `international-conference-on-computer-vision`; depth pack `ICCV-Skills` complete |
+| 16 | ACL | conference | `annual-meeting-of-the-association-for-computational-linguistics`; depth pack `ACL-Skills` complete |
+| 17 | EMNLP | conference | `conference-on-empirical-methods-in-natural-language-processing`; depth pack `EMNLP-Skills` complete |
+| 18 | ICRA | conference | `ieee-international-conference-on-robotics-and-automation`; depth pack `ICRA-Skills` complete |
 | 19 | CHI | conference | `acm-chi-conference-on-human-factors-in-computing-systems` |
 | 20 | SOSP | conference | `acm-symposium-on-operating-systems-principles` |
 | 21 | OSDI | conference | `usenix-symposium-on-operating-systems-design-and-implementation` |

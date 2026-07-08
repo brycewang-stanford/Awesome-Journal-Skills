@@ -44,6 +44,13 @@
       "category": "academic"
     },
     {
+      "name": "acl-skills",
+      "source": "./ACL-Skills",
+      "description": "Twelve ACL-specific skills for NLP conference submission strategy under ACL Rolling Review, grounded in the ACL 2026 CFP, aclrollingreview.org policies, OpenReview ARR groups, and the ACL Anthology.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "asq-skills",
       "source": "./Administrative-Science-Quarterly-Skills",
       "description": "Twelve-skill bundle covering the Administrative Science Quarterly (ASQ) manuscript lifecycle.",
@@ -380,6 +387,13 @@
       "category": "academic"
     },
     {
+      "name": "emnlp-skills",
+      "source": "./EMNLP-Skills",
+      "description": "Twelve EMNLP-specific skills for empirical NLP conference submission strategy, grounded in the EMNLP 2026 Call for Papers, the ACL Rolling Review May 2026 cycle, OpenReview groups, and the ACL Anthology.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "engineering-technology-journal-skills",
       "source": "./Engineering-Technology-Journal-Skills",
       "description": "English engineering / technology journal routing and per-journal fit skills with official-submission-check discipline.",
@@ -506,6 +520,13 @@
       "category": "academic"
     },
     {
+      "name": "iccv-skills",
+      "source": "./ICCV-Skills",
+      "description": "Twelve ICCV-specific skills for the odd-year IEEE/CVF International Conference on Computer Vision, grounded in the ICCV 2025 Call for Papers, Author and Reviewer Guidelines, the 2025 Changes page, OpenReview group, and CVF open access, checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "iclr-skills",
       "source": "./ICLR-Skills",
       "description": "Twelve ICLR-specific skills for ML conference submission strategy, grounded in official ICLR 2026 CFP, Author Guide, Reviewer Guide, Code of Ethics, Code of Conduct, and LLM-use policy.",
@@ -516,6 +537,13 @@
       "name": "icml-skills",
       "source": "./ICML-Skills",
       "description": "Twelve ICML-specific skills for ML conference submission strategy, grounded in official ICML 2026 author instructions, CFP, Peer Review FAQ, review instructions, and LLM-review policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icra-skills",
+      "source": "./ICRA-Skills",
+      "description": "Twelve ICRA-specific skills covering robotics venue routing (direct ICRA vs RA-L with conference presentation), PaperPlaza mechanics, the 6+2 page rule, video attachments, real-robot experiment standards, and IEEE camera-ready publication, anchored to the verified ICRA 2026 cycle and announced ICRA 2027 pages.",
       "version": "0.1.0",
       "category": "academic"
     },

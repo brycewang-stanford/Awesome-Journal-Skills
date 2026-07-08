@@ -1,0 +1,22 @@
+{
+  "name": "acl-skills",
+  "description": "A 12-skill depth pack for ACL (Annual Meeting of the Association for Computational Linguistics) submissions built around ACL Rolling Review: cycle selection, ARR submission checks, author response, commitment strategy, camera-ready, artifacts, reproducibility, the Responsible NLP checklist, writing style, related work, experiments, and workflow. Grounded in the ACL 2026 CFP, aclrollingreview.org CFP and cycle calendar, OpenReview ARR groups, and the ACL Anthology, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "acl",
+    "natural-language-processing",
+    "computational-linguistics",
+    "acl-rolling-review",
+    "openreview",
+    "acl-anthology",
+    "conference-submission",
+    "responsible-nlp"
+  ]
+}

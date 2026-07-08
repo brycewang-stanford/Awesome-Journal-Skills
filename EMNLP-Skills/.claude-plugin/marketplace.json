@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "emnlp-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for EMNLP manuscript planning, ACL Rolling Review submission, author response, commitment strategy, reproducibility, artifacts, and ACL Anthology camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "emnlp-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve EMNLP-specific skills for empirical NLP conference submission strategy, grounded in the EMNLP 2026 Call for Papers, the ACL Rolling Review May 2026 cycle, OpenReview groups, and the ACL Anthology.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "emnlp",
+        "acl-rolling-review",
+        "author-response",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/emnlp-submission",
+        "skills/emnlp-author-response",
+        "skills/emnlp-camera-ready",
+        "skills/emnlp-artifact-evaluation",
+        "skills/emnlp-reproducibility",
+        "skills/emnlp-supplementary",
+        "skills/emnlp-review-process",
+        "skills/emnlp-writing-style",
+        "skills/emnlp-related-work",
+        "skills/emnlp-experiments",
+        "skills/emnlp-workflow",
+        "skills/emnlp-topic-selection"
+      ]
+    }
+  ]
+}

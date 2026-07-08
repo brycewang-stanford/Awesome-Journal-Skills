@@ -43,11 +43,15 @@ IMPORTED_ROOTS = {
 
 CONFERENCE_DEPTH_PACKS = {
     "AAAI-Skills",
+    "ACL-Skills",
     "AISTATS-Skills",
     "COLT-Skills",
     "CVPR-Skills",
+    "EMNLP-Skills",
+    "ICCV-Skills",
     "ICLR-Skills",
     "ICML-Skills",
+    "ICRA-Skills",
     "IJCAI-Skills",
     "KDD-Skills",
     "MLSys-Skills",

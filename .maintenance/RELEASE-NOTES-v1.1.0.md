@@ -8,27 +8,28 @@
 
 ## 中文
 
-### Awesome Journal Skills v1.1.0 — 八个 CS/AI 会议深度包 + 全仓质量满分
+### Awesome Journal Skills v1.1.0 — 十二个 CS/AI 会议深度包 + 全仓质量满分
 
 自 v1.0.0（2026-07-02）以来的主要变化：
 
-**新增 8 个会议深度包（category-8 完成度 6/100 → 14/100）**
+**新增 12 个会议深度包（category-8 完成度 6/100 → 18/100）**
 - 第一波：UAI · COLT · MLSys · KDD
 - 第二波：The Web Conference · WSDM · SIGIR · CVPR
+- 第三波：ICCV · ACL · EMNLP · ICRA
 - 每包 12 个 skill、双语 README、官方源图（URL + 访问日期 + 访问方式披露）、
   exemplars / worked-examples / external-tools 资源层
 - venue-true 差异化：COLT 如实按「无 artifact track、证明附录即 artifact」的
   理论会议形态编写并采用 CMT（非 OpenReview）口径；KDD 覆盖双投稿周期、
   Research/ADS 双轨与 Resubmit 管线；MLSys 覆盖 Research/Industrial 双轨与
   录后 artifact 徽章；CVPR 覆盖超大规模评审与 reviewer 注册义务
-- 仓库总量：**195 pack / 2902 skill → 203 pack / 2998 skill**
+- 仓库总量：**195 pack / 2902 skill → 207 pack / 3046 skill**
 
 **质量：全仓评分满分收尾**
 - 修正评分器 structure 档位的规格错配（对完整小型广度束与深化旗舰包的
   错误罚分），修正前后逐包对比：195 包中仅目标 6 包变动，其余全部不变
-- 全仓 199→203 个 pack 全部达到公式满分 **94.0**；CI 回归防线由
+- 全仓 195→207 个 pack 全部达到公式满分 **94.0**；CI 回归防线由
   `--min-score 90` 提升至 **94**
-- 克隆审计 0.75 阈值全仓零命中（2998 skills / 350 comparison groups）
+- 克隆审计 0.75 阈值全仓零命中（3046 skills）
 
 **事实纪律**
 - top-5 欠账 source map 完成一轮搜索渲染核实（8 项升级、其余债务精确化，
@@ -44,12 +45,13 @@
 
 ## English
 
-### Awesome Journal Skills v1.1.0 — eight CS/AI conference depth packs + repo-wide perfect scores
+### Awesome Journal Skills v1.1.0 — twelve CS/AI conference depth packs + repo-wide perfect scores
 
 Highlights since v1.0.0 (2026-07-02):
 
-**8 new conference depth packs (category-8 progress 6/100 → 14/100)**
-- Wave 1: UAI · COLT · MLSys · KDD; Wave 2: The Web Conference · WSDM · SIGIR · CVPR
+**12 new conference depth packs (category-8 progress 6/100 → 18/100)**
+- Wave 1: UAI · COLT · MLSys · KDD; Wave 2: The Web Conference · WSDM · SIGIR · CVPR;
+  Wave 3: ICCV · ACL · EMNLP · ICRA
 - Each pack ships 12 skills, bilingual READMEs, an official source map
   (URL + access date + access-method disclosure), and an exemplars /
   worked-examples / external-tools resource layer
@@ -59,16 +61,16 @@ Highlights since v1.0.0 (2026-07-02):
   Resubmit pipeline; MLSys covers the Research/Industrial dual track and
   post-acceptance artifact badges; CVPR covers review at 10k+ scale and
   author-reviewer registration duties
-- Repo totals: **195 packs / 2902 skills → 203 packs / 2998 skills**
+- Repo totals: **195 packs / 2902 skills → 207 packs / 3046 skills**
 
 **Quality: the whole repo at the scorecard ceiling**
 - Fixed a structure-band mis-specification in the scorecard (it penalised
   legitimate small breadth bundles and a deliberately deepened flagship);
   the before/after diff shows exactly the six target packs moving and
   every other score unchanged
-- All 203 packs now score the formula ceiling **94.0**; the CI regression
+- All 207 packs now score the formula ceiling **94.0**; the CI regression
   floor was raised from `--min-score 90` to **94**
-- Clone audit: zero pairs at the 0.75 threshold across 2998 skills
+- Clone audit: zero pairs at the 0.75 threshold across 3046 skills
 
 **Fact discipline**
 - A search-rendering verification pass over the five highest-debt source
