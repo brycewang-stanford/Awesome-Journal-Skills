@@ -102,9 +102,10 @@ the input `cikm-workflow`'s fallback ring consumes.
 
 ## Scale realities
 
-CIKM is a large conference — recent editions publish on the order of a thousand
-papers across tracks — which shapes review dynamics in ways small selective
-venues do not: reviewer load is high, so the first page carries even more of the
+CIKM is one of the largest venues in its family — its proceedings run to many
+hundreds of papers across tracks (exact counts per edition: check the ACM DL
+record; 2026 statistics 待核实) — which shapes review dynamics in ways small
+selective venues do not: reviewer load is high, so the first page carries even more of the
 verdict (`cikm-writing-style`); topical match between paper and reviewer is
 looser than at a single-community venue, which is why the abstract's
 lane-vocabulary steers bidding; and per-track sub-committees (applied, resource,

@@ -54,7 +54,8 @@ and a credibility hit when a reviewer authored the misplaced paper. Checked trap
 
 Rule: before writing "(CIKM 20xx)", confirm on dblp's `conf/cikm` index; before
 writing "prior CIKM work has not...", search the last three CIKM proceedings in the
-ACM DL, because with ~1000+ papers per recent edition the prior work usually exists.
+ACM DL — with many hundreds of papers per recent edition, the prior work usually
+exists.
 
 ## Recency expectations by front
 
