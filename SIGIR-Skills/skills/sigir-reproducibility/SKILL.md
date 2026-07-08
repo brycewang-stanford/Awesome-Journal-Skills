@@ -99,6 +99,19 @@ checkpoints). Plan for the second audience explicitly:
 - Never copy baseline numbers across collections or eval setups from other papers'
   tables without saying so; mixed-provenance tables are a known reject trigger.
 
+## Quick self-audit before submission
+
+- [ ] Every number in every table regenerates from a shipped run file plus one
+      documented command.
+- [ ] Every system row has a config file; diffs between systems are visible as
+      config diffs, not prose.
+- [ ] The seeds behind each neural row are enumerable, and the shipped run is
+      identified (which seed, or the per-topic mean).
+- [ ] A colleague outside the project reproduced Table 1 from the repo README
+      without asking questions (the strongest cheap test available).
+- [ ] The paper's reporting block and the repo's configs agree — reviewers diff
+      them when suspicious.
+
 ## Output format
 
 ```text

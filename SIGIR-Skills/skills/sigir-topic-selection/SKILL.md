@@ -98,6 +98,11 @@ possible SIGIR pipeline — campaign participation year 1, analysis paper year 2
   unfinished ablation, the choice is not "which track" but "which *cycle*" — a
   rushed January submission burns the year anyway.
 
+One more timing lever: the staggered secondary-track calendar (Resources and LRE
+ran weeks behind full papers in 2026) sometimes lets a January full-paper miss
+become a same-year February resource or reproducibility submission — but only if
+the contribution genuinely re-frames, not as a costume change reviewers see through.
+
 ## Scope vocabulary check
 
 SIGIR's own topic language (2026 full-papers page): search and ranking, queries and

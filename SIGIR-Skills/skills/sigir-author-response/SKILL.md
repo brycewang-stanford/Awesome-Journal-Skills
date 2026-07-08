@@ -94,6 +94,17 @@ exists, and commit to the small fix. Reserve firm disagreement for factual error
 and spend it at most once per reviewer — a response that disputes everything is
 read as disputing nothing.
 
+## Evidence you can compute during a short window
+
+Because run files exist (if `sigir-artifact-evaluation` was followed), several
+reviewer requests are answerable in hours without new training:
+
+- A different metric or cutoff on existing runs — minutes with `ir_measures`.
+- A different significance test or correction — minutes on per-topic scores.
+- A per-query breakdown by query length/type — an afternoon.
+- A new baseline or a new collection — **not** window material; promise it only if
+  the camera-ready budget can honestly absorb the result either way.
+
 ## Deciding whether to fight or fold
 
 - Fight when the misunderstanding is factual and the correction has coordinates.
