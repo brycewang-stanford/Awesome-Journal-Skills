@@ -56,7 +56,7 @@ def main(argv: list[str]) -> int:
     hard_checks = [
         ["python3", "-m", "py_compile", *python_tool_files()],
         ["python3", "tools/audit_repo.py"],
-        ["python3", "tools/quality_scorecard.py", "--top", "15", "--min-score", "90"],
+        ["python3", "tools/quality_scorecard.py", "--top", "15", "--min-score", "94"],
         [
             "python3",
             "tools/clone_audit.py",
