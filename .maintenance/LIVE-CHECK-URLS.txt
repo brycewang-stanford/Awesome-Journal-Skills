@@ -1,0 +1,33 @@
+# Live-check target list — official pages behind unresolved 待核实 items.
+# Consumed by .github/workflows/live-check.yml (workflow_dispatch) via
+# tools/live_check_fetch.py, which fetches from a GitHub Actions runner
+# (this repo's build sandboxes cannot reach journal/publisher domains).
+# One URL per line; lines starting with # are ignored.
+# Format: URL | what to look for
+
+# PNAS-Nexus-Skills — APC figure, default license, final reference style, IF/CiteScore, EIC
+https://academic.oup.com/pnasnexus/pages/general-instructions | APC amount, license default (CC BY vs CC BY-NC), reference style at submission and production, page/word limits
+https://academic.oup.com/pnasnexus/pages/editorial-board | sitting Editor-in-Chief, deputy editors, divisions
+https://academic.oup.com/pnasnexus/pages/about | indexing (MEDLINE? PMC? Scopus?), impact factor / CiteScore year+value
+https://academic.oup.com/pnasnexus/pages/what-makes-pnas-nexus-unique | positioning language (any sound-science-only phrasing?)
+
+# Econometrica-Skills — fees, page caps, acceptance-rate reporting
+https://www.econometricsociety.org/publications/econometrica/information-authors | submission fees member/nonmember, 45-page limit wording, supplemental appendix rules
+
+# China-Industrial-Economics-Skills — 投稿指南新版、数据政策
+https://ciejournal.ajcass.com/ | 投稿须知/指南版本日期、费用、数据与代码提交政策
+
+# Journal-of-World-Economy-Skills — JEL/中图分类号要求
+http://manu30.magtech.com.cn/sjjj/CN/column/column154.shtml | 投稿须知全文：JEL 分类号、中图分类号、基金标注
+
+# Journal-of-Management-Sciences-in-China-Skills — 收费、审稿周期、收录
+https://jmsc.tju.edu.cn/ | 版面费/审稿费公告、审稿周期、CSSCI/北大核心收录声明
+https://jmsc.tju.edu.cn/jmsc/site/menu/20070624153255001?id=20070624153255001 | 投稿指南正文
+
+# Conference packs — cycle anchors flagged 待核实 on 2026-07-08
+https://www.auai.org/uai2026/call_for_papers | UAI 2026 CFP full text (camera-ready allowance, fees, chairs)
+https://learningtheory.org/colt2026/cfp.html | COLT 2026 CFP (chairs, notification dates, open problems track)
+https://mlsys.org/Conferences/2026/CallForResearchPapers | MLSys camera-ready/page details
+https://kdd2026.kdd.org/research-track-call-for-papers/ | KDD cycle dates, chairs
+https://sp2027.ieee-security.org/cfpapers.html | S&P 2027 cycle-1 review timetable, Revise mechanics
+https://conf.researchr.org/track/icse-2027/icse-2027-research-track | ICSE 2027 response caps, AI-use policy

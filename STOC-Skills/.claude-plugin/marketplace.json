@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "stoc-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for STOC manuscript planning, HotCRP submission, extended-abstract craft, full-version publishing on arXiv/ECCC, review-process modeling, and ACM camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "stoc-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve STOC-specific skills for theoretical-computer-science conference submission strategy, grounded in the official STOC 2026 Call for Papers, HotCRP portal, SIGACT prize and policy pages, and ACM Digital Library proceedings checked on 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "stoc",
+        "sigact",
+        "theory-of-computing",
+        "extended-abstract",
+        "arxiv-full-version",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/stoc-submission",
+        "skills/stoc-author-response",
+        "skills/stoc-camera-ready",
+        "skills/stoc-artifact-evaluation",
+        "skills/stoc-reproducibility",
+        "skills/stoc-supplementary",
+        "skills/stoc-review-process",
+        "skills/stoc-writing-style",
+        "skills/stoc-related-work",
+        "skills/stoc-experiments",
+        "skills/stoc-workflow",
+        "skills/stoc-topic-selection"
+      ]
+    }
+  ]
+}

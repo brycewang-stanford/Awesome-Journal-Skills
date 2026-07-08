@@ -1,0 +1,22 @@
+{
+  "name": "pldi-skills",
+  "description": "A 12-skill depth pack for PLDI submissions: venue fit, HotCRP double-blind submission, author response, PACMPL camera-ready, Zenodo artifact evaluation with ACM badges, benchmark reproducibility, supplementary material, review process, writing style, related work, experiments, and workflow. Grounded in the PLDI 2026 CFP, pldi26.sigplan.org, PACMPL/ACM DL, and SIGPLAN policy pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "pldi",
+    "programming-languages",
+    "compilers",
+    "sigplan",
+    "pacmpl",
+    "artifact-evaluation",
+    "hotcrp",
+    "conference-submission"
+  ]
+}

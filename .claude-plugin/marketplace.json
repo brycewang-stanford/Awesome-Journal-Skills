@@ -373,6 +373,13 @@
       "category": "academic"
     },
     {
+      "name": "eccv-skills",
+      "source": "./ECCV-Skills",
+      "description": "Twelve ECCV-specific skills for computer-vision conference submission strategy, grounded in official ECCV 2026 dates and policy pages, the OpenReview group, Springer LNCS proceedings, and ECVA open-access sources.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "ectheory-skills",
       "source": "./Econometric-Theory-Skills",
       "description": "Twelve-skill bundle covering the Econometric Theory (ET) manuscript lifecycle, from theorem-driven topic selection through single-anonymous review and rebuttal.",
@@ -1122,10 +1129,24 @@
       "category": "academic"
     },
     {
+      "name": "naacl-skills",
+      "source": "./NAACL-Skills",
+      "description": "Twelve NAACL-specific skills covering the full arc from *ACL venue routing through ACL Rolling Review, commitment, decision, and ACL Anthology publication, with the chapter's Nations-of-the-Americas identity and skipped-year calendar built into the advice.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "nankai-business-review-skills",
       "source": "./Nankai-Business-Review-Skills",
       "description": "Twelve-skill bundle covering the 《南开管理评论》 manuscript lifecycle: workflow router, fit positioning, theory-gap articulation, mechanism-backed hypothesis development, measurement rigor (reliability / validity / common-method-bias), survey-SEM (mediation / moderation / moderated mediation / HLM), experiments, multi-case / grounded theory, China contextualization, discussion that advances a management theory, submission preflight, and rebuttal.",
       "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "ndss-skills",
+      "source": "./NDSS-Skills",
+      "description": "Twelve NDSS-specific skills for network and distributed system security submissions, grounded in the official NDSS 2027 CFP, Call for Artifacts, HotCRP cycle sites, and Internet Society pages.",
+      "version": "0.1.0",
       "category": "academic"
     },
     {
@@ -1146,6 +1167,13 @@
       "name": "new-media-and-society-skills",
       "source": "./New-Media-and-Society-Skills",
       "description": "Twelve-skill bundle covering the New Media & Society (NM&S) manuscript lifecycle across qualitative, critical, content/discourse, computational, and mixed methods.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "nsdi-skills",
+      "source": "./NSDI-Skills",
+      "description": "Twelve NSDI-specific skills covering the spring/fall submission calendar, track choice, evaluation design with real traces and testbeds, one-shot revise-and-resubmit, artifact badges, and camera-ready duties, grounded in the NSDI '27 and NSDI '26 official pages checked on 2026-07-08.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1188,6 +1216,13 @@
       "name": "prl-skills",
       "source": "./Physical-Review-Letters-Skills",
       "description": "Twelve-skill bundle covering the Physical Review Letters (PRL) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "pldi-skills",
+      "source": "./PLDI-Skills",
+      "description": "Twelve PLDI-specific skills for programming-languages conference strategy, grounded in the PLDI 2026 Call for Papers, pldi26.sigplan.org track pages, PACMPL author guidelines, and SIGPLAN's Empirical Evaluation Guidelines.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1360,6 +1395,13 @@
       "category": "academic"
     },
     {
+      "name": "sigmod-skills",
+      "source": "./SIGMOD-Skills",
+      "description": "Twelve SIGMOD-specific skills for database and data-management paper strategy under the PACMMOD multi-round journal model, grounded in the SIGMOD 2027 Call for Papers, PACMMOD author guidelines, and the Availability & Reproducibility Initiative pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "sf-skills",
       "source": "./Social-Forces-Skills",
       "description": "Twelve-skill bundle covering the Social Forces manuscript lifecycle across the generalist sociological and social-science subfields the journal serves, under its strict reference-inclusive 10,000-word cap and Chicago author-date style.",
@@ -1409,6 +1451,13 @@
       "category": "academic"
     },
     {
+      "name": "stoc-skills",
+      "source": "./STOC-Skills",
+      "description": "Twelve STOC-specific skills for theoretical-computer-science conference submission strategy, grounded in the official STOC 2026 Call for Papers, HotCRP portal, SIGACT prize and policy pages, and ACM Digital Library proceedings checked on 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "smj-skills",
       "source": "./Strategic-Management-Journal-Skills",
       "description": "Twelve-skill bundle covering the Strategic Management Journal (SMJ) manuscript lifecycle.",
@@ -1454,6 +1503,13 @@
       "name": "uai-skills",
       "source": "./UAI-Skills",
       "description": "Twelve UAI-specific skills for probabilistic-AI conference submission strategy, grounded in official AUAI / UAI 2026 conference pages, the UAI OpenReview group, PMLR proceedings volumes, and the AUAI Code of Conduct.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "usenix-security-skills",
+      "source": "./USENIX-Security-Skills",
+      "description": "Twelve USENIX Security-specific skills for security conference submission strategy, grounded in the USENIX Security '26 Call for Papers, the '27 cycle calendar, the Call for Artifacts, and the ethics guidelines.",
       "version": "0.1.0",
       "category": "academic"
     },

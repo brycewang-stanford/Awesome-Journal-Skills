@@ -83,6 +83,10 @@ DISC = [
     ("CHI-Skills", "cs-ai (conference)"), ("SOSP", "cs-ai (conference)"),
     ("OSDI", "cs-ai (conference)"), ("IEEE-SP", "cs-ai (conference)"),
     ("ACM-CCS", "cs-ai (conference)"), ("ICSE-Skills", "cs-ai (conference)"),
+    ("NAACL", "cs-ai (conference)"), ("ECCV", "cs-ai (conference)"),
+    ("PLDI", "cs-ai (conference)"), ("SIGMOD", "cs-ai (conference)"),
+    ("STOC-Skills", "cs-ai (conference)"), ("NSDI", "cs-ai (conference)"),
+    ("USENIX-Security", "cs-ai (conference)"), ("NDSS", "cs-ai (conference)"),
     # specific economics flagships / subfields not caught generically
     ("AEJ-Applied", "economics/applied"), ("AEJ-Macro", "economics/macro"),
     ("AEJ-Micro", "economics/micro"), ("AER-Insights", "economics"),

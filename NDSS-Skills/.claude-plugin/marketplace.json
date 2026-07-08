@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ndss-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for NDSS paper planning: dual-cycle strategy, two-round review, ethics and disclosure, HotCRP submission, artifact badges, and Internet Society open-access camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ndss-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve NDSS-specific skills for network and distributed system security submissions, grounded in the official NDSS 2027 CFP, Call for Artifacts, HotCRP cycle sites, and Internet Society pages.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "ndss",
+        "hotcrp",
+        "rebuttal",
+        "camera-ready",
+        "artifact-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ndss-submission",
+        "skills/ndss-author-response",
+        "skills/ndss-camera-ready",
+        "skills/ndss-artifact-evaluation",
+        "skills/ndss-reproducibility",
+        "skills/ndss-supplementary",
+        "skills/ndss-review-process",
+        "skills/ndss-writing-style",
+        "skills/ndss-related-work",
+        "skills/ndss-experiments",
+        "skills/ndss-workflow",
+        "skills/ndss-topic-selection"
+      ]
+    }
+  ]
+}

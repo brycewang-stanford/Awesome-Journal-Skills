@@ -1,0 +1,22 @@
+{
+  "name": "sigmod-skills",
+  "description": "A 12-skill depth pack for ACM SIGMOD research papers under the PACMMOD journal-first model: round selection, CMT submission checks, author feedback, revision letters, PACMMOD camera-ready, the Availability & Reproducibility Initiative (ARI), supplementary evidence, review process, writing style, related work, experiments, and workflow. Grounded in the SIGMOD 2027 CFP, PACMMOD author guidelines, and reproducibility.sigmod.org, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "sigmod",
+    "pacmmod",
+    "data-management",
+    "database-systems",
+    "conference-submission",
+    "revision-rounds",
+    "reproducibility",
+    "acm"
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">NAACL Skills</title>
+  <desc id="desc">Cover image for the NAACL conference submission skills pack, with a north-to-south chain of nodes evoking the Americas.</desc>
+  <rect width="1200" height="630" fill="#402218"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f9efdc"/>
+  <path d="M960 150 C 900 230, 1010 300, 940 370 C 890 430, 960 480, 920 520" fill="none" stroke="#1a936f" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="960" cy="150" r="40" fill="#b64926"/>
+  <circle cx="946" cy="330" r="30" fill="#e9b44c"/>
+  <circle cx="922" cy="518" r="36" fill="#1a936f"/>
+  <text x="132" y="196" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#402218">NAACL</text>
+  <text x="136" y="272" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#5b4636">Nations of the Americas Chapter of the ACL</text>
+  <text x="136" y="470" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#402218">ARR cycles · Commitment · Findings · ACL Anthology</text>
+</svg>

@@ -1,0 +1,29 @@
+# ⚠️ 待激活：本文件因会话凭证缺少 `workflows` 权限无法直接落位。
+# owner 激活（一条命令）：
+#   git mv .maintenance/live-check.workflow.yml .github/workflows/live-check.yml && git commit -m "ci: activate live-check" && git push
+# 之后在 Actions 页手动 Run workflow（或由任意 agent 会话经 API dispatch），
+# 用 job log 中的页面全文清欠 source map 的 待核实 条目。
+# Manual live-check: fetch the official pages behind unresolved source-map
+# facts from a GitHub-hosted runner (which, unlike the repo's build sandboxes,
+# can reach journal/publisher domains). Report-only — page text goes to the
+# job log; updating source maps stays a deliberate human/agent editing step.
+name: Live check (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_chars:
+        description: Text budget per page in the log
+        required: false
+        default: "6000"
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: false
+      - name: Fetch live-check targets
+        run: python3 tools/live_check_fetch.py --max-chars "${{ github.event.inputs.max_chars || '6000' }}"

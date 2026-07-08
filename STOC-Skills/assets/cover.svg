@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">STOC Skills</title>
+  <desc id="desc">Cover image for the STOC theory-of-computing conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0e2a24"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4efe4"/>
+  <path d="M160 420 L340 420 L340 300 L560 300 L560 380 L800 380 L800 220 L1030 220" fill="none" stroke="#1f6f5c" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="310" y="270" width="60" height="60" rx="10" fill="#b3552e"/>
+  <rect x="530" y="350" width="60" height="60" rx="10" fill="#1f6f5c"/>
+  <rect x="1000" y="190" width="60" height="60" rx="10" fill="#3d4f9c"/>
+  <text x="132" y="192" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#0e2a24">STOC</text>
+  <text x="136" y="266" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#374151">ACM Symposium on Theory of Computing</text>
+  <text x="136" y="514" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#0e2a24">Extended Abstracts · arXiv Full Versions · SIGACT · TheoryFest</text>
+</svg>

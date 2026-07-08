@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ECCV Skills</title>
+  <desc id="desc">Cover image for the ECCV European computer vision conference skills pack, with an even-year milestone bridge spanning 2024, 2026, and 2028.</desc>
+  <rect width="1200" height="630" fill="#123028"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f2ede1"/>
+  <path d="M660 400 Q795 172 930 400 Q998 286 1066 400" fill="none" stroke="#1f5f8b" stroke-width="16" stroke-linecap="round"/>
+  <line x1="620" y1="400" x2="1080" y2="400" stroke="#123028" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="660" cy="400" r="30" fill="#b3822d"/>
+  <circle cx="864" cy="400" r="30" fill="#1f5f8b"/>
+  <circle cx="1066" cy="400" r="30" fill="#7a3b2e"/>
+  <text x="632" y="462" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#123028">2024</text>
+  <text x="836" y="462" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#123028">2026</text>
+  <text x="1038" y="462" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#123028">2028</text>
+  <text x="132" y="196" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#123028">ECCV</text>
+  <text x="136" y="272" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#454b40">European computer vision, every even year</text>
+  <text x="136" y="512" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#123028">LNCS 14 Pages · One-Page Rebuttal · Springer + ECVA Access</text>
+</svg>

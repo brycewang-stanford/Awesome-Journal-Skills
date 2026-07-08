@@ -1,0 +1,22 @@
+{
+  "name": "stoc-skills",
+  "description": "A 12-skill depth pack for STOC (ACM Symposium on Theory of Computing) submissions: venue fit for broad-audience theory results, HotCRP submission checks under the abstract + table-of-contents + 12-page reading rule, double-blind hygiene, extended-abstract vs arXiv/ECCC full-version discipline, proof checkability, STOC/FOCS cycle planning, and ACM camera-ready. Grounded in the STOC 2026 CFP and SIGACT pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "stoc",
+    "theoretical-computer-science",
+    "sigact",
+    "algorithms",
+    "computational-complexity",
+    "conference-submission",
+    "hotcrp",
+    "arxiv-full-version"
+  ]
+}

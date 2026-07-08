@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">PLDI Skills</title>
+  <desc id="desc">Cover image for the PLDI programming-languages conference skills pack.</desc>
+  <rect width="1200" height="630" fill="#1b1f2e"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1ea"/>
+  <path d="M150 470 L150 330 L330 330 L330 410 L510 410 L510 250 L690 250 L690 360 L870 360 L870 200 L1050 200" fill="none" stroke="#3d6b8f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="300" y="300" width="60" height="60" rx="12" fill="#c96a4a"/>
+  <rect x="660" y="220" width="60" height="60" rx="12" fill="#3d6b8f"/>
+  <rect x="1020" y="170" width="60" height="60" rx="12" fill="#7a5aa6"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#1b1f2e">PLDI</text>
+  <text x="136" y="268" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#3f4756">Language design, compilers, and implementation</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#1b1f2e">HotCRP · PACMPL · Artifact Badges · Benchmarks</text>
+</svg>

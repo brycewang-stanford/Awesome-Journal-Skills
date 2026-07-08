@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SIGMOD Skills</title>
+  <desc id="desc">Cover image for the ACM SIGMOD data-management submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101d2c"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f2f4ef"/>
+  <ellipse cx="930" cy="220" rx="130" ry="40" fill="#1f6f5c"/>
+  <rect x="800" y="220" width="260" height="110" fill="#1f6f5c"/>
+  <ellipse cx="930" cy="330" rx="130" ry="40" fill="#2c8f77"/>
+  <ellipse cx="930" cy="275" rx="130" ry="40" fill="#57b294" opacity="0.85"/>
+  <rect x="132" y="392" width="180" height="26" rx="13" fill="#b0562f"/>
+  <rect x="132" y="432" width="300" height="26" rx="13" fill="#1f6f5c"/>
+  <rect x="132" y="472" width="240" height="26" rx="13" fill="#4d5a8f"/>
+  <text x="132" y="196" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#101d2c">SIGMOD</text>
+  <text x="136" y="272" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#3c4652">ACM management-of-data research</text>
+  <text x="136" y="354" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#101d2c">PACMMOD rounds · CMT · Revision letters · ARI badges</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "name": "eccv-skills",
+  "description": "A 12-skill depth pack for ECCV submissions: venue fit across the even-year cycle, OpenReview submission checks, one-page rebuttals, Springer LNCS camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, and workflow. Grounded in official ECCV 2026 pages, the OpenReview group, Springer LNCS proceedings, and ECVA sources checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "eccv",
+    "computer-vision",
+    "ecva",
+    "springer-lncs",
+    "conference-submission",
+    "openreview",
+    "rebuttal",
+    "biennial-conference"
+  ]
+}

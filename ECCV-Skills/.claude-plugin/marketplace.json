@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "eccv-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ECCV manuscript planning, OpenReview submission, one-page rebuttals, reproducibility, artifacts, and Springer LNCS camera-ready work across the even-year cycle.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "eccv-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ECCV-specific skills for computer-vision conference submission strategy, grounded in official ECCV 2026 dates and policy pages, the OpenReview group, Springer LNCS proceedings, and ECVA open-access sources.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "eccv",
+        "openreview",
+        "rebuttal",
+        "camera-ready",
+        "springer-lncs",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/eccv-submission",
+        "skills/eccv-author-response",
+        "skills/eccv-camera-ready",
+        "skills/eccv-artifact-evaluation",
+        "skills/eccv-reproducibility",
+        "skills/eccv-supplementary",
+        "skills/eccv-review-process",
+        "skills/eccv-writing-style",
+        "skills/eccv-related-work",
+        "skills/eccv-experiments",
+        "skills/eccv-workflow",
+        "skills/eccv-topic-selection"
+      ]
+    }
+  ]
+}

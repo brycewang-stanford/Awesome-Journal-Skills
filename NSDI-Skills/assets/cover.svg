@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">NSDI Skills</title>
+  <desc id="desc">Cover image for the NSDI networked-systems conference submission skills pack: a mesh of linked nodes over a two-tone panel.</desc>
+  <defs>
+    <linearGradient id="nsdiPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8f4ed"/>
+      <stop offset="1" stop-color="#ece4f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#2b1536"/>
+  <rect x="64" y="64" width="1072" height="502" rx="34" fill="url(#nsdiPanel)"/>
+  <g stroke="#7a4fa3" stroke-width="9" stroke-linecap="round" opacity="0.92">
+    <line x1="204" y1="424" x2="434" y2="302"/>
+    <line x1="434" y1="302" x2="702" y2="394"/>
+    <line x1="434" y1="302" x2="662" y2="214"/>
+    <line x1="662" y1="214" x2="958" y2="272"/>
+    <line x1="702" y1="394" x2="958" y2="272"/>
+    <line x1="204" y1="424" x2="702" y2="394"/>
+  </g>
+  <g>
+    <circle cx="204" cy="424" r="33" fill="#c25a2e"/>
+    <circle cx="434" cy="302" r="41" fill="#7a4fa3"/>
+    <circle cx="702" cy="394" r="33" fill="#38678c"/>
+    <circle cx="662" cy="214" r="33" fill="#38678c"/>
+    <circle cx="958" cy="272" r="41" fill="#c25a2e"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="136" y="196" font-size="92" font-weight="700" fill="#2b1536">NSDI</text>
+    <text x="140" y="262" font-size="33" fill="#4a3b52">Networked systems design and implementation</text>
+    <text x="140" y="514" font-size="29" fill="#2b1536">Two Deadlines &#183; One-Shot Revision &#183; Traces &amp; Testbeds</text>
+  </g>
+</svg>
