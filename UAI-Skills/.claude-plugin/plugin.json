@@ -1,0 +1,23 @@
+{
+  "name": "uai-skills",
+  "description": "A 12-skill depth pack for UAI (Conference on Uncertainty in Artificial Intelligence) submissions: venue fit, OpenReview submission audits, author response, camera-ready, artifacts, reproducibility, supplementary packaging, review process, writing style, related work, experiments, and cycle workflow. Grounded in official AUAI / UAI 2026 pages, the UAI OpenReview group, and PMLR proceedings volumes checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "uai",
+    "uncertainty",
+    "probabilistic-modeling",
+    "graphical-models",
+    "causal-inference",
+    "bayesian-methods",
+    "conference-submission",
+    "openreview",
+    "pmlr"
+  ]
+}

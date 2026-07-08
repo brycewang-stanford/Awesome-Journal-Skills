@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "colt-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for COLT (Conference on Learning Theory) manuscript planning, CMT submission, proof-appendix organization, rebuttal drafting, and PMLR camera-ready work for theorem-first papers.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "colt-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve COLT-specific skills for learning-theory conference strategy, grounded in the COLT 2026 Call for Papers, learningtheory.org conference pages, and PMLR proceedings volumes checked on 2026-07-08.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "colt",
+        "learning-theory",
+        "cmt",
+        "rebuttal",
+        "proof-writing",
+        "pmlr",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/colt-submission",
+        "skills/colt-author-response",
+        "skills/colt-camera-ready",
+        "skills/colt-artifact-evaluation",
+        "skills/colt-reproducibility",
+        "skills/colt-supplementary",
+        "skills/colt-review-process",
+        "skills/colt-writing-style",
+        "skills/colt-related-work",
+        "skills/colt-experiments",
+        "skills/colt-workflow",
+        "skills/colt-topic-selection"
+      ]
+    }
+  ]
+}

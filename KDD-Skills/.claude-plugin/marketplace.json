@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "kdd-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for KDD (ACM SIGKDD) manuscript planning, Research/ADS track routing, dual-cycle OpenReview submission, rebuttal, reproducibility, and ACM TAPS camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "kdd-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve KDD-specific skills covering data-mining conference strategy across both submission cycles: track selection, sigconf submission, rebuttal, Resubmit handling, deployment evidence, and ACM proceedings publication, grounded in official KDD 2026 CFPs and OpenReview groups.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "kdd",
+        "sigkdd",
+        "applied-data-science",
+        "openreview",
+        "acm-taps",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/kdd-submission",
+        "skills/kdd-author-response",
+        "skills/kdd-camera-ready",
+        "skills/kdd-artifact-evaluation",
+        "skills/kdd-reproducibility",
+        "skills/kdd-supplementary",
+        "skills/kdd-review-process",
+        "skills/kdd-writing-style",
+        "skills/kdd-related-work",
+        "skills/kdd-experiments",
+        "skills/kdd-workflow",
+        "skills/kdd-topic-selection"
+      ]
+    }
+  ]
+}

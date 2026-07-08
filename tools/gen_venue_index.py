@@ -72,8 +72,10 @@ THEORY = {
 DISC = [
     # CS/AI conferences
     ("AAAI", "cs-ai (conference)"), ("AISTATS", "cs-ai (conference)"),
-    ("ICLR", "cs-ai (conference)"), ("ICML", "cs-ai (conference)"),
-    ("IJCAI", "cs-ai (conference)"), ("NeurIPS", "cs-ai (conference)"),
+    ("COLT", "cs-ai (conference)"), ("ICLR", "cs-ai (conference)"),
+    ("ICML", "cs-ai (conference)"), ("IJCAI", "cs-ai (conference)"),
+    ("KDD", "cs-ai (conference)"), ("MLSys", "cs-ai (conference)"),
+    ("NeurIPS", "cs-ai (conference)"), ("UAI", "cs-ai (conference)"),
     # specific economics flagships / subfields not caught generically
     ("AEJ-Applied", "economics/applied"), ("AEJ-Macro", "economics/macro"),
     ("AEJ-Micro", "economics/micro"), ("AER-Insights", "economics"),

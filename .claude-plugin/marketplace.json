@@ -268,6 +268,13 @@
       "category": "academic"
     },
     {
+      "name": "colt-skills",
+      "source": "./COLT-Skills",
+      "description": "Twelve COLT-specific skills for learning-theory conference strategy, grounded in the COLT 2026 Call for Papers, learningtheory.org conference pages, and PMLR proceedings volumes checked on 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "communication-research-skills",
       "source": "./Communication-Research-Skills",
       "description": "Twelve-skill bundle covering the Communication Research (CR) manuscript lifecycle — hypothesis-testing experiments, surveys, and content analysis with rigorous measurement, mediation/moderation, and APA reporting.",
@@ -989,6 +996,13 @@
       "category": "academic"
     },
     {
+      "name": "kdd-skills",
+      "source": "./KDD-Skills",
+      "description": "Twelve KDD-specific skills covering data-mining conference strategy across both submission cycles: track selection, sigconf submission, rebuttal, Resubmit handling, deployment evidence, and ACM proceedings publication, grounded in official KDD 2026 CFPs and OpenReview groups.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "lancet-skills",
       "source": "./Lancet-Skills",
       "description": "Twelve-skill bundle covering the Lancet manuscript lifecycle: workflow router, scope/significance fit, study design + trial registration, EQUATOR reporting guidelines, the Research in context panel, the structured abstract, main-text writing, clinical statistics, clinical figures/tables, ethics + declaration of interests + role of funding source, submission preflight, and reviewer rebuttal.",
@@ -1034,6 +1048,13 @@
       "name": "misq-skills",
       "source": "./MIS-Quarterly-Skills",
       "description": "Twelve-skill bundle covering the MIS Quarterly (MISQ) manuscript lifecycle across the four IS research traditions.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "mlsys-skills",
+      "source": "./MLSys-Skills",
+      "description": "Twelve MLSys-specific skills for machine-learning-and-systems conference submission strategy, grounded in the official MLSys 2026 Call for Research Papers, Industrial Track CFP, Call for Artifact Evaluations, and dates/organization pages.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1335,6 +1356,13 @@
       "name": "economic-journal-skills",
       "source": "./The-Economic-Journal-Skills",
       "description": "Twelve-skill bundle covering the The Economic Journal (EJ) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "uai-skills",
+      "source": "./UAI-Skills",
+      "description": "Twelve UAI-specific skills for probabilistic-AI conference submission strategy, grounded in official AUAI / UAI 2026 conference pages, the UAI OpenReview group, PMLR proceedings volumes, and the AUAI Code of Conduct.",
       "version": "0.1.0",
       "category": "academic"
     },

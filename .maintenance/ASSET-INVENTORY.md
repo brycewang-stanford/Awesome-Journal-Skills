@@ -25,6 +25,10 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `AER-Skills` | imported depth pack | 1 Econ & Management | reusable / upgrade only if needed |
 | `AAAI-Skills` | depth pack | 8 CS & AI | reusable; fourth category-8 Wave 25-A depth pack |
 | `AISTATS-Skills` | depth pack | 8 CS & AI | reusable; sixth category-8 Wave 25-A depth pack |
+| `UAI-Skills` | depth pack | 8 CS & AI | reusable; seventh category-8 Wave 25-A depth pack |
+| `COLT-Skills` | depth pack | 8 CS & AI | reusable; eighth category-8 Wave 25-A depth pack |
+| `MLSys-Skills` | depth pack | 8 CS & AI | reusable; ninth category-8 Wave 25-A depth pack |
+| `KDD-Skills` | depth pack | 8 CS & AI | reusable; tenth category-8 Wave 25-A depth pack |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |
@@ -150,5 +154,5 @@ targets, 10 Chinese targets, a first 24-pack AI-first launch batch, and CS/AI pa
 `AISTATS-Skills` are the first six completed depth packs from that launch batch. Parallel W1 also
 added six category-1 field-economics depth packs: JDE, JPubE, JOLE, JIE, JME, and RJE.
 
-Next task: continue Wave 25-A depth-pack production with UAI, COLT, MLSys, and KDD, preserving
+Next task: continue Wave 25-A depth-pack production with The Web Conference, WSDM, SIGIR, and CVPR, preserving
 official-source checks and clone-audit gates per pack.

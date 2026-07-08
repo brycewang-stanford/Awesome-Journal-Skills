@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MLSys Skills</title>
+  <desc id="desc">Cover image for the MLSys conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0e2a26"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f2f5ef"/>
+  <path d="M150 430 L318 282 L484 356 L650 226 L816 306 L1040 176" fill="none" stroke="#c2571f" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="318" cy="282" r="42" fill="#1f6f5c"/>
+  <circle cx="650" cy="226" r="42" fill="#c2571f"/>
+  <circle cx="1040" cy="176" r="42" fill="#3a5f8a"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#0e2a26">MLSys</text>
+  <text x="136" y="268" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#37413a">Machine learning and systems co-design</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0e2a26">OpenReview · Artifact Badges · Benchmarks · Serving</text>
+</svg>

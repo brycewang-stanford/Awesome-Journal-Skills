@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mlsys-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for MLSys manuscript planning, OpenReview submission, the compressed author-response window, badge-driven artifact evaluation, performance-measurement rigor, and camera-ready plus proceedings.mlsys.org publication work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "mlsys-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve MLSys-specific skills for machine-learning-and-systems conference submission strategy, grounded in the official MLSys 2026 Call for Research Papers, Industrial Track CFP, Call for Artifact Evaluations, and dates/organization pages.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "mlsys",
+        "openreview",
+        "artifact-evaluation",
+        "benchmarking",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/mlsys-submission",
+        "skills/mlsys-author-response",
+        "skills/mlsys-camera-ready",
+        "skills/mlsys-artifact-evaluation",
+        "skills/mlsys-reproducibility",
+        "skills/mlsys-supplementary",
+        "skills/mlsys-review-process",
+        "skills/mlsys-writing-style",
+        "skills/mlsys-related-work",
+        "skills/mlsys-experiments",
+        "skills/mlsys-workflow",
+        "skills/mlsys-topic-selection"
+      ]
+    }
+  ]
+}

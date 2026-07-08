@@ -33,10 +33,10 @@ reproducibility/supplementary/review-process/writing-style/related-work/experime
 workflow/topic-selection）。锚点：**CCF-A/B 会议优先** + CSRankings。
 
 ### 英文 90 —— 会议在前
-**AI / ML (顶)**：NeurIPS [A-depth] · ICML [A-depth] · ICLR [A-depth] · AAAI [A-depth] · IJCAI [A-depth] · COLT · AISTATS [A-depth] · UAI
+**AI / ML (顶)**：NeurIPS [A-depth] · ICML [A-depth] · ICLR [A-depth] · AAAI [A-depth] · IJCAI [A-depth] · COLT [A-depth] · AISTATS [A-depth] · UAI [A-depth]
 **计算机视觉**：CVPR · ICCV · ECCV
 **自然语言处理**：ACL · EMNLP · NAACL
-**数据挖掘 / Web**：KDD · WWW (The Web Conf) · WSDM · CIKM · ICDM · SIGIR
+**数据挖掘 / Web**：KDD [A-depth] · WWW (The Web Conf) · WSDM · CIKM · ICDM · SIGIR
 **多媒体 / 语音**：ACM MM · INTERSPEECH · ICASSP
 **机器人**：ICRA · IROS · RSS · CoRL
 **计算机图形**：SIGGRAPH · SIGGRAPH Asia
