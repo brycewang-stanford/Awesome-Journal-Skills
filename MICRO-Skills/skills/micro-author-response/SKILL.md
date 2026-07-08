@@ -104,8 +104,9 @@ The two-week window fails most often on coordination, not content:
 Nothing more can be sent — hold to that even if a reviewer question haunts you;
 unsolicited chair contact to append arguments reads badly at any venue. Log what was promised (the "text will change" lines) —
 they become the camera-ready worklist if accepted (`micro-camera-ready`) and the
-revision spec if rejected (`micro-workflow` fallback lattice). Notification for the
-2026 cycle: July 7.
+revision spec if rejected (`micro-workflow` fallback lattice). Archive the new
+runs' manifests beside the response text; whichever way July 7 goes, that
+evidence gets reused. Notification for the 2026 cycle: July 7.
 
 ## Output format
 
