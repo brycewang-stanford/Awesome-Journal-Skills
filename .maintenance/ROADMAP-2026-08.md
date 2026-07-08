@@ -108,17 +108,18 @@ live 核实两条线均不可为，改做离线可验证的替代审计：**
 
 ## Week 4（07-29 ~ 08-08）：社区治理 + 总验收
 
-- [ ] 补上月 ACCEPTANCE §3.2 明确欠账：新增
-      `.github/ISSUE_TEMPLATE/bundle-replication-request.yml`（用户申请复用
-      pack 模板做自定刊物），并在 `CONTRIBUTING.md` 增加「如何复用一个 pack
-      bundle」小节（先写规则、再挂模板）。
-- [ ] CLAIMS.md 治理减负：2026-06 多代理并发期的历史 lane 已全部完成/合并，
-      整板归档到 `.maintenance/CLAIMS-ARCHIVE-2026-06.md`，CLAIMS.md 重置为
-      精简的当前状态板（保留协作规则 + 空 claim 表 + 指向归档）。
-- [ ] 总验收：`.maintenance/ACCEPTANCE-2026-08.md`——全部硬检查 + scorecard
-      分布 + 克隆审计 + source-map/外链 before/after + 诚实灰色地带。
-- [ ] release 建议：验收通过后向 owner 提议 v1.1.0（4 新包 + 质量饱和 +
-      清欠），tag 由 owner 决定是否打；本任务不自行发 release。
+- [x] 补上月 ACCEPTANCE §3.2 明确欠账（2026-07-08，commit `879a098`）：
+      `.github/ISSUE_TEMPLATE/bundle-replication-request.yml` 上线；
+      `CONTRIBUTING.md` 新增「How to reuse a pack bundle」四条规则小节，
+      并同步 structure 带宽（8–20）与分数地板（94）。
+- [x] CLAIMS.md 治理减负（2026-07-08，同 commit）：366 行历史 lane 归档至
+      `.maintenance/CLAIMS-ARCHIVE-2026-06.md`，CLAIMS.md 重置为精简现役板
+      （协作规则 + 单一活跃 lane + 常设纪律）。
+- [x] 总验收（2026-07-08）：`.maintenance/ACCEPTANCE-2026-08.md` 已交付——
+      指标对照表、证据链、四条诚实灰色地带（source-map 顺延 / 外链留档 /
+      scorecard 饱和退役预告 / category-8 10/100）。
+- [x] release 建议：ACCEPTANCE §5 已向 owner 提议 v1.1.0 及 notes 要点；
+      tag 由 owner 验收后决定，本任务未代打。
 
 ---
 
