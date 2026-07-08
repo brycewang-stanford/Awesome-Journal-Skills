@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 3046 agent skills, 207 packs, 519 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 3118 agent skills, 213 packs, 519 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -366,11 +366,11 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 | <a id="discipline-life-sciences"></a>🧬 **Life sciences** | cell · molecular · genomics · immunology · microbiology · neuroscience · plant science · ecology/evolution | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | depth packs + EN natural-science breadth bundle |
 | <a id="discipline-medicine-health"></a>🩺 **Medicine & health** | general medicine · oncology · cardiology · neurology · infectious disease · internal medicine · public health · translational medicine | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | depth packs + clinical medicine breadth bundle + EN natural-science breadth bundle |
 | <a id="discipline-engineering-tech"></a>⚙️ **Engineering & technology** | control · communications · signal processing · power · robotics · photonics · biomedical engineering · materials | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | English engineering breadth bundle |
-| <a id="discipline-cs-ai"></a>🤖 **Computer science & AI** | AI/ML · CV · NLP · data mining · systems · databases · security · HCI · theory | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · WebConf · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA + 155 venues | CS/AI depth packs + conference breadth bundle |
+| <a id="discipline-cs-ai"></a>🤖 **Computer science & AI** | AI/ML · CV · NLP · data mining · systems · databases · security · HCI · theory | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · WebConf · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE + 155 venues | CS/AI depth packs + conference breadth bundle |
 | <a id="discipline-agri-env-earth"></a>🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
 | <a id="discipline-sport-science"></a>🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
 
-<sub><b>207 packs / 3046 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>213 packs / 3118 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -394,7 +394,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 3046-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 3118-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -522,6 +522,12 @@ Take the most complete one — the **Economic Research depth pack** (18 skills) 
 | **ACL** Annual Meeting of the Association for Computational Linguistics | [ACL-Skills/](ACL-Skills/) | ACL Rolling Review cycles plus the commitment step, long/short page rules, the Responsible NLP checklist, the Findings tier, meta-review handling, ACL Anthology camera-ready, workflow, and topic selection | 12 |
 | **EMNLP** Conference on Empirical Methods in Natural Language Processing | [EMNLP-Skills/](EMNLP-Skills/) | ARR submission and EMNLP commitment, the empirical benchmark and error-analysis culture, long/short formats, the Findings tier, ethics review, demo/industry tracks, reproducibility, experiments, workflow, and topic selection | 12 |
 | **ICRA** IEEE International Conference on Robotics and Automation | [ICRA-Skills/](ICRA-Skills/) | PaperPlaza submission, the 6+2 page rule, the RA-L versus direct-submission decision, video-attachment norms, real-robot experiment expectations, single-blind review, IEEE Xplore camera-ready, experiments, workflow, and topic selection | 12 |
+| **CHI** ACM CHI Conference on Human Factors in Computing Systems | [CHI-Skills/](CHI-Skills/) | PCS submission, subcommittee selection strategy, contribution-type diversity, word-count norms (no fixed page limit), 1AC/2AC review with rebuttal, accessible camera-ready, video figures, workflow, and topic selection | 12 |
+| **SOSP** ACM Symposium on Operating Systems Principles | [SOSP-Skills/](SOSP-Skills/) | HotCRP submission, the 12-page body rule, double-blind conflict discipline, author response, sysartifacts badges, the SIGOPS Hall of Fame lineage, the SOSP/OSDI both-annual retargeting calendar, workflow, and topic selection | 12 |
+| **OSDI** USENIX Symposium on Operating Systems Design and Implementation | [OSDI-Skills/](OSDI-Skills/) | USENIX open access, HotCRP submission, the 12-page no-appendix rule, artifact badges (Available/Functional/Reproduced), the response process, systems measurement methodology, workflow, and topic selection | 12 |
+| **IEEE S&P** IEEE Symposium on Security and Privacy | [IEEE-SP-Skills/](IEEE-SP-Skills/) | Multi-cycle submission with the Revise pathway, the compsoc 13+5 page format, mandatory ORCID matching, the Research Ethics Committee and responsible disclosure, the SoK paper type, artifact badges, workflow, and topic selection | 12 |
+| **ACM CCS** ACM Conference on Computer and Communications Security | [ACM-CCS-Skills/](ACM-CCS-Skills/) | Dual-cycle HotCRP submission, the sigconf 12-page body, the ethics-considerations appendix, minor-revision mechanics, the ACM artifact badge ladder, the Big-Four security retargeting calendar, workflow, and topic selection | 12 |
+| **ICSE** IEEE/ACM International Conference on Software Engineering | [ICSE-Skills/](ICSE-Skills/) | Dual-cycle research track, the 10+2 page IEEE format, double-anonymous review with the open-science policy, threats-to-validity culture, NIER/SEIP/Demo retargeting, artifact badges, workflow, and topic selection | 12 |
 
 This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, UAI, COLT, MLSys, KDD, CVPR, ACL, EMNLP, SIGIR, ICRA, CHI, SOSP, IEEE S&P, ICSE, PLDI, SIGMOD, STOC, and 130+ more. Each profile is a conference-fit and current-cycle submission checklist; volatile facts such as deadlines, page limits, templates, AI-use policies, artifact rules, rebuttal formats, and camera-ready requirements must be re-checked on the live official CFP or author kit before submission.
 
@@ -1199,7 +1205,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>3046</b> = every in-repository <code>SKILL.md</code>, spread across <b>207 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>2371</b> (197 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>3046</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>3118</b> = every in-repository <code>SKILL.md</code>, spread across <b>213 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>2443</b> (203 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>3118</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1326,6 +1332,12 @@ awesome-journal-skills/
 ├── ACL-Skills/                    → ACL main conference (12 skills)
 ├── EMNLP-Skills/                  → EMNLP main conference (12 skills)
 ├── ICRA-Skills/                   → ICRA main conference (12 skills)
+├── CHI-Skills/                    → CHI main conference (12 skills)
+├── SOSP-Skills/                   → SOSP main conference (12 skills)
+├── OSDI-Skills/                   → OSDI main conference (12 skills)
+├── IEEE-SP-Skills/                → IEEE S&P main conference (12 skills)
+├── ACM-CCS-Skills/                → ACM CCS main conference (12 skills)
+├── ICSE-Skills/                   → ICSE main conference (12 skills)
 │   # Natural-science & clinical depth packs (first-party, authored / maintained here)
 ├── Science-Skills/                → Science (AAAS) (12 skills)
 ├── Cell-Skills/                   → Cell (Cell Press) (12 skills)
@@ -1345,7 +1357,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change (12 skills)
 ├── Agricultural-Systems-Skills/   → Agricultural Systems (12 skills)
 ├── Field-Crops-Research-Skills/   → Field Crops Research (12 skills)
-│   # Root marketplace manifest (aggregates all 207 in-repo packs)
+│   # Root marketplace manifest (aggregates all 213 in-repo packs)
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1439,7 +1451,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **207 packs / 3046 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **213 packs / 3118 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -1463,7 +1475,7 @@ use next for my manuscript targeted at <journal>.
   - **English natural science:** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics (plus Nature as a curated pack)
   - **English environment / ecology / agriculture:** Environmental Science & Technology · Conservation Biology · Global Change Biology · Global Environmental Change · Agricultural Systems · Field Crops Research
   - **Humanities & broader social science (24):** Sociology ASR · AJS · Social Forces · SPQ · JMF · Criminology; Demography; Political science / IR APSR · AJPS · JOP · World Politics · International Organization; Psychology JPSP · Psychological Bulletin · Psychological Science; Communication / opinion Journal of Communication · POQ; Education AERJ; Humanities The American Historical Review · The Art Bulletin · Mind · PMLA · Critical Inquiry · JAAR
-  - **CS/AI conferences:** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · The Web Conference · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA
+  - **CS/AI conferences:** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · The Web Conference · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE
   - **Chinese flagships (15):** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
 ### 🚧 Pending — next expansion

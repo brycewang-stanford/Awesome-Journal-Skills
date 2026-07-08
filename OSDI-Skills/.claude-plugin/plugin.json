@@ -1,0 +1,22 @@
+{
+  "name": "osdi-skills",
+  "description": "A 12-skill depth pack for OSDI submissions: venue fit, HotCRP submission audits, the no-rebuttal review process, USENIX open-access camera-ready, sysartifacts artifact evaluation, systems reproducibility, page-budget planning, writing style, related work, evaluation design, and cycle management. Grounded in the official OSDI '26 CFP, Call for Artifacts, and USENIX policy pages checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "osdi",
+    "usenix",
+    "operating-systems",
+    "distributed-systems",
+    "systems-research",
+    "conference-submission",
+    "artifact-evaluation",
+    "open-access"
+  ]
+}

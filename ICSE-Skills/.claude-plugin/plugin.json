@@ -1,0 +1,22 @@
+{
+  "name": "icse-skills",
+  "description": "A 12-skill depth pack for the IEEE/ACM International Conference on Software Engineering (ICSE): venue fit, HotCRP submission audits, the Accept/Major-Revision/Reject decision model, author response, camera-ready, artifact evaluation and ACM badges, open-science and verifiability evidence, empirical rigor, related work, and cycle management. Grounded in the official ICSE 2027 Research Track call, important-dates page, artifact-evaluation track, and ICSE 2026 records, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "icse",
+    "software-engineering",
+    "empirical-software-engineering",
+    "conference-submission",
+    "hotcrp",
+    "artifact-evaluation",
+    "open-science",
+    "threats-to-validity"
+  ]
+}

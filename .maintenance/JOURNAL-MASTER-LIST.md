@@ -40,14 +40,14 @@ workflow/topic-selection）。锚点：**CCF-A/B 会议优先** + CSRankings。
 **多媒体 / 语音**：ACM MM · INTERSPEECH · ICASSP
 **机器人**：ICRA [A-depth] · IROS · RSS · CoRL
 **计算机图形**：SIGGRAPH · SIGGRAPH Asia
-**人机交互**：CHI · UIST · CSCW
-**系统**：OSDI · SOSP · NSDI · EuroSys · USENIX ATC · ASPLOS
+**人机交互**：CHI [A-depth] · UIST · CSCW
+**系统**：OSDI [A-depth] · SOSP [A-depth] · NSDI · EuroSys · USENIX ATC · ASPLOS
 **体系结构**：ISCA · MICRO · HPCA
 **数据库**：SIGMOD · VLDB · ICDE · PODS
 **理论**：STOC · FOCS · SODA
-**安全**：IEEE S&P (Oakland) · USENIX Security · ACM CCS · NDSS
+**安全**：IEEE S&P (Oakland) [A-depth] · USENIX Security · ACM CCS [A-depth] · NDSS
 **网络**：SIGCOMM · INFOCOM · MobiCom
-**编程语言 / 软件工程**：POPL · PLDI · OOPSLA · ICSE · FSE (ESEC/FSE) · ASE · ISSTA
+**编程语言 / 软件工程**：POPL · PLDI · OOPSLA · ICSE [A-depth] · FSE (ESEC/FSE) · ASE · ISSTA
 **期刊**：JACM · IEEE TPAMI · JMLR · Artificial Intelligence (AIJ) · IJCV ·
 Nature Machine Intelligence · IEEE TKDE · ACM TOG · IEEE/ACM Trans. on Networking ·
 IEEE TSE · ACM TOPLAS · SIAM J. on Computing · Computational Linguistics · IEEE TVCG ·

@@ -1,0 +1,22 @@
+{
+  "name": "sosp-skills",
+  "description": "A 12-skill depth pack for SOSP (ACM Symposium on Operating Systems Principles) submissions: venue fit, HotCRP submission audits, author response, review-process modeling, camera-ready with shepherding, sysartifacts artifact evaluation, reproducibility, supplementary material, writing style, related work, experiments, and cycle workflow. Grounded in the official SOSP 2026 CFP, author guidelines, HotCRP deadlines page, sigops.org, and sysartifacts, checked on 2026-07-08.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "sosp",
+    "operating-systems",
+    "distributed-systems",
+    "acm-sigops",
+    "conference-submission",
+    "hotcrp",
+    "artifact-evaluation",
+    "shepherding"
+  ]
+}

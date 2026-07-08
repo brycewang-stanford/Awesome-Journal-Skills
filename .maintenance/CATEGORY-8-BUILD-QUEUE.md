@@ -7,11 +7,12 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 18 verified pack roots: `NeurIPS-Skills`, `ICML-Skills`,
-  `ICLR-Skills`, `AAAI-Skills`, `IJCAI-Skills`, `AISTATS-Skills`, `UAI-Skills`, `COLT-Skills`,
-  `MLSys-Skills`, `KDD-Skills`, `The-Web-Conference-Skills`, `WSDM-Skills`, `SIGIR-Skills`,
-  `CVPR-Skills`, `ICCV-Skills`, `ACL-Skills`, `EMNLP-Skills`, `ICRA-Skills`
-  (UAI through ICRA added 2026-07-08).
+- Complete category-8 depth packs: 24 verified pack roots — the ENTIRE Wave 25-A launch batch
+  is now complete (24/24, finished 2026-07-08): `NeurIPS-Skills`, `ICML-Skills`, `ICLR-Skills`,
+  `AAAI-Skills`, `IJCAI-Skills`, `AISTATS-Skills`, `UAI-Skills`, `COLT-Skills`, `MLSys-Skills`,
+  `KDD-Skills`, `The-Web-Conference-Skills`, `WSDM-Skills`, `SIGIR-Skills`, `CVPR-Skills`,
+  `ICCV-Skills`, `ACL-Skills`, `EMNLP-Skills`, `ICRA-Skills`, `CHI-Skills`, `SOSP-Skills`,
+  `OSDI-Skills`, `IEEE-SP-Skills`, `ACM-CCS-Skills`, `ICSE-Skills`.
 - Existing category-8 breadth seeds:
   - 155 conference profiles in `Computer-Science-Conference-Skills`.
   - 3 journal profiles in `English-NaturalScience-Journal-Skills`: `nature-machine-intelligence`,
@@ -66,12 +67,12 @@ value plus existing breadth seeds.
 | 16 | ACL | conference | `annual-meeting-of-the-association-for-computational-linguistics`; depth pack `ACL-Skills` complete |
 | 17 | EMNLP | conference | `conference-on-empirical-methods-in-natural-language-processing`; depth pack `EMNLP-Skills` complete |
 | 18 | ICRA | conference | `ieee-international-conference-on-robotics-and-automation`; depth pack `ICRA-Skills` complete |
-| 19 | CHI | conference | `acm-chi-conference-on-human-factors-in-computing-systems` |
-| 20 | SOSP | conference | `acm-symposium-on-operating-systems-principles` |
-| 21 | OSDI | conference | `usenix-symposium-on-operating-systems-design-and-implementation` |
-| 22 | IEEE S&P | conference | `ieee-symposium-on-security-and-privacy` |
-| 23 | ACM CCS | conference | `acm-conference-on-computer-and-communications-security` |
-| 24 | ICSE | conference | `international-conference-on-software-engineering` |
+| 19 | CHI | conference | `acm-chi-conference-on-human-factors-in-computing-systems`; depth pack `CHI-Skills` complete |
+| 20 | SOSP | conference | `acm-symposium-on-operating-systems-principles`; depth pack `SOSP-Skills` complete |
+| 21 | OSDI | conference | `usenix-symposium-on-operating-systems-design-and-implementation`; depth pack `OSDI-Skills` complete |
+| 22 | IEEE S&P | conference | `ieee-symposium-on-security-and-privacy`; depth pack `IEEE-SP-Skills` complete |
+| 23 | ACM CCS | conference | `acm-conference-on-computer-and-communications-security`; depth pack `ACM-CCS-Skills` complete |
+| 24 | ICSE | conference | `international-conference-on-software-engineering`; depth pack `ICSE-Skills` complete |
 
 ## English 90 Target List
 

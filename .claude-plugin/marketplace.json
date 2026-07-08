@@ -51,6 +51,13 @@
       "category": "academic"
     },
     {
+      "name": "acm-ccs-skills",
+      "source": "./ACM-CCS-Skills",
+      "description": "Twelve CCS-specific skills for security-conference submission strategy, grounded in the official ACM CCS 2026 Call for Papers, call for artifacts, HotCRP cycle sites, and SIGSAC award and steering pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "asq-skills",
       "source": "./Administrative-Science-Quarterly-Skills",
       "description": "Twelve-skill bundle covering the Administrative Science Quarterly (ASQ) manuscript lifecycle.",
@@ -215,6 +222,13 @@
       "name": "cell-skills",
       "source": "./Cell-Skills",
       "description": "Twelve-skill bundle covering the Cell manuscript lifecycle: workflow router, scope/significance fit, single-narrative framing, the Highlights + eTOC + Graphical Abstract trio, the ≤150-word Summary, main-text writing, display items, STAR Methods + Key Resources Table, data/code availability, Cell Press author–date references, submission preflight + cover letter, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "chi-skills",
+      "source": "./CHI-Skills",
+      "description": "Twelve CHI-specific skills for human-computer interaction conference strategy, grounded in the CHI 2027 Papers call, review-process pages, SIGCHI accessibility and video guides, and ACM open-access policy.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -544,6 +558,20 @@
       "name": "icra-skills",
       "source": "./ICRA-Skills",
       "description": "Twelve ICRA-specific skills covering robotics venue routing (direct ICRA vs RA-L with conference presentation), PaperPlaza mechanics, the 6+2 page rule, video attachments, real-robot experiment standards, and IEEE camera-ready publication, anchored to the verified ICRA 2026 cycle and announced ICRA 2027 pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icse-skills",
+      "source": "./ICSE-Skills",
+      "description": "Twelve ICSE-specific skills for software-engineering conference strategy, grounded in the official ICSE 2027 Research Track call for papers, important dates, artifact-evaluation track, and ICSE 2026 cycle records.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ieee-sp-skills",
+      "source": "./IEEE-SP-Skills",
+      "description": "Twelve IEEE S&P-specific skills for security/privacy conference submission strategy, grounded in the official S&P 2027 Call for Papers, cycle deadline pages, the S&P 2026 artifact-evaluation pages, and the IEEE TC on Security and Privacy site.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1143,6 +1171,13 @@
       "category": "academic"
     },
     {
+      "name": "osdi-skills",
+      "source": "./OSDI-Skills",
+      "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '26 Call for Papers, Call for Artifacts, HotCRP site, and USENIX open-access policy pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "perspectives-on-psychological-science-skills",
       "source": "./Perspectives-on-Psychological-Science-Skills",
       "description": "Twelve-skill bundle covering the Perspectives on Psychological Science manuscript lifecycle.",
@@ -1363,6 +1398,13 @@
       "name": "sociological-theory-skills",
       "source": "./Sociological-Theory-Skills",
       "description": "Twelve-skill bundle covering the Sociological Theory (ST) manuscript lifecycle. Theoretical-problem framing, tradition positioning, concept and proposition construction, argument validity in place of statistical robustness, boundary conditions, conceptual exhibits (typologies and mechanism diagrams, never data plots), contribution framing, ASA style, and the double-anonymous Manuscript Central review. NO empirical hypothesis-testing — that is ASR / AJS's lane.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "sosp-skills",
+      "source": "./SOSP-Skills",
+      "description": "Twelve SOSP-specific skills for operating-systems conference submission strategy, grounded in the official SOSP 2026 CFP and author guidelines on sigops.org, the sosp26 HotCRP deadlines page, and the sysartifacts artifact-evaluation program.",
       "version": "0.1.0",
       "category": "academic"
     },

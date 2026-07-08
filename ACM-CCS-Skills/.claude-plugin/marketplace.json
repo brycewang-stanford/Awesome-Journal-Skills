@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "acm-ccs-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM CCS manuscript planning, dual-cycle HotCRP submission, rebuttal, artifact evaluation, ethics compliance, and ACM proceedings camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "acm-ccs-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve CCS-specific skills for security-conference submission strategy, grounded in the official ACM CCS 2026 Call for Papers, call for artifacts, HotCRP cycle sites, and SIGSAC award and steering pages.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "acm-ccs",
+        "hotcrp",
+        "rebuttal",
+        "camera-ready",
+        "artifact-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ccs-submission",
+        "skills/ccs-author-response",
+        "skills/ccs-camera-ready",
+        "skills/ccs-artifact-evaluation",
+        "skills/ccs-reproducibility",
+        "skills/ccs-supplementary",
+        "skills/ccs-review-process",
+        "skills/ccs-writing-style",
+        "skills/ccs-related-work",
+        "skills/ccs-experiments",
+        "skills/ccs-workflow",
+        "skills/ccs-topic-selection"
+      ]
+    }
+  ]
+}
