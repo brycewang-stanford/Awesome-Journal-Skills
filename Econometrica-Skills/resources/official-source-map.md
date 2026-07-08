@@ -38,9 +38,12 @@ the live Editorial Express portal). Access date for all entries below: **2026-05
 
 - **Submission system: Editorial Express (live portal).**
   - https://editorialexpress.com/cgi-bin/e-editor/e-submit.cgi?dbase=econometrica
-  - **CONFLICT:** one third-party blog (manusights.com) referenced a Manuscript Central /
-    ScholarOne URL; the live Editorial Express portal and ES search results indicate
-    Editorial Express. Re-verify the exact current portal on the journal site.
+  - **CONFLICT RESOLVED — search-rendering verified 2026-07-08 (direct fetch blocked); re-confirm
+    live before relying:** the search rendering of the official ES submission-guidelines page
+    (https://www.econometricsociety.org/publications/econometrica/information-authors) states that
+    **Editorial Express® is used for developing and maintaining the journal's submission software**,
+    matching the live Editorial Express portal URL above. The Manuscript Central / ScholarOne URL on
+    the third-party blog (manusights.com) is wrong/stale — do not use it.
 - **Submission fee (from Jan 1, 2025): US$125 regular member, US$50 student member; at least
   one author must be an Econometric Society member; invited resubmissions and ES-journal
   transfers exempt from the fee.**
@@ -99,9 +102,19 @@ the live Editorial Express portal). Access date for all entries below: **2026-05
     (Editors' Report 2023–2024 — authoritative for submission/decision statistics and timing)
   - https://www.econometricsociety.org/society/organization-and-governance/reports/Econometrica-Editors-Report-20242025-2026-02-05.html
     (Editors' Report 2024–2025 — newest; consult for the current year's figures)
-  - **UNVERIFIED (precise figure):** the exact current acceptance rate varies by year and was
-    not surfaced as a single official percentage; the 6–9% range is approximate. Consult the
-    latest "Report of the Editors" above for the current numbers.
+  - **UNVERIFIED (precise figure) — refined 2026-07-08:** ES still publishes **no single official
+    acceptance-rate percentage**; the 6–9% range remains approximate. New underlying counts —
+    search-rendering verified 2026-07-08 (direct fetch of econometricsociety.org and Wiley blocked;
+    renderings of the official report PDFs/pages were used); re-confirm live before relying:
+    the **Editors' Report 2024–2025** (Econometrica Vol. 94, No. 1, Jan 2026, pp. 281–286;
+    https://www.econometricsociety.org/publications/econometrica/2026/01/01/The-Econometric-Society-Annual-Reports-Econometrica-Report-20242025/file/ecta70025.pdf
+    and https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA941EDS) reports **~72 articles published
+    (avg ~30 pages)**, **67% of new submissions decided within 3 months and 94% within 6 months**,
+    and accepted papers averaging **~10 months with the journal + ~21 months with the authors**;
+    the **2024 Annual Report of the President** (ecta200811.pdf) reports a **2024 submission pool of
+    1,202** and **69 articles / 3,065 pages published in calendar 2024**. A naive published/submitted
+    ratio (~6%) is a rough proxy computed from these counts, **not an official rate** — do not quote
+    it as one.
 
 ## Representative / landmark Econometrica papers (verified as Econometrica)
 
@@ -124,3 +137,9 @@ the live Editorial Express portal). Access date for all entries below: **2026-05
   (instructions, editorial procedures, data policy, editorial board). Facts above were
   obtained from those pages via search-result snippets plus the live Editorial Express and
   Zenodo pages. Re-fetch directly from a browser to confirm any volatile figure.
+- **Access-method note (2026-07-08):** the blockage still holds — direct fetches of
+  econometricsociety.org (including the Editors' Report PDFs) and onlinelibrary.wiley.com
+  returned HTTP 403 on this pass. Items dated 2026-07-08 above were verified through
+  search-engine renderings of the exact official pages/PDFs, cross-checked across ≥2
+  independent sources, and are labeled "search-rendering verified … re-confirm live before
+  relying."
