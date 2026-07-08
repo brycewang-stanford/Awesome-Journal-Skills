@@ -101,6 +101,16 @@ submission, no updating a named preprint mid-round in a way that links to
 the anonymous version, no contacting suspected reviewers. Violations here
 are policy matters for chairs, not style points.
 
+## After the final decision
+
+Close the loop regardless of outcome. On acceptance, archive the full
+review thread beside the paper — the shepherding and ARI stages quote it.
+On rejection, hold a one-hour post-mortem within a week while memory is
+fresh: classify each objection as fixable-evidence, fixable-writing, or
+fit, and let that classification pick the next venue rather than pride or
+sunk cost. Reviews from a SIGMOD round are unusually actionable input for
+a PVLDB or ICDE resubmission precisely because the reviewer pools overlap.
+
 ## Output format
 
 ```text

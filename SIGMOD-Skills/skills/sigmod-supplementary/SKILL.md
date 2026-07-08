@@ -99,6 +99,17 @@ Repo snapshot: engine v1 tag + generators + fig-to-script map
 - Verify every URL in the PDF resolves to the anonymous mirror, not the
   canonical repo you will publish at camera-ready.
 
+## Camera-ready conversion of the vehicles
+
+Plan the vehicles' afterlife when creating them: at acceptance the extended
+report becomes a named tech report or arXiv posting, the anonymous mirror
+retires in favor of the canonical repository, and the paper's URLs all flip
+(see `sigmod-camera-ready`). Vehicles built with this flip in mind — clean
+history, no baked-in anonymous URLs inside scripts, version tags from day
+one —
+convert in an hour; vehicles built ad hoc convert over a painful week while
+the PACMMOD metadata deadline looms.
+
 ## Output format
 
 ```text

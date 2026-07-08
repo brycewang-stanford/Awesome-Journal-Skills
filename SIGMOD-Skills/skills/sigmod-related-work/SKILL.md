@@ -100,6 +100,16 @@ prior designs; choose late when the running example teaches faster than
 contrast does. Either way, the introduction still owes one paragraph of
 sharp positioning — reviewers form the novelty judgment on page one.
 
+## Surveys and tutorials as leverage
+
+Data management maintains strong survey infrastructure — ACM Computing
+Surveys pieces, SIGMOD/VLDB tutorials, and the specialized book series many
+subfields keep current. Citing the definitive survey does double duty: it
+compresses background (protecting the 12-page budget) and signals that the
+firstness claim was made knowing the mapped terrain. When a tutorial by a
+likely PC member exists in your area, assume your reviewer wrote or read
+it, and position accordingly.
+
 ## Output format
 
 ```text

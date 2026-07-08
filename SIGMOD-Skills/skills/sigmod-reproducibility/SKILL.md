@@ -101,6 +101,16 @@ one-month window — regenerating the whole evaluation under a new flag is only
 survivable if the original runs were scripted, seeded, and logged. Teams that
 hand-ran their plots discover this during the revision, at the worst time.
 
+## What reviewers can check without running anything
+
+Even reviewers who never open the artifact test reproducibility passively:
+do the numbers in the abstract, the results section, and the conclusion
+agree; do figure axes and caption units match the prose; does the claimed
+hardware plausibly fit the claimed dataset in memory; do percentages in
+tables sum sensibly. Internal inconsistency is read as evidence that the
+pipeline is hand-operated — and it usually is. A final numeric-consistency
+pass over the PDF is reproducibility work, not copyediting.
+
 ## Output format
 
 ```text

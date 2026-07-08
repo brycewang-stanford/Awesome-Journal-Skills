@@ -100,6 +100,16 @@ Bengaluru). Budget registration and travel when the acceptance lands, and
 schedule the ARI artifact push (`sigmod-artifact-evaluation`) into the gap
 between issue and conference.
 
+## Calendar-keeping discipline
+
+Because every date in this skill perishes, institutionalize the refresh:
+at the start of each quarter, one team member re-opens the current
+important-dates page, diffs it against the team's planning calendar, and
+posts the delta. Rounds have shifted between cycles before; a plan anchored
+to a stale calendar fails silently until the abstract deadline passes. The
+same quarterly sweep should touch the ARI edition page and, for groups with
+industrial collaborations, the industrial-track CFP status.
+
 ## Output format
 
 ```text
