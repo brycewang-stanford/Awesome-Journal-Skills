@@ -1,0 +1,23 @@
+{
+  "name": "jcadcg-skills",
+  "description": "面向《计算机辅助设计与图形学学报》(Journal of Computer-Aided Design & Computer Graphics, JCAD&CG) 的 12 个中文投稿技能包：这本由中国计算机学会(CCF)主办、中国科学院计算技术研究所承办、创刊于 1989 年的 CCF A 类计算机图形学/CAD 方向中文月刊(ISSN 1003-9775, CN 11-2925/TP)，是计算机类中文刊里最专注图形学、计算机辅助设计、计算机辅助几何设计、可视化与可视分析、虚拟现实/增强现实、图像视频处理与计算机视觉的阵地。技能覆盖选题栏目定位、中文科技写作(GB/T 7714/中图分类号 TP/中英文摘要)、图形与几何实验设计、相关工作综述、代码与数据可用性、审稿流程(初审→外审→复审退修→主编终审)、修回答复、录用定稿校样全流程。关键事实以官网 jcad.cn、CNKI 与 CCF 目录双源核实，核验日期 2026-07-09，未确认者标待核实。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "jcadcg",
+    "journal-of-cad-and-computer-graphics",
+    "jisuanji-fuzhu-sheji-yu-tuxingxue-xuebao",
+    "ccf-a",
+    "computer-graphics",
+    "computer-aided-design",
+    "visualization",
+    "chinese-cs-journal",
+    "gb-t-7714"
+  ]
+}

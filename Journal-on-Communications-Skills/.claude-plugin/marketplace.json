@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jonc-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for 《通信学报》(Journal on Communications, JOC) submissions: venue-fit topic routing for 通信/网络/信息安全/信号处理, Chinese 长文 writing with 中英文摘要 and GB/T 7714, the 初审→外审→终审 three-stage review, 修回 handling, and post-acceptance 定稿.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jonc-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve 《通信学报》(Journal on Communications, JOC) skills for the China Institute of Communications flagship monthly, grounded in the official infocomm-journal.com/txxb 投稿须知, the CBPT 投稿系统, CNKI/万方 期刊主页, and the CCF 推荐中文科技期刊目录 checked on 2026-07-09.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "joc",
+        "journal-on-communications",
+        "tongxin-xuebao",
+        "wireless-communications",
+        "network-security",
+        "gb-t-7714"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jonc-submission",
+        "skills/jonc-author-response",
+        "skills/jonc-camera-ready",
+        "skills/jonc-artifact-evaluation",
+        "skills/jonc-reproducibility",
+        "skills/jonc-supplementary",
+        "skills/jonc-review-process",
+        "skills/jonc-writing-style",
+        "skills/jonc-related-work",
+        "skills/jonc-experiments",
+        "skills/jonc-workflow",
+        "skills/jonc-topic-selection"
+      ]
+    }
+  ]
+}

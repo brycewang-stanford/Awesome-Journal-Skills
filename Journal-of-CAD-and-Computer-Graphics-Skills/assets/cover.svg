@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Journal of Computer-Aided Design and Computer Graphics Skills</title>
+  <desc id="desc">Cover image for the Journal of Computer-Aided Design &amp; Computer Graphics (JCAD&amp;CG) / 计算机辅助设计与图形学学报 submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0f1e2e"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f6f8"/>
+  <polygon points="150,470 300,300 450,470" fill="none" stroke="#2f7f8f" stroke-width="14" stroke-linejoin="round"/>
+  <polygon points="300,300 450,470 640,410 500,250" fill="none" stroke="#b03a2e" stroke-width="12" stroke-linejoin="round"/>
+  <circle cx="300" cy="300" r="12" fill="#b03a2e"/>
+  <circle cx="500" cy="250" r="12" fill="#2f7f8f"/>
+  <circle cx="640" cy="410" r="12" fill="#6b4f9c"/>
+  <path d="M760 440 C 820 320, 900 320, 960 440" fill="none" stroke="#6b4f9c" stroke-width="14" stroke-linecap="round"/>
+  <rect x="900" y="250" width="120" height="90" rx="10" fill="none" stroke="#e08a2e" stroke-width="12"/>
+  <text x="132" y="180" font-family="'Noto Sans SC', 'PingFang SC', Arial, sans-serif" font-size="66" font-weight="700" fill="#0f1e2e">计算机辅助设计与图形学学报</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#374151">Journal of Computer-Aided Design &amp; Computer Graphics (JCAD&amp;CG) · CCF A · 月刊</text>
+  <text x="136" y="520" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#0f1e2e">图形学 · CAD/CAE/CAM · 可视化 · VR/AR · 图像视频 · GB/T 7714 · 中图 TP</text>
+</svg>

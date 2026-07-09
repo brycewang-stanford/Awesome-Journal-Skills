@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：3886 个 Agent Skill、277 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：4006 个 Agent Skill、287 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -370,7 +370,7 @@
 | <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
 | <a id="discipline-sport-science"></a>🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
-<sub>共 <b>277 个 pack / 3886 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>287 个 pack / 4006 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -394,7 +394,7 @@
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 3886 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 4006 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -594,6 +594,23 @@
 | **TACAS** International Conference on Tools and Algorithms for the Construction and Analysis of Systems | [TACAS-Skills/](TACAS-Skills/) | ETAPS 验证工具与算法旗舰、四类论文（研究/工具/工具演示/案例研究）分类分页、按类别盲审、与 PC 并行的强制 artifact 评审（门控工具论文）、Springer LNCS 金色开放、承办 SV-COMP、与 CAV 明确区分、对 POPL/PLDI 路由、workflow 与选题定位 | 12 |
 
 这个合集把 AI 会议放在最前面：NeurIPS、ICML、ICLR、AAAI、IJCAI、AISTATS、UAI、COLT、MLSys、KDD、CVPR、ACL、EMNLP、SIGIR、ICRA、CHI、SOSP、IEEE S&P、ICSE、PLDI、SIGMOD、STOC，以及 130+ 个其它 CS 会议。每个 profile 都是“会议 fit + 当年投稿要求核验清单”；deadline、页数、模板、AI 使用政策、artifact 规则、rebuttal 格式、camera-ready 要求等易变事实，必须以当前官方 CFP / author kit 为准。
+
+### 计算机科学 · 中文期刊深度包
+
+面向 CCF 推荐中文科技期刊的**中文期刊**深度包（区别于上面的英文会议）：中文投审稿流程（初审→外审→复审→主编终审）、GB/T 7714 参考文献、中英文摘要与中图分类号(TP)、专题/专刊、稿酬或版面费等本土规范，均为**期刊而非会议**语义。
+
+| 期刊 | Pack | 覆盖 | 技能数 |
+|------|------|------|-------:|
+| **《计算机学报》** Chinese Journal of Computers (CJC) | [Chinese-Journal-of-Computers-Skills/](Chinese-Journal-of-Computers-Skills/) | CCF-A 计算机全学科综合旗舰月刊、原创长文传统、三审多轮修回、cjc.ict.ac.cn 网上投稿、GB/T 7714、中图分类号 TP、workflow 与选题定位 | 12 |
+| **《软件学报》** Journal of Software (JOS) | [Journal-of-Software-Skills/](Journal-of-Software-Skills/) | CCF-A 软件学科旗舰（软件工程/系统软件/PL/数据库/网络/安全）、ChinaSoft 联动专刊、初审→外审→复审→主编终审、中英文要素 + GB/T 7714、workflow 与选题定位 | 12 |
+| **《计算机研究与发展》** Journal of Computer Research and Development (JCRD) | [Journal-of-Computer-Research-and-Development-Skills/](Journal-of-Computer-Research-and-Development-Skills/) | CCF-A 计算机综合、以专题(客座编辑)组稿 + 综述与原创并重、双盲评审、crad.ict.ac.cn、workflow 与选题定位 | 12 |
+| **《自动化学报》** Acta Automatica Sinica (AAS) | [Acta-Automatica-Sinica-Skills/](Acta-Automatica-Sinica-Skills/) | 控制/模式识别/机器人/智能系统旗舰、双盲三审、作者承诺前置、中英文双语、稿酬制(非版面费)、aas-cn(ScholarOne)、workflow 与选题定位 | 12 |
+| **《中国科学：信息科学》** Scientia Sinica Informationis (SSI) | [Scientia-Sinica-Informationis-Skills/](Scientia-Sinica-Informationis-Skills/) | 国家级大信息学科综合旗舰(计算机+控制+通信+微电子)、评述/论文/快报四栏目、与英文姊妹刊 Science China Information Sciences 择一投稿、LaTeX、workflow 与选题定位 | 12 |
+| **《电子学报》** Acta Electronica Sinica (AES) | [Acta-Electronica-Sinica-Skills/](Acta-Electronica-Sinica-Skills/) | 电子信息学科旗舰(电子/信号/电路/电磁场/集成电路)、双盲多级评审、6 个月答复红线、与英文版 Chinese Journal of Electronics 分流、workflow 与选题定位 | 12 |
+| **《模式识别与人工智能》** Pattern Recognition and Artificial Intelligence (PR&AI) | [Pattern-Recognition-and-Artificial-Intelligence-Skills/](Pattern-Recognition-and-Artificial-Intelligence-Skills/) | AI 细分专业刊(模式识别/机器学习/CV/NLP/智能系统)、Magtech 投稿、18000–44000 字长文、官方 6 个月审稿口径、workflow 与选题定位 | 12 |
+| **《计算机辅助设计与图形学学报》** Journal of Computer-Aided Design & Computer Graphics (JCAD&CG) | [Journal-of-CAD-and-Computer-Graphics-Skills/](Journal-of-CAD-and-Computer-Graphics-Skills/) | CCF-A 图形/几何阵地(图形学/CAD/几何设计/可视化/VR/图像)、几何精度与渲染质量证据、jcad.cn、workflow 与选题定位 | 12 |
+| **《通信学报》** Journal on Communications (JOC) | [Journal-on-Communications-Skills/](Journal-on-Communications-Skills/) | 通信学科旗舰(通信理论/无线移动/网络/信息安全与密码/信号处理)、链路级/系统级仿真证据、CBPT 三审、workflow 与选题定位 | 12 |
+| **《计算机科学》** Computer Science journal (JSJKX) | [Computer-Science-Journal-Skills/](Computer-Science-Journal-Skills/) | 计算机全学科中文综合刊、栏目/专题活跃、单盲审稿、鼓励长文、jsjkx.com、明确为期刊而非会议、workflow 与选题定位 | 12 |
 
 ### 社会科学 · 中文顶刊 —— 深度独立包
 
@@ -1269,7 +1286,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>3886</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>277 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3211</b>（267 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>3886</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>4006</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>287 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3331</b>（277 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>4006</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1466,6 +1483,17 @@ awesome-journal-skills/
 ├── DAC-Skills/                    → DAC 主会（12 skills）
 ├── EDBT-Skills/                   → EDBT 主会（12 skills）
 ├── TACAS-Skills/                  → TACAS 主会（12 skills）
+│   # 计算机·中文期刊深度包（本仓库内编写维护）
+├── Chinese-Journal-of-Computers-Skills/ → 《计算机学报》CJC（12 skills）
+├── Journal-of-Software-Skills/    → 《软件学报》JOS（12 skills）
+├── Journal-of-Computer-Research-and-Development-Skills/ → 《计算机研究与发展》JCRD（12 skills）
+├── Acta-Automatica-Sinica-Skills/ → 《自动化学报》AAS（12 skills）
+├── Scientia-Sinica-Informationis-Skills/ → 《中国科学:信息科学》SSI（12 skills）
+├── Acta-Electronica-Sinica-Skills/ → 《电子学报》AES（12 skills）
+├── Pattern-Recognition-and-Artificial-Intelligence-Skills/ → 《模式识别与人工智能》PR&AI（12 skills）
+├── Journal-of-CAD-and-Computer-Graphics-Skills/ → 《计算机辅助设计与图形学学报》JCAD&CG（12 skills）
+├── Journal-on-Communications-Skills/ → 《通信学报》JOC（12 skills）
+├── Computer-Science-Journal-Skills/ → 《计算机科学》CS journal（12 skills）
 │   # 自然科学与临床深度包（本仓库内编写维护）
 ├── Science-Skills/                → Science（AAAS）（12 skills）
 ├── Cell-Skills/                   → Cell（Cell Press）（12 skills）
@@ -1485,7 +1513,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change（12 skills）
 ├── Agricultural-Systems-Skills/   → Agricultural Systems（12 skills）
 ├── Field-Crops-Research-Skills/   → Field Crops Research（12 skills）
-│   # 根级 marketplace 清单（聚合全部 277 个仓库内 pack）
+│   # 根级 marketplace 清单（聚合全部 287 个仓库内 pack）
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1578,7 +1606,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **277 个 pack / 3886 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **287 个 pack / 4006 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 

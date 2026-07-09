@@ -1,0 +1,22 @@
+{
+  "name": "csj-skills",
+  "description": "面向《计算机科学》(Computer Science, JSJKX) 投稿的 12 个中文 agent 技能。《计算机科学》是重庆西南信息有限公司主办、创刊于 1974 年、覆盖计算机全学科的中文综合月刊，CCF 会刊、CCF 推荐 B 类中文科技期刊、CCF 计算领域高质量科技期刊分级目录 T2 级、CSCD 来源期刊与北大中文核心。本包覆盖选题与栏目定位、中文写作规范(中英文摘要/关键词/中图分类号/GB/T 7714)、专题与综述组稿、实验与可复现、单盲审稿流程、修回答复到录用定稿的完整弧线。事实经官网 jsjkx.com 与 CNKI/CCF 目录双源交叉核实于 2026-07-09，未确认者标 待核实。注意本刊是期刊(journal) 而非会议。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "computer-science-journal",
+    "jsjkx",
+    "计算机科学",
+    "ccf-chinese-journal",
+    "cscd",
+    "chinese-cs-journal",
+    "journal-submission",
+    "peer-review"
+  ]
+}

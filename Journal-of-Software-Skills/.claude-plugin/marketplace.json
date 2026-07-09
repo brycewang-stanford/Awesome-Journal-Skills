@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jos-skills",
+  "version": "0.1.0",
+  "description": "《软件学报》(Journal of Software, JOS) 投稿深度包：面向中科院软件所与 CCF 主办的 A 类中文科技期刊，覆盖软件学科选题、在线投稿与 GB/T 7714 格式、中英文摘要、多轮修回审稿、专刊征文、代码数据可用性与清样定稿。",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jos-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "面向《软件学报》(Journal of Software, JOS) 的 12 个中文技能，覆盖软件工程/系统软件/程序设计语言/数据库/网络与分布式/软件安全方向的投稿、修回、答复与定稿全流程，事实源自 jos.org.cn、CNKI/万方与 CCF 推荐中文科技期刊目录，锚定 2026 状态。",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "journal-of-software",
+        "软件学报",
+        "jos",
+        "ccf-chinese-journal",
+        "software-engineering",
+        "gb-t-7714"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jos-submission",
+        "skills/jos-author-response",
+        "skills/jos-camera-ready",
+        "skills/jos-artifact-evaluation",
+        "skills/jos-reproducibility",
+        "skills/jos-supplementary",
+        "skills/jos-review-process",
+        "skills/jos-writing-style",
+        "skills/jos-related-work",
+        "skills/jos-experiments",
+        "skills/jos-workflow",
+        "skills/jos-topic-selection"
+      ]
+    }
+  ]
+}

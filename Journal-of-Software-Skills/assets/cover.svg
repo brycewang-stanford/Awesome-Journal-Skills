@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">软件学报 / Journal of Software Skills</title>
+  <desc id="desc">Cover image for the Journal of Software (JOS) 软件学报 Chinese-journal submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0f2438"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1e8"/>
+  <path d="M150 250 L360 250 L360 400 L620 400" fill="none" stroke="#1f7a6d" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M620 300 L860 300 L860 430 L1040 430" fill="none" stroke="#c85a3c" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="560" y="360" width="120" height="80" rx="12" fill="#5a4b96"/>
+  <circle cx="150" cy="250" r="24" fill="#1f7a6d"/>
+  <circle cx="1040" cy="430" r="24" fill="#c85a3c"/>
+  <text x="132" y="180" font-family="'Noto Sans SC', Arial, sans-serif" font-size="84" font-weight="700" fill="#0f2438">软件学报</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Journal of Software (JOS) · 中国科学院软件研究所 · CCF</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0f2438">软件工程 · 系统软件 · 程序设计语言 · 数据库 · 网络与分布式 · 软件安全</text>
+</svg>

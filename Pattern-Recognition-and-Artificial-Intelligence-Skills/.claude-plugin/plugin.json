@@ -1,0 +1,22 @@
+{
+  "name": "prai-skills",
+  "description": "面向《模式识别与人工智能》(Pattern Recognition and Artificial Intelligence, PR&AI) 投稿的 12 个中文 agent 技能包：这是中国自动化学会、国家智能计算机研究开发中心与中国科学院合肥智能机械研究所主办、科学出版社出版、创刊于 1989 年的 CCF 推荐 B 类模式识别/人工智能专业中文月刊。覆盖选题与栏目定位、中文长文写作(中英文摘要/关键词/中图分类号/GB/T 7714)、模式识别与机器学习实证证据、可复现性、初审→外审→终审的同行评审与修回、审稿意见答复、录用后校样定稿。事实以官网 manu46.magtech.com.cn/Jweb_prai 与 CNKI/CCF 目录双源核验于 2026-07-09，未确认者标待核实。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "prai",
+    "pattern-recognition",
+    "artificial-intelligence",
+    "machine-learning",
+    "chinese-journal",
+    "ccf-recommended",
+    "gb-t-7714",
+    "peer-review"
+  ]
+}

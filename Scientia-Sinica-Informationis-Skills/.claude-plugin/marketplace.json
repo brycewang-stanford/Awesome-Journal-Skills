@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ssi-skills",
+  "version": "0.1.0",
+  "description": "《中国科学：信息科学》(Scientia Sinica Informationis, SSI) 投稿深度包：选题定位、中文科技写作、三审三校审稿、修回答复、校样定稿、代码数据可用性与可复现性，并厘清与英文姊妹刊 Science China Information Sciences 的关系。",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ssi-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "面向《中国科学：信息科学》(SCIENTIA SINICA Informationis, SSI) 的 12 个中文技能，覆盖国家级大信息学科旗舰的投稿、审稿、修回与录用全流程，事实以官网 scis.scichina.com 与 CNKI/万方双源核实（2026-07-09），未确认项标注待核实。",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "scientia-sinica-informationis",
+        "ssi",
+        "中国科学信息科学",
+        "science-china-information-sciences",
+        "信息科学",
+        "peer-review"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ssi-submission",
+        "skills/ssi-author-response",
+        "skills/ssi-camera-ready",
+        "skills/ssi-artifact-evaluation",
+        "skills/ssi-reproducibility",
+        "skills/ssi-supplementary",
+        "skills/ssi-review-process",
+        "skills/ssi-writing-style",
+        "skills/ssi-related-work",
+        "skills/ssi-experiments",
+        "skills/ssi-workflow",
+        "skills/ssi-topic-selection"
+      ]
+    }
+  ]
+}

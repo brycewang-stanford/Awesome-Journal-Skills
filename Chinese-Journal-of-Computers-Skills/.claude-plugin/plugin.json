@@ -1,0 +1,22 @@
+{
+  "name": "cjc-skills",
+  "description": "面向《计算机学报》(Chinese Journal of Computers, CJC) 的 12 个中文投稿技能包：这本由中国计算机学会(CCF)与中国科学院计算技术研究所主办、创刊于 1978 年的 CCF A 类计算机学科综合性中文旗舰月刊，以高水平原创长文为主，实行编辑初审→专家外审→复审退修→主编终审的三审制与多轮修回。技能覆盖选题栏目定位、中文科技写作(GB/T 7714/中图分类号 TP/中英文摘要)、实验与相关工作、代码数据可用性、审稿流程、修回答复、录用定稿校样全流程。关键事实以官网 cjc.ict.ac.cn、CNKI 与 CCF 目录双源核实，核验日期 2026-07-09。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "cjc",
+    "chinese-journal-of-computers",
+    "jisuanji-xuebao",
+    "ccf-a",
+    "chinese-cs-journal",
+    "gb-t-7714",
+    "peer-review",
+    "computer-science"
+  ]
+}

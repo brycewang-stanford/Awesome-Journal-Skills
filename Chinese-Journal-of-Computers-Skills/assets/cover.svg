@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Chinese Journal of Computers Skills</title>
+  <desc id="desc">Cover image for the Chinese Journal of Computers (CJC) / 计算机学报 submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#131c2b"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f5f2ea"/>
+  <path d="M150 300 L360 300 L360 420 L640 420" fill="none" stroke="#b03a2e" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M640 330 L880 330 L880 450 L1040 450" fill="none" stroke="#2f7f8f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="580" y="380" width="120" height="80" rx="12" fill="#6b4f9c"/>
+  <circle cx="150" cy="300" r="24" fill="#b03a2e"/>
+  <circle cx="1040" cy="450" r="24" fill="#2f7f8f"/>
+  <text x="132" y="180" font-family="'Noto Sans SC', 'PingFang SC', Arial, sans-serif" font-size="84" font-weight="700" fill="#131c2b">计算机学报</text>
+  <text x="136" y="230" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Chinese Journal of Computers (CJC) · CCF A · 月刊</text>
+  <text x="136" y="520" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#131c2b">三审制 · 多轮修回 · GB/T 7714 · 中图分类号 TP · 综合长文</text>
+</svg>

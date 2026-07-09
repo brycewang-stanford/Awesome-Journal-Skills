@@ -1,0 +1,22 @@
+{
+  "name": "jos-skills",
+  "description": "面向《软件学报》(Journal of Software, JOS) 的 12 技能中文投稿深度包：中科院软件所与 CCF 联合主办、CCF 推荐 A 类中文科技期刊。覆盖软件工程/系统软件/程序设计语言/数据库/网络与分布式/软件安全方向的选题定位、在线投稿系统与 GB/T 7714 格式、中英文摘要写作、初审→外审→复审→主编终审的多轮修回、审稿意见答复、专刊(special issue)与 ChinaSoft 联动、代码数据可用性、清样定稿。事实以 jos.org.cn 官网、CNKI/万方、CCF 目录多源核实，锚定 2026 状态。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "journal-of-software",
+    "软件学报",
+    "jos",
+    "ccf-chinese-journal",
+    "software-engineering",
+    "systems-software",
+    "chinese-academic-writing",
+    "gb-t-7714"
+  ]
+}

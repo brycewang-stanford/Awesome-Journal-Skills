@@ -7,7 +7,13 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 88 verified pack roots. The ENTIRE Wave 25-A launch batch
+- Complete category-8 depth packs: 98 verified pack roots (90 English conferences + 8 of the 10
+  Chinese CS journals... actually all 10 Chinese CS-journal depth packs are now built, bringing the
+  count to 98; the terminal 100 is reached once the final 2 English conference packs land). The
+  Chinese-language sub-wave (计算机学报 CJC, 软件学报 JOS, 计算机研究与发展 JCRD, 自动化学报 AAS,
+  中国科学:信息科学 SSI, 电子学报 AES, 模式识别与人工智能 PR&AI, 计算机辅助设计与图形学学报 JCAD&CG,
+  通信学报 JOC, 计算机科学 CSJ) is complete and each scores 94.0 (built as journal depth packs against
+  the 600-substance-unit target, NOT added to CONFERENCE_DEPTH_PACKS). The ENTIRE Wave 25-A launch batch
   (24/24) finished 2026-07-08; EN core-61 tranches two through four
   (NAACL, ECCV, PLDI, SIGMOD, STOC, NSDI, USENIX Security, NDSS; FOCS, SODA, POPL,
   OOPSLA, VLDB, CIKM, EuroSys, ASPLOS; UIST, CSCW, ISCA, MICRO, RSS, CoRL,

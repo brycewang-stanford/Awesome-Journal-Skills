@@ -106,7 +106,17 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `SoCC-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
 | `DAC-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
 | `EDBT-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
-| `TACAS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack — category-8 at 88/100 |
+| `TACAS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
+| `Chinese-Journal-of-Computers-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `Journal-of-Software-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `Journal-of-Computer-Research-and-Development-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `Acta-Automatica-Sinica-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `Scientia-Sinica-Informationis-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `Acta-Electronica-Sinica-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `Pattern-Recognition-and-Artificial-Intelligence-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `Journal-of-CAD-and-Computer-Graphics-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `Journal-on-Communications-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave (slug jonc- to avoid joc- collision) |
+| `Computer-Science-Journal-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave — category-8 at 98/100 |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |
