@@ -1,0 +1,22 @@
+{
+  "name": "fse-skills",
+  "description": "A 12-skill depth pack for ACM ESEC/FSE (Foundations of Software Engineering) submissions published in PACMSE: venue routing among the SE flagships, the journal-style Major Revision cycle, double-anonymous HotCRP submission, empirical-SE evidence and threats-to-validity, open-science data availability, ACM artifact badging, and the PACMSE camera-ready. Grounded in the FSE 2026/2027 researchr calls, the PACMSE journal pages, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "fse",
+    "esec-fse",
+    "software-engineering",
+    "pacmse",
+    "acm-sigsoft",
+    "conference-submission",
+    "artifact-evaluation",
+    "empirical-software-engineering"
+  ]
+}

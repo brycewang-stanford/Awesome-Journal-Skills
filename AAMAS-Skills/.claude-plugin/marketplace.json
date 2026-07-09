@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aamas-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for AAMAS venue routing, OpenReview submission, the double-blind rebuttal, multiagent reproducibility, artifacts, and IFAAMAS/ACM camera-ready work on autonomous agents and multiagent systems.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aamas-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve AAMAS-specific skills for autonomous-agents and multiagent-systems submission strategy, grounded in the official AAMAS 2026 Call for Papers, submission instructions, IFAAMAS proceedings, and the AAMAS 2027 OpenReview group.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "aamas",
+        "ifaamas",
+        "openreview",
+        "rebuttal",
+        "multiagent-systems",
+        "game-theory"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aamas-submission",
+        "skills/aamas-author-response",
+        "skills/aamas-camera-ready",
+        "skills/aamas-artifact-evaluation",
+        "skills/aamas-reproducibility",
+        "skills/aamas-supplementary",
+        "skills/aamas-review-process",
+        "skills/aamas-writing-style",
+        "skills/aamas-related-work",
+        "skills/aamas-experiments",
+        "skills/aamas-workflow",
+        "skills/aamas-topic-selection"
+      ]
+    }
+  ]
+}

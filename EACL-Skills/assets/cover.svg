@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">EACL Skills</title>
+  <desc id="desc">Cover image for the EACL European Chapter conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#102436"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f0e6"/>
+  <path d="M150 420 L318 300 L484 344 L650 250 L816 300 L1040 208" fill="none" stroke="#1f6f8b" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="318" cy="300" r="40" fill="#cc785c"/>
+  <circle cx="650" cy="250" r="40" fill="#1f6f8b"/>
+  <circle cx="1040" cy="208" r="40" fill="#5a7d3c"/>
+  <text x="132" y="192" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#102436">EACL</text>
+  <text x="136" y="272" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#374151">European Chapter of the ACL - NLP and computational linguistics</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#102436">ACL Rolling Review · Commitment · Findings · ACL Anthology</text>
+</svg>

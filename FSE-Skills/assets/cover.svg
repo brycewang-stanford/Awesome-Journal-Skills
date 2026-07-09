@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ESEC/FSE Skills</title>
+  <desc id="desc">Cover image for the ACM ESEC/FSE Foundations of Software Engineering submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101a2e"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f5f2ea"/>
+  <path d="M150 250 L360 250 L360 400 L620 400" fill="none" stroke="#2f7f8f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M620 300 L860 300 L860 430 L1040 430" fill="none" stroke="#cc785c" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="560" y="360" width="120" height="80" rx="12" fill="#6b4f9c"/>
+  <circle cx="150" cy="250" r="24" fill="#2f7f8f"/>
+  <circle cx="1040" cy="430" r="24" fill="#cc785c"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#101a2e">ESEC/FSE</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#374151">Foundations of Software Engineering</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#101a2e">PACMSE · Major Revision · Artifacts · Empirical SE</text>
+</svg>

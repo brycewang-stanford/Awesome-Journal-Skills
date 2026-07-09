@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "wacv-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for WACV manuscript planning, applications-vs-algorithms track choice, the two-round Revise-and-Resubmit review, OpenReview submission, reproducibility, and IEEE/CVF camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "wacv-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve WACV-specific skills for the applications-first winter computer-vision venue, built around the two-round Revise-and-Resubmit model and grounded in the official WACV 2027 Call for Papers, Author Guidelines, OpenReview groups, and WACV 2026 pages.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "wacv",
+        "two-round-review",
+        "revise-and-resubmit",
+        "openreview",
+        "camera-ready",
+        "computer-vision"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/wacv-submission",
+        "skills/wacv-author-response",
+        "skills/wacv-camera-ready",
+        "skills/wacv-artifact-evaluation",
+        "skills/wacv-reproducibility",
+        "skills/wacv-supplementary",
+        "skills/wacv-review-process",
+        "skills/wacv-writing-style",
+        "skills/wacv-related-work",
+        "skills/wacv-experiments",
+        "skills/wacv-workflow",
+        "skills/wacv-topic-selection"
+      ]
+    }
+  ]
+}

@@ -17,6 +17,7 @@ New-Media-and-Society-Skills	New Media and Society	communication	field	empirical
 Public-Opinion-Quarterly-Skills	Public Opinion Quarterly	communication/polisci	field	empirical	international	Public-Opinion-Quarterly-Skills/resources/official-source-map.md
 Criminology-Skills	Criminology	criminology	field	empirical	international	Criminology-Skills/resources/official-source-map.md
 AAAI-Skills	AAAI	cs-ai (conference)	field	empirical	international	AAAI-Skills/resources/official-source-map.md
+AAMAS-Skills	AAMAS	cs-ai (conference)	field	empirical	international	AAMAS-Skills/resources/official-source-map.md
 ACL-Skills	ACL	cs-ai (conference)	field	empirical	international	ACL-Skills/resources/official-source-map.md
 ACM-CCS-Skills	ACM CCS	cs-ai (conference)	field	empirical	international	ACM-CCS-Skills/resources/official-source-map.md
 ACM-MM-Skills	ACM MM	cs-ai (conference)	field	empirical	international	ACM-MM-Skills/resources/official-source-map.md
@@ -29,10 +30,12 @@ COLT-Skills	COLT	cs-ai (conference)	field	empirical	international	COLT-Skills/re
 CSCW-Skills	CSCW	cs-ai (conference)	field	empirical	international	CSCW-Skills/resources/official-source-map.md
 CVPR-Skills	CVPR	cs-ai (conference)	field	empirical	international	CVPR-Skills/resources/official-source-map.md
 CoRL-Skills	CoRL	cs-ai (conference)	field	empirical	international	CoRL-Skills/resources/official-source-map.md
+EACL-Skills	EACL	cs-ai (conference)	field	empirical	international	EACL-Skills/resources/official-source-map.md
 ECCV-Skills	ECCV	cs-ai (conference)	field	empirical	international	ECCV-Skills/resources/official-source-map.md
 EMNLP-Skills	EMNLP	cs-ai (conference)	field	empirical	international	EMNLP-Skills/resources/official-source-map.md
 EuroSys-Skills	EuroSys	cs-ai (conference)	field	empirical	international	EuroSys-Skills/resources/official-source-map.md
 FOCS-Skills	FOCS	cs-ai (conference)	field	empirical	international	FOCS-Skills/resources/official-source-map.md
+FSE-Skills	FSE	cs-ai (conference)	field	empirical	international	FSE-Skills/resources/official-source-map.md
 HPCA-Skills	HPCA	cs-ai (conference)	field	empirical	international	HPCA-Skills/resources/official-source-map.md
 ICASSP-Skills	ICASSP	cs-ai (conference)	field	empirical	international	ICASSP-Skills/resources/official-source-map.md
 ICCV-Skills	ICCV	cs-ai (conference)	field	empirical	international	ICCV-Skills/resources/official-source-map.md
@@ -47,10 +50,12 @@ IJCAI-Skills	IJCAI	cs-ai (conference)	field	empirical	international	IJCAI-Skills
 INTERSPEECH-Skills	INTERSPEECH	cs-ai (conference)	field	empirical	international	INTERSPEECH-Skills/resources/official-source-map.md
 IROS-Skills	IROS	cs-ai (conference)	field	empirical	international	IROS-Skills/resources/official-source-map.md
 ISCA-Skills	ISCA	cs-ai (conference)	field	empirical	international	ISCA-Skills/resources/official-source-map.md
+ISSTA-Skills	ISSTA	cs-ai (conference)	field	empirical	international	ISSTA-Skills/resources/official-source-map.md
 KDD-Skills	KDD	cs-ai (conference)	field	empirical	international	KDD-Skills/resources/official-source-map.md
 MICRO-Skills	MICRO	cs-ai (conference)	field	empirical	international	MICRO-Skills/resources/official-source-map.md
 MLSys-Skills	MLSys	cs-ai (conference)	field	empirical	international	MLSys-Skills/resources/official-source-map.md
 MobiCom-Skills	MobiCom	cs-ai (conference)	field	empirical	international	MobiCom-Skills/resources/official-source-map.md
+MobiSys-Skills	MobiSys	cs-ai (conference)	field	empirical	international	MobiSys-Skills/resources/official-source-map.md
 NAACL-Skills	NAACL	cs-ai (conference)	field	empirical	international	NAACL-Skills/resources/official-source-map.md
 NDSS-Skills	NDSS	cs-ai (conference)	field	empirical	international	NDSS-Skills/resources/official-source-map.md
 NSDI-Skills	NSDI	cs-ai (conference)	field	empirical	international	NSDI-Skills/resources/official-source-map.md
@@ -61,16 +66,19 @@ PLDI-Skills	PLDI	cs-ai (conference)	field	empirical	international	PLDI-Skills/re
 POPL-Skills	POPL	cs-ai (conference)	field	empirical	international	POPL-Skills/resources/official-source-map.md
 RSS-Skills	RSS	cs-ai (conference)	field	empirical	international	RSS-Skills/resources/official-source-map.md
 RecSys-Skills	RecSys	cs-ai (conference)	field	empirical	international	RecSys-Skills/resources/official-source-map.md
+SIGCOMM-Skills	SIGCOMM	cs-ai (conference)	field	empirical	international	SIGCOMM-Skills/resources/official-source-map.md
 SIGIR-Skills	SIGIR	cs-ai (conference)	field	empirical	international	SIGIR-Skills/resources/official-source-map.md
 SIGMOD-Skills	SIGMOD	cs-ai (conference)	field	empirical	international	SIGMOD-Skills/resources/official-source-map.md
 SODA-Skills	SODA	cs-ai (conference)	field	empirical	international	SODA-Skills/resources/official-source-map.md
 SOSP-Skills	SOSP	cs-ai (conference)	field	empirical	international	SOSP-Skills/resources/official-source-map.md
 STOC-Skills	STOC	cs-ai (conference)	field	empirical	international	STOC-Skills/resources/official-source-map.md
+SenSys-Skills	SenSys	cs-ai (conference)	field	empirical	international	SenSys-Skills/resources/official-source-map.md
 The-Web-Conference-Skills	The Web Conference	cs-ai (conference)	field	empirical	international	The-Web-Conference-Skills/resources/official-source-map.md
 UAI-Skills	UAI	cs-ai (conference)	field	empirical	international	UAI-Skills/resources/official-source-map.md
 UIST-Skills	UIST	cs-ai (conference)	field	empirical	international	UIST-Skills/resources/official-source-map.md
 USENIX-Security-Skills	USENIX Security	cs-ai (conference)	field	empirical	international	USENIX-Security-Skills/resources/official-source-map.md
 VLDB-Skills	VLDB	cs-ai (conference)	field	empirical	international	VLDB-Skills/resources/official-source-map.md
+WACV-Skills	WACV	cs-ai (conference)	field	empirical	international	WACV-Skills/resources/official-source-map.md
 WSDM-Skills	WSDM	cs-ai (conference)	field	empirical	international	WSDM-Skills/resources/official-source-map.md
 Demography-Skills	Demography	demography	field	empirical	international	Demography-Skills/resources/official-source-map.md
 Population-and-Development-Review-Skills	Population and Development Review	demography	field	empirical	international	Population-and-Development-Review-Skills/resources/official-source-map.md

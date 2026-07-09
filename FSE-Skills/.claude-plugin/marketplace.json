@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "fse-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM ESEC/FSE manuscript routing, journal-style Major Revision handling, double-anonymous submission, empirical-SE evidence, open science, ACM artifact badging, and PACMSE camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "fse-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve FSE-specific skills for the ACM Foundations of Software Engineering conference and its PACMSE journal-style publication model, grounded in the FSE 2026/2027 researchr calls, PACMSE journal pages, ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "fse",
+        "esec-fse",
+        "pacmse",
+        "major-revision",
+        "artifact-evaluation",
+        "empirical-software-engineering"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/fse-submission",
+        "skills/fse-author-response",
+        "skills/fse-camera-ready",
+        "skills/fse-artifact-evaluation",
+        "skills/fse-reproducibility",
+        "skills/fse-supplementary",
+        "skills/fse-review-process",
+        "skills/fse-writing-style",
+        "skills/fse-related-work",
+        "skills/fse-experiments",
+        "skills/fse-workflow",
+        "skills/fse-topic-selection"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MobiSys Skills</title>
+  <desc id="desc">Cover image for the ACM MobiSys mobile-systems submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#122019"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1ea"/>
+  <rect x="150" y="150" width="150" height="300" rx="22" fill="none" stroke="#1c6b52" stroke-width="12"/>
+  <rect x="176" y="184" width="98" height="212" rx="6" fill="#d8ede4"/>
+  <line x1="200" y1="418" x2="250" y2="418" stroke="#1c6b52" stroke-width="10" stroke-linecap="round"/>
+  <path d="M232 214 L206 300 L228 300 L214 366 L262 268 L238 268 Z" fill="#cc785c"/>
+  <path d="M360 430 L360 360 M410 430 L410 320 M460 430 L460 288 M510 430 L510 336 M560 430 L560 250" fill="none" stroke="#1c6b52" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="640" cy="240" r="16" fill="#cc785c"/>
+  <circle cx="720" cy="300" r="16" fill="#1c6b52"/>
+  <circle cx="800" cy="230" r="16" fill="#6b4f9c"/>
+  <path d="M640 240 L720 300 L800 230" fill="none" stroke="#122019" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="360" y="200" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" fill="#122019">MobiSys</text>
+  <text x="364" y="256" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Mobile systems, applications, and services</text>
+  <text x="150" y="516" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#122019">On-device evidence · Energy · Latency · HotCRP · ACM artifact badges</text>
+</svg>

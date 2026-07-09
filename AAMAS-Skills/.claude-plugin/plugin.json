@@ -1,0 +1,22 @@
+{
+  "name": "aamas-skills",
+  "description": "A 12-skill depth pack for AAMAS submissions on autonomous agents and multiagent systems: venue routing, OpenReview submission checks, the double-blind rebuttal, IFAAMAS/ACM camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, and workflow. Grounded in the official AAMAS 2026 Call for Papers, submission instructions, important dates, IFAAMAS proceedings, and the AAMAS 2027 OpenReview group checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "aamas",
+    "autonomous-agents",
+    "multiagent-systems",
+    "ifaamas",
+    "game-theory",
+    "multiagent-reinforcement-learning",
+    "openreview",
+    "rebuttal"
+  ]
+}

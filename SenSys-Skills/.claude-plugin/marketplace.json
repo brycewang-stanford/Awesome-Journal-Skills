@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sensys-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM/IEEE SenSys manuscript planning, the two-deadline HotCRP review, double-blind submission, real-testbed reproducibility, ACM artifact badges, and camera-ready work at the merged sensing/embedded-AI venue.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sensys-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve SenSys-specific skills for the sensing/embedded-AI conference: topic routing after the SenSys/IPSN/IoTDI merger, two-deadline submission strategy, real-testbed evaluation, energy and low-power measurement, artifacts, and ACM camera-ready, grounded in the SenSys 2026/2027 CFPs.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "sensys",
+        "sensing-systems",
+        "embedded-ai",
+        "hotcrp",
+        "artifact-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/sensys-submission",
+        "skills/sensys-author-response",
+        "skills/sensys-camera-ready",
+        "skills/sensys-artifact-evaluation",
+        "skills/sensys-reproducibility",
+        "skills/sensys-supplementary",
+        "skills/sensys-review-process",
+        "skills/sensys-writing-style",
+        "skills/sensys-related-work",
+        "skills/sensys-experiments",
+        "skills/sensys-workflow",
+        "skills/sensys-topic-selection"
+      ]
+    }
+  ]
+}
