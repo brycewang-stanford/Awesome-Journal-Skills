@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ACM IMC Skills</title>
+  <desc id="desc">Cover image for the ACM Internet Measurement Conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0b1f2a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f2f5f4"/>
+  <circle cx="300" cy="300" r="150" fill="none" stroke="#1f7a6d" stroke-width="6"/>
+  <circle cx="300" cy="300" r="100" fill="none" stroke="#1f7a6d" stroke-width="4"/>
+  <circle cx="300" cy="300" r="50" fill="none" stroke="#1f7a6d" stroke-width="3"/>
+  <circle cx="300" cy="300" r="10" fill="#cc785c"/>
+  <circle cx="180" cy="220" r="12" fill="#cc785c"/>
+  <circle cx="430" cy="360" r="12" fill="#6b4f9c"/>
+  <circle cx="360" cy="180" r="12" fill="#2f7f8f"/>
+  <line x1="300" y1="300" x2="180" y2="220" stroke="#cc785c" stroke-width="4"/>
+  <line x1="300" y1="300" x2="430" y2="360" stroke="#6b4f9c" stroke-width="4"/>
+  <line x1="300" y1="300" x2="360" y2="180" stroke="#2f7f8f" stroke-width="4"/>
+  <text x="560" y="250" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="700" fill="#0b1f2a">IMC</text>
+  <text x="564" y="300" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Internet Measurement Conference</text>
+  <text x="564" y="470" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#0b1f2a">Two deadlines · One-Shot-Revision</text>
+  <text x="564" y="508" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#0b1f2a">Datasets · Vantage points · Measurement ethics</text>
+</svg>

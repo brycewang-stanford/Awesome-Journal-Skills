@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "vis-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for IEEE VIS full papers published as IEEE TVCG journal articles: six-area routing, the two-phase conditional-accept review, PCS/VGTC submission, the VGTC/TVCG template, perceptual and design-study evaluation, the Graphics Replicability Stamp, and the TVCG camera-ready.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "vis-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve IEEE VIS-specific skills for the IEEE Visualization Conference and its journal-integrated IEEE TVCG publication model, grounded in the IEEE VIS 2026 call, ieeevis.org, IEEE Xplore/TVCG, the Precision Conference System, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "ieee-vis",
+        "tvcg",
+        "vgtc",
+        "visualization",
+        "replicability-stamp",
+        "two-phase-review"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/vis-submission",
+        "skills/vis-author-response",
+        "skills/vis-camera-ready",
+        "skills/vis-artifact-evaluation",
+        "skills/vis-reproducibility",
+        "skills/vis-supplementary",
+        "skills/vis-review-process",
+        "skills/vis-writing-style",
+        "skills/vis-related-work",
+        "skills/vis-experiments",
+        "skills/vis-workflow",
+        "skills/vis-topic-selection"
+      ]
+    }
+  ]
+}

@@ -22,6 +22,7 @@ ACL-Skills	ACL	cs-ai (conference)	field	empirical	international	ACL-Skills/resou
 ACM-CCS-Skills	ACM CCS	cs-ai (conference)	field	empirical	international	ACM-CCS-Skills/resources/official-source-map.md
 ACM-MM-Skills	ACM MM	cs-ai (conference)	field	empirical	international	ACM-MM-Skills/resources/official-source-map.md
 AISTATS-Skills	AISTATS	cs-ai (conference)	field	empirical	international	AISTATS-Skills/resources/official-source-map.md
+ASE-Skills	ASE	cs-ai (conference)	field	empirical	international	ASE-Skills/resources/official-source-map.md
 ASPLOS-Skills	ASPLOS	cs-ai (conference)	field	empirical	international	ASPLOS-Skills/resources/official-source-map.md
 CHI-Skills	CHI	cs-ai (conference)	field	empirical	international	CHI-Skills/resources/official-source-map.md
 CIKM-Skills	CIKM	cs-ai (conference)	field	empirical	international	CIKM-Skills/resources/official-source-map.md
@@ -29,8 +30,10 @@ COLM-Skills	COLM	cs-ai (conference)	field	empirical	international	COLM-Skills/re
 COLT-Skills	COLT	cs-ai (conference)	field	empirical	international	COLT-Skills/resources/official-source-map.md
 CSCW-Skills	CSCW	cs-ai (conference)	field	empirical	international	CSCW-Skills/resources/official-source-map.md
 CVPR-Skills	CVPR	cs-ai (conference)	field	empirical	international	CVPR-Skills/resources/official-source-map.md
+CoNEXT-Skills	CoNEXT	cs-ai (conference)	field	empirical	international	CoNEXT-Skills/resources/official-source-map.md
 CoRL-Skills	CoRL	cs-ai (conference)	field	empirical	international	CoRL-Skills/resources/official-source-map.md
 EACL-Skills	EACL	cs-ai (conference)	field	empirical	international	EACL-Skills/resources/official-source-map.md
+ECAI-Skills	ECAI	cs-ai (conference)	field	empirical	international	ECAI-Skills/resources/official-source-map.md
 ECCV-Skills	ECCV	cs-ai (conference)	field	empirical	international	ECCV-Skills/resources/official-source-map.md
 EMNLP-Skills	EMNLP	cs-ai (conference)	field	empirical	international	EMNLP-Skills/resources/official-source-map.md
 EuroSys-Skills	EuroSys	cs-ai (conference)	field	empirical	international	EuroSys-Skills/resources/official-source-map.md
@@ -45,9 +48,12 @@ ICLR-Skills	ICLR	cs-ai (conference)	field	empirical	international	ICLR-Skills/re
 ICML-Skills	ICML	cs-ai (conference)	field	empirical	international	ICML-Skills/resources/official-source-map.md
 ICRA-Skills	ICRA	cs-ai (conference)	field	empirical	international	ICRA-Skills/resources/official-source-map.md
 ICSE-Skills	ICSE	cs-ai (conference)	field	empirical	international	ICSE-Skills/resources/official-source-map.md
+ICSME-Skills	ICSME	cs-ai (conference)	field	empirical	international	ICSME-Skills/resources/official-source-map.md
 IEEE-SP-Skills	IEEE SP	cs-ai (conference)	field	empirical	international	IEEE-SP-Skills/resources/official-source-map.md
 IJCAI-Skills	IJCAI	cs-ai (conference)	field	empirical	international	IJCAI-Skills/resources/official-source-map.md
+IMC-Skills	IMC	cs-ai (conference)	field	empirical	international	IMC-Skills/resources/official-source-map.md
 INTERSPEECH-Skills	INTERSPEECH	cs-ai (conference)	field	empirical	international	INTERSPEECH-Skills/resources/official-source-map.md
+IPSN-Skills	IPSN	cs-ai (conference)	field	empirical	international	IPSN-Skills/resources/official-source-map.md
 IROS-Skills	IROS	cs-ai (conference)	field	empirical	international	IROS-Skills/resources/official-source-map.md
 ISCA-Skills	ISCA	cs-ai (conference)	field	empirical	international	ISCA-Skills/resources/official-source-map.md
 ISSTA-Skills	ISSTA	cs-ai (conference)	field	empirical	international	ISSTA-Skills/resources/official-source-map.md
@@ -63,6 +69,7 @@ NeurIPS-Skills	NeurIPS	cs-ai (conference)	field	empirical	international	NeurIPS-
 OOPSLA-Skills	OOPSLA	cs-ai (conference)	field	empirical	international	OOPSLA-Skills/resources/official-source-map.md
 OSDI-Skills	OSDI	cs-ai (conference)	field	empirical	international	OSDI-Skills/resources/official-source-map.md
 PLDI-Skills	PLDI	cs-ai (conference)	field	empirical	international	PLDI-Skills/resources/official-source-map.md
+PODS-Skills	PODS	cs-ai (conference)	field	empirical	international	PODS-Skills/resources/official-source-map.md
 POPL-Skills	POPL	cs-ai (conference)	field	empirical	international	POPL-Skills/resources/official-source-map.md
 RSS-Skills	RSS	cs-ai (conference)	field	empirical	international	RSS-Skills/resources/official-source-map.md
 RecSys-Skills	RecSys	cs-ai (conference)	field	empirical	international	RecSys-Skills/resources/official-source-map.md
@@ -77,6 +84,7 @@ The-Web-Conference-Skills	The Web Conference	cs-ai (conference)	field	empirical	
 UAI-Skills	UAI	cs-ai (conference)	field	empirical	international	UAI-Skills/resources/official-source-map.md
 UIST-Skills	UIST	cs-ai (conference)	field	empirical	international	UIST-Skills/resources/official-source-map.md
 USENIX-Security-Skills	USENIX Security	cs-ai (conference)	field	empirical	international	USENIX-Security-Skills/resources/official-source-map.md
+VIS-Skills	VIS	cs-ai (conference)	field	empirical	international	VIS-Skills/resources/official-source-map.md
 VLDB-Skills	VLDB	cs-ai (conference)	field	empirical	international	VLDB-Skills/resources/official-source-map.md
 WACV-Skills	WACV	cs-ai (conference)	field	empirical	international	WACV-Skills/resources/official-source-map.md
 WSDM-Skills	WSDM	cs-ai (conference)	field	empirical	international	WSDM-Skills/resources/official-source-map.md

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "imc-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM Internet Measurement Conference (IMC) venue routing, the two-deadline One-Shot-Revision cycle, double-blind acmart submission, measurement ethics and responsible disclosure, dataset/vantage-point methodology, artifact-availability and the Replicability Track, and the Community Contribution Award.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "imc-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve IMC-specific skills for the ACM Internet Measurement Conference, the SIGCOMM-sponsored empirical measurement flagship, grounded in the IMC 2026 call for papers, submission instructions, committees page, SIGCOMM/IMC event pages, the ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "imc",
+        "internet-measurement",
+        "one-shot-revision",
+        "replicability-track",
+        "measurement-ethics",
+        "community-contribution-award"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/imc-submission",
+        "skills/imc-author-response",
+        "skills/imc-camera-ready",
+        "skills/imc-artifact-evaluation",
+        "skills/imc-reproducibility",
+        "skills/imc-supplementary",
+        "skills/imc-review-process",
+        "skills/imc-writing-style",
+        "skills/imc-related-work",
+        "skills/imc-experiments",
+        "skills/imc-workflow",
+        "skills/imc-topic-selection"
+      ]
+    }
+  ]
+}

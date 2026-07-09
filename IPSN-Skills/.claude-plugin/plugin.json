@@ -1,0 +1,24 @@
+{
+  "name": "ipsn-skills",
+  "description": "A 12-skill depth pack for ACM/IEEE IPSN (Information Processing in Sensor Networks), the CPS-IoT Week venue for sensing theory, on-device/TinyML, and localization: routing between the Information Processing (IP) and Sensor Platforms, Tools and Design Methods (SPOTS) tracks, double-blind HotCRP submission on the ACM template, real-deployment evidence, the Best Research Artifact Award, and the honest reality that IPSN merged into the new SenSys (Embedded AI and Sensing Systems) from 2025-2026. Grounded in the IPSN 2024 (23rd, Hong Kong) call, CPS-IoT Week pages, ACM DL, IEEE Xplore, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "ipsn",
+    "cps-iot-week",
+    "sensor-networks",
+    "cyber-physical-systems",
+    "tinyml",
+    "on-device-learning",
+    "localization",
+    "acm-sigbed",
+    "conference-submission",
+    "artifact-evaluation"
+  ]
+}

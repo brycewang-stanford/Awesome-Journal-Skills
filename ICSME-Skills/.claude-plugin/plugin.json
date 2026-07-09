@@ -1,0 +1,22 @@
+{
+  "name": "icsme-skills",
+  "description": "A 12-skill depth pack for IEEE ICSME (International Conference on Software Maintenance and Evolution): routing a maintenance/evolution paper among the SE venues, the single-round research track with its early-decision cut and author-response rebuttal, double-anonymous EasyChair submission on the IEEEtran two-column 10+2 budget, the Journal-First (J1C2) and Registered Reports and RENE tracks, mining-software-repositories and technical-debt evidence, and the Joint Artifact Evaluation + ROSE Festival IEEE badges. Grounded in the ICSME 2026 researchr call, IEEE Xplore, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "icsme",
+    "software-maintenance",
+    "software-evolution",
+    "ieee-software-engineering",
+    "mining-software-repositories",
+    "conference-submission",
+    "rose-festival-artifact",
+    "journal-first"
+  ]
+}

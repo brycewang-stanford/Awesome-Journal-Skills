@@ -1,0 +1,22 @@
+{
+  "name": "imc-skills",
+  "description": "A 12-skill depth pack for the ACM Internet Measurement Conference (IMC): routing empirical network-measurement work into IMC versus SIGCOMM/NSDI/CoNEXT/PAM, the two-deadline-per-year cycle with the One-Shot-Revision round, double-blind acmart HotCRP submission, measurement ethics and responsible disclosure, vantage-point and dataset methodology, the artifact-availability declaration and Replicability Track, and the Community Contribution Award. Grounded in the IMC 2026 call, submission instructions, committees page, SIGCOMM/IMC pages, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "imc",
+    "internet-measurement",
+    "network-measurement",
+    "sigcomm",
+    "one-shot-revision",
+    "replicability-track",
+    "measurement-ethics",
+    "conference-submission"
+  ]
+}

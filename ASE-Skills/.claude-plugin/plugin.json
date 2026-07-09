@@ -1,0 +1,22 @@
+{
+  "name": "ase-skills",
+  "description": "A 12-skill depth pack for the IEEE/ACM International Conference on Automated Software Engineering (ASE): routing automated-SE work among the SE flagships, the Accept/Revision/Reject research-track model with an early-rejection stage before rebuttal and a criteria-bound revision round, double-anonymous HotCRP submission on the ACM acmart sigconf template under a 10+2 page budget, the mandatory Data Availability Statement, IEEE-Xplore-and-ACM-DL dual proceedings, ACM artifact badging, and the co-located NIER, Tools-and-Datasets, and Journal-First tracks. Grounded in the ASE 2025/2026 researchr calls, ase26.hotcrp.com, IEEE Xplore, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "ase",
+    "automated-software-engineering",
+    "ieee-acm",
+    "software-engineering",
+    "ai4se",
+    "conference-submission",
+    "artifact-evaluation",
+    "program-analysis"
+  ]
+}
