@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ipsn-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM/IEEE IPSN: IP-vs-SPOTS track routing, double-blind HotCRP submission on the ACM template, sensing-theory and real-deployment evidence, the Best Research Artifact Award, and the IPSN-into-SenSys merger at CPS-IoT Week.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ipsn-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve IPSN-specific skills for the ACM/IEEE International Conference on Information Processing in Sensor Networks and its move into the merged SenSys (Embedded AI and Sensing Systems) at CPS-IoT Week, grounded in the IPSN 2024 (23rd, Hong Kong) call, CPS-IoT Week pages, ACM Digital Library, IEEE Xplore, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "ipsn",
+        "cps-iot-week",
+        "sensor-networks",
+        "tinyml",
+        "localization",
+        "artifact-evaluation"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ipsn-submission",
+        "skills/ipsn-author-response",
+        "skills/ipsn-camera-ready",
+        "skills/ipsn-artifact-evaluation",
+        "skills/ipsn-reproducibility",
+        "skills/ipsn-supplementary",
+        "skills/ipsn-review-process",
+        "skills/ipsn-writing-style",
+        "skills/ipsn-related-work",
+        "skills/ipsn-experiments",
+        "skills/ipsn-workflow",
+        "skills/ipsn-topic-selection"
+      ]
+    }
+  ]
+}

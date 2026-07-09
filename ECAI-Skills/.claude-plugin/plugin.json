@@ -1,0 +1,22 @@
+{
+  "name": "ecai-skills",
+  "description": "A 12-skill depth pack for ECAI (the European Conference on Artificial Intelligence, governed by EurAI): routing broad/symbolic and applied AI among the general-AI flagships, the abstract-then-full-paper two-deadline flow, double-blind EasyChair-style submission with a summary-reject phase and single-round rebuttal, the IOS Press Frontiers in Artificial Intelligence and Applications (FAIA) open-access proceedings and ecai.cls template, the co-located PAIS (Prestigious Applications of Intelligent Systems) track, and the joint IJCAI-ECAI 2026 cycle in Bremen. Grounded in the IJCAI-ECAI 2026, ECAI 2024/2023 calls, IOS Press FAIA volumes, eurai.org, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "ecai",
+    "ijcai-ecai",
+    "eurai",
+    "faia",
+    "ios-press",
+    "pais",
+    "general-artificial-intelligence",
+    "conference-submission"
+  ]
+}

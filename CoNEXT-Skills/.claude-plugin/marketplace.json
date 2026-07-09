@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "conext-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM CoNEXT manuscript routing, the two-cycle (December/June) calendar, journal-style one-shot major-revision handling, double-anonymous submission, systems-networking evidence, SIGCOMM public review and shepherding, reproducibility badging, and PACMNET camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "conext-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve CoNEXT-specific skills for the ACM International Conference on emerging Networking EXperiments and Technologies and its PACMNET journal-style publication model, grounded in the CoNEXT 2026/2025 calls, PACMNET journal pages, ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "conext",
+        "pacmnet",
+        "acm-sigcomm",
+        "one-shot-revision",
+        "reproducibility-badging",
+        "computer-networking"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/conext-submission",
+        "skills/conext-author-response",
+        "skills/conext-camera-ready",
+        "skills/conext-artifact-evaluation",
+        "skills/conext-reproducibility",
+        "skills/conext-supplementary",
+        "skills/conext-review-process",
+        "skills/conext-writing-style",
+        "skills/conext-related-work",
+        "skills/conext-experiments",
+        "skills/conext-workflow",
+        "skills/conext-topic-selection"
+      ]
+    }
+  ]
+}

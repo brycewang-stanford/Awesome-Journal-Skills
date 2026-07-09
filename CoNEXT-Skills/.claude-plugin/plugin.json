@@ -1,0 +1,22 @@
+{
+  "name": "conext-skills",
+  "description": "A 12-skill depth pack for ACM CoNEXT (International Conference on emerging Networking EXperiments and Technologies), whose research papers publish in PACMNET (Proceedings of the ACM on Networking): its two annual submission cycles (December and June) feeding one program, the journal-style one-shot 'major' revision decision, double-anonymous HotCRP submission, the SIGCOMM public-review and shepherding culture, systems-networking evidence and measurement rigor, the reproducibility committee and optional ACM badges, and the PACMNET camera-ready. Grounded in the CoNEXT 2026 call, the CoNEXT 2025 CFP, PACMNET journal pages, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "conext",
+    "acm-sigcomm",
+    "computer-networking",
+    "pacmnet",
+    "networked-systems",
+    "conference-submission",
+    "reproducibility-badging",
+    "network-measurement"
+  ]
+}

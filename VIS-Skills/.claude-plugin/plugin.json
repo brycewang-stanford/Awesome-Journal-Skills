@@ -1,0 +1,22 @@
+{
+  "name": "vis-skills",
+  "description": "A 12-skill depth pack for IEEE VIS (the IEEE Visualization Conference) full papers, published journal-integrated as a special issue of IEEE TVCG: routing among the six unified VIS areas, the two-phase review with its conditional-accept second round, author-optional double-blind submission through PCS under the VGTC society, the IEEE VGTC/TVCG 9+2 template, perceptual and design-study evaluation, the Graphics Replicability Stamp and Open Practices culture, supplemental video, and the TVCG camera-ready. Grounded in the IEEE VIS 2026 call, ieeevis.org, IEEE Xplore/TVCG, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "ieee-vis",
+    "visualization",
+    "visual-analytics",
+    "tvcg",
+    "vgtc",
+    "conference-submission",
+    "replicability-stamp",
+    "data-visualization"
+  ]
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">PODS Skills</title>
+  <desc id="desc">Cover image for the ACM PODS Principles of Database Systems (database theory) submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#14121f"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f3f1ec"/>
+  <circle cx="250" cy="360" r="26" fill="#6b4f9c"/>
+  <circle cx="470" cy="270" r="26" fill="#2f7f8f"/>
+  <circle cx="470" cy="450" r="26" fill="#2f7f8f"/>
+  <circle cx="690" cy="360" r="26" fill="#cc785c"/>
+  <path d="M250 360 L470 270 M250 360 L470 450 M470 270 L690 360 M470 450 L690 360 M470 270 L470 450" fill="none" stroke="#374151" stroke-width="8" stroke-linecap="round"/>
+  <text x="132" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="700" fill="#14121f">PODS</text>
+  <text x="136" y="224" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Principles of Database Systems &#183; database theory</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#14121f">Two cycles &#183; Double-anonymous &#183; Proof appendix &#183; PACMMOD &#183; Mendelzon ToT</text>
+</svg>

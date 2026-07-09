@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ASE Skills</title>
+  <desc id="desc">Cover image for the IEEE/ACM Automated Software Engineering conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#141d24"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1ea"/>
+  <!-- automation pipeline: source -> analyzer -> tool -> artifact -->
+  <circle cx="150" cy="300" r="22" fill="#3f8f6f"/>
+  <path d="M150 300 L360 300" fill="none" stroke="#3f8f6f" stroke-width="14" stroke-linecap="round"/>
+  <rect x="360" y="262" width="150" height="76" rx="12" fill="#cc785c"/>
+  <path d="M510 300 L690 300" fill="none" stroke="#3f8f6f" stroke-width="14" stroke-linecap="round"/>
+  <polygon points="690,262 780,300 690,338" fill="#6b4f9c"/>
+  <path d="M780 300 L980 300" fill="none" stroke="#3f8f6f" stroke-width="14" stroke-linecap="round" stroke-dasharray="4 18"/>
+  <rect x="980" y="268" width="66" height="66" rx="10" fill="#141d24" stroke="#cc785c" stroke-width="6"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="700" fill="#141d24">ASE</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">IEEE/ACM Automated Software Engineering</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#141d24">Revision round · Rebuttal · Artifacts · NIER · Journal-First</text>
+</svg>

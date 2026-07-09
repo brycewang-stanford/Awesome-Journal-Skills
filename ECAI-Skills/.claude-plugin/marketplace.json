@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ecai-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ECAI (European Conference on Artificial Intelligence, EurAI): broad/symbolic and applied-AI routing, the abstract-then-paper two-deadline flow, double-blind review with summary reject and rebuttal, IOS Press FAIA open-access proceedings and the ecai.cls template, the co-located PAIS track, and the joint IJCAI-ECAI 2026 cycle.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ecai-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ECAI-specific skills for the EurAI European Conference on Artificial Intelligence and its IOS Press FAIA open-access proceedings, grounded in the IJCAI-ECAI 2026 call, the ECAI 2024/2023 calls, the FAIA volumes, eurai.org, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "ecai",
+        "ijcai-ecai",
+        "eurai",
+        "faia",
+        "pais",
+        "general-artificial-intelligence"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ecai-submission",
+        "skills/ecai-author-response",
+        "skills/ecai-camera-ready",
+        "skills/ecai-artifact-evaluation",
+        "skills/ecai-reproducibility",
+        "skills/ecai-supplementary",
+        "skills/ecai-review-process",
+        "skills/ecai-writing-style",
+        "skills/ecai-related-work",
+        "skills/ecai-experiments",
+        "skills/ecai-workflow",
+        "skills/ecai-topic-selection"
+      ]
+    }
+  ]
+}

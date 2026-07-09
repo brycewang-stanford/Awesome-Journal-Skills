@@ -219,6 +219,13 @@
       "category": "academic"
     },
     {
+      "name": "ase-skills",
+      "source": "./ASE-Skills",
+      "description": "Twelve ASE-specific skills for the IEEE/ACM International Conference on Automated Software Engineering and its automated-SE research track, grounded in the ASE 2025/2026 researchr calls, the ase26.hotcrp.com submission site, IEEE Xplore, the ACM Digital Library, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "asplos-skills",
       "source": "./ASPLOS-Skills",
       "description": "Twelve ASPLOS-specific skills for architecture/PL/OS conference submission strategy, grounded in the official ASPLOS 2027 CFP, HotCRP cycle pages, artifact-evaluation instructions, and ACM DL proceedings.",
@@ -352,6 +359,13 @@
       "category": "academic"
     },
     {
+      "name": "conext-skills",
+      "source": "./CoNEXT-Skills",
+      "description": "Twelve CoNEXT-specific skills for the ACM International Conference on emerging Networking EXperiments and Technologies and its PACMNET journal-style publication model, grounded in the CoNEXT 2026/2025 calls, PACMNET journal pages, ACM Digital Library, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "conbio-skills",
       "source": "./Conservation-Biology-Skills",
       "description": "Twelve-skill bundle covering the Conservation Biology manuscript lifecycle — from conservation-relevant topic fit through study design, analysis, data archiving, and revision — for the flagship journal of the Society for Conservation Biology.",
@@ -425,6 +439,13 @@
       "name": "eacl-skills",
       "source": "./EACL-Skills",
       "description": "Twelve EACL-specific skills for European-Chapter NLP submission strategy, grounded in the EACL 2027 CFP, ACL Rolling Review, OpenReview ARR groups, the Responsible NLP checklist, and the ACL Anthology.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ecai-skills",
+      "source": "./ECAI-Skills",
+      "description": "Twelve ECAI-specific skills for the EurAI European Conference on Artificial Intelligence and its IOS Press FAIA open-access proceedings, grounded in the IJCAI-ECAI 2026 call, the ECAI 2024/2023 calls, the FAIA volumes, eurai.org, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -681,6 +702,13 @@
       "category": "academic"
     },
     {
+      "name": "icsme-skills",
+      "source": "./ICSME-Skills",
+      "description": "Twelve ICSME-specific skills for the IEEE International Conference on Software Maintenance and Evolution, its single-round double-anonymous research track, and its Journal-First, Registered Reports, RENE, and ROSE-Festival artifact culture, grounded in the ICSME 2026 researchr call, IEEE Xplore, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "ieee-sp-skills",
       "source": "./IEEE-SP-Skills",
       "description": "Twelve IEEE S&P-specific skills for security/privacy conference submission strategy, grounded in the official S&P 2027 Call for Papers, cycle deadline pages, the S&P 2026 artifact-evaluation pages, and the IEEE TC on Security and Privacy site.",
@@ -691,6 +719,13 @@
       "name": "ijcai-skills",
       "source": "./IJCAI-Skills",
       "description": "Twelve IJCAI-specific skills for AI conference submission strategy, grounded in official IJCAI-ECAI 2026 CFP, submissions FAQ, author response FAQ, reproducibility guidelines, author kit, important dates, peer-review principles, and conflict policy.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "imc-skills",
+      "source": "./IMC-Skills",
+      "description": "Twelve IMC-specific skills for the ACM Internet Measurement Conference, the SIGCOMM-sponsored empirical measurement flagship, grounded in the IMC 2026 call for papers, submission instructions, committees page, SIGCOMM/IMC event pages, the ACM Digital Library, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -733,6 +768,13 @@
       "name": "interspeech-skills",
       "source": "./INTERSPEECH-Skills",
       "description": "Twelve Interspeech-specific skills covering the full ISCA conference cycle — topic fit, submission, paper update, review and rebuttal, camera-ready, artifacts, reproducibility, and presentation — grounded in Interspeech 2026 (Sydney) official sources checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ipsn-skills",
+      "source": "./IPSN-Skills",
+      "description": "Twelve IPSN-specific skills for the ACM/IEEE International Conference on Information Processing in Sensor Networks and its move into the merged SenSys (Embedded AI and Sensing Systems) at CPS-IoT Week, grounded in the IPSN 2024 (23rd, Hong Kong) call, CPS-IoT Week pages, ACM Digital Library, IEEE Xplore, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1409,6 +1451,13 @@
       "category": "academic"
     },
     {
+      "name": "pods-skills",
+      "source": "./PODS-Skills",
+      "description": "Twelve PODS-specific skills for the ACM SIGMOD/SIGACT Symposium on Principles of Database Systems and its PACMMOD PODS-track publication model, grounded in the PODS 2026/2027 calls, the sigmod.org PODS pages, the ACM Digital Library / PACMMOD, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "popl-skills",
       "source": "./POPL-Skills",
       "description": "Twelve POPL-specific skills for principles-of-programming-languages submission strategy, grounded in the POPL 2027 Call for Papers, popl27.sigplan.org important dates, POPL artifact-evaluation criteria, PACMPL ACM Digital Library pages, and dblp records.",
@@ -1776,6 +1825,13 @@
       "name": "research-toolkit-skills",
       "source": "./Research-Toolkit-Skills",
       "description": "Cross-journal author workflow toolkit (7 skills): venue selection (journal-match), the StatsPAI / Stata MCP execution bridge, submission-readiness self-check, simulated referee, response-to-referees, and replication-package assembly. Complements the per-journal depth packs.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "vis-skills",
+      "source": "./VIS-Skills",
+      "description": "Twelve IEEE VIS-specific skills for the IEEE Visualization Conference and its journal-integrated IEEE TVCG publication model, grounded in the IEEE VIS 2026 call, ieeevis.org, IEEE Xplore/TVCG, the Precision Conference System, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     }

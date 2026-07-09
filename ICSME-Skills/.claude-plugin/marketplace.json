@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "icsme-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for IEEE ICSME maintenance/evolution submissions: venue routing, the single-round early-decision research track and author-response rebuttal, double-anonymous EasyChair submission on the IEEEtran budget, Journal-First and Registered Reports and RENE tracks, MSR and technical-debt evidence, and the ROSE Festival IEEE artifact badges.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "icsme-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ICSME-specific skills for the IEEE International Conference on Software Maintenance and Evolution, its single-round double-anonymous research track, and its Journal-First, Registered Reports, RENE, and ROSE-Festival artifact culture, grounded in the ICSME 2026 researchr call, IEEE Xplore, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "icsme",
+        "software-maintenance",
+        "software-evolution",
+        "mining-software-repositories",
+        "rose-festival-artifact",
+        "journal-first"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/icsme-submission",
+        "skills/icsme-author-response",
+        "skills/icsme-camera-ready",
+        "skills/icsme-artifact-evaluation",
+        "skills/icsme-reproducibility",
+        "skills/icsme-supplementary",
+        "skills/icsme-review-process",
+        "skills/icsme-writing-style",
+        "skills/icsme-related-work",
+        "skills/icsme-experiments",
+        "skills/icsme-workflow",
+        "skills/icsme-topic-selection"
+      ]
+    }
+  ]
+}
