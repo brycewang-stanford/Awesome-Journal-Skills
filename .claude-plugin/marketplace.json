@@ -618,6 +618,13 @@
       "category": "academic"
     },
     {
+      "name": "facct-skills",
+      "source": "./FAccT-Skills",
+      "description": "Twelve FAccT-specific skills for the ACM Conference on Fairness, Accountability, and Transparency, spanning fairness/accountability/transparency as first-class contributions across CS, law, social science, humanities, and policy, grounded in the FAccT 2026 CFP and Author/Reviewer Guides, facctconference.org, the ACM Digital Library, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "fast-skills",
       "source": "./FAST-Skills",
       "description": "Twelve FAST-specific skills for the USENIX Conference on File and Storage Technologies, covering its storage discipline, two-deadline USENIX double-blind cycle, one-shot revision, and artifact badging, grounded in the FAST '26/'27 calls, the USENIX artifact policy, ACM Digital Library, and dblp.",
@@ -747,6 +754,13 @@
       "name": "icdm-skills",
       "source": "./ICDM-Skills",
       "description": "Twelve ICDM-specific skills for IEEE data-mining conference submission strategy, grounded in the ICDM 2026 Research and Applied Track CFPs, the IEEE ICDM awards pages, IEEE Xplore proceedings, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icdt-skills",
+      "source": "./ICDT-Skills",
+      "description": "Twelve ICDT-specific skills for the International Conference on Database Theory, its EDBT co-location, and its open-access LIPIcs publication model, grounded in the ICDT 2026/2027 databasetheory.org calls, the EDBT/ICDT 2026 and 2027 sites, DROPS/Schloss Dagstuhl, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },

@@ -115,6 +115,7 @@ DISC = [
     ("ITCS-Skills", "cs-ai (conference)"), ("HRI-Skills", "cs-ai (conference)"),
     ("SoCC-Skills", "cs-ai (conference)"), ("DAC-Skills", "cs-ai (conference)"),
     ("EDBT-Skills", "cs-ai (conference)"), ("TACAS-Skills", "cs-ai (conference)"),
+    ("FAccT-Skills", "cs-ai (conference)"), ("ICDT-Skills", "cs-ai (conference)"),
     # Chinese-language CS/AI journals (CCF-recommended 中文期刊 — journals, not conferences)
     ("Chinese-Journal-of-Computers-Skills", "cs-ai (CN journal)"),
     ("Journal-of-Software-Skills", "cs-ai (CN journal)"),

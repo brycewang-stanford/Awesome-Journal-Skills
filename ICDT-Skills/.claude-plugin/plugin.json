@@ -1,0 +1,22 @@
+{
+  "name": "icdt-skills",
+  "description": "A 12-skill depth pack for ICDT (International Conference on Database Theory), the European database-theory venue co-located with EDBT and published open-access in LIPIcs (Schloss Dagstuhl): venue routing against PODS, the two-submission-round calendar with a first-cycle revision option, anonymous submission via Microsoft CMT, the lipics-v2021 15-page format with a complete-proofs appendix and archived full version, theorem-proof writing rigor, and LIPIcs camera-ready production. Grounded in the ICDT 2026/2027 databasetheory.org calls, the EDBT/ICDT 2026 and 2027 sites, DROPS/LIPIcs, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "icdt",
+    "edbt-icdt",
+    "database-theory",
+    "lipics",
+    "dagstuhl",
+    "conference-submission",
+    "finite-model-theory",
+    "principles-of-data-management"
+  ]
+}
