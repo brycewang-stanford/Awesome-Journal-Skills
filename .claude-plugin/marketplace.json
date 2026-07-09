@@ -58,6 +58,13 @@
       "category": "academic"
     },
     {
+      "name": "acm-mm-skills",
+      "source": "./ACM-MM-Skills",
+      "description": "Twelve ACM MM-specific skills for multimedia conference submission strategy, grounded in the official ACM MM 2026 site, OpenReview groups, ACM Digital Library, dblp, and sigmm.org.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "asq-skills",
       "source": "./Administrative-Science-Quarterly-Skills",
       "description": "Twelve-skill bundle covering the Administrative Science Quarterly (ASQ) manuscript lifecycle.",
@@ -576,6 +583,13 @@
       "category": "academic"
     },
     {
+      "name": "hpca-skills",
+      "source": "./HPCA-Skills",
+      "description": "Twelve HPCA-specific skills for high-performance computer architecture submission strategy, grounded in HPCA 2026/2027 official pages, the IEEE-CS TCCA sponsorship, and the HPCA Test of Time lineage.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "human-relations-skills",
       "source": "./Human-Relations-Skills",
       "description": "Twelve-skill bundle covering the Human Relations manuscript lifecycle.",
@@ -590,9 +604,30 @@
       "category": "academic"
     },
     {
+      "name": "icassp-skills",
+      "source": "./ICASSP-Skills",
+      "description": "Twelve ICASSP-specific skills for IEEE Signal Processing Society flagship submission strategy, grounded in the ICASSP 2026/2027 paper kits and calls, SPS policies, and dblp/IEEE Xplore.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "iccv-skills",
       "source": "./ICCV-Skills",
       "description": "Twelve ICCV-specific skills for the odd-year IEEE/CVF International Conference on Computer Vision, grounded in the ICCV 2025 Call for Papers, Author and Reviewer Guidelines, the 2025 Changes page, OpenReview group, and CVF open access, checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icde-skills",
+      "source": "./ICDE-Skills",
+      "description": "Twelve ICDE-specific skills for IEEE data-engineering conference submission strategy, grounded in the ICDE 2027/2026 research calls, important-dates pages, IEEE TCDE awards, and the IEEE TKDE relationship.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icdm-skills",
+      "source": "./ICDM-Skills",
+      "description": "Twelve ICDM-specific skills for IEEE data-mining conference submission strategy, grounded in the ICDM 2026 Research and Applied Track CFPs, the IEEE ICDM awards pages, IEEE Xplore proceedings, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -677,6 +712,13 @@
       "name": "interspeech-skills",
       "source": "./INTERSPEECH-Skills",
       "description": "Twelve Interspeech-specific skills covering the full ISCA conference cycle — topic fit, submission, paper update, review and rebuttal, camera-ready, artifacts, reproducibility, and presentation — grounded in Interspeech 2026 (Sydney) official sources checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "iros-skills",
+      "source": "./IROS-Skills",
+      "description": "Twelve IROS-specific skills for the fall IEEE/RSJ robotics conference, grounded in the official IROS 2026 (Pittsburgh) call for papers, important-dates page, IEEE RAS/RSJ pages, and PaperPlaza.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1199,6 +1241,13 @@
       "category": "academic"
     },
     {
+      "name": "mobicom-skills",
+      "source": "./MobiCom-Skills",
+      "description": "Twelve MobiCom-specific skills for the ACM SIGMOBILE mobile-computing and wireless-networking flagship, grounded in the MobiCom 2026 and 2027-cycle official pages, HotCRP, and the SIGMOBILE artifact and Test-of-Time programs.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "naacl-skills",
       "source": "./NAACL-Skills",
       "description": "Twelve NAACL-specific skills covering the full arc from *ACL venue routing through ACL Rolling Review, commitment, decision, and ACL Anthology publication, with the chapter's Nations-of-the-Americas identity and skipped-year calendar built into the advice.",
@@ -1405,6 +1454,13 @@
       "name": "rje-skills",
       "source": "./RAND-Journal-of-Economics-Skills",
       "description": "Twelve-skill bundle covering The RAND Journal of Economics (RJE) manuscript lifecycle for industrial-organization research.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "recsys-skills",
+      "source": "./RecSys-Skills",
+      "description": "Twelve RecSys-specific skills for recommender-systems conference submission strategy, grounded in the official RecSys 2026 Call for Contributions, recsys.acm.org cycle pages, ACM Digital Library proceedings, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },

@@ -1,0 +1,22 @@
+{
+  "name": "recsys-skills",
+  "description": "A 12-skill depth pack for ACM RecSys submissions: venue fit against SIGIR/KDD/WSDM/TheWebConf, anonymous ACM two-column submission checks, rebuttal drafting, offline-and-online evaluation rigor, off-policy evaluation, the RecSys Reproducibility track and reproducibility-crisis debates, anonymous code/data artifacts, ACM camera-ready, and project workflow. Grounded in the official RecSys 2026 Call for Contributions, recsys.acm.org cycle pages, ACM Digital Library proceedings, and dblp, checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "recsys",
+    "recommender-systems",
+    "acm",
+    "conference-submission",
+    "offline-evaluation",
+    "off-policy-evaluation",
+    "reproducibility",
+    "ranking"
+  ]
+}

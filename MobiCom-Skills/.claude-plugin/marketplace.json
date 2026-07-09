@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mobicom-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM MobiCom manuscript planning, HotCRP double-blind submission, two-round review and rebuttal, one-shot revision, real-testbed RF/energy evaluation, ACM artifact badges, and double-column camera-ready.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "mobicom-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve MobiCom-specific skills for the ACM SIGMOBILE mobile-computing and wireless-networking flagship, grounded in the MobiCom 2026 and 2027-cycle official pages, HotCRP, and the SIGMOBILE artifact and Test-of-Time programs.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "mobicom",
+        "sigmobile",
+        "wireless-networking",
+        "rolling-deadlines",
+        "artifact-evaluation",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/mobicom-submission",
+        "skills/mobicom-author-response",
+        "skills/mobicom-camera-ready",
+        "skills/mobicom-artifact-evaluation",
+        "skills/mobicom-reproducibility",
+        "skills/mobicom-supplementary",
+        "skills/mobicom-review-process",
+        "skills/mobicom-writing-style",
+        "skills/mobicom-related-work",
+        "skills/mobicom-experiments",
+        "skills/mobicom-workflow",
+        "skills/mobicom-topic-selection"
+      ]
+    }
+  ]
+}

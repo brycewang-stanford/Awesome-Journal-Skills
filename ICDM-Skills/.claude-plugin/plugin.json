@@ -1,0 +1,22 @@
+{
+  "name": "icdm-skills",
+  "description": "A 12-skill depth pack for IEEE ICDM (International Conference on Data Mining) submissions: track routing across the new Applied and Research tracks, triple-blind anonymization, the all-inclusive 10-page IEEE two-column budget, the regular-to-short acceptance mechanic, reproducibility, supplementary evidence, review posture, writing style, related work, experiments, and workflow. Grounded in the ICDM 2026 Research and Applied Track CFPs, the IEEE ICDM awards pages, IEEE Xplore proceedings, and dblp, checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "icdm",
+    "ieee",
+    "data-mining",
+    "knowledge-discovery",
+    "triple-blind",
+    "conference-submission",
+    "ieee-xplore",
+    "reproducibility"
+  ]
+}

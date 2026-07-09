@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">HPCA Skills</title>
+  <desc id="desc">Cover image for the HPCA high-performance computer architecture symposium submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#241019"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f5eef0"/>
+  <path d="M170 452 A150 150 0 0 1 470 452" fill="none" stroke="#c1466a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M188 452 A132 132 0 0 1 452 452" fill="none" stroke="#3f8fa3" stroke-width="8" stroke-dasharray="4 22"/>
+  <line x1="320" y1="452" x2="418" y2="360" stroke="#241019" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="320" cy="452" r="18" fill="#d9943a"/>
+  <g fill="#3f8fa3">
+    <rect x="560" y="392" width="60" height="60" rx="8"/>
+    <rect x="644" y="344" width="60" height="108" rx="8"/>
+    <rect x="728" y="300" width="60" height="152" rx="8"/>
+    <rect x="812" y="256" width="60" height="196" rx="8"/>
+  </g>
+  <path d="M590 372 L674 324 L758 280 L842 236" fill="none" stroke="#c1466a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="842" cy="236" r="16" fill="#d9943a"/>
+  <text x="132" y="186" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" fill="#241019">HPCA</text>
+  <text x="136" y="256" font-family="Arial, Helvetica, sans-serif" font-size="33" fill="#5a3a44">High-performance computer architecture, the winter flagship</text>
+  <text x="136" y="522" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#241019">IEEE TCCA · July gate · Rebuttal + Revision · Reproducibility Badges</text>
+</svg>

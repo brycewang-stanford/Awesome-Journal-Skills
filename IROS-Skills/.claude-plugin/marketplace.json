@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "iros-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for IROS project routing, PaperPlaza submission, the video attachment, embodied experiments, double-anonymous review, the RA-L pathway, and IEEE Xplore camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "iros-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve IROS-specific skills for the fall IEEE/RSJ robotics conference, grounded in the official IROS 2026 (Pittsburgh) call for papers, important-dates page, IEEE RAS/RSJ pages, and PaperPlaza.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "iros",
+        "paperplaza",
+        "video-attachment",
+        "camera-ready",
+        "ra-l",
+        "robotics"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/iros-submission",
+        "skills/iros-author-response",
+        "skills/iros-camera-ready",
+        "skills/iros-artifact-evaluation",
+        "skills/iros-reproducibility",
+        "skills/iros-supplementary",
+        "skills/iros-review-process",
+        "skills/iros-writing-style",
+        "skills/iros-related-work",
+        "skills/iros-experiments",
+        "skills/iros-workflow",
+        "skills/iros-topic-selection"
+      ]
+    }
+  ]
+}

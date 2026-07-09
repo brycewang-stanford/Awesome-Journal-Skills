@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "acm-mm-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM Multimedia manuscript planning, OpenReview submission, thematic-area targeting, anonymous rebuttal, Open Source and Reproducibility tracks, ACM artifact badging, and sigconf camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "acm-mm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ACM MM-specific skills for multimedia conference submission strategy, grounded in the official ACM MM 2026 site, OpenReview groups, ACM Digital Library, dblp, and sigmm.org.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "acm-mm",
+        "openreview",
+        "multimodal",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/acmmm-submission",
+        "skills/acmmm-author-response",
+        "skills/acmmm-camera-ready",
+        "skills/acmmm-artifact-evaluation",
+        "skills/acmmm-reproducibility",
+        "skills/acmmm-supplementary",
+        "skills/acmmm-review-process",
+        "skills/acmmm-writing-style",
+        "skills/acmmm-related-work",
+        "skills/acmmm-experiments",
+        "skills/acmmm-workflow",
+        "skills/acmmm-topic-selection"
+      ]
+    }
+  ]
+}

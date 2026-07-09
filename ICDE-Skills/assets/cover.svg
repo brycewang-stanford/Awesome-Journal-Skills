@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ICDE Skills</title>
+  <desc id="desc">Cover image for the IEEE ICDE data-engineering conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0f2033"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f0ea"/>
+  <g fill="none" stroke="#1f6f8b" stroke-width="16" stroke-linecap="round">
+    <path d="M150 372 h300"/>
+    <path d="M150 430 h220"/>
+  </g>
+  <ellipse cx="300" cy="300" rx="150" ry="34" fill="none" stroke="#c8622f" stroke-width="16"/>
+  <path d="M150 300 v72 M450 300 v72" stroke="#c8622f" stroke-width="16" fill="none"/>
+  <circle cx="720" cy="260" r="40" fill="#1f6f8b"/>
+  <circle cx="880" cy="330" r="40" fill="#c8622f"/>
+  <circle cx="1040" cy="240" r="40" fill="#4b6a9c"/>
+  <path d="M720 260 L880 330 L1040 240" fill="none" stroke="#0f2033" stroke-width="10" stroke-linejoin="round"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" fill="#0f2033">ICDE</text>
+  <text x="136" y="524" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#0f2033">Two rounds · CMT · Revise &amp; resubmit · IEEE Xplore · TKDE</text>
+  <text x="800" y="180" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">IEEE International Conference</text>
+  <text x="800" y="220" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">on Data Engineering</text>
+</svg>

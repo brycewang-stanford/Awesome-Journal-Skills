@@ -1,0 +1,22 @@
+{
+  "name": "mobicom-skills",
+  "description": "A 12-skill depth pack for ACM MobiCom submissions: SIGMOBILE wireless/mobile-networking venue fit, the twice-a-year rolling-deadline calendar with two-round review and rebuttal, the retained one-shot revision path, HotCRP double-blind submission audits, real-testbed and RF/energy evaluation rigor, ACM artifact badges, and double-column camera-ready. Grounded in the MobiCom 2026 and 2027-cycle official pages checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "mobicom",
+    "sigmobile",
+    "mobile-computing",
+    "wireless-networking",
+    "hotcrp",
+    "conference-submission",
+    "artifact-evaluation",
+    "rolling-deadlines"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "icdm-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for IEEE ICDM manuscript routing, triple-blind submission, regular-vs-short acceptance strategy, reproducibility, and IEEE Xplore camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "icdm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ICDM-specific skills for IEEE data-mining conference submission strategy, grounded in the ICDM 2026 Research and Applied Track CFPs, the IEEE ICDM awards pages, IEEE Xplore proceedings, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "icdm",
+        "ieee-data-mining",
+        "triple-blind",
+        "regular-vs-short",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/icdm-submission",
+        "skills/icdm-author-response",
+        "skills/icdm-camera-ready",
+        "skills/icdm-artifact-evaluation",
+        "skills/icdm-reproducibility",
+        "skills/icdm-supplementary",
+        "skills/icdm-review-process",
+        "skills/icdm-writing-style",
+        "skills/icdm-related-work",
+        "skills/icdm-experiments",
+        "skills/icdm-workflow",
+        "skills/icdm-topic-selection"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：3406 个 Agent Skill、237 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：3502 个 Agent Skill、245 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -366,11 +366,11 @@
 | <a id="discipline-life-sciences"></a>🧬 **生命科学** | 细胞 · 分子 · 基因组 · 免疫 · 微生物 · 神经 · 植物 · 生态演化 | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | 深度包 + 英文自然科学广度合集 |
 | <a id="discipline-medicine-health"></a>🩺 **医学与健康** | 临床综合 · 肿瘤 · 心血管 · 神经 · 感染 · 内科 · 公共健康 · 转化医学 | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | 深度包 + 临床医学广度合集 + 英文自然科学广度合集 |
 | <a id="discipline-engineering-tech"></a>⚙️ **工程与技术** | 控制 · 通信 · 信号 · 电力 · 机器人 · 光子 · 生医工程 · 材料 | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | 英文工程技术广度合集 |
-| <a id="discipline-cs-ai"></a>🤖 **计算机科学与 AI** | AI/ML · CV · NLP · 数据挖掘 · 系统 · 数据库 · 安全 · HCI · 理论 | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · WebConf · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE · NAACL · ECCV · PLDI · SIGMOD · STOC · NSDI · USENIX Security · NDSS · FOCS · SODA · POPL · OOPSLA · VLDB · CIKM · EuroSys · ASPLOS · UIST · CSCW · ISCA · MICRO · RSS · CoRL · INTERSPEECH · COLM + 155 个会议 | CS/AI 深度包 + 会议广度合集 |
+| <a id="discipline-cs-ai"></a>🤖 **计算机科学与 AI** | AI/ML · CV · NLP · 数据挖掘 · 系统 · 数据库 · 安全 · HCI · 理论 | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · WebConf · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE · NAACL · ECCV · PLDI · SIGMOD · STOC · NSDI · USENIX Security · NDSS · FOCS · SODA · POPL · OOPSLA · VLDB · CIKM · EuroSys · ASPLOS · UIST · CSCW · ISCA · MICRO · RSS · CoRL · INTERSPEECH · COLM · HPCA · IROS · ICDE · ICDM · RecSys · MobiCom · ACM MM · ICASSP + 155 个会议 | CS/AI 深度包 + 会议广度合集 |
 | <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
 | <a id="discipline-sport-science"></a>🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
-<sub>共 <b>237 个 pack / 3406 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>245 个 pack / 3502 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -394,7 +394,7 @@
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 3406 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 3502 个 skill 的计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
@@ -552,6 +552,14 @@
 | **CoRL** Conference on Robot Learning | [CoRL-Skills/](CoRL-Skills/) | 机器人学习交叉定位（对 ICRA/RSS/NeurIPS/ICLR 的路由）、OpenReview rebuttal、PMLR、sim-to-real 与评测集统计严谨性、workflow 与选题定位 | 12 |
 | **INTERSPEECH** Annual Conference of ISCA | [INTERSPEECH-Skills/](INTERSPEECH-Skills/) | 语音旗舰 4 页+引文格式、ISCA 档案开放获取、WER/MOS 评测与显著性检验、语料许可卫生、workflow 与选题定位 | 12 |
 | **COLM** Conference on Language Modeling | [COLM-Skills/](COLM-Skills/) | 2024 新创 LM 专会定位（对 ACL/EMNLP/ICLR/NeurIPS 的路由）、OpenReview rebuttal、评测污染与算力披露、API 模型可复现性告诫、workflow 与选题定位 | 12 |
+| **HPCA** IEEE International Symposium on High-Performance Computer Architecture | [HPCA-Skills/](HPCA-Skills/) | 冬季开会/七月截稿档期、IEEE-CS TCCA 主办与 IEEE reproducibility badging（非 ACM）、11 页正文+全作者引文、单一 rebuttal/revision 窗口、ISCA/MICRO/ASPLOS/HPCA 改投、workflow 与选题定位 | 12 |
+| **IROS** IEEE/RSJ International Conference on Intelligent Robots and Systems | [IROS-Skills/](IROS-Skills/) | 秋季 IEEE/RSJ 大会、PaperPlaza 投稿、6+2 页含引文、视频 60s/10MB、2026 转双匿名、ICRA/IROS/RSS/CoRL 改投日历、workflow 与选题定位 | 12 |
+| **ICDE** IEEE International Conference on Data Engineering | [ICDE-Skills/](ICDE-Skills/) | 两轮投稿与修订机制、CMT、IEEE 12 页格式、SIGMOD/VLDB/ICDE 三角路由、TKDE 关系、10 年影响力奖谱系、workflow 与选题定位 | 12 |
+| **ICDM** IEEE International Conference on Data Mining | [ICDM-Skills/](ICDM-Skills/) | IEEE 数据挖掘旗舰（对 KDD/CIKM/WSDM/SDM 路由）、严格匿名、无 rebuttal 传统、录用时 regular/short 降级机制、10 年最高影响力奖谱系、workflow 与选题定位 | 12 |
+| **RecSys** ACM Conference on Recommender Systems | [RecSys-Skills/](RecSys-Skills/) | 单一推荐社区路由、专设 Reproducibility track、offline/online 与 off-policy 评测、Industry 密度、ACM 双栏 8 页、2026 取消 LBR 新增 R&P Notes、workflow 与选题定位 | 12 |
+| **MobiCom** ACM International Conference on Mobile Computing and Networking | [MobiCom-Skills/](MobiCom-Skills/) | SIGMOBILE 旗舰（对 MobiSys/SenSys/NSDI 路由）、一年双截止与修订、真机测试床与 RF/能耗测量严谨性、artifact 徽章、workflow 与选题定位 | 12 |
+| **ACM MM** ACM International Conference on Multimedia | [ACM-MM-Skills/](ACM-MM-Skills/) | SIGMM 旗舰与多媒体 vs 纯 CV 边界（对 CVPR/ICCV 路由）、主题域投稿结构、sigconf 格式与 rebuttal、Brave New Ideas/Grand Challenges 轨、workflow 与选题定位 | 12 |
+| **ICASSP** IEEE International Conference on Acoustics, Speech and Signal Processing | [ICASSP-Skills/](ICASSP-Skills/) | IEEE SPS 全信号处理旗舰（对 INTERSPEECH 路由）、4+1 页格式、单盲无 rebuttal 传统、CMT、九月档期、SPL/TASLP 期刊延续、workflow 与选题定位 | 12 |
 
 这个合集把 AI 会议放在最前面：NeurIPS、ICML、ICLR、AAAI、IJCAI、AISTATS、UAI、COLT、MLSys、KDD、CVPR、ACL、EMNLP、SIGIR、ICRA、CHI、SOSP、IEEE S&P、ICSE、PLDI、SIGMOD、STOC，以及 130+ 个其它 CS 会议。每个 profile 都是“会议 fit + 当年投稿要求核验清单”；deadline、页数、模板、AI 使用政策、artifact 规则、rebuttal 格式、camera-ready 要求等易变事实，必须以当前官方 CFP / author kit 为准。
 
@@ -1229,7 +1237,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>3406</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>237 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>2731</b>（227 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>3406</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>3502</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>245 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>2827</b>（235 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>3502</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1386,6 +1394,14 @@ awesome-journal-skills/
 ├── CoRL-Skills/                   → CoRL 主会（12 skills）
 ├── INTERSPEECH-Skills/            → INTERSPEECH 主会（12 skills）
 ├── COLM-Skills/                   → COLM 主会（12 skills）
+├── HPCA-Skills/                   → HPCA 主会（12 skills）
+├── IROS-Skills/                   → IROS 主会（12 skills）
+├── ICDE-Skills/                   → ICDE 主会（12 skills）
+├── ICDM-Skills/                   → ICDM 主会（12 skills）
+├── RecSys-Skills/                 → RecSys 主会（12 skills）
+├── MobiCom-Skills/                → MobiCom 主会（12 skills）
+├── ACM-MM-Skills/                 → ACM MM 主会（12 skills）
+├── ICASSP-Skills/                 → ICASSP 主会（12 skills）
 │   # 自然科学与临床深度包（本仓库内编写维护）
 ├── Science-Skills/                → Science（AAAS）（12 skills）
 ├── Cell-Skills/                   → Cell（Cell Press）（12 skills）
@@ -1405,7 +1421,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change（12 skills）
 ├── Agricultural-Systems-Skills/   → Agricultural Systems（12 skills）
 ├── Field-Crops-Research-Skills/   → Field Crops Research（12 skills）
-│   # 根级 marketplace 清单（聚合全部 237 个仓库内 pack）
+│   # 根级 marketplace 清单（聚合全部 245 个仓库内 pack）
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1498,7 +1514,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **237 个 pack / 3406 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **245 个 pack / 3502 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1522,7 +1538,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - **英文自然科学：** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics（另收录 Nature 包）
   - **英文环境 / 生态 / 农业：** Environmental Science & Technology · Conservation Biology · Global Change Biology · Global Environmental Change · Agricultural Systems · Field Crops Research
   - **人文与广义社科（24）：** 社会学 ASR · AJS · Social Forces · SPQ · JMF · Criminology；人口学 Demography；政治学/IR APSR · AJPS · JOP · World Politics · International Organization；心理学 JPSP · Psychological Bulletin · Psychological Science；传播/舆论 Journal of Communication · POQ；教育 AERJ；人文 The American Historical Review · The Art Bulletin · Mind · PMLA · Critical Inquiry · JAAR
-  - **CS/AI 会议：** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · The Web Conference · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE · NAACL · ECCV · PLDI · SIGMOD · STOC · NSDI · USENIX Security · NDSS · FOCS · SODA · POPL · OOPSLA · VLDB · CIKM · EuroSys · ASPLOS · UIST · CSCW · ISCA · MICRO · RSS · CoRL · INTERSPEECH · COLM
+  - **CS/AI 会议：** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · The Web Conference · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE · NAACL · ECCV · PLDI · SIGMOD · STOC · NSDI · USENIX Security · NDSS · FOCS · SODA · POPL · OOPSLA · VLDB · CIKM · EuroSys · ASPLOS · UIST · CSCW · ISCA · MICRO · RSS · CoRL · INTERSPEECH · COLM · HPCA · IROS · ICDE · ICDM · RecSys · MobiCom · ACM MM · ICASSP
   - **中文重点刊（15）：** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
 ### 🚧 待办 —— 下一梯队扩展

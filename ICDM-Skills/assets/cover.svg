@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ICDM Skills</title>
+  <desc id="desc">Cover image for the IEEE ICDM data-mining conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101c2e"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4efe6"/>
+  <g fill="none" stroke="#2f6f8f" stroke-width="6" opacity="0.55">
+    <line x1="200" y1="360" x2="360" y2="300"/>
+    <line x1="360" y1="300" x2="470" y2="420"/>
+    <line x1="360" y1="300" x2="560" y2="250"/>
+    <line x1="560" y1="250" x2="720" y2="330"/>
+    <line x1="720" y1="330" x2="900" y2="270"/>
+    <line x1="560" y1="250" x2="640" y2="440"/>
+  </g>
+  <circle cx="200" cy="360" r="26" fill="#2f6f8f"/>
+  <circle cx="360" cy="300" r="34" fill="#cc785c"/>
+  <circle cx="470" cy="420" r="24" fill="#2f6f8f"/>
+  <circle cx="560" cy="250" r="34" fill="#6b4f9c"/>
+  <circle cx="720" cy="330" r="26" fill="#2f6f8f"/>
+  <circle cx="900" cy="270" r="30" fill="#cc785c"/>
+  <circle cx="640" cy="440" r="22" fill="#6b4f9c"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#101c2e">ICDM</text>
+  <text x="136" y="268" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#374151">IEEE International Conference on Data Mining</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#101c2e">Triple-blind · Regular/Short · IEEE Xplore · Reproducibility</text>
+</svg>

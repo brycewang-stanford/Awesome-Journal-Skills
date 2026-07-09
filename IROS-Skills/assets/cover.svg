@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">IROS Skills</title>
+  <desc id="desc">Cover image for the IROS intelligent-robots-and-systems conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#2a1a40"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f3eef8"/>
+  <g stroke="#5a4b9c" stroke-width="6" fill="none" opacity="0.9">
+    <path d="M300 470 L470 300 L360 240"/>
+    <path d="M470 300 L680 380 L860 250"/>
+    <path d="M470 300 L620 200"/>
+    <path d="M680 380 L760 470"/>
+    <path d="M860 250 L1010 320"/>
+  </g>
+  <g stroke="#d98a2b" stroke-width="3" stroke-dasharray="3 12" fill="none" opacity="0.8">
+    <path d="M360 240 C 500 140, 720 130, 860 250"/>
+  </g>
+  <circle cx="300" cy="470" r="30" fill="#2f8f7f"/>
+  <circle cx="470" cy="300" r="40" fill="#d98a2b"/>
+  <circle cx="360" cy="240" r="22" fill="#b0417a"/>
+  <circle cx="620" cy="200" r="22" fill="#5a4b9c"/>
+  <circle cx="680" cy="380" r="30" fill="#5a4b9c"/>
+  <circle cx="860" cy="250" r="34" fill="#b0417a"/>
+  <circle cx="1010" cy="320" r="22" fill="#2f8f7f"/>
+  <circle cx="760" cy="470" r="18" fill="#d98a2b"/>
+  <text x="132" y="188" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#2a1a40">IROS</text>
+  <text x="136" y="260" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#463a5c">IEEE/RSJ intelligent robots and systems</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#2a1a40">PaperPlaza · 60-second video · RA-L presentation · IEEE Xplore</text>
+</svg>
