@@ -45,6 +45,7 @@ CONFERENCE_DEPTH_PACKS = {
     "AAAI-Skills",
     "ACL-Skills",
     "ACM-CCS-Skills",
+    "ACM-MM-Skills",
     "AISTATS-Skills",
     "ASPLOS-Skills",
     "CHI-Skills",
@@ -58,7 +59,11 @@ CONFERENCE_DEPTH_PACKS = {
     "EMNLP-Skills",
     "EuroSys-Skills",
     "FOCS-Skills",
+    "HPCA-Skills",
+    "ICASSP-Skills",
     "ICCV-Skills",
+    "ICDE-Skills",
+    "ICDM-Skills",
     "ICLR-Skills",
     "ICML-Skills",
     "ICRA-Skills",
@@ -66,10 +71,12 @@ CONFERENCE_DEPTH_PACKS = {
     "IEEE-SP-Skills",
     "IJCAI-Skills",
     "INTERSPEECH-Skills",
+    "IROS-Skills",
     "ISCA-Skills",
     "KDD-Skills",
     "MICRO-Skills",
     "MLSys-Skills",
+    "MobiCom-Skills",
     "NAACL-Skills",
     "NDSS-Skills",
     "NeurIPS-Skills",
@@ -78,6 +85,7 @@ CONFERENCE_DEPTH_PACKS = {
     "OSDI-Skills",
     "PLDI-Skills",
     "POPL-Skills",
+    "RecSys-Skills",
     "RSS-Skills",
     "SIGIR-Skills",
     "SIGMOD-Skills",
@@ -171,7 +179,10 @@ def substance_units(text: str) -> float:
 
 def pack_cue_words(pack: Path, skills: list[Path] | None = None) -> set[str]:
     words = [w for w in pack.name.replace("-Skills", "").replace("-", " ").lower().split() if len(w) > 2]
-    cue_words = {w for w in words if len(w) > 3}
+    # >=3 so short-but-real venue tokens count (e.g. "acm" in "ACM MM"): a
+    # multi-word acronym name whose glued skill prefix ("acmmm") never appears in
+    # the spaced prose form must still get journal-cue credit for naming its venue.
+    cue_words = {w for w in words if len(w) >= 3}
     acronym = "".join(w[0] for w in words if w not in {"and", "the", "of"})
     if len(acronym) >= 3:
         cue_words.add(acronym)

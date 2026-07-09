@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ICASSP Skills</title>
+  <desc id="desc">Cover image for the ICASSP signal-processing conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0f2233"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f6f8"/>
+  <path d="M136 360 C 196 360 196 250 256 250 C 316 250 316 470 376 470 C 436 470 436 210 496 210 C 556 210 556 430 616 430 C 676 430 676 300 736 300 C 796 300 796 390 856 390 C 916 390 916 340 1064 340" fill="none" stroke="#1f8a9c" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#cc785c">
+    <rect x="900" y="300" width="18" height="80" rx="6"/>
+    <rect x="930" y="270" width="18" height="140" rx="6"/>
+    <rect x="960" y="240" width="18" height="200" rx="6"/>
+    <rect x="990" y="290" width="18" height="100" rx="6"/>
+    <rect x="1020" y="260" width="18" height="160" rx="6"/>
+  </g>
+  <text x="132" y="192" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#0f2233">ICASSP</text>
+  <text x="136" y="250" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#374151">IEEE Acoustics, Speech and Signal Processing</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0f2233">4+1 pages · Single-blind · Rebuttal · IEEE Xplore</text>
+</svg>

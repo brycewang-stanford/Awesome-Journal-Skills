@@ -36,17 +36,17 @@ workflow/topic-selection）。锚点：**CCF-A/B 会议优先** + CSRankings。
 **AI / ML (顶)**：NeurIPS [A-depth] · ICML [A-depth] · ICLR [A-depth] · AAAI [A-depth] · IJCAI [A-depth] · COLT [A-depth] · AISTATS [A-depth] · UAI [A-depth]
 **计算机视觉**：CVPR [A-depth] · ICCV [A-depth] · ECCV [A-depth]
 **自然语言处理**：ACL [A-depth] · EMNLP [A-depth] · NAACL [A-depth]
-**数据挖掘 / Web**：KDD [A-depth] · WWW (The Web Conf) [A-depth] · WSDM [A-depth] · CIKM [A-depth] · ICDM · SIGIR [A-depth]
-**多媒体 / 语音**：ACM MM · INTERSPEECH [A-depth] · ICASSP
-**机器人**：ICRA [A-depth] · IROS · RSS [A-depth] · CoRL [A-depth]
+**数据挖掘 / Web**：KDD [A-depth] · WWW (The Web Conf) [A-depth] · WSDM [A-depth] · CIKM [A-depth] · ICDM [A-depth] · SIGIR [A-depth]
+**多媒体 / 语音**：ACM MM [A-depth] · INTERSPEECH [A-depth] · ICASSP [A-depth]
+**机器人**：ICRA [A-depth] · IROS [A-depth] · RSS [A-depth] · CoRL [A-depth]
 **计算机图形**：SIGGRAPH · SIGGRAPH Asia
 **人机交互**：CHI [A-depth] · UIST [A-depth] · CSCW [A-depth]
 **系统**：OSDI [A-depth] · SOSP [A-depth] · NSDI [A-depth] · EuroSys [A-depth] · USENIX ATC · ASPLOS [A-depth]
-**体系结构**：ISCA [A-depth] · MICRO [A-depth] · HPCA
-**数据库**：SIGMOD [A-depth] · VLDB [A-depth] · ICDE · PODS
+**体系结构**：ISCA [A-depth] · MICRO [A-depth] · HPCA [A-depth]
+**数据库**：SIGMOD [A-depth] · VLDB [A-depth] · ICDE [A-depth] · PODS
 **理论**：STOC [A-depth] · FOCS [A-depth] · SODA [A-depth]
 **安全**：IEEE S&P (Oakland) [A-depth] · USENIX Security [A-depth] · ACM CCS [A-depth] · NDSS [A-depth]
-**网络**：SIGCOMM · INFOCOM · MobiCom
+**网络**：SIGCOMM · INFOCOM · MobiCom [A-depth]
 **编程语言 / 软件工程**：POPL [A-depth] · PLDI [A-depth] · OOPSLA [A-depth] · ICSE [A-depth] · FSE (ESEC/FSE) · ASE · ISSTA
 **期刊**：JACM · IEEE TPAMI · JMLR · Artificial Intelligence (AIJ) · IJCV ·
 Nature Machine Intelligence · IEEE TKDE · ACM TOG · IEEE/ACM Trans. on Networking ·

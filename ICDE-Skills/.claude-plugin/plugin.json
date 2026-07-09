@@ -1,0 +1,22 @@
+{
+  "name": "icde-skills",
+  "description": "A 12-skill depth pack for IEEE ICDE (International Conference on Data Engineering) research-track papers: three-venue routing across SIGMOD/PVLDB/ICDE, the two-round-per-edition calendar, single-blind CMT submission, revise-and-resubmit dynamics, IEEE-format camera-ready and Xplore publication, artifact availability, reproducibility, related work, experiments, and workflow. Grounded in the ICDE 2027 and ICDE 2026 research calls and important-dates pages, the IEEE TCDE award records, and IEEE TKDE relationship, checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "icde",
+    "ieee",
+    "data-engineering",
+    "databases",
+    "conference-submission",
+    "microsoft-cmt",
+    "tkde",
+    "reproducibility"
+  ]
+}

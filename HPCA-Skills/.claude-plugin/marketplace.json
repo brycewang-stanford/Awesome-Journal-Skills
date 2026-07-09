@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "hpca-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for HPCA manuscript planning, the July submission gate, double-blind review and rebuttal/revision, IEEE reproducibility badging, and the February/March camera-ready and talk.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "hpca-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve HPCA-specific skills for high-performance computer architecture submission strategy, grounded in HPCA 2026/2027 official pages, the IEEE-CS TCCA sponsorship, and the HPCA Test of Time lineage.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "hpca",
+        "hotcrp",
+        "rebuttal-revision",
+        "camera-ready",
+        "reproducibility",
+        "computer-architecture"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/hpca-submission",
+        "skills/hpca-author-response",
+        "skills/hpca-camera-ready",
+        "skills/hpca-artifact-evaluation",
+        "skills/hpca-reproducibility",
+        "skills/hpca-supplementary",
+        "skills/hpca-review-process",
+        "skills/hpca-writing-style",
+        "skills/hpca-related-work",
+        "skills/hpca-experiments",
+        "skills/hpca-workflow",
+        "skills/hpca-topic-selection"
+      ]
+    }
+  ]
+}

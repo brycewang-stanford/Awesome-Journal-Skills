@@ -1,0 +1,22 @@
+{
+  "name": "icassp-skills",
+  "description": "A 12-skill depth pack for ICASSP submissions across the full signal-processing spectrum: venue routing, the IEEE 4+1 format, single-blind submission on the CMS portal, the recently added rebuttal, IEEE Xplore camera-ready, task-matched evaluation, reproducibility, supplementary media, and workflow. Grounded in the ICASSP 2026 (Barcelona) paper kit and ICASSP 2027 (Toronto) call, the IEEE Signal Processing Society policies, and dblp/IEEE Xplore, checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "icassp",
+    "signal-processing",
+    "ieee",
+    "speech-audio",
+    "conference-submission",
+    "single-blind",
+    "ieee-xplore",
+    "reproducibility"
+  ]
+}

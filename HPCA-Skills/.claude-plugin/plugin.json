@@ -1,0 +1,22 @@
+{
+  "name": "hpca-skills",
+  "description": "A 12-skill depth pack for HPCA, the IEEE International Symposium on High-Performance Computer Architecture: venue fit in the four-venue architecture calendar, the mid-summer abstract+paper gate, simulation- and silicon-grade evaluation, double-blind review with a single rebuttal/revision window, IEEE-badged artifact evaluation, and the February/March conference. Grounded in HPCA 2026/2027 official pages checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "hpca",
+    "computer-architecture",
+    "high-performance",
+    "ieee-tcca",
+    "conference-submission",
+    "hotcrp",
+    "artifact-evaluation",
+    "reproducibility"
+  ]
+}

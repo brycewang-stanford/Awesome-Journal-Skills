@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "icassp-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ICASSP manuscript planning across signal processing: venue routing, the IEEE 4+1 format, single-blind CMS submission, rebuttal, reproducible evaluation, and IEEE Xplore camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "icassp-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ICASSP-specific skills for IEEE Signal Processing Society flagship submission strategy, grounded in the ICASSP 2026/2027 paper kits and calls, SPS policies, and dblp/IEEE Xplore.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "icassp",
+        "signal-processing",
+        "ieee-sps",
+        "single-blind",
+        "rebuttal",
+        "ieee-xplore"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/icassp-submission",
+        "skills/icassp-author-response",
+        "skills/icassp-camera-ready",
+        "skills/icassp-artifact-evaluation",
+        "skills/icassp-reproducibility",
+        "skills/icassp-supplementary",
+        "skills/icassp-review-process",
+        "skills/icassp-writing-style",
+        "skills/icassp-related-work",
+        "skills/icassp-experiments",
+        "skills/icassp-workflow",
+        "skills/icassp-topic-selection"
+      ]
+    }
+  ]
+}

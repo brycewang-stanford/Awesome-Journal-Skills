@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "recsys-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM RecSys manuscript planning, anonymous submission, rebuttal, offline-and-online evaluation, off-policy estimation, reproducibility-track work, and ACM camera-ready.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "recsys-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve RecSys-specific skills for recommender-systems conference submission strategy, grounded in the official RecSys 2026 Call for Contributions, recsys.acm.org cycle pages, ACM Digital Library proceedings, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "recsys",
+        "recommender-systems",
+        "offline-evaluation",
+        "off-policy-evaluation",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/recsys-submission",
+        "skills/recsys-author-response",
+        "skills/recsys-camera-ready",
+        "skills/recsys-artifact-evaluation",
+        "skills/recsys-reproducibility",
+        "skills/recsys-supplementary",
+        "skills/recsys-review-process",
+        "skills/recsys-writing-style",
+        "skills/recsys-related-work",
+        "skills/recsys-experiments",
+        "skills/recsys-workflow",
+        "skills/recsys-topic-selection"
+      ]
+    }
+  ]
+}

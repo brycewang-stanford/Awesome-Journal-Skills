@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MobiCom Skills</title>
+  <desc id="desc">Cover image for the ACM MobiCom mobile-computing and wireless-networking submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#101a2e"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f2ec"/>
+  <g fill="none" stroke="#2f7f8f" stroke-width="10" stroke-linecap="round" opacity="0.9">
+    <path d="M312 360 A78 78 0 0 1 456 360"/>
+    <path d="M276 396 A130 130 0 0 1 492 396"/>
+    <path d="M240 432 A182 182 0 0 1 528 432"/>
+  </g>
+  <circle cx="384" cy="360" r="26" fill="#cc785c"/>
+  <circle cx="720" cy="250" r="14" fill="#6b4f9c"/>
+  <circle cx="864" cy="322" r="14" fill="#2f7f8f"/>
+  <circle cx="792" cy="404" r="14" fill="#cc785c"/>
+  <line x1="720" y1="250" x2="864" y2="322" stroke="#101a2e" stroke-width="6" stroke-linecap="round"/>
+  <line x1="864" y1="322" x2="792" y2="404" stroke="#101a2e" stroke-width="6" stroke-linecap="round"/>
+  <line x1="792" y1="404" x2="720" y2="250" stroke="#101a2e" stroke-width="6" stroke-linecap="round"/>
+  <text x="132" y="196" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="700" fill="#101a2e">MobiCom</text>
+  <text x="136" y="262" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#374151">Mobile computing and wireless networking</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#101a2e">SIGMOBILE · HotCRP · Testbeds · Artifacts</text>
+</svg>

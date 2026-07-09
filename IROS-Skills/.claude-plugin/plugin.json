@@ -1,0 +1,22 @@
+{
+  "name": "iros-skills",
+  "description": "A 12-skill depth pack for IROS submissions: venue fit against the robotics calendar, PaperPlaza upload audits, the 60-second video attachment, embodied-evidence experiments, double-anonymous review with no rebuttal, the RA-L presentation pathway, and IEEE Xplore camera-ready. Grounded in the official IROS 2026 (Pittsburgh) call for papers, important-dates page, IEEE RAS/RSJ pages, and PaperPlaza, verified 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "iros",
+    "robotics",
+    "intelligent-robots",
+    "ieee-ras",
+    "rsj",
+    "conference-submission",
+    "paperplaza",
+    "ra-l"
+  ]
+}
