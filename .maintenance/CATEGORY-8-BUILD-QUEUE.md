@@ -7,9 +7,10 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 98 verified pack roots (90 English conferences + 8 of the 10
-  Chinese CS journals... actually all 10 Chinese CS-journal depth packs are now built, bringing the
-  count to 98; the terminal 100 is reached once the final 2 English conference packs land). The
+- Complete category-8 depth packs: **100 verified pack roots — TERMINAL QUOTA REACHED**
+  (90 English conference depth packs + 10 Chinese-language CS-journal depth packs). The final two
+  English conferences (FAccT — responsible AI; ICDT — database theory) closed out the 90-EN quota,
+  and the Chinese sub-wave supplied the 10 CN targets. category-8 is complete at 100/100. The
   Chinese-language sub-wave (计算机学报 CJC, 软件学报 JOS, 计算机研究与发展 JCRD, 自动化学报 AAS,
   中国科学:信息科学 SSI, 电子学报 AES, 模式识别与人工智能 PR&AI, 计算机辅助设计与图形学学报 JCAD&CG,
   通信学报 JOC, 计算机科学 CSJ) is complete and each scores 94.0 (built as journal depth packs against

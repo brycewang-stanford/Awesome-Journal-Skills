@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "facct-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM FAccT: interdisciplinary responsible-AI routing, OpenReview mutually-anonymous submission, the Accept/Revise/Reject revise-and-resubmit cycle, ACM acmart archival proceedings, the required endmatter statements, datasheet/model-card documentation, and the co-located CRAFT program.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "facct-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve FAccT-specific skills for the ACM Conference on Fairness, Accountability, and Transparency, spanning fairness/accountability/transparency as first-class contributions across CS, law, social science, humanities, and policy, grounded in the FAccT 2026 CFP and Author/Reviewer Guides, facctconference.org, the ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "facct",
+        "responsible-ai",
+        "algorithmic-fairness",
+        "revise-and-resubmit",
+        "interdisciplinary",
+        "sociotechnical"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/facct-submission",
+        "skills/facct-author-response",
+        "skills/facct-camera-ready",
+        "skills/facct-artifact-evaluation",
+        "skills/facct-reproducibility",
+        "skills/facct-supplementary",
+        "skills/facct-review-process",
+        "skills/facct-writing-style",
+        "skills/facct-related-work",
+        "skills/facct-experiments",
+        "skills/facct-workflow",
+        "skills/facct-topic-selection"
+      ]
+    }
+  ]
+}

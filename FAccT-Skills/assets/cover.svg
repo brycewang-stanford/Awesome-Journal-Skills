@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ACM FAccT Skills</title>
+  <desc id="desc">Cover image for the ACM FAccT Fairness, Accountability, and Transparency submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#141126"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f5f2ea"/>
+  <circle cx="300" cy="330" r="70" fill="none" stroke="#2f7f8f" stroke-width="14"/>
+  <circle cx="410" cy="330" r="70" fill="none" stroke="#cc785c" stroke-width="14"/>
+  <circle cx="355" cy="410" r="70" fill="none" stroke="#6b4f9c" stroke-width="14"/>
+  <path d="M700 300 L1040 300" stroke="#141126" stroke-width="10" stroke-linecap="round"/>
+  <path d="M700 350 L960 350" stroke="#2f7f8f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M700 400 L1000 400" stroke="#cc785c" stroke-width="10" stroke-linecap="round"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#141126">ACM FAccT</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Fairness · Accountability · Transparency</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#141126">Interdisciplinary · Revise &amp; Resubmit · Impact Statements · CRAFT</text>
+</svg>

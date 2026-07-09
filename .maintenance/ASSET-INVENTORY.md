@@ -116,7 +116,9 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `Pattern-Recognition-and-Artificial-Intelligence-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
 | `Journal-of-CAD-and-Computer-Graphics-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
 | `Journal-on-Communications-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave (slug jonc- to avoid joc- collision) |
-| `Computer-Science-Journal-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave — category-8 at 98/100 |
+| `Computer-Science-Journal-Skills` | depth pack | 8 CS & AI (CN journal) | reusable; Chinese CS-journal sub-wave |
+| `FAccT-Skills` | depth pack | 8 CS & AI | reusable; category-8 finale (responsible AI) |
+| `ICDT-Skills` | depth pack | 8 CS & AI | reusable; category-8 finale (database theory) — **category-8 100/100 COMPLETE** (90 EN conferences + 10 CN journals) |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |

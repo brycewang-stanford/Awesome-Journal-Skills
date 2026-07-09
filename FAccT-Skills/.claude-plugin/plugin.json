@@ -1,0 +1,24 @@
+{
+  "name": "facct-skills",
+  "description": "A 12-skill depth pack for ACM FAccT (the Conference on Fairness, Accountability, and Transparency): the flagship interdisciplinary responsible-AI venue where fairness, accountability, and transparency are first-class contributions across CS, law, social science, humanities, and policy. Covers OpenReview mutually-anonymous submission, the Accept/Revise/Reject revise-and-resubmit cycle, ACM acmart archival proceedings, the required endmatter statements (Generative AI Usage, Ethical Considerations, Adverse Impacts, Positionality), datasheet/model-card/impact-assessment documentation, and the co-located CRAFT program. Grounded in the FAccT 2026 CFP, Author/Reviewer Guides, facctconference.org, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "facct",
+    "fairness-accountability-transparency",
+    "responsible-ai",
+    "ai-ethics",
+    "algorithmic-fairness",
+    "acm-facct",
+    "conference-submission",
+    "interdisciplinary",
+    "sociotechnical",
+    "openreview"
+  ]
+}

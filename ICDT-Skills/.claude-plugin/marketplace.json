@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "icdt-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ICDT (International Conference on Database Theory): PODS-vs-ICDT routing, the two-round LIPIcs calendar with a first-cycle revision, anonymous CMT submission, complete-proofs full-version rigor, and lipics-v2021 camera-ready production.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "icdt-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ICDT-specific skills for the International Conference on Database Theory, its EDBT co-location, and its open-access LIPIcs publication model, grounded in the ICDT 2026/2027 databasetheory.org calls, the EDBT/ICDT 2026 and 2027 sites, DROPS/Schloss Dagstuhl, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "icdt",
+        "database-theory",
+        "lipics",
+        "two-round-submission",
+        "finite-model-theory",
+        "complete-proofs"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/icdt-submission",
+        "skills/icdt-author-response",
+        "skills/icdt-camera-ready",
+        "skills/icdt-artifact-evaluation",
+        "skills/icdt-reproducibility",
+        "skills/icdt-supplementary",
+        "skills/icdt-review-process",
+        "skills/icdt-writing-style",
+        "skills/icdt-related-work",
+        "skills/icdt-experiments",
+        "skills/icdt-workflow",
+        "skills/icdt-topic-selection"
+      ]
+    }
+  ]
+}
