@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "fast-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for USENIX FAST storage-paper routing, the two-deadline HotCRP cycle, USENIX double-blind review and one-shot revision, storage-specific evaluation, USENIX artifact badging, and the free open-access camera-ready.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "fast-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve FAST-specific skills for the USENIX Conference on File and Storage Technologies, covering its storage discipline, two-deadline USENIX double-blind cycle, one-shot revision, and artifact badging, grounded in the FAST '26/'27 calls, the USENIX artifact policy, ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "fast",
+        "usenix",
+        "storage-systems",
+        "one-shot-revision",
+        "artifact-evaluation",
+        "crash-consistency"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/fast-submission",
+        "skills/fast-author-response",
+        "skills/fast-camera-ready",
+        "skills/fast-artifact-evaluation",
+        "skills/fast-reproducibility",
+        "skills/fast-supplementary",
+        "skills/fast-review-process",
+        "skills/fast-writing-style",
+        "skills/fast-related-work",
+        "skills/fast-experiments",
+        "skills/fast-workflow",
+        "skills/fast-topic-selection"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "fast-skills",
+  "description": "A 12-skill depth pack for USENIX FAST (the USENIX Conference on File and Storage Technologies): routing a storage paper among FAST and its siblings (OSDI/ATC/NSDI/EuroSys/HotStorage/MSST/ACM TOS), the two-deadline (Spring/Fall) HotCRP cycle with USENIX double-blind review, the one-shot-revision decision, storage-specific evaluation (workload traces, write amplification, endurance/wear, tail latency, crash consistency, real-device measurement), USENIX artifact badges (Available/Functional/Reproduced), and the free open-access camera-ready. Grounded in the FAST '26 and FAST '27 calls, the USENIX artifact policy, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "fast",
+    "usenix",
+    "file-systems",
+    "storage-systems",
+    "ssd-nvm",
+    "conference-submission",
+    "artifact-evaluation",
+    "crash-consistency"
+  ]
+}

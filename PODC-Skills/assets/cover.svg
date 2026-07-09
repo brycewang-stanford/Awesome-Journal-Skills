@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">PODC Skills</title>
+  <desc id="desc">Cover image for the ACM PODC Principles of Distributed Computing submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0d1b2a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f3ee"/>
+  <!-- a message-passing network of processes exchanging rounds -->
+  <line x1="250" y1="250" x2="470" y2="200" stroke="#2f7f8f" stroke-width="8"/>
+  <line x1="470" y1="200" x2="700" y2="290" stroke="#2f7f8f" stroke-width="8"/>
+  <line x1="250" y1="250" x2="430" y2="410" stroke="#cc785c" stroke-width="8"/>
+  <line x1="430" y1="410" x2="700" y2="290" stroke="#cc785c" stroke-width="8"/>
+  <line x1="700" y1="290" x2="930" y2="240" stroke="#6b4f9c" stroke-width="8"/>
+  <line x1="430" y1="410" x2="680" y2="470" stroke="#6b4f9c" stroke-width="8"/>
+  <line x1="680" y1="470" x2="930" y2="240" stroke="#2f7f8f" stroke-width="8" stroke-dasharray="4 14" stroke-linecap="round"/>
+  <circle cx="250" cy="250" r="26" fill="#2f7f8f"/>
+  <circle cx="470" cy="200" r="26" fill="#cc785c"/>
+  <circle cx="700" cy="290" r="30" fill="#0d1b2a"/>
+  <circle cx="430" cy="410" r="26" fill="#6b4f9c"/>
+  <circle cx="930" cy="240" r="26" fill="#cc785c"/>
+  <circle cx="680" cy="470" r="22" fill="#b23b3b"/>
+  <text x="132" y="176" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#0d1b2a">ACM PODC</text>
+  <text x="136" y="224" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Principles of Distributed Computing</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0d1b2a">Consensus · Fault tolerance · Shared memory · Brief Announcements</text>
+</svg>

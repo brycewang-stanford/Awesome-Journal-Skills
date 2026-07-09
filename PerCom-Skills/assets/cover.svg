@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">IEEE PerCom Skills</title>
+  <desc id="desc">Cover image for the IEEE PerCom Pervasive Computing and Communications submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0d1b2a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f6fb"/>
+  <circle cx="300" cy="430" r="18" fill="#1f6feb"/>
+  <circle cx="470" cy="360" r="18" fill="#1f6feb"/>
+  <circle cx="640" cy="420" r="18" fill="#cc785c"/>
+  <circle cx="820" cy="350" r="18" fill="#2f9e8f"/>
+  <circle cx="980" cy="430" r="18" fill="#6b4f9c"/>
+  <path d="M300 430 L470 360 L640 420 L820 350 L980 430" fill="none" stroke="#1f6feb" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 16"/>
+  <path d="M470 360 C 540 250, 720 250, 820 350" fill="none" stroke="#2f9e8f" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 16"/>
+  <rect x="600" y="392" width="80" height="56" rx="10" fill="#cc785c"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#0d1b2a">IEEE PerCom</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#374151">Pervasive Computing and Communications</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0d1b2a">IEEEtran 9+1 · Double-blind · Rebuttal · Activity Recognition</text>
+</svg>

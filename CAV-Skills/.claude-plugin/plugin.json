@@ -1,0 +1,22 @@
+{
+  "name": "cav-skills",
+  "description": "A 12-skill depth pack for CAV, the International Conference on Computer Aided Verification: routing formal-methods work among CAV, TACAS, FMCAD, VMCAI, POPL/PLDI, and journals; the four submission categories (Regular, Short Tool, Short Application, Industrial Experience & Case Studies) in Springer LNCS; the two-stage review with early reject and rebuttal; partial double-anonymity; the AEC artifact evaluation (Available / Functional / Reusable badges); verification-tool reproducibility on SV-COMP/SMT-COMP benchmarks with seeds, resource limits, and proof witnesses; and the LNCS open-access camera-ready. Grounded in the CAV 2026 (FLoC, Lisbon) call, Springer LNCS proceedings, i-cav.org, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "cav",
+    "computer-aided-verification",
+    "formal-methods",
+    "model-checking",
+    "smt",
+    "lncs",
+    "artifact-evaluation",
+    "tool-paper"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "percom-skills",
+  "description": "A 12-skill depth pack for IEEE PerCom (International Conference on Pervasive Computing and Communications), the IEEE flagship for human-centric ubiquitous computing: routing among the ubicomp venues, the double-blind HotCRP submission on the IEEEtran 9+1 budget, the single-round rebuttal review with early rejection, activity-recognition and cross-subject evaluation of human-subjects sensing data, reproducible sensing datasets, and the IEEE Xplore camera-ready. Grounded in the PerCom 2026/2027 calls, percom.org, IEEE Xplore, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "percom",
+    "pervasive-computing",
+    "ubiquitous-computing",
+    "ieee",
+    "human-activity-recognition",
+    "mobile-sensing",
+    "context-awareness",
+    "conference-submission"
+  ]
+}

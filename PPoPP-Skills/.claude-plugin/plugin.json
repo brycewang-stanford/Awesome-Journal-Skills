@@ -1,0 +1,22 @@
+{
+  "name": "ppopp-skills",
+  "description": "A 12-skill depth pack for PPoPP (ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming): venue routing against PLDI/CGO/POPL/SC/ASPLOS, the two-column acmart sigplan 10-page format, double-blind HotCRP submission with an author-response rebuttal, concurrency-correctness and parallel-performance evidence (scalability, NUMA, GPU, lock-free/wait-free structures, memory models), the co-located HPCA/CGO/PPoPP/CC week, and the CGO-shared ACM artifact-evaluation badges. Grounded in the PPoPP 2026 (Sydney) and PPoPP 2027 (Salt Lake City) researchr calls, sigplan.org announcements, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "ppopp",
+    "parallel-programming",
+    "concurrency",
+    "acm-sigplan",
+    "artifact-evaluation",
+    "gpu-programming",
+    "conference-submission",
+    "high-performance-computing"
+  ]
+}

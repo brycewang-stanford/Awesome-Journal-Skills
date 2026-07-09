@@ -1,0 +1,29 @@
+# Build and editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# Local scratch
+scratch/
+*.tmp

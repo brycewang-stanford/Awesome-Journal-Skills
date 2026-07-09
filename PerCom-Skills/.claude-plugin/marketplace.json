@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "percom-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for IEEE PerCom manuscript routing, double-blind HotCRP submission on the IEEEtran budget, the single-round rebuttal review with early rejection, human-subjects sensing evaluation, reproducible datasets, and the IEEE Xplore camera-ready.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "percom-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve PerCom-specific skills for the IEEE International Conference on Pervasive Computing and Communications and its human-centric ubicomp community, grounded in the PerCom 2026/2027 calls, percom.org, IEEE Xplore, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "percom",
+        "pervasive-computing",
+        "ubiquitous-computing",
+        "human-activity-recognition",
+        "rebuttal-review",
+        "mobile-sensing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/percom-submission",
+        "skills/percom-author-response",
+        "skills/percom-camera-ready",
+        "skills/percom-artifact-evaluation",
+        "skills/percom-reproducibility",
+        "skills/percom-supplementary",
+        "skills/percom-review-process",
+        "skills/percom-writing-style",
+        "skills/percom-related-work",
+        "skills/percom-experiments",
+        "skills/percom-workflow",
+        "skills/percom-topic-selection"
+      ]
+    }
+  ]
+}
