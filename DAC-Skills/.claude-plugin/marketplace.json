@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "dac-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for the ACM/IEEE Design Automation Conference: Research-Manuscript vs Engineering-Track routing, two-stage Softconf submission, the 6+1 ACM double-column budget, double-blind review, QoR/PPA evidence on EDA benchmarks, ML-for-EDA and hardware-security lanes, and ACM Digital Library camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "dac-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve DAC-specific skills for the ACM/IEEE Design Automation Conference (the Chips to Systems Conference) and its double-blind Research Manuscript track, grounded in the DAC 2026 (63rd) call, dac.com, IEEE CEDA, ACM SIGDA, the ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "dac",
+        "electronic-design-automation",
+        "chip-design",
+        "ml-for-eda",
+        "hardware-security",
+        "acm-sigda-ieee-ceda"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/dac-submission",
+        "skills/dac-author-response",
+        "skills/dac-camera-ready",
+        "skills/dac-artifact-evaluation",
+        "skills/dac-reproducibility",
+        "skills/dac-supplementary",
+        "skills/dac-review-process",
+        "skills/dac-writing-style",
+        "skills/dac-related-work",
+        "skills/dac-experiments",
+        "skills/dac-workflow",
+        "skills/dac-topic-selection"
+      ]
+    }
+  ]
+}

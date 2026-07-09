@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">TACAS Skills</title>
+  <desc id="desc">Cover image for the ETAPS TACAS Tools and Algorithms for the Construction and Analysis of Systems submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0f1c24"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f3f4ee"/>
+  <!-- a state-transition / automaton motif for model checking -->
+  <circle cx="240" cy="360" r="30" fill="none" stroke="#2f7f8f" stroke-width="10"/>
+  <circle cx="480" cy="300" r="30" fill="none" stroke="#2f7f8f" stroke-width="10"/>
+  <circle cx="720" cy="400" r="30" fill="none" stroke="#cc785c" stroke-width="10"/>
+  <circle cx="720" cy="400" r="18" fill="none" stroke="#cc785c" stroke-width="8"/>
+  <circle cx="960" cy="320" r="30" fill="none" stroke="#6b4f9c" stroke-width="10"/>
+  <path d="M270 352 L452 308" stroke="#2f7f8f" stroke-width="8" marker-end="url(#a)"/>
+  <path d="M508 312 L692 388" stroke="#2f7f8f" stroke-width="8" marker-end="url(#a)"/>
+  <path d="M748 388 L932 330" stroke="#cc785c" stroke-width="8" marker-end="url(#a)"/>
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#374151"/>
+    </marker>
+  </defs>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#0f1c24">TACAS</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Tools and Algorithms for the Construction and Analysis of Systems · ETAPS</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0f1c24">LNCS open access · Tool + Research + Case-study · Artifact badges · SV-COMP</text>
+</svg>

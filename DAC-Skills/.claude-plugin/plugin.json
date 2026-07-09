@@ -1,0 +1,24 @@
+{
+  "name": "dac-skills",
+  "description": "A 12-skill depth pack for the ACM/IEEE Design Automation Conference (DAC), the premier electronic-design-automation and chip-design venue: routing between the double-blind archival Research Manuscript track and the industry-facing Engineering Track, the two-stage abstract-then-manuscript submission on Softconf, the 6+1-page ACM double-column budget, QoR/PPA evidence on EDA benchmark suites (ISPD, EPFL, OpenROAD, ISCAS/ITC, TAU, CircuitNet), ML-for-EDA and hardware-security topic lanes, and the ACM Digital Library camera-ready. Grounded in the live DAC 2026 (63rd) call, dac.com, IEEE CEDA, ACM SIGDA, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "dac",
+    "design-automation-conference",
+    "electronic-design-automation",
+    "eda",
+    "chip-design",
+    "acm-sigda",
+    "ieee-ceda",
+    "conference-submission",
+    "ml-for-eda",
+    "hardware-security"
+  ]
+}

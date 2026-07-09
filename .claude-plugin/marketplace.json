@@ -436,6 +436,13 @@
       "category": "academic"
     },
     {
+      "name": "dac-skills",
+      "source": "./DAC-Skills",
+      "description": "Twelve DAC-specific skills for the ACM/IEEE Design Automation Conference (the Chips to Systems Conference) and its double-blind Research Manuscript track, grounded in the DAC 2026 (63rd) call, dac.com, IEEE CEDA, ACM SIGDA, the ACM Digital Library, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "demog-skills",
       "source": "./Demography-Skills",
       "description": "Twelve-skill bundle covering the Demography manuscript lifecycle across population science, with demographic methods (life tables, decomposition, event history, age-period-cohort, multistate, microsimulation, projections) and the journal's Subscribe to Open access model.",
@@ -496,6 +503,13 @@
       "source": "./Economic-Research-Journal-Skills",
       "description": "Eighteen-skill bundle covering the 《经济研究》 manuscript lifecycle: workflow router, topic selection, introduction, literature review, theory & hypotheses, data & sample, modern identification (DID/IV/RDD/DML), mechanism (post-江艇 2022), heterogeneity, robustness, tables / figures, policy implications, abstract, house style, reviewer-lens self-audit, reproducibility, submission preflight, and R&R rebuttal — plus a runnable Stata + Python code library.",
       "version": "0.3.0",
+      "category": "academic"
+    },
+    {
+      "name": "edbt-skills",
+      "source": "./EDBT-Skills",
+      "description": "Twelve EDBT-specific skills for the European Extending Database Technology conference, its multiple-cycle rolling submission model, and its OpenProceedings.org open-access publication path, grounded in the EDBT/ICDT 2026 Tampere calls, the EDBT 2027 cycle deadlines, OpenProceedings.org, and dblp.",
+      "version": "0.1.0",
       "category": "academic"
     },
     {
@@ -653,6 +667,13 @@
       "category": "academic"
     },
     {
+      "name": "hri-skills",
+      "source": "./HRI-Skills",
+      "description": "Twelve HRI-specific skills for the ACM/IEEE International Conference on Human-Robot Interaction and its interdisciplinary, human-subjects-centered evidence culture, grounded in the HRI 2026/2027 calls, humanrobotinteraction.org, the ACM Digital Library, IEEE Xplore, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "human-relations-skills",
       "source": "./Human-Relations-Skills",
       "description": "Twelve-skill bundle covering the Human Relations manuscript lifecycle.",
@@ -765,6 +786,13 @@
       "category": "academic"
     },
     {
+      "name": "infocom-skills",
+      "source": "./INFOCOM-Skills",
+      "description": "Twelve INFOCOM-specific skills for the IEEE International Conference on Computer Communications, the IEEE ComSoc networking flagship, grounded in the INFOCOM 2026/2027 calls, IEEE Xplore, EDAS, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "isr-skills",
       "source": "./Information-Systems-Research-Skills",
       "description": "Twelve-skill bundle covering the Information Systems Research (ISR) manuscript lifecycle.",
@@ -824,6 +852,13 @@
       "name": "issta-skills",
       "source": "./ISSTA-Skills",
       "description": "Twelve ISSTA-specific skills for the ACM SIGSOFT testing-and-analysis flagship, grounded in the official ISSTA 2026 Research Papers call, important-dates page, artifact-evaluation track, and ACM Digital Library proceedings.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "itcs-skills",
+      "source": "./ITCS-Skills",
+      "description": "Twelve ITCS-specific skills for the Innovations in Theoretical Computer Science conference and its open-access LIPIcs publication model, grounded in the ITCS 2026 Bocconi call, itcs-conf.org, the LIPIcs/DROPS proceedings, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1682,6 +1717,13 @@
       "category": "academic"
     },
     {
+      "name": "siggraph-skills",
+      "source": "./SIGGRAPH-Skills",
+      "description": "Twelve SIGGRAPH-specific skills for the ACM SIGGRAPH / SIGGRAPH Asia Technical Papers program and its ACM Transactions on Graphics (TOG) journal-integrated publication model, grounded in the SIGGRAPH 2026 and SIGGRAPH Asia 2026 technical-papers calls, ACM Digital Library TOG, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "sigir-skills",
       "source": "./SIGIR-Skills",
       "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
@@ -1699,6 +1741,13 @@
       "name": "sigmod-skills",
       "source": "./SIGMOD-Skills",
       "description": "Twelve SIGMOD-specific skills for database and data-management paper strategy under the PACMMOD multi-round journal model, grounded in the SIGMOD 2027 Call for Papers, PACMMOD author guidelines, and the Availability & Reproducibility Initiative pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "socc-skills",
+      "source": "./SoCC-Skills",
+      "description": "Twelve SoCC-specific skills for the ACM Symposium on Cloud Computing, the joint SIGMOD+SIGOPS cloud venue, grounded in the SoCC 2026 (Singapore) and SoCC 2025 calls, acmsocc.org, the ACM Digital Library, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1770,6 +1819,13 @@
       "source": "./Strategic-Management-Journal-Skills",
       "description": "Twelve-skill bundle covering the Strategic Management Journal (SMJ) manuscript lifecycle.",
       "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "tacas-skills",
+      "source": "./TACAS-Skills",
+      "description": "Twelve TACAS-specific skills for the ETAPS Tools and Algorithms for the Construction and Analysis of Systems conference, covering its four paper categories, per-category anonymity, mandatory artifact evaluation for tool papers, ETAPS Artifact Badges, LNCS gold-open-access proceedings, and SV-COMP, grounded in the TACAS 2026/2027 and ETAPS joint calls, Springer LNCS, and dblp.",
+      "version": "0.1.0",
       "category": "academic"
     },
     {

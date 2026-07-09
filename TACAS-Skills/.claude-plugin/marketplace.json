@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "tacas-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for TACAS submissions at ETAPS: four paper categories, the per-category blind model, mandatory tool-paper artifact evaluation, ETAPS Artifact Badges, Springer LNCS gold-open-access proceedings, the EasyChair flow, and SV-COMP.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "tacas-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve TACAS-specific skills for the ETAPS Tools and Algorithms for the Construction and Analysis of Systems conference, covering its four paper categories, per-category anonymity, mandatory artifact evaluation for tool papers, ETAPS Artifact Badges, LNCS gold-open-access proceedings, and SV-COMP, grounded in the TACAS 2026/2027 and ETAPS joint calls, Springer LNCS, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "tacas",
+        "etaps",
+        "formal-methods",
+        "sv-comp",
+        "artifact-evaluation",
+        "lncs"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/tacas-submission",
+        "skills/tacas-author-response",
+        "skills/tacas-camera-ready",
+        "skills/tacas-artifact-evaluation",
+        "skills/tacas-reproducibility",
+        "skills/tacas-supplementary",
+        "skills/tacas-review-process",
+        "skills/tacas-writing-style",
+        "skills/tacas-related-work",
+        "skills/tacas-experiments",
+        "skills/tacas-workflow",
+        "skills/tacas-topic-selection"
+      ]
+    }
+  ]
+}

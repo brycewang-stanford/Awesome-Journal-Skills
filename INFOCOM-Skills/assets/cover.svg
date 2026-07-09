@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">IEEE INFOCOM Skills</title>
+  <desc id="desc">Cover image for the IEEE INFOCOM Computer Communications submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0b1f3a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f5f2ea"/>
+  <circle cx="300" cy="300" r="18" fill="#2f7f8f"/>
+  <circle cx="520" cy="220" r="18" fill="#2f7f8f"/>
+  <circle cx="740" cy="330" r="18" fill="#cc785c"/>
+  <circle cx="960" cy="250" r="18" fill="#2f7f8f"/>
+  <circle cx="620" cy="430" r="18" fill="#6b4f9c"/>
+  <circle cx="400" cy="440" r="18" fill="#cc785c"/>
+  <path d="M300 300 L520 220 L740 330 L960 250 M520 220 L620 430 L740 330 M300 300 L400 440 L620 430" fill="none" stroke="#0b1f3a" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#0b1f3a">INFOCOM</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">IEEE International Conference on Computer Communications</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0b1f3a">IEEEtran · Double-Blind · EDAS · Early-Reject · IEEE Xplore</text>
+</svg>

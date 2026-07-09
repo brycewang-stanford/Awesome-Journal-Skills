@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">HRI Skills</title>
+  <desc id="desc">Cover image for the ACM/IEEE International Conference on Human-Robot Interaction submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#141b2b"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1ea"/>
+  <!-- human figure -->
+  <circle cx="330" cy="300" r="34" fill="#2f7f8f"/>
+  <path d="M330 340 L330 430 M330 366 L286 400 M330 366 L374 400 M330 430 L300 486 M330 430 L360 486" fill="none" stroke="#2f7f8f" stroke-width="14" stroke-linecap="round"/>
+  <!-- interaction arc -->
+  <path d="M400 320 Q600 240 800 320" fill="none" stroke="#cc785c" stroke-width="12" stroke-linecap="round" stroke-dasharray="4 26"/>
+  <!-- robot -->
+  <rect x="800" y="268" width="96" height="92" rx="16" fill="#6b4f9c"/>
+  <circle cx="828" cy="308" r="10" fill="#f4f1ea"/>
+  <circle cx="868" cy="308" r="10" fill="#f4f1ea"/>
+  <path d="M848 360 L848 440 M848 384 L806 414 M848 384 L890 414 M848 440 L822 490 M848 440 L874 490" fill="none" stroke="#6b4f9c" stroke-width="14" stroke-linecap="round"/>
+  <line x1="848" y1="258" x2="848" y2="234" stroke="#6b4f9c" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="848" cy="228" r="9" fill="#cc785c"/>
+  <text x="132" y="176" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="#141b2b">HRI</text>
+  <text x="136" y="222" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">ACM/IEEE Human-Robot Interaction</text>
+  <text x="136" y="524" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#141b2b">Five tracks · Two-phase review · Study design · Video figure</text>
+</svg>

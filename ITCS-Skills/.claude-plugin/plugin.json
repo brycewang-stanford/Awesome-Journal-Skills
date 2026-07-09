@@ -1,0 +1,22 @@
+{
+  "name": "itcs-skills",
+  "description": "A 12-skill depth pack for ITCS (Innovations in Theoretical Computer Science) submissions published open-access in LIPIcs (Schloss Dagstuhl): the conceptual-novelty selection test that defines the venue, the single early-September annual deadline, lightweight double-blind HotCRP submission with full proofs, no rebuttal round, generous page budgets, the Graduating Bits culture, and the LIPIcs camera-ready. Grounded in the ITCS 2026 Bocconi call, itcs-conf.org, LIPIcs/DROPS, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "itcs",
+    "theoretical-computer-science",
+    "conceptual-novelty",
+    "lipics",
+    "dagstuhl",
+    "conference-submission",
+    "proof-rigor",
+    "complexity-theory"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "edbt-skills",
+  "description": "A 12-skill depth pack for EDBT (International Conference on Extending Database Technology), the European database-systems flagship co-located with ICDT and published open-access on OpenProceedings.org: navigating the multiple-cycle rolling submission model, the in-cycle revise-and-resubmit decision, Microsoft CMT submission, Regular / Experiments-&-Analysis / Vision paper shapes, the CC-BY-NC-ND open-access proceedings, database-systems reproducibility, and routing against SIGMOD/VLDB/ICDE/ICDT. Grounded in the EDBT/ICDT 2026 Tampere calls, the EDBT 2027 cycle deadlines, OpenProceedings.org, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "edbt",
+    "edbt-icdt",
+    "databases",
+    "openproceedings",
+    "extending-database-technology",
+    "conference-submission",
+    "reproducibility",
+    "data-management"
+  ]
+}

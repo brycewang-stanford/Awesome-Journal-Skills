@@ -1,0 +1,22 @@
+{
+  "name": "hri-skills",
+  "description": "A 12-skill depth pack for ACM/IEEE HRI (the International Conference on Human-Robot Interaction): the five-track full-paper model (User Studies, Technical, Design, Theory and Methods, Systems), the two-phase double-blind review with rebuttal, PCS submission, the 8-page acmart budget, human-subjects/IRB and study-design rigor (Wizard-of-Oz, between/within-subjects, effect sizes, validated scales), the mandatory video figure, ACM+IEEE dual publication, and the alt.HRI / Late-Breaking Reports / video / Student Design tracks. Grounded in the HRI 2026 (Edinburgh) and HRI 2027 (Santa Clara) calls, the humanrobotinteraction.org pages, ACM DL, IEEE Xplore, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "hri",
+    "human-robot-interaction",
+    "social-robotics",
+    "acm-sigchi",
+    "ieee-ras",
+    "conference-submission",
+    "human-subjects-study",
+    "wizard-of-oz"
+  ]
+}
