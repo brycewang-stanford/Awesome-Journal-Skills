@@ -1,0 +1,22 @@
+{
+  "name": "mobisys-skills",
+  "description": "A 12-skill depth pack for ACM MobiSys submissions: mobile-systems topic fit, HotCRP submission audit, the two-round + rebuttal response, ACM-badge artifact evaluation, on-device reproducibility, supplementary packaging, review-process modeling, 12-page writing, related-work coverage, real-device experiments, workflow, and sibling routing. Grounded in the official MobiSys 2026 CFP, artifact-evaluation and organizing-committee pages on sigmobile.org, the mobisys26.hotcrp.com deadlines, ACM Digital Library, and dblp, verified 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "mobisys",
+    "mobile-systems",
+    "sigmobile",
+    "on-device-machine-learning",
+    "conference-submission",
+    "hotcrp",
+    "artifact-evaluation",
+    "reproducibility"
+  ]
+}

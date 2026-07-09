@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">WACV Skills</title>
+  <desc id="desc">Cover image for the WACV applications-of-computer-vision conference submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0f2a3a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#eef4f7"/>
+  <g stroke="#3aa6bd" stroke-width="14" stroke-linecap="round">
+    <line x1="1004" y1="140" x2="1004" y2="260"/>
+    <line x1="944" y1="200" x2="1064" y2="200"/>
+    <line x1="962" y1="158" x2="1046" y2="242"/>
+    <line x1="1046" y1="158" x2="962" y2="242"/>
+  </g>
+  <circle cx="1004" cy="200" r="20" fill="#e07a54"/>
+  <path d="M150 460 L360 460 L540 372 L760 372 L960 300" fill="none" stroke="#5a7fb0" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M150 512 L400 512 L620 440 L860 440 L1010 392" fill="none" stroke="#3aa6bd" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="540" cy="372" r="16" fill="#5a7fb0"/>
+  <circle cx="620" cy="440" r="16" fill="#3aa6bd"/>
+  <text x="132" y="200" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#0f2a3a">WACV</text>
+  <text x="136" y="262" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#2b4a5e">Winter applications of computer vision</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0f2a3a">Two rounds · Revise &amp; Resubmit · CVF open access · IEEE Xplore</text>
+</svg>

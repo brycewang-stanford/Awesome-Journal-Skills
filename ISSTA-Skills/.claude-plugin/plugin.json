@@ -1,0 +1,22 @@
+{
+  "name": "issta-skills",
+  "description": "A 12-skill depth pack for ISSTA submissions: routing testing-and-analysis work into the SIGSOFT venue, HotCRP double-anonymous submission checks, the major-revision review cycle, author response, ACM-badged artifact evaluation, reproducibility, replication packages, review process, writing style, related work, benchmark-driven experiments, and the campaign workflow. Grounded in the official ISSTA 2026 Research Papers call, important-dates page, artifact-evaluation track, and ACM DL proceedings checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "issta",
+    "software-testing",
+    "program-analysis",
+    "software-engineering",
+    "conference-submission",
+    "hotcrp",
+    "artifact-evaluation",
+    "reproducibility"
+  ]
+}

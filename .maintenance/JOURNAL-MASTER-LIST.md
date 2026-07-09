@@ -46,8 +46,8 @@ workflow/topic-selection）。锚点：**CCF-A/B 会议优先** + CSRankings。
 **数据库**：SIGMOD [A-depth] · VLDB [A-depth] · ICDE [A-depth] · PODS
 **理论**：STOC [A-depth] · FOCS [A-depth] · SODA [A-depth]
 **安全**：IEEE S&P (Oakland) [A-depth] · USENIX Security [A-depth] · ACM CCS [A-depth] · NDSS [A-depth]
-**网络**：SIGCOMM · INFOCOM · MobiCom [A-depth]
-**编程语言 / 软件工程**：POPL [A-depth] · PLDI [A-depth] · OOPSLA [A-depth] · ICSE [A-depth] · FSE (ESEC/FSE) · ASE · ISSTA
+**网络**：SIGCOMM [A-depth] · INFOCOM · MobiCom [A-depth]
+**编程语言 / 软件工程**：POPL [A-depth] · PLDI [A-depth] · OOPSLA [A-depth] · ICSE [A-depth] · FSE (ESEC/FSE) [A-depth] · ASE · ISSTA [A-depth]
 **期刊**：JACM · IEEE TPAMI · JMLR · Artificial Intelligence (AIJ) · IJCV ·
 Nature Machine Intelligence · IEEE TKDE · ACM TOG · IEEE/ACM Trans. on Networking ·
 IEEE TSE · ACM TOPLAS · SIAM J. on Computing · Computational Linguistics · IEEE TVCG ·

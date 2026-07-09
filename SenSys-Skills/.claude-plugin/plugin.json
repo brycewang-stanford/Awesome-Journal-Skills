@@ -1,0 +1,22 @@
+{
+  "name": "sensys-skills",
+  "description": "A 12-skill depth pack for ACM/IEEE SenSys submissions: sensing/embedded-AI topic fit, the two-deadline HotCRP review model, double-blind submission audit, author response and revision, camera-ready and ACM artifact badges, real-testbed reproducibility, energy and low-power evaluation, supplementary material, related work, writing style, and cycle workflow. Grounded in the SenSys 2026/2027 Calls for Papers on sensys.acm.org, checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "sensys",
+    "sensing-systems",
+    "embedded-ai",
+    "internet-of-things",
+    "conference-submission",
+    "hotcrp",
+    "artifact-evaluation",
+    "reproducibility"
+  ]
+}

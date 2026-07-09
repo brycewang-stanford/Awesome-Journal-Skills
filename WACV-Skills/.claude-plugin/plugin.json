@@ -1,0 +1,22 @@
+{
+  "name": "wacv-skills",
+  "description": "A 12-skill depth pack for WACV submissions: applications-vs-algorithms track choice, the two-round Revise-and-Resubmit review model, OpenReview submission checks, Round 1 rebuttals, reproducibility and artifacts, supplementary material, IEEE Xplore and CVF open-access camera-ready, writing style, related work, experiments, and campaign workflow. Grounded in the official WACV 2027 Call for Papers, Author Guidelines, OpenReview groups, and WACV 2026 pages cross-checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "wacv",
+    "computer-vision",
+    "applications",
+    "two-round-review",
+    "conference-submission",
+    "openreview",
+    "cvf",
+    "ieee-xplore"
+  ]
+}

@@ -7,7 +7,7 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 56 verified pack roots. The ENTIRE Wave 25-A launch batch
+- Complete category-8 depth packs: 64 verified pack roots. The ENTIRE Wave 25-A launch batch
   (24/24) finished 2026-07-08; EN core-61 tranches two through four
   (NAACL, ECCV, PLDI, SIGMOD, STOC, NSDI, USENIX Security, NDSS; FOCS, SODA, POPL,
   OOPSLA, VLDB, CIKM, EuroSys, ASPLOS; UIST, CSCW, ISCA, MICRO, RSS, CoRL,
@@ -22,7 +22,8 @@ an executable build queue for complete depth packs. This file is a queue, not a 
   `CIKM-Skills`, `EuroSys-Skills`, `ASPLOS-Skills`, `UIST-Skills`, `CSCW-Skills`, `ISCA-Skills`,
   `MICRO-Skills`, `RSS-Skills`, `CoRL-Skills`, `INTERSPEECH-Skills`, `COLM-Skills`, `HPCA-Skills`,
   `IROS-Skills`, `ICDE-Skills`, `ICDM-Skills`, `RecSys-Skills`, `MobiCom-Skills`, `ACM-MM-Skills`,
-  `ICASSP-Skills`.
+  `ICASSP-Skills`, `SIGCOMM-Skills`, `EACL-Skills`, `AAMAS-Skills`, `WACV-Skills`,
+  `MobiSys-Skills`, `SenSys-Skills`, `ISSTA-Skills`, `FSE-Skills`.
 - Existing category-8 breadth seeds:
   - 155 conference profiles in `Computer-Science-Conference-Skills`.
   - 3 journal profiles in `English-NaturalScience-Journal-Skills`: `nature-machine-intelligence`,

@@ -1,0 +1,22 @@
+{
+  "name": "sigcomm-skills",
+  "description": "A 12-skill depth pack for ACM SIGCOMM submissions: the single-February-deadline flagship venue fit, HotCRP double-blind submission audits, the rebuttal + shepherd-run one-shot revision, deployment- and measurement-grade evaluation, ACM artifact badges and reproducible 'runnable papers', and TAPS camera-ready proceedings. Grounded in the ACM SIGCOMM 2026 CFP, submission and camera-ready pages, and sigcomm.org award pages checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "sigcomm",
+    "computer-networking",
+    "data-communication",
+    "acm",
+    "hotcrp",
+    "conference-submission",
+    "artifact-evaluation",
+    "reproducibility"
+  ]
+}

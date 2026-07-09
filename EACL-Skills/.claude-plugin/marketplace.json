@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "eacl-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for EACL manuscript planning, ACL Rolling Review submission, author discussion, commitment to the European Chapter meeting, reproducibility, artifacts, and ACL Anthology camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "eacl-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve EACL-specific skills for European-Chapter NLP submission strategy, grounded in the EACL 2027 CFP, ACL Rolling Review, OpenReview ARR groups, the Responsible NLP checklist, and the ACL Anthology.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "eacl",
+        "acl-rolling-review",
+        "openreview",
+        "commitment",
+        "camera-ready",
+        "responsible-nlp"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/eacl-submission",
+        "skills/eacl-author-response",
+        "skills/eacl-camera-ready",
+        "skills/eacl-artifact-evaluation",
+        "skills/eacl-reproducibility",
+        "skills/eacl-supplementary",
+        "skills/eacl-review-process",
+        "skills/eacl-writing-style",
+        "skills/eacl-related-work",
+        "skills/eacl-experiments",
+        "skills/eacl-workflow",
+        "skills/eacl-topic-selection"
+      ]
+    }
+  ]
+}

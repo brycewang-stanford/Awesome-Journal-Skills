@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sigcomm-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM SIGCOMM manuscript planning, HotCRP submission, rebuttal and shepherd-run revision, reproducibility, ACM artifact badges, and TAPS camera-ready proceedings.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sigcomm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve SIGCOMM-specific skills for the ACM networking flagship: single-deadline venue strategy, double-blind HotCRP submission, rebuttal and one-shot revision, measurement-grade evaluation, ACM artifact badges, and TAPS proceedings.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "sigcomm",
+        "hotcrp",
+        "shepherding",
+        "camera-ready",
+        "reproducibility",
+        "networking"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/sigcomm-submission",
+        "skills/sigcomm-author-response",
+        "skills/sigcomm-camera-ready",
+        "skills/sigcomm-artifact-evaluation",
+        "skills/sigcomm-reproducibility",
+        "skills/sigcomm-supplementary",
+        "skills/sigcomm-review-process",
+        "skills/sigcomm-writing-style",
+        "skills/sigcomm-related-work",
+        "skills/sigcomm-experiments",
+        "skills/sigcomm-workflow",
+        "skills/sigcomm-topic-selection"
+      ]
+    }
+  ]
+}

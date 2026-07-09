@@ -74,7 +74,15 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `RecSys-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fifth-tranche depth pack |
 | `MobiCom-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fifth-tranche depth pack |
 | `ACM-MM-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fifth-tranche depth pack |
-| `ICASSP-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fifth-tranche depth pack — category-8 at 56/100 |
+| `ICASSP-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 fifth-tranche depth pack |
+| `SIGCOMM-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 sixth-tranche depth pack |
+| `EACL-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 sixth-tranche depth pack |
+| `AAMAS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 sixth-tranche depth pack |
+| `WACV-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 sixth-tranche depth pack |
+| `MobiSys-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 sixth-tranche depth pack |
+| `SenSys-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 sixth-tranche depth pack |
+| `ISSTA-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 sixth-tranche depth pack |
+| `FSE-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 sixth-tranche depth pack — category-8 at 64/100 |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |

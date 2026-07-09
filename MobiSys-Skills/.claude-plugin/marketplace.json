@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "mobisys-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM MobiSys mobile-systems planning, HotCRP submission, the two-round rebuttal, ACM artifact badges, on-device reproducibility, and ACM Digital Library camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "mobisys-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve MobiSys-specific skills for mobile systems, applications, and services submission strategy, grounded in the official MobiSys 2026 CFP, artifact-evaluation pages, mobisys26.hotcrp.com deadlines, ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "mobisys",
+        "hotcrp",
+        "author-rebuttal",
+        "camera-ready",
+        "reproducibility",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/mobisys-submission",
+        "skills/mobisys-author-response",
+        "skills/mobisys-camera-ready",
+        "skills/mobisys-artifact-evaluation",
+        "skills/mobisys-reproducibility",
+        "skills/mobisys-supplementary",
+        "skills/mobisys-review-process",
+        "skills/mobisys-writing-style",
+        "skills/mobisys-related-work",
+        "skills/mobisys-experiments",
+        "skills/mobisys-workflow",
+        "skills/mobisys-topic-selection"
+      ]
+    }
+  ]
+}

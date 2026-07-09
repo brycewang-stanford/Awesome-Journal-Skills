@@ -16,6 +16,13 @@
       "category": "academic"
     },
     {
+      "name": "aamas-skills",
+      "source": "./AAMAS-Skills",
+      "description": "Twelve AAMAS-specific skills for autonomous-agents and multiagent-systems submission strategy, grounded in the official AAMAS 2026 Call for Papers, submission instructions, IFAAMAS proceedings, and the AAMAS 2027 OpenReview group.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "academy-of-management-annals-skills",
       "source": "./Academy-of-Management-Annals-Skills",
       "description": "Twelve-skill bundle covering the Academy of Management Annals manuscript lifecycle.",
@@ -415,6 +422,13 @@
       "category": "academic"
     },
     {
+      "name": "eacl-skills",
+      "source": "./EACL-Skills",
+      "description": "Twelve EACL-specific skills for European-Chapter NLP submission strategy, grounded in the EACL 2027 CFP, ACL Rolling Review, OpenReview ARR groups, the Responsible NLP checklist, and the ACL Anthology.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "eccv-skills",
       "source": "./ECCV-Skills",
       "description": "Twelve ECCV-specific skills for computer-vision conference submission strategy, grounded in official ECCV 2026 dates and policy pages, the OpenReview group, Springer LNCS proceedings, and ECVA open-access sources.",
@@ -544,6 +558,13 @@
       "name": "focs-skills",
       "source": "./FOCS-Skills",
       "description": "Twelve FOCS-specific skills for IEEE Symposium on Foundations of Computer Science submission strategy, grounded in the official FOCS 2026 Call for Papers, the IEEE TCMF pages, HotCRP portal, IEEE Xplore proceedings records, and FOCS award citations.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "fse-skills",
+      "source": "./FSE-Skills",
+      "description": "Twelve FSE-specific skills for the ACM Foundations of Software Engineering conference and its PACMSE journal-style publication model, grounded in the FSE 2026/2027 researchr calls, PACMSE journal pages, ACM Digital Library, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -726,6 +747,13 @@
       "name": "isca-skills",
       "source": "./ISCA-Skills",
       "description": "Twelve ISCA-specific skills covering the full arc from architecture-venue fit through HotCRP submission, two-round review with rebuttal and revision, camera-ready, and ACM-badged artifact evaluation, grounded in ISCA 2026 official pages checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "issta-skills",
+      "source": "./ISSTA-Skills",
+      "description": "Twelve ISSTA-specific skills for the ACM SIGSOFT testing-and-analysis flagship, grounded in the official ISSTA 2026 Research Papers call, important-dates page, artifact-evaluation track, and ACM Digital Library proceedings.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1248,6 +1276,13 @@
       "category": "academic"
     },
     {
+      "name": "mobisys-skills",
+      "source": "./MobiSys-Skills",
+      "description": "Twelve MobiSys-specific skills for mobile systems, applications, and services submission strategy, grounded in the official MobiSys 2026 CFP, artifact-evaluation pages, mobisys26.hotcrp.com deadlines, ACM Digital Library, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "naacl-skills",
       "source": "./NAACL-Skills",
       "description": "Twelve NAACL-specific skills covering the full arc from *ACL venue routing through ACL Rolling Review, commitment, decision, and ACL Anthology publication, with the chapter's Nations-of-the-Americas identity and skipped-year calendar built into the advice.",
@@ -1535,6 +1570,20 @@
       "category": "academic"
     },
     {
+      "name": "sensys-skills",
+      "source": "./SenSys-Skills",
+      "description": "Twelve SenSys-specific skills for the sensing/embedded-AI conference: topic routing after the SenSys/IPSN/IoTDI merger, two-deadline submission strategy, real-testbed evaluation, energy and low-power measurement, artifacts, and ACM camera-ready, grounded in the SenSys 2026/2027 CFPs.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "sigcomm-skills",
+      "source": "./SIGCOMM-Skills",
+      "description": "Twelve SIGCOMM-specific skills for the ACM networking flagship: single-deadline venue strategy, double-blind HotCRP submission, rebuttal and one-shot revision, measurement-grade evaluation, ACM artifact badges, and TAPS proceedings.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "sigir-skills",
       "source": "./SIGIR-Skills",
       "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
@@ -1678,6 +1727,13 @@
       "name": "vldb-skills",
       "source": "./VLDB-Skills",
       "description": "Twelve VLDB-specific skills for database-systems paper strategy under the PVLDB rolling monthly journal model, grounded in the PVLDB Volume 19/20 submission guidelines, VLDB 2026/2027 research-track calls, and pVLDB reproducibility pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "wacv-skills",
+      "source": "./WACV-Skills",
+      "description": "Twelve WACV-specific skills for the applications-first winter computer-vision venue, built around the two-round Revise-and-Resubmit model and grounded in the official WACV 2027 Call for Papers, Author Guidelines, OpenReview groups, and WACV 2026 pages.",
       "version": "0.1.0",
       "category": "academic"
     },
