@@ -7,7 +7,7 @@ an executable build queue for complete depth packs. This file is a queue, not a 
 
 ## Current State
 
-- Complete category-8 depth packs: 80 verified pack roots. The ENTIRE Wave 25-A launch batch
+- Complete category-8 depth packs: 88 verified pack roots. The ENTIRE Wave 25-A launch batch
   (24/24) finished 2026-07-08; EN core-61 tranches two through four
   (NAACL, ECCV, PLDI, SIGMOD, STOC, NSDI, USENIX Security, NDSS; FOCS, SODA, POPL,
   OOPSLA, VLDB, CIKM, EuroSys, ASPLOS; UIST, CSCW, ISCA, MICRO, RSS, CoRL,
@@ -28,9 +28,13 @@ an executable build queue for complete depth packs. This file is a queue, not a 
   `MobiSys-Skills`, `SenSys-Skills`, `ISSTA-Skills`, `FSE-Skills`, `ASE-Skills`,
   `PODS-Skills`, `CoNEXT-Skills`, `IMC-Skills`, `IPSN-Skills`, `VIS-Skills`,
   `ICSME-Skills`, `ECAI-Skills`, `ATC-Skills`, `FAST-Skills`, `PPoPP-Skills`,
-  `CAV-Skills`, `ICALP-Skills`, `PODC-Skills`, `SIGMETRICS-Skills`, `PerCom-Skills`.
+  `CAV-Skills`, `ICALP-Skills`, `PODC-Skills`, `SIGMETRICS-Skills`, `PerCom-Skills`,
+  `SIGGRAPH-Skills`, `INFOCOM-Skills`, `ITCS-Skills`, `HRI-Skills`, `SoCC-Skills`,
+  `DAC-Skills`, `EDBT-Skills`, `TACAS-Skills`.
   The eighth tranche (ATC, FAST, PPoPP, CAV, ICALP, PODC, SIGMETRICS, PerCom)
-  added systems/storage/parallelism/verification/theory/performance/ubicomp breadth.
+  added systems/storage/parallelism/verification/theory/performance/ubicomp breadth;
+  the ninth tranche (SIGGRAPH, INFOCOM, ITCS, HRI, SoCC, DAC, EDBT, TACAS) added
+  graphics/large-networking/conceptual-theory/HRI/cloud/EDA/European-DB/verification-tools breadth.
 - Existing category-8 breadth seeds:
   - 155 conference profiles in `Computer-Science-Conference-Skills`.
   - 3 journal profiles in `English-NaturalScience-Journal-Skills`: `nature-machine-intelligence`,

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "hri-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM/IEEE HRI: five-track full-paper submission, two-phase double-blind review with rebuttal, PCS portal, 8-page acmart budget, human-subjects study design, the video figure, ACM+IEEE dual publication, and the alt.HRI / LBR / video / Student Design tracks.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "hri-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve HRI-specific skills for the ACM/IEEE International Conference on Human-Robot Interaction and its interdisciplinary, human-subjects-centered evidence culture, grounded in the HRI 2026/2027 calls, humanrobotinteraction.org, the ACM Digital Library, IEEE Xplore, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "hri",
+        "human-robot-interaction",
+        "social-robotics",
+        "two-phase-review",
+        "wizard-of-oz",
+        "human-subjects-study"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/hri-submission",
+        "skills/hri-author-response",
+        "skills/hri-camera-ready",
+        "skills/hri-artifact-evaluation",
+        "skills/hri-reproducibility",
+        "skills/hri-supplementary",
+        "skills/hri-review-process",
+        "skills/hri-writing-style",
+        "skills/hri-related-work",
+        "skills/hri-experiments",
+        "skills/hri-workflow",
+        "skills/hri-topic-selection"
+      ]
+    }
+  ]
+}

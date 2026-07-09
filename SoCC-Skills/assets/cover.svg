@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SoCC Skills</title>
+  <desc id="desc">Cover image for the ACM Symposium on Cloud Computing submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0e1b2a"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f3f5f7"/>
+  <path d="M300 300 q-70 0 -70 62 q0 60 78 60 h300 q64 0 64 -58 q0 -46 -50 -56 q4 -60 -70 -74 q-70 -12 -96 44 q-52 -20 -86 30 q-24 34 0 62 z" fill="none" stroke="#2f7f8f" stroke-width="14" stroke-linejoin="round"/>
+  <circle cx="820" cy="300" r="20" fill="#cc785c"/>
+  <circle cx="900" cy="360" r="14" fill="#6b4f9c"/>
+  <circle cx="760" cy="380" r="12" fill="#2f7f8f"/>
+  <path d="M820 300 L900 360 M820 300 L760 380 M900 360 L760 380" stroke="#0e1b2a" stroke-width="4"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#0e1b2a">SoCC</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">ACM Symposium on Cloud Computing</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0e1b2a">SIGMOD + SIGOPS · Two rounds · Dual-anonymous · Systems &amp; Data</text>
+</svg>

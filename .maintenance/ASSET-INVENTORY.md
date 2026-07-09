@@ -98,7 +98,15 @@ toolkits are infrastructure or coverage layers that can seed later depth-pack wo
 | `ICALP-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 eighth-tranche depth pack |
 | `PODC-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 eighth-tranche depth pack |
 | `SIGMETRICS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 eighth-tranche depth pack |
-| `PerCom-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 eighth-tranche depth pack — category-8 at 80/100 |
+| `PerCom-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 eighth-tranche depth pack |
+| `SIGGRAPH-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
+| `INFOCOM-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
+| `ITCS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
+| `HRI-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
+| `SoCC-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
+| `DAC-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
+| `EDBT-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack |
+| `TACAS-Skills` | depth pack | 8 CS & AI | reusable; EN core-61 ninth-tranche depth pack — category-8 at 88/100 |
 | `Academy-of-Management-Journal-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Academy-of-Management-Review-Skills` | depth pack | 1 Econ & Management | reusable |
 | `Accounting-Research-Skills` | depth pack | 1 Econ & Management | reusable |

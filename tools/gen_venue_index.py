@@ -111,6 +111,10 @@ DISC = [
     ("PPoPP-Skills", "cs-ai (conference)"), ("CAV-Skills", "cs-ai (conference)"),
     ("ICALP-Skills", "cs-ai (conference)"), ("PODC-Skills", "cs-ai (conference)"),
     ("SIGMETRICS-Skills", "cs-ai (conference)"), ("PerCom-Skills", "cs-ai (conference)"),
+    ("SIGGRAPH-Skills", "cs-ai (conference)"), ("INFOCOM-Skills", "cs-ai (conference)"),
+    ("ITCS-Skills", "cs-ai (conference)"), ("HRI-Skills", "cs-ai (conference)"),
+    ("SoCC-Skills", "cs-ai (conference)"), ("DAC-Skills", "cs-ai (conference)"),
+    ("EDBT-Skills", "cs-ai (conference)"), ("TACAS-Skills", "cs-ai (conference)"),
     # specific economics flagships / subfields not caught generically
     ("AEJ-Applied", "economics/applied"), ("AEJ-Macro", "economics/macro"),
     ("AEJ-Micro", "economics/micro"), ("AER-Insights", "economics"),

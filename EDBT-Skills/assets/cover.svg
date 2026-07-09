@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">EDBT Skills</title>
+  <desc id="desc">Cover image for the EDBT Extending Database Technology open-access submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0d1f2d"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1ea"/>
+  <g fill="none" stroke="#1f7a6b" stroke-width="14" stroke-linecap="round">
+    <ellipse cx="300" cy="300" rx="96" ry="34"/>
+    <path d="M204 300 v90 a96 34 0 0 0 192 0 v-90"/>
+    <path d="M204 345 a96 34 0 0 0 192 0"/>
+  </g>
+  <g stroke="#cc785c" stroke-width="12" fill="none" stroke-linecap="round">
+    <path d="M430 300 h150"/>
+    <path d="M430 360 h150"/>
+    <path d="M430 420 h150"/>
+    <circle cx="620" cy="300" r="12" fill="#cc785c"/>
+    <circle cx="620" cy="360" r="12" fill="#cc785c"/>
+    <circle cx="620" cy="420" r="12" fill="#cc785c"/>
+  </g>
+  <path d="M700 420 l90 -70 l90 40 l100 -90" fill="none" stroke="#6b4f9c" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1000" cy="228" r="30" fill="none" stroke="#1f7a6b" stroke-width="12"/>
+  <text x="700" y="240" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#1f7a6b" font-weight="700">OPEN ACCESS</text>
+  <text x="132" y="170" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="700" fill="#0d1f2d">EDBT</text>
+  <text x="136" y="216" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Extending Database Technology</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#0d1f2d">OpenProceedings · Rolling cycles · Revise-and-resubmit · ICDT</text>
+</svg>

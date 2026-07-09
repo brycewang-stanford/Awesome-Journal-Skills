@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "itcs-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ITCS manuscript routing on conceptual novelty, the single early-September deadline, lightweight double-blind LIPIcs submission with full proofs, the no-rebuttal review, Graduating Bits, and the open-access LIPIcs camera-ready.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "itcs-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ITCS-specific skills for the Innovations in Theoretical Computer Science conference and its open-access LIPIcs publication model, grounded in the ITCS 2026 Bocconi call, itcs-conf.org, the LIPIcs/DROPS proceedings, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "itcs",
+        "theoretical-computer-science",
+        "conceptual-novelty",
+        "lipics",
+        "proof-rigor",
+        "complexity-theory"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/itcs-submission",
+        "skills/itcs-author-response",
+        "skills/itcs-camera-ready",
+        "skills/itcs-artifact-evaluation",
+        "skills/itcs-reproducibility",
+        "skills/itcs-supplementary",
+        "skills/itcs-review-process",
+        "skills/itcs-writing-style",
+        "skills/itcs-related-work",
+        "skills/itcs-experiments",
+        "skills/itcs-workflow",
+        "skills/itcs-topic-selection"
+      ]
+    }
+  ]
+}

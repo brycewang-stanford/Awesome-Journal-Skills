@@ -1,0 +1,22 @@
+{
+  "name": "infocom-skills",
+  "description": "A 12-skill depth pack for IEEE INFOCOM (International Conference on Computer Communications), the IEEE ComSoc networking flagship: routing among the networking venues, the large-scale EDAS double-blind pipeline with its automated review assignment and early-reject phase, the IEEEtran two-column 10-page budget (9 pages of text with appendices counted, plus references), analytical/optimization-and-systems evidence, optional reproducibility, and the IEEE Xplore camera-ready. Grounded in the INFOCOM 2026 (Tokyo) and INFOCOM 2027 (Honolulu) calls, IEEE Xplore, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "infocom",
+    "ieee-infocom",
+    "computer-networking",
+    "ieee-comsoc",
+    "edas",
+    "conference-submission",
+    "network-optimization",
+    "wireless-networking"
+  ]
+}

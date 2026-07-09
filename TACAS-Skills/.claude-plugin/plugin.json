@@ -1,0 +1,22 @@
+{
+  "name": "tacas-skills",
+  "description": "A 12-skill depth pack for TACAS (International Conference on Tools and Algorithms for the Construction and Analysis of Systems), the tools-and-algorithms verification conference of ETAPS: routing among TACAS's four paper categories (research, case-study, regular tool, tool-demonstration), the per-category blind model (double-blind research, single-blind tool), the mandatory artifact evaluation that gates tool-paper acceptance, ETAPS Artifact Badges (Available / Functional / Reusable), Springer LNCS gold-open-access proceedings, the EasyChair submission flow, and TACAS's hosting of SV-COMP. Grounded in the TACAS 2026 (ETAPS 2026, Turin) and TACAS 2027 (ETAPS 2027, Copenhagen) calls, the ETAPS joint CfP, Springer LNCS, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "tacas",
+    "etaps",
+    "formal-methods",
+    "model-checking",
+    "verification-tools",
+    "sv-comp",
+    "artifact-evaluation",
+    "lncs"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "infocom-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for IEEE INFOCOM manuscript routing, the large-scale EDAS double-blind pipeline with automated review assignment and an early-reject phase, IEEEtran two-column page budgeting, analytical and systems networking evidence, optional reproducibility, and the IEEE Xplore camera-ready.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "infocom-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve INFOCOM-specific skills for the IEEE International Conference on Computer Communications, the IEEE ComSoc networking flagship, grounded in the INFOCOM 2026/2027 calls, IEEE Xplore, EDAS, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "infocom",
+        "ieee-infocom",
+        "computer-networking",
+        "edas",
+        "early-reject",
+        "network-optimization"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/infocom-submission",
+        "skills/infocom-author-response",
+        "skills/infocom-camera-ready",
+        "skills/infocom-artifact-evaluation",
+        "skills/infocom-reproducibility",
+        "skills/infocom-supplementary",
+        "skills/infocom-review-process",
+        "skills/infocom-writing-style",
+        "skills/infocom-related-work",
+        "skills/infocom-experiments",
+        "skills/infocom-workflow",
+        "skills/infocom-topic-selection"
+      ]
+    }
+  ]
+}

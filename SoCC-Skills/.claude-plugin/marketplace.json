@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "socc-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for the ACM Symposium on Cloud Computing (SoCC): the SIGMOD+SIGOPS systems-and-data intersection, the two-round annual deadline with rebuttal, dual-anonymous acmart submission, measurement and systems-building papers, cloud economics, and ACM artifact/reproducibility badging.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "socc-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve SoCC-specific skills for the ACM Symposium on Cloud Computing, the joint SIGMOD+SIGOPS cloud venue, grounded in the SoCC 2026 (Singapore) and SoCC 2025 calls, acmsocc.org, the ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "socc",
+        "cloud-computing",
+        "sigmod-sigops",
+        "two-round-review",
+        "artifact-evaluation",
+        "distributed-systems"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/socc-submission",
+        "skills/socc-author-response",
+        "skills/socc-camera-ready",
+        "skills/socc-artifact-evaluation",
+        "skills/socc-reproducibility",
+        "skills/socc-supplementary",
+        "skills/socc-review-process",
+        "skills/socc-writing-style",
+        "skills/socc-related-work",
+        "skills/socc-experiments",
+        "skills/socc-workflow",
+        "skills/socc-topic-selection"
+      ]
+    }
+  ]
+}

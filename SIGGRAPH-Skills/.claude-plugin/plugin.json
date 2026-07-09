@@ -1,0 +1,22 @@
+{
+  "name": "siggraph-skills",
+  "description": "A 12-skill depth pack for the ACM SIGGRAPH Technical Papers program, whose accepted research is published as a special issue of ACM Transactions on Graphics (TOG): the journal-integrated dual-track (Journal vs Conference) model, the Linklings single-round review with a 1000-word text-only rebuttal and a Technical Papers Committee meeting, conditional acceptance plus second-stage verification, the acmart/acmtog format and 7-page conference budget, the paramount supplemental-video and results-reproducibility culture, and the Graphics Replicability Stamp. Grounded in the SIGGRAPH 2026 (Los Angeles) and SIGGRAPH Asia 2026 (Kuala Lumpur) technical-papers calls, ACM DL TOG Vol. 45, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "siggraph",
+    "siggraph-asia",
+    "computer-graphics",
+    "acm-tog",
+    "transactions-on-graphics",
+    "technical-papers",
+    "rendering-geometry-animation-simulation",
+    "replicability-stamp"
+  ]
+}

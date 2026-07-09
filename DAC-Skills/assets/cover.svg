@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">DAC Skills</title>
+  <desc id="desc">Cover image for the ACM/IEEE Design Automation Conference chip-design and EDA submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0d1626"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1ea"/>
+  <rect x="470" y="250" width="180" height="180" rx="10" fill="#0d1626" stroke="#2f7f8f" stroke-width="8"/>
+  <rect x="512" y="292" width="96" height="96" rx="6" fill="#cc785c"/>
+  <g stroke="#2f7f8f" stroke-width="10" stroke-linecap="round">
+    <path d="M470 290 H410 M470 330 H410 M470 370 H410"/>
+    <path d="M650 290 H710 M650 330 H710 M650 370 H710"/>
+    <path d="M512 250 V190 M560 250 V190 M608 250 V190"/>
+    <path d="M512 430 V490 M560 430 V490 M608 430 V490"/>
+  </g>
+  <circle cx="410" cy="290" r="12" fill="#6b4f9c"/>
+  <circle cx="710" cy="370" r="12" fill="#6b4f9c"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="700" fill="#0d1626">DAC</text>
+  <text x="136" y="226" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Design Automation Conference &#183; Chips to Systems</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0d1626">Double-blind &#183; 6+1 ACM &#183; QoR / PPA &#183; ML-for-EDA &#183; HW Security</text>
+</svg>

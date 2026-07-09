@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "edbt-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for EDBT's multiple-cycle rolling submission, in-cycle revise-and-resubmit handling, Microsoft CMT submission, Regular / Experiments-&-Analysis / Vision paper shapes, the OpenProceedings.org open-access proceedings, database-systems reproducibility, and the ICDT co-location.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "edbt-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve EDBT-specific skills for the European Extending Database Technology conference, its multiple-cycle rolling submission model, and its OpenProceedings.org open-access publication path, grounded in the EDBT/ICDT 2026 Tampere calls, the EDBT 2027 cycle deadlines, OpenProceedings.org, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "edbt",
+        "edbt-icdt",
+        "openproceedings",
+        "rolling-cycles",
+        "reproducibility",
+        "data-management"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/edbt-submission",
+        "skills/edbt-author-response",
+        "skills/edbt-camera-ready",
+        "skills/edbt-artifact-evaluation",
+        "skills/edbt-reproducibility",
+        "skills/edbt-supplementary",
+        "skills/edbt-review-process",
+        "skills/edbt-writing-style",
+        "skills/edbt-related-work",
+        "skills/edbt-experiments",
+        "skills/edbt-workflow",
+        "skills/edbt-topic-selection"
+      ]
+    }
+  ]
+}

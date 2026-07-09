@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ITCS Skills</title>
+  <desc id="desc">Cover image for the ITCS (Innovations in Theoretical Computer Science) submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#141024"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f3f1ec"/>
+  <circle cx="300" cy="300" r="70" fill="none" stroke="#6b4f9c" stroke-width="14"/>
+  <circle cx="470" cy="380" r="46" fill="none" stroke="#2f7f8f" stroke-width="14"/>
+  <path d="M300 230 L470 334" stroke="#cc785c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M300 300 L850 300" stroke="#141024" stroke-width="4" stroke-dasharray="2 14" stroke-linecap="round"/>
+  <text x="820" y="285" font-family="Georgia, 'Times New Roman', serif" font-size="120" font-style="italic" fill="#6b4f9c">?</text>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#141024">ITCS</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Innovations in Theoretical Computer Science</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#141024">Conceptual novelty · LIPIcs open access · Full proofs · Graduating Bits</text>
+</svg>
