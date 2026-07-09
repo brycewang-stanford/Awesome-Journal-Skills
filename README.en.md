@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 3694 agent skills, 261 packs, 519 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 3790 agent skills, 269 packs, 519 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -366,11 +366,11 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 | <a id="discipline-life-sciences"></a>🧬 **Life sciences** | cell · molecular · genomics · immunology · microbiology · neuroscience · plant science · ecology/evolution | Cell · Cancer Cell · Molecular Cell · Neuron · Immunity · The Plant Cell · eLife | depth packs + EN natural-science breadth bundle |
 | <a id="discipline-medicine-health"></a>🩺 **Medicine & health** | general medicine · oncology · cardiology · neurology · infectious disease · internal medicine · public health · translational medicine | NEJM · The Lancet · JAMA · BMJ · JCO · Circulation · Blood · Gastroenterology | depth packs + clinical medicine breadth bundle + EN natural-science breadth bundle |
 | <a id="discipline-engineering-tech"></a>⚙️ **Engineering & technology** | control · communications · signal processing · power · robotics · photonics · biomedical engineering · materials | Proceedings of the IEEE · TAC · Automatica · Optica · Nature Electronics · Acta Materialia | English engineering breadth bundle |
-| <a id="discipline-cs-ai"></a>🤖 **Computer science & AI** | AI/ML · CV · NLP · data mining · systems · databases · security · HCI · theory | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · WebConf · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE · NAACL · ECCV · PLDI · SIGMOD · STOC · NSDI · USENIX Security · NDSS · FOCS · SODA · POPL · OOPSLA · VLDB · CIKM · EuroSys · ASPLOS · UIST · CSCW · ISCA · MICRO · RSS · CoRL · INTERSPEECH · COLM · HPCA · IROS · ICDE · ICDM · RecSys · MobiCom · ACM MM · ICASSP · SIGCOMM · EACL · AAMAS · WACV · MobiSys · SenSys · ISSTA · FSE · ASE · PODS · CoNEXT · IMC · IPSN · VIS · ICSME · ECAI + 155 venues | CS/AI depth packs + conference breadth bundle |
+| <a id="discipline-cs-ai"></a>🤖 **Computer science & AI** | AI/ML · CV · NLP · data mining · systems · databases · security · HCI · theory | NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · WebConf · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE · NAACL · ECCV · PLDI · SIGMOD · STOC · NSDI · USENIX Security · NDSS · FOCS · SODA · POPL · OOPSLA · VLDB · CIKM · EuroSys · ASPLOS · UIST · CSCW · ISCA · MICRO · RSS · CoRL · INTERSPEECH · COLM · HPCA · IROS · ICDE · ICDM · RecSys · MobiCom · ACM MM · ICASSP · SIGCOMM · EACL · AAMAS · WACV · MobiSys · SenSys · ISSTA · FSE · ASE · PODS · CoNEXT · IMC · IPSN · VIS · ICSME · ECAI · ATC · FAST · PPoPP · CAV · ICALP · PODC · SIGMETRICS · PerCom + 155 venues | CS/AI depth packs + conference breadth bundle |
 | <a id="discipline-agri-env-earth"></a>🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
 | <a id="discipline-sport-science"></a>🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
 
-<sub><b>261 packs / 3694 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>269 packs / 3790 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -394,7 +394,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 3694-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 3790-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -576,6 +576,14 @@ Take the most complete one — the **Economic Research depth pack** (18 skills) 
 | **IPSN** ACM/IEEE Conference on Information Processing in Sensor Networks | [IPSN-Skills/](IPSN-Skills/) | The sensor-networks flagship, the IP/SPOTS dual-track model, CPS-IoT Week co-location, the ACM primary template ≤12pp, hardware-artifact reproducibility, TinyML/compressive-sensing/localization, submission routing to the merged new SenSys, routing vs SenSys/MobiSys/MobiCom, workflow, and topic selection | 12 |
 | **VIS** IEEE Visualization Conference | [VIS-Skills/](VIS-Skills/) | The data-visualization flagship, papers published as IEEE TVCG journal articles, the two-phase review with conditional-accept, PCS/VGTC 9+2, the six-area model, the Graphics Replicability Stamp, the task-justified-encoding evaluation culture, workflow, and topic selection | 12 |
 | **ECAI** European Conference on Artificial Intelligence | [ECAI-Skills/](ECAI-Skills/) | The European general-AI flagship (EurAI), the dual-identity format (standalone IOS Press FAIA `ecai.cls` 7+1 + PAIS vs the joint IJCAI-ECAI 2026 `ijcai.sty` 7+2), abstract-then-paper two-deadline flow, summary-reject + single rebuttal, no artifact-badge track, routing vs AAMAS/KDD/UAI, workflow, and topic selection | 12 |
+| **ATC** USENIX / ACM SIGOPS Annual Technical Conference | [ATC-Skills/](ATC-Skills/) | The broad practical-systems flagship, the 2026 USENIX→ACM SIGOPS handover, the two-round extended-abstract gate, the Deployed Systems / experience-paper lane, shepherded conditional acceptance, USENIX-lineage artifact badges, routing vs OSDI/NSDI/EuroSys/SOSP, workflow, and topic selection | 12 |
+| **FAST** USENIX Conference on File and Storage Technologies | [FAST-Skills/](FAST-Skills/) | The storage-specialized flagship, real-device measurement and write-amplification/tail-latency/endurance/crash-consistency evidence, two deadlines + one-shot revision, the USENIX three badges, SNIA/YCSB trace culture, routing vs OSDI/ATC/EuroSys, workflow, and topic selection | 12 |
+| **PPoPP** ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming | [PPoPP-Skills/](PPoPP-Skills/) | The parallel-programming flagship, the "is the parallelism the point?" topic test, the twin correctness + scalability evidence bar, acmart sigplan two-column 10 pages, double-blind + rebuttal, the CGO-shared badge policy, routing vs PLDI/ASPLOS/POPL, workflow, and topic selection | 12 |
+| **CAV** International Conference on Computer Aided Verification | [CAV-Skills/](CAV-Skills/) | The formal-verification flagship, Springer LNCS open access, Regular/Tool/Application/Industrial tracks with partial anonymity, two-stage early-reject review, the AEC three badges, SV-COMP/SMT-COMP benchmark and proof-certificate culture, routing vs POPL/PLDI, workflow, and topic selection | 12 |
+| **ICALP** EATCS International Colloquium on Automata, Languages, and Programming | [ICALP-Skills/](ICALP-Skills/) | Europe's TCS flagship, the Track A/B two-committee split, a single February deadline, LIPIcs open access (15 pages + full version), lightweight double-blind, no artifact evaluation (proof rigor / checkable certificates instead), routing vs STOC/FOCS/SODA, workflow, and topic selection | 12 |
+| **PODC** ACM Symposium on Principles of Distributed Computing | [PODC-Skills/](PODC-Skills/) | The distributed-computing-theory flagship co-located with SPAA, the 10-page-merits rule + Brief Announcements, acmart lightweight double-blind, message-passing/shared-memory + failure-model proof culture (no artifacts), the PODC-vs-PODS distinction, routing vs STOC/SODA/DISC, workflow, and topic selection | 12 |
+| **SIGMETRICS** ACM SIGMETRICS Conference (Measurement & Modeling of Systems) | [SIGMETRICS-Skills/](SIGMETRICS-Skills/) | The systems-performance flagship, the POMACS three-cycle rolling journal model, one-shot revision + mandatory shepherding, the proven-bound + measurement-validation twin culture, acmsmall 20 pages, routing vs IMC/SIGCOMM/NSDI, workflow, and topic selection | 12 |
+| **PerCom** IEEE International Conference on Pervasive Computing and Communications | [PerCom-Skills/](PerCom-Skills/) | The human-centric ubicomp flagship, IEEEtran 9+1, the early-rejection-gated single-round rebuttal, leave-one-subject-out/F1/human-subjects-ethics evidence, the Mark Weiser Best Paper award, the UbiComp/IMWUT contrast, routing vs MobiSys/SenSys/IPSN, workflow, and topic selection | 12 |
 
 This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, UAI, COLT, MLSys, KDD, CVPR, ACL, EMNLP, SIGIR, ICRA, CHI, SOSP, IEEE S&P, ICSE, PLDI, SIGMOD, STOC, and 130+ more. Each profile is a conference-fit and current-cycle submission checklist; volatile facts such as deadlines, page limits, templates, AI-use policies, artifact rules, rebuttal formats, and camera-ready requirements must be re-checked on the live official CFP or author kit before submission.
 
@@ -1253,7 +1261,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>3694</b> = every in-repository <code>SKILL.md</code>, spread across <b>261 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3019</b> (251 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>3694</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>3790</b> = every in-repository <code>SKILL.md</code>, spread across <b>269 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3115</b> (259 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>3790</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1434,6 +1442,14 @@ awesome-journal-skills/
 ├── IPSN-Skills/                   → IPSN main conference (12 skills)
 ├── VIS-Skills/                    → IEEE VIS main conference (12 skills)
 ├── ECAI-Skills/                   → ECAI main conference (12 skills)
+├── ATC-Skills/                    → USENIX/ACM SIGOPS ATC main conference (12 skills)
+├── FAST-Skills/                   → USENIX FAST main conference (12 skills)
+├── PPoPP-Skills/                  → PPoPP main conference (12 skills)
+├── CAV-Skills/                    → CAV main conference (12 skills)
+├── ICALP-Skills/                  → ICALP main conference (12 skills)
+├── PODC-Skills/                   → PODC main conference (12 skills)
+├── SIGMETRICS-Skills/             → SIGMETRICS main conference (12 skills)
+├── PerCom-Skills/                 → PerCom main conference (12 skills)
 │   # Natural-science & clinical depth packs (first-party, authored / maintained here)
 ├── Science-Skills/                → Science (AAAS) (12 skills)
 ├── Cell-Skills/                   → Cell (Cell Press) (12 skills)
@@ -1453,7 +1469,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change (12 skills)
 ├── Agricultural-Systems-Skills/   → Agricultural Systems (12 skills)
 ├── Field-Crops-Research-Skills/   → Field Crops Research (12 skills)
-│   # Root marketplace manifest (aggregates all 261 in-repo packs)
+│   # Root marketplace manifest (aggregates all 269 in-repo packs)
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1547,7 +1563,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **261 packs / 3694 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **269 packs / 3790 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -1571,7 +1587,7 @@ use next for my manuscript targeted at <journal>.
   - **English natural science:** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics (plus Nature as a curated pack)
   - **English environment / ecology / agriculture:** Environmental Science & Technology · Conservation Biology · Global Change Biology · Global Environmental Change · Agricultural Systems · Field Crops Research
   - **Humanities & broader social science (24):** Sociology ASR · AJS · Social Forces · SPQ · JMF · Criminology; Demography; Political science / IR APSR · AJPS · JOP · World Politics · International Organization; Psychology JPSP · Psychological Bulletin · Psychological Science; Communication / opinion Journal of Communication · POQ; Education AERJ; Humanities The American Historical Review · The Art Bulletin · Mind · PMLA · Critical Inquiry · JAAR
-  - **CS/AI conferences:** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · The Web Conference · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE · NAACL · ECCV · PLDI · SIGMOD · STOC · NSDI · USENIX Security · NDSS · FOCS · SODA · POPL · OOPSLA · VLDB · CIKM · EuroSys · ASPLOS · UIST · CSCW · ISCA · MICRO · RSS · CoRL · INTERSPEECH · COLM · HPCA · IROS · ICDE · ICDM · RecSys · MobiCom · ACM MM · ICASSP · SIGCOMM · EACL · AAMAS · WACV · MobiSys · SenSys · ISSTA · FSE · ASE · PODS · CoNEXT · IMC · IPSN · VIS · ICSME · ECAI
+  - **CS/AI conferences:** NeurIPS · ICML · ICLR · AAAI · IJCAI · AISTATS · UAI · COLT · MLSys · KDD · The Web Conference · WSDM · SIGIR · CVPR · ICCV · ACL · EMNLP · ICRA · CHI · SOSP · OSDI · IEEE S&P · ACM CCS · ICSE · NAACL · ECCV · PLDI · SIGMOD · STOC · NSDI · USENIX Security · NDSS · FOCS · SODA · POPL · OOPSLA · VLDB · CIKM · EuroSys · ASPLOS · UIST · CSCW · ISCA · MICRO · RSS · CoRL · INTERSPEECH · COLM · HPCA · IROS · ICDE · ICDM · RecSys · MobiCom · ACM MM · ICASSP · SIGCOMM · EACL · AAMAS · WACV · MobiSys · SenSys · ISSTA · FSE · ASE · PODS · CoNEXT · IMC · IPSN · VIS · ICSME · ECAI · ATC · FAST · PPoPP · CAV · ICALP · PODC · SIGMETRICS · PerCom
   - **Chinese flagships (15):** 经济研究 · 经济学（季刊）· 中国工业经济 · 世界经济 · 金融研究 · 数量经济技术经济研究 · 管理世界 · 管理科学学报 · 南开管理评论 · 会计研究 · 中国社会科学 · 社会学研究 · 中国农村经济 · 财经研究 · 中国行政管理
 
 ### 🚧 Pending — next expansion

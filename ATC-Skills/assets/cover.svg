@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ATC Skills</title>
+  <desc id="desc">Cover image for the ACM SIGOPS Annual Technical Conference (ATC, formerly USENIX ATC) systems submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0e1b24"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f3f1ea"/>
+  <rect x="150" y="250" width="150" height="150" rx="14" fill="none" stroke="#2f7f8f" stroke-width="16"/>
+  <rect x="360" y="290" width="110" height="110" rx="12" fill="#6b4f9c"/>
+  <path d="M300 325 L360 345" stroke="#0e1b24" stroke-width="12" stroke-linecap="round"/>
+  <path d="M470 345 L560 345 L560 420 L1040 420" fill="none" stroke="#cc785c" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="560" cy="345" r="22" fill="#cc785c"/>
+  <circle cx="1040" cy="420" r="24" fill="#2f7f8f"/>
+  <text x="132" y="180" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#0e1b24">ATC</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">ACM SIGOPS Annual Technical Conference · formerly USENIX ATC</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0e1b24">Two-round review · Deployed Systems · Artifact badges · Shepherding</text>
+</svg>

@@ -1,0 +1,42 @@
+# Build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+*.dvi
+*.pdf.bak
+
+# LaTeX / acmart intermediate
+*.acr
+*.acn
+*.alg
+*.glo
+*.gls
+*.ist
+*.nav
+*.snm
+*.vrb
+
+# Editor / OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Python (for any lower-bound / simulation scratch scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local notes not meant for the pack
+scratch/
+notes.local.md

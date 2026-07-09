@@ -1,0 +1,22 @@
+{
+  "name": "podc-skills",
+  "description": "A 12-skill depth pack for ACM PODC (Symposium on Principles of Distributed Computing), the SIGACT-SIGOPS distributed-computing-theory flagship: routing among PODC/DISC/SPAA/STOC/SODA, the lightweight double-blind HotCRP submission, the 10-page ACM proceedings budget with unbounded full version, proof-appendix and model/assumption rigor (in place of artifact evaluation), the Brief Announcements track, the arXiv full-version norm, and the PODC camera-ready. Grounded in the PODC 2026 call for papers, podc.org, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "podc",
+    "distributed-computing",
+    "distributed-algorithms",
+    "consensus",
+    "sigact-sigops",
+    "conference-submission",
+    "brief-announcements",
+    "distributed-computing-theory"
+  ]
+}

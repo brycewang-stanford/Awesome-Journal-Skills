@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "icalp-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ICALP (EATCS) Track A/B routing, the single annual February deadline, lightweight double-blind HotCRP submission, the 15-page extended abstract with full-version appendix, proof rigor, the Track B rebuttal, and the LIPIcs open-access camera-ready.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "icalp-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve ICALP-specific skills for the EATCS International Colloquium on Automata, Languages, and Programming, its Track A / Track B structure, and its LIPIcs open-access publication model, grounded in the ICALP 2026 (53rd, Royal Holloway) call, EATCS pages, LIPIcs/Dagstuhl, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "icalp",
+        "eatcs",
+        "lipics",
+        "track-a-track-b",
+        "theoretical-computer-science",
+        "proof-rigor"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/icalp-submission",
+        "skills/icalp-author-response",
+        "skills/icalp-camera-ready",
+        "skills/icalp-artifact-evaluation",
+        "skills/icalp-reproducibility",
+        "skills/icalp-supplementary",
+        "skills/icalp-review-process",
+        "skills/icalp-writing-style",
+        "skills/icalp-related-work",
+        "skills/icalp-experiments",
+        "skills/icalp-workflow",
+        "skills/icalp-topic-selection"
+      ]
+    }
+  ]
+}

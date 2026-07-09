@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "sigmetrics-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM SIGMETRICS manuscript routing, the three-cycle rolling POMACS model, hybrid conference-journal review with one-shot revision and shepherding, double-anonymous acmsmall submission, performance-evaluation evidence, and ACM artifact badging.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "sigmetrics-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve SIGMETRICS-specific skills for the ACM SIGMETRICS conference and its POMACS journal-style publication model, grounded in the SIGMETRICS 2026/2027 calls, the POMACS journal pages, ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "sigmetrics",
+        "pomacs",
+        "performance-evaluation",
+        "one-shot-revision",
+        "queueing-theory",
+        "artifact-evaluation"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/sigmetrics-submission",
+        "skills/sigmetrics-author-response",
+        "skills/sigmetrics-camera-ready",
+        "skills/sigmetrics-artifact-evaluation",
+        "skills/sigmetrics-reproducibility",
+        "skills/sigmetrics-supplementary",
+        "skills/sigmetrics-review-process",
+        "skills/sigmetrics-writing-style",
+        "skills/sigmetrics-related-work",
+        "skills/sigmetrics-experiments",
+        "skills/sigmetrics-workflow",
+        "skills/sigmetrics-topic-selection"
+      ]
+    }
+  ]
+}

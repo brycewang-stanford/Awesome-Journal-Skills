@@ -233,6 +233,13 @@
       "category": "academic"
     },
     {
+      "name": "atc-skills",
+      "source": "./ATC-Skills",
+      "description": "Twelve ATC-specific skills for the ACM SIGOPS Annual Technical Conference (formerly the USENIX Annual Technical Conference), grounded in the ATC 2026 SIGOPS call for papers, the USENIX ATC '25 research and artifact pages, the USENIX to SIGOPS transition record, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "british-journal-of-political-science-skills",
       "source": "./British-Journal-of-Political-Science-Skills",
       "description": "Twelve-skill bundle covering the British Journal of Political Science (BJPS) manuscript lifecycle across all political-science subfields and the journal's Research Article, Letter, and Comment formats.",
@@ -243,6 +250,13 @@
       "name": "cancer-cell-skills",
       "source": "./Cancer-Cell-Skills",
       "description": "Twelve-skill bundle covering the Cancer Cell (Cell Press) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "cav-skills",
+      "source": "./CAV-Skills",
+      "description": "Twelve CAV-specific skills for the International Conference on Computer Aided Verification and its Springer LNCS open-access proceedings, grounded in the CAV 2026 (FLoC, Lisbon) call, the LNCS proceedings, i-cav.org, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -562,6 +576,13 @@
       "category": "academic"
     },
     {
+      "name": "fast-skills",
+      "source": "./FAST-Skills",
+      "description": "Twelve FAST-specific skills for the USENIX Conference on File and Storage Technologies, covering its storage discipline, two-deadline USENIX double-blind cycle, one-shot revision, and artifact badging, grounded in the FAST '26/'27 calls, the USENIX artifact policy, ACM Digital Library, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "fcr-skills",
       "source": "./Field-Crops-Research-Skills",
       "description": "Twelve-skill bundle covering the Field Crops Research (FCR) manuscript lifecycle for empirical agronomy and crop science — from multi-environment field-experiment design through mixed-model analysis, yield-gap framing, data-availability declaration, and revision.",
@@ -642,6 +663,13 @@
       "name": "human-resource-management-skills",
       "source": "./Human-Resource-Management-Skills",
       "description": "Twelve-skill bundle covering the Human Resource Management manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "icalp-skills",
+      "source": "./ICALP-Skills",
+      "description": "Twelve ICALP-specific skills for the EATCS International Colloquium on Automata, Languages, and Programming, its Track A / Track B structure, and its LIPIcs open-access publication model, grounded in the ICALP 2026 (53rd, Royal Holloway) call, EATCS pages, LIPIcs/Dagstuhl, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1409,6 +1437,13 @@
       "category": "academic"
     },
     {
+      "name": "percom-skills",
+      "source": "./PerCom-Skills",
+      "description": "Twelve PerCom-specific skills for the IEEE International Conference on Pervasive Computing and Communications and its human-centric ubicomp community, grounded in the PerCom 2026/2027 calls, percom.org, IEEE Xplore, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "perspectives-on-psychological-science-skills",
       "source": "./Perspectives-on-Psychological-Science-Skills",
       "description": "Twelve-skill bundle covering the Perspectives on Psychological Science manuscript lifecycle.",
@@ -1451,6 +1486,13 @@
       "category": "academic"
     },
     {
+      "name": "podc-skills",
+      "source": "./PODC-Skills",
+      "description": "Twelve PODC-specific skills for the ACM Symposium on Principles of Distributed Computing (distributed-computing theory), grounded in the PODC 2026 call for papers, podc.org, the ACM Digital Library, and dblp.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "pods-skills",
       "source": "./PODS-Skills",
       "description": "Twelve PODS-specific skills for the ACM SIGMOD/SIGACT Symposium on Principles of Database Systems and its PACMMOD PODS-track publication model, grounded in the PODS 2026/2027 calls, the sigmod.org PODS pages, the ACM Digital Library / PACMMOD, and dblp.",
@@ -1468,6 +1510,13 @@
       "name": "population-and-development-review-skills",
       "source": "./Population-and-Development-Review-Skills",
       "description": "Twelve-skill bundle covering the Population and Development Review (PDR) manuscript lifecycle across the demography-and-development intersection, with demographic methods (life tables, decomposition, event history, age-period-cohort, projections), synthetic-essay craft, double-anonymized review, Free Format ScholarOne submission, and no author fees under the standard model.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ppopp-skills",
+      "source": "./PPoPP-Skills",
+      "description": "Twelve PPoPP-specific skills for the ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, grounded in the PPoPP 2026/2027 researchr calls, sigplan.org announcements, the ACM Digital Library, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1636,6 +1685,13 @@
       "name": "sigir-skills",
       "source": "./SIGIR-Skills",
       "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "sigmetrics-skills",
+      "source": "./SIGMETRICS-Skills",
+      "description": "Twelve SIGMETRICS-specific skills for the ACM SIGMETRICS conference and its POMACS journal-style publication model, grounded in the SIGMETRICS 2026/2027 calls, the POMACS journal pages, ACM Digital Library, and dblp.",
       "version": "0.1.0",
       "category": "academic"
     },

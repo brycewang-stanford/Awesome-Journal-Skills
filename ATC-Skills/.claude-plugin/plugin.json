@@ -1,0 +1,22 @@
+{
+  "name": "atc-skills",
+  "description": "A 12-skill depth pack for ATC — the ACM SIGOPS Annual Technical Conference (formerly the USENIX Annual Technical Conference): USENIX's broad practical-systems venue now under SIGOPS, the new two-round extended-abstract HotCRP review, double-blind reviewing, the Deployed Systems / experience-paper track, USENIX-lineage artifact-evaluation badges (Available / Functional / Reproduced), shepherding with conditional acceptance, and ACM Open Access proceedings. Grounded in the ATC 2026 SIGOPS call, the USENIX ATC '25 pages, the USENIX to SIGOPS transition record, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "atc",
+    "usenix-atc",
+    "acm-sigops",
+    "computer-systems",
+    "operating-systems",
+    "conference-submission",
+    "artifact-evaluation",
+    "deployed-systems"
+  ]
+}

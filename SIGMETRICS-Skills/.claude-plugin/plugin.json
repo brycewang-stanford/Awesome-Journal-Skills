@@ -1,0 +1,22 @@
+{
+  "name": "sigmetrics-skills",
+  "description": "A 12-skill depth pack for ACM SIGMETRICS submissions published in POMACS (Proceedings of the ACM on Measurement and Analysis of Computing Systems): venue routing among the performance-evaluation venues, the three-cycles-per-year rolling deadlines (summer/fall/winter), the hybrid conference-journal review with its one-shot revision and mandatory shepherding, double-anonymous acmsmall submission, the theory/measurement/learning-for-systems blend, and ACM artifact badging. Grounded in the SIGMETRICS 2026/2027 calls, the POMACS journal pages, ACM DL, and dblp checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "sigmetrics",
+    "pomacs",
+    "acm-sigmetrics",
+    "performance-evaluation",
+    "queueing-theory",
+    "one-shot-revision",
+    "conference-submission",
+    "artifact-evaluation"
+  ]
+}

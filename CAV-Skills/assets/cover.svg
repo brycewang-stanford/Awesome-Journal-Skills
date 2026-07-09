@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CAV Skills</title>
+  <desc id="desc">Cover image for the CAV Computer Aided Verification submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0e1f24"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f2f4f1"/>
+  <path d="M160 300 L320 300 L320 220 L480 220" fill="none" stroke="#2f7f8f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M480 220 L480 400 L680 400" fill="none" stroke="#2f7f8f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M680 400 L840 400 L840 300 L1030 300" fill="none" stroke="#cc785c" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="160" cy="300" r="22" fill="#2f7f8f"/>
+  <rect x="456" y="196" width="48" height="48" rx="8" fill="#6b4f9c"/>
+  <path d="M660 380 l20 20 l40 -44" fill="none" stroke="#2f7f8f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1030" cy="300" r="22" fill="#cc785c"/>
+  <text x="132" y="172" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="700" fill="#0e1f24">CAV</text>
+  <text x="136" y="220" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Computer Aided Verification</text>
+  <text x="136" y="516" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0e1f24">LNCS open access · Tool papers · Two-stage review · AEC badges</text>
+</svg>

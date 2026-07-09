@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "podc-skills",
+  "version": "0.1.0",
+  "description": "Depth pack for ACM PODC manuscript routing, lightweight double-blind submission, the 10-page proceedings budget with an unbounded full version, proof-appendix and model/assumption rigor, the Brief Announcements track, the arXiv full-version norm, and PODC camera-ready work.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "podc-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve PODC-specific skills for the ACM Symposium on Principles of Distributed Computing (distributed-computing theory), grounded in the PODC 2026 call for papers, podc.org, the ACM Digital Library, and dblp.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "podc",
+        "distributed-computing",
+        "consensus",
+        "brief-announcements",
+        "proof-appendix",
+        "distributed-algorithms"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/podc-submission",
+        "skills/podc-author-response",
+        "skills/podc-camera-ready",
+        "skills/podc-artifact-evaluation",
+        "skills/podc-reproducibility",
+        "skills/podc-supplementary",
+        "skills/podc-review-process",
+        "skills/podc-writing-style",
+        "skills/podc-related-work",
+        "skills/podc-experiments",
+        "skills/podc-workflow",
+        "skills/podc-topic-selection"
+      ]
+    }
+  ]
+}
