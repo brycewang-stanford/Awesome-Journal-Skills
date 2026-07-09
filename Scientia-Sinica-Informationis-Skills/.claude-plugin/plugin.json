@@ -1,0 +1,22 @@
+{
+  "name": "ssi-skills",
+  "description": "面向《中国科学：信息科学》(SCIENTIA SINICA Informationis, SSI) 的 12 技能深度包：作为中国科学院与国家自然科学基金委员会主办、《中国科学》杂志社出版的国家级大信息学科中文旗舰（覆盖计算机、控制、通信、电子、微电子），本包覆盖选题与栏目定位、评述/论文/快报的中文科技写作、三审三校审稿流程、审稿意见答复与修回、录用后校样定稿、代码与数据可用性、可复现性、补充材料，并说明中文版与英文姊妹刊 Science China Information Sciences 的关系。事实以官网 scis.scichina.com 与 CNKI/万方 双源核实，截至 2026-07-09，未确认者标注待核实。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "scientia-sinica-informationis",
+    "ssi",
+    "中国科学信息科学",
+    "science-china-information-sciences",
+    "中文期刊",
+    "信息科学",
+    "journal-submission",
+    "peer-review"
+  ]
+}

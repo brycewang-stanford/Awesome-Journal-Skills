@@ -1,0 +1,22 @@
+{
+  "name": "jonc-skills",
+  "description": "A 12-skill depth pack for 《通信学报》(Journal on Communications, JOC): the Chinese-language flagship monthly of the China Institute of Communications (中国通信学会), covering 通信理论与技术、无线/移动通信、网络与交换、信息安全与密码、信号处理. Covers venue-fit topic selection, Chinese 长文 writing (中英文摘要、关键词、中图分类号 TN、GB/T 7714 参考文献), empirical evidence, the 初审→外审→终审 review cycle, 修回 response letters, code/data availability, and post-acceptance 定稿. Grounded in the official infocomm-journal.com/txxb 投稿须知, the CBPT 投稿系统, CNKI/万方 期刊主页, and the CCF 推荐中文科技期刊目录, cross-checked on 2026-07-09.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "joc",
+    "journal-on-communications",
+    "tongxin-xuebao",
+    "china-institute-of-communications",
+    "wireless-communications",
+    "network-security",
+    "signal-processing",
+    "gb-t-7714"
+  ]
+}

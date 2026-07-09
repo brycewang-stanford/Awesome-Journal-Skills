@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 3886 agent skills, 277 packs, 519 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 4006 agent skills, 287 packs, 519 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -370,7 +370,7 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 | <a id="discipline-agri-env-earth"></a>🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
 | <a id="discipline-sport-science"></a>🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
 
-<sub><b>277 packs / 3886 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>287 packs / 4006 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -394,7 +394,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 3886-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 4006-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -594,6 +594,23 @@ Take the most complete one — the **Economic Research depth pack** (18 skills) 
 | **TACAS** International Conference on Tools and Algorithms for the Construction and Analysis of Systems | [TACAS-Skills/](TACAS-Skills/) | The ETAPS tools-and-algorithms verification flagship, four paper categories (research/tool/tool-demo/case-study) with per-category limits, per-category blinding, mandatory artifact evaluation running in parallel with the PC (gating tool papers), Springer LNCS gold open access, hosting SV-COMP, hard differentiation from CAV, routing vs POPL/PLDI, workflow, and topic selection | 12 |
 
 This bundle puts AI conferences first: NeurIPS, ICML, ICLR, AAAI, IJCAI, AISTATS, UAI, COLT, MLSys, KDD, CVPR, ACL, EMNLP, SIGIR, ICRA, CHI, SOSP, IEEE S&P, ICSE, PLDI, SIGMOD, STOC, and 130+ more. Each profile is a conference-fit and current-cycle submission checklist; volatile facts such as deadlines, page limits, templates, AI-use policies, artifact rules, rebuttal formats, and camera-ready requirements must be re-checked on the live official CFP or author kit before submission.
+
+### Computer science · Chinese-journal depth packs
+
+Depth packs for the CCF-recommended **Chinese-language journals** (distinct from the English conferences above): the Chinese submission→review flow (first review → external review → re-review → editor-in-chief decision), GB/T 7714 references, bilingual abstracts with a TP subject code, special topics/issues, and honoraria-or-page-charge norms — **journals, not conferences**.
+
+| Venue | Pack | Coverage | Skills |
+|-------|------|----------|-------:|
+| **《计算机学报》** Chinese Journal of Computers (CJC) | [Chinese-Journal-of-Computers-Skills/](Chinese-Journal-of-Computers-Skills/) | The CCF-A whole-discipline flagship monthly, the original-long-paper tradition, three-stage review with multiple revisions, cjc.ict.ac.cn online submission, GB/T 7714, TP subject code, workflow, and topic selection | 12 |
+| **《软件学报》** Journal of Software (JOS) | [Journal-of-Software-Skills/](Journal-of-Software-Skills/) | The CCF-A software-discipline flagship (SE/systems/PL/DB/networking/security), ChinaSoft special issues, first→external→re-review→editor-in-chief chain, bilingual elements + GB/T 7714, workflow, and topic selection | 12 |
+| **《计算机研究与发展》** Journal of Computer Research and Development (JCRD) | [Journal-of-Computer-Research-and-Development-Skills/](Journal-of-Computer-Research-and-Development-Skills/) | The CCF-A whole-discipline journal, special-topic (guest-editor) organization with reviews + original work, double-blind review, crad.ict.ac.cn, workflow, and topic selection | 12 |
+| **《自动化学报》** Acta Automatica Sinica (AAS) | [Acta-Automatica-Sinica-Skills/](Acta-Automatica-Sinica-Skills/) | The control/pattern-recognition/robotics/intelligent-systems flagship, double-blind three-stage review, author-commitment gating, bilingual, honoraria (not page charges), aas-cn (ScholarOne), workflow, and topic selection | 12 |
+| **《中国科学：信息科学》** Scientia Sinica Informationis (SSI) | [Scientia-Sinica-Informationis-Skills/](Scientia-Sinica-Informationis-Skills/) | The national broad-information flagship (CS+control+comms+microelectronics), review/paper/letter four-column model, choose-one submission vs the English sister Science China Information Sciences, LaTeX, workflow, and topic selection | 12 |
+| **《电子学报》** Acta Electronica Sinica (AES) | [Acta-Electronica-Sinica-Skills/](Acta-Electronica-Sinica-Skills/) | The electronics-and-information flagship (electronics/signal/circuits/EM/ICs), double-blind multi-level review, the six-month reply deadline, split vs the English Chinese Journal of Electronics, workflow, and topic selection | 12 |
+| **《模式识别与人工智能》** Pattern Recognition and Artificial Intelligence (PR&AI) | [Pattern-Recognition-and-Artificial-Intelligence-Skills/](Pattern-Recognition-and-Artificial-Intelligence-Skills/) | The AI-focused specialty journal (pattern recognition/ML/CV/NLP/intelligent systems), Magtech submission, 18,000–44,000-character long papers, the official six-month review, workflow, and topic selection | 12 |
+| **《计算机辅助设计与图形学学报》** Journal of Computer-Aided Design & Computer Graphics (JCAD&CG) | [Journal-of-CAD-and-Computer-Graphics-Skills/](Journal-of-CAD-and-Computer-Graphics-Skills/) | The CCF-A graphics/geometry venue (graphics/CAD/geometric design/visualization/VR/imaging), geometric-accuracy and rendering-quality evidence, jcad.cn, workflow, and topic selection | 12 |
+| **《通信学报》** Journal on Communications (JOC) | [Journal-on-Communications-Skills/](Journal-on-Communications-Skills/) | The communications flagship (theory/wireless-mobile/networking/security-crypto/signal processing), link- and system-level simulation evidence, CBPT three-stage review, workflow, and topic selection | 12 |
+| **《计算机科学》** Computer Science journal (JSJKX) | [Computer-Science-Journal-Skills/](Computer-Science-Journal-Skills/) | The broad Chinese CS journal, active columns/special topics, single-blind review, long-paper friendly, jsjkx.com, explicitly a journal not a conference, workflow, and topic selection | 12 |
 
 ### Social science · Chinese top journals — depth packs
 
@@ -1269,7 +1286,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>3886</b> = every in-repository <code>SKILL.md</code>, spread across <b>277 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3211</b> (267 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>3886</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>4006</b> = every in-repository <code>SKILL.md</code>, spread across <b>287 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3331</b> (277 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>4006</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1466,6 +1483,17 @@ awesome-journal-skills/
 ├── DAC-Skills/                    → DAC main conference (12 skills)
 ├── EDBT-Skills/                   → EDBT main conference (12 skills)
 ├── TACAS-Skills/                  → TACAS main conference (12 skills)
+│   # Computer-science Chinese-journal depth packs (first-party)
+├── Chinese-Journal-of-Computers-Skills/ → Chinese Journal of Computers (CJC) (12 skills)
+├── Journal-of-Software-Skills/    → Journal of Software (JOS) (12 skills)
+├── Journal-of-Computer-Research-and-Development-Skills/ → Journal of Computer Research and Development (JCRD) (12 skills)
+├── Acta-Automatica-Sinica-Skills/ → Acta Automatica Sinica (AAS) (12 skills)
+├── Scientia-Sinica-Informationis-Skills/ → Scientia Sinica Informationis (SSI) (12 skills)
+├── Acta-Electronica-Sinica-Skills/ → Acta Electronica Sinica (AES) (12 skills)
+├── Pattern-Recognition-and-Artificial-Intelligence-Skills/ → Pattern Recognition and AI (PR&AI) (12 skills)
+├── Journal-of-CAD-and-Computer-Graphics-Skills/ → J. of CAD & Computer Graphics (JCAD&CG) (12 skills)
+├── Journal-on-Communications-Skills/ → Journal on Communications (JOC) (12 skills)
+├── Computer-Science-Journal-Skills/ → Computer Science journal (JSJKX) (12 skills)
 │   # Natural-science & clinical depth packs (first-party, authored / maintained here)
 ├── Science-Skills/                → Science (AAAS) (12 skills)
 ├── Cell-Skills/                   → Cell (Cell Press) (12 skills)
@@ -1485,7 +1513,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change (12 skills)
 ├── Agricultural-Systems-Skills/   → Agricultural Systems (12 skills)
 ├── Field-Crops-Research-Skills/   → Field Crops Research (12 skills)
-│   # Root marketplace manifest (aggregates all 277 in-repo packs)
+│   # Root marketplace manifest (aggregates all 287 in-repo packs)
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1579,7 +1607,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **277 packs / 3886 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **287 packs / 4006 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">计算机研究与发展 Skills</title>
+  <desc id="desc">Cover image for the Journal of Computer Research and Development (JCRD) submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0f1b2d"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f4f1ea"/>
+  <path d="M150 300 L340 300 L340 220 L560 220" fill="none" stroke="#b23a48" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M560 220 L560 420 L1040 420" fill="none" stroke="#2f6f8f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="500" y="180" width="120" height="80" rx="12" fill="#d9a441"/>
+  <circle cx="150" cy="300" r="24" fill="#b23a48"/>
+  <circle cx="1040" cy="420" r="24" fill="#2f6f8f"/>
+  <text x="132" y="176" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="72" font-weight="700" fill="#0f1b2d">计算机研究与发展</text>
+  <text x="136" y="228" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#374151">Journal of Computer Research and Development (JCRD)</text>
+  <text x="136" y="516" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="30" fill="#0f1b2d">专题组稿 · 双盲评审 · 综述与原创并重 · CCF A 中文月刊</text>
+</svg>

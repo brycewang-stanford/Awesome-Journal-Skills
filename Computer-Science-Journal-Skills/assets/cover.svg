@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">计算机科学 · Computer Science Journal Skills</title>
+  <desc id="desc">Cover image for the Computer Science (计算机科学, JSJKX) Chinese computer-science journal submission skills pack.</desc>
+  <rect width="1200" height="630" fill="#0f1c2e"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#f5f2ea"/>
+  <path d="M150 300 L360 300 L360 220 L620 220" fill="none" stroke="#2f7f8f" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M620 400 L860 400 L860 300 L1040 300" fill="none" stroke="#cc785c" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="560" y="280" width="120" height="70" rx="12" fill="#6b4f9c"/>
+  <circle cx="150" cy="300" r="22" fill="#2f7f8f"/>
+  <circle cx="1040" cy="300" r="22" fill="#cc785c"/>
+  <text x="132" y="190" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="96" font-weight="700" fill="#0f1c2e">计算机科学</text>
+  <text x="136" y="240" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#374151">Computer Science (journal) · JSJKX</text>
+  <text x="136" y="520" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="28" fill="#0f1c2e">CCF 会刊 · 中文综合月刊 · 专题/综述 · 单盲审稿 · GB/T 7714</text>
+</svg>

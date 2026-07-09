@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aas-skills",
+  "version": "0.1.0",
+  "description": "《自动化学报》(Acta Automatica Sinica, AAS) 中文投稿深度技能包：控制与自动化学科中文旗舰月刊的选题栏目、双盲三审制审稿流程、多轮退修答复、GB/T 7714 中文写作规范、实验与相关工作、代码数据可用性与录用定稿校样全流程。",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aas-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "面向《自动化学报》(Acta Automatica Sinica, AAS) 的 12 个中文技能，覆盖投稿、退修答复、录用定稿、代码数据可用性、可复现性、补充材料、审稿流程、中文写作规范、相关工作、实验设计、全流程与选题栏目定位。关键事实以官网 aas.net.cn、CNKI 与 CCF/中国自动化学会目录双源核实，核验日期 2026-07-09。",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "aas",
+        "acta-automatica-sinica",
+        "control-automation",
+        "chinese-cs-journal",
+        "gb-t-7714",
+        "peer-review"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aas-submission",
+        "skills/aas-author-response",
+        "skills/aas-camera-ready",
+        "skills/aas-artifact-evaluation",
+        "skills/aas-reproducibility",
+        "skills/aas-supplementary",
+        "skills/aas-review-process",
+        "skills/aas-writing-style",
+        "skills/aas-related-work",
+        "skills/aas-experiments",
+        "skills/aas-workflow",
+        "skills/aas-topic-selection"
+      ]
+    }
+  ]
+}

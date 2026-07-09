@@ -1,0 +1,22 @@
+{
+  "name": "aes-skills",
+  "description": "面向《电子学报》(Acta Electronica Sinica, AES) 的 12 技能中文深度包：中国电子学会主办、1962 年创刊、ISSN 0372-2112 / CN 11-2087/TN 的电子信息学科旗舰月刊。覆盖 ejournal.org.cn 在线投稿、双盲评审、中英文摘要与中图分类号、GB/T 7714 参考文献、初审—外审—复审—终审四级审理、修回答复、录用校样、代码与数据可用性、可复现性、选题与栏目定位，并说明与英文姊妹刊 Chinese Journal of Electronics (CJE) 的关系。事实于 2026-07-09 经官网、CNKI/万方、CCF 目录交叉核验。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "acta-electronica-sinica",
+    "dianzi-xuebao",
+    "chinese-journal",
+    "electronics",
+    "information-science",
+    "signal-processing",
+    "chinese-institute-of-electronics",
+    "chinese-journal-of-electronics"
+  ]
+}

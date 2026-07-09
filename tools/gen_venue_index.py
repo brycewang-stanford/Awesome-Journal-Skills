@@ -115,6 +115,17 @@ DISC = [
     ("ITCS-Skills", "cs-ai (conference)"), ("HRI-Skills", "cs-ai (conference)"),
     ("SoCC-Skills", "cs-ai (conference)"), ("DAC-Skills", "cs-ai (conference)"),
     ("EDBT-Skills", "cs-ai (conference)"), ("TACAS-Skills", "cs-ai (conference)"),
+    # Chinese-language CS/AI journals (CCF-recommended 中文期刊 — journals, not conferences)
+    ("Chinese-Journal-of-Computers-Skills", "cs-ai (CN journal)"),
+    ("Journal-of-Software-Skills", "cs-ai (CN journal)"),
+    ("Journal-of-Computer-Research-and-Development-Skills", "cs-ai (CN journal)"),
+    ("Acta-Automatica-Sinica-Skills", "cs-ai (CN journal)"),
+    ("Scientia-Sinica-Informationis-Skills", "cs-ai (CN journal)"),
+    ("Acta-Electronica-Sinica-Skills", "cs-ai (CN journal)"),
+    ("Pattern-Recognition-and-Artificial-Intelligence-Skills", "cs-ai (CN journal)"),
+    ("Journal-of-CAD-and-Computer-Graphics-Skills", "cs-ai (CN journal)"),
+    ("Journal-on-Communications-Skills", "cs-ai (CN journal)"),
+    ("Computer-Science-Journal-Skills", "cs-ai (CN journal)"),
     # specific economics flagships / subfields not caught generically
     ("AEJ-Applied", "economics/applied"), ("AEJ-Macro", "economics/macro"),
     ("AEJ-Micro", "economics/micro"), ("AER-Insights", "economics"),

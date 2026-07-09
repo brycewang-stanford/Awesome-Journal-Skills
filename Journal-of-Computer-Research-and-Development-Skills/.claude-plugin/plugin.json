@@ -1,0 +1,22 @@
+{
+  "name": "jcrd-skills",
+  "description": "面向《计算机研究与发展》(Journal of Computer Research and Development, JCRD) 投稿的 12 技能深度包：本刊为中科院计算所与 CCF 主办、科学出版社出版的 CCF A 类中文旗舰月刊，以专题(special topic)组稿见长、综述与原创并重、实行双盲评审。技能覆盖选题与栏目定位、中文科技写作(GB/T 7714)、实验设计、相关工作综述、双盲投稿审计、审稿流程、审稿意见答复与修回、录用定稿校样、代码与数据可用性、可复现性、补充材料与全流程编排。事实基于 2026-07-09 对官网 crad.ict.ac.cn、CNKI/万方期刊主页与 CCF 推荐中文科技期刊目录的交叉核验。",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+  "keywords": [
+    "jcrd",
+    "计算机研究与发展",
+    "journal-of-computer-research-and-development",
+    "ccf-a-chinese-journal",
+    "special-topic",
+    "double-blind-review",
+    "gb-t-7714",
+    "chinese-cs-journal"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jcrd-skills",
+  "version": "0.1.0",
+  "description": "《计算机研究与发展》(Journal of Computer Research and Development, JCRD) 深度技能包：面向 CCF A 类中文旗舰月刊的专题组稿、双盲评审、中英文摘要、GB/T 7714 参考文献与多轮同行评审全流程。",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jcrd-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "面向《计算机研究与发展》(Journal of Computer Research and Development, JCRD) 的 12 个投稿技能，覆盖专题选题、中文科技写作、实验与综述、双盲投稿、审稿与修回、录用定稿及代码数据可用性，基于 2026-07-09 对官网 crad.ict.ac.cn、CNKI/万方与 CCF 目录的交叉核验。",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "jcrd",
+        "计算机研究与发展",
+        "special-topic",
+        "double-blind-review",
+        "gb-t-7714",
+        "chinese-cs-journal"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jcrd-submission",
+        "skills/jcrd-author-response",
+        "skills/jcrd-camera-ready",
+        "skills/jcrd-artifact-evaluation",
+        "skills/jcrd-reproducibility",
+        "skills/jcrd-supplementary",
+        "skills/jcrd-review-process",
+        "skills/jcrd-writing-style",
+        "skills/jcrd-related-work",
+        "skills/jcrd-experiments",
+        "skills/jcrd-workflow",
+        "skills/jcrd-topic-selection"
+      ]
+    }
+  ]
+}

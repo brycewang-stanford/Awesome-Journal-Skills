@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Acta Electronica Sinica Skills cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2a4a"/>
+      <stop offset="1" stop-color="#123f6b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39c2ff"/>
+      <stop offset="1" stop-color="#7ef0c0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- circuit motif -->
+  <g stroke="url(#accent)" stroke-width="3" fill="none" opacity="0.5">
+    <path d="M80 520 H300 V420 H460"/>
+    <path d="M80 560 H360 V480 H520 V400 H640"/>
+    <circle cx="300" cy="520" r="7" fill="#39c2ff" stroke="none"/>
+    <circle cx="460" cy="420" r="7" fill="#7ef0c0" stroke="none"/>
+    <circle cx="520" cy="480" r="7" fill="#39c2ff" stroke="none"/>
+    <circle cx="640" cy="400" r="7" fill="#7ef0c0" stroke="none"/>
+  </g>
+  <text x="80" y="180" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="92" font-weight="700" fill="#ffffff">电子学报</text>
+  <text x="84" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="url(#accent)">Acta Electronica Sinica (AES)</text>
+  <text x="84" y="320" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="30" fill="#cfe6ff">中国电子学会主办 · 电子与信息科学中文旗舰月刊</text>
+  <text x="84" y="368" font-family="Georgia, serif" font-size="24" fill="#a8c8e6">Chinese Institute of Electronics · since 1962 · ISSN 0372-2112</text>
+  <rect x="80" y="410" width="360" height="6" rx="3" fill="url(#accent)"/>
+  <text x="84" y="600" font-family="Noto Sans SC, Microsoft YaHei, sans-serif" font-size="26" fill="#ffffff">12 技能深度包 · 投稿 · 双盲评审 · 修回 · 录用</text>
+</svg>

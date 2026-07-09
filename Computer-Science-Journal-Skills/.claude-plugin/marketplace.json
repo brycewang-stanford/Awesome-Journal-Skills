@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "csj-skills",
+  "version": "0.1.0",
+  "description": "《计算机科学》(Computer Science, JSJKX) 中文综合期刊投稿深度技能包：栏目与专题定位、中文科技写作规范、综述与长文组稿、实验与可复现、单盲审稿与多轮修回、录用定稿。",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "csj-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "面向《计算机科学》(Computer Science, JSJKX) 的 12 个投稿技能，覆盖计算机全学科中文综合期刊的选题、栏目/专题、写作体例、实验、单盲审稿与修回、录用定稿，事实经 jsjkx.com 与 CNKI/CCF 目录双源核实。",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "computer-science-journal",
+        "jsjkx",
+        "计算机科学",
+        "ccf-chinese-journal",
+        "cscd",
+        "peer-review"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/csj-submission",
+        "skills/csj-author-response",
+        "skills/csj-camera-ready",
+        "skills/csj-artifact-evaluation",
+        "skills/csj-reproducibility",
+        "skills/csj-supplementary",
+        "skills/csj-review-process",
+        "skills/csj-writing-style",
+        "skills/csj-related-work",
+        "skills/csj-experiments",
+        "skills/csj-workflow",
+        "skills/csj-topic-selection"
+      ]
+    }
+  ]
+}

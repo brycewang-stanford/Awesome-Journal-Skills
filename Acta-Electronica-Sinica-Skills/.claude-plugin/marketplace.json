@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aes-skills",
+  "version": "0.1.0",
+  "description": "《电子学报》(Acta Electronica Sinica, AES) 电子信息学科中文旗舰月刊的 12 技能深度包：在线投稿、双盲评审、四级审理、修回答复、录用校样、可复现性与选题定位。",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aes-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "面向《电子学报》(Acta Electronica Sinica, AES) 的 12 个中文技能：中国电子学会主办的电子/信息/通信/信号处理旗舰月刊，覆盖 ejournal.org.cn 在线投稿到录用校样的全流程，事实经官网、CNKI/万方与 CCF 目录交叉核验。",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "acta-electronica-sinica",
+        "dianzi-xuebao",
+        "electronics",
+        "chinese-journal-of-electronics",
+        "double-blind-review",
+        "gb-t-7714"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aes-submission",
+        "skills/aes-author-response",
+        "skills/aes-camera-ready",
+        "skills/aes-artifact-evaluation",
+        "skills/aes-reproducibility",
+        "skills/aes-supplementary",
+        "skills/aes-review-process",
+        "skills/aes-writing-style",
+        "skills/aes-related-work",
+        "skills/aes-experiments",
+        "skills/aes-workflow",
+        "skills/aes-topic-selection"
+      ]
+    }
+  ]
+}

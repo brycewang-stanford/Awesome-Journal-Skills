@@ -72,6 +72,20 @@
       "category": "academic"
     },
     {
+      "name": "aas-skills",
+      "source": "./Acta-Automatica-Sinica-Skills",
+      "description": "面向《自动化学报》(Acta Automatica Sinica, AAS) 的 12 个中文技能，覆盖投稿、退修答复、录用定稿、代码数据可用性、可复现性、补充材料、审稿流程、中文写作规范、相关工作、实验设计、全流程与选题栏目定位。关键事实以官网 aas.net.cn、CNKI 与 CCF/中国自动化学会目录双源核实，核验日期 2026-07-09。",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "aes-skills",
+      "source": "./Acta-Electronica-Sinica-Skills",
+      "description": "面向《电子学报》(Acta Electronica Sinica, AES) 的 12 个中文技能：中国电子学会主办的电子/信息/通信/信号处理旗舰月刊，覆盖 ejournal.org.cn 在线投稿到录用校样的全流程，事实经官网、CNKI/万方与 CCF 目录交叉核验。",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "asq-skills",
       "source": "./Administrative-Science-Quarterly-Skills",
       "description": "Twelve-skill bundle covering the Administrative Science Quarterly (ASQ) manuscript lifecycle.",
@@ -296,6 +310,13 @@
       "category": "academic"
     },
     {
+      "name": "cjc-skills",
+      "source": "./Chinese-Journal-of-Computers-Skills",
+      "description": "面向《计算机学报》(Chinese Journal of Computers, CJC) 的 12 个中文技能，覆盖投稿、修回答复、录用定稿、代码数据可用性、可复现性、补充材料、审稿流程、中文写作规范、相关工作、实验设计、全流程与选题栏目定位。关键事实以官网、CNKI 与 CCF 推荐中文科技期刊目录双源核实，核验日期 2026-07-09。",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "chinese-public-administration-skills",
       "source": "./Chinese-Public-Administration-Skills",
       "description": "Twelve-skill bundle covering the 《中国行政管理》 manuscript lifecycle.",
@@ -369,6 +390,13 @@
       "name": "computer-science-conference-skills",
       "source": "./Computer-Science-Conference-Skills",
       "description": "AI-first computer-science conference skill stack: 155 conference fit-and-submission profiles plus a CS/AI router. Covers top AI/ML, data mining, vision, NLP, robotics, HCI, systems, security, software engineering, programming languages, databases, and theory venues, with current-cycle CFP and author-kit re-check discipline.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "csj-skills",
+      "source": "./Computer-Science-Journal-Skills",
+      "description": "面向《计算机科学》(Computer Science, JSJKX) 的 12 个投稿技能，覆盖计算机全学科中文综合期刊的选题、栏目/专题、写作体例、实验、单盲审稿与修回、录用定稿，事实经 jsjkx.com 与 CNKI/CCF 目录双源核实。",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -919,9 +947,23 @@
       "category": "academic"
     },
     {
+      "name": "jcadcg-skills",
+      "source": "./Journal-of-CAD-and-Computer-Graphics-Skills",
+      "description": "面向《计算机辅助设计与图形学学报》(Journal of Computer-Aided Design & Computer Graphics, JCAD&CG) 的 12 个中文技能，覆盖投稿、修回答复、录用定稿、代码数据可用性、可复现性、补充材料、审稿流程、中文写作规范、相关工作、图形/几何实验设计、全流程与选题栏目定位。关键事实以官网 jcad.cn、CNKI 与 CCF 推荐中文科技期刊目录双源核实，核验日期 2026-07-09。",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "joc-skills",
       "source": "./Journal-of-Communication-Skills",
       "description": "Twelve-skill bundle covering the Journal of Communication (JoC) manuscript lifecycle across communication research traditions — quantitative, computational, qualitative, and critical.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jcrd-skills",
+      "source": "./Journal-of-Computer-Research-and-Development-Skills",
+      "description": "面向《计算机研究与发展》(Journal of Computer Research and Development, JCRD) 的 12 个投稿技能，覆盖专题选题、中文科技写作、实验与综述、双盲投稿、审稿与修回、录用定稿及代码数据可用性，基于 2026-07-09 对官网 crad.ict.ac.cn、CNKI/万方与 CCF 目录的交叉核验。",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1255,6 +1297,13 @@
       "category": "academic"
     },
     {
+      "name": "jos-skills",
+      "source": "./Journal-of-Software-Skills",
+      "description": "面向《软件学报》(Journal of Software, JOS) 的 12 个中文技能，覆盖软件工程/系统软件/程序设计语言/数据库/网络与分布式/软件安全方向的投稿、修回、答复与定稿全流程，事实源自 jos.org.cn、CNKI/万方与 CCF 推荐中文科技期刊目录，锚定 2026 状态。",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "jams-skills",
       "source": "./Journal-of-the-Academy-of-Marketing-Science-Skills",
       "description": "Twelve-skill bundle covering the Journal of the Academy of Marketing Science manuscript lifecycle.",
@@ -1301,6 +1350,13 @@
       "source": "./Journal-of-World-Economy-Skills",
       "description": "Twelve-skill bundle covering the 《世界经济》 manuscript lifecycle: workflow router, open-economy fit positioning, international causal topic, international-literature dialogue, customs / cross-country / GVC data sources, external-shock + shift-share / gravity identification, transmission channels, heterogeneity, tables and figures, opening-up policy implications, submission preflight, and rebuttal.",
       "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "jonc-skills",
+      "source": "./Journal-on-Communications-Skills",
+      "description": "Twelve 《通信学报》(Journal on Communications, JOC) skills for the China Institute of Communications flagship monthly, grounded in the official infocomm-journal.com/txxb 投稿须知, the CBPT 投稿系统, CNKI/万方 期刊主页, and the CCF 推荐中文科技期刊目录 checked on 2026-07-09.",
+      "version": "0.1.0",
       "category": "academic"
     },
     {
@@ -1468,6 +1524,13 @@
       "name": "osdi-skills",
       "source": "./OSDI-Skills",
       "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '26 Call for Papers, Call for Artifacts, HotCRP site, and USENIX open-access policy pages.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "prai-skills",
+      "source": "./Pattern-Recognition-and-Artificial-Intelligence-Skills",
+      "description": "面向《模式识别与人工智能》(Pattern Recognition and Artificial Intelligence, PR&AI) 的 12 个中文技能，聚焦 AI 细分方向的中文期刊投稿全流程，事实以官网 manu46.magtech.com.cn/Jweb_prai 与 CNKI/CCF 推荐中文科技期刊目录双源核验。",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1699,6 +1762,13 @@
       "name": "science-skills",
       "source": "./Science-Skills",
       "description": "Twelve-skill bundle covering the Science manuscript lifecycle: workflow router, scope/significance fit, advance framing, abstract + one-sentence summary, main-text writing, display items, statistics & reproducibility, data/materials/code availability, reference style, cover letter, submission preflight, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "ssi-skills",
+      "source": "./Scientia-Sinica-Informationis-Skills",
+      "description": "面向《中国科学：信息科学》(SCIENTIA SINICA Informationis, SSI) 的 12 个中文技能，覆盖国家级大信息学科旗舰的投稿、审稿、修回与录用全流程，事实以官网 scis.scichina.com 与 CNKI/万方双源核实（2026-07-09），未确认项标注待核实。",
       "version": "0.1.0",
       "category": "academic"
     },
