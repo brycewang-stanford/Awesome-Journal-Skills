@@ -38,6 +38,12 @@ AOS publishes long papers and states no rigid word limit in its Guide for Author
 - References in the journal's author–date style; reconcile the reference list against the current Guide for Authors rather than trusting the citation manager.
 - Declare any generative-AI writing assistance per Elsevier policy (a declaration in the manuscript; AI tools cannot be authors).
 
+## The paragraph audit
+
+For a final pass, write each paragraph's job in the margin in five words or fewer ("introduces broker
+concept", "handles counter-evidence on X"). Paragraphs with no statable job get cut; adjacent paragraphs
+with the same job get merged. This audit is the cheapest route to AOS-grade density.
+
 ## Checklist
 
 - [ ] Every section advances the argument; excerpts are interpreted where they appear

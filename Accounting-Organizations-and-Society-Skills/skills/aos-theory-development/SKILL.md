@@ -40,6 +40,12 @@ Choose one tradition and inhabit it; AOS referees can tell a user of a theory fr
 - **Experimental:** Does theory fix the *direction* and the *condition* of the effect? Would a different process theory predict the same pattern (if so, design to discriminate)?
 - **Historical:** Is the account genealogical (how the present became possible) rather than a chronicle?
 
+## Reading depth test
+
+Before committing to a tradition, you should be able to (a) summarize its two or three primary sources
+from memory, (b) name one AOS paper that used it well and one that used it thinly, and (c) say what the
+tradition *cannot* explain. Failing (c) is the tell of a citer rather than a user.
+
 ## Checklist
 
 - [ ] One tradition chosen and named; its key sources actually read, not name-checked

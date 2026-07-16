@@ -38,6 +38,13 @@ description: Use when an Accounting, Organizations and Society (AOS) revise-and-
 - Refresh declarations if anything moved: new data collection → ethics statement; AI-assisted redrafting → AI declaration; new related publication of yours → disclosure.
 - Confirm the revised files remain fully anonymized — new acknowledgments and tracked-changes metadata are classic leaks.
 
+## Timing
+
+Interpretive revisions are slow by nature — recoding a corpus or returning to a field site takes months,
+not weeks. If the editor's deadline cannot accommodate the substantive work the letter demands, ask for
+an extension early with a concrete plan; AOS editors generally prefer a real revision late to a cosmetic
+one on time (confirm the journal's current extension practice with the handling editor).
+
 ## Checklist
 
 - [ ] Response matrix covers every point with an action class

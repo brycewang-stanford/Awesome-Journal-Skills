@@ -40,6 +40,12 @@ The currency is **conceptual**: after your paper, readers should think different
 4. Bound the claim: scope conditions, site particularities, design limits — stated as analysis, not ritual humility.
 5. Open genuine next questions the reconceptualization makes visible.
 
+## Quick self-test
+
+Read your contribution sentence to a colleague who knows the AOS canon but not your project. If their
+first question is "what was the effect size?" you framed an empirical claim; if it is "how does that
+square with [canonical paper]?" you framed a conceptual one — the AOS kind.
+
 ## Checklist
 
 - [ ] Contribution stated in one sentence, conceptual in kind

@@ -41,6 +41,12 @@ Write and revise anticipating **two archetypes at once** — the classic AOS ten
 - Diagnose which bar failed: scope (wrong journal), theory (lens decorative), or evidence (thin engagement/underpowered design). Reroute scope failures to a sibling venue (MAR, AAAJ, CPA, BRIA, CAR) rather than re-arguing AOS's mission.
 - Salvageable theory/evidence failures may return to AOS as genuinely new papers after substantial rework — flag the history honestly in the cover letter.
 
+## Before you submit: the two-referee dry run
+
+Give the draft to two colleagues playing different archetypes from the table above (one theory reader,
+one accounting/method reader) and collect their objections cold. Papers that survive this dry run rarely
+meet a review surprise; papers that skip it usually meet both archetypes for the first time in round one.
+
 ## Checklist
 
 - [ ] Submission matched to the tradition an EiC can champion
