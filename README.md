@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：4030 个 Agent Skill、289 个 Pack、519 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：4066 个 Agent Skill、292 个 Pack、521 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -66,7 +66,7 @@
     <a href="#-skill-pack-一览">📚 Skill Pack 一览</a> ·
     <a href="#-如何使用">⚡ 如何使用</a> ·
     <a href="showcase/README.md">🧪 自动实证 Showcase（真实运行证据）</a> ·
-    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（185 刊机读表）</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（282 刊机读表）</a> ·
     <a href="#-路线图">🗺 路线图</a> ·
     <a href="README.en.md">🌐 English</a>
   </sub>
@@ -370,7 +370,7 @@
 | <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
 | <a id="discipline-sport-science"></a>🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
-<sub>共 <b>289 个 pack / 4030 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>292 个 pack / 4066 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -843,8 +843,11 @@
 | <a href="Organization-Studies-Skills/"><img src="assets/covers/organization-studies.png" alt="Organization Studies" width="56"></a> | **Organization Studies** (OS) | [Organization-Studies-Skills/](Organization-Studies-Skills/) | 组织研究 | 12 |
 | <a href="Academy-of-Management-Annals-Skills/"><img src="assets/covers/academy-of-management-annals.png" alt="Academy of Management Annals" width="56"></a> | **Academy of Management Annals** (AMA) | [Academy-of-Management-Annals-Skills/](Academy-of-Management-Annals-Skills/) | 管理学综述 | 12 |
 | <a href="Review-of-Accounting-Studies-Skills/"><img src="assets/covers/review-of-accounting-studies.png" alt="Review of Accounting Studies" width="56"></a> | **Review of Accounting Studies** (RAST) | [Review-of-Accounting-Studies-Skills/](Review-of-Accounting-Studies-Skills/) | 会计学 | 12 |
+| <a href="Accounting-Organizations-and-Society-Skills/"><img src="assets/covers/accounting-organizations-and-society.png" alt="Accounting, Organizations and Society" width="56"></a> | **Accounting, Organizations and Society** (AOS) | [Accounting-Organizations-and-Society-Skills/](Accounting-Organizations-and-Society-Skills/) | 会计学（跨学科） | 12 |
 | <a href="Journal-of-the-Academy-of-Marketing-Science-Skills/"><img src="assets/covers/journal-of-the-academy-of-marketing-science.png" alt="Journal of the Academy of Marketing Science" width="56"></a> | **Journal of the Academy of Marketing Science** (JAMS) | [Journal-of-the-Academy-of-Marketing-Science-Skills/](Journal-of-the-Academy-of-Marketing-Science-Skills/) | 营销学 | 12 |
 | <a href="Journal-of-Consumer-Psychology-Skills/"><img src="assets/covers/journal-of-consumer-psychology.png" alt="Journal of Consumer Psychology" width="56"></a> | **Journal of Consumer Psychology** (JCP) | [Journal-of-Consumer-Psychology-Skills/](Journal-of-Consumer-Psychology-Skills/) | 消费者心理 | 12 |
+| <a href="Journal-of-International-Marketing-Skills/"><img src="Journal-of-International-Marketing-Skills/assets/cover.svg" alt="Journal of International Marketing" width="56"></a> | **Journal of International Marketing** (JIM) | [Journal-of-International-Marketing-Skills/](Journal-of-International-Marketing-Skills/) | 国际营销 | 12 |
+| <a href="Journal-of-Public-Policy-and-Marketing-Skills/"><img src="Journal-of-Public-Policy-and-Marketing-Skills/assets/cover.svg" alt="Journal of Public Policy &amp; Marketing" width="56"></a> | **Journal of Public Policy & Marketing** (JPP&M) | [Journal-of-Public-Policy-and-Marketing-Skills/](Journal-of-Public-Policy-and-Marketing-Skills/) | 营销与公共政策 | 12 |
 | <a href="Human-Resource-Management-Skills/"><img src="assets/covers/human-resource-management.png" alt="Human Resource Management" width="56"></a> | **Human Resource Management** (HRM) | [Human-Resource-Management-Skills/](Human-Resource-Management-Skills/) | 人力资源管理 | 12 |
 | <a href="Human-Relations-Skills/"><img src="assets/covers/human-relations.png" alt="Human Relations" width="56"></a> | **Human Relations** | [Human-Relations-Skills/](Human-Relations-Skills/) | 组织与管理 | 12 |
 | <a href="Entrepreneurship-Theory-and-Practice-Skills/"><img src="assets/covers/entrepreneurship-theory-and-practice.png" alt="Entrepreneurship Theory and Practice" width="56"></a> | **Entrepreneurship Theory and Practice** (ETP) | [Entrepreneurship-Theory-and-Practice-Skills/](Entrepreneurship-Theory-and-Practice-Skills/) | 创业学 | 12 |
@@ -1288,7 +1291,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>4030</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>289 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3355</b>（279 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>4030</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>4066</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>292 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3391</b>（282 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>4066</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1517,7 +1520,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change（12 skills）
 ├── Agricultural-Systems-Skills/   → Agricultural Systems（12 skills）
 ├── Field-Crops-Research-Skills/   → Field Crops Research（12 skills）
-│   # 根级 marketplace 清单（聚合全部 289 个仓库内 pack）
+│   # 根级 marketplace 清单（聚合全部 292 个仓库内 pack）
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1610,7 +1613,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，全仓库现共 **289 个 pack / 4030 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，并补齐了营销与会计的剩余旗舰刊（JIM · JPP&M · AOS），全仓库现共 **292 个 pack / 4066 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1625,12 +1628,12 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) —— 36 本英文人文期刊
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) —— 12 本中文体育学（体育科学）期刊
 - **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-- **单刊/单会全流程深度包（约 12 步）** —— 185 个仓库内自有 venue 包，覆盖 11 个主流学科板块：综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学（AER 与 Nature 以第三方外链形式收录）：
+- **单刊/单会全流程深度包（约 12 步）** —— 282 个仓库内自有 venue 包，覆盖 11 个主流学科板块：综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学（AER 与 Nature 以第三方外链形式收录）：
   - **英文经济学：** AER（外链收录）· AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **英文管理 / 运营 / 信息系统：** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
-  - **英文营销 / 消费者研究：** JM · JMR · JAMS · Marketing Science · JCR · Journal of Consumer Psychology
-  - **英文会计：** TAR · JAR · JAE · CAR · Review of Accounting Studies
+  - **英文营销 / 消费者研究：** JM · JMR · JAMS · Marketing Science · JCR · Journal of Consumer Psychology · Journal of International Marketing · Journal of Public Policy & Marketing
+  - **英文会计：** TAR · JAR · JAE · CAR · Review of Accounting Studies · Accounting, Organizations and Society
   - **英文自然科学：** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics（另收录 Nature 包）
   - **英文环境 / 生态 / 农业：** Environmental Science & Technology · Conservation Biology · Global Change Biology · Global Environmental Change · Agricultural Systems · Field Crops Research
   - **人文与广义社科（24）：** 社会学 ASR · AJS · Social Forces · SPQ · JMF · Criminology；人口学 Demography；政治学/IR APSR · AJPS · JOP · World Politics · International Organization；心理学 JPSP · Psychological Bulletin · Psychological Science；传播/舆论 Journal of Communication · POQ；教育 AERJ；人文 The American Historical Review · The Art Bulletin · Mind · PMLA · Critical Inquiry · JAAR
@@ -1639,9 +1642,8 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ### 🚧 待办 —— 下一梯队扩展
 
-上一版路线图的优先深度包候选、以及人文与广义社科 / 环境 / 农业首批扩展均已落地。下一梯队的待选项：
+上一版路线图的优先深度包候选、人文与广义社科 / 环境 / 农业首批扩展、以及剩余英文营销与会计深度包（JPP&M / JIM / Accounting, Organizations and Society）均已落地。下一梯队的待选项：
 
-- **剩余英文营销与会计深度包：** JPP&M / JIM；Accounting, Organizations and Society。
 - **更多学科旗舰自然科学刊**（在现有基础上扩展：Cell Press / Nature 子刊家族，以及地球科学、材料领域的学科领头刊）。
 - **更多人文与广义社科旗舰刊**（在现有 51 本之外，按学科补齐法学、人类学、地理学、语言学等领域的代表刊）。
 - **更多中文重点刊**（在现有 15 本之外，按需求扩展 CSSCI / FMS 高质量期刊）。

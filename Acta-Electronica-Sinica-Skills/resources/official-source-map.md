@@ -6,6 +6,11 @@
 
 ## 一、访问方法说明（access-method note）
 
+- **官方来源 URL**（以下为本文件事实的权威出处入口）：
+  - 期刊官网：<https://www.ejournal.org.cn/>
+  - 主办单位（中国电子学会）：<https://www.cie.org.cn/>
+  - 编辑部投审稿系统：<https://dzxbzzs.juqk.net/>
+  - 英文姊妹刊 CJE：<https://cje.ejournal.org.cn/>
 - **官网 ejournal.org.cn / cie.org.cn**：直接 WebFetch 返回 HTTP 403，改用 WebSearch 读取其页面
   标题与摘要渲染。
 - **CNKI / 万方 / 维普**：通过 WebSearch 读取期刊主页渲染（wanfangdata、cqvip、caod.oriprobe 等）。

@@ -1,0 +1,26 @@
+{
+  "name": "aos-skills",
+  "description": "Agent skill stack for manuscripts targeted at Accounting, Organizations and Society (AOS), the flagship interdisciplinary accounting journal founded by Anthony Hopwood in 1976 and published by Elsevier. AOS studies the social, organizational, behavioral and institutional aspects of accounting, so this stack is theory-first and methodologically plural: qualitative field studies, experimental/behavioral accounting, surveys, historical and critical work, and archival designs that carry organizational or social theorizing. Covers topic selection and scope fit (including the desk-reject risk of JAR/JAE-style capital-markets papers), theorizing with institutional theory, governmentality, Bourdieu, actor-network theory and practice theory, qualitative and experimental methods, analysis and reporting, Editorial Manager submission under double-anonymized review, and R&R rebuttals to interdisciplinary reviewer panels. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/aos-skills",
+  "repository": "https://github.com/brycewang-stanford/aos-skills",
+  "keywords": [
+    "accounting-organizations-and-society",
+    "aos",
+    "interdisciplinary-accounting",
+    "qualitative-field-studies",
+    "behavioral-accounting",
+    "experimental-accounting",
+    "institutional-theory",
+    "governmentality",
+    "actor-network-theory",
+    "critical-accounting",
+    "elsevier",
+    "academic-writing"
+  ]
+}

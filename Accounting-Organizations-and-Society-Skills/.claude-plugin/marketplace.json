@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "aos-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Accounting, Organizations and Society (AOS), the flagship interdisciplinary accounting journal published by Elsevier.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "aos-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Accounting, Organizations and Society (AOS) manuscript lifecycle, from topic selection through R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/aos-skills",
+      "repository": "https://github.com/brycewang-stanford/aos-skills",
+      "keywords": [
+        "accounting-organizations-and-society",
+        "aos",
+        "interdisciplinary-accounting",
+        "qualitative-field-studies",
+        "behavioral-accounting",
+        "critical-accounting",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/aos-workflow",
+        "skills/aos-topic-selection",
+        "skills/aos-theory-development",
+        "skills/aos-literature-positioning",
+        "skills/aos-methods",
+        "skills/aos-data-analysis",
+        "skills/aos-contribution-framing",
+        "skills/aos-tables-figures",
+        "skills/aos-writing-style",
+        "skills/aos-submission",
+        "skills/aos-review-process",
+        "skills/aos-rebuttal"
+      ]
+    }
+  ]
+}

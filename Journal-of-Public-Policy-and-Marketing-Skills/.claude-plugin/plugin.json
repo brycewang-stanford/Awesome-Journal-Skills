@@ -1,0 +1,25 @@
+{
+  "name": "jppm-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of Public Policy & Marketing (JPP&M). Twelve role skills carry a paper from policy-first topic selection through policy-evaluation methods, regulator-facing contribution framing, SageTrack submission, and revision, with source-backed JPP&M guardrails.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jppm-skills",
+  "repository": "https://github.com/brycewang-stanford/jppm-skills",
+  "keywords": [
+    "jppm",
+    "journal-of-public-policy-and-marketing",
+    "marketing-and-public-policy",
+    "consumer-protection",
+    "policy-evaluation",
+    "regulation",
+    "consumer-welfare",
+    "vulnerable-consumers",
+    "privacy-policy",
+    "academic-writing",
+    "journal-skills"
+  ]
+}

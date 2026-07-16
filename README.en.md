@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 4030 agent skills, 289 packs, 519 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 4066 agent skills, 292 packs, 521 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -66,7 +66,7 @@ Click any discipline name to jump to its explanation. Representative subfields a
     <a href="#-the-skill-packs">📚 The Skill Packs</a> ·
     <a href="#-how-to-use">⚡ How to Use</a> ·
     <a href="showcase/README.md">🧪 Executed Empirical Showcase</a> ·
-    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue Index (185 venues, machine-readable)</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue Index (282 venues, machine-readable)</a> ·
     <a href="#-roadmap">🗺 Roadmap</a> ·
     <a href="README.md">🌐 简体中文</a>
   </sub>
@@ -370,7 +370,7 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 | <a id="discipline-agri-env-earth"></a>🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
 | <a id="discipline-sport-science"></a>🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
 
-<sub><b>289 packs / 4030 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>292 packs / 4066 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -843,8 +843,11 @@ Depth packs for the CCF-recommended **Chinese-language journals** (distinct from
 | <a href="Organization-Studies-Skills/"><img src="assets/covers/organization-studies.png" alt="Organization Studies" width="56"></a> | **Organization Studies** (OS) | [Organization-Studies-Skills/](Organization-Studies-Skills/) | Organization studies | 12 |
 | <a href="Academy-of-Management-Annals-Skills/"><img src="assets/covers/academy-of-management-annals.png" alt="Academy of Management Annals" width="56"></a> | **Academy of Management Annals** (AMA) | [Academy-of-Management-Annals-Skills/](Academy-of-Management-Annals-Skills/) | Management reviews | 12 |
 | <a href="Review-of-Accounting-Studies-Skills/"><img src="assets/covers/review-of-accounting-studies.png" alt="Review of Accounting Studies" width="56"></a> | **Review of Accounting Studies** (RAST) | [Review-of-Accounting-Studies-Skills/](Review-of-Accounting-Studies-Skills/) | Accounting | 12 |
+| <a href="Accounting-Organizations-and-Society-Skills/"><img src="assets/covers/accounting-organizations-and-society.png" alt="Accounting, Organizations and Society" width="56"></a> | **Accounting, Organizations and Society** (AOS) | [Accounting-Organizations-and-Society-Skills/](Accounting-Organizations-and-Society-Skills/) | Interdisciplinary accounting | 12 |
 | <a href="Journal-of-the-Academy-of-Marketing-Science-Skills/"><img src="assets/covers/journal-of-the-academy-of-marketing-science.png" alt="Journal of the Academy of Marketing Science" width="56"></a> | **Journal of the Academy of Marketing Science** (JAMS) | [Journal-of-the-Academy-of-Marketing-Science-Skills/](Journal-of-the-Academy-of-Marketing-Science-Skills/) | Marketing | 12 |
 | <a href="Journal-of-Consumer-Psychology-Skills/"><img src="assets/covers/journal-of-consumer-psychology.png" alt="Journal of Consumer Psychology" width="56"></a> | **Journal of Consumer Psychology** (JCP) | [Journal-of-Consumer-Psychology-Skills/](Journal-of-Consumer-Psychology-Skills/) | Consumer psychology | 12 |
+| <a href="Journal-of-International-Marketing-Skills/"><img src="Journal-of-International-Marketing-Skills/assets/cover.svg" alt="Journal of International Marketing" width="56"></a> | **Journal of International Marketing** (JIM) | [Journal-of-International-Marketing-Skills/](Journal-of-International-Marketing-Skills/) | International marketing | 12 |
+| <a href="Journal-of-Public-Policy-and-Marketing-Skills/"><img src="Journal-of-Public-Policy-and-Marketing-Skills/assets/cover.svg" alt="Journal of Public Policy &amp; Marketing" width="56"></a> | **Journal of Public Policy & Marketing** (JPP&M) | [Journal-of-Public-Policy-and-Marketing-Skills/](Journal-of-Public-Policy-and-Marketing-Skills/) | Marketing & public policy | 12 |
 | <a href="Human-Resource-Management-Skills/"><img src="assets/covers/human-resource-management.png" alt="Human Resource Management" width="56"></a> | **Human Resource Management** (HRM) | [Human-Resource-Management-Skills/](Human-Resource-Management-Skills/) | Human resource management | 12 |
 | <a href="Human-Relations-Skills/"><img src="assets/covers/human-relations.png" alt="Human Relations" width="56"></a> | **Human Relations** | [Human-Relations-Skills/](Human-Relations-Skills/) | Org. & management | 12 |
 | <a href="Entrepreneurship-Theory-and-Practice-Skills/"><img src="assets/covers/entrepreneurship-theory-and-practice.png" alt="Entrepreneurship Theory and Practice" width="56"></a> | **Entrepreneurship Theory and Practice** (ETP) | [Entrepreneurship-Theory-and-Practice-Skills/](Entrepreneurship-Theory-and-Practice-Skills/) | Entrepreneurship | 12 |
@@ -1288,7 +1291,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>4030</b> = every in-repository <code>SKILL.md</code>, spread across <b>289 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3355</b> (279 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>4030</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>4066</b> = every in-repository <code>SKILL.md</code>, spread across <b>292 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3391</b> (282 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>4066</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1517,7 +1520,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change (12 skills)
 ├── Agricultural-Systems-Skills/   → Agricultural Systems (12 skills)
 ├── Field-Crops-Research-Skills/   → Field Crops Research (12 skills)
-│   # Root marketplace manifest (aggregates all 289 in-repo packs)
+│   # Root marketplace manifest (aggregates all 292 in-repo packs)
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1611,7 +1614,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), for a repo-wide total of **289 packs / 4030 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), plus the remaining flagship marketing & accounting venues (JIM · JPP&M · AOS), for a repo-wide total of **292 packs / 4066 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -1626,12 +1629,12 @@ use next for my manuscript targeted at <journal>.
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) — 36 English humanities journals
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) — 12 Chinese sport-science (体育学) journals
 - **Per-journal cover wall** for breadth journals, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full end-to-end depth packs (~12 steps)** — 185 first-party venue packs across the full discipline map (AER and Nature are listed as external third-party resources):
+- **Full end-to-end depth packs (~12 steps)** — 282 first-party venue packs across the full discipline map (AER and Nature are listed as external third-party resources):
   - **English economics:** AER (external listing) · AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **English finance:** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **English management / OM / IS:** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
-  - **English marketing / consumer research:** JM · JMR · JAMS · Marketing Science · JCR · Journal of Consumer Psychology
-  - **English accounting:** TAR · JAR · JAE · CAR · Review of Accounting Studies
+  - **English marketing / consumer research:** JM · JMR · JAMS · Marketing Science · JCR · Journal of Consumer Psychology · Journal of International Marketing · Journal of Public Policy & Marketing
+  - **English accounting:** TAR · JAR · JAE · CAR · Review of Accounting Studies · Accounting, Organizations and Society
   - **English natural science:** Science · Cell · PNAS · NEJM · The Lancet · JAMA · Cancer Cell · Physical Review Letters · JACS · Annals of Mathematics (plus Nature as a curated pack)
   - **English environment / ecology / agriculture:** Environmental Science & Technology · Conservation Biology · Global Change Biology · Global Environmental Change · Agricultural Systems · Field Crops Research
   - **Humanities & broader social science (24):** Sociology ASR · AJS · Social Forces · SPQ · JMF · Criminology; Demography; Political science / IR APSR · AJPS · JOP · World Politics · International Organization; Psychology JPSP · Psychological Bulletin · Psychological Science; Communication / opinion Journal of Communication · POQ; Education AERJ; Humanities The American Historical Review · The Art Bulletin · Mind · PMLA · Critical Inquiry · JAAR
@@ -1640,9 +1643,7 @@ use next for my manuscript targeted at <journal>.
 
 ### 🚧 Pending — next expansion
 
-The previous roadmap's prioritized depth-pack candidates, plus the first wave of humanities / broader-social-science / environment / agriculture expansion, have all shipped. Open candidates for the next tier:
-
-- **Remaining English marketing & accounting depth packs:** JPP&M / JIM; Accounting, Organizations and Society.
+The previous roadmap's prioritized depth-pack candidates, the first wave of humanities / broader-social-science / environment / agriculture expansion, and the remaining English marketing & accounting depth packs (JPP&M / JIM / Accounting, Organizations and Society) have all shipped. Open candidates for the next tier:
 - **More subject-flagship natural science** beyond the current set (additional Cell Press / Nature Portfolio sub-journals; discipline leaders in earth science and materials).
 - **More humanities & broader-social-science flagships** beyond the current 51 (representative venues in law, anthropology, geography, linguistics, and more).
 - **More Chinese flagships** beyond the current 15 (additional CSSCI / FMS high-quality venues, by demand).

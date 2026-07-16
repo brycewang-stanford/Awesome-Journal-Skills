@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jppm-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of Public Policy & Marketing manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jppm-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of Public Policy & Marketing (JPP&M) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jppm-skills",
+      "repository": "https://github.com/brycewang-stanford/jppm-skills",
+      "keywords": [
+        "jppm",
+        "journal-of-public-policy-and-marketing",
+        "marketing-and-public-policy",
+        "consumer-protection",
+        "policy-evaluation",
+        "regulation",
+        "consumer-welfare"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jppm-workflow",
+        "skills/jppm-topic-selection",
+        "skills/jppm-theory-development",
+        "skills/jppm-literature-positioning",
+        "skills/jppm-methods",
+        "skills/jppm-data-analysis",
+        "skills/jppm-contribution-framing",
+        "skills/jppm-tables-figures",
+        "skills/jppm-writing-style",
+        "skills/jppm-submission",
+        "skills/jppm-review-process",
+        "skills/jppm-rebuttal"
+      ]
+    }
+  ]
+}
