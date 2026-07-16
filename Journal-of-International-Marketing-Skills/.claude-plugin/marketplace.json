@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jim-skills",
+  "version": "0.1.0",
+  "description": "Twelve-skill bundle for Journal of International Marketing manuscripts.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jim-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Journal of International Marketing (JIM) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/jim-skills",
+      "repository": "https://github.com/brycewang-stanford/jim-skills",
+      "keywords": [
+        "jim",
+        "journal-of-international-marketing",
+        "international-marketing",
+        "cross-cultural-research",
+        "measurement-invariance",
+        "global-branding",
+        "export-marketing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jim-workflow",
+        "skills/jim-topic-selection",
+        "skills/jim-theory-development",
+        "skills/jim-literature-positioning",
+        "skills/jim-methods",
+        "skills/jim-data-analysis",
+        "skills/jim-contribution-framing",
+        "skills/jim-tables-figures",
+        "skills/jim-writing-style",
+        "skills/jim-submission",
+        "skills/jim-review-process",
+        "skills/jim-rebuttal"
+      ]
+    }
+  ]
+}

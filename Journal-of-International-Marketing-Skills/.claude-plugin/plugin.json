@@ -1,0 +1,25 @@
+{
+  "name": "jim-skills",
+  "description": "Agent skill stack for manuscripts targeted at the Journal of International Marketing (JIM), the AMA/SAGE specialist top journal for international marketing. Twelve role skills enforce JIM's distinctive bar: cross-national theorizing as the paper's engine, multi-country designs with measurement-invariance discipline, and decision rules for firms operating across borders, from topic selection through the ScholarOne preflight and the revision round.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/jim-skills",
+  "repository": "https://github.com/brycewang-stanford/jim-skills",
+  "keywords": [
+    "jim",
+    "journal-of-international-marketing",
+    "international-marketing",
+    "cross-cultural-research",
+    "measurement-invariance",
+    "global-branding",
+    "export-marketing",
+    "entry-modes",
+    "emerging-markets",
+    "academic-writing",
+    "journal-skills"
+  ]
+}
