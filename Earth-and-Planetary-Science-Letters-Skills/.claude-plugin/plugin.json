@@ -1,0 +1,30 @@
+{
+  "name": "epsl-skills",
+  "description": "Agent skill stack for manuscripts targeted at Earth and Planetary Science Letters (EPSL) — Elsevier's flagship letters journal for solid-Earth and planetary science (founded 1966, ISSN 0012-821X), submitted through Editorial Manager under editor-screened expert peer review. EPSL publishes concise, high-significance Letters on the physical, chemical and mechanical processes of the Earth and other planets (including extrasolar ones), from deep interiors to atmospheres, spanning geochemistry, geophysics, geochronology, geodynamics, petrology, paleomagnetism, cosmochemistry and planetary interiors. The stack is built around what actually decides an EPSL paper: the letters-format word budget, a process-level advance rather than a regional case study, full analytical-uncertainty reporting for isotope and geochronology data, FAIR data deposition (EarthChem, PANGAEA, IRIS/EarthScope, MagIC, NASA PDS, Zenodo), and framing that reaches a multi-disciplinary Earth-and-planets readership. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/epsl-skills",
+  "repository": "https://github.com/brycewang-stanford/epsl-skills",
+  "keywords": [
+    "earth-and-planetary-science-letters",
+    "epsl",
+    "elsevier",
+    "solid-earth",
+    "geochemistry",
+    "geophysics",
+    "geochronology",
+    "geodynamics",
+    "planetary-science",
+    "isotope-geochemistry",
+    "editorial-manager",
+    "fair-data",
+    "earthchem",
+    "pangaea",
+    "letters-format",
+    "academic-writing"
+  ]
+}

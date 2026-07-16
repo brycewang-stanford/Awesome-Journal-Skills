@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cjms-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at 《中国管理科学》 (Chinese Journal of Management Science), the CAS-supervised applied quantitative-management flagship.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "cjms-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the 《中国管理科学》 manuscript lifecycle, from topic selection and applied modeling through zgglkx.com submission and referee rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/cjms-skills",
+      "repository": "https://github.com/brycewang-stanford/cjms-skills",
+      "keywords": [
+        "chinese-journal-of-management-science",
+        "management-science-and-engineering",
+        "applied-optimization",
+        "financial-engineering",
+        "forecasting",
+        "cssci",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/cjms-workflow",
+        "skills/cjms-topic-selection",
+        "skills/cjms-literature-review",
+        "skills/cjms-model-formulation",
+        "skills/cjms-solution-algorithm",
+        "skills/cjms-empirical-validation",
+        "skills/cjms-numerical-experiments",
+        "skills/cjms-managerial-insights",
+        "skills/cjms-tables-figures",
+        "skills/cjms-writing-style",
+        "skills/cjms-submission",
+        "skills/cjms-rebuttal"
+      ]
+    }
+  ]
+}

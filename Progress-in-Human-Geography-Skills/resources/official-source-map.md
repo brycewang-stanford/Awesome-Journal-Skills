@@ -1,50 +1,67 @@
 # Progress in Human Geography — Official Source Map
 
-Primary source map for facts used in the PiHG skill pack. **Access date: 2026-06.** Re-check editor
-names, strand word limits, the exact abstract limit, reference style, figure specs, portal URL, and
-open-access status before relying on them. Items not confirmed from an official page are marked
-**需复核** in the skills.
+Primary and authoritative sources behind the PiHG-specific facts injected into this skill pack.
+Access date for all entries: **Checked: 2026-07-16** (以官网为准). Re-verify volatile items (current
+editors and terms, exact caps, abstract length, keyword minimum, fee/OA options, policy wording, ORCID
+requirement) on the official pages before relying on them — journal pages change.
 
-## Official pages
+## Official journal, submission & author pages
 
-- **https://journals.sagepub.com/home/phg** — journal home: scope, aims, current editorial team, contents. Access date: 2026-06.
-- **https://journals.sagepub.com/author-instructions/phg** — SAGE submission/author guidelines (article strands, limits, abstract, peer review, ethics). Access date: 2026-06.
-- **https://www.sagepub.com/docs/default-source/msg/submission-guidelines_-progress-in-human-geography_-sage-journals.pdf** — downloadable submission-guidelines PDF (strands, word limits, abstract). Access date: 2026-06.
-- **https://mc.manuscriptcentral.com/pihg** — ScholarOne Manuscripts submission portal (检索于 2026-06；以官网为准). Access date: 2026-06.
+- **https://journals.sagepub.com/home/phg** — PiHG home on SAGE Journals. Verifies: the journal is the
+  discipline's leading **review journal**, publishing **critical reviews** and commissioned **Progress
+  Reports**; published by **SAGE**; **six issues per year** in print plus continuous online publication;
+  print **ISSN 0309-1325**, online **eISSN 1477-0288**.
+- **https://journals.sagepub.com/author-instructions/phg** — PiHG Submission Guidelines. Verifies: the
+  journal is **concerned primarily with critical reviews** of philosophical, conceptual, theoretical,
+  topical, methodological, ethical, and political issues and **does not publish the results of empirical
+  work or accounts of detailed cases**; review papers should **not normally be less than 4,000 words** and
+  should **not exceed 8,000 words** (inclusive of endnotes, excluding the bibliography); an **unstructured
+  abstract of ~100 words**; a **minimum of five keywords**; **SAGE Harvard** referencing; **double-
+  anonymized** peer review; submission via **SAGE Track**; **COPE** member; **no submission or
+  publication fee** (open-access options available). (Confirm exact wording on the live page.)
+- **https://journals.sagepub.com/editorial-board/phg** — PiHG Editorial Board (current editors and board;
+  the masthead rotates — confirm the current slate here).
 
-## Facts used in the skills (verified where noted)
+## Owner, publisher, history
 
-| Fact | Value / status | Source |
-|------|----------------|--------|
-| Publisher / owner | SAGE Publications | Journal home |
-| Founded | 1977 | Wikipedia (cross-check on official page) |
-| ISSN | 0309-1325 (print) · 1477-0288 (online) | Journal home / Wikipedia (re-confirm) |
-| Frequency | bimonthly (6 issues/year) + Online First | Journal home / author guidelines |
-| Scope | critical reviews of current philosophical/conceptual/theoretical/topical/methodological/ethical/political issues in human geography | Author guidelines |
-| Does NOT publish | **results of empirical work or accounts of detailed cases** | Author guidelines |
-| Progress reports | **commissioned by the editors**; critical, regular summaries of work in human-geography subfields | Journal home / author guidelines |
-| Content strands | Perspectives, Reviews, Opinions, Biographies, Key Publications | Author guidelines |
-| Word limits | Reviews ~8,000; Perspectives/Opinions ~3,000; Biographies/Key Publications ~5,000; progress reports short (~1,500–4,000 by type) — **需复核, confirm** | Submission-guidelines PDF |
-| Abstract | unstructured, ~100–150 words — **需复核, confirm exact limit** | Author guidelines / PDF |
-| Peer review | **double-anonymized** (blind both ways) | Author guidelines |
-| Editor-in-chief | Noel Castree (检索于 2026-06；**需复核, editors rotate**) | Journal home |
-| Submission portal | SAGE ScholarOne Manuscripts (mc.manuscriptcentral.com/pihg) | Author guidelines |
-| ORCID | required/expected at submission | Author guidelines |
-| Ethics | COPE standards; ICMJE-style authorship & disclosure; AI-use disclosure required | Author guidelines |
-| Open access | SAGE hybrid OA option (Sage Choice) with an APC — **APC amount 需复核** | SAGE OA pages |
-| Impact metric | high (JIF historically among the top geography journals; e.g. ~5.0 in mid-2010s) — volatile, re-confirm | JCR via secondary sources |
+- **https://en.wikipedia.org/wiki/Progress_in_Human_Geography** — Verifies: **bimonthly**, peer-reviewed;
+  **established 1977** at **Edward Arnold** as the human-geography counterpart to *Progress in Physical
+  Geography*; now published by **SAGE**; comprises **blind-reviewed review articles** and commissioned
+  **Progress Reports**; the annual **Progress in Human Geography Lecture** is a recurring feature.
 
-## Sibling boundary
+## Distinctive genres (confirm current practice on the SAGE page)
 
-- **Annals of the American Association of Geographers (AAG)** — flagship for primary research across four areas; publishes original empirical findings, PiHG does not.
-- **Transactions of the Institute of British Geographers (RGS-IBG)** — primary research plus some review/commentary; PiHG is review/state-of-the-art only.
-- **Antipode** — radical geography (often with original empirical/activist work); PiHG reviews radical scholarship but is not Antipode.
-- **Progress in Economic Geography / Dialogues in Human Geography** — adjacent SAGE/Elsevier outlets; check the venue of any candidate exemplar.
+- **Review article** — the free-standing, unsolicited critical review; the main route for an author.
+- **Progress Report** — **commissioned by the editors**; a critical, periodic survey of recent work in a
+  sub-field, written by a senior figure and rotated over a multi-year cycle. Not an open submission.
+- **The Progress in Human Geography Lecture** — an invited annual lecture, published in the journal.
+- **Shorter interventions / classics / commentaries** — formats vary over time; confirm on the live page.
 
-## Unverified / volatile items
+## Sibling-journal guardrail (do not misattribute)
 
-- Current editor names and the Editorial Advisory Board are **需复核** unless quoted from an official page at submission time.
-- Exact strand word limits and the abstract limit are **需复核** — confirm on the author pages / PDF.
-- Reference-style details, figure specs, portal file requirements, and the OA APC are **需复核** if not visible on the official pages above.
-- The impact-factor figure is volatile (annual) — re-check the current Journal Citation Reports value.
-- Exemplar articles must be verified by DOI / publisher record (and confirmed to be PiHG, not a sibling) before being cited as real examples.
+- **Annals of the American Association of Geographers** (Taylor & Francis / AAG) — broad **empirical**
+  flagship, not a review journal.
+- **Transactions of the Institute of British Geographers** (RGS-IBG / Wiley) — UK **empirical** flagship.
+- **Environment and Planning A / D** (SAGE) — theory-heavy but publishes **empirical** and conceptual papers.
+- **Antipode** (Wiley) / **Geoforum** (Elsevier) — critical **empirical** and theoretical interventions.
+- **Progress in Physical Geography: Earth and Environment** (SAGE) — the **physical-geography** sibling review journal.
+
+## Live-check / 待核实 items
+
+- **Current Editor(s) and editorial team**: PiHG has had a long-running managing editor and a rotating
+  editorial team; the exact current slate and any incoming editors were not fixed verbatim here. Confirm
+  on the Editorial Board page. 待核实.
+- **Exact word cap and abstract length**: the guidelines state review papers ~4,000–8,000 words (incl.
+  endnotes, excl. bibliography) and a ~100-word unstructured abstract; confirm the precise current figures
+  on the live Submission Guidelines page. 待核实.
+- **Keyword minimum**: a minimum of five keywords is stated; confirm the current minimum/maximum. 待核实.
+- **ORCID requirement**: SAGE commonly requests/encourages ORCID for the submitting author; whether it is
+  *mandatory* for PiHG was not confirmed verbatim. 待核实.
+- **Open-access / APC figures**: no submission or publication fee is stated for standard articles; any
+  Gold/Hybrid OA APC is handled by SAGE. Confirm current figures on the SAGE page. 待核实.
+- **AI-use and research-integrity policy wording**: PiHG follows SAGE's research-integrity and generative-AI
+  policies; confirm the current wording and any disclosure requirement on the SAGE policy pages. 待核实.
+- **Data / reproducibility expectations for reviews**: as a non-empirical journal PiHG has limited data
+  expectations, but a systematic review may be expected to document its search; confirm any current
+  requirement. 待核实.
+- **Desk-rejection rate, time-to-decision**: not stated as fixed numbers. 待核实.

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "advmat-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Advanced Materials (Adv. Mater.), Wiley-VCH's flagship materials-science journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "advmat-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Advanced Materials (Adv. Mater.) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/advmat-skills",
+      "repository": "https://github.com/brycewang-stanford/advmat-skills",
+      "keywords": [
+        "advanced-materials",
+        "adv-mater",
+        "wiley-vch",
+        "materials-science",
+        "characterization",
+        "supporting-information",
+        "peer-review"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/advmat-workflow",
+        "skills/advmat-scope-fit",
+        "skills/advmat-results-framing",
+        "skills/advmat-methods",
+        "skills/advmat-figures",
+        "skills/advmat-supplementary",
+        "skills/advmat-writing-style",
+        "skills/advmat-length-management",
+        "skills/advmat-cover-letter",
+        "skills/advmat-submission",
+        "skills/advmat-referee-strategy",
+        "skills/advmat-revision"
+      ]
+    }
+  ]
+}

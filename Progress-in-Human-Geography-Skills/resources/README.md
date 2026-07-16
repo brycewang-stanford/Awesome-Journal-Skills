@@ -1,23 +1,30 @@
-# Progress in Human Geography Resource Layer
+# Progress in Human Geography — Resources
 
-This directory supports the `proghg-*` skills with source-backed references and synthesis
-scaffolding. PiHG publishes **critical review and conceptual articles** (no original empirical data of
-its own), so this layer centers on coverage discipline, scholarly apparatus, exemplar awareness, and
-source honesty rather than an empirical replication kit.
+Capability layer for the **PiHG** skill pack. PiHG is a **review and theory** journal, so this pack does
+**not** vendor an empirical code kit or a causal-inference toolbox. Instead it points to the tooling and
+reference material an author needs to **command a large literature and build a synthetic argument** — the
+actual work the journal rewards.
 
-| Resource | Purpose |
-|----------|---------|
-| [`official-source-map.md`](official-source-map.md) | Official SAGE/PiHG URLs and volatile facts |
-| [`external_tools.md`](external_tools.md) | Bibliographic databases, search/synthesis tools, and deposit repositories |
-| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Fictional before/after review introduction in the PiHG voice |
-| [`exemplars/library.md`](exemplars/library.md) | Real-paper slots with source discipline and sibling-journal guardrails |
+## Contents
 
-This pack **does not vendor a `code/` kit**: a PiHG review reports no primary estimates, so there is no
-empirical replication kit to vendor. The transparency obligation instead falls on the **scholarly
-apparatus, positionality, and coverage account** — see
-[`../skills/proghg-transparency-and-reproducibility/SKILL.md`](../skills/proghg-transparency-and-reproducibility/SKILL.md).
+| Resource | What it gives an agent |
+|---|---|
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | A before→after rewrite of a review-essay introduction in PiHG house style (state of a debate → why it is stuck → the critical intervention → the organizing concept → the forward agenda). Illustrative fictional review. |
+| [`exemplars/library.md`](exemplars/library.md) | Benchmark against **landmark human-geography review/theory works and theorists** — the mode of synthesis and intervention PiHG rewards. Positioning only; genre guardrail included; verify exact placement before citing. |
+| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (genres, review model, caps, abstract, keywords, style, ethics) with sourcing discipline and 待核实 markers. |
+| [`external_tools.md`](external_tools.md) | Systematic-review, bibliometric, reference-management, and qualitative-synthesis software relevant to a review essay. |
 
-Shared-method references (background only — a review appraises others' designs, it runs none of its own):
+## How to use
 
-- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — to *appraise* the credibility of the primary studies the review synthesizes
-- [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md) — the standards by which to weigh whether a reviewed study is well-reported
+1. **Before deciding to write** — test whether the topic is *review-worthy* and whether you have a genuine
+   intervention (`phg-topic-selection`, `phg-critical-intervention`); a summary is not enough for PiHG.
+2. **While assembling the corpus** — use `external_tools.md` to build a defensible literature base (Zotero
+   + Scopus/WoS; VOSviewer/PRISMA where the review is structured), then read and adjudicate it, not just
+   count it.
+3. **While drafting** — benchmark the synthesis and framing against the exemplar mode in
+   `exemplars/library.md` and the arc in `worked-examples/01-introduction.md`.
+4. **Before submission** — walk `official-source-map.md` for the current caps, abstract, keywords, style,
+   and review model, and confirm volatile items on the live SAGE page.
+
+> Reminder: PiHG **does not publish empirical results or detailed cases**. Every resource here serves the
+> review-essay genre — a synthetic, critical, forward-looking argument about a literature — not a study.

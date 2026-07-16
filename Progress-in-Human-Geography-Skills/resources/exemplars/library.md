@@ -1,37 +1,106 @@
-# Progress in Human Geography — Exemplar Library
+# PiHG Exemplars Library (the review/theory mode)
 
-Access date: **2026-06.** The entries below are candidate *Progress in Human Geography* articles.
-The PiHG DOI stem is **10.1177/0309132…** (the journal's article identifier prefix); always confirm a
-candidate's DOI **and** that the venue is PiHG before relying on a citation. **Sibling-journal guard:**
-do not import Annals of the AAG, Transactions of the IBG, Antipode, *Dialogues in Human Geography*, or
-*Environment and Planning* papers as PiHG exemplars — always check the venue (e.g. DOI stem
-`10.1177/0308518X…` is *Environment and Planning A*, **not** PiHG). Use these to study how a PiHG
-review *organizes a subfield, argues a position, and ends with an agenda*, not as content to copy.
+> **What this file is.** A benchmark for the **kind of synthetic, critical, agenda-setting move** that
+> *Progress in Human Geography* rewards — not a citation list to copy. PiHG publishes **review essays and
+> commissioned Progress Reports**, so the exemplars below are **landmark human-geography review/theory
+> works** whose way of *re-ordering a debate* is worth studying. Access date **2026-07-16**.
+>
+> **Zero-hallucination discipline.** Citations here are deliberately **coarse** (author, approximate year,
+> work) because exact issue/page is not the point and precise placement is easy to get wrong. **Many of
+> these landmark works are books or essays that appeared elsewhere, NOT in PiHG.** Do **not** attribute any
+> of them to PiHG without checking SAGE Journals first (see the guardrail below). Read the original before
+> citing any claim.
 
-## Candidate PiHG articles (verify each before citing)
+---
 
-| Subfield / craft lesson | Article (verify) | Why it is instructive | Status |
-|-------------------------|------------------|------------------------|--------|
-| **Development geography — progress report / agenda** | Silvey R, Rankin K. 2011. "Development geography: Critical development studies and political geographic imaginaries." *Prog. Hum. Geogr.* 35(5):696–704. DOI 10.1177/0309132510385523 | A commissioned progress-report form: critically synthesizes a period of development geography and sets an agenda — the "argument over roundup" mandate in the short report format. | DOI stem matches PiHG (0309132); confirm exact pages/title on the publisher page before citing — **待核实** |
-| **Economic geography — institutions / theory** | Farole T, Rodríguez-Pose A, Storper M. 2011. "Human geography and the institutions that underlie economic growth." *Prog. Hum. Geogr.* 35(1):58–80. DOI 10.1177/0309132510372005 | A theoretically-framed review essay that imposes a conceptual argument linking institutions and growth across a fragmented literature — synthesis prose making positions talk to each other. | DOI stem matches PiHG (0309132); confirm venue + pages on the publisher page — **待核实** |
+## How to use this library
 
-> Honesty note: at the access date these DOIs carried the PiHG article-prefix `10.1177/0309132…`, but
-> the publisher DOI landing page could not be fully parsed in this build. Treat both as **待核实** and
-> confirm title, authors, volume/issue/pages, and that the venue is *Progress in Human Geography* on the
-> SAGE page before citing. A near-identical-sounding article ("Feminist inclusions in economic
-> geography", MacLeavy/Roberts/Strauss 2016, DOI `10.1177/0308518X…`) is in *Environment and Planning
-> A*, **not** PiHG — a live sibling-journal trap.
+Pick the work whose **move** is closest to yours and study *how it works as a review/theory intervention*:
+does it (1) synthesize a large, contested literature into one argument, (2) name what the field has been
+missing, and (3) leave the discipline with a **portable, forward-looking agenda**? That triad — not any
+particular finding — is the PiHG standard (see
+[`../../skills/phg-critical-intervention/SKILL.md`](../../skills/phg-critical-intervention/SKILL.md) and
+[`../../skills/phg-contribution-framing/SKILL.md`](../../skills/phg-contribution-framing/SKILL.md)).
 
-## Guarded slots to fill from the live archive
+---
 
-Verify each against the SAGE PiHG archive or DOI page before citing as a real PiHG example.
+## Landmark review/theory works (study the MODE, cite with care)
 
-| Craft lesson to illustrate | Slot | Guardrail |
-|----------------------------|------|-----------|
-| Genealogy-of-turns spine (e.g. the cultural / more-than-human turn) | Add a verified PiHG review essay | 待核实 — confirm DOI stem 0309132 + venue |
-| Generative-concept intervention | Add a verified PiHG conceptual intervention | 待核实 — confirm it is PiHG, not Antipode/Dialogues |
-| Even-handed treatment of a live theoretical debate | Add a verified PiHG review with rival traditions | 待核实 — confirm venue + DOI |
-| Forward-agenda close done well (progress-report series) | Add a verified PiHG progress report | 待核实 — confirm DOI |
+- **Doreen Massey — relational space / "a global sense of place" / *For Space*** (essays early 1990s;
+  book 2005). *Move:* reframes place as open, relational, and constituted through power rather than
+  bounded — a concept the whole field imported. *Study for:* how a single concept re-orders many empirical
+  literatures.
+- **David Harvey — *Social Justice and the City*; *The Condition of Postmodernity* / time–space
+  compression** (1973; 1989). *Move:* welds social theory to spatial process into an agenda that spans
+  economic, urban, and political geography. *Study for:* theoretical ambition and reach.
+- **Derek Gregory — *Geographical Imaginations*; *The Colonial Present*** (1994; 2004). *Move:* critical
+  synthesis that turns a body of thought (post-structural, post-colonial) into a geographic program.
+  *Study for:* how to read a literature *against itself*.
+- **Edward Soja — *Postmodern Geographies*; *Thirdspace*** (1989; 1996). *Move:* argues for the
+  "reassertion of space" in social theory — a discipline-level agenda claim. *Study for:* staking a
+  paradigm shift.
+- **Gillian Rose — *Feminism and Geography*; "situating knowledges" / reflexivity** (1993; mid-1990s).
+  *Move:* names the field's masculinism and reworks positionality/reflexivity as method. *Study for:* a
+  critique that changes practice, not just vocabulary. *(A related Rose essay plausibly appeared in PiHG —
+  verify on SAGE before citing as PiHG. 待核实.)*
+- **Nigel Thrift — *Non-Representational Theory*; *Spatial Formations*** (2008; 1996). *Move:* consolidates
+  a scattered set of ideas into a named theoretical program. *Study for:* how to *name* and bound a new
+  approach.
+- **J.K. Gibson-Graham — *The End of Capitalism (As We Knew It)* / diverse economies** (1996). *Move:*
+  re-describes "the economy" to open a new research agenda. *Study for:* re-description as intervention.
+- **Sarah Whatmore — *Hybrid Geographies* / more-than-human geography** (2002). *Move:* pulls together
+  materialist and relational strands into a "more-than-human" agenda. *Study for:* synthesizing across
+  sub-fields into a forward program.
+- **Linda McDowell — *Gender, Identity and Place* / feminist economic geography** (1999). *Move:*
+  integrates feminist theory with economic geography and reviews the field's blind spots. *Study for:*
+  cross-cutting a literature by an under-used lens.
+- **Tim Cresswell — *Place: A Short Introduction*; *On the Move* / mobilities** (2004; 2006). *Move:*
+  synthesizes and periodizes a concept, then extends it. *Study for:* the concept-genealogy structure many
+  PiHG essays use.
+- **Yi-Fu Tuan — *Topophilia*; *Space and Place*** (1974; 1977). *Move:* founds humanistic geography by
+  re-theorizing experience of place. *Study for:* a durable conceptual vocabulary.
+- **Ash Amin & Nigel Thrift — *Cities: Reimagining the Urban*** (2002). *Move:* a synthetic re-framing of
+  urban theory. *Study for:* agenda-setting at the scale of a sub-discipline.
 
-Shared reviewer-objection reference (background — to *appraise* the primary studies a review synthesizes):
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+## Summary table
+
+| Author(s) | Signature move | Approx. year | Form (verify placement) |
+| --- | --- | --- | --- |
+| Massey | Relational space; "global sense of place" | early 1990s / 2005 | essays / book |
+| Harvey | Time–space compression; spatial social theory | 1973 / 1989 | books |
+| Gregory | Post-colonial / post-structural synthesis | 1994 / 2004 | books |
+| Soja | "Reassertion of space" | 1989 / 1996 | books |
+| Rose | Feminist critique; reflexivity/positionality | 1993 / mid-1990s | book / essay (PiHG? 待核实) |
+| Thrift | Naming non-representational theory | 1996 / 2008 | books |
+| Gibson-Graham | Diverse economies re-description | 1996 | book |
+| Whatmore | More-than-human agenda | 2002 | book |
+| McDowell | Feminist economic geography synthesis | 1999 | book |
+| Cresswell | Concept genealogy (place, mobility) | 2004 / 2006 | books |
+| Tuan | Humanistic geography vocabulary | 1974 / 1977 | books |
+| Amin & Thrift | Re-imagining urban theory | 2002 | book |
+
+---
+
+## PiHG-native genres (what actually runs in the journal)
+
+Beyond free-standing review articles, PiHG's signature formats are worth studying directly on SAGE:
+
+- **Progress Reports** — *commissioned* critical surveys of a sub-field's recent work, rotated over a
+  multi-year cycle. The clearest model of "synthesize + evaluate + point forward." (Not an open route.)
+- **The Progress in Human Geography Lecture** — an invited annual lecture published in the journal;
+  a model of a discipline-level agenda argument.
+
+Read a handful of **recent** Progress Reports in your sub-field on SAGE Journals to calibrate scope, tone,
+and how a report leaves readers with a "what next." (检索于 2026-07-16；以官网为准.)
+
+---
+
+## Guardrail — do NOT attribute to PiHG without checking
+
+The works above are landmark **human-geography** interventions; **most are books or appeared in other
+venues** (edited volumes, *Antipode*, *Environment and Planning*, *Cultural Geographies*, *Marxism Today*,
+etc.). PiHG is **not** *Annals of the AAG*, *Transactions of the IBG*, *Environment and Planning*,
+*Antipode*, *Geoforum*, or *Progress in Physical Geography*. Before citing any work **as a PiHG article**,
+confirm it on SAGE Journals (`journals.sagepub.com/home/phg`) with year and volume(issue):pages, cross-
+check a second source, and update the access date. When in doubt about placement, cite the work by its
+book/venue and omit the PiHG claim.

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "molcell-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Molecular Cell (Cell Press), the flagship journal for mechanistic molecular biology.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "molcell-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Molecular Cell manuscript lifecycle: workflow router, mechanism/scope fit, single-mechanism framing, main-text writing within the ~7,000-word budget, display items, STAR Methods + Key Resources Table, data/code availability, the Highlights + eTOC + Graphical Abstract trio, the Summary, Cell Press numbered references, submission preflight + cover letter, and reviewer rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/molcell-skills",
+      "repository": "https://github.com/brycewang-stanford/molcell-skills",
+      "keywords": [
+        "molecular-cell",
+        "cell-press",
+        "molecular-biology",
+        "mechanism",
+        "star-methods",
+        "structural-biology",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/molcell-workflow",
+        "skills/molcell-fit",
+        "skills/molcell-framing",
+        "skills/molcell-writing",
+        "skills/molcell-figures",
+        "skills/molcell-star-methods",
+        "skills/molcell-data",
+        "skills/molcell-summary",
+        "skills/molcell-highlights",
+        "skills/molcell-citation",
+        "skills/molcell-submission",
+        "skills/molcell-rebuttal"
+      ]
+    }
+  ]
+}

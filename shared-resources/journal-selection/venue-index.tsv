@@ -120,6 +120,8 @@ WSDM-Skills	WSDM	cs-ai (conference)	field	empirical	international	WSDM-Skills/re
 Demography-Skills	Demography	demography	field	empirical	international	Demography-Skills/resources/official-source-map.md
 Population-and-Development-Review-Skills	Population and Development Review	demography	field	empirical	international	Population-and-Development-Review-Skills/resources/official-source-map.md
 World-Development-Skills	World Development	development-studies	field	empirical	international	World-Development-Skills/resources/official-source-map.md
+Earth-and-Planetary-Science-Letters-Skills	Earth and Planetary Science Letters	earth-science	field	empirical	international	Earth-and-Planetary-Science-Letters-Skills/resources/official-source-map.md
+Nature-Geoscience-Skills	Nature Geoscience	earth-science	field	empirical	international	Nature-Geoscience-Skills/resources/official-source-map.md
 Econometric-Theory-Skills	Econometric Theory	econometrics/methods	field	theory	international	Econometric-Theory-Skills/resources/official-source-map.md
 Econometrica-Skills	Econometrica	econometrics/methods	top-5 econ	empirical	international	Econometrica-Skills/resources/official-source-map.md
 Journal-of-Applied-Econometrics-Skills	Journal of Applied Econometrics	econometrics/methods	field	empirical	international	Journal-of-Applied-Econometrics-Skills/resources/official-source-map.md
@@ -176,6 +178,7 @@ Environmental-Science-and-Technology-Skills	Environmental Science and Technology
 Global-Environmental-Change-Skills	Global Environmental Change	environment	field	empirical	international	Global-Environmental-Change-Skills/resources/official-source-map.md
 Conservation-Biology-Skills	Conservation Biology	environment/ecology	field	empirical	international	Conservation-Biology-Skills/resources/official-source-map.md
 Global-Change-Biology-Skills	Global Change Biology	environment/ecology	field	empirical	international	Global-Change-Biology-Skills/resources/official-source-map.md
+Finance-and-Trade-Economics-Skills	Finance and Trade Economics	finance	field	empirical	international	Finance-and-Trade-Economics-Skills/resources/official-source-map.md
 Financial-Management-Skills	Financial Management	finance	field	empirical	international	Financial-Management-Skills/resources/official-source-map.md
 Journal-of-Banking-and-Finance-Skills	Journal of Banking and Finance	finance	field	empirical	international	Journal-of-Banking-and-Finance-Skills/resources/official-source-map.md
 Journal-of-Corporate-Finance-Skills	Journal of Corporate Finance	finance	field	empirical	international	Journal-of-Corporate-Finance-Skills/resources/official-source-map.md
@@ -207,10 +210,13 @@ Yale-Law-Journal-Skills	Yale Law Journal	law	field	empirical	international	Yale-
 Journal-of-Law-and-Economics-Skills	Journal of Law and Economics	law-and-economics	field	empirical	international	Journal-of-Law-and-Economics-Skills/resources/official-source-map.md
 Cancer-Cell-Skills	Cancer Cell	life-sciences	field	empirical	international	Cancer-Cell-Skills/resources/official-source-map.md
 Cell-Skills	Cell	life-sciences	field	empirical	international	Cell-Skills/resources/official-source-map.md
+Molecular-Cell-Skills	Molecular Cell	life-sciences	field	empirical	international	Molecular-Cell-Skills/resources/official-source-map.md
+Language-Linguistic-Society-Skills	Language Linguistic Society	linguistics	field	empirical	international	Language-Linguistic-Society-Skills/resources/official-source-map.md
 Academy-of-Management-Annals-Skills	Academy of Management Annals	management	field	review	international	Academy-of-Management-Annals-Skills/resources/official-source-map.md
 Academy-of-Management-Journal-Skills	Academy of Management Journal	management	FT50 / UTD24	empirical	international	Academy-of-Management-Journal-Skills/resources/official-source-map.md
 Academy-of-Management-Review-Skills	Academy of Management Review	management	FT50 / UTD24	theory	international	Academy-of-Management-Review-Skills/resources/official-source-map.md
 Administrative-Science-Quarterly-Skills	Administrative Science Quarterly	management	FT50 / UTD24	empirical	international	Administrative-Science-Quarterly-Skills/resources/official-source-map.md
+Chinese-Journal-of-Management-Science-Skills	Chinese Journal of Management Science	management	field	empirical	international	Chinese-Journal-of-Management-Science-Skills/resources/official-source-map.md
 Human-Relations-Skills	Human Relations	management	field	empirical	international	Human-Relations-Skills/resources/official-source-map.md
 Human-Resource-Management-Skills	Human Resource Management	management	field	empirical	international	Human-Resource-Management-Skills/resources/official-source-map.md
 International-Organization-Skills	International Organization	management	field	empirical	international	International-Organization-Skills/resources/official-source-map.md
@@ -233,6 +239,7 @@ Journal-of-Marketing-Skills	Journal of Marketing	marketing	FT50 / UTD24	empirica
 Journal-of-Public-Policy-and-Marketing-Skills	Journal of Public Policy and Marketing	marketing	field	empirical	international	Journal-of-Public-Policy-and-Marketing-Skills/resources/official-source-map.md
 Journal-of-the-Academy-of-Marketing-Science-Skills	Journal of the Academy of Marketing Science	marketing	field	empirical	international	Journal-of-the-Academy-of-Marketing-Science-Skills/resources/official-source-map.md
 Marketing-Science-Skills	Marketing Science	marketing	FT50 / UTD24	empirical	international	Marketing-Science-Skills/resources/official-source-map.md
+Advanced-Materials-Skills	Advanced Materials	materials-science	field	empirical	international	Advanced-Materials-Skills/resources/official-source-map.md
 Annals-of-Mathematics-Skills	Annals of Mathematics	mathematics	field	theory	international	Annals-of-Mathematics-Skills/resources/official-source-map.md
 JAMA-Skills	JAMA	medicine	field	empirical	international	JAMA-Skills/resources/official-source-map.md
 Lancet-Skills	Lancet	medicine	field	empirical	international	Lancet-Skills/resources/official-source-map.md

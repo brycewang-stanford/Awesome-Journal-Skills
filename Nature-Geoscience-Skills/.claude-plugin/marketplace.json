@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ngeo-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Nature Geoscience (Nat. Geosci.), the Nature Portfolio flagship Earth-system journal.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "ngeo-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Nature Geoscience (Nat. Geosci.) manuscript lifecycle.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/ngeo-skills",
+      "repository": "https://github.com/brycewang-stanford/ngeo-skills",
+      "keywords": [
+        "nature-geoscience",
+        "nature-portfolio",
+        "earth-science",
+        "climate",
+        "geoscience",
+        "data-availability",
+        "peer-review"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/ngeo-workflow",
+        "skills/ngeo-scope-fit",
+        "skills/ngeo-results-framing",
+        "skills/ngeo-methods",
+        "skills/ngeo-figures",
+        "skills/ngeo-supplementary",
+        "skills/ngeo-writing-style",
+        "skills/ngeo-length-management",
+        "skills/ngeo-cover-letter",
+        "skills/ngeo-submission",
+        "skills/ngeo-referee-strategy",
+        "skills/ngeo-revision"
+      ]
+    }
+  ]
+}

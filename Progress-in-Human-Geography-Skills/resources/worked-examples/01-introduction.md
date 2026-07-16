@@ -1,67 +1,110 @@
-# Worked Example: Reframing a Review Introduction for Progress in Human Geography
+> **Illustrative teaching example.** The review, sub-field framing, and every claim below are
+> **fictional/illustrative** and exist only to demonstrate *Progress in Human Geography* house style. No
+> real finding is reported (PiHG does not publish empirical results). Corresponding skills:
+> [`phg-writing-style`](../../skills/phg-writing-style/SKILL.md),
+> [`phg-topic-selection`](../../skills/phg-topic-selection/SKILL.md),
+> [`phg-argument-synthesis`](../../skills/phg-argument-synthesis/SKILL.md), and
+> [`phg-critical-intervention`](../../skills/phg-critical-intervention/SKILL.md).
 
-**This is a fictional example. It does not describe a real paper, a real dataset, or a real
-finding.** It shows how an opening should read for a PiHG *critical review / conceptual intervention* —
-not an empirical paper and not an annotated bibliography. The (invented) topic is "the geographies of
-algorithmic governance in the city."
+# Worked Example: A PiHG Review-Essay Introduction (before → after)
 
-## Before (reads like an empirical paper, or an annotated bibliography)
+This demonstrates the **PiHG introduction bar**: by the end of the introduction the reader knows **the
+state of a debate, why it is stuck, the critical intervention this essay makes, the concept that
+organizes it, and the forward agenda** — not a topic and a promise to "review the literature." The arc is
+**live debate → what the field keeps getting wrong → the intervention (the essay's argument) → the
+organizing concept → the forward-looking agenda → brief roadmap**, with PiHG's distinctive demand that the
+piece be **synthetic and agenda-setting, not a summary**, and that it **not read as an empirical study**.
 
-> This article reviews the literature on algorithms and cities. Many studies have examined smart-city
-> technologies. Smith (2018) studies predictive policing in one US city. Jones (2020) studies a
-> ride-hail platform's effect on traffic. Other work looks at facial recognition. We summarize this
-> literature and note that more research is needed on the social impacts of urban algorithms.
+**Illustrative review (fictional):** *"After the Platform: Toward a Relational Account of Digital Labor
+Geographies."* A fictional survey of a decade of work on gig/platform labor across economic, urban, and
+feminist geography. (This is a *review essay*, not a study: its "data" is a literature, and its
+contribution is a re-ordering of that literature — see the concept-genealogy exemplars in
+[`../exemplars/library.md`](../exemplars/library.md).)
 
-## Diagnosis
+---
 
-- **No animating argument about the subfield.** It announces a topic ("algorithms and cities"), not a
-  question PiHG readers across subfields would care about. → `proghg-topic-selection`
-- **Annotated-bibliography drone.** "Smith studies… Jones studies…" with no connective argument — the
-  cardinal PiHG failure. → `proghg-organizing-framework`
-- **Empirical-paper instincts.** It foregrounds individual case findings as if reporting them; PiHG
-  publishes **no empirical results or detailed cases**. → `proghg-topic-selection`
-- **No conceptual spine.** Works are not grouped by any concept, turn, or tradition. → `proghg-organizing-framework`
-- **Wrong audience signal.** Nothing tells a geographer *outside* urban/digital geography why to read
-  on. → `proghg-writing-style`
-- **Dead close.** "More research is needed" wastes PiHG's most valued section. → `proghg-writing-style`
-- **No position.** PiHG is agenda-setting; a review must argue, not merely survey. → `proghg-organizing-framework`
+## Before (annotated-bibliography mode — the most common desk-reject)
 
-## After (PiHG voice: framed, spined, accessible, position-taking, agenda-pointed)
+> Platform labor has grown rapidly and attracted much attention. Many geographers have studied it.
+> Scholar A (2016) studied ride-hailing drivers, Scholar B (2018) studied delivery couriers, and Scholar C
+> (2020) studied domestic-work platforms. Some emphasize precarity, others emphasize algorithmic control,
+> and others emphasize resistance. This paper reviews the literature on platform labor geographies. It is
+> organized as follows: Section 2 covers precarity, Section 3 covers algorithms, Section 4 covers
+> resistance, and Section 5 concludes.
 
-> Algorithmic systems — predictive policing, platform mobility, automated welfare triage — are
-> reshaping how urban life is governed, yet human geographers have studied them in three largely
-> separate conversations: a political-economic literature on platform capital, a feminist and
-> postcolonial literature on algorithmic harm and difference, and a more-than-human literature on the
-> agency of code and infrastructure. This review argues that these conversations describe **one process
-> seen through three theoretical lenses** — accumulation, differential exposure, and socio-technical
-> agency — and that their apparent disagreements dissolve once each is read as illuminating a different
-> facet of the same urban condition. A critical synthesis matters *now* because the rapid uptake of
-> machine-learning governance has outrun the field's conceptual vocabulary, drawing in scholars who do
-> not yet speak to one another.
+**What's wrong (against `phg-argument-synthesis` / `phg-critical-intervention`):**
+
+- **It annotates, it does not synthesize.** "A studied X, B studied Y" is a list; there is no cumulative
+  argument the sources add up to (`phg-argument-synthesis`).
+- **No intervention.** Nothing the field is getting *wrong*; the essay has no thesis, only a topic
+  (`phg-critical-intervention`).
+- **No organizing concept.** The three-bucket structure (precarity / algorithms / resistance) mirrors the
+  literature instead of re-ordering it (`phg-theory-building`).
+- **No forward agenda.** Nothing another geographer could carry forward — the "so what / what next" is
+  absent (`phg-contribution-framing`).
+- **Reads like a prelude to an empirical study**, which PiHG does not publish, and buries any argument
+  behind a seven-section roadmap (`phg-writing-style`).
+
+---
+
+## After (PiHG arc — a synthetic argument and a forward agenda, up front)
+
+> A decade of geographical work on platform labor has produced three vigorous but **largely parallel**
+> conversations — on precarity, on algorithmic control, and on worker resistance — that rarely speak to one
+> another. *(state of the debate, framed as a problem, not a topic.)*
 >
-> Organizing the field this way yields a clear position: the spatial power of urban algorithms lies
-> less in the predictions they make than in the **infrastructural authority** they accrete — an
-> authority that is most contested precisely where platform capital, differential harm, and code's
-> agency intersect. We use a three-lens spine to map what each tradition has established and where they
-> conflict, weighing political-economic critique, feminist/postcolonial analysis, and more-than-human
-> theory each on its own terms, and we are explicit about the critical standpoint from which we read.
-> We close with a research agenda for the conceptual frontier this governance shift has opened: how
-> should geographers theorize accountability when authority is distributed across code, capital, and
-> the street?
+> This essay argues that the parallelism is not accidental: each conversation has treated the platform as a
+> **bounded object** — a firm, an app, a labor process — and so has struggled to explain what all three
+> keep encountering, that platform labor is **constituted relationally**, across household, city, and
+> transnational circuits that no single platform contains. *(the critical intervention — what the field
+> keeps getting wrong — stated as the essay's thesis, per `phg-critical-intervention`.)*
+>
+> Reading the three literatures together through a **relational** lens does more than combine them: it
+> shows that precarity, control, and resistance are **the same relation seen from different points in a
+> circuit**, so that findings which look contradictory across the three conversations are in fact
+> consistent once the relational geography is restored. *(synthesis as argument — the sources add up to one
+> claim, per `phg-argument-synthesis`; the organizing concept is named — `phg-theory-building`.)*
+>
+> Making this case requires reading across sub-fields that cite each other little — economic geography's
+> work on labor markets, urban geography's on infrastructure, and feminist geography's on social
+> reproduction — which is precisely why the relational geography of platform labor has stayed invisible:
+> it falls *between* the specialisms that would each see one facet of it. *(why the field is stuck, and why
+> a review — not a study — is the right instrument; command of a large literature, per
+> `phg-literature-positioning`.)*
+>
+> The contribution is to offer **the circuit, not the platform, as the unit of analysis** for digital
+> labor geographies, and to set out an agenda: if platform labor is relational, then research should follow
+> the circuits — tracing how control exercised at one node produces precarity at another and opens
+> resistance at a third — rather than auditing single platforms. This reframes a "what do platforms do to
+> workers?" question as a **"how are labor relations distributed across space, and with what political
+> openings?"** question that economic, urban, and feminist geographers can each take up. *(portable,
+> forward-looking agenda stated early — the `phg-contribution-framing` "what next.")*
+>
+> The essay proceeds by developing the relational argument (Section 2), reading the three literatures
+> through it (Section 3), and setting out the research and political agenda it implies (Section 4). *(brief
+> roadmap — no over-signposting.)*
 
-## Why the "After" works
+---
 
-- Opens by **framing the subfield** for the whole discipline, then states the **animating argument**.
-- Imposes a **conceptual taxonomy / three-lens spine** (the organizing framework) that **reconciles**
-  the three conversations — synthesis, not summary, and no empirical case smuggled in.
-- States a **position up front** and signals **theoretical balance** (political-economic + feminist/
-  postcolonial + more-than-human) weighed on their own terms, with **reflexivity** about standpoint.
-- Names a **concrete forward agenda**, not "more research is needed."
+## Why the "after" meets the PiHG bar
 
-## Skill links
+Mapped to the skill checklists:
 
-- [`../../skills/proghg-topic-selection/SKILL.md`](../../skills/proghg-topic-selection/SKILL.md)
-- [`../../skills/proghg-organizing-framework/SKILL.md`](../../skills/proghg-organizing-framework/SKILL.md)
-- [`../../skills/proghg-comprehensiveness-and-balance/SKILL.md`](../../skills/proghg-comprehensiveness-and-balance/SKILL.md)
-- [`../../skills/proghg-writing-style/SKILL.md`](../../skills/proghg-writing-style/SKILL.md)
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
+- **Synthetic, not a summary** — the three literatures are argued into one claim ("the same relation from
+  different points in a circuit"), not listed (`phg-argument-synthesis`).
+- **A genuine intervention** — it names what the field keeps getting wrong (treating the platform as
+  bounded) and re-orders the debate (`phg-critical-intervention`).
+- **An organizing concept does the work** — "the circuit" is the load-bearing idea, introduced early and
+  carried throughout (`phg-theory-building`).
+- **Command of a contested literature** — it positions across economic, urban, and feminist geography and
+  explains *why* they have not met (`phg-literature-positioning`).
+- **A portable, forward-looking agenda** — "follow the circuit, not the platform" is something any
+  sub-field can carry to its own cases (`phg-contribution-framing`).
+- **Reads as a review, not a study, and respects the cap** — no data, no findings, no seven-section
+  roadmap, within PiHG's ~8,000-word inclusive limit and ~100-word abstract (`phg-writing-style`).
+
+> Next: build the conceptual exhibit (a typology or circuit diagram) with
+> [`../../skills/phg-tables-figures/SKILL.md`](../../skills/phg-tables-figures/SKILL.md); tighten the voice
+> and references with [`../../skills/phg-writing-style/SKILL.md`](../../skills/phg-writing-style/SKILL.md);
+> and benchmark the intervention against the landmark review/theory moves in
+> [`../exemplars/library.md`](../exemplars/library.md).

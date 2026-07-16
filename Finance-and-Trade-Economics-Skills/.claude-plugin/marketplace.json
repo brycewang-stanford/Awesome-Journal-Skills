@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cte-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at 《财贸经济》, a top CSSCI journal in China's public-finance, monetary-finance, and trade economics field.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "cte-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the 《财贸经济》 manuscript lifecycle: workflow router, fiscal / financial / trade topic selection, literature review, causal identification, mechanism, heterogeneity, tables / figures, China-policy implications, abstract, house style, submission preflight, and R&R rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/cte-skills",
+      "repository": "https://github.com/brycewang-stanford/cte-skills",
+      "keywords": [
+        "finance-and-trade-economics",
+        "caimao-jingji",
+        "cssci",
+        "public-finance",
+        "monetary-finance",
+        "causal-inference",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/cte-workflow",
+        "skills/cte-topic-selection",
+        "skills/cte-literature-review",
+        "skills/cte-identification",
+        "skills/cte-mechanism",
+        "skills/cte-heterogeneity",
+        "skills/cte-tables-figures",
+        "skills/cte-policy-implication",
+        "skills/cte-abstract",
+        "skills/cte-style",
+        "skills/cte-submission",
+        "skills/cte-rebuttal"
+      ]
+    }
+  ]
+}

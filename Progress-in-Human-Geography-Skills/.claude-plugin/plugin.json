@@ -1,24 +1,24 @@
 {
-  "name": "progress-in-human-geography-skills",
-  "description": "Agent skill stack for review and agenda-setting articles targeted at Progress in Human Geography (PiHG) — SAGE's flagship review/state-of-the-art journal in human geography (founded 1977), which publishes major critical review essays, theoretical and conceptual interventions, and the famous commissioned 'progress reports' that survey the trajectory of subfields (economic, urban, political, cultural, feminist, development, more-than-human geographies). Unlike a primary-research journal, PiHG does not publish original empirical studies or detailed cases; the stack therefore replaces identification-strategy and replication-package craft with review craft: scoping a synthesis-worthy literature, the dual intake route (commissioned progress reports vs. submitted review/theory articles), critical theoretically-informed synthesis of a subfield's development, imposing a conceptual organizing framework that argues where the field is and should go, fair and reflexive engagement across theoretical traditions, scholarly apparatus and positionality, summary exhibits that map a debate, the authoritative-yet-accessible PiHG voice, working with the editors on a commissioned report vs. a submitted review, the SAGE ScholarOne submission preflight, and revising a review for coverage, balance, and conceptual reach. Bilingual en / zh-CN docs. Process facts (editors, fees, portal, word limits) are marked volatile and deferred to the official SAGE pages.",
+  "name": "phg-skills",
+  "description": "Agent skill stack for manuscripts targeted at Progress in Human Geography (PiHG) — the leading review and theory journal in human geography, published by SAGE for the discipline since 1977 and reviewed double-anonymously via SAGE Track. PiHG does NOT publish empirical results or detailed case studies; it publishes critical, agenda-setting review essays and commissioned Progress Reports that survey and re-order a field. This stack is built for that genre: a synthetic contribution rather than new data, command of a large and contested literature, critical-theoretical sophistication, conceptual clarity, and a forward-looking intervention. Facts covered include the 4,000-8,000-word review-article range (inclusive of endnotes, excluding the bibliography), the 100-word unstructured abstract, minimum five keywords, SAGE Harvard referencing, double-anonymous review, ORCID, and COPE ethics. Covers review-worthy topic selection, theory building, literature positioning, argument synthesis, the critical intervention, contribution framing, conceptual exhibits, PiHG writing style, submission preflight, the review process, and revision rebuttals. Bilingual en / zh-CN docs.",
   "version": "0.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
   },
   "license": "MIT",
-  "homepage": "https://github.com/brycewang-stanford/progress-in-human-geography-skills",
-  "repository": "https://github.com/brycewang-stanford/progress-in-human-geography-skills",
+  "homepage": "https://github.com/brycewang-stanford/phg-skills",
+  "repository": "https://github.com/brycewang-stanford/phg-skills",
   "keywords": [
     "progress-in-human-geography",
-    "pihg",
     "human-geography",
-    "sage-journals",
-    "review-article",
-    "progress-report",
-    "literature-synthesis",
-    "theoretical-intervention",
+    "review-essay",
+    "literature-review",
+    "theory-building",
     "critical-geography",
+    "progress-report",
+    "sage",
+    "conceptual-synthesis",
     "academic-writing"
   ]
 }

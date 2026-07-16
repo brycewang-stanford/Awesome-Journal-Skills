@@ -1,0 +1,27 @@
+{
+  "name": "lang-skills",
+  "description": "Agent skill stack for manuscripts targeted at Language, the flagship journal of the Linguistic Society of America (LSA), published continuously since 1925 and covering every subfield — phonology, syntax, semantics, morphology, historical and typological linguistics, sociolinguistics, psycholinguistics, and computational linguistics. As of January 2026 Language is published by Cambridge University Press (submissions via the CUP ScholarOne portal, with an Overleaf template) and is fully open access from Volume 102. Review is double-anonymous. Facts covered include the article types (General Research Articles capped at 18,000 words inclusive of notes, tables, and appendices but excluding references, with submissions over 12,000 words held to a more stringent standard; Research Reports; Review Articles capped at 5,000 words; Discussion Notes; and the four online-only sections since 2013 — Perspectives, Phonological Analysis, Language and Public Policy, and Teaching Linguistics), the Perspectives target-article-plus-commentaries-plus-rejoinder format, interlinear morpheme-by-morpheme glossing under the Leipzig Glossing Rules, numbered examples and IPA, and the Language Style Sheet / Unified Style Sheet for Linguistics author-date reference system. Language rewards theoretically grounded analysis backed by rigorous linguistic evidence, engagement across frameworks rather than single-formalism parochialism, reproducible quantitative methods (mixed-effects models in R) where used, and transparent data and annotation; it screens out descriptive data dumps without theoretical stakes and undocumented data. Covers topic selection, literature positioning, theory building, research design, data analysis, transparency, exhibits, house-style writing, submission preflight, the review process, and rebuttals. Bilingual en / zh-CN docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/lang-skills",
+  "repository": "https://github.com/brycewang-stanford/lang-skills",
+  "keywords": [
+    "language-journal",
+    "linguistic-society-of-america",
+    "lsa",
+    "linguistics",
+    "cambridge-university-press",
+    "phonology-syntax-semantics",
+    "sociolinguistics",
+    "historical-linguistics",
+    "interlinear-glossing",
+    "leipzig-glossing-rules",
+    "double-anonymous-review",
+    "mixed-effects-models",
+    "academic-writing"
+  ]
+}

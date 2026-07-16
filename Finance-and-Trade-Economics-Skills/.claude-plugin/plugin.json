@@ -1,0 +1,26 @@
+{
+  "name": "cte-skills",
+  "description": "Agent skill stack for submitting to 《财贸经济》 (Finance & Trade Economics), a top CSSCI economics journal hosted by the National Academy of Economic Strategy, Chinese Academy of Social Sciences. Covers fiscal / tax / finance / trade / circulation / consumption topic selection, bilingual literature review, causal identification (DID / IV / RDD / DML), household- and firm-level mechanism and heterogeneity analysis, three-line tables, China-policy-anchored implications, journal house style, and R&R rebuttals. Bilingual zh-CN / en docs; templates for CNKI / CSMAR / WIND / CEIC and Chinese macro-finance data.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/cte-skills",
+  "repository": "https://github.com/brycewang-stanford/cte-skills",
+  "keywords": [
+    "finance-and-trade-economics",
+    "caimao-jingji",
+    "cssci",
+    "public-finance",
+    "taxation",
+    "monetary-finance",
+    "trade-and-circulation",
+    "consumption-economics",
+    "causal-inference",
+    "difference-in-differences",
+    "regression-discontinuity",
+    "chinese-journal"
+  ]
+}

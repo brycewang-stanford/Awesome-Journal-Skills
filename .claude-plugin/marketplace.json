@@ -100,6 +100,13 @@
       "category": "academic"
     },
     {
+      "name": "advmat-skills",
+      "source": "./Advanced-Materials-Skills",
+      "description": "Twelve-skill bundle covering the Advanced Materials (Adv. Mater.) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "aej-applied-economics-skills",
       "source": "./AEJ-Applied-Economics-Skills",
       "description": "Twelve-skill bundle covering the American Economic Journal: Applied Economics (AEJ: Applied) manuscript lifecycle, from topic selection through the AEA Data Editor reproducibility check and R&R rebuttal.",
@@ -324,6 +331,13 @@
       "category": "academic"
     },
     {
+      "name": "cjms-skills",
+      "source": "./Chinese-Journal-of-Management-Science-Skills",
+      "description": "Twelve-skill bundle covering the 《中国管理科学》 manuscript lifecycle, from topic selection and applied modeling through zgglkx.com submission and referee rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "chinese-public-administration-skills",
       "source": "./Chinese-Public-Administration-Skills",
       "description": "Twelve-skill bundle covering the 《中国行政管理》 manuscript lifecycle.",
@@ -499,6 +513,13 @@
       "category": "academic"
     },
     {
+      "name": "epsl-skills",
+      "source": "./Earth-and-Planetary-Science-Letters-Skills",
+      "description": "Twelve-skill bundle covering the Earth and Planetary Science Letters (EPSL) manuscript lifecycle — from process-level framing through analytical design, uncertainty reporting, FAIR data deposition, Editorial Manager submission, and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "ecai-skills",
       "source": "./ECAI-Skills",
       "description": "Twelve ECAI-specific skills for the EurAI European Conference on Artificial Intelligence and its IOS Press FAIA open-access proceedings, grounded in the IJCAI-ECAI 2026 call, the ECAI 2024/2023 calls, the FAIA volumes, eurai.org, and dblp.",
@@ -642,6 +663,13 @@
       "name": "fcr-skills",
       "source": "./Field-Crops-Research-Skills",
       "description": "Twelve-skill bundle covering the Field Crops Research (FCR) manuscript lifecycle for empirical agronomy and crop science — from multi-environment field-experiment design through mixed-model analysis, yield-gap framing, data-availability declaration, and revision.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "cte-skills",
+      "source": "./Finance-and-Trade-Economics-Skills",
+      "description": "Twelve-skill bundle covering the 《财贸经济》 manuscript lifecycle: workflow router, fiscal / financial / trade topic selection, literature review, causal identification, mechanism, heterogeneity, tables / figures, China-policy implications, abstract, house style, submission preflight, and R&R rebuttal.",
       "version": "0.1.0",
       "category": "academic"
     },
@@ -1409,6 +1437,13 @@
       "category": "academic"
     },
     {
+      "name": "lang-skills",
+      "source": "./Language-Linguistic-Society-Skills",
+      "description": "Twelve-skill bundle covering the Language (Linguistic Society of America) manuscript lifecycle — Cambridge University Press ScholarOne submission, double-anonymous review, the 18,000-word General Research Article cap, the Perspectives target-article format, Leipzig-convention interlinear glossing, and the Language Style Sheet.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "mgsci-skills",
       "source": "./Management-Science-Skills",
       "description": "Twelve-skill bundle covering the Management Science manuscript lifecycle across analytical and empirical departments.",
@@ -1479,6 +1514,13 @@
       "category": "academic"
     },
     {
+      "name": "molcell-skills",
+      "source": "./Molecular-Cell-Skills",
+      "description": "Twelve-skill bundle covering the Molecular Cell manuscript lifecycle: workflow router, mechanism/scope fit, single-mechanism framing, main-text writing within the ~7,000-word budget, display items, STAR Methods + Key Resources Table, data/code availability, the Highlights + eTOC + Graphical Abstract trio, the Summary, Cell Press numbered references, submission preflight + cover letter, and reviewer rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "naacl-skills",
       "source": "./NAACL-Skills",
       "description": "Twelve NAACL-specific skills covering the full arc from *ACL venue routing through ACL Rolling Review, commitment, decision, and ACL Anthology publication, with the chapter's Nations-of-the-Americas identity and skipped-year calendar built into the advice.",
@@ -1490,6 +1532,13 @@
       "source": "./Nankai-Business-Review-Skills",
       "description": "Twelve-skill bundle covering the 《南开管理评论》 manuscript lifecycle: workflow router, fit positioning, theory-gap articulation, mechanism-backed hypothesis development, measurement rigor (reliability / validity / common-method-bias), survey-SEM (mediation / moderation / moderated mediation / HLM), experiments, multi-case / grounded theory, China contextualization, discussion that advances a management theory, submission preflight, and rebuttal.",
       "version": "0.2.0",
+      "category": "academic"
+    },
+    {
+      "name": "ngeo-skills",
+      "source": "./Nature-Geoscience-Skills",
+      "description": "Twelve-skill bundle covering the Nature Geoscience (Nat. Geosci.) manuscript lifecycle.",
+      "version": "0.1.0",
       "category": "academic"
     },
     {
@@ -1661,9 +1710,9 @@
       "category": "academic"
     },
     {
-      "name": "progress-in-human-geography-skills",
+      "name": "phg-skills",
       "source": "./Progress-in-Human-Geography-Skills",
-      "description": "Twelve-skill bundle covering the Progress in Human Geography (PiHG) review-article lifecycle, from topic selection and the commissioning/submission intake routes through critical synthesis, conceptual framework-building, balance, submission, and revision.",
+      "description": "Twelve-skill bundle covering the Progress in Human Geography (PiHG) review-essay and progress-report lifecycle, from a review-worthy topic to the double-anonymous rebuttal.",
       "version": "0.1.0",
       "category": "academic"
     },

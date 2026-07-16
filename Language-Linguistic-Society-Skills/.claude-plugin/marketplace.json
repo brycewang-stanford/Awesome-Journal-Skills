@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "lang-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Language, the flagship journal of the Linguistic Society of America (LSA), published by Cambridge University Press.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "lang-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Language (Linguistic Society of America) manuscript lifecycle — Cambridge University Press ScholarOne submission, double-anonymous review, the 18,000-word General Research Article cap, the Perspectives target-article format, Leipzig-convention interlinear glossing, and the Language Style Sheet.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/lang-skills",
+      "repository": "https://github.com/brycewang-stanford/lang-skills",
+      "keywords": [
+        "language-journal",
+        "linguistic-society-of-america",
+        "lsa",
+        "linguistics",
+        "cambridge-university-press",
+        "interlinear-glossing",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/lang-workflow",
+        "skills/lang-topic-selection",
+        "skills/lang-theory-building",
+        "skills/lang-literature-positioning",
+        "skills/lang-research-design",
+        "skills/lang-data-analysis",
+        "skills/lang-data-and-transparency",
+        "skills/lang-tables-figures",
+        "skills/lang-writing-style",
+        "skills/lang-submission",
+        "skills/lang-review-process",
+        "skills/lang-rebuttal"
+      ]
+    }
+  ]
+}

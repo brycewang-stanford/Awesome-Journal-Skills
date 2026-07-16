@@ -1,0 +1,26 @@
+{
+  "name": "advmat-skills",
+  "description": "Agent skill stack for submitting to Advanced Materials (Adv. Mater.), Wiley-VCH's flagship high-impact materials-science journal. Covers the materials-advance-plus-broad-impact scope gate, central-advance framing, multi-technique characterization rigor, cover-quality figures and the TOC graphic, Supporting Information partitioning, Wiley house style, the Communication-vs-Article length format, the impact-justifying cover letter, submission preflight, referee strategy, and revision. English docs with a bilingual zh-CN README.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/advmat-skills",
+  "repository": "https://github.com/brycewang-stanford/advmat-skills",
+  "keywords": [
+    "advanced-materials",
+    "adv-mater",
+    "wiley-vch",
+    "materials-science",
+    "nanotechnology",
+    "energy-materials",
+    "characterization",
+    "device-benchmarking",
+    "communication",
+    "supporting-information",
+    "scientific-writing",
+    "peer-review"
+  ]
+}

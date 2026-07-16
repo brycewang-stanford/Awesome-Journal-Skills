@@ -1,0 +1,26 @@
+{
+  "name": "molcell-skills",
+  "description": "Agent skill stack for submitting to Molecular Cell (Cell Press) — the flagship journal for mechanistic molecular biology (gene expression, chromatin/epigenetics, RNA biology, DNA replication/repair, signaling, proteostasis, structural mechanism). Encodes Molecular Cell's editorial bar (deep mechanism, not phenomenology, proven by multiple orthogonal approaches with physiological relevance), the Article/Short Article structure, the ~7,000-word / ~7-display-item budget, the signature Cell Press artifacts (Highlights, eTOC/In Brief blurb, Graphical Abstract), the Summary, mandatory STAR Methods with the Key Resources Table and Resource Availability, data/code deposition (GEO/PDB/PRIDE), the Cell Press numbered superscript reference style, submission preflight, and reviewer rebuttals. English-first docs with zh-CN mirror.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/molcell-skills",
+  "repository": "https://github.com/brycewang-stanford/molcell-skills",
+  "keywords": [
+    "molecular-cell",
+    "cell-press",
+    "elsevier",
+    "molecular-biology",
+    "mechanism",
+    "chromatin-rna-biology",
+    "star-methods",
+    "structural-biology",
+    "reproducibility",
+    "data-deposition",
+    "peer-review",
+    "english-journal"
+  ]
+}

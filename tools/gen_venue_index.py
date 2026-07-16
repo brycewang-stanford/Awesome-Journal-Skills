@@ -211,6 +211,11 @@ DISC = [
     ("Conservation-Biology", "environment/ecology"), ("Global-Change-Biology", "environment/ecology"),
     ("Environmental-Science", "environment"), ("Global-Environmental", "environment"),
     ("Agricultural-Systems", "agriculture"), ("Field-Crops", "agriculture"),
+    ("Advanced-Materials", "materials-science"), ("Molecular-Cell", "life-sciences"),
+    ("Nature-Geoscience", "earth-science"), ("Earth-and-Planetary-Science-Letters", "earth-science"),
+    ("Language-Linguistic-Society", "linguistics"),
+    ("Chinese-Journal-of-Management-Science", "management/OR"),
+    ("Finance-and-Trade-Economics", "economics/public"),
 ]
 
 

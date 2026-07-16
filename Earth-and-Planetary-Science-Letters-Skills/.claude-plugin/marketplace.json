@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "epsl-skills",
+  "version": "0.1.0",
+  "description": "An opinionated agent skill stack for manuscripts targeted at Earth and Planetary Science Letters (EPSL), Elsevier's flagship letters journal for solid-Earth and planetary science.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "epsl-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle covering the Earth and Planetary Science Letters (EPSL) manuscript lifecycle — from process-level framing through analytical design, uncertainty reporting, FAIR data deposition, Editorial Manager submission, and revision.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/epsl-skills",
+      "repository": "https://github.com/brycewang-stanford/epsl-skills",
+      "keywords": [
+        "earth-and-planetary-science-letters",
+        "epsl",
+        "elsevier",
+        "geochemistry",
+        "geophysics",
+        "planetary-science",
+        "academic-writing"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/epsl-workflow",
+        "skills/epsl-topic-selection",
+        "skills/epsl-literature-positioning",
+        "skills/epsl-study-design",
+        "skills/epsl-data-analysis",
+        "skills/epsl-figures-and-tables",
+        "skills/epsl-reporting-and-reproducibility",
+        "skills/epsl-writing-style",
+        "skills/epsl-cover-letter",
+        "skills/epsl-review-process",
+        "skills/epsl-submission",
+        "skills/epsl-revision-and-rebuttal"
+      ]
+    }
+  ]
+}

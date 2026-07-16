@@ -1,0 +1,26 @@
+{
+  "name": "cjms-skills",
+  "description": "Agent skill stack for manuscripts targeted at 《中国管理科学》 (Chinese Journal of Management Science), the applied quantitative-management flagship founded by Hua Luogeng in 1984, supervised by the Chinese Academy of Sciences and co-sponsored by the Society of Optimization, Overall Planning and Economic Mathematics and the CAS Institutes of Science and Development. The journal publishes applied modeling with computational and empirical validation across three strands — optimization modeling, data-driven forecasting, and financial-engineering empirics — so this stack routes by strand: turning a real management setting into a defensible model, choosing the solution route with pseudocode and baselines, running out-of-sample benchmark batteries, calibrated numerical experiments, condition-decision-effect managerial insights, the 12-page limit and sequential-coded references, the zgglkx.com submission portal, and point-by-point referee responses. Skill bodies in Chinese; bilingual zh/en docs.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/cjms-skills",
+  "repository": "https://github.com/brycewang-stanford/cjms-skills",
+  "keywords": [
+    "chinese-journal-of-management-science",
+    "zhongguo-guanli-kexue",
+    "management-science-and-engineering",
+    "applied-optimization",
+    "supply-chain-management",
+    "financial-engineering",
+    "forecasting-and-decision",
+    "emergency-management",
+    "chinese-journal",
+    "cssci",
+    "fms-t1",
+    "academic-writing"
+  ]
+}

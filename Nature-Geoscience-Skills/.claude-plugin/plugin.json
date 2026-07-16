@@ -1,0 +1,26 @@
+{
+  "name": "ngeo-skills",
+  "description": "Agent skill stack for submitting to Nature Geoscience (Nat. Geosci.), the Nature Portfolio flagship for the solid Earth, atmosphere, oceans, climate and planetary science. Covers the broad-interest Earth-system scope gate, the 'Here we show' results framing, the online Methods section, high-impact figures, the Nature reporting summary and data/code-availability compliance, Nature house style, the 3,000-word Article budget, the diverse-readership cover letter, submission preflight on Editorial Manager, referee strategy, and revision. English docs with a bilingual zh-CN README.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/brycewang-stanford/ngeo-skills",
+  "repository": "https://github.com/brycewang-stanford/ngeo-skills",
+  "keywords": [
+    "nature-geoscience",
+    "nat-geosci",
+    "nature-portfolio",
+    "springer-nature",
+    "earth-science",
+    "geoscience",
+    "climate",
+    "oceanography",
+    "atmospheric-science",
+    "planetary-science",
+    "data-availability",
+    "scientific-writing"
+  ]
+}

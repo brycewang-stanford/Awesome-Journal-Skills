@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：4066 个 Agent Skill、292 个 Pack、521 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：4150 个 Agent Skill、299 个 Pack、522 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -66,7 +66,7 @@
     <a href="#-skill-pack-一览">📚 Skill Pack 一览</a> ·
     <a href="#-如何使用">⚡ 如何使用</a> ·
     <a href="showcase/README.md">🧪 自动实证 Showcase（真实运行证据）</a> ·
-    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（282 刊机读表）</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（289 刊机读表）</a> ·
     <a href="#-路线图">🗺 路线图</a> ·
     <a href="README.en.md">🌐 English</a>
   </sub>
@@ -370,7 +370,7 @@
 | <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
 | <a id="discipline-sport-science"></a>🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
-<sub>共 <b>292 个 pack / 4066 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>299 个 pack / 4150 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -1291,7 +1291,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>4066</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>292 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3391</b>（282 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>4066</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>4150</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>299 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3475</b>（289 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>4150</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1520,7 +1520,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change（12 skills）
 ├── Agricultural-Systems-Skills/   → Agricultural Systems（12 skills）
 ├── Field-Crops-Research-Skills/   → Field Crops Research（12 skills）
-│   # 根级 marketplace 清单（聚合全部 292 个仓库内 pack）
+│   # 根级 marketplace 清单（聚合全部 299 个仓库内 pack）
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1613,7 +1613,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，并补齐了营销与会计的剩余旗舰刊（JIM · JPP&M · AOS），全仓库现共 **292 个 pack / 4066 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，补齐了营销与会计的剩余旗舰刊（JIM · JPP&M · AOS），并新增一批学科旗舰深度包——自然科学（Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters）、语言学（Language）、中文重点刊（财贸经济 · 中国管理科学），同时把地理学综述刊 Progress in Human Geography 重建为规范深度包，全仓库现共 **299 个 pack / 4150 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 
@@ -1628,7 +1628,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) —— 36 本英文人文期刊
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) —— 12 本中文体育学（体育科学）期刊
 - **每刊封面直达** 覆盖全部广度期刊，两份 README 内嵌默认展开的封面画廊，并提供 200 个根目录轻量入口文件夹便于首页浏览。
-- **单刊/单会全流程深度包（约 12 步）** —— 282 个仓库内自有 venue 包，覆盖 11 个主流学科板块：综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学（AER 与 Nature 以第三方外链形式收录）：
+- **单刊/单会全流程深度包（约 12 步）** —— 289 个仓库内自有 venue 包，覆盖 11 个主流学科板块：综合·交叉、经管与商科、社会科学、人文学科、数学与物理科学、生命科学、医学与健康、工程与技术、计算机科学与 AI、农业·环境·地球科学、体育科学（AER 与 Nature 以第三方外链形式收录）：
   - **英文经济学：** AER（外链收录）· AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **英文金融：** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **英文管理 / 运营 / 信息系统：** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
