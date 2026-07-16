@@ -1,4 +1,5 @@
 pack_dir	display_name	discipline	tier	lane	region	source_map
+Accounting-Organizations-and-Society-Skills	Accounting Organizations and Society	accounting	field	empirical	international	Accounting-Organizations-and-Society-Skills/resources/official-source-map.md
 Accounting-Research-Skills	Accounting Research	accounting	field	empirical	china	Accounting-Research-Skills/resources/official-source-map.md
 Contemporary-Accounting-Research-Skills	Contemporary Accounting Research	accounting	field	empirical	international	Contemporary-Accounting-Research-Skills/resources/official-source-map.md
 Journal-of-Accounting-Research-Skills	Journal of Accounting Research	accounting	top-3 accounting	empirical	international	Journal-of-Accounting-Research-Skills/resources/official-source-map.md
@@ -226,8 +227,10 @@ Strategic-Management-Journal-Skills	Strategic Management Journal	management	FT50
 Journal-of-Management-Sciences-in-China-Skills	Journal of Management Sciences in China	management/OR	field	empirical	china	Journal-of-Management-Sciences-in-China-Skills/resources/official-source-map.md
 Journal-of-Consumer-Psychology-Skills	Journal of Consumer Psychology	marketing	field	empirical	international	Journal-of-Consumer-Psychology-Skills/resources/official-source-map.md
 Journal-of-Consumer-Research-Skills	Journal of Consumer Research	marketing	FT50 / UTD24	empirical	international	Journal-of-Consumer-Research-Skills/resources/official-source-map.md
+Journal-of-International-Marketing-Skills	Journal of International Marketing	marketing	field	empirical	international	Journal-of-International-Marketing-Skills/resources/official-source-map.md
 Journal-of-Marketing-Research-Skills	Journal of Marketing Research	marketing	FT50 / UTD24	empirical	international	Journal-of-Marketing-Research-Skills/resources/official-source-map.md
 Journal-of-Marketing-Skills	Journal of Marketing	marketing	FT50 / UTD24	empirical	international	Journal-of-Marketing-Skills/resources/official-source-map.md
+Journal-of-Public-Policy-and-Marketing-Skills	Journal of Public Policy and Marketing	marketing	field	empirical	international	Journal-of-Public-Policy-and-Marketing-Skills/resources/official-source-map.md
 Journal-of-the-Academy-of-Marketing-Science-Skills	Journal of the Academy of Marketing Science	marketing	field	empirical	international	Journal-of-the-Academy-of-Marketing-Science-Skills/resources/official-source-map.md
 Marketing-Science-Skills	Marketing Science	marketing	FT50 / UTD24	empirical	international	Marketing-Science-Skills/resources/official-source-map.md
 Annals-of-Mathematics-Skills	Annals of Mathematics	mathematics	field	theory	international	Annals-of-Mathematics-Skills/resources/official-source-map.md

@@ -44,6 +44,13 @@
       "category": "academic"
     },
     {
+      "name": "aos-skills",
+      "source": "./Accounting-Organizations-and-Society-Skills",
+      "description": "Twelve-skill bundle covering the Accounting, Organizations and Society (AOS) manuscript lifecycle, from topic selection through R&R rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "accounting-research-skills",
       "source": "./Accounting-Research-Skills",
       "description": "Thirteen-skill bundle covering the 《会计研究》 manuscript lifecycle: workflow router, accounting-vs-finance fit positioning, topic selection, literature review, institutional/standards background, accounting measurement, quasi-experimental identification, information mechanism, robustness, tables/figures, standard-setter/regulator implications, submission preflight, and rebuttal.",
@@ -1150,6 +1157,13 @@
       "category": "academic"
     },
     {
+      "name": "jim-skills",
+      "source": "./Journal-of-International-Marketing-Skills",
+      "description": "Twelve-skill bundle covering the Journal of International Marketing (JIM) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "jimf-skills",
       "source": "./Journal-of-International-Money-and-Finance-Skills",
       "description": "Twelve-skill bundle covering the Journal of International Money and Finance manuscript lifecycle.",
@@ -1293,6 +1307,13 @@
       "name": "jpube-skills",
       "source": "./Journal-of-Public-Economics-Skills",
       "description": "Twelve-skill bundle covering the Journal of Public Economics (JPubE) manuscript lifecycle.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
+      "name": "jppm-skills",
+      "source": "./Journal-of-Public-Policy-and-Marketing-Skills",
+      "description": "Twelve-skill bundle covering the Journal of Public Policy & Marketing (JPP&M) manuscript lifecycle.",
       "version": "0.1.0",
       "category": "academic"
     },
