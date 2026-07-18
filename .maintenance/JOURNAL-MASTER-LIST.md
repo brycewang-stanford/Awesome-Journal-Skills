@@ -22,7 +22,7 @@
 > 高置信已达 ~70；如超配以 ABS-AJG 4* 顺位裁剪，边界刊（会计/营销/IS）保留主类。
 
 ### 中文 30
-经济研究 [A-depth] · 经济学(季刊) [A-depth] · 管理世界 [A-depth] · 中国工业经济 [A-depth] · 金融研究 [A-depth] · 世界经济 [A-depth] · 数量经济技术经济研究 [A-depth] · 会计研究 [A-depth] · 南开管理评论 [A-depth] · 管理科学学报 [A-depth] · 中国管理科学 · 系统工程理论与实践 · 经济学动态 · 财经研究 · 中国农村经济 [A-depth] · 南方经济 · 经济科学 · 经济评论 · 财贸经济 · 统计研究 · 管理评论 · 科研管理 · 管理工程学报 · 外国经济与管理 · 经济社会体制比较 · 当代经济科学 · 财政研究 · 审计研究 · 中国软科学 · 农业经济问题
+经济研究 [A-depth] · 经济学(季刊) [A-depth] · 管理世界 [A-depth] · 中国工业经济 [A-depth] · 金融研究 [A-depth] · 世界经济 [A-depth] · 数量经济技术经济研究 [A-depth] · 会计研究 [A-depth] · 南开管理评论 [A-depth] · 管理科学学报 [A-depth] · 中国管理科学 [A-depth] · 系统工程理论与实践 · 经济学动态 · 财经研究 [A-depth] · 中国农村经济 [A-depth] · 南方经济 · 经济科学 · 经济评论 · 财贸经济 [A-depth] · 统计研究 · 管理评论 · 科研管理 · 管理工程学报 · 外国经济与管理 · 经济社会体制比较 · 当代经济科学 · 财政研究 · 审计研究 · 中国软科学 · 农业经济问题
 > 锚点 CSSCI 经管来源刊；已满 30。
 
 ---
@@ -105,7 +105,7 @@ New Journal of Physics · Physical Review Applied
 Nature Chemistry · Chemical Reviews · Chemical Society Reviews · Nature Catalysis ·
 Accounts of Chemical Research · Chem · JACS Au · J. of Physical Chemistry Letters · ACS Central Science
 **天文/地球**：The Astrophysical Journal · Monthly Notices of the RAS · Astronomy & Astrophysics ·
-Nature Astronomy · Nature Geoscience · J. of Geophysical Research · Reviews of Geophysics ·
+Nature Astronomy · Nature Geoscience [A-depth] · J. of Geophysical Research · Reviews of Geophysics ·
 The Astronomical Journal
 > ~58 高置信；补足至 88 以各分支 JCR Q1 顺位（如 SIAM 系列、IEEE 信息论 TIT、
 > Inorganic/Organic 化学子刊、Earth & Planetary Science Letters 等）核验填入。**待核实长尾**。
@@ -122,7 +122,7 @@ The Astronomical Journal
 模板：实验变体（reporting-guidelines/ethics-IRB/data-availability，弱 theory-development）。
 
 ### 英文 90
-Cell [A-depth] · Cancer Cell [A-depth] · Molecular Cell · Cell Stem Cell · Cell Metabolism ·
+Cell [A-depth] · Cancer Cell [A-depth] · Molecular Cell [A-depth] · Cell Stem Cell · Cell Metabolism ·
 Cell Host & Microbe · Developmental Cell · Cell Reports · Immunity · Neuron ·
 Nature Genetics · Nature Cell Biology · Nature Biotechnology · Nature Neuroscience ·
 Nature Immunology · Nature Structural & Molecular Biology · Nature Microbiology ·
@@ -174,7 +174,7 @@ Signal Transduction and Targeted Therapy(英文,中国) · Military Medical Rese
 模板：工程变体（experiments/benchmarks · reproducibility · data-availability）。
 
 ### 英文 72
-**材料**：Advanced Materials · Nature Materials · Advanced Functional Materials ·
+**材料**：Advanced Materials [A-depth] · Nature Materials · Advanced Functional Materials ·
 Advanced Energy Materials · ACS Nano · Nano Letters · Materials Today ·
 Nature Nanotechnology · Progress in Materials Science · Acta Materialia
 **能源**：Joule · Energy & Environmental Science · Nature Energy · Applied Energy
@@ -215,7 +215,7 @@ Governance · J. of Policy Analysis and Management
 **法学**：Harvard Law Review · Yale Law Journal · Stanford Law Review · Columbia Law Review
 **教育学**：American Educational Research Journal · Review of Educational Research · J. of Educational Psychology
 **传播学**：J. of Communication · Communication Research · New Media & Society
-**地理/人类学/人口**：Annals of the AAG · Progress in Human Geography · American Anthropologist ·
+**地理/人类学/人口**：Annals of the AAG · Progress in Human Geography [A-depth] · American Anthropologist ·
 Current Anthropology · Population and Development Review
 > ~44 高置信；补足至 55 以 SSCI 分支 Q1 核验。**待核实长尾**。
 
@@ -241,7 +241,7 @@ J. of American History · The China Quarterly · J. of Asian Studies · The Hist
 **哲学**：Mind · The Philosophical Review · J. of Philosophy · Noûs · Ethics · Analysis ·
 Philosophy and Phenomenological Research
 **文学/文论**：PMLA · Critical Inquiry · New Literary History · Modern Language Review · Representations
-**语言学**：Language · Linguistic Inquiry · J. of Linguistics · Natural Language & Linguistic Theory · Cognition(boundary)
+**语言学**：Language [A-depth] · Linguistic Inquiry · J. of Linguistics · Natural Language & Linguistic Theory · Cognition(boundary)
 **宗教/古典/艺术史/考古**：J. of Religion · The Art Bulletin · J. of Roman Studies ·
 Antiquity · American Antiquity · J. of Archaeological Science · Journal of Aesthetics and Art Criticism
 > ~33 高置信；补足至 45 以 AHCI 分支核验。**待核实长尾**。

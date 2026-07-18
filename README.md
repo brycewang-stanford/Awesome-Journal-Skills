@@ -633,6 +633,8 @@
 | <a href="China-Rural-Economy-Skills/"><img src="assets/covers/china-rural-economy.png" alt="《中国农村经济》" width="56"></a> | **《中国农村经济》** China Rural Economy | [China-Rural-Economy-Skills/](China-Rural-Economy-Skills/) | 农业与农村经济 | 12 |
 | <a href="Journal-of-Finance-and-Economics-Skills/"><img src="assets/covers/journal-of-finance-and-economics.png" alt="《财经研究》" width="56"></a> | **《财经研究》** Journal of Finance and Economics | [Journal-of-Finance-and-Economics-Skills/](Journal-of-Finance-and-Economics-Skills/) | 综合性经济与财经 | 12 |
 | <a href="Chinese-Public-Administration-Skills/"><img src="assets/covers/chinese-public-administration.png" alt="《中国行政管理》" width="56"></a> | **《中国行政管理》** Chinese Public Administration | [Chinese-Public-Administration-Skills/](Chinese-Public-Administration-Skills/) | 公共管理与治理 | 12 |
+| <a href="Finance-and-Trade-Economics-Skills/"><img src="Finance-and-Trade-Economics-Skills/assets/cover.svg" alt="《财贸经济》" width="56"></a> | **《财贸经济》** Finance & Trade Economics | [Finance-and-Trade-Economics-Skills/](Finance-and-Trade-Economics-Skills/) | 财政 · 金融 · 贸易 | 12 |
+| <a href="Chinese-Journal-of-Management-Science-Skills/"><img src="Chinese-Journal-of-Management-Science-Skills/assets/cover.svg" alt="《中国管理科学》" width="56"></a> | **《中国管理科学》** Chinese Journal of Management Science | [Chinese-Journal-of-Management-Science-Skills/](Chinese-Journal-of-Management-Science-Skills/) | 管理科学与工程 | 12 |
 
 ### 社会科学 · 中文顶刊 —— 广度合集
 
@@ -1019,6 +1021,8 @@
 | 艺术史 | The Art Bulletin | [The-Art-Bulletin-Skills/](The-Art-Bulletin-Skills/) | 12 |
 | 哲学 | Mind | [Mind-Skills/](Mind-Skills/) | 12 |
 | 文学 / 语言 | PMLA | [PMLA-Skills/](PMLA-Skills/) | 12 |
+| 语言学 | Language (Linguistic Society of America) | [Language-Linguistic-Society-Skills/](Language-Linguistic-Society-Skills/) | 12 |
+| 地理学 | Progress in Human Geography (PiHG) | [Progress-in-Human-Geography-Skills/](Progress-in-Human-Geography-Skills/) | 12 |
 | 批评理论 | Critical Inquiry | [Critical-Inquiry-Skills/](Critical-Inquiry-Skills/) | 12 |
 | 宗教 | Journal of the American Academy of Religion (JAAR) | [Journal-of-the-American-Academy-of-Religion-Skills/](Journal-of-the-American-Academy-of-Religion-Skills/) | 12 |
 
@@ -1071,6 +1075,10 @@
 | <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters" width="56"></a> | **Physical Review Letters** (PRL) | [Physical-Review-Letters-Skills/](Physical-Review-Letters-Skills/) | 物理（快报） | 12 |
 | <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society" width="56"></a> | **J. of the American Chemical Society** (JACS) | [Journal-of-the-American-Chemical-Society-Skills/](Journal-of-the-American-Chemical-Society-Skills/) | 化学 | 12 |
 | <a href="Annals-of-Mathematics-Skills/"><img src="assets/covers/annals-of-mathematics.png" alt="Annals of Mathematics" width="56"></a> | **Annals of Mathematics** | [Annals-of-Mathematics-Skills/](Annals-of-Mathematics-Skills/) | 纯数学 | 12 |
+| <a href="Advanced-Materials-Skills/"><img src="Advanced-Materials-Skills/assets/cover.svg" alt="Advanced Materials" width="56"></a> | **Advanced Materials** (Adv. Mater.) | [Advanced-Materials-Skills/](Advanced-Materials-Skills/) | 材料科学 | 12 |
+| <a href="Molecular-Cell-Skills/"><img src="Molecular-Cell-Skills/assets/cover.svg" alt="Molecular Cell" width="56"></a> | **Molecular Cell**（Cell Press） | [Molecular-Cell-Skills/](Molecular-Cell-Skills/) | 分子生物学（机制） | 12 |
+| <a href="Nature-Geoscience-Skills/"><img src="Nature-Geoscience-Skills/assets/cover.svg" alt="Nature Geoscience" width="56"></a> | **Nature Geoscience** (Nat. Geosci.) | [Nature-Geoscience-Skills/](Nature-Geoscience-Skills/) | 地球科学 | 12 |
+| <a href="Earth-and-Planetary-Science-Letters-Skills/"><img src="Earth-and-Planetary-Science-Letters-Skills/assets/cover.svg" alt="Earth and Planetary Science Letters" width="56"></a> | **Earth and Planetary Science Letters** (EPSL) | [Earth-and-Planetary-Science-Letters-Skills/](Earth-and-Planetary-Science-Letters-Skills/) | 地球与行星科学 | 12 |
 
 每个自然科学包都按刊定制：Science 编码"一句话总结"与广泛意义初筛；Cell 编码 STAR Methods + Key Resources Table 以及 Highlights/eTOC/图形摘要三件套；PNAS 编码 ≤120 词的 Significance Statement 与 Direct/Contributed 投稿通道；**PNAS Nexus（PNAS 的金色开放获取姊妹刊，由 OUP 出版）则编码完全不同的另一套：金色 OA + APC + CC BY/CC BY-NC 许可证选择、无 Direct/Contributed 通道、从 PNAS 转投的 transfer 通道、50–120 词 Significance Statement、以页数计的篇幅与文章类型（含 Registered Reports）、强制数据/代码存放，以及投稿时对参考文献格式不作硬性要求**；NEJM 与 The Lancet 编码试验注册、CONSORT/STROBE/PRISMA 报告规范、结构化临床摘要、ICMJE 伦理与利益声明，以及（柳叶刀的）*Research in context* 面板。
 

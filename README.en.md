@@ -633,6 +633,8 @@ Depth packs for the CCF-recommended **Chinese-language journals** (distinct from
 | <a href="China-Rural-Economy-Skills/"><img src="assets/covers/china-rural-economy.png" alt="《中国农村经济》" width="56"></a> | **《中国农村经济》** China Rural Economy | [China-Rural-Economy-Skills/](China-Rural-Economy-Skills/) | Agricultural & rural economics | 12 |
 | <a href="Journal-of-Finance-and-Economics-Skills/"><img src="assets/covers/journal-of-finance-and-economics.png" alt="《财经研究》" width="56"></a> | **《财经研究》** Journal of Finance and Economics | [Journal-of-Finance-and-Economics-Skills/](Journal-of-Finance-and-Economics-Skills/) | Economics & finance (comprehensive) | 12 |
 | <a href="Chinese-Public-Administration-Skills/"><img src="assets/covers/chinese-public-administration.png" alt="《中国行政管理》" width="56"></a> | **《中国行政管理》** Chinese Public Administration | [Chinese-Public-Administration-Skills/](Chinese-Public-Administration-Skills/) | Public administration & governance | 12 |
+| <a href="Finance-and-Trade-Economics-Skills/"><img src="Finance-and-Trade-Economics-Skills/assets/cover.svg" alt="《财贸经济》" width="56"></a> | **《财贸经济》** Finance & Trade Economics | [Finance-and-Trade-Economics-Skills/](Finance-and-Trade-Economics-Skills/) | Public finance · finance · trade | 12 |
+| <a href="Chinese-Journal-of-Management-Science-Skills/"><img src="Chinese-Journal-of-Management-Science-Skills/assets/cover.svg" alt="《中国管理科学》" width="56"></a> | **《中国管理科学》** Chinese Journal of Management Science | [Chinese-Journal-of-Management-Science-Skills/](Chinese-Journal-of-Management-Science-Skills/) | Management science & engineering | 12 |
 
 ### Social science · Chinese top journals — breadth bundle
 
@@ -1019,6 +1021,8 @@ Beyond business and economics, depth packs now extend to **sociology, political 
 | Art history | The Art Bulletin | [The-Art-Bulletin-Skills/](The-Art-Bulletin-Skills/) | 12 |
 | Philosophy | Mind | [Mind-Skills/](Mind-Skills/) | 12 |
 | Literature / language | PMLA | [PMLA-Skills/](PMLA-Skills/) | 12 |
+| Linguistics | Language (Linguistic Society of America) | [Language-Linguistic-Society-Skills/](Language-Linguistic-Society-Skills/) | 12 |
+| Geography | Progress in Human Geography (PiHG) | [Progress-in-Human-Geography-Skills/](Progress-in-Human-Geography-Skills/) | 12 |
 | Critical theory | Critical Inquiry | [Critical-Inquiry-Skills/](Critical-Inquiry-Skills/) | 12 |
 | Religion | Journal of the American Academy of Religion (JAAR) | [Journal-of-the-American-Academy-of-Religion-Skills/](Journal-of-the-American-Academy-of-Religion-Skills/) | 12 |
 
@@ -1071,6 +1075,10 @@ Beyond business and economics, depth packs now extend to **sociology, political 
 | <a href="Physical-Review-Letters-Skills/"><img src="assets/covers/physical-review-letters.png" alt="Physical Review Letters" width="56"></a> | **Physical Review Letters** (PRL) | [Physical-Review-Letters-Skills/](Physical-Review-Letters-Skills/) | Physics (letters) | 12 |
 | <a href="Journal-of-the-American-Chemical-Society-Skills/"><img src="assets/covers/journal-of-the-american-chemical-society.png" alt="Journal of the American Chemical Society" width="56"></a> | **J. of the American Chemical Society** (JACS) | [Journal-of-the-American-Chemical-Society-Skills/](Journal-of-the-American-Chemical-Society-Skills/) | Chemistry | 12 |
 | <a href="Annals-of-Mathematics-Skills/"><img src="assets/covers/annals-of-mathematics.png" alt="Annals of Mathematics" width="56"></a> | **Annals of Mathematics** | [Annals-of-Mathematics-Skills/](Annals-of-Mathematics-Skills/) | Pure mathematics | 12 |
+| <a href="Advanced-Materials-Skills/"><img src="Advanced-Materials-Skills/assets/cover.svg" alt="Advanced Materials" width="56"></a> | **Advanced Materials** (Adv. Mater.) | [Advanced-Materials-Skills/](Advanced-Materials-Skills/) | Materials science | 12 |
+| <a href="Molecular-Cell-Skills/"><img src="Molecular-Cell-Skills/assets/cover.svg" alt="Molecular Cell" width="56"></a> | **Molecular Cell** (Cell Press) | [Molecular-Cell-Skills/](Molecular-Cell-Skills/) | Molecular biology (mechanism) | 12 |
+| <a href="Nature-Geoscience-Skills/"><img src="Nature-Geoscience-Skills/assets/cover.svg" alt="Nature Geoscience" width="56"></a> | **Nature Geoscience** (Nat. Geosci.) | [Nature-Geoscience-Skills/](Nature-Geoscience-Skills/) | Earth science | 12 |
+| <a href="Earth-and-Planetary-Science-Letters-Skills/"><img src="Earth-and-Planetary-Science-Letters-Skills/assets/cover.svg" alt="Earth and Planetary Science Letters" width="56"></a> | **Earth and Planetary Science Letters** (EPSL) | [Earth-and-Planetary-Science-Letters-Skills/](Earth-and-Planetary-Science-Letters-Skills/) | Earth & planetary science | 12 |
 
 Each natural-science pack is opinionated by venue: Science encodes the one-sentence summary and broad-significance desk filter; Cell encodes STAR Methods + the Key Resources Table and the Highlights/eTOC/graphical-abstract trio; PNAS encodes the ≤120-word Significance Statement and the Direct/Contributed submission tracks; **PNAS Nexus (PNAS's gold open-access sibling, published by OUP) encodes an entirely different set: gold OA + APC + CC BY/CC BY-NC license choice, no Direct/Contributed track, the transfer route from PNAS, a 50–120-word Significance Statement, page-based length with article types (incl. Registered Reports), mandatory data/code deposition, and references that are format-neutral at submission**; NEJM and The Lancet encode trial registration, CONSORT/STROBE/PRISMA reporting, structured clinical abstracts, ICMJE ethics/disclosures, and (for The Lancet) the *Research in context* panel.
 
