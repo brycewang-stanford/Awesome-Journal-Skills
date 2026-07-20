@@ -1298,6 +1298,9 @@
 |------|------|------|------|
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
+| **Econ Writing Skill** | [econ-writing-skill](https://github.com/hanlulong/econ-writing-skill) | 经济学论文写作：50+ 权威指南提炼（Claude Code / Codex） | upstream |
+| **Econ Paper Review Skill** | [econ-paper-review-skill](https://github.com/hanlulong/econ-paper-review-skill) | 经济学论文 AI 审稿：可验证审稿意见 + 修改计划（Claude Code / Codex） | upstream |
+| **Econ Slides Skill** | [econ-slides-skill](https://github.com/hanlulong/econ-slides-skill) | 论文 → Beamer 学术演讲 + 定时讲稿（Claude Code / Codex） | upstream |
 
 <sub><b>计数口径。</b> 首页 <b>4150</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>299 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3475</b>（289 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>7</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→执行→就绪→预演→回应→复现）= <b>4150</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
