@@ -23,6 +23,7 @@ should fail on warnings.
 | [`root_entry_audit.py`](root_entry_audit.py) | Reports progress and source-anchor gaps for the 200 root journal-entry cards. | `python3 tools/root_entry_audit.py` |
 | [`quality_scorecard.py`](quality_scorecard.py) | Scores every first-party pack 0–100 on objective quality dimensions. It distinguishes single-venue `depth` packs, compressed AI-conference `conference` packs, and large `breadth` bundles: depth packs get credit for code/worked examples/exemplars, conference packs use a shorter skill-body target, and breadth bundles get credit for routers, rosters/source maps, worked routing cases, and selection patterns. The `unit` column is cross-language: Latin/technical tokens count as one unit and two CJK characters count as one unit. Venue-cue checks use pack names plus common skill-directory prefixes such as `jbf`, `ectj`, or `red`. `code=n/a` means the pack's resources explicitly explain why runnable econometric code is not discipline-appropriate. `--top N` shows the lowest scorers; `--show-skills` names the thinnest files inside each displayed pack; `--json` for diffing the trajectory over time; `--min-score` can gate a focused cleanup. | `python3 tools/quality_scorecard.py --top 20 --show-skills` |
 | [`external_link_audit.py`](external_link_audit.py) | Reports liveness for external official/publisher/submission URLs cited in first-party Markdown. It is network-dependent and advisory: 404/410 are actionable, while 401/403/429 and timeouts usually need manual recheck. Results are cached under `tools/.cache/`; `--cache-summary --json` reads that cache and URL inventory without making network requests, including current cache coverage and orphaned cache rows. | `python3 tools/external_link_audit.py` |
+| [`live_check_fetch.py`](live_check_fetch.py) | Fetches the `.maintenance/LIVE-CHECK-URLS.txt` target pages and prints readable page text for source-map re-verification. The build sandbox's egress policy denies most journal/publisher domains, so this is meant to run on a GitHub Actions runner (via the `live-check` workflow) where those domains are reachable; the fetched text lands in the job log for a maintainer or agent to act on. Report-only: never edits files or fails the build. | `python3 tools/live_check_fetch.py` |
 
 ## Updating the inventory tripwires
 
@@ -33,6 +34,12 @@ three `EXPECTED_*` constants (and the README badges) in the same commit:
 ```bash
 python3 tools/audit_repo.py --counts   # prints the live numbers to copy in
 ```
+
+## Generators
+
+| Tool | Purpose | Typical command |
+|------|---------|-----------------|
+| [`gen_venue_index.py`](gen_venue_index.py) | Regenerates `shared-resources/journal-selection/venue-index.tsv`, the stable venue index behind the journal-match capability. Emits stable fields only (discipline / tier / lane / region / source-map pointer) — never volatile fees or acceptance, which stay in each pack's `official-source-map.md`. Re-run after adding or removing a depth pack and commit the regenerated TSV in the same change. | `python3 tools/gen_venue_index.py` |
 
 ## Asset Rendering (Node)
 
