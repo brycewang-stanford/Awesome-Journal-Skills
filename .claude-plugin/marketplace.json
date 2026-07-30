@@ -1234,6 +1234,13 @@
       "category": "academic"
     },
     {
+      "name": "jse-tju-skills",
+      "source": "./Journal-of-Systems-Engineering-Skills",
+      "description": "Twelve-skill bundle covering the 《系统工程学报》 manuscript lifecycle: workflow, fit, topic selection, literature review, system modeling, theory, algorithms, validation, reproducibility, writing, submission, and rebuttal.",
+      "version": "0.1.0",
+      "category": "academic"
+    },
+    {
       "name": "journal-of-management-skills",
       "source": "./Journal-of-Management-Skills",
       "description": "Twelve-skill bundle covering the Journal of Management manuscript lifecycle.",

@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 4150 agent skills, 299 packs, 522 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 4162 agent skills, 300 packs, 522 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -66,7 +66,7 @@ Click any discipline name to jump to its explanation. Representative subfields a
     <a href="#-the-skill-packs">📚 The Skill Packs</a> ·
     <a href="#-how-to-use">⚡ How to Use</a> ·
     <a href="showcase/README.md">🧪 Executed Empirical Showcase</a> ·
-    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue Index (289 venues, machine-readable)</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue Index (290 venues, machine-readable)</a> ·
     <a href="#-roadmap">🗺 Roadmap</a> ·
     <a href="README.md">🌐 简体中文</a>
   </sub>
@@ -350,7 +350,7 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 | 🧭 Start · Rationale | 📚 Browse · Index | 🚀 Use · Collaborate |
 |---|---|---|
 | [Quick Browsing & Layout Guide](#-quick-browsing--layout-guide) | [The Skill Packs](#-the-skill-packs) | [How to Use](#-how-to-use) |
-| [Why journal-specific](#-why-journal-specific-skills) | [200 Root Journal Folders](#-200-root-journal-folders) | [Pack Picker](#-pack-selection-cheat-sheet) |
+| [Why journal-specific](#-why-journal-specific-skills) | [201 Root Journal Folders](#-201-root-journal-folders) | [Pack Picker](#-pack-selection-cheat-sheet) |
 | [Roadmap](#-roadmap) | [Repository Layout](#-repository-layout) | [Contributing](#-contributing) |
 | [Related Projects](#-related-projects) | [Maintainers](#-maintainers) | [🌐 中文 README](README.md) |
 
@@ -370,7 +370,7 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 | <a id="discipline-agri-env-earth"></a>🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
 | <a id="discipline-sport-science"></a>🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
 
-<sub><b>299 packs / 4150 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>300 packs / 4162 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -388,13 +388,13 @@ Use the repo in three passes:
 Rule of thumb: start from a root folder or cover card when browsing, use a breadth bundle when choosing between venues, and use a depth pack once the target journal is fixed.
 
 <details open>
-<summary><b>📂 Click to expand: the 200 root journal-entry folders</b> (100 Chinese pinyin folders + 100 English folders, for browsing by venue name on the GitHub home page)</summary>
+<summary><b>📂 Click to expand: the 201 root journal-entry folders</b> (100 Chinese pinyin folders + 100 English folders + 1 standalone depth-pack entry, for browsing by venue name on the GitHub home page)</summary>
 
 <!-- ROOT-JOURNAL-FOLDERS:START -->
 
-## 📂 200 Root Journal Folders
+## 📂 201 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 4030-skill count stay stable.
+For visual browsing at the repository root, there are 201 lightweight entry folders: 100 Chinese roadmap journals in pinyin folder names, 100 English econ / finance / management / business journals in title-style folder names, and 1 standalone depth-pack entry. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 4162-skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 
@@ -455,6 +455,12 @@ For visual browsing at the repository root, the 200 social-science breadth journ
 | [Contemporary-Accounting-Research/](Contemporary-Accounting-Research/)<br><sub>Contemporary Accounting Research</sub> | [Accounting-Organizations-and-Society/](Accounting-Organizations-and-Society/)<br><sub>Accounting, Organizations and Society</sub> | [Management-Science/](Management-Science/)<br><sub>Management Science</sub> | [Operations-Research/](Operations-Research/)<br><sub>Operations Research</sub> |
 | [Manufacturing-and-Service-Operations-Management/](Manufacturing-and-Service-Operations-Management/)<br><sub>Manufacturing & Service Operations Management</sub> | [Journal-of-Operations-Management/](Journal-of-Operations-Management/)<br><sub>Journal of Operations Management</sub> | [Production-and-Operations-Management/](Production-and-Operations-Management/)<br><sub>Production and Operations Management</sub> | [MIS-Quarterly/](MIS-Quarterly/)<br><sub>MIS Quarterly</sub> |
 | [Information-Systems-Research/](Information-Systems-Research/)<br><sub>Information Systems Research</sub> | [Journal-of-Management-Information-Systems/](Journal-of-Management-Information-Systems/)<br><sub>Journal of Management Information Systems</sub> | [Journal-of-the-Association-for-Information-Systems/](Journal-of-the-Association-for-Information-Systems/)<br><sub>Journal of the Association for Information Systems</sub> | [INFORMS-Journal-on-Computing/](INFORMS-Journal-on-Computing/)<br><sub>INFORMS Journal on Computing</sub> |
+
+### Standalone Depth-Pack Entry · 1 Folder
+
+|  |
+|---|
+| [Xitong-Gongcheng-Xuebao/](Xitong-Gongcheng-Xuebao/)<br><sub>《系统工程学报》</sub> |
 
 <!-- ROOT-JOURNAL-FOLDERS:END -->
 
@@ -613,6 +619,12 @@ Depth packs for the CCF-recommended **Chinese-language journals** (distinct from
 | **《计算机辅助设计与图形学学报》** Journal of Computer-Aided Design & Computer Graphics (JCAD&CG) | [Journal-of-CAD-and-Computer-Graphics-Skills/](Journal-of-CAD-and-Computer-Graphics-Skills/) | The CCF-A graphics/geometry venue (graphics/CAD/geometric design/visualization/VR/imaging), geometric-accuracy and rendering-quality evidence, jcad.cn, workflow, and topic selection | 12 |
 | **《通信学报》** Journal on Communications (JOC) | [Journal-on-Communications-Skills/](Journal-on-Communications-Skills/) | The communications flagship (theory/wireless-mobile/networking/security-crypto/signal processing), link- and system-level simulation evidence, CBPT three-stage review, workflow, and topic selection | 12 |
 | **《计算机科学》** Computer Science journal (JSJKX) | [Computer-Science-Journal-Skills/](Computer-Science-Journal-Skills/) | The broad Chinese CS journal, active columns/special topics, single-blind review, long-paper friendly, jsjkx.com, explicitly a journal not a conference, workflow, and topic selection | 12 |
+
+### Engineering & technology · Chinese journals — depth packs
+
+| Cover | Journal | Pack | Field | Skills |
+|:----:|------|------|------|-------:|
+| — | **《系统工程学报》** Journal of Systems Engineering | [Journal-of-Systems-Engineering-Skills/](Journal-of-Systems-Engineering-Skills/) | Systems engineering | 12 |
 
 ### Social science · Chinese top journals — depth packs
 
@@ -1299,7 +1311,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>4150</b> = every in-repository <code>SKILL.md</code>, spread across <b>299 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3475</b> (289 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>4150</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>4162</b> = every in-repository <code>SKILL.md</code>, spread across <b>300 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3487</b> (290 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>4162</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1307,7 +1319,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 
 All installable packs in this repo are **in-repo folder packs** (authored and maintained here) and are aggregated by the root [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json). Add this marketplace once with `/plugin marketplace add`, then install any in-repo pack by name. AER and third-party packs such as the Nature family, claude-scholar, and codex-claude-academic-skills are listed as external links instead of vendored git submodules, so `/plugin marketplace add` no longer recurses into upstream submodules.
 
-The root also includes **200 lightweight journal entry folders** for visual browsing: 100 Chinese roadmap journals in pinyin (`Jingji-Yanjiu/`, `Guanli-Shijie/`, …) and 100 English econ/business journals (`American-Economic-Review/`, `Journal-of-Finance/`, …). These folders contain only navigation READMEs; installable `SKILL.md` files remain in the canonical bundle paths below.
+The root also includes **201 lightweight journal entry folders** for visual browsing: 100 Chinese roadmap journals in pinyin (`Jingji-Yanjiu/`, `Guanli-Shijie/`, …), 100 English econ/business journals (`American-Economic-Review/`, `Journal-of-Finance/`, …), and 1 standalone depth-pack entry. These folders contain only navigation READMEs; installable `SKILL.md` files remain in the canonical bundle paths below.
 
 ```text
 awesome-journal-skills/
@@ -1316,6 +1328,7 @@ awesome-journal-skills/
 ├── Guanli-Shijie/                 → 《管理世界》 root entry
 ├── American-Economic-Review/      → American Economic Review root entry
 ├── Journal-of-Finance/            → Journal of Finance root entry
+├── Xitong-Gongcheng-Xuebao/       → 《系统工程学报》 root entry
 ├── ...                            → 196 more root journal entry folders
 │   # In-repo folder packs (first-party, authored / maintained here)
 ├── Economic-Research-Journal-Skills/      → 《经济研究》 (18 skills)
@@ -1326,6 +1339,7 @@ awesome-journal-skills/
 ├── Journal-of-Financial-Research-Skills/  → 《金融研究》 (12 skills)
 ├── China-Industrial-Economics-Skills/     → 《中国工业经济》 (13 skills)
 ├── Journal-of-Management-Sciences-in-China-Skills/  → 《管理科学学报》 (12 skills)
+├── Journal-of-Systems-Engineering-Skills/           → 《系统工程学报》 (12 skills)
 ├── Nankai-Business-Review-Skills/         → 《南开管理评论》 (12 skills)
 ├── Accounting-Research-Skills/            → 《会计研究》 (13 skills)
 ├── Sociological-Studies-Skills/           → 《社会学研究》 (12 skills)
@@ -1528,7 +1542,7 @@ awesome-journal-skills/
 ├── Global-Environmental-Change-Skills/ → Global Environmental Change (12 skills)
 ├── Agricultural-Systems-Skills/   → Agricultural Systems (12 skills)
 ├── Field-Crops-Research-Skills/   → Field Crops Research (12 skills)
-│   # Root marketplace manifest (aggregates all 299 in-repo packs)
+│   # Root marketplace manifest (aggregates all 300 in-repo packs)
 └── .claude-plugin/marketplace.json
 ```
 
@@ -1622,7 +1636,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), the remaining flagship marketing & accounting venues (JIM · JPP&M · AOS), and a further batch of discipline flagships — natural science (Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters), linguistics (Language), and Chinese key journals (Finance & Trade Economics · Chinese Journal of Management Science), with the geography review journal Progress in Human Geography rebuilt to the standard depth-pack spec, for a repo-wide total of **299 packs / 4150 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese-sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), the remaining flagship marketing & accounting venues (JIM · JPP&M · AOS), and a further batch of discipline flagships — natural science (Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters), linguistics (Language), and Chinese key journals (Finance & Trade Economics · Chinese Journal of Management Science · Journal of Systems Engineering), with the geography review journal Progress in Human Geography rebuilt to the standard depth-pack spec, for a repo-wide total of **300 packs / 4162 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
@@ -1636,8 +1650,8 @@ use next for my manuscript targeted at <journal>.
   - [Clinical-Medicine-Journal-Skills](Clinical-Medicine-Journal-Skills/) — 30 English specialty clinical-medicine journals
   - [English-Humanities-Journal-Skills](English-Humanities-Journal-Skills/) — 36 English humanities journals
   - [Chinese-Sport-Science-Journal-Skills](Chinese-Sport-Science-Journal-Skills/) — 12 Chinese sport-science (体育学) journals
-- **Per-journal cover wall** for breadth journals, always-expanded cover galleries in both READMEs, and 200 lightweight root entry folders for repo-front browsing.
-- **Full end-to-end depth packs (~12 steps)** — 289 first-party venue packs across the full discipline map (AER and Nature are listed as external third-party resources):
+- **Per-journal cover wall** for breadth journals, always-expanded cover galleries in both READMEs, and 201 lightweight root entry folders for repo-front browsing.
+- **Full end-to-end depth packs (~12 steps)** — 290 first-party venue packs across the full discipline map (AER and Nature are listed as external third-party resources):
   - **English economics:** AER (external listing) · AER: Insights · AEJ Applied Economics · AEJ Economic Policy · AEJ Macroeconomics · AEJ Microeconomics · JEEA · IER · The Economic Journal · European Economic Review · Journal of Economic Literature · Journal of Economic Perspectives · Review of Economics and Statistics · QJE · JPE · Econometrica · REStud · Journal of Development Economics · Journal of Public Economics · Journal of Labor Economics · Journal of International Economics · Journal of Monetary Economics · JMCB · IMF Economic Review · Economic Policy · RAND Journal of Economics · Journal of Econometrics · Econometric Theory · Quantitative Economics · Journal of Applied Econometrics · JBES · The Econometrics Journal · Review of Economic Dynamics · Journal of Economic Growth · Journal of Economic Theory · Games and Economic Behavior · Journal of Human Resources · Journal of Health Economics · Journal of Urban Economics · JEEM · JEBO · Journal of Law and Economics · JLEO · World Development · World Bank Economic Review · Journal of Economic Geography · Journal of Risk and Uncertainty · Experimental Economics · Annual Review of Economics
   - **English finance:** Journal of Finance · Journal of Financial Economics · Review of Financial Studies · Review of Finance · JFQA · JFI · Journal of Corporate Finance · Journal of Banking & Finance · Journal of Financial Markets · Journal of International Money and Finance · Financial Management · Mathematical Finance
   - **English management / OM / IS:** AMJ · AMR · Academy of Management Annals · ASQ · SMJ · Organization Science · Organization Studies · Journal of Management · Journal of Management Studies · Human Relations · Human Resource Management · ETP · Research Policy · JIBS · JBV · Management Science · Operations Research · INFORMS Journal on Computing · M&SOM · JOM · POM · MISQ · ISR · JMIS · JAIS
@@ -2115,7 +2129,7 @@ Before opening a PR that changes root navigation, manifests, or pack metadata, r
 python3 tools/run_checks.py
 ```
 
-The same hard checks run in GitHub Actions. They check the canonical skill count, curated-pack count, 200 root journal entries and their canonical skill targets, pack README / license presence, Chinese depth-pack source maps, plugin / marketplace drift, `SKILL.md` frontmatter, local README links, Python tool syntax, whitespace, and severe skill clones. CI reports clone pairs from `tools/clone_audit.py --threshold 0.75` and fails only at `--fail-threshold 0.90`.
+The same hard checks run in GitHub Actions. They check the canonical skill count, curated-pack count, 201 root journal entries and their canonical skill targets, pack README / license presence, Chinese depth-pack source maps, plugin / marketplace drift, `SKILL.md` frontmatter, local README links, Python tool syntax, whitespace, and severe skill clones. CI reports clone pairs from `tools/clone_audit.py --threshold 0.75` and fails only at `--fail-threshold 0.90`.
 
 Quality bar for inclusion in this index:
 
