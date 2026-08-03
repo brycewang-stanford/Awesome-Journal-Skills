@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 4150 agent skills, 299 packs, 522 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 4152 agent skills, 299 packs, 522 top journals, 155 CS/AI venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -343,7 +343,19 @@ Then hand your target journal's manuscript to its workflow skill:
 Use qje-workflow to assess how far my draft is from QJE's bar and what to do next.
 ```
 
-> Not sure where to submit yet? Use a **breadth bundle**'s router skill to pick a venue first, then install the matching **depth pack**. Full path in the [Quick Browsing & Layout Guide](#-quick-browsing--layout-guide) below.
+**Not sure where to submit yet?** Install the cross-journal toolkit instead and let it pick:
+
+```bash
+/plugin install research-toolkit-skills
+```
+
+```text
+Use rt-journal-match: here is my abstract — which venues should I target, in what order?
+```
+
+It profiles the paper, shortlists from an index of **743 venues** into reach / match / safe, and pre-writes the resubmission ladder. Its retrieval step is measured, not asserted — see [`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md).
+
+> **Looking for one specific journal?** [**CATALOG.md**](CATALOG.md) lists all 743 venues by discipline with the plugin name to install for each ([`catalog.json`](catalog.json) for tooling).
 
 ### 🧭 Contents
 
@@ -370,7 +382,7 @@ Use qje-workflow to assess how far my draft is from QJE's bar and what to do nex
 | <a id="discipline-agri-env-earth"></a>🌱 **Agriculture, environment & earth science** | agricultural systems · crops · environmental science · climate · conservation · earth systems | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | depth packs + agriculture/environment breadth bundle |
 | <a id="discipline-sport-science"></a>🏅 **Sport science** | training · physical education · kinesiology · sport social science | 体育科学 · Journal of Beijing Sport University · Journal of Shanghai University of Sport | Chinese sport-science breadth bundle |
 
-<sub><b>299 packs / 4150 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
+<sub><b>299 packs / 4152 skills</b> total. A "depth pack" = one venue, end-to-end (~12 skills); a "breadth bundle" = one lightweight "venue-fit + house-style" skill per venue plus a router.</sub>
 
 ---
 
@@ -1299,7 +1311,7 @@ This bundle is the natural-science sibling of the English social-science breadth
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | Ideation → writing → publication (Claude Code / OpenCode / Codex) | upstream |
 | **Codex/Claude Academic Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | Reading · writing · scientific computing | upstream |
 
-<sub><b>Count methodology.</b> The homepage <b>4150</b> = every in-repository <code>SKILL.md</code>, spread across <b>299 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3475</b> (289 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>7</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>4150</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
+<sub><b>Count methodology.</b> The homepage <b>4152</b> = every in-repository <code>SKILL.md</code>, spread across <b>299 packs</b>. All nine breadth bundles and the standalone depth packs are counted, so venues covered both ways (as a breadth profile and a depth pack) are counted in both forms. Reconciliation (three parts): <b>3475</b> (289 in-repo depth packs, single venue end-to-end, ~12 skills each) + <b>668</b> (9 breadth bundles: CN social science 103 + EN social science 101 + EN natural science 155 + engineering technology 41 + agriculture environment 31 + clinical medicine 31 + English humanities 37 + Chinese sport science 13 + CS conferences 156) + <b>9</b> (1 cross-journal toolkit, Research-Toolkit-Skills) = <b>4152</b>. AER and Nature-family third-party packs are listed as external links, not vendored, so they are no longer included in this repository's <code>SKILL.md</code> count. The figure is enforced in CI by <code>python3 tools/audit_repo.py</code>; the README and the actual file count are not allowed to drift.</sub>
 
 ---
 
@@ -1622,7 +1634,7 @@ use next for my manuscript targeted at <journal>.
 
 ## 🗺 Roadmap
 
-**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), the remaining flagship marketing & accounting venues (JIM · JPP&M · AOS), and a further batch of discipline flagships — natural science (Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters), linguistics (Language), and Chinese key journals (Finance & Trade Economics · Chinese Journal of Management Science), with the geography review journal Progress in Human Geography rebuilt to the standard depth-pack spec, for a repo-wide total of **299 packs / 4150 skills**. The Roadmap now tracks the next tier of expansion.
+**Status:** the nine breadth bundles are fully shipped (including the AI-first CS conference bundle, the engineering-technology bundle, the agriculture-environment bundle, the clinical-medicine bundle, the English-humanities bundle, and the Chinese sport-science bundle); depth packs now extend beyond business & economics into **humanities & broader social science** (51 flagship venues across sociology, anthropology, law, geography, political science, psychology, demography, communication, history, art, philosophy, literature, religion) and **environment / ecology / agriculture** (6 venues), the remaining flagship marketing & accounting venues (JIM · JPP&M · AOS), and a further batch of discipline flagships — natural science (Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters), linguistics (Language), and Chinese key journals (Finance & Trade Economics · Chinese Journal of Management Science), with the geography review journal Progress in Human Geography rebuilt to the standard depth-pack spec, for a repo-wide total of **299 packs / 4152 skills**. The Roadmap now tracks the next tier of expansion.
 
 ### ✅ Shipped
 
