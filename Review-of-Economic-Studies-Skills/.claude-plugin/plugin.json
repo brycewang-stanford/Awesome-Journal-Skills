@@ -1,7 +1,7 @@
 {
   "name": "restud-skills",
   "description": "REStud-specific skill stack for manuscripts targeted at The Review of Economic Studies (Oxford University Press, for the Review of Economic Studies Ltd; founded 1933 to advance theory and applied work, especially by younger economists; home of the REStud Tour). Encodes the journal's actual mechanics: Editorial Express portal, the USD 200 / 120 submission fee (reduced for students and early-career or low-income-economy authors), double-anonymous refereeing, Harvard author-date references, a ~45-page limit, and the pre-publication data/code reproducibility check run by the Data Editor under the AEA DCAS standard. Covers topic selection, literature positioning, balanced theory + applied identification, online-appendix proofs, robustness, exhibits, house style, deposit-ready replication packages, referee strategy, submission preflight, and multi-round R&R. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

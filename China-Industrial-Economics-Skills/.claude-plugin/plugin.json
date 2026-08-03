@@ -1,7 +1,7 @@
 {
   "name": "china-industrial-economics-skills",
   "description": "Agent skill stack for submitting to 《中国工业经济》 (China Industrial Economics) — the Chinese Academy of Social Sciences' Institute of Industrial Economics flagship and a top CSSCI journal for industrial organization, firm behavior, innovation, regional and digital economy (monthly, ISSN 1006-480X, CN 11-3536/F). The journal's signature is empirical rigor (理论顶天，实践立地): clean China-policy quasi-experiments, exhaustive robustness, mechanism + heterogeneity with economic interpretation, and actionable industrial-policy implications. Famous for publishing methodological-norm guides (Jiang 2022 on mediation/moderation; editors are skeptical of three-step mediation). Covers fit positioning, topic selection, literature, institutional background, multi-period DID / event-study identification, mechanism, heterogeneity, the robustness arms race, tables/figures, policy implications, submission preflight, and rebuttal.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

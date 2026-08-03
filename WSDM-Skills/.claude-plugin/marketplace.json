@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "wsdm-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for WSDM manuscript strategy: single-track venue fit, EasyChair submission, no-rebuttal review, log-data reproducibility, and ACM camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "wsdm-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve WSDM-specific skills for web search and data mining conference submissions, grounded in the WSDM 2026 CFP, the WSDM 2027 conference site, ACM Digital Library proceedings, and dblp metadata.",
       "author": {

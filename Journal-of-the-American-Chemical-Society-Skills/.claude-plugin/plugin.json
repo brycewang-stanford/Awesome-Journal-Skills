@@ -1,7 +1,7 @@
 {
   "name": "jacs-skills",
   "description": "Agent skill stack for submitting to the Journal of the American Chemical Society (JACS), a premier broad-scope chemistry journal published by the American Chemical Society. Covers scope fit, framing the chemical advance, synthesis and full characterization rigor (NMR, HRMS, IR/UV-vis, X-ray/CCDC, catalysis controls and mechanism), ACS-style schemes and figures, the Supporting Information, ACS house style, Article-vs-Communication length management, cover letters, Paragon Plus submission, referee strategy, and revision. Bilingual zh-CN / en docs.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

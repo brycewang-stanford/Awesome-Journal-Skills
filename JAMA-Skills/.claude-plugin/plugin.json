@@ -1,7 +1,7 @@
 {
   "name": "jama-skills",
   "description": "Agent skill stack for submitting clinical research to JAMA (Journal of the American Medical Association), one of the big-four general medical journals. Covers scope fit and general-medical importance, study design, EQUATOR reporting standards (CONSORT / STROBE / PRISMA / STARD), statistical rigor with effect sizes and 95% CIs, the JAMA structured abstract and Key Points box, trial registration and ICMJE ethics/disclosure requirements, figures and tables, house style, cover letters, submission preflight, and peer-review revision. Bilingual en / zh-CN docs.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

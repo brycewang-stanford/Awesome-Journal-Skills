@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ipsn-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for ACM/IEEE IPSN: IP-vs-SPOTS track routing, double-blind HotCRP submission on the ACM template, sensing-theory and real-deployment evidence, the Best Research Artifact Award, and the IPSN-into-SenSys merger at CPS-IoT Week.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ipsn-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve IPSN-specific skills for the ACM/IEEE International Conference on Information Processing in Sensor Networks and its move into the merged SenSys (Embedded AI and Sensing Systems) at CPS-IoT Week, grounded in the IPSN 2024 (23rd, Hong Kong) call, CPS-IoT Week pages, ACM Digital Library, IEEE Xplore, and dblp.",
       "author": {

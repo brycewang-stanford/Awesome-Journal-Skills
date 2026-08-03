@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "gcb-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Global Change Biology (GCB), the leading journal on the impacts of global environmental change on biological systems, published by Wiley.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "gcb-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Global Change Biology (GCB) manuscript lifecycle — from global-change significance and study design through mechanism-first exhibits, open-data archiving, submission via ScholarOne, and revision.",
       "author": {

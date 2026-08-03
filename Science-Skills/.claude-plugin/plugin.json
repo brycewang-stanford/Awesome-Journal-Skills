@@ -1,7 +1,7 @@
 {
   "name": "science-skills",
   "description": "Agent skill stack for submitting to Science (AAAS) — the flagship multidisciplinary journal. Encodes Science's editorial bar (broad significance, general-interest readability), Research Article vs Report format discipline, the one-sentence summary and ≤125-word abstract, display-item specs, statistics and reproducibility reporting, data/materials/code availability, Science numbered-reference style, a significance-forward cover letter, submission preflight, and reviewer rebuttals. English-first docs with zh-CN mirror.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "chinese-public-administration-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《中国行政管理》, a leading authoritative journal in Chinese public administration.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "chinese-public-administration-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《中国行政管理》 manuscript lifecycle.",
       "author": {

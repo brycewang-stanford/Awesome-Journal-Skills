@@ -1,7 +1,7 @@
 {
   "name": "amr-skills",
   "description": "Theory-development skill stack for the Academy of Management Review (AMR), the Academy of Management's conceptual/theory journal. AMR is a THEORY-DEVELOPMENT journal: it publishes conceptual articles that develop testable knowledge-based claims and does NOT publish empirical hypothesis-testing studies (that is its sibling AMJ's lane). These 12 skills cover theory-fit screening, framing a theory puzzle, challenge-and-extend positioning, construct clarity, proposition development (not hypotheses tested), argument-logic stress-testing in place of empirical robustness, contribution differentiation, conceptual figures (no data plots), APA/AOM house style, and the double-anonymous developmental review via ScholarOne. Grounded in AMR editorials (Whetten 1989; Suddaby 2010) and exemplars (Oliver 1991; Dyer & Singh 1998).",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

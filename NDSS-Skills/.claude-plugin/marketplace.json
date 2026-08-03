@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ndss-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for NDSS paper planning: dual-cycle strategy, two-round review, ethics and disclosure, HotCRP submission, artifact badges, and Internet Society open-access camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ndss-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve NDSS-specific skills for network and distributed system security submissions, grounded in the official NDSS 2027 CFP, Call for Artifacts, HotCRP cycle sites, and Internet Society pages.",
       "author": {

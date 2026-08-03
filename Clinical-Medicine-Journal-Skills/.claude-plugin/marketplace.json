@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "clinical-medicine-journal-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Per-journal fit-and-house-style skills for 30 flagship English-language specialty clinical-medicine journals, plus en-clinmed-journal-workflow routing.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "clinical-medicine-journal-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "English specialty clinical-medicine journal routing and per-journal fit skills with reporting-guideline, trial-registration, and official-submission-check discipline.",
       "author": {

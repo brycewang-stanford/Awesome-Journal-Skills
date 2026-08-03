@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ieee-sp-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for IEEE S&P (Oakland) paper planning, two-cycle HotCRP submission, rebuttal and Revise handling, ethics disclosure, artifact evaluation, and IEEE camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ieee-sp-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve IEEE S&P-specific skills for security/privacy conference submission strategy, grounded in the official S&P 2027 Call for Papers, cycle deadline pages, the S&P 2026 artifact-evaluation pages, and the IEEE TC on Security and Privacy site.",
       "author": {

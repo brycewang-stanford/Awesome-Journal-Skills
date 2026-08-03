@@ -1,7 +1,7 @@
 {
   "name": "psychological-review-skills",
   "description": "Theory-development skill stack for Psychological Review, the American Psychological Association's flagship journal for THEORETICAL contributions in scientific psychology. Psychological Review publishes new theoretical frameworks, formal/mathematical/computational models, and major theoretical syntheses across cognition, perception, learning, development, social psychology, and neuroscience; it does NOT publish primary empirical reports (data appear only to motivate or constrain theory). These 12 skills cover theory-fit screening, framing a theoretical problem, formal/conceptual model construction, conversation positioning, deriving predictions and confronting rival models with existing data, scope and boundary conditions, model diagrams and simulation-of-model-behavior exhibits, APA house style, contribution differentiation over prior models, masked peer review via Editorial Manager, submission, and revision. Distinguished from Psychological Bulletin (review/meta-analysis), Behavioral and Brain Sciences (target-article + commentary), and Trends in Cognitive Sciences.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "asq-skills",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Administrative Science Quarterly (ASQ), the top theory-driven journal in organization theory.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "asq-skills",
-      "version": "0.2.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Administrative Science Quarterly (ASQ) manuscript lifecycle.",
       "author": {

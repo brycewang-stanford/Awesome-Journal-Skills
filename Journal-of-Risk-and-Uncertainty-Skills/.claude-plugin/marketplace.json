@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jru-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Twelve-skill bundle for Journal of Risk and Uncertainty manuscripts.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jru-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Journal of Risk and Uncertainty manuscript lifecycle.",
       "author": {

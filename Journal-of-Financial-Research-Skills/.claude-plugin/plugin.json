@@ -1,7 +1,7 @@
 {
   "name": "journal-of-financial-research-skills",
   "description": "Twelve-skill Chinese-language stack for manuscripts targeted at 《金融研究》 (Journal of Financial Research) — sponsored by the China Society for Finance and Banking, edited and published by the People's Bank of China research-institute editorial office (monthly; ISSN 1002-7246; CN 11-1268/F; CSSCI). Built around the journal's defining bar — credible identification PLUS concrete relevance to China's financial system — across its two lines (macro-finance vs micro corporate-finance): fit positioning, topic selection, literature review, China's financial-system institutional background, policy-shock and high-frequency identification (MPA / 资管新规 / LPR / 注册制 / DID / IV), financial-channel mechanisms (credit / risk-taking / balance-sheet / information), heterogeneity, tables and figures, operational policy implications, submission preflight (~20k chars, ~200-char abstract, 3 JEL codes, ①②③ notes, jryj.org.cn, double-blind), and R&R rebuttals.",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

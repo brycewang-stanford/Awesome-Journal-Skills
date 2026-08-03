@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "eccv-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for ECCV manuscript planning, OpenReview submission, one-page rebuttals, reproducibility, artifacts, and Springer LNCS camera-ready work across the even-year cycle.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "eccv-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve ECCV-specific skills for computer-vision conference submission strategy, grounded in official ECCV 2026 dates and policy pages, the OpenReview group, Springer LNCS proceedings, and ECVA open-access sources.",
       "author": {

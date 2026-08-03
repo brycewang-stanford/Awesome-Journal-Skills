@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "icse-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for ICSE research-track strategy: submission audits, Major-Revision handling, artifact badging, open-science compliance, empirical rigor, and camera-ready delivery.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "icse-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve ICSE-specific skills for software-engineering conference strategy, grounded in the official ICSE 2027 Research Track call for papers, important dates, artifact-evaluation track, and ICSE 2026 cycle records.",
       "author": {

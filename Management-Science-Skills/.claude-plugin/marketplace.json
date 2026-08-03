@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "mgsci-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Management Science, the INFORMS flagship that publishes analytical modeling and empirical work side by side across all functional business areas.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "mgsci-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Management Science manuscript lifecycle across analytical and empirical departments.",
       "author": {

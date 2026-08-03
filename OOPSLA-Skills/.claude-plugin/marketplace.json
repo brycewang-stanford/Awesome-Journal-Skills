@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "oopsla-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for OOPSLA round selection, HotCRP submission, revision-cycle strategy, PACMPL Issue OOPSLA publication, artifact badges, and SPLASH presentation planning.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "oopsla-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve OOPSLA-specific skills covering the two-round PACMPL review model, Minor/Major Revision handling, double-anonymous HotCRP submission, artifact evaluation, and the SPLASH conference calendar, grounded in official OOPSLA 2026 and PACMPL sources.",
       "author": {

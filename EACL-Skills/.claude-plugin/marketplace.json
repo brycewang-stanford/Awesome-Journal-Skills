@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "eacl-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for EACL manuscript planning, ACL Rolling Review submission, author discussion, commitment to the European Chapter meeting, reproducibility, artifacts, and ACL Anthology camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "eacl-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve EACL-specific skills for European-Chapter NLP submission strategy, grounded in the EACL 2027 CFP, ACL Rolling Review, OpenReview ARR groups, the Responsible NLP checklist, and the ACL Anthology.",
       "author": {

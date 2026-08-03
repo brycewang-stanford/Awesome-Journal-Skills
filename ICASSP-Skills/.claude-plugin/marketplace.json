@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "icassp-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for ICASSP manuscript planning across signal processing: venue routing, the IEEE 4+1 format, single-blind CMS submission, rebuttal, reproducible evaluation, and IEEE Xplore camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "icassp-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve ICASSP-specific skills for IEEE Signal Processing Society flagship submission strategy, grounded in the ICASSP 2026/2027 paper kits and calls, SPS policies, and dblp/IEEE Xplore.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "name": "nankai-business-review-skills",
   "description": "面向《南开管理评论》(Nankai Business Review, NBR) 投稿的 12 个 Claude 技能：教育部主管、南开大学（商学院）主办、创刊于 1998 年的工商管理权威中文期刊（CSSCI 来源刊；ISSN 1008-3448；CN 12-1288/F；不收审稿费/版面费）。围绕本刊评判核心——理论贡献 + 中国情境 + 测量规范，覆盖对口判断、理论缺口、机理化假设、信效度与共同方法偏差、问卷-SEM / 实验 / 多案例、情境化、讨论推进理论、投稿 preflight 与 R&R 回复；面向理论建构型管理研究，而非计量因果识别。",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

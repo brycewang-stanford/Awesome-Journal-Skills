@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ssi-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "《中国科学：信息科学》(Scientia Sinica Informationis, SSI) 投稿深度包：选题定位、中文科技写作、三审三校审稿、修回答复、校样定稿、代码数据可用性与可复现性，并厘清与英文姊妹刊 Science China Information Sciences 的关系。",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ssi-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "面向《中国科学：信息科学》(SCIENTIA SINICA Informationis, SSI) 的 12 个中文技能，覆盖国家级大信息学科旗舰的投稿、审稿、修回与录用全流程，事实以官网 scis.scichina.com 与 CNKI/万方双源核实（2026-07-09），未确认项标注待核实。",
       "author": {

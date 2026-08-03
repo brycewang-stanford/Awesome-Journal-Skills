@@ -1,7 +1,7 @@
 {
   "name": "english-natsci-journal-skills",
   "description": "Agent skill stack for 100 mainstream English-language natural-science, clinical/medical, physical, and formal-science journals — the 'other 100' complementing the econ/business bundle. Covers the general-science triad (Nature, Science, PNAS), the Cell Press and Nature Portfolio families, the Physical Review family, the ACS/RSC/Wiley chemistry flagships, the big-four medical journals and major clinical society venues, and the top pure-math journals. One self-contained fit-and-house-style skill per journal, plus en-natsci-journal-workflow routing.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

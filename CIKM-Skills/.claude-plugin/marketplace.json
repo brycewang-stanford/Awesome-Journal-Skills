@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cikm-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for CIKM manuscript planning: tri-community topic fit, five-track routing, EasyChair submission, GenAI disclosure, review strategy, ACM camera-ready, and artifact work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "cikm-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve CIKM-specific skills for the ACM International Conference on Information and Knowledge Management, grounded in the official CIKM 2026 site (35th edition, Rome), per-track CFPs, submission policies, ACM Digital Library records, and dblp.",
       "author": {

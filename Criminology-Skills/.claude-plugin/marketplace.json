@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "crim-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Criminology, the flagship interdisciplinary journal of the American Society of Criminology.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "crim-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Criminology (ASC / Wiley) manuscript lifecycle, from theory-forward topic selection through crime-data analysis, transparency, blinded review, and R&R rebuttals.",
       "author": {

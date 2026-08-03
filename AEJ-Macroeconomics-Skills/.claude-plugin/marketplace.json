@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aej-macroeconomics-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the American Economic Journal: Macroeconomics (AEJ: Macro), the AEA's quarterly broad-interest macroeconomics journal welcoming both quantitative-theoretical and identified-empirical work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aej-macroeconomics-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the American Economic Journal: Macroeconomics (AEJ: Macro) manuscript lifecycle, from topic selection through the AEA Data Editor reproducibility check and R&R rebuttal.",
       "author": {

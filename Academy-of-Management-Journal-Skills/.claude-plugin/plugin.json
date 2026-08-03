@@ -1,7 +1,7 @@
 {
   "name": "amj-skills",
   "description": "Agent skill stack for manuscripts targeted at the Academy of Management Journal (AMJ), the premier empirical management journal published by the Academy of Management. Covers theory-grounded topic selection, theory development and hypothesis derivation, literature positioning, rigorous research design and data analysis (multilevel, SEM, panel, experiments, multi-source data), theoretical-contribution framing, AOM house-style tables/figures and prose, ScholarOne submission, the developmental review process, and multi-round R&R rebuttals. Bilingual en / zh-CN docs.",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

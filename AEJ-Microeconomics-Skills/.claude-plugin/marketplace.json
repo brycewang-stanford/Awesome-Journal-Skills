@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aej-microeconomics-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated, theory-first agent skill stack for manuscripts targeted at the American Economic Journal: Microeconomics (AEJ: Micro), the American Economic Association's journal for microeconomic theory and its applications.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aej-microeconomics-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the American Economic Journal: Microeconomics (AEJ: Micro) manuscript lifecycle, from topic selection through the central theory-model and proof craft to the AEA Data Editor reproducibility check and R&R rebuttal.",
       "author": {

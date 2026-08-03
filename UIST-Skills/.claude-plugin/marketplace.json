@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "uist-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for UIST interface-systems papers: venue routing, PCS submission, video figures, rebuttal, demos, and ACM TAPS camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "uist-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve UIST-specific skills for interface-systems conference strategy, grounded in the official UIST 2026 Call for Participation, Author Guide, and organizers pages, plus ACM DL and dblp proceedings records, checked on 2026-07-08.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aistats-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for AISTATS manuscript planning, OpenReview submission, author discussion, reproducibility, artifacts, and PMLR camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aistats-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve AISTATS-specific skills for AI/statistics conference submission strategy, grounded in official AISTATS 2026 CFP, OpenReview group, PMLR proceedings pages, and Code of Conduct.",
       "author": {

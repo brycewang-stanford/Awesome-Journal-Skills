@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "icde-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for IEEE ICDE research-track planning: venue routing, the two-round calendar, single-blind CMT submission, revise-and-resubmit, IEEE camera-ready and Xplore publication, and artifact availability.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "icde-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve ICDE-specific skills for IEEE data-engineering conference submission strategy, grounded in the ICDE 2027/2026 research calls, important-dates pages, IEEE TCDE awards, and the IEEE TKDE relationship.",
       "author": {

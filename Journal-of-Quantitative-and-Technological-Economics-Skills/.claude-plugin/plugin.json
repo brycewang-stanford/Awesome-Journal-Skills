@@ -1,7 +1,7 @@
 {
   "name": "journal-of-quantitative-and-technological-economics-skills",
   "description": "Agent skill stack for submitting to 《数量经济技术经济研究》 (The Journal of Quantitative & Technological Economics, JQTE) — the Chinese Academy of Social Sciences journal for quantitative economics, econometric methods, technical economics, input-output / CGE, macro-econometric forecasting, and technology/innovation evaluation (monthly since 1984, ISSN 1000-3894, CN 11-1087/F). Built for manuscripts whose contribution is MEASUREMENT / METHOD-APPLICATION / FORECASTING rather than a pure causal-policy narrative. Covers fit positioning, topic selection, literature review, productivity/efficiency measurement (TFP / Malmquist / DEA / SFA / index construction), time-series & macro-econometrics, out-of-sample forecasting evaluation, input-output / CGE / structural decomposition reproducibility, measurement & parameter sensitivity, quantitative table/figure interpretation, planning/forecasting/industry implications, submission preflight, and R&R rebuttals.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

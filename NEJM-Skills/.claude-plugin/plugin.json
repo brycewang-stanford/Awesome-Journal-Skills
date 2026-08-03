@@ -1,7 +1,7 @@
 {
   "name": "nejm-skills",
   "description": "Agent skill stack for submitting to The New England Journal of Medicine (NEJM) — the flagship clinical-medicine journal. Encodes NEJM's editorial bar (practice-changing clinical impact, definitive studies), mandatory prospective trial registration plus protocol and statistical analysis plan, EQUATOR reporting-guideline enforcement (CONSORT/STROBE/PRISMA) with the CONSORT flow diagram, the structured ≤250-word abstract with trial registration number, terse IMRAD writing, clinical statistics (confidence intervals over P, intention-to-treat, absolute risk and NNT), clinical display items (Table 1, Kaplan-Meier, forest plots), clinical ethics and integrity (IRB, informed consent, ICMJE disclosures, data sharing statement), Vancouver/ICMJE references, submission preflight, and response to reviewers. English-first docs with zh-CN mirror.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

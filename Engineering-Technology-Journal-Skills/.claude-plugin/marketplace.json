@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "engineering-technology-journal-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Per-journal fit-and-house-style skills for 40 flagship English-language engineering and technology journals, plus en-engtech-journal-workflow routing.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "engineering-technology-journal-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "English engineering / technology journal routing and per-journal fit skills with official-submission-check discipline.",
       "author": {

@@ -3,8 +3,8 @@
 A cross-journal capability: given a paper (or just an abstract + a few facts), produce a
 **ranked shortlist of target venues** with a reach / match / safe split and a
 **resubmission ladder** for if the first target rejects. It spans the whole repository —
-185 depth packs (see [`venue-index.tsv`](venue-index.tsv)) plus the discipline breadth
-bundles for the long tail.
+all **743 venues** are in [`venue-index.tsv`](venue-index.tsv), whether they have their
+own depth pack (289) or are profiled inside a discipline breadth bundle (454).
 
 > **What this is and is not.** This file is the *matching methodology* + a stable venue
 > index. It does **not** restate volatile facts (APC/fees, acceptance/desk-reject rates,
@@ -42,8 +42,21 @@ From the abstract / draft, pin down:
 Filter [`venue-index.tsv`](venue-index.tsv) by `discipline` (and adjacent disciplines —
 a labor paper fits `economics/labor`, general `economics`, and sometimes
 `economics/public`), then by `lane` (don't send a qualitative paper to an
-empirical-only venue) and `region`. For venues **not** in the depth index, consult the
-discipline **breadth bundle** (Step 5).
+empirical-only venue), `region`, and `venue_type`.
+
+Then narrow with **`scope_keywords`** — terms derived from each venue's own scope prose.
+Match them against the abstract; they are the fastest way to separate two venues that
+share a discipline label. They are *derived, not curated*: treat a keyword hit as a
+reason to open the venue's profile, never as a fit judgement on its own.
+
+Getting the discipline right in Step 1 matters more than it looks: restricting
+candidates to the correct discipline lifts retrieval of the true venue by roughly 15
+points ([`eval/RESULTS.md`](eval/RESULTS.md)).
+
+Every venue is in the index. `coverage` tells you what you will find behind it:
+`depth` → a full pack with a live-checked `source_map`; `breadth` → a single venue
+profile at `profile_path` carrying fit, framing, evidence bar, house style and
+desk-reject triggers in condensed form.
 
 ## Step 3 — Score each candidate (five dimensions)
 
@@ -78,9 +91,10 @@ Sequence them: submit top-down, and pre-write the resubmission ladder.
 
 ## Step 5 — Long-tail coverage (breadth bundles)
 
-Venues not among the 185 depth packs are covered as per-venue **profiles** in the
-discipline breadth bundles — consult the matching bundle's profile for scope/fit before
-recommending:
+Long-tail venues are covered as per-venue **profiles** inside the discipline breadth
+bundles. They are **already rows in `venue-index.tsv`** (`coverage = breadth`), so
+Step 2 shortlists them like any other venue; follow `profile_path` to read the profile
+before recommending. The bundles and what they cover:
 
 | Bundle | Covers |
 |---|---|
@@ -96,8 +110,16 @@ recommending:
 
 ## Step 6 — The resubmission ladder (after a reject)
 
-Rejection is the modal outcome at the top — plan for it up front. Build a **downgrade
-ladder**: from the reach/match target, the next rung is the venue that (a) keeps the
+Rejection is the modal outcome at the top — plan for it up front.
+
+Start from [`ladder.tsv`](ladder.tsv), which records, for each venue, the other venues
+its own pack names as siblings or alternatives (`mentions` = how often;
+`same_discipline` flags the safest rungs). This is **candidate adjacency, not a
+ranking** — it tells you which venues the people who know this one treat as neighbours,
+and nothing about your paper. Filter it, then apply the judgement below.
+
+Build a **downgrade ladder**: from the reach/match target, the next rung is the venue
+that (a) keeps the
 contribution's audience, (b) has materially higher acceptance odds or faster turnaround,
 and (c) needs the *least* reframing. Note what each rung would require (e.g. shorter
 format, added robustness, a policy-framing). A desk reject at a general-interest venue
@@ -140,8 +162,10 @@ re-sending.
    say so rather than forcing a poor fit.
 
 ---
-*Stable index: [`venue-index.tsv`](venue-index.tsv) (185 depth packs; regenerate from the
-repo when packs are added). Volatile facts: each pack's `resources/official-source-map.md`.
+*Stable index: [`venue-index.tsv`](venue-index.tsv) (743 venues) and
+[`ladder.tsv`](ladder.tsv) (1,725 adjacency edges) — both generated from the repository;
+regenerate when packs are added. Retrieval quality is measured in
+[`eval/`](eval/README.md). Volatile facts: each pack's `resources/official-source-map.md`.
 Part of the cross-journal capability layer — the loop is **pick** (this file) → **execute**
 ([`../empirical-methods/execution-with-mcp.md`](../empirical-methods/execution-with-mcp.md))
 → **pass the bar before submitting**

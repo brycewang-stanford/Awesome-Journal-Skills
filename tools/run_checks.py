@@ -67,6 +67,17 @@ def main(argv: list[str]) -> int:
             "--top",
             "20",
         ],
+        # Generated data must match a fresh build, so a new pack cannot silently
+        # leave the matcher, the ladder, the eval or the catalog behind.
+        ["python3", "tools/gen_venue_index.py", "--check"],
+        ["python3", "tools/gen_ladder.py", "--check"],
+        ["python3", "tools/build_eval_set.py", "--check"],
+        ["python3", "tools/gen_catalog.py", "--check"],
+        ["python3", "tools/freshness_audit.py", "--check"],
+        # Retrieval floor: an index regression fails the build instead of quietly
+        # degrading every venue recommendation. Set below the current headline so
+        # normal content churn does not trip it.
+        ["python3", "tools/eval_journal_match.py", "--min-recall-at-10", "0.22"],
     ]
     if not args.skip_diff_check:
         hard_checks.append(["git", "diff", "--check"])

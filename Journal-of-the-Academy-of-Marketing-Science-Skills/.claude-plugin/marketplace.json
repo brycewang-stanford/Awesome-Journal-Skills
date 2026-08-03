@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jams-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Twelve-skill bundle for Journal of the Academy of Marketing Science manuscripts.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jams-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Journal of the Academy of Marketing Science manuscript lifecycle.",
       "author": {

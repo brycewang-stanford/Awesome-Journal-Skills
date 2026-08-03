@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aej-applied-economics-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the American Economic Journal: Applied Economics (AEJ: Applied), the American Economic Association's quarterly journal for empirical applied microeconomics with credible causal identification.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aej-applied-economics-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the American Economic Journal: Applied Economics (AEJ: Applied) manuscript lifecycle, from topic selection through the AEA Data Editor reproducibility check and R&R rebuttal.",
       "author": {

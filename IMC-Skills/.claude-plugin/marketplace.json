@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "imc-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for ACM Internet Measurement Conference (IMC) venue routing, the two-deadline One-Shot-Revision cycle, double-blind acmart submission, measurement ethics and responsible disclosure, dataset/vantage-point methodology, artifact-availability and the Replicability Track, and the Community Contribution Award.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "imc-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve IMC-specific skills for the ACM Internet Measurement Conference, the SIGCOMM-sponsored empirical measurement flagship, grounded in the IMC 2026 call for papers, submission instructions, committees page, SIGCOMM/IMC event pages, the ACM Digital Library, and dblp.",
       "author": {

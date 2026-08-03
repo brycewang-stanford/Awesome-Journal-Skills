@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "harvard-law-review-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for legal scholarship targeted at the Harvard Law Review (HLR), the student-edited generalist law review affiliated with Harvard Law School.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "harvard-law-review-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Harvard Law Review (HLR) article lifecycle — from legal thesis and preemption check through Bluebook footnoting, Scholastica placement and expedites, student-editor review, and the cite-check.",
       "author": {

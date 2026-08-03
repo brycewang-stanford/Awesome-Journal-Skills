@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "english-socsci-journal-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Per-journal fit-and-house-style skills for the 100 mainstream English-language econ / business roadmap journals, plus en-journal-workflow routing.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "english-socsci-journal-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "English economics / business journal routing and per-journal fit skills with official-submission-check discipline.",
       "author": {

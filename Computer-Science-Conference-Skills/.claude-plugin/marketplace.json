@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "computer-science-conference-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "AI-first conference fit and submission profiles for 155 top computer-science venues, plus router.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "computer-science-conference-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "AI-first computer-science conference skill stack: 155 conference fit-and-submission profiles plus a CS/AI router. Covers top AI/ML, data mining, vision, NLP, robotics, HCI, systems, security, software engineering, programming languages, databases, and theory venues, with current-cycle CFP and author-kit re-check discipline.",
       "author": {

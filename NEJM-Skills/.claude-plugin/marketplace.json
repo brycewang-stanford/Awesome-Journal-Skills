@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "nejm-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at The New England Journal of Medicine (NEJM), the flagship clinical-medicine journal.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "nejm-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the NEJM clinical manuscript lifecycle: workflow router, clinical-significance fit, study design & trial registration, EQUATOR reporting guidelines, structured abstract, terse IMRAD writing, clinical statistics, clinical display items, clinical ethics & integrity, Vancouver/ICMJE references, submission preflight, and response to reviewers.",
       "author": {

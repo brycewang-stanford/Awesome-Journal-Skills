@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sf-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Social Forces, a global leader among social research journals published by Oxford University Press for the University of North Carolina at Chapel Hill.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sf-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Social Forces manuscript lifecycle across the generalist sociological and social-science subfields the journal serves, under its strict reference-inclusive 10,000-word cap and Chicago author-date style.",
       "author": {

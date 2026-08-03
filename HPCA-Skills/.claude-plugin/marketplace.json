@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "hpca-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for HPCA manuscript planning, the July submission gate, double-blind review and rebuttal/revision, IEEE reproducibility badging, and the February/March camera-ready and talk.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "hpca-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve HPCA-specific skills for high-performance computer architecture submission strategy, grounded in HPCA 2026/2027 official pages, the IEEE-CS TCCA sponsorship, and the HPCA Test of Time lineage.",
       "author": {

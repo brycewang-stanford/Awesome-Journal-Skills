@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sigir-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for SIGIR information-retrieval papers: track routing, full/short-paper submission, IR evaluation rigor, resources and reproducibility tracks, review strategy, and ACM camera-ready production.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sigir-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jop-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at The Journal of Politics (JOP), a leading general-interest political-science journal published by the University of Chicago Press for the Southern Political Science Association.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jop-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering The Journal of Politics (JOP) manuscript lifecycle across all political-science subfields, tuned to the journal's page-based length limits and its replication-analyst data-access policy.",
       "author": {

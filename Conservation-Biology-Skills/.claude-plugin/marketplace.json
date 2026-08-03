@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "conbio-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Conservation Biology, the flagship journal of the Society for Conservation Biology.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "conbio-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Conservation Biology manuscript lifecycle — from conservation-relevant topic fit through study design, analysis, data archiving, and revision — for the flagship journal of the Society for Conservation Biology.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "communication-research-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Communication Research (CR), SAGE's quantitative, social-scientific communication journal.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "communication-research-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Communication Research (CR) manuscript lifecycle — hypothesis-testing experiments, surveys, and content analysis with rigorous measurement, mediation/moderation, and APA reporting.",
       "author": {

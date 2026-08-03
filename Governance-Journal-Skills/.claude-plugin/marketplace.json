@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "governance-journal-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Governance: An International Journal of Policy, Administration, and Institutions, the comparative venue for executive politics, public policy, public administration, and the organization of the state.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "governance-journal-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Governance: An International Journal of Policy, Administration, and Institutions manuscript lifecycle.",
       "author": {

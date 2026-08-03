@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "atc-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Depth pack for ATC — the ACM SIGOPS Annual Technical Conference (formerly USENIX ATC): broad practical-systems scope, the two-round extended-abstract review, double-blind HotCRP submission, the Deployed Systems track, USENIX-lineage artifact badges, shepherding, and ACM Open Access proceedings.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "atc-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve ATC-specific skills for the ACM SIGOPS Annual Technical Conference (formerly the USENIX Annual Technical Conference), grounded in the ATC 2026 SIGOPS call for papers, the USENIX ATC '25 research and artifact pages, the USENIX to SIGOPS transition record, and dblp.",
       "author": {

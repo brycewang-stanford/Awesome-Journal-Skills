@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "pnas-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at PNAS (Proceedings of the National Academy of Sciences), the broad-coverage multidisciplinary journal of the U.S. National Academy of Sciences.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "pnas-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the PNAS manuscript lifecycle: workflow router, scope/significance fit, submission-track selection (Direct vs Contributed), the ≤120-word Significance Statement, ≤250-word abstract, main-text writing with in-text Materials and Methods + classification, display items, statistics & reproducibility, data/code availability, numbered reference style, submission preflight, and reviewer rebuttal.",
       "author": {

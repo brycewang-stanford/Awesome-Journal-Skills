@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "restat-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at The Review of Economics and Statistics (REStat), the MIT Press journal of applied economics and applied econometrics edited at the Harvard Kennedy School.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "restat-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the The Review of Economics and Statistics (REStat) manuscript lifecycle, from topic selection through the Harvard Dataverse replication package and R&R rebuttal.",
       "author": {

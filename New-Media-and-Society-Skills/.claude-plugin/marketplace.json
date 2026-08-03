@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "new-media-and-society-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at New Media & Society (NM&S), the leading interdisciplinary journal on digital media, the internet, and society.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "new-media-and-society-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the New Media & Society (NM&S) manuscript lifecycle across qualitative, critical, content/discourse, computational, and mixed methods.",
       "author": {

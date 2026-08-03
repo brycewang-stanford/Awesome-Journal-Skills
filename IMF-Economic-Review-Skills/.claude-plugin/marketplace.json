@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "imf-economic-review-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Twelve-skill bundle for IMF Economic Review manuscripts.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "imf-economic-review-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the IMF Economic Review manuscript lifecycle.",
       "author": {

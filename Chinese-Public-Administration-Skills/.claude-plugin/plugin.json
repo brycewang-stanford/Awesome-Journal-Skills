@@ -1,7 +1,7 @@
 {
   "name": "chinese-public-administration-skills",
   "description": "Agent skill stack for submitting to 《中国行政管理》 (Chinese Public Administration), one of the most authoritative CSSCI journals in Chinese public administration and governance. Covers governance-theory topic selection, bilingual literature review, mixed quantitative-qualitative research design and causal inference, governance / policy-process mechanisms, cross-context heterogeneity, exhibits, actionable-yet-grounded policy implications, journal house style, submission preflight, and review-response rebuttals. Bilingual zh-CN / en docs; survey / administrative-data / case-study templates.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

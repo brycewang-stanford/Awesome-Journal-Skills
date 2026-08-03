@@ -1,7 +1,7 @@
 {
   "name": "jpe-skills",
   "description": "Agent skill stack for submitting to the Journal of Political Economy (JPE, University of Chicago Press; lead editor Esteban Rossi-Hansberg) and its 2023 companions JPE Microeconomics and JPE Macroeconomics. Encodes JPE-specific mechanics: Editorial Manager submission, the $250/$125 non-refundable fee with referee-report waiver, single-blind review, Chicago author-date house style, the price-theory tradition, and DCAS replication packages verified by the JPE Data Editor and deposited to the JPE Dataverse. Bilingual en / zh-CN docs; Stata / R / Python templates.",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

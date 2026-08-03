@@ -1,7 +1,7 @@
 {
   "name": "lancet-skills",
   "description": "Agent skill stack for submitting to The Lancet — the flagship clinical-medicine and global-health journal. Encodes The Lancet's editorial bar (clinically/public-health important, globally relevant, equity- and policy-oriented), prospective trial registration and protocol/SAP discipline, EQUATOR reporting guidelines (CONSORT/STROBE/PRISMA) with the mandatory study-flow diagram, the signature Research in context panel, the structured abstract with Findings/Interpretation/Funding headings, clinical statistics, clinical display items, Declaration of interests + role of the funding source + data sharing, SAGER sex/gender and equity reporting, submission preflight, and reviewer rebuttals. English-first docs with zh-CN mirror.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

@@ -1,7 +1,7 @@
 {
   "name": "china-rural-economy-skills",
   "description": "Agent skill stack for submitting to 《中国农村经济》 (China Rural Economy), the top journal in China's agricultural and rural economics field, hosted by the Rural Development Institute of the Chinese Academy of Social Sciences. Covers 三农 (agriculture / rural / farmer) topic selection, bilingual literature review, micro-household quasi-experimental identification (DID / IV / RDD / PSM), mechanism and heterogeneity analysis, three-line tables, rural-revitalization policy implications, journal house style, and R&R rebuttals. Bilingual zh-CN / en docs; templates for CFPS / CHFS / CLDS / 农村固定观察点 data.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

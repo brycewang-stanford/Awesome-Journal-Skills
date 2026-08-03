@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "pnas-nexus-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at PNAS Nexus, the fully open-access multidisciplinary sibling journal of PNAS, published by Oxford University Press on behalf of the U.S. National Academy of Sciences.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "pnas-nexus-skills",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the PNAS Nexus manuscript lifecycle: workflow router, scope/significance fit (with the PNAS-to-Nexus transfer route), gold open access + APC + license selection (replaces flagship PNAS's submission-track choice), the 50-120-word Significance Statement, <=250-word abstract, main-text writing with article types + page-based budget + in-text Materials and Methods, display items, statistics & reproducibility (incl. Registered Reports), mandatory data/code availability with raw-image retention, references format-neutral at submission, submission preflight, and reviewer rebuttal.",
       "author": {

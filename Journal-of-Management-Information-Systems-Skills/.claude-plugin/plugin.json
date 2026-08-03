@@ -1,7 +1,7 @@
 {
   "name": "jmis-skills",
   "description": "Agent skill stack for manuscripts targeted at Journal of Management Information Systems (JMIS). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed JMIS guardrails.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
