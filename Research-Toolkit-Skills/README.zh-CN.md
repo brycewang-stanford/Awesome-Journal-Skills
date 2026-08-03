@@ -7,9 +7,11 @@
 ## 闭环
 
 ```
-rt-journal-match       选刊(185+ 包 → reach/match/safe + 改投阶梯)
+rt-journal-match       选刊(索引 743 本刊/会 → reach/match/safe + 改投阶梯)
+  → rt-venue-reframe        改投时把稿子从原刊框架改写到新刊框架
   → rt-execution-bridge     用 StatsPAI / Stata MCP 真跑分析(拟合 + 审计)
   → rt-submission-readiness 对自己的稿件做过审 go/no-go 自检
+  → rt-desk-reject-risk     按目标刊自己写明的拒稿触发条件给稿子打分
   → rt-simulated-referee    校准到刊的 AE + 审稿人 panel 预演
   → rt-response-to-referees R&R 后逐条回应信 + 修改计划
   → rt-replication-package  装配并校验 Data-Editor 复现包
@@ -22,8 +24,10 @@ rt-workflow            在以上各步之间路由
 |---|---|
 | `rt-workflow` | 工具包路由 + 生命周期排序 |
 | `rt-journal-match` | 摘要 → 候选刊排序 + 改投阶梯 |
+| `rt-venue-reframe` | A 刊 → B 刊改写清单:贡献陈述、导论结构、证据门槛、体例、政策 |
 | `rt-execution-bridge` | 经 MCP 真跑 DiD / IV / RDD / 合成控制 / DML 并审计 |
 | `rt-submission-readiness` | 按目标刊门槛对稿件做 go/no-go |
+| `rt-desk-reject-risk` | 对照目标刊写明的拒稿触发条件输出分级风险报告 |
 | `rt-simulated-referee` | 校准的 AE + 审稿人预演 |
 | `rt-response-to-referees` | R&R → 逐条回应 + 修改计划 |
 | `rt-replication-package` | 装配并校验 Data-Editor 复现包 |

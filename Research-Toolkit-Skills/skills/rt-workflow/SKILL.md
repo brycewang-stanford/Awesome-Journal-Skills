@@ -18,20 +18,24 @@ canonical capability doc in `shared-resources/`.
 ## The loop (and the skill that owns each step)
 
 1. **`rt-journal-match`** — profile the paper → ranked reach/match/safe shortlist + resubmission ladder.
-2. **`rt-execution-bridge`** — run the analysis through the StatsPAI / Stata MCP tools (estimate + audit), not just advise it.
-3. **`rt-submission-readiness`** — go/no-go scorecard on the manuscript against the target venue's bar.
-4. **`rt-simulated-referee`** — rehearse a calibrated AE + referee panel; surface the decisive objections before a real referee does.
-5. **(fix)** — route each objection back to the target pack's skill + the execution bridge.
-6. **`rt-response-to-referees`** — after an R&R, draft the point-by-point reply + revision plan (editor first).
-7. **`rt-replication-package`** — assemble + validate the Data-Editor package against the venue's data-and-code policy.
+2. **`rt-venue-reframe`** — when the target changes (a reject, or a switch), diff the manuscript from the old venue's framing to the new one.
+3. **`rt-execution-bridge`** — run the analysis through the StatsPAI / Stata MCP tools (estimate + audit), not just advise it.
+4. **`rt-submission-readiness`** — go/no-go scorecard on the manuscript against the target venue's bar.
+5. **`rt-desk-reject-risk`** — score the draft against the target's own documented desk-reject triggers before uploading.
+6. **`rt-simulated-referee`** — rehearse a calibrated AE + referee panel; surface the decisive objections before a real referee does.
+7. **(fix)** — route each objection back to the target pack's skill + the execution bridge.
+8. **`rt-response-to-referees`** — after an R&R, draft the point-by-point reply + revision plan (editor first).
+9. **`rt-replication-package`** — assemble + validate the Data-Editor package against the venue's data-and-code policy.
 
 ## Routing table
 
 | Symptom | Go to |
 |---|---|
 | "Where should I send this?" / "Rejected — what next?" | `rt-journal-match` |
+| "What has to change to send it to X instead?" | `rt-venue-reframe` |
 | "I need to actually run the DiD/IV/RDD/SCM/DML, not just plan it" | `rt-execution-bridge` |
 | "Is it ready to submit?" | `rt-submission-readiness` |
+| "Will the editor desk-reject this?" | `rt-desk-reject-risk` |
 | "What will referees attack?" | `rt-simulated-referee` |
 | "I have an R&R to answer" | `rt-response-to-referees` |
 | "The Data Editor needs a replication package" | `rt-replication-package` |

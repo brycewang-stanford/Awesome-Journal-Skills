@@ -10,9 +10,11 @@ referees will *attack*, how to *respond*, and how to ship the *replication packa
 ## The loop
 
 ```
-rt-journal-match      pick the venue (185+ packs → reach/match/safe + resubmission ladder)
+rt-journal-match      pick the venue (743 indexed venues → reach/match/safe + ladder)
+  → rt-venue-reframe       diff the paper from its old venue's framing to the new one
   → rt-execution-bridge    run the analysis via StatsPAI / Stata MCP (fitted + audited)
   → rt-submission-readiness self-check go/no-go on your own manuscript
+  → rt-desk-reject-risk    score the draft against the venue's own desk-reject triggers
   → rt-simulated-referee    rehearse a calibrated AE + referee panel
   → rt-response-to-referees draft the point-by-point reply after an R&R
   → rt-replication-package  assemble + validate the Data-Editor package
@@ -25,8 +27,10 @@ rt-workflow            routes across all of the above
 |---|---|
 | [`rt-workflow`](skills/rt-workflow/SKILL.md) | Router across the toolkit + the lifecycle |
 | [`rt-journal-match`](skills/rt-journal-match/SKILL.md) | Abstract → ranked venue shortlist + resubmission ladder |
+| [`rt-venue-reframe`](skills/rt-venue-reframe/SKILL.md) | Venue A → venue B reframing diff across claim, arc, evidence, style, policy |
 | [`rt-execution-bridge`](skills/rt-execution-bridge/SKILL.md) | Run DiD / IV / RDD / SCM / DML + audit via MCP |
 | [`rt-submission-readiness`](skills/rt-submission-readiness/SKILL.md) | Venue-parameterized go/no-go on the manuscript |
+| [`rt-desk-reject-risk`](skills/rt-desk-reject-risk/SKILL.md) | Ranked risk report against the target's documented desk-reject triggers |
 | [`rt-simulated-referee`](skills/rt-simulated-referee/SKILL.md) | Calibrated AE + referee rehearsal |
 | [`rt-response-to-referees`](skills/rt-response-to-referees/SKILL.md) | R&R → point-by-point reply + revision plan |
 | [`rt-replication-package`](skills/rt-replication-package/SKILL.md) | Assemble + validate the Data-Editor package |
@@ -41,6 +45,10 @@ rt-workflow            routes across all of the above
   `submission-readiness/`) — the skills are the triggerable entry points; the deep
   methodology + validated worked-examples (DiD / IV / RDD / SCM / DML, all real tool runs)
   live there once.
+- **Measured, not asserted.** Venue shortlisting runs over a generated index of 743
+  venues with an adjacency graph for the resubmission ladder, and its retrieval step is
+  scored against a 1,738-paper gold set —
+  [`shared-resources/journal-selection/eval/`](../shared-resources/journal-selection/eval/README.md).
 - **Run, don't claim.** Empirical steps execute through the StatsPAI / Stata MCP tools and
   report the actual number; citations only via `bibtex`.
 

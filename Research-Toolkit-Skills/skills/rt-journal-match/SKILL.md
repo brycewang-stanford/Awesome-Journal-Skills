@@ -1,6 +1,6 @@
 ---
 name: rt-journal-match
-description: Use when an author asks "which journal should I send this to?" or needs the best resubmission target after a reject. Profiles the paper, shortlists candidate venues across 185+ packs, and ranks them into reach / match / safe with a resubmission ladder. Reads live venue facts from each pack's source-map; defers fit judgment to the venue's own topic-selection skill.
+description: Use when an author asks "which journal should I send this to?" or needs the best resubmission target after a reject. Profiles the paper, shortlists candidates from an index of 743 venues, and ranks them into reach / match / safe with a resubmission ladder. Reads live venue facts from each pack's source-map; defers fit judgment to the venue's own topic-selection skill.
 ---
 
 # Journal-Match (rt-journal-match)
@@ -19,13 +19,19 @@ and [`venue-index.tsv`](../../../shared-resources/journal-selection/venue-index.
 ## What it does
 
 1. **Profile the paper** — discipline + subfield, method/design, contribution type,
-   setting/data/region, ambition (be honest).
-2. **Shortlist** from `venue-index.tsv` by discipline / lane / region (long-tail venues →
-   the discipline breadth bundle).
+   setting/data/region, ambition (be honest). This step carries real weight: restricting
+   candidates to the right discipline lifts retrieval of the true venue by ~15 points
+   (see [`eval/RESULTS.md`](../../../shared-resources/journal-selection/eval/RESULTS.md)).
+2. **Shortlist** from `venue-index.tsv` by `discipline` / `lane` / `region` /
+   `venue_type`, then narrow on `scope_keywords` against the paper's abstract. Every
+   venue is in the index — depth packs point at a `source_map`, breadth-bundle venues at
+   a `profile_path`.
 3. **Score** each candidate on **Fit × acceptance-odds × turnaround × cost/policy ×
    audience**, reading the live facts from each candidate's `resources/official-source-map.md`.
 4. **Return reach / match / safe** (≈2–3 each) with one-line rationales + the live facts,
-   then a **submit order and resubmission ladder**.
+   then a **submit order and resubmission ladder** — seed the ladder from
+   [`ladder.tsv`](../../../shared-resources/journal-selection/ladder.tsv) (candidate
+   adjacency, not a ranking) and apply your own fit/odds judgement to it.
 
 ## Hard rules
 
