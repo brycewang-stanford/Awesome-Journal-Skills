@@ -1,0 +1,250 @@
+#!/usr/bin/env python3
+"""Measure the journal-match **candidate-generation** step against a labelled gold set.
+
+``journal-match.md`` is a six-step method. Steps 3–6 (scoring, tiering, sequencing) are
+model judgement and are not mechanically checkable. Step 2 — *given a paper, produce a
+candidate set that contains the right venue* — is pure retrieval over
+``venue-index.tsv``, and this measures it.
+
+What a number here does and does not mean:
+
+* It **does** tell you whether the ``scope_keywords`` layer can surface the true venue
+  from a paper's own title, and it regression-tests the index: break the generator and
+  recall drops.
+* It **does not** score the agent's shortlist. An agent reads each candidate's skills
+  and source map before recommending; this harness reads nothing but keywords.
+
+Reported configurations:
+
+``title``                  headline. Query = the paper's title only — the paper's own
+                           words, chosen by its authors, not by a pack author.
+``title+context``          adds the exemplar library's "why it is an exemplar" gloss.
+                           **Vocabulary-correlated with the index** (same authors), so
+                           it is an optimistic bound, reported for contrast only.
+``title/oracle-discipline`` candidates restricted to the true venue's discipline —
+                           the ceiling available if Step 1 profiling is perfect.
+
+Usage:  python3 tools/eval_journal_match.py [--write] [--min-recall-at-10 N]
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import sys
+from collections import Counter, defaultdict
+
+from venue_lib import ROOT, tokenize
+
+INDEX = ROOT / "shared-resources/journal-selection/venue-index.tsv"
+GOLD = ROOT / "shared-resources/journal-selection/eval/gold-set.tsv"
+RESULTS = ROOT / "shared-resources/journal-selection/eval/RESULTS.md"
+
+CUTOFFS = (1, 5, 10, 20)
+PHRASE_WEIGHT = 3.0
+UNIGRAM_WEIGHT = 1.0
+
+
+def load_venues() -> list[dict]:
+    return list(csv.DictReader(INDEX.open(encoding="utf-8"), delimiter="\t"))
+
+
+def build_postings(venues: list[dict]) -> dict[str, list[tuple[str, float]]]:
+    """term -> [(venue_id, weight)]. Multi-word keywords also index their parts."""
+    postings: dict[str, list[tuple[str, float]]] = defaultdict(list)
+    for venue in venues:
+        for keyword in filter(None, venue["scope_keywords"].split(";")):
+            postings[keyword].append((venue["venue_id"], PHRASE_WEIGHT))
+            if " " in keyword:
+                for part in keyword.split():
+                    postings[part].append((venue["venue_id"], UNIGRAM_WEIGHT))
+    return postings
+
+
+def rank(query: str, postings, allowed: set[str] | None) -> list[str]:
+    terms = set(tokenize(query))
+    # a bigram in the query can match a multi-word keyword directly
+    words = tokenize(query)
+    terms.update(f"{a} {b}" for a, b in zip(words, words[1:]))
+
+    scores: Counter = Counter()
+    for term in terms:
+        for venue_id, weight in postings.get(term, ()):
+            if allowed is None or venue_id in allowed:
+                scores[venue_id] += weight
+    # deterministic tie-break so the number is reproducible run to run
+    return [v for v, _ in sorted(scores.items(), key=lambda kv: (-kv[1], kv[0]))]
+
+
+def evaluate(gold: list[dict], postings, venues: list[dict], mode: str) -> dict:
+    by_discipline: dict[str, set[str]] = defaultdict(set)
+    for venue in venues:
+        by_discipline[venue["discipline"]].add(venue["venue_id"])
+
+    hits = {k: 0 for k in CUTOFFS}
+    reciprocal = 0.0
+    retrieved_at_all = 0
+    per_discipline: dict[str, list[int]] = defaultdict(lambda: [0, 0])
+
+    for row in gold:
+        query = row["paper_title"]
+        if mode == "title+context" and row["context"]:
+            query = f"{query} {row['context']}"
+        allowed = by_discipline[row["discipline"]] if mode == "oracle-discipline" else None
+        ranking = rank(query, postings, allowed)
+        truth = row["true_venue_id"]
+        position = ranking.index(truth) + 1 if truth in ranking else None
+        if position:
+            retrieved_at_all += 1
+            reciprocal += 1.0 / position
+            for k in CUTOFFS:
+                if position <= k:
+                    hits[k] += 1
+        bucket = per_discipline[row["discipline"]]
+        bucket[1] += 1
+        if position and position <= 10:
+            bucket[0] += 1
+
+    n = len(gold)
+    return {
+        "mode": mode,
+        "n": n,
+        "recall": {k: hits[k] / n for k in CUTOFFS},
+        "mrr": reciprocal / n,
+        "coverage": retrieved_at_all / n,
+        "per_discipline": {
+            d: (c[0] / c[1], c[1]) for d, c in sorted(per_discipline.items())
+        },
+    }
+
+
+def render(results: list[dict], venues: list[dict], gold: list[dict]) -> str:
+    n_venues = len(venues)
+    lines = [
+        "# Journal-match retrieval evaluation",
+        "",
+        "> Generated by `python3 tools/eval_journal_match.py --write`. "
+        "Do not edit by hand.",
+        "",
+        f"**Corpus:** {n_venues} venues in `venue-index.tsv` · "
+        f"**Gold set:** {len(gold)} papers across "
+        f"{len({g['true_venue_id'] for g in gold})} venues "
+        "(`eval/gold-set.tsv`, harvested from the packs' own verified exemplar "
+        "libraries).",
+        "",
+        "## What is being measured",
+        "",
+        "Step 2 of [`../journal-match.md`](../journal-match.md) — **candidate "
+        "generation**. Given a paper, does the index surface its true venue in the "
+        "top *k*? Steps 3–6 (scoring, tiering, the resubmission ladder) are model "
+        "judgement and are deliberately **not** scored here.",
+        "",
+        "This is a retrieval floor, not a ceiling on the capability: an agent reads "
+        "each candidate's skills and `official-source-map.md` before recommending "
+        "anything. The harness reads nothing but `scope_keywords`.",
+        "",
+        "## Results",
+        "",
+        "| Configuration | n | R@1 | R@5 | R@10 | R@20 | MRR | any-rank |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|",
+    ]
+    for r in results:
+        lines.append(
+            f"| `{r['mode']}` | {r['n']} | "
+            + " | ".join(f"{r['recall'][k]:.1%}" for k in CUTOFFS)
+            + f" | {r['mrr']:.3f} | {r['coverage']:.1%} |"
+        )
+    random_at = {k: k / n_venues for k in CUTOFFS}
+    lines += [
+        f"| _random baseline_ | — | "
+        + " | ".join(f"{random_at[k]:.1%}" for k in CUTOFFS)
+        + " | — | — |",
+        "",
+        "`any-rank` = the true venue scored above zero at all (i.e. it shares at "
+        "least one keyword with the query).",
+        "",
+        "### Reading the configurations",
+        "",
+        "| Configuration | Query | Candidate set | Interpretation |",
+        "|---|---|---|---|",
+        "| `title` | paper title only | all venues | **headline.** The paper's own "
+        "words, chosen by its authors — no shared vocabulary with the index. |",
+        "| `title+context` | title + the exemplar library's gloss | all venues | "
+        "optimistic bound. The gloss was written by the same authors as the packs, "
+        "so it is vocabulary-correlated with the index. Contrast only. |",
+        "| `oracle-discipline` | paper title only | true discipline only | the "
+        "ceiling if Step 1 (profiling the paper's discipline) is perfect. The gap "
+        "against `title` is how much Step 1 is worth. |",
+        "",
+        "## Recall@10 by discipline (`title` configuration)",
+        "",
+        "| Discipline | R@10 | n |",
+        "|---|---:|---:|",
+    ]
+    headline = next(r for r in results if r["mode"] == "title")
+    ranked = sorted(headline["per_discipline"].items(), key=lambda kv: -kv[1][1])
+    for discipline, (recall, count) in ranked[:20]:
+        lines.append(f"| {discipline} | {recall:.1%} | {count} |")
+    lines += [
+        "",
+        "## Limitations",
+        "",
+        "1. **The gold set is drawn from the repository itself.** Exemplar libraries "
+        "hold papers the pack authors judged canonical for that venue, which skews "
+        "toward famous, prototypical papers. Real routing decisions involve marginal "
+        "papers, which are harder.",
+        "2. **Titles are short.** A real match runs on an abstract plus the five "
+        "signals of Step 1; a title is a deliberately thin, pessimistic query.",
+        "3. **Only depth packs contribute labels.** Breadth-bundle venues are in the "
+        "candidate set (so they can absorb probability mass) but have no gold papers, "
+        "which makes the task harder, not easier.",
+        "4. **Keywords are derived, not curated.** `scope_keywords` come from TF-IDF "
+        "over each venue's own prose; the Chinese n-gram segmentation in particular "
+        "is approximate.",
+        "",
+        "## Regenerating",
+        "",
+        "```bash",
+        "python3 tools/gen_venue_index.py     # rebuild the index",
+        "python3 tools/build_eval_set.py      # rebuild the gold set",
+        "python3 tools/eval_journal_match.py --write",
+        "```",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def main(argv: list[str]) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--write", action="store_true", help="write eval/RESULTS.md")
+    parser.add_argument("--min-recall-at-10", type=float, default=None,
+                        help="exit non-zero if headline recall@10 falls below this")
+    args = parser.parse_args(argv)
+
+    venues = load_venues()
+    gold = list(csv.DictReader(GOLD.open(encoding="utf-8"), delimiter="\t"))
+    postings = build_postings(venues)
+
+    results = [evaluate(gold, postings, venues, mode)
+               for mode in ("title", "title+context", "oracle-discipline")]
+
+    for r in results:
+        recalls = " ".join(f"R@{k}={r['recall'][k]:.1%}" for k in CUTOFFS)
+        print(f"{r['mode']:<20} n={r['n']:<5} {recalls}  MRR={r['mrr']:.3f}  "
+              f"any-rank={r['coverage']:.1%}")
+
+    if args.write:
+        RESULTS.parent.mkdir(parents=True, exist_ok=True)
+        RESULTS.write_text(render(results, venues, gold), encoding="utf-8")
+        print(f"\nwrote {RESULTS.relative_to(ROOT)}")
+
+    headline = results[0]["recall"][10]
+    if args.min_recall_at_10 is not None and headline < args.min_recall_at_10:
+        print(f"FAIL: headline recall@10 {headline:.1%} below floor "
+              f"{args.min_recall_at_10:.1%}", file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
