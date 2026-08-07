@@ -8,12 +8,18 @@ description: Use when choosing between submission sequences rather than between 
 `rt-journal-match` returns a shortlist and an order. This answers the question that
 order implies but never states: **what does that sequence cost?**
 
-Authors compare venues one at a time — *is JF worth a shot?* — and the answer is almost
-always yes in isolation. The cost only appears in the sequence. Trying two long shots
-before a realistic venue is not a slightly worse plan than skipping them; on typical
-finance turnarounds it is nine extra months for perhaps three extra points of placement
-probability. Nothing else in this repository made that trade visible, so it was decided
-by optimism.
+Authors compare venues one at a time — *is this one worth a shot?* — and in isolation the
+answer is almost always yes. The cost only appears in the sequence, and it is a trade
+between months and placement probability that nothing else in this repository made
+visible, so it was settled by optimism.
+
+The size of the trade is whatever your inputs say it is; the point of the tool is that
+you find out before spending the months rather than after. In the
+[worked example](../../../shared-resources/journal-selection/worked-example.md), one
+reach rung costs about four and a half months and buys about four points of placement
+probability — and the sensitivity band shows the four points are not distinguishable
+from zero while the four months are. That shape of answer, rather than a winner, is the
+usual output.
 
 ## When to trigger
 
