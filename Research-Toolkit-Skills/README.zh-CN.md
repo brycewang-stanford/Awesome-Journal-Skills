@@ -41,7 +41,7 @@ rt-workflow            在以上各步之间路由
 
 - **不绑定单刊**:工具包负责选刊、跑分析、预演评审;**门槛与一切易变事实**(费用、字数、接收率、数据政策、体例)来自所选包的 skill 与 `resources/official-source-map.md`。
 - **由 [`shared-resources/`](../shared-resources/) 的 canonical 能力文档支撑**(`journal-selection/`、`empirical-methods/`、`submission-readiness/`):skill 是可触发入口,深度方法论与五大设计族(DiD/IV/RDD/合成控制/DML,全部真跑)的 worked-example 集中存放在那里。
-- **测过才敢说**:选刊检索跑的是 `tools/match_venues.py`,**评测打的就是同一段代码**——1738 篇论文的 gold set 切成调参一半、报数一半,只给标题时 R@10 = 40.5%,给对学科 51.3%([`eval/`](../shared-resources/journal-selection/eval/README.md))。检索只给出"该读哪几本",推荐仍要打开每本刊自己的 pack。
+- **测过才敢说**:选刊检索跑的是 `tools/match_venues.py`,**评测打的就是同一段代码**——1738 篇论文的 gold set 切成调参一半、报数一半,只给标题时 R@10 = 41.5%,给对学科 51.3%([`eval/`](../shared-resources/journal-selection/eval/README.md))。检索只给出"该读哪几本",推荐仍要打开每本刊自己的 pack。
 - **画像写一次**:关于稿子的五个信号写成 [`paper-profile.yml`](../shared-resources/journal-selection/paper-profile.md),不再由每个 skill 各自从正文重新推断、彼此打架。
 - **跑了才报**:实证步骤经 StatsPAI / Stata MCP 工具执行并报真实数字;引用只走 `bibtex`。
 

@@ -42,9 +42,21 @@ and [`venue-index.tsv`](../../../shared-resources/journal-selection/venue-index.
    `profile_path` for a breadth profile — and the terms it matched on, so a
    nonsense hit is visible as a nonsense hit.
 
-   The matcher is measured: **R@10 = 40.5%** from a bare title, on a held-out half of a
+   **Read the warnings.** The matcher flags *weak evidence* when its leading
+   candidates each rest on one or two shared words — a ranking built on that is
+   close to noise, because words the language reuses ("sensor", "generation",
+   "network") will out-score a genuine subject match. It flags a *coverage gap*
+   when nothing in the discipline you named scored at all: the prior can only
+   re-rank venues that matched, never conjure one. Either warning means **do not
+   pass the list on as a shortlist** — add the abstract, re-check the discipline
+   label, or report that the subject area is thin in the index and route to
+   [`rt-venue-integrity`](../rt-venue-integrity/SKILL.md).
+
+   The matcher is measured: **R@10 = 41.5%** from a bare title, on a held-out half of a
    1,738-paper gold set ([`eval/RESULTS.md`](../../../shared-resources/journal-selection/eval/RESULTS.md)).
    That is a floor for one thin query, not the capability — it is why step 3 exists.
+   The per-discipline table there is worth reading before trusting a result: coverage is
+   uneven, and life sciences and natural science are visibly the thinnest.
 
 3. **Score** each candidate on **Fit × acceptance-odds × turnaround × cost/policy ×
    audience**, reading the live facts from each candidate's `resources/official-source-map.md`.

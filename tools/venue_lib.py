@@ -302,6 +302,9 @@ withdrawal portal scholarone editorial-manager openreview easychair cmt hotcrp
 deadline deadlines timeline embargo preprint arxiv ssrn licence license copyright
 formatting template templates latex overleaf wordcount word-count pagelimit page-limit
 checklist checklists compliance mandatory optional required requirement requirements
+etoc blurb blurbs graphical subheading subheadings subsection subsections legend legends
+rrid orcid accession accessions mendeley reagents highlights bullet bullets chars
+free-text lead-contact key-resources star-methods cover-letter data-availability
 """.split())
 
 # Matched as substrings: 审稿 must also disqualify 审稿人 and 审稿期待. Each stem is a

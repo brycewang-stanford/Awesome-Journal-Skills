@@ -55,6 +55,14 @@ ADJACENT_BOOST = 1.5
 # design conference topped a minimum-wage paper's shortlist on the single word "design"
 # while the labour-economics journals below it matched six terms each.
 COORD_K = 4.0
+# How hard to discount a term that is spread across unrelated disciplines. Inverse
+# document frequency asks *how many venues* use a term; this asks *how many different
+# subjects* do — which is a different question, and the one that separates a subject
+# term from a homonym. "electrolyte" lives in one discipline and means something;
+# "sensor" and "generation" live everywhere, and they are why a paper on a cytosolic DNA
+# sensor was offered SenSys, IPSN and PerCom, and why "Hallmarks of Cancer: The Next
+# Generation" was offered a natural-language-generation conference.
+DISCIPLINE_SPREAD_ALPHA = 0.6
 
 
 @dataclass
@@ -152,6 +160,28 @@ class VenueMatcher:
                 if " " in term:
                     for part in term.split():
                         self.postings[part].append((row, weight * PART_DISCOUNT))
+
+        self._discount_cross_discipline_terms()
+
+    def _discount_cross_discipline_terms(self) -> None:
+        """Scale each term down by how many different disciplines lay claim to it.
+
+        A term used by twenty venues inside one discipline is a subject term; a term
+        used by twenty venues across twelve disciplines is a word the language happens
+        to reuse. Both have the same document frequency, so IDF cannot tell them apart —
+        the discount is on the *entropy* of the term's discipline distribution.
+        """
+        disciplines = [venue["discipline"] for venue in self.venues]
+        for term, plist in self.postings.items():
+            if len(plist) < 2:
+                continue
+            spread: Counter = Counter(disciplines[row] for row, _ in plist)
+            total = sum(spread.values())
+            entropy = -sum((c / total) * math.log(c / total) for c in spread.values())
+            if entropy <= 0:
+                continue
+            factor = 1.0 / (1.0 + DISCIPLINE_SPREAD_ALPHA * entropy)
+            self.postings[term] = [(row, weight * factor) for row, weight in plist]
 
     # --- querying -----------------------------------------------------------
 

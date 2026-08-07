@@ -53,7 +53,7 @@ rt-workflow            routes across all of the above
 - **Measured, not asserted.** Venue shortlisting runs `tools/match_venues.py` over a
   generated index of 743 venues with an adjacency graph for the resubmission ladder, and
   **the evaluation scores that same code path** against a 1,738-paper gold set split into
-  a tuning half and a held-out half — R@10 = 40.5% from a bare title, 51.3% with the
+  a tuning half and a held-out half — R@10 = 41.5% from a bare title, 51.3% with the
   discipline supplied
   ([`shared-resources/journal-selection/eval/`](../shared-resources/journal-selection/eval/README.md)).
   Retrieval produces a reading list; the recommendation still comes from the venue's own pack.

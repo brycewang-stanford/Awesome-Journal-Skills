@@ -14,10 +14,10 @@ This is a retrieval floor, not a ceiling on the capability: an agent reads each 
 
 | Configuration | n | R@1 | R@5 | R@10 | R@20 | MRR | any-rank | wrong-lane@10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| `title` | 861 | 16.0% | 31.9% | 40.5% | 48.3% | 0.239 | 72.7% | 6.8% |
-| `title+context` | 861 | 34.8% | 56.0% | 64.5% | 70.6% | 0.444 | 89.9% | 6.2% |
-| `title+discipline` | 861 | 27.5% | 44.1% | 51.3% | 56.4% | 0.349 | 72.7% | 5.5% |
-| `oracle-discipline` | 861 | 35.3% | 56.7% | 62.0% | 66.8% | 0.440 | 72.7% | 2.8% |
+| `title` | 861 | 16.4% | 33.1% | 41.5% | 49.1% | 0.245 | 72.7% | 6.3% |
+| `title+context` | 861 | 35.2% | 56.9% | 66.2% | 72.5% | 0.456 | 89.9% | 5.8% |
+| `title+discipline` | 861 | 25.7% | 44.5% | 51.3% | 56.6% | 0.340 | 72.7% | 5.4% |
+| `oracle-discipline` | 861 | 34.5% | 57.4% | 62.1% | 66.7% | 0.437 | 72.7% | 2.8% |
 | _random baseline_ | — | 0.1% | 0.7% | 1.3% | 2.7% | — | — | — |
 
 `any-rank` = the true venue was retrieved at all, at any depth (it shares at least one scope term with the query) — the ceiling every cutoff above is working against. `wrong-lane@10` = share of top-10 slots given to a venue that publishes no empirical work, for a paper whose true venue does — the cheapest kind of obviously wrong suggestion, and the one an author notices first.
@@ -28,8 +28,8 @@ The matcher has four weighting constants (`RANK_DECAY`, `PHRASE_BONUS`, `PART_DI
 
 | Half | n | R@10 | MRR |
 |---|---:|---:|---:|
-| `dev` (tuned on) | 877 | 40.6% | 0.235 |
-| `test` (reported) | 861 | 40.5% | 0.239 |
+| `dev` (tuned on) | 877 | 41.0% | 0.248 |
+| `test` (reported) | 861 | 41.5% | 0.245 |
 
 A large gap between the two rows would mean the constants had been fitted to noise; they track each other closely, which is the point of publishing both.
 
@@ -46,25 +46,25 @@ A large gap between the two rows would mean the constants had been fitted to noi
 
 | Discipline | R@10 | n |
 |---|---:|---:|
-| cs-ai (conference) | 39.8% | 261 |
+| cs-ai (conference) | 40.2% | 261 |
 | economics | 14.8% | 54 |
-| finance | 47.5% | 40 |
+| finance | 50.0% | 40 |
 | accounting | 44.4% | 36 |
 | psychology | 21.2% | 33 |
-| sociology | 28.1% | 32 |
+| sociology | 25.0% | 32 |
 | management | 44.4% | 27 |
 | econometrics/methods | 28.0% | 25 |
-| political-science | 24.0% | 25 |
+| political-science | 32.0% | 25 |
 | natural-science | 5.0% | 20 |
-| marketing | 50.0% | 18 |
+| marketing | 55.6% | 18 |
 | economics/macro | 35.3% | 17 |
 | public-admin | 71.4% | 14 |
-| medicine | 53.8% | 13 |
+| medicine | 69.2% | 13 |
 | communication | 50.0% | 12 |
 | agriculture | 100.0% | 11 |
 | operations | 63.6% | 11 |
 | environment/ecology | 70.0% | 10 |
-| life-sciences | 30.0% | 10 |
+| life-sciences | 40.0% | 10 |
 | economics/applied | 37.5% | 8 |
 
 ## Limitations

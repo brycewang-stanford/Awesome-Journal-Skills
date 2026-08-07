@@ -11,7 +11,7 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 Journal selection stops being a method an agent improvises over a TSV and becomes a
 command with a measured error rate. Recall@10 for the true venue, from a bare title,
-goes from **27.7% to 40.5%** on a newly held-out half of the gold set.
+goes from **27.7% to 41.5%** on a newly held-out half of the gold set.
 
 ### Added
 
@@ -51,6 +51,17 @@ goes from **27.7% to 40.5%** on a newly held-out half of the gold set.
 - **A wrong-lane precision metric** — the share of top-10 slots given to a venue that
   publishes no empirical work, for a paper whose true venue does. Recall alone said
   nothing about the obviously wrong suggestions an author notices first.
+- **Weak-evidence and coverage-gap warnings** on the matcher's output. When the leading
+  candidates each rest on one or two shared words, or when nothing in the discipline you
+  named scored at all, the tool says so instead of presenting a confident-looking
+  ranking. The failure it names is real and visible: a paper on a cytosolic DNA *sensor*
+  is otherwise offered SenSys, IPSN and PerCom.
+- **A discipline-spread discount.** Inverse document frequency asks how many *venues*
+  use a term; this asks how many different *subjects* do, and discounts the ones that
+  are everywhere. "electrolyte" means something; "sensor", "generation" and "network"
+  are words the language reuses. Worth +1.0 R@10 and −0.5 wrong-lane on the held-out
+  half, and it is why "Hallmarks of Cancer: The Next Generation" stopped being routed
+  by the word *generation*.
 
 ### Changed
 
@@ -66,7 +77,9 @@ goes from **27.7% to 40.5%** on a newly held-out half of the gold set.
 - **Skill slugs, URLs and submission-process boilerplate no longer reach the index.**
   `qje-identification` and `neurips-submission` are the most TF-IDF-distinctive strings
   in a pack and are worthless for matching; they were taking roughly half of every
-  English pack's keyword budget.
+  English pack's keyword budget. Publisher-format vocabulary (`etoc`, `blurb`, `rrid`,
+  `accession`, `star methods`) went with them — neutral on recall, but it was never
+  scope vocabulary, and it was most of what the Cell pack had.
 - **The retrieval floor in CI rises from 22% to 36%**, measured on the held-out half.
 - **The quality scorecard's toolkit size band** widens from 5–10 to 5–14 skills. The
   upper bound had been set to the toolkit's size at the time plus one, so the first

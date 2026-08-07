@@ -44,7 +44,34 @@ def where_to_read(venue: dict) -> str:
     return venue["source_map"] or venue["profile_path"] or venue["pack_dir"]
 
 
-def render_text(hits, query_terms: int) -> str:
+# A shortlist whose top entries each rest on one or two words is not a shortlist, it is
+# a coincidence. Saying so is the difference between a coverage gap the author can act
+# on and a confidently wrong recommendation they cannot see through.
+WEAK_EVIDENCE_TERMS = 2
+WEAK_EVIDENCE_DEPTH = 3
+
+
+def warnings_for(hits, discipline: str | None) -> list[str]:
+    out: list[str] = []
+    top = hits[:WEAK_EVIDENCE_DEPTH]
+    if top and max(len(h.terms) for h in top) <= WEAK_EVIDENCE_TERMS:
+        out.append(
+            "⚠ Weak evidence: every leading candidate matched on "
+            f"{WEAK_EVIDENCE_TERMS} scope terms or fewer. A ranking built on one or two "
+            "shared words is close to noise — reuse of a word across fields ('sensor', "
+            "'generation', 'network') will beat a genuine subject match. Add the "
+            "abstract, and treat the list as a lead rather than a shortlist.")
+    if discipline and not any(h.venue["discipline"] == discipline for h in hits):
+        out.append(
+            f"⚠ Coverage gap: nothing in `{discipline}` matched this text at all — the "
+            "prior can only re-rank venues that scored, not conjure one. Either the "
+            "discipline label is wrong (check `--list-disciplines`), or this subject "
+            "area is thin in the index. Say so rather than recommending what did "
+            "surface; `rt-venue-integrity` covers venues this repository does not.")
+    return out
+
+
+def render_text(hits, query_terms: int, discipline: str | None = None) -> str:
     if not hits:
         return ("No venue shared a scope term with this text.\n"
                 "Widen the query (add the abstract), or drop --discipline / "
@@ -62,6 +89,8 @@ def render_text(hits, query_terms: int) -> str:
             f"     match {hit.score / top:.2f} via: {hit.why()}\n"
             f"     read: {where_to_read(v)}"
         )
+    for warning in warnings_for(hits, discipline):
+        lines += ["", warning]
     lines += [
         "",
         "Next: open each candidate's pack before ranking it. Live facts (fees, "
@@ -119,7 +148,7 @@ def main(argv: list[str]) -> int:
     )
 
     if args.json:
-        print(json.dumps([{
+        payload = [{
             "venue_id": h.venue["venue_id"],
             "display_name": h.venue["display_name"],
             "score": round(h.score, 4),
@@ -131,9 +160,12 @@ def main(argv: list[str]) -> int:
             "coverage": h.venue["coverage"],
             "read": where_to_read(h.venue),
             "matched_terms": [t for t, _ in h.terms],
-        } for h in hits], ensure_ascii=False, indent=2))
+        } for h in hits]
+        print(json.dumps({"candidates": payload,
+                          "warnings": warnings_for(hits, args.discipline)},
+                         ensure_ascii=False, indent=2))
     else:
-        print(render_text(hits, len(matcher.query_terms(query))))
+        print(render_text(hits, len(matcher.query_terms(query)), args.discipline))
     return 0
 
 

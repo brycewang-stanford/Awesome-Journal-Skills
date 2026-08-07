@@ -66,7 +66,7 @@ vocabulary.
 ([`discipline-adjacency.tsv`](discipline-adjacency.tsv), derived from the venue graph —
 a labour paper reaches general `economics` and `economics/public` automatically) are
 boosted, but a strong match elsewhere still surfaces. Getting Step 1 right is worth a
-lot — a correct discipline lifts recall@10 from 40.5% to 51.3%, and to 62.0% if you
+lot — a correct discipline lifts recall@10 from 41.5% to 51.3%, and to 62.1% if you
 trust it enough to filter — but a wrong guess under a hard filter deletes the right
 answer outright, which is why the default is soft.
 
@@ -74,6 +74,22 @@ Each row reports the terms it matched on. **Read them.** A candidate that scored
 generic word is not a candidate; the matched terms are there so that a nonsense hit is
 visible as one. Scope terms are *derived, not curated*: a hit is a reason to open the
 venue's profile, never a fit judgement on its own.
+
+The matcher raises two warnings, and both mean *stop and re-aim* rather than *proceed
+carefully*:
+
+- **Weak evidence** — the leading candidates each matched one or two words. Words the
+  language reuses across fields will beat a real subject match at that depth; a paper on
+  a cytosolic DNA *sensor* is offered sensor-network conferences. Add the abstract.
+- **Coverage gap** — nothing in the discipline you named scored at all. The prior can
+  only re-rank venues that matched, never conjure one, so what you are looking at is
+  another field's venues. Check the discipline label, and if the subject area really is
+  thin here, say so (hard rule 4) instead of recommending what happened to surface.
+
+Coverage is uneven by discipline, and [`eval/RESULTS.md`](eval/RESULTS.md) publishes the
+breakdown. Life sciences and natural science are the thinnest: those packs describe how
+to *submit* in far more detail than what the venue is *about*, so a molecular-biology
+title often shares no vocabulary with its own journal.
 
 Every venue is in the index. `coverage` tells you what you will find behind it:
 `depth` → a full pack with a live-checked `source_map`; `breadth` → a single venue
