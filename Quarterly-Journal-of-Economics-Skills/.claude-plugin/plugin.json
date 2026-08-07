@@ -1,7 +1,7 @@
 {
   "name": "qje-skills",
   "description": "Agent skill stack for manuscripts targeted at The Quarterly Journal of Economics (QJE) — the oldest English-language econ journal (est. 1886), published by Oxford University Press for Harvard, with no submission fee, single-PDF double-blind submission via Editorial Express, ~2-week desk decisions, and a QJE Dataverse data/code policy. Covers big-question topic selection, literature positioning, credible causal identification (RCT / staggered DID / IV / RDD), theory-model framing, extensive online appendices, figure-forward exhibits, QJE house style, replication packages, referee strategy, submission preflight, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python conventions.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

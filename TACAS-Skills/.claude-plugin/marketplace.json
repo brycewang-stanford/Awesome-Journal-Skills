@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "tacas-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for TACAS submissions at ETAPS: four paper categories, the per-category blind model, mandatory tool-paper artifact evaluation, ETAPS Artifact Badges, Springer LNCS gold-open-access proceedings, the EasyChair flow, and SV-COMP.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "tacas-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve TACAS-specific skills for the ETAPS Tools and Algorithms for the Construction and Analysis of Systems conference, covering its four paper categories, per-category anonymity, mandatory artifact evaluation for tool papers, ETAPS Artifact Badges, LNCS gold-open-access proceedings, and SV-COMP, grounded in the TACAS 2026/2027 and ETAPS joint calls, Springer LNCS, and dblp.",
       "author": {

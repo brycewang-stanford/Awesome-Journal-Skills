@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "demog-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Demography, the flagship open-access journal of the Population Association of America, published by Duke University Press.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "demog-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Demography manuscript lifecycle across population science, with demographic methods (life tables, decomposition, event history, age-period-cohort, multistate, microsimulation, projections) and the journal's Subscribe to Open access model.",
       "author": {

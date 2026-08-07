@@ -10,7 +10,10 @@ referees will *attack*, how to *respond*, and how to ship the *replication packa
 ## The loop
 
 ```
+paper-profile.yml     write the five signals down once; everything below reads it
 rt-journal-match      pick the venue (743 indexed venues → reach/match/safe + ladder)
+  → rt-ladder-ev           price the ladder in months and in P(ever placing)
+  → rt-venue-integrity     verify a venue this index does not cover, before submitting
   → rt-venue-reframe       diff the paper from its old venue's framing to the new one
   → rt-execution-bridge    run the analysis via StatsPAI / Stata MCP (fitted + audited)
   → rt-submission-readiness self-check go/no-go on your own manuscript
@@ -26,7 +29,9 @@ rt-workflow            routes across all of the above
 | Skill | What it does |
 |---|---|
 | [`rt-workflow`](skills/rt-workflow/SKILL.md) | Router across the toolkit + the lifecycle |
-| [`rt-journal-match`](skills/rt-journal-match/SKILL.md) | Abstract → ranked venue shortlist + resubmission ladder |
+| [`rt-journal-match`](skills/rt-journal-match/SKILL.md) | Abstract → ranked venue shortlist + resubmission ladder, via `tools/match_venues.py` |
+| [`rt-ladder-ev`](skills/rt-ladder-ev/SKILL.md) | Cost a submission sequence: expected months, P(placed), P(ladder exhausted) |
+| [`rt-venue-integrity`](skills/rt-venue-integrity/SKILL.md) | Source-by-source verification of a venue outside the index — indexing, publisher, board, fees |
 | [`rt-venue-reframe`](skills/rt-venue-reframe/SKILL.md) | Venue A → venue B reframing diff across claim, arc, evidence, style, policy |
 | [`rt-execution-bridge`](skills/rt-execution-bridge/SKILL.md) | Run DiD / IV / RDD / SCM / DML + audit via MCP |
 | [`rt-submission-readiness`](skills/rt-submission-readiness/SKILL.md) | Venue-parameterized go/no-go on the manuscript |
@@ -45,10 +50,16 @@ rt-workflow            routes across all of the above
   `submission-readiness/`) — the skills are the triggerable entry points; the deep
   methodology + validated worked-examples (DiD / IV / RDD / SCM / DML, all real tool runs)
   live there once.
-- **Measured, not asserted.** Venue shortlisting runs over a generated index of 743
-  venues with an adjacency graph for the resubmission ladder, and its retrieval step is
-  scored against a 1,738-paper gold set —
-  [`shared-resources/journal-selection/eval/`](../shared-resources/journal-selection/eval/README.md).
+- **Measured, not asserted.** Venue shortlisting runs `tools/match_venues.py` over a
+  generated index of 743 venues with an adjacency graph for the resubmission ladder, and
+  **the evaluation scores that same code path** against a 1,738-paper gold set split into
+  a tuning half and a held-out half — R@10 = 40.5% from a bare title, 51.3% with the
+  discipline supplied
+  ([`shared-resources/journal-selection/eval/`](../shared-resources/journal-selection/eval/README.md)).
+  Retrieval produces a reading list; the recommendation still comes from the venue's own pack.
+- **One profile, many skills.** The five signals about the paper are written once, as
+  [`paper-profile.yml`](../shared-resources/journal-selection/paper-profile.md), instead
+  of each skill re-deriving them from the manuscript and quietly disagreeing.
 - **Run, don't claim.** Empirical steps execute through the StatsPAI / Stata MCP tools and
   report the actual number; citations only via `bibtex`.
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "red-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the Review of Economic Dynamics (RED), the journal of the Society for Economic Dynamics, covering quantitative and dynamic economics.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "red-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Review of Economic Dynamics (RED) manuscript lifecycle for quantitative/dynamic economics.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "pods-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM PODS (Principles of Database Systems): theory-vs-systems venue routing, the multi-cycle submission calendar, lightweight double-anonymous EasyChair review with a shepherded revision round, the acmsmall page budget, proof-appendix and full-version-on-arXiv rigor, and PACMMOD PODS-track publication.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "pods-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve PODS-specific skills for the ACM SIGMOD/SIGACT Symposium on Principles of Database Systems and its PACMMOD PODS-track publication model, grounded in the PODS 2026/2027 calls, the sigmod.org PODS pages, the ACM Digital Library / PACMMOD, and dblp.",
       "author": {

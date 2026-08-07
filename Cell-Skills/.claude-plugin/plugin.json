@@ -1,7 +1,7 @@
 {
   "name": "cell-skills",
   "description": "Agent skill stack for submitting to Cell (Cell Press) — the flagship molecular/cell-biology journal. Encodes Cell's editorial bar (a complete, mechanistic, hypothesis-driven story with converging evidence), the Article structure, the signature Cell artifacts (Highlights, eTOC/In Brief blurb, Graphical Abstract), the ≤150-word unstructured Summary, STAR Methods with the Key Resources Table and Resource Availability, data/code deposition with Mendeley Data, Cell Press author–date references, a conceptual-advance cover letter, submission preflight, and reviewer rebuttals. English-first docs with zh-CN mirror.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

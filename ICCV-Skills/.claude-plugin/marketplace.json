@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "iccv-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ICCV papers: biennial cycle strategy, March submission audit, May rebuttal, reviewer-duty compliance, artifacts, and CVF/IEEE camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "iccv-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ICCV-specific skills for the odd-year IEEE/CVF International Conference on Computer Vision, grounded in the ICCV 2025 Call for Papers, Author and Reviewer Guidelines, the 2025 Changes page, OpenReview group, and CVF open access, checked 2026-07-08.",
       "author": {

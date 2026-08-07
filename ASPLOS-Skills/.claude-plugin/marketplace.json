@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "asplos-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ASPLOS manuscript planning, two-cycle HotCRP submission, rapid review and rebuttal, Major Revision, ACM artifact badges, and camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "asplos-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ASPLOS-specific skills for architecture/PL/OS conference submission strategy, grounded in the official ASPLOS 2027 CFP, HotCRP cycle pages, artifact-evaluation instructions, and ACM DL proceedings.",
       "author": {

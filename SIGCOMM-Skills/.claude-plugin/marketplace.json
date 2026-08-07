@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sigcomm-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM SIGCOMM manuscript planning, HotCRP submission, rebuttal and shepherd-run revision, reproducibility, ACM artifact badges, and TAPS camera-ready proceedings.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sigcomm-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve SIGCOMM-specific skills for the ACM networking flagship: single-deadline venue strategy, double-blind HotCRP submission, rebuttal and one-shot revision, measurement-grade evaluation, ACM artifact badges, and TAPS proceedings.",
       "author": {

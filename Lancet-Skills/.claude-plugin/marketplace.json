@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "lancet-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at The Lancet, the flagship clinical-medicine and global-health journal.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "lancet-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Lancet manuscript lifecycle: workflow router, scope/significance fit, study design + trial registration, EQUATOR reporting guidelines, the Research in context panel, the structured abstract, main-text writing, clinical statistics, clinical figures/tables, ethics + declaration of interests + role of funding source, submission preflight, and reviewer rebuttal.",
       "author": {

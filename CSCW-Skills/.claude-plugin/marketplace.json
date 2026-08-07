@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cscw-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for CSCW paper strategy: social-computing venue fit, the PACMHCI journal model, Revise-and-Resubmit navigation, methods-pluralist evidence, community-data ethics, and journal camera-ready production.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "cscw-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve CSCW-specific skills covering the PACMHCI journal-model pipeline from topic routing through R&R response letters to journal-issue publication, grounded in cscw.acm.org CFP and rolling-model pages, ACM DL PACMHCI records, and dblp, checked 2026-07-08.",
       "author": {

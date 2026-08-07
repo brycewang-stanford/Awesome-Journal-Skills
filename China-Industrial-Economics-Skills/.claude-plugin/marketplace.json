@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "china-industrial-economics-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《中国工业经济》, the industrial-economics flagship of the CASS Institute of Industrial Economics — built around empirical engineering, the robustness arms race, and actionable industrial policy.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "china-industrial-economics-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Thirteen-skill bundle covering the 《中国工业经济》 manuscript lifecycle: workflow router, fit positioning, topic selection, literature review, institutional background, multi-period DID / event-study identification, mechanism, heterogeneity, the signature robustness arms race, tables/figures with economic-magnitude interpretation, actionable policy implications, submission preflight, and rebuttal.",
       "author": {

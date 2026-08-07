@@ -13,6 +13,7 @@ pack's ``resources/official-source-map.md`` and are read at match time.
 
 from __future__ import annotations
 
+import hashlib
 import math
 import re
 from collections import Counter
@@ -288,6 +289,32 @@ _CJK_RUN = re.compile(r"[一-鿿]{2,}")
 # Single-character CJK function words / affixes that make an n-gram meaningless.
 CJK_NOISE = set("的了是在和与及或对于把被让使得所之其此该也都很更最就还又再等中前后上下内外")
 
+# Submission-process vocabulary. These describe how a manuscript is *handled*, not what
+# a venue is *about*, so they are the same for every venue and can only add noise to a
+# scope match. They survive the document-frequency filter (which is deliberately
+# permissive, so that genuinely field-defining words like "clinical" are not discarded),
+# so they are named here instead.
+PROCESS_STOPWORDS = set("""
+artifact artifacts anonymity anonymous anonymised anonymized deanonymize double-blind
+single-blind camera-ready camera rebuttal supplementary supplement appendix-only
+venue-specific desk-reject desk-rejection turnaround resubmission resubmit withdraw
+withdrawal portal scholarone editorial-manager openreview easychair cmt hotcrp
+deadline deadlines timeline embargo preprint arxiv ssrn licence license copyright
+formatting template templates latex overleaf wordcount word-count pagelimit page-limit
+checklist checklists compliance mandatory optional required requirement requirements
+""".split())
+
+# Matched as substrings: 审稿 must also disqualify 审稿人 and 审稿期待. Each stem is a
+# manuscript-handling word, never a subject-matter word, in every venue that uses it.
+CJK_PROCESS_STEMS = (
+    "投稿", "本刊", "官方", "核验", "核实", "待核", "匿名", "评审", "审稿", "初审",
+    "外审", "复审", "送审", "退稿", "录用", "刊发", "刊登", "征稿", "来稿", "稿件",
+    "作者", "编辑", "编委", "主办", "主管", "承办", "出版", "期刊", "杂志", "学报",
+    "正文", "摘要", "梗概", "参考文献", "格式", "字数", "排版", "模板", "版面",
+    "注释", "脚注", "尾注", "上传", "官网", "网站", "链接", "更新", "日期",
+    "修订", "回复", "意见", "追问", "语境", "读者对象", "目标期刊", "写作",
+)
+
 STOPWORDS = set("""
 the and for with that this from are was were has have had not but its it's they them their
 you your our his her she who whom which what when where why how all any both each few more
@@ -304,7 +331,20 @@ method methods methodology approach approaches analysis model models framework
 new one two three first second third high higher low lower large small long short
 scope fit topic selection positioning house style bar guidance official site live check
 before after must-not anti-pattern trigger triggers venue-selection re-check guidelines
-""".split())
+""".split()) | PROCESS_STOPWORDS
+
+
+def index_digest(venue_ids) -> str:
+    """Digest of the venue-id order in `venue-index.tsv`.
+
+    `scope-postings.tsv` refers to venues by row number, which is what keeps it small
+    enough to commit and makes the two files a matched pair. A postings file built
+    against a different ordering would still parse, still have the right number of rows,
+    and quietly attribute every keyword to the wrong venue — so the digest travels with
+    it and the matcher refuses to load a mismatch.
+    """
+    joined = "\n".join(venue_ids)
+    return hashlib.sha256(joined.encode("utf-8")).hexdigest()[:16]
 
 
 def read(path: Path, limit: int | None = None) -> str:
@@ -446,40 +486,61 @@ def ranking_labels(text: str) -> list[str]:
 
 SCOPE_SKILL_HINTS = ("topic-selection", "positioning", "scope", "fit", "contribution-framing")
 
+# Every skill in a pack describes its venue's subject matter somewhere — a methods skill
+# names the designs the venue accepts, a review-process skill names what its referees ask
+# about. Restricting the scope text to the four "fit" skills threw most of that away and
+# left the index blind to the vocabulary a paper actually uses. These bounds keep the
+# whole pack in view while staying well inside the per-skill length of the corpus.
+SCOPE_CHARS_PER_SKILL = 4000
+SCOPE_CHARS_FIT_SKILL = 8000
+SCOPE_CHARS_README = 6000
+SCOPE_CHARS_AIMS = 4000
+SCOPE_CHARS_PROFILE = 12000
+
 
 def depth_scope_text(pack: Path) -> str:
-    """Scope-describing prose for a depth pack: skill descriptions + fit skills + README."""
+    """Scope-describing prose for a depth pack: every skill, the README, and aims/scope.
+
+    The exemplar library is deliberately **not** read: it is the label source for
+    ``eval/gold-set.tsv``, and indexing it would leak the answer into the query.
+    """
     parts: list[str] = []
     for skill in sorted((pack / "skills").glob("*/SKILL.md")):
         body = read(skill)
         parts.append(frontmatter_description(body))
-        if any(h in skill.parent.name for h in SCOPE_SKILL_HINTS):
-            parts.append(strip_frontmatter(body)[:6000])
+        limit = (SCOPE_CHARS_FIT_SKILL
+                 if any(h in skill.parent.name for h in SCOPE_SKILL_HINTS)
+                 else SCOPE_CHARS_PER_SKILL)
+        parts.append(strip_frontmatter(body)[:limit])
     readme = pack / "README.md"
     if readme.exists():
-        parts.append(read(readme, 3000))
+        parts.append(read(readme, SCOPE_CHARS_README))
     sm = pack / "resources" / "official-source-map.md"
     if sm.exists():
         # Aims/scope section only — never the volatile-facts sections.
         text = read(sm)
         m = re.search(r"##\s*Aims[^\n]*\n(.*?)(?=\n##\s|\Z)", text, re.S | re.I)
         if m:
-            parts.append(m.group(1)[:3000])
+            parts.append(m.group(1)[:SCOPE_CHARS_AIMS])
     return "\n".join(p for p in parts if p)
 
 
 def breadth_scope_text(skill_path: Path) -> str:
     body = read(skill_path)
-    return frontmatter_description(body) + "\n" + strip_frontmatter(body)[:8000]
+    return (frontmatter_description(body) + "\n"
+            + strip_frontmatter(body)[:SCOPE_CHARS_PROFILE])
 
 
 # --- keyword derivation -----------------------------------------------------
 
 def cjk_ngrams(text: str) -> list[str]:
-    """2- and 3-character n-grams from CJK runs, minus grams built on function words.
+    """2- to 4-character n-grams from CJK runs, minus grams built on function words.
 
-    No segmenter is available (and none should be a dependency), so we over-generate
-    and let TF-IDF keep only the grams that actually discriminate between venues.
+    No segmenter is available (and none should be a dependency), so this deliberately
+    over-generates. On the *query* side that is harmless — a fragment that is not a word
+    simply matches nothing. On the *index* side it is not: a fragment like 融学院主
+    (sliced out of 金融学院主办) would be stored as though it were a term. ``discover_cjk_vocab``
+    filters the index side; see ``derive_keywords``.
     """
     grams: list[str] = []
     for run in _CJK_RUN.findall(text):
@@ -492,10 +553,120 @@ def cjk_ngrams(text: str) -> list[str]:
     return grams
 
 
+# Word-discovery thresholds. Tuned on this corpus against the journal-match gold set;
+# see shared-resources/journal-selection/eval/RESULTS.md.
+CJK_MIN_FREQ = 4          # a real word recurs; a slicing artefact usually does not
+CJK_MIN_COHESION = 24.0   # P(gram) vs. P(left)·P(right) at the weakest split point
+CJK_MIN_ENTROPY = 0.55    # nats of uncertainty about the neighbouring character
+
+
+def _entropy(counts: Counter) -> float:
+    total = sum(counts.values())
+    if total <= 0:
+        return 0.0
+    acc = 0.0
+    for c in counts.values():
+        p = c / total
+        acc -= p * math.log(p)
+    return acc
+
+
+def discover_cjk_vocab(texts) -> set[str]:
+    """Unsupervised Chinese word discovery over the whole venue corpus.
+
+    A character n-gram earns a place in the vocabulary when it behaves like a word:
+
+    * **it recurs** — at least ``CJK_MIN_FREQ`` times across the corpus;
+    * **it coheres** — its characters co-occur far more often than chance, measured at
+      the *weakest* split point so that 金融学院 is not admitted merely because 金融 is
+      frequent;
+    * **its boundaries are free** — the characters to its left and right vary. This is
+      what rejects a slice like 融学院主, whose left neighbour is almost always 金: a
+      fragment inherits its context, a word chooses its own.
+
+    Deterministic and dependency-free, so CI reproduces it exactly. It replaces the old
+    behaviour of storing every generated n-gram and hoping TF-IDF would sort it out —
+    TF-IDF ranks terms, it cannot tell a word from a fragment, and fragments scored well
+    precisely because they were rare.
+    """
+    freq: Counter = Counter()
+    unigram: Counter = Counter()
+    left: dict[str, Counter] = {}
+    right: dict[str, Counter] = {}
+    total_chars = 0
+
+    for text in texts:
+        for run in _CJK_RUN.findall(text):
+            total_chars += len(run)
+            unigram.update(run)
+            for size in (2, 3, 4):
+                for i in range(len(run) - size + 1):
+                    gram = run[i:i + size]
+                    freq[gram] += 1
+                    left.setdefault(gram, Counter())[run[i - 1] if i else "^"] += 1
+                    right.setdefault(gram, Counter())[
+                        run[i + size] if i + size < len(run) else "$"
+                    ] += 1
+
+    if not total_chars:
+        return set()
+
+    vocab: set[str] = set()
+    for gram, count in freq.items():
+        if count < CJK_MIN_FREQ:
+            continue
+        if gram[0] in CJK_NOISE or gram[-1] in CJK_NOISE:
+            continue
+        p_gram = count / total_chars
+        cohesion = min(
+            p_gram / ((unigram[gram[:k]] / total_chars if len(gram[:k]) == 1
+                       else freq[gram[:k]] / total_chars)
+                      * (unigram[gram[k:]] / total_chars if len(gram[k:]) == 1
+                         else freq[gram[k:]] / total_chars))
+            for k in range(1, len(gram))
+        )
+        if cohesion < CJK_MIN_COHESION:
+            continue
+        if min(_entropy(left[gram]), _entropy(right[gram])) < CJK_MIN_ENTROPY:
+            continue
+        vocab.add(gram)
+    return vocab
+
+
+_URL = re.compile(r"(?:https?://|www\.)\S+|\b[a-z0-9-]+\.(?:com|org|net|edu|gov|cn|io|ai)\b")
+
+
+def strip_urls(text: str) -> str:
+    """Drop URLs before tokenizing.
+
+    Domains are the single richest source of terms that look maximally distinctive and
+    mean nothing: ``kjyjjyj`` (a journal's pinyin initials in its domain) and ``afajof``
+    scored as well as any real subject term because they appear in exactly one venue.
+    """
+    return _URL.sub(" ", text)
+
+
 def tokenize(text: str) -> list[str]:
-    lowered = text.lower()
-    words = [w for w in _WORD.findall(lowered) if w not in STOPWORDS and len(w) > 3]
+    lowered = strip_urls(text.lower())
+    words = [w.strip("-") for w in _WORD.findall(lowered)]
+    words = [w for w in words if w and w not in STOPWORDS and len(w) > 3]
     return words + cjk_ngrams(text)
+
+
+def _skill_slugs() -> set[str]:
+    """Every skill directory name in the repository, plus its multi-segment prefixes.
+
+    Skill slugs (``qje-identification``, ``neurips-submission``) are the most
+    TF-IDF-distinctive strings in a pack — each occurs in exactly one venue's prose — and
+    they are worthless for matching, because no paper title contains them. Left in, they
+    took roughly half of every English pack's keyword budget.
+    """
+    slugs: set[str] = set()
+    for skill in ROOT.glob("*/skills/*/SKILL.md"):
+        parts = skill.parent.name.split("-")
+        for cut in range(2, len(parts) + 1):
+            slugs.add("-".join(parts[:cut]))
+    return slugs
 
 
 def candidate_terms(text: str) -> Counter:
@@ -526,11 +697,21 @@ def _redundant(term: str, picked: list[str]) -> bool:
     return False
 
 
-def derive_keywords(docs: dict[str, str], top_n: int = 40) -> dict[str, list[str]]:
-    """TF-IDF over the venue corpus; returns the most venue-distinctive terms.
+DF_CEILING = 0.35  # a term in >35% of venues cannot separate them
+
+
+def derive_keywords(docs: dict[str, str], top_n: int = 300) -> dict[str, list[str]]:
+    """TF-IDF over the venue corpus; returns each venue's most distinctive terms, ranked.
+
+    The list is ordered, and callers slice it: the human-readable index publishes the
+    head, the retrieval postings keep the whole thing. Chinese terms are restricted to a
+    vocabulary discovered from the corpus (``discover_cjk_vocab``) so that cross-boundary
+    fragments never reach the index.
 
     Deterministic and dependency-free, so it reruns identically in CI.
     """
+    cjk_vocab = discover_cjk_vocab(docs.values())
+    slugs = _skill_slugs()
     tf = {vid: candidate_terms(text) for vid, text in docs.items()}
     df: Counter = Counter()
     for counts in tf.values():
@@ -541,18 +722,25 @@ def derive_keywords(docs: dict[str, str], top_n: int = 40) -> dict[str, list[str
         total = sum(counts.values()) or 1
         scored = []
         for term, c in counts.items():
+            is_cjk = bool(_CJK_RUN.fullmatch(term))
+            if is_cjk:
+                if term not in cjk_vocab:
+                    continue
+                if any(stem in term for stem in CJK_PROCESS_STEMS):
+                    continue
+            elif "-" in term and term in slugs:
+                continue
             if c < 2 and " " not in term:
                 continue
             doc_freq = df[term]
-            if doc_freq > n_docs * 0.35:          # too common to discriminate
+            if doc_freq > n_docs * DF_CEILING:     # too common to discriminate
                 continue
             idf = math.log(n_docs / (1 + doc_freq))
             if idf <= 0:
                 continue
             score = (c / total) * idf
-            if _CJK_RUN.fullmatch(term):
-                # over-generated grams: prefer the longer ones, which are far more
-                # likely to be a real word than a cross-boundary fragment
+            if is_cjk:
+                # among confirmed words, a longer one is the more specific claim
                 score *= 1 + 0.25 * (len(term) - 2)
             scored.append((score, term))
         scored.sort(key=lambda x: (-x[0], x[1]))

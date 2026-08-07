@@ -1,7 +1,7 @@
 {
   "name": "sociological-studies-skills",
   "description": "Agent skill stack for submitting to 《社会学研究》 (Sociological Studies) — the flagship Chinese sociology journal hosted by the Institute of Sociology, Chinese Academy of Social Sciences (bimonthly, ISSN 1002-5936, CN 11-1100/C). Built for sociology's dual tradition: quantitative survey analysis (CGSS/CFPS/CLDS — regression / Logit / multilevel / event-history / sequence) AND qualitative work (ethnography / in-depth interview / extended case / grounded theory). Emphasizes a sociological problematic and dialogue with sociological theory over econometric policy evaluation. Covers fit positioning, problem consciousness, theory dialogue, quantitative and qualitative craft, social-process mechanism, concept building, scholarly style, 200-character abstract + 3-5 keywords, submission preflight (in-text author-date citation), and R&R rebuttals.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

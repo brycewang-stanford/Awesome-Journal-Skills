@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "wacv-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for WACV manuscript planning, applications-vs-algorithms track choice, the two-round Revise-and-Resubmit review, OpenReview submission, reproducibility, and IEEE/CVF camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "wacv-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve WACV-specific skills for the applications-first winter computer-vision venue, built around the two-round Revise-and-Resubmit model and grounded in the official WACV 2027 Call for Papers, Author Guidelines, OpenReview groups, and WACV 2026 pages.",
       "author": {

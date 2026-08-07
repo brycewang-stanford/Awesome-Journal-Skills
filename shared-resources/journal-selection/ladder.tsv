@@ -29,16 +29,13 @@ academy-of-management-review	strategic-management-journal	Strategic Management J
 accounting-organizations-and-society	journal-of-accounting-research	Journal of Accounting Research	11	yes	depth	top-3 accounting	international
 accounting-organizations-and-society	the-accounting-review	The Accounting Review	10	yes	depth	top-3 accounting	international
 accounting-organizations-and-society	contemporary-accounting-research	Contemporary Accounting Research	8	yes	depth	field	international
-accounting-organizations-and-society	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	3	no	breadth	field	international
 accounting-research	management-review	管理评论	4	no	breadth	field	china
-accounting-research	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 accounts-of-chemical-research	chemical-reviews	Chemical Reviews	2	yes	breadth	field	international
 acl	emnlp	EMNLP	9	yes	depth	field	international
 acl	eacl	EACL	6	yes	depth	field	international
 acl	naacl	NAACL	6	yes	depth	field	international
-acl	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	5	no	breadth	field	international
 acl	colm	COLM	4	yes	depth	field	international
-acm-asia-conference-on-computer-and-communications-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	23	yes	breadth	field	international
+acm-asia-conference-on-computer-and-communications-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	3	yes	breadth	field	international
 acm-asia-conference-on-computer-and-communications-security	ndss	NDSS	3	no	depth	field	international
 acm-asia-conference-on-computer-and-communications-security	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	2	no	breadth	field	international
 acm-ccs	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	111	no	breadth	field	international
@@ -77,7 +74,7 @@ acm-international-conference-on-mobile-human-computer-interaction	acm-conference
 acm-international-conference-on-multimedia-retrieval	sigir	SIGIR	3	no	depth	field	international
 acm-international-conference-on-multimedia-retrieval	ieee-international-symposium-on-biomedical-imaging	IEEE International Symposium on Biomedical Imaging	2	yes	breadth	field	international
 acm-international-conference-on-multimedia-retrieval	medical-image-computing-and-computer-assisted-intervention	International Conference on Medical Image Computing and Computer Assisted Intervention	2	yes	breadth	field	international
-acm-international-conference-on-tangible-embedded-and-embodied-interaction	chi	CHI	3	no	depth	field	international
+acm-international-conference-on-tangible-embedded-and-embodied-interaction	chi	CHI	2	no	depth	field	international
 acm-international-joint-conference-on-pervasive-and-ubiquitous-computing	acm-international-conference-on-tangible-embedded-and-embodied-interaction	ACM International Conference on Tangible, Embedded, and Embodied Interaction	4	yes	breadth	field	international
 acm-international-joint-conference-on-pervasive-and-ubiquitous-computing	chi	CHI	2	no	depth	field	international
 acm-international-symposium-on-high-performance-parallel-and-distributed-computing	ppopp	PPoPP	3	no	depth	field	international
@@ -111,18 +108,16 @@ acm-siggraph-eurographics-symposium-on-computer-animation	siggraph	SIGGRAPH	7	no
 acm-siggraph-eurographics-symposium-on-computer-animation	acm-siggraph	ACM SIGGRAPH	5	yes	breadth	field	international
 acm-siggraph-symposium-on-interactive-3d-graphics-and-games	siggraph	SIGGRAPH	12	no	depth	field	international
 acm-siggraph-symposium-on-interactive-3d-graphics-and-games	acm-siggraph	ACM SIGGRAPH	6	yes	breadth	field	international
-acm-sigir-conference-on-human-information-interaction-and-retrieval	chi	CHI	20	no	depth	field	international
 acm-sigir-conference-on-human-information-interaction-and-retrieval	sigir	SIGIR	9	no	depth	field	international
-acm-sigir-conference-on-human-information-interaction-and-retrieval	kdd	KDD	2	no	depth	field	international
+acm-sigir-conference-on-human-information-interaction-and-retrieval	chi	CHI	2	no	depth	field	international
 acm-sigir-conference-on-research-and-development-in-information-retrieval	sigir	SIGIR	21	no	depth	field	international
 acm-sigir-conference-on-research-and-development-in-information-retrieval	acm-sigir-conference-on-human-information-interaction-and-retrieval	ACM SIGIR Conference on Human Information Interaction and Retrieval	3	yes	breadth	field	international
-acm-sigir-conference-on-research-and-development-in-information-retrieval	chi	CHI	3	no	depth	field	international
 acm-sigir-conference-on-research-and-development-in-information-retrieval	cikm	CIKM	3	no	depth	field	international
 acm-sigir-conference-on-research-and-development-in-information-retrieval	european-conference-on-information-retrieval	European Conference on Information Retrieval	3	yes	breadth	field	international
 acm-sigmetrics	sigmetrics	SIGMETRICS	20	no	depth	field	international
 acm-sigmetrics	acm-international-symposium-on-high-performance-parallel-and-distributed-computing	ACM International Symposium on High-Performance Parallel and Distributed Computing	2	yes	breadth	field	international
 acm-sigmod-international-conference-on-management-of-data	sigmod	SIGMOD	22	no	depth	field	international
-acm-sigmod-international-conference-on-management-of-data	vldb	VLDB	7	no	depth	field	international
+acm-sigmod-international-conference-on-management-of-data	vldb	VLDB	5	no	depth	field	international
 acm-sigmod-international-conference-on-management-of-data	icde	ICDE	2	no	depth	field	international
 acm-sigmod-international-conference-on-management-of-data	icdm	ICDM	2	no	depth	field	international
 acm-sigmod-international-conference-on-management-of-data	kdd	KDD	2	no	depth	field	international
@@ -137,7 +132,6 @@ acs-catalysis	nature-catalysis	Nature Catalysis	2	yes	breadth	field	internationa
 acs-central-science	journal-of-the-american-chemical-society	Journal of the American Chemical Society	3	no	depth	field	international
 acs-energy-letters	energy-and-environmental-science	Energy & Environmental Science	2	no	breadth	field	international
 acta-automatica-sinica	automatica	Automatica	67	no	breadth	field	international
-acta-electronica-sinica	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 administrative-science-quarterly	strategic-management-journal	Strategic Management Journal	11	yes	depth	FT50 / UTD24	international
 administrative-science-quarterly	academy-of-management-journal	Academy of Management Journal	10	yes	depth	FT50 / UTD24	international
 administrative-science-quarterly	academy-of-management-review	Academy of Management Review	5	yes	depth	FT50 / UTD24	international
@@ -149,32 +143,24 @@ advanced-functional-materials	nature-materials	Nature Materials	2	yes	breadth	fi
 advanced-materials	advanced-functional-materials	Advanced Functional Materials	4	no	breadth	field	international
 aej-applied-economics	american-economic-review	American Economic Review	17	no	breadth	field	international
 aej-applied-economics	journal-of-economic-literature	Journal of Economic Literature	13	no	depth	field	international
-aej-applied-economics	comparative-political-studies	Comparative Political Studies	11	no	depth	field	international
 aej-applied-economics	economic-policy	Economic Policy	5	no	depth	field	international
 aej-applied-economics	journal-of-development-economics	Journal of Development Economics	2	no	depth	field	international
 aej-applied-economics	journal-of-health-economics	Journal of Health Economics	2	no	depth	field	international
 aej-applied-economics	journal-of-labor-economics	Journal of Labor Economics	2	no	depth	field	international
 aej-economic-policy	economic-policy	Economic Policy	20	yes	depth	field	international
-aej-economic-policy	comparative-political-studies	Comparative Political Studies	13	no	depth	field	international
 aej-economic-policy	american-economic-review	American Economic Review	10	no	breadth	field	international
 aej-economic-policy	journal-of-economic-literature	Journal of Economic Literature	10	no	depth	field	international
-aej-macroeconomics	review-of-economic-dynamics	Review of Economic Dynamics	17	yes	depth	field	international
+aej-macroeconomics	review-of-economic-dynamics	Review of Economic Dynamics	14	yes	depth	field	international
 aej-macroeconomics	american-economic-review	American Economic Review	10	no	breadth	field	international
-aej-macroeconomics	comparative-political-studies	Comparative Political Studies	9	no	depth	field	international
 aej-macroeconomics	journal-of-economic-literature	Journal of Economic Literature	9	no	depth	field	international
 aej-macroeconomics	journal-of-monetary-economics	Journal of Monetary Economics	7	yes	depth	field	international
-aej-macroeconomics	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 aej-microeconomics	journal-of-economic-literature	Journal of Economic Literature	22	no	depth	field	international
 aej-microeconomics	journal-of-economic-theory	Journal of Economic Theory	16	no	depth	field	international
 aej-microeconomics	games-and-economic-behavior	Games and Economic Behavior	13	no	depth	field	international
 aej-microeconomics	econometrica	Econometrica	8	no	depth	top-5 econ	international
-aej-microeconomics	comparative-political-studies	Comparative Political Studies	5	no	depth	field	international
-aej-microeconomics	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 aer-insights	american-economic-review	American Economic Review	135	no	breadth	field	international
-aer-insights	comparative-political-studies	Comparative Political Studies	6	no	depth	field	international
 aer-insights	journal-of-economic-literature	Journal of Economic Literature	5	yes	depth	field	international
 agricultural-systems	field-crops-research	Field Crops Research	5	yes	depth	field	international
-agricultural-systems	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	3	no	breadth	field	international
 aistats	neurips	NeurIPS	8	yes	depth	field	international
 aistats	icml	ICML	7	yes	depth	field	international
 aistats	colt	COLT	6	yes	depth	field	international
@@ -183,10 +169,7 @@ aistats	uai	UAI	6	yes	depth	field	international
 aistats	journal-of-machine-learning-research	Journal of Machine Learning Research	4	no	breadth	field	international
 american-anthropologist	current-anthropology	Current Anthropology	2	yes	depth	field	international
 american-economic-review	journal-of-economic-literature	Journal of Economic Literature	3	no	depth	field	international
-american-educational-research-journal	american-economic-review	American Economic Review	163	no	breadth	field	international
 american-journal-of-gastroenterology	gastroenterology	Gastroenterology	9	no	breadth	field	international
-american-journal-of-gastroenterology	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
-american-journal-of-obstetrics-and-gynecology	the-accounting-review	The Accounting Review	5	no	depth	top-3 accounting	international
 american-journal-of-political-science	american-political-science-review	American Political Science Review	6	yes	depth	top-3 polisci	international
 american-journal-of-political-science	journal-of-politics	Journal of Politics	5	yes	depth	field	international
 american-journal-of-political-science	physical-review-e	Physical Review E	2	no	breadth	field	international
@@ -200,23 +183,17 @@ american-journal-of-sociology	american-political-science-review	American Politic
 american-sociological-review	demography	Demography	2	no	depth	field	international
 angewandte-chemie-international-edition	journal-of-the-american-chemical-society	Journal of the American Chemical Society	3	no	depth	field	international
 annals-of-internal-medicine	atmospheric-chemistry-and-physics	Atmospheric Chemistry and Physics	6	yes	breadth	field	international
-annals-of-internal-medicine	the-accounting-review	The Accounting Review	3	no	depth	top-3 accounting	international
 annals-of-mathematics	journal-of-the-american-chemical-society	Journal of the American Chemical Society	3	no	depth	field	international
 annals-of-oncology	jama	JAMA	2	no	depth	field	international
-annals-of-the-american-association-of-geographers	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	2	no	breadth	field	international
 annals-of-the-american-association-of-geographers	progress-in-human-geography	Progress in Human Geography	2	yes	depth	field	international
 annual-computer-security-applications-conference	european-symposium-on-research-in-computer-security	European Symposium on Research in Computer Security	4	yes	breadth	field	international
 annual-computer-security-applications-conference	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	4	yes	breadth	field	international
-annual-computer-security-applications-conference	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	3	no	breadth	field	international
 annual-computer-security-applications-conference	ndss	NDSS	3	no	depth	field	international
-annual-review-of-astronomy-and-astrophysics	astronomy-and-astrophysics	Astronomy & Astrophysics	10	yes	breadth	field	international
-annual-review-of-ecology-evolution-and-systematics	annual-review-of-economics	Annual Review of Economics	7	no	depth	field	international
-annual-review-of-ecology-evolution-and-systematics	energy-and-environmental-science	Energy & Environmental Science	7	no	breadth	field	international
+annual-computer-security-applications-conference	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	2	no	breadth	field	international
 annual-review-of-ecology-evolution-and-systematics	trends-in-ecology-and-evolution	Trends in Ecology & Evolution	2	yes	breadth	field	international
 annual-review-of-economics	journal-of-economic-literature	Journal of Economic Literature	17	yes	depth	field	international
 annual-review-of-economics	journal-of-economic-perspectives	Journal of Economic Perspectives	10	yes	depth	field	international
 annual-review-of-economics	academy-of-management-annals	Academy of Management Annals	2	no	depth	field	international
-annual-review-of-environment-and-resources	annual-review-of-economics	Annual Review of Economics	3	no	depth	field	international
 annual-review-of-psychology	psychological-bulletin	Psychological Bulletin	9	yes	depth	flagship psych (review)	international
 annual-review-of-psychology	psychological-science	Psychological Science	6	yes	depth	field	international
 annual-review-of-psychology	perspectives-on-psychological-science	Perspectives on Psychological Science	5	yes	depth	field	international
@@ -225,24 +202,18 @@ annual-review-of-sociology	american-sociological-review	American Sociological Re
 annual-review-of-sociology	sociological-theory	Sociological Theory	8	yes	depth	field	international
 annual-review-of-sociology	annual-review-of-psychology	Annual Review of Psychology	3	no	depth	field	international
 annual-review-of-sociology	demography	Demography	2	no	depth	field	international
-arthritis-and-rheumatology	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
 artificial-intelligence-and-statistics	aistats	AISTATS	13	no	depth	field	international
 artificial-intelligence-and-statistics	colt	COLT	2	no	depth	field	international
 artificial-intelligence-and-statistics	uai	UAI	2	no	depth	field	international
 ase	fse	FSE	21	yes	depth	field	international
-ase	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	19	no	breadth	field	international
 ase	issta	ISSTA	19	yes	depth	field	international
 ase	icse	ICSE	15	yes	depth	field	international
-ase	international-economic-review	International Economic Review	7	no	depth	field	international
 ase	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	2	no	breadth	field	international
 asian-conference-on-computer-vision	eccv	ECCV	4	no	depth	field	international
 asian-conference-on-computer-vision	wacv	WACV	4	no	depth	field	international
 asian-conference-on-computer-vision	cvpr	CVPR	2	no	depth	field	international
 asian-conference-on-computer-vision	iccv	ICCV	2	no	depth	field	international
-asian-conference-on-machine-learning	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	3	yes	breadth	field	international
-asian-conference-on-machine-learning	kdd	KDD	2	no	depth	field	international
 asian-conference-on-machine-learning	wsdm	WSDM	2	no	depth	field	international
-asplos	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	11	no	breadth	field	international
 asplos	isca	ISCA	11	yes	depth	field	international
 asplos	sosp	SOSP	10	yes	depth	field	international
 asplos	pldi	PLDI	9	yes	depth	field	international
@@ -250,6 +221,7 @@ asplos	micro	MICRO	8	yes	depth	field	international
 asplos	eurosys	EuroSys	7	yes	depth	field	international
 asplos	osdi	OSDI	7	yes	depth	field	international
 asplos	hpca	HPCA	5	yes	depth	field	international
+asplos	popl	POPL	5	yes	depth	field	international
 astronomy-and-astrophysics	monthly-notices-of-the-royal-astronomical-society	Monthly Notices of the Royal Astronomical Society	2	yes	breadth	field	international
 astrophysical-journal-letters	the-astrophysical-journal	The Astrophysical Journal	5	yes	breadth	field	international
 astrophysical-journal-letters	nature-astronomy	Nature Astronomy	2	yes	breadth	field	international
@@ -263,7 +235,6 @@ atc	usenix-annual-technical-conference	USENIX Annual Technical Conference	2	no	b
 auditing-and-economics-research	auditing-research	审计研究	2	yes	breadth	field	china
 auditing-research	auditing-and-economics-research	审计与经济研究	2	yes	breadth	field	china
 automatica	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	2	yes	breadth	field	international
-brain	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
 british-journal-of-political-science	american-political-science-review	American Political Science Review	3	yes	depth	top-3 polisci	international
 british-journal-of-political-science	comparative-political-studies	Comparative Political Studies	3	yes	depth	field	international
 british-journal-of-political-science	american-journal-of-political-science	American Journal of Political Science	2	yes	depth	top-3 polisci	international
@@ -280,47 +251,33 @@ bulletin-of-chinese-academy-of-sciences	soft-science	软科学	2	yes	breadth	fie
 bulletin-of-chinese-academy-of-sciences	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
 business-management-journal	research-on-economics-and-management	经济与管理研究	3	yes	breadth	field	china
 business-management-journal	management-science-cn	管理科学	2	yes	breadth	field	china
-cancer-cell	the-accounting-review	The Accounting Review	25	no	depth	top-3 accounting	international
-cancer-cell	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	6	no	breadth	field	international
 cancer-cell	jama	JAMA	4	no	depth	field	international
 cancer-discovery	cancer-cell	Cancer Cell	3	yes	depth	field	international
-cav	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	25	no	breadth	field	international
 cav	tacas	TACAS	25	yes	depth	field	international
 cav	journal-of-accounting-research	Journal of Accounting Research	5	no	depth	top-3 accounting	international
 cav	pldi	PLDI	5	yes	depth	field	international
 cav	popl	POPL	5	yes	depth	field	international
-cav	contemporary-accounting-research	Contemporary Accounting Research	4	no	depth	field	international
-cav	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	3	no	breadth	field	international
 cav	oopsla	OOPSLA	3	yes	depth	field	international
-cell	the-accounting-review	The Accounting Review	53	no	depth	top-3 accounting	international
 cell	molecular-cell	Molecular Cell	13	yes	depth	field	international
 cell	cell-reports-medicine	Cell Reports Medicine	7	yes	breadth	field	international
 cell	developmental-cell	Developmental Cell	2	yes	breadth	field	international
 cell	nejm	NEJM	2	no	depth	field	international
 cell	pnas	PNAS	2	no	depth	field	international
-cell-host-and-microbe	the-accounting-review	The Accounting Review	6	no	depth	top-3 accounting	international
-cell-metabolism	the-accounting-review	The Accounting Review	5	no	depth	top-3 accounting	international
-cell-reports-medicine	the-accounting-review	The Accounting Review	2	no	depth	top-3 accounting	international
-cell-stem-cell	the-accounting-review	The Accounting Review	8	no	depth	top-3 accounting	international
 chemical-engineering-journal	aiche-journal	AIChE Journal	2	yes	breadth	field	international
 chemical-society-reviews	chemical-reviews	Chemical Reviews	2	yes	breadth	field	international
-chi	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	32	no	breadth	field	international
 chi	cscw	CSCW	8	yes	depth	field	international
 chi	uist	UIST	7	yes	depth	field	international
 chi	acm-conference-on-designing-interactive-systems	ACM Conference on Designing Interactive Systems	6	no	breadth	field	international
 chi	acm-conference-on-intelligent-user-interfaces	ACM Conference on Intelligent User Interfaces	6	no	breadth	field	international
-china-economic-quarterly	journal-of-economic-literature	Journal of Economic Literature	25	yes	depth	field	international
+china-economic-quarterly	journal-of-economic-literature	Journal of Economic Literature	24	yes	depth	field	international
 china-economic-studies	economic-problems	经济问题	9	yes	breadth	field	china
-china-industrial-economics	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	3	no	breadth	field	international
 china-public-administration-review	management-review	管理评论	10	no	breadth	field	china
 china-public-administration-review	public-administration-review	Public Administration Review	2	yes	depth	field	international
 china-rural-economy	rural-economy	农村经济	68	yes	breadth	field	china
 china-rural-economy	china-rural-survey	中国农村观察	14	yes	breadth	field	china
 china-rural-economy	economic-problems	经济问题	6	no	breadth	field	china
 china-rural-economy	issues-in-agricultural-economy	农业经济问题	6	no	breadth	field	china
-china-rural-economy	chi	CHI	3	no	depth	field	international
 china-rural-survey	rural-economy	农村经济	6	yes	breadth	field	china
-china-rural-survey	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 china-rural-survey	journal-of-agrotechnical-economics	农业技术经济	2	no	breadth	field	china
 china-soft-science	soft-science	软科学	15	yes	breadth	field	china
 china-soft-science	management-science-cn	管理科学	3	yes	breadth	field	china
@@ -331,22 +288,20 @@ chinese-journal-of-management	management-review	管理评论	2	no	breadth	field	
 chinese-journal-of-management-science	management-science-cn	管理科学	37	no	breadth	field	china
 chinese-journal-of-management-science	management-science	Management Science	17	no	depth	FT50 / UTD24	international
 chinese-journal-of-management-science	journal-of-management	Journal of Management	15	yes	depth	field	international
-chinese-journal-of-management-science	journal-of-management-studies	Journal of Management Studies	10	yes	depth	field	international
 chinese-journal-of-management-science	systems-engineering-theory-and-practice	系统工程理论与实践	5	no	breadth	field	china
 chinese-journal-of-management-science	soft-science	软科学	2	no	breadth	field	china
 chinese-public-administration	chinese-journal-of-management	管理学报	3	no	breadth	field	china
 chinese-public-administration	journal-of-public-management	公共管理学报	3	no	breadth	field	china
-chinese-public-administration	public-administration-review	Public Administration Review	2	yes	depth	field	international
 chinese-review-of-financial-studies	journal-of-economic-literature	Journal of Economic Literature	5	no	depth	field	international
 chinese-review-of-financial-studies	review-of-financial-studies	Review of Financial Studies	2	yes	depth	top-3 finance	international
 cikm	sigir	SIGIR	16	yes	depth	field	international
-cikm	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	14	no	breadth	field	international
 cikm	kdd	KDD	13	yes	depth	field	international
-cikm	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	7	no	breadth	field	international
 cikm	wsdm	WSDM	7	yes	depth	field	international
 cikm	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	5	no	breadth	field	international
 cikm	sigmod	SIGMOD	4	yes	depth	field	international
 cikm	international-semantic-web-conference	International Semantic Web Conference	3	yes	breadth	field	international
+cikm	vldb	VLDB	3	yes	depth	field	international
+cikm	icdm	ICDM	2	yes	depth	field	international
 circulation	journal-of-the-american-college-of-cardiology	Journal of the American College of Cardiology	4	yes	breadth	field	international
 circulation	european-heart-journal	European Heart Journal	2	yes	breadth	field	international
 classical-and-quantum-gravity	physical-review-d	Physical Review D	3	no	breadth	field	international
@@ -379,8 +334,7 @@ conext	sigmetrics	SIGMETRICS	11	yes	depth	field	international
 conext	mobicom	MobiCom	7	yes	depth	field	international
 conext	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	4	no	breadth	field	international
 conext	acm-sigcomm	ACM SIGCOMM	4	no	breadth	field	international
-conference-on-computational-natural-language-learning	acl	ACL	3	no	depth	field	international
-conference-on-health-inference-and-learning	chi	CHI	15	no	depth	field	international
+conference-on-computational-natural-language-learning	acl	ACL	2	no	depth	field	international
 conference-on-health-inference-and-learning	kdd	KDD	2	no	depth	field	international
 conference-on-lifelong-learning-agents	iclr	ICLR	2	no	depth	field	international
 conference-on-lifelong-learning-agents	icml	ICML	2	no	depth	field	international
@@ -399,18 +353,14 @@ corl	neurips	NeurIPS	9	yes	depth	field	international
 corl	rss	RSS	8	yes	depth	field	international
 corl	iros	IROS	7	yes	depth	field	international
 corl	icml	ICML	6	yes	depth	field	international
-criminology	comparative-political-studies	Comparative Political Studies	4	no	depth	field	international
 critical-care-medicine	the-lancet	The Lancet	2	no	breadth	field	international
-critical-inquiry	journal-of-political-economy	Journal of Political Economy	11	no	depth	top-5 econ	international
 critical-inquiry	new-literary-history	New Literary History	10	no	breadth	field	international
 critical-inquiry	pmla	PMLA	10	no	depth	field	international
 critical-inquiry	representations	Representations	10	no	breadth	field	international
-cscw	chi	CHI	19	yes	depth	field	international
-cscw	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	6	no	breadth	field	international
+cscw	chi	CHI	13	yes	depth	field	international
 cscw	acm-conference-on-designing-interactive-systems	ACM Conference on Designing Interactive Systems	5	no	breadth	field	international
 cscw	facct	FAccT	2	yes	depth	field	international
 current-anthropology	american-anthropologist	American Anthropologist	2	yes	depth	field	international
-current-biology	the-accounting-review	The Accounting Review	6	no	depth	top-3 accounting	international
 current-biology	cancer-cell	Cancer Cell	3	no	depth	field	international
 current-biology	developmental-cell	Developmental Cell	2	no	breadth	field	international
 cvpr	eccv	ECCV	14	yes	depth	field	international
@@ -420,37 +370,28 @@ cvpr	neurips	NeurIPS	7	yes	depth	field	international
 cvpr	icml	ICML	4	yes	depth	field	international
 cvpr	siggraph	SIGGRAPH	4	yes	depth	field	international
 cvpr	iclr	ICLR	3	yes	depth	field	international
-dac	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	23	no	breadth	field	international
-dac	isca	ISCA	23	yes	depth	field	international
+dac	isca	ISCA	11	yes	depth	field	international
 dac	micro	MICRO	11	yes	depth	field	international
 dac	hpca	HPCA	9	yes	depth	field	international
-dac	acta-electronica-sinica	Acta Electronica Sinica	8	no	depth	field	international
-dac	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	4	no	breadth	field	international
+dac	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	3	no	breadth	field	international
+dac	fse	FSE	3	yes	depth	field	international
 dac	icse	ICSE	3	yes	depth	field	international
-dac	the-accounting-review	The Accounting Review	3	no	depth	top-3 accounting	international
 demography	journal-of-marriage-and-family	Journal of Marriage and Family	5	no	depth	field	international
 demography	population-and-development-review	Population and Development Review	5	yes	depth	field	international
 demography	social-forces	Social Forces	5	no	depth	field	international
-demography	comparative-political-studies	Comparative Political Studies	2	no	depth	field	international
-developmental-cell	the-accounting-review	The Accounting Review	5	no	depth	top-3 accounting	international
-developmental-psychology	journal-of-accounting-research	Journal of Accounting Research	57	no	depth	top-3 accounting	international
-developmental-psychology	comparative-political-studies	Comparative Political Studies	4	no	depth	field	international
 developmental-psychology	journal-of-personality-and-social-psychology	Journal of Personality and Social Psychology	3	yes	depth	flagship psych	international
-diabetologia	agronomy-for-sustainable-development	Agronomy for Sustainable Development	6	no	breadth	field	international
 diabetologia	the-lancet	The Lancet	2	no	breadth	field	international
 e-government	management-science-cn	管理科学	2	yes	breadth	field	china
-eacl	acl	ACL	243	yes	depth	field	international
+eacl	acl	ACL	70	yes	depth	field	international
 eacl	naacl	NAACL	10	yes	depth	field	international
 eacl	emnlp	EMNLP	9	yes	depth	field	international
-eacl	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	5	no	breadth	field	international
 eacl	colm	COLM	4	yes	depth	field	international
-earth-and-planetary-science-letters	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 east-china-economic-management	business-management-journal	经济管理	12	yes	breadth	field	china
 east-china-economic-management	management-science-cn	管理科学	2	yes	breadth	field	china
 ecai	ijcai	IJCAI	108	yes	depth	field	international
 ecai	aaai	AAAI	21	yes	depth	field	international
 ecai	aamas	AAMAS	16	yes	depth	field	international
-eccv	cvpr	CVPR	35	yes	depth	field	international
+eccv	cvpr	CVPR	34	yes	depth	field	international
 eccv	iccv	ICCV	21	yes	depth	field	international
 eccv	wacv	WACV	7	yes	depth	field	international
 eccv	british-machine-vision-conference	British Machine Vision Conference	6	no	breadth	field	international
@@ -467,28 +408,21 @@ econometric-theory	quarterly-journal-of-economics	Quarterly Journal of Economics
 econometrica	american-economic-review	American Economic Review	14	no	breadth	field	international
 econometrica	journal-of-political-economy	Journal of Political Economy	12	no	depth	top-5 econ	international
 econometrica	quarterly-journal-of-economics	Quarterly Journal of Economics	12	no	depth	top-5 econ	international
-econometrica	comparative-political-studies	Comparative Political Studies	4	no	depth	field	international
 econometrica	journal-of-economic-literature	Journal of Economic Literature	3	no	depth	field	international
-economic-aspects	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 economic-policy	journal-of-public-economics	Journal of Public Economics	4	no	depth	field	international
 economic-policy	imf-economic-review	IMF Economic Review	3	no	depth	field	international
 economic-policy	world-bank-economic-review	World Bank Economic Review	3	no	depth	field	international
 economic-policy	aej-economic-policy	AEJ Economic Policy	2	yes	depth	field	international
 economic-research-journal	american-economic-review	American Economic Review	5	no	breadth	field	international
 economic-research-journal	journal-of-economic-literature	Journal of Economic Literature	5	yes	depth	field	international
-economic-research-journal	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	4	no	breadth	field	international
 economic-theory-and-business-management	business-management-journal	经济管理	10	no	breadth	field	china
 economic-theory-and-business-management	management-science-cn	管理科学	2	no	breadth	field	china
-economist-cn	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 edbt	icdt	ICDT	37	yes	depth	field	international
-edbt	vldb	VLDB	33	yes	depth	field	international
 edbt	sigmod	SIGMOD	25	yes	depth	field	international
 edbt	icde	ICDE	20	yes	depth	field	international
+edbt	vldb	VLDB	19	yes	depth	field	international
 edbt	pods	PODS	2	yes	depth	field	international
-edbt	public-administration-review	Public Administration Review	2	no	depth	field	international
-edbt	vis	VIS	2	yes	depth	field	international
-emnlp	acl	ACL	48	yes	depth	field	international
-emnlp	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	5	no	breadth	field	international
+emnlp	acl	ACL	35	yes	depth	field	international
 emnlp	conference-on-computational-natural-language-learning	Conference on Computational Natural Language Learning	3	no	breadth	field	international
 emnlp	eacl	EACL	2	yes	depth	field	international
 emnlp	naacl	NAACL	2	yes	depth	field	international
@@ -501,24 +435,20 @@ ethics	philosophy-and-public-affairs	Philosophy & Public Affairs	2	yes	breadth	f
 eurographics	siggraph	SIGGRAPH	7	no	depth	field	international
 eurographics	pacific-graphics	Pacific Graphics	3	yes	breadth	field	international
 european-conference-on-information-retrieval	acm-sigir-conference-on-human-information-interaction-and-retrieval	ACM SIGIR Conference on Human Information Interaction and Retrieval	3	yes	breadth	field	international
-european-conference-on-information-retrieval	chi	CHI	3	no	depth	field	international
 european-conference-on-information-retrieval	cikm	CIKM	3	no	depth	field	international
 european-conference-on-information-retrieval	sigir	SIGIR	3	no	depth	field	international
-european-conference-on-machine-learning-and-principles-and-practice-of-knowledge-discovery	kdd	KDD	21	no	depth	field	international
+european-conference-on-machine-learning-and-principles-and-practice-of-knowledge-discovery	kdd	KDD	3	no	depth	field	international
 european-conference-on-machine-learning-and-principles-and-practice-of-knowledge-discovery	icml	ICML	2	no	depth	field	international
 european-conference-on-machine-learning-and-principles-and-practice-of-knowledge-discovery	neurips	NeurIPS	2	no	depth	field	international
 european-economic-review	journal-of-the-european-economic-association	Journal of the European Economic Association	10	yes	depth	field	international
 european-economic-review	journal-of-economic-literature	Journal of Economic Literature	8	yes	depth	field	international
 european-economic-review	the-economic-journal	The Economic Journal	4	yes	depth	field	international
-european-economic-review	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 european-heart-journal	journal-of-the-american-college-of-cardiology	Journal of the American College of Cardiology	3	yes	breadth	field	international
 european-heart-journal	circulation	Circulation	2	yes	breadth	field	international
 european-sociological-review	american-journal-of-sociology	American Journal of Sociology	2	yes	depth	top-3 sociology	international
 european-sociological-review	american-sociological-review	American Sociological Review	2	yes	depth	top-3 sociology	international
 european-symposium-on-research-in-computer-security	annual-computer-security-applications-conference	Annual Computer Security Applications Conference	4	yes	breadth	field	international
 european-symposium-on-research-in-computer-security	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	4	yes	breadth	field	international
-european-symposium-on-research-in-computer-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	2	no	breadth	field	international
-european-urology	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
 eurosys	sosp	SOSP	10	yes	depth	field	international
 eurosys	osdi	OSDI	8	yes	depth	field	international
 eurosys	nsdi	NSDI	7	yes	depth	field	international
@@ -541,25 +471,20 @@ facct	icml	ICML	7	yes	depth	field	international
 facct	cscw	CSCW	5	yes	depth	field	international
 facct	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	4	no	breadth	field	international
 facct	iclr	ICLR	3	yes	depth	field	international
-facct	review-of-economic-dynamics	Review of Economic Dynamics	2	no	depth	field	international
 fast	osdi	OSDI	25	yes	depth	field	international
 fast	atc	ATC	24	yes	depth	field	international
 fast	eurosys	EuroSys	15	yes	depth	field	international
 fast	nsdi	NSDI	7	yes	depth	field	international
 fast	sosp	SOSP	7	yes	depth	field	international
-fast	public-administration-review	Public Administration Review	2	no	depth	field	international
 field-crops-research	agricultural-systems	Agricultural Systems	5	yes	depth	field	international
-field-crops-research	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 finance-and-trade-economics	public-finance-research	财政研究	5	yes	breadth	field	china
 finance-and-trade-economics	tax-research	税务研究	3	no	breadth	field	china
-finance-and-trade-economics	acta-electronica-sinica	Acta Electronica Sinica	2	no	depth	field	international
-financial-cryptography-and-data-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	6	no	breadth	field	international
+financial-cryptography-and-data-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	3	no	breadth	field	international
 financial-cryptography-and-data-security	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	2	no	breadth	field	international
 financial-management	journal-of-corporate-finance	Journal of Corporate Finance	11	yes	depth	field	international
 financial-management	journal-of-financial-and-quantitative-analysis	Journal of Financial and Quantitative Analysis	10	yes	depth	field	international
 financial-management	review-of-financial-studies	Review of Financial Studies	9	yes	depth	top-3 finance	international
 financial-management	journal-of-financial-economics	Journal of Financial Economics	6	yes	depth	top-3 finance	international
-financial-management	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 financial-management	journal-of-banking-and-finance	Journal of Banking and Finance	2	yes	depth	field	international
 focs	stoc	STOC	29	yes	depth	field	international
 focs	soda	SODA	8	yes	depth	field	international
@@ -570,41 +495,33 @@ forum-on-science-and-technology-in-china	management-science-cn	管理科学	2	ye
 forum-on-science-and-technology-in-china	soft-science	软科学	2	yes	breadth	field	china
 forum-on-science-and-technology-in-china	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
 frontiers-of-engineering-management-science-and-technology	management-science-cn	管理科学	7	yes	breadth	field	china
-frontiers-of-engineering-management-science-and-technology	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 frontiers-of-engineering-management-science-and-technology	management-science	Management Science	2	no	depth	FT50 / UTD24	international
 fse	icse	ICSE	24	yes	depth	field	international
-fse	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	17	no	breadth	field	international
 fse	issta	ISSTA	17	yes	depth	field	international
 fse	ase	ASE	14	yes	depth	field	international
 fse	mining-software-repositories	Mining Software Repositories	6	no	breadth	field	international
 fse	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	4	no	breadth	field	international
 fse	icsme	ICSME	4	yes	depth	field	international
-fse	public-administration-review	Public Administration Review	2	no	depth	field	international
 functional-ecology	ecology-letters	Ecology Letters	2	yes	breadth	field	international
 functional-ecology	journal-of-ecology	Journal of Ecology	2	yes	breadth	field	international
 games-and-economic-behavior	experimental-economics	Experimental Economics	9	no	depth	field	international
 games-and-economic-behavior	journal-of-economic-theory	Journal of Economic Theory	9	no	depth	field	international
 games-and-economic-behavior	american-economic-review	American Economic Review	3	no	breadth	field	international
 games-and-economic-behavior	econometrica	Econometrica	3	no	depth	top-5 econ	international
-global-environmental-change	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	3	no	breadth	field	international
-governance-journal	public-administration-review	Public Administration Review	13	yes	depth	field	international
+governance-journal	public-administration-review	Public Administration Review	8	yes	depth	field	international
 governance-journal	journal-of-policy-analysis-and-management	Journal of Policy Analysis and Management	5	no	depth	field	international
 governance-journal	journal-of-public-administration-research-and-theory	Journal of Public Administration Research and Theory	5	yes	depth	field	international
 governance-journal	american-political-science-review	American Political Science Review	3	no	depth	top-3 polisci	international
-governance-journal	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 gut	gastroenterology	Gastroenterology	4	yes	breadth	field	international
 harvard-law-review	yale-law-journal	Yale Law Journal	3	yes	depth	field	international
-hepatology	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
-hpca	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	17	no	breadth	field	international
 hpca	isca	ISCA	17	yes	depth	field	international
 hpca	micro	MICRO	15	yes	depth	field	international
 hpca	asplos	ASPLOS	13	yes	depth	field	international
-hri	chi	CHI	19	yes	depth	field	international
+hri	chi	CHI	18	yes	depth	field	international
 hri	icra	ICRA	13	yes	depth	field	international
 hri	iros	IROS	11	yes	depth	field	international
 hri	corl	CoRL	8	yes	depth	field	international
 hri	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	6	no	breadth	field	international
-hri	journal-of-human-resources	Journal of Human Resources	6	no	depth	field	international
 human-relations	journal-of-management-studies	Journal of Management Studies	14	yes	depth	field	international
 human-relations	academy-of-management-journal	Academy of Management Journal	11	yes	depth	FT50 / UTD24	international
 human-relations	organization-studies	Organization Studies	8	yes	depth	field	international
@@ -612,33 +529,31 @@ human-relations	journal-of-management	Journal of Management	3	yes	depth	field	in
 human-relations	administrative-science-quarterly	Administrative Science Quarterly	2	yes	depth	FT50 / UTD24	international
 human-resource-management	academy-of-management-journal	Academy of Management Journal	13	yes	depth	FT50 / UTD24	international
 human-resource-management	journal-of-applied-psychology	Journal of Applied Psychology	13	no	depth	field	international
-human-resource-management	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	6	no	breadth	field	international
 human-resource-management	journal-of-management	Journal of Management	3	yes	depth	field	international
 human-resource-management	human-relations	Human Relations	2	yes	depth	field	international
-icalp	atc	ATC	25	yes	depth	field	international
 icalp	focs	FOCS	18	yes	depth	field	international
 icalp	soda	SODA	18	yes	depth	field	international
 icalp	stoc	STOC	17	yes	depth	field	international
 icalp	acm-ieee-symposium-on-logic-in-computer-science	ACM/IEEE Symposium on Logic in Computer Science	12	no	breadth	field	international
 icalp	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	6	no	breadth	field	international
-icassp	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	6	no	breadth	field	international
 icassp	european-economic-review	European Economic Review	6	no	depth	field	international
 icassp	isca	ISCA	6	yes	depth	field	international
 icassp	neurips	NeurIPS	4	yes	depth	field	international
 icassp	aaai	AAAI	3	yes	depth	field	international
-icassp	american-sociological-review	American Sociological Review	3	no	depth	top-3 sociology	international
 icassp	iclr	ICLR	3	yes	depth	field	international
 icassp	icml	ICML	3	yes	depth	field	international
+icassp	ieee-automatic-speech-recognition-and-understanding-workshop	IEEE Automatic Speech Recognition and Understanding Workshop	2	no	breadth	field	international
+icassp	ieee-spoken-language-technology-workshop	IEEE Spoken Language Technology Workshop	2	no	breadth	field	international
 iccv	cvpr	CVPR	42	yes	depth	field	international
 iccv	eccv	ECCV	24	yes	depth	field	international
 iccv	wacv	WACV	5	yes	depth	field	international
 iccv	ieee-transactions-on-pattern-analysis-and-machine-intelligence	IEEE Transactions on Pattern Analysis and Machine Intelligence	3	no	breadth	field	international
 iccv	neurips	NeurIPS	3	yes	depth	field	international
-icde	vldb	VLDB	21	yes	depth	field	international
 icde	sigmod	SIGMOD	20	yes	depth	field	international
+icde	vldb	VLDB	11	yes	depth	field	international
 icde	edbt	EDBT	8	yes	depth	field	international
-icdm	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	24	no	breadth	field	international
 icdm	kdd	KDD	18	yes	depth	field	international
+icdm	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	16	no	breadth	field	international
 icdm	cikm	CIKM	12	yes	depth	field	international
 icdm	wsdm	WSDM	8	yes	depth	field	international
 icdm	icde	ICDE	4	yes	depth	field	international
@@ -650,8 +565,6 @@ icdt	sigmod	SIGMOD	9	yes	depth	field	international
 icdt	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	8	no	breadth	field	international
 icdt	acm-ieee-symposium-on-logic-in-computer-science	ACM/IEEE Symposium on Logic in Computer Science	6	no	breadth	field	international
 icdt	icalp	ICALP	5	yes	depth	field	international
-icdt	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	4	no	breadth	field	international
-icdt	atc	ATC	2	yes	depth	field	international
 iclr	aistats	AISTATS	5	yes	depth	field	international
 iclr	kdd	KDD	4	yes	depth	field	international
 iclr	uai	UAI	4	yes	depth	field	international
@@ -669,27 +582,21 @@ icml	uai	UAI	3	yes	depth	field	international
 icra	iros	IROS	23	yes	depth	field	international
 icra	corl	CoRL	9	yes	depth	field	international
 icra	rss	RSS	8	yes	depth	field	international
-icra	ase	ASE	5	yes	depth	field	international
 icra	hri	HRI	5	yes	depth	field	international
 icra	ieee-international-conference-on-automation-science-and-engineering	IEEE International Conference on Automation Science and Engineering	4	no	breadth	field	international
 icra	the-international-journal-of-robotics-research	The International Journal of Robotics Research	4	no	breadth	field	international
 icse	fse	FSE	10	yes	depth	field	international
-icse	international-economic-review	International Economic Review	10	no	depth	field	international
-icse	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	9	no	breadth	field	international
 icse	issta	ISSTA	9	yes	depth	field	international
 icse	ase	ASE	8	yes	depth	field	international
 icse	icsme	ICSME	4	yes	depth	field	international
 icse	mining-software-repositories	Mining Software Repositories	4	no	breadth	field	international
-icsme	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	21	no	breadth	field	international
 icsme	fse	FSE	21	yes	depth	field	international
 icsme	icse	ICSE	19	yes	depth	field	international
 icsme	mining-software-repositories	Mining Software Repositories	15	no	breadth	field	international
-icsme	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	12	no	breadth	field	international
-icsme	vis	VIS	10	yes	depth	field	international
-icsme	international-economic-review	International Economic Review	7	no	depth	field	international
+icsme	ase	ASE	2	yes	depth	field	international
 icsme	issta	ISSTA	2	yes	depth	field	international
-ieee-automatic-speech-recognition-and-understanding-workshop	american-sociological-review	American Sociological Review	17	no	depth	top-3 sociology	international
 ieee-automatic-speech-recognition-and-understanding-workshop	ieee-spoken-language-technology-workshop	IEEE Spoken Language Technology Workshop	3	yes	breadth	field	international
+ieee-automatic-speech-recognition-and-understanding-workshop	american-sociological-review	American Sociological Review	2	no	depth	top-3 sociology	international
 ieee-conference-on-virtual-reality-and-3d-user-interfaces	siggraph	SIGGRAPH	4	no	depth	field	international
 ieee-conference-on-virtual-reality-and-3d-user-interfaces	chi	CHI	2	no	depth	field	international
 ieee-conference-on-virtual-reality-and-3d-user-interfaces	uist	UIST	2	no	depth	field	international
@@ -698,11 +605,9 @@ ieee-infocom	conext	CoNEXT	5	no	depth	field	international
 ieee-infocom	sigcomm	SIGCOMM	5	no	depth	field	international
 ieee-infocom	acm-sigcomm	ACM SIGCOMM	2	yes	breadth	field	international
 ieee-infocom	eurosys	EuroSys	2	no	depth	field	international
-ieee-international-conference-on-automation-science-and-engineering	ase	ASE	17	no	depth	field	international
 ieee-international-conference-on-automation-science-and-engineering	hri	HRI	3	no	depth	field	international
 ieee-international-conference-on-automation-science-and-engineering	icra	ICRA	2	no	depth	field	international
 ieee-international-conference-on-automation-science-and-engineering	iros	IROS	2	no	depth	field	international
-ieee-international-conference-on-robot-and-human-interactive-communication	ase	ASE	4	no	depth	field	international
 ieee-international-conference-on-robot-and-human-interactive-communication	hri	HRI	4	no	depth	field	international
 ieee-international-conference-on-robot-and-human-interactive-communication	ieee-international-conference-on-automation-science-and-engineering	IEEE International Conference on Automation Science and Engineering	4	no	breadth	field	international
 ieee-international-conference-on-robot-and-human-interactive-communication	icra	ICRA	2	no	depth	field	international
@@ -711,7 +616,6 @@ ieee-international-conference-on-robot-and-human-interactive-communication	rss	R
 ieee-international-conference-on-software-analysis-evolution-and-reengineering	icsme	ICSME	5	no	depth	field	international
 ieee-international-conference-on-software-analysis-evolution-and-reengineering	fse	FSE	4	no	depth	field	international
 ieee-international-conference-on-software-analysis-evolution-and-reengineering	icse	ICSE	4	no	depth	field	international
-ieee-international-conference-on-software-analysis-evolution-and-reengineering	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	yes	breadth	field	international
 ieee-international-conference-on-software-analysis-evolution-and-reengineering	ase	ASE	2	no	depth	field	international
 ieee-international-conference-on-software-analysis-evolution-and-reengineering	issta	ISSTA	2	no	depth	field	international
 ieee-international-conference-on-software-analysis-evolution-and-reengineering	mining-software-repositories	Mining Software Repositories	2	yes	breadth	field	international
@@ -731,8 +635,8 @@ ieee-sp	acm-conference-on-computer-and-communications-security	ACM Conference on
 ieee-sp	usenix-security	USENIX Security	7	yes	depth	field	international
 ieee-sp	ndss	NDSS	6	yes	depth	field	international
 ieee-sp	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	3	no	breadth	field	international
-ieee-spoken-language-technology-workshop	american-sociological-review	American Sociological Review	5	no	depth	top-3 sociology	international
 ieee-spoken-language-technology-workshop	ieee-automatic-speech-recognition-and-understanding-workshop	IEEE Automatic Speech Recognition and Understanding Workshop	3	yes	breadth	field	international
+ieee-spoken-language-technology-workshop	american-sociological-review	American Sociological Review	2	no	depth	top-3 sociology	international
 ieee-spoken-language-technology-workshop	interspeech	INTERSPEECH	2	no	depth	field	international
 ieee-transactions-on-communications	ieee-journal-on-selected-areas-in-communications	IEEE Journal on Selected Areas in Communications	3	yes	breadth	field	international
 ieee-transactions-on-communications	ieee-transactions-on-wireless-communications	IEEE Transactions on Wireless Communications	3	yes	breadth	field	international
@@ -742,7 +646,6 @@ ieee-visualization-conference	vis	VIS	17	no	depth	field	international
 ieee-visualization-conference	eurovis	EuroVis	5	yes	breadth	field	international
 ijcai	ecai	ECAI	24	yes	depth	field	international
 ijcai	acl	ACL	2	yes	depth	field	international
-ijcai	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 ijcai	colt	COLT	2	yes	depth	field	international
 ijcai	cvpr	CVPR	2	yes	depth	field	international
 ijcai	icml	ICML	2	yes	depth	field	international
@@ -754,12 +657,10 @@ imc	usenix-security	USENIX Security	4	yes	depth	field	international
 imc	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	3	no	breadth	field	international
 imc	acm-sigcomm	ACM SIGCOMM	3	no	breadth	field	international
 imf-economic-review	journal-of-international-economics	Journal of International Economics	23	yes	depth	field	international
-imf-economic-review	journal-of-international-marketing	Journal of International Marketing	21	no	depth	field	international
 imf-economic-review	journal-of-international-money-and-finance	Journal of International Money and Finance	21	no	depth	field	international
 imf-economic-review	journal-of-economic-literature	Journal of Economic Literature	19	no	depth	field	international
 imf-economic-review	journal-of-money-credit-and-banking	Journal of Money Credit and Banking	12	no	depth	field	international
 imf-economic-review	economic-policy	Economic Policy	6	no	depth	field	international
-immunity	the-accounting-review	The Accounting Review	5	no	depth	top-3 accounting	international
 infocom	sigcomm	SIGCOMM	30	yes	depth	field	international
 infocom	nsdi	NSDI	27	yes	depth	field	international
 infocom	ieee-infocom	IEEE INFOCOM	19	no	breadth	field	international
@@ -772,10 +673,10 @@ information-systems-research	journal-of-management-information-systems	Journal o
 information-systems-research	management-science	Management Science	13	no	depth	FT50 / UTD24	international
 information-systems-research	journal-of-management	Journal of Management	5	no	depth	field	international
 information-systems-research	mis-quarterly	MIS Quarterly	5	yes	depth	FT50 / UTD24	international
-informs-journal-on-computing	journal-on-communications	Journal on Communications	122	no	depth	field	international
 informs-journal-on-computing	operations-research	Operations Research	12	no	depth	FT50 / UTD24	international
-informs-journal-on-computing	journal-of-communication	Journal of Communication	7	no	depth	field	international
 informs-journal-on-computing	management-science	Management Science	7	no	depth	FT50 / UTD24	international
+informs-journal-on-computing	journal-of-communication	Journal of Communication	3	no	depth	field	international
+informs-journal-on-computing	journal-on-communications	Journal on Communications	2	no	depth	field	international
 inquiry-into-economic-issues	economic-problems	经济问题	9	yes	breadth	field	china
 inquiry-into-economic-issues	macroeconomics	宏观经济研究	4	yes	breadth	field	china
 integration-of-constraint-programming-artificial-intelligence-and-operations-research	operations-research	Operations Research	5	yes	depth	FT50 / UTD24	international
@@ -789,8 +690,8 @@ international-conference-on-advanced-visual-interfaces	vis	VIS	2	no	depth	field	
 international-conference-on-automated-machine-learning	mlsys	MLSys	2	no	depth	field	international
 international-conference-on-automated-planning-and-scheduling	aamas	AAMAS	2	no	depth	field	international
 international-conference-on-autonomous-agents-and-multiagent-systems	aamas	AAMAS	14	no	depth	field	international
-international-conference-on-computational-linguistics	acl	ACL	5	no	depth	field	international
-international-conference-on-discovery-science	kdd	KDD	3	no	depth	field	international
+international-conference-on-computational-linguistics	acl	ACL	3	no	depth	field	international
+international-conference-on-discovery-science	kdd	KDD	2	no	depth	field	international
 international-conference-on-knowledge-capture	international-semantic-web-conference	International Semantic Web Conference	4	no	breadth	field	international
 international-conference-on-pattern-recognition	cvpr	CVPR	3	no	depth	field	international
 international-conference-on-pattern-recognition	eccv	ECCV	3	no	depth	field	international
@@ -812,9 +713,8 @@ international-economic-review	the-economic-journal	The Economic Journal	3	yes	de
 international-economic-review-cn	economic-review-cn	经济评论	9	no	breadth	field	china
 international-economic-review-cn	economic-problems	经济问题	2	no	breadth	field	china
 international-economic-review-cn	international-economic-review	International Economic Review	2	yes	depth	field	international
-international-economics-and-trade-research	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 international-economics-and-trade-research	economic-problems	经济问题	2	no	breadth	field	china
-international-natural-language-generation-conference	acl	ACL	8	no	depth	field	international
+international-natural-language-generation-conference	acl	ACL	5	no	depth	field	international
 international-organization	american-journal-of-political-science	American Journal of Political Science	4	no	depth	top-3 polisci	international
 international-organization	american-political-science-review	American Political Science Review	4	no	depth	top-3 polisci	international
 international-organization	journal-of-politics	Journal of Politics	4	no	depth	field	international
@@ -822,26 +722,24 @@ international-semantic-web-conference	cikm	CIKM	3	yes	depth	field	international
 international-symposium-on-empirical-software-engineering-and-measurement	acm-symposium-on-virtual-reality-software-and-technology	ACM Symposium on Virtual Reality Software and Technology	2	yes	breadth	field	international
 international-symposium-on-empirical-software-engineering-and-measurement	mining-software-repositories	Mining Software Repositories	2	yes	breadth	field	international
 international-symposium-on-experimental-robotics	international-symposium-on-robotics-research	International Symposium on Robotics Research	7	yes	breadth	field	international
-international-symposium-on-experimental-robotics	information-systems-research	Information Systems Research	6	no	depth	FT50 / UTD24	international
 international-symposium-on-experimental-robotics	icra	ICRA	3	no	depth	field	international
 international-symposium-on-experimental-robotics	iros	IROS	3	no	depth	field	international
 international-symposium-on-research-in-attacks-intrusions-and-defenses	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	2	no	breadth	field	international
 international-symposium-on-research-in-attacks-intrusions-and-defenses	ndss	NDSS	2	no	depth	field	international
-international-symposium-on-robotics-research	information-systems-research	Information Systems Research	18	no	depth	FT50 / UTD24	international
 international-symposium-on-robotics-research	icra	ICRA	4	no	depth	field	international
 international-symposium-on-robotics-research	international-symposium-on-experimental-robotics	International Symposium on Experimental Robotics	4	yes	breadth	field	international
 international-symposium-on-robotics-research	iros	IROS	4	no	depth	field	international
 international-symposium-on-robotics-research	rss	RSS	4	no	depth	field	international
-interspeech	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	41	no	breadth	field	international
 interspeech	isca	ISCA	41	yes	depth	field	international
-interspeech	american-sociological-review	American Sociological Review	19	no	depth	top-3 sociology	international
 interspeech	icassp	ICASSP	15	yes	depth	field	international
+interspeech	american-sociological-review	American Sociological Review	13	no	depth	top-3 sociology	international
 interspeech	european-economic-review	European Economic Review	10	no	depth	field	international
-interspeech	acl	ACL	9	yes	depth	field	international
+interspeech	acl	ACL	8	yes	depth	field	international
 interspeech	ieee-automatic-speech-recognition-and-understanding-workshop	IEEE Automatic Speech Recognition and Understanding Workshop	6	no	breadth	field	international
 interspeech	ieee-spoken-language-technology-workshop	IEEE Spoken Language Technology Workshop	6	no	breadth	field	international
+interspeech	neurips	NeurIPS	5	yes	depth	field	international
 ipsn	sensys	SenSys	58	yes	depth	field	international
-ipsn	comparative-political-studies	Comparative Political Studies	42	no	depth	field	international
+ipsn	comparative-political-studies	Comparative Political Studies	35	no	depth	field	international
 ipsn	mobicom	MobiCom	14	yes	depth	field	international
 ipsn	mobisys	MobiSys	11	yes	depth	field	international
 ipsn	infocom	INFOCOM	10	yes	depth	field	international
@@ -851,16 +749,13 @@ ipsn	icassp	ICASSP	2	yes	depth	field	international
 iros	icra	ICRA	31	yes	depth	field	international
 iros	corl	CoRL	17	yes	depth	field	international
 iros	rss	RSS	10	yes	depth	field	international
-iros	ase	ASE	8	yes	depth	field	international
 iros	ieee-international-conference-on-automation-science-and-engineering	IEEE International Conference on Automation Science and Engineering	5	no	breadth	field	international
 iros	hri	HRI	4	yes	depth	field	international
+iros	ase	ASE	3	yes	depth	field	international
 iros	cvpr	CVPR	2	yes	depth	field	international
-isca	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	112	no	breadth	field	international
 isca	micro	MICRO	17	yes	depth	field	international
 isca	hpca	HPCA	12	yes	depth	field	international
 isca	asplos	ASPLOS	11	yes	depth	field	international
-isca	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	2	no	breadth	field	international
-issta	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	106	no	breadth	field	international
 issta	fse	FSE	14	yes	depth	field	international
 issta	icse	ICSE	13	yes	depth	field	international
 issta	cav	CAV	12	yes	depth	field	international
@@ -868,6 +763,7 @@ issta	ase	ASE	11	yes	depth	field	international
 issta	pldi	PLDI	10	yes	depth	field	international
 issta	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	5	no	breadth	field	international
 issta	popl	POPL	5	yes	depth	field	international
+issta	tacas	TACAS	2	yes	depth	field	international
 issues-in-agricultural-economy	economic-problems	经济问题	9	yes	breadth	field	china
 issues-in-agricultural-economy	journal-of-agrotechnical-economics	农业技术经济	5	yes	breadth	field	china
 issues-in-agricultural-economy	rural-economy	农村经济	2	no	breadth	field	china
@@ -877,67 +773,52 @@ itcs	soda	SODA	17	yes	depth	field	international
 itcs	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	7	no	breadth	field	international
 itcs	icalp	ICALP	3	yes	depth	field	international
 jacs-au	journal-of-the-american-chemical-society	Journal of the American Chemical Society	24	no	depth	field	international
-jama	the-accounting-review	The Accounting Review	18	no	depth	top-3 accounting	international
 jama	nejm	NEJM	8	yes	depth	field	international
 jama	the-lancet	The Lancet	2	yes	breadth	field	international
 jama-cardiology	jama	JAMA	17	no	depth	field	international
 jama-internal-medicine	jama	JAMA	16	no	depth	field	international
 jama-neurology	jama	JAMA	17	no	depth	field	international
-jama-neurology	the-accounting-review	The Accounting Review	3	no	depth	top-3 accounting	international
 jama-oncology	jama	JAMA	17	no	depth	field	international
 jama-oncology	annals-of-oncology	Annals of Oncology	2	yes	breadth	field	international
 jama-pediatrics	jama	JAMA	17	no	depth	field	international
 jama-psychiatry	jama	JAMA	18	no	depth	field	international
 jama-surgery	jama	JAMA	17	no	depth	field	international
-joint-international-conference-on-computational-linguistics-language-resources-and-evaluation	acl	ACL	5	no	depth	field	international
 joint-international-conference-on-computational-linguistics-language-resources-and-evaluation	international-conference-on-computational-linguistics	International Conference on Computational Linguistics	5	yes	breadth	field	international
+joint-international-conference-on-computational-linguistics-language-resources-and-evaluation	acl	ACL	3	no	depth	field	international
 joint-international-conference-on-computational-linguistics-language-resources-and-evaluation	international-natural-language-generation-conference	International Natural Language Generation Conference	2	yes	breadth	field	international
 journal-of-accounting-and-economics	journal-of-economic-literature	Journal of Economic Literature	24	no	depth	field	international
 journal-of-accounting-and-economics	the-accounting-review	The Accounting Review	21	yes	depth	top-3 accounting	international
 journal-of-accounting-and-economics	journal-of-accounting-research	Journal of Accounting Research	20	yes	depth	top-3 accounting	international
 journal-of-accounting-and-economics	journal-of-financial-economics	Journal of Financial Economics	11	no	depth	top-3 finance	international
 journal-of-accounting-and-economics	review-of-accounting-studies	Review of Accounting Studies	6	yes	depth	field	international
-journal-of-accounting-and-economics	contemporary-accounting-research	Contemporary Accounting Research	3	yes	depth	field	international
 journal-of-accounting-research	accounting-research	Accounting Research	23	yes	depth	field	china
 journal-of-accounting-research	the-accounting-review	The Accounting Review	15	yes	depth	top-3 accounting	international
 journal-of-accounting-research	contemporary-accounting-research	Contemporary Accounting Research	14	yes	depth	field	international
 journal-of-agrotechnical-economics	economic-problems	经济问题	6	yes	breadth	field	china
 journal-of-agrotechnical-economics	issues-in-agricultural-economy	农业经济问题	5	yes	breadth	field	china
-journal-of-agrotechnical-economics	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
-journal-of-allergy-and-clinical-immunology	aaai	AAAI	6	no	depth	field	international
-journal-of-allergy-and-clinical-immunology	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
 journal-of-applied-psychology	academy-of-management-journal	Academy of Management Journal	11	no	depth	FT50 / UTD24	international
-journal-of-applied-psychology	comparative-political-studies	Comparative Political Studies	3	no	depth	field	international
-journal-of-applied-psychology	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-banking-and-finance	journal-of-economic-literature	Journal of Economic Literature	6	no	depth	field	international
 journal-of-banking-and-finance	journal-of-financial-intermediation	Journal of Financial Intermediation	5	yes	depth	field	international
 journal-of-banking-and-finance	journal-of-corporate-finance	Journal of Corporate Finance	3	yes	depth	field	international
-journal-of-banking-and-finance	rss	RSS	3	no	depth	field	international
 journal-of-banking-and-finance	journal-of-financial-and-quantitative-analysis	Journal of Financial and Quantitative Analysis	2	yes	depth	field	international
-journal-of-business-and-economic-statistics	review-of-economic-dynamics	Review of Economic Dynamics	8	no	depth	field	international
 journal-of-business-and-economic-statistics	econometric-theory	Econometric Theory	5	yes	depth	field	international
 journal-of-business-and-economic-statistics	journal-of-econometrics	Journal of Econometrics	5	yes	depth	field	international
 journal-of-business-and-economic-statistics	quantitative-economics	Quantitative Economics	5	no	depth	field	international
 journal-of-business-economics	management-science-cn	管理科学	2	yes	breadth	field	china
 journal-of-business-venturing	academy-of-management-journal	Academy of Management Journal	7	no	depth	FT50 / UTD24	international
 journal-of-business-venturing	entrepreneurship-theory-and-practice	Entrepreneurship Theory and Practice	6	yes	depth	field	international
-journal-of-business-venturing	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	4	no	breadth	field	international
 journal-of-business-venturing	strategic-management-journal	Strategic Management Journal	2	no	depth	FT50 / UTD24	international
-journal-of-cad-and-computer-graphics	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-cad-and-computer-graphics	chinese-journal-of-computers	Chinese Journal of Computers	2	yes	depth	field	international
 journal-of-cad-and-computer-graphics	cvpr	CVPR	2	no	depth	field	international
 journal-of-cad-and-computer-graphics	siggraph	SIGGRAPH	2	no	depth	field	international
-journal-of-clinical-endocrinology-and-metabolism	the-accounting-review	The Accounting Review	5	no	depth	top-3 accounting	international
 journal-of-clinical-endocrinology-and-metabolism	the-lancet	The Lancet	2	no	breadth	field	international
 journal-of-clinical-investigation	nature-medicine	Nature Medicine	2	yes	breadth	field	international
 journal-of-communication	communication-research	Communication Research	10	yes	depth	field	international
-journal-of-computer-research-and-development	journal-of-consumer-research	Journal of Consumer Research	108	no	depth	FT50 / UTD24	international
 journal-of-consumer-psychology	journal-of-consumer-research	Journal of Consumer Research	23	yes	depth	FT50 / UTD24	international
 journal-of-consumer-psychology	journal-of-marketing-research	Journal of Marketing Research	15	yes	depth	FT50 / UTD24	international
 journal-of-consumer-psychology	psychological-science	Psychological Science	9	no	depth	field	international
 journal-of-consumer-psychology	marketing-science	Marketing Science	7	yes	depth	FT50 / UTD24	international
 journal-of-consumer-psychology	journal-of-marketing	Journal of Marketing	4	yes	depth	FT50 / UTD24	international
-journal-of-consumer-psychology	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-consumer-psychology	journal-of-economic-perspectives	Journal of Economic Perspectives	2	no	depth	field	international
 journal-of-consumer-psychology	journal-of-personality-and-social-psychology	Journal of Personality and Social Psychology	2	no	depth	flagship psych	international
 journal-of-consumer-research	journal-of-consumer-psychology	Journal of Consumer Psychology	17	yes	depth	field	international
@@ -959,7 +840,6 @@ journal-of-economic-behavior-and-organization	journal-of-economic-literature	Jou
 journal-of-economic-behavior-and-organization	experimental-economics	Experimental Economics	5	no	depth	field	international
 journal-of-economic-behavior-and-organization	journal-of-economic-perspectives	Journal of Economic Perspectives	3	no	depth	field	international
 journal-of-economic-behavior-and-organization	management-science	Management Science	3	no	depth	FT50 / UTD24	international
-journal-of-economic-behavior-and-organization	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-economic-behavior-and-organization	journal-of-public-economics	Journal of Public Economics	2	no	depth	field	international
 journal-of-economic-geography	journal-of-urban-economics	Journal of Urban Economics	19	no	depth	field	international
 journal-of-economic-geography	journal-of-international-economics	Journal of International Economics	11	no	depth	field	international
@@ -970,23 +850,15 @@ journal-of-economic-literature	journal-of-economic-perspectives	Journal of Econo
 journal-of-economic-literature	american-economic-review	American Economic Review	2	no	breadth	field	international
 journal-of-economic-literature	annual-review-of-economics	Annual Review of Economics	2	yes	depth	field	international
 journal-of-economic-perspectives	journal-of-economic-literature	Journal of Economic Literature	27	yes	depth	field	international
-journal-of-economic-perspectives	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-economic-perspectives	journal-of-political-economy	Journal of Political Economy	2	yes	depth	top-5 econ	international
 journal-of-economic-theory	quarterly-journal-of-economics	Quarterly Journal of Economics	4	no	depth	top-5 econ	international
-journal-of-economic-theory	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	3	no	breadth	field	international
 journal-of-educational-psychology	journal-of-economic-perspectives	Journal of Economic Perspectives	63	no	depth	field	international
-journal-of-educational-psychology	journal-of-accounting-research	Journal of Accounting Research	57	no	depth	top-3 accounting	international
-journal-of-educational-psychology	american-economic-review	American Economic Review	3	no	breadth	field	international
-journal-of-educational-psychology	comparative-political-studies	Comparative Political Studies	3	no	depth	field	international
 journal-of-educational-psychology	american-educational-research-journal	American Educational Research Journal	2	no	depth	field	international
 journal-of-educational-psychology	review-of-educational-research	Review of Educational Research	2	no	depth	field	international
 journal-of-empirical-finance	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
-journal-of-environmental-economics-and-management	american-economic-review	American Economic Review	28	no	breadth	field	international
 journal-of-environmental-economics-and-management	economic-policy	Economic Policy	5	no	depth	field	international
 journal-of-environmental-economics-and-management	journal-of-public-economics	Journal of Public Economics	4	no	depth	field	international
 journal-of-environmental-economics-and-management	nature-climate-change	Nature Climate Change	3	no	breadth	field	international
-journal-of-environmental-economics-and-management	acm-conference-on-designing-interactive-systems	ACM Conference on Designing Interactive Systems	2	no	breadth	field	international
-journal-of-environmental-economics-and-management	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-environmental-economics-and-management	aej-economic-policy	AEJ Economic Policy	2	no	depth	field	international
 journal-of-environmental-economics-and-management	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
 journal-of-finance	journal-of-financial-economics	Journal of Financial Economics	24	yes	depth	top-3 finance	international
@@ -995,18 +867,14 @@ journal-of-finance-and-economics	journal-of-finance	Journal of Finance	7	yes	dep
 journal-of-finance-and-economics	journal-of-economic-literature	Journal of Economic Literature	3	no	depth	field	international
 journal-of-financial-economics	review-of-financial-studies	Review of Financial Studies	22	yes	depth	top-3 finance	international
 journal-of-financial-economics	journal-of-finance	Journal of Finance	4	yes	depth	top-3 finance	international
-journal-of-financial-economics	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-financial-economics	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
-journal-of-financial-intermediation	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	3	no	breadth	field	international
 journal-of-financial-intermediation	journal-of-banking-and-finance	Journal of Banking and Finance	3	yes	depth	field	international
 journal-of-financial-intermediation	american-economic-review	American Economic Review	2	no	breadth	field	international
-journal-of-financial-intermediation	comparative-political-studies	Comparative Political Studies	2	no	depth	field	international
 journal-of-financial-intermediation	journal-of-financial-economics	Journal of Financial Economics	2	yes	depth	top-3 finance	international
 journal-of-financial-markets	review-of-financial-studies	Review of Financial Studies	20	yes	depth	top-3 finance	international
 journal-of-financial-markets	journal-of-financial-economics	Journal of Financial Economics	14	yes	depth	top-3 finance	international
 journal-of-financial-markets	journal-of-financial-and-quantitative-analysis	Journal of Financial and Quantitative Analysis	8	yes	depth	field	international
 journal-of-financial-markets	journal-of-finance	Journal of Finance	3	yes	depth	top-3 finance	international
-journal-of-financial-markets	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-financial-markets	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
 journal-of-financial-markets	management-science	Management Science	2	no	depth	FT50 / UTD24	international
 journal-of-financial-research	journal-of-economic-literature	Journal of Economic Literature	13	no	depth	field	international
@@ -1014,18 +882,12 @@ journal-of-financial-research	management-review	管理评论	2	no	breadth	field	
 journal-of-geophysical-research-atmospheres	atmospheric-chemistry-and-physics	Atmospheric Chemistry and Physics	2	yes	breadth	field	international
 journal-of-health-economics	journal-of-public-economics	Journal of Public Economics	6	no	depth	field	international
 journal-of-health-economics	economic-policy	Economic Policy	5	no	depth	field	international
-journal-of-health-economics	comparative-political-studies	Comparative Political Studies	4	no	depth	field	international
 journal-of-health-economics	journal-of-economic-literature	Journal of Economic Literature	4	no	depth	field	international
 journal-of-health-economics	the-english-historical-review	The English Historical Review	4	no	breadth	field	international
 journal-of-health-economics	aej-economic-policy	AEJ Economic Policy	2	no	depth	field	international
-journal-of-health-economics	review-of-financial-studies	Review of Financial Studies	2	no	depth	top-3 finance	international
 journal-of-hepatology	hepatology	Hepatology	11	yes	breadth	field	international
-journal-of-hepatology	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
-journal-of-high-energy-physics	journal-of-health-economics	Journal of Health Economics	19	no	depth	field	international
-journal-of-high-energy-physics	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	4	no	breadth	field	international
 journal-of-high-energy-physics	physical-review-d	Physical Review D	2	no	breadth	field	international
 journal-of-industrial-engineering-and-engineering-management	management-science-cn	管理科学	4	yes	breadth	field	china
-journal-of-industrial-engineering-and-engineering-management	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-international-business-studies	strategic-management-journal	Strategic Management Journal	14	no	depth	FT50 / UTD24	international
 journal-of-international-business-studies	academy-of-management-journal	Academy of Management Journal	9	no	depth	FT50 / UTD24	international
 journal-of-international-business-studies	journal-of-management	Journal of Management	5	no	depth	field	international
@@ -1040,45 +902,34 @@ journal-of-international-economics	review-of-economic-studies	Review of Economic
 journal-of-international-marketing	journal-of-international-business-studies	Journal of International Business Studies	9	no	depth	field	international
 journal-of-international-marketing	journal-of-marketing	Journal of Marketing	5	yes	depth	FT50 / UTD24	international
 journal-of-international-marketing	journal-of-consumer-research	Journal of Consumer Research	3	yes	depth	FT50 / UTD24	international
-journal-of-international-marketing	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-international-marketing	journal-of-consumer-psychology	Journal of Consumer Psychology	2	yes	depth	field	international
 journal-of-international-marketing	journal-of-the-academy-of-marketing-science	Journal of the Academy of Marketing Science	2	yes	depth	field	international
-journal-of-international-money-and-finance	journal-of-international-marketing	Journal of International Marketing	139	no	depth	field	international
 journal-of-international-money-and-finance	journal-of-monetary-economics	Journal of Monetary Economics	22	no	depth	field	international
 journal-of-international-money-and-finance	journal-of-international-economics	Journal of International Economics	21	no	depth	field	international
 journal-of-international-money-and-finance	journal-of-money-credit-and-banking	Journal of Money Credit and Banking	20	yes	depth	field	international
-journal-of-international-money-and-finance	european-economic-review	European Economic Review	19	no	depth	field	international
 journal-of-international-money-and-finance	journal-of-financial-economics	Journal of Financial Economics	19	yes	depth	top-3 finance	international
 journal-of-international-money-and-finance	journal-of-economic-literature	Journal of Economic Literature	12	no	depth	field	international
-journal-of-international-money-and-finance	annual-review-of-economics	Annual Review of Economics	7	no	depth	field	international
 journal-of-jiangxi-university-of-finance-and-economics	contemporary-finance-and-economics	当代财经	2	yes	breadth	field	china
 journal-of-labor-economics	american-economic-review	American Economic Review	8	no	breadth	field	international
 journal-of-labor-economics	comparative-political-studies	Comparative Political Studies	8	no	depth	field	international
 journal-of-law-and-economics	journal-of-law-economics-and-organization	Journal of Law Economics and Organization	22	no	depth	field	international
-journal-of-law-and-economics	comparative-political-studies	Comparative Political Studies	3	no	depth	field	international
 journal-of-law-and-economics	journal-of-public-economics	Journal of Public Economics	2	no	depth	field	international
-journal-of-law-economics-and-organization	journal-of-law-and-economics	Journal of Law and Economics	163	no	depth	field	international
+journal-of-law-economics-and-organization	journal-of-law-and-economics	Journal of Law and Economics	30	no	depth	field	international
 journal-of-law-economics-and-organization	organization-science	Organization Science	9	yes	depth	field	international
 journal-of-law-economics-and-organization	journal-of-economic-literature	Journal of Economic Literature	3	no	depth	field	international
-journal-of-law-economics-and-organization	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-machine-learning-research	neurips	NeurIPS	2	no	depth	field	international
-journal-of-macro-quality-research	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	2	no	breadth	field	international
-journal-of-macro-quality-research	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-management	academy-of-management-journal	Academy of Management Journal	20	yes	depth	FT50 / UTD24	international
 journal-of-management	strategic-management-journal	Strategic Management Journal	15	yes	depth	FT50 / UTD24	international
 journal-of-management	journal-of-management-studies	Journal of Management Studies	14	yes	depth	field	international
 journal-of-management	organization-science	Organization Science	5	yes	depth	field	international
-journal-of-management	energy-and-environmental-science	Energy & Environmental Science	3	no	breadth	field	international
 journal-of-management-information-systems	information-systems-research	Information Systems Research	24	yes	depth	FT50 / UTD24	international
 journal-of-management-information-systems	journal-of-management	Journal of Management	18	no	depth	field	international
 journal-of-management-information-systems	journal-of-the-association-for-information-systems	Journal of the Association for Information Systems	11	yes	depth	field	international
 journal-of-management-information-systems	management-science	Management Science	10	no	depth	FT50 / UTD24	international
 journal-of-management-information-systems	mis-quarterly	MIS Quarterly	2	yes	depth	FT50 / UTD24	international
 journal-of-management-sciences-in-china	management-science-cn	管理科学	39	no	breadth	field	china
-journal-of-management-sciences-in-china	management-science	Management Science	15	no	depth	FT50 / UTD24	international
 journal-of-management-sciences-in-china	journal-of-management	Journal of Management	14	no	depth	field	international
 journal-of-management-sciences-in-china	management-review	管理评论	8	no	breadth	field	china
-journal-of-management-sciences-in-china	journal-of-management-studies	Journal of Management Studies	4	no	depth	field	international
 journal-of-management-studies	journal-of-management	Journal of Management	20	yes	depth	field	international
 journal-of-management-studies	academy-of-management-journal	Academy of Management Journal	11	yes	depth	FT50 / UTD24	international
 journal-of-management-studies	strategic-management-journal	Strategic Management Journal	11	yes	depth	FT50 / UTD24	international
@@ -1094,28 +945,24 @@ journal-of-marketing-research	journal-of-consumer-research	Journal of Consumer R
 journal-of-marketing-research	academy-of-management-journal	Academy of Management Journal	2	no	depth	FT50 / UTD24	international
 journal-of-marriage-and-family	demography	Demography	7	no	depth	field	international
 journal-of-marriage-and-family	social-forces	Social Forces	5	no	depth	field	international
-journal-of-marriage-and-family	comparative-political-studies	Comparative Political Studies	3	no	depth	field	international
 journal-of-monetary-economics	journal-of-economic-literature	Journal of Economic Literature	13	no	depth	field	international
-journal-of-monetary-economics	review-of-economic-dynamics	Review of Economic Dynamics	13	yes	depth	field	international
 journal-of-monetary-economics	journal-of-international-economics	Journal of International Economics	10	no	depth	field	international
+journal-of-monetary-economics	review-of-economic-dynamics	Review of Economic Dynamics	10	yes	depth	field	international
 journal-of-monetary-economics	econometrica	Econometrica	4	no	depth	top-5 econ	international
 journal-of-monetary-economics	quarterly-journal-of-economics	Quarterly Journal of Economics	2	no	depth	top-5 econ	international
 journal-of-money-credit-and-banking	journal-of-monetary-economics	Journal of Monetary Economics	21	no	depth	field	international
-journal-of-money-credit-and-banking	review-of-economic-dynamics	Review of Economic Dynamics	19	no	depth	field	international
+journal-of-money-credit-and-banking	review-of-economic-dynamics	Review of Economic Dynamics	10	no	depth	field	international
 journal-of-money-credit-and-banking	journal-of-financial-intermediation	Journal of Financial Intermediation	4	yes	depth	field	international
-journal-of-money-credit-and-banking	rss	RSS	3	no	depth	field	international
 journal-of-money-credit-and-banking	journal-of-finance	Journal of Finance	2	yes	depth	top-3 finance	international
 journal-of-money-credit-and-banking	journal-of-financial-economics	Journal of Financial Economics	2	yes	depth	top-3 finance	international
 journal-of-money-credit-and-banking	review-of-financial-studies	Review of Financial Studies	2	yes	depth	top-3 finance	international
 journal-of-operations-management	management-science	Management Science	3	no	depth	FT50 / UTD24	international
 journal-of-operations-management	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	3	yes	depth	field	international
 journal-of-operations-management	operations-research	Operations Research	3	yes	depth	FT50 / UTD24	international
-journal-of-personality-and-social-psychology	journal-of-accounting-research	Journal of Accounting Research	44	no	depth	top-3 accounting	international
 journal-of-personality-and-social-psychology	psychological-science	Psychological Science	7	yes	depth	field	international
-journal-of-policy-analysis-and-management	public-administration-review	Public Administration Review	6	no	depth	field	international
-journal-of-policy-analysis-and-management	comparative-political-studies	Comparative Political Studies	3	no	depth	field	international
 journal-of-policy-analysis-and-management	economic-policy	Economic Policy	3	no	depth	field	international
 journal-of-policy-analysis-and-management	journal-of-public-administration-research-and-theory	Journal of Public Administration Research and Theory	3	no	depth	field	international
+journal-of-policy-analysis-and-management	public-administration-review	Public Administration Review	3	no	depth	field	international
 journal-of-political-economy	econometrica	Econometrica	7	no	depth	top-5 econ	international
 journal-of-political-economy	quarterly-journal-of-economics	Quarterly Journal of Economics	6	yes	depth	top-5 econ	international
 journal-of-political-economy	american-economic-review	American Economic Review	5	no	breadth	field	international
@@ -1123,7 +970,7 @@ journal-of-political-economy	journal-of-economic-literature	Journal of Economic 
 journal-of-politics	american-journal-of-political-science	American Journal of Political Science	15	yes	depth	top-3 polisci	international
 journal-of-politics	american-political-science-review	American Political Science Review	14	yes	depth	top-3 polisci	international
 journal-of-politics	world-politics	World Politics	6	yes	depth	field	international
-journal-of-public-administration-research-and-theory	public-administration-review	Public Administration Review	147	yes	depth	field	international
+journal-of-public-administration-research-and-theory	public-administration-review	Public Administration Review	23	yes	depth	field	international
 journal-of-public-administration-research-and-theory	journal-of-policy-analysis-and-management	Journal of Policy Analysis and Management	19	no	depth	field	international
 journal-of-public-economics	aej-economic-policy	AEJ Economic Policy	5	no	depth	field	international
 journal-of-public-economics	economic-policy	Economic Policy	5	no	depth	field	international
@@ -1134,15 +981,11 @@ journal-of-public-management	management-science-cn	管理科学	3	yes	breadth	fi
 journal-of-public-policy-and-marketing	journal-of-consumer-psychology	Journal of Consumer Psychology	14	yes	depth	field	international
 journal-of-public-policy-and-marketing	journal-of-consumer-research	Journal of Consumer Research	8	yes	depth	FT50 / UTD24	international
 journal-of-public-policy-and-marketing	journal-of-marketing-research	Journal of Marketing Research	5	yes	depth	FT50 / UTD24	international
-journal-of-public-policy-and-marketing	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-public-policy-and-marketing	journal-of-policy-analysis-and-management	Journal of Policy Analysis and Management	2	no	depth	field	international
-journal-of-quantitative-and-technological-economics	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	2	no	breadth	field	international
 journal-of-risk-and-uncertainty	experimental-economics	Experimental Economics	14	no	depth	field	international
 journal-of-risk-and-uncertainty	journal-of-economic-behavior-and-organization	Journal of Economic Behavior and Organization	13	no	depth	field	international
 journal-of-risk-and-uncertainty	management-science	Management Science	4	no	depth	FT50 / UTD24	international
-journal-of-risk-and-uncertainty	contemporary-accounting-research	Contemporary Accounting Research	3	no	depth	field	international
 journal-of-risk-and-uncertainty	games-and-economic-behavior	Games and Economic Behavior	3	no	depth	field	international
-journal-of-risk-and-uncertainty	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-risk-and-uncertainty	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
 journal-of-shanxi-university-of-finance-and-economics	business-management-journal	经济管理	2	no	breadth	field	china
 journal-of-software	fse	FSE	3	no	depth	field	international
@@ -1152,7 +995,6 @@ journal-of-the-academy-of-marketing-science	marketing-science	Marketing Science	
 journal-of-the-academy-of-marketing-science	journal-of-marketing-research	Journal of Marketing Research	14	yes	depth	FT50 / UTD24	international
 journal-of-the-academy-of-marketing-science	journal-of-consumer-research	Journal of Consumer Research	11	yes	depth	FT50 / UTD24	international
 journal-of-the-academy-of-marketing-science	journal-of-marketing	Journal of Marketing	6	yes	depth	FT50 / UTD24	international
-journal-of-the-academy-of-marketing-science	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-the-acm	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	5	no	breadth	field	international
 journal-of-the-acm	acm-ieee-symposium-on-logic-in-computer-science	ACM/IEEE Symposium on Logic in Computer Science	2	no	breadth	field	international
 journal-of-the-acm	focs	FOCS	2	no	depth	field	international
@@ -1166,65 +1008,53 @@ journal-of-the-association-for-information-systems	management-science	Management
 journal-of-the-association-for-information-systems	mis-quarterly	MIS Quarterly	2	yes	depth	FT50 / UTD24	international
 journal-of-the-european-economic-association	european-economic-review	European Economic Review	11	yes	depth	field	international
 journal-of-the-european-economic-association	the-economic-journal	The Economic Journal	5	yes	depth	field	international
-journal-of-the-european-economic-association	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 journal-of-urban-economics	journal-of-economic-geography	Journal of Economic Geography	3	no	depth	field	international
 journal-of-urban-economics	journal-of-public-economics	Journal of Public Economics	3	no	depth	field	international
 journal-of-urban-economics	the-journal-of-roman-studies	The Journal of Roman Studies	2	no	breadth	field	international
 journal-of-world-economy	journal-of-economic-literature	Journal of Economic Literature	4	no	depth	field	international
-journal-of-world-economy	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	3	no	breadth	field	international
 journal-of-world-economy	economic-problems	经济问题	2	no	breadth	field	china
 journal-of-world-economy	world-economic-studies	世界经济研究	2	no	breadth	field	china
 journal-on-communications	acta-electronica-sinica	Acta Electronica Sinica	2	yes	depth	field	international
 journal-on-communications	infocom	INFOCOM	2	no	depth	field	international
-kdd	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	20	no	breadth	field	international
-kdd	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	11	no	breadth	field	international
 kdd	icdm	ICDM	7	yes	depth	field	international
 kdd	vldb	VLDB	6	yes	depth	field	international
 kdd	wsdm	WSDM	6	yes	depth	field	international
+kdd	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	5	no	breadth	field	international
+kdd	icml	ICML	4	yes	depth	field	international
 kdd	neurips	NeurIPS	4	yes	depth	field	international
 kdd	recsys	RecSys	4	yes	depth	field	international
 kdd	sigmod	SIGMOD	4	yes	depth	field	international
 lancet	the-lancet	The Lancet	63	yes	breadth	field	international
 lancet	nejm	NEJM	12	yes	depth	field	international
 lancet	jama	JAMA	9	yes	depth	field	international
-lancet	information-systems-research	Information Systems Research	5	no	depth	FT50 / UTD24	international
 lancet	pnas	PNAS	2	no	depth	field	international
-lancet	the-accounting-review	The Accounting Review	2	no	depth	top-3 accounting	international
 language-linguistic-society	natural-language-and-linguistic-theory	Natural Language & Linguistic Theory	4	no	breadth	field	international
-macroeconomics	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 management-review	management-science-cn	管理科学	5	no	breadth	field	china
 management-science	operations-research	Operations Research	23	no	depth	FT50 / UTD24	international
 management-science	marketing-science	Marketing Science	18	no	depth	FT50 / UTD24	international
 management-science	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	11	no	depth	field	international
 management-science	organization-science	Organization Science	5	no	depth	field	international
 management-science-cn	management-science	Management Science	4	no	depth	FT50 / UTD24	international
-management-science-cn	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
-manufacturing-and-service-operations-management	production-and-operations-management	Production and Operations Management	11	yes	depth	field	international
 manufacturing-and-service-operations-management	management-science	Management Science	9	no	depth	FT50 / UTD24	international
 manufacturing-and-service-operations-management	operations-research	Operations Research	9	yes	depth	FT50 / UTD24	international
+manufacturing-and-service-operations-management	production-and-operations-management	Production and Operations Management	8	yes	depth	field	international
 marketing-science	management-science	Management Science	20	no	depth	FT50 / UTD24	international
 marketing-science	journal-of-marketing-research	Journal of Marketing Research	19	yes	depth	FT50 / UTD24	international
 marketing-science	journal-of-consumer-research	Journal of Consumer Research	14	yes	depth	FT50 / UTD24	international
 marketing-science	journal-of-marketing	Journal of Marketing	10	yes	depth	FT50 / UTD24	international
-mathematical-finance	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	4	no	breadth	field	international
 mathematical-finance	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
-matter	the-accounting-review	The Accounting Review	3	no	depth	top-3 accounting	international
 matter	advanced-materials	Advanced Materials	2	no	depth	field	international
 matter	nature-materials	Nature Materials	2	yes	breadth	field	international
-micro	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	20	no	breadth	field	international
 micro	isca	ISCA	20	yes	depth	field	international
 micro	asplos	ASPLOS	18	yes	depth	field	international
 micro	hpca	HPCA	15	yes	depth	field	international
 micro	dac	DAC	3	yes	depth	field	international
 micro	mlsys	MLSys	3	yes	depth	field	international
-micro	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
-micro	international-semantic-web-conference	International Semantic Web Conference	2	yes	breadth	field	international
 mining-software-repositories	icse	ICSE	3	no	depth	field	international
-mining-software-repositories	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	yes	breadth	field	international
 mining-software-repositories	fse	FSE	2	no	depth	field	international
 mining-software-repositories	icsme	ICSME	2	no	depth	field	international
 mining-software-repositories	issta	ISSTA	2	no	depth	field	international
-mis-quarterly	information-systems-research	Information Systems Research	11	yes	depth	FT50 / UTD24	international
+mis-quarterly	information-systems-research	Information Systems Research	9	yes	depth	FT50 / UTD24	international
 mis-quarterly	journal-of-management-information-systems	Journal of Management Information Systems	9	yes	depth	field	international
 mis-quarterly	journal-of-management	Journal of Management	5	no	depth	field	international
 mis-quarterly	management-science	Management Science	5	no	depth	FT50 / UTD24	international
@@ -1243,7 +1073,6 @@ mobicom	mobisys	MobiSys	10	yes	depth	field	international
 mobicom	infocom	INFOCOM	7	yes	depth	field	international
 mobicom	sensys	SenSys	5	yes	depth	field	international
 mobicom	acm-sigcomm	ACM SIGCOMM	2	no	breadth	field	international
-mobicom	rss	RSS	2	yes	depth	field	international
 mobisys	mobicom	MobiCom	21	yes	depth	field	international
 mobisys	sensys	SenSys	19	yes	depth	field	international
 mobisys	osdi	OSDI	14	yes	depth	field	international
@@ -1253,18 +1082,13 @@ mobisys	eurosys	EuroSys	2	yes	depth	field	international
 mobisys	sosp	SOSP	2	yes	depth	field	international
 modern-economic-research	reform-of-economic-system	经济体制改革	2	no	breadth	field	china
 modern-economic-science	economic-science	经济科学	9	yes	breadth	field	china
-modern-financial-research	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
-molecular-cell	the-accounting-review	The Accounting Review	53	no	depth	top-3 accounting	international
 molecular-cell	nature-structural-and-molecular-biology	Nature Structural & Molecular Biology	6	no	breadth	field	international
-molecular-cell	acm-international-conference-on-tangible-embedded-and-embodied-interaction	ACM International Conference on Tangible, Embedded, and Embodied Interaction	2	no	breadth	field	international
-molecular-cell	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	2	no	breadth	field	international
 molecular-cell	pnas	PNAS	2	no	depth	field	international
 molecular-ecology	molecular-biology-and-evolution	Molecular Biology and Evolution	2	yes	breadth	field	international
 molecular-ecology	nature-ecology-and-evolution	Nature Ecology & Evolution	2	yes	breadth	field	international
-naacl	acl	ACL	224	yes	depth	field	international
+naacl	acl	ACL	42	yes	depth	field	international
 naacl	emnlp	EMNLP	10	yes	depth	field	international
 naacl	eacl	EACL	5	yes	depth	field	international
-naacl	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	3	no	breadth	field	international
 nankai-business-review	management-review	管理评论	23	yes	breadth	field	china
 nankai-business-review	management-science-cn	管理科学	8	no	breadth	field	china
 nature-biomedical-engineering	biomaterials	Biomaterials	2	yes	breadth	field	international
@@ -1293,19 +1117,15 @@ ndss	annual-computer-security-applications-conference	Annual Computer Security A
 ndss	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	4	no	breadth	field	international
 nejm	jama	JAMA	17	yes	depth	field	international
 nejm	the-lancet	The Lancet	3	yes	breadth	field	international
-nejm	annual-review-of-economics	Annual Review of Economics	2	no	depth	field	international
 nejm	circulation	Circulation	2	no	breadth	field	international
-nejm	contemporary-accounting-research	Contemporary Accounting Research	2	no	depth	field	international
 nejm	journal-of-clinical-oncology	Journal of Clinical Oncology	2	no	breadth	field	international
 nejm	pnas	PNAS	2	no	depth	field	international
-nejm	the-accounting-review	The Accounting Review	2	no	depth	top-3 accounting	international
 neural-information-processing-systems	neurips	NeurIPS	11	no	depth	field	international
 neurips	acl	ACL	2	yes	depth	field	international
 neurips	cvpr	CVPR	2	yes	depth	field	international
 neurips	iclr	ICLR	2	yes	depth	field	international
 neurips	icml	ICML	2	yes	depth	field	international
 neurips	kdd	KDD	2	yes	depth	field	international
-neuron	the-accounting-review	The Accounting Review	5	no	depth	top-3 accounting	international
 new-journal-of-physics	physical-review-x	Physical Review X	3	no	breadth	field	international
 new-media-and-society	communication-research	Communication Research	2	yes	depth	field	international
 new-media-and-society	journal-of-communication	Journal of Communication	2	yes	depth	field	international
@@ -1316,21 +1136,18 @@ nsdi	osdi	OSDI	12	yes	depth	field	international
 nsdi	sosp	SOSP	9	yes	depth	field	international
 nsdi	fast	FAST	5	yes	depth	field	international
 nsdi	sigmetrics	SIGMETRICS	4	yes	depth	field	international
-nsdi	the-accounting-review	The Accounting Review	3	no	depth	top-3 accounting	international
-nsdi	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
+nsdi	imc	IMC	2	yes	depth	field	international
 nsdi	mobicom	MobiCom	2	yes	depth	field	international
-one-earth	the-accounting-review	The Accounting Review	3	no	depth	top-3 accounting	international
 one-earth	nature-climate-change	Nature Climate Change	2	yes	breadth	field	international
 one-earth	nature-sustainability	Nature Sustainability	2	yes	breadth	field	international
 oopsla	pldi	PLDI	17	yes	depth	field	international
 oopsla	popl	POPL	15	yes	depth	field	international
 oopsla	acm-sigplan-international-conference-on-functional-programming	ACM SIGPLAN International Conference on Functional Programming	9	no	breadth	field	international
-oopsla	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	6	no	breadth	field	international
 oopsla	issta	ISSTA	5	yes	depth	field	international
 oopsla	fse	FSE	3	yes	depth	field	international
 oopsla	icse	ICSE	3	yes	depth	field	international
 operations-research	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	8	yes	depth	field	international
-operations-research	management-science	Management Science	6	no	depth	FT50 / UTD24	international
+operations-research	management-science	Management Science	5	no	depth	FT50 / UTD24	international
 operations-research	informs-journal-on-computing	INFORMS Journal on Computing	4	no	depth	field	international
 organization-and-management	management-review	管理评论	3	yes	breadth	field	china
 organization-and-management	management-science-cn	管理科学	2	no	breadth	field	china
@@ -1353,7 +1170,6 @@ percom	sensys	SenSys	16	yes	depth	field	international
 percom	mobicom	MobiCom	15	yes	depth	field	international
 percom	ipsn	IPSN	12	yes	depth	field	international
 percom	mobisys	MobiSys	6	yes	depth	field	international
-percom	chi	CHI	2	yes	depth	field	international
 perspectives-on-psychological-science	psychological-science	Psychological Science	32	yes	depth	field	international
 perspectives-on-psychological-science	psychological-bulletin	Psychological Bulletin	10	yes	depth	flagship psych (review)	international
 perspectives-on-psychological-science	annual-review-of-psychology	Annual Review of Psychology	7	yes	depth	field	international
@@ -1368,22 +1184,21 @@ pldi	asplos	ASPLOS	5	yes	depth	field	international
 pldi	cav	CAV	5	yes	depth	field	international
 pldi	fse	FSE	5	yes	depth	field	international
 pldi	ppopp	PPoPP	2	yes	depth	field	international
-plos-medicine	the-accounting-review	The Accounting Review	2	no	depth	top-3 accounting	international
 pmla	critical-inquiry	Critical Inquiry	5	no	depth	field	international
 pmla	new-literary-history	New Literary History	5	no	breadth	field	international
 pnas	nejm	NEJM	5	no	depth	field	international
 pnas-nexus	pnas	PNAS	221	yes	depth	field	international
-podc	acm-conference-on-designing-interactive-systems	ACM Conference on Designing Interactive Systems	38	no	breadth	field	international
 podc	stoc	STOC	14	yes	depth	field	international
 podc	pods	PODS	12	yes	depth	field	international
 podc	soda	SODA	12	yes	depth	field	international
 podc	focs	FOCS	11	yes	depth	field	international
 podc	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	6	no	breadth	field	international
 podc	osdi	OSDI	4	yes	depth	field	international
+podc	nsdi	NSDI	2	yes	depth	field	international
 podc	sigmod	SIGMOD	2	yes	depth	field	international
 pods	icdt	ICDT	34	yes	depth	field	international
 pods	sigmod	SIGMOD	28	yes	depth	field	international
-pods	vldb	VLDB	16	yes	depth	field	international
+pods	vldb	VLDB	13	yes	depth	field	international
 pods	icde	ICDE	10	yes	depth	field	international
 pods	acm-ieee-symposium-on-logic-in-computer-science	ACM/IEEE Symposium on Logic in Computer Science	9	no	breadth	field	international
 pods	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	4	no	breadth	field	international
@@ -1394,10 +1209,8 @@ popl	oopsla	OOPSLA	8	yes	depth	field	international
 popl	pldi	PLDI	8	yes	depth	field	international
 popl	acm-sigplan-international-conference-on-functional-programming	ACM SIGPLAN International Conference on Functional Programming	6	no	breadth	field	international
 popl	cav	CAV	6	yes	depth	field	international
-popl	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	2	no	breadth	field	international
 popl	tacas	TACAS	2	yes	depth	field	international
 population-and-development-review	demography	Demography	11	yes	depth	field	international
-population-and-development-review	comparative-political-studies	Comparative Political Studies	2	no	depth	field	international
 ppopp	pldi	PLDI	26	yes	depth	field	international
 ppopp	popl	POPL	18	yes	depth	field	international
 ppopp	asplos	ASPLOS	17	yes	depth	field	international
@@ -1411,12 +1224,8 @@ privacy-enhancing-technologies-symposium	ndss	NDSS	2	no	depth	field	internationa
 production-and-operations-management	management-science	Management Science	19	no	depth	FT50 / UTD24	international
 production-and-operations-management	operations-research	Operations Research	12	yes	depth	FT50 / UTD24	international
 production-and-operations-management	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	10	yes	depth	field	international
-production-and-operations-management	journal-of-politics	Journal of Politics	5	no	depth	field	international
-production-and-operations-management	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 prx-quantum	physical-review-x	Physical Review X	16	no	breadth	field	international
-psychological-bulletin	journal-of-accounting-research	Journal of Accounting Research	16	no	depth	top-3 accounting	international
 psychological-bulletin	psychological-review	Psychological Review	15	yes	depth	field	international
-psychological-bulletin	energy-and-environmental-science	Energy & Environmental Science	10	no	breadth	field	international
 psychological-review	journal-of-economic-perspectives	Journal of Economic Perspectives	7	no	depth	field	international
 psychological-review	psychological-bulletin	Psychological Bulletin	4	yes	depth	flagship psych (review)	international
 psychological-review	psychological-science	Psychological Science	4	yes	depth	field	international
@@ -1428,19 +1237,15 @@ quantitative-economics	econometrica	Econometrica	45	no	depth	top-5 econ	internat
 quarterly-journal-of-economics	econometrica	Econometrica	10	no	depth	top-5 econ	international
 quarterly-journal-of-economics	journal-of-political-economy	Journal of Political Economy	9	yes	depth	top-5 econ	international
 quarterly-journal-of-economics	american-economic-review	American Economic Review	3	no	breadth	field	international
-quarterly-journal-of-economics	comparative-political-studies	Comparative Political Studies	3	no	depth	field	international
-radiology	the-accounting-review	The Accounting Review	9	no	depth	top-3 accounting	international
 rand-journal-of-economics	quarterly-journal-of-economics	Quarterly Journal of Economics	4	no	depth	top-5 econ	international
 rand-journal-of-economics	econometrica	Econometrica	2	no	depth	top-5 econ	international
 recsys	kdd	KDD	11	yes	depth	field	international
 recsys	sigir	SIGIR	11	yes	depth	field	international
-recsys	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	8	no	breadth	field	international
 recsys	wsdm	WSDM	8	yes	depth	field	international
 recsys	uai	UAI	7	yes	depth	field	international
 recsys	chi	CHI	4	yes	depth	field	international
 recsys	acm-conference-on-recommender-systems	ACM Conference on Recommender Systems	2	no	breadth	field	international
 reform	reform-of-economic-system	经济体制改革	4	yes	breadth	field	china
-research-and-development-management	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 research-and-development-management	management-science-cn	管理科学	2	yes	breadth	field	china
 research-and-development-management	science-research-management	科研管理	2	yes	breadth	field	china
 research-on-economics-and-management	business-management-journal	经济管理	3	yes	breadth	field	china
@@ -1462,20 +1267,15 @@ review-of-economic-studies	econometrica	Econometrica	6	no	depth	top-5 econ	inter
 review-of-economic-studies	quarterly-journal-of-economics	Quarterly Journal of Economics	5	yes	depth	top-5 econ	international
 review-of-economic-studies	journal-of-economic-literature	Journal of Economic Literature	4	yes	depth	field	international
 review-of-economic-studies	journal-of-political-economy	Journal of Political Economy	4	yes	depth	top-5 econ	international
-review-of-economic-studies	review-of-economic-dynamics	Review of Economic Dynamics	4	no	depth	field	international
-review-of-economic-studies	energy-and-environmental-science	Energy & Environmental Science	3	no	breadth	field	international
 review-of-economic-studies	journal-of-financial-economics	Journal of Financial Economics	2	no	depth	top-3 finance	international
+review-of-economic-studies	review-of-financial-studies	Review of Financial Studies	2	no	depth	top-3 finance	international
 review-of-economics-and-statistics	american-economic-review	American Economic Review	10	no	breadth	field	international
 review-of-economics-and-statistics	journal-of-economic-literature	Journal of Economic Literature	8	no	depth	field	international
-review-of-economics-and-statistics	comparative-political-studies	Comparative Political Studies	3	no	depth	field	international
-review-of-educational-research	american-economic-review	American Economic Review	27	no	breadth	field	international
 review-of-educational-research	american-educational-research-journal	American Educational Research Journal	10	yes	depth	field	international
-review-of-educational-research	journal-of-accounting-research	Journal of Accounting Research	4	no	depth	top-3 accounting	international
 review-of-educational-research	psychological-bulletin	Psychological Bulletin	3	no	depth	flagship psych (review)	international
 review-of-financial-studies	journal-of-financial-economics	Journal of Financial Economics	34	yes	depth	top-3 finance	international
 review-of-financial-studies	journal-of-finance	Journal of Finance	4	yes	depth	top-3 finance	international
 review-of-financial-studies	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
-review-of-political-economy	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 robocup	icra	ICRA	2	no	depth	field	international
 robocup	international-symposium-on-distributed-autonomous-robotic-systems	International Symposium on Distributed Autonomous Robotic Systems	2	yes	breadth	field	international
 robocup	iros	IROS	2	no	depth	field	international
@@ -1484,7 +1284,6 @@ rss	icra	ICRA	18	yes	depth	field	international
 rss	iros	IROS	15	yes	depth	field	international
 rss	the-international-journal-of-robotics-research	The International Journal of Robotics Research	6	no	breadth	field	international
 rss	hri	HRI	4	yes	depth	field	international
-rural-economy	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 rural-economy	journal-of-agrotechnical-economics	农业技术经济	2	no	breadth	field	china
 science	pnas	PNAS	15	yes	depth	field	international
 science	science-advances	Science Advances	9	yes	breadth	field	international
@@ -1521,13 +1320,13 @@ siam-journal-on-computing	focs	FOCS	2	no	depth	field	international
 siam-journal-on-computing	stoc	STOC	2	no	depth	field	international
 sigcomm	nsdi	NSDI	18	yes	depth	field	international
 sigcomm	acm-sigcomm	ACM SIGCOMM	14	no	breadth	field	international
-sigcomm	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	14	no	breadth	field	international
 sigcomm	imc	IMC	12	yes	depth	field	international
 sigcomm	mobicom	MobiCom	10	yes	depth	field	international
 sigcomm	conext	CoNEXT	9	yes	depth	field	international
 sigcomm	coordination-chemistry-reviews	Coordination Chemistry Reviews	8	no	breadth	field	international
 sigcomm	sigmetrics	SIGMETRICS	7	yes	depth	field	international
-sigdial-conference-on-discourse-and-dialogue	acl	ACL	8	no	depth	field	international
+sigcomm	review-of-economic-dynamics	Review of Economic Dynamics	2	no	depth	field	international
+sigdial-conference-on-discourse-and-dialogue	acl	ACL	5	no	depth	field	international
 sigdial-conference-on-discourse-and-dialogue	international-natural-language-generation-conference	International Natural Language Generation Conference	2	yes	breadth	field	international
 siggraph	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	12	no	breadth	field	international
 siggraph	cvpr	CVPR	10	yes	depth	field	international
@@ -1536,15 +1335,14 @@ siggraph	acm-siggraph	ACM SIGGRAPH	5	no	breadth	field	international
 siggraph	uist	UIST	5	yes	depth	field	international
 siggraph	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	4	no	breadth	field	international
 siggraph	chi	CHI	4	yes	depth	field	international
-sigir	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	16	no	breadth	field	international
 sigir	european-conference-on-information-retrieval	European Conference on Information Retrieval	13	no	breadth	field	international
 sigir	cikm	CIKM	12	yes	depth	field	international
-sigir	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	11	no	breadth	field	international
 sigir	wsdm	WSDM	11	yes	depth	field	international
 sigir	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	7	no	breadth	field	international
 sigir	acm-sigir-conference-on-human-information-interaction-and-retrieval	ACM SIGIR Conference on Human Information Interaction and Retrieval	4	no	breadth	field	international
 sigir	recsys	RecSys	4	yes	depth	field	international
-sigmetrics	production-and-operations-management	Production and Operations Management	44	no	depth	field	international
+sigir	emnlp	EMNLP	3	yes	depth	field	international
+sigir	iclr	ICLR	3	yes	depth	field	international
 sigmetrics	imc	IMC	18	yes	depth	field	international
 sigmetrics	nsdi	NSDI	18	yes	depth	field	international
 sigmetrics	acm-sigmetrics	ACM SIGMETRICS	16	no	breadth	field	international
@@ -1552,10 +1350,11 @@ sigmetrics	sigcomm	SIGCOMM	12	yes	depth	field	international
 sigmetrics	osdi	OSDI	10	yes	depth	field	international
 sigmetrics	neurips	NeurIPS	8	yes	depth	field	international
 sigmetrics	icml	ICML	5	yes	depth	field	international
-sigmod	vldb	VLDB	29	yes	depth	field	international
+sigmetrics	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	4	no	breadth	field	international
 sigmod	pods	PODS	14	yes	depth	field	international
 sigmod	icde	ICDE	11	yes	depth	field	international
 sigmod	kdd	KDD	4	yes	depth	field	international
+sigmod	vldb	VLDB	2	yes	depth	field	international
 socc	sigmod	SIGMOD	40	yes	depth	field	international
 socc	nsdi	NSDI	24	yes	depth	field	international
 socc	osdi	OSDI	23	yes	depth	field	international
@@ -1568,7 +1367,6 @@ social-forces	american-journal-of-sociology	American Journal of Sociology	16	yes
 social-forces	american-sociological-review	American Sociological Review	14	yes	depth	top-3 sociology	international
 social-forces	demography	Demography	6	no	depth	field	international
 social-forces	journal-of-marriage-and-family	Journal of Marriage and Family	5	no	depth	field	international
-social-forces	comparative-political-studies	Comparative Political Studies	2	no	depth	field	international
 social-psychology-quarterly	journal-of-personality-and-social-psychology	Journal of Personality and Social Psychology	12	no	depth	flagship psych	international
 social-psychology-quarterly	american-journal-of-sociology	American Journal of Sociology	9	no	depth	top-3 sociology	international
 social-psychology-quarterly	american-sociological-review	American Sociological Review	9	no	depth	top-3 sociology	international
@@ -1584,8 +1382,6 @@ soda	stoc	STOC	22	yes	depth	field	international
 soda	focs	FOCS	14	yes	depth	field	international
 soda	itcs	ITCS	11	yes	depth	field	international
 soda	icalp	ICALP	9	yes	depth	field	international
-soda	harvard-law-review	Harvard Law Review	5	no	depth	field	international
-soda	acm-conference-on-designing-interactive-systems	ACM Conference on Designing Interactive Systems	2	no	breadth	field	international
 soda	podc	PODC	2	yes	depth	field	international
 soft-science	china-soft-science	中国软科学	2	yes	breadth	field	china
 soft-science	management-science-cn	管理科学	2	yes	breadth	field	china
@@ -1597,7 +1393,7 @@ sosp	fast	FAST	6	yes	depth	field	international
 sosp	asplos	ASPLOS	4	yes	depth	field	international
 sosp	mlsys	MLSys	3	yes	depth	field	international
 sosp	vldb	VLDB	3	yes	depth	field	international
-starsem-conference-on-computational-semantics	acl	ACL	8	no	depth	field	international
+starsem-conference-on-computational-semantics	acl	ACL	6	no	depth	field	international
 starsem-conference-on-computational-semantics	international-natural-language-generation-conference	International Natural Language Generation Conference	3	yes	breadth	field	international
 starsem-conference-on-computational-semantics	emnlp	EMNLP	2	no	depth	field	international
 stoc	focs	FOCS	34	yes	depth	field	international
@@ -1608,7 +1404,6 @@ stoc	podc	PODC	3	yes	depth	field	international
 strategic-management-journal	academy-of-management-journal	Academy of Management Journal	9	yes	depth	FT50 / UTD24	international
 strategic-management-journal	academy-of-management-review	Academy of Management Review	7	yes	depth	FT50 / UTD24	international
 strategic-management-journal	administrative-science-quarterly	Administrative Science Quarterly	7	yes	depth	FT50 / UTD24	international
-stroke	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
 studies-in-science-of-science	management-science-cn	管理科学	4	yes	breadth	field	china
 studies-in-science-of-science	china-soft-science	中国软科学	2	yes	breadth	field	china
 studies-in-science-of-science	science-research-management	科研管理	2	yes	breadth	field	china
@@ -1616,8 +1411,6 @@ studies-in-science-of-science	soft-science	软科学	2	yes	breadth	field	china
 studies-of-financial-economics	studies-of-international-finance	国际金融研究	3	yes	breadth	field	china
 studies-of-international-finance	studies-of-financial-economics	金融经济学研究	2	yes	breadth	field	china
 systems-engineering-theory-and-practice	management-science-cn	管理科学	7	yes	breadth	field	china
-tacas	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	127	no	breadth	field	international
-tacas	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	65	no	breadth	field	international
 tacas	cav	CAV	25	yes	depth	field	international
 text-retrieval-conference	european-conference-on-information-retrieval	European Conference on Information Retrieval	3	yes	breadth	field	international
 text-retrieval-conference	sigir	SIGIR	3	no	depth	field	international
@@ -1637,7 +1430,6 @@ the-economic-journal	journal-of-the-european-economic-association	Journal of the
 the-embo-journal	molecular-cell	Molecular Cell	3	no	depth	field	international
 the-embo-journal	nature-cell-biology	Nature Cell Biology	3	no	breadth	field	international
 the-lancet-diabetes-and-endocrinology	the-lancet	The Lancet	10	yes	breadth	field	international
-the-lancet-diabetes-and-endocrinology	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
 the-lancet-digital-health	the-lancet	The Lancet	6	yes	breadth	field	international
 the-lancet-digital-health	cell-reports-medicine	Cell Reports Medicine	2	no	breadth	field	international
 the-lancet-digital-health	nature-medicine	Nature Medicine	2	no	breadth	field	international
@@ -1650,12 +1442,9 @@ the-lancet-psychiatry	the-lancet	The Lancet	10	yes	breadth	field	international
 the-lancet-psychiatry	jama	JAMA	2	yes	depth	field	international
 the-lancet-public-health	the-lancet	The Lancet	10	yes	breadth	field	international
 the-lancet-respiratory-medicine	the-lancet	The Lancet	9	yes	breadth	field	international
-the-lancet-respiratory-medicine	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
 the-plant-cell	the-plant-journal	The Plant Journal	2	no	breadth	field	international
 the-web-conference	kdd	KDD	15	yes	depth	field	international
 the-web-conference	sigir	SIGIR	14	yes	depth	field	international
-the-web-conference	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	13	no	breadth	field	international
-the-web-conference	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	12	no	breadth	field	international
 the-web-conference	wsdm	WSDM	12	yes	depth	field	international
 the-web-conference	cikm	CIKM	9	yes	depth	field	international
 uai	aistats	AISTATS	20	yes	depth	field	international
@@ -1664,13 +1453,11 @@ uai	neurips	NeurIPS	11	yes	depth	field	international
 uai	colt	COLT	6	yes	depth	field	international
 uai	journal-of-machine-learning-research	Journal of Machine Learning Research	3	no	breadth	field	international
 uai	iclr	ICLR	2	yes	depth	field	international
-uist	chi	CHI	23	yes	depth	field	international
-uist	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	17	no	breadth	field	international
+uist	chi	CHI	16	yes	depth	field	international
 uist	cscw	CSCW	7	yes	depth	field	international
 uist	acm-conference-on-intelligent-user-interfaces	ACM Conference on Intelligent User Interfaces	5	no	breadth	field	international
 uist	acm-international-conference-on-tangible-embedded-and-embodied-interaction	ACM International Conference on Tangible, Embedded, and Embodied Interaction	5	no	breadth	field	international
 uist	ieee-international-symposium-on-mixed-and-augmented-reality	IEEE International Symposium on Mixed and Augmented Reality	4	no	breadth	field	international
-uist	the-accounting-review	The Accounting Review	4	no	depth	top-3 accounting	international
 usenix-annual-technical-conference	atc	ATC	12	no	depth	field	international
 usenix-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	10	no	breadth	field	international
 usenix-security	ndss	NDSS	7	yes	depth	field	international
@@ -1687,7 +1474,6 @@ vis	cvpr	CVPR	6	yes	depth	field	international
 vis	representations	Representations	3	no	breadth	field	international
 vis	uist	UIST	3	yes	depth	field	international
 vis	ieee-international-symposium-on-mixed-and-augmented-reality	IEEE International Symposium on Mixed and Augmented Reality	2	no	breadth	field	international
-vis	public-administration-review	Public Administration Review	2	no	depth	field	international
 vldb	sigmod	SIGMOD	12	yes	depth	field	international
 vldb	icde	ICDE	6	yes	depth	field	international
 vldb	pods	PODS	5	yes	depth	field	international
@@ -1705,22 +1491,18 @@ wacv	neurips	NeurIPS	2	yes	depth	field	international
 world-bank-economic-review	journal-of-development-economics	Journal of Development Economics	23	yes	depth	field	international
 world-bank-economic-review	world-development	World Development	17	no	depth	field	international
 world-bank-economic-review	journal-of-economic-literature	Journal of Economic Literature	4	no	depth	field	international
-world-bank-economic-review	comparative-political-studies	Comparative Political Studies	3	no	depth	field	international
 world-development	journal-of-development-economics	Journal of Development Economics	20	no	depth	field	international
 world-development	world-bank-economic-review	World Bank Economic Review	12	no	depth	field	international
-world-development	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
-world-economic-studies	acm-interactive-surfaces-and-spaces	ACM Interactive Surfaces and Spaces	2	no	breadth	field	international
 world-politics	journal-of-politics	Journal of Politics	11	yes	depth	field	international
 world-politics	international-organization	International Organization	7	no	depth	field	international
 world-politics	american-journal-of-political-science	American Journal of Political Science	6	yes	depth	top-3 polisci	international
 world-politics	american-political-science-review	American Political Science Review	6	yes	depth	top-3 polisci	international
 world-politics	comparative-political-studies	Comparative Political Studies	6	yes	depth	field	international
-wsdm	siam-international-conference-on-data-mining	SIAM International Conference on Data Mining	145	no	breadth	field	international
 wsdm	sigir	SIGIR	25	yes	depth	field	international
-wsdm	kdd	KDD	18	yes	depth	field	international
+wsdm	kdd	KDD	15	yes	depth	field	international
 wsdm	cikm	CIKM	12	yes	depth	field	international
 wsdm	recsys	RecSys	10	yes	depth	field	international
 wsdm	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	7	no	breadth	field	international
-wsdm	ieee-transactions-on-antennas-and-propagation	IEEE Transactions on Antennas and Propagation	6	no	breadth	field	international
+wsdm	pnas	PNAS	3	no	depth	field	international
 wsdm	sigmod	SIGMOD	3	yes	depth	field	international
-yale-law-journal	physical-review-e	Physical Review E	2	no	breadth	field	international
+wsdm	neurips	NeurIPS	2	yes	depth	field	international

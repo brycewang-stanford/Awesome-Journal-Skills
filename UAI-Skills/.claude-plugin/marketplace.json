@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "uai-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for UAI manuscript planning, OpenReview submission, author response, reproducibility, artifact packaging, and PMLR camera-ready work at the Conference on Uncertainty in Artificial Intelligence.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "uai-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve UAI-specific skills for probabilistic-AI conference submission strategy, grounded in official AUAI / UAI 2026 conference pages, the UAI OpenReview group, PMLR proceedings volumes, and the AUAI Code of Conduct.",
       "author": {

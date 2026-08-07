@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "soda-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for SODA (ACM-SIAM Symposium on Discrete Algorithms): manuscript planning, HotCRP submission, the short rebuttal, SIAM proceedings camera-ready, and ALENEX/SOSA satellite routing.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "soda-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve SODA-specific skills for algorithms-conference submission strategy, grounded in the SODA 2027 SIAM conference and submission pages, the soda27 HotCRP site, SIAM epubs proceedings volumes, and dblp, checked on 2026-07-08.",
       "author": {

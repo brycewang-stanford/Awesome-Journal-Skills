@@ -22,6 +22,11 @@ own depth pack (289) or are profiled inside a discipline breadth bundle (454).
 
 ## Step 1 — Profile the paper (extract five signals)
 
+Write these down **once**, in the shape of [`paper-profile.md`](paper-profile.md). Every
+downstream skill reads that file rather than re-deriving the five signals from the
+manuscript — three readings of one paper produce three slightly different papers, and
+the disagreement shows up as advice that contradicts itself.
+
 From the abstract / draft, pin down:
 
 1. **Discipline + subfield** — maps to the `discipline` column of `venue-index.tsv`
@@ -37,21 +42,38 @@ From the abstract / draft, pin down:
 5. **Ambition / strength** — how general-interest and how clean the identification is.
    Calibrates reach vs safe (be honest here; over-reaching wastes months).
 
-## Step 2 — Build the candidate set (from the index)
+## Step 2 — Build the candidate set (run the matcher)
 
-Filter [`venue-index.tsv`](venue-index.tsv) by `discipline` (and adjacent disciplines —
-a labor paper fits `economics/labor`, general `economics`, and sometimes
-`economics/public`), then by `lane` (don't send a qualitative paper to an
-empirical-only venue), `region`, and `venue_type`.
+```bash
+python3 tools/match_venues.py \
+    --title "..." --abstract "..." \
+    --discipline economics/labor --lane empirical --top 15
+```
 
-Then narrow with **`scope_keywords`** — terms derived from each venue's own scope prose.
-Match them against the abstract; they are the fastest way to separate two venues that
-share a discipline label. They are *derived, not curated*: treat a keyword hit as a
-reason to open the venue's profile, never as a fit judgement on its own.
+This step used to read "filter the index by discipline, then narrow on
+`scope_keywords`" — an instruction carried out by eye, differently every time, over a
+570 KB file. It is now a command, for three reasons: it is reproducible, it searches the
+full 300-term scope vocabulary per venue rather than the 40 published in the index, and
+it is **the same code path the evaluation scores**, so the number in
+[`eval/RESULTS.md`](eval/RESULTS.md) describes what you actually ran.
 
-Getting the discipline right in Step 1 matters more than it looks: restricting
-candidates to the correct discipline lifts retrieval of the true venue by roughly 15
-points ([`eval/RESULTS.md`](eval/RESULTS.md)).
+Useful flags: `--only-discipline` to hard-filter when you are certain,
+`--exclude <venue_id>` for venues that already rejected the paper, `--lane` / `--region`
+/ `--venue-type` / `--coverage` to narrow, `--json` to pipe, `--list-disciplines` for the
+vocabulary.
+
+**`--discipline` is a prior, not a filter.** The discipline and its adjacents
+([`discipline-adjacency.tsv`](discipline-adjacency.tsv), derived from the venue graph —
+a labour paper reaches general `economics` and `economics/public` automatically) are
+boosted, but a strong match elsewhere still surfaces. Getting Step 1 right is worth a
+lot — a correct discipline lifts recall@10 from 40.5% to 51.3%, and to 62.0% if you
+trust it enough to filter — but a wrong guess under a hard filter deletes the right
+answer outright, which is why the default is soft.
+
+Each row reports the terms it matched on. **Read them.** A candidate that scored on one
+generic word is not a candidate; the matched terms are there so that a nonsense hit is
+visible as one. Scope terms are *derived, not curated*: a hit is a reason to open the
+venue's profile, never a fit judgement on its own.
 
 Every venue is in the index. `coverage` tells you what you will find behind it:
 `depth` → a full pack with a live-checked `source_map`; `breadth` → a single venue
@@ -127,6 +149,19 @@ often re-aims cleanly to a strong field journal; a referee reject usually means 
 the binding objection (via the pack's `*-robustness` / `*-identification` skill) before
 re-sending.
 
+Then **cost the ladder**, because the sequence is what spends the year, not the venue:
+
+```bash
+python3 tools/ladder_ev.py \
+    --rung "Journal of Finance:0.05:4.5" \
+    --rung "Review of Financial Studies:0.08:5.0" \
+    --rung "JFQA:0.20:3.5" --rung "Journal of Banking and Finance:0.35:2.5"
+```
+
+It returns expected months, the probability of placing at all, and the probability of
+running the ladder out — with a sensitivity band, because `p_accept` is a judgement and
+not a measurement. See [`rt-ladder-ev`](../../Research-Toolkit-Skills/skills/rt-ladder-ev/SKILL.md).
+
 ---
 
 ## Output format
@@ -159,10 +194,16 @@ re-sending.
 3. **Be honest about odds.** Don't inflate a paper into a reach it cannot clear, or
    bury a realistic match.
 4. **Coverage honesty.** If a plausible venue is outside the index and its breadth bundle,
-   say so rather than forcing a poor fit.
+   say so rather than forcing a poor fit — and route to
+   [`rt-venue-integrity`](../../Research-Toolkit-Skills/skills/rt-venue-integrity/SKILL.md)
+   before the author submits somewhere this repository cannot vouch for.
+5. **The matcher retrieves; you recommend.** Its ranking is a reading list. Nothing
+   reaches the author that you have not read the pack for.
 
 ---
-*Stable index: [`venue-index.tsv`](venue-index.tsv) (743 venues) and
+*Runs on: [`tools/match_venues.py`](../../tools/match_venues.py) (step 2) and
+[`tools/ladder_ev.py`](../../tools/ladder_ev.py) (step 6).
+Stable index: [`venue-index.tsv`](venue-index.tsv) (743 venues) and
 [`ladder.tsv`](ladder.tsv) (1,725 adjacency edges) — both generated from the repository;
 regenerate when packs are added. Retrieval quality is measured in
 [`eval/`](eval/README.md). Volatile facts: each pack's `resources/official-source-map.md`.

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "american-anthropologist-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at American Anthropologist (AA), the flagship four-field journal of the American Anthropological Association.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "american-anthropologist-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the American Anthropologist (AA) manuscript lifecycle across the four subfields, with ethnographic/qualitative inference as first-class and research ethics, consent, and accountability at the center.",
       "author": {

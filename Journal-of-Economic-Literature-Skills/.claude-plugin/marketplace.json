@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jel-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An agent skill stack for writing survey and review articles for the Journal of Economic Literature (JEL), the American Economic Association's survey-of-record journal.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jel-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Journal of Economic Literature (JEL) survey-article lifecycle, from topic selection and the proposal/commissioning route through synthesis, framework-building, balance, submission, and revision.",
       "author": {

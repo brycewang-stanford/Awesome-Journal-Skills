@@ -1,7 +1,7 @@
 {
   "name": "rfs-skills",
   "description": "Agent skill stack for submitting to The Review of Financial Studies (RFS) — OUP for the Society for Financial Studies, Executive Editor Tarun Ramadorai. Encodes RFS-specific facts: Registered Reports (the first pre-results-review track in finance/economics), SFS Cavalcade dual submission, the SFS Editorial Express portal, the mandatory public code-release condition, a 100-word abstract, and Chicago Manual of Style author-date references. Covers novelty-plus-rigor topic selection, literature positioning, causal/asset-pricing identification, empirical and structural design, robustness and multiple-testing discipline, OUP exhibits, the Internet Appendix, referee strategy, and multi-round rebuttals. Bilingual en / zh-CN docs; Stata / R / Python references.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

@@ -1,7 +1,7 @@
 {
   "name": "kdd-skills",
   "description": "A 12-skill depth pack for ACM SIGKDD (KDD) submissions: Research vs Applied Data Science track selection, dual-cycle OpenReview submission, rebuttal without hyperlinks, Resubmit-decision strategy, ACM sigconf formatting, TAPS camera-ready, reproducibility, and deployment evidence. Grounded in official KDD 2026 track CFPs and OpenReview groups checked on 2026-07-08.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "icsme-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for IEEE ICSME maintenance/evolution submissions: venue routing, the single-round early-decision research track and author-response rebuttal, double-anonymous EasyChair submission on the IEEEtran budget, Journal-First and Registered Reports and RENE tracks, MSR and technical-debt evidence, and the ROSE Festival IEEE artifact badges.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "icsme-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ICSME-specific skills for the IEEE International Conference on Software Maintenance and Evolution, its single-round double-anonymous research track, and its Journal-First, Registered Reports, RENE, and ROSE-Festival artifact culture, grounded in the ICSME 2026 researchr call, IEEE Xplore, and dblp.",
       "author": {

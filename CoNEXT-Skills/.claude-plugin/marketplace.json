@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "conext-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM CoNEXT manuscript routing, the two-cycle (December/June) calendar, journal-style one-shot major-revision handling, double-anonymous submission, systems-networking evidence, SIGCOMM public review and shepherding, reproducibility badging, and PACMNET camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "conext-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve CoNEXT-specific skills for the ACM International Conference on emerging Networking EXperiments and Technologies and its PACMNET journal-style publication model, grounded in the CoNEXT 2026/2025 calls, PACMNET journal pages, ACM Digital Library, and dblp.",
       "author": {

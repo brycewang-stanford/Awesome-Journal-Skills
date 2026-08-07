@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "population-and-development-review-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Population and Development Review (PDR), the Population Council's quarterly journal published by Wiley at the intersection of demography and development.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "population-and-development-review-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Population and Development Review (PDR) manuscript lifecycle across the demography-and-development intersection, with demographic methods (life tables, decomposition, event history, age-period-cohort, projections), synthetic-essay craft, double-anonymized review, Free Format ScholarOne submission, and no author fees under the standard model.",
       "author": {

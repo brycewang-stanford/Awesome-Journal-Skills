@@ -1,0 +1,206 @@
+#!/usr/bin/env python3
+"""Step-2 candidate generation for journal-match: rank venues against a paper's text.
+
+``journal-match.md`` step 2 used to read "filter `venue-index.tsv` by discipline, then
+narrow on `scope_keywords`" — an instruction an agent carried out by eye, differently
+every time, over a 570 KB file. That made the step unreproducible and made the eval a
+measurement of something nobody actually ran.
+
+This module is that step, executed the same way by ``tools/match_venues.py`` (what the
+skill invokes) and ``tools/eval_journal_match.py`` (what CI scores). Improving retrieval
+now means improving one function that both the product and the metric go through.
+
+What it is not: a recommendation. It returns *candidates to read*. Fit, odds, cost and
+audience are judged by the agent against each venue's own pack and source map — see
+steps 3-6 of ``shared-resources/journal-selection/journal-match.md``.
+"""
+
+from __future__ import annotations
+
+import csv
+import math
+from collections import Counter, defaultdict
+from dataclasses import dataclass, field
+from pathlib import Path
+
+from venue_lib import ROOT, index_digest, tokenize
+
+INDEX = ROOT / "shared-resources/journal-selection/venue-index.tsv"
+POSTINGS = ROOT / "shared-resources/journal-selection/scope-postings.tsv"
+ADJACENCY = ROOT / "shared-resources/journal-selection/discipline-adjacency.tsv"
+
+# --- weighting ---------------------------------------------------------------------
+# Chosen on the gold set's `dev` half only; the headline in eval/RESULTS.md is computed
+# on `test`, which none of these were fitted to. All four sit on a plateau (dev R@10
+# varies by 0.3 points across the top of the grid), so they are set to the reading that
+# is easiest to justify rather than to the arithmetic maximum.
+
+# A keyword's rank within its venue is evidence about that keyword, not about the venue:
+# term 1 of 300 is what the venue is about, term 280 is something it once mentioned.
+RANK_DECAY = 2.0
+# A phrase keyword is *weaker* evidence than a rare single word, not stronger: TF-IDF
+# bigrams drawn from prose are mostly incidental collocations ("recent work", "panel
+# data"), whereas a rare unigram is usually a subject term. Setting this above 1.0 —
+# the intuitive choice — cost 17 points of recall@10.
+PHRASE_BONUS = 0.6
+# The individual words inside a phrase keyword add almost nothing: if they carried the
+# meaning they are already present as unigrams in their own right.
+PART_DISCOUNT = 0.1
+# Discipline is a prior, not a filter. Getting it wrong should cost a paper its ranking,
+# not its only correct answer — a hard filter deletes the true venue outright, and Step 1
+# profiling is a judgement call that will sometimes be wrong.
+DISCIPLINE_BOOST = 2.2
+ADJACENT_BOOST = 1.5
+# Agreement across several distinct terms beats one lucky rare word. Without this, a
+# design conference topped a minimum-wage paper's shortlist on the single word "design"
+# while the labour-economics journals below it matched six terms each.
+COORD_K = 4.0
+
+
+@dataclass
+class Hit:
+    venue: dict
+    score: float
+    terms: list[tuple[str, float]] = field(default_factory=list)
+
+    def why(self, limit: int = 6) -> str:
+        return ", ".join(t for t, _ in self.terms[:limit])
+
+
+def load_venues(path: Path = INDEX) -> list[dict]:
+    with path.open(encoding="utf-8") as handle:
+        return list(csv.DictReader(handle, delimiter="\t"))
+
+
+def load_adjacency(path: Path = ADJACENCY) -> dict[str, set[str]]:
+    """discipline -> disciplines whose venues are named as alternatives to its own."""
+    out: dict[str, set[str]] = defaultdict(set)
+    if not path.exists():
+        return out
+    with path.open(encoding="utf-8") as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            out[row["discipline"]].add(row["adjacent_discipline"])
+    return out
+
+
+class IndexMismatch(RuntimeError):
+    """The postings file does not describe the index that was loaded."""
+
+
+class VenueMatcher:
+    def __init__(self, venues: list[dict] | None = None,
+                 postings_path: Path = POSTINGS,
+                 adjacency: dict[str, set[str]] | None = None):
+        self.venues = venues if venues is not None else load_venues()
+        self.adjacency = adjacency if adjacency is not None else load_adjacency()
+        self.postings: dict[str, list[tuple[int, float]]] = defaultdict(list)
+        self._load_postings(postings_path)
+
+    # --- index loading ------------------------------------------------------
+
+    def _load_postings(self, path: Path) -> None:
+        depth = 300
+        declared_rows = None
+        declared_digest = None
+        raw: dict[str, list[tuple[int, int]]] = {}
+        with path.open(encoding="utf-8") as handle:
+            for line in handle:
+                line = line.rstrip("\n")
+                if not line:
+                    continue
+                if line.startswith("#"):
+                    key, _, value = line[1:].partition("\t")
+                    if key == "depth" and value.isdigit():
+                        depth = int(value)
+                    elif key == "venues" and value.isdigit():
+                        declared_rows = int(value)
+                    elif key == "digest":
+                        declared_digest = value
+                    continue
+                term, _, refs = line.partition("\t")
+                pairs = []
+                for ref in refs.split(","):
+                    row, _, rank = ref.partition(":")
+                    pairs.append((int(row), int(rank)))
+                raw[term] = pairs
+
+        stale = "regenerate with tools/gen_venue_index.py"
+        if declared_rows is not None and declared_rows != len(self.venues):
+            raise IndexMismatch(
+                f"{path.name} describes {declared_rows} venues but the index holds "
+                f"{len(self.venues)} — {stale}")
+        # The count alone would pass for a same-size reordering, and every posting would
+        # then be attributed to the wrong venue — silently, and plausibly.
+        if declared_digest:
+            actual = index_digest([v["venue_id"] for v in self.venues])
+            if actual != declared_digest:
+                raise IndexMismatch(
+                    f"{path.name} was built against a different venue ordering "
+                    f"(digest {declared_digest}, index {actual}) — {stale}")
+
+        n = max(len(self.venues), 1)
+        # Document frequency is computed from the postings themselves, so the weighting
+        # never has to be kept in sync with a second file.
+        for term, pairs in raw.items():
+            idf = math.log(n / (1 + len(pairs)))
+            if idf <= 0:
+                continue
+            phrase = PHRASE_BONUS if " " in term else 1.0
+            for row, rank in pairs:
+                weight = idf * phrase / (1 + RANK_DECAY * rank / depth)
+                self.postings[term].append((row, weight))
+                if " " in term:
+                    for part in term.split():
+                        self.postings[part].append((row, weight * PART_DISCOUNT))
+
+    # --- querying -----------------------------------------------------------
+
+    @staticmethod
+    def query_terms(text: str) -> set[str]:
+        words = tokenize(text)
+        return set(words) | {f"{a} {b}" for a, b in zip(words, words[1:])}
+
+    def rank(self, text: str, *, discipline: str | None = None,
+             lane: str | None = None, region: str | None = None,
+             venue_type: str | None = None, coverage: str | None = None,
+             exclude: set[str] | None = None,
+             only_discipline: bool = False,
+             limit: int | None = None) -> list[Hit]:
+        exclude = exclude or set()
+        adjacent = self.adjacency.get(discipline, set()) if discipline else set()
+
+        scores: Counter = Counter()
+        contributions: dict[int, Counter] = defaultdict(Counter)
+        for term in self.query_terms(text):
+            for row, weight in self.postings.get(term, ()):
+                scores[row] += weight
+                contributions[row][term] += weight
+
+        hits: list[Hit] = []
+        for row, base in scores.items():
+            venue = self.venues[row]
+            if venue["venue_id"] in exclude:
+                continue
+            if lane and lane not in venue["lane"]:
+                continue
+            if region and venue["region"] != region:
+                continue
+            if venue_type and venue["venue_type"] != venue_type:
+                continue
+            if coverage and venue["coverage"] != coverage:
+                continue
+            matched = len(contributions[row])
+            score = base * matched / (matched + COORD_K)
+            if discipline:
+                if venue["discipline"] == discipline:
+                    score *= DISCIPLINE_BOOST
+                elif venue["discipline"] in adjacent:
+                    score *= ADJACENT_BOOST
+                elif only_discipline:
+                    continue
+            hits.append(Hit(venue, score,
+                            contributions[row].most_common(8)))
+
+        # deterministic tie-break so a number is reproducible run to run
+        hits.sort(key=lambda h: (-h.score, h.venue["venue_id"]))
+        return hits[:limit] if limit else hits

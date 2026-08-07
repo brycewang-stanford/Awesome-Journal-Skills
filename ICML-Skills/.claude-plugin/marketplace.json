@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "icml-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ICML manuscript planning, submission, review response, reproducibility, artifacts, and camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "icml-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ICML-specific skills for ML conference submission strategy, grounded in official ICML 2026 author instructions, CFP, Peer Review FAQ, review instructions, and LLM-review policy.",
       "author": {

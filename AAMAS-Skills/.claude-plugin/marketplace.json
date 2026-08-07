@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aamas-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for AAMAS venue routing, OpenReview submission, the double-blind rebuttal, multiagent reproducibility, artifacts, and IFAAMAS/ACM camera-ready work on autonomous agents and multiagent systems.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aamas-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve AAMAS-specific skills for autonomous-agents and multiagent-systems submission strategy, grounded in the official AAMAS 2026 Call for Papers, submission instructions, IFAAMAS proceedings, and the AAMAS 2027 OpenReview group.",
       "author": {

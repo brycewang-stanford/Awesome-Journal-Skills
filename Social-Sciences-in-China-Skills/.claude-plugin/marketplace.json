@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "social-sciences-in-china-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《中国社会科学》, the comprehensive philosophy-and-social-science flagship of the Chinese Academy of Social Sciences (literature, history, philosophy, economics, law, sociology, politics) — emphasizing 思想分量 over method and the footnote (页下注) citation style, not single-discipline empirical work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "social-sciences-in-china-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Eleven-skill bundle covering the 《中国社会科学》 manuscript lifecycle: workflow router, fit positioning, problematic framing, original-theory contribution, theory-tradition literature dialogue, argumentation rigor, evidence handling, scholarly style, abstract + keywords, submission preflight, and rebuttal.",
       "author": {

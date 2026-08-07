@@ -1,7 +1,7 @@
 {
   "name": "econometrica-skills",
   "description": "Agent skill stack for submitting to Econometrica (Econometric Society, published by Wiley; founded 1933), the field's flagship for rigorous economic THEORY (micro, game, decision theory, mathematical economics) and ECONOMETRIC METHODS — theorem-proof papers and new estimators, not applied 'top-5' causal-inference papers. Covers theorem-driven topic selection, methods/theory-literature positioning, identification and asymptotic theory (or axioms and existence/uniqueness), proof-strategy and generality, Monte Carlo and finite-sample evidence, simulation exhibits, terse formal house style, the Econometric Society Data and Code Availability Policy (Data Editor reproducibility checks; Zenodo deposit), Supplemental Material, the 45-page limit, Editorial Express submission and the ES-member submission fee, referee and co-editor strategy, conditional acceptance, and multi-round rebuttals.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

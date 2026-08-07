@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ectj-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at The Econometrics Journal (EctJ), the Royal Economic Society's econometrics (theory + applied) journal.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ectj-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering The Econometrics Journal (EctJ) manuscript lifecycle — leading-case fit, asymptotics, Monte Carlo, required empirical application, the ~20-page LaTeX-template format, and the conditional-on-acceptance replication package.",
       "author": {

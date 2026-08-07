@@ -44,6 +44,7 @@ from venue_lib import (
     frontmatter_description,
     h1_display_name,
     identity_keys,
+    index_digest,
     is_depth_pack,
     ranking_labels,
     read,
@@ -75,6 +76,14 @@ COLUMNS = [
 ]
 
 OUT = ROOT / "shared-resources/journal-selection/venue-index.tsv"
+POSTINGS_OUT = ROOT / "shared-resources/journal-selection/scope-postings.tsv"
+
+# Two consumers, two depths. A human (or an agent skimming the index) wants the handful
+# of terms that characterise a venue; a retrieval pass wants the long tail, because the
+# term a given paper happens to share with its venue is usually not in the top forty.
+# Publishing both from one ranked list keeps them consistent by construction.
+KEYWORD_DEPTH = 300
+INDEX_KEYWORDS = 40
 
 
 def collect() -> list[dict]:
@@ -164,10 +173,12 @@ def collect() -> list[dict]:
             })
 
     # --- scope keywords, derived across the whole corpus --------------------
-    keywords = derive_keywords({r["venue_id"]: r["_scope"] for r in records})
+    keywords = derive_keywords({r["venue_id"]: r["_scope"] for r in records},
+                               top_n=KEYWORD_DEPTH)
     for record in records:
         terms = keywords.get(record["venue_id"]) or record["venue_id"].split("-")
-        record["scope_keywords"] = ";".join(terms)
+        record["_keywords"] = terms
+        record["scope_keywords"] = ";".join(terms[:INDEX_KEYWORDS])
         del record["_scope"]
 
     records.sort(key=lambda r: (r["discipline"], r["venue_id"]))
@@ -175,11 +186,46 @@ def collect() -> list[dict]:
     return records
 
 
+def render_postings(records: list[dict]) -> str:
+    """The inverted index behind `tools/match_venues.py`, as `term -> venue:rank` pairs.
+
+    Venues are referenced by their **row number in `venue-index.tsv`**, which is what
+    keeps this file small enough to commit. That makes the two files a matched pair, so
+    the header carries the row count and a digest of the venue-id order; the matcher
+    refuses to run against a postings file that does not describe the index it loaded.
+
+    Only the *rank* of a term within its venue is stored, never a score. Weighting is the
+    matcher's business and can be retuned without regenerating three megabytes of data.
+    """
+    postings: dict[str, list[str]] = {}
+    for row, record in enumerate(records):
+        for position, term in enumerate(record["_keywords"]):
+            postings.setdefault(term, []).append(f"{row}:{position}")
+    lines = [
+        f"#venues\t{len(records)}",
+        f"#digest\t{index_digest([r['venue_id'] for r in records])}",
+        f"#depth\t{KEYWORD_DEPTH}",
+        "#term\trow:rank,...",
+    ]
+    lines += [f"{term}\t{','.join(refs)}" for term, refs in sorted(postings.items())]
+    return "\n".join(lines) + "\n"
+
+
+
+
 def render(records: list[dict]) -> str:
     lines = ["\t".join(COLUMNS)]
     for record in records:
         lines.append("\t".join(str(record[c]) for c in COLUMNS))
     return "\n".join(lines) + "\n"
+
+
+def stale(path: Path, text: str, tool: str) -> bool:
+    current = path.read_text(encoding="utf-8") if path.exists() else ""
+    if current == text:
+        return False
+    print(f"FAIL: {path.relative_to(ROOT)} is stale — run `{tool}`", file=sys.stderr)
+    return True
 
 
 def main(argv: list[str]) -> int:
@@ -190,18 +236,20 @@ def main(argv: list[str]) -> int:
 
     records = collect()
     text = render(records)
+    postings_text = render_postings(records)
 
     if args.check:
-        current = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
-        if current != text:
-            print(f"FAIL: {OUT.relative_to(ROOT)} is stale — run "
-                  "`python3 tools/gen_venue_index.py`", file=sys.stderr)
+        tool = "python3 tools/gen_venue_index.py"
+        if stale(OUT, text, tool) or stale(POSTINGS_OUT, postings_text, tool):
             return 1
         print(f"OK: venue index current ({len(records)} venues)")
         return 0
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(text, encoding="utf-8")
+    POSTINGS_OUT.write_text(postings_text, encoding="utf-8")
+    print(f"wrote {POSTINGS_OUT.relative_to(ROOT)} "
+          f"({postings_text.count(chr(10)) - 4} terms, depth {KEYWORD_DEPTH})")
 
     coverage = Counter(r["coverage"] for r in records)
     print(f"wrote {len(records)} venues -> {OUT.relative_to(ROOT)}")

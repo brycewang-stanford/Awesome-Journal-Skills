@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "colt-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for COLT (Conference on Learning Theory) manuscript planning, CMT submission, proof-appendix organization, rebuttal drafting, and PMLR camera-ready work for theorem-first papers.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "colt-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve COLT-specific skills for learning-theory conference strategy, grounded in the COLT 2026 Call for Papers, learningtheory.org conference pages, and PMLR proceedings volumes checked on 2026-07-08.",
       "author": {

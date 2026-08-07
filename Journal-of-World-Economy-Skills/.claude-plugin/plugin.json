@@ -1,7 +1,7 @@
 {
   "name": "journal-of-world-economy-skills",
   "description": "12 Chinese-language agent skills for submitting to 《世界经济》 (The Journal of World Economy) — the CASS-supervised flagship for international / open-economy economics, jointly run by the Chinese Society of World Economy and the CASS Institute of World Economics and Politics (IWEP); monthly, est. 1978, ISSN 1002-9621, CN 11-1138/F. Tuned to the journal's open-economy mandate: open-economy fit gatekeeping vs domestic re-routing, international causal questions, dialogue with international-trade / international-finance classics, customs-micro / cross-country / GVC (KWW) data, external-shock + shift-share (GPSS/BHJ/AKM) and gravity-PPML identification, trade / investment / financial / expectation transmission channels, exposure-based heterogeneity, event-study / gravity / GVC tables and figures, opening-up policy implications, 页下注-footnote submission preflight via www.jweonline.cn, and R&R rebuttals. Verified facts in resources/; verify all formatting against the journal's current 投稿须知.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

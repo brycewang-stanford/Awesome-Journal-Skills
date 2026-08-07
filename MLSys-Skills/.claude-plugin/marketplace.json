@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "mlsys-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for MLSys manuscript planning, OpenReview submission, the compressed author-response window, badge-driven artifact evaluation, performance-measurement rigor, and camera-ready plus proceedings.mlsys.org publication work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "mlsys-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve MLSys-specific skills for machine-learning-and-systems conference submission strategy, grounded in the official MLSys 2026 Call for Research Papers, Industrial Track CFP, Call for Artifact Evaluations, and dates/organization pages.",
       "author": {

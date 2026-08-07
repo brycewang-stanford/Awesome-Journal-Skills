@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -31,7 +32,21 @@ OUT = ROOT / "shared-resources/journal-selection/eval/gold-set.tsv"
 
 # `context` sits mid-row rather than last: it is often empty, and an empty final field
 # leaves a trailing tab that `git diff --check` rejects.
-COLUMNS = ["paper_title", "true_venue_id", "context", "discipline", "region", "venue_type"]
+COLUMNS = ["paper_title", "true_venue_id", "context", "discipline", "region",
+           "venue_type", "lane", "split"]
+
+
+def split_of(title: str) -> str:
+    """Assign a paper to `dev` or `test`, deterministically and for good.
+
+    The matcher's weighting constants are chosen by looking at numbers, and numbers you
+    tune against stop measuring anything. Tuning reads `dev`; the headline that CI gates
+    is computed on `test`, which no constant has ever been fitted to. Splitting on a
+    hash of the title (not on position) keeps the assignment stable as packs are added,
+    so a paper never changes sides and the two halves stay comparable across releases.
+    """
+    digest = hashlib.sha1(title.lower().encode("utf-8")).hexdigest()
+    return "dev" if int(digest, 16) % 2 == 0 else "test"
 
 # Citation entries wrap across lines in many packs, so the bold run is matched with
 # DOTALL and a length bound rather than anchored to a single line.
@@ -88,6 +103,8 @@ def harvest() -> list[dict]:
                 "discipline": venue["discipline"],
                 "region": venue["region"],
                 "venue_type": venue["venue_type"],
+                "lane": venue["lane"],
+                "split": split_of(title),
                 "context": clean(why.group(1))[:300] if why else "",
             })
     gold.sort(key=lambda r: (r["true_venue_id"], r["paper_title"]))

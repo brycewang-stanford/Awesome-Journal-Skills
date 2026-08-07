@@ -28,12 +28,21 @@ from venue_lib import ROOT, acronym_fits, read
 
 INDEX = ROOT / "shared-resources/journal-selection/venue-index.tsv"
 OUT = ROOT / "shared-resources/journal-selection/ladder.tsv"
+ADJACENCY_OUT = ROOT / "shared-resources/journal-selection/discipline-adjacency.tsv"
 
 COLUMNS = ["from_venue", "to_venue", "to_display_name", "mentions", "same_discipline",
            "to_coverage", "to_tier", "to_region"]
 
+ADJACENCY_COLUMNS = ["discipline", "adjacent_discipline", "edges", "share_pct"]
+
 MIN_MENTIONS = 2
 MAX_EDGES_PER_VENUE = 8
+
+# Discipline adjacency is read off the venue graph rather than asserted. A pair has to
+# clear both bars: enough edges to not be one pack's quirk, and a large enough share of
+# the source discipline's outgoing edges to be a habit rather than a stray citation.
+MIN_ADJACENCY_EDGES = 3
+MIN_ADJACENCY_SHARE = 4.0
 
 # An alias only counts if it cannot plausibly appear as ordinary prose. Latin aliases
 # must be long, or carry an internal capital (NeurIPS, CVPR, QJE, AEJ) — which rules
@@ -59,6 +68,21 @@ def aliases_for(row: dict, profile_text: str) -> set[str]:
         if acronym_fits(match, name) or acronym_fits(match, row["venue_id"].replace("-", " ")):
             out.add(match)
     return {a for a in out if len(a) >= 3}
+
+
+def alias_counter(alias: str):
+    """Count occurrences of `alias` as a free-standing name, not as a substring.
+
+    A raw ``str.count`` made every radiology pack look adjacent to The Accounting
+    Review, because *TAR* occurs inside **STAR**D; and half the economics packs looked
+    adjacent to ACM ISS, because *ISS* occurs inside **ISS**N. Latin aliases therefore
+    require non-alphanumeric boundaries. Chinese names have no such boundaries and are
+    long enough not to need them.
+    """
+    if _CJK.search(alias):
+        return lambda text: text.count(alias)
+    pattern = re.compile(rf"(?<![A-Za-z0-9]){re.escape(alias)}(?![A-Za-z0-9])")
+    return lambda text: len(pattern.findall(text))
 
 
 def pack_prose(row: dict) -> str:
@@ -91,6 +115,7 @@ def build() -> list[dict]:
 
     # longest alias first, so "American Economic Review" wins over a contained acronym
     ordered = sorted(alias_to_venue, key=len, reverse=True)
+    counters = {alias: alias_counter(alias) for alias in ordered}
 
     edges: dict[str, Counter] = defaultdict(Counter)
     for venue_id, text in prose.items():
@@ -100,7 +125,7 @@ def build() -> list[dict]:
             target = alias_to_venue[alias]
             if target == venue_id:
                 continue
-            count = text.count(alias)
+            count = counters[alias](text)
             if count:
                 edges[venue_id][target] += count
 
@@ -131,6 +156,55 @@ def render(edges: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def build_adjacency(edges: list[dict]) -> list[dict]:
+    """Which disciplines routinely stand in for one another, per the venue graph.
+
+    Step 1 of ``journal-match.md`` asks for the paper's discipline, and Step 2 then
+    filters on it. A labour-economics paper belongs in ``economics/labor``, but its real
+    shortlist also runs through ``economics``, ``economics/public`` and sometimes
+    ``demography`` — a fact the method stated in prose and left the agent to remember.
+
+    Collapsing the venue-level adjacency graph by discipline turns it into data: if the
+    packs that know labour economics keep naming general-economics venues as the
+    alternative, those disciplines are adjacent. The matcher uses it to *widen* a
+    discipline prior, never to override it.
+    """
+    rows = list(csv.DictReader(INDEX.open(encoding="utf-8"), delimiter="\t"))
+    disc = {r["venue_id"]: r["discipline"] for r in rows}
+
+    pairs: dict[str, Counter] = defaultdict(Counter)
+    totals: Counter = Counter()
+    for edge in edges:
+        source, target = disc.get(edge["from_venue"]), disc.get(edge["to_venue"])
+        if not source or not target:
+            continue
+        totals[source] += 1
+        if source != target:
+            pairs[source][target] += 1
+
+    out: list[dict] = []
+    for source, counter in pairs.items():
+        for target, count in counter.items():
+            share = 100.0 * count / max(totals[source], 1)
+            if count < MIN_ADJACENCY_EDGES or share < MIN_ADJACENCY_SHARE:
+                continue
+            out.append({
+                "discipline": source,
+                "adjacent_discipline": target,
+                "edges": count,
+                "share_pct": f"{share:.1f}",
+            })
+    out.sort(key=lambda r: (r["discipline"], -int(r["edges"]), r["adjacent_discipline"]))
+    return out
+
+
+def render_adjacency(rows: list[dict]) -> str:
+    lines = ["\t".join(ADJACENCY_COLUMNS)]
+    for row in rows:
+        lines.append("\t".join(str(row[c]) for c in ADJACENCY_COLUMNS))
+    return "\n".join(lines) + "\n"
+
+
 def main(argv: list[str]) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true",
@@ -139,22 +213,29 @@ def main(argv: list[str]) -> int:
 
     edges = build()
     text = render(edges)
+    adjacency = build_adjacency(edges)
+    adjacency_text = render_adjacency(adjacency)
 
     if args.check:
-        current = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
-        if current != text:
-            print(f"FAIL: {OUT.relative_to(ROOT)} is stale — run "
-                  "`python3 tools/gen_ladder.py`", file=sys.stderr)
-            return 1
-        print(f"OK: ladder current ({len(edges)} edges)")
+        for path, fresh in ((OUT, text), (ADJACENCY_OUT, adjacency_text)):
+            current = path.read_text(encoding="utf-8") if path.exists() else ""
+            if current != fresh:
+                print(f"FAIL: {path.relative_to(ROOT)} is stale — run "
+                      "`python3 tools/gen_ladder.py`", file=sys.stderr)
+                return 1
+        print(f"OK: ladder current ({len(edges)} edges, "
+              f"{len(adjacency)} discipline pairs)")
         return 0
 
     OUT.write_text(text, encoding="utf-8")
+    ADJACENCY_OUT.write_text(adjacency_text, encoding="utf-8")
     sources = len({e["from_venue"] for e in edges})
     same = sum(1 for e in edges if e["same_discipline"] == "yes")
     print(f"wrote {len(edges)} adjacency edges for {sources} venues -> "
           f"{OUT.relative_to(ROOT)}")
     print(f"  same-discipline edges: {same} ({same * 100 // max(len(edges), 1)}%)")
+    print(f"wrote {len(adjacency)} discipline pairs -> "
+          f"{ADJACENCY_OUT.relative_to(ROOT)}")
     return 0
 
 

@@ -1,0 +1,37 @@
+discipline	adjacent_discipline	edges	share_pct
+clinical-medicine	medicine	12	75.0
+communication	cs-ai (conference)	7	38.9
+communication	cs-ai	3	16.7
+cs-ai	cs-ai (conference)	159	74.0
+cs-ai (CN journal)	cs-ai (conference)	5	50.0
+cs-ai (conference)	cs-ai	51	9.5
+cs-ai (conference)	communication	30	5.6
+econometrics/methods	economics	7	41.2
+economics	social-science	11	22.0
+economics	econometrics/methods	6	12.0
+economics/agricultural	social-science	4	57.1
+economics/international	economics	6	35.3
+economics/international	social-science	4	23.5
+economics/macro	economics	3	33.3
+entrepreneurship	management	3	50.0
+finance	economics	10	17.2
+finance	social-science	4	6.9
+finance	economics/macro	3	5.2
+information-systems	natural-science	4	22.2
+information-systems	management	3	16.7
+international-business	management	3	100.0
+life-sciences	natural-science	3	30.0
+management	social-science	7	10.4
+management	economics	3	4.5
+management	natural-science	3	4.5
+management	political-science	3	4.5
+medicine	natural-science	6	25.0
+natural-science	life-sciences	7	8.5
+natural-science	cs-ai (conference)	6	7.3
+natural-science	chemistry	4	4.9
+natural-science	materials-science	4	4.9
+natural-science	physics	4	4.9
+operations	natural-science	4	30.8
+public-admin	public-policy	3	25.0
+sociology	demography	4	18.2
+sociology/social-psych	sociology	3	60.0

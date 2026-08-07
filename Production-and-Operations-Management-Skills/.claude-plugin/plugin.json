@@ -1,7 +1,7 @@
 {
   "name": "pom-skills",
   "description": "Agent skill stack for manuscripts targeted at Production and Operations Management (POM), the flagship journal of the Production and Operations Management Society (POMS), published by SAGE. Covers the full breadth of operations management — analytical/mathematical modeling (optimization, stochastic models, game theory), empirical OM, behavioral/experimental OM, and operations data science, plus interface areas with finance, marketing, accounting, and information systems. Encodes POM's department-editor routing, practice-relevance gate, 32-page cap with unlimited e-companion, double-blind same-data disclosure, and the strict no-resubmission-after-rejection rule. Bilingual en / zh-CN docs.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

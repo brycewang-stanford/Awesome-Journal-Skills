@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "china-rural-economy-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《中国农村经济》, the top journal in China's agricultural and rural economics field.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "china-rural-economy-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《中国农村经济》 manuscript lifecycle: workflow router, 三农 topic selection, literature review, micro-household identification, mechanism, heterogeneity, tables / figures, rural-revitalization policy implications, abstract, house style, submission preflight, and R&R rebuttal.",
       "author": {

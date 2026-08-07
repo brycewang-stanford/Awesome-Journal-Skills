@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "usenix-security-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for USENIX Security Symposium manuscript planning, HotCRP cycle submission, ethics and Open Science appendices, artifact evaluation, and camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "usenix-security-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve USENIX Security-specific skills for security conference submission strategy, grounded in the USENIX Security '26 Call for Papers, the '27 cycle calendar, the Call for Artifacts, and the ethics guidelines.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "accounting-research-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《会计研究》, the flagship accounting journal of the Accounting Society of China.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "accounting-research-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Thirteen-skill bundle covering the 《会计研究》 manuscript lifecycle: workflow router, accounting-vs-finance fit positioning, topic selection, literature review, institutional/standards background, accounting measurement, quasi-experimental identification, information mechanism, robustness, tables/figures, standard-setter/regulator implications, submission preflight, and rebuttal.",
       "author": {

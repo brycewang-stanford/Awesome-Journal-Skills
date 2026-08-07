@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jeea-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of the European Economic Association (JEEA), the European Economic Association's flagship general-interest journal of theory and empirics.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jeea-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Journal of the European Economic Association (JEEA) manuscript lifecycle, from topic selection through the JEEA Data Editor replication check and R&R rebuttal.",
       "author": {

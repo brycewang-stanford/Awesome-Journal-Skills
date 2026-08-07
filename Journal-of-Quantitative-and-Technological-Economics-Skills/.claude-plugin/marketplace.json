@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "journal-of-quantitative-and-technological-economics-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《数量经济技术经济研究》, the Chinese Academy of Social Sciences journal for quantitative & technical economics, where the contribution is usually measurement, method-application, or forecasting rather than clean causal inference.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "journal-of-quantitative-and-technological-economics-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Thirteen-skill bundle covering the 《数量经济技术经济研究》 manuscript lifecycle: workflow router, fit positioning (measurement/forecasting vs causal), topic selection, literature review, productivity/efficiency measurement, time-series & macro-econometric methods, out-of-sample forecasting evaluation, input-output / CGE / structural decomposition, measurement & parameter sensitivity, quantitative tables/figures, planning/forecasting/industry implications, submission preflight, and rebuttal.",
       "author": {

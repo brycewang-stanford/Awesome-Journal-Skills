@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "acm-ccs-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM CCS manuscript planning, dual-cycle HotCRP submission, rebuttal, artifact evaluation, ethics compliance, and ACM proceedings camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "acm-ccs-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve CCS-specific skills for security-conference submission strategy, grounded in the official ACM CCS 2026 Call for Papers, call for artifacts, HotCRP cycle sites, and SIGSAC award and steering pages.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "name": "accounting-research-skills",
   "description": "Agent skill stack for submitting to 《会计研究》 (Accounting Research) — the flagship journal of the Accounting Society of China and the only accounting title among CSSCI sources (monthly, founded 1980, ISSN 1003-2886, CN 11-1078/F). Built around the journal's defining bar: archival capital-market empirics with accurate institutional / standard-setting detail and an information mechanism, distinguished from generic corporate finance. Covers fit positioning, topic selection, literature review, institutional/standards background, accounting measurement (discretionary accruals, conservatism, disclosure indices), quasi-experimental identification, information mechanism, robustness, tables/figures, standard-setter/regulator implications, submission preflight, and R&R rebuttals.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

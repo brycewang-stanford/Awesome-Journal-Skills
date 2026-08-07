@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：4152 个 Agent Skill、299 个 Pack、522 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：4154 个 Agent Skill、299 个 Pack、522 本顶级期刊、155 个 CS/AI 顶会" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -353,7 +353,18 @@
 用 rt-journal-match：这是我的摘要，该投哪几本、按什么顺序投？
 ```
 
-它会先给稿子画像，再从 **743 本刊/会**的索引里排出 reach / match / safe 三档，并提前写好改投阶梯。选刊的检索环节是**实测过的**，不是自说自话——见 [`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)。
+它会先给稿子画像，再从 **743 本刊/会**的索引里排出 reach / match / safe 三档，并提前写好改投阶梯。
+
+选刊的检索环节不是自说自话，而是**一条可以自己跑的命令**：
+
+```bash
+python3 tools/match_venues.py --title "..." --abstract "..." \
+        --discipline economics/labor --lane empirical --top 15
+```
+
+评测打的就是这条命令走的同一段代码——1738 篇论文的 gold set 切成调参一半、报数一半，**只给标题**时留出集 recall@10 = 40.5%，给对学科时 51.3%（[`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)）。检索只负责**给出该读哪几本**，投不投仍要打开每本刊自己的 pack 和 source-map 来判断。
+
+定了阶梯还可以算账：`rt-ladder-ev` 把「先冲顶刊再降级」和「直接从第二档起投」换算成月数与最终发出去的概率——真正吃掉一年的是**顺序**，不是某一本刊。
 
 > **只想找某一本刊？**[**CATALOG.md**](CATALOG.md) 按学科列出全部 743 本刊/会，每本都标注了要安装的插件名（机器可读版：[`catalog.json`](catalog.json)）。
 
@@ -382,7 +393,7 @@
 | <a id="discipline-agri-env-earth"></a>🌱 **农业·环境·地球科学** | 农业系统 · 作物 · 环境科学 · 气候 · 生态保护 · 地球系统 | Field Crops Research · Agricultural Systems · ES&T · Global Environmental Change · Conservation Biology · Global Change Biology | 深度包 + 农业环境广度合集 |
 | <a id="discipline-sport-science"></a>🏅 **体育科学** | 运动训练 · 体育教育 · 运动人体科学 · 体育社会科学 | 《体育科学》·《北京体育大学学报》·《上海体育学院学报》 | 中文体育学广度合集 |
 
-<sub>共 <b>299 个 pack / 4152 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
+<sub>共 <b>299 个 pack / 4154 个 skill</b>。"深度包"= 单刊单会全流程（约 12 个 skill）；"广度合集"= 每个 venue 一个轻量"选刊定位 + 写作风格"skill 加一个 router。</sub>
 
 ---
 
@@ -1311,7 +1322,7 @@
 | **Claude Scholar** | [claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar) | 选题 → 写作 → 发表（Claude Code / OpenCode / Codex） | upstream |
 | **Codex/Claude 学术 Skills** | [codex-claude-academic-skills](https://github.com/zLanqing/codex-claude-academic-skills) | 阅读 · 写作 · 科学计算 | upstream |
 
-<sub><b>计数口径。</b> 首页 <b>4152</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>299 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3475</b>（289 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>9</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→改投改写→执行→就绪→拒稿风险→预演→回应→复现）= <b>4152</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
+<sub><b>计数口径。</b> 首页 <b>4154</b> = 仓库内全部 <code>SKILL.md</code>，分布在 <b>299 个 pack</b> 中。九个广度合集与深度独立包均计入，因此同时双形态收录的 venue（既有广度 profile，又有深度包）会被计两次。三段对账：<b>3475</b>（289 个仓库内深度包，单刊/单会全流程，每包约 12 个 skill）+ <b>668</b>（9 个广度合集：中文社科 103 + 英文社科 101 + 英文自然科学 155 + 工程技术 41 + 农业环境 31 + 临床医学 31 + 英文人文 37 + 中文体育 13 + CS 会议 156）+ <b>11</b>（1 个跨刊工具包 Research-Toolkit-Skills，按投稿生命周期组织：选刊→阶梯定价→刊物核验→改投改写→执行→就绪→拒稿风险→预演→回应→复现）= <b>4154</b>。AER、Nature 系等第三方包以外链形式收录，不再 vendored，故不计入本仓库的 SKILL.md 计数。该数字由 <code>python3 tools/audit_repo.py</code> 在 CI 中强制校验，README 与实际文件数不允许漂移。</sub>
 
 ---
 
@@ -1633,7 +1644,7 @@ cp -R Economic-Research-Journal-Skills/skills/er-* ~/.claude/skills/
 
 ## 🗺 路线图
 
-**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，补齐了营销与会计的剩余旗舰刊（JIM · JPP&M · AOS），并新增一批学科旗舰深度包——自然科学（Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters）、语言学（Language）、中文重点刊（财贸经济 · 中国管理科学），同时把地理学综述刊 Progress in Human Geography 重建为规范深度包，全仓库现共 **299 个 pack / 4152 个 skill**。路线图现在聚焦下一梯队的扩展。
+**进度：** 九个广度合集已全部落地（含 AI 优先 CS 会议合集、工程技术合集、农业·环境合集、临床医学合集、英文人文合集与中文体育学合集）；深度包已从经管社科扩展到**人文与广义社科**（社会学、人类学、法学、地理学、政治学、心理学、人口、传播、历史、艺术、哲学、文学、宗教共 51 本旗舰刊）以及**环境 / 生态 / 农业** 6 本，补齐了营销与会计的剩余旗舰刊（JIM · JPP&M · AOS），并新增一批学科旗舰深度包——自然科学（Advanced Materials · Nature Geoscience · Molecular Cell · Earth and Planetary Science Letters）、语言学（Language）、中文重点刊（财贸经济 · 中国管理科学），同时把地理学综述刊 Progress in Human Geography 重建为规范深度包，全仓库现共 **299 个 pack / 4154 个 skill**。路线图现在聚焦下一梯队的扩展。
 
 ### ✅ 已落地
 

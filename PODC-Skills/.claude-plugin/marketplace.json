@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "podc-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM PODC manuscript routing, lightweight double-blind submission, the 10-page proceedings budget with an unbounded full version, proof-appendix and model/assumption rigor, the Brief Announcements track, the arXiv full-version norm, and PODC camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "podc-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve PODC-specific skills for the ACM Symposium on Principles of Distributed Computing (distributed-computing theory), grounded in the PODC 2026 call for papers, podc.org, the ACM Digital Library, and dblp.",
       "author": {

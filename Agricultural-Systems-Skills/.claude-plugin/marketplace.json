@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "agsy-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Agricultural Systems, the leading international journal for the systems analysis of agricultural systems.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "agsy-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Agricultural Systems manuscript lifecycle, centered on systems analysis and modelling — whole-farm and food-system interactions, trade-offs, model description and evaluation, and decision support.",
       "author": {

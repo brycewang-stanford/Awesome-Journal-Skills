@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "vldb-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for PVLDB rolling monthly submissions, the revise-and-resubmit cycle, PVLDB proceedings production, the Reproducibility Evaluation, and VLDB conference planning.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "vldb-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve VLDB-specific skills for database-systems paper strategy under the PVLDB rolling monthly journal model, grounded in the PVLDB Volume 19/20 submission guidelines, VLDB 2026/2027 research-track calls, and pVLDB reproducibility pages.",
       "author": {

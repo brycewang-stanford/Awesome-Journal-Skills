@@ -1,7 +1,7 @@
 {
   "name": "management-world-skills",
   "description": "Agent skill stack for submitting to 《管理世界》 (Management World), the top management and applied-economics journal in China. Covers China-context topic selection, institutional-background framing, quasi-experimental identification suited to Chinese policy shocks, mechanism / heterogeneity analysis, CSSCI-grade tables, policy-implication writing, journal house style, and R&R response letters. Bilingual zh-CN / en docs; Stata / R / Python templates.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

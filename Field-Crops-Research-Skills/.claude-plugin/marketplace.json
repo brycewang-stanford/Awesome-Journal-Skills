@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "fcr-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Field Crops Research (FCR), a leading international agronomy and crop-science journal published by Elsevier.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "fcr-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Field Crops Research (FCR) manuscript lifecycle for empirical agronomy and crop science — from multi-environment field-experiment design through mixed-model analysis, yield-gap framing, data-availability declaration, and revision.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sensys-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM/IEEE SenSys manuscript planning, the two-deadline HotCRP review, double-blind submission, real-testbed reproducibility, ACM artifact badges, and camera-ready work at the merged sensing/embedded-AI venue.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sensys-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve SenSys-specific skills for the sensing/embedded-AI conference: topic routing after the SenSys/IPSN/IoTDI merger, two-deadline submission strategy, real-testbed evaluation, energy and low-power measurement, artifacts, and ACM camera-ready, grounded in the SenSys 2026/2027 CFPs.",
       "author": {

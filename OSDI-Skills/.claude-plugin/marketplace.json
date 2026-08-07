@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "osdi-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for OSDI systems-paper planning, HotCRP submission, USENIX open-access publication, sysartifacts artifact evaluation, and evaluation design.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "osdi-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '26 Call for Papers, Call for Artifacts, HotCRP site, and USENIX open-access policy pages.",
       "author": {

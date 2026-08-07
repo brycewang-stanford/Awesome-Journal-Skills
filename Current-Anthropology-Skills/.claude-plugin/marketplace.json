@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "current-anthropology-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Current Anthropology (CA), the transnational all-subfields journal whose Major Articles receive the CA✩ comment-and-reply Treatment, published by the University of Chicago Press for the Wenner-Gren Foundation.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "current-anthropology-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Current Anthropology (CA) manuscript lifecycle across all subfields, with ethnographic/qualitative inference as first-class, research ethics and accountability at the center, and the distinctive CA✩ comment-and-reply Treatment encoded into review and rebuttal.",
       "author": {

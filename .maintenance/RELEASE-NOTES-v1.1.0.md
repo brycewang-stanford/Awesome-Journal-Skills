@@ -1,5 +1,11 @@
 # v1.1.0 Release Notes（草案 · owner 验收后可直接用于 GitHub Release）
 
+> **Superseded — this draft is not the 1.1.0 that shipped.** It was written against a
+> pre-1.0.0 versioning scheme (it dates "v1.0.0" to 2026-07-02) and was never released;
+> every pack was later normalised to `1.0.0` on 2026-08-03. The actual 1.1.0, released
+> 2026-08-08, is in [`CHANGELOG.md`](../CHANGELOG.md). Kept for the Wave 25-A history it
+> records.
+
 > Tag 建议：`v1.1.0`，基于 2026-07-08 的 `claude/repo-analysis-planning-8rqc2w`
 > 合并后的 main。本文件为双语草案；发布时可整段复制。发布动作由 owner 执行，
 > 本草案不代打 tag。

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "kdd-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for KDD (ACM SIGKDD) manuscript planning, Research/ADS track routing, dual-cycle OpenReview submission, rebuttal, reproducibility, and ACM TAPS camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "kdd-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve KDD-specific skills covering data-mining conference strategy across both submission cycles: track selection, sigconf submission, rebuttal, Resubmit handling, deployment evidence, and ACM proceedings publication, grounded in official KDD 2026 CFPs and OpenReview groups.",
       "author": {

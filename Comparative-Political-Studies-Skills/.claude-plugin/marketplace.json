@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "comparative-political-studies-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Comparative Political Studies (CPS), a leading comparative-politics journal published by SAGE.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "comparative-political-studies-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Comparative Political Studies (CPS) manuscript lifecycle across comparative-politics subfields and methods, from comparative-fit framing through the CPS Dataverse replication deposit.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "mind-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for articles targeted at Mind, a leading analytic-philosophy journal published by Oxford University Press on behalf of the Mind Association.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "mind-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Mind article lifecycle for analytic philosophy — from a sharp thesis and sound argument through objections and replies, conceptual method, exposition, the MIND house style, triple-anonymous review, and post-decision revision.",
       "author": {

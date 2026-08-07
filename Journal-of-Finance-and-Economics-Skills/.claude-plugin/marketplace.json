@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "journal-of-finance-and-economics-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《财经研究》 (Journal of Finance and Economics), a CSSCI comprehensive finance-and-economics journal of Shanghai University of Finance and Economics.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "journal-of-finance-and-economics-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《财经研究》 manuscript lifecycle: workflow router, topic selection, literature review, identification, mechanism, heterogeneity, tables / figures, policy implications, abstract, house style, submission preflight, and R&R rebuttal.",
       "author": {

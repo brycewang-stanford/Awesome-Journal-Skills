@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "issta-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ISSTA testing-and-analysis papers: venue routing, HotCRP double-anonymous submission, the major-revision review cycle, ACM-badged artifact evaluation, replication packages, and ACM DL camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "issta-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ISSTA-specific skills for the ACM SIGSOFT testing-and-analysis flagship, grounded in the official ISSTA 2026 Research Papers call, important-dates page, artifact-evaluation track, and ACM Digital Library proceedings.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "annals-aag-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the Annals of the American Association of Geographers (Annals of the AAG), the four-area flagship geography journal of the AAG.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "annals-aag-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Annals of the American Association of Geographers (Annals of the AAG) manuscript lifecycle across the journal's four areas and cross-disciplinary track.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "name": "jfe-skills",
   "description": "Agent skill stack for submitting to the Journal of Financial Economics (JFE; Elsevier; ISSN 0304-405X), a top-3 finance journal founded in 1974, edited by Toni M. Whited (Michigan) with co-editors at Kellogg, Wharton, and NYU Stern. Encodes JFE-specific facts: the US$850 submission fee and refereeing-based submission-rights discounts, the Editorial Manager 'finec' portal, the 100-word abstract and double-spaced author-date format, the mandatory code/nonproprietary-data sharing policy (Mendeley Data, papers from 2021), and the appended Internet Appendix. Covers topic selection, literature positioning, credible identification (natural experiments, IV, staggered DID, RDD), empirical design (factor construction, Fama-MacBeth/GMM, clustered SEs), exhaustive robustness, exhibit craft, house writing style, submission preflight, referee strategy, and R&R rebuttals. Bilingual en / zh-CN docs; Stata / R / Python pointers.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

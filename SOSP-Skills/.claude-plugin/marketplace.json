@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sosp-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for SOSP manuscript planning, HotCRP submission, author response, shepherded camera-ready, sysartifacts artifact evaluation, and the annual SOSP cycle.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sosp-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve SOSP-specific skills for operating-systems conference submission strategy, grounded in the official SOSP 2026 CFP and author guidelines on sigops.org, the sosp26 HotCRP deadlines page, and the sysartifacts artifact-evaluation program.",
       "author": {

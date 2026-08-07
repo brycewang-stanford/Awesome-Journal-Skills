@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ectheory-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Econometric Theory (ET), the Cambridge University Press theorem-proof econometrics journal founded by Peter C. B. Phillips.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ectheory-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Econometric Theory (ET) manuscript lifecycle, from theorem-driven topic selection through single-anonymous review and rebuttal.",
       "author": {

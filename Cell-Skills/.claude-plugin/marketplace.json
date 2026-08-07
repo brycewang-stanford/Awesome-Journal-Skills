@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cell-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Cell (Cell Press), the flagship molecular and cell-biology journal.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "cell-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Cell manuscript lifecycle: workflow router, scope/significance fit, single-narrative framing, the Highlights + eTOC + Graphical Abstract trio, the ≤150-word Summary, main-text writing, display items, STAR Methods + Key Resources Table, data/code availability, Cell Press author–date references, submission preflight + cover letter, and reviewer rebuttal.",
       "author": {

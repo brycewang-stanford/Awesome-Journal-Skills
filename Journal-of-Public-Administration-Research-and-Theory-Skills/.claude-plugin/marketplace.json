@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jpart-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Public Administration Research and Theory (JPART), the theory-and-research flagship of public administration published by OUP for the Public Management Research Association.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jpart-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Journal of Public Administration Research and Theory (JPART) manuscript lifecycle — public-management theory building, experimental and causal research design, and the journal's double-blind, public-data-and-code submission process.",
       "author": {

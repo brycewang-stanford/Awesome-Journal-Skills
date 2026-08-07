@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aes-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "《电子学报》(Acta Electronica Sinica, AES) 电子信息学科中文旗舰月刊的 12 技能深度包：在线投稿、双盲评审、四级审理、修回答复、录用校样、可复现性与选题定位。",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aes-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "面向《电子学报》(Acta Electronica Sinica, AES) 的 12 个中文技能：中国电子学会主办的电子/信息/通信/信号处理旗舰月刊，覆盖 ejournal.org.cn 在线投稿到录用校样的全流程，事实经官网、CNKI/万方与 CCF 目录交叉核验。",
       "author": {

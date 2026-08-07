@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cte-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《财贸经济》, a top CSSCI journal in China's public-finance, monetary-finance, and trade economics field.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "cte-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《财贸经济》 manuscript lifecycle: workflow router, fiscal / financial / trade topic selection, literature review, causal identification, mechanism, heterogeneity, tables / figures, China-policy implications, abstract, house style, submission preflight, and R&R rebuttal.",
       "author": {

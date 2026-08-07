@@ -406,7 +406,11 @@ def score_pack(pack: Path) -> dict:
     # deliberately deepened flagships such as the 18-skill ERJ pack).
     structure = 0.0
     if is_toolkit:
-        structure += 3 if 5 <= n <= 10 and has_router else (1 if n else 0)
+        # The upper bound is a sprawl guard, not a cap on the lifecycle. It was 10 —
+        # the toolkit's size at the time plus one — so the first genuine additions to
+        # the loop (ladder pricing, venue verification) read as sprawl. 14 keeps the
+        # guard meaningful while leaving room for the loop to grow the way it has.
+        structure += 3 if 5 <= n <= 14 and has_router else (1 if n else 0)
     elif is_breadth:
         structure += 3 if n >= 12 and has_router else (1 if n else 0)
     else:

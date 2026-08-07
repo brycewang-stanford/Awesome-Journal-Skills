@@ -1,7 +1,7 @@
 {
   "name": "research-toolkit-skills",
   "description": "Cross-journal author workflow toolkit (9 skills): pick the venue (journal-match over a generated index of 743 venues with a resubmission-ladder graph), reframe a manuscript from one venue to another, run the analysis through the StatsPAI / Stata MCP execution bridge, self-check submission readiness, score desk-reject risk against the target's own documented triggers, rehearse a calibrated referee panel, draft the point-by-point response, and assemble a Data-Editor replication package. Venue-neutral; reads each target pack's skills + official-source-map for the venue bar and live facts.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

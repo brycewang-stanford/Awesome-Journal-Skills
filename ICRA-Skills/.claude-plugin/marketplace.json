@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "icra-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ICRA robotics-paper planning, PaperPlaza submission, video attachments, real-robot evidence, the RA-L presentation pathway, and IEEE Xplore camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "icra-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ICRA-specific skills covering robotics venue routing (direct ICRA vs RA-L with conference presentation), PaperPlaza mechanics, the 6+2 page rule, video attachments, real-robot experiment standards, and IEEE camera-ready publication, anchored to the verified ICRA 2026 cycle and announced ICRA 2027 pages.",
       "author": {

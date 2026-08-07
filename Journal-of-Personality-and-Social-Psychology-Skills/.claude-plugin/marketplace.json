@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jpsp-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Personality and Social Psychology (JPSP), the American Psychological Association's flagship long-format journal of personality and social psychology, organized into three independently edited sections.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jpsp-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Journal of Personality and Social Psychology (JPSP) manuscript lifecycle: choosing the right section (Attitudes and Social Cognition, Interpersonal Relations and Group Processes, Personality Processes and Individual Differences), building multi-study packages, internal meta-analysis, JARS reporting, APA 7th style, TOP-Level-2 transparency, masked review, and the per-section editorial process.",
       "author": {

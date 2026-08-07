@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "facct-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM FAccT: interdisciplinary responsible-AI routing, OpenReview mutually-anonymous submission, the Accept/Revise/Reject revise-and-resubmit cycle, ACM acmart archival proceedings, the required endmatter statements, datasheet/model-card documentation, and the co-located CRAFT program.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "facct-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve FAccT-specific skills for the ACM Conference on Fairness, Accountability, and Transparency, spanning fairness/accountability/transparency as first-class contributions across CS, law, social science, humanities, and policy, grounded in the FAccT 2026 CFP and Author/Reviewer Guides, facctconference.org, the ACM Digital Library, and dblp.",
       "author": {

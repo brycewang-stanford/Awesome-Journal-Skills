@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ajps-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the American Journal of Political Science (AJPS), the flagship journal of the Midwest Political Science Association, built around AJPS's third-party pre-publication replication verification.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ajps-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the American Journal of Political Science (AJPS) manuscript lifecycle, with a dedicated skill for the journal's mandatory third-party verified replication package deposited to the AJPS Dataverse.",
       "author": {

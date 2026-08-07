@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "focs-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for FOCS theory-paper planning, HotCRP submission under the ten-page window, double-blind full versions, the summer review arc, and IEEE proceedings camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "focs-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve FOCS-specific skills for IEEE Symposium on Foundations of Computer Science submission strategy, grounded in the official FOCS 2026 Call for Papers, the IEEE TCMF pages, HotCRP portal, IEEE Xplore proceedings records, and FOCS award citations.",
       "author": {

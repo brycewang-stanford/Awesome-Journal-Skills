@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "icdm-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Depth pack for IEEE ICDM manuscript routing, triple-blind submission, regular-vs-short acceptance strategy, reproducibility, and IEEE Xplore camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "icdm-skills",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ICDM-specific skills for IEEE data-mining conference submission strategy, grounded in the ICDM 2026 Research and Applied Track CFPs, the IEEE ICDM awards pages, IEEE Xplore proceedings, and dblp.",
       "author": {
