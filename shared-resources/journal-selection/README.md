@@ -10,6 +10,7 @@ ranked, reasoned shortlist across the whole repository. Complements the per-jour
 | File | What it gives an agent |
 |---|---|
 | [`journal-match.md`](journal-match.md) | The matching methodology: profile the paper (discipline / method / contribution / setting / ambition) → shortlist candidates with `tools/match_venues.py` → score on Fit × acceptance-odds × turnaround × cost/policy × audience → return a reach/match/safe shortlist + a costed resubmission ladder. Reads volatile facts live from each pack's source-map. |
+| [`worked-example.md`](worked-example.md) | One paper through all six steps with the tool output pasted verbatim — including a plausible-looking candidate that is wrong, and a ladder comparison whose probability difference turns out not to survive its own sensitivity band. |
 | [`paper-profile.md`](paper-profile.md) | The five signals, written down **once** in a small YAML block and read by every downstream toolkit skill, so they stop re-deriving the paper and disagreeing about it. |
 | [`venue-index.tsv`](venue-index.tsv) | **Stable** index of **743 venues** — every venue the repository covers, whether as a depth pack or as a profile inside a discipline bundle. Human-readable: 40 scope terms per venue. |
 | [`scope-postings.tsv`](scope-postings.tsv) | The retrieval index behind the matcher: the same ranked vocabulary, 300 terms deep, inverted. Generated; not meant to be read. |

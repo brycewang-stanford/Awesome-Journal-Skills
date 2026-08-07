@@ -41,6 +41,11 @@ goes from **27.7% to 41.5%** on a newly held-out half of the gold set.
 - **`paper-profile.md`** — the five signals of step 1, written once and read by every
   downstream skill instead of each re-deriving them from the manuscript and quietly
   disagreeing.
+- **`worked-example.md`** — one paper through all six steps with the tool output pasted
+  verbatim (and checked against a fresh run). It shows the parts that matter and are
+  easy to leave out of a demo: a plausible-looking candidate that is wrong on inspection
+  of its matched terms, and a ladder comparison whose headline probability difference
+  does not survive its own sensitivity band.
 - **A dev/test split on the gold set**, assigned by a hash of each paper's title. The
   matcher's four weighting constants are tuned on `dev`; every figure in
   `eval/RESULTS.md` is computed on `test`, and both halves are printed side by side.

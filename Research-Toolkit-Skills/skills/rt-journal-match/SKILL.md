@@ -10,6 +10,9 @@ methodology + the stable venue index live in
 [`shared-resources/journal-selection/journal-match.md`](../../../shared-resources/journal-selection/journal-match.md)
 and [`venue-index.tsv`](../../../shared-resources/journal-selection/venue-index.tsv).
 
+Worked end to end, with real output:
+[`worked-example.md`](../../../shared-resources/journal-selection/worked-example.md).
+
 ## When to trigger
 
 - The author has a result/draft and no settled target.

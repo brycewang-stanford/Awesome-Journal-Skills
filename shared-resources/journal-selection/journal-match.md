@@ -14,6 +14,9 @@ own depth pack (289) or are profiled inside a discipline breadth bundle (454).
 
 ---
 
+**Worked end to end:** [`worked-example.md`](worked-example.md) runs one paper through
+all six steps with the real tool output.
+
 ## When to use
 
 - The author has a result/draft and asks "where should I send this?"
