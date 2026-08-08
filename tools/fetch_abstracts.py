@@ -17,6 +17,12 @@ committed; CI reads the file and never fetches. Rerun it when the gold set grows
     python3 tools/fetch_abstracts.py                # fill in what is missing
     python3 tools/fetch_abstracts.py --refresh      # re-resolve everything
     python3 tools/fetch_abstracts.py --limit 50     # a quick sample
+    python3 tools/fetch_abstracts.py --pause 5      # back off further when throttled
+
+Set ``OPENALEX_MAILTO`` to your address before a full run. OpenAlex's anonymous pool
+throttled a full 1,738-paper run hard enough that it could not complete; the polite pool
+is the documented remedy. The address is not hard-coded here — it goes to a third party,
+so publishing it is the maintainer's decision, not this script's.
 
 Output: ``shared-resources/journal-selection/eval/abstract-terms.tsv``
 """
@@ -38,6 +44,11 @@ from venue_lib import ROOT, tokenize
 
 GOLD = ROOT / "shared-resources/journal-selection/eval/gold-set.tsv"
 OUT = ROOT / "shared-resources/journal-selection/eval/abstract-terms.tsv"
+# Papers OpenAlex answered "no" about. Cached, not committed: it is a fact about the
+# lookup rather than about the repository, and re-asking costs quota that a throttled
+# run does not have. Only genuine answers land here — a rate-limit raises RateLimited
+# and is never recorded, which is the whole reason that exception exists.
+MISSES = ROOT / "tools/.cache/openalex-misses.txt"
 
 COLUMNS = ["paper_title", "openalex_id", "term_count", "abstract_terms"]
 
@@ -46,13 +57,19 @@ API = "https://api.openalex.org/works"
 # address in a public repository is the maintainer's to publish, not this script's.
 # Set OPENALEX_MAILTO to join the polite pool and get a far higher rate allowance.
 MAILTO = os.environ.get("OPENALEX_MAILTO", "")
-PAUSE = 0.4 if MAILTO else 1.1
+DEFAULT_PAUSE = 0.4 if MAILTO else 2.0
 TIMEOUT = 25
 # 429s and 5xx are the API saying "later", not the answer "this paper has no abstract".
 # Treating them as misses is how a rate-limited run quietly produces a small, biased
 # corpus that looks like a complete one.
-RETRIES = 4
-BACKOFF = 5.0
+#
+# The anonymous pool's throttle is not a simple requests-per-second limit — observed
+# behaviour from one address was ~20 requests through, then 429 for minutes, and 429 on
+# 2 of 12 requests even at four seconds apart. Retries are therefore few but long, and
+# the run gives up and checkpoints rather than hammering. **Set `OPENALEX_MAILTO` to
+# your address**: the polite pool is the documented remedy and is much less restrictive.
+RETRIES = 5
+BACKOFF = 15.0
 # A fuzzy title search will happily return a different paper. Require most of the
 # query's words to be present in what comes back before believing the match.
 MIN_TITLE_OVERLAP = 0.7
@@ -146,6 +163,17 @@ def render(rows: list[dict]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def load_misses() -> set[str]:
+    if not MISSES.exists():
+        return set()
+    return {line for line in MISSES.read_text(encoding="utf-8").split("\n") if line}
+
+
+def save_misses(titles: set[str]) -> None:
+    MISSES.parent.mkdir(parents=True, exist_ok=True)
+    MISSES.write_text("\n".join(sorted(titles)) + "\n", encoding="utf-8")
+
+
 def save(rows: list[dict]) -> None:
     """Write the term bags — or leave no file at all when there are none.
 
@@ -164,17 +192,22 @@ def main(argv: list[str]) -> int:
     parser.add_argument("--refresh", action="store_true",
                         help="re-resolve papers already in the file")
     parser.add_argument("--limit", type=int, help="stop after this many lookups")
+    parser.add_argument("--pause", type=float, default=DEFAULT_PAUSE,
+                        help="seconds between lookups; raise it if the API throttles "
+                             f"(default {DEFAULT_PAUSE})")
     args = parser.parse_args(argv)
 
     with GOLD.open(encoding="utf-8") as handle:
         gold = list(csv.DictReader(handle, delimiter="\t"))
     existing = {} if args.refresh else load_existing()
 
-    todo = [row for row in gold if row["paper_title"] not in existing]
+    misses = load_misses() if not args.refresh else set()
+    todo = [row for row in gold
+            if row["paper_title"] not in existing and row["paper_title"] not in misses]
     if args.limit:
         todo = todo[:args.limit]
     print(f"{len(gold)} gold papers · {len(existing)} already resolved · "
-          f"{len(todo)} to look up")
+          f"{len(misses)} known misses · {len(todo)} to look up")
 
     resolved = dict(existing)
     found = failed = 0
@@ -184,6 +217,7 @@ def main(argv: list[str]) -> int:
             hit = fetch(title)
         except RateLimited:
             save(list(resolved.values()))
+            save_misses(misses)
             print(f"\nSTOPPED at {i}/{len(todo)}: the API is rate-limiting and retries "
                   "were exhausted.\nWhat is written so far is kept; rerun later to "
                   "continue where this left off.\nSet OPENALEX_MAILTO=<your address> "
@@ -199,14 +233,17 @@ def main(argv: list[str]) -> int:
             }
             found += 1
         else:
+            misses.add(title)
             failed += 1
         if i % 50 == 0 or i == len(todo):
             print(f"  {i}/{len(todo)}  resolved={found}  unresolved={failed}",
                   flush=True)
             save(list(resolved.values()))
-        time.sleep(PAUSE)
+            save_misses(misses)
+        time.sleep(args.pause)
 
     save(list(resolved.values()))
+    save_misses(misses)
     coverage = len(resolved) / max(len(gold), 1)
     print(f"wrote {len(resolved)} abstract term bags -> {OUT.relative_to(ROOT)} "
           f"({coverage:.0%} of the gold set)")
