@@ -3,7 +3,11 @@
 Use these as **first-stop** source families, then drill down to the specific
 journal's current author-instructions page or submission system. Always prefer the
 publisher's own domain or the submission system over any aggregator copy. Access
-notes reflect checks made while building this bundle (2026-06); re-verify the live
+notes reflect checks made while building this bundle. **Re-checked 2026-08-09:**
+Elsevier's official Agricultural and Biological Sciences journal directory and the
+Agriculture, Ecosystems & Environment journal page still expose journal discovery,
+scope, author, and open-access routes. This is a family-anchor spot check, not a
+blanket re-verification of every title; re-verify the live
 page before any submission-ready advice.
 
 ## Publisher / society author centers

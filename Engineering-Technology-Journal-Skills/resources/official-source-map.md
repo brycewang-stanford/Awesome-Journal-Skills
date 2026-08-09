@@ -3,7 +3,10 @@
 Use these as **first-stop** source families, then drill down to the specific
 journal's current author-instructions page or submission system. Always prefer the
 publisher's own domain or the submission system over any aggregator copy. Access
-notes reflect checks made while building this bundle (2026-06); re-verify the live
+notes reflect checks made while building this bundle. **Re-checked 2026-08-09:** the
+official IEEE Journals Author Center still exposes journal discovery, templates,
+article submission, author tools, and IEEE policies. This is a publisher-anchor spot
+check, not a blanket re-verification of every title; re-verify the live
 page before any submission-ready advice.
 
 ## Publisher / society author centers

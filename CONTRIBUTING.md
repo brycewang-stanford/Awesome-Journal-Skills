@@ -104,10 +104,11 @@ same bar the repo's own maintenance waves are held to:
 6. **Counters** — bump `tools/audit_repo.py` tripwires and both README count
    blocks in the same commit; `python3 tools/run_checks.py --skip-reports`
    passes end-to-end.
-7. **Score floor** — the pack scores **94.0** (the formula ceiling) on
-   `python3 tools/quality_scorecard.py`. Every existing pack sits at 94.0 and
-   CI enforces `--min-score 94` as a regression floor, so a new pack below the
-   ceiling fails the hard checks; build to full spec before opening the PR.
+7. **Score floor** — the pack scores at least **94.0** on
+   `python3 tools/quality_scorecard.py`. The score now reserves six points for
+   current source verification and unresolved-fact discipline, so it distinguishes
+   structurally complete packs from equally complete but stale or uncertain ones.
+   CI enforces `--min-score 94` as a regression floor.
 
 ## How to reuse a pack bundle（如何复用一个 pack bundle）
 

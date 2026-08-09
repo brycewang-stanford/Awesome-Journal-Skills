@@ -23,10 +23,13 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+import datetime as dt
 import json
 import re
 import sys
 from pathlib import Path
+
+from freshness_audit import last_verified
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -339,6 +342,11 @@ def score_pack(pack: Path) -> dict:
     has_resources_readme = (res / "README.md").exists()
     has_source_map = (res / "official-source-map.md").exists()
     has_external = (res / "external_tools.md").exists()
+    source_map_text = ""
+    if has_source_map:
+        source_map_text = (res / "official-source-map.md").read_text(
+            encoding="utf-8", errors="replace"
+        )
     resources_readme_text = ""
     if has_resources_readme:
         resources_readme_text = (res / "README.md").read_text(encoding="utf-8", errors="replace").lower()
@@ -418,7 +426,21 @@ def score_pack(pack: Path) -> dict:
     structure += 1.5 if has_readme else 0
     structure += 1.5 if has_readme_zh else 0
 
-    total = round(depth + trigger + resources + runnable + structure, 1)
+    # Source quality and freshness provide the final six points. The previous
+    # formula topped out at 94, causing every conforming pack to receive the same
+    # nominal "94/100" and hiding the maintenance backlog.
+    unresolved_count = len(re.findall(r"待核实|UNVERIFIED", source_map_text, re.I))
+    verified_date, _ = last_verified(source_map_text, dt.date.today()) if source_map_text else (None, "none")
+    if is_toolkit:
+        evidence = 6.0  # cross-journal toolkit has no venue-specific volatile facts
+    elif verified_date:
+        age_days = (dt.date.today() - verified_date).days
+        freshness_points = 6 if age_days <= 60 else (5 if age_days <= 120 else (3 if age_days <= 365 else 0))
+        evidence = max(0.0, freshness_points - min(2.0, unresolved_count * 0.1))
+    else:
+        evidence = 0.0
+
+    total = round(depth + trigger + resources + runnable + structure + evidence, 1)
     weak_skills = sorted(
         skill_rows,
         key=lambda row: (
@@ -447,6 +469,8 @@ def score_pack(pack: Path) -> dict:
         "worked_examples": has_worked,
         "exemplars": has_exemplars,
         "source_map": has_source_map,
+        "source_last_verified": verified_date.isoformat() if verified_date else None,
+        "unresolved_flags": unresolved_count,
         "exec_bridge": exec_bridge_skills > 0,
         "exec_bridge_skills": exec_bridge_skills,
         "score": total,
@@ -458,6 +482,7 @@ def score_pack(pack: Path) -> dict:
             "resources": resources,
             "runnable": round(runnable, 1),
             "structure": round(structure, 1),
+            "evidence": round(evidence, 1),
         },
     }
 

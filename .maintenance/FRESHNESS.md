@@ -8,22 +8,16 @@
 
 | Verified | Packs |
 |---|---:|
-| 2024-09 | 1 |
 | 2026-06 | 183 |
 | 2026-07 | 110 |
-| unknown | 4 |
+| 2026-08 | 5 |
 
-Provenance: 254 stated explicitly, 40 inferred from the newest date in the file, 4 with no date at all.
+Provenance: 259 stated explicitly, 39 inferred from the newest date in the file, 0 with no date at all.
 
 ## Per pack
 
 | Pack | Kind | Last verified | Provenance |
 |---|---|---|---|
-| Agriculture-Environment-Journal-Skills | bundle | — | none |
-| Clinical-Medicine-Journal-Skills | bundle | — | none |
-| Engineering-Technology-Journal-Skills | bundle | — | none |
-| Journal-of-Management-Information-Systems-Skills | depth | — | none |
-| Journal-of-the-Association-for-Information-Systems-Skills | depth | 2024-09-01 | inferred |
 | The-Econometrics-Journal-Skills | depth | 2026-06-01 | stated |
 | Social-Forces-Skills | depth | 2026-06-02 | stated |
 | Chinese-Sport-Science-Journal-Skills | bundle | 2026-06-19 | inferred |
@@ -317,3 +311,8 @@ Provenance: 254 stated explicitly, 40 inferred from the newest date in the file,
 | Molecular-Cell-Skills | depth | 2026-07-16 | stated |
 | Nature-Geoscience-Skills | depth | 2026-07-16 | stated |
 | Progress-in-Human-Geography-Skills | depth | 2026-07-16 | stated |
+| Agriculture-Environment-Journal-Skills | bundle | 2026-08-09 | stated |
+| Clinical-Medicine-Journal-Skills | bundle | 2026-08-09 | stated |
+| Engineering-Technology-Journal-Skills | bundle | 2026-08-09 | stated |
+| Journal-of-Management-Information-Systems-Skills | depth | 2026-08-09 | stated |
+| Journal-of-the-Association-for-Information-Systems-Skills | depth | 2026-08-09 | stated |

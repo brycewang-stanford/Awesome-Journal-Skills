@@ -46,14 +46,12 @@ jobs:
       - name: External link liveness report (advisory)
         run: python3 tools/external_link_audit.py || true
 
-  # Advisory only: source-map facts (editors, fees, caps, policies) go stale on the
-  # publishers' schedule, not ours. This surfaces the backlog on the weekly run without
-  # failing a build that did not cause it. Tighten --max-age-days as the live-check
-  # campaign catches up, and promote to a hard gate once it holds.
+  # Source-map facts (editors, fees, caps, policies) go stale on the publishers'
+  # schedule, not ours. Unknown dates and records older than one year are hard
+  # failures; the generated dashboard keeps the remaining backlog visible.
   freshness:
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-    continue-on-error: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -64,4 +62,4 @@ jobs:
           python-version: "3.x"
 
       - name: Source-map freshness report
-        run: python3 tools/freshness_audit.py --max-age-days 365 --max-unknown 4
+        run: python3 tools/freshness_audit.py --max-age-days 365 --max-unknown 0

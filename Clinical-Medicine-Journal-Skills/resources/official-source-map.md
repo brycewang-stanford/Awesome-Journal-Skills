@@ -3,7 +3,11 @@
 Use these as **first-stop** source families, then drill down to the specific
 journal's current instructions-for-authors page or submission system. Always prefer
 the publisher's own domain or the submission system over any aggregator copy. Access
-notes reflect checks made while building this bundle (2026-06); re-verify the live
+notes reflect checks made while building this bundle. **Re-checked 2026-08-09:** the
+official ICMJE site exposes its January 2026 Recommendations plus current sections on
+authorship, disclosures, participant protection, clinical trials, manuscript
+preparation, and AI use. This is a cross-cutting-policy spot check, not a blanket
+re-verification of every title; re-verify the live
 page before any submission-ready advice. These are venue-fit aids only — not clinical,
 diagnostic, or regulatory advice.
 
