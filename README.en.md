@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS) — a one-stop index of journal-specific AI submission workflows: 4154 agent skills, 299 packs, 522 top journals, 155 CS/AI venues" width="100%">
+  <img src="assets/banner-en.png" alt="Awesome Journal Skills (AJS): 4154 agent skills, 299 packs, and 743 journal and conference venues" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -66,7 +66,7 @@ Click any discipline name to jump to its explanation. Representative subfields a
     <a href="#-the-skill-packs">📚 The Skill Packs</a> ·
     <a href="#-how-to-use">⚡ How to Use</a> ·
     <a href="showcase/README.md">🧪 Executed Empirical Showcase</a> ·
-    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue Index (289 venues, machine-readable)</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue Index (743 venues, machine-readable)</a> ·
     <a href="#-roadmap">🗺 Roadmap</a> ·
     <a href="README.md">🌐 简体中文</a>
   </sub>
@@ -417,7 +417,7 @@ Rule of thumb: start from a root folder or cover card when browsing, use a bread
 
 ## 📂 200 Root Journal Folders
 
-For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the 4030-skill count stay stable.
+For visual browsing at the repository root, the 200 social-science breadth journals now also have one lightweight folder each: 100 Chinese roadmap journals in pinyin folder names, and 100 English econ / finance / management / business journals in title-style folder names. These folders are navigation entries only; the canonical installable `SKILL.md` files remain inside their bundle directories, so plugin paths and the audited skill count stay stable.
 
 ### Chinese Roadmap Journals · 100 Pinyin Folders
 

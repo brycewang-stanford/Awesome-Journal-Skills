@@ -6,7 +6,8 @@ A pack's version is written in four places that ``audit_repo.py`` requires to ag
 1. ``<pack>/.claude-plugin/plugin.json`` → ``version``
 2. ``<pack>/.claude-plugin/marketplace.json`` → ``version``
 3. ``<pack>/.claude-plugin/marketplace.json`` → ``plugins[].version``
-4. ``.claude-plugin/marketplace.json`` (root) → ``plugins[].version``
+4. ``.claude-plugin/marketplace.json`` (root) → top-level ``version`` and
+   ``plugins[].version``
 
 Editing those by hand across ~300 packs is how versions drift. Imported third-party
 packs are left alone.
@@ -84,6 +85,8 @@ def main(argv: list[str]) -> int:
         touched.add(pack.name)
 
     root = load(ROOT_MARKETPLACE)
+    if args.pack is None:
+        root["version"] = args.version
     updated = 0
     for entry in root.get("plugins", []):
         source = entry.get("source", "").lstrip("./").rstrip("/")

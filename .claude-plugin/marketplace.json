@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "awesome-journal-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Per-journal fit-and-house-style agent skills across economics, business, social science, humanities, natural science, clinical medicine, engineering, and CS conferences — per-journal depth packs plus discipline breadth bundles. Add this marketplace once, then `/plugin install <pack-name>` for any venue.",
   "owner": {
     "name": "Bryce Wang",

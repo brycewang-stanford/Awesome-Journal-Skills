@@ -1,7 +1,7 @@
 # Awesome Journal Skills (AJS)
 
 <p align="center">
-  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS) — 按「期刊」定制的一站式 AI 投稿工作流索引：4154 个 Agent Skill、299 个 Pack、522 本顶级期刊、155 个 CS/AI 顶会" width="100%">
+  <img src="assets/banner-zh.png" alt="Awesome Journal Skills (AJS)：4154 个 Agent Skill、299 个 Pack、743 个期刊与会议 venue" width="100%">
 </p>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
@@ -66,7 +66,7 @@
     <a href="#-skill-pack-一览">📚 Skill Pack 一览</a> ·
     <a href="#-如何使用">⚡ 如何使用</a> ·
     <a href="showcase/README.md">🧪 自动实证 Showcase（真实运行证据）</a> ·
-    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（289 刊机读表）</a> ·
+    <a href="shared-resources/journal-selection/venue-index.tsv">🔎 Venue 索引（743 个 venue，机读表）</a> ·
     <a href="#-路线图">🗺 路线图</a> ·
     <a href="README.en.md">🌐 English</a>
   </sub>
@@ -417,7 +417,7 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
 
 ## 📂 根目录 200 个期刊文件夹
 
-为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和 4030 个 skill 的计数不会被重复放大。
+为了让用户在仓库首页的根目录就能看到完整的社科期刊阵列，现在 200 本广度合集期刊各有一个轻量入口文件夹：100 本中文经管路线图期刊使用拼音目录名，100 本英文经管 / 商科期刊使用英文题名目录名。这些目录只负责导航；真正可安装的 `SKILL.md` 仍保留在对应 bundle 内，因此插件路径和经审计的 skill 计数不会被重复放大。
 
 ### 中文经管路线图 · 100 个拼音目录
 
