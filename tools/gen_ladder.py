@@ -21,7 +21,7 @@ import argparse
 import csv
 import re
 import sys
-from collections import Counter, defaultdict
+from collections import Counter, defaultdict, deque
 from pathlib import Path
 
 from venue_lib import ROOT, acronym_fits, read
@@ -70,19 +70,51 @@ def aliases_for(row: dict, profile_text: str) -> set[str]:
     return {a for a in out if len(a) >= 3}
 
 
-def alias_counter(alias: str):
-    """Count occurrences of `alias` as a free-standing name, not as a substring.
+def alias_automaton(aliases: list[str]):
+    """Build a dependency-free Aho-Corasick matcher for all venue aliases."""
+    transitions: list[dict[str, int]] = [{}]
+    failures = [0]
+    outputs: list[list[str]] = [[]]
+    for alias in aliases:
+        state = 0
+        for char in alias:
+            if char not in transitions[state]:
+                transitions[state][char] = len(transitions)
+                transitions.append({})
+                failures.append(0)
+                outputs.append([])
+            state = transitions[state][char]
+        outputs[state].append(alias)
 
-    A raw ``str.count`` made every radiology pack look adjacent to The Accounting
-    Review, because *TAR* occurs inside **STAR**D; and half the economics packs looked
-    adjacent to ACM ISS, because *ISS* occurs inside **ISS**N. Latin aliases therefore
-    require non-alphanumeric boundaries. Chinese names have no such boundaries and are
-    long enough not to need them.
-    """
-    if _CJK.search(alias):
-        return lambda text: text.count(alias)
-    pattern = re.compile(rf"(?<![A-Za-z0-9]){re.escape(alias)}(?![A-Za-z0-9])")
-    return lambda text: len(pattern.findall(text))
+    queue = deque(transitions[0].values())
+    while queue:
+        state = queue.popleft()
+        for char, child in transitions[state].items():
+            queue.append(child)
+            fallback = failures[state]
+            while fallback and char not in transitions[fallback]:
+                fallback = failures[fallback]
+            failures[child] = transitions[fallback].get(char, 0)
+            outputs[child].extend(outputs[failures[child]])
+    return transitions, failures, outputs
+
+
+def alias_mentions(text: str, automaton):
+    """Yield aliases as free-standing names, never raw Latin substrings."""
+    transitions, failures, outputs = automaton
+    state = 0
+    for end, char in enumerate(text):
+        while state and char not in transitions[state]:
+            state = failures[state]
+        state = transitions[state].get(char, 0)
+        for alias in outputs[state]:
+            start = end - len(alias) + 1
+            if not _CJK.search(alias):
+                left_blocked = start > 0 and bool(re.match(r"[A-Za-z0-9]", text[start - 1]))
+                right_blocked = end + 1 < len(text) and bool(re.match(r"[A-Za-z0-9]", text[end + 1]))
+                if left_blocked or right_blocked:
+                    continue
+            yield alias
 
 
 def pack_prose(row: dict) -> str:
@@ -113,21 +145,26 @@ def build() -> list[dict]:
     for alias in collisions:                      # ambiguous — cannot attribute a mention
         alias_to_venue.pop(alias, None)
 
-    # longest alias first, so "American Economic Review" wins over a contained acronym
+    # One multi-pattern scan replaces the former venue × alias nested regex loop,
+    # while still reporting contained aliases independently as the old counters did.
     ordered = sorted(alias_to_venue, key=len, reverse=True)
-    counters = {alias: alias_counter(alias) for alias in ordered}
+    automaton = alias_automaton(ordered)
 
     edges: dict[str, Counter] = defaultdict(Counter)
     for venue_id, text in prose.items():
         if not text:
             continue
+        mention_counts = Counter(alias_mentions(text, automaton))
+        # Preserve the historical longest-alias insertion order so equal-count
+        # targets keep stable output ordering.
         for alias in ordered:
+            count = mention_counts.get(alias, 0)
+            if not count:
+                continue
             target = alias_to_venue[alias]
             if target == venue_id:
                 continue
-            count = counters[alias](text)
-            if count:
-                edges[venue_id][target] += count
+            edges[venue_id][target] += count
 
     out: list[dict] = []
     for venue_id, counter in edges.items():
