@@ -274,6 +274,70 @@ class TestArxiv(unittest.TestCase):
         self.assertEqual(self.resolve(Answer(DECLINED, detail="HTTP 503")).kind, DECLINED)
 
 
+class TestDisciplineRouting(unittest.TestCase):
+    """A narrow source is only asked where it could plausibly know the answer."""
+
+    def source(self, name):
+        return Source(name, lambda _t: Answer(ABSENT), pause=0.0,
+                      scope=fa.SOURCE_SCOPE[name])
+
+    def test_a_broad_source_covers_everything(self):
+        self.assertTrue(self.source("crossref").covers("art-history"))
+        self.assertTrue(self.source("crossref").covers(""))
+
+    def test_a_biomedical_index_is_not_asked_about_marketing(self):
+        self.assertFalse(self.source("europepmc").covers("marketing"))
+        self.assertTrue(self.source("europepmc").covers("medicine"))
+
+    def test_a_preprint_server_is_not_asked_about_accounting(self):
+        self.assertFalse(self.source("arxiv").covers("accounting"))
+        self.assertTrue(self.source("arxiv").covers("cs-ai (conference)"))
+
+    def test_scope_matches_on_a_prefix_so_subfields_inherit(self):
+        # `economics/labor` should route the way `economics` does, without every
+        # subfield having to be listed.
+        self.assertTrue(self.source("arxiv").covers("econometrics/methods"))
+        self.assertFalse(self.source("arxiv").covers("economics/labor"))
+
+    def test_an_out_of_scope_source_is_skipped_rather_than_asked(self):
+        asked = []
+
+        def counting(_title):
+            asked.append(1)
+            return Answer(ABSENT)
+
+        narrow = Source("europepmc", counting, pause=0.0,
+                        scope=fa.SOURCE_SCOPE["europepmc"])
+        with contextlib.redirect_stderr(io.StringIO()):
+            answer, said_no = fa.resolve("t", [narrow], "marketing")
+        self.assertEqual(asked, [])
+        # It said nothing, so it must not be cached as having said no — otherwise
+        # widening its scope later would never re-open the paper.
+        self.assertEqual(said_no, set())
+        self.assertEqual(answer.kind, DECLINED)
+
+    def test_an_in_scope_source_is_asked(self):
+        asked = []
+
+        def counting(_title):
+            asked.append(1)
+            return Answer(ABSENT)
+
+        narrow = Source("europepmc", counting, pause=0.0,
+                        scope=fa.SOURCE_SCOPE["europepmc"])
+        with contextlib.redirect_stderr(io.StringIO()):
+            _, said_no = fa.resolve("t", [narrow], "medicine")
+        self.assertEqual(asked, [1])
+        self.assertEqual(said_no, {"europepmc"})
+
+    def test_applicable_filters_the_roster(self):
+        roster = fa.build_sources("free", 0.0)
+        names = [s.name for s in fa.applicable(roster, "accounting")]
+        self.assertEqual(names, ["crossref"])
+        names = [s.name for s in fa.applicable(roster, "cs-ai (conference)")]
+        self.assertEqual(names, ["crossref", "arxiv"])
+
+
 class TestSourceRoster(unittest.TestCase):
     def test_the_default_roster_is_the_free_sources_in_order(self):
         names = [s.name for s in fa.build_sources("free", None)]

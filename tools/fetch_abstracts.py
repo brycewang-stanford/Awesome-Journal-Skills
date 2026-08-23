@@ -377,14 +377,39 @@ def arxiv(title: str) -> Answer:
                   terms=terms)
 
 
+# Which disciplines a narrow source can plausibly answer about. Asking Europe PMC
+# about a 1985 marketing paper is a request neither side benefits from: it spends
+# someone else's free quota to be told "no result", and at three seconds a request
+# arXiv's share of that waste was most of the run's wall-clock. `None` means the
+# source is asked about everything.
+#
+# Matched as a prefix of the gold row's `discipline`, so `economics/labor` inherits
+# whatever `economics` is routed to.
+SOURCE_SCOPE = {
+    "crossref": None,
+    "europepmc": ("medicine", "life-sciences", "natural-science", "environment",
+                  "psychology", "demography", "agriculture", "earth-science",
+                  "chemistry", "materials-science"),
+    "arxiv": ("cs-ai", "physics", "mathematics", "materials-science",
+              "econometrics/methods", "economics/theory", "economics/game-theory",
+              "natural-science", "information-systems", "statistics"),
+}
+
+
 @dataclass
 class Source:
     name: str
     resolve: object
     pause: float
+    scope: tuple[str, ...] | None = None
     available: bool = True
     reason: str = ""
     stats: dict = field(default_factory=lambda: {FOUND: 0, ABSENT: 0, DECLINED: 0})
+
+    def covers(self, discipline: str) -> bool:
+        if self.scope is None:
+            return True
+        return any(discipline.startswith(prefix) for prefix in self.scope)
 
 
 # Asked in this order. Cheapest and broadest first, so the narrow sources are only
@@ -396,11 +421,12 @@ def build_sources(selected: str, pause: float | None) -> list[Source]:
     catalogue = {
         # Crossref asks for one request at a time from a polite client; the polite pool
         # (a mailto) buys a higher allowance rather than a different etiquette.
-        "crossref": Source("crossref", crossref, 0.4 if CROSSREF_MAILTO else 1.0),
-        "europepmc": Source("europepmc", europepmc, 0.8),
+        "crossref": Source("crossref", crossref, 0.4 if CROSSREF_MAILTO else 1.0,
+                           SOURCE_SCOPE["crossref"]),
+        "europepmc": Source("europepmc", europepmc, 0.8, SOURCE_SCOPE["europepmc"]),
         # arXiv's terms ask for one request every three seconds. It is the slowest
-        # source and the last one asked, so only the residue pays that price.
-        "arxiv": Source("arxiv", arxiv, 3.2),
+        # source, the last one asked, and the most narrowly scoped.
+        "arxiv": Source("arxiv", arxiv, 3.2, SOURCE_SCOPE["arxiv"]),
         "openalex": Source("openalex", openalex, 0.4 if OPENALEX_MAILTO else 2.0),
     }
     if selected == "free":
@@ -474,11 +500,16 @@ def save(rows: list[dict]) -> None:
 
 # --- driver -----------------------------------------------------------------------
 
-def resolve(title: str, sources: list[Source]) -> tuple[Answer, set[str]]:
+def applicable(sources: list[Source], discipline: str) -> list[Source]:
+    return [s for s in sources if s.covers(discipline)]
+
+
+def resolve(title: str, sources: list[Source],
+            discipline: str = "") -> tuple[Answer, set[str]]:
     """Ask each available source in turn. Returns the answer and who said 'no'."""
     said_no: set[str] = set()
     for source in sources:
-        if not source.available:
+        if not source.available or not source.covers(discipline):
             continue
         answer = source.resolve(title)
         source.stats[answer.kind] += 1
@@ -520,7 +551,6 @@ def main(argv: list[str]) -> int:
     args = parser.parse_args(argv)
 
     sources = build_sources(args.source, args.pause)
-    source_names = {s.name for s in sources}
 
     with GOLD.open(encoding="utf-8") as handle:
         gold = list(csv.DictReader(handle, delimiter="\t"))
@@ -533,8 +563,11 @@ def main(argv: list[str]) -> int:
         if title in existing:
             continue
         # A cached miss only rules out the sources that actually answered "no". Adding
-        # a source to the run must re-open every paper the old source could not find.
-        if set(filter(None, misses.get(title, "").split(","))) >= source_names:
+        # a source to the run must re-open every paper the old source could not find
+        # — and a paper is finished once every source that *covers its discipline* has
+        # answered, not every source in the roster.
+        asked = {s.name for s in applicable(sources, row.get("discipline", ""))}
+        if asked and set(filter(None, misses.get(title, "").split(","))) >= asked:
             continue
         todo.append(row)
     if args.limit:
@@ -553,7 +586,7 @@ def main(argv: list[str]) -> int:
 
     for i, row in enumerate(todo, 1):
         title = row["paper_title"]
-        answer, said_no = resolve(title, sources)
+        answer, said_no = resolve(title, sources, row.get("discipline", ""))
         if said_no:
             already = set(filter(None, misses.get(title, "").split(",")))
             misses[title] = ",".join(sorted(already | said_no))
