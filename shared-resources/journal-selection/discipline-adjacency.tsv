@@ -22,8 +22,9 @@ information-systems	management	3	16.7
 international-business	management	3	100.0
 life-sciences	natural-science	3	30.0
 management	operations	4	8.0
-management/OR	management	3	37.5
-management/OR	operations	3	37.5
+management/OR	operations	5	41.7
+management/OR	management	4	33.3
+management/OR	social-science	3	25.0
 medicine	natural-science	6	25.0
 natural-science	life-sciences	7	9.0
 natural-science	cs-ai (conference)	6	7.7

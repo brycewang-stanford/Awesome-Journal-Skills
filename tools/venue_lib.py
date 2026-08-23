@@ -217,7 +217,7 @@ DISC: list[tuple[str, str]] = [
     ("Human-Relations", "management"), ("Business-Venturing", "entrepreneurship"),
     ("Entrepreneurship", "entrepreneurship"), ("International-Business", "international-business"),
     ("Academy-of-Management", "management"), ("Administrative-Science", "management"),
-    ("Nankai-Business", "management"), ("Chinese-Journal-of-Management-Science", "management/OR"), ("Journal-of-Management", "management"),
+    ("Nankai-Business", "management"), ("Chinese-Journal-of-Management-Science", "management/OR"), ("Journal-of-Systems-Engineering", "management/OR"), ("Journal-of-Management", "management"),
     ("Political-Science", "political-science"), ("Journal-of-Politics", "political-science"),
     ("Comparative-Political", "political-science"), ("World-Politics", "political-science"),
     ("Public-Administration", "public-admin"), ("Governance", "public-admin"),

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "jse-tju-skills",
+  "version": "0.1.0",
+  "description": "A twelve-skill lifecycle pack for manuscripts submitted to 《系统工程学报》.",
+  "owner": {
+    "name": "Bryce Wang",
+    "email": "brycew6m@stanford.edu"
+  },
+  "metadata": {
+    "pluginRoot": "./"
+  },
+  "plugins": [
+    {
+      "name": "jse-tju-skills",
+      "version": "0.1.0",
+      "source": "./",
+      "description": "Twelve-skill bundle for 《系统工程学报》 covering workflow, fit, topic selection, literature review, modeling, theory, algorithms, validation, reproducibility, writing, submission, and rebuttal.",
+      "author": {
+        "name": "Bryce Wang",
+        "email": "brycew6m@stanford.edu"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "repository": "https://github.com/brycewang-stanford/awesome-journal-skills",
+      "keywords": [
+        "journal-of-systems-engineering",
+        "jse-tju",
+        "systems-engineering",
+        "operations-research",
+        "complex-systems",
+        "optimization"
+      ],
+      "category": "academic",
+      "skills": [
+        "skills/jse-tju-workflow",
+        "skills/jse-tju-fit-positioning",
+        "skills/jse-tju-topic-selection",
+        "skills/jse-tju-literature-review",
+        "skills/jse-tju-system-modeling",
+        "skills/jse-tju-theory-analysis",
+        "skills/jse-tju-algorithm-computation",
+        "skills/jse-tju-validation",
+        "skills/jse-tju-robustness-reproducibility",
+        "skills/jse-tju-writing-tables-figures",
+        "skills/jse-tju-submission",
+        "skills/jse-tju-rebuttal"
+      ]
+    }
+  ]
+}
