@@ -69,7 +69,7 @@ MCP: california_prop99()
   `TypeError: '<' not supported between instances of 'int' and 'str'`：该工具的
   schema 把 `treatment_time` 声明为 string，内部却拿它跟整数年份比较。
   **绕行：改用 `synth(method="sdid", treatment_time=1989)`**，同一估计量、
-  同一数字（−17.8985），上表即由此得到。已回传 StatsPAI 上游。
+  同一数字（−17.8985），上表即由此得到。**尚未回传上游**——只记录在这里。
 
 - `synth_time_placebo` 与 `synth_loo` 在本案例运行日（2026-07-01）的服务端对年份列做强转
   string→int 失败——已回传到 StatsPAI 上游工作队列。当前本案例跑 placebo-in-space
