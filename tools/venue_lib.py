@@ -259,6 +259,7 @@ DISC: list[tuple[str, str]] = [
     ("Nature-Geoscience", "earth-science"), ("Earth-and-Planetary-Science-Letters", "earth-science"),
     ("Language-Linguistic-Society", "linguistics"),
     ("Chinese-Journal-of-Management-Science", "management/OR"),
+    ("Journal-of-Systems-Engineering", "management/OR"),
     ("Finance-and-Trade-Economics", "economics/public"),
 ]
 

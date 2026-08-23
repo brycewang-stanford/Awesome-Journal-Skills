@@ -138,6 +138,12 @@ Counts in the current 100-card Chinese root layer:
 | `Zhongyang-Caijing-Daxue-Xuebao` | 《中央财经大学学报》 | `journal-of-central-university-of-finance-and-economics` | 1 Econ & Management | finance/economics university journal |
 | `Zuzhi-Yu-Guanli` | 《组织与管理》 | `organization-and-management` | 1 Econ & Management | organization/management |
 
+## Standalone Depth-Pack Root Cards
+
+| Root folder | Venue | Canonical skill | Primary category | Notes |
+|---|---|---|---|---|
+| `Xitong-Gongcheng-Xuebao` | 《系统工程学报》 | `jse-tju-workflow` | 7 Engineering & Tech | systems engineering |
+
 ## Next Split Targets
 
 1. Split `English-NaturalScience-Journal-Skills` profile entries across categories 0 / 4 / 5 / 6 / 7 / 8 / 9.

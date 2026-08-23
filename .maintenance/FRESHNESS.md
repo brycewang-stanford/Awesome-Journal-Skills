@@ -4,15 +4,15 @@
 
 `last_verified` is **parsed from each source map's own prose**, not stored separately — one source of truth per fact. To move a pack up this list, re-check its official pages and record the new access date in `resources/official-source-map.md`.
 
-**298 packs with a source map.** Oldest first.
+**299 packs with a source map.** Oldest first.
 
 | Verified | Packs |
 |---|---:|
 | 2026-06 | 183 |
-| 2026-07 | 110 |
+| 2026-07 | 111 |
 | 2026-08 | 5 |
 
-Provenance: 259 stated explicitly, 39 inferred from the newest date in the file, 0 with no date at all.
+Provenance: 259 stated explicitly, 40 inferred from the newest date in the file, 0 with no date at all.
 
 ## Per pack
 
@@ -311,6 +311,7 @@ Provenance: 259 stated explicitly, 39 inferred from the newest date in the file,
 | Molecular-Cell-Skills | depth | 2026-07-16 | stated |
 | Nature-Geoscience-Skills | depth | 2026-07-16 | stated |
 | Progress-in-Human-Geography-Skills | depth | 2026-07-16 | stated |
+| Journal-of-Systems-Engineering-Skills | depth | 2026-07-30 | inferred |
 | Agriculture-Environment-Journal-Skills | bundle | 2026-08-09 | stated |
 | Clinical-Medicine-Journal-Skills | bundle | 2026-08-09 | stated |
 | Engineering-Technology-Journal-Skills | bundle | 2026-08-09 | stated |

@@ -25,6 +25,8 @@ management	social-science	7	10.4
 management	economics	3	4.5
 management	natural-science	3	4.5
 management	political-science	3	4.5
+management/OR	management	3	42.9
+management/OR	social-science	3	42.9
 medicine	natural-science	6	25.0
 natural-science	life-sciences	7	8.5
 natural-science	cs-ai (conference)	6	7.3
