@@ -55,8 +55,19 @@ def main(argv: list[str]) -> int:
 
     hard_checks = [
         ["python3", "-m", "py_compile", *python_tool_files()],
+        # The unit suite runs first: it is offline, takes under a second, and every
+        # check below it depends on the text and retrieval layers it covers. A syntax
+        # check was the only thing standing behind these tools before it existed.
+        ["python3", "-m", "unittest", "discover", "-s", "tools/tests", "-t", "tools"],
         ["python3", "tools/audit_repo.py"],
-        ["python3", "tools/quality_scorecard.py", "--top", "15", "--min-score", "94"],
+        # Conformance is the gate: every pack must meet every structural requirement.
+        # The backlog score below it is a ranking, not a standard, so its floor is set
+        # well under the current minimum (51.5) — low enough that only a genuinely
+        # broken new pack trips it, and it is not a target to be optimised against.
+        [
+            "python3", "tools/quality_scorecard.py", "--top", "15",
+            "--require-conformance", "--min-score", "40",
+        ],
         [
             "python3",
             "tools/clone_audit.py",
