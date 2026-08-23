@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import re
+import struct
 import sys
 import urllib.parse
 from pathlib import Path
@@ -548,6 +549,55 @@ def check_markdown_links(errors: list[str]) -> None:
                     errors.append(f"{rel(path)}:{lineno}: broken local link {target!r}")
 
 
+# Hero artwork: the images at the top of the two READMEs, plus the logos and codes
+# beside them. Each entry is (path, width, height, minimum bytes).
+#
+# Why a byte floor and not just the dimensions: `assets/banner-en.png` was once
+# overwritten by a screenshot of a bot-check interstitial captured at exactly the
+# banner's size. Every dimension still agreed; only the file size gave it away, because
+# a mostly-white error page compresses to a tenth of what the real artwork does. The
+# floors below sit at roughly half of each asset's committed size, which is loose
+# enough for an honest re-export and tight enough to catch a substitution.
+HERO_ASSETS = [
+    ("assets/banner-zh.png", 2400, 860, 250_000),
+    ("assets/banner-en.png", 2400, 860, 250_000),
+    ("assets/copaper-logo.png", 1252, 512, 40_000),
+    ("assets/stanford-reap-logo.png", 812, 178, 15_000),
+    ("assets/copaper-qrcode.png", 444, 528, 3_000),
+]
+
+PNG_MAGIC = b"\x89PNG\r\n\x1a\n"
+
+
+def png_size(data: bytes) -> tuple[int, int] | None:
+    """(width, height) from the IHDR chunk, or None if this is not a PNG."""
+    if not data.startswith(PNG_MAGIC) or len(data) < 24:
+        return None
+    return struct.unpack(">II", data[16:24])
+
+
+def check_hero_assets(errors: list[str]) -> None:
+    for name, width, height, min_bytes in HERO_ASSETS:
+        path = ROOT / name
+        if not path.exists():
+            errors.append(f"{name}: hero asset is missing")
+            continue
+        data = path.read_bytes()
+        size = png_size(data)
+        if size is None:
+            errors.append(f"{name}: not a PNG (the file was replaced by something else)")
+            continue
+        if size != (width, height):
+            errors.append(
+                f"{name}: is {size[0]}x{size[1]}, expected {width}x{height} — update "
+                "HERO_ASSETS in the same commit if the artwork was redesigned")
+        if len(data) < min_bytes:
+            errors.append(
+                f"{name}: {len(data):,} bytes is below the {min_bytes:,}-byte floor. "
+                "A blank or error-page capture compresses this small; the artwork does "
+                "not")
+
+
 def print_live_counts() -> int:
     skill_count = len(iter_skill_files())
     pack_roots = set(first_party_plugin_roots())
@@ -577,6 +627,7 @@ def main() -> int:
     check_source_maps(errors)
     check_skill_frontmatter(errors)
     check_showcase(errors)
+    check_hero_assets(errors)
     check_markdown_links(errors)
 
     if errors:
