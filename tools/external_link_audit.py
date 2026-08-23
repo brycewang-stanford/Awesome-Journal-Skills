@@ -80,9 +80,29 @@ INFRA_HOSTS = {
 # such as ``...package=meta)/[metafor](...)`` do not merge into one URL. Known
 # limitation: URLs whose path contains literal CJK (e.g. some baike.baidu.com
 # /item/ links) are truncated at the first CJK char.
-URL_RE = re.compile(r"https?://[\x21-\x7e]+")
+# A URL runs to the first delimiter, not to the first non-ASCII byte. Restricting the
+# character class to printable ASCII truncated every link with a non-Latin path — the
+# 百度百科 entries are cited as `https://baike.baidu.com/item/中国科学：信息科学`, and the
+# audit checked `https://baike.baidu.com/item/`, got a 404, and reported the citation
+# as dead. A report-only tool is worth exactly as much as its false-positive rate.
+URL_RE = re.compile(r"https?://[^\s<>\"'\[\]{}|`*，。；、）】]+")
 _STOP_CHARS = set(" \t\n<>\"'[]}|`*")
 TRAILING = ".,;:!?*`"
+
+# Documentation shows template URLs with the variable part elided. They are examples,
+# not citations: `\relatedversion{Full version: https://arxiv.org/abs/...}` in a LaTeX
+# snippet is telling an author where their own arXiv id goes. Stripping the ellipsis as
+# trailing punctuation turned three of these into "DEAD" findings.
+#
+# The marker is checked against what *follows* the match as well as the match itself,
+# because `{` and `<` are already URL delimiters — a `{paper_id}` placeholder never
+# reaches `normalize`, it just leaves a truncated stem behind.
+ELIDED_IN = re.compile(r"\.\.\.$|…$")
+ELIDED_AFTER = re.compile(r"^(?:\.\.\.|…|\{|<[A-Za-z_])")
+
+
+def is_elided(raw: str, tail: str) -> bool:
+    return bool(ELIDED_IN.search(raw) or ELIDED_AFTER.match(tail))
 
 
 def rel(path: Path) -> str:
@@ -136,7 +156,12 @@ def collect_urls(include_infra: bool) -> dict[str, list[str]]:
     refs: dict[str, set[str]] = defaultdict(set)
     for path in first_party_markdown():
         text = path.read_text(encoding="utf-8", errors="replace")
-        for raw in URL_RE.findall(text):
+        for match in URL_RE.finditer(text):
+            raw = match.group(0)
+            # An elided example is not a citation; checking it reports a defect that
+            # is not one.
+            if is_elided(raw, text[match.end():match.end() + 12]):
+                continue
             url = normalize(raw)
             if not url:
                 continue
