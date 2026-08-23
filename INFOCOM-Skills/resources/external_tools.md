@@ -15,7 +15,7 @@ not confuse it with unrelated products that share the name.
 - INFOCOM 2026 Submission Guidelines (format, double-blind, page budget):
   https://infocom2026.ieee-infocom.org/submission-guidelines-main-conference
 - INFOCOM 2026 Final Paper Submission Guidelines (eCF, PDF eXpress, registration):
-  https://infocom2026.ieee-infocom.org/authors/final-paper-submission-guidelines-main-conference
+  https://infocom2026.ieee-infocom.org/submission-guidelines-main-conference
 - INFOCOM 2026 EDAS submission portal: https://edas.info/N33581
 - INFOCOM 2027 home + CFP (next live target; Honolulu, May 24-27, 2027):
   https://infocom2027.ieee-infocom.org/

@@ -17,7 +17,7 @@ with Schneider Electric "Conext" products.
 - PACMNET journal home: https://dl.acm.org/journal/pacmnet
 - PACMNET how-to-submit: https://dl.acm.org/journal/pacmnet/how-to-submit
 - ACM Artifact Review and Badging (reproducibility badges): https://www.acm.org/publications/policies/artifact-review-and-badging-current
-- CoNEXT Best Paper Award: https://www.sigcomm.org/events/conext-conference/conext-best-paper-award
+- CoNEXT Best Paper Award: https://sigcomm.hosting2.acm.org/events/conext-conference/conext-best-paper-award
 - CoNEXT HotCRP (per cycle, e.g. June 2025): https://conext25-june.hotcrp.com/ — replace with the
   live CoNEXT 2026 per-cycle URLs from the CFP (**待核实**).
 

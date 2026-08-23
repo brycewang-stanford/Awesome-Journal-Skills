@@ -27,14 +27,14 @@ with unrelated products or services that share the name.
 | 1 | https://infocom2026.ieee-infocom.org/ | INFOCOM 2026 (45th edition) home: Tokyo, Japan, 18-21 May 2026; ComSoc flagship; components (main program, workshops, keynotes, panels, poster/demo) | 2026-07-09 |
 | 2 | https://infocom2026.ieee-infocom.org/call-papers | INFOCOM 2026 Call for Papers: abstract due 24 Jul 2025, full paper 31 Jul 2025 (AoE), notification 8 Dec 2025; ≤5 papers per author; EDAS N33581 | 2026-07-09 |
 | 3 | https://infocom2026.ieee-infocom.org/submission-guidelines-main-conference | INFOCOM 2026 format: IEEEtran.cls v1.8, 10pt Times, two-column, letterpaper; 10-page max with ≤9 pages of text (incl. figures/tables/appendices); double-blind; ≤200-word abstract in EDAS; automated review assignment | 2026-07-09 |
-| 4 | https://infocom2026.ieee-infocom.org/authors/final-paper-submission-guidelines-main-conference | INFOCOM 2026 camera-ready: final paper 9 Jan 2026 (US ET); IEEE eCF copyright; PDF eXpress; author registration (one registration valid for up to three main-conference papers) | 2026-07-09 |
+| 4 | https://infocom2026.ieee-infocom.org/submission-guidelines-main-conference | INFOCOM 2026 camera-ready: final paper 9 Jan 2026 (US ET); IEEE eCF copyright; PDF eXpress; author registration (one registration valid for up to three main-conference papers) | 2026-07-09 |
 | 4b | https://edas.info/N33581 | INFOCOM 2026 main-conference EDAS submission portal | 2026-07-09 |
 | 5 | https://infocom2027.ieee-infocom.org/ | INFOCOM 2027 (46th) home and Call for Papers: Honolulu, HI, USA, 24-27 May 2027; abstract 24 Jul 2026, full paper 31 Jul 2026 (AoE); **early-reject notification 9 Oct 2026**; acceptance 8 Dec 2026 | 2026-07-09 |
 | 6 | https://www.comsoc.org/conferences-events/ieee-international-conference-computer-communications-2026 | ComSoc listing confirming INFOCOM 2026 as the ComSoc-sponsored flagship networking conference | 2026-07-09 |
 | 7 | https://en.wikipedia.org/wiki/International_Conference_on_Computer_Communications + https://cs-tccc.org/history/ | INFOCOM history: first held 1982 (Las Vegas); jointly sponsored by IEEE CS and ComSoc until 2002, then ComSoc-only; top-ranked networking venue | 2026-07-09 |
 | 8 | https://dblp.org/db/conf/infocom/index.html | dblp INFOCOM proceedings stream: per-year editions and paper lists for exemplar verification | 2026-07-09 |
 | 9 | https://csconfstats.xoveexu.com/conferences/infocom/ (+ openaccept.org) | INFOCOM scale/selectivity: INFOCOM 2025 accepted 272 of 1,458 submissions (~18.7%); INFOCOM 2024 ~19.6% | 2026-07-09 |
-| 10 | https://infocom2026.ieee-infocom.org/authors/call-demos-and-posters + /call-workshop-proposals | Co-located tracks: workshops, demos/posters, student poster session (separate calls and page limits) | 2026-07-09 |
+| 10 | https://infocom2026.ieee-infocom.org/call-demos-and-posters + /call-workshop-proposals | Co-located tracks: workshops, demos/posters, student poster session (separate calls and page limits) | 2026-07-09 |
 
 ## Verified 2026/2027 facts used in skills
 

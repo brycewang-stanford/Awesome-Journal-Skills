@@ -36,7 +36,7 @@ least two independent surfaces are labeled **待核实**. Do not confuse ACM CoN
 | 7 | https://dl.acm.org/doi/10.1145/3768969 | PACMNET V3, CoNEXT4, December 2025 Editorial (issue/volume cadence and article counts) | 2026-07-09 |
 | 8 | https://mailman.ripe.net/archives/list/raci-list@ripe.net/thread/4PYW4UYGT27NL3LABVDMQN6XHSPXAQGI/ | RIPE RACI re-posting of the ACM CoNEXT 2026 CFP (December + June important dates, major-revision path) | 2026-07-09 |
 | 9 | https://dl.acm.org/doi/proceedings/10.1145/3765515 | CoNEXT '25 proceedings (21st edition) on ACM DL; cross-check for acceptance counts and paper types | 2026-07-09 |
-| 10 | https://www.sigcomm.org/events/conext-conference + https://www.sigcomm.org/events/conext-conference/conext-best-paper-award | CoNEXT series identity (created 2005), SIGCOMM sponsorship, and the annual CoNEXT Best Paper Award | 2026-07-09 |
+| 10 | https://www.sigcomm.org/events/conext-conference + https://sigcomm.hosting2.acm.org/events/conext-conference/conext-best-paper-award | CoNEXT series identity (created 2005), SIGCOMM sponsorship, and the annual CoNEXT Best Paper Award | 2026-07-09 |
 
 ## Verified 2026-cycle facts used in skills
 

@@ -16,7 +16,7 @@ represent your paper in a decision meeting, not a reply thread.
 |---|---|---|
 | Rebuttal invited | Paper is above threshold; decision genuinely open | Full drafting protocol below |
 | No invitation | Below threshold; decided without author input | Skip to resubmission triage (bottom) |
-| Reviews arrived, rules unclear | Cycle may have changed the design | Reread roboticsconference.org/reviewps/ before writing a word |
+| Reviews arrived, rules unclear | Cycle may have changed the design | Reread roboticsconference.org/2026/reviewps/ before writing a word |
 
 ## Drafting protocol for the single page
 

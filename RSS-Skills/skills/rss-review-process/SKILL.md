@@ -6,7 +6,7 @@ description: Use when explaining or strategizing around RSS (Robotics: Science a
 # RSS Review Process
 
 Model how an RSS decision actually gets made. The mechanics below are the verified
-2026 design (roboticsconference.org/reviewps/, checked 2026-07-08); the two-stage
+2026 design (roboticsconference.org/2026/reviewps/, checked 2026-07-08); the two-stage
 structure itself is cycle policy, so confirm it survives before relying on it.
 
 ## The 2026 pipeline

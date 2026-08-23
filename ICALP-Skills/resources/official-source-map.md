@@ -37,7 +37,7 @@ calendar, format, or review model with STOC, FOCS, or SODA (ACM/SIAM venues with
 | 6 | https://drops.dagstuhl.de/entities/series/LIPICs | LIPIcs series home: open-access Dagstuhl proceedings; the `lipics-v2021` document class and 20-page (e.g. 15+5) style recommendation | 2026-07-09 |
 | 7 | https://dblp.org/db/conf/icalp/icalp2026.html | dblp ICALP 2026 record; LIPIcs ICALP 2026 volume, proceedings editors | 2026-07-09 |
 | 8 | https://www.eatcs.org/index.php/international-colloquium | EATCS ICALP series page: ICALP as EATCS's main conference; Track A/B tradition | 2026-07-09 |
-| 9 | https://www.sigact.org/prizes/g%C3%B6del.html + https://eatcs.org/index.php/godel-prize | Gödel Prize (jointly EATCS/ACM SIGACT), presented at ICALP in even years; EATCS Award, Presburger Award, EATCS Distinguished Dissertation Award | 2026-07-09 |
+| 9 | https://www.sigact.org/prizes/g%C3%B6del.html + https://eatcs.org/index.php/goedel-prize | Gödel Prize (jointly EATCS/ACM SIGACT), presented at ICALP in even years; EATCS Award, Presburger Award, EATCS Distinguished Dissertation Award | 2026-07-09 |
 | 10 | https://conferences.au.dk/icalp2025/submission-guidelines | ICALP 2025 submission guidelines (immediate prior cycle): the ≤15-page-excluding-references-and-appendix norm and the omitted-proofs-or-full-version appendix rule, used to corroborate the 2026 format | 2026-07-09 |
 
 ## Verified 2026 facts used in skills

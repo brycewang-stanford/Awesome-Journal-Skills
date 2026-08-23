@@ -18,7 +18,7 @@ before trusting a date or cap.
   https://www.corl.org/contributions/instruction-for-rebuttal
 - Reviewer-side instructions (scoring rubric, first-round gate, discussion):
   https://www.corl.org/contributions/instruction-for-reviewers and
-  https://www.corl.org/contributions/instruction-for-reviews
+  https://www.corl.org/contributions/instruction-for-reviewers
 - OpenReview group:
   https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
 - PMLR volume index (venue attribution and volume anchors):

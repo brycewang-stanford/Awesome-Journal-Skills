@@ -108,5 +108,5 @@ If at least one exists:
 
 Re-verify the live process pages before advising on any cycle:
 https://www.corl.org/contributions/instruction-for-reviewers and
-https://www.corl.org/contributions/instruction-for-reviews (2026 URLs; year-sites
+https://www.corl.org/contributions/instruction-for-reviewers (2026 URLs; year-sites
 rotate).

@@ -19,7 +19,7 @@ do not import STOC/FOCS (ACM) or SODA (SIAM) rules.
 - LIPIcs author instructions + `lipics-v2021` class: https://submission.dagstuhl.de/series/details/5#author (LIPIcs)
 - LIPIcs series home (DROPS): https://drops.dagstuhl.de/entities/series/LIPICs
 - EATCS awards (EATCS Award, Presburger, Distinguished Dissertation): https://www.eatcs.org/index.php/eatcs-awards
-- Gödel Prize (EATCS/ACM SIGACT): https://www.eatcs.org/index.php/godel-prize
+- Gödel Prize (EATCS/ACM SIGACT): https://www.eatcs.org/index.php/goedel-prize
 
 ## Cross-check surfaces (when the gateway blocks the primary page)
 

@@ -10,7 +10,7 @@ is rebound to the newest edition each cycle, so a URL that showed 2026 content i
 
 - Current-edition site (rebinds each cycle): https://roboticsconference.org/
 - Call for Papers: https://roboticsconference.org/information/cfp/
-- Review-process description: https://roboticsconference.org/reviewps/
+- Review-process description: https://roboticsconference.org/2026/reviewps/
 - OpenReview venue group (2026): https://openreview.net/group?id=roboticsfoundation.org/RSS/2026/Conference
 - Free open-access proceedings archive: https://www.roboticsproceedings.org/
 - RSS Foundation (awards, policies, calendar): https://roboticsfoundation.org/

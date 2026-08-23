@@ -3,9 +3,9 @@
 <p align="center"><img src="assets/cover.svg" width="200" alt="Journal of Public Policy & Marketing Skills cover"></p>
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Journal](https://img.shields.io/badge/journal-JPP%26M-1f5f5b)](https://www.ama.org/journal-of-public-policy-and-marketing/)
+[![Journal](https://img.shields.io/badge/journal-JPP%26M-1f5f5b)](https://www.ama.org/jppm/)
 [![Index](https://img.shields.io/badge/publisher-AMA%20%2F%20SAGE-005f87)](https://journals.sagepub.com/home/ppo)
-[![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://www.ama.org/journal-of-public-policy-and-marketing/)
+[![Claude Code](https://img.shields.io/badge/agent-Claude%20Code-cc785c)](https://www.ama.org/jppm/)
 
 English | [简体中文](README.zh-CN.md)
 
@@ -75,7 +75,7 @@ jppm-workflow → jppm-topic-selection → jppm-theory-development → jppm-lite
 
 ## Related Links
 
-- https://www.ama.org/journal-of-public-policy-and-marketing/
+- https://www.ama.org/jppm/
 - https://journals.sagepub.com/home/ppo
 - https://www.ama.org/submission-guidelines-american-marketing-association-journals/
 - https://mc.manuscriptcentral.com/ama_jppm

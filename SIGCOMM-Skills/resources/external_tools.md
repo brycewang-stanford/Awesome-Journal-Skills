@@ -13,7 +13,7 @@ every edition, and the single annual deadline means one stale date can cost a wh
 - SIGCOMM 2026 HotCRP site and clock: https://sigcomm26.hotcrp.com/ and https://sigcomm26.hotcrp.com/deadlines
 - SIGCOMM 2026 camera-ready instructions: https://conferences.sigcomm.org/sigcomm/2026/cameraready/
 - SIGCOMM Call for Artifacts (per edition): https://conferences.sigcomm.org/sigcomm/2025/cf-artifacts/
-- ACM SIGCOMM award pages: https://www.sigcomm.org/awards/test-of-time-paper-award and https://www.sigcomm.org/awards/best-paper-award
+- ACM SIGCOMM award pages: https://www.sigcomm.org/awards/acm-sigcomm-test-of-time-paper-award and https://www.sigcomm.org/awards/best-paper-award
 
 ## Author-side verification passes
 

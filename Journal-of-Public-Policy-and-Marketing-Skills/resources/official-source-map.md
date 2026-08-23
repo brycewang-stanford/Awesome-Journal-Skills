@@ -4,7 +4,7 @@ Primary sources for the facts used in the `jppm-*` skills. **Checked: 2026-07-16
 
 ## Official pages
 
-- **https://www.ama.org/journal-of-public-policy-and-marketing/** — AMA journal home: scope, news, calls for papers. Checked: 2026-07-16.
+- **https://www.ama.org/jppm/** — AMA journal home: scope, news, calls for papers. Checked: 2026-07-16.
 - **https://www.ama.org/journal-of-public-policy-marketing-editor-in-chief/** — current editors-in-chief. Checked: 2026-07-16.
 - **https://www.ama.org/associate-editors-journal-of-public-policy-marketing/** — associate-editor board. Checked: 2026-07-16.
 - **https://www.ama.org/submission-guidelines-american-marketing-association-journals/** — shared AMA journals submission guidelines (formatting, page limits, anonymization, JPP&M-specific Policy Contribution Statement). Checked: 2026-07-16.

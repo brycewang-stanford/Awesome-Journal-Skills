@@ -70,7 +70,7 @@ jppm-workflow → jppm-topic-selection → jppm-theory-development → jppm-lite
 
 ## 相关链接
 
-- https://www.ama.org/journal-of-public-policy-and-marketing/
+- https://www.ama.org/jppm/
 - https://journals.sagepub.com/home/ppo
 - https://www.ama.org/submission-guidelines-american-marketing-association-journals/
 - https://mc.manuscriptcentral.com/ama_jppm

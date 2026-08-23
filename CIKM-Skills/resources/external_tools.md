@@ -18,7 +18,7 @@ stays put. Direct fetches of several official domains were gateway-blocked at ch
   - Resource: https://cikm2026.diag.uniroma1.it/resource-papers/
   - Demonstration: https://cikm2026.diag.uniroma1.it/demonstration-papers/
 - Cross-track policies (GenAI disclosure, anonymity, dual submission):
-  https://cikm2026.diag.uniroma1.it/submission-policies-and-information/
+  https://cikm2026.diag.uniroma1.it/policies-and-information/
 - Submission hub (EasyChair track selection, reviewer nomination):
   https://cikm2026.diag.uniroma1.it/submit/
 - EasyChair: https://easychair.org/ (the CFP names the exact conference instance)
