@@ -82,7 +82,23 @@ POSTINGS_OUT = ROOT / "shared-resources/journal-selection/scope-postings.tsv"
 # of terms that characterise a venue; a retrieval pass wants the long tail, because the
 # term a given paper happens to share with its venue is usually not in the top forty.
 # Publishing both from one ranked list keeps them consistent by construction.
-KEYWORD_DEPTH = 300
+#
+# The retrieval depth was 300 by assumption until it was measured against the gold set's
+# `dev` half. Recall@10 rises the whole way out and flattens, and the file grows roughly
+# linearly with it:
+#
+#     depth   300   600   900  1200  2000
+#     R@10   41.0  45.5  46.9  47.7  48.5     (dev)
+#     size    3.3   5.2   7.8   9.8  14 MB    (scope-postings.tsv)
+#
+# 900 is the knee: 600→900 buys 1.4 points, 900→1200 buys 0.8, and 1200→2000 buys 0.8
+# more for another four megabytes of committed index that is rewritten on every
+# regeneration. Two things that looked like they should help do not, and are recorded
+# here so they are not retried: relaxing the `c < 2` rule in `derive_keywords` (±0.0
+# points — the vocabulary is not what the rule removes), and widening the per-skill
+# scope-text bounds by 3x (-0.7 points at this depth; the scope text is already long
+# enough that the extra prose is off-topic).
+KEYWORD_DEPTH = 900
 INDEX_KEYWORDS = 40
 
 

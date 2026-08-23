@@ -138,7 +138,9 @@ DESCRIPTIONS = {
               "vocabulary with the index."),
     "title+abstract": ("title + the abstract's term bag", "all venues, no prior",
                        "what an author actually pastes in. Covers only the gold papers "
-                       "whose abstract could be resolved from OpenAlex."),
+                       "whose abstract could be resolved from a free bibliographic "
+                       "source (Crossref, Europe PMC, arXiv), which is uneven by "
+                       "discipline — see Limitations."),
     "title+context": ("title + the exemplar library's gloss", "all venues, no prior",
                       "optimistic bound. The gloss was written by the same authors as "
                       "the packs, so it is vocabulary-correlated with the index. "
@@ -258,10 +260,29 @@ def render(results, venues, gold, abstracts, dev_headline, withheld, n_split) ->
         lines.append(f"| {discipline} | {recall:.1%} | {count} |")
     covered = sum(1 for g in gold if g["paper_title"].lower() in abstracts)
     if covered:
+        # Abstract coverage is not missing at random: Europe PMC is near-complete for
+        # medicine and the life sciences while Crossref carries an abstract for only
+        # some of the social-science corpus. Stating the spread keeps a reader from
+        # reading the `title+abstract` row as a like-for-like uplift on the headline.
+        per_discipline: dict[str, list[int]] = {}
+        for g in gold:
+            bucket = per_discipline.setdefault(g["discipline"], [0, 0])
+            bucket[1] += 1
+            if g["paper_title"].lower() in abstracts:
+                bucket[0] += 1
+        sizeable = {d: hit / total for d, (hit, total) in per_discipline.items()
+                    if total >= 20}
+        spread = ""
+        if len(sizeable) >= 2:
+            best = max(sizeable, key=sizeable.get)
+            worst = min(sizeable, key=sizeable.get)
+            spread = (f" That coverage is uneven by discipline — {sizeable[best]:.0%} "
+                      f"of {best} papers against {sizeable[worst]:.0%} of {worst} — so "
+                      "the row is not a like-for-like uplift on the headline.")
         abstract_note = (
             f"`title+abstract` is the realistic figure; it covers {covered} of "
             f"{len(gold)} gold papers ({covered / max(len(gold), 1):.0%}), the rest "
-            "being papers that could not be resolved to an open abstract.")
+            "being papers that could not be resolved to an open abstract." + spread)
     else:
         abstract_note = (
             "The realistic `title+abstract` configuration is **not reported here**: "
