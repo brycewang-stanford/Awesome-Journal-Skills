@@ -1,7 +1,12 @@
 # Maintenance Tools
 
 These scripts are dependency-free Python tools for repository maintenance. They
-are designed to run on a fresh clone of the repository.
+are designed to run on a fresh clone of the repository, with no virtualenv and
+nothing to install.
+
+**Python 3.9 or newer.** Every tool and the whole unit suite are verified on 3.9,
+and CI runs the hard gate on both 3.9 and current Python so the floor stays real —
+stdlib-only is worth little if the scripts quietly need last year's syntax.
 
 ## Hard Gates
 
