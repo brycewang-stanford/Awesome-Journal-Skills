@@ -69,7 +69,7 @@ vocabulary.
 ([`discipline-adjacency.tsv`](discipline-adjacency.tsv), derived from the venue graph —
 a labour paper reaches general `economics` and `economics/public` automatically) are
 boosted, but a strong match elsewhere still surfaces. Getting Step 1 right is worth a
-lot — a correct discipline lifts recall@10 from 46.5% to 55.9%, and to 70.2% if you
+lot — a correct discipline lifts recall@10 from 46.7% to 55.7%, and to 70.8% if you
 trust it enough to filter — but a wrong guess under a hard filter deletes the right
 answer outright, which is why the default is soft.
 

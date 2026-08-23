@@ -362,7 +362,7 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
         --discipline economics/labor --lane empirical --top 15
 ```
 
-The evaluation scores that same code path. On a 1,738-paper gold set split into a tuning half and a held-out half, a **bare title** puts the true venue in the top 10 for **46.5%** of papers, and **55.9%** when the discipline is supplied ([`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)). Retrieval only says *which packs to read*; the recommendation still comes from opening each venue's own pack and source-map.
+The evaluation scores that same code path. On a 1,738-paper gold set split into a tuning half and a held-out half, a **bare title** — the most pessimistic way to ask — puts the true venue in the top 10 for **46.7%** of papers. Pasting the abstract, which is what an author actually does, gives **54.9%**, and supplying the discipline **55.7%** ([`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)). Retrieval only says *which packs to read*; the recommendation still comes from opening each venue's own pack and source-map.
 
 Once there is a ladder, `rt-ladder-ev` prices it: "top journal first, then descend" versus "start one rung down" becomes a difference in expected months and in the probability of ever placing. The **sequence** is what costs a year, not any single venue.
 

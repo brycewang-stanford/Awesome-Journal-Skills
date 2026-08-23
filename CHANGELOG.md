@@ -17,7 +17,7 @@ out to have been running at a third of a depth nobody had measured.
 
 ### Added
 
-- **`tools/tests/`** — 211 offline unit tests, stdlib `unittest`, under a second, run
+- **`tools/tests/`** — 242 offline unit tests, stdlib `unittest`, under a second, run
   first in `run_checks.py`. `py_compile` was the entire test suite for 200 KB of Python
   that every gate depends on, and the generators' `--check` runs are not a substitute:
   they compare a fresh build against a committed build produced by the same code, so a
@@ -29,7 +29,17 @@ out to have been running at a third of a depth nobody had measured.
   sciences) and arXiv (the CS and physics preprints Crossref misses), asked after
   Crossref and before the opt-in, now-billed OpenAlex. The miss cache records *which*
   source said no, so adding a source re-opens every paper the previous one could not
-  find.
+  find. The harvest completed at **729 term bags, 42% of the gold set** (Crossref 393,
+  Europe PMC 91, arXiv 85, plus the 160 rows OpenAlex had produced before it started
+  billing), with zero declines recorded as misses.
+- **The realistic eval configuration is reported for the first time.**
+  `title+abstract` had been withheld at 5% coverage since the eval was built; it now
+  covers 381 of the 861 test papers (44%) and scores **R@10 54.9%, MRR 0.339** against
+  the bare title's 46.7%. Two things a reader should take from it: an abstract is worth
+  about as much as knowing the discipline (55.7%), and its `any-rank` of 100% is a
+  query-length artefact — 130 median terms against a 900-deep index reach *something*
+  in the true venue almost always — not a solved coverage problem. Coverage is uneven by
+  discipline and `RESULTS.md` now says by how much.
 - **Dimension-saturation reporting** in the scorecard, so the next dimension to stop
   measuring anything is visible before it flatlines rather than years after.
 - **Discipline routing for the abstract sources**, so a biomedical index is not asked

@@ -204,7 +204,11 @@ def render(results, venues, gold, abstracts, dev_headline, withheld, n_split) ->
         "",
         "`any-rank` = the true venue was retrieved at all, at any depth (it shares at "
         "least one scope term with the query) — the ceiling every cutoff above is "
-        "working against. `wrong-lane@10` = share of top-10 slots given to a venue that "
+        "working against. It stops bounding anything once the query is long: "
+        "`title+abstract` sends a median of 130 terms against a 900-deep index, so "
+        "*some* term reaches the true venue essentially always, and its 100% is a "
+        "property of the query length rather than a solved problem. Read it on the "
+        "title rows. `wrong-lane@10` = share of top-10 slots given to a venue that "
         "publishes no empirical work, for a paper whose true venue does — the cheapest "
         "kind of obviously wrong suggestion, and the one an author notices first.",
         "",
