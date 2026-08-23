@@ -104,11 +104,20 @@ same bar the repo's own maintenance waves are held to:
 6. **Counters** — bump `tools/audit_repo.py` tripwires and both README count
    blocks in the same commit; `python3 tools/run_checks.py --skip-reports`
    passes end-to-end.
-7. **Score floor** — the pack scores at least **94.0** on
-   `python3 tools/quality_scorecard.py`. The score now reserves six points for
-   current source verification and unresolved-fact discipline, so it distinguishes
-   structurally complete packs from equally complete but stale or uncertain ones.
-   CI enforces `--min-score 94` as a regression floor.
+7. **Conformance** — the pack passes every structural requirement on
+   `python3 tools/quality_scorecard.py --require-conformance`: both READMEs, a
+   resources README, a source anchor, worked examples, exemplars, a code library
+   or a stated reason there is none, a skill count inside its role's band, and
+   every skill description saying *when* to use it and naming its venue. This is
+   the gate CI enforces, and it is pass/fail.
+8. **Backlog score** — the same tool also prints a 0-100 score built only from the
+   things that still differ between packs: how recently the source map was
+   re-read, how many facts it still flags as unconfirmed, how deep the pack's
+   *thinnest* skill is, and how much of it reaches the execution layer. It ranks
+   remaining work; it is not a standard to hit. CI floors it at 40 purely as a
+   tripwire against a broken pack — a new pack landing near the median (≈79) is
+   healthy, and a pack landing at 97 has simply had its source map re-read
+   recently.
 
 ## How to reuse a pack bundle（如何复用一个 pack bundle）
 

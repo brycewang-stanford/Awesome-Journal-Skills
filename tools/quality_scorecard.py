@@ -1,19 +1,44 @@
 #!/usr/bin/env python3
 """Per-pack quality scorecard for Awesome Journal Skills.
 
-Objective, dependency-free scoring of every first-party skill pack so the
-maintenance team can SEE where depth/capability work pays off, instead of
-guessing. Complements tools/audit_repo.py (which is pass/fail correctness) and
-tools/clone_audit.py (which is similarity). This tool is a *report*: it never
-fails CI by itself, but the JSON it emits can be diffed over time to track the
-repo's quality trajectory.
+Objective, dependency-free measurement of every first-party skill pack, so the
+maintenance team can SEE where work pays off instead of guessing. Complements
+tools/audit_repo.py (pass/fail repository invariants) and tools/clone_audit.py
+(similarity).
+
+Two outputs, because they answer different questions
+----------------------------------------------------
+**Conformance** — does this pack meet the structural requirements every pack is
+expected to meet? Both READMEs, a resources README, a source anchor, worked
+examples, exemplars, a code library or a stated reason there is none, a skill
+count inside its role's band, and every skill description saying *when* to use
+it and naming its venue. This is pass/fail and it is the gate.
+
+**Backlog score (0-100)** — of the work that is *not* uniform across packs, how
+much of it is done here? Higher means less left to do.
+
+Why they were split
+-------------------
+The old scorecard folded both into one number, and by August 2026 that number had
+stopped measuring anything: five of its six dimensions sat at maximum for 299 of
+299 packs, so the score was arithmetically ``94 + freshness(0-6)`` and reported a
+mean of 99.2/100. Nothing was wrong with the dimensions — the packs had simply all
+met them, which is the success case for a requirement and the failure case for a
+metric. A requirement everyone satisfies belongs in a gate; only what still varies
+can rank anything.
+
+So the requirements moved to ``conformance`` (still enforced, now as pass/fail),
+and the score is computed from the dimensions that still have spread. The tool
+reports its own saturation at the bottom of the table, so the next dimension to
+retire is visible before it flatlines rather than years after.
 
 Usage:
-  python3 tools/quality_scorecard.py                # full table, worst first
-  python3 tools/quality_scorecard.py --top 20       # 20 lowest-scoring packs
+  python3 tools/quality_scorecard.py                  # full table, worst first
+  python3 tools/quality_scorecard.py --top 20         # 20 packs with the most left to do
   python3 tools/quality_scorecard.py --top 5 --show-skills
-  python3 tools/quality_scorecard.py --json         # machine-readable
-  python3 tools/quality_scorecard.py --min-score 70 # exit 1 if any pack < 70
+  python3 tools/quality_scorecard.py --json           # machine-readable
+  python3 tools/quality_scorecard.py --require-conformance   # exit 1 on any failure
+  python3 tools/quality_scorecard.py --min-score 40   # exit 1 if any pack scores below
 
 The ``unit`` column is a cross-language substance measure: Latin/technical
 tokens count as one unit, and two CJK characters count as one unit.
@@ -140,6 +165,29 @@ CONFERENCE_DEPTH_PACKS = {
 TOOLKIT_PACKS = {
     "Research-Toolkit-Skills",
 }
+
+# --- backlog-score weights ---------------------------------------------------------
+# Chosen against the observed spread of each signal across the 299 packs, so that the
+# ranking separates packs rather than clustering them. They are weights on remaining
+# work, not a claim about what fraction of quality each dimension is.
+CURRENCY_WEIGHT = 30      # how recently the source map was re-read
+VERIFIED_WEIGHT = 25      # how many facts it still flags as unconfirmed
+FLOOR_WEIGHT = 25         # how deep the pack's *thinnest* skill is
+EVENNESS_WEIGHT = 10      # how far the thinnest skill sits below the pack's own average
+WIRING_WEIGHT = 10        # how much of the pack reaches the execution layer
+
+# Publishers change fees, editors and policies on their own schedule. Sixty days is the
+# repository's working definition of "recently re-read"; a year is the hard gate in
+# tools/freshness_audit.py, and a pack at that edge has no currency credit left.
+CURRENCY_BANDS = ((30, 30), (60, 24), (90, 18), (180, 10), (365, 4), (10**6, 0))
+# Ten unresolved flags is where the credit runs out. The repository's p90 is 7.
+UNRESOLVED_ZERO_AT = 10
+# Full wiring credit once a quarter of a pack's skills reach the execution bridge:
+# the bridge belongs in the empirical skills, not in every skill of the lifecycle.
+WIRING_TARGET_SHARE = 0.25
+# Descriptions below this are too thin to route on. Every pack clears it today, which
+# is why it is a conformance requirement rather than a scored dimension.
+MIN_AVG_DESC_CHARS = 200
 
 FRONTMATTER_DESCRIPTION_RE = re.compile(r"^description:\s*(.+)$", re.MULTILINE)
 LATIN_TOKEN_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9_+./-]*")
@@ -440,7 +488,86 @@ def score_pack(pack: Path) -> dict:
     else:
         evidence = 0.0
 
-    total = round(depth + trigger + resources + runnable + structure + evidence, 1)
+    # ---- conformance: the requirements every pack is expected to meet ----
+    # These are the dimensions above, re-expressed as pass/fail. They were worth 94 of
+    # the old 100 points and every pack earned all 94, which is what a requirement
+    # looks like once it has been met — not a differentiator.
+    failures: list[str] = []
+    if not has_readme:
+        failures.append("no README.md")
+    if not has_readme_zh:
+        failures.append("no README.zh-CN.md")
+    if not has_resources_readme:
+        failures.append("no resources/README.md")
+    if not is_toolkit and not (has_source_map or has_external):
+        failures.append("no source anchor (official-source-map.md or external_tools.md)")
+    if not is_toolkit:
+        if not has_worked:
+            failures.append("no resources/worked-examples/")
+        if not is_breadth and not has_exemplars:
+            failures.append("no resources/exemplars/")
+        if not is_breadth and not (has_code or no_code_explained):
+            failures.append("no resources/code/ and no stated reason for its absence")
+    if is_breadth and not has_roster:
+        failures.append("breadth bundle without a roster or source basis")
+    if (is_breadth or is_toolkit) and not has_router:
+        failures.append("no router skill")
+    if is_toolkit:
+        if not 5 <= n <= 14:
+            failures.append(f"{n} skills, outside the 5-14 toolkit band")
+    elif is_breadth:
+        if n < 12:
+            failures.append(f"{n} venue cards, below the 12-card floor")
+    elif not 8 <= n <= 20:
+        failures.append(f"{n} skills, outside the 8-20 lifecycle band")
+    if n and desc_use_when < n:
+        failures.append(f"{n - desc_use_when} description(s) do not say when to use the skill")
+    if n and desc_has_journal_cue < n:
+        failures.append(f"{n - desc_has_journal_cue} description(s) do not name the venue")
+    if n and code_block_skills < n:
+        failures.append(f"{n - code_block_skills} skill(s) carry no worked block")
+    if avg_desc < MIN_AVG_DESC_CHARS:
+        failures.append(f"average description {avg_desc:.0f} chars, below {MIN_AVG_DESC_CHARS}")
+
+    # ---- backlog score (0-100): only dimensions that still vary across packs ----
+    min_units = min(unit_counts) if unit_counts else 0
+    # The *thinnest* skill, not the average. The average is the statistic that
+    # saturated, and it is also the one that hides a soft spot: a pack of eleven
+    # 900-unit skills and one 250-unit skill averages comfortably above target.
+    floor_points = min(FLOOR_WEIGHT, (min_units / depth_target) * FLOOR_WEIGHT)
+    # Evenness asks the same question relatively: is the weakest file weak *for this
+    # pack*? The observed range across the repository is 0.50 to 0.95.
+    evenness_ratio = (min_units / avg_units) if avg_units else 0.0
+    evenness_points = max(0.0, min(EVENNESS_WEIGHT,
+                                   (evenness_ratio - 0.5) / 0.45 * EVENNESS_WEIGHT))
+    if is_toolkit:
+        currency_points = float(CURRENCY_WEIGHT)   # no venue-specific volatile facts
+    elif verified_date:
+        age_days = (dt.date.today() - verified_date).days
+        currency_points = float(next(
+            points for limit, points in CURRENCY_BANDS if age_days <= limit))
+    else:
+        currency_points = 0.0
+    # Every 待核实 / UNVERIFIED marker is a fact the pack itself says it could not
+    # confirm. Repository-wide this is the largest live backlog, and unlike freshness
+    # it does not decay on its own — someone has to go and check.
+    verified_points = VERIFIED_WEIGHT * max(0.0, 1 - unresolved_count / UNRESOLVED_ZERO_AT)
+    # Execution wiring only applies where there is econometric code to wire.
+    wiring_applies = has_code and not is_breadth
+    if wiring_applies and n:
+        wiring_points = min(WIRING_WEIGHT,
+                            (exec_bridge_skills / n) / WIRING_TARGET_SHARE * WIRING_WEIGHT)
+    else:
+        wiring_points = 0.0
+
+    earned = floor_points + evenness_points + currency_points + verified_points
+    available = FLOOR_WEIGHT + EVENNESS_WEIGHT + CURRENCY_WEIGHT + VERIFIED_WEIGHT
+    if wiring_applies:
+        earned += wiring_points
+        available += WIRING_WEIGHT
+    # A pack with nothing to wire is not penalised for not having wired it: the
+    # dimension leaves the denominator instead of scoring zero.
+    total = round(100 * earned / available, 1)
     weak_skills = sorted(
         skill_rows,
         key=lambda row: (
@@ -474,32 +601,81 @@ def score_pack(pack: Path) -> dict:
         "exec_bridge": exec_bridge_skills > 0,
         "exec_bridge_skills": exec_bridge_skills,
         "score": total,
+        "conforms": not failures,
+        "conformance_failures": failures,
+        "min_substance_units": round(min_units),
         "weak_skills": weak_skills,
         "_breakdown": {
-            "depth": round(depth, 1),
+            "currency": round(currency_points, 1),
+            "verified": round(verified_points, 1),
+            "floor": round(floor_points, 1),
+            "evenness": round(evenness_points, 1),
+            "wiring": round(wiring_points, 1) if wiring_applies else None,
             "depth_target": depth_target,
+        },
+        # The retired requirement dimensions, kept so the saturation report at the
+        # bottom of the table can show when the next one is ready to be retired too.
+        "_conformance_points": {
+            "depth": round(depth, 1),
             "trigger": round(trigger, 1),
             "resources": resources,
             "runnable": round(runnable, 1),
             "structure": round(structure, 1),
-            "evidence": round(evidence, 1),
         },
     }
 
 
+SATURATION_NOTE = (
+    "A dimension every pack maxes out has stopped ranking anything. When one of the "
+    "rows below reaches 299/299, move it out of the score and into conformance."
+)
+
+
+def saturation_report(rows: list[dict]) -> list[str]:
+    """How close each scored dimension is to measuring nothing.
+
+    The previous scorecard died of this silently: its dimensions saturated one by one
+    until the score was a freshness clock in a quality costume, and nothing in the
+    output said so. This does.
+    """
+    lines = []
+    ceilings = {
+        "currency": CURRENCY_WEIGHT,
+        "verified": VERIFIED_WEIGHT,
+        "floor": FLOOR_WEIGHT,
+        "evenness": EVENNESS_WEIGHT,
+        "wiring": WIRING_WEIGHT,
+    }
+    for name, ceiling in ceilings.items():
+        scored = [r["_breakdown"][name] for r in rows if r["_breakdown"][name] is not None]
+        if not scored:
+            continue
+        at_ceiling = sum(1 for value in scored if value >= ceiling - 0.05)
+        spread = max(scored) - min(scored)
+        lines.append(f"  {name:<9} {at_ceiling:>3}/{len(scored)} at ceiling · "
+                     f"spread {spread:.1f} of {ceiling}")
+    return lines
+
+
 def main() -> int:
-    ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--top", type=int, default=0, help="show only the N lowest-scoring packs")
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--top", type=int, default=0,
+                    help="show only the N packs with the most work left")
     ap.add_argument(
         "--show-skills",
         action="store_true",
         help="under each displayed pack, show its thinnest SKILL.md files",
     )
     ap.add_argument("--json", action="store_true", help="emit machine-readable JSON")
-    ap.add_argument("--min-score", type=float, default=None, help="exit 1 if any pack scores below this")
+    ap.add_argument("--require-conformance", action="store_true",
+                    help="exit 1 if any pack fails a structural requirement")
+    ap.add_argument("--min-score", type=float, default=None,
+                    help="exit 1 if any pack's backlog score is below this")
     args = ap.parse_args()
 
     rows = sorted((score_pack(p) for p in first_party_packs()), key=lambda r: r["score"])
+    failing = [r for r in rows if not r["conforms"]]
 
     if args.json:
         print(json.dumps(rows, ensure_ascii=False, indent=2))
@@ -509,34 +685,40 @@ def main() -> int:
         mean = sum(scores) / len(scores) if scores else 0
         p10 = scores[int((len(scores) - 1) * 0.10)] if scores else 0
         median = scores[len(scores) // 2] if scores else 0
-        low_counts = {cutoff: sum(1 for score in scores if score < cutoff) for cutoff in (86, 88, 90)}
-        # Execution-bridge rollout: only depth packs that ship/justify a code library
-        # are empirical candidates for wiring; breadth bundles and theory venues are not.
-        empirical = [r for r in rows if r["pack_type"] == "depth" and r["code_status"] == "present"]
+        # Execution-bridge rollout: only packs that ship a code library are candidates
+        # for wiring; breadth bundles and theory venues are not.
+        empirical = [r for r in rows if r["_breakdown"]["wiring"] is not None]
         wired = [r for r in empirical if r["exec_bridge"]]
-        print(f"Quality scorecard — {len(rows)} first-party packs · mean score {mean:.1f}/100")
-        print(
-            f"Distribution: min {scores[0]:.1f} · p10 {p10:.1f} · median {median:.1f} · "
-            f"below 86/88/90 = {low_counts[86]}/{low_counts[88]}/{low_counts[90]}"
-        )
+        print(f"Quality scorecard — {len(rows)} first-party packs")
+        if failing:
+            print(f"Conformance: {len(rows) - len(failing)}/{len(rows)} packs meet every "
+                  f"structural requirement · {len(failing)} FAIL")
+        else:
+            print(f"Conformance: {len(rows)}/{len(rows)} packs meet every structural "
+                  "requirement")
+        print(f"Backlog score: mean {mean:.1f}/100 · min {scores[0]:.1f} · "
+              f"p10 {p10:.1f} · median {median:.1f} · max {scores[-1]:.1f}")
         pct = (len(wired) / len(empirical) * 100) if empirical else 0
         print(
             f"Execution bridge (StatsPAI/Stata MCP) wired: {len(wired)}/{len(empirical)} "
-            f"empirical depth packs ({pct:.0f}%)"
+            f"packs with a code library ({pct:.0f}%)"
         )
-        print(f"(worst first){' · showing bottom ' + str(args.top) if args.top else ''}\n")
-        hdr = f"{'score':>6}  {'type':>10} {'skl':>3} {'unit':>5} {'desc':>4}  {'code':>4} {'wex':>3} {'exm':>3} {'exb':>3}  pack"
+        print(f"(most work left first){' · showing bottom ' + str(args.top) if args.top else ''}\n")
+        hdr = (f"{'score':>5}  {'cur':>3} {'ver':>3} {'flr':>3} {'evn':>3} {'wir':>3}  "
+               f"{'type':>10} {'skl':>3} {'thin':>5} {'unit':>5} {'flags':>5}  pack")
         print(hdr)
         print("-" * len(hdr))
         for r in shown:
-            code_label = "yes" if r["code_status"] == "present" else ("n/a" if r["code_status"] == "not_applicable" else "-")
+            b = r["_breakdown"]
+            wiring = f"{b['wiring']:.0f}" if b["wiring"] is not None else "n/a"
             print(
-                f"{r['score']:>6}  {r['pack_type']:>10} {r['skills']:>3} {r['avg_words']:>5} {r['avg_desc_chars']:>4}  "
-                f"{code_label:>4} "
-                f"{'y' if r['worked_examples'] else '-':>3} "
-                f"{'y' if r['exemplars'] else '-':>3} "
-                f"{'y' if r['exec_bridge'] else '-':>3}  {r['pack']}"
+                f"{r['score']:>5}  {b['currency']:>3.0f} {b['verified']:>3.0f} "
+                f"{b['floor']:>3.0f} {b['evenness']:>3.0f} {wiring:>3}  "
+                f"{r['pack_type']:>10} {r['skills']:>3} {r['min_substance_units']:>5} "
+                f"{r['avg_words']:>5} {r['unresolved_flags']:>5}  {r['pack']}"
             )
+            for failure in r["conformance_failures"]:
+                print(f"        ! {failure}")
             if args.show_skills:
                 for skill in r["weak_skills"]:
                     cue = []
@@ -549,7 +731,14 @@ def main() -> int:
                         f"        - {skill['substance_units']:>4}u/{skill['desc_chars']:>3}d "
                         f"{skill['path']}{cue_text}"
                     )
+        print("\nDimension saturation (cur/ver/flr/evn/wir above):")
+        for line in saturation_report(rows):
+            print(line)
+        print(f"  {SATURATION_NOTE}")
 
+    if args.require_conformance and failing:
+        print(f"\n{len(failing)} pack(s) fail a structural requirement", file=sys.stderr)
+        return 1
     if args.min_score is not None:
         below = [r for r in rows if r["score"] < args.min_score]
         if below:
