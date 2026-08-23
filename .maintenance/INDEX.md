@@ -16,7 +16,7 @@ Before editing any pack, the two files that actually gate work are
 |------|-----------|
 | `ROADMAP-2026-08.md` | Current-month plan (window 2026-07-08 → 08-08): quality-saturation finish, measured expansion, fact-debt paydown, governance de-burden. |
 | `ACCEPTANCE-2026-08.md` | Current-month acceptance report (numbers re-verified against the working tree). |
-| `QUALITY-LANE-2026-09.md` | Forward quality-traction plan after the static scorecard saturated. Records the deliberate decisions: scorecard is a regression floor, **not** a ranking target; no rebuilding auto-committing eval apparatus. Read before touching `tools/quality_scorecard.py`. |
+| `QUALITY-LANE-2026-09.md` | Forward quality-traction plan after the static scorecard saturated, **plus the 2026-08-23 revision** that retired its "no new scorecard dimensions" rule and split the tool into a pass/fail conformance gate and a ranking-only backlog score. The constraints that still bind — no auto-committing self-measuring apparatus, no behavioural eval in CI, the backlog score is not a target — are restated there. Read before touching `tools/quality_scorecard.py`. |
 | `CLAIMS.md` | Active multi-agent claims board. Claim a lane here before editing; commit with targeted `git add <path>`. |
 | `RELEASE-NOTES-v1.1.0.md` | Bilingual draft release notes awaiting an owner-run tag. |
 

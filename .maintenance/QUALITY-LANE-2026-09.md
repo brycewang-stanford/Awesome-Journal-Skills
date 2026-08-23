@@ -48,3 +48,42 @@ skill 装入真实 Claude Code 会话跑典型投稿任务，人工判断输出�
 - 不重建 `tools/skillopt*`、monthly-uplift 仪表盘或任何 auto-commit 循环。
 - 不给静态 scorecard 加新维度来"制造提升空间"——防线角色不需要区分度。
 - 不把行为评测接入 run_checks（网络依赖 + 模型不确定性 = CI 噪声源）。
+
+## 修订（2026-08-23）：「不给静态 scorecard 加新维度」一条已被取代
+
+上面「明确不做」的第二条——*不给静态 scorecard 加新维度来"制造提升空间"*
+——本文件写下后不到一个月就已经被实践推翻了两次，现予以正式修订。记录经过，
+以免下一个人把它当成仍然有效的约束、或者反过来以为可以随意加维度。
+
+**它是怎么失效的。** 2026-08-09 的 `609eeb78` 给 scorecard 加了 evidence 维度
+（source-map 新鲜度 + 待核实计数，0–6 分），代码注释写明理由：*"The previous
+formula topped out at 94, causing every conforming pack to receive the same
+nominal 94/100 and hiding the maintenance backlog."* 这正是本文件禁止的动作，
+而且理由跟本文件自己认定的「最大敞口 = 事实新鲜度」是同一件事。到 2026-08-23，
+新加的这一维也饱和了：299 个 pack 里 6 个维度有 5 个满分，分数在算术上等于
+`94 + freshness(0-6)`，均值 99.2、最低 98.5，`--min-score 94` 成了一道永远不会
+亮红灯的门。
+
+**现在的形状。** 把两件事拆开，而不是继续往一个数里塞维度：
+
+- **conformance（通过/不通过）** —— 这才是本文件想要的那道**回归防线**。它
+  就是原来那 94 分的全部内容，只是不再伪装成分数：缺哪一项就说缺哪一项。
+  `run_checks.py` 用 `--require-conformance` 硬门槛跑它，299/299 全过。
+- **backlog score（0–100，只排序，不设标准）** —— 只用**还有区分度**的信号：
+  source-map 时效、待核实负债、pack 里**最薄**那个 skill 的厚度、它与该 pack
+  自身均值的落差、以及有 code library 的包的 execution-bridge 接线率。其中
+  55 分落在 currency + verified 上，也就是本文件自己点名的第一敞口。
+
+**保留下来的约束**（这几条没有被修订，仍然有效）：
+
+- 不重建 `tools/skillopt*`、monthly-uplift 仪表盘或任何 **auto-commit 自度量**
+  循环。scorecard 是只读的、离线的、确定性的，不写任何工作区状态。
+- 不把行为评测接入 `run_checks`。
+- backlog score **不是目标**。CI 里的 `--min-score 40` 远低于当前最低分
+  （51.5），只是防止一个坏掉的新 pack 混进来的绊线，不是可以优化的指标；
+  排序的用途是告诉维护者先修哪个包。
+
+**下次别再手动发现这件事。** scorecard 现在会在表格末尾打印自己每个维度的
+饱和度。某一行到 299/299 就说明它已经不再区分任何东西，应当移进 conformance。
+写下这条的原因是：前两次饱和都是靠人偶然注意到均值很漂亮才发现的，中间各隔了
+一个多月，而在那期间「质量分 99.2/100」这句话一直在对所有人说一切都很好。
