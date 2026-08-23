@@ -7,6 +7,67 @@ released together — every first-party pack carries the same version so that
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); this
 project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+Two of the repository's own instruments had stopped working, and neither said so. The
+quality scorecard reported a mean of 99.2/100 while measuring almost nothing; the
+abstract harvester recorded "no such paper" for papers an API had merely refused to
+answer about. Both are fixed here, both now have tests, and the retrieval index turns
+out to have been running at a third of a depth nobody had measured.
+
+### Added
+
+- **`tools/tests/`** — 211 offline unit tests, stdlib `unittest`, under a second, run
+  first in `run_checks.py`. `py_compile` was the entire test suite for 200 KB of Python
+  that every gate depends on, and the generators' `--check` runs are not a substitute:
+  they compare a fresh build against a committed build produced by the same code, so a
+  wrong rule reproduces itself and passes. The tests build their own fixtures rather
+  than reading the committed index, so a failure means the rule changed.
+- **Hero-asset integrity check** (`audit_repo.check_hero_assets`) — pins the five
+  images at the top of the READMEs by dimensions and a byte floor.
+- **Two more abstract sources** — Europe PMC (near-complete for medicine and the life
+  sciences) and arXiv (the CS and physics preprints Crossref misses), asked after
+  Crossref and before the opt-in, now-billed OpenAlex. The miss cache records *which*
+  source said no, so adding a source re-opens every paper the previous one could not
+  find.
+- **Dimension-saturation reporting** in the scorecard, so the next dimension to stop
+  measuring anything is visible before it flatlines rather than years after.
+
+### Changed
+
+- **Retrieval depth 300 → 900.** `KEYWORD_DEPTH` had a comment explaining why the index
+  wants a long tail and no measurement of how long. On the `dev` half, R@10 runs
+  41.0 / 45.5 / 46.9 / 47.7 / 48.5 at depths 300 / 600 / 900 / 1200 / 2000; 900 is the
+  knee. On the held-out `test` half, **R@10 41.5% → 46.5%**, MRR 0.245 → 0.267, and
+  **any-rank 72.7% → 85.0%** — a quarter of the corpus had been unreachable at any
+  depth. No weighting constant changed; they sit on the same plateau at the new depth.
+  The CI recall floor moves 0.36 → 0.42. `scope-postings.tsv` grows 3.3 MB → 7.8 MB.
+- **The quality scorecard is now two measurements.** Conformance (pass/fail, the gate)
+  and a backlog score (0-100, the ranking). They were one number, and five of its six
+  dimensions sat at maximum for 299 of 299 packs, making the score arithmetically
+  `94 + freshness(0-6)` and `--min-score 94` a gate that could not fire. The backlog
+  score uses only signals that still vary — source-map currency, unresolved-fact load,
+  the depth of the pack's *thinnest* skill, its distance below the pack's own average,
+  and execution-bridge wiring where a code library exists. Mean 77.6, min 51.5, max
+  97.9, and the bottom of the table is a real work queue.
+- **`--min-score 94` → `--require-conformance --min-score 40`** in `run_checks.py`.
+
+### Fixed
+
+- **`assets/banner-en.png` was a bot-check screenshot.** The English README opened with
+  a Cloudflare "Performing security verification" page, captured at exactly the
+  banner's 2400x860 so every dimension still agreed. Nothing in the repository noticed:
+  the file existed, the link resolved, the audit passed. Restored, and guarded.
+- **A declining API is no longer recorded as a paper without an abstract.**
+  `fetch_abstracts.py` returned `{}` for every 4xx that was not exactly 429 and the
+  caller read that as "no such paper" — so when OpenAlex began billing per request and
+  answering 403, one run cached 50 false misses, which are skipped forever. Answers are
+  now typed `found` / `absent` / `declined`, `retryAfter` is honoured, and a source that
+  declines is dropped from the run instead of being asked (and charged for) 1,600 more
+  times.
+- Published recall figures in `README.md`, `README.en.md` and `journal-match.md`
+  refreshed to the new held-out numbers.
+
 ## [1.1.0] — 2026-08-08
 
 Journal selection stops being a method an agent improvises over a TSV and becomes a
