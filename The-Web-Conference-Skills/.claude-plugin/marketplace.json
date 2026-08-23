@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "the-web-conference-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for The ACM Web Conference (WWW): track routing, research-tracks submission, rebuttal, ACM camera-ready, artifact badging, and web-scale evidence work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "the-web-conference-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve Web Conference-specific skills for submitting to the ACM Web Conference (formerly WWW), grounded in the WWW 2026 research-tracks CFP, artifact-badging call, ACM Digital Library proceedings records, and SIGWEB venue announcements.",
       "author": {

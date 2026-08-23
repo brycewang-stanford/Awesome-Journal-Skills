@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "isca-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for ISCA computer-architecture papers: venue routing, the November submission gate, simulator-grade evidence, rebuttal-plus-revision review, and badge-backed artifacts.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "isca-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ISCA-specific skills covering the full arc from architecture-venue fit through HotCRP submission, two-round review with rebuttal and revision, camera-ready, and ACM-badged artifact evaluation, grounded in ISCA 2026 official pages checked 2026-07-08.",
       "author": {

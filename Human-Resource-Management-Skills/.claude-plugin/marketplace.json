@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "human-resource-management-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Twelve-skill bundle for Human Resource Management manuscripts.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "human-resource-management-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Human Resource Management manuscript lifecycle.",
       "author": {

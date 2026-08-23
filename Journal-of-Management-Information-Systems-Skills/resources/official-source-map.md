@@ -1,11 +1,12 @@
 # Journal of Management Information Systems Official Source Map
 
-Primary source map for facts used in the JMIS skill pack. **Access date: 2026-06.** Re-check editor names, fees, exact length limits, portal forms, data policies, and style details before relying on them. Items not confirmed from an official page are marked **待核实** in the skills.
+Primary source map for facts used in the JMIS skill pack. **Re-verified 2026-08-09.** Re-check editor names, fees, exact length limits, portal forms, data policies, and style details before relying on them. Items not confirmed from an official page are marked **待核实** in the skills.
 
 ## Official pages
 
 - **https://www.tandfonline.com/journals/mmis20** — official page used to verify or re-check JMIS scope, submission, policy, or author guidance. Access date: 2026-06.
 - **https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=mmis20** — official page used to verify or re-check JMIS scope, submission, policy, or author guidance. Access date: 2026-06.
+- **https://jmis-web.org/info-for-contributors** — official contributor page re-checked 2026-08-09; confirms Vladimir Zwass as Editor-in-Chief, email submission to `jmis@fdu.edu`, double-blind review, a 150-word abstract cap, and a 50-page complete-manuscript cap.
 
 ## Facts used in the skills
 
@@ -20,9 +21,10 @@ Primary source map for facts used in the JMIS skill pack. **Access date: 2026-06
 | analytics adoption | Official pages above; re-check live before submission |
 | information systems theory | Official pages above; re-check live before submission |
 
-## Verified on official pages (2026-06)
+## Verified on official pages (2026-08-09)
 
-- **Editor-in-Chief: Vladimir Zwass (Fairleigh Dickinson University)** — founding and present EiC. (jmis-web.org / Taylor & Francis)
+- **Editor-in-Chief: Vladimir Zwass (Fairleigh Dickinson University)** — present EiC. (jmis-web.org / Taylor & Francis)
+- Original submissions go by email to `jmis@fdu.edu`, use double-blind review, carry an abstract of at most 150 words, and may not exceed 50 pages. (jmis-web.org contributor page)
 - Published by **Taylor & Francis** (print and online).
 
 ## Unverified / volatile items

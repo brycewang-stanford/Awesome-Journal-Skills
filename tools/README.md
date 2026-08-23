@@ -37,9 +37,36 @@ python3 tools/audit_repo.py --counts   # prints the live numbers to copy in
 
 ## Generators
 
+All generators accept `--check`, which exits non-zero when the committed output
+differs from a fresh build. `run_checks.py` runs them that way, so a new pack cannot
+silently leave the matcher, the ladder, the eval or the catalog behind. Shared
+classification and text-extraction logic lives in [`venue_lib.py`](venue_lib.py) —
+edit the `DISC` / `TIER` / `THEORY` / `CHINA` maps there to reclassify a venue, never
+the generated files.
+
+Run them in this order; each reads the one above it.
+
 | Tool | Purpose | Typical command |
 |------|---------|-----------------|
-| [`gen_venue_index.py`](gen_venue_index.py) | Regenerates `shared-resources/journal-selection/venue-index.tsv`, the stable venue index behind the journal-match capability. Emits stable fields only (discipline / tier / lane / region / source-map pointer) — never volatile fees or acceptance, which stay in each pack's `official-source-map.md`. Re-run after adding or removing a depth pack and commit the regenerated TSV in the same change. | `python3 tools/gen_venue_index.py` |
+| [`gen_venue_index.py`](gen_venue_index.py) | Regenerates `shared-resources/journal-selection/venue-index.tsv` — the stable index of all 743 venues (289 depth packs + 454 breadth-bundle profiles, cross-tier duplicates resolved by name/acronym identity) — **and** `scope-postings.tsv`, the 300-term-deep inverted index the matcher searches. Emits stable fields only (coverage / type / discipline / tier / lane / region / derived `scope_keywords` / pointers) — never volatile fees or acceptance, which stay in each pack's `official-source-map.md`. `ranking_labels` records only labels a pack's own text asserts. | `python3 tools/gen_venue_index.py` |
+| [`gen_ladder.py`](gen_ladder.py) | Regenerates `ladder.tsv`, the venue-adjacency graph behind the resubmission ladder, from the venues each pack names as siblings or alternatives, plus `discipline-adjacency.tsv`, the same graph collapsed by discipline (which widens the matcher's discipline prior). Candidate adjacency, not a ranking. | `python3 tools/gen_ladder.py` |
+| [`build_eval_set.py`](build_eval_set.py) | Harvests the `(paper → venue)` gold set from the depth packs' verified exemplar libraries into `eval/gold-set.tsv`, assigning each paper to a `dev` or `test` split by a hash of its title. | `python3 tools/build_eval_set.py` |
+| [`fetch_abstracts.py`](fetch_abstracts.py) | Resolves gold papers against OpenAlex and stores a sorted, stopword-filtered **term bag** per abstract (not the abstract) in `eval/abstract-terms.tsv`, powering the realistic `title+abstract` configuration. **Network-dependent, so it is never run by CI** — its output is committed and CI reads the file. Resumable: rerun to fill gaps. Set `OPENALEX_MAILTO` for the polite pool's higher rate allowance. | `python3 tools/fetch_abstracts.py` |
+| [`eval_journal_match.py`](eval_journal_match.py) | Scores the matcher's candidate-generation step against that gold set (recall@k, MRR, wrong-lane precision, per-discipline) and writes `eval/RESULTS.md`. It goes through `match_lib.py`, so it measures the code `match_venues.py` runs rather than a private re-implementation. Reported on the held-out `test` half; `--min-recall-at-10` is the CI floor that turns an index or matcher regression into a failing build. | `python3 tools/eval_journal_match.py --write` |
+| [`gen_catalog.py`](gen_catalog.py) | Regenerates the browsable `CATALOG.md` and machine-readable `catalog.json` — every venue by discipline with its install target. | `python3 tools/gen_catalog.py` |
+| [`freshness_audit.py`](freshness_audit.py) | Regenerates `.maintenance/FRESHNESS.md` by **parsing** each source map's own access/verification dates (no second copy to drift). `--max-age-days` / `--max-unknown` turn it into a gate; the weekly CI job runs it advisory. | `python3 tools/freshness_audit.py --write` |
+| [`set_version.py`](set_version.py) | Writes one version across every manifest a pack owns plus the root marketplace — the four places `audit_repo.py` requires to agree. | `python3 tools/set_version.py --set 1.0.0` |
+
+## Author-Facing Tools
+
+Unlike everything above, these are run *by an agent while helping an author*, not by a
+maintainer. They read only committed data and make no network calls.
+
+| Tool | Purpose | Typical command |
+|------|---------|-----------------|
+| [`match_venues.py`](match_venues.py) | Step 2 of the journal-match method: rank the 743 indexed venues against a paper's title and abstract. `--discipline` is a prior (widened by `discipline-adjacency.tsv`), not a filter; `--only-discipline` hard-filters, `--exclude` drops venues that already rejected the paper, `--json` pipes. Prints where to read each candidate and which terms it matched, so a nonsense hit is visible as one, and warns when the leading candidates rest on one or two words or when nothing in the named discipline matched at all. Retrieval only — the recommendation still comes from reading each venue's pack. | `python3 tools/match_venues.py --title "..." --abstract "..." --discipline finance` |
+| [`ladder_ev.py`](ladder_ev.py) | Step 6: cost a submission *sequence*. Given each rung's `p_accept` and months-to-decision, returns expected months, P(placed), P(ladder exhausted), and a sensitivity band — because `p_accept` is a judgement, not a measurement. | `python3 tools/ladder_ev.py --rung "A:0.06:4.5" --rung "B:0.2:3.0"` |
+| [`match_lib.py`](match_lib.py) | Not a CLI: the shared retrieval layer both `match_venues.py` and `eval_journal_match.py` go through. The weighting constants live here and are tuned on the gold set's `dev` half only. | — |
 
 ## Asset Rendering (Node)
 

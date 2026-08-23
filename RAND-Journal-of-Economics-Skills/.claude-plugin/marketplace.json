@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "rje-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at The RAND Journal of Economics (RJE), the flagship industrial-organization journal.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "rje-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering The RAND Journal of Economics (RJE) manuscript lifecycle for industrial-organization research.",
       "author": {

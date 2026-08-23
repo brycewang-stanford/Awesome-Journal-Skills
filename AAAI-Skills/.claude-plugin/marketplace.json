@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aaai-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for AAAI manuscript planning, OpenReview submission, two-phase review, rebuttal, reproducibility, artifacts, and camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aaai-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve AAAI-specific skills for AI conference submission strategy, grounded in official AAAI-26 submission instructions, review process, author policies, rebuttal FAQ, supplementary-material rules, and AI-assisted review FAQ.",
       "author": {
@@ -49,4 +49,3 @@
     }
   ]
 }
-

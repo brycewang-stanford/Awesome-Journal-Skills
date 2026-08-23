@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cjms-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《中国管理科学》 (Chinese Journal of Management Science), the CAS-supervised applied quantitative-management flagship.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "cjms-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the 《中国管理科学》 manuscript lifecycle, from topic selection and applied modeling through zgglkx.com submission and referee rebuttal.",
       "author": {

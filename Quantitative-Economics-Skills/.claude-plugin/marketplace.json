@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "qe-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Quantitative Economics (QE), the empirically and computationally oriented general-interest journal of the Econometric Society.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "qe-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Quantitative Economics (QE) manuscript lifecycle, from topic selection through the Econometric Society Data Editor reproducibility check and R&R rebuttal.",
       "author": {

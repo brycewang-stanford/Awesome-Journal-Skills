@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "orgsci-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Organization Science, the INFORMS interdisciplinary, theory-driven journal about organizations from micro to macro.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "orgsci-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Organization Science manuscript lifecycle, from contribution statement to rebuttal.",
       "author": {

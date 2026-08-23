@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jf-skills",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "description": "Twelve JF-specific skills for The Journal of Finance (JF), the American Finance Association flagship (est. 1946, Wiley-Blackwell): the AFA portal and tiered submission fee, the 60-page limit, the bundled Internet Appendix, the Data and Code Sharing Policy, and general-interest positioning across the finance top-3.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jf-skills",
-      "version": "0.2.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the The Journal of Finance (JF) manuscript lifecycle, with JF-specific mechanics (AFA portal, tiered submission fee, 60-page limit, bundled Internet Appendix, Data and Code Sharing Policy).",
       "author": {

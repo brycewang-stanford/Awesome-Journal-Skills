@@ -36,6 +36,7 @@ Before editing any pack, the two files that actually gate work are
 | `EXPANSION-PLAN.md` | All-discipline expansion blueprint (10×100 target). |
 | `EXPANSION-PLAN-2026-06-PLUS100.md` | +100-journal expansion plan targeting the thinnest disciplines. |
 | `EXEMPLAR-SLOT-TODO.md` | TODO registry for Chinese-journal exemplar method slots. |
+| `FRESHNESS.md` | **Generated.** Per-pack `last_verified` dates parsed from each source map's own prose — the backlog for the live-check campaign. Rebuild with `python3 tools/freshness_audit.py --write`; never hand-edit. |
 | `LIVE-CHECK-URLS.txt` | URL list consumed by the live-check tooling. |
 | `live-check.workflow.yml` | Live-check workflow snippet. |
 

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "rss-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for Robotics: Science and Systems (RSS) paper planning, OpenReview submission, the invited rebuttal, real-robot evidence, supplementary video, and roboticsproceedings.org camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "rss-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve RSS-specific skills for the single-track robotics flagship: science-first framing, OpenReview mechanics, the two-stage review with invited rebuttals, and free open-access proceedings, grounded in the RSS 2026 Sydney cycle.",
       "author": {

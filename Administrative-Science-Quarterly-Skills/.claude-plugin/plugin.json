@@ -1,7 +1,7 @@
 {
   "name": "asq-skills",
   "description": "Agent skill stack for manuscripts targeted at Administrative Science Quarterly (ASQ), the top theory-driven journal in organization theory and the sociology of organizations — founded in 1956 by James D. Thompson and published by SAGE in association with Cornell's Samuel Curtis Johnson Graduate School of Management (current Editor: Beth Bechky, from July 2025). Tuned to ASQ's actual standards: deep, surprising theoretical contribution over method showmanship; fully first-class qualitative/inductive work (grounded-theory, ethnographic, historical) alongside quantitative; a developmental, exceptionally selective double-blind review (no submission fee; suggested 35-45 pages; 200-word abstract; APA references since 2025) and a standing book-review section. Covers surprising-insight topic selection, process- and variance-theory development, organization-theory literature positioning, rigorous qualitative and quantitative methods, data-to-theory analysis, theoretical-contribution framing, APA-style tables/figures and prose, ScholarOne submission, the developmental review process, and multi-round R&R rebuttals. Bilingual en / zh-CN docs.",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

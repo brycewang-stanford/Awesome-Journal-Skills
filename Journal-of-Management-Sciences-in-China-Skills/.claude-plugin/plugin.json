@@ -1,7 +1,7 @@
 {
   "name": "journal-of-management-sciences-in-china-skills",
   "description": "Agent skill stack for submitting to 《管理科学学报》 (Journal of Management Sciences in China, JMSC) — the quantitative / mathematical management-science journal co-sponsored by the NSFC Management Science Division and Tianjin University (monthly, ISSN 1007-9807, CN 12-1275/G3). The deliverable JMSC rewards is MODELS + PROOFS + ALGORITHMS + numerical insight, not regression-and-policy or survey-SEM empirics (those route to 管理世界 / 南开管理评论 / 金融研究). Covers fit positioning, decision-problem formulation, model building, propositions and proofs, algorithm complexity / convergence analysis, numerical experiments, behavioral OM, model-derived decision rules, unified notation, JMSC submission preflight (≤8000 chars, abstract ≤300, keywords 3–8, numbered 〔1〕 references, jmsc.tju.edu.cn), and R&R rebuttal.",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

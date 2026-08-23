@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sigmod-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM SIGMOD data-management research: PACMMOD round planning, CMT submission, revision letters, ARI artifact badges, and camera-ready porting.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sigmod-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve SIGMOD-specific skills for database and data-management paper strategy under the PACMMOD multi-round journal model, grounded in the SIGMOD 2027 Call for Papers, PACMMOD author guidelines, and the Availability & Reproducibility Initiative pages.",
       "author": {

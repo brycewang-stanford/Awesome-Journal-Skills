@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ci-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for essays targeted at Critical Inquiry, the leading interdisciplinary journal of criticism and theory in the arts and humanities.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ci-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Critical Inquiry essay lifecycle — from a bold interdisciplinary theoretical intervention through the reading of texts, images, and objects, to Chicago-style submission and revision.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "siggraph-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for the ACM SIGGRAPH Technical Papers program: the ACM TOG journal-integrated dual-track model, Linklings single-round review with rebuttal and Technical Papers Committee meeting, conditional acceptance, the acmart/acmtog format, the supplemental-video and replicability culture, and the Graphics Replicability Stamp.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "siggraph-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve SIGGRAPH-specific skills for the ACM SIGGRAPH / SIGGRAPH Asia Technical Papers program and its ACM Transactions on Graphics (TOG) journal-integrated publication model, grounded in the SIGGRAPH 2026 and SIGGRAPH Asia 2026 technical-papers calls, ACM Digital Library TOG, and dblp.",
       "author": {

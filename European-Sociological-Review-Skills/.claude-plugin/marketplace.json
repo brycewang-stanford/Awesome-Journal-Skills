@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "european-sociological-review-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the European Sociological Review (ESR), the flagship quantitative-sociology journal of the European Consortium for Sociological Research.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "european-sociological-review-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the European Sociological Review (ESR) manuscript lifecycle for comparative and longitudinal quantitative sociology.",
       "author": {

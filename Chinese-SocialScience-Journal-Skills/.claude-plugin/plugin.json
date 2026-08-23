@@ -1,7 +1,7 @@
 {
   "name": "chinese-socsci-journal-skills",
   "description": "Agent skill stack for the 100 Chinese economics/management roadmap journals plus 中国社会科学 and 社会学研究. One self-contained fit-and-house-style skill per journal, plus cn-journal-workflow routing.",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

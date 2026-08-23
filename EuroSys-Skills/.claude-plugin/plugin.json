@@ -1,7 +1,7 @@
 {
   "name": "eurosys-skills",
   "description": "A 12-skill depth pack for EuroSys submissions: venue fit, the dual spring/fall deadline calendar, HotCRP submission checks, rebuttal and one-shot revision strategy, ACM camera-ready, sysartifacts artifact evaluation with badges, reproducibility, writing style, related work, experiments, and workflow. Grounded in the EuroSys 2027 CFP, HotCRP sites, sysartifacts pages, and eurosys.org, checked on 2026-07-08.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

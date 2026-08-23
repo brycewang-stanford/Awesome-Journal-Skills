@@ -1,7 +1,7 @@
 {
   "name": "asplos-skills",
   "description": "A 12-skill depth pack for ASPLOS submissions: cross-layer venue fit, the two-deadline HotCRP cycle, rapid review and rebuttal strategy, Major Revision handling, camera-ready, ACM artifact badges, hardware-evaluation reproducibility, supplementary appendices, writing style, related work, experiments, and workflow. Grounded in the official ASPLOS 2027 CFP, HotCRP deadline pages, artifact-evaluation pages, and ACM DL proceedings checked on 2026-07-08.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

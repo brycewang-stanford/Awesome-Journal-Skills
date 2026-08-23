@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "colm-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for COLM (Conference on Language Modeling) paper planning, OpenReview submission, rebuttal, LM-specific evaluation rigor, and camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "colm-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve COLM-specific skills for language-modeling research submissions, grounded in the COLM 2026 Call for Papers, key-dates page, submission instructions, author guide, and OpenReview group, checked on 2026-07-08.",
       "author": {

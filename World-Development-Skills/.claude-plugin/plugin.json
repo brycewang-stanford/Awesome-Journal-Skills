@@ -1,7 +1,7 @@
 {
   "name": "world-development-skills",
   "description": "Agent skill stack for manuscripts targeted at World Development (World Development). Twelve role skills cover fit, contribution, evidence, writing, submission, and revision with source-backed World Development guardrails.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

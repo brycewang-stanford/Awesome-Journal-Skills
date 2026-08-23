@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "review-of-educational-research-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An agent skill stack for writing systematic reviews, meta-analyses, and critical integrative syntheses for the Review of Educational Research (RER), AERA's flagship review journal published by SAGE.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "review-of-educational-research-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Review of Educational Research (RER) review-article lifecycle, from scoping a synthesis-worthy question and a preregistered protocol through systematic search, the organizing framework, comprehensiveness and risk-of-bias, PRISMA/MARS transparency, submission, and revision.",
       "author": {

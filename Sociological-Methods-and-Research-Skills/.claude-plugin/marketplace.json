@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sociological-methods-and-research-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Sociological Methods & Research (SMR), the SAGE quantitative-sociology-methods flagship.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sociological-methods-and-research-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Sociological Methods & Research (SMR) manuscript lifecycle — method-contribution fit, derivation and analytical properties, Monte Carlo simulation studies, a real-data empirical illustration, released reproducible software, ScholarOne submission, and rebuttal.",
       "author": {

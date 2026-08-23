@@ -20,9 +20,10 @@ ROOT = Path(__file__).resolve().parents[1]
 # additions. When you intentionally add/remove packs, update these three values
 # (and the README badges) in the same commit. Run `python3 tools/audit_repo.py
 # --counts` to print the live numbers to copy in.
-EXPECTED_SKILL_COUNT = 4162
+EXPECTED_SKILL_COUNT = 4166
 EXPECTED_PACK_COUNT = 300
 EXPECTED_ROOT_JOURNAL_ENTRIES = 201
+EXPECTED_VENUE_COUNT = 744
 # Executed empirical evidence cases under showcase/. Each is a real MCP tool
 # run committed as documentation; removing one silently would weaken the
 # repo's central "automated empirical research" claim.
@@ -49,7 +50,6 @@ CHINESE_DEPTH_PACKS_REQUIRING_SOURCE_MAPS = {
     "Journal-of-Finance-and-Economics-Skills",
     "Journal-of-Financial-Research-Skills",
     "Journal-of-Management-Sciences-in-China-Skills",
-    "Journal-of-Systems-Engineering-Skills",
     "Journal-of-Management-World-Skills",
     "Journal-of-Quantitative-and-Technological-Economics-Skills",
     "Journal-of-World-Economy-Skills",
@@ -234,6 +234,18 @@ def check_readme_badges(errors: list[str]) -> None:
             errors.append(f"{rel(path)} does not mention expected skill count {EXPECTED_SKILL_COUNT}")
         if str(EXPECTED_PACK_COUNT) not in text:
             errors.append(f"{rel(path)} does not mention expected pack count {EXPECTED_PACK_COUNT}")
+        if str(EXPECTED_VENUE_COUNT) not in text:
+            errors.append(f"{rel(path)} does not mention expected venue count {EXPECTED_VENUE_COUNT}")
+
+    required_banner_tokens = {
+        "{{SKILL_COUNT}}", "{{PACK_COUNT}}", "{{JOURNAL_COUNT}}",
+        "{{CONFERENCE_COUNT}}", "{{VENUE_COUNT}}",
+    }
+    for path in (ROOT / "assets/banner-src/banner-zh.html", ROOT / "assets/banner-src/banner-en.html"):
+        text = path.read_text(encoding="utf-8")
+        missing = sorted(required_banner_tokens - set(re.findall(r"{{[A-Z_]+}}", text)))
+        if missing:
+            errors.append(f"{rel(path)} missing generated count token(s): {missing}")
 
 
 def check_root_marketplace(errors: list[str]) -> None:
@@ -246,6 +258,14 @@ def check_root_marketplace(errors: list[str]) -> None:
     if not isinstance(entries, list):
         errors.append(f"{rel(marketplace_path)} plugins must be a list")
         return
+
+    root_version = marketplace.get("version")
+    entry_versions = {entry.get("version") for entry in entries if isinstance(entry, dict)}
+    if len(entry_versions) == 1 and root_version not in entry_versions:
+        errors.append(
+            f"{rel(marketplace_path)} top-level version {root_version!r} "
+            f"!= pack release version {next(iter(entry_versions))!r}"
+        )
 
     expected_roots = {rel(path) for path in first_party_plugin_roots()}
     seen_roots: set[str] = set()

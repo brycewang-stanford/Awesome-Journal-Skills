@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "amr-skills",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "description": "An opinionated theory-development skill stack for the Academy of Management Review (AMR) — the Academy of Management's conceptual/theory journal that publishes NO empirical hypothesis tests (that is AMJ's lane).",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "amr-skills",
-      "version": "0.2.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill theory-development bundle for the Academy of Management Review (AMR), AOM's conceptual/theory journal. Theory-puzzle framing, construct clarity, propositions (not hypotheses tested), argument-logic stress-testing, contribution differentiation, conceptual figures, APA/AOM style, ScholarOne double-anonymous developmental review. NO empirical data — that is AMJ's lane.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "sigmetrics-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM SIGMETRICS manuscript routing, the three-cycle rolling POMACS model, hybrid conference-journal review with one-shot revision and shepherding, double-anonymous acmsmall submission, performance-evaluation evidence, and ACM artifact badging.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "sigmetrics-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve SIGMETRICS-specific skills for the ACM SIGMETRICS conference and its POMACS journal-style publication model, grounded in the SIGMETRICS 2026/2027 calls, the POMACS journal pages, ACM Digital Library, and dblp.",
       "author": {

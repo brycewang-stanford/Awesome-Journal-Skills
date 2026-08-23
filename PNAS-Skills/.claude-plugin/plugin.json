@@ -1,7 +1,7 @@
 {
   "name": "pnas-skills",
   "description": "Agent skill stack for submitting to PNAS (Proceedings of the National Academy of Sciences) — the broad-coverage multidisciplinary journal of the U.S. National Academy of Sciences. Encodes PNAS's editorial bar (high quality + broad significance, more accepting than Science/Nature), the unique submission tracks (Direct vs Contributed by NAS members), the mandatory ≤120-word Significance Statement, the Biological/Physical/Social Sciences classification system, the ≤250-word self-contained abstract, in-text Materials and Methods, numbered references in order of appearance, statistics and reproducibility reporting, data/code availability with deposition, submission preflight, and reviewer rebuttals. English-first docs with zh-CN mirror.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

@@ -1,7 +1,7 @@
 {
   "name": "ijcai-skills",
   "description": "A 12-skill depth pack for IJCAI and IJCAI-ECAI submissions: topic fit, Chairing Tool submission checks, author response, camera-ready, artifacts, reproducibility, supplementary material, review process, writing style, related work, experiments, and workflow. Grounded in official IJCAI-ECAI 2026 CFP, FAQ, reproducibility guidelines, author kit, important dates, peer-review principles, and COI policy checked on 2026-06-01.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

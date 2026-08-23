@@ -1,7 +1,7 @@
 {
   "name": "social-sciences-in-china-skills",
   "description": "Agent skill stack for submitting to 《中国社会科学》 (Social Sciences in China) — the comprehensive philosophy-and-social-science flagship sponsored by the Chinese Academy of Social Sciences, spanning literature, history, philosophy, economics, law, sociology and politics (NOT a single-discipline empirical economics journal; monthly, ISSN 1002-4921, CN 11-1211/C). Built around the journal's defining traits: footnote (页下注) citation style rather than author-year in-text citations, primacy of 思想分量 (theoretical weight) over methodological sophistication, and the building of China's autonomous knowledge system. Covers fit judgment, problematic / big-question framing, original theory, theory-tradition literature dialogue, argumentation rigor, evidence (quantitative / qualitative / historical), scholarly house style, 200–300-character abstract + keywords, submission preflight (footnote conventions, online system), and external-review rebuttals.",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

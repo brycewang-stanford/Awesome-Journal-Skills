@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "english-humanities-journal-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Per-journal fit-and-house-style skills for 36 flagship English-language humanities journals, plus en-humanities-journal-workflow routing.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "english-humanities-journal-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "English humanities journal routing and per-journal fit skills with argument-, source-, and style-guide discipline.",
       "author": {

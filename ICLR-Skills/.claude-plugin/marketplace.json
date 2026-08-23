@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "iclr-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for ICLR manuscript planning, OpenReview submission, public discussion, reproducibility, artifacts, and camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "iclr-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ICLR-specific skills for ML conference submission strategy, grounded in official ICLR 2026 CFP, Author Guide, Reviewer Guide, Code of Ethics, Code of Conduct, and LLM-use policy.",
       "author": {
@@ -49,4 +49,3 @@
     }
   ]
 }
-

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "stoc-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for STOC manuscript planning, HotCRP submission, extended-abstract craft, full-version publishing on arXiv/ECCC, review-process modeling, and ACM camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "stoc-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve STOC-specific skills for theoretical-computer-science conference submission strategy, grounded in the official STOC 2026 Call for Papers, HotCRP portal, SIGACT prize and policy pages, and ACM Digital Library proceedings checked on 2026-07-08.",
       "author": {

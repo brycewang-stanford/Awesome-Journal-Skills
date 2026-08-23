@@ -17,21 +17,30 @@ canonical capability doc in `shared-resources/`.
 
 ## The loop (and the skill that owns each step)
 
+0. **[`paper-profile.yml`](../../../shared-resources/journal-selection/paper-profile.md)** — write the five signals down once. Every skill below reads it instead of re-deriving them from the manuscript and disagreeing with itself.
 1. **`rt-journal-match`** — profile the paper → ranked reach/match/safe shortlist + resubmission ladder.
-2. **`rt-execution-bridge`** — run the analysis through the StatsPAI / Stata MCP tools (estimate + audit), not just advise it.
-3. **`rt-submission-readiness`** — go/no-go scorecard on the manuscript against the target venue's bar.
-4. **`rt-simulated-referee`** — rehearse a calibrated AE + referee panel; surface the decisive objections before a real referee does.
-5. **(fix)** — route each objection back to the target pack's skill + the execution bridge.
-6. **`rt-response-to-referees`** — after an R&R, draft the point-by-point reply + revision plan (editor first).
-7. **`rt-replication-package`** — assemble + validate the Data-Editor package against the venue's data-and-code policy.
+2. **`rt-ladder-ev`** — cost the ladder in months and in probability of placing, when there is a clock or two candidate orders.
+3. **`rt-venue-integrity`** — when the chosen venue is outside the index, verify it against primary sources before submitting.
+4. **`rt-venue-reframe`** — when the target changes (a reject, or a switch), diff the manuscript from the old venue's framing to the new one.
+5. **`rt-execution-bridge`** — run the analysis through the StatsPAI / Stata MCP tools (estimate + audit), not just advise it.
+6. **`rt-submission-readiness`** — go/no-go scorecard on the manuscript against the target venue's bar.
+7. **`rt-desk-reject-risk`** — score the draft against the target's own documented desk-reject triggers before uploading.
+8. **`rt-simulated-referee`** — rehearse a calibrated AE + referee panel; surface the decisive objections before a real referee does.
+9. **(fix)** — route each objection back to the target pack's skill + the execution bridge.
+10. **`rt-response-to-referees`** — after an R&R, draft the point-by-point reply + revision plan (editor first).
+11. **`rt-replication-package`** — assemble + validate the Data-Editor package against the venue's data-and-code policy.
 
 ## Routing table
 
 | Symptom | Go to |
 |---|---|
 | "Where should I send this?" / "Rejected — what next?" | `rt-journal-match` |
+| "Top journal first, or start one rung down?" / a tenure or job-market clock | `rt-ladder-ev` |
+| "Is this journal real?" / an unfamiliar venue, a solicitation email, an index requirement | `rt-venue-integrity` |
+| "What has to change to send it to X instead?" | `rt-venue-reframe` |
 | "I need to actually run the DiD/IV/RDD/SCM/DML, not just plan it" | `rt-execution-bridge` |
 | "Is it ready to submit?" | `rt-submission-readiness` |
+| "Will the editor desk-reject this?" | `rt-desk-reject-risk` |
 | "What will referees attack?" | `rt-simulated-referee` |
 | "I have an R&R to answer" | `rt-response-to-referees` |
 | "The Data Editor needs a replication package" | `rt-replication-package` |

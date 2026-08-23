@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "phg-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Progress in Human Geography (PiHG), the leading review and theory journal in human geography, published by SAGE.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "phg-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Progress in Human Geography (PiHG) review-essay and progress-report lifecycle, from a review-worthy topic to the double-anonymous rebuttal.",
       "author": {

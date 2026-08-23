@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "management-world-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at 《管理世界》, the top management / applied-economics journal in China.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "management-world-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Eleven-skill bundle covering the 《管理世界》 manuscript lifecycle: workflow router, China-context topic selection, literature review, identification, institutional background, mechanism / heterogeneity, tables and figures, policy implications, submission preflight, R&R rebuttal, and post-acceptance data-and-code replication package.",
       "author": {

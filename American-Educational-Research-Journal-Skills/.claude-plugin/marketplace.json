@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aerj-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the American Educational Research Journal (AERJ), the flagship journal of the American Educational Research Association.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aerj-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the American Educational Research Journal (AERJ) manuscript lifecycle across quantitative, qualitative, and mixed-methods education research and the journal's two sections (Social and Institutional Analysis; Teaching, Learning, and Human Development).",
       "author": {

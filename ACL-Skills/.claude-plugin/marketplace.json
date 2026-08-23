@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "acl-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACL papers under ACL Rolling Review: cycle planning, ARR submission, author response, venue commitment, Responsible NLP checklist, camera-ready, and ACL Anthology publication.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "acl-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ACL-specific skills for NLP conference submission strategy under ACL Rolling Review, grounded in the ACL 2026 CFP, aclrollingreview.org policies, OpenReview ARR groups, and the ACL Anthology.",
       "author": {

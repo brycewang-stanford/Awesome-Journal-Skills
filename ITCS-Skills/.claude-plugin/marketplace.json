@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "itcs-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for ITCS manuscript routing on conceptual novelty, the single early-September deadline, lightweight double-blind LIPIcs submission with full proofs, the no-rebuttal review, Graduating Bits, and the open-access LIPIcs camera-ready.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "itcs-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ITCS-specific skills for the Innovations in Theoretical Computer Science conference and its open-access LIPIcs publication model, grounded in the ITCS 2026 Bocconi call, itcs-conf.org, the LIPIcs/DROPS proceedings, and dblp.",
       "author": {

@@ -1,7 +1,7 @@
 {
   "name": "annals-of-mathematics-skills",
   "description": "Agent skill stack for submitting to Annals of Mathematics, one of the most prestigious journals in pure mathematics, published by Princeton's Department of Mathematics and the Institute for Advanced Study. Covers scope fit at the highest bar, precise main-theorem framing, proof-architecture and key-lemma strategy, AMS-LaTeX exposition, optional figures and commutative diagrams, appendices for auxiliary results, length discipline, cover letters, submission preflight, referee strategy for proof verification, and major-revision handling. Adapted for theorem-and-proof papers with full rigor.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

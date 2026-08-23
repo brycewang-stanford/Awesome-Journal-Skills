@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "naacl-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for NAACL (Nations of the Americas Chapter of the ACL): ARR-cycle planning, commitment strategy, author response, Findings handling, Anthology camera-ready, and Americas-aware NLP evidence work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "naacl-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve NAACL-specific skills covering the full arc from *ACL venue routing through ACL Rolling Review, commitment, decision, and ACL Anthology publication, with the chapter's Nations-of-the-Americas identity and skipped-year calendar built into the advice.",
       "author": {

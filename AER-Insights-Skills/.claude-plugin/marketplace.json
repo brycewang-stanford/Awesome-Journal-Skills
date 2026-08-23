@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "aer-insights-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for short-format manuscripts targeted at American Economic Review: Insights (AER: Insights), the AEA journal for single-idea papers under a hard length cap.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "aer-insights-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the American Economic Review: Insights (AER: Insights) manuscript lifecycle.",
       "author": {

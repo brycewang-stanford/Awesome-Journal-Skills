@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ajs-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the American Journal of Sociology (AJS), the discipline's oldest journal, published by the University of Chicago Press.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ajs-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the American Journal of Sociology (AJS) manuscript lifecycle — UChicago Press house style, double-blind student-run review, the $30 submission fee, the Comment-and-Reply tradition, and AJS's strength in social theory and comparative-historical sociology.",
       "author": {

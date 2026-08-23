@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "english-natsci-journal-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Per-journal fit-and-house-style skills for 100 mainstream English-language natural-science, clinical/medical, physical, and formal-science journals, plus en-natsci-journal-workflow routing.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "english-natsci-journal-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "English natural-science / clinical / physical / formal-science journal routing and per-journal fit skills with official-submission-check discipline.",
       "author": {

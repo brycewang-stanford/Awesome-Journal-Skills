@@ -1,7 +1,7 @@
 {
   "name": "jf-skills",
   "description": "Author, submit, referee, and revise for The Journal of Finance (JF), the American Finance Association flagship (est. 1946, Wiley-Blackwell). Encodes JF-specific mechanics: the AFA portal and tiered submission fee, the 60-page limit, the Internet Appendix bundled in the same PDF, the Data and Code Sharing Policy and Data Editor, and general-interest positioning across the finance top-3. Bilingual en / zh-CN docs; Stata / R / Python pointers.",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

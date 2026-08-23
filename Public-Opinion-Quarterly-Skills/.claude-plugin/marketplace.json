@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "poq-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Public Opinion Quarterly (POQ), the leading journal of public opinion and survey research, published by Oxford University Press for the American Association for Public Opinion Research.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "poq-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Public Opinion Quarterly (POQ) manuscript lifecycle with a survey-methodology spine — Total Survey Error, questionnaire design, sampling and weighting, mode effects, nonresponse — and AAPOR-standard methodological disclosure.",
       "author": {

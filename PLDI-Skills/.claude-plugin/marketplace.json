@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "pldi-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for PLDI paper planning, HotCRP double-blind submission, author response, PACMPL publication, and badge-earning artifact evaluation.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "pldi-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve PLDI-specific skills for programming-languages conference strategy, grounded in the PLDI 2026 Call for Papers, pldi26.sigplan.org track pages, PACMPL author guidelines, and SIGPLAN's Empirical Evaluation Guidelines.",
       "author": {

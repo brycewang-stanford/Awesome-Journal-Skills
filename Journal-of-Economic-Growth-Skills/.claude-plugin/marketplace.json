@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jeg-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at the Journal of Economic Growth (JEG), the specialist Springer Nature outlet for economic growth and dynamic macroeconomics.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jeg-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Journal of Economic Growth (JEG) manuscript lifecycle, calibrated to a specialist growth and dynamic-macroeconomics outlet spanning theory and empirics.",
       "author": {

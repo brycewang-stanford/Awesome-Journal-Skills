@@ -1,7 +1,7 @@
 {
   "name": "phg-skills",
   "description": "Agent skill stack for manuscripts targeted at Progress in Human Geography (PiHG) — the leading review and theory journal in human geography, published by SAGE for the discipline since 1977 and reviewed double-anonymously via SAGE Track. PiHG does NOT publish empirical results or detailed case studies; it publishes critical, agenda-setting review essays and commissioned Progress Reports that survey and re-order a field. This stack is built for that genre: a synthetic contribution rather than new data, command of a large and contested literature, critical-theoretical sophistication, conceptual clarity, and a forward-looking intervention. Facts covered include the 4,000-8,000-word review-article range (inclusive of endnotes, excluding the bibliography), the 100-word unstructured abstract, minimum five keywords, SAGE Harvard referencing, double-anonymous review, ORCID, and COPE ethics. Covers review-worthy topic selection, theory building, literature positioning, argument synthesis, the critical intervention, contribution framing, conceptual exhibits, PiHG writing style, submission preflight, the review process, and revision rebuttals. Bilingual en / zh-CN docs.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

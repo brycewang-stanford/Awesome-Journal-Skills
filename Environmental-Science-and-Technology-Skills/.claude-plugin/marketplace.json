@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "est-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Environmental Science & Technology (ES&T), the flagship environmental science and engineering journal of the American Chemical Society.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "est-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Environmental Science & Technology (ES&T) manuscript lifecycle — from environmental-significance framing through study design, QA/QC, the SI + TOC-graphic workflow, ACS submission, and revision.",
       "author": {

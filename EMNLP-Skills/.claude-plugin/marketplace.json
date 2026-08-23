@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "emnlp-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for EMNLP manuscript planning, ACL Rolling Review submission, author response, commitment strategy, reproducibility, artifacts, and ACL Anthology camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "emnlp-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve EMNLP-specific skills for empirical NLP conference submission strategy, grounded in the EMNLP 2026 Call for Papers, the ACL Rolling Review May 2026 cycle, OpenReview groups, and the ACL Anthology.",
       "author": {

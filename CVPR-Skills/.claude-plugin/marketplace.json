@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cvpr-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for CVPR paper strategy: topic routing, OpenReview submission, one-page rebuttals, reviewer-duty compliance, compute reporting, and CVF/IEEE camera-ready delivery.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "cvpr-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve CVPR-specific skills covering the full cycle of the largest computer-vision conference — submission, review at 16k-paper scale, rebuttal, artifacts, and publication — grounded in official CVPR 2026 author/reviewer pages checked 2026-07-08.",
       "author": {

@@ -1,277 +1,267 @@
 #!/usr/bin/env python3
-"""Generate a STABLE venue index for the journal-match capability.
-Stable fields only (discipline / tier / lane / region / source-map pointer) — NO
-volatile fees/acceptance (those stay in each pack's official-source-map.md, kept
-current by the live-check campaign). Covers first-party DEPTH packs; breadth
-bundles are added as pointer rows for the long tail of profile-only venues.
+"""Generate the STABLE venue index that powers the journal-match capability.
+
+Covers BOTH tiers of repository coverage:
+
+* **depth packs** — one venue per pack, many venue-specific skills, a live-checked
+  ``resources/official-source-map.md``;
+* **breadth-bundle profiles** — one venue per ``SKILL.md`` inside a discipline bundle.
+  These are the long tail that used to exist only as prose and therefore could not be
+  shortlisted or ranked by an agent.
+
+Where a breadth profile duplicates a venue that already has a depth pack, the depth row
+wins and the breadth row is dropped (the depth pack strictly dominates it for matching).
+
+Stable fields only. No fees, acceptance rates, turnaround or page limits are ever
+written here — those stay in each pack's ``official-source-map.md`` and are read at
+match time by the agent. ``ranking_labels`` records only labels the pack's own text
+asserts; nothing bibliometric is inferred.
+
+Usage:  python3 tools/gen_venue_index.py [--check]
 """
+
+from __future__ import annotations
+
+import argparse
+import sys
+from collections import Counter
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-IMPORTED = {"AER-Skills", "AER-skills", "Nature-Skills", "nature-skills",
-            "nature-paper-skills", "claude-scholar", "codex-claude-academic-skills"}
+import json
+import re
 
-# Chinese-language depth packs (from the Tier-4 inventory)
-CHINA = {
-    "Economic-Research-Journal-Skills", "Journal-of-Management-World-Skills",
-    "China-Industrial-Economics-Skills", "China-Economic-Quarterly-Skills",
-    "China-Rural-Economy-Skills", "Chinese-Public-Administration-Skills",
-    "Journal-of-Finance-and-Economics-Skills", "Journal-of-Financial-Research-Skills",
-    "Journal-of-Management-Sciences-in-China-Skills",
-    "Journal-of-Quantitative-and-Technological-Economics-Skills",
-    "Journal-of-World-Economy-Skills", "Nankai-Business-Review-Skills",
-    "Social-Sciences-in-China-Skills", "Sociological-Studies-Skills",
-    "Accounting-Research-Skills",
-}
+from venue_lib import (
+    BUNDLES,
+    CHINA,
+    NON_EMPIRICAL_DISCIPLINES,
+    ROOT,
+    THEORY,
+    TIER,
+    breadth_scope_text,
+    depth_scope_text,
+    derive_keywords,
+    discipline_of,
+    frontmatter_description,
+    h1_display_name,
+    identity_keys,
+    index_digest,
+    is_depth_pack,
+    ranking_labels,
+    read,
+    slugify,
+)
 
-# Indicative tier for well-known flagships (approximate; not a ranking claim).
-TIER = {
-    "Quarterly-Journal-of-Economics-Skills": "top-5 econ",
-    "Journal-of-Political-Economy-Skills": "top-5 econ",
-    "Econometrica-Skills": "top-5 econ", "Review-of-Economic-Studies-Skills": "top-5 econ",
-    "Journal-of-Finance-Skills": "top-3 finance",
-    "Journal-of-Financial-Economics-Skills": "top-3 finance",
-    "Review-of-Financial-Studies-Skills": "top-3 finance",
-    "Journal-of-Accounting-Research-Skills": "top-3 accounting",
-    "Journal-of-Accounting-and-Economics-Skills": "top-3 accounting",
-    "The-Accounting-Review-Skills": "top-3 accounting",
-    "Management-Science-Skills": "FT50 / UTD24", "Operations-Research-Skills": "FT50 / UTD24",
-    "Marketing-Science-Skills": "FT50 / UTD24", "Journal-of-Marketing-Skills": "FT50 / UTD24",
-    "Journal-of-Marketing-Research-Skills": "FT50 / UTD24",
-    "Journal-of-Consumer-Research-Skills": "FT50 / UTD24",
-    "MIS-Quarterly-Skills": "FT50 / UTD24", "Information-Systems-Research-Skills": "FT50 / UTD24",
-    "Academy-of-Management-Journal-Skills": "FT50 / UTD24",
-    "Academy-of-Management-Review-Skills": "FT50 / UTD24",
-    "Administrative-Science-Quarterly-Skills": "FT50 / UTD24",
-    "Strategic-Management-Journal-Skills": "FT50 / UTD24",
-    "American-Economic-Review-Skills": "top-5 econ",
-    "American-Political-Science-Review-Skills": "top-3 polisci",
-    "American-Journal-of-Political-Science-Skills": "top-3 polisci",
-    "American-Sociological-Review-Skills": "top-3 sociology",
-    "American-Journal-of-Sociology-Skills": "top-3 sociology",
-    "Journal-of-Personality-and-Social-Psychology-Skills": "flagship psych",
-    "Psychological-Bulletin-Skills": "flagship psych (review)",
-    "Economic-Research-Journal-Skills": "中文经济学顶刊",
-    "Journal-of-Management-World-Skills": "中文管理顶刊",
-    "Social-Sciences-in-China-Skills": "中文综合顶刊",
-}
 
-# Theory / review / qualitative-leaning venues (lane != empirical).
-THEORY = {
-    "Econometric-Theory-Skills": "theory", "Journal-of-Economic-Theory-Skills": "theory",
-    "Academy-of-Management-Review-Skills": "theory", "Sociological-Theory-Skills": "theory",
-    "Psychological-Review-Skills": "theory", "Annals-of-Mathematics-Skills": "theory",
-    "Journal-of-Economic-Literature-Skills": "review", "Annual-Review-of-Economics-Skills": "review",
-    "Academy-of-Management-Annals-Skills": "review", "Psychological-Bulletin-Skills": "review/meta",
-    "Organization-Studies-Skills": "qualitative/mixed", "Sociological-Studies-Skills": "mixed",
-    "Social-Sciences-in-China-Skills": "theory/argumentative",
-    "Journal-of-Economic-Perspectives-Skills": "review/expository",
-}
+def depth_title_snippet(pack: Path, display: str) -> str:
+    """Title-area text for identity matching: plugin description + README H1."""
+    parts = [display]
+    plugin = pack / ".claude-plugin" / "plugin.json"
+    try:
+        parts.append(json.loads(plugin.read_text(encoding="utf-8")).get("description", "")[:220])
+    except (OSError, ValueError):
+        pass
+    readme = pack / "README.md"
+    if readme.exists():
+        head = read(readme, 400)
+        parts.append(head.split("\n\n")[0])
+    return "\n".join(parts)
 
-# discipline keyword map (substring on pack dir, first match wins; order matters)
-DISC = [
-    # CS/AI conferences
-    ("AAAI", "cs-ai (conference)"), ("AISTATS", "cs-ai (conference)"),
-    ("COLT", "cs-ai (conference)"), ("ICLR", "cs-ai (conference)"),
-    ("ICML", "cs-ai (conference)"), ("IJCAI", "cs-ai (conference)"),
-    ("KDD", "cs-ai (conference)"), ("MLSys", "cs-ai (conference)"),
-    ("NeurIPS", "cs-ai (conference)"), ("UAI", "cs-ai (conference)"),
-    ("Web-Conference", "cs-ai (conference)"), ("WSDM", "cs-ai (conference)"),
-    ("SIGIR", "cs-ai (conference)"), ("CVPR", "cs-ai (conference)"),
-    ("ICCV", "cs-ai (conference)"), ("ACL-Skills", "cs-ai (conference)"),
-    ("EMNLP", "cs-ai (conference)"), ("ICRA", "cs-ai (conference)"),
-    ("CHI-Skills", "cs-ai (conference)"), ("SOSP", "cs-ai (conference)"),
-    ("OSDI", "cs-ai (conference)"), ("IEEE-SP", "cs-ai (conference)"),
-    ("ACM-CCS", "cs-ai (conference)"), ("ICSE-Skills", "cs-ai (conference)"),
-    ("NAACL", "cs-ai (conference)"), ("ECCV", "cs-ai (conference)"),
-    ("PLDI", "cs-ai (conference)"), ("SIGMOD", "cs-ai (conference)"),
-    ("STOC-Skills", "cs-ai (conference)"), ("NSDI", "cs-ai (conference)"),
-    ("USENIX-Security", "cs-ai (conference)"), ("NDSS", "cs-ai (conference)"),
-    ("FOCS", "cs-ai (conference)"), ("SODA-Skills", "cs-ai (conference)"),
-    ("POPL", "cs-ai (conference)"), ("OOPSLA", "cs-ai (conference)"),
-    ("VLDB", "cs-ai (conference)"), ("CIKM", "cs-ai (conference)"),
-    ("EuroSys", "cs-ai (conference)"), ("ASPLOS", "cs-ai (conference)"),
-    ("UIST", "cs-ai (conference)"), ("CSCW", "cs-ai (conference)"),
-    ("ISCA-Skills", "cs-ai (conference)"), ("MICRO-Skills", "cs-ai (conference)"),
-    ("RSS-Skills", "cs-ai (conference)"), ("CoRL", "cs-ai (conference)"),
-    ("INTERSPEECH", "cs-ai (conference)"), ("COLM", "cs-ai (conference)"),
-    ("HPCA", "cs-ai (conference)"), ("IROS", "cs-ai (conference)"),
-    ("ICDE", "cs-ai (conference)"), ("ICDM", "cs-ai (conference)"),
-    ("RecSys", "cs-ai (conference)"), ("MobiCom", "cs-ai (conference)"),
-    ("ACM-MM", "cs-ai (conference)"), ("ICASSP", "cs-ai (conference)"),
-    ("SIGCOMM", "cs-ai (conference)"), ("EACL", "cs-ai (conference)"),
-    ("AAMAS", "cs-ai (conference)"), ("WACV", "cs-ai (conference)"),
-    ("MobiSys", "cs-ai (conference)"), ("SenSys", "cs-ai (conference)"),
-    ("ISSTA", "cs-ai (conference)"), ("FSE-Skills", "cs-ai (conference)"),
-    ("ASE-Skills", "cs-ai (conference)"), ("PODS-Skills", "cs-ai (conference)"),
-    ("CoNEXT-Skills", "cs-ai (conference)"), ("IMC-Skills", "cs-ai (conference)"),
-    ("IPSN-Skills", "cs-ai (conference)"), ("VIS-Skills", "cs-ai (conference)"),
-    ("ICSME-Skills", "cs-ai (conference)"), ("ECAI-Skills", "cs-ai (conference)"),
-    ("ATC-Skills", "cs-ai (conference)"), ("FAST-Skills", "cs-ai (conference)"),
-    ("PPoPP-Skills", "cs-ai (conference)"), ("CAV-Skills", "cs-ai (conference)"),
-    ("ICALP-Skills", "cs-ai (conference)"), ("PODC-Skills", "cs-ai (conference)"),
-    ("SIGMETRICS-Skills", "cs-ai (conference)"), ("PerCom-Skills", "cs-ai (conference)"),
-    ("SIGGRAPH-Skills", "cs-ai (conference)"), ("INFOCOM-Skills", "cs-ai (conference)"),
-    ("ITCS-Skills", "cs-ai (conference)"), ("HRI-Skills", "cs-ai (conference)"),
-    ("SoCC-Skills", "cs-ai (conference)"), ("DAC-Skills", "cs-ai (conference)"),
-    ("EDBT-Skills", "cs-ai (conference)"), ("TACAS-Skills", "cs-ai (conference)"),
-    ("FAccT-Skills", "cs-ai (conference)"), ("ICDT-Skills", "cs-ai (conference)"),
-    # Chinese-language CS/AI journals (CCF-recommended 中文期刊 — journals, not conferences)
-    ("Chinese-Journal-of-Computers-Skills", "cs-ai (CN journal)"),
-    ("Journal-of-Software-Skills", "cs-ai (CN journal)"),
-    ("Journal-of-Computer-Research-and-Development-Skills", "cs-ai (CN journal)"),
-    ("Acta-Automatica-Sinica-Skills", "cs-ai (CN journal)"),
-    ("Scientia-Sinica-Informationis-Skills", "cs-ai (CN journal)"),
-    ("Acta-Electronica-Sinica-Skills", "cs-ai (CN journal)"),
-    ("Pattern-Recognition-and-Artificial-Intelligence-Skills", "cs-ai (CN journal)"),
-    ("Journal-of-CAD-and-Computer-Graphics-Skills", "cs-ai (CN journal)"),
-    ("Journal-on-Communications-Skills", "cs-ai (CN journal)"),
-    ("Computer-Science-Journal-Skills", "cs-ai (CN journal)"),
-    # specific economics flagships / subfields not caught generically
-    ("AEJ-Applied", "economics/applied"), ("AEJ-Macro", "economics/macro"),
-    ("AEJ-Micro", "economics/micro"), ("AER-Insights", "economics"),
-    ("Quarterly-Journal-of-Economics", "economics"), ("Political-Economy", "economics"),
-    ("Review-of-Economic-Studies", "economics"), ("International-Economic-Review", "economics"),
-    ("Games-and-Economic-Behavior", "economics/game-theory"),
-    ("Economic-Theory", "economics/theory"),
-    # humanities / area studies
-    ("Anthropolog", "anthropology"), ("Historical-Review", "history"),
-    ("Geographers", "geography"), ("Human-Geography", "geography"),
-    ("Annual-Review-of-Psychology", "psychology"), ("Critical-Inquiry", "humanities/theory"),
-    ("Academy-of-Religion", "religion"), ("Mind-Skills", "philosophy"),
-    ("PMLA", "humanities/literature"), ("Art-Bulletin", "art-history"),
-    ("Econometric", "econometrics/methods"), ("Econometrics", "econometrics/methods"),
-    ("Quantitative-and-Technological", "econometrics/methods"),
-    ("Business-and-Economic-Statistics", "econometrics/methods"),
-    ("Applied-Econometrics", "econometrics/methods"),
-    ("Accounting", "accounting"),
-    ("Finance", "finance"), ("Financial", "finance"), ("Banking", "finance"),
-    ("Marketing", "marketing"), ("Consumer", "marketing"),
-    ("Operations", "operations"), ("Manufacturing-and-Service", "operations"),
-    ("INFORMS-Journal-on-Computing", "operations/computing"),
-    ("Information-Systems", "information-systems"), ("MIS-Quarterly", "information-systems"),
-    ("Management-Information-Systems", "information-systems"),
-    ("Association-for-Information-Systems", "information-systems"),
-    ("Management-World", "management"), ("Management-Sciences-in-China", "management/OR"),
-    ("Management-Review", "management"), ("Management-Studies", "management"),
-    ("Management-Annals", "management"), ("Organization", "management"),
-    ("Strategic-Management", "management"), ("Human-Resource", "management"),
-    ("Human-Relations", "management"), ("Business-Venturing", "entrepreneurship"),
-    ("Entrepreneurship", "entrepreneurship"), ("International-Business", "international-business"),
-    ("Academy-of-Management", "management"), ("Administrative-Science", "management"),
-    ("Nankai-Business", "management"), ("Journal-of-Management", "management"),
-    ("Political-Science", "political-science"), ("Journal-of-Politics", "political-science"),
-    ("Comparative-Political", "political-science"), ("World-Politics", "political-science"),
-    ("International-Organization", "political-science/IR"),
-    ("Public-Administration", "public-admin"), ("Governance", "public-admin"),
-    ("Public-Policy", "public-policy"), ("Policy-Analysis-and-Management", "public-policy"),
-    ("Sociolog", "sociology"), ("Social-Forces", "sociology"),
-    ("Social-Psychology-Quarterly", "sociology/social-psych"),
-    ("Marriage-and-Family", "sociology/demography"), ("Demography", "demography"),
-    ("Population", "demography"), ("Criminolog", "criminology"),
-    ("Personality-and-Social-Psychology", "psychology"), ("Psychological", "psychology"),
-    ("Cognitive-Psychology", "psychology"), ("Developmental-Psychology", "psychology"),
-    ("Educational-Psychology", "psychology/education"),
-    ("Applied-Psychology", "psychology/organizational"),
-    ("Educational-Research", "education"), ("Education", "education"),
-    ("Communication", "communication"), ("Public-Opinion", "communication/polisci"),
-    ("New-Media", "communication"),
-    ("Health-Economics", "economics/health"), ("Labor-Economics", "economics/labor"),
-    ("Human-Resources", "economics/labor"), ("Urban-Economics", "economics/urban"),
-    ("Economic-Geography", "economics/geography"),
-    ("Environmental-Economics", "economics/environment"),
-    ("Public-Economics", "economics/public"), ("Development-Economics", "economics/development"),
-    ("International-Economics", "economics/international"),
-    ("International-Money", "economics/international-finance"),
-    ("Monetary-Economics", "economics/macro"), ("Money-Credit", "economics/macro"),
-    ("Economic-Growth", "economics/growth"), ("Economic-Dynamics", "economics/macro"),
-    ("Behavior-and-Organization", "economics/behavioral"),
-    ("Law-Economics-and-Organization", "law-and-economics"),
-    ("Law-and-Economics", "law-and-economics"), ("Law-Review", "law"), ("Law-Journal", "law"),
-    ("Experimental-Economics", "economics/experimental"),
-    ("Risk-and-Uncertainty", "economics/decision"),
-    ("RAND-Journal", "economics/IO"),
-    ("World-Development", "development-studies"), ("World-Bank", "economics/development"),
-    ("Research-Policy", "innovation/science-policy"),
-    ("China-Industrial", "economics"), ("China-Rural", "economics/agricultural"),
-    ("Rural-Economy", "economics/agricultural"),
-    ("Economic-Quarterly", "economics"), ("Economic-Research", "economics"),
-    ("World-Economy", "economics/international"), ("Finance-and-Economics", "economics/finance"),
-    ("IMF-Economic", "economics/international"), ("European-Economic", "economics"),
-    ("Economic-Policy", "economics/policy"), ("Economic-Journal", "economics"),
-    ("European-Economic-Association", "economics"), ("Quantitative-Economics", "economics"),
-    ("Economics-and-Statistics", "economics/applied"),
-    ("Economic-Literature", "economics"), ("Economic-Perspectives", "economics"),
-    ("Annual-Review-of-Economics", "economics"),
-    ("Social-Sciences-in-China", "social-science (general)"),
-    ("Science-Skills", "natural-science"), ("Cell", "life-sciences"), ("PNAS", "natural-science"),
-    ("NEJM", "medicine"), ("Lancet", "medicine"), ("JAMA", "medicine"),
-    ("Cancer", "life-sciences"), ("Physical-Review", "physics"),
-    ("American-Chemical", "chemistry"), ("Annals-of-Mathematics", "mathematics"),
-    ("Conservation-Biology", "environment/ecology"), ("Global-Change-Biology", "environment/ecology"),
-    ("Environmental-Science", "environment"), ("Global-Environmental", "environment"),
-    ("Agricultural-Systems", "agriculture"), ("Field-Crops", "agriculture"),
-    ("Advanced-Materials", "materials-science"), ("Molecular-Cell", "life-sciences"),
-    ("Nature-Geoscience", "earth-science"), ("Earth-and-Planetary-Science-Letters", "earth-science"),
-    ("Language-Linguistic-Society", "linguistics"),
-    ("Chinese-Journal-of-Management-Science", "management/OR"),
-    ("Finance-and-Trade-Economics", "economics/public"),
+# `scope_keywords` is last on purpose: `profile_path` and `source_map` are empty for
+# breadth and depth rows respectively, and an empty final field leaves a trailing tab
+# that `git diff --check` rejects. Keywords are guaranteed non-empty (see collect()).
+COLUMNS = [
+    "venue_id", "display_name", "coverage", "venue_type", "discipline", "region",
+    "lane", "tier", "ranking_labels", "pack_dir", "profile_path", "source_map",
+    "scope_keywords",
 ]
 
+OUT = ROOT / "shared-resources/journal-selection/venue-index.tsv"
+POSTINGS_OUT = ROOT / "shared-resources/journal-selection/scope-postings.tsv"
 
-def is_depth_pack(p: Path) -> bool:
-    if not (p / ".claude-plugin" / "plugin.json").exists():
+# Two consumers, two depths. A human (or an agent skimming the index) wants the handful
+# of terms that characterise a venue; a retrieval pass wants the long tail, because the
+# term a given paper happens to share with its venue is usually not in the top forty.
+# Publishing both from one ranked list keeps them consistent by construction.
+KEYWORD_DEPTH = 300
+INDEX_KEYWORDS = 40
+
+
+def collect() -> list[dict]:
+    records: list[dict] = []
+    seen: dict[str, str] = {}
+
+    # --- depth packs --------------------------------------------------------
+    for plugin in sorted(ROOT.glob("*/.claude-plugin/plugin.json")):
+        pack = plugin.parent.parent
+        if not is_depth_pack(pack):
+            continue
+        name = pack.name
+        display = name.replace("-Skills", "").replace("-", " ")
+        disc = discipline_of(name)
+        lane = THEORY.get(name) or (
+            "interpretive/theory" if disc in NON_EMPIRICAL_DISCIPLINES else "empirical"
+        )
+        source_map = f"{name}/resources/official-source-map.md"
+        scope = depth_scope_text(pack)
+        vid = slugify(name.replace("-Skills", ""))
+        for key in identity_keys(depth_title_snippet(pack, display), display, vid):
+            seen[key] = name
+        records.append({
+            "venue_id": vid,
+            "display_name": display,
+            "coverage": "depth",
+            "venue_type": "conference" if "conference" in disc else "journal",
+            "discipline": disc,
+            "region": "china" if name in CHINA else "international",
+            "lane": lane,
+            "tier": TIER.get(name, "field"),
+            "ranking_labels": ";".join(ranking_labels(scope)),
+            "scope_keywords": "",
+            "pack_dir": name,
+            "profile_path": "",
+            "source_map": source_map if (ROOT / source_map).exists() else "",
+            "_scope": scope,
+        })
+
+    # --- breadth-bundle venue profiles -------------------------------------
+    dropped = 0
+    for bundle_name, meta in sorted(BUNDLES.items()):
+        bundle = ROOT / bundle_name
+        if not bundle.is_dir():
+            continue
+        for skill in sorted((bundle / "skills").glob("*/SKILL.md")):
+            slug = skill.parent.name
+            # the bundle's own router skill is not a venue
+            if slug.endswith("-journal-workflow") or slug.endswith("-workflow"):
+                continue
+            body = read(skill)
+            display = h1_display_name(body, slug.replace("-", " ").title())
+            # Title area only. The body names sibling venues as alternatives, and
+            # scanning it merged distinct journals that merely cite each other.
+            h1 = re.search(r"^#\s+.+$", body, re.M)
+            title_snippet = "\n".join([
+                display, frontmatter_description(body).split(" or ")[0],
+                h1.group(0) if h1 else "",
+            ])
+            keys = identity_keys(title_snippet, display, slug)
+            if keys & seen.keys():
+                dropped += 1
+                continue
+            disc = discipline_of(
+                "-".join(w.capitalize() for w in slug.split("-")), meta["discipline"]
+            )
+            lane = "interpretive/theory" if disc in NON_EMPIRICAL_DISCIPLINES else "empirical"
+            scope = breadth_scope_text(skill)
+            for key in keys:
+                seen[key] = bundle_name
+            records.append({
+                "venue_id": slug,
+                "display_name": display,
+                "coverage": "breadth",
+                "venue_type": "conference" if meta["type"] == "conference" or "conference" in disc
+                              else "journal",
+                "discipline": disc,
+                "region": meta["region"],
+                "lane": lane,
+                "tier": "field",
+                "ranking_labels": ";".join(ranking_labels(scope)),
+                "scope_keywords": "",
+                "pack_dir": bundle_name,
+                "profile_path": f"{bundle_name}/skills/{slug}/SKILL.md",
+                "source_map": "",
+                "_scope": scope,
+            })
+
+    # --- scope keywords, derived across the whole corpus --------------------
+    keywords = derive_keywords({r["venue_id"]: r["_scope"] for r in records},
+                               top_n=KEYWORD_DEPTH)
+    for record in records:
+        terms = keywords.get(record["venue_id"]) or record["venue_id"].split("-")
+        record["_keywords"] = terms
+        record["scope_keywords"] = ";".join(terms[:INDEX_KEYWORDS])
+        del record["_scope"]
+
+    records.sort(key=lambda r: (r["discipline"], r["venue_id"]))
+    print(f"  dropped {dropped} breadth profiles already covered by a depth pack")
+    return records
+
+
+def render_postings(records: list[dict]) -> str:
+    """The inverted index behind `tools/match_venues.py`, as `term -> venue:rank` pairs.
+
+    Venues are referenced by their **row number in `venue-index.tsv`**, which is what
+    keeps this file small enough to commit. That makes the two files a matched pair, so
+    the header carries the row count and a digest of the venue-id order; the matcher
+    refuses to run against a postings file that does not describe the index it loaded.
+
+    Only the *rank* of a term within its venue is stored, never a score. Weighting is the
+    matcher's business and can be retuned without regenerating three megabytes of data.
+    """
+    postings: dict[str, list[str]] = {}
+    for row, record in enumerate(records):
+        for position, term in enumerate(record["_keywords"]):
+            postings.setdefault(term, []).append(f"{row}:{position}")
+    lines = [
+        f"#venues\t{len(records)}",
+        f"#digest\t{index_digest([r['venue_id'] for r in records])}",
+        f"#depth\t{KEYWORD_DEPTH}",
+        "#term\trow:rank,...",
+    ]
+    lines += [f"{term}\t{','.join(refs)}" for term, refs in sorted(postings.items())]
+    return "\n".join(lines) + "\n"
+
+
+
+
+def render(records: list[dict]) -> str:
+    lines = ["\t".join(COLUMNS)]
+    for record in records:
+        lines.append("\t".join(str(record[c]) for c in COLUMNS))
+    return "\n".join(lines) + "\n"
+
+
+def stale(path: Path, text: str, tool: str) -> bool:
+    current = path.read_text(encoding="utf-8") if path.exists() else ""
+    if current == text:
         return False
-    if p.name in IMPORTED:
-        return False
-    # toolkit packs are cross-venue workflow bundles, not journal venues
-    if p.name.endswith("Toolkit-Skills"):
-        return False
-    skills = list((p / "skills").glob("*/SKILL.md")) if (p / "skills").is_dir() else []
-    if not skills:
-        return False
-    # breadth bundles: >=25 skills or a *-journal-workflow router
-    if len(skills) >= 25:
-        return False
-    if any(s.parent.name.endswith("-journal-workflow") for s in skills):
-        return False
+    print(f"FAIL: {path.relative_to(ROOT)} is stale — run `{tool}`", file=sys.stderr)
     return True
 
 
-def discipline_of(name: str) -> str:
-    for kw, d in DISC:
-        if kw in name:
-            return d
-    return "other"
+def main(argv: list[str]) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true",
+                        help="fail if the committed index differs from a fresh generation")
+    args = parser.parse_args(argv)
+
+    records = collect()
+    text = render(records)
+    postings_text = render_postings(records)
+
+    if args.check:
+        tool = "python3 tools/gen_venue_index.py"
+        if stale(OUT, text, tool) or stale(POSTINGS_OUT, postings_text, tool):
+            return 1
+        print(f"OK: venue index current ({len(records)} venues)")
+        return 0
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(text, encoding="utf-8")
+    POSTINGS_OUT.write_text(postings_text, encoding="utf-8")
+    print(f"wrote {POSTINGS_OUT.relative_to(ROOT)} "
+          f"({postings_text.count(chr(10)) - 4} terms, depth {KEYWORD_DEPTH})")
+
+    coverage = Counter(r["coverage"] for r in records)
+    print(f"wrote {len(records)} venues -> {OUT.relative_to(ROOT)}")
+    print(f"  coverage: {dict(coverage)}")
+    print(f"  types:    {dict(Counter(r['venue_type'] for r in records))}")
+    print(f"  regions:  {dict(Counter(r['region'] for r in records))}")
+    empty = [r['venue_id'] for r in records if not r['scope_keywords']]
+    print(f"  venues without derived keywords: {len(empty)} {empty[:8]}")
+    other = [r["venue_id"] for r in records if r["discipline"] == "other"]
+    print(f"  discipline='other' (needs curation): {len(other)} {other[:12]}")
+    return 0
 
 
-rows = []
-for plugin in sorted(ROOT.glob("*/.claude-plugin/plugin.json")):
-    pack = plugin.parent.parent
-    if not is_depth_pack(pack):
-        continue
-    name = pack.name
-    display = name.replace("-Skills", "").replace("-", " ")
-    disc = discipline_of(name)
-    tier = TIER.get(name, "field")
-    NON_EMPIRICAL = {"philosophy", "history", "art-history", "humanities/literature",
-                     "humanities/theory", "religion", "anthropology", "mathematics",
-                     "economics/theory", "economics/game-theory"}
-    lane = THEORY.get(name) or ("interpretive/theory" if disc in NON_EMPIRICAL else "empirical")
-    region = "china" if name in CHINA else "international"
-    sm = f"{name}/resources/official-source-map.md"
-    sm_exists = (ROOT / sm).exists()
-    rows.append((name, display, disc, tier, lane, region, sm if sm_exists else ""))
-
-rows.sort(key=lambda r: (r[2], r[0]))
-out = ROOT / "shared-resources/journal-selection/venue-index.tsv"
-out.parent.mkdir(parents=True, exist_ok=True)
-with out.open("w", encoding="utf-8") as f:
-    f.write("pack_dir\tdisplay_name\tdiscipline\ttier\tlane\tregion\tsource_map\n")
-    for r in rows:
-        f.write("\t".join(r) + "\n")
-print(f"wrote {len(rows)} depth-pack rows -> {out}")
-# distribution sanity
-from collections import Counter
-print("disciplines:", dict(Counter(r[2] for r in rows)))
-print("other (need review):", [r[0] for r in rows if r[2] == "other"])
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "public-administration-review-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at Public Administration Review (PAR), the practice-bridging flagship journal of the American Society for Public Administration.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "public-administration-review-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering the Public Administration Review (PAR) manuscript lifecycle across public-administration subfields, the journal's five article types, and its research-and-practice Evidence for Practice requirement.",
       "author": {

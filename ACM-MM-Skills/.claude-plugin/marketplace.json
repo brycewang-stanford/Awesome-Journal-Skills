@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "acm-mm-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for ACM Multimedia manuscript planning, OpenReview submission, thematic-area targeting, anonymous rebuttal, Open Source and Reproducibility tracks, ACM artifact badging, and sigconf camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "acm-mm-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve ACM MM-specific skills for multimedia conference submission strategy, grounded in the official ACM MM 2026 site, OpenReview groups, ACM Digital Library, dblp, and sigmm.org.",
       "author": {

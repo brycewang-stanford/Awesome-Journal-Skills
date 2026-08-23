@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ppopp-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for PPoPP parallel-programming submissions: venue routing, the two-column acmart sigplan 10-page format, double-blind HotCRP submission with rebuttal, concurrency-correctness and parallel-performance evidence, and the CGO-shared ACM artifact-evaluation badges.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ppopp-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve PPoPP-specific skills for the ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming, grounded in the PPoPP 2026/2027 researchr calls, sigplan.org announcements, the ACM Digital Library, and dblp.",
       "author": {

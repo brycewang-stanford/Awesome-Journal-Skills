@@ -1,7 +1,7 @@
 {
   "name": "chi-skills",
   "description": "A 12-skill depth pack for ACM CHI submissions: HCI venue fit, subcommittee strategy, PCS submission audits, revise-and-resubmit responses, TAPS camera-ready with accessibility requirements, study-material artifacts, HCI reproducibility, video supplements, review process, writing style, related work, study design, and cycle workflow. Grounded in the CHI 2027 Papers pages, the CHI 2026 cycle, SIGCHI author guides, and ACM publication policy checked on 2026-07-08.",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "socc-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "Depth pack for the ACM Symposium on Cloud Computing (SoCC): the SIGMOD+SIGOPS systems-and-data intersection, the two-round annual deadline with rebuttal, dual-anonymous acmart submission, measurement and systems-building papers, cloud economics, and ACM artifact/reproducibility badging.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "socc-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve SoCC-specific skills for the ACM Symposium on Cloud Computing, the joint SIGMOD+SIGOPS cloud venue, grounded in the SoCC 2026 (Singapore) and SoCC 2025 calls, acmsocc.org, the ACM Digital Library, and dblp.",
       "author": {

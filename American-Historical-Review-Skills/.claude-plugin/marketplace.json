@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ahr-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "An opinionated agent skill stack for manuscripts targeted at The American Historical Review (AHR), the flagship journal of the historical profession and the official publication of the American Historical Association.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "ahr-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "Twelve-skill bundle covering The American Historical Review (AHR) manuscript lifecycle — historiographical intervention, archival source criticism, interpretation, Chicago-style prose, and the review and submission process for a humanities flagship.",
       "author": {

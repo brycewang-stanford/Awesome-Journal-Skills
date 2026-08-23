@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "prai-skills",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "《模式识别与人工智能》(Pattern Recognition and Artificial Intelligence, PR&AI) 投稿深度技能包：模式识别/机器学习/计算机视觉/自然语言处理选题定位、中文长文体例、实证证据、同行评审与修回、录用定稿。",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "prai-skills",
-      "version": "0.1.0",
+      "version": "1.1.0",
       "source": "./",
       "description": "面向《模式识别与人工智能》(Pattern Recognition and Artificial Intelligence, PR&AI) 的 12 个中文技能，聚焦 AI 细分方向的中文期刊投稿全流程，事实以官网 manu46.magtech.com.cn/Jweb_prai 与 CNKI/CCF 推荐中文科技期刊目录双源核验。",
       "author": {
