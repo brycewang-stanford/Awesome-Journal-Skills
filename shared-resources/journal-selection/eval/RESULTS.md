@@ -14,10 +14,10 @@ This is a retrieval floor, not a ceiling on the capability: an agent reads each 
 
 | Configuration | n | R@1 | R@5 | R@10 | R@20 | MRR | any-rank | wrong-lane@10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| `title` | 861 | 17.9% | 36.0% | 46.5% | 54.1% | 0.267 | 85.0% | 6.7% |
-| `title+context` | 861 | 39.7% | 63.4% | 71.4% | 77.6% | 0.503 | 93.8% | 5.8% |
-| `title+discipline` | 861 | 29.3% | 49.1% | 55.9% | 62.4% | 0.382 | 85.0% | 5.2% |
-| `oracle-discipline` | 861 | 38.0% | 63.2% | 70.2% | 76.4% | 0.486 | 85.0% | 3.5% |
+| `title` | 861 | 17.9% | 36.2% | 46.7% | 54.1% | 0.268 | 85.0% | 6.7% |
+| `title+context` | 861 | 40.0% | 63.5% | 71.7% | 77.6% | 0.505 | 93.8% | 5.9% |
+| `title+discipline` | 861 | 28.8% | 49.2% | 55.9% | 62.4% | 0.380 | 85.0% | 5.3% |
+| `oracle-discipline` | 861 | 37.6% | 64.1% | 71.0% | 77.2% | 0.487 | 85.0% | 3.7% |
 | _random baseline_ | — | 0.1% | 0.7% | 1.3% | 2.7% | — | — | — |
 
 `any-rank` = the true venue was retrieved at all, at any depth (it shares at least one scope term with the query) — the ceiling every cutoff above is working against. `wrong-lane@10` = share of top-10 slots given to a venue that publishes no empirical work, for a paper whose true venue does — the cheapest kind of obviously wrong suggestion, and the one an author notices first.
@@ -28,8 +28,8 @@ The matcher has four weighting constants (`RANK_DECAY`, `PHRASE_BONUS`, `PART_DI
 
 | Half | n | R@10 | MRR |
 |---|---:|---:|---:|
-| `dev` (tuned on) | 877 | 46.9% | 0.279 |
-| `test` (reported) | 861 | 46.5% | 0.267 |
+| `dev` (tuned on) | 877 | 46.9% | 0.278 |
+| `test` (reported) | 861 | 46.7% | 0.268 |
 
 A large gap between the two rows would mean the constants had been fitted to noise; they track each other closely, which is the point of publishing both.
 
@@ -43,7 +43,7 @@ A large gap between the two rows would mean the constants had been fitted to noi
 | `oracle-discipline` | paper title only | discipline + adjacents, as a **filter** | the ceiling if Step 1 is perfect *and* trusted absolutely. The default is the softer prior above, because Step 1 is a judgement and a wrong guess under a filter deletes the answer outright rather than merely mis-ranking it. |
 | `title+abstract` _(withheld)_ | title + the abstract's term bag | all venues, no prior | what an author actually pastes in. Covers only the gold papers whose abstract could be resolved from a free bibliographic source (Crossref, Europe PMC, arXiv), which is uneven by discipline — see Limitations. |
 
-**Withheld for thin coverage:** `title+abstract` (77/861 papers, 9%). A configuration is reported only once it covers 25% of the split; below that the confidence interval is wider than anything a reader would conclude from the number. Rerun `tools/fetch_abstracts.py` to fill the gap.
+**Withheld for thin coverage:** `title+abstract` (81/861 papers, 9%). A configuration is reported only once it covers 25% of the split; below that the confidence interval is wider than anything a reader would conclude from the number. Rerun `tools/fetch_abstracts.py` to fill the gap.
 
 ## Recall@10 by discipline (`title` configuration)
 
@@ -52,28 +52,28 @@ A large gap between the two rows would mean the constants had been fitted to noi
 | cs-ai (conference) | 47.5% | 261 |
 | economics | 22.2% | 54 |
 | finance | 50.0% | 40 |
-| accounting | 55.6% | 36 |
+| accounting | 58.3% | 36 |
 | psychology | 27.3% | 33 |
 | sociology | 43.8% | 32 |
-| management | 48.1% | 27 |
 | econometrics/methods | 24.0% | 25 |
 | political-science | 32.0% | 25 |
-| natural-science | 5.0% | 20 |
+| management | 36.8% | 19 |
 | marketing | 44.4% | 18 |
 | economics/macro | 35.3% | 17 |
+| operations | 37.5% | 16 |
+| natural-science | 6.7% | 15 |
 | public-admin | 78.6% | 14 |
 | medicine | 69.2% | 13 |
 | communication | 50.0% | 12 |
+| economics/labor | 83.3% | 12 |
 | agriculture | 100.0% | 11 |
-| operations | 54.5% | 11 |
 | environment/ecology | 60.0% | 10 |
 | life-sciences | 60.0% | 10 |
-| economics/applied | 37.5% | 8 |
 
 ## Limitations
 
 1. **The gold set is drawn from the repository itself.** Exemplar libraries hold papers the pack authors judged canonical for that venue, which skews toward famous, prototypical papers. Real routing decisions involve marginal papers, which are harder.
-2. **The headline query is a title.** A real match runs on an abstract plus the five signals of Step 1; a title is a deliberately thin, pessimistic query. `title+abstract` is the realistic figure; it covers 152 of 1738 gold papers (9%), the rest being papers that could not be resolved to an open abstract. That coverage is uneven by discipline — 31% of management papers against 0% of public-admin — so the row is not a like-for-like uplift on the headline.
+2. **The headline query is a title.** A real match runs on an abstract plus the five signals of Step 1; a title is a deliberately thin, pessimistic query. `title+abstract` is the realistic figure; it covers 160 of 1738 gold papers (9%), the rest being papers that could not be resolved to an open abstract. That coverage is uneven by discipline — 42% of management papers against 0% of public-admin — so the row is not a like-for-like uplift on the headline.
 3. **Only depth packs contribute labels.** Breadth-bundle venues are in the candidate set (so they can absorb probability mass) but have no gold papers, which makes the task harder, not easier.
 4. **Keywords are derived, not curated.** `scope_keywords` come from TF-IDF over each venue's own prose. Chinese terms are filtered through a vocabulary discovered from the corpus (cohesion + boundary entropy), which removes cross-boundary fragments but is not a substitute for a real segmenter.
 5. **The exemplar libraries are excluded from the index text**, so a gold paper's own citation cannot leak into the venue it labels.

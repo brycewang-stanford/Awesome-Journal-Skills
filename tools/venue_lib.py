@@ -112,7 +112,21 @@ NON_EMPIRICAL_DISCIPLINES = {
     "humanities",
 }
 
-# discipline keyword map (substring match, first match wins; order matters)
+# Pack names that are only correct as whole names. `Science-Skills` as a substring
+# claims Marketing Science, Organization Science and Psychological Science; as a whole
+# name it claims the journal it was written for.
+DISC_EXACT: dict[str, str] = {
+    "Science-Skills": "natural-science",
+}
+
+# Discipline keyword map: substring match, first match wins, so a specific key must
+# come before any generic key that contains it. Seven rules had lost that race and
+# could never fire — `International-Organization` never beat `Organization`, so the IR
+# journal was filed under management, as were the Journal of Human Resources, the
+# Journal of Economic Behavior and Organization, and the Journal of Law, Economics and
+# Organization. They are ordered correctly below, and `tests/test_venue_lib.py` now
+# fails if any rule becomes unreachable again, which is the only reliable guard: a
+# shadowed rule is invisible, it just quietly hands its venues to someone else.
 DISC: list[tuple[str, str]] = [
     # CS/AI conferences
     ("AAAI", "cs-ai (conference)"), ("AISTATS", "cs-ai (conference)"),
@@ -189,7 +203,7 @@ DISC: list[tuple[str, str]] = [
     ("Business-and-Economic-Statistics", "econometrics/methods"),
     ("Applied-Econometrics", "econometrics/methods"),
     ("Accounting", "accounting"),
-    ("Finance", "finance"), ("Financial", "finance"), ("Banking", "finance"),
+    ("Finance-and-Economics", "economics/finance"), ("Finance-and-Trade-Economics", "economics/public"), ("Finance", "finance"), ("Financial", "finance"), ("Banking", "finance"),
     ("Marketing", "marketing"), ("Consumer", "marketing"),
     ("Operations", "operations"), ("Manufacturing-and-Service", "operations"),
     ("INFORMS-Journal-on-Computing", "operations/computing"),
@@ -198,15 +212,14 @@ DISC: list[tuple[str, str]] = [
     ("Association-for-Information-Systems", "information-systems"),
     ("Management-World", "management"), ("Management-Sciences-in-China", "management/OR"),
     ("Management-Review", "management"), ("Management-Studies", "management"),
-    ("Management-Annals", "management"), ("Organization", "management"),
-    ("Strategic-Management", "management"), ("Human-Resource", "management"),
+    ("Management-Annals", "management"), ("International-Organization", "political-science/IR"), ("Behavior-and-Organization", "economics/behavioral"), ("Law-Economics-and-Organization", "law-and-economics"), ("Organization", "management"),
+    ("Strategic-Management", "management"), ("Human-Resources", "economics/labor"), ("Human-Resource", "management"),
     ("Human-Relations", "management"), ("Business-Venturing", "entrepreneurship"),
     ("Entrepreneurship", "entrepreneurship"), ("International-Business", "international-business"),
     ("Academy-of-Management", "management"), ("Administrative-Science", "management"),
-    ("Nankai-Business", "management"), ("Journal-of-Management", "management"),
+    ("Nankai-Business", "management"), ("Chinese-Journal-of-Management-Science", "management/OR"), ("Journal-of-Management", "management"),
     ("Political-Science", "political-science"), ("Journal-of-Politics", "political-science"),
     ("Comparative-Political", "political-science"), ("World-Politics", "political-science"),
-    ("International-Organization", "political-science/IR"),
     ("Public-Administration", "public-admin"), ("Governance", "public-admin"),
     ("Public-Policy", "public-policy"), ("Policy-Analysis-and-Management", "public-policy"),
     ("Sociolog", "sociology"), ("Social-Forces", "sociology"),
@@ -221,7 +234,7 @@ DISC: list[tuple[str, str]] = [
     ("Communication", "communication"), ("Public-Opinion", "communication/polisci"),
     ("New-Media", "communication"),
     ("Health-Economics", "economics/health"), ("Labor-Economics", "economics/labor"),
-    ("Human-Resources", "economics/labor"), ("Urban-Economics", "economics/urban"),
+    ("Urban-Economics", "economics/urban"),
     ("Economic-Geography", "economics/geography"),
     ("Environmental-Economics", "economics/environment"),
     ("Public-Economics", "economics/public"), ("Development-Economics", "economics/development"),
@@ -229,8 +242,6 @@ DISC: list[tuple[str, str]] = [
     ("International-Money", "economics/international-finance"),
     ("Monetary-Economics", "economics/macro"), ("Money-Credit", "economics/macro"),
     ("Economic-Growth", "economics/growth"), ("Economic-Dynamics", "economics/macro"),
-    ("Behavior-and-Organization", "economics/behavioral"),
-    ("Law-Economics-and-Organization", "law-and-economics"),
     ("Law-and-Economics", "law-and-economics"), ("Law-Review", "law"), ("Law-Journal", "law"),
     ("Experimental-Economics", "economics/experimental"),
     ("Risk-and-Uncertainty", "economics/decision"),
@@ -240,15 +251,19 @@ DISC: list[tuple[str, str]] = [
     ("China-Industrial", "economics"), ("China-Rural", "economics/agricultural"),
     ("Rural-Economy", "economics/agricultural"),
     ("Economic-Quarterly", "economics"), ("Economic-Research", "economics"),
-    ("World-Economy", "economics/international"), ("Finance-and-Economics", "economics/finance"),
-    ("IMF-Economic", "economics/international"), ("European-Economic", "economics"),
+    ("World-Economy", "economics/international"), ("IMF-Economic", "economics/international"), ("European-Economic", "economics"),
     ("Economic-Policy", "economics/policy"), ("Economic-Journal", "economics"),
     ("European-Economic-Association", "economics"), ("Quantitative-Economics", "economics"),
     ("Economics-and-Statistics", "economics/applied"),
     ("Economic-Literature", "economics"), ("Economic-Perspectives", "economics"),
     ("Annual-Review-of-Economics", "economics"),
     ("Social-Sciences-in-China", "social-science (general)"),
-    ("Science-Skills", "natural-science"), ("Cell", "life-sciences"), ("PNAS", "natural-science"),
+    # `Management-Science` must precede the bare `Science-Skills` rule below, which it
+    # would otherwise match: INFORMS' Management Science is an operations-research
+    # journal, and labelling it natural-science put prospect theory and multi-echelon
+    # inventory papers in the same discipline bucket as PNAS.
+    ("Management-Science", "operations"),
+    ("Cell", "life-sciences"), ("PNAS", "natural-science"),
     ("NEJM", "medicine"), ("Lancet", "medicine"), ("JAMA", "medicine"),
     ("Cancer", "life-sciences"), ("Physical-Review", "physics"),
     ("American-Chemical", "chemistry"), ("Annals-of-Mathematics", "mathematics"),
@@ -258,9 +273,7 @@ DISC: list[tuple[str, str]] = [
     ("Advanced-Materials", "materials-science"), ("Molecular-Cell", "life-sciences"),
     ("Nature-Geoscience", "earth-science"), ("Earth-and-Planetary-Science-Letters", "earth-science"),
     ("Language-Linguistic-Society", "linguistics"),
-    ("Chinese-Journal-of-Management-Science", "management/OR"),
-    ("Finance-and-Trade-Economics", "economics/public"),
-]
+    ]
 
 # Ranking / indexing labels. Only recorded when the pack's OWN text asserts them —
 # this layer never invents a bibliometric claim.
@@ -377,6 +390,15 @@ def is_depth_pack(pack: Path) -> bool:
 
 
 def discipline_of(name: str, default: str = "other") -> str:
+    """Classify a pack by name: whole-name rules first, then substrings in order.
+
+    `DISC_EXACT` exists because some venue names are only meaningful whole. As a
+    substring, `Science-Skills` matched Marketing Science, Organization Science,
+    Psychological Science and four more; as a whole pack name it matches the journal
+    *Science*, which is what it was written for.
+    """
+    if name in DISC_EXACT:
+        return DISC_EXACT[name]
     for kw, disc in DISC:
         if kw in name:
             return disc

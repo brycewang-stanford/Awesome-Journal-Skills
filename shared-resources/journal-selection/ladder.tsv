@@ -245,12 +245,12 @@ british-machine-vision-conference	cvpr	CVPR	2	no	depth	field	international
 british-machine-vision-conference	eccv	ECCV	2	no	depth	field	international
 british-machine-vision-conference	iccv	ICCV	2	no	depth	field	international
 british-machine-vision-conference	ieee-international-symposium-on-biomedical-imaging	IEEE International Symposium on Biomedical Imaging	2	yes	breadth	field	international
-bulletin-of-chinese-academy-of-sciences	management-science-cn	管理科学	2	yes	breadth	field	china
+bulletin-of-chinese-academy-of-sciences	management-science-cn	管理科学	2	no	breadth	field	china
 bulletin-of-chinese-academy-of-sciences	science-research-management	科研管理	2	yes	breadth	field	china
 bulletin-of-chinese-academy-of-sciences	soft-science	软科学	2	yes	breadth	field	china
 bulletin-of-chinese-academy-of-sciences	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
 business-management-journal	research-on-economics-and-management	经济与管理研究	3	yes	breadth	field	china
-business-management-journal	management-science-cn	管理科学	2	yes	breadth	field	china
+business-management-journal	management-science-cn	管理科学	2	no	breadth	field	china
 cancer-cell	jama	JAMA	4	no	depth	field	international
 cancer-discovery	cancer-cell	Cancer Cell	3	yes	depth	field	international
 cav	tacas	TACAS	25	yes	depth	field	international
@@ -280,14 +280,14 @@ china-rural-economy	issues-in-agricultural-economy	农业经济问题	6	no	bread
 china-rural-survey	rural-economy	农村经济	6	yes	breadth	field	china
 china-rural-survey	journal-of-agrotechnical-economics	农业技术经济	2	no	breadth	field	china
 china-soft-science	soft-science	软科学	15	yes	breadth	field	china
-china-soft-science	management-science-cn	管理科学	3	yes	breadth	field	china
+china-soft-science	management-science-cn	管理科学	3	no	breadth	field	china
 china-soft-science	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
-chinese-journal-of-management	management-science-cn	管理科学	9	yes	breadth	field	china
+chinese-journal-of-management	management-science-cn	管理科学	9	no	breadth	field	china
 chinese-journal-of-management	journal-of-management	Journal of Management	2	no	depth	field	international
 chinese-journal-of-management	management-review	管理评论	2	no	breadth	field	china
 chinese-journal-of-management-science	management-science-cn	管理科学	37	no	breadth	field	china
 chinese-journal-of-management-science	management-science	Management Science	17	no	depth	FT50 / UTD24	international
-chinese-journal-of-management-science	journal-of-management	Journal of Management	15	yes	depth	field	international
+chinese-journal-of-management-science	journal-of-management	Journal of Management	15	no	depth	field	international
 chinese-journal-of-management-science	systems-engineering-theory-and-practice	系统工程理论与实践	5	no	breadth	field	china
 chinese-journal-of-management-science	soft-science	软科学	2	no	breadth	field	china
 chinese-public-administration	chinese-journal-of-management	管理学报	3	no	breadth	field	china
@@ -381,13 +381,13 @@ demography	population-and-development-review	Population and Development Review	5
 demography	social-forces	Social Forces	5	no	depth	field	international
 developmental-psychology	journal-of-personality-and-social-psychology	Journal of Personality and Social Psychology	3	yes	depth	flagship psych	international
 diabetologia	the-lancet	The Lancet	2	no	breadth	field	international
-e-government	management-science-cn	管理科学	2	yes	breadth	field	china
+e-government	management-science-cn	管理科学	2	no	breadth	field	china
 eacl	acl	ACL	70	yes	depth	field	international
 eacl	naacl	NAACL	10	yes	depth	field	international
 eacl	emnlp	EMNLP	9	yes	depth	field	international
 eacl	colm	COLM	4	yes	depth	field	international
 east-china-economic-management	business-management-journal	经济管理	12	yes	breadth	field	china
-east-china-economic-management	management-science-cn	管理科学	2	yes	breadth	field	china
+east-china-economic-management	management-science-cn	管理科学	2	no	breadth	field	china
 ecai	ijcai	IJCAI	108	yes	depth	field	international
 ecai	aaai	AAAI	21	yes	depth	field	international
 ecai	aamas	AAMAS	16	yes	depth	field	international
@@ -477,7 +477,7 @@ fast	eurosys	EuroSys	15	yes	depth	field	international
 fast	nsdi	NSDI	7	yes	depth	field	international
 fast	sosp	SOSP	7	yes	depth	field	international
 field-crops-research	agricultural-systems	Agricultural Systems	5	yes	depth	field	international
-finance-and-trade-economics	public-finance-research	财政研究	5	yes	breadth	field	china
+finance-and-trade-economics	public-finance-research	财政研究	5	no	breadth	field	china
 finance-and-trade-economics	tax-research	税务研究	3	no	breadth	field	china
 financial-cryptography-and-data-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	3	no	breadth	field	international
 financial-cryptography-and-data-security	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	2	no	breadth	field	international
@@ -491,11 +491,11 @@ focs	soda	SODA	8	yes	depth	field	international
 focs	itcs	ITCS	7	yes	depth	field	international
 focs	colt	COLT	2	yes	depth	field	international
 foreign-economics-and-management	research-on-economics-and-management	经济与管理研究	2	yes	breadth	field	china
-forum-on-science-and-technology-in-china	management-science-cn	管理科学	2	yes	breadth	field	china
+forum-on-science-and-technology-in-china	management-science-cn	管理科学	2	no	breadth	field	china
 forum-on-science-and-technology-in-china	soft-science	软科学	2	yes	breadth	field	china
 forum-on-science-and-technology-in-china	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
 frontiers-of-engineering-management-science-and-technology	management-science-cn	管理科学	7	yes	breadth	field	china
-frontiers-of-engineering-management-science-and-technology	management-science	Management Science	2	no	depth	FT50 / UTD24	international
+frontiers-of-engineering-management-science-and-technology	management-science	Management Science	2	yes	depth	FT50 / UTD24	international
 fse	icse	ICSE	24	yes	depth	field	international
 fse	issta	ISSTA	17	yes	depth	field	international
 fse	ase	ASE	14	yes	depth	field	international
@@ -804,7 +804,7 @@ journal-of-banking-and-finance	journal-of-financial-and-quantitative-analysis	Jo
 journal-of-business-and-economic-statistics	econometric-theory	Econometric Theory	5	yes	depth	field	international
 journal-of-business-and-economic-statistics	journal-of-econometrics	Journal of Econometrics	5	yes	depth	field	international
 journal-of-business-and-economic-statistics	quantitative-economics	Quantitative Economics	5	no	depth	field	international
-journal-of-business-economics	management-science-cn	管理科学	2	yes	breadth	field	china
+journal-of-business-economics	management-science-cn	管理科学	2	no	breadth	field	china
 journal-of-business-venturing	academy-of-management-journal	Academy of Management Journal	7	no	depth	FT50 / UTD24	international
 journal-of-business-venturing	entrepreneurship-theory-and-practice	Entrepreneurship Theory and Practice	6	yes	depth	field	international
 journal-of-business-venturing	strategic-management-journal	Strategic Management Journal	2	no	depth	FT50 / UTD24	international
@@ -863,7 +863,7 @@ journal-of-environmental-economics-and-management	aej-economic-policy	AEJ Econom
 journal-of-environmental-economics-and-management	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
 journal-of-finance	journal-of-financial-economics	Journal of Financial Economics	24	yes	depth	top-3 finance	international
 journal-of-finance	review-of-financial-studies	Review of Financial Studies	15	yes	depth	top-3 finance	international
-journal-of-finance-and-economics	journal-of-finance	Journal of Finance	7	yes	depth	top-3 finance	international
+journal-of-finance-and-economics	journal-of-finance	Journal of Finance	7	no	depth	top-3 finance	international
 journal-of-finance-and-economics	journal-of-economic-literature	Journal of Economic Literature	3	no	depth	field	international
 journal-of-financial-economics	review-of-financial-studies	Review of Financial Studies	22	yes	depth	top-3 finance	international
 journal-of-financial-economics	journal-of-finance	Journal of Finance	4	yes	depth	top-3 finance	international
@@ -887,7 +887,7 @@ journal-of-health-economics	the-english-historical-review	The English Historical
 journal-of-health-economics	aej-economic-policy	AEJ Economic Policy	2	no	depth	field	international
 journal-of-hepatology	hepatology	Hepatology	11	yes	breadth	field	international
 journal-of-high-energy-physics	physical-review-d	Physical Review D	2	no	breadth	field	international
-journal-of-industrial-engineering-and-engineering-management	management-science-cn	管理科学	4	yes	breadth	field	china
+journal-of-industrial-engineering-and-engineering-management	management-science-cn	管理科学	4	no	breadth	field	china
 journal-of-international-business-studies	strategic-management-journal	Strategic Management Journal	14	no	depth	FT50 / UTD24	international
 journal-of-international-business-studies	academy-of-management-journal	Academy of Management Journal	9	no	depth	FT50 / UTD24	international
 journal-of-international-business-studies	journal-of-management	Journal of Management	5	no	depth	field	international
@@ -912,10 +912,10 @@ journal-of-international-money-and-finance	journal-of-economic-literature	Journa
 journal-of-jiangxi-university-of-finance-and-economics	contemporary-finance-and-economics	当代财经	2	yes	breadth	field	china
 journal-of-labor-economics	american-economic-review	American Economic Review	8	no	breadth	field	international
 journal-of-labor-economics	comparative-political-studies	Comparative Political Studies	8	no	depth	field	international
-journal-of-law-and-economics	journal-of-law-economics-and-organization	Journal of Law Economics and Organization	22	no	depth	field	international
+journal-of-law-and-economics	journal-of-law-economics-and-organization	Journal of Law Economics and Organization	22	yes	depth	field	international
 journal-of-law-and-economics	journal-of-public-economics	Journal of Public Economics	2	no	depth	field	international
-journal-of-law-economics-and-organization	journal-of-law-and-economics	Journal of Law and Economics	30	no	depth	field	international
-journal-of-law-economics-and-organization	organization-science	Organization Science	9	yes	depth	field	international
+journal-of-law-economics-and-organization	journal-of-law-and-economics	Journal of Law and Economics	30	yes	depth	field	international
+journal-of-law-economics-and-organization	organization-science	Organization Science	9	no	depth	field	international
 journal-of-law-economics-and-organization	journal-of-economic-literature	Journal of Economic Literature	3	no	depth	field	international
 journal-of-machine-learning-research	neurips	NeurIPS	2	no	depth	field	international
 journal-of-management	academy-of-management-journal	Academy of Management Journal	20	yes	depth	FT50 / UTD24	international
@@ -956,7 +956,7 @@ journal-of-money-credit-and-banking	journal-of-financial-intermediation	Journal 
 journal-of-money-credit-and-banking	journal-of-finance	Journal of Finance	2	yes	depth	top-3 finance	international
 journal-of-money-credit-and-banking	journal-of-financial-economics	Journal of Financial Economics	2	yes	depth	top-3 finance	international
 journal-of-money-credit-and-banking	review-of-financial-studies	Review of Financial Studies	2	yes	depth	top-3 finance	international
-journal-of-operations-management	management-science	Management Science	3	no	depth	FT50 / UTD24	international
+journal-of-operations-management	management-science	Management Science	3	yes	depth	FT50 / UTD24	international
 journal-of-operations-management	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	3	yes	depth	field	international
 journal-of-operations-management	operations-research	Operations Research	3	yes	depth	FT50 / UTD24	international
 journal-of-personality-and-social-psychology	psychological-science	Psychological Science	7	yes	depth	field	international
@@ -977,7 +977,7 @@ journal-of-public-economics	economic-policy	Economic Policy	5	no	depth	field	int
 journal-of-public-economics	journal-of-development-economics	Journal of Development Economics	5	no	depth	field	international
 journal-of-public-economics	journal-of-international-economics	Journal of International Economics	5	no	depth	field	international
 journal-of-public-management	chinese-journal-of-management	管理学报	10	yes	breadth	field	china
-journal-of-public-management	management-science-cn	管理科学	3	yes	breadth	field	china
+journal-of-public-management	management-science-cn	管理科学	3	no	breadth	field	china
 journal-of-public-policy-and-marketing	journal-of-consumer-psychology	Journal of Consumer Psychology	14	yes	depth	field	international
 journal-of-public-policy-and-marketing	journal-of-consumer-research	Journal of Consumer Research	8	yes	depth	FT50 / UTD24	international
 journal-of-public-policy-and-marketing	journal-of-marketing-research	Journal of Marketing Research	5	yes	depth	FT50 / UTD24	international
@@ -1030,12 +1030,12 @@ lancet	jama	JAMA	9	yes	depth	field	international
 lancet	pnas	PNAS	2	no	depth	field	international
 language-linguistic-society	natural-language-and-linguistic-theory	Natural Language & Linguistic Theory	4	no	breadth	field	international
 management-review	management-science-cn	管理科学	5	no	breadth	field	china
-management-science	operations-research	Operations Research	23	no	depth	FT50 / UTD24	international
+management-science	operations-research	Operations Research	23	yes	depth	FT50 / UTD24	international
 management-science	marketing-science	Marketing Science	18	no	depth	FT50 / UTD24	international
-management-science	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	11	no	depth	field	international
+management-science	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	11	yes	depth	field	international
 management-science	organization-science	Organization Science	5	no	depth	field	international
-management-science-cn	management-science	Management Science	4	no	depth	FT50 / UTD24	international
-manufacturing-and-service-operations-management	management-science	Management Science	9	no	depth	FT50 / UTD24	international
+management-science-cn	management-science	Management Science	4	yes	depth	FT50 / UTD24	international
+manufacturing-and-service-operations-management	management-science	Management Science	9	yes	depth	FT50 / UTD24	international
 manufacturing-and-service-operations-management	operations-research	Operations Research	9	yes	depth	FT50 / UTD24	international
 manufacturing-and-service-operations-management	production-and-operations-management	Production and Operations Management	8	yes	depth	field	international
 marketing-science	management-science	Management Science	20	no	depth	FT50 / UTD24	international
@@ -1147,7 +1147,7 @@ oopsla	issta	ISSTA	5	yes	depth	field	international
 oopsla	fse	FSE	3	yes	depth	field	international
 oopsla	icse	ICSE	3	yes	depth	field	international
 operations-research	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	8	yes	depth	field	international
-operations-research	management-science	Management Science	5	no	depth	FT50 / UTD24	international
+operations-research	management-science	Management Science	5	yes	depth	FT50 / UTD24	international
 operations-research	informs-journal-on-computing	INFORMS Journal on Computing	4	no	depth	field	international
 organization-and-management	management-review	管理评论	3	yes	breadth	field	china
 organization-and-management	management-science-cn	管理科学	2	no	breadth	field	china
@@ -1221,7 +1221,7 @@ privacy-enhancing-technologies-symposium	annual-computer-security-applications-c
 privacy-enhancing-technologies-symposium	european-symposium-on-research-in-computer-security	European Symposium on Research in Computer Security	4	yes	breadth	field	international
 privacy-enhancing-technologies-symposium	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	2	no	breadth	field	international
 privacy-enhancing-technologies-symposium	ndss	NDSS	2	no	depth	field	international
-production-and-operations-management	management-science	Management Science	19	no	depth	FT50 / UTD24	international
+production-and-operations-management	management-science	Management Science	19	yes	depth	FT50 / UTD24	international
 production-and-operations-management	operations-research	Operations Research	12	yes	depth	FT50 / UTD24	international
 production-and-operations-management	manufacturing-and-service-operations-management	Manufacturing and Service Operations Management	10	yes	depth	field	international
 prx-quantum	physical-review-x	Physical Review X	16	no	breadth	field	international
@@ -1246,11 +1246,11 @@ recsys	uai	UAI	7	yes	depth	field	international
 recsys	chi	CHI	4	yes	depth	field	international
 recsys	acm-conference-on-recommender-systems	ACM Conference on Recommender Systems	2	no	breadth	field	international
 reform	reform-of-economic-system	经济体制改革	4	yes	breadth	field	china
-research-and-development-management	management-science-cn	管理科学	2	yes	breadth	field	china
+research-and-development-management	management-science-cn	管理科学	2	no	breadth	field	china
 research-and-development-management	science-research-management	科研管理	2	yes	breadth	field	china
 research-on-economics-and-management	business-management-journal	经济管理	3	yes	breadth	field	china
 research-on-economics-and-management	foreign-economics-and-management	外国经济与管理	2	yes	breadth	field	china
-research-on-economics-and-management	management-science-cn	管理科学	2	yes	breadth	field	china
+research-on-economics-and-management	management-science-cn	管理科学	2	no	breadth	field	china
 research-on-financial-and-economic-issues	business-management-journal	经济管理	3	no	breadth	field	china
 research-policy	strategic-management-journal	Strategic Management Journal	13	no	depth	FT50 / UTD24	international
 research-policy	management-science	Management Science	3	no	depth	FT50 / UTD24	international
@@ -1288,25 +1288,25 @@ rural-economy	journal-of-agrotechnical-economics	农业技术经济	2	no	breadth
 science	pnas	PNAS	15	yes	depth	field	international
 science	science-advances	Science Advances	9	yes	breadth	field	international
 science	nejm	NEJM	6	no	depth	field	international
-science-and-technology-progress-and-policy	management-science-cn	管理科学	2	yes	breadth	field	china
+science-and-technology-progress-and-policy	management-science-cn	管理科学	2	no	breadth	field	china
 science-and-technology-progress-and-policy	science-research-management	科研管理	2	yes	breadth	field	china
 science-and-technology-progress-and-policy	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
 science-immunology	nature-immunology	Nature Immunology	5	yes	breadth	field	international
 science-of-science-and-management-of-st	china-soft-science	中国软科学	2	yes	breadth	field	china
-science-of-science-and-management-of-st	management-science-cn	管理科学	2	yes	breadth	field	china
+science-of-science-and-management-of-st	management-science-cn	管理科学	2	no	breadth	field	china
 science-of-science-and-management-of-st	science-research-management	科研管理	2	yes	breadth	field	china
 science-of-science-and-management-of-st	soft-science	软科学	2	yes	breadth	field	china
 science-of-science-and-management-of-st	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
-science-research-management	management-science-cn	管理科学	2	yes	breadth	field	china
+science-research-management	management-science-cn	管理科学	2	no	breadth	field	china
 science-research-management	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
 science-translational-medicine	journal-of-clinical-investigation	Journal of Clinical Investigation	2	yes	breadth	field	international
 science-translational-medicine	nature-medicine	Nature Medicine	2	yes	breadth	field	international
-scientific-decision-making	management-science-cn	管理科学	3	yes	breadth	field	china
+scientific-decision-making	management-science-cn	管理科学	3	no	breadth	field	china
 scientific-decision-making	soft-science	软科学	3	yes	breadth	field	china
 scientific-decision-making	china-soft-science	中国软科学	2	yes	breadth	field	china
 scientific-management-research	soft-science	软科学	5	yes	breadth	field	china
 scientific-management-research	china-soft-science	中国软科学	2	yes	breadth	field	china
-scientific-management-research	management-science-cn	管理科学	2	yes	breadth	field	china
+scientific-management-research	management-science-cn	管理科学	2	no	breadth	field	china
 scientific-management-research	science-research-management	科研管理	2	yes	breadth	field	china
 scientific-management-research	studies-in-science-of-science	科学学研究	2	yes	breadth	field	china
 sensys	ipsn	IPSN	19	yes	depth	field	international
@@ -1384,7 +1384,7 @@ soda	itcs	ITCS	11	yes	depth	field	international
 soda	icalp	ICALP	9	yes	depth	field	international
 soda	podc	PODC	2	yes	depth	field	international
 soft-science	china-soft-science	中国软科学	2	yes	breadth	field	china
-soft-science	management-science-cn	管理科学	2	yes	breadth	field	china
+soft-science	management-science-cn	管理科学	2	no	breadth	field	china
 sosp	osdi	OSDI	25	yes	depth	field	international
 sosp	atc	ATC	13	yes	depth	field	international
 sosp	eurosys	EuroSys	10	yes	depth	field	international
@@ -1404,13 +1404,13 @@ stoc	podc	PODC	3	yes	depth	field	international
 strategic-management-journal	academy-of-management-journal	Academy of Management Journal	9	yes	depth	FT50 / UTD24	international
 strategic-management-journal	academy-of-management-review	Academy of Management Review	7	yes	depth	FT50 / UTD24	international
 strategic-management-journal	administrative-science-quarterly	Administrative Science Quarterly	7	yes	depth	FT50 / UTD24	international
-studies-in-science-of-science	management-science-cn	管理科学	4	yes	breadth	field	china
+studies-in-science-of-science	management-science-cn	管理科学	4	no	breadth	field	china
 studies-in-science-of-science	china-soft-science	中国软科学	2	yes	breadth	field	china
 studies-in-science-of-science	science-research-management	科研管理	2	yes	breadth	field	china
 studies-in-science-of-science	soft-science	软科学	2	yes	breadth	field	china
 studies-of-financial-economics	studies-of-international-finance	国际金融研究	3	yes	breadth	field	china
 studies-of-international-finance	studies-of-financial-economics	金融经济学研究	2	yes	breadth	field	china
-systems-engineering-theory-and-practice	management-science-cn	管理科学	7	yes	breadth	field	china
+systems-engineering-theory-and-practice	management-science-cn	管理科学	7	no	breadth	field	china
 tacas	cav	CAV	25	yes	depth	field	international
 text-retrieval-conference	european-conference-on-information-retrieval	European Conference on Information Retrieval	3	yes	breadth	field	international
 text-retrieval-conference	sigir	SIGIR	3	no	depth	field	international

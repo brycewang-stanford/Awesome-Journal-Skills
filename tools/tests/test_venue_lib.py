@@ -264,6 +264,34 @@ class TestDisciplineOf(unittest.TestCase):
         self.assertEqual(v.discipline_of("Zzz-Unmapped-Skills"), "other")
         self.assertEqual(v.discipline_of("Zzz-Unmapped-Skills", default="unknown"), "unknown")
 
+    def test_no_rule_is_unreachable(self):
+        """The guard for the whole bug class, not for the seven instances of it.
+
+        `DISC` is first-match-wins over substrings, so a specific key placed after a
+        generic key it contains can never fire — and nothing says so. It just hands its
+        venues to the generic rule. Seven rules had lost that race: the IR journal
+        `International-Organization` was filed under management by `Organization`, and
+        so were the Journal of Human Resources, the Journal of Economic Behavior and
+        Organization, and the Journal of Law, Economics and Organization.
+
+        A rule must at least classify its own key. That is cheap to check and
+        impossible to satisfy while shadowed.
+        """
+        shadowed = [(kw, disc, v.discipline_of(kw))
+                    for kw, disc in v.DISC if v.discipline_of(kw) != disc]
+        self.assertEqual(shadowed, [], "move each rule before the one that shadows it")
+
+    def test_a_whole_name_rule_does_not_leak_as_a_substring(self):
+        # `Science-Skills` is the journal *Science*. As a substring it also claimed
+        # Marketing Science, Organization Science and Psychological Science, which is
+        # why whole-name rules live in their own map.
+        self.assertEqual(v.discipline_of("Science-Skills"), "natural-science")
+        self.assertNotEqual(v.discipline_of("Marketing-Science-Skills"), "natural-science")
+        self.assertNotEqual(v.discipline_of("Psychological-Science-Skills"), "natural-science")
+
+    def test_management_science_is_an_operations_journal(self):
+        self.assertEqual(v.discipline_of("Management-Science-Skills"), "operations")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -438,6 +438,12 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [AEJ Applied Economics](AEJ-Applied-Economics-Skills) | depth | international | empirical | field | `aej-applied-economics-skills` |
 | [Review of Economics and Statistics](Review-of-Economics-and-Statistics-Skills) | depth | international | empirical | field | `restat-skills` |
 
+### economics/behavioral (1)
+
+| Venue | Coverage | Region | Lane | Tier | Install |
+|---|---|---|---|---|---|
+| [Journal of Economic Behavior and Organization](Journal-of-Economic-Behavior-and-Organization-Skills) | depth | international | empirical | field | `jebo-skills` |
+
 ### economics/decision (1)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
@@ -462,6 +468,12 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
 | [Experimental Economics](Experimental-Economics-Skills) | depth | international | empirical | field | `experimental-economics-skills` |
+
+### economics/finance (1)
+
+| Venue | Coverage | Region | Lane | Tier | Install |
+|---|---|---|---|---|---|
+| [Journal of Finance and Economics](Journal-of-Finance-and-Economics-Skills) | depth | china | empirical | field | `journal-of-finance-and-economics-skills` |
 
 ### economics/game-theory (1)
 
@@ -496,10 +508,11 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [Journal of World Economy](Journal-of-World-Economy-Skills) | depth | china | empirical | field | `journal-of-world-economy-skills` |
 | [国际经贸探索](Chinese-SocialScience-Journal-Skills/skills/international-economics-and-trade-research/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 
-### economics/labor (2)
+### economics/labor (3)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
+| [Journal of Human Resources](Journal-of-Human-Resources-Skills) | depth | international | empirical | field | `jhr-skills` |
 | [Journal of Labor Economics](Journal-of-Labor-Economics-Skills) | depth | international | empirical | field | `jole-skills` |
 | [劳动经济研究](Chinese-SocialScience-Journal-Skills/skills/studies-in-labor-economics/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 
@@ -524,10 +537,11 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [AEJ Economic Policy](AEJ-Economic-Policy-Skills) | depth | international | empirical | field | `aej-economic-policy-skills` |
 | [Economic Policy](Economic-Policy-Skills) | depth | international | empirical | field | `economic-policy-skills` |
 
-### economics/public (1)
+### economics/public (2)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
+| [Finance and Trade Economics](Finance-and-Trade-Economics-Skills) | depth | international | empirical | field | `cte-skills` |
 | [Journal of Public Economics](Journal-of-Public-Economics-Skills) | depth | international | empirical | field | `jpube-skills` |
 
 ### economics/theory (2)
@@ -615,18 +629,16 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [Conservation Biology](Conservation-Biology-Skills) | depth | international | empirical | field | `conbio-skills` |
 | [Global Change Biology](Global-Change-Biology-Skills) | depth | international | empirical | field | `gcb-skills` |
 
-### finance (33)
+### finance (31)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
-| [Finance and Trade Economics](Finance-and-Trade-Economics-Skills) | depth | international | empirical | field | `cte-skills` |
 | [Financial Cryptography and Data Security](Computer-Science-Conference-Skills/skills/financial-cryptography-and-data-security/SKILL.md) | breadth | international | empirical | field | `computer-science-conference-skills` |
 | [Financial Management](Financial-Management-Skills) | depth | international | empirical | field | `financial-management-skills` |
 | [Journal of Banking and Finance](Journal-of-Banking-and-Finance-Skills) | depth | international | empirical | field | `jbf-skills` |
 | [Journal of Corporate Finance](Journal-of-Corporate-Finance-Skills) | depth | international | empirical | field | `jcf-skills` |
 | [Journal of Empirical Finance](English-SocialScience-Journal-Skills/skills/journal-of-empirical-finance/SKILL.md) | breadth | international | empirical | field | `english-socsci-journal-skills` |
 | [Journal of Finance](Journal-of-Finance-Skills) | depth | international | empirical | top-3 finance | `jf-skills` |
-| [Journal of Finance and Economics](Journal-of-Finance-and-Economics-Skills) | depth | china | empirical | field | `journal-of-finance-and-economics-skills` |
 | [Journal of Financial and Quantitative Analysis](Journal-of-Financial-and-Quantitative-Analysis-Skills) | depth | international | empirical | field | `jfqa-skills` |
 | [Journal of Financial Economics](Journal-of-Financial-Economics-Skills) | depth | international | empirical | top-3 finance | `jfe-skills` |
 | [Journal of Financial Intermediation](Journal-of-Financial-Intermediation-Skills) | depth | international | empirical | field | `jfi-skills` |
@@ -742,11 +754,12 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [Harvard Law Review](Harvard-Law-Review-Skills) | depth | international | empirical | field | `harvard-law-review-skills` |
 | [Yale Law Journal](Yale-Law-Journal-Skills) | depth | international | empirical | field | `yale-law-journal-skills` |
 
-### law-and-economics (1)
+### law-and-economics (2)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
 | [Journal of Law and Economics](Journal-of-Law-and-Economics-Skills) | depth | international | empirical | field | `jle-skills` |
+| [Journal of Law Economics and Organization](Journal-of-Law-Economics-and-Organization-Skills) | depth | international | empirical | field | `jleo-skills` |
 
 ### life-sciences (12)
 
@@ -771,7 +784,7 @@ It profiles the paper and shortlists from this same index into reach / match / s
 |---|---|---|---|---|---|
 | [Language Linguistic Society](Language-Linguistic-Society-Skills) | depth | international | empirical | field | `lang-skills` |
 
-### management (20)
+### management (15)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
@@ -779,13 +792,8 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [Academy of Management Journal](Academy-of-Management-Journal-Skills) | depth | international | empirical | FT50 / UTD24 | `amj-skills` |
 | [Academy of Management Review](Academy-of-Management-Review-Skills) | depth | international | theory | FT50 / UTD24 | `amr-skills` |
 | [Administrative Science Quarterly](Administrative-Science-Quarterly-Skills) | depth | international | empirical | FT50 / UTD24 | `asq-skills` |
-| [Chinese Journal of Management Science](Chinese-Journal-of-Management-Science-Skills) | depth | international | empirical | field | `cjms-skills` |
 | [Human Relations](Human-Relations-Skills) | depth | international | empirical | field | `human-relations-skills` |
 | [Human Resource Management](Human-Resource-Management-Skills) | depth | international | empirical | field | `human-resource-management-skills` |
-| [International Organization](International-Organization-Skills) | depth | international | empirical | field | `io-skills` |
-| [Journal of Economic Behavior and Organization](Journal-of-Economic-Behavior-and-Organization-Skills) | depth | international | empirical | field | `jebo-skills` |
-| [Journal of Human Resources](Journal-of-Human-Resources-Skills) | depth | international | empirical | field | `jhr-skills` |
-| [Journal of Law Economics and Organization](Journal-of-Law-Economics-and-Organization-Skills) | depth | international | empirical | field | `jleo-skills` |
 | [Journal of Management](Journal-of-Management-Skills) | depth | international | empirical | field | `journal-of-management-skills` |
 | [Journal of Management Studies](Journal-of-Management-Studies-Skills) | depth | international | empirical | field | `jms-skills` |
 | [Journal of Management World](Journal-of-Management-World-Skills) | depth | china | empirical | 中文管理顶刊 | `management-world-skills` |
@@ -796,10 +804,11 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [管理评论](Chinese-SocialScience-Journal-Skills/skills/management-review/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [组织与管理](Chinese-SocialScience-Journal-Skills/skills/organization-and-management/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 
-### management/OR (1)
+### management/OR (2)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
+| [Chinese Journal of Management Science](Chinese-Journal-of-Management-Science-Skills) | depth | international | empirical | field | `cjms-skills` |
 | [Journal of Management Sciences in China](Journal-of-Management-Sciences-in-China-Skills) | depth | china | empirical | field | `journal-of-management-sciences-in-china-skills` |
 
 ### marketing (8)
@@ -844,7 +853,7 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [The Lancet Public Health](Clinical-Medicine-Journal-Skills/skills/the-lancet-public-health/SKILL.md) | breadth | international | empirical | field | `clinical-medicine-journal-skills` |
 | [The Lancet Respiratory Medicine](Clinical-Medicine-Journal-Skills/skills/the-lancet-respiratory-medicine/SKILL.md) | breadth | international | empirical | field | `clinical-medicine-journal-skills` |
 
-### natural-science (119)
+### natural-science (118)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
@@ -897,7 +906,6 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [Journal of the ACM](English-NaturalScience-Journal-Skills/skills/journal-of-the-acm/SKILL.md) | breadth | international | empirical | field | `english-natsci-journal-skills` |
 | [Journal of the American College of Cardiology](English-NaturalScience-Journal-Skills/skills/journal-of-the-american-college-of-cardiology/SKILL.md) | breadth | international | empirical | field | `english-natsci-journal-skills` |
 | [Living Reviews in Relativity](English-NaturalScience-Journal-Skills/skills/living-reviews-in-relativity/SKILL.md) | breadth | international | empirical | field | `english-natsci-journal-skills` |
-| [Management Science](Management-Science-Skills) | depth | international | empirical | FT50 / UTD24 | `mgsci-skills` |
 | [Matter](English-NaturalScience-Journal-Skills/skills/matter/SKILL.md) | breadth | international | empirical | field | `english-natsci-journal-skills` |
 | [Molecular Biology and Evolution](English-NaturalScience-Journal-Skills/skills/molecular-biology-and-evolution/SKILL.md) | breadth | international | empirical | field | `english-natsci-journal-skills` |
 | [Molecular Ecology](English-NaturalScience-Journal-Skills/skills/molecular-ecology/SKILL.md) | breadth | international | empirical | field | `english-natsci-journal-skills` |
@@ -968,15 +976,18 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [Trends in Ecology & Evolution](English-NaturalScience-Journal-Skills/skills/trends-in-ecology-and-evolution/SKILL.md) | breadth | international | empirical | field | `english-natsci-journal-skills` |
 | [Water Research](English-NaturalScience-Journal-Skills/skills/water-research/SKILL.md) | breadth | international | empirical | field | `english-natsci-journal-skills` |
 
-### operations (5)
+### operations (8)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
 | [Integration of Constraint Programming, Artificial Intelligence, and Operations Research](Computer-Science-Conference-Skills/skills/integration-of-constraint-programming-artificial-intelligence-and-operations-research/SKILL.md) | breadth | international | empirical | field | `computer-science-conference-skills` |
 | [Journal of Operations Management](Journal-of-Operations-Management-Skills) | depth | international | empirical | field | `jom-skills` |
+| [Management Science](Management-Science-Skills) | depth | international | empirical | FT50 / UTD24 | `mgsci-skills` |
 | [Manufacturing and Service Operations Management](Manufacturing-and-Service-Operations-Management-Skills) | depth | international | empirical | field | `msom-skills` |
 | [Operations Research](Operations-Research-Skills) | depth | international | empirical | FT50 / UTD24 | `ors-skills` |
 | [Production and Operations Management](Production-and-Operations-Management-Skills) | depth | international | empirical | field | `pom-skills` |
+| [工程管理科技前沿](Chinese-SocialScience-Journal-Skills/skills/frontiers-of-engineering-management-science-and-technology/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
+| [管理科学](Chinese-SocialScience-Journal-Skills/skills/management-science-cn/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 
 ### operations/computing (1)
 
@@ -1011,6 +1022,12 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [Comparative Political Studies](Comparative-Political-Studies-Skills) | depth | international | empirical | field | `comparative-political-studies-skills` |
 | [Journal of Politics](Journal-of-Politics-Skills) | depth | international | empirical | field | `jop-skills` |
 | [World Politics](World-Politics-Skills) | depth | international | empirical | field | `wp-skills` |
+
+### political-science/IR (1)
+
+| Venue | Coverage | Region | Lane | Tier | Install |
+|---|---|---|---|---|---|
+| [International Organization](International-Organization-Skills) | depth | international | empirical | field | `io-skills` |
 
 ### psychology (8)
 
@@ -1061,7 +1078,7 @@ It profiles the paper and shortlists from this same index into reach / match / s
 |---|---|---|---|---|---|
 | [Journal of the American Academy of Religion](Journal-of-the-American-Academy-of-Religion-Skills) | depth | international | interpretive/theory | field | `jaar-skills` |
 
-### social-science (55)
+### social-science (53)
 
 | Venue | Coverage | Region | Lane | Tier | Install |
 |---|---|---|---|---|---|
@@ -1090,7 +1107,6 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [宏观质量研究](Chinese-SocialScience-Journal-Skills/skills/journal-of-macro-quality-research/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [审计与经济研究](Chinese-SocialScience-Journal-Skills/skills/auditing-and-economics-research/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [审计研究](Chinese-SocialScience-Journal-Skills/skills/auditing-research/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
-| [工程管理科技前沿](Chinese-SocialScience-Journal-Skills/skills/frontiers-of-engineering-management-science-and-technology/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [当代经济科学](Chinese-SocialScience-Journal-Skills/skills/modern-economic-science/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [改革](Chinese-SocialScience-Journal-Skills/skills/reform/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [现代日本经济](Chinese-SocialScience-Journal-Skills/skills/contemporary-economy-of-japan/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
@@ -1106,7 +1122,6 @@ It profiles the paper and shortlists from this same index into reach / match / s
 | [税务研究](Chinese-SocialScience-Journal-Skills/skills/tax-research/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [管理学报](Chinese-SocialScience-Journal-Skills/skills/chinese-journal-of-management/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [管理工程学报](Chinese-SocialScience-Journal-Skills/skills/journal-of-industrial-engineering-and-engineering-management/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
-| [管理科学](Chinese-SocialScience-Journal-Skills/skills/management-science-cn/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [系统工程理论与实践](Chinese-SocialScience-Journal-Skills/skills/systems-engineering-theory-and-practice/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [经济与管理研究](Chinese-SocialScience-Journal-Skills/skills/research-on-economics-and-management/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
 | [经济体制改革](Chinese-SocialScience-Journal-Skills/skills/reform-of-economic-system/SKILL.md) | breadth | china | empirical | field | `chinese-socsci-journal-skills` |
