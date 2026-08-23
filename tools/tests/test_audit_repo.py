@@ -1,14 +1,21 @@
-"""Unit tests for the hero-asset guard in `audit_repo`.
+"""Unit tests for the two `audit_repo` checks that guard the front page.
 
-The two READMEs open with a banner. In August 2026 `assets/banner-en.png` was
+Both exist because the front page is maintained by hand and nothing was watching it.
+
+**Hero assets.** The two READMEs open with a banner. In August 2026 `assets/banner-en.png` was
 overwritten by a screenshot of a bot-check interstitial — captured at exactly the
 banner's 2400x860, so every dimension still agreed — and nothing in the repository
 noticed: the file existed, the Markdown link resolved, the audit passed. The only
 signal was the file size, because a mostly-white error page compresses to a tenth of
 what the artwork does.
 
-These tests hold the guard that would have caught it. They build PNGs from bytes rather
-than reading the committed artwork, so a test failure means the *rule* changed.
+**README parity.** `README.en.md` exists so a reader without Chinese sees the same
+catalogue — the same 1,017 pack entries, the same cover wall. The two files are 2,250
+hand-maintained lines each, and a card added to one and not the other is invisible in
+review. They are in parity today; the check is what keeps them there.
+
+These tests build PNGs and READMEs from scratch rather than reading the committed ones,
+so a test failure means the *rule* changed.
 """
 
 from __future__ import annotations
@@ -100,6 +107,62 @@ class TestHeroAssets(unittest.TestCase):
         # this is what turns a stale HERO_ASSETS entry into a failing build.
         errors: list[str] = []
         audit_repo.check_hero_assets(errors)
+        self.assertEqual(errors, [])
+
+
+class TestReadmeParity(unittest.TestCase):
+    """The English README must present the same catalogue as the Chinese one."""
+
+    ZH = ('<a href="Journal-of-Finance-Skills/"><img src="assets/covers/jof.png"></a>\n'
+          '<a href="Econometrica-Skills/"><img src="assets/covers/ecta.png"></a>\n'
+          '<img src="assets/banner-zh.png">\n')
+    EN = ('<a href="Journal-of-Finance-Skills/"><img src="assets/covers/jof.png"></a>\n'
+          '<a href="Econometrica-Skills/"><img src="assets/covers/ecta.png"></a>\n'
+          '<img src="assets/banner-en.png">\n')
+
+    def run_check(self, zh: str, en: str) -> list[str]:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "README.md").write_text(zh, encoding="utf-8")
+            (root / "README.en.md").write_text(en, encoding="utf-8")
+            errors: list[str] = []
+            with mock.patch.object(audit_repo, "ROOT", root):
+                audit_repo.check_readme_parity(errors)
+            return errors
+
+    def test_matching_catalogues_pass(self):
+        self.assertEqual(self.run_check(self.ZH, self.EN), [])
+
+    def test_the_language_specific_banner_is_not_a_difference(self):
+        # The one asset that is *supposed* to differ.
+        self.assertNotIn("banner", " ".join(self.run_check(self.ZH, self.EN)))
+
+    def test_a_pack_card_added_to_only_one_readme_fails(self):
+        zh = self.ZH + '<a href="Management-Science-Skills/">new</a>\n'
+        errors = self.run_check(zh, self.EN)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("README.en.md is missing", errors[0])
+        self.assertIn("Management-Science-Skills", errors[0])
+
+    def test_the_check_is_symmetric(self):
+        en = self.EN + '<a href="Management-Science-Skills/">new</a>\n'
+        errors = self.run_check(self.ZH, en)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("README.md is missing", errors[0])
+
+    def test_a_cover_image_added_to_only_one_readme_fails(self):
+        zh = self.ZH + '<img src="assets/covers/new.png">\n'
+        errors = self.run_check(zh, self.EN)
+        self.assertTrue(any("asset" in e for e in errors))
+
+    def test_markdown_style_links_count_too(self):
+        # Both link syntaxes appear in these files.
+        zh = self.ZH + "[Management Science](Management-Science-Skills/)\n"
+        self.assertEqual(len(self.run_check(zh, self.EN)), 1)
+
+    def test_the_committed_readmes_are_in_parity(self):
+        errors: list[str] = []
+        audit_repo.check_readme_parity(errors)
         self.assertEqual(errors, [])
 
 

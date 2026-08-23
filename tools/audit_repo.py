@@ -249,6 +249,44 @@ def check_readme_badges(errors: list[str]) -> None:
             errors.append(f"{rel(path)} missing generated count token(s): {missing}")
 
 
+# The two READMEs differ only in prose language; the catalogue they present must be
+# the same one. These are the language-specific assets, exempt by construction.
+README_LOCALE_ASSETS = {"assets/banner-zh.png", "assets/banner-en.png"}
+PACK_LINK_RE = re.compile(r'href="([^"]+-Skills/[^"]*)"|\]\(([^)]*-Skills/[^)]*)\)')
+README_ASSET_RE = re.compile(r'src="(assets/[^"]+)"')
+
+
+def check_readme_parity(errors: list[str]) -> None:
+    """The English README must offer the same catalogue as the Chinese one.
+
+    `README.en.md` exists so that a reader without Chinese sees the same 1,017 pack
+    entries and the same cover wall, not a subset someone stopped updating. Nothing
+    made that true before this check: the two files are maintained by hand, 2,250
+    lines each, and a card added to one and not the other is invisible in review.
+    """
+    zh = (ROOT / "README.md").read_text(encoding="utf-8")
+    en = (ROOT / "README.en.md").read_text(encoding="utf-8")
+
+    def pack_links(text: str) -> set[str]:
+        return {a or b for a, b in PACK_LINK_RE.findall(text)}
+
+    def assets(text: str) -> set[str]:
+        return set(README_ASSET_RE.findall(text)) - README_LOCALE_ASSETS
+
+    for label, zh_set, en_set in (
+        ("pack link", pack_links(zh), pack_links(en)),
+        ("asset", assets(zh), assets(en)),
+    ):
+        for missing_in, extra in (("README.en.md", zh_set - en_set),
+                                  ("README.md", en_set - zh_set)):
+            if extra:
+                shown = ", ".join(sorted(extra)[:5])
+                more = f" (+{len(extra) - 5} more)" if len(extra) > 5 else ""
+                errors.append(
+                    f"{missing_in} is missing {len(extra)} {label}(s) the other README "
+                    f"has: {shown}{more}")
+
+
 def check_root_marketplace(errors: list[str]) -> None:
     marketplace_path = ROOT / ".claude-plugin" / "marketplace.json"
     marketplace = load_json(marketplace_path, errors)
@@ -621,6 +659,7 @@ def main() -> int:
     check_external_import_policy(errors)
     check_root_journal_entries(errors)
     check_readme_badges(errors)
+    check_readme_parity(errors)
     check_root_marketplace(errors)
     check_plugin_metadata(errors)
     check_pack_documentation(errors)
