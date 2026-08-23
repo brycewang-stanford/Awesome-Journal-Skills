@@ -52,6 +52,25 @@ MCP: california_prop99()
 
 ## 4. 已知差异 / 工具缺陷（如实记录）
 
+- **2026-08-23 复跑结果：三个点估计逐位一致，契约成立。**
+
+  | 估计量 | README 记录 | 2026-08-23 复跑 | 差 |
+  |---|---:|---:|---:|
+  | 经典 SCM (`synth`, method=classic) | −18.19 | **−18.1934** | 0.00 |
+  | 增广 SCM (`augsynth`) | −18.08 | **−18.0774** | 0.00 |
+  | 合成 DiD (`synth`, method=sdid) | −17.90 | **−17.8985** | 0.00 |
+  | 安慰剂 p | ≈0.026 | **0.02564** | — |
+
+  容差是 ±0.5，实际偏差为 0。数据侧同样对齐：`california_prop99()` 返回
+  1209 行 / 39 州 / 1970–2000，与上面元数据第 3 项一致。
+
+- **`sdid` 工具直呼会报错（2026-08-23 新发现）。** 按第 2 节步骤 3 字面调用
+  `sdid(treatment_time=1989, ...)` 返回
+  `TypeError: '<' not supported between instances of 'int' and 'str'`：该工具的
+  schema 把 `treatment_time` 声明为 string，内部却拿它跟整数年份比较。
+  **绕行：改用 `synth(method="sdid", treatment_time=1989)`**，同一估计量、
+  同一数字（−17.8985），上表即由此得到。已回传 StatsPAI 上游。
+
 - `synth_time_placebo` 与 `synth_loo` 在本案例运行日（2026-07-01）的服务端对年份列做强转
   string→int 失败——已回传到 StatsPAI 上游工作队列。当前本案例跑 placebo-in-space
   （同样有效）。

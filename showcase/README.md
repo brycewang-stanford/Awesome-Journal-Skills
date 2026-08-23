@@ -20,7 +20,7 @@ Numbers are verbatim tool output, reproducible from the listed calls.
 
 | # | 设计 | 案例 | 数据 | 状态 |
 | --- | --- | --- | --- | --- |
-| 1 | 合成控制 (SCM / ASCM / SDID) | [加州 Prop 99 禁烟法案](scm-california-prop99/README.md) · [复现](scm-california-prop99/reproduce.md) | Abadie et al. 2010 基准面板 | ✅ 已运行 (2026-07-01) |
+| 1 | 合成控制 (SCM / ASCM / SDID) | [加州 Prop 99 禁烟法案](scm-california-prop99/README.md) · [复现](scm-california-prop99/reproduce.md) | Abadie et al. 2010 基准面板 | ✅ 已运行 (2026-07-01) · 🔁 已复验 (2026-08-23，三个点估计逐位一致) |
 | 2 | 交错 DiD (Callaway–Sant'Anna + Honest DiD) | [Castle Doctrine 法案与凶杀率](did-castle-doctrine/README.md) · [复现](did-castle-doctrine/reproduce.md) | Cheng & Hoekstra 2013（Mixtape 公开数据） | ✅ 已运行 (2026-07-02) |
 | 3 | 工具变量 (2SLS/LIML + AR/CLR/tF 弱 IV 面板) | [Card 1995 大学距离与教育回报](iv-card-college-proximity/README.md) · [复现](iv-card-college-proximity/reproduce.md) | NLS Young Men（Mixtape 公开数据） | ✅ 已运行 (2026-07-02) |
 | 4 | 断点回归 (rdrobust + rddensity + 安慰剂断点) | [差额胜选与议员投票行为](rdd-close-elections/README.md) · [复现](rdd-close-elections/reproduce.md) | Lee–Moretti–Butler 2004（Mixtape 公开数据） | ✅ 已运行 (2026-07-02) |
