@@ -285,6 +285,59 @@ def cache_summary(refs: dict[str, list[str]], include_infra: bool) -> dict:
     return summary
 
 
+BACKLOG = ROOT / ".maintenance" / "DEAD-LINKS.md"
+
+
+def render_backlog(results: list[dict], checked: int) -> str:
+    """The actionable half of the audit, as a queue someone can work through.
+
+    Only DEAD and REDIRECT: BLOCKED and UNREACHABLE are the tool being refused or the
+    network having a bad minute, and a backlog padded with those is a backlog nobody
+    opens. Every row names the citing files, because repairing a link means reading
+    what the citation was asserting and confirming the replacement still says it — a
+    URL that returns 200 is not by itself a source.
+    """
+    dead = sorted((r for r in results if r["class"] == "DEAD"), key=lambda r: r["url"])
+    moved = sorted((r for r in results if r["class"] == "REDIRECT"), key=lambda r: r["url"])
+    lines = [
+        "# Dead and moved external links",
+        "",
+        "> **Generated** by `python3 tools/external_link_audit.py --write`. "
+        "Do not edit by hand.",
+        "",
+        f"{checked} external URLs checked · **{len(dead)} dead** · "
+        f"{len(moved)} redirected to a different host.",
+        "",
+        "A dead `Official` link is the defect this repository can least afford: the "
+        "link is the product. But repointing a citation is not a URL substitution — "
+        "the replacement has to be read and confirmed to carry the fact the source "
+        "map cites, or a verified claim quietly acquires a source that does not "
+        "support it. Where no such page can be found, leave the citation dead and "
+        "the fact as it was recorded; a page moving does not make a fact wrong.",
+        "",
+        "## Dead (404/410)",
+        "",
+    ]
+    if dead:
+        lines += ["| URL | Cited by |", "|---|---|"]
+        for row in dead:
+            files = "<br>".join(f"`{f}`" for f in row["files"])
+            lines.append(f"| <{row['url']}> | {files} |")
+    else:
+        lines.append("None.")
+    lines += ["", "## Redirected to another host", "",
+              "Not necessarily wrong — a publisher reorganising is normal — but worth "
+              "repointing so the citation names where the page actually lives.", ""]
+    if moved:
+        lines += ["| URL | Now resolves to | Cited by |", "|---|---|---|"]
+        for row in moved:
+            files = "<br>".join(f"`{f}`" for f in row["files"])
+            lines.append(f"| <{row['url']}> | <{row['final']}> | {files} |")
+    else:
+        lines.append("None.")
+    return "\n".join(lines) + "\n"
+
+
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--include-infra", action="store_true", help="also check github/shields/etc.")
@@ -295,6 +348,8 @@ def main(argv: list[str]) -> int:
     ap.add_argument("--refresh", action="store_true", help="ignore cached verdicts")
     ap.add_argument("--cache-summary", action="store_true", help="summarize cached verdicts without network requests")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--write", action="store_true",
+                    help="regenerate .maintenance/DEAD-LINKS.md from this run")
     args = ap.parse_args(argv)
 
     refs = collect_urls(args.include_infra)
@@ -355,6 +410,11 @@ def main(argv: list[str]) -> int:
     counts: dict[str, int] = defaultdict(int)
     for r in results:
         counts[r["class"]] += 1
+
+    if args.write:
+        BACKLOG.parent.mkdir(parents=True, exist_ok=True)
+        BACKLOG.write_text(render_backlog(results, len(urls)), encoding="utf-8")
+        print(f"wrote {rel(BACKLOG)}", file=sys.stderr)
 
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
