@@ -34,7 +34,7 @@ the old **ECCAI** acronym is the former name of what is now **EurAI** (renamed 2
 | 4 | https://www.ecai2024.eu/calls/main-track | ECAI 2024 (standalone) main-track call: abstract/registration 19 Apr, paper 25 Apr 2024; 7 pages + 1 reference page; ECAI LaTeX template (ecai.cls); double-blind | 2026-07-09 |
 | 5 | https://www.ecai2024.eu/calls/pais | PAIS 2024 (13th Conference on Prestigious Applications of Intelligent Systems) call, co-located with ECAI 2024; 7 pages + 1 reference page | 2026-07-09 |
 | 6 | https://ebooks.iospress.nl/volume/ecai-2024-27th-european-conference-on-artificial-intelligence-1924-october-2024-santiago-de-compostela-spain-including-pais-2024 | ECAI 2024 proceedings = IOS Press FAIA Volume 392, open access; includes PAIS 2024 | 2026-07-09 |
-| 7 | https://frontiersinai.com/?q=ecai | EurAI - ECAI Proceedings index in the FAIA series (IOS Press), the standing ECAI publisher | 2026-07-09 |
+| 7 | https://ebooks.iospress.nl/bookseries/frontiers-in-artificial-intelligence-and-applications | ECAI proceedings index in the FAIA series (IOS Press), the standing ECAI publisher; the series page lists the ECAI 2025 volume | 2026-08-26 |
 | 8 | https://www.eurai.org/ecai | EurAI's ownership of the ECAI series; the conference is EurAI's biennial (recently more frequent) flagship | 2026-07-09 |
 | 9 | https://www.eurai.org/dissertation-awards | EurAI Artificial Intelligence Dissertation Award (since 1998), whose recipient gives a talk at ECAI | 2026-07-09 |
 | 10 | https://www.ecai2024.eu/awards/outstanding-paper-awards + https://aihub.org/2024/10/30/ | ECAI 2024 Outstanding Paper Award winners (used for the verified exemplar list) | 2026-07-09 |

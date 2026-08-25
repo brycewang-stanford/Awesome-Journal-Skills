@@ -63,7 +63,7 @@ Generated and seeded on 2026-06-01. This roster is ordered with AI and machine-l
 | 57 | `conference-on-empirical-methods-in-natural-language-processing` | Conference on Empirical Methods in Natural Language Processing | EMNLP | NLP flagship | https://2026.emnlp.org/ |
 | 58 | `north-american-chapter-of-the-association-for-computational-linguistics` | Annual Conference of the North American Chapter of the Association for Computational Linguistics | NAACL | NLP regional flagship | https://naacl.org/ |
 | 59 | `european-chapter-of-the-association-for-computational-linguistics` | Conference of the European Chapter of the Association for Computational Linguistics | EACL | NLP regional flagship | https://eacl.org/ |
-| 60 | `international-conference-on-computational-linguistics` | International Conference on Computational Linguistics | COLING | computational linguistics | https://coling.org/ |
+| 60 | `international-conference-on-computational-linguistics` | International Conference on Computational Linguistics | COLING | computational linguistics | https://aclanthology.org/venues/coling/ |
 | 61 | `conference-on-computational-natural-language-learning` | Conference on Computational Natural Language Learning | CoNLL | NLP learning | https://conll.org/ |
 | 62 | `international-natural-language-generation-conference` | International Natural Language Generation Conference | INLG | language generation | https://inlgmeeting.github.io/ |
 | 63 | `sigdial-conference-on-discourse-and-dialogue` | SIGDIAL Conference on Discourse and Dialogue | SIGDIAL | dialogue systems | https://www.sigdial.org/ |

@@ -12,6 +12,14 @@ Claude SkillOpt、W1/W2 workflow 波次）已完成并归档至
 
 ## Active lanes
 
+- **外链体检 lane**（2026-08-26）：修 `external_link_audit.py` 把「站点对陌生
+  UA 返回 404」误判为死链的问题（SciEngine 两页 + CNKI 一页本来就活着），并处理
+  重定向表里两个已被抢注的会议域名。触碰面：`tools/external_link_audit.py`、
+  `tools/tests/test_external_link_audit.py`、`.maintenance/DEAD-LINKS.md`、
+  `CHANGELOG.md`，以及**两处 pack 内容**——`ECAI-Skills/resources/`（FAIA 索引改指
+  IOS Press）与 `Computer-Science-Conference-Skills/`（COLING 官方锚点改指 ACL
+  Anthology venue 页），连带重新生成 `shared-resources/journal-selection/` 生成物。
+
 - **工具层可靠性 lane**（2026-08-23）：给 `tools/` 补上单元测试（此前只有
   `py_compile`），并修掉测试过程中暴露的四个缺陷——被 bot 验证页覆盖的
   `assets/banner-en.png`、把 API 拒答当成"该论文没有摘要"的

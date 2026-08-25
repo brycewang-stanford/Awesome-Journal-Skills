@@ -12,6 +12,7 @@ Extraction is pure and offline; the network half of the tool is not exercised he
 from __future__ import annotations
 
 import unittest
+import unittest.mock
 
 from . import context  # noqa: F401  (import for the sys.path side effect)
 
@@ -85,6 +86,59 @@ class TestMarkdownWrappers(unittest.TestCase):
 
     def test_a_backticked_url_is_extracted_cleanly(self):
         self.assertEqual(extract("`https://example.org/a`"), ["https://example.org/a"])
+
+
+class TestFourOhFourIsConfirmed(unittest.TestCase):
+    """A 404 is re-asked as a browser before it is believed.
+
+    SciEngine and CNKI's magazine portal answer an unrecognised agent with 404
+    rather than 403. Three live citations were catalogued as dead pages on the
+    strength of that first answer, sending a maintainer to look for replacements
+    for URLs that were never gone.
+    """
+
+    def _record(self, answers):
+        calls = []
+
+        def fake(url, timeout, agent):
+            calls.append(agent)
+            return answers[len(calls) - 1]
+
+        return calls, fake
+
+    def test_a_404_that_a_browser_can_read_is_not_dead(self):
+        calls, fake = self._record([("404", "https://x.test/a"),
+                                    ("200", "https://x.test/a")])
+        with unittest.mock.patch.object(ela, "_curl_once", fake):
+            code, final = ela.curl_status("https://x.test/a", 10)
+        self.assertEqual((code, final), ("200", "https://x.test/a"))
+        self.assertEqual(calls, [ela.HONEST_UA, ela.BROWSER_UA])
+        self.assertEqual(ela.classify(code, "https://x.test/a", final), "OK")
+
+    def test_a_404_a_browser_also_gets_stays_dead(self):
+        calls, fake = self._record([("404", "https://x.test/a"),
+                                    ("404", "https://x.test/a")])
+        with unittest.mock.patch.object(ela, "_curl_once", fake):
+            code, _ = ela.curl_status("https://x.test/a", 10)
+        self.assertEqual(code, "404")
+        self.assertEqual(calls, [ela.HONEST_UA, ela.BROWSER_UA])
+
+    def test_a_403_is_not_retried(self):
+        # BLOCKED already says "the host refuses bots"; re-asking under a browser
+        # agent would be working around a refusal rather than resolving an
+        # ambiguous answer.
+        calls, fake = self._record([("403", "https://x.test/a")])
+        with unittest.mock.patch.object(ela, "_curl_once", fake):
+            code, _ = ela.curl_status("https://x.test/a", 10)
+        self.assertEqual(code, "403")
+        self.assertEqual(calls, [ela.HONEST_UA])
+
+    def test_a_first_pass_200_is_not_retried(self):
+        calls, fake = self._record([("200", "https://x.test/a")])
+        with unittest.mock.patch.object(ela, "_curl_once", fake):
+            code, _ = ela.curl_status("https://x.test/a", 10)
+        self.assertEqual(code, "200")
+        self.assertEqual(calls, [ela.HONEST_UA])
 
 
 class TestHostOf(unittest.TestCase):

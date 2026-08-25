@@ -2,7 +2,7 @@
 
 > **Generated** by `python3 tools/external_link_audit.py --write`. Do not edit by hand.
 
-3115 external URLs checked · **20 dead** · 75 redirected to a different host.
+3141 external URLs checked · **18 dead** · 76 redirected to a different host.
 
 A dead `Official` link is the defect this repository can least afford: the link is the product. But repointing a citation is not a URL substitution — the replacement has to be read and confirmed to carry the fact the source map cites, or a verified claim quietly acquires a source that does not support it. Where no such page can be found, leave the citation dead and the fact as it was recorded; a page moving does not make a fact wrong.
 
@@ -22,18 +22,16 @@ A dead `Official` link is the defect this repository can least afford: the link 
 | <https://ieeevis.org/year/2026/blog/vis-2026-OPC-blog-Changes> | `VIS-Skills/resources/external_tools.md`<br>`VIS-Skills/resources/official-source-map.md` |
 | <https://imc2026.hotcrp.com/> | `IMC-Skills/resources/external_tools.md`<br>`IMC-Skills/resources/official-source-map.md` |
 | <https://lids.mit.edu/news-and-events/news/brice-huang-receives-machtey-award-best-student-paper-focs-2024> | `FOCS-Skills/resources/official-source-map.md` |
-| <https://mall.cnki.net/magazine/magalist/ZSHK.htm> | `Social-Sciences-in-China-Skills/resources/journal-profile.md` |
 | <https://sscp.cssn.cn/gywm/wsld/jmq/> | `Social-Sciences-in-China-Skills/resources/official-source-map.md` |
 | <https://www.appam.org/a-message-from-erdal-tekin-jpam-editor-in-chief/> | `Journal-of-Policy-Analysis-and-Management-Skills/resources/official-source-map.md` |
 | <https://www.appam.org/news/jpam/jpam-editorial-board/> | `Journal-of-Policy-Analysis-and-Management-Skills/resources/official-source-map.md` |
+| <https://www.cell.com/pb-assets/journals/research/cellpress/graphical_abstract_guidelines.pdf> | `Cell-Skills/resources/external_tools.md`<br>`Molecular-Cell-Skills/resources/external_tools.md` |
 | <https://www.easychair.org/my/conference?conf=pods2026> | `PODS-Skills/resources/external_tools.md`<br>`PODS-Skills/resources/official-source-map.md` |
 | <https://www.jom-hub.com/editorial-team> | `Journal-of-Operations-Management-Skills/resources/official-source-map.md` |
-| <https://www.sciengine.com/SCIS/home> | `Scientia-Sinica-Informationis-Skills/resources/external_tools.md`<br>`Scientia-Sinica-Informationis-Skills/resources/official-source-map.md` |
-| <https://www.sciengine.com/SSI/home> | `Scientia-Sinica-Informationis-Skills/resources/external_tools.md`<br>`Scientia-Sinica-Informationis-Skills/resources/official-source-map.md` |
 
 ## Redirected to another host
 
-Not necessarily wrong — a publisher reorganising is normal — but worth repointing so the citation names where the page actually lives.
+Not necessarily wrong — a publisher reorganising is normal — but worth repointing so the citation names where the page actually lives. Open each one rather than only repointing it: a host change is also what a lapsed conference domain looks like after a squatter buys it, and that returns 200 while sending readers somewhere the venue never was — coling.org and frontiersinai.com both sat in this table doing exactly that.
 
 | URL | Now resolves to | Cited by |
 |---|---|---|
@@ -49,9 +47,7 @@ Not necessarily wrong — a publisher reorganising is normal — but worth repoi
 | <https://aom.org/research/publishing-with-aom/open-access> | <https://www.aom.org/publications/journals/publishing-with-aom/open-access/> | `Academy-of-Management-Journal-Skills/resources/official-source-map.md` |
 | <https://automl.cc/> | <https://2026.automl.cc/> | `Computer-Science-Conference-Skills/resources/conference-roster.md`<br>`Computer-Science-Conference-Skills/resources/official-source-map.md`<br>`Computer-Science-Conference-Skills/skills/international-conference-on-automated-machine-learning/SKILL.md` |
 | <https://cjyj.sufe.edu.cn/> | <https://qks.sufe.edu.cn/J/CJYJ.html/CN> | `Journal-of-Finance-and-Economics-Skills/README.md`<br>`Journal-of-Finance-and-Economics-Skills/README.zh-CN.md`<br>`Journal-of-Finance-and-Economics-Skills/resources/external_tools.md`<br>`Journal-of-Finance-and-Economics-Skills/resources/official-source-map.md`<br>`Journal-of-Finance-and-Economics-Skills/skills/cfe-submission/SKILL.md`<br>`Journal-of-Finance-and-Economics-Skills/skills/cfe-submission/templates/checklist.md`<br>`Journal-of-Finance-and-Economics-Skills/skills/cfe-submission/templates/manuscript_template.md` |
-| <https://coling.org/> | <https://ivanojanguren.com/empresas/> | `Computer-Science-Conference-Skills/resources/conference-roster.md`<br>`Computer-Science-Conference-Skills/resources/official-source-map.md`<br>`Computer-Science-Conference-Skills/skills/international-conference-on-computational-linguistics/SKILL.md` |
 | <https://cqvip.com/journal/81961X/detail> | <https://www.cqvip.com/journal/81961X/detail> | `Chinese-Public-Administration-Skills/resources/official-source-map.md` |
-| <https://frontiersinai.com/?q=ecai> | <https://ipo138gemilang.com/> | `ECAI-Skills/resources/external_tools.md`<br>`ECAI-Skills/resources/official-source-map.md` |
 | <https://i-cav.org/> | <https://d30vxygbb7t252.cloudfront.net/> | `CAV-Skills/resources/external_tools.md` |
 | <https://icaps-conference.org/> | <https://www.icaps-conference.org/> | `Computer-Science-Conference-Skills/resources/conference-roster.md`<br>`Computer-Science-Conference-Skills/resources/official-source-map.md`<br>`Computer-Science-Conference-Skills/skills/international-conference-on-automated-planning-and-scheduling/SKILL.md` |
 | <https://iswc.net/> | <https://www.ubicomp.org/ubicomp-iswc-2026/> | `Computer-Science-Conference-Skills/resources/conference-roster.md`<br>`Computer-Science-Conference-Skills/resources/official-source-map.md`<br>`Computer-Science-Conference-Skills/skills/international-semantic-web-conference/SKILL.md` |
@@ -59,6 +55,7 @@ Not necessarily wrong — a publisher reorganising is normal — but worth repoi
 | <https://json.schemastore.org/claude-code-marketplace.json> | <https://www.schemastore.org/claude-code-marketplace.json> | `assets/depth-pack-spec.md` |
 | <https://languagelsa.org/index.php/language/Notes> | <https://www.cambridge.org/core/journals/language> | `Language-Linguistic-Society-Skills/resources/official-source-map.md` |
 | <https://languagelsa.org/index.php/language/about/submissions> | <https://www.cambridge.org/core/journals/language> | `Language-Linguistic-Society-Skills/resources/official-source-map.md` |
+| <https://mall.cnki.net/magazine/magalist/ZSHK.htm> | <https://read.cnki.net/web/Journal/Index/ZSHK.html> | `Social-Sciences-in-China-Skills/resources/journal-profile.md` |
 | <https://navi.cnki.net/> | <https://kns.cnki.net/verify/home?captchaType=blockPuzzle&ident=eea05a&captchaId=59a4f061-f64c-499b-bfc5-53c33d24902d&returnUrl=VXx3H9YWxMWMBaU09_u5e6RmledMdzfFsf7Qns9C2d8%3D> | `Nankai-Business-Review-Skills/resources/official-source-map.md` |
 | <https://navi.cnki.net/knavi/> | <https://kns.cnki.net/verify/home?captchaType=blockPuzzle&ident=eea05a&captchaId=392694f8-446b-44c3-8abc-622e6ffa40ad&returnUrl=VXx3H9YWxMWMBaU09_u5e6RmledMdzfFsf7Qns9C2d8%3D> | `Chinese-SocialScience-Journal-Skills/resources/official-source-map.md`<br>`Chinese-Sport-Science-Journal-Skills/resources/official-source-map.md`<br>`Chinese-Sport-Science-Journal-Skills/resources/source-basis.md` |
 | <https://navi.cnki.net/knavi/journals/GGYY/detail> | <https://kns.cnki.net/verify/home?captchaType=blockPuzzle&ident=eea05a&captchaId=d18c12b1-43a1-4b63-82d6-70204db578eb&returnUrl=VXx3H9YWxMWMBaU09_u5e6RmledMdzfFplKYuItYomzVleHNYn35S-1e3Ua108lc> | `China-Industrial-Economics-Skills/resources/journal-profile.md`<br>`China-Industrial-Economics-Skills/resources/official-source-map.md` |
@@ -77,6 +74,8 @@ Not necessarily wrong — a publisher reorganising is normal — but worth repoi
 | <https://sns.wanfangdata.com.cn/perio/zgxzgl> | <https://c.wanfangdata.com.cn/magazine/zgxzgl> | `Chinese-Public-Administration-Skills/resources/official-source-map.md` |
 | <https://sscp.portal.founderss.cn/> | <https://journal.ids.fzyun.cn/auth/realms/journal/protocol/openid-connect/auth?client_id=journal-sscp-author&redirect_uri=https%3A%2F%2Fsscp.portal.founderss.cn%2Foauth%2Fcallback&response_type=code&scope=phone+openid+email+profile&state=834be95e-d94e-4c22-aabf-846c00710ca6> | `Social-Sciences-in-China-Skills/resources/journal-profile.md`<br>`Social-Sciences-in-China-Skills/skills/ssc-submission/SKILL.md` |
 | <https://star-history.com/#brycewang-stanford/Awesome-Journal-Skills&Date> | <https://www.star-history.com/> | `README.en.md`<br>`README.md` |
+| <https://us.sagepub.com/en-us/nam/comparative-political-studies/journal200828> | <https://www.sagepub.com/shop/subscribe-to-a-journal/comparative-political-studies-200828> | `Comparative-Political-Studies-Skills/resources/official-source-map.md` |
+| <https://us.sagepub.com/en-us/nam/journal/sociological-methods-research> | <https://www.sagepub.com/shop/subscribe-to-a-journal/sociological-methods-research> | `Sociological-Methods-and-Research-Skills/resources/external_tools.md`<br>`Sociological-Methods-and-Research-Skills/resources/official-source-map.md` |
 | <https://us.sagepub.com/en-us/nam/open-access-at-sage> | <https://www.sagepub.com/journals/open-access> | `Communication-Research-Skills/resources/official-source-map.md` |
 | <https://us.sagepub.com/en-us/nam/submitting-your-manuscript> | <https://www.sagepub.com/journals/information-for-authors/submitting-your-manuscript> | `Communication-Research-Skills/resources/official-source-map.md` |
 | <https://validate.wwpdb.org/> | <https://validate-rcsb-4.wwpdb.org/> | `Molecular-Cell-Skills/resources/external_tools.md` |

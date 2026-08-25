@@ -32,7 +32,7 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 - Contribution hook to foreground: the venue-specific contribution bar.
 - Scope vocabulary to use naturally in the abstract and introduction: computational linguistics, multilingual NLP, semantics, syntax, resources, and language technology.
 - Distinctive fingerprint for reviewer calibration: computational, linguistics, multilingual, semantics, syntax, resources, language, technology, venue-specific, contribution, coling.
-- Official anchor domain: coling.org. Quote annual rules only after opening that source and the current-year CFP/author kit.
+- Official anchor: the ACL Anthology COLING venue page (https://aclanthology.org/venues/coling/). COLING has no standing domain — each edition runs its own site (e.g. coling2025.org), reachable from the Anthology venue page. Quote annual rules only after opening that source and the current-year CFP/author kit.
 
 ## Close-neighbor routing guardrail
 
@@ -44,7 +44,7 @@ Because CS conferences change deadlines, templates, page limits, review workflow
   interfaces` (IEEE VR), `ieee-international-conference-on-acoustics-speech-and-signal-
   processing` (ICASSP), `acm-sigir-conference-on-human-information-interaction-and-retrieval`
   (CHIIR). Break ties by contribution type, evidence shape, reviewer community, and the
-  current official CFP from coling.org.
+  current official CFP for the edition you are targeting.
 
 ## COLING-specific routing detail
 
@@ -70,7 +70,7 @@ Because CS conferences change deadlines, templates, page limits, review workflow
 
 ## Official-cycle checklist
 
-- Open the live official venue page: https://coling.org/
+- Open the live official venue record: https://aclanthology.org/venues/coling/, and from it the current edition's own conference site.
 - Re-check the current cycle's CFP, author kit, submission system, abstract/paper deadlines, page limits, supplementary-material rules, anonymity policy, dual-submission policy, ethics policy, AI-use policy, artifact/code/data expectations, rebuttal/author-response format, and camera-ready requirements.
 - Confirm the review workflow and portal: ARR/START/ACL Rolling Review or the current ACL-family submission portal, plus ACLPUB formatting when applicable.
 - Check whether accepted papers require in-person presentation, separate registration, artifact badges, proceedings copyright, or post-acceptance release forms.

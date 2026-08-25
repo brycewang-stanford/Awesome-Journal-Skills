@@ -103,8 +103,22 @@ out to have been running at a third of a depth nobody had measured.
 - **Nine dead external citations repaired**, each verified against the page that
   replaced it rather than against a URL that merely returns 200 (EATCS Gödel Prize,
   AMA JPP&M, CIKM 2026 policies, SIGCOMM Test of Time, CoNEXT Best Paper, CoRL
-  reviewer guide, two INFOCOM author pages, RSS review process). The remaining
-  twenty-two are listed rather than guessed at.
+  reviewer guide, two INFOCOM author pages, RSS review process). The rest are listed
+  in `.maintenance/DEAD-LINKS.md` rather than guessed at.
+- **Two "official" venue links pointed at squatters.** `coling.org` and
+  `frontiersinai.com` had lapsed and been re-registered; both answered 200, so the
+  audit filed them as ordinary redirects and nobody opened them. COLING's official
+  anchor was serving an Indonesian online-poker site and ECAI's FAIA proceedings index
+  a gambling landing page — repointed to the ACL Anthology COLING venue record and the
+  IOS Press FAIA series page, each opened and confirmed to carry the cited fact. The
+  redirect table now says out loud that a host change is also what a hijacked
+  conference domain looks like.
+- **Three live citations were catalogued as dead pages.** SciEngine and CNKI's magazine
+  portal answer an unrecognised agent with 404 rather than 403, and the audit believed
+  the first answer — sending a maintainer to hunt replacements for
+  `sciengine.com/SCIS/home`, `sciengine.com/SSI/home` and CNKI's 《中国社会科学》 page,
+  none of which had moved. A 404 is now re-asked once as a browser before it counts; a
+  403 still is not, because that is a refusal, not an ambiguous answer.
 - **Three of the audit's own "dead links" were its parser.** `URL_RE` matched
   printable ASCII only, truncating every citation with a non-Latin path — three live
   百度百科 citations were reported dead — and elided template URLs

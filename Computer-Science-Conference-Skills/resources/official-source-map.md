@@ -81,7 +81,7 @@ This first pass records official source anchors for the CS/AI conference breadth
 | `conference-on-empirical-methods-in-natural-language-processing` | Conference on Empirical Methods in Natural Language Processing (EMNLP) | https://2026.emnlp.org/ |
 | `north-american-chapter-of-the-association-for-computational-linguistics` | Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL) | https://naacl.org/ |
 | `european-chapter-of-the-association-for-computational-linguistics` | Conference of the European Chapter of the Association for Computational Linguistics (EACL) | https://eacl.org/ |
-| `international-conference-on-computational-linguistics` | International Conference on Computational Linguistics (COLING) | https://coling.org/ |
+| `international-conference-on-computational-linguistics` | International Conference on Computational Linguistics (COLING) | https://aclanthology.org/venues/coling/ |
 | `conference-on-computational-natural-language-learning` | Conference on Computational Natural Language Learning (CoNLL) | https://conll.org/ |
 | `international-natural-language-generation-conference` | International Natural Language Generation Conference (INLG) | https://inlgmeeting.github.io/ |
 | `sigdial-conference-on-discourse-and-dialogue` | SIGDIAL Conference on Discourse and Dialogue (SIGDIAL) | https://www.sigdial.org/ |

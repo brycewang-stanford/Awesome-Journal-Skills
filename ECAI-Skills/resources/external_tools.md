@@ -26,7 +26,7 @@ and note that **ECCAI** is the old name of **EurAI**.
 - ECAI 2024 (27th, standalone) main-track call: https://www.ecai2024.eu/calls/main-track
 - ECAI 2024 PAIS call: https://www.ecai2024.eu/calls/pais
 - ECAI 2024 proceedings (FAIA Vol. 392, open access): https://ebooks.iospress.nl/volume/ecai-2024-27th-european-conference-on-artificial-intelligence-1924-october-2024-santiago-de-compostela-spain-including-pais-2024
-- FAIA ECAI proceedings index: https://frontiersinai.com/?q=ecai
+- FAIA ECAI proceedings index: https://ebooks.iospress.nl/bookseries/frontiers-in-artificial-intelligence-and-applications
 - EurAI Dissertation Award: https://www.eurai.org/dissertation-awards
 - EurAI awards hub: https://www.eurai.org/awards
 

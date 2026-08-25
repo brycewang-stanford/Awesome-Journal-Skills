@@ -354,7 +354,12 @@ def render_backlog(results: list[dict], checked: int) -> str:
         lines.append("None.")
     lines += ["", "## Redirected to another host", "",
               "Not necessarily wrong — a publisher reorganising is normal — but worth "
-              "repointing so the citation names where the page actually lives.", ""]
+              "repointing so the citation names where the page actually lives. Open "
+              "each one rather than only repointing it: a host change is also what a "
+              "lapsed conference domain looks like after a squatter buys it, and that "
+              "returns 200 while sending readers somewhere the venue never was — "
+              "coling.org and frontiersinai.com both sat in this table doing exactly "
+              "that.", ""]
     if moved:
         lines += ["| URL | Now resolves to | Cited by |", "|---|---|---|"]
         for row in moved:
