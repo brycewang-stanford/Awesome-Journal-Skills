@@ -11,7 +11,8 @@ This tool is deliberately a *report*, not a CI gate: it needs the network, and
 many academic publishers answer bots with 403/429 (a block, not a dead page),
 so a strict pass/fail would be noise. Classification:
 
-  DEAD        final status 404 or 410 — actionable, the page is gone.
+  DEAD        final status 404 or 410 under both the honest audit agent and a
+              browser agent — actionable, the page is gone.
   REDIRECT    permanent 3xx whose final URL differs materially — review and
               repoint to the canonical URL.
   BLOCKED     401/403/429 — the host refuses bots; almost never a real defect.
@@ -171,15 +172,27 @@ def collect_urls(include_infra: bool) -> dict[str, list[str]]:
     return {url: sorted(files) for url, files in sorted(refs.items())}
 
 
-def curl_status(url: str, timeout: int) -> tuple[str, str]:
-    """Return (http_code, final_url). http_code '000' means no response."""
+# The audit identifies itself honestly by default. Some hosts (SciEngine, CNKI's
+# magazine portal) answer an unrecognised agent with a *404* rather than the 403
+# that would say "refused" — which the classifier then records as a dead page.
+# A 404 is therefore re-asked once as an ordinary browser: if the page answers,
+# it was never gone, and reporting it dead would send a maintainer looking for a
+# replacement for a live citation. Only the second answer's verdict is kept.
+HONEST_UA = "Mozilla/5.0 (compatible; AJS-link-audit/1.0)"
+BROWSER_UA = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
+
+
+def _curl_once(url: str, timeout: int, agent: str) -> tuple[str, str]:
     try:
         out = subprocess.run(
             [
                 "curl", "-s", "-o", "/dev/null",
                 "-w", "%{http_code} %{url_effective}",
                 "-L", "--max-time", str(timeout),
-                "-A", "Mozilla/5.0 (compatible; AJS-link-audit/1.0)",
+                "-A", agent,
                 url,
             ],
             capture_output=True,
@@ -191,6 +204,20 @@ def curl_status(url: str, timeout: int) -> tuple[str, str]:
     parts = out.stdout.strip().split(" ", 1)
     code = parts[0] if parts else "000"
     final = parts[1] if len(parts) > 1 else url
+    return code, final
+
+
+def curl_status(url: str, timeout: int) -> tuple[str, str]:
+    """Return (http_code, final_url). http_code '000' means no response.
+
+    A 404/410 is confirmed with a second request under a browser agent before it
+    is believed, because some hosts serve 404 to unrecognised agents.
+    """
+    code, final = _curl_once(url, timeout, HONEST_UA)
+    if code in {"404", "410"}:
+        recode, refinal = _curl_once(url, timeout, BROWSER_UA)
+        if recode.startswith("2") or recode.startswith("3"):
+            return recode, refinal
     return code, final
 
 
