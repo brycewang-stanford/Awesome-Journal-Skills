@@ -4,9 +4,12 @@ Twelve agent skills for International Conference on Learning Representations (IC
 papers. The pack focuses on OpenReview submission readiness, double-blind public review, author
 discussion, revision discipline, reproducibility, artifacts, and camera-ready preparation.
 
-Official basis checked on 2026-06-01: ICLR 2026 CFP, Author Guide, Reviewer Guide, Code of Ethics,
-Code of Conduct, LLM-use policy updates, poster instructions, and the OpenReview conference group.
-See `resources/official-source-map.md` for the exact source map.
+Official basis checked on 2026-08-26 and anchored to **ICLR 2027** (15th, April 26-30, 2027,
+California — abstracts due 2026-09-18, papers 2026-09-25): ICLR 2027 CFP, Author Guidelines, Reviewer
+Guidelines, AI Policy for Authors, Dates, Code of Ethics, Code of Conduct, and the OpenReview
+conference group, plus three ICLR 2026 blog posts kept as enforcement precedent. Three ICLR 2027
+policies are new and desk-reject: co-authorship quotas, reciprocal reviewing, and the mandatory AI
+use statement. See `resources/official-source-map.md` for the exact source map.
 
 ## Skills
 
@@ -33,7 +36,8 @@ See `resources/official-source-map.md` for the exact source map.
 ## Maintenance notes
 
 - Reopen current-cycle official sources before deadline-sensitive advice.
-- Treat ICLR 2026 facts as historical anchors, not permanent rules.
+- Treat a closed cycle's facts as historical anchors, not permanent rules. `tools/cycle_audit.py`
+  reports which edition this pack's source map is anchored to.
 - Keep OpenReview public visibility in mind: author responses, revisions, and accepted-paper
   discussion can be read as part of the scientific record.
 

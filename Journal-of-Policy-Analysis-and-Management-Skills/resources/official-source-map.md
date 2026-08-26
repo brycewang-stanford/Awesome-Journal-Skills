@@ -9,8 +9,11 @@ requirements) on the live Wiley/APPAM pages before using this pack for a live su
 current — APPAM's "A Message from Erdal Tekin, JPAM Editor-in-Chief" page plus the APPAM JPAM Authors
 page both list him as the sitting EIC (term began July 1, 2018). The submission-fee schedule (non-member
 **USD 100 professionals / USD 40 students**, members free, no resubmission fee) was re-confirmed on the
-APPAM JPAM Authors page. Sources: https://www.appam.org/a-message-from-erdal-tekin-jpam-editor-in-chief/
-; https://www.appam.org/news/jpam/jpam-authors/ .
+APPAM JPAM Authors page, which states in its own words that "the JPAM editorial office is located at
+American University under the current Editor-in-Chief Erdal Tekin". Source:
+https://www.appam.org/news-publications/jpam/jpam-authors/ . (APPAM has restructured `/news/` to
+`/news-publications/`, and the separate "A Message from Erdal Tekin" page it used to carry is gone;
+the authors page now carries the same fact.)
 
 ## Official journal, owner, scope & masthead
 
@@ -31,8 +34,10 @@ APPAM JPAM Authors page. Sources: https://www.appam.org/a-message-from-erdal-tek
   education, employment and training, economics, family policy, health, housing and community
   development, welfare, immigration, international affairs, public finance, public management,
   regulation, science policy, environmental issues, and research methods.
-- **https://www.appam.org/news/jpam/jpam-editorial-board/** — APPAM editorial-board entry point.
-  Use as the live route for board/section-editor checks; do not hard-code a roster from this pack.
+- **https://onlinelibrary.wiley.com/page/journal/15206688/homepage/editorialboard.html** — the
+  editorial board, at the address APPAM's own authors page now links to for it (its
+  `/news/jpam/jpam-editorial-board/` page is gone). Use as the live route for board/section-editor
+  checks; do not hard-code a roster from this pack.
 - **https://onlinelibrary.wiley.com/journal/15206688** — Wiley Online Library journal home. Use as the
   publisher home, current issue, article, author-guidance, and Wiley submission-entry route.
 - **https://www.wiley.com/en-ae/journals/Journal%2Bof%2BPolicy%2BAnalysis%2Band%2BManagement-p-b15206688**

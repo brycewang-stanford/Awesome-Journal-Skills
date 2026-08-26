@@ -2,6 +2,18 @@
 
 Access date: 2026-07-09
 
+**Edition status, checked 2026-08-26 (direct page load succeeded this time, from a new
+host).** CAV has moved to `https://conferences.i-cav.org/2027/`, which the 2026-07-09 pass
+could not reach: **CAV 2027 is the 39th edition and takes place in the Netherlands for the
+first time**. Its Call for Papers page is live with dates — submission 2027-01-20 AoE,
+review starts 2027-01-28, early-reject notification 2027-03-04, response period 2027-04-05
+to 04-08, notification 2027-04-23, camera-ready 2027-05-18 — and states that submission
+categories, formatting instructions and the submission site "will be announced". So the
+CAV 2027 calendar is fixed and its **rules are not yet published**. Everything procedural
+below is therefore still **CAV 2026's**, deliberately: it is the most recent rule set CAV
+has stated. Re-open the CAV 2027 CFP for categories, page limits and the anonymisation
+matrix before relying on them.
+
 This map records the official and cross-check sources for the CAV-specific facts used across
 this pack. CAV is the flagship formal-verification conference; its research papers are published
 open access in **Springer Lecture Notes in Computer Science (LNCS)**, and its calendar,

@@ -17,13 +17,32 @@ deadline-ready advice.
   current freeze/change windows.
 - Verify that the abstract is substantive and non-duplicative before the abstract deadline; do not
   rely on a placeholder.
-- Confirm use of the current ICLR LaTeX template and current page-limit rules. In 2026, submissions
-  used 9 pages of main text, references outside the limit, and appendices after references.
+- Confirm use of the current ICLR LaTeX template and current page-limit rules. ICLR 2027 caps the
+  main text at 9 pages at submission (10 during discussion and for camera-ready), strictly enforced —
+  over-length main text is desk-rejected. References are unlimited and outside the cap; appendices
+  after the bibliography are unlimited, and reviewers need not read them.
 - Inspect anonymity in the PDF, appendices, supplementary ZIP, code, data, demos, links, repository
   metadata, comments, acknowledgments, and file names.
-- Confirm reciprocal-reviewing compliance for the author team unless the current cycle grants an
-  explicit exemption.
-- Complete any LLM-use disclosure truthfully. Hidden prompt injection, hallucinated citations, or
+- Confirm reciprocal-reviewing and quota compliance for the author team, both of which desk-reject
+  in ICLR 2027 and both of which are decided **at the abstract deadline**, not later:
+  - every author on 3+ submissions must review at least 6 papers, and weak or missing reviews by the
+    rebuttal stage can desk-reject their papers;
+  - every submission needs at least one author registered to review 3 papers, qualified by an
+    accepted *primary-conference* paper at a listed venue as of the abstract deadline — workshop,
+    position, tiny, demo and industry papers do not qualify, and neither does an acceptance that
+    lands after that date;
+  - no author on more than 20 papers, and at most one paper per author where nobody qualifies as a
+    reciprocal reviewer. Over-quota submissions are desk-rejected **at random** until each author is
+    under quota, so this is not a risk that can be absorbed by submitting extra.
+- Check every author's OpenReview profile early: eligibility is read off the profile, wrong
+  information is grounds for desk rejection, and a profile created without an institutional email
+  can sit in moderation for up to two weeks.
+- Write the **mandatory AI use statement** — ICLR 2027 requires it as a section in the paper (it does
+  not count toward the page limit) as well as on the submission form. Disclosure is *required* for
+  synthetic data, theoretical models, mathematical claims and proof assistance, hypotheses,
+  methodology or experiment design, implementing methods, translation, dataset cleaning, qualitative
+  analysis and interpreting results, and *recommended* for figures, code, drafting, literature search,
+  brainstorming, titles and reference formatting. Hidden prompt injection, hallucinated citations, or
   undisclosed LLM-written scientific content can become ethics issues.
 
 ## Desk-reject and integrity risks

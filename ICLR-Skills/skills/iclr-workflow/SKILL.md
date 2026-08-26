@@ -10,9 +10,11 @@ current cycle's official deadlines and work backwards from OpenReview cutoffs.
 
 ICLR is a conference, not a journal: it has no standing editor-in-chief and no article-processing
 charge. The rotating leadership is the per-edition General Chair, Senior Program Chair, and Program
-Chairs (2026 General Chair: Carl Vondrick; Senior PC: Bharath Hariharan; PCs: Raffel, Pinto, Yang,
-Faust, verified 2026-06-22), and the cost model is registration fees, not APCs — proceedings are
-open-access on OpenReview. Conference organizers rotate yearly, so re-check the current CFP and
+Chairs, and the cost model is registration fees, not APCs — proceedings are open-access on
+OpenReview. The ICLR 2027 committee is not recorded in this pack: the 2027 committees page 404s at
+the source map's access date, so no official page names it (the 2026 committee was General Chair Carl
+Vondrick, Senior PC Bharath Hariharan, and PCs Raffel, Pinto, Yang and Faust, and those appointments
+rotate). Program chairs are reachable at program-chairs@iclr.cc. Re-check the current CFP and
 committees page rather than carrying a name forward.
 
 ## Milestones

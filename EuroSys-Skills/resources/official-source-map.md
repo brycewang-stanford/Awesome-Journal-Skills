@@ -30,7 +30,7 @@ this pack with direct access available, prefer the official pages themselves.
 | 7 | https://dl.acm.org/conference/eurosys | EuroSys proceedings are published by ACM in the ACM Digital Library. | 2026-07-08 |
 | 8 | https://dblp.org/db/conf/eurosys/ | Edition-by-edition proceedings record since 2006; used to verify exemplar papers. | 2026-07-08 |
 | 9 | https://www.eurosys.org/awards/test-of-time-award | Test-of-Time winners used as exemplars: Dryad (EuroSys '07, awarded 2017), Coccinelle collateral evolutions (EuroSys '08, awarded 2018), Borg (EuroSys '15, awarded 2019), Delay Scheduling (EuroSys '10, awarded 2020), Omega (EuroSys '13, awarded 2023). | 2026-07-08 |
-| 10 | https://2026.eurosys.org/shadow-pc.html and https://2026.eurosys.org/artifact-evaluation.html | EuroSys 2026 ran a Shadow PC call and named artifact-evaluation chairs. | 2026-07-08 |
+| 10 | https://2026.eurosys.org/shadow-pc.html and https://sysartifacts.github.io/eurosys2026/ | EuroSys 2026 ran a Shadow PC call, and its artifact evaluation runs on the shared `sysartifacts` site — EuroSys 2026 is the sixth EuroSys edition to include AE. The AE page moved there from `2026.eurosys.org/artifact-evaluation.html`, which now 404s. **The AE chair names this row used to assert are not on the replacement page: 待核实.** | 2026-07-08 |
 
 ## Verified cycle facts used in the skills
 

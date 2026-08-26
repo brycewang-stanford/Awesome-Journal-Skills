@@ -55,6 +55,11 @@ import sys
 from pathlib import Path
 
 from freshness_audit import last_verified
+from venue_lib import (
+    CONFERENCE_DEPTH_PACKS,
+    discipline_of,
+    uses_econometric_execution,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -67,99 +72,6 @@ IMPORTED_ROOTS = {
     "nature-paper-skills",
     "claude-scholar",
     "codex-claude-academic-skills",
-}
-
-CONFERENCE_DEPTH_PACKS = {
-    "AAAI-Skills",
-    "AAMAS-Skills",
-    "ACL-Skills",
-    "ACM-CCS-Skills",
-    "ACM-MM-Skills",
-    "AISTATS-Skills",
-    "ASE-Skills",
-    "ASPLOS-Skills",
-    "ATC-Skills",
-    "CAV-Skills",
-    "CHI-Skills",
-    "CIKM-Skills",
-    "COLM-Skills",
-    "COLT-Skills",
-    "CoNEXT-Skills",
-    "CoRL-Skills",
-    "CSCW-Skills",
-    "CVPR-Skills",
-    "DAC-Skills",
-    "EACL-Skills",
-    "ECAI-Skills",
-    "ECCV-Skills",
-    "EDBT-Skills",
-    "EMNLP-Skills",
-    "EuroSys-Skills",
-    "FAccT-Skills",
-    "FAST-Skills",
-    "FOCS-Skills",
-    "FSE-Skills",
-    "HPCA-Skills",
-    "HRI-Skills",
-    "ICALP-Skills",
-    "ICASSP-Skills",
-    "ICCV-Skills",
-    "ICDE-Skills",
-    "ICDM-Skills",
-    "ICDT-Skills",
-    "ICLR-Skills",
-    "ICML-Skills",
-    "ICRA-Skills",
-    "ICSE-Skills",
-    "ICSME-Skills",
-    "IEEE-SP-Skills",
-    "IJCAI-Skills",
-    "IMC-Skills",
-    "INFOCOM-Skills",
-    "INTERSPEECH-Skills",
-    "IPSN-Skills",
-    "IROS-Skills",
-    "ISCA-Skills",
-    "ISSTA-Skills",
-    "ITCS-Skills",
-    "KDD-Skills",
-    "MICRO-Skills",
-    "MLSys-Skills",
-    "MobiCom-Skills",
-    "MobiSys-Skills",
-    "NAACL-Skills",
-    "NDSS-Skills",
-    "NeurIPS-Skills",
-    "NSDI-Skills",
-    "OOPSLA-Skills",
-    "OSDI-Skills",
-    "PerCom-Skills",
-    "PLDI-Skills",
-    "PODC-Skills",
-    "PODS-Skills",
-    "POPL-Skills",
-    "PPoPP-Skills",
-    "RecSys-Skills",
-    "RSS-Skills",
-    "SenSys-Skills",
-    "SIGCOMM-Skills",
-    "SIGGRAPH-Skills",
-    "SIGIR-Skills",
-    "SIGMETRICS-Skills",
-    "SIGMOD-Skills",
-    "SoCC-Skills",
-    "SODA-Skills",
-    "SOSP-Skills",
-    "STOC-Skills",
-    "TACAS-Skills",
-    "The-Web-Conference-Skills",
-    "UAI-Skills",
-    "UIST-Skills",
-    "USENIX-Security-Skills",
-    "VIS-Skills",
-    "VLDB-Skills",
-    "WACV-Skills",
-    "WSDM-Skills",
 }
 
 TOOLKIT_PACKS = {
@@ -552,8 +464,13 @@ def score_pack(pack: Path) -> dict:
     # confirm. Repository-wide this is the largest live backlog, and unlike freshness
     # it does not decay on its own — someone has to go and check.
     verified_points = VERIFIED_WEIGHT * max(0.0, 1 - unresolved_count / UNRESOLVED_ZERO_AT)
-    # Execution wiring only applies where there is econometric code to wire.
-    wiring_applies = has_code and not is_breadth
+    # Execution wiring only applies where there is econometric code to wire — which
+    # is a claim about the *discipline*, not just about whether a `code/` directory
+    # exists. This line used to say only `has_code`, and so asked 90 AI conferences and
+    # 10 Chinese CS journals why they had not wired a DiD/IV/RDD stack to their PyTorch
+    # and EDA work. They were, unsurprisingly, every unwired pack in the repository.
+    wiring_applies = (has_code and not is_breadth
+                      and uses_econometric_execution(discipline_of(pack.name)))
     if wiring_applies and n:
         wiring_points = min(WIRING_WEIGHT,
                             (exec_bridge_skills / n) / WIRING_TARGET_SHARE * WIRING_WEIGHT)

@@ -15,10 +15,10 @@ This is a retrieval floor, not a ceiling on the capability: an agent reads each 
 | Configuration | n | R@1 | R@5 | R@10 | R@20 | MRR | any-rank | wrong-lane@10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | `title` | 861 | 18.1% | 36.0% | 46.7% | 54.1% | 0.269 | 85.0% | 6.7% |
-| `title+abstract` | 381 | 23.1% | 44.6% | 54.9% | 65.1% | 0.339 | 100.0% | 6.5% |
-| `title+context` | 861 | 40.2% | 63.4% | 71.8% | 77.6% | 0.507 | 93.8% | 5.8% |
-| `title+discipline` | 861 | 28.8% | 49.1% | 55.7% | 62.4% | 0.379 | 85.0% | 5.3% |
-| `oracle-discipline` | 861 | 37.7% | 64.0% | 70.8% | 77.1% | 0.488 | 85.0% | 3.7% |
+| `title+abstract` | 383 | 23.5% | 44.6% | 55.1% | 65.0% | 0.341 | 100.0% | 6.5% |
+| `title+context` | 861 | 40.3% | 63.3% | 71.8% | 77.7% | 0.507 | 93.8% | 5.8% |
+| `title+discipline` | 861 | 28.7% | 49.1% | 55.7% | 62.4% | 0.379 | 85.0% | 5.3% |
+| `oracle-discipline` | 861 | 37.6% | 64.0% | 70.8% | 77.2% | 0.487 | 85.0% | 3.7% |
 | _random baseline_ | — | 0.1% | 0.7% | 1.3% | 2.7% | — | — | — |
 
 `any-rank` = the true venue was retrieved at all, at any depth (it shares at least one scope term with the query) — the ceiling every cutoff above is working against. It stops bounding anything once the query is long: `title+abstract` sends a median of 130 terms against a 900-deep index, so *some* term reaches the true venue essentially always, and its 100% is a property of the query length rather than a solved problem. Read it on the title rows. `wrong-lane@10` = share of top-10 slots given to a venue that publishes no empirical work, for a paper whose true venue does — the cheapest kind of obviously wrong suggestion, and the one an author notices first.
@@ -29,7 +29,7 @@ The matcher has four weighting constants (`RANK_DECAY`, `PHRASE_BONUS`, `PART_DI
 
 | Half | n | R@10 | MRR |
 |---|---:|---:|---:|
-| `dev` (tuned on) | 877 | 47.0% | 0.278 |
+| `dev` (tuned on) | 877 | 46.9% | 0.278 |
 | `test` (reported) | 861 | 46.7% | 0.269 |
 
 A large gap between the two rows would mean the constants had been fitted to noise; they track each other closely, which is the point of publishing both.
@@ -72,7 +72,7 @@ A large gap between the two rows would mean the constants had been fitted to noi
 ## Limitations
 
 1. **The gold set is drawn from the repository itself.** Exemplar libraries hold papers the pack authors judged canonical for that venue, which skews toward famous, prototypical papers. Real routing decisions involve marginal papers, which are harder.
-2. **The headline query is a title.** A real match runs on an abstract plus the five signals of Step 1; a title is a deliberately thin, pessimistic query. `title+abstract` is the realistic figure; it covers 729 of 1738 gold papers (42%), the rest being papers that could not be resolved to an open abstract. That coverage is uneven by discipline — 86% of medicine papers against 9% of economics/labor — so the row is not a like-for-like uplift on the headline.
+2. **The headline query is a title.** A real match runs on an abstract plus the five signals of Step 1; a title is a deliberately thin, pessimistic query. `title+abstract` is the realistic figure; it covers 733 of 1738 gold papers (42%), the rest being papers that could not be resolved to an open abstract. That coverage is uneven by discipline — 86% of medicine papers against 9% of economics/labor — so the row is not a like-for-like uplift on the headline.
 3. **Only depth packs contribute labels.** Breadth-bundle venues are in the candidate set (so they can absorb probability mass) but have no gold papers, which makes the task harder, not easier.
 4. **Keywords are derived, not curated.** `scope_keywords` come from TF-IDF over each venue's own prose. Chinese terms are filtered through a vocabulary discovered from the corpus (cohesion + boundary entropy), which removes cross-boundary fragments but is not a substitute for a real segmenter.
 5. **The exemplar libraries are excluded from the index text**, so a gold paper's own citation cannot leak into the venue it labels.

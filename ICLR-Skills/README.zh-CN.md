@@ -4,7 +4,10 @@
 skills，覆盖 OpenReview 投稿检查、双盲公开评审、作者讨论、修订纪律、可复现性、代码/数据材料和
 camera-ready 准备。
 
-官方依据核验日期：2026-06-01。主要来源包括 ICLR 2026 CFP、Author Guide、Reviewer Guide、Code
+官方依据核验日期：2026-08-26，已锚定到 **ICLR 2027**（第 15 届，2027 年 4 月 26-30 日，加州；
+摘要截稿 2026-09-18，全文 2026-09-25）。本届三项新规都会导致 desk reject：合著配额、
+reciprocal reviewing、强制 AI 使用声明。主要来源包括 ICLR 2027 CFP、Author Guidelines、
+Reviewer Guidelines、AI Policy for Authors、Dates、Code
 of Ethics、Code of Conduct、LLM 使用政策更新、poster instructions 和 OpenReview 会议组。详见
 `resources/official-source-map.md`。
 
@@ -26,6 +29,7 @@ of Ethics、Code of Conduct、LLM 使用政策更新、poster instructions 和 O
 ## 维护原则
 
 - 任何 deadline、模板、页数、discussion 规则和 camera-ready 细节，都要重新打开当年官方页面核验。
-- ICLR 2026 信息只作为已核验锚点，不当作永久规则。
+- 已结束届次的信息只作为已核验锚点，不当作永久规则；本包锚定在哪一届由
+  `tools/cycle_audit.py` 报告。
 - ICLR 的 OpenReview 公开性很强，回复、修订说明和录用后的讨论都会影响论文记录。
 

@@ -1,11 +1,22 @@
 # Official Source Map - COLT
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (edition check re-run 2026-08-26)
 
 This map records the official sources behind every COLT-specific fact in this pack.
 COLT re-issues its rules with each edition's Call for Papers, so reopen the current
 CFP, the conference site under learningtheory.org, and the PMLR volume pages before
 giving submission-ready advice.
+
+**Edition status, checked 2026-08-26 (direct page load succeeded this time).**
+`http://learningtheory.org/colt2027/` is live: **COLT 2027 is the 40th Annual Conference
+on Learning Theory, June 28 - July 2, 2027, Tokyo, Japan**, with Program Chairs Steve
+Hanneke (Purdue University) and Tor Lattimore (Google DeepMind). Every date on that page
+— submission deadline, review release, author response, discussion, notification — reads
+**"Date TBD"**, so the COLT 2027 edition exists but has published no timetable and no
+edition-specific rules. The procedural facts recorded below therefore remain **COLT
+2026's**, deliberately: they are the most recent rules COLT has actually stated, and
+replacing them with guesses about 2027 would trade a dated fact for an invented one.
+Re-open the COLT 2027 CFP before relying on any deadline.
 
 **Access-method note (honesty requirement):** on 2026-07-08 direct fetches of
 learningtheory.org and proceedings.mlr.press were blocked from this environment's

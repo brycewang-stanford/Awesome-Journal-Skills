@@ -6,8 +6,9 @@ description: Use when drafting an AAAI author response (rebuttal) under the sing
 # AAAI Author Response
 
 Use this after AAAI reviews are released. AAAI rebuttal space is scarce: the AAAI-26 FAQ allowed a
-single 2500-character response, disallowed URLs, and discouraged new results. Reopen the current
-rebuttal FAQ before drafting.
+single 2500-character response, disallowed URLs, and discouraged new results. **AAAI-27 has not yet
+published its own rebuttal FAQ** — its author feedback window is 2026-10-19 to 10-25 — so treat those
+limits as the prior cycle's shape and reopen the current FAQ before drafting.
 
 ## Triage
 
@@ -17,8 +18,9 @@ rebuttal FAQ before drafting.
 - Do not include URLs if current rules forbid them.
 - Do not introduce new experiments or results. Explain existing evidence, clarify omissions, or
   state why requested experiments are not needed.
-- If supplementary files were missing or corrupted, acknowledge the limitation; AAAI-26 did not
-  permit updates at rebuttal time.
+- If supplementary files were missing or corrupted, acknowledge the limitation; AAAI has not
+  permitted updates at rebuttal time, and the supplementary deadline (2026-07-31 for AAAI-27) closed
+  months before feedback opens.
 
 ## What moves an AAAI score
 

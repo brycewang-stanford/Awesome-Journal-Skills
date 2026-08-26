@@ -293,5 +293,44 @@ class TestDisciplineOf(unittest.TestCase):
         self.assertEqual(v.discipline_of("Management-Science-Skills"), "operations")
 
 
+class TestExecutionBridgeScope(unittest.TestCase):
+    """Which disciplines the StatsPAI / Stata execution bridge is actually for.
+
+    `quality_scorecard` scores how much of a pack reaches that bridge. The question it
+    has to answer first is whether the bridge is even the pack's execution layer, and
+    for a long time it answered a different question — whether the pack shipped *any*
+    code. Those two come apart hard: the bridge is DiD, IV, RDD, DML and synthetic
+    control, and an AI conference ships PyTorch.
+    """
+
+    def test_the_social_science_disciplines_are_in_scope(self):
+        for discipline in ("economics", "finance", "management", "management/OR",
+                           "political-science", "sociology", "psychology",
+                           "linguistics", "accounting", "marketing"):
+            with self.subTest(discipline=discipline):
+                self.assertTrue(v.uses_econometric_execution(discipline))
+
+    def test_computer_science_is_not(self):
+        # The 100 packs that gave the mis-scoping away.
+        for discipline in ("cs-ai", "cs-ai (conference)", "cs-ai (CN journal)",
+                           "engineering", "materials-science"):
+            with self.subTest(discipline=discipline):
+                self.assertFalse(v.uses_econometric_execution(discipline))
+
+    def test_the_non_empirical_disciplines_are_not(self):
+        # Already excluded elsewhere; asserted here so the two exemptions cannot drift
+        # apart and quietly re-admit a theory venue.
+        for discipline in ("philosophy", "mathematics", "economics/theory"):
+            with self.subTest(discipline=discipline):
+                self.assertFalse(v.uses_econometric_execution(discipline))
+
+    def test_every_conference_pack_is_out_of_scope(self):
+        # Not one of the 90 is an econometrics venue, so none of them should ever be
+        # charged for the bridge. This is the assertion that would have failed before.
+        for pack in v.CONFERENCE_DEPTH_PACKS:
+            with self.subTest(pack=pack):
+                self.assertFalse(v.uses_econometric_execution(v.discipline_of(pack)))
+
+
 if __name__ == "__main__":
     unittest.main()

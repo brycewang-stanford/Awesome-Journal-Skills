@@ -9,10 +9,13 @@ Use this as the project-management skill for an AAAI submission. Replace all dat
 cycle's official timetable and work backwards from OpenReview cutoffs.
 
 AAAI is a conference, not a journal: it has no standing editor-in-chief and no article-processing
-charge. The rotating leadership is the per-edition Program Chairs (AAAI-26: Chad Jenkins and Matthew
-Taylor, verified 2026-06-22), and the cost model is registration fees, not APCs — at least one author
-must register at the in-person rate to present. Conference organizers rotate yearly, so re-check the
-current CFP and conference-organizers page rather than carrying a name or contact forward.
+charge. The rotating leadership is the per-edition Program Chairs, and the cost model is registration
+fees, not APCs — at least one author must register at the in-person rate and present **in person**;
+AAAI-27 offers no remote option, and a paper without a registered presenter is removed before
+publication. The AAAI-27 chairs are not recorded in this pack: the AAAI-27 organizers URL still
+redirects to an older edition's roster, so no official page names them (the AAAI-26 chairs were Chad
+Jenkins and Matthew Taylor, and those appointments rotate). Re-check the current CFP and
+conference-organizers page rather than carrying a name or contact forward.
 
 ## Milestones
 

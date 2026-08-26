@@ -22,7 +22,10 @@ is that VIS gives repairable papers a genuine revise-and-review cycle within the
   **student reviewer** the primary may invite — a fourth, developmental voice, not a replacement.
 - Reviewers weigh scientific quality and novelty, potential impact, whether the evidence supports
   the claims, appropriateness of methodology, and the soundness of the research process. Approved
-  reviews are archived as supplemental material in IEEE Xplore.
+  reviews are published only if **the authors opt in at camera-ready and every reviewer on the
+  paper also consents** — they then appear as supplemental material in an **OSF** repository, not in
+  IEEE Xplore. One dissenting reviewer is enough to keep them unpublished, and the chairs have no
+  mechanism to override that.
 
 ## The two-phase structure (the defining VIS mechanic)
 

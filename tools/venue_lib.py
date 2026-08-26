@@ -106,11 +106,149 @@ THEORY = {
     "Journal-of-Economic-Perspectives-Skills": "review/expository",
 }
 
+# Depth packs whose venue is a conference rather than a journal. Conferences differ
+# from journals in a way several tools care about: their facts are anchored to one
+# *edition* (AAAI-26, ICML 2026) rather than to a standing masthead, so an edition that
+# has met takes its page caps, chairs and deadlines out of date with it.
+CONFERENCE_DEPTH_PACKS = {
+    "AAAI-Skills",
+    "AAMAS-Skills",
+    "ACL-Skills",
+    "ACM-CCS-Skills",
+    "ACM-MM-Skills",
+    "AISTATS-Skills",
+    "ASE-Skills",
+    "ASPLOS-Skills",
+    "ATC-Skills",
+    "CAV-Skills",
+    "CHI-Skills",
+    "CIKM-Skills",
+    "COLM-Skills",
+    "COLT-Skills",
+    "CoNEXT-Skills",
+    "CoRL-Skills",
+    "CSCW-Skills",
+    "CVPR-Skills",
+    "DAC-Skills",
+    "EACL-Skills",
+    "ECAI-Skills",
+    "ECCV-Skills",
+    "EDBT-Skills",
+    "EMNLP-Skills",
+    "EuroSys-Skills",
+    "FAccT-Skills",
+    "FAST-Skills",
+    "FOCS-Skills",
+    "FSE-Skills",
+    "HPCA-Skills",
+    "HRI-Skills",
+    "ICALP-Skills",
+    "ICASSP-Skills",
+    "ICCV-Skills",
+    "ICDE-Skills",
+    "ICDM-Skills",
+    "ICDT-Skills",
+    "ICLR-Skills",
+    "ICML-Skills",
+    "ICRA-Skills",
+    "ICSE-Skills",
+    "ICSME-Skills",
+    "IEEE-SP-Skills",
+    "IJCAI-Skills",
+    "IMC-Skills",
+    "INFOCOM-Skills",
+    "INTERSPEECH-Skills",
+    "IPSN-Skills",
+    "IROS-Skills",
+    "ISCA-Skills",
+    "ISSTA-Skills",
+    "ITCS-Skills",
+    "KDD-Skills",
+    "MICRO-Skills",
+    "MLSys-Skills",
+    "MobiCom-Skills",
+    "MobiSys-Skills",
+    "NAACL-Skills",
+    "NDSS-Skills",
+    "NeurIPS-Skills",
+    "NSDI-Skills",
+    "OOPSLA-Skills",
+    "OSDI-Skills",
+    "PerCom-Skills",
+    "PLDI-Skills",
+    "PODC-Skills",
+    "PODS-Skills",
+    "POPL-Skills",
+    "PPoPP-Skills",
+    "RecSys-Skills",
+    "RSS-Skills",
+    "SenSys-Skills",
+    "SIGCOMM-Skills",
+    "SIGGRAPH-Skills",
+    "SIGIR-Skills",
+    "SIGMETRICS-Skills",
+    "SIGMOD-Skills",
+    "SoCC-Skills",
+    "SODA-Skills",
+    "SOSP-Skills",
+    "STOC-Skills",
+    "TACAS-Skills",
+    "The-Web-Conference-Skills",
+    "UAI-Skills",
+    "UIST-Skills",
+    "USENIX-Security-Skills",
+    "VIS-Skills",
+    "VLDB-Skills",
+    "WACV-Skills",
+    "WSDM-Skills",
+}
+
+
+# How each conference pack's venue writes its own edition label, where that differs
+# from the pack directory name. `cycle_audit.py` anchors its year search to these, so
+# that "CCS 2027" in an `ACM-CCS-Skills` source map is read as an edition label and a
+# stray "2027" in a copyright line is not. Packs absent from this map use the directory
+# name with the `-Skills` suffix removed.
+CONFERENCE_ALIASES: dict[str, tuple[str, ...]] = {
+    "ACM-CCS-Skills": ("CCS",),
+    "ACM-MM-Skills": ("ACM MM", "ACM Multimedia", "MM"),
+    "IEEE-SP-Skills": ("S&P", "IEEE S&P", "Oakland"),
+    "The-Web-Conference-Skills": ("The Web Conference", "WWW"),
+    "USENIX-Security-Skills": ("USENIX Security", "USENIX Sec"),
+}
+
+
 NON_EMPIRICAL_DISCIPLINES = {
     "philosophy", "history", "art-history", "humanities/literature", "humanities/theory",
     "religion", "anthropology", "mathematics", "economics/theory", "economics/game-theory",
     "humanities",
 }
+
+
+# Disciplines whose empirical work does not run on the execution bridge's stack.
+#
+# `shared-resources/empirical-methods/execution-with-mcp.md` is a *causal-inference*
+# bridge — StatsPAI and Stata MCP, so DiD, IV, RDD, DML, synthetic control, sensitivity
+# analysis. That is the applied-social-science toolchain. It is not what a NeurIPS
+# submission runs (PyTorch), or a DAC submission (EDA tooling), or 《计算机学报》.
+#
+# The distinction matters because a pack shipping a code library used to be enough to
+# put it in the wiring dimension's denominator, which charged 102 CS packs up to ten
+# points apiece for not adopting an econometrics stack their field has no use for —
+# every single unwired pack in the repository was one of them, which is what gave the
+# dimension away. Shipping code is not the question; shipping code *this bridge can
+# run* is.
+EXECUTION_BRIDGE_EXEMPT_DISCIPLINES = {
+    "cs-ai", "cs-ai (conference)", "cs-ai (CN journal)",
+    "engineering", "materials-science", "operations/computing",
+    "chemistry", "physics", "earth-science", "life-sciences", "natural-science",
+}
+
+
+def uses_econometric_execution(discipline: str) -> bool:
+    """Is the StatsPAI / Stata bridge the execution layer for this discipline?"""
+    return (discipline not in EXECUTION_BRIDGE_EXEMPT_DISCIPLINES
+            and discipline not in NON_EMPIRICAL_DISCIPLINES)
 
 # Pack names that are only correct as whole names. `Science-Skills` as a substring
 # claims Marketing Science, Organization Science and Psychological Science; as a whole

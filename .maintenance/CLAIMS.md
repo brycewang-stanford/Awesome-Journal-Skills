@@ -12,6 +12,18 @@ Claude SkillOpt、W1/W2 workflow 波次）已完成并归档至
 
 ## Active lanes
 
+- **会议届次锚定 lane**（2026-08-26）：新增 `tools/cycle_audit.py` 与
+  `.maintenance/CYCLE-CURRENCY.md`——freshness 只回答"什么时候重读的"，对会议还要回答
+  "重读的是哪一届"，issue #3 报的就是这个缺口。同批修正 scorecard 的 wiring 维度作用域
+  （把 102 个 CS 包移出分母，并把真正该接的两个包接上），并按新工具的结果把
+  `AAAI-Skills` 重锚到 AAAI-27、`ICLR-Skills` 重锚到 ICLR 2027（该届摘要截稿
+  2026-09-18，是全库唯一仍在进行中的 deadline），另有 CAV/DAC/COLT/AISTATS/ICML/PODC/
+  NeurIPS 七个包补记 edition status。触碰面：`tools/`（新增 `cycle_audit.py`、
+  `venue_lib.CONFERENCE_DEPTH_PACKS`/`CONFERENCE_ALIASES`/`uses_econometric_execution`、
+  两个新测试文件）、`AAAI-Skills`、`ICLR-Skills`、上述七个会议包的 source map、
+  `Chinese-Journal-of-Management-Science-Skills` 与 `Language-Linguistic-Society-Skills`
+  各三个 skill、两份根 README 的召回数字、`CHANGELOG.md`、`.maintenance/`。
+
 - **外链体检 lane**（2026-08-26）：修 `external_link_audit.py` 把「站点对陌生
   UA 返回 404」误判为死链的问题（SciEngine 两页 + CNKI 一页本来就活着），并处理
   重定向表里两个已被抢注的会议域名。触碰面：`tools/external_link_audit.py`、

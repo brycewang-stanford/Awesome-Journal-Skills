@@ -2,6 +2,12 @@
 
 Access date: 2026-07-09
 
+**Edition status, checked 2026-08-26.** `podc.org/podc2027/` returns 404 and
+`podc.org/podc2026/` is the newest edition page PODC has published, so the PODC
+2026 anchor below is the latest available rather than a superseded one. PODC 2026 has met;
+treat its dates as historical and its rules as the most recent stated ones, and re-check whether a
+later edition page has appeared before advising on a deadline.
+
 This map records the official and cross-check sources used for PODC-specific facts in this pack.
 PODC is the **ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing**, the flagship
 for the *theory* of distributed computing; its calendar, page budget, and review model are decided

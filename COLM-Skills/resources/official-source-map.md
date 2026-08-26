@@ -90,5 +90,7 @@ date, cap, or policy.
 - Any dedicated artifact-evaluation or reproducibility-certification track — none
   was found for 2026; do not assert one exists.
 - dblp indexing details for COLM proceedings (dblp was not directly fetchable at
-  check time; cross-check https://dblp.org/db/conf/colm/index.html when reachable).
+  check time; a dblp cross-check is **not available** — `dblp.org/db/conf/colm/` 404s, dblp having
+no COLM conference entry as of 2026-08-26, so this cross-check was dropped rather than left as a
+dead citation).
 - All 2027 dates, caps, template versions, policies, and OpenReview group IDs.

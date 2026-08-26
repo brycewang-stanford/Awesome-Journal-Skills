@@ -64,6 +64,22 @@ under the community agreement and says so in the data statement — transparent 
 | "Speaker identities exposed." | anonymize; restrict audio per consent |
 | "Claims a deposit rule that isn't stated." | describe your sharing; verify the live policy, don't invent one |
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Transparency is a property of the path from data to number, and the cheapest way to keep
+that path honest is not to have retyped anything along it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Run it, then cite it.** A number that was computed by a tool call can be recomputed by
+  a reader with the same script; a number that was remembered cannot. If no server is
+  connected, adapt `../../resources/code/` and say in the paper that you did.
+- **Deposit what reproduces the table**, not a spreadsheet of the finished table: script,
+  seed, pinned package versions, and the derived dataset where the licence and the
+  speakers' consent allow it.
+- **Where consent or endangerment limits deposit** (see the ethics section above), archive
+  the analysis code anyway — the code is not the speakers' data, and withholding it is the
+  part reviewers most often read as evasion.
+
 ## Anti-patterns
 
 - Quantitative results with no shared data or script (reviewers cannot reproduce the model)

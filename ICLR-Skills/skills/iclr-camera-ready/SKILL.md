@@ -11,8 +11,9 @@ logistics are volatile and can differ from submission rules.
 
 ## Camera-ready checklist
 
-- Apply the accepted-paper template and current camera-ready page limit. In 2026, discussion and
-  camera-ready versions used a 10-page main-text allowance.
+- Apply the accepted-paper template and current camera-ready page limit. ICLR 2027 raises the
+  main-text allowance from 9 to 10 pages for the discussion phase and camera-ready, so the extra page
+  is there to answer reviewers, not to restore what was cut at submission.
 - Remove anonymity where required, add acknowledgments, and verify author names/order against
   OpenReview and the conference website source of truth.
 - Preserve scientific claims from the reviewed paper. Do not turn a borderline acceptance into a

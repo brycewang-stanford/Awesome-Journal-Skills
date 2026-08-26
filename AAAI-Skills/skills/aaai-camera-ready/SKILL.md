@@ -10,9 +10,10 @@ author kit, copyright instructions, and proceedings source-file requirements.
 
 ## Camera-ready checklist
 
-- Apply the current AAAI proceedings template and page rules. AAAI-26 accepted main-track papers
-  used 7 proceedings pages plus pages solely for references and acknowledgments, with an option to
-  purchase up to two additional technical-content pages.
+- Apply the current AAAI proceedings template and page rules. AAAI-27 allocates accepted main-track
+  papers 7 proceedings pages plus up to 2 acknowledgement/reference pages, with an option to purchase
+  up to two additional technical-content pages at $300 each. Camera-ready source files are due
+  2026-12-14.
 - Prepare source files as required: LaTeX or Word source, figures, bibliography, style files, and a
   high-resolution PDF.
 - Add author names, affiliations, acknowledgments, funding, and ethical disclosures where required.

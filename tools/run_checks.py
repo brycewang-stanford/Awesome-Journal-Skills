@@ -88,6 +88,13 @@ def main(argv: list[str]) -> int:
             "python3", "tools/freshness_audit.py", "--check",
             "--max-age-days", "365", "--max-unknown", "0",
         ],
+        # Freshness says when a source map was re-read; this says which conference
+        # edition it was re-read about. `--max-stale 0` is a hard gate because a past
+        # edition is unambiguous — the meeting happened, so the page caps, chairs and
+        # deadlines in the pack belong to a cycle no reader can still submit to. The
+        # softer `due` state stays advisory: whether this year's edition has met is
+        # a fact most source maps never state.
+        ["python3", "tools/cycle_audit.py", "--check", "--max-stale", "0"],
         # Retrieval floor: an index or matcher regression fails the build instead of
         # quietly degrading every venue recommendation. Measured on the gold set's
         # held-out `test` half, and set a few points below the current headline (46.5%)

@@ -362,7 +362,7 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
         --discipline economics/labor --lane empirical --top 15
 ```
 
-评测打的就是这条命令走的同一段代码——1738 篇论文的 gold set 切成调参一半、报数一半，**只给标题**这种最苛刻的问法，留出集 recall@10 = 46.7%；贴上摘要（作者真正会做的事）是 54.9%，给对学科是 55.7%（[`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)）。检索只负责**给出该读哪几本**，投不投仍要打开每本刊自己的 pack 和 source-map 来判断。
+评测打的就是这条命令走的同一段代码——1738 篇论文的 gold set 切成调参一半、报数一半，**只给标题**这种最苛刻的问法，留出集 recall@10 = 46.7%；贴上摘要（作者真正会做的事）是 55.1%，给对学科是 55.7%（[`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)）。检索只负责**给出该读哪几本**，投不投仍要打开每本刊自己的 pack 和 source-map 来判断。
 
 定了阶梯还可以算账：`rt-ladder-ev` 把「先冲顶刊再降级」和「直接从第二档起投」换算成月数与最终发出去的概率——真正吃掉一年的是**顺序**，不是某一本刊。
 

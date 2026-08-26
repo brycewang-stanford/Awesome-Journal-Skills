@@ -39,6 +39,17 @@ description: Use when preparing tables, figures, formulas and pseudocode exhibit
 - 敏感性图：单参数扫的用折线族，双参数交互用热力图/等高线；基准参数点在图上标记。
 - 图中文字号不小于正文脚注字号，黑白打印仍可分辨（线型/标记区分，不只靠颜色）。
 
+## 执行桥（StatsPAI / Stata MCP）
+
+三线表的数字应当从拟合结果里长出来，不是从另一份稿子里抄过来。工具全表见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。
+
+- **主对比表**：`etable` 直接吃 `result_id` 出多列对照，正文与附录同源，避免本刊
+  形式审查最常打回的"正文一个数、附录另一个数"。
+- **图件**：`plot_from_result` / `marginsplot` 出图，坐标单位与标准误口径随结果带出，
+  不必在图注里手写一遍。
+- **表注**：估计量、聚类层级、样本区间从结果的诊断信息里读，不凭记忆填。
+
 ## 自检清单
 
 - [ ] 全部表格为三线表，最优值标注规则在表注声明

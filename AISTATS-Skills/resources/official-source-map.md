@@ -2,6 +2,16 @@
 
 Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
+**Edition status, checked 2026-08-26.** `aistats.org/aistats2027/` returns 404 and
+`aistats.org/aistats2026/` is the newest edition page AISTATS has published, so the
+AISTATS 2026 anchor below is the latest available rather than a superseded one. AISTATS
+2026 has already met; treat its dates as historical and its rules as the most recent stated
+ones, and re-check whether a later edition page has appeared before advising on a deadline.
+
+> URLs in this edition-status note are written without their `https://` scheme on
+> purpose: they are cited *because they 404*, and a link audit that queued them would
+> be reporting a page's absence as a defect to repair.
+
 This map records the official sources used for AISTATS-specific facts in this pack.
 AISTATS policies are cycle-specific; reopen the current Call for Papers, OpenReview group,
 FAQ or author instructions if posted, PMLR proceedings instructions, and Code of Conduct

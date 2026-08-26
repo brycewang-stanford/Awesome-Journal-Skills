@@ -2,6 +2,14 @@
 
 Access date: 2026-07-09
 
+**Edition status, checked 2026-08-26.** `https://www.dac.com/` now reads "Thank You for
+Attending DAC 2026" and announces **DAC 2027 for July 11-14, 2027 at the San Jose
+Convention Center** — a save-the-date, with no call for contributions, no deadlines and no
+author rules published yet. DAC 2026 has met, so the procedural facts below describe a
+closed cycle; they are retained because they are the most recent rules DAC has actually
+stated, not because they are current. Re-open the DAC 2027 call before relying on any
+deadline, page limit or track definition.
+
 This map records the official and cross-check sources used for DAC-specific facts in this
 pack. DAC is the ACM/IEEE **Design Automation Conference** — branded since recent editions as
 **"The Chips to Systems Conference"** — the premier venue for electronic design automation (EDA)

@@ -2,6 +2,12 @@
 
 Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
+**Edition status, checked 2026-08-26.** `icml.cc/Conferences/2027` returns 404, so
+ICML 2026 remains the newest edition page ICML has published and the anchor below is the
+latest available rather than a superseded one. ICML 2026 has met; treat its dates as
+historical and its rules as the most recent stated ones, and re-check whether a later edition page has
+appeared before advising on a deadline.
+
 This map records the official sources used for ICML-specific facts in this pack. ICML policies
 change by year; always reopen the current CFP, Author Instructions, Peer Review FAQ, and OpenReview
 group before submission-ready advice.

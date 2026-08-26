@@ -17,7 +17,8 @@ its sibling VGTC conferences **IEEE VR** or **ISMAR** — separate calls on the 
 - VIS 2026 Paper Submission Guidelines: https://ieeevis.org/year/2026/info/call-participation/paper-submission-guidelines/
 - VIS 2026 Review Instructions: https://ieeevis.org/year/2026/info/call-participation/review-instructions/
 - VIS 2026 Area Model (the six areas): https://ieeevis.org/year/2026/info/call-participation/area-model/
-- VIS 2026 Changes to the Review Process (blog): https://ieeevis.org/year/2026/blog/vis-2026-OPC-blog-Changes
+- VIS 2026 Changes to the Review Process (blog): https://ieeevis.org/year/2026/blog/2026-02-03-vis-2026-OPC-blog
+- VIS 2026 Paper Submission Guidelines (opt-in review publishing, junior reviewers, page limits): https://ieeevis.org/year/2026/info/call-participation/paper-submission-guidelines
 - VIS 2026 Short Papers call: https://ieeevis.org/year/2026/info/call-participation/shortpapers/
 - VIS 2026 Open Practices: https://ieeevis.org/year/2026/info/open-practices/open-practices/
 - Submission portal — PCS (Precision Conference System): https://new.precisionconference.com/ (society VGTC → VIS 2026 → VIS 2026 Full Papers)

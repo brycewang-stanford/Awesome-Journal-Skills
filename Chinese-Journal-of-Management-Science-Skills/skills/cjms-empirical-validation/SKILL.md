@@ -33,6 +33,23 @@ description: Use when designing the real-data validation of a 《中国管理科
 
 面板/因果类支线（如政策冲击对市场的影响）可直接改用 `../../resources/code/` 的 Stata/Python 骨架（清洗→描述→DiD/IV/RDD→稳健性→出表）；时间序列预测线建议同样落成"一键复现"目录结构，随稿准备可提供的复现材料。
 
+## 执行桥（StatsPAI / Stata MCP）
+
+四道硬门里有三道是**算出来**的，不是写出来的。工具全表见
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。
+
+- **改进显著性**：`bootstrap` 给误差差值的区间；预测线的 DM/MCS 若无现成实现，
+  至少用 `bootstrap` + `romano_wolf` 把"赢了几个基准"的多重比较校正掉——基准电池
+  越厚，单看一列 p 值越容易赢在运气上，这正是本刊外审最常追的一刀。
+- **参数敏感性**：`spec_curve` 把"换个窗长/换个参数就翻盘"一次画完，比补三张表更
+  能回答审稿人的"结果靠调参吗"。
+- **因果支线**：政策冲击类用 `detect_design` → `preflight` → `did` / `iv` /
+  `rdd`，再 `audit_result` 列出还欠哪些稳健性，逐条按它给的 `suggest_function` 补。
+- **子样本**：牛熊分段与危机窗口用同一个 `result_id` 派生，避免各段口径悄悄不一致。
+
+服务器未连接时退回 `../../resources/code/` 的骨架照抄改写，并在稿中说明数字的来源——
+**不报没算过的数**。
+
 ## 自检清单
 
 - [ ] 数据来源/频率/区间/缺失处理可复现，关键变量有描述统计

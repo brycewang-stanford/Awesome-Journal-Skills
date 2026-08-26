@@ -2,7 +2,7 @@
 
 > **Generated** by `python3 tools/external_link_audit.py --write`. Do not edit by hand.
 
-3141 external URLs checked · **18 dead** · 76 redirected to a different host.
+3146 external URLs checked · **11 dead** · 77 redirected to a different host.
 
 A dead `Official` link is the defect this repository can least afford: the link is the product. But repointing a citation is not a URL substitution — the replacement has to be read and confirmed to carry the fact the source map cites, or a verified claim quietly acquires a source that does not support it. Where no such page can be found, leave the citation dead and the fact as it was recorded; a page moving does not make a fact wrong.
 
@@ -12,22 +12,15 @@ A dead `Official` link is the defect this repository can least afford: the link 
 |---|---|
 | <http://dimacs.rutgers.edu/news_archive/shashank-award> | `SODA-Skills/resources/official-source-map.md` |
 | <http://dmatheorynet.blogspot.com/2025/12/dmanet-icalp-2025-12-icalp-2026-call.html> | `ICALP-Skills/resources/official-source-map.md` |
-| <https://2026.eurosys.org/artifact-evaluation.html> | `EuroSys-Skills/resources/official-source-map.md` |
 | <https://chinasoft.ccf.org.cn/CFP/> | `Journal-of-Software-Skills/resources/official-source-map.md` |
 | <https://chinasoft.ccf.org.cn/submission/> | `Journal-of-Software-Skills/resources/external_tools.md` |
 | <https://dac.com/2026/authors/research-frequently-asked-questions> | `DAC-Skills/resources/external_tools.md`<br>`DAC-Skills/resources/official-source-map.md` |
 | <https://dac.com/2026/engineering-track-presentations> | `DAC-Skills/resources/external_tools.md`<br>`DAC-Skills/resources/official-source-map.md` |
-| <https://dblp.org/db/conf/colm/index.html> | `COLM-Skills/resources/official-source-map.md` |
 | <https://denverconvention.com/events/details/ieee-cvpr-2026> | `CVPR-Skills/resources/official-source-map.md` |
-| <https://ieeevis.org/year/2026/blog/vis-2026-OPC-blog-Changes> | `VIS-Skills/resources/external_tools.md`<br>`VIS-Skills/resources/official-source-map.md` |
 | <https://imc2026.hotcrp.com/> | `IMC-Skills/resources/external_tools.md`<br>`IMC-Skills/resources/official-source-map.md` |
 | <https://lids.mit.edu/news-and-events/news/brice-huang-receives-machtey-award-best-student-paper-focs-2024> | `FOCS-Skills/resources/official-source-map.md` |
-| <https://sscp.cssn.cn/gywm/wsld/jmq/> | `Social-Sciences-in-China-Skills/resources/official-source-map.md` |
-| <https://www.appam.org/a-message-from-erdal-tekin-jpam-editor-in-chief/> | `Journal-of-Policy-Analysis-and-Management-Skills/resources/official-source-map.md` |
-| <https://www.appam.org/news/jpam/jpam-editorial-board/> | `Journal-of-Policy-Analysis-and-Management-Skills/resources/official-source-map.md` |
 | <https://www.cell.com/pb-assets/journals/research/cellpress/graphical_abstract_guidelines.pdf> | `Cell-Skills/resources/external_tools.md`<br>`Molecular-Cell-Skills/resources/external_tools.md` |
 | <https://www.easychair.org/my/conference?conf=pods2026> | `PODS-Skills/resources/external_tools.md`<br>`PODS-Skills/resources/official-source-map.md` |
-| <https://www.jom-hub.com/editorial-team> | `Journal-of-Operations-Management-Skills/resources/official-source-map.md` |
 
 ## Redirected to another host
 
@@ -82,6 +75,7 @@ Not necessarily wrong — a publisher reorganising is normal — but worth repoi
 | <https://wiley.atyponrex.com/journal/JOOM> | <https://authors.wiley.com/dashboard/journal?groupCode=JOOM> | `Journal-of-Operations-Management-Skills/resources/official-source-map.md` |
 | <https://wiley.atyponrex.com/journal/RAND> | <https://authors.wiley.com/dashboard/journal?groupCode=RAND> | `RAND-Journal-of-Economics-Skills/resources/official-source-map.md`<br>`RAND-Journal-of-Economics-Skills/skills/rje-submission/SKILL.md` |
 | <https://www.chilconference.org/> | <https://chil.ahli.cc/> | `Computer-Science-Conference-Skills/resources/conference-roster.md`<br>`Computer-Science-Conference-Skills/resources/official-source-map.md`<br>`Computer-Science-Conference-Skills/skills/conference-on-health-inference-and-learning/SKILL.md` |
+| <https://www.dac.com/> | <https://dac.com/2026> | `DAC-Skills/resources/official-source-map.md` |
 | <https://www.earthchem.org> | <https://earthchem.org:443/> | `Earth-and-Planetary-Science-Letters-Skills/resources/official-source-map.md` |
 | <https://www.editorialmanager.com/cogpsych/> | <https://www.ariessys.com/> | `Cognitive-Psychology-Skills/resources/official-source-map.md` |
 | <https://www.eurovis.org/> | <https://eurovis.org.uk/> | `Computer-Science-Conference-Skills/resources/conference-roster.md`<br>`Computer-Science-Conference-Skills/resources/official-source-map.md`<br>`Computer-Science-Conference-Skills/skills/eurovis/SKILL.md` |

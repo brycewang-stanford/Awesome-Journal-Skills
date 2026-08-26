@@ -41,6 +41,18 @@ description: Use when writing the managerial insights and countermeasure suggest
 
 启示节必须带**适用条件**：模型假设不成立（如需求分布突变、主体非风险中性）时哪些结论失效。报告边界不削弱贡献，掩盖边界会在外审被反问。
 
+## 执行桥（StatsPAI / Stata MCP）
+
+"条件—决策—效果"三段式里的**效果**必须是一个带单位的量，而系数本身几乎从来不是那个量。
+工具全表见 [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。
+
+- **可解释量级**：`margins` / `margins_at` 把估计换算成"某条件下调一个单位、结果变多少"，
+  这才是能写进启示段的句子。
+- **分对象拆分**：`contrast` / `pwcompare` 给出组间差异及其区间——分企业规模、分区域的
+  启示要有区间，否则就是把噪声写成政策建议。
+- **边界诚实**：`sensitivity` / `oster_bounds` 给出结论翻盘所需的混淆强度，正是"边界诚实"
+  一节要交代的东西。
+
 ## 自检清单
 
 - [ ] 每条启示可回指某个命题/图/表编号

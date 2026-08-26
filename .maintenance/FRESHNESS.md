@@ -8,9 +8,9 @@
 
 | Verified | Packs |
 |---|---:|
-| 2026-06 | 183 |
-| 2026-07 | 111 |
-| 2026-08 | 5 |
+| 2026-06 | 177 |
+| 2026-07 | 107 |
+| 2026-08 | 15 |
 
 Provenance: 259 stated explicitly, 40 inferred from the newest date in the file, 0 with no date at all.
 
@@ -35,13 +35,11 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | Current-Anthropology-Skills | depth | 2026-06-21 | stated |
 | Journal-of-Marketing-Research-Skills | depth | 2026-06-21 | stated |
 | MIS-Quarterly-Skills | depth | 2026-06-21 | stated |
-| AAAI-Skills | depth | 2026-06-22 | stated |
 | AEJ-Applied-Economics-Skills | depth | 2026-06-22 | stated |
 | AEJ-Economic-Policy-Skills | depth | 2026-06-22 | stated |
 | AEJ-Macroeconomics-Skills | depth | 2026-06-22 | stated |
 | AEJ-Microeconomics-Skills | depth | 2026-06-22 | inferred |
 | AER-Insights-Skills | depth | 2026-06-22 | stated |
-| AISTATS-Skills | depth | 2026-06-22 | stated |
 | Academy-of-Management-Annals-Skills | depth | 2026-06-22 | stated |
 | Accounting-Research-Skills | depth | 2026-06-22 | inferred |
 | Administrative-Science-Quarterly-Skills | depth | 2026-06-22 | stated |
@@ -86,8 +84,6 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | Governance-Journal-Skills | depth | 2026-06-22 | stated |
 | Human-Relations-Skills | depth | 2026-06-22 | stated |
 | Human-Resource-Management-Skills | depth | 2026-06-22 | stated |
-| ICLR-Skills | depth | 2026-06-22 | stated |
-| ICML-Skills | depth | 2026-06-22 | stated |
 | IJCAI-Skills | depth | 2026-06-22 | stated |
 | IMF-Economic-Review-Skills | depth | 2026-06-22 | stated |
 | INFORMS-Journal-on-Computing-Skills | depth | 2026-06-22 | stated |
@@ -143,7 +139,6 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | Mathematical-Finance-Skills | depth | 2026-06-22 | stated |
 | Mind-Skills | depth | 2026-06-22 | stated |
 | Nankai-Business-Review-Skills | depth | 2026-06-22 | inferred |
-| NeurIPS-Skills | depth | 2026-06-22 | stated |
 | Organization-Science-Skills | depth | 2026-06-22 | stated |
 | Organization-Studies-Skills | depth | 2026-06-22 | stated |
 | Perspectives-on-Psychological-Science-Skills | depth | 2026-06-22 | stated |
@@ -165,7 +160,6 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | Review-of-Finance-Skills | depth | 2026-06-22 | stated |
 | Review-of-Financial-Studies-Skills | depth | 2026-06-22 | stated |
 | Social-Psychology-Quarterly-Skills | depth | 2026-06-22 | stated |
-| Social-Sciences-in-China-Skills | depth | 2026-06-22 | inferred |
 | Sociological-Methods-and-Research-Skills | depth | 2026-06-22 | stated |
 | Sociological-Studies-Skills | depth | 2026-06-22 | inferred |
 | Sociological-Theory-Skills | depth | 2026-06-22 | stated |
@@ -207,7 +201,6 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | CHI-Skills | depth | 2026-07-08 | stated |
 | CIKM-Skills | depth | 2026-07-08 | stated |
 | COLM-Skills | depth | 2026-07-08 | stated |
-| COLT-Skills | depth | 2026-07-08 | stated |
 | CSCW-Skills | depth | 2026-07-08 | stated |
 | CVPR-Skills | depth | 2026-07-08 | stated |
 | China-Industrial-Economics-Skills | depth | 2026-07-08 | inferred |
@@ -254,11 +247,9 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | ATC-Skills | depth | 2026-07-09 | stated |
 | Acta-Automatica-Sinica-Skills | depth | 2026-07-09 | inferred |
 | Acta-Electronica-Sinica-Skills | depth | 2026-07-09 | inferred |
-| CAV-Skills | depth | 2026-07-09 | stated |
 | Chinese-Journal-of-Computers-Skills | depth | 2026-07-09 | inferred |
 | CoNEXT-Skills | depth | 2026-07-09 | stated |
 | Computer-Science-Journal-Skills | depth | 2026-07-09 | inferred |
-| DAC-Skills | depth | 2026-07-09 | stated |
 | EACL-Skills | depth | 2026-07-09 | stated |
 | ECAI-Skills | depth | 2026-07-09 | stated |
 | EDBT-Skills | depth | 2026-07-09 | stated |
@@ -285,7 +276,6 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | Journal-on-Communications-Skills | depth | 2026-07-09 | inferred |
 | MobiCom-Skills | depth | 2026-07-09 | stated |
 | MobiSys-Skills | depth | 2026-07-09 | stated |
-| PODC-Skills | depth | 2026-07-09 | stated |
 | PODS-Skills | depth | 2026-07-09 | stated |
 | PPoPP-Skills | depth | 2026-07-09 | stated |
 | Pattern-Recognition-and-Artificial-Intelligence-Skills | depth | 2026-07-09 | inferred |
@@ -317,3 +307,13 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | Engineering-Technology-Journal-Skills | bundle | 2026-08-09 | stated |
 | Journal-of-Management-Information-Systems-Skills | depth | 2026-08-09 | stated |
 | Journal-of-the-Association-for-Information-Systems-Skills | depth | 2026-08-09 | stated |
+| AAAI-Skills | depth | 2026-08-26 | stated |
+| AISTATS-Skills | depth | 2026-08-26 | stated |
+| CAV-Skills | depth | 2026-08-26 | stated |
+| COLT-Skills | depth | 2026-08-26 | stated |
+| DAC-Skills | depth | 2026-08-26 | stated |
+| ICLR-Skills | depth | 2026-08-26 | stated |
+| ICML-Skills | depth | 2026-08-26 | stated |
+| NeurIPS-Skills | depth | 2026-08-26 | stated |
+| PODC-Skills | depth | 2026-08-26 | stated |
+| Social-Sciences-in-China-Skills | depth | 2026-08-26 | inferred |

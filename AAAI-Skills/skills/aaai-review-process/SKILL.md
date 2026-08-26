@@ -11,10 +11,13 @@ Reopen the current review-process page and author FAQ before advising on timing 
 ## Process model
 
 - AAAI main technical track uses double-blind reviewing.
-- AAAI-26 used a two-phase review process. Phase 1 had human reviews and a non-decisional
-  AI-generated review. Papers with sufficiently negative reviews could be rejected before author
-  feedback.
-- Papers continuing to Phase 2 received additional reviews and one author feedback phase.
+- AAAI-27 uses a two-phase review process. Phase 1 allocates three reviewers — two human reviews
+  supplemented by one non-decisional AI-generated review. Papers with sufficiently negative reviews
+  are rejected before author feedback (AAAI-27: notified 2026-09-24).
+- Papers continuing to Phase 2 receive additional reviews, up to five in total, and one author
+  feedback phase (AAAI-27: 2026-10-19 to 10-25, final decisions 2026-11-30). Phase 2 reviewers are
+  not shown the Phase 1 reviews until they have submitted their own — so a Phase 2 review is an
+  independent read, not a reaction to the earlier ones.
 - Final decisions were made through reviewer discussion and senior program committee oversight,
   not by the AI review.
 - Author feedback is short and constrained; it is mainly for correcting misunderstandings, not

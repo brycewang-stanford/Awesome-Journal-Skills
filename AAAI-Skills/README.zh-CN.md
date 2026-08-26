@@ -1,13 +1,14 @@
 # AAAI Skills
 
 这个包为 AAAI Conference on Artificial Intelligence 主技术轨论文提供 12 个 agent skills，覆盖
-OpenReview 投稿检查、两阶段审稿、AAAI-26 AI-assisted review pilot、短 rebuttal、可复现性
+OpenReview 投稿检查、两阶段审稿、AI-assisted review pilot、短 rebuttal、可复现性
 checklist、补充材料和 camera-ready 出版准备。
 
-官方依据核验日期：2026-06-01。主要来源包括 AAAI-26 conference page、Main Technical Track
-CFP、submission instructions、review process、supplementary-material rules、author policies、
-rebuttal FAQ、AI-assisted review FAQ 和 publication/attendance rules。详见
-`resources/official-source-map.md`。
+官方依据核验日期：2026-08-26，已锚定到 **AAAI-27**（第 41 届，2027 年 2 月 16-23 日，蒙特利尔）。
+主要来源包括 AAAI-27 conference page、Main Technical Track CFP、submission instructions、
+review process、supplementary-material rules、author policies 和 publication/attendance rules。
+其中 rebuttal FAQ 与 AI-assisted review pilot FAQ 两项仍取自 AAAI-26——AAAI-27 尚未发布对应页面，
+source map 在对应行已注明。详见 `resources/official-source-map.md`。
 
 ## Skills
 
@@ -27,6 +28,7 @@ rebuttal FAQ、AI-assisted review FAQ 和 publication/attendance rules。详见
 ## 维护原则
 
 - deadline、模板、页数、rebuttal、supplement 和 camera-ready 细节必须重新打开当年官方页面核验。
-- AAAI-26 信息只作为已核验锚点，不当作永久规则。
+- 已结束届次的信息只作为已核验锚点，不当作永久规则；本包锚定在哪一届由
+  `tools/cycle_audit.py` 报告。
 - 如果 AAAI 页面之间出现日期或规则冲突，以最新 Author Kit 或 chairs 直接通知为准，并记录冲突。
 

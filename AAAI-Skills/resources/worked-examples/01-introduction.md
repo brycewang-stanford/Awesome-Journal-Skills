@@ -14,7 +14,8 @@ evidence appear on the first page**, that the work reads to a broad AI program c
 benchmark community), and that claims stay aligned with reproducibility and supplementary evidence and
 avoid unsupported "human-level" / "general" / "safe" wording.
 
-The AAAI proceedings are page-limited (AAAI-26: 7 pages of technical content; see
+The AAAI proceedings are page-limited (AAAI-27: 7 pages of non-reference content within a 9-page
+maximum; see
 [`../official-source-map.md`](../official-source-map.md)), so the abstract and intro must carry the
 contribution **compactly** — no long literature catalogue, no method name as the lead.
 

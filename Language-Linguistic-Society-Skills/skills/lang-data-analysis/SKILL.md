@@ -67,6 +67,28 @@ refits a mixed-effects model with by-speaker and by-word random intercepts and s
 estimate (an illustrative 12 ms, 95% CI ~4–20), and notes two speakers who show no effect — turning a
 fragile claim into a credible, bounded one.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+*Language* asks for a **properly specified model**, which is a claim about a fitted object,
+not about a paragraph. Fit it and report from it. Full map:
+[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Mixed-effects:** `mixed` (continuous responses) and `melogit` / `meglm` (binary and
+  categorical ones) carry the crossed by-subject and by-item structure the design justifies;
+  `icc` states how much clustering there actually is, which is the number a reviewer needs
+  when the sample's non-independence is the objection.
+- **Uncertainty:** `bootstrap` for intervals where the asymptotics are thin — small
+  fieldwork samples and unbalanced cells, both routine here.
+- **Multiple comparisons:** `holm` or `benjamini_hochberg` across a family of contrasts.
+  A typological or corpus paper testing many predictors at once needs this stated, not
+  assumed.
+- **Reporting:** `etable` / `margins` so the effect sizes and intervals in the prose are
+  the fitted ones.
+
+Where a server is not connected, adapt the `../../resources/code/` skeleton and say so —
+never report a number you did not compute. This bridge touches the quantitative strand
+only; analytic and historical arguments are made from the glossed examples themselves.
+
 ## Anti-patterns
 
 - Treating repeated measures as independent (pseudoreplication); stars-only reporting

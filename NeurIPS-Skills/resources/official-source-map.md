@@ -2,6 +2,12 @@
 
 Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
+**Edition status, checked 2026-08-26.** `neurips.cc/Conferences/2027` returns 404
+and `neurips.cc/Conferences/2026` is live: **NeurIPS 2026 is the current, not-yet-met
+edition** (the conference runs in December 2026). The anchor below is the open cycle, and the
+`cycle_audit.py` dashboard lists this pack as `due` only because this file states no month
+alongside the edition year, not because the edition has passed.
+
 This source map records the official pages used for the NeurIPS depth-pack facts. NeurIPS policies
 change every cycle; use this as a verified 2026 baseline, then reopen the current live CFP and
 handbook before giving submission-ready advice.

@@ -5,9 +5,12 @@ description: Use when strengthening an AAAI paper's reproducibility checklist (p
 
 # AAAI Reproducibility
 
-Use this when a draft needs to survive AAAI review on rigor, not just novelty. AAAI-26 required a
-reproducibility checklist after references, so the checklist must agree with the paper and
-supplement rather than read as an afterthought.
+Use this when a draft needs to survive AAAI review on rigor, not just novelty. AAAI-27 requires the
+reproducibility checklist to be **uploaded separately** from the main PDF, in its own field on the
+submission form (AAAI-26 carried it inside the PDF after the references) — so it is a document a
+reviewer opens on its own, and it has to agree with the paper and supplement rather than read as an
+afterthought. AAAI-27 also states that reviewers assess reproducibility from what was actually
+submitted, and that material promised "after acceptance or publication" is not evidence it exists.
 
 ## Reproducibility audit
 

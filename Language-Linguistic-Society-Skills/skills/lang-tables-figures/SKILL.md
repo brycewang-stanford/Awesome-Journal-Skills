@@ -74,6 +74,19 @@ a paper presents a key portmanteau affix with a mismatched gloss line and undefi
 re-aligns the morphemes, glosses the portmanteau with `.` (e.g., `3SG.PST`), adds the abbreviation list,
 and promotes the by-speaker variation from a coefficient table to a figure with alt text.
 
+## Execution bridge (StatsPAI / Stata MCP)
+
+Numbered examples, glosses and tableaux are typeset by hand and stay that way. The
+**quantitative** exhibits should not be. Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+
+- **Model tables:** `etable` from the fitted `result_id`, so the coefficients in a table
+  and the effect sizes in the prose cannot drift apart between revisions.
+- **Predicted values:** `margins_at_plot` / `marginsplot` for interaction and
+  by-condition figures, with the interval and the response scale carried from the model
+  rather than redrawn by eye.
+- **Every caption** names the model class and the random-effects structure — a
+  double-anonymous reviewer across subfields reads the caption before the method section.
+
 ## Anti-patterns
 
 - Gloss lines whose morpheme count does not match the object line

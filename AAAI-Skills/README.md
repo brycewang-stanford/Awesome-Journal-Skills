@@ -1,13 +1,15 @@
 # AAAI Skills
 
 Twelve agent skills for AAAI Conference on Artificial Intelligence main technical track papers. The
-pack focuses on OpenReview submission readiness, two-phase review, the AAAI-26 AI-assisted review
-pilot, short author rebuttals, reproducibility checklists, supplementary files, and camera-ready
+pack focuses on OpenReview submission readiness, two-phase review, the AI-assisted review pilot,
+short author rebuttals, reproducibility checklists, supplementary files, and camera-ready
 publication.
 
-Official basis checked on 2026-06-01: AAAI-26 conference page, Main Technical Track CFP,
-submission instructions, review process, supplementary-material rules, author policies, rebuttal
-FAQ, AI-assisted review FAQ, and publication/attendance rules. See
+Official basis checked on 2026-08-26 and anchored to **AAAI-27** (41st, February 16-23, 2027,
+Montréal): AAAI-27 conference page, Main Technical Track CFP, submission instructions, review
+process, supplementary-material rules, author policies, and publication/attendance rules. Two facts
+still come from AAAI-26 because AAAI-27 has published no replacement — the rebuttal FAQ and the
+AI-assisted review pilot FAQ — and the source map says so on their rows. See
 `resources/official-source-map.md` for the exact source map.
 
 ## Skills
@@ -34,7 +36,8 @@ FAQ, AI-assisted review FAQ, and publication/attendance rules. See
 ## Maintenance notes
 
 - Reopen current-cycle official sources before deadline-sensitive advice.
-- Treat AAAI-26 facts as historical anchors, not permanent rules.
+- Treat a closed cycle's facts as historical anchors, not permanent rules. `tools/cycle_audit.py`
+  reports which edition this pack's source map is anchored to.
 - AAAI pages can expose conflicting date variants across snapshots; use the newest Author Kit or
   direct chair communication as the controlling source.
 
