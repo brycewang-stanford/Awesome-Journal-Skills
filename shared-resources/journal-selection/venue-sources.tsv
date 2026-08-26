@@ -76,18 +76,28 @@ nature-communications	crossref	2041-1723	2041-1723	Nature Communications	91714	c
 new-media-and-society	crossref	1461-4448	1461-4448;1461-7315	New Media & Society	3892	crossref-issn
 public-opinion-quarterly	crossref	0033-362X	0033-362X;1537-5331	Public Opinion Quarterly	7506	crossref-title
 criminology	crossref	1745-9125	0011-1384;1745-9125	Criminology	2535	crossref-issn
+aaai-acm-conference-on-ai-ethics-and-society	dblp	conf/aies		AAAI/ACM Conference on AI, Ethics, and Society (AIES)	0	dblp-venue
 aaai-conference-on-human-computation-and-crowdsourcing	dblp	conf/hcomp		AAAI Conference on Human Computation and Crowdsourcing (HCOMP)	0	dblp-venue
+acm-conext	dblp	conf/conext		Conference on Emerging Network Experiment and Technology (CoNEXT)	0	override
 acm-conference-on-designing-interactive-systems	dblp	conf/ACMdis		Conference on Designing Interactive Systems (DIS)	0	dblp-core-name
 acm-conference-on-fairness-accountability-and-transparency	dblp	conf/fat		ACM Conference on Fairness, Accountability and Transparency (FAccT)	0	dblp-venue
 acm-conference-on-intelligent-user-interfaces	dblp	conf/iui		International Conference on Intelligent User Interfaces (IUI)	0	dblp-core-name
 acm-conference-on-recommender-systems	dblp	conf/recsys		ACM Conference on Recommender Systems (RecSys)	0	dblp-venue
 acm-ieee-international-conference-on-model-driven-engineering-languages-and-systems	dblp	conf/models		ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MoDELS)	0	dblp-venue
+acm-ieee-joint-conference-on-digital-libraries	dblp	conf/jcdl		ACM/IEEE Joint Conference on Digital Libraries (JCDL)	0	dblp-venue
+acm-ieee-symposium-on-logic-in-computer-science	dblp	conf/lics		ACM/IEEE Symposium on Logic in Computer Science (LICS)	0	dblp-venue
 acm-international-conference-on-multimedia-retrieval	dblp	conf/mir		International Conference on Multimedia Retrieval (ICMR)	0	dblp-core-name
 acm-international-joint-conference-on-pervasive-and-ubiquitous-computing	dblp	conf/huc		ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)	0	dblp-venue
 acm-international-symposium-on-high-performance-parallel-and-distributed-computing	dblp	conf/hpdc		International Symposium on High-Performance Parallel Distributed Computing (HPDC)	0	dblp-core-name
+acm-mobicom	dblp	conf/mobicom		Annual International Conference on Mobile Computing and Networking (MobiCom)	0	dblp-org-acronym
+acm-mobisys	dblp	conf/mobisys		ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services (MobiSys)	0	dblp-org-acronym
 acm-sigaccess-conference-on-computers-and-accessibility	dblp	conf/assets		International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)	0	dblp-generic-prefix
+acm-sigcomm	dblp	conf/sigcomm		ACM SIGCOMM Conference (SIGCOMM)	0	dblp-org-acronym
+acm-siggraph	dblp	conf/siggraph		International Conference on Computer Graphics and Interactive Techniques (SIGGRAPH)	0	dblp-org-acronym
+acm-siggraph-asia	dblp	conf/siggrapha		ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia (SIGGRAPH Asia)	0	dblp-org-acronym
 acm-sigir-conference-on-research-and-development-in-information-retrieval	dblp	conf/sigir		Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)	0	dblp-generic-prefix
 acm-sigmetrics	dblp	conf/sigmetrics		International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)	0	dblp-org-acronym
+acm-sigmod-international-conference-on-management-of-data	dblp	conf/sigmod		ACM SIGMOD Conference (SIGMOD)	0	override
 acm-sigplan-international-conference-on-functional-programming	dblp	conf/icfp		ACM SIGPLAN International Conference on Functional Programming (ICFP)	0	dblp-venue
 acm-symposium-on-virtual-reality-software-and-technology	dblp	conf/vrst		ACM Symposium on Virtual Reality Software and Technology (VRST)	0	dblp-venue
 acm-workshop-on-hot-topics-in-networks	dblp	conf/hotnets		ACM Workshop on Hot Topics in Networks (HotNets)	0	dblp-venue
@@ -102,6 +112,7 @@ conference-on-health-inference-and-learning	dblp	conf/chil		Conference on Health
 conference-on-lifelong-learning-agents	dblp	conf/collas		Conference on Lifelong Learning Agents (CoLLAs)	0	dblp-venue
 european-symposium-on-research-in-computer-security	dblp	conf/esorics		European Symposium on Research in Computer Security (ESORICS)	0	dblp-venue
 ieee-conference-on-virtual-reality-and-3d-user-interfaces	dblp	conf/vr		IEEE Conference on Virtual Reality and 3D User Interfaces (VR)	0	dblp-venue
+ieee-infocom	dblp	conf/infocom		IEEE Conference on Computer Communications (INFOCOM)	0	dblp-org-acronym
 ieee-international-conference-on-software-analysis-evolution-and-reengineering	dblp	conf/saner		IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)	0	dblp-venue
 ieee-international-requirements-engineering-conference	dblp	conf/re		IEEE International Requirements Engineering Conference (RE)	0	dblp-venue
 ieee-international-symposium-on-biomedical-imaging	dblp	conf/isbi		IEEE International Symposium on Biomedical Imaging (ISBI)	0	dblp-venue
@@ -145,12 +156,15 @@ aamas	dblp	conf/ifaamas		International Conference on Autonomous Agents and Multi
 acl	dblp	conf/acl		Annual Meeting of the Association for Computational Linguistics (ACL)	0	dblp-acronym
 acm-ccs	dblp	conf/ccs		Annual ACM Conference on Computer and Communications Security (CCS)	0	dblp-org-acronym
 acm-mm	dblp	conf/mm		ACM International Conference on Multimedia (MM)	0	dblp-org-acronym
+aistats	dblp	conf/aistats		International Conference on Artificial Intelligence and Statistics (AISTATS)	0	dblp-acronym
 ase	dblp	conf/kbse		International Conference on Automated Software Engineering (ASE)	0	dblp-acronym
 asplos	dblp	conf/asplos		International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)	0	dblp-acronym
+atc	dblp	conf/usenix		USENIX Annual Technical Conference (USENIX ATC)	0	override
 cav	dblp	conf/cav		International Conference on Computer Aided Verification (CAV)	0	dblp-acronym
 chi	dblp	conf/chi		ACM Conference on Human Factors in Computing Systems (CHI)	0	dblp-acronym
 cikm	dblp	conf/cikm		International Conference on Information and Knowledge Management (CIKM)	0	dblp-acronym
 colt	dblp	conf/colt		Annual Conference Computational Learning Theory (COLT)	0	dblp-acronym
+conext	dblp	conf/conext		Conference on Emerging Network Experiment and Technology (CoNEXT)	0	override
 corl	dblp	conf/corl		Conference on Robot Learning (CoRL)	0	dblp-acronym
 cscw	dblp	conf/cscw		Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)	0	dblp-acronym
 cvpr	dblp	conf/cvpr		IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)	0	dblp-acronym
@@ -165,7 +179,7 @@ facct	dblp	conf/fat		ACM Conference on Fairness, Accountability and Transparency
 fast	dblp	conf/fast		USENIX Conference on File and Storage Technologies (FAST)	0	dblp-acronym
 focs	dblp	conf/focs		IEEE Annual Symposium on Foundations of Computer Science (FOCS)	0	dblp-acronym
 fse	dblp	conf/sigsoft		ACM SIGSOFT Conference on the Foundations of Software Engineering (FSE)	0	dblp-acronym
-hpca	dblp	conf/cnhpca		High Performance Computing and Applications (HPCA)	0	dblp-acronym
+hpca	dblp	conf/hpca		International Symposium on High-Performance Computer Architecture (HPCA)	0	dblp-acronym
 hri	dblp	conf/hri		IEEE/ACM International Conference on Human-Robot Interaction (HRI)	0	dblp-acronym
 icalp	dblp	conf/icalp		International Colloquium on Automata, Languages and Programming (ICALP)	0	dblp-acronym
 icassp	dblp	conf/icassp		IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)	0	dblp-acronym
@@ -179,6 +193,7 @@ icra	dblp	conf/icra		IEEE International Conference on Robotics and Automation (I
 icse	dblp	conf/icse		International Conference on Software Engineering (ICSE)	0	dblp-acronym
 icsme	dblp	conf/icsm		IEEE International Conference on Software Maintenance and Evolution (ICSME)	0	dblp-acronym
 ieee-sp	dblp	conf/sp		IEEE Symposium on Security and Privacy (SP)	0	dblp-org-acronym
+ijcai	dblp	conf/ijcai		International Joint Conference on Artificial Intelligence (IJCAI)	0	dblp-acronym
 imc	dblp	conf/imc		ACM/SIGCOMM Internet Measurement Conference (IMC)	0	dblp-acronym
 infocom	dblp	conf/infocom		IEEE Conference on Computer Communications (INFOCOM)	0	dblp-acronym
 international-semantic-web-conference	dblp	conf/semweb		International Semantic Web Conference (ISWC)	0	dblp-venue
@@ -187,22 +202,30 @@ ipsn	dblp	conf/ipsn		International Symposium on Information Processing in Sensor
 iros	dblp	conf/iros		IEEE/RJS International Conference on Intelligent RObots and Systems (IROS)	0	dblp-acronym
 isca	dblp	conf/isca		International Symposium on Computer Architecture (ISCA)	0	dblp-acronym
 issta	dblp	conf/issta		International Symposium on Software Testing and Analysis (ISSTA)	0	dblp-acronym
+itcs	dblp	conf/innovations		Innovations in Theoretical Computer Science (ITCS)	0	override
 kdd	dblp	conf/kdd		ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)	0	dblp-acronym
 micro	dblp	conf/micro		Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)	0	dblp-acronym
 mlsys	dblp	conf/mlsys		Conference on Machine Learning and Systems (MLSys)	0	dblp-acronym
 mobicom	dblp	conf/mobicom		Annual International Conference on Mobile Computing and Networking (MobiCom)	0	dblp-acronym
 mobisys	dblp	conf/mobisys		ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services (MobiSys)	0	dblp-acronym
 naacl	dblp	conf/naacl		North American Chapter of the Association for Computational Linguistics (NAACL)	0	dblp-acronym
+ndss	dblp	conf/ndss		Network and Distributed System Security Symposium (NDSS)	0	dblp-acronym
 neurips	dblp	conf/nips		Conference on Neural Information Processing Systems (NeurIPS)	0	dblp-acronym
 nsdi	dblp	conf/nsdi		Symposium on Networked Systems Design and Implementation (NSDI)	0	dblp-acronym
 oopsla	dblp	conf/oopsla		ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)	0	dblp-acronym
+osdi	dblp	conf/osdi		USENIX Symposium on Operating Systems Design and Implementation (OSDI)	0	dblp-acronym
 percom	dblp	conf/percom		Annual IEEE International Conference on Pervasive Computing and Communications (PerCom)	0	dblp-acronym
+pldi	dblp	conf/pldi		ACM-SIGPLAN Symposium on Programming Language Design and Implementation (PLDI)	0	dblp-acronym
 podc	dblp	conf/podc		ACM Symposium on Principles of Distributed Computing (PODC)	0	dblp-acronym
+pods	dblp	conf/pods		ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems (PODS)	0	dblp-acronym
+popl	dblp	conf/popl		ACM-SIGACT Symposium on Principles of Programming Languages (POPL)	0	dblp-acronym
 ppopp	dblp	conf/ppopp		ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming (PPoPP)	0	dblp-acronym
+recsys	dblp	conf/recsys		ACM Conference on Recommender Systems (RecSys)	0	dblp-acronym
 rss	dblp	conf/rss		Robotics: Science and Systems Conference (RSS)	0	dblp-acronym
 sensys	dblp	conf/sensys		ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys)	0	dblp-acronym
 sigcomm	dblp	conf/sigcomm		ACM SIGCOMM Conference (SIGCOMM)	0	dblp-acronym
 siggraph	dblp	conf/siggraph		International Conference on Computer Graphics and Interactive Techniques (SIGGRAPH)	0	dblp-acronym
+sigir	dblp	conf/sigir		Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)	0	dblp-acronym
 sigmetrics	dblp	conf/sigmetrics		International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)	0	dblp-acronym
 sigmod	dblp	conf/sigmod		ACM SIGMOD Conference (SIGMOD)	0	dblp-acronym
 socc	dblp	conf/cloud		ACM Symposium on Cloud Computing (SoCC)	0	dblp-acronym
@@ -212,6 +235,9 @@ stoc	dblp	conf/stoc		Symposium on the Theory of Computing (STOC)	0	dblp-acronym
 tacas	dblp	conf/tacas		International Conference on Tools and Algorithms for Construction and Analysis of Systems (TACAS)	0	dblp-acronym
 the-web-conference	dblp	conf/www		The Web Conference (WWW)	0	dblp-venue
 uai	dblp	conf/uai		Conference on Uncertainty in Artificial Intelligence (UAI)	0	dblp-acronym
+uist	dblp	conf/uist		ACM Symposium on User Interface Software and Technology (UIST)	0	dblp-acronym
+usenix-security	dblp	conf/uss		USENIX Security Symposium	0	override
+vis	dblp	conf/visualization		IEEE Visualization Conference (VIS)	0	override
 vldb	dblp	conf/vldb		Very Large Data Bases Conference (VLDB)	0	dblp-acronym
 wacv	dblp	conf/wacv		IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)	0	dblp-acronym
 wsdm	dblp	conf/wsdm		Web Search and Data Mining (WSDM)	0	dblp-acronym

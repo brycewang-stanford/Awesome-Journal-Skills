@@ -190,6 +190,55 @@ class TestAcronymCorroboration(unittest.TestCase):
     def test_a_breadth_profile_has_no_pack_to_read(self):
         self.assertTrue(fvt.acronym_corroborated({"pack_dir": ""}, "Anything (X)"))
 
+    def test_the_pack_writing_the_name_out_outranks_any_word_overlap(self):
+        # Bag overlap saturates. Every word of *Information Technology and Computer
+        # Science* appears somewhere in `ITCS-Skills` — it warns its reader off that
+        # conference by name — and so does every word of the one it means. Only one of
+        # the two is written there as a phrase.
+        pack = ("innovations in theoretical computer science itcs is the venue this "
+                "pack covers not information technology and computer science")
+        with unittest.mock.patch.object(fvt, "pack_title_text",
+                                        lambda v: fvt.norm_name(pack)):
+            named, _ = fvt.corroboration({}, "Innovations in Theoretical Computer "
+                                             "Science (ITCS)")
+            other, _ = fvt.corroboration({}, "Information Technology Convergence and "
+                                             "Services (ITCS)")
+        self.assertGreater(named, other)
+
+    def test_the_score_is_returned_so_two_passing_candidates_can_be_ranked(self):
+        with unittest.mock.patch.object(fvt, "pack_title_text",
+                                        lambda v: "storage systems file"):
+            self.assertEqual(fvt.corroboration({}, "File and Storage (X)"), (2, 2))
+
+
+class TestSourceOverrides(unittest.TestCase):
+    """Hand-verified mappings for venues no exact rule can reach."""
+
+    def test_an_override_is_taken_before_any_lookup(self):
+        # It must not depend on the network, and it must not be second-guessed.
+        with unittest.mock.patch.object(
+                fvt, "crossref_journal",
+                lambda *a: self.fail("an override must not reach a registry")), \
+             unittest.mock.patch.object(
+                fvt, "dblp_conference",
+                lambda *a: self.fail("an override must not reach a registry")):
+            found = fvt.resolve_one(
+                {"venue_id": "atc", "display_name": "ATC", "venue_type": "conference",
+                 "region": "international"}, set(), False)
+        self.assertEqual((found["provider"], found["key"], found["rule"]),
+                         ("dblp", "conf/usenix", "override"))
+
+    def test_every_override_names_the_source_it_claims(self):
+        # An entry is a claim that someone opened the page; a blank name is not one.
+        for venue_id, (provider, key, name) in fvt.SOURCE_OVERRIDES.items():
+            self.assertIn(provider, fvt.HARVESTABLE, venue_id)
+            self.assertTrue(key.strip(), venue_id)
+            self.assertTrue(name.strip(), venue_id)
+
+    def test_every_override_names_a_venue_the_index_holds(self):
+        known = {v["venue_id"] for v in fvt.load_index()}
+        self.assertEqual(sorted(set(fvt.SOURCE_OVERRIDES) - known), [])
+
 
 class TestCrossrefAliasGuard(unittest.TestCase):
     """An alternate title that is another venue's *name* is that venue's, not an alias."""

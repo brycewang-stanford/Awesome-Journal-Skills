@@ -55,8 +55,8 @@ measurement from its rarity among editorial prose.
 
 Three things follow that a reader should hold on to:
 
-- **Not every venue has one.** As committed, the subject vocabulary reaches 568 of the
-  744 venues — 97% of the international journals, 72% of the conference series, and
+- **Not every venue has one.** As committed, the subject vocabulary reaches 597 of the
+  744 venues — 97% of the international journals, 86% of the conference series, and
   **none** of the 105 Chinese-language journals, because neither registry indexes them
   under a title that identifies them. Resolution is exact or it does not happen, so
   those venues compete on prose alone against neighbours that have both, which is a

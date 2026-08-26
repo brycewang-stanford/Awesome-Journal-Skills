@@ -38,11 +38,11 @@ combined.
   TF-IDF vocabulary is derived from the titles of its own recent articles. `match_lib`
   loads it beside the scope index and merges the two; document frequency is computed per
   file, because a term's rarity among published titles is a different measurement from
-  its rarity among editorial prose. **Held-out `test` half: R@10 46.7% → 62.0%,
-  R@1 18.1% → 23.2%, MRR 0.269 → 0.359, and any-rank 85.0% → 95.0%** —
+  its rarity among editorial prose. **Held-out `test` half: R@10 46.7% → 65.3%,
+  R@1 18.1% → 24.4%, MRR 0.269 → 0.374, and any-rank 85.0% → 96.2%** —
   the last number is the one that matters, because it is coverage rather than ranking:
   a seventh of the gold set had been unreachable at any depth. `wrong-lane@10` falls
-  6.7% → 4.3% at the same time, which is the direction a *subject* vocabulary
+  6.7% → 4.2% at the same time, which is the direction a *subject* vocabulary
   should move it. `eval/RESULTS.md` now prints the scope-only configuration beside the
   headline so the contribution stays visible rather than being absorbed into it.
 - **`audit_repo.check_documented_counts`** — pins every count written into the

@@ -105,16 +105,16 @@ def main(argv: list[str]) -> int:
         ["python3", "tools/fetch_venue_topics.py", "--check"],
         # Retrieval floor: an index or matcher regression fails the build instead of
         # quietly degrading every venue recommendation. Measured on the gold set's
-        # held-out `test` half, and set a few points below the current headline (62.0%)
+        # held-out `test` half, and set a few points below the current headline (65.3%)
         # so normal content churn does not trip it. Raise it when the headline rises.
         #
         # It also now guards something the headline alone would not. Roughly half of that
         # figure comes from `topic-postings.tsv`, which is harvested over the network and
         # committed; a truncated or half-finished harvest would leave the file valid, the
-        # digest correct, and the recommendations quietly a third worse. A floor at 0.58
+        # digest correct, and the recommendations quietly a third worse. A floor at 0.60
         # is above anything the scope index can reach on its own (46.7%), so a build that
         # passes it has a subject vocabulary that actually arrived.
-        ["python3", "tools/eval_journal_match.py", "--min-recall-at-10", "0.58"],
+        ["python3", "tools/eval_journal_match.py", "--min-recall-at-10", "0.60"],
     ]
     if not args.skip_diff_check:
         hard_checks.append(["git", "diff", "--check"])

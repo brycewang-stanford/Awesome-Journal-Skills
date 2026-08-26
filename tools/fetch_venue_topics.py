@@ -144,6 +144,30 @@ SOURCE_COLUMNS = ["venue_id", "provider", "source_key", "issns", "source_name",
 
 # A provider value that means "a candidate was found and rejected". See `issn_veto`.
 REFUSED = "refused"
+
+# Venues no exact rule can reach, resolved by hand and verified against DBLP on
+# 2026-08-27. Each is here because automatic resolution is either impossible or wrong,
+# never merely absent — an entry is a claim that someone opened the page.
+#
+# The rules below cannot get these because the index writes an acronym and DBLP writes
+# something with no word in common ("ATC" against "USENIX Annual Technical Conference"),
+# or because two real conferences share the acronym and the pack's own prose names both
+# — `ITCS-Skills` warns its reader off *Information Technology and Computer Science*, so
+# the phrase test finds that name in the pack as readily as its own.
+SOURCE_OVERRIDES: dict[str, tuple[str, str, str]] = {
+    # venue_id: (provider, key, the name that key resolves to on the provider)
+    "atc": ("dblp", "conf/usenix", "USENIX Annual Technical Conference (USENIX ATC)"),
+    "vis": ("dblp", "conf/visualization", "IEEE Visualization Conference (VIS)"),
+    "usenix-security": ("dblp", "conf/uss", "USENIX Security Symposium"),
+    "itcs": ("dblp", "conf/innovations",
+             "Innovations in Theoretical Computer Science (ITCS)"),
+    "conext": ("dblp", "conf/conext",
+               "Conference on Emerging Network Experiment and Technology (CoNEXT)"),
+    "acm-conext": ("dblp", "conf/conext",
+                   "Conference on Emerging Network Experiment and Technology (CoNEXT)"),
+    "acm-sigmod-international-conference-on-management-of-data":
+        ("dblp", "conf/sigmod", "ACM SIGMOD Conference (SIGMOD)"),
+}
 HARVESTABLE = ("crossref", "dblp", "openalex")
 
 # How many published titles to read per venue. Measured on the dev half at the pilot
@@ -575,13 +599,28 @@ _EMPTY_WORDS = {"conference", "symposium", "workshop", "international", "annual"
 # How many content words of a DBLP venue's full name must also appear in the pack's own
 # description before a bare-acronym match is believed.
 _CORROBORATING_WORDS = 2
+# The score for "the pack writes this venue's name out in full", which outranks any
+# amount of word overlap.
+_NAMED = 1000
+# How much each rule is trusted, so a full-name match is never displaced by an acronym.
+_RULE_STRENGTH = {"dblp-venue": 3, "dblp-generic-prefix": 2, "dblp-core-name": 2,
+                  "dblp-org-acronym": 1, "dblp-acronym": 1}
 
 
 def pack_title_text(venue: dict) -> str:
-    """The pack's own words about which venue it is: plugin description + README head.
+    """The repository's own words about which venue this row is, and only this row.
 
-    Only depth packs have this, and it is exactly what a bare acronym lacks.
+    For a breadth profile that is the venue's own `SKILL.md`; for a depth pack it is the
+    plugin description plus the README head. The distinction matters: a breadth row's
+    `pack_dir` is the *bundle* it lives in, whose README describes 155 conferences and
+    says nothing in particular about any of them — reading that instead refused
+    `acm-sigcomm` for want of the word "SIGCOMM".
     """
+    profile = venue.get("profile_path")
+    if profile:
+        path = ROOT / profile
+        if path.exists():
+            return norm_name(path.read_text(encoding="utf-8", errors="replace")[:1200])
     pack = venue.get("pack_dir")
     if not pack:
         return ""
@@ -591,37 +630,57 @@ def pack_title_text(venue: dict) -> str:
         parts.append(json.loads(plugin.read_text(encoding="utf-8")).get("description", ""))
     except (OSError, ValueError):
         pass
-    readme = ROOT / pack / "README.md"
-    if readme.exists():
-        parts.append(readme.read_text(encoding="utf-8", errors="replace")[:600])
+    # The source map is included because it is the one file guaranteed to spell the
+    # venue out: a depth pack's README and plugin description are written about the
+    # *process* and can go six hundred words without naming the conference in full.
+    # `IJCAI-Skills` is exactly that — its opening never says "artificial intelligence".
+    for name, limit in (("README.md", 1200), ("resources/official-source-map.md", 4000)):
+        path = ROOT / pack / name
+        if path.exists():
+            parts.append(path.read_text(encoding="utf-8", errors="replace")[:limit])
     return norm_name(" ".join(parts))
 
 
-def acronym_corroborated(venue: dict, dblp_name: str) -> bool:
-    """Does the pack's own description agree that this is the conference it means?
+def corroboration(venue: dict, dblp_name: str) -> tuple[int, int]:
+    """(content words of `dblp_name` the pack also uses, how many are required).
 
     An acronym is not an identifier. `FAST-Skills` is the USENIX Conference on File and
     Storage Technologies; DBLP's first venue hit for "FAST" is *Formal Aspects in
-    Security and Trust*, and the acronym rule took it — handing a storage pack a
-    security conference's subject vocabulary. The pack's own first paragraph says what it
-    is, so the acronym match is only believed when the candidate's full name overlaps it.
+    Security and Trust*, and the acronym rule took it — handing a storage pack a security
+    conference's subject vocabulary. What the repository does know is what the pack says
+    about itself, so a bare-acronym match has to overlap that.
 
-    A pack with no description of its own is accepted: silence is not disagreement.
+    The count is returned rather than a verdict because "does it pass" is the wrong
+    question when two candidates both do. Searching DBLP for `ITCS` offers *Information
+    Technology Convergence and Services* and *Innovations in Theoretical Computer
+    Science*, and a first-past-the-post rule takes whichever DBLP ranked first.
+
+    A pack with nothing to say about itself, or a candidate whose name is all
+    organisation words, corroborates trivially: silence is not disagreement.
     """
     text = pack_title_text(venue)
-    if not text:
-        return True
-    bare = re.sub(r"\s*\([^()]*\)\s*$", "", dblp_name)
-    words = [w for w in norm_name(bare).split()
-             if len(w) > 3 and w not in _EMPTY_WORDS]
-    if not words:
-        return True
+    bare = norm_name(re.sub(r"\s*\([^()]*\)\s*$", "", dblp_name))
+    words = [w for w in bare.split() if len(w) > 3 and w not in _EMPTY_WORDS]
+    if not text or not words:
+        return (_NAMED, 0)
+    haystack = f" {text} "
+    # The pack writing the candidate's name out in full settles it, and nothing else
+    # does. Bag overlap saturates: every word of *Information Technology Convergence and
+    # Services* appears somewhere in `ITCS-Skills`, and so does every word of
+    # *Innovations in Theoretical Computer Science*, which is the conference it means.
+    # Only one of the two is written there as a phrase.
+    if bare and f" {bare} " in haystack:
+        return (_NAMED, 0)
     # A name that *is* its acronym ("ACM SIGMOD Conference") leaves one content word,
     # and demanding two of one is a rejection dressed as a rule. Ask for all of what
     # there is, up to the threshold.
-    haystack = f" {text} "
     need = min(_CORROBORATING_WORDS, len(words))
-    return sum(1 for w in words if f" {w} " in haystack) >= need
+    return (sum(1 for w in words if f" {w} " in haystack), need)
+
+
+def acronym_corroborated(venue: dict, dblp_name: str) -> bool:
+    matched, need = corroboration(venue, dblp_name)
+    return matched >= need
 
 
 def dblp_conference(name: str, venue: dict | None = None) -> dict | None:
@@ -633,23 +692,32 @@ def dblp_conference(name: str, venue: dict | None = None) -> dict | None:
         return None
     hits = payload.get("result", {}).get("hits", {}).get("hit") or []
     target = norm_name(name)
+    candidates = []
     for hit in hits:
         info = hit.get("info", {})
         venue_name = info.get("venue") or ""
         rule = _dblp_rules(target, venue_name, info.get("acronym") or "")
         if not rule:
             continue
-        # Only the acronym rules are weak enough to need corroboration; the others
-        # already matched on the venue's full name.
-        if (venue is not None and rule in ("dblp-acronym", "dblp-org-acronym")
-                and not acronym_corroborated(venue, venue_name)):
-            continue
         match = re.search(r"/db/(conf/[^/]+)", info.get("url") or "")
         if not match:
             continue
-        return {"provider": "dblp", "key": match.group(1), "name": venue_name,
-                "works": 0, "rule": rule}
-    return None
+        matched, need = ((1, 0) if venue is None
+                         else corroboration(venue, venue_name))
+        # Only the acronym rules are weak enough to need corroboration; the others
+        # already matched on the venue's full name.
+        if rule in ("dblp-acronym", "dblp-org-acronym") and matched < need:
+            continue
+        candidates.append((_RULE_STRENGTH[rule], matched, len(candidates), rule,
+                           match.group(1), venue_name))
+    if not candidates:
+        return None
+    # Strongest rule first, then best corroborated, then DBLP's own order as the
+    # tie-break so the result is reproducible.
+    candidates.sort(key=lambda c: (-c[0], -c[1], c[2]))
+    _, _, _, rule, key, venue_name = candidates[0]
+    return {"provider": "dblp", "key": key, "name": venue_name,
+            "works": 0, "rule": rule}
 
 
 def openalex_source(name: str, taken_names: set[str]) -> dict | None:
@@ -693,6 +761,12 @@ def resolve_one(venue: dict, taken: set[str], use_openalex: bool) -> dict | None
     others = taken - {norm_name(name)}
     order = ((dblp_conference, crossref_journal) if venue["venue_type"] == "conference"
              else (crossref_journal, dblp_conference))
+    override = SOURCE_OVERRIDES.get(venue["venue_id"])
+    if override:
+        provider, key, source_name = override
+        return {"provider": provider, "key": key, "issns": [], "name": source_name,
+                "works": 0, "rule": "override"}
+
     # An ISSN the pack states beats every name rule below it, and settles the region
     # question at the same time: a Chinese serial Crossref actually registers is not a
     # translated-name guess, it is that serial.
