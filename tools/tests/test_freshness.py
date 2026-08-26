@@ -60,6 +60,20 @@ class TestLastVerified(unittest.TestCase):
         # as a verification date would make the stalest pack look like the freshest.
         self.assertEqual(last_verified("Accessed 2027-01-01.", TODAY), (None, "none"))
 
+    def test_tomorrows_date_is_a_time_zone_not_a_typo(self):
+        # "Today" is not one date. A source map re-read in UTC+8 carries a date the UTC
+        # runner has not reached yet, and rejecting it made the generated dashboard
+        # rebuild differently on the two machines — a byte-checked artefact that failed
+        # for eight hours a day. This is what a live-check pass on 2026-08-27 did to CI
+        # running on 08-26.
+        tomorrow = (TODAY + dt.timedelta(days=1)).isoformat()
+        self.assertEqual(last_verified(f"Accessed {tomorrow}.", TODAY),
+                         (TODAY + dt.timedelta(days=1), "stated"))
+
+    def test_the_allowance_is_a_day_and_not_a_week(self):
+        later = (TODAY + dt.timedelta(days=2)).isoformat()
+        self.assertEqual(last_verified(f"Accessed {later}.", TODAY), (None, "none"))
+
     def test_a_future_date_does_not_hide_a_real_one(self):
         text = "Deadline 2027-01-01. Accessed 2026-06-01."
         self.assertEqual(last_verified(text, TODAY), (dt.date(2026, 6, 1), "stated"))

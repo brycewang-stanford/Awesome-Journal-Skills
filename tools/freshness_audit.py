@@ -56,14 +56,24 @@ def parse_date(value: str) -> dt.date | None:
         return None
 
 
+# A date later than this is a typo or a copied template, not a check that happened.
+# The allowance is a day rather than zero because "today" is not one date: a source map
+# re-read in UTC+8 carries a date the UTC runner has not reached yet, and with a zero
+# allowance the dashboard rebuilds differently on the two machines — which turns a
+# byte-checked generated file into a check that fails for eight hours a day. That is not
+# hypothetical; it is what a live-check pass on 2026-08-27 did to CI running on 08-26.
+FUTURE_ALLOWANCE = dt.timedelta(days=1)
+
+
 def last_verified(text: str, today: dt.date) -> tuple[dt.date | None, str]:
     """(date, provenance) where provenance is 'stated' | 'inferred' | 'none'."""
+    ceiling = today + FUTURE_ALLOWANCE
     stated = [parse_date(m.group(2)) for m in VERIFY_CONTEXT.finditer(text)]
-    stated = [d for d in stated if d and d <= today]
+    stated = [d for d in stated if d and d <= ceiling]
     if stated:
         return max(stated), "stated"
     loose = [parse_date(d) for d in ISO.findall(text)]
-    loose = [d for d in loose if d and d <= today]
+    loose = [d for d in loose if d and d <= ceiling]
     if loose:
         return max(loose), "inferred"
     return None, "none"
