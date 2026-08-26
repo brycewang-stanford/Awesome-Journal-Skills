@@ -27,8 +27,14 @@ Free sources only, by venue type
   DBLP is the only free source that models a conference *series* as one thing.
 * **OpenAlex is opt-in** (``--source openalex``), on the same reasoning as
   ``fetch_abstracts.py``: it bills per request, and spending money is the maintainer's
-  decision. It is worth the money for Chinese-language journals, which neither free
-  source indexes well.
+  decision.
+
+**The 105 Chinese-language journals have no subject vocabulary and cannot get one this
+way.** That is a measurement, not an assumption: 28 of them state an ISSN in their own
+pack, and Crossref's journal endpoint knows **none** of the 28 — these venues do not
+deposit article-level DOIs. Neither does DBLP index them. Closing the gap means reading
+the journals' own sites (magtech, SUFE, CNKI-hosted, and several bespoke platforms), which
+is a different tool from this one. Do not spend another pass re-asking Crossref.
 
 Resolution is exact or it does not happen
 -----------------------------------------
