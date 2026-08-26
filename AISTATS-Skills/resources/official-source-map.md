@@ -2,11 +2,20 @@
 
 Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
-**Edition status, checked 2026-08-26.** `aistats.org/aistats2027/` returns 404 and
+**Edition status, checked 2026-08-27.** `aistats.org/aistats2027/` still returns 404 and
 `aistats.org/aistats2026/` is the newest edition page AISTATS has published, so the
 AISTATS 2026 anchor below is the latest available rather than a superseded one. AISTATS
-2026 has already met; treat its dates as historical and its rules as the most recent stated
-ones, and re-check whether a later edition page has appeared before advising on a deadline.
+2026 has already met — the 29th, Tangier, Morocco, May 2-5, 2026, in person — so treat its
+dates as historical and its rules as the most recent stated ones.
+
+Two details from the 2026-08-27 re-read that bear on how much to trust an absence here.
+The society's own page still says "the next meeting will be held in 2026" and stamps
+itself *last compiled 2 September 2025*; the 2026 edition page stamps itself *last
+compiled 8 January 2026*. AISTATS publishes through a static site that is rebuilt when
+someone pushes to it, so "no 2027 page" is evidence that no 2027 page has been *published*
+and not evidence that no 2027 cycle is being organised. The 2026 page also redirects all
+live business — submissions, registration, current information — to `virtual.aistats.org`,
+which is where a 2027 call would plausibly surface first.
 
 > URLs in this edition-status note are written without their `https://` scheme on
 > purpose: they are cited *because they 404*, and a link audit that queued them would

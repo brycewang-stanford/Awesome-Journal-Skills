@@ -24,7 +24,6 @@ The `edition` column is the newest year the source map states for its own venue,
 | IMC-Skills | IMC | 2026 | 10 | no | — |
 | KDD-Skills | KDD | 2026 | 8 | no | — |
 | NeurIPS-Skills | NeurIPS | 2026 | 12 | no | — |
-| PODC-Skills | PODC | 2026 | 7 | no | — |
 | RecSys-Skills | RecSys | 2026 | 9 | no | — |
 | SIGGRAPH-Skills | SIGGRAPH | 2026 | 12 | no | — |
 | SoCC-Skills | SoCC | 2026 | 11 | no | — |
@@ -77,6 +76,7 @@ The `edition` column is the newest year the source map states for its own venue,
 | OOPSLA-Skills | OOPSLA | 2027 | — | no | — |
 | OSDI-Skills | OSDI | 2027 | 7 | no | — |
 | PLDI-Skills | PLDI | 2027 | — | no | — |
+| PODC-Skills | PODC | 2027 | — | no | — |
 | PODS-Skills | PODS | 2027 | 6 | no | — |
 | POPL-Skills | POPL | 2027 | 1 | no | — |
 | PPoPP-Skills | PPoPP | 2027 | 3 | no | — |

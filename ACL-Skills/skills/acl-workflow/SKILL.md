@@ -28,9 +28,28 @@ ACL 2026 (64th edition, San Diego, July 2-7, 2026) drew from the ARR October
 | Camera-ready | April 19, 2026 |
 | Conference | July 2-7, 2026 |
 
-Later 2026 cycles (March 16, May 25, August 3, October 12 submissions) feed
-EMNLP/AACL 2026 and EACL 2027 instead. Every future date is cycle-volatile —
-re-read aclrollingreview.org/dates before committing a team to any of them.
+## Which cycle reaches which conference
+
+The commitment table is the part authors get wrong, because it is set by ARR and not by
+the conference: a cycle can only commit to the venues ARR lists against it, so "I will
+aim for ACL" is a decision about *which month to submit to ARR*, often two or three
+cycles ahead. As published on `aclrollingreview.org/dates` (re-read 2026-08-27):
+
+| Venue | Final ARR submission | Commitment |
+|---|---|---|
+| EMNLP 2026 · AACL 2026 | May 25, 2026 | August 2, 2026 |
+| EACL 2027 | August 3, 2026 | October 11, 2026 |
+| NAACL 2027 · COLING 2027 | October 12, 2026 | December 20, 2026 |
+| **ACL 2027** (Kyoto, Aug 17-22, 2027) | **January 2027** | not yet posted |
+
+Two things follow that a reader working from the 2026 anchor above would get wrong.
+**No 2026 cycle reaches ACL 2027** — the October 12 slot, the last one on the 2026
+calendar, commits to NAACL and COLING. And the October 2026 cycle publishes only its
+submission date and its cycle end (December 20); every date in between is still TBA, so
+a plan that needs a known author-response window cannot use it yet.
+
+Every date here is cycle-volatile, including the ones that are printed: re-read
+`aclrollingreview.org/dates` before committing a team to any of them.
 
 ## Choosing a cycle
 

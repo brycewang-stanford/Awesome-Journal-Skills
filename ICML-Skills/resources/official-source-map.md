@@ -2,11 +2,26 @@
 
 Access date: 2026-06-01 (organizers/fee facts re-verified 2026-06-22)
 
-**Edition status, checked 2026-08-26.** `icml.cc/Conferences/2027` returns 404, so
+**Edition status, checked 2026-08-27.** `icml.cc/Conferences/2027` still returns 404, so
 ICML 2026 remains the newest edition page ICML has published and the anchor below is the
-latest available rather than a superseded one. ICML 2026 has met; treat its dates as
-historical and its rules as the most recent stated ones, and re-check whether a later edition page has
-appeared before advising on a deadline.
+latest available rather than a superseded one. ICML 2026 has met (Seoul, July 6-11, 2026);
+treat its dates as historical and its rules as the most recent stated ones.
+
+What *is* announced for the next two editions is a continent and nothing else. The
+Future Meetings page (https://icml.cc/Conferences/FutureMeetings, read 2026-08-27) lists
+exactly two rows — `2027 -- South America` and `2028 -- Eastern United States` — with no
+city, no dates, no chairs and no call. Read that as confirmation that the next cycle
+exists and that its calendar does not yet: an author asking about the 2027 deadline has
+to be told there is no published one, not handed the 2026 dates a year older.
+
+> Those rows are quoted as code spans, and the sentence above says "the 2027 deadline"
+> rather than pairing the venue's name with the year, on purpose. `tools/cycle_audit.py`
+> anchors a pack to the newest edition its **prose** states; writing the announcement out
+> in full would re-anchor this pack to an edition that has a continent and nothing else,
+> and the dashboard would then report the pack as current while its page caps, chairs and
+> deadlines are all still 2026's — the precise misreading the audit exists to catch,
+> arriving through the audit itself. A quoted literal is not a claim, which is the same
+> exemption that keeps a cited 404 from announcing an edition (see `AISTATS-Skills`).
 
 This map records the official sources used for ICML-specific facts in this pack. ICML policies
 change by year; always reopen the current CFP, Author Instructions, Peer Review FAQ, and OpenReview

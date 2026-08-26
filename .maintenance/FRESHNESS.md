@@ -9,8 +9,8 @@
 | Verified | Packs |
 |---|---:|
 | 2026-06 | 177 |
-| 2026-07 | 107 |
-| 2026-08 | 15 |
+| 2026-07 | 106 |
+| 2026-08 | 16 |
 
 Provenance: 259 stated explicitly, 40 inferred from the newest date in the file, 0 with no date at all.
 
@@ -195,7 +195,6 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | World-Politics-Skills | depth | 2026-06-23 | stated |
 | Yale-Law-Journal-Skills | depth | 2026-06-23 | stated |
 | World-Development-Skills | depth | 2026-06-28 | stated |
-| ACL-Skills | depth | 2026-07-08 | stated |
 | ACM-CCS-Skills | depth | 2026-07-08 | stated |
 | ASPLOS-Skills | depth | 2026-07-08 | stated |
 | CHI-Skills | depth | 2026-07-08 | stated |
@@ -308,12 +307,13 @@ Provenance: 259 stated explicitly, 40 inferred from the newest date in the file,
 | Journal-of-Management-Information-Systems-Skills | depth | 2026-08-09 | stated |
 | Journal-of-the-Association-for-Information-Systems-Skills | depth | 2026-08-09 | stated |
 | AAAI-Skills | depth | 2026-08-26 | stated |
-| AISTATS-Skills | depth | 2026-08-26 | stated |
 | CAV-Skills | depth | 2026-08-26 | stated |
 | COLT-Skills | depth | 2026-08-26 | stated |
 | DAC-Skills | depth | 2026-08-26 | stated |
 | ICLR-Skills | depth | 2026-08-26 | stated |
-| ICML-Skills | depth | 2026-08-26 | stated |
 | NeurIPS-Skills | depth | 2026-08-26 | stated |
-| PODC-Skills | depth | 2026-08-26 | stated |
 | Social-Sciences-in-China-Skills | depth | 2026-08-26 | inferred |
+| ACL-Skills | depth | 2026-08-27 | stated |
+| AISTATS-Skills | depth | 2026-08-27 | stated |
+| ICML-Skills | depth | 2026-08-27 | stated |
+| PODC-Skills | depth | 2026-08-27 | stated |

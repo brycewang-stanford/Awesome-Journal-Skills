@@ -72,6 +72,19 @@ OUT = ROOT / ".maintenance" / "CYCLE-CURRENCY.md"
 # looser starts reading "IJCAI submissions closed in 2026" as an edition label.
 _EDITION = r"(?:[-–][A-Z][A-Za-z&]{1,11})?[\s'’\-–]{0,3}(\d{4}|\d{2})\b"
 
+# The label has to *begin* at the venue's name, not merely contain it. Several acronyms
+# in this corpus are suffixes of another venue's: ACL of EACL, VLDB of PVLDB, and the
+# aliased short forms (CCS, MM, S&P) are shorter still. Without this guard,
+# `ACL-Skills` was reported as anchored to **ACL 2027** on the strength of one line
+# about the **EACL 2027** commitment deadline — the pack has no 2027 fact in it, and the
+# one check meant to notice that a conference pack describes a closed cycle was reading
+# a different conference's calendar as evidence that it did not.
+#
+# A preceding *letter or digit* disqualifies; a hyphen or space does not, because a
+# co-hosted edition genuinely writes the partner first ("IJCAI-ECAI 2026" is an ECAI
+# edition) and `-27` is how AAAI writes its own.
+_NAME_START = r"(?<![A-Za-z0-9])"
+
 MONTHS = {
     "january": 1, "february": 2, "march": 3, "april": 4, "may": 5, "june": 6,
     "july": 7, "august": 8, "september": 9, "october": 10, "november": 11,
@@ -123,7 +136,7 @@ def edition_years(text: str, names: tuple[str, ...]) -> list[int]:
     text = CODE_SPAN.sub(" ", URL.sub(" ", text))
     years: set[int] = set()
     for name in names:
-        pattern = re.compile(re.escape(name) + _EDITION, re.I)
+        pattern = re.compile(_NAME_START + re.escape(name) + _EDITION, re.I)
         for match in pattern.finditer(text):
             raw = match.group(1)
             year = int(raw) if len(raw) == 4 else 2000 + int(raw)
@@ -150,7 +163,8 @@ def is_retired(text: str, names: tuple[str, ...]) -> bool:
     """Does the source map state that *this* venue stopped running?"""
     for name in names:
         pattern = re.compile(
-            re.escape(name) + r"[^.\n]{0," + str(RETIRED_GAP) + r"}?" + RETIRED_PHRASE,
+            _NAME_START + re.escape(name) + r"[^.\n]{0," + str(RETIRED_GAP) + r"}?"
+            + RETIRED_PHRASE,
             re.I,
         )
         if pattern.search(text):

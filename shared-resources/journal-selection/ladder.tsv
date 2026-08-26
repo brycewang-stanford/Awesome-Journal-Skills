@@ -32,8 +32,8 @@ accounting-organizations-and-society	contemporary-accounting-research	Contempora
 accounting-research	management-review	管理评论	4	no	breadth	field	china
 accounts-of-chemical-research	chemical-reviews	Chemical Reviews	2	yes	breadth	field	international
 acl	emnlp	EMNLP	9	yes	depth	field	international
+acl	naacl	NAACL	8	yes	depth	field	international
 acl	eacl	EACL	6	yes	depth	field	international
-acl	naacl	NAACL	6	yes	depth	field	international
 acl	colm	COLM	4	yes	depth	field	international
 acm-asia-conference-on-computer-and-communications-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	3	yes	breadth	field	international
 acm-asia-conference-on-computer-and-communications-security	ndss	NDSS	3	no	depth	field	international

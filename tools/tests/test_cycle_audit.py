@@ -76,6 +76,29 @@ class TestEditionYears(unittest.TestCase):
         text = "AISTATS 2026 is the newest edition page. `aistats.org/aistats2027/` 404s."
         self.assertEqual(edition_years(text, ("AISTATS",)), [2026])
 
+    def test_a_longer_acronym_ending_in_this_one_is_a_different_venue(self):
+        # The real finding: `ACL-Skills` was reported as anchored to ACL 2027 by one
+        # line about the **EACL 2027** commitment deadline. The pack holds no 2027 fact,
+        # and the check meant to notice that it describes a closed cycle was reading a
+        # sibling conference's calendar as proof that it does not.
+        self.assertEqual(
+            edition_years("May cycle commitment feeds EACL 2027.", ("ACL",)), [])
+
+    def test_the_venues_own_edition_still_reads_beside_a_sibling(self):
+        self.assertEqual(
+            edition_years("ACL 2026 runs in July; the May cycle feeds EACL 2027.",
+                          ("ACL",)),
+            [2026])
+
+    def test_a_prefixed_acronym_is_not_a_match_either(self):
+        # PVLDB volumes are numbered by year and sit in the same sentence as VLDB's.
+        self.assertEqual(edition_years("PVLDB 2018 volume 11.", ("VLDB",)), [])
+
+    def test_a_hyphen_before_the_name_is_a_co_host_not_a_different_venue(self):
+        # The boundary rule must not undo the co-hosted case: "IJCAI-ECAI 2026" is an
+        # ECAI edition, written the way the organisers write it.
+        self.assertEqual(edition_years("IJCAI-ECAI 2026 in Bologna.", ("ECAI",)), [2026])
+
     def test_a_year_outside_the_plausible_window_is_ignored(self):
         self.assertEqual(edition_years("STOC 1998 and STOC 2099.", ("STOC",)), [])
 
@@ -122,6 +145,10 @@ class TestIsRetired(unittest.TestCase):
         text = ('OOPSLA\'25\'s separate "Conditional Accept" and "Minor Revision" '
                 'outcomes were merged into a single "Minor Revision" for 2026.')
         self.assertFalse(is_retired(text, ("OOPSLA",)))
+
+    def test_a_longer_acronym_ending_in_this_one_cannot_retire_it(self):
+        # Same boundary rule, second reader: "EACL was discontinued" must not retire ACL.
+        self.assertFalse(is_retired("EACL was discontinued in 2029.", ("ACL",)))
 
     def test_a_sibling_venue_shutting_down_does_not_retire_this_one(self):
         # From `USENIX-Security-Skills`: ATC is the venue that was discontinued, and
