@@ -52,7 +52,7 @@ combined.
   files claiming 1,725 and 1,507 ladder edges against each other and against the 1,511
   rows in `ladder.tsv`. Every occurrence is checked, and a sentence that stops stating
   its count fails rather than passing quietly.
-- **`tools/tests/`** — 242 offline unit tests, stdlib `unittest`, under a second, run
+- **`tools/tests/`** — 359 offline unit tests, stdlib `unittest`, under a second, run
   first in `run_checks.py`. `py_compile` was the entire test suite for 200 KB of Python
   that every gate depends on, and the generators' `--check` runs are not a substitute:
   they compare a fresh build against a committed build produced by the same code, so a
