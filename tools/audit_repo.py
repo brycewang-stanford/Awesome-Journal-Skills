@@ -636,6 +636,139 @@ def check_hero_assets(errors: list[str]) -> None:
                 "not")
 
 
+# --- documented counts -------------------------------------------------------------
+# Numbers written into prose drift silently. `journal-match.md` and the journal-selection
+# README described a 743-venue index, 289 depth packs, a retrieval vocabulary "300 terms
+# deep" and "1,725 adjacency edges" long after those artefacts held 744, 290, 900 and
+# 1,511 — every one of them a generated file sitting in the same directory as the
+# sentence describing it. `check_readme_badges` reconciles the two root READMEs, which is
+# where a *reader* meets a count; nothing reconciled the capability docs, which is where
+# an *agent* meets one. An agent told the index is 300 terms deep will explain a tool
+# that has not existed since the depth was measured and raised.
+#
+# Each entry pins one prose number to the artefact it is about: every occurrence of the
+# pattern in that file must equal the value computed from the file it describes. Thousands
+# separators are tolerated on the way in, so both "1511" and "1,511" satisfy the check.
+
+VENUE_INDEX = ROOT / "shared-resources/journal-selection/venue-index.tsv"
+SCOPE_POSTINGS = ROOT / "shared-resources/journal-selection/scope-postings.tsv"
+LADDER = ROOT / "shared-resources/journal-selection/ladder.tsv"
+GOLD_SET = ROOT / "shared-resources/journal-selection/eval/gold-set.tsv"
+
+NUM = r"([\d,]+)"
+DOCUMENTED_COUNTS: list[tuple[str, str, str]] = [
+    # (file, pattern capturing the number, live-value key)
+    ("shared-resources/journal-selection/journal-match.md",
+     rf"\*\*{NUM} venues\*\* are in", "venues"),
+    ("shared-resources/journal-selection/journal-match.md",
+     rf"venue-index\.tsv\) \({NUM} venues\)", "venues"),
+    ("shared-resources/journal-selection/journal-match.md",
+     rf"own depth pack \({NUM}\)", "depth_venues"),
+    ("shared-resources/journal-selection/journal-match.md",
+     rf"breadth bundle \({NUM}\)", "breadth_venues"),
+    ("shared-resources/journal-selection/journal-match.md",
+     rf"full {NUM}-term scope vocabulary", "postings_depth"),
+    ("shared-resources/journal-selection/journal-match.md",
+     rf"ladder\.tsv\) \({NUM} adjacency edges\)", "ladder_edges"),
+    ("shared-resources/journal-selection/README.md",
+     rf"index of \*\*{NUM} venues\*\*", "venues"),
+    ("shared-resources/journal-selection/README.md",
+     rf"vocabulary, {NUM} terms deep", "postings_depth"),
+    ("shared-resources/journal-selection/README.md",
+     rf"\*\*{NUM} adjacency edges\*\*", "ladder_edges"),
+    ("shared-resources/journal-selection/README.md",
+     rf"full {NUM}-term vocabulary", "postings_depth"),
+    ("shared-resources/journal-selection/README.md",
+     rf"A {NUM}-paper gold set", "gold_papers"),
+]
+
+
+def _tsv_rows(path: Path) -> int:
+    """Data rows in a TSV — the header line does not count."""
+    with path.open(encoding="utf-8") as handle:
+        return max(sum(1 for line in handle if line.strip()) - 1, 0)
+
+
+def _postings_depth(path: Path) -> int | None:
+    with path.open(encoding="utf-8") as handle:
+        for line in handle:
+            if not line.startswith("#"):
+                break
+            key, _, value = line[1:].rstrip("\n").partition("\t")
+            if key == "depth" and value.isdigit():
+                return int(value)
+    return None
+
+
+def live_documented_counts(errors: list[str]) -> dict[str, int]:
+    """The generated artefacts' own numbers, read from the artefacts."""
+    values: dict[str, int] = {}
+    if VENUE_INDEX.exists():
+        depth = breadth = 0
+        with VENUE_INDEX.open(encoding="utf-8") as handle:
+            header = handle.readline().rstrip("\n").split("\t")
+            try:
+                column = header.index("coverage")
+            except ValueError:
+                column = None
+            rows = 0
+            for line in handle:
+                if not line.strip():
+                    continue
+                rows += 1
+                if column is not None:
+                    field = line.rstrip("\n").split("\t")[column]
+                    if field == "depth":
+                        depth += 1
+                    elif field == "breadth":
+                        breadth += 1
+        values["venues"] = rows
+        values["depth_venues"] = depth
+        values["breadth_venues"] = breadth
+    if LADDER.exists():
+        values["ladder_edges"] = _tsv_rows(LADDER)
+    if GOLD_SET.exists():
+        values["gold_papers"] = _tsv_rows(GOLD_SET)
+    if SCOPE_POSTINGS.exists():
+        depth_header = _postings_depth(SCOPE_POSTINGS)
+        if depth_header is None:
+            errors.append(
+                "shared-resources/journal-selection/scope-postings.tsv has no #depth "
+                "header — regenerate with tools/gen_venue_index.py")
+        else:
+            values["postings_depth"] = depth_header
+    return values
+
+
+def check_documented_counts(errors: list[str]) -> None:
+    live = live_documented_counts(errors)
+    if live.get("venues") is not None and live["venues"] != EXPECTED_VENUE_COUNT:
+        errors.append(
+            f"venue-index.tsv holds {live['venues']} venues but EXPECTED_VENUE_COUNT is "
+            f"{EXPECTED_VENUE_COUNT} — regenerate the index or update the tripwire")
+    for name, pattern, key in DOCUMENTED_COUNTS:
+        path = ROOT / name
+        if not path.exists():
+            errors.append(f"{name}: documented-count target is missing")
+            continue
+        expected = live.get(key)
+        if expected is None:
+            continue                      # the artefact itself is absent; reported above
+        text = path.read_text(encoding="utf-8")
+        found = re.findall(pattern, text)
+        if not found:
+            errors.append(
+                f"{name}: no longer states its {key.replace('_', ' ')} in the expected "
+                f"wording (pattern {pattern!r}) — the sentence was rewritten, so either "
+                "restore a stated count or drop this entry from DOCUMENTED_COUNTS")
+            continue
+        for raw in found:
+            if int(raw.replace(",", "")) != expected:
+                errors.append(
+                    f"{name}: states {raw} for {key.replace('_', ' ')}, but the generated "
+                    f"artefact holds {expected:,}")
+
+
 def print_live_counts() -> int:
     skill_count = len(iter_skill_files())
     pack_roots = set(first_party_plugin_roots())
@@ -656,6 +789,7 @@ def main() -> int:
         return print_live_counts()
     errors: list[str] = []
     check_counts(errors)
+    check_documented_counts(errors)
     check_external_import_policy(errors)
     check_root_journal_entries(errors)
     check_readme_badges(errors)

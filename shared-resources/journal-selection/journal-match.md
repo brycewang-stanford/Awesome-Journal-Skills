@@ -3,8 +3,8 @@
 A cross-journal capability: given a paper (or just an abstract + a few facts), produce a
 **ranked shortlist of target venues** with a reach / match / safe split and a
 **resubmission ladder** for if the first target rejects. It spans the whole repository —
-all **743 venues** are in [`venue-index.tsv`](venue-index.tsv), whether they have their
-own depth pack (289) or are profiled inside a discipline breadth bundle (454).
+all **744 venues** are in [`venue-index.tsv`](venue-index.tsv), whether they have their
+own depth pack (290) or are profiled inside a discipline breadth bundle (454).
 
 > **What this is and is not.** This file is the *matching methodology* + a stable venue
 > index. It does **not** restate volatile facts (APC/fees, acceptance/desk-reject rates,
@@ -56,7 +56,7 @@ python3 tools/match_venues.py \
 This step used to read "filter the index by discipline, then narrow on
 `scope_keywords`" — an instruction carried out by eye, differently every time, over a
 570 KB file. It is now a command, for three reasons: it is reproducible, it searches the
-full 300-term scope vocabulary per venue rather than the 40 published in the index, and
+full 900-term scope vocabulary per venue rather than the 40 published in the index, and
 it is **the same code path the evaluation scores**, so the number in
 [`eval/RESULTS.md`](eval/RESULTS.md) describes what you actually ran.
 
@@ -222,8 +222,8 @@ not a measurement. See [`rt-ladder-ev`](../../Research-Toolkit-Skills/skills/rt-
 ---
 *Runs on: [`tools/match_venues.py`](../../tools/match_venues.py) (step 2) and
 [`tools/ladder_ev.py`](../../tools/ladder_ev.py) (step 6).
-Stable index: [`venue-index.tsv`](venue-index.tsv) (743 venues) and
-[`ladder.tsv`](ladder.tsv) (1,725 adjacency edges) — both generated from the repository;
+Stable index: [`venue-index.tsv`](venue-index.tsv) (744 venues) and
+[`ladder.tsv`](ladder.tsv) (1,511 adjacency edges) — both generated from the repository;
 regenerate when packs are added. Retrieval quality is measured in
 [`eval/`](eval/README.md). Volatile facts: each pack's `resources/official-source-map.md`.
 Part of the cross-journal capability layer — the loop is **pick** (this file) → **execute**
