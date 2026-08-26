@@ -95,11 +95,26 @@ def main(argv: list[str]) -> int:
         # softer `due` state stays advisory: whether this year's edition has met is
         # a fact most source maps never state.
         ["python3", "tools/cycle_audit.py", "--check", "--max-stale", "0"],
+        # The subject vocabulary is harvested over the network, so it is committed and
+        # never rebuilt here. What CI can check offline is the half that goes wrong
+        # silently: the postings address venues by row number, so a topic file built
+        # against a different venue ordering parses cleanly and attributes every term to
+        # the wrong venue. The digest catches that; `match_lib` refuses the same
+        # mismatch at load time, and this makes it a failing build instead of a failing
+        # run.
+        ["python3", "tools/fetch_venue_topics.py", "--check"],
         # Retrieval floor: an index or matcher regression fails the build instead of
         # quietly degrading every venue recommendation. Measured on the gold set's
-        # held-out `test` half, and set a few points below the current headline (46.5%)
+        # held-out `test` half, and set a few points below the current headline (62.0%)
         # so normal content churn does not trip it. Raise it when the headline rises.
-        ["python3", "tools/eval_journal_match.py", "--min-recall-at-10", "0.42"],
+        #
+        # It also now guards something the headline alone would not. Roughly half of that
+        # figure comes from `topic-postings.tsv`, which is harvested over the network and
+        # committed; a truncated or half-finished harvest would leave the file valid, the
+        # digest correct, and the recommendations quietly a third worse. A floor at 0.58
+        # is above anything the scope index can reach on its own (46.7%), so a build that
+        # passes it has a subject vocabulary that actually arrived.
+        ["python3", "tools/eval_journal_match.py", "--min-recall-at-10", "0.58"],
     ]
     if not args.skip_diff_check:
         hard_checks.append(["git", "diff", "--check"])

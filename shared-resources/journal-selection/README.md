@@ -14,6 +14,8 @@ ranked, reasoned shortlist across the whole repository. Complements the per-jour
 | [`paper-profile.md`](paper-profile.md) | The five signals, written down **once** in a small YAML block and read by every downstream toolkit skill, so they stop re-deriving the paper and disagreeing about it. |
 | [`venue-index.tsv`](venue-index.tsv) | **Stable** index of **744 venues** — every venue the repository covers, whether as a depth pack or as a profile inside a discipline bundle. Human-readable: 40 scope terms per venue. |
 | [`scope-postings.tsv`](scope-postings.tsv) | The retrieval index behind the matcher: the same ranked vocabulary, 900 terms deep, inverted. Generated; not meant to be read. |
+| [`topic-postings.tsv`](topic-postings.tsv) | The **second** retrieval index, in the register a query is actually in: what each venue *publishes about*, derived from the titles of its own articles rather than from prose about how to submit to it. Same shape, same weighting, merged at match time. Generated over the network by [`tools/fetch_venue_topics.py`](../../tools/fetch_venue_topics.py); not meant to be read. |
+| [`venue-sources.tsv`](venue-sources.tsv) | Which bibliographic source each venue was resolved to, and by which rule. This one **is** meant to be read: a wrong resolution does not degrade the ranking, it fills a venue's vocabulary with another venue's subjects, so every mapping is a reviewable line with its ISSN or DBLP stream key next to it. |
 | [`ladder.tsv`](ladder.tsv) | **1,511 adjacency edges** for the resubmission ladder: which venues each pack names as siblings or alternatives, with a mention count and a same-discipline flag. Candidate adjacency, not a ranking. |
 | [`discipline-adjacency.tsv`](discipline-adjacency.tsv) | Which disciplines routinely stand in for one another, collapsed from the venue graph. Widens the matcher's discipline prior so a labour paper still reaches general economics. |
 | [`eval/`](eval/README.md) | A 1,738-paper gold set, split into a tuning half and a held-out half, and a harness that scores the candidate-generation step — so an index regression shows up as a failing number rather than a quietly worse recommendation. |
@@ -34,6 +36,42 @@ describes what an author actually runs.
 
 The matcher **retrieves**; the agent recommends. Every result names where to read more,
 and the terms it matched on, so a nonsense hit is visible as one.
+
+## Two vocabularies, because the query is not in the same register as the index
+
+`scope-postings.tsv` is derived from each pack's own prose, and that prose is about a
+**process**: how to submit, how review works, what the format rules are, who chairs it.
+A paper's title is about a **subject**. Asked to connect *Deep Contextualized Word
+Representations* to ACL through a vocabulary in which ACL is largely a set of anonymity
+rules, the matcher could not — and that was not a ranking failure but a coverage one:
+the true venue was not retrieved at any depth for one gold paper in seven.
+
+`topic-postings.tsv` supplies the missing register. For each venue it holds a ranked
+TF-IDF vocabulary over the titles of articles the venue actually published, harvested
+from Crossref (journals) and DBLP (conference series). The two files have the same
+shape, are weighted the same way, and are merged at match time; document frequency is
+computed **per file**, because a term's rarity among published titles is a different
+measurement from its rarity among editorial prose.
+
+Three things follow that a reader should hold on to:
+
+- **Not every venue has one.** As committed, the subject vocabulary reaches 568 of the
+  744 venues — 97% of the international journals, 72% of the conference series, and
+  **none** of the 105 Chinese-language journals, because neither registry indexes them
+  under a title that identifies them. Resolution is exact or it does not happen, so
+  those venues compete on prose alone against neighbours that have both, which is a
+  real asymmetry in the ranking. `tools/match_venues.py` marks such a candidate with `°`
+  and says so in a warning rather than letting the gap pass as a fit judgement. On the
+  gold set it costs them nothing measurable (R@10 unchanged at 70.0%), which is a reason
+  to keep saying it rather than to stop.
+- **The harvest is a maintainer step, not a CI step.** It needs the network; its output
+  is committed and CI only checks that the committed file still describes the current
+  venue ordering.
+- **It is a different measurement, not merely a better one.** Harvesting a venue's own
+  publication stream is what any real recommender does, and it carries a residual
+  optimism the prose vocabulary does not: a gold paper's companion piece and its
+  subfield's later vocabulary are both in there. Gold titles themselves are removed, and
+  the count of what the leak guard dropped is published in the file's own header.
 
 ## The index schema
 

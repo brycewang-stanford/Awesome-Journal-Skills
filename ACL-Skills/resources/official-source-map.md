@@ -79,11 +79,11 @@ cycle can reach is fixed by ARR, not chosen by the author.
 | **ACL 2027** | **January 2027** | not yet posted (待核实) |
 
 Read together, the two tables answer the question an author actually has. As of
-2026-08-27 the August cycle is mid-review (author response ran September 14-24 — note
-that this is a *future* date on the published calendar, so the cycle is still open
-business), the next submission slot is October 12, and that slot commits to NAACL/COLING
-2027. **Nothing on the 2026 calendar reaches ACL 2027**; that route opens with the
-January 2027 cycle, whose exact day the ARR page has not yet published.
+2026-08-27 the August cycle is in review — it closed on August 3, its reviews are due
+September 7 and its author response runs September 14-24, so it is live business and not
+history. The next submission slot is October 12, and it commits to NAACL and COLING 2027.
+**Nothing on the 2026 calendar reaches ACL 2027**; that route opens with the January 2027
+cycle, whose exact day the ARR page has not yet published.
 
 ## Verified facts used in the skills
 

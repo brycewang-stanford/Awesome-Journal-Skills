@@ -652,6 +652,7 @@ def check_hero_assets(errors: list[str]) -> None:
 
 VENUE_INDEX = ROOT / "shared-resources/journal-selection/venue-index.tsv"
 SCOPE_POSTINGS = ROOT / "shared-resources/journal-selection/scope-postings.tsv"
+TOPIC_POSTINGS = ROOT / "shared-resources/journal-selection/topic-postings.tsv"
 LADDER = ROOT / "shared-resources/journal-selection/ladder.tsv"
 GOLD_SET = ROOT / "shared-resources/journal-selection/eval/gold-set.tsv"
 
@@ -680,6 +681,13 @@ DOCUMENTED_COUNTS: list[tuple[str, str, str]] = [
      rf"full {NUM}-term vocabulary", "postings_depth"),
     ("shared-resources/journal-selection/README.md",
      rf"A {NUM}-paper gold set", "gold_papers"),
+    ("tools/README.md", rf"stable index of all {NUM} venues", "venues"),
+    ("tools/README.md", rf"\({NUM} depth packs", "depth_venues"),
+    ("tools/README.md", rf"depth packs \+ {NUM} breadth-bundle profiles", "breadth_venues"),
+    ("tools/README.md", rf"the {NUM}-term-deep inverted index", "postings_depth"),
+    ("tools/README.md", rf"rank the {NUM} indexed venues", "venues"),
+    ("shared-resources/journal-selection/README.md",
+     rf"reaches {NUM} of the", "topic_venues"),
 ]
 
 
@@ -729,6 +737,18 @@ def live_documented_counts(errors: list[str]) -> dict[str, int]:
         values["ladder_edges"] = _tsv_rows(LADDER)
     if GOLD_SET.exists():
         values["gold_papers"] = _tsv_rows(GOLD_SET)
+    if TOPIC_POSTINGS.exists():
+        # How many venues the subject vocabulary actually reached. Stated in prose next
+        # to a claim about what it is worth, so it is guarded like every other count —
+        # the harvest is re-run as packs are added and the number moves with it.
+        with TOPIC_POSTINGS.open(encoding="utf-8") as handle:
+            for line in handle:
+                if not line.startswith("#"):
+                    break
+                key, _, value = line[1:].rstrip("\n").partition("\t")
+                if key == "covered" and value.isdigit():
+                    values["topic_venues"] = int(value)
+                    break
     if SCOPE_POSTINGS.exists():
         depth_header = _postings_depth(SCOPE_POSTINGS)
         if depth_header is None:

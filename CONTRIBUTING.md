@@ -53,6 +53,23 @@ Always run:
 git diff --check
 ```
 
+### The two network-dependent generators
+
+Neither runs in CI and neither is needed for a content PR; both are maintainer passes
+whose output is committed and read.
+
+```bash
+python3 tools/fetch_abstracts.py                      # abstract term bags for the eval
+python3 tools/fetch_venue_topics.py --resolve --harvest   # the subject vocabulary
+```
+
+**Adding a pack changes the venue ordering**, and `topic-postings.tsv` addresses venues
+by row number. `python3 tools/fetch_venue_topics.py --check` (part of `run_checks.py`)
+fails the build when the two disagree, and re-running `--resolve --harvest` fixes it:
+responses are cached on disk, so a re-run after adding one pack costs one venue's worth
+of requests, not 744. Until it is re-run, the new pack simply has no subject vocabulary
+and `tools/match_venues.py` marks it `°` — a visible gap rather than a silent one.
+
 ## Journal-content quality bar
 
 - Use official journal pages first. If a fact cannot be verified, mark it

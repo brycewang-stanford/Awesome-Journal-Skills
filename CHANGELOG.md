@@ -21,8 +21,37 @@ asked — so a pack could be a month old, accurate, and entirely about a cycle t
 before the reader arrived. That is what issue #3 reported, and `cycle_audit.py` now asks
 the second question for all 90 conference packs.
 
+The largest change here is not a fix. The matcher had only ever searched one vocabulary
+per venue, derived from each pack's own prose — and a pack's prose is about a *process*
+while a paper's title is about a *subject*. Asked to connect "Deep Contextualized Word
+Representations" to ACL through a vocabulary in which ACL is largely a set of anonymity
+rules, it could not, and neither could it for one gold paper in seven. Venues now carry
+a second vocabulary built from the titles of the articles they actually published, and
+the headline recall moves further in one step than everything else in this release
+combined.
+
 ### Added
 
+- **A subject vocabulary for every venue the free registries can identify**
+  (`tools/fetch_venue_topics.py`, `topic-postings.tsv`, `venue-sources.tsv`). Journals
+  resolve through Crossref, conference series through DBLP, and each venue's ranked
+  TF-IDF vocabulary is derived from the titles of its own recent articles. `match_lib`
+  loads it beside the scope index and merges the two; document frequency is computed per
+  file, because a term's rarity among published titles is a different measurement from
+  its rarity among editorial prose. **Held-out `test` half: R@10 46.7% → 62.0%,
+  R@1 18.1% → 23.2%, MRR 0.269 → 0.359, and any-rank 85.0% → 95.0%** —
+  the last number is the one that matters, because it is coverage rather than ranking:
+  a seventh of the gold set had been unreachable at any depth. `wrong-lane@10` falls
+  6.7% → 4.3% at the same time, which is the direction a *subject* vocabulary
+  should move it. `eval/RESULTS.md` now prints the scope-only configuration beside the
+  headline so the contribution stays visible rather than being absorbed into it.
+- **`audit_repo.check_documented_counts`** — pins every count written into the
+  capability docs to the generated file it describes. It was added because all five had
+  drifted: a 743-venue index that holds 744, 289 depth packs that are 290, a scope
+  vocabulary "300 terms deep" that has been 900 since the depth was measured, and two
+  files claiming 1,725 and 1,507 ladder edges against each other and against the 1,511
+  rows in `ladder.tsv`. Every occurrence is checked, and a sentence that stops stating
+  its count fails rather than passing quietly.
 - **`tools/tests/`** — 242 offline unit tests, stdlib `unittest`, under a second, run
   first in `run_checks.py`. `py_compile` was the entire test suite for 200 KB of Python
   that every gate depends on, and the generators' `--check` runs are not a substitute:
@@ -108,6 +137,14 @@ the second question for all 90 conference packs.
   charged for work that was never theirs.
 - **`CONFERENCE_DEPTH_PACKS` moved to `venue_lib`**, where the rest of the venue
   classification lives, now that two tools read it.
+- **`tools/match_venues.py` marks a candidate it searched over less evidence.** Not every
+  venue has a subject vocabulary — Chinese-language journals that neither Crossref nor
+  DBLP indexes have none, by design rather than by oversight — and those venues compete
+  on prose alone against neighbours that have both. A shortlist that hides that is
+  comparing two things it measured differently, so such candidates print with a `°` and
+  the tool warns when they make up a third of the list. On the gold set the asymmetry
+  does not cost the Chinese venues anything measurable (R@10 unchanged at 70.0%), which
+  is a reason to state it plainly rather than a reason to stop stating it.
 
 ### Verified
 
@@ -120,6 +157,33 @@ the second question for all 90 conference packs.
 
 ### Fixed
 
+- **`cycle_audit` matched a venue's acronym as a suffix.** `edition_years` anchored a
+  pack on any occurrence of its venue's name followed by a year, with no left boundary,
+  so "EACL 2027" contained "ACL 2027" and `ACL-Skills` was reported as anchored to an
+  edition it holds no fact about — by the one check whose purpose is to notice that a
+  conference pack describes a closed cycle. `VLDB` read "PVLDB 2018" the same way. A
+  preceding letter or digit now disqualifies; a hyphen does not, because "IJCAI-ECAI
+  2026" is genuinely an ECAI edition and "-27" is how AAAI writes its own.
+- **The venue resolver matched Chinese journals on their translated names.** Six
+  resolved on name equality alone and at least three were the wrong journal: 《金融研究》
+  (ISSN 1002-7246) matched the Southern Finance Association's *Journal of Financial
+  Research* (0270-2592), 《世界经济》 (1002-9621) matched an unrelated *Journal of World
+  Economy* (2709-3999), 《中国社会科学》 (1002-4921) matched its own English translation
+  edition (0252-9203) — a different serial. A wrong resolution does not rank a venue
+  badly; it puts a different venue's subjects in its place. Where a pack states an ISSN
+  the candidate must now carry it, an ISSN the pack states is looked up directly before
+  any name search, and a Chinese-language venue with nothing to corroborate a name is
+  refused outright. `M&SOM` and 《软件学报》 both resolve correctly through the direct ISSN
+  lookup the same rule introduced.
+- **Two harvest bugs that presented as venues with no articles.** DBLP answers a page
+  size above 100 with a closed connection rather than an error, and `urllib.parse.quote`
+  leaves "/" alone, so `q=stream:conf/aies:` was refused the same way — between them,
+  every conference in the corpus harvested zero titles while its resolution row said it
+  was correctly mapped. Crossref's `/journals/{issn}/works` answers only for the ISSN the
+  publisher deposited under, so *Nature Plants* resolved on a print ISSN whose journal
+  record reports 2,968 DOIs and whose works endpoint returns none. Both failures looked
+  from the inside like a venue that simply publishes nothing, which is why `--harvest`
+  now ends by naming how many resolved venues came back empty.
 - **`assets/banner-en.png` was a bot-check screenshot.** The English README opened with
   a Cloudflare "Performing security verification" page, captured at exactly the
   banner's 2400x860 so every dimension still agreed. Nothing in the repository noticed:

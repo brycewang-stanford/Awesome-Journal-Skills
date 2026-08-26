@@ -1,0 +1,583 @@
+venue_id	provider	source_key	issns	source_name	works	rule
+accounting-organizations-and-society	crossref	0361-3682	0361-3682	Accounting Organizations and Society	2221	crossref-issn
+contemporary-accounting-research	crossref	0823-9150	0823-9150;1911-3846	Contemporary Accounting Research	2465	crossref-title
+journal-of-accounting-and-economics	crossref	0165-4101	0165-4101	Journal of Accounting and Economics	1866	crossref-title
+journal-of-accounting-research	crossref	0021-8456	0021-8456;1475-679X	Journal of Accounting Research	2804	crossref-title
+review-of-accounting-studies	crossref	1380-6653	1380-6653;1573-7136	Review of Accounting Studies	1193	crossref-title
+the-accounting-review	crossref	0001-4826	0001-4826;1558-7967	The Accounting Review	11738	crossref-title
+agricultural-systems	crossref	0308-521X	0308-521X	Agricultural Systems	5911	crossref-issn
+field-crops-research	crossref	0378-4290	0378-4290	Field Crops Research	8423	crossref-issn
+agricultural-and-forest-meteorology	crossref	0168-1923	0168-1923	Agricultural and Forest Meteorology	9668	crossref-title
+agriculture-ecosystems-and-environment	crossref	0167-8809	0167-8809	Agriculture Ecosystems & Environment	11135	crossref-title
+agronomy-for-sustainable-development	crossref	1774-0746	1774-0746;1773-0155	Agronomy for Sustainable Development	1442	crossref-title
+annual-review-of-environment-and-resources	crossref	1543-5938	1543-5938;1545-2050	Annual Review of Environment and Resources	557	crossref-title
+annual-review-of-plant-biology	crossref	1543-5008	1543-5008;1545-2123	Annual Review of Plant Biology	698	crossref-title
+bulletin-of-the-american-meteorological-society	crossref	0003-0007	0003-0007;1520-0477	Bulletin of the American Meteorological Society	25242	crossref-title
+earth-system-science-data	crossref	1866-3516	1866-3516	Earth System Science Data	2343	crossref-title
+environment-international	crossref	0160-4120	0160-4120	Environment International	14655	crossref-title
+environmental-health-perspectives	crossref	0091-6765	0091-6765;1552-9924;1812-5603	Environmental Health Perspectives	26147	crossref-title
+environmental-pollution	crossref	0269-7491	0269-7491	Environmental Pollution	28999	crossref-title
+food-chemistry	crossref	0308-8146	0308-8146;1873-7072	Food Chemistry	50937	crossref-title
+forest-ecology-and-management	crossref	0378-1127	0378-1127;1872-7042	Forest Ecology and Management	20448	crossref-title
+geology	crossref	0091-7613	0091-7613;0091-7613;1943-2682	Geology	15264	crossref-title
+global-biogeochemical-cycles	crossref	0886-6236	0886-6236;1944-9224	Global Biogeochemical Cycles	3996	crossref-title
+journal-of-cleaner-production	crossref	0959-6526	0959-6526	Journal of Cleaner Production	48770	crossref-title
+journal-of-climate	crossref	0894-8755	0894-8755;1520-0442	Journal of Climate	14040	crossref-title
+journal-of-hydrology	crossref	0022-1694	0022-1694	Journal of Hydrology	29084	crossref-title
+limnology-and-oceanography	crossref	0024-3590	0024-3590;0024-3590;1939-5590	Limnology and Oceanography	13411	crossref-title
+nature-food	crossref	2662-1355	2662-1355	Nature Food	1406	crossref-title
+nature-plants	crossref	2055-026X	2055-026X;2055-0278	Nature Plants	2968	crossref-title
+new-phytologist	crossref	0028-646X	0028-646X;1469-8137	New Phytologist	23623	crossref-title
+resources-conservation-and-recycling	crossref	0921-3449	0921-3449	Resources Conservation and Recycling	8018	crossref-title
+soil-biology-and-biochemistry	crossref	0038-0717	0038-0717	Soil Biology and Biochemistry	13111	crossref-title
+the-plant-journal	crossref	0960-7412	0960-7412;1365-313X	The Plant Journal	13419	crossref-title
+trends-in-food-science-and-technology	crossref	0924-2244	0924-2244	Trends in Food Science & Technology	7923	crossref-title
+water-resources-research	crossref	0043-1397	0043-1397;1944-7973	Water Resources Research	23376	crossref-title
+american-anthropologist	crossref	0002-7294	0002-7294;1548-1433	American Anthropologist	31708	crossref-title
+current-anthropology	crossref	0011-3204	0011-3204;1537-5382	Current Anthropology	8456	crossref-issn
+the-art-bulletin	crossref	0004-3079	0004-3079;1559-6478	The Art Bulletin	10832	crossref-title
+journal-of-the-american-chemical-society	crossref	0002-7863	0002-7863;1520-5126	Journal of the American Chemical Society	220563	crossref-issn
+american-journal-of-gastroenterology	crossref	0002-9270	0002-9270;1572-0241	The American Journal of Gastroenterology	87471	crossref-title
+american-journal-of-obstetrics-and-gynecology	crossref	0002-9378	0002-9378	American Journal of Obstetrics and Gynecology	95197	crossref-title
+american-journal-of-respiratory-and-critical-care-medicine	crossref	1073-449X	1073-449X;1535-4970;0003-0805	American Journal of Respiratory and Critical Care Medicine	32550	crossref-title
+anesthesiology	crossref	0003-3022	0003-3022;1528-1175	Anesthesiology	57731	crossref-title
+annals-of-oncology	crossref	0923-7534	0923-7534;1569-8041	Annals of Oncology	67482	crossref-title
+arthritis-and-rheumatology	crossref	2326-5191	2326-5191;2326-5205	Arthritis & Rheumatology	5511	crossref-title
+brain	crossref	0006-8950	0006-8950;1460-2156	Brain	19108	crossref-title
+critical-care-medicine	crossref	0090-3493	0090-3493;1530-0293	Critical Care Medicine	56767	crossref-title
+diabetologia	crossref	0012-186X	0012-186X;1432-0428	Diabetologia	14886	crossref-title
+european-urology	crossref	0302-2838	0302-2838;1421-993X;1873-7560	European Urology	26538	crossref-title
+hepatology	crossref	0270-9139	0270-9139;1527-3350	Hepatology	31018	crossref-title
+jama-cardiology	crossref	2380-6583	2380-6583	JAMA Cardiology	3228	crossref-title
+jama-internal-medicine	crossref	2168-6106	2168-6106	JAMA Internal Medicine	7847	crossref-title
+jama-neurology	crossref	2168-6149	2168-6149	JAMA Neurology	4228	crossref-title
+jama-oncology	crossref	2374-2437	2374-2437	JAMA Oncology	4850	crossref-title
+jama-pediatrics	crossref	2168-6203	2168-6203	JAMA Pediatrics	5250	crossref-title
+jama-psychiatry	crossref	2168-622X	2168-622X;2168-6238	JAMA Psychiatry	3540	crossref-title
+jama-surgery	crossref	2168-6254	2168-6254	JAMA Surgery	5359	crossref-title
+journal-of-allergy-and-clinical-immunology	crossref	0091-6749	0091-6749	Journal of Allergy and Clinical Immunology	56730	crossref-title
+journal-of-clinical-endocrinology-and-metabolism	crossref	2998-9213	2998-9213	Journal of Clinical Endocrinology and Metabolism	5	crossref-title
+journal-of-hepatology	crossref	0168-8278	0168-8278;0168-8278	Journal of Hepatology	57972	crossref-title
+journal-of-the-american-society-of-nephrology	crossref	1046-6673	1046-6673;1533-3450	Journal of the American Society of Nephrology	34205	crossref-title
+kidney-international	crossref	0085-2538	0085-2538;1523-1755	Kidney International	24849	crossref-title
+nature-reviews-clinical-oncology	crossref	1759-4774	1759-4774;1759-4782	Nature Reviews Clinical Oncology	3361	crossref-title
+radiology	crossref	0033-8419	0033-8419;1527-1315	Radiology	61586	crossref-title
+stroke	crossref	0039-2499	0039-2499;1524-4628	Stroke	41791	crossref-title
+acm-asia-conference-on-computer-and-communications-security	dblp	conf/asiaccs		ACM Asia Conference on Computer and Communications Security (AsiaCCS)	0	dblp-venue
+acm-conference-on-computer-and-communications-security	dblp	conf/ccs		Annual ACM Conference on Computer and Communications Security (CCS)	0	dblp-generic-prefix
+communication-research	crossref	0093-6502	0093-6502;1552-3810	Communication Research	2043	crossref-title
+communications-earth-and-environment	crossref	2662-4435	2662-4435	Communications Earth & Environment	3912	crossref-title
+communications-on-pure-and-applied-mathematics	crossref	0010-3640	0010-3640;1097-0312	Communications on Pure and Applied Mathematics	4311	crossref-title
+ieee-journal-on-selected-areas-in-communications	crossref	0733-8716	0733-8716;1558-0008	IEEE Journal on Selected Areas in Communications	10319	crossref-title
+ieee-transactions-on-communications	crossref	0090-6778	0090-6778;1558-0857	IEEE Transactions on Communications	18035	crossref-title
+ieee-transactions-on-wireless-communications	crossref	1536-1276	1536-1276;1558-2248	IEEE Transactions on Wireless Communications	15323	crossref-title
+journal-of-communication	crossref	0021-9916	0021-9916;1460-2466	Journal of Communication	5056	crossref-issn
+nature-communications	crossref	2041-1723	2041-1723	Nature Communications	91714	crossref-title
+new-media-and-society	crossref	1461-4448	1461-4448;1461-7315	New Media & Society	3892	crossref-issn
+public-opinion-quarterly	crossref	0033-362X	0033-362X;1537-5331	Public Opinion Quarterly	7506	crossref-title
+criminology	crossref	1745-9125	0011-1384;1745-9125	Criminology	2535	crossref-issn
+aaai-conference-on-human-computation-and-crowdsourcing	dblp	conf/hcomp		AAAI Conference on Human Computation and Crowdsourcing (HCOMP)	0	dblp-venue
+acm-conference-on-designing-interactive-systems	dblp	conf/ACMdis		Conference on Designing Interactive Systems (DIS)	0	dblp-core-name
+acm-conference-on-fairness-accountability-and-transparency	dblp	conf/fat		ACM Conference on Fairness, Accountability and Transparency (FAccT)	0	dblp-venue
+acm-conference-on-intelligent-user-interfaces	dblp	conf/iui		International Conference on Intelligent User Interfaces (IUI)	0	dblp-core-name
+acm-conference-on-recommender-systems	dblp	conf/recsys		ACM Conference on Recommender Systems (RecSys)	0	dblp-venue
+acm-ieee-international-conference-on-model-driven-engineering-languages-and-systems	dblp	conf/models		ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (MoDELS)	0	dblp-venue
+acm-international-conference-on-multimedia-retrieval	dblp	conf/mir		International Conference on Multimedia Retrieval (ICMR)	0	dblp-core-name
+acm-international-joint-conference-on-pervasive-and-ubiquitous-computing	dblp	conf/huc		ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)	0	dblp-venue
+acm-international-symposium-on-high-performance-parallel-and-distributed-computing	dblp	conf/hpdc		International Symposium on High-Performance Parallel Distributed Computing (HPDC)	0	dblp-core-name
+acm-sigaccess-conference-on-computers-and-accessibility	dblp	conf/assets		International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)	0	dblp-generic-prefix
+acm-sigir-conference-on-research-and-development-in-information-retrieval	dblp	conf/sigir		Annual International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)	0	dblp-generic-prefix
+acm-sigmetrics	dblp	conf/sigmetrics		International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)	0	dblp-org-acronym
+acm-sigplan-international-conference-on-functional-programming	dblp	conf/icfp		ACM SIGPLAN International Conference on Functional Programming (ICFP)	0	dblp-venue
+acm-symposium-on-virtual-reality-software-and-technology	dblp	conf/vrst		ACM Symposium on Virtual Reality Software and Technology (VRST)	0	dblp-venue
+acm-workshop-on-hot-topics-in-networks	dblp	conf/hotnets		ACM Workshop on Hot Topics in Networks (HotNets)	0	dblp-venue
+annual-computer-security-applications-conference	dblp	conf/acsac		Annual Computer Security Applications Conference (ACSAC)	0	dblp-venue
+artificial-intelligence-and-statistics	dblp	conf/aistats		International Conference on Artificial Intelligence and Statistics (AISTATS)	0	dblp-venue
+asian-conference-on-computer-vision	dblp	conf/accv		Asian Conference on Computer Vision (ACCV)	0	dblp-venue
+asian-conference-on-machine-learning	dblp	conf/acml		Asian Conference on Machine Learning (ACML)	0	dblp-venue
+british-machine-vision-conference	dblp	conf/bmvc		British Machine Vision Conference (BMVC)	0	dblp-venue
+conference-and-labs-of-the-evaluation-forum	dblp	conf/clef		Conference and Labs of the Evaluation Forum (CLEF)	0	dblp-venue
+conference-on-computational-natural-language-learning	dblp	conf/conll		Conference on Computational Natural Language Learning (CoNLL)	0	dblp-venue
+conference-on-health-inference-and-learning	dblp	conf/chil		Conference on Health, Inference, and Learning (CHIL)	0	dblp-venue
+conference-on-lifelong-learning-agents	dblp	conf/collas		Conference on Lifelong Learning Agents (CoLLAs)	0	dblp-venue
+european-symposium-on-research-in-computer-security	dblp	conf/esorics		European Symposium on Research in Computer Security (ESORICS)	0	dblp-venue
+ieee-conference-on-virtual-reality-and-3d-user-interfaces	dblp	conf/vr		IEEE Conference on Virtual Reality and 3D User Interfaces (VR)	0	dblp-venue
+ieee-international-conference-on-software-analysis-evolution-and-reengineering	dblp	conf/saner		IEEE International Conference on Software Analysis, Evolution, and Reengineering (SANER)	0	dblp-venue
+ieee-international-requirements-engineering-conference	dblp	conf/re		IEEE International Requirements Engineering Conference (RE)	0	dblp-venue
+ieee-international-symposium-on-biomedical-imaging	dblp	conf/isbi		IEEE International Symposium on Biomedical Imaging (ISBI)	0	dblp-venue
+ieee-international-symposium-on-mixed-and-augmented-reality	dblp	conf/ismar		International Symposium on Mixed and Augmented Reality (ISMAR)	0	dblp-core-name
+ieee-pacific-visualization-symposium	dblp	conf/pacificvis		IEEE Pacific Visualization Symposium (PacificVis)	0	dblp-venue
+ieee-ras-international-conference-on-humanoid-robots	dblp	conf/humanoids		IEEE-RAS International Conference on Humanoid Robots (Humanoids)	0	dblp-venue
+ieee-spoken-language-technology-workshop	dblp	conf/slt		Spoken Language Technology Workshop (SLT)	0	dblp-core-name
+ieee-visualization-conference	dblp	conf/visualization		IEEE Visualization Conference (VIS)	0	dblp-venue
+international-conference-for-high-performance-computing-networking-storage-and-analysis	dblp	conf/sc		International Conference for High Performance Computing, Networking, Storage and Analysis (SC)	0	dblp-venue
+international-conference-on-3d-vision	dblp	conf/3dim		International Conference on 3D Vision (3DV)	0	dblp-venue
+international-conference-on-automated-machine-learning	dblp	conf/automl		International Conference on Automated Machine Learning (AutoML)	0	dblp-venue
+international-conference-on-automated-planning-and-scheduling	dblp	conf/icaps		International Conference on Automated Planning and Scheduling (ICAPS)	0	dblp-venue
+international-conference-on-autonomous-agents-and-multiagent-systems	dblp	conf/ifaamas		International Conference on Autonomous Agents and Multiagent Systems (AAMAS)	0	dblp-venue
+international-conference-on-computational-linguistics	dblp	conf/coling		International Conference on Computational Linguistics (COLING)	0	dblp-venue
+international-conference-on-discovery-science	dblp	conf/dis		International Conference on Discovery Science (DS)	0	dblp-venue
+international-conference-on-knowledge-capture	dblp	conf/kcap		International Conference on Knowledge Capture (K-CAP)	0	dblp-venue
+international-conference-on-pattern-recognition	dblp	conf/icpr		International Conference on Pattern Recognition (ICPR)	0	dblp-venue
+international-conference-on-principles-and-practice-of-constraint-programming	dblp	conf/cp		International Conference on Principles and Practice of Constraint Programming (CP)	0	dblp-venue
+international-conference-on-principles-of-knowledge-representation-and-reasoning	dblp	conf/kr		International Conference on Principles of Knowledge Representation and Reasoning (KR)	0	dblp-venue
+international-conference-on-theory-and-applications-of-satisfiability-testing	dblp	conf/sat		International Conference on Theory and Applications of Satisfiability Testing (SAT)	0	dblp-venue
+international-symposium-on-distributed-autonomous-robotic-systems	dblp	conf/dars		International Symposium on Distributed Autonomous Robotic Systems (DARS)	0	dblp-venue
+international-symposium-on-empirical-software-engineering-and-measurement	dblp	conf/esem		International Symposium on Empirical Software Engineering and Measurement (ESEM)	0	dblp-venue
+international-symposium-on-experimental-robotics	dblp	conf/iser		International Symposium on Experimental Robotics (ISER)	0	dblp-venue
+machine-learning-for-health	crossref	3049-477X	3049-477X	Machine Learning Health	54	crossref-title
+medical-image-computing-and-computer-assisted-intervention	dblp	conf/miccai		International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)	0	dblp-venue
+mining-software-repositories	dblp	conf/msr		IEEE/ACM International Conference on Mining Software Repositories (MSR)	0	dblp-generic-prefix
+neural-information-processing-systems	dblp	conf/nips		Conference on Neural Information Processing Systems (NeurIPS)	0	dblp-venue
+siam-international-conference-on-data-mining	dblp	conf/sdm		SIAM International Conference on Data Mining (SDM)	0	dblp-venue
+text-retrieval-conference	dblp	conf/trec		Text Retrieval Conference (TREC)	0	dblp-venue
+usenix-annual-technical-conference	dblp	conf/usenix		USENIX Annual Technical Conference (USENIX ATC)	0	dblp-venue
+acta-automatica-sinica	crossref	0254-4156	0254-4156	ACTA AUTOMATICA SINICA	1280	crossref-issn
+chinese-journal-of-computers	crossref	0254-4164	0254-4164	Chinese Journal of Computers	1264	crossref-issn
+journal-of-cad-and-computer-graphics	crossref	1003-9775	1003-9775	Journal of Computer-Aided Design & Computer Graphics	1465	crossref-issn
+journal-of-computer-research-and-development	crossref	1000-1239	1000-1239	Journal of Computer Research and Development	920	crossref-issn
+journal-of-software	crossref	1000-9825	1000-9825	Journal of Software	2168	crossref-issn
+journal-on-communications	refused	-		Journal on Communications	0	refused: crossref:1796-2021 — ISSN mismatch: pack states ['1000-436X'], crossref candidate carries ['1796-2021', '2374-4367']
+pattern-recognition-and-artificial-intelligence	crossref	1003-6059	1003-6059	Pattern Recognition and Artificial Intelligence	18	crossref-issn
+scientia-sinica-informationis	crossref	1674-7267	1674-7267	Scientia Sinica Informationis	2381	crossref-title
+aaai	dblp	conf/aaai		AAAI Conference on Artificial Intelligence (AAAI)	0	dblp-acronym
+aamas	dblp	conf/ifaamas		International Conference on Autonomous Agents and Multiagent Systems (AAMAS)	0	dblp-acronym
+acl	dblp	conf/acl		Annual Meeting of the Association for Computational Linguistics (ACL)	0	dblp-acronym
+acm-ccs	dblp	conf/ccs		Annual ACM Conference on Computer and Communications Security (CCS)	0	dblp-org-acronym
+acm-mm	dblp	conf/mm		ACM International Conference on Multimedia (MM)	0	dblp-org-acronym
+ase	dblp	conf/kbse		International Conference on Automated Software Engineering (ASE)	0	dblp-acronym
+asplos	dblp	conf/asplos		International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)	0	dblp-acronym
+cav	dblp	conf/cav		International Conference on Computer Aided Verification (CAV)	0	dblp-acronym
+chi	dblp	conf/chi		ACM Conference on Human Factors in Computing Systems (CHI)	0	dblp-acronym
+cikm	dblp	conf/cikm		International Conference on Information and Knowledge Management (CIKM)	0	dblp-acronym
+colt	dblp	conf/colt		Annual Conference Computational Learning Theory (COLT)	0	dblp-acronym
+corl	dblp	conf/corl		Conference on Robot Learning (CoRL)	0	dblp-acronym
+cscw	dblp	conf/cscw		Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)	0	dblp-acronym
+cvpr	dblp	conf/cvpr		IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)	0	dblp-acronym
+dac	dblp	conf/dac		Design Automation Conference (DAC)	0	dblp-acronym
+eacl	dblp	conf/eacl		Conference of the European Chapter of the Association for Computational Linguistics (EACL)	0	dblp-acronym
+ecai	dblp	conf/ecai		European Conference on Artificial Intelligence (ECAI)	0	dblp-acronym
+eccv	dblp	conf/eccv		European Conference on Computer Vision (ECCV)	0	dblp-acronym
+edbt	dblp	conf/edbt		International Conference on Extending Database Technology (EDBT)	0	dblp-acronym
+emnlp	dblp	conf/emnlp		Conference on Empirical Methods in Natural Language Processing (EMNLP)	0	dblp-acronym
+eurosys	dblp	conf/eurosys		European Conference on Computer Systems (EuroSys)	0	dblp-acronym
+facct	dblp	conf/fat		ACM Conference on Fairness, Accountability and Transparency (FAccT)	0	dblp-acronym
+fast	dblp	conf/fast		USENIX Conference on File and Storage Technologies (FAST)	0	dblp-acronym
+focs	dblp	conf/focs		IEEE Annual Symposium on Foundations of Computer Science (FOCS)	0	dblp-acronym
+fse	dblp	conf/sigsoft		ACM SIGSOFT Conference on the Foundations of Software Engineering (FSE)	0	dblp-acronym
+hpca	dblp	conf/cnhpca		High Performance Computing and Applications (HPCA)	0	dblp-acronym
+hri	dblp	conf/hri		IEEE/ACM International Conference on Human-Robot Interaction (HRI)	0	dblp-acronym
+icalp	dblp	conf/icalp		International Colloquium on Automata, Languages and Programming (ICALP)	0	dblp-acronym
+icassp	dblp	conf/icassp		IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)	0	dblp-acronym
+iccv	dblp	conf/iccv		IEEE/CVF International Conference on Computer Vision (ICCV)	0	dblp-acronym
+icde	dblp	conf/icde		IEEE International Conference on Data Engineering (ICDE)	0	dblp-acronym
+icdm	dblp	conf/icdm		IEEE International Conference on Data Mining (ICDM)	0	dblp-acronym
+icdt	dblp	conf/icdt		International Conference on Database Theory (ICDT)	0	dblp-acronym
+iclr	dblp	conf/iclr		International Conference on Learning Representations (ICLR)	0	dblp-acronym
+icml	dblp	conf/icml		International Conference on Machine Learning (ICML)	0	dblp-acronym
+icra	dblp	conf/icra		IEEE International Conference on Robotics and Automation (ICRA)	0	dblp-acronym
+icse	dblp	conf/icse		International Conference on Software Engineering (ICSE)	0	dblp-acronym
+icsme	dblp	conf/icsm		IEEE International Conference on Software Maintenance and Evolution (ICSME)	0	dblp-acronym
+ieee-sp	dblp	conf/sp		IEEE Symposium on Security and Privacy (SP)	0	dblp-org-acronym
+imc	dblp	conf/imc		ACM/SIGCOMM Internet Measurement Conference (IMC)	0	dblp-acronym
+infocom	dblp	conf/infocom		IEEE Conference on Computer Communications (INFOCOM)	0	dblp-acronym
+international-semantic-web-conference	dblp	conf/semweb		International Semantic Web Conference (ISWC)	0	dblp-venue
+interspeech	dblp	conf/interspeech		Conference of the International Speech Communication Association (INTERSPEECH)	0	dblp-acronym
+ipsn	dblp	conf/ipsn		International Symposium on Information Processing in Sensor Networks (IPSN)	0	dblp-acronym
+iros	dblp	conf/iros		IEEE/RJS International Conference on Intelligent RObots and Systems (IROS)	0	dblp-acronym
+isca	dblp	conf/isca		International Symposium on Computer Architecture (ISCA)	0	dblp-acronym
+issta	dblp	conf/issta		International Symposium on Software Testing and Analysis (ISSTA)	0	dblp-acronym
+kdd	dblp	conf/kdd		ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)	0	dblp-acronym
+micro	dblp	conf/micro		Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)	0	dblp-acronym
+mlsys	dblp	conf/mlsys		Conference on Machine Learning and Systems (MLSys)	0	dblp-acronym
+mobicom	dblp	conf/mobicom		Annual International Conference on Mobile Computing and Networking (MobiCom)	0	dblp-acronym
+mobisys	dblp	conf/mobisys		ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services (MobiSys)	0	dblp-acronym
+naacl	dblp	conf/naacl		North American Chapter of the Association for Computational Linguistics (NAACL)	0	dblp-acronym
+neurips	dblp	conf/nips		Conference on Neural Information Processing Systems (NeurIPS)	0	dblp-acronym
+nsdi	dblp	conf/nsdi		Symposium on Networked Systems Design and Implementation (NSDI)	0	dblp-acronym
+oopsla	dblp	conf/oopsla		ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications (OOPSLA)	0	dblp-acronym
+percom	dblp	conf/percom		Annual IEEE International Conference on Pervasive Computing and Communications (PerCom)	0	dblp-acronym
+podc	dblp	conf/podc		ACM Symposium on Principles of Distributed Computing (PODC)	0	dblp-acronym
+ppopp	dblp	conf/ppopp		ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming (PPoPP)	0	dblp-acronym
+rss	dblp	conf/rss		Robotics: Science and Systems Conference (RSS)	0	dblp-acronym
+sensys	dblp	conf/sensys		ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems (SenSys)	0	dblp-acronym
+sigcomm	dblp	conf/sigcomm		ACM SIGCOMM Conference (SIGCOMM)	0	dblp-acronym
+siggraph	dblp	conf/siggraph		International Conference on Computer Graphics and Interactive Techniques (SIGGRAPH)	0	dblp-acronym
+sigmetrics	dblp	conf/sigmetrics		International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)	0	dblp-acronym
+sigmod	dblp	conf/sigmod		ACM SIGMOD Conference (SIGMOD)	0	dblp-acronym
+socc	dblp	conf/cloud		ACM Symposium on Cloud Computing (SoCC)	0	dblp-acronym
+soda	dblp	conf/soda		ACM-SIAM Symposium on Discrete Algorithms (SODA)	0	dblp-acronym
+sosp	dblp	conf/sosp		Symposium on Operating Systems Principles (SOSP)	0	dblp-acronym
+stoc	dblp	conf/stoc		Symposium on the Theory of Computing (STOC)	0	dblp-acronym
+tacas	dblp	conf/tacas		International Conference on Tools and Algorithms for Construction and Analysis of Systems (TACAS)	0	dblp-acronym
+the-web-conference	dblp	conf/www		The Web Conference (WWW)	0	dblp-venue
+uai	dblp	conf/uai		Conference on Uncertainty in Artificial Intelligence (UAI)	0	dblp-acronym
+vldb	dblp	conf/vldb		Very Large Data Bases Conference (VLDB)	0	dblp-acronym
+wacv	dblp	conf/wacv		IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)	0	dblp-acronym
+wsdm	dblp	conf/wsdm		Web Search and Data Mining (WSDM)	0	dblp-acronym
+demography	crossref	0070-3370	0070-3370;1533-7790	Demography	3873	crossref-title
+population-and-development-review	crossref	1728-4457	0098-7921;1728-4457	Population and Development Review	4803	crossref-issn
+world-development	crossref	0305-750X	0305-750X	World Development	9827	crossref-title
+earth-and-planetary-science-letters	crossref	0012-821X	0012-821X;1385-013X	Earth and Planetary Science Letters	21770	crossref-issn
+nature-geoscience	crossref	1752-0894	1752-0894;1752-0908	Nature Geoscience	4991	crossref-issn
+econometric-theory	crossref	0266-4666	0266-4666;1469-4360	Econometric Theory	2654	crossref-title
+econometrica	crossref	0012-9682	0012-9682;1468-0262	Econometrica	7307	crossref-issn
+journal-of-applied-econometrics	crossref	0883-7252	0883-7252;1099-1255	Journal of Applied Econometrics	2611	crossref-issn
+journal-of-business-and-economic-statistics	crossref	0735-0015	0735-0015;1537-2707	Journal of Business and Economic Statistics	3044	crossref-title
+journal-of-econometrics	crossref	0304-4076	0304-4076;1872-6895	Journal of Econometrics	6466	crossref-title
+the-econometrics-journal	crossref	1368-4221	1368-4221;1368-423X	Econometrics Journal	809	crossref-title
+aer-insights	crossref	2640-205X	2640-205X;2640-2068	American Economic Review Insights	265	crossref-issn
+annual-review-of-economics	crossref	1941-1383	1941-1383;1941-1391	Annual Review of Economics	494	crossref-title
+european-economic-review	crossref	0014-2921	0014-2921	European Economic Review	6182	crossref-title
+international-economic-review	crossref	0020-6598	0020-6598;1468-2354	International Economic Review	3579	crossref-title
+journal-of-economic-literature	crossref	0022-0515	0022-0515;2328-8175	Journal of Economic Literature	1840	crossref-title
+journal-of-economic-perspectives	crossref	0895-3309	0895-3309	Journal of Economic Perspectives	2342	crossref-issn
+journal-of-political-economy	crossref	0022-3808	0022-3808;1537-534X	Journal of Political Economy	15822	crossref-issn
+journal-of-the-european-economic-association	crossref	1542-4766	1542-4766;1542-4774	Journal of the European Economic Association	1706	crossref-issn
+quantitative-economics	crossref	1759-7323	1759-7323;1759-7331	Quantitative Economics	617	crossref-issn
+quarterly-journal-of-economics	crossref	0033-5533	0033-5533;1531-4650	The Quarterly Journal of Economics	6660	crossref-title
+review-of-economic-studies	crossref	0034-6527	0034-6527;1467-937X	The Review of Economic Studies	4281	crossref-title
+the-economic-journal	crossref	0013-0133	0013-0133;1468-0297	The Economic Journal	19702	crossref-issn
+rand-journal-of-economics	crossref	0741-6261	0741-6261;1756-2171	The RAND Journal of Economics	1789	crossref-title
+aej-applied-economics	crossref	1945-7782	1945-7782;1945-7790	American Economic Journal Applied Economics	843	crossref-issn
+review-of-economics-and-statistics	crossref	0034-6535	0034-6535;1530-9142	The Review of Economics and Statistics	7616	crossref-title
+journal-of-economic-behavior-and-organization	crossref	0167-2681	0167-2681;0167-2681	Journal of Economic Behavior & Organization	7844	crossref-title
+journal-of-risk-and-uncertainty	crossref	0895-5646	0895-5646;1573-0476	Journal of Risk and Uncertainty	1027	crossref-title
+journal-of-development-economics	crossref	0304-3878	0304-3878	Journal of Development Economics	4798	crossref-title
+world-bank-economic-review	crossref	0258-6770	0258-6770;1564-698X	The World Bank Economic Review	1496	crossref-title
+journal-of-environmental-economics-and-management	crossref	0095-0696	0095-0696;1096-0449	Journal of Environmental Economics and Management	3119	crossref-title
+experimental-economics	crossref	1386-4157	1386-4157;1573-6938	Experimental Economics	931	crossref-title
+journal-of-finance-and-economics	refused	-		Journal of Finance and Economics	0	refused: crossref:2328-7284 — Chinese-language venue matched on a translated name with no ISSN to corroborate it
+games-and-economic-behavior	crossref	0899-8256	0899-8256;1090-2473	Games and Economic Behavior	4317	crossref-issn
+journal-of-economic-geography	crossref	1468-2702	1468-2702;1468-2710	Journal of Economic Geography	1278	crossref-title
+journal-of-economic-growth	crossref	1381-4338	1381-4338;1573-7020	Journal of Economic Growth	419	crossref-issn
+journal-of-health-economics	crossref	0167-6296	0167-6296	Journal of Health Economics	3040	crossref-title
+imf-economic-review	crossref	2041-4161	2041-4161;2041-417X	IMF Economic Review	477	crossref-title
+journal-of-international-economics	crossref	0022-1996	0022-1996	Journal of International Economics	4213	crossref-issn
+journal-of-world-economy	refused	-		Journal of World Economy	0	refused: crossref:2709-3999 — ISSN mismatch: pack states ['1002-9621'], crossref candidate carries ['2709-3999']
+journal-of-human-resources	crossref	0022-166X	0022-166X;1548-8004	The Journal of Human Resources	2943	crossref-issn
+journal-of-labor-economics	crossref	0734-306X	0734-306X;1537-5307	Journal of Labor Economics	1923	crossref-title
+aej-macroeconomics	crossref	1945-7707	1945-7707;1945-7715	American Economic Journal Macroeconomics	744	crossref-issn
+journal-of-monetary-economics	crossref	0304-3932	0304-3932	Journal of Monetary Economics	4011	crossref-issn
+review-of-economic-dynamics	crossref	1094-2025	1094-2025	Review of Economic Dynamics	1403	crossref-issn
+aej-microeconomics	crossref	1945-7669	1945-7669;1945-7685	American Economic Journal Microeconomics	862	crossref-issn
+aej-economic-policy	crossref	1945-7731	1945-774X;1945-774X;1945-7731	American Economic Journal Economic Policy	919	crossref-issn
+economic-policy	crossref	0266-4658	0266-4658;1468-0327	Economic Policy	893	crossref-title
+journal-of-public-economics	crossref	0047-2727	0047-2727	Journal of Public Economics	5429	crossref-issn
+journal-of-economic-theory	crossref	0022-0531	0022-0531;1095-7235	Journal of Economic Theory	6261	crossref-issn
+journal-of-urban-economics	crossref	0094-1190	0094-1190;1095-9068	Journal of Urban Economics	2829	crossref-title
+american-educational-research-journal	crossref	0002-8312	0002-8312;1935-1011	American Educational Research Journal	4159	crossref-issn
+review-of-educational-research	crossref	0034-6543	0034-6543;1935-1046	Review of Educational Research	5820	crossref-title
+acta-materialia	crossref	1359-6454	1359-6454	Acta Materialia	21212	crossref-title
+additive-manufacturing	crossref	2214-8604	2214-8604	Additive Manufacturing	4942	crossref-title
+aiche-journal	crossref	0001-1541	0001-1541;1547-5905	AIChE Journal	20840	crossref-title
+applied-energy	crossref	0306-2619	0306-2619	Applied Energy	27673	crossref-title
+automatica	crossref	0005-1098	0005-1098	Automatica	15757	crossref-title
+biomaterials	crossref	0142-9612	0142-9612	Biomaterials	21847	crossref-title
+cement-and-concrete-research	crossref	0008-8846	0008-8846	Cement and Concrete Research	10992	crossref-title
+chemical-engineering-journal	crossref	1385-8947	1385-8947	Chemical Engineering Journal	76986	crossref-title
+composites-part-b-engineering	crossref	1359-8368	1359-8368	Composites Part B Engineering	13159	crossref-title
+energy-storage-materials	crossref	2405-8297	2405-8297	Energy Storage Materials	5513	crossref-title
+ieee-transactions-on-antennas-and-propagation	crossref	0018-926X	0018-926X;1558-2221	IEEE Transactions on Antennas and Propagation	25034	crossref-title
+ieee-transactions-on-automatic-control	crossref	0018-9286	0018-9286;1558-2523;2334-3303	IEEE Transactions on Automatic Control	24203	crossref-title
+ieee-transactions-on-biomedical-engineering	crossref	0018-9294	0018-9294;1558-2531	IEEE Transactions on Biomedical Engineering	15326	crossref-title
+ieee-transactions-on-industrial-electronics	crossref	0278-0046	0278-0046;1557-9948;1932-4529	IEEE Transactions on Industrial Electronics	24119	crossref-title
+ieee-transactions-on-information-theory	crossref	0018-9448	0018-9448;1557-9654	IEEE Transactions on Information Theory	20342	crossref-title
+ieee-transactions-on-medical-imaging	crossref	0278-0062	0278-0062;1558-254X	IEEE Transactions on Medical Imaging	8654	crossref-title
+ieee-transactions-on-power-electronics	crossref	0885-8993	0885-8993;1941-0107	IEEE Transactions on Power Electronics	21313	crossref-title
+ieee-transactions-on-power-systems	crossref	0885-8950	0885-8950;1558-0679	IEEE Transactions on Power Systems	13823	crossref-title
+ieee-transactions-on-robotics	crossref	1552-3098	1552-3098;1941-0468;1546-1904	IEEE Transactions on Robotics	4179	crossref-title
+ieee-transactions-on-signal-processing	crossref	1053-587X	1053-587X;1941-0476	IEEE Transactions on Signal Processing	17659	crossref-title
+international-journal-of-machine-tools-and-manufacture	crossref	0890-6955	0890-6955	International Journal of Machine Tools and Manufacture	4758	crossref-title
+international-journal-of-plasticity	crossref	0749-6419	0749-6419	International Journal of Plasticity	4603	crossref-title
+journal-of-membrane-science	crossref	0376-7388	0376-7388	Journal of Membrane Science	26448	crossref-title
+journal-of-power-sources	crossref	0378-7753	0378-7753;0378-7753	Journal of Power Sources	40876	crossref-title
+journal-of-the-mechanics-and-physics-of-solids	crossref	0022-5096	0022-5096	Journal of the Mechanics and Physics of Solids	7677	crossref-title
+light-science-and-applications	crossref	2047-7538	2047-7538	Light Science & Applications	2837	crossref-title
+nature-biomedical-engineering	crossref	2157-846X	2157-846X	Nature Biomedical Engineering	1759	crossref-title
+nature-electronics	crossref	2520-1131	2520-1131	Nature Electronics	1683	crossref-title
+optica	crossref	2334-2536	2334-2536	Optica	2847	crossref-title
+proceedings-of-the-ieee	crossref	0018-9219	0018-9219;1558-2256	Proceedings of the IEEE	19870	crossref-title
+progress-in-aerospace-sciences	crossref	0376-0421	0376-0421	Progress in Aerospace Sciences	1242	crossref-title
+progress-in-energy-and-combustion-science	crossref	0360-1285	0360-1285	Progress in Energy and Combustion Science	1213	crossref-title
+progress-in-materials-science	crossref	0079-6425	0079-6425;1873-2208	Progress in Materials Science	1660	crossref-title
+the-international-journal-of-robotics-research	crossref	0278-3649	0278-3649;1741-3176	The International Journal of Robotics Research	3211	crossref-title
+transportation-research-part-b-methodological	crossref	0191-2615	0191-2615	Transportation Research Part B Methodological	4203	crossref-title
+entrepreneurship-theory-and-practice	crossref	1042-2587	1042-2587;1540-8520;1540-6520	Entrepreneurship Theory and Practice	1875	crossref-title
+journal-of-business-venturing	crossref	0883-9026	0883-9026	Journal of Business Venturing	1766	crossref-issn
+energy-and-environmental-science	crossref	1754-5692	1754-5692;1754-5706	Energy & Environmental Science	8215	crossref-title
+environmental-science-and-technology	crossref	0013-936X	0013-936X;1520-5851	Environmental Science & Technology	63178	crossref-title
+global-environmental-change	crossref	0959-3780	0959-3780	Global Environmental Change	3178	crossref-issn
+conservation-biology	crossref	0888-8892	0888-8892;1523-1739	Conservation Biology	8557	crossref-issn
+global-change-biology	crossref	1354-1013	1354-1013;1365-2486	Global Change Biology	9842	crossref-title
+financial-cryptography-and-data-security	dblp	conf/fc		Financial Cryptography and Data Security (FC)	0	dblp-venue
+financial-management	crossref	0046-3892	0046-3892;1755-053X	Financial Management	2153	crossref-title
+journal-of-banking-and-finance	crossref	0378-4266	0378-4266	Journal of Banking & Finance	7512	crossref-title
+journal-of-corporate-finance	crossref	0929-1199	0929-1199	Journal of Corporate Finance	2844	crossref-issn
+journal-of-empirical-finance	crossref	0927-5398	0927-5398	Journal of Empirical Finance	1856	crossref-title
+journal-of-finance	crossref	1540-6261	0022-1082;1540-6261	The Journal of Finance	15529	crossref-issn
+journal-of-financial-and-quantitative-analysis	crossref	0022-1090	0022-1090;1756-6916	Journal of Financial and Quantitative Analysis	4093	crossref-title
+journal-of-financial-economics	crossref	0304-405X	0304-405X	Journal of Financial Economics	4520	crossref-issn
+journal-of-financial-intermediation	crossref	1042-9573	1042-9573;1096-0473	Journal of Financial Intermediation	1036	crossref-issn
+journal-of-financial-markets	crossref	1386-4181	1386-4181	Journal of Financial Markets	916	crossref-title
+journal-of-financial-research	refused	-		Journal of Financial Research	0	refused: crossref:0270-2592 — ISSN mismatch: pack states ['1002-7246'], crossref candidate carries ['0270-2592', '1475-6803']
+journal-of-international-money-and-finance	crossref	0261-5606	0261-5606	Journal of International Money and Finance	3810	crossref-title
+journal-of-money-credit-and-banking	crossref	0022-2879	0022-2879;1538-4616	Journal of money credit and banking	4552	crossref-title
+mathematical-finance	crossref	0960-1627	0960-1627;1467-9965	Mathematical Finance	1253	crossref-issn
+review-of-finance	crossref	1572-3097	1572-3097;1573-692X;1875-824X	Review of Finance	1142	crossref-title
+review-of-financial-studies	crossref	0893-9454	0893-9454;1465-7368	Review of Financial Studies	3276	crossref-title
+annals-of-the-american-association-of-geographers	crossref	2469-4452	2469-4452;2469-4460	Annals of the American Association of Geographers	1452	crossref-issn
+progress-in-human-geography	crossref	0309-1325	0309-1325;1477-0288	Progress in Human Geography	4866	crossref-issn
+american-historical-review	crossref	0002-8762	0002-8762;1937-5239	The American Historical Review	134358	crossref-issn
+the-english-historical-review	crossref	0013-8266	0013-8266;1477-4534	The English Historical Review	49972	crossref-title
+analysis	crossref	0003-2638	0003-2638;1467-8284	Analysis	8101	crossref-title
+art-history	crossref	0141-6790	0141-6790;1467-8365	Art History	2924	crossref-title
+comparative-literature	crossref	0010-4124	0010-4124;1945-8517	Comparative Literature	3888	crossref-title
+ethics	crossref	0014-1704	0014-1704;1539-297X	Ethics	11112	crossref-title
+harvard-theological-review	crossref	0017-8160	0017-8160;1475-4517	Harvard Theological Review	4056	crossref-title
+history-and-theory	crossref	0018-2656	0018-2656;1468-2303	History and Theory	2419	crossref-title
+history-of-religions	crossref	0018-2710	0018-2710;1545-6935	History of Religions	2590	crossref-title
+journal-of-linguistics	crossref	0022-2267	0022-2267;1469-7742	Journal of Linguistics	3003	crossref-title
+journal-of-social-history	crossref	0022-4529	0022-4529;1527-1897	Journal of Social History	6929	crossref-title
+journal-of-the-american-musicological-society	crossref	0003-0139	0003-0139;1547-3848	Journal of the American Musicological Society	6740	crossref-title
+linguistic-inquiry	crossref	0024-3892	0024-3892;1530-9150	Linguistic Inquiry	1053	crossref-title
+modern-language-quarterly	crossref	0026-7929	0026-7929;1527-1943	Modern Language Quarterly	4960	crossref-title
+music-theory-spectrum	crossref	0195-6167	0195-6167;1533-8339	Music Theory Spectrum	1577	crossref-title
+natural-language-and-linguistic-theory	crossref	0167-806X	0167-806X;1573-0859	Natural Language & Linguistic Theory	1256	crossref-title
+new-literary-history	crossref	0028-6087	0028-6087;1080-661X	New Literary History	2543	crossref-title
+nous	crossref	0029-4624	0029-4624;1468-0068	Noûs	2976	crossref-title
+october	crossref	0162-2870	0162-2870;1536-013X	October	1597	crossref-title
+past-and-present	crossref	0031-2746	0031-2746;1477-464X	Past & Present	2487	crossref-title
+representations	crossref	0734-6018	0734-6018;1533-855X	Representations	2167	crossref-title
+the-classical-quarterly	crossref	0009-8388	0009-8388;1471-6844	The Classical Quarterly	6590	crossref-title
+the-journal-of-aesthetics-and-art-criticism	crossref	0021-8529	0021-8529;1540-6245	Journal of Aesthetics and Art Criticism	11421	crossref-title
+the-journal-of-modern-history	crossref	0022-2801	0022-2801;1537-5358	The Journal of Modern History	18068	crossref-title
+the-journal-of-philosophy	crossref	0022-362X	0022-362X	The Journal of Philosophy	12801	crossref-title
+the-journal-of-religion	crossref	0022-4189	0022-4189;1549-6538	The Journal of Religion	15431	crossref-title
+the-journal-of-roman-studies	crossref	0075-4358	0075-4358;1753-528X	The Journal of Roman Studies	9379	crossref-title
+the-philosophical-review	crossref	0031-8108	0031-8108;1558-1470	The Philosophical Review	10367	crossref-title
+the-william-and-mary-quarterly	crossref	0043-5597	0043-5597;1933-7698	The William and Mary Quarterly	10822	crossref-title
+critical-inquiry	crossref	0093-1896	0093-1896;1539-7858	Critical Inquiry	3602	crossref-title
+information-systems-research	crossref	1047-7047	1047-7047;1526-5536	Information Systems Research	1950	crossref-issn
+journal-of-management-information-systems	crossref	0742-1222	0742-1222;1557-928X	Journal of Management Information Systems	1801	crossref-title
+journal-of-the-association-for-information-systems	crossref	1536-9323	1536-9323;1536-9323	Journal of the Association for Information Systems	1044	crossref-title
+mis-quarterly	crossref	0276-7783	0276-7783;2162-9730	MIS Quarterly	2261	crossref-title
+research-policy	crossref	0048-7333	0048-7333	Research Policy	5231	crossref-title
+journal-of-international-business-studies	crossref	0047-2506	0047-2506;1478-6990;0047-8210	Journal of International Business Studies	3309	crossref-issn
+harvard-law-review	crossref	0017-811X	0017-811X;2161-976X	Harvard Law Review	19370	crossref-title
+yale-law-journal	crossref	0044-0094	0044-0094	The Yale Law Journal	16101	crossref-title
+journal-of-law-and-economics	crossref	0022-2186	0022-2186;1537-5285	The Journal of Law and Economics	1981	crossref-title
+journal-of-law-economics-and-organization	crossref	8756-6222	8756-6222;1465-7341	The Journal of Law Economics and Organization	1103	crossref-title
+ca-a-cancer-journal-for-clinicians	crossref	0007-9235	0007-9235;1542-4863	CA A Cancer Journal for Clinicians	4866	crossref-title
+cancer-cell	crossref	1535-6108	1535-6108	Cancer Cell	4243	crossref-issn
+cancer-discovery	crossref	2159-8274	2159-8274;2159-8290	Cancer Discovery	8039	crossref-title
+cell	crossref	0092-8674	0092-8674	Cell	26695	crossref-issn
+cell-host-and-microbe	crossref	1931-3128	1931-3128	Cell Host & Microbe	3618	crossref-title
+cell-metabolism	crossref	1550-4131	1550-4131	Cell Metabolism	4295	crossref-title
+cell-reports-medicine	crossref	2666-3791	2666-3791	Cell Reports Medicine	2220	crossref-title
+cell-stem-cell	crossref	1934-5909	1934-5909	Cell Stem Cell	3839	crossref-title
+developmental-cell	crossref	1534-5807	1534-5807	Developmental Cell	6393	crossref-title
+molecular-cell	crossref	1097-2765	1097-2765	Molecular Cell	10504	crossref-issn
+nature-cell-biology	crossref	1465-7392	1465-7392;1476-4679	Nature Cell Biology	6736	crossref-title
+the-plant-cell	crossref	1040-4651	1040-4651;1532-298X	The Plant Cell	12354	crossref-title
+academy-of-management-annals	crossref	1941-6520	1941-6520;1941-6067	Academy of Management Annals	393	crossref-title
+academy-of-management-journal	crossref	0001-4273	0001-4273;1948-0989	Academy of Management Journal	4516	crossref-title
+academy-of-management-review	crossref	0363-7425	0363-7425;1930-3807	Academy of Management Review	4395	crossref-title
+administrative-science-quarterly	crossref	0001-8392	0001-8392;1930-3815	Administrative Science Quarterly	4304	crossref-title
+human-relations	crossref	0018-7267	0018-7267;1741-282X	Human Relations	4897	crossref-title
+human-resource-management	crossref	1099-050X	0090-4848;1099-050X	Human Resource Management	3235	crossref-issn
+journal-of-management	crossref	0149-2063	0149-2063;1557-1211	Journal of Management	3266	crossref-title
+journal-of-management-studies	crossref	0022-2380	0022-2380;1467-6486	Journal of Management Studies	3752	crossref-title
+journal-of-management-world	refused	-		Journal of Management World	0	refused: crossref:2994-3191 — Chinese-language venue matched on a translated name with no ISSN to corroborate it
+organization-science	crossref	1047-7039	1047-7039;1526-5455	Organization Science	2624	crossref-issn
+organization-studies	crossref	0170-8406	0170-8406;1741-3044	Organization Studies	4218	crossref-title
+strategic-management-journal	crossref	1097-0266	0143-2095;1097-0266	Strategic Management Journal	4423	crossref-issn
+journal-of-consumer-psychology	crossref	1057-7408	1057-7408;1532-7663	Journal of Consumer Psychology	1877	crossref-title
+journal-of-consumer-research	crossref	0093-5301	0093-5301;1537-5277	Journal of Consumer Research	3421	crossref-title
+journal-of-international-marketing	crossref	1069-031X	1069-031X;1547-7215	Journal of International Marketing	960	crossref-title
+journal-of-marketing	crossref	0022-2429	0022-2429;0022-2429;1547-7185	Journal of Marketing	12015	crossref-issn
+journal-of-marketing-research	crossref	0022-2437	0022-2437;1547-7193	Journal of Marketing Research	7586	crossref-issn
+journal-of-public-policy-and-marketing	crossref	0743-9156	0743-9156;1547-7207	Journal of Public Policy & Marketing	1404	crossref-title
+journal-of-the-academy-of-marketing-science	crossref	0092-0703	0092-0703;1552-7824	Journal of the Academy of Marketing Science	3634	crossref-title
+marketing-science	crossref	0732-2399	0732-2399;1526-548X	Marketing Science	2284	crossref-title
+advanced-materials	crossref	0935-9648	0935-9648;1521-4095	Advanced Materials	44914	crossref-issn
+annals-of-mathematics	crossref	0003-486X	0003-486X	Annals of Mathematics	6294	crossref-issn
+jama	crossref	0098-7484	0098-7484;1538-3598	JAMA	226987	crossref-issn
+lancet	crossref	0140-6736	0140-6736;1474-547X;0099-5355	The Lancet	474388	crossref-issn
+nejm	crossref	0028-4793	2163-3061;2163-307X;0028-4793;1533-4406	The New England Journal of Medicine and Surgery and the Collateral Branches of Science	190010	crossref-issn
+the-lancet	crossref	0140-6736	0140-6736;1474-547X;0099-5355	The Lancet	474388	crossref-title
+the-lancet-diabetes-and-endocrinology	crossref	2213-8587	2213-8587	The Lancet Diabetes & Endocrinology	3111	crossref-title
+the-lancet-digital-health	crossref	2589-7500	2589-7500	The Lancet Digital Health	1039	crossref-title
+the-lancet-infectious-diseases	crossref	1473-3099	1473-3099	The Lancet Infectious Diseases	10840	crossref-title
+the-lancet-neurology	crossref	1474-4422	1474-4422	The Lancet Neurology	7432	crossref-title
+the-lancet-oncology	crossref	1470-2045	1470-2045	The Lancet Oncology	12424	crossref-title
+the-lancet-psychiatry	crossref	2215-0366	2215-0366	The Lancet Psychiatry	3838	crossref-title
+the-lancet-public-health	crossref	2468-2667	2468-2667	The Lancet Public Health	1641	crossref-title
+the-lancet-respiratory-medicine	crossref	2213-2600	2213-2600	The Lancet Respiratory Medicine	4100	crossref-title
+accounts-of-chemical-research	crossref	0001-4842	0001-4842;1520-4898	Accounts of Chemical Research	9203	crossref-title
+acs-catalysis	crossref	2155-5435	2155-5435;2155-5435	ACS Catalysis	17583	crossref-title
+acs-central-science	crossref	2374-7943	2374-7943;2374-7951	ACS Central Science	2830	crossref-title
+acs-energy-letters	crossref	2380-8195	2380-8195;2380-8195	ACS Energy Letters	5768	crossref-title
+acs-nano	crossref	1936-0851	1936-0851;1936-086X	ACS Nano	29239	crossref-title
+acta-mathematica	crossref	0001-5962	0001-5962;1871-2509	Acta Mathematica	2280	crossref-title
+advanced-energy-materials	crossref	1614-6832	1614-6832;1614-6840	Advanced Energy Materials	12972	crossref-title
+advanced-functional-materials	crossref	1616-301X	1616-301X;1616-3028	Advanced Functional Materials	42599	crossref-title
+advances-in-mathematics	crossref	0001-8708	0001-8708;1090-2082	Advances in Mathematics	11318	crossref-title
+angewandte-chemie-international-edition	crossref	1433-7851	1433-7851;1521-3773	Angewandte Chemie International Edition	81442	crossref-title
+annals-of-internal-medicine	crossref	0003-4819	0003-4819;1539-3704	Annals of Internal Medicine	62410	crossref-title
+annual-review-of-astronomy-and-astrophysics	crossref	0066-4146	0066-4146;1545-4282	Annual Review of Astronomy and Astrophysics	1297	crossref-title
+annual-review-of-ecology-evolution-and-systematics	crossref	1543-592X	1543-592X;1545-2069	Annual Review of Ecology Evolution and Systematics	617	crossref-title
+astronomy-and-astrophysics	crossref	0004-6361	0004-6361;1432-0746;1633-4760;1638-1963	Astronomy and Astrophysics	58259	crossref-title
+astrophysical-journal-letters	crossref	2041-8205	2041-8205;2041-8213	The Astrophysical Journal Letters	11625	crossref-title
+atmospheric-chemistry-and-physics	crossref	1680-7324	1680-7324	Atmospheric Chemistry and Physics"	16007	crossref-title
+blood	crossref	0006-4971	0006-4971;1528-0020	Blood	183948	crossref-title
+chemical-reviews	crossref	0009-2665	0009-2665;1520-6890	Chemical Reviews	10681	crossref-title
+chemical-society-reviews	crossref	0306-0012	0306-0012;1460-4744	Chemical Society Reviews	9298	crossref-title
+circulation	crossref	0009-7322	0009-7322;1524-4539	Circulation	91527	crossref-title
+classical-and-quantum-gravity	crossref	0264-9381	0264-9381;1361-6382	Classical and Quantum Gravity	16038	crossref-title
+coordination-chemistry-reviews	crossref	0010-8545	0010-8545;0010-8545	Coordination Chemistry Reviews	10652	crossref-title
+current-biology	crossref	0960-9822	0960-9822	Current Biology	25652	crossref-title
+diabetes-care	crossref	0149-5992	0149-5992;0149-5992;1935-5548	Diabetes Care	22087	crossref-title
+duke-mathematical-journal	crossref	0012-7094	0012-7094;1547-7398	Duke Mathematical Journal	6819	crossref-title
+earths-future	crossref	2328-4277	2328-4277;2328-4277	Earth s Future	2460	crossref-title
+ecology-letters	crossref	1461-023X	1461-023X;1461-0248	Ecology Letters	5071	crossref-title
+elife	crossref	2050-084X	2050-084X	eLife	22833	crossref-title
+european-heart-journal	crossref	0195-668X	0195-668X;1522-9645	European Heart Journal	68966	crossref-title
+foundations-of-computational-mathematics	crossref	1615-3375	1615-3375;1615-3383	Foundations of Computational Mathematics	858	crossref-title
+functional-ecology	crossref	0269-8463	0269-8463;1365-2435	Functional Ecology	6322	crossref-title
+gastroenterology	crossref	0016-5085	0016-5085	Gastroenterology	157908	crossref-title
+genome-biology	crossref	1465-6906	1465-6906;1465-6906;1474-760X	Genome Biology	9071	crossref-title
+geometry-and-topology	crossref	1465-3060	1465-3060;1364-0380	Geometry & Topology	1771	crossref-title
+geophysical-research-letters	crossref	1944-8007	1944-8007;0094-8276	Geophysical Research Letters	52934	crossref-title
+gut	crossref	0017-5749	0017-5749;1468-3288	Gut	24436	crossref-title
+ieee-transactions-on-pattern-analysis-and-machine-intelligence	crossref	0162-8828	0162-8828;2160-9292;1939-3539	IEEE Transactions on Pattern Analysis and Machine Intelligence	12337	crossref-title
+immunity	crossref	1074-7613	1074-7613	Immunity	6744	crossref-title
+inventiones-mathematicae	crossref	0020-9910	0020-9910;1432-1297	Inventiones mathematicae	4869	crossref-title
+jacs-au	crossref	2691-3704	2691-3704;2691-3704	JACS Au	2411	crossref-title
+journal-of-clinical-investigation	crossref	0021-9738	0021-9738;1558-8238	Journal of Clinical Investigation	36543	crossref-title
+journal-of-clinical-oncology	crossref	0732-183X	0732-183X;1527-7755	Journal of Clinical Oncology	170290	crossref-title
+journal-of-ecology	crossref	0022-0477	0022-0477;1365-2745	Journal of Ecology	10895	crossref-title
+journal-of-experimental-medicine	crossref	0022-1007	0022-1007;1540-9538	Journal of Experimental Medicine	26026	crossref-title
+journal-of-geophysical-research-atmospheres	crossref	0148-0227	0148-0227;2156-2202;2169-897X	Journal of Geophysical Research Atmospheres	97397	crossref-title
+journal-of-high-energy-physics	crossref	1126-6708	1126-6708;1029-8479	Journal of High Energy Physics	47276	crossref-title
+journal-of-machine-learning-research	crossref	1532-4435	1532-4435	Journal of Machine Learning Research	0	crossref-title
+journal-of-the-acm	crossref	0004-5411	0004-5411;1557-735X	Journal of the ACM	3332	crossref-title
+journal-of-the-american-college-of-cardiology	crossref	0735-1097	0735-1097	Journal of the American College of Cardiology	131505	crossref-title
+living-reviews-in-relativity	crossref	2367-3613	2367-3613;1433-8351	Living Reviews in Relativity	197	crossref-title
+matter	crossref	2590-2385	2590-2385	Matter	2616	crossref-title
+molecular-biology-and-evolution	crossref	0737-4038	0737-4038;1537-1719	Molecular Biology and Evolution	9532	crossref-title
+molecular-ecology	crossref	0962-1083	0962-1083;1365-294X	Molecular Ecology	12772	crossref-title
+molecular-psychiatry	crossref	1359-4184	1359-4184;1359-4184;1476-5578	Molecular Psychiatry	7535	crossref-title
+monthly-notices-of-the-royal-astronomical-society	crossref	0035-8711	0035-8711;1365-8711;1365-2966	Monthly Notices of the Royal Astronomical Society	93085	crossref-title
+national-science-review	crossref	2095-5138	2095-5138;2053-714X	National Science Review	3634	crossref-title
+nature	crossref	0028-0836	0028-0836;1476-4687	Nature	446962	crossref-title
+nature-astronomy	crossref	2397-3366	2397-3366	Nature Astronomy	2926	crossref-title
+nature-biotechnology	crossref	1087-0156	1087-0156;1546-1696	Nature Biotechnology	19416	crossref-title
+nature-catalysis	crossref	2520-1158	2520-1158	Nature Catalysis	1597	crossref-title
+nature-chemistry	crossref	1755-4330	1755-4330;1755-4349	Nature Chemistry	5083	crossref-title
+nature-climate-change	crossref	1758-678X	1758-678X;1758-6798	Nature Climate Change	5491	crossref-title
+nature-ecology-and-evolution	crossref	2397-334X	2397-334X	Nature Ecology & Evolution	3127	crossref-title
+nature-energy	crossref	2058-7546	2058-7546	Nature Energy	2060	crossref-title
+nature-genetics	crossref	1061-4036	1061-4036;1546-1718	Nature Genetics	11702	crossref-title
+nature-human-behaviour	crossref	2397-3374	2397-3374	Nature Human Behaviour	2515	crossref-title
+nature-immunology	crossref	1529-2908	1529-2908;1529-2916	Nature Immunology	7190	crossref-title
+nature-machine-intelligence	crossref	2522-5839	2522-5839	Nature Machine Intelligence	1287	crossref-title
+nature-materials	crossref	1476-1122	1476-1122;1476-4660	Nature Materials	6959	crossref-title
+nature-medicine	crossref	1078-8956	1078-8956;1546-170X	Nature Medicine	16472	crossref-title
+nature-methods	crossref	1548-7091	1548-7091;1548-7105	Nature Methods	8382	crossref-title
+nature-microbiology	crossref	2058-5276	2058-5276	Nature Microbiology	2287	crossref-title
+nature-nanotechnology	crossref	1748-3387	1748-3387;1748-3395	Nature Nanotechnology	5984	crossref-title
+nature-neuroscience	crossref	1097-6256	1097-6256;1546-1726	Nature Neuroscience	8131	crossref-title
+nature-photonics	crossref	1749-4885	1749-4885;1749-4893;9999-9999	Nature Photonics	5327	crossref-title
+nature-physics	crossref	1745-2473	1745-2473;1745-2481	Nature Physics	7467	crossref-title
+nature-reviews-chemistry	crossref	2397-3358	2397-3358	Nature Reviews Chemistry	1019	crossref-title
+nature-reviews-drug-discovery	crossref	1474-1776	1474-1776;1474-1784	Nature Reviews Drug Discovery	6719	crossref-title
+nature-reviews-earth-and-environment	crossref	2662-138X	2662-138X	Nature Reviews Earth & Environment	814	crossref-title
+nature-reviews-materials	crossref	2058-8437	2058-8437	Nature Reviews Materials	981	crossref-title
+nature-reviews-methods-primers	crossref	2662-8449	2662-8449	Nature Reviews Methods Primers	513	crossref-title
+nature-reviews-physics	crossref	2522-5820	2522-5820	Nature Reviews Physics	970	crossref-title
+nature-structural-and-molecular-biology	crossref	1545-9993	1545-9993;1545-9985	Nature Structural & Molecular Biology	5826	crossref-title
+nature-sustainability	crossref	2398-9629	2398-9629	Nature Sustainability	1909	crossref-title
+nature-synthesis	crossref	2731-0582	2731-0582	Nature Synthesis	1139	crossref-title
+nature-water	crossref	2731-6084	2731-6084	Nature Water	690	crossref-title
+neuron	crossref	0896-6273	0896-6273	Neuron	14315	crossref-title
+new-journal-of-physics	crossref	1367-2630	1367-2630	New Journal of Physics	14693	crossref-title
+npj-computational-materials	crossref	2057-3960	2057-3960	npj Computational Materials	2302	crossref-title
+nucleic-acids-research	crossref	0305-1048	0305-1048;1362-4962	Nucleic Acids Research	55845	crossref-title
+one-earth	crossref	2590-3322	2590-3322	One Earth	1469	crossref-title
+physics-reports	crossref	0370-1573	0370-1573	Physics Reports	6049	crossref-title
+plos-biology	crossref	1544-9173	1544-9173;1545-7885	PLoS Biology	8661	crossref-title
+plos-medicine	crossref	1549-1277	1549-1277;1549-1676	PLoS Medicine	5778	crossref-title
+pnas	crossref	0027-8424	0027-8424;1091-6490	Proceedings of the National Academy of Sciences	171464	crossref-issn
+pnas-nexus	crossref	2752-6542	2752-6542	PNAS Nexus	2079	crossref-issn
+prx-quantum	crossref	2691-3399	2691-3399	PRX Quantum	1423	crossref-title
+reports-on-progress-in-physics	crossref	0034-4885	0034-4885;1361-6633	Reports on Progress in Physics	2756	crossref-title
+reviews-of-geophysics	crossref	8755-1209	8755-1209;1944-9208	Reviews of Geophysics	2707	crossref-title
+reviews-of-modern-physics	crossref	0034-6861	0034-6861;1539-0756	Reviews of Modern Physics	3643	crossref-title
+science	crossref	0036-8075	0036-8075;1095-9203	Science	383844	crossref-issn
+science-advances	crossref	2375-2548	2375-2548;2375-2548	Science Advances	19962	crossref-title
+science-immunology	crossref	2470-9468	2470-9468	Science Immunology	1446	crossref-title
+science-robotics	crossref	2470-9476	2470-9476	Science Robotics	959	crossref-title
+science-signaling	crossref	1945-0877	1945-0877;1937-9145	Science Signaling	9379	crossref-title
+science-translational-medicine	crossref	1946-6234	1946-6234;1946-6242	Science Translational Medicine	7299	crossref-title
+siam-journal-on-computing	crossref	0097-5397	0097-5397;1095-7111	SIAM Journal on Computing	3910	crossref-title
+siam-review	crossref	0036-1445	0036-1445;1095-7200	SIAM Review	6453	crossref-title
+the-astronomical-journal	crossref	0004-6256	0004-6256;1538-3881	The Astronomical Journal	32496	crossref-title
+the-astrophysical-journal	crossref	0004-637X	0004-637X;1538-4357	The Astrophysical Journal	133957	crossref-title
+the-bmj	crossref	0267-0623	0267-0623;1468-5833;0959-535X;0959-8138;0959-8154;1756-1833;1759-2151	BMJ	455743	crossref-title
+the-cryosphere	crossref	1994-0424	1994-0424	The Cryosphere	3504	crossref-title
+the-embo-journal	crossref	0261-4189	0261-4189;1460-2075	The EMBO Journal	21957	crossref-title
+the-innovation	crossref	2666-6758	2666-6758	The Innovation	1095	crossref-title
+the-isme-journal	crossref	1751-7362	1751-7362;1751-7370	The ISME Journal	4499	crossref-title
+trends-in-cognitive-sciences	crossref	1364-6613	1364-6613	Trends in Cognitive Sciences	4313	crossref-title
+trends-in-ecology-and-evolution	crossref	0169-5347	0169-5347	Trends in Ecology & Evolution	8136	crossref-title
+water-research	crossref	0043-1354	0043-1354	Water Research	31308	crossref-title
+integration-of-constraint-programming-artificial-intelligence-and-operations-research	dblp	conf/cpaior		Integration of Constraint Programming, Artificial Intelligence, and Operations Research (CPAIOR)	0	dblp-venue
+journal-of-operations-management	crossref	0272-6963	0272-6963;1873-1317	Journal of Operations Management	2435	crossref-issn
+management-science	crossref	0025-1909	0025-1909;1526-5501	Management Science	12453	crossref-issn
+manufacturing-and-service-operations-management	crossref	1523-4614	1523-4614;1526-5498;1526-5489	Manufacturing & Service Operations Management	1788	crossref-issn
+operations-research	crossref	0030-364X	0030-364X;1526-5463	Operations Research	7905	crossref-issn
+production-and-operations-management	crossref	1059-1478	1059-1478;1937-5956	Production and Operations Management	3908	crossref-issn
+informs-journal-on-computing	crossref	0899-1499	0899-1499;1526-5528;1091-9856;2326-3245	INFORMS Journal on Computing	2641	crossref-title
+mind	crossref	0026-4423	0026-4423;1460-2113	Mind	16165	crossref-issn
+physical-review-applied	crossref	2331-7019	2331-7019	Physical Review Applied	9046	crossref-title
+physical-review-b	crossref	1098-0121	1098-0121;1550-235X;0163-1829;0556-2805;1095-3795;2469-9950;2469-9969	Physical Review B	227852	crossref-title
+physical-review-d	crossref	1550-7998	1550-7998;1089-4918;0556-2821;1550-2368;2470-0010;2470-0029	Physical Review D	121196	crossref-title
+physical-review-e	crossref	1539-3755	1539-3755;1550-2376;1063-651X;1095-3787;2470-0045;2470-0053	Physical Review E	72434	crossref-title
+physical-review-letters	crossref	0031-9007	0031-9007;1079-7114	Physical Review Letters	143718	crossref-issn
+physical-review-x	crossref	2160-3308	2160-3308	Physical Review X	3345	crossref-title
+american-journal-of-political-science	crossref	1540-5907	0092-5853;1540-5907	American Journal of Political Science	3400	crossref-issn
+american-political-science-review	crossref	0003-0554	0003-0554;1537-5943	American Political Science Review	32365	crossref-title
+british-journal-of-political-science	crossref	0007-1234	0007-1234;1469-2112	British Journal of Political Science	2698	crossref-title
+comparative-political-studies	crossref	0010-4140	0010-4140;1552-3829	Comparative Political Studies	2887	crossref-title
+journal-of-politics	crossref	0022-3816	0022-3816;1468-2508	The Journal of Politics	12424	crossref-title
+world-politics	crossref	0043-8871	0043-8871;1086-3338	World Politics	2707	crossref-issn
+international-organization	crossref	0020-8183	0020-8183;1531-5088	International Organization	4633	crossref-issn
+annual-review-of-psychology	crossref	0066-4308	0066-4308;1545-2085	Annual Review of Psychology	1942	crossref-issn
+cognitive-psychology	crossref	0010-0285	0010-0285;1095-5623	Cognitive Psychology	1606	crossref-issn
+developmental-psychology	crossref	0012-1649	0012-1649;1939-0599	Developmental Psychology	11491	crossref-issn
+journal-of-personality-and-social-psychology	crossref	0022-3514	0022-3514;1939-1315	Journal of Personality and Social Psychology	15371	crossref-title
+perspectives-on-psychological-science	crossref	1745-6916	1745-6916;1745-6924	Perspectives on Psychological Science	1518	crossref-title
+psychological-bulletin	crossref	0033-2909	0033-2909;1939-1455	Psychological Bulletin	10859	crossref-title
+psychological-review	crossref	0033-295X	0033-295X;1939-1471	Psychological Review	7004	crossref-title
+psychological-science	crossref	0956-7976	0956-7976;1467-9280	Psychological Science	5721	crossref-title
+journal-of-educational-psychology	crossref	0022-0663	0022-0663;1939-2176	Journal of Educational Psychology	12003	crossref-issn
+journal-of-applied-psychology	crossref	0021-9010	0021-9010;1939-1854	Journal of Applied Psychology	12811	crossref-issn
+governance-journal	crossref	0952-1895	0952-1895;1468-0491	Governance	2157	crossref-issn
+journal-of-public-administration-research-and-theory	crossref	1053-1858	1053-1858;1477-9803	Journal of Public Administration Research and Theory	1750	crossref-title
+public-administration-review	crossref	0033-3352	0033-3352;1540-6210	Public Administration Review	8802	crossref-title
+journal-of-policy-analysis-and-management	crossref	0276-8739	0276-8739;1520-6688	Journal of Policy Analysis and Management	5558	crossref-title
+journal-of-the-american-academy-of-religion	crossref	0002-7189	0002-7189;1477-4585	Journal of the American Academy of Religion	12765	crossref-issn
+american-economic-review	crossref	0002-8282	0002-8282;1944-7981	American Economic Review	5654	crossref-title
+brookings-papers-on-economic-activity	crossref	0007-2303	0007-2303;1533-4465	Brookings Papers on Economic Activity	1214	crossref-title
+science-research-management	refused	-		科研管理	0	refused: crossref:2661-3751 — Chinese-language venue matched on a translated name with no ISSN to corroborate it
+social-sciences-in-china	refused	-		Social Sciences in China	0	refused: crossref:0252-9203 — ISSN mismatch: pack states ['1002-4921'], crossref candidate carries ['0252-9203', '1940-5952']
+american-journal-of-sociology	crossref	0002-9602	0002-9602;1537-5390	American Journal of Sociology	27763	crossref-title
+american-sociological-review	crossref	0003-1224	0003-1224;1939-8271	American Sociological Review	13227	crossref-title
+annual-review-of-sociology	crossref	0360-0572	0360-0572;1545-2115	Annual Review of Sociology	1380	crossref-issn
+european-sociological-review	crossref	0266-7215	0266-7215;1468-2672	European Sociological Review	2181	crossref-title
+social-forces	crossref	0037-7732	0037-7732;1534-7605	Social Forces	21067	crossref-title
+sociological-methods-and-research	crossref	0049-1241	0049-1241;1552-8294	Sociological Methods & Research	1540	crossref-title
+sociological-theory	crossref	1467-9558	0735-2751;1467-9558	Sociological Theory	963	crossref-issn
+journal-of-marriage-and-family	crossref	0022-2445	0022-2445;1741-3737	Journal of Marriage and Family	7061	crossref-title
+social-psychology-quarterly	crossref	0190-2725	0190-2725;1939-8999	Social Psychology Quarterly	1421	crossref-issn

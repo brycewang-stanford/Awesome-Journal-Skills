@@ -27,6 +27,7 @@ from venue_lib import ROOT, index_digest, tokenize
 
 INDEX = ROOT / "shared-resources/journal-selection/venue-index.tsv"
 POSTINGS = ROOT / "shared-resources/journal-selection/scope-postings.tsv"
+TOPIC_POSTINGS = ROOT / "shared-resources/journal-selection/topic-postings.tsv"
 ADJACENCY = ROOT / "shared-resources/journal-selection/discipline-adjacency.tsv"
 
 # --- weighting ---------------------------------------------------------------------
@@ -63,6 +64,28 @@ COORD_K = 4.0
 # sensor was offered SenSys, IPSN and PerCom, and why "Hallmarks of Cancer: The Next
 # Generation" was offered a natural-language-generation conference.
 DISCIPLINE_SPREAD_ALPHA = 0.6
+# How loudly the *subject* vocabulary speaks next to the *scope* vocabulary.
+#
+# `scope-postings.tsv` is derived from each pack's own prose, which is about a process:
+# how to submit, how review works, what the format rules are. A paper title is about a
+# subject. Asked to connect "Deep Contextualized Word Representations" to ACL through a
+# vocabulary in which ACL is largely a set of anonymity rules, the matcher could not —
+# 14% of dev papers reached their true venue at no depth at all.
+#
+# `topic-postings.tsv` (see `tools/fetch_venue_topics.py`) is the same venues' published
+# article titles, which are in the register the query is in. Both are ranked TF-IDF lists
+# built the same way, so weighting them equally is the reading that needs no argument —
+# and on the gold set's `dev` half that is also where the curve is flat:
+#
+#     weight   0.0   0.25   0.5   0.75   1.0   1.5   2.0   3.0
+#     R@10    46.9   58.3  59.5   59.7  58.5  57.4  56.2  53.8     (dev)
+#
+# Everything from 0.25 to 1.0 sits inside 1.4 points, so this is set to 1.0 rather than
+# to the arithmetic maximum at 0.75 — the same rule the four constants above follow. It
+# exists so the balance can be retuned without rebuilding either file, not because the
+# number is interesting. What *is* interesting is the first column: nothing else in this
+# module moves recall by ten points.
+TOPIC_WEIGHT = 1.0
 
 
 @dataclass
@@ -96,17 +119,52 @@ class IndexMismatch(RuntimeError):
 
 
 class VenueMatcher:
+    """Ranks venues against a paper's text over two vocabularies of the same shape.
+
+    ``scope-postings.tsv`` says what the repository *knows* about a venue; it is derived
+    from each pack's prose, which is about a process. ``topic-postings.tsv`` says what
+    the venue *publishes about*; it is derived from the titles of its own articles,
+    which is the register a query is in. Neither one is sufficient: the scope vocabulary
+    carries the Chinese venues, the breadth bundles and everything a bibliographic API
+    could not resolve, and the topic vocabulary carries the subject words no pack ever
+    had a reason to write down. They are loaded and weighted identically and merged.
+
+    The topic file is optional. Without it the matcher behaves exactly as it did before
+    the file existed, which is what a fresh clone that has not run the (networked)
+    harvest gets.
+    """
+
     def __init__(self, venues: list[dict] | None = None,
                  postings_path: Path = POSTINGS,
-                 adjacency: dict[str, set[str]] | None = None):
+                 adjacency: dict[str, set[str]] | None = None,
+                 topics_path: Path | None = TOPIC_POSTINGS,
+                 topic_weight: float = TOPIC_WEIGHT):
         self.venues = venues if venues is not None else load_venues()
         self.adjacency = adjacency if adjacency is not None else load_adjacency()
         self.postings: dict[str, list[tuple[int, float]]] = defaultdict(list)
-        self._load_postings(postings_path)
+        self.topics_loaded = False
+        # Which venues the subject vocabulary actually reached. Not every venue has one:
+        # a Chinese-language journal that neither Crossref nor DBLP indexes competes on
+        # its scope prose alone, against neighbours that have both vocabularies. That is
+        # a real asymmetry and the tools say so rather than hiding it — see
+        # `match_venues.py`, which marks such a candidate in the shortlist.
+        self.subject_venues: set[str] = set()
+        self._merge(self._weighted_postings(postings_path))
+        if topics_path is not None and topics_path.exists() and topic_weight:
+            topics = self._weighted_postings(topics_path, scale=topic_weight)
+            self._merge(topics)
+            self.subject_venues = {self.venues[row]["venue_id"]
+                                   for plist in topics.values() for row, _ in plist}
+            self.topics_loaded = True
 
     # --- index loading ------------------------------------------------------
 
-    def _load_postings(self, path: Path) -> None:
+    def _merge(self, postings: dict[str, list[tuple[int, float]]]) -> None:
+        for term, plist in postings.items():
+            self.postings[term].extend(plist)
+
+    def _weighted_postings(self, path: Path,
+                           scale: float = 1.0) -> dict[str, list[tuple[int, float]]]:
         depth = 300
         declared_rows = None
         declared_digest = None
@@ -132,7 +190,9 @@ class VenueMatcher:
                     pairs.append((int(row), int(rank)))
                 raw[term] = pairs
 
-        stale = "regenerate with tools/gen_venue_index.py"
+        stale = ("regenerate with tools/fetch_venue_topics.py --harvest"
+                 if path == TOPIC_POSTINGS else
+                 "regenerate with tools/gen_venue_index.py")
         if declared_rows is not None and declared_rows != len(self.venues):
             raise IndexMismatch(
                 f"{path.name} describes {declared_rows} venues but the index holds "
@@ -147,23 +207,29 @@ class VenueMatcher:
                     f"(digest {declared_digest}, index {actual}) — {stale}")
 
         n = max(len(self.venues), 1)
+        postings: dict[str, list[tuple[int, float]]] = defaultdict(list)
         # Document frequency is computed from the postings themselves, so the weighting
-        # never has to be kept in sync with a second file.
+        # never has to be kept in sync with a second file. It is computed per file, not
+        # over the merge: a term's rarity among *published titles* is a different
+        # measurement from its rarity among *editorial prose*, and averaging the two
+        # would describe neither.
         for term, pairs in raw.items():
             idf = math.log(n / (1 + len(pairs)))
             if idf <= 0:
                 continue
             phrase = PHRASE_BONUS if " " in term else 1.0
             for row, rank in pairs:
-                weight = idf * phrase / (1 + RANK_DECAY * rank / depth)
-                self.postings[term].append((row, weight))
+                weight = scale * idf * phrase / (1 + RANK_DECAY * rank / depth)
+                postings[term].append((row, weight))
                 if " " in term:
                     for part in term.split():
-                        self.postings[part].append((row, weight * PART_DISCOUNT))
+                        postings[part].append((row, weight * PART_DISCOUNT))
 
-        self._discount_cross_discipline_terms()
+        self._discount_cross_discipline_terms(postings)
+        return postings
 
-    def _discount_cross_discipline_terms(self) -> None:
+    def _discount_cross_discipline_terms(
+            self, postings: dict[str, list[tuple[int, float]]]) -> None:
         """Scale each term down by how many different disciplines lay claim to it.
 
         A term used by twenty venues inside one discipline is a subject term; a term
@@ -172,7 +238,7 @@ class VenueMatcher:
         the discount is on the *entropy* of the term's discipline distribution.
         """
         disciplines = [venue["discipline"] for venue in self.venues]
-        for term, plist in self.postings.items():
+        for term, plist in postings.items():
             if len(plist) < 2:
                 continue
             spread: Counter = Counter(disciplines[row] for row, _ in plist)
@@ -181,7 +247,7 @@ class VenueMatcher:
             if entropy <= 0:
                 continue
             factor = 1.0 / (1.0 + DISCIPLINE_SPREAD_ALPHA * entropy)
-            self.postings[term] = [(row, weight * factor) for row, weight in plist]
+            postings[term] = [(row, weight * factor) for row, weight in plist]
 
     # --- querying -----------------------------------------------------------
 

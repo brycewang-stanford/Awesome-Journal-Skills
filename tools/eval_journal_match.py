@@ -42,6 +42,10 @@ RANK_LIMIT = None        # rank the whole corpus, so `any-rank` means what it sa
 # honest, a number from sixty papers presented beside one from eight hundred is not.
 MIN_CONFIG_COVERAGE = 0.25
 
+# Not a query: the same headline query run through a matcher built without the subject
+# vocabulary, so the table can show what that vocabulary is worth rather than assert it.
+SCOPE_ONLY_MODE = "title (scope only)"
+
 
 def load_abstract_terms() -> dict[str, str]:
     """paper title -> space-joined abstract term bag (see tools/fetch_abstracts.py)."""
@@ -54,7 +58,11 @@ def load_abstract_terms() -> dict[str, str]:
 
 def build_query(row: dict, mode: str, abstracts: dict[str, str]) -> str | None:
     title = row["paper_title"]
-    if mode in ("title", "title+discipline", "oracle-discipline"):
+    # `title (scope only)` is the same query against a differently-built matcher, not a
+    # different query. It is listed here rather than special-cased at the call site so
+    # that "every mode the harness runs is one this function understands" stays a
+    # checkable invariant.
+    if mode in ("title", SCOPE_ONLY_MODE, "title+discipline", "oracle-discipline"):
         return title
     if mode == "title+context":
         return f"{title} {row['context']}" if row["context"] else title
@@ -136,6 +144,13 @@ DESCRIPTIONS = {
     "title": ("paper title only", "all venues, no prior",
               "**headline.** The paper's own words, chosen by its authors — no shared "
               "vocabulary with the index."),
+    "title (scope only)": ("paper title only",
+                           "all venues, **prose vocabulary only**",
+                           "the headline query run against `scope-postings.tsv` alone — "
+                           "what the matcher could do when the only thing it knew about "
+                           "a venue was the prose describing how to submit to it. "
+                           "Contrast row: the gap to `title` is what the subject "
+                           "vocabulary buys."),
     "title+abstract": ("title + the abstract's term bag", "all venues, no prior",
                        "what an author actually pastes in. Covers only the gold papers "
                        "whose abstract could be resolved from a free bibliographic "
@@ -182,7 +197,15 @@ def render(results, venues, gold, abstracts, dev_headline, withheld, n_split) ->
         "",
         "This is a retrieval floor, not a ceiling on the capability: an agent reads "
         "each candidate's skills and `official-source-map.md` before recommending "
-        "anything. The harness reads only the scope index.",
+        "anything. The harness reads only the venue index.",
+        "",
+        "**Two vocabularies.** Every configuration below searches both "
+        "`scope-postings.tsv` (TF-IDF over each pack's own prose, which is about a "
+        "*process*) and `topic-postings.tsv` (TF-IDF over the titles of articles the "
+        "venue published, which is about a *subject*). The `title (scope only)` row is "
+        "the first of those alone — the same query, the same code path, the earlier "
+        "index — kept in the table because a component whose contribution is folded "
+        "into the headline stops being auditable.",
         "",
         "## Results",
         "",
@@ -203,7 +226,8 @@ def render(results, venues, gold, abstracts, dev_headline, withheld, n_split) ->
         + " | — | — | — |",
         "",
         "`any-rank` = the true venue was retrieved at all, at any depth (it shares at "
-        "least one scope term with the query) — the ceiling every cutoff above is "
+        "least one index term with the query, in either vocabulary) — the ceiling every "
+        "cutoff above is "
         "working against. It stops bounding anything once the query is long: "
         "`title+abstract` sends a median of 130 terms against a 900-deep index, so "
         "*some* term reaches the true venue essentially always, and its 100% is a "
@@ -214,11 +238,11 @@ def render(results, venues, gold, abstracts, dev_headline, withheld, n_split) ->
         "",
         "### Tuning integrity",
         "",
-        "The matcher has four weighting constants (`RANK_DECAY`, `PHRASE_BONUS`, "
-        "`PART_DISCOUNT`, `COORD_K`). They were chosen against the gold set's `dev` "
-        "half; every number in this file is computed on `test`, which they were never "
-        "fitted to. Papers are assigned by a hash of their title, so the split is "
-        "stable as packs are added.",
+        "The matcher has five weighting constants (`RANK_DECAY`, `PHRASE_BONUS`, "
+        "`PART_DISCOUNT`, `COORD_K`, `TOPIC_WEIGHT`). They were chosen against the gold "
+        "set's `dev` half; every number in this file is computed on `test`, which they "
+        "were never fitted to. Papers are assigned by a hash of their title, so the "
+        "split is stable as packs are added.",
         "",
         f"| Half | n | R@10 | MRR |",
         "|---|---:|---:|---:|",
@@ -313,6 +337,22 @@ def render(results, venues, gold, abstracts, dev_headline, withheld, n_split) ->
         "cross-boundary fragments but is not a substitute for a real segmenter.",
         "5. **The exemplar libraries are excluded from the index text**, so a gold "
         "paper's own citation cannot leak into the venue it labels.",
+        "6. **The subject vocabulary is a different measurement, not only a better "
+        "one.** `topic-postings.tsv` is derived from the titles of articles each venue "
+        "actually published, harvested from Crossref and DBLP. Titles that *are* gold "
+        "papers are dropped and the count is published in that file's header — but "
+        "harvesting a venue's own publication stream carries a residual optimism the "
+        "prose vocabulary does not: a gold paper's companion piece, its authors' later "
+        "work and its subfield's subsequent vocabulary are all still in there. That is "
+        "what any real recommender has, and it is why the `title (scope only)` row is "
+        "reported beside the headline instead of being replaced by it.",
+        "7. **Not every venue has a subject vocabulary.** Resolution is exact or it "
+        "does not happen, and the venues it cannot reach are not a random sample: "
+        "Chinese-language journals that neither registry indexes have none at all. "
+        "Those venues are searched over their prose alone while their neighbours are "
+        "searched over both, so their placement is weaker evidence about fit than "
+        "another venue's. `tools/match_venues.py` marks them; this harness does not "
+        "correct for it.",
         "",
         "## Regenerating",
         "",
@@ -328,8 +368,8 @@ def render(results, venues, gold, abstracts, dev_headline, withheld, n_split) ->
     return "\n".join(lines)
 
 
-MODES = ["title", "title+abstract", "title+context", "title+discipline",
-         "oracle-discipline"]
+MODES = ["title", SCOPE_ONLY_MODE, "title+abstract", "title+context",
+         "title+discipline", "oracle-discipline"]
 
 
 def main(argv: list[str]) -> int:
@@ -349,8 +389,22 @@ def main(argv: list[str]) -> int:
     held_out = [r for r in gold if r["split"] == "test"]
     tuning = [r for r in gold if r["split"] == "dev"]
 
+    # The contrast row runs the same query through a matcher built without the subject
+    # vocabulary. Two matchers, not a flag on one, so neither configuration can quietly
+    # borrow the other's postings.
+    scope_only = VenueMatcher(venues, topic_weight=0.0) if matcher.topics_loaded else None
+
     modes = args.modes.split(",") if args.modes else MODES
-    scored = [evaluate(held_out, matcher, mode, abstracts) for mode in modes]
+    scored = []
+    for mode in modes:
+        if mode == SCOPE_ONLY_MODE:
+            if scope_only is None:
+                continue
+            row = evaluate(held_out, scope_only, "title", abstracts)
+            row["mode"] = SCOPE_ONLY_MODE
+            scored.append(row)
+            continue
+        scored.append(evaluate(held_out, matcher, mode, abstracts))
     floor = MIN_CONFIG_COVERAGE * len(held_out)
     results = [r for r in scored if r["n"] >= floor]
     withheld = [r for r in scored if 0 < r["n"] < floor]

@@ -86,7 +86,12 @@ class MatcherFixture(unittest.TestCase):
                        for i in range(max(0, CORPUS_SIZE - len(venues)))]
         path = self.tmp / "postings.tsv"
         write_postings(path, venues, postings, **kwargs)
-        return VenueMatcher(venues=venues, postings_path=path, adjacency=adjacency or {})
+        # `topics_path=None` keeps these fixtures scope-only. The committed subject
+        # vocabulary is built against the real 744-venue ordering, so leaving the default
+        # in place would make every fixture below fail the digest guard — correctly, and
+        # for a reason that has nothing to do with what the test is about.
+        return VenueMatcher(venues=venues, postings_path=path, topics_path=None,
+                            adjacency=adjacency or {})
 
     def ranked_ids(self, hits) -> list[str]:
         return [hit.venue["venue_id"] for hit in hits]
@@ -109,7 +114,8 @@ class TestIndexIntegrity(MatcherFixture):
         path = self.tmp / "postings.tsv"
         write_postings(path, venues, {"panel": [(0, 0)]})
         with self.assertRaises(IndexMismatch):
-            VenueMatcher(venues=[venues[1], venues[0]], postings_path=path, adjacency={})
+            VenueMatcher(venues=[venues[1], venues[0]], postings_path=path,
+                         topics_path=None, adjacency={})
 
     def test_a_matching_pair_loads(self):
         venues = [venue("a"), venue("b")]
@@ -124,7 +130,8 @@ class TestIndexIntegrity(MatcherFixture):
         path = self.tmp / "postings.tsv"
         path.write_text(f"#venues\t{CORPUS_SIZE}\n#depth\t300\npanel\t0:0\n",
                         encoding="utf-8")
-        matcher = VenueMatcher(venues=venues, postings_path=path, adjacency={})
+        matcher = VenueMatcher(venues=venues, postings_path=path,
+                               topics_path=None, adjacency={})
         self.assertEqual(self.ranked_ids(matcher.rank("panel")), ["v0"])
 
 
@@ -353,6 +360,92 @@ class TestFilters(MatcherFixture):
         matcher = self.build(self.venues, self.postings)
         self.assertEqual(
             matcher.rank("panel", region="china", venue_type="conference"), [])
+
+
+class TestTwoVocabularies(MatcherFixture):
+    """The scope index and the subject index are loaded the same way and merged.
+
+    The subject vocabulary exists because the two registers do not overlap: a pack's
+    prose is about submitting to a venue, a paper's title is about a subject, and a
+    venue whose scope terms are all review mechanics is unreachable from any title.
+    These tests pin the merge, not the uplift — the uplift is what `eval/RESULTS.md`
+    measures.
+    """
+
+    def build_pair(self, venues, scope, topics, **kwargs):
+        venues = list(venues) + [venue(f"_pad-{i}", "other")
+                                 for i in range(max(0, CORPUS_SIZE - len(venues)))]
+        scope_path = self.tmp / "scope.tsv"
+        topic_path = self.tmp / "topics.tsv"
+        write_postings(scope_path, venues, scope)
+        write_postings(topic_path, venues, topics, **kwargs)
+        return venues, VenueMatcher(venues=venues, postings_path=scope_path,
+                                    topics_path=topic_path, adjacency={})
+
+    def test_a_term_only_the_subject_index_knows_still_retrieves(self):
+        # The whole point: "electrolyte" is what the venue publishes about and appears
+        # nowhere in the prose describing how to submit to it.
+        venues = [venue("chem", "chemistry"), venue("econ", "economics")]
+        _, matcher = self.build_pair(
+            venues, {"anonymised": [(0, 0)], "referee": [(1, 0)]},
+            {"electrolyte": [(0, 0)]})
+        self.assertEqual(self.ranked_ids(matcher.rank("electrolyte transport")), ["chem"])
+
+    def test_agreement_across_both_vocabularies_beats_one_of_them(self):
+        venues = [venue("both", "chemistry"), venue("scope-only", "chemistry")]
+        _, matcher = self.build_pair(
+            venues, {"electrolyte": [(0, 0), (1, 0)]}, {"electrolyte": [(0, 0)]})
+        self.assertEqual(self.ranked_ids(matcher.rank("electrolyte"))[0], "both")
+
+    def test_the_topic_file_is_optional(self):
+        venues = [venue("a"), venue("b")]
+        matcher = self.build(venues, {"panel": [(0, 0)]})
+        self.assertFalse(matcher.topics_loaded)
+        self.assertEqual(self.ranked_ids(matcher.rank("panel")), ["a"])
+
+    def test_a_missing_topic_file_is_not_an_error(self):
+        venues = [venue("a")] + [venue(f"_pad-{i}", "other") for i in range(39)]
+        scope_path = self.tmp / "scope.tsv"
+        write_postings(scope_path, venues, {"panel": [(0, 0)]})
+        matcher = VenueMatcher(venues=venues, postings_path=scope_path,
+                               topics_path=self.tmp / "absent.tsv", adjacency={})
+        self.assertFalse(matcher.topics_loaded)
+
+    def test_a_topic_file_built_against_another_ordering_is_refused(self):
+        # Same guard as the scope index, and for the same reason: row numbers are the
+        # only link between the two files, so a reordering misattributes every term.
+        venues = [venue("a"), venue("b")]
+        with self.assertRaises(IndexMismatch):
+            self.build_pair(venues, {"panel": [(0, 0)]}, {"wage": [(0, 0)]},
+                            digest="0000000000000000")
+
+    def test_a_topic_file_describing_a_different_corpus_size_is_refused(self):
+        venues = [venue("a"), venue("b")]
+        with self.assertRaises(IndexMismatch):
+            self.build_pair(venues, {"panel": [(0, 0)]}, {"wage": [(0, 0)]},
+                            declared_rows=7)
+
+    def test_the_subject_weight_can_be_turned_off_without_removing_the_file(self):
+        venues = [venue("chem", "chemistry")]
+        venues = venues + [venue(f"_pad-{i}", "other") for i in range(39)]
+        scope_path = self.tmp / "scope.tsv"
+        topic_path = self.tmp / "topics.tsv"
+        write_postings(scope_path, venues, {"anonymised": [(0, 0)]})
+        write_postings(topic_path, venues, {"electrolyte": [(0, 0)]})
+        matcher = VenueMatcher(venues=venues, postings_path=scope_path,
+                               topics_path=topic_path, topic_weight=0.0, adjacency={})
+        self.assertFalse(matcher.topics_loaded)
+        self.assertEqual(matcher.rank("electrolyte"), [])
+
+    def test_document_frequency_is_counted_per_file(self):
+        # A word every venue's prose uses is worthless in the scope index; if the same
+        # word is a subject term for one venue, the subject index must still be able to
+        # say so. Merging first and counting after would silence it.
+        venues = [venue(f"v{i}", "economics") for i in range(CORPUS_SIZE)]
+        scope = {"generation": [(i, 0) for i in range(CORPUS_SIZE)]}
+        topics = {"generation": [(3, 0)]}
+        _, matcher = self.build_pair(venues, scope, topics)
+        self.assertEqual(self.ranked_ids(matcher.rank("generation")), ["v3"])
 
 
 if __name__ == "__main__":

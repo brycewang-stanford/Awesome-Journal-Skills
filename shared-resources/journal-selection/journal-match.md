@@ -60,6 +60,15 @@ full 900-term scope vocabulary per venue rather than the 40 published in the ind
 it is **the same code path the evaluation scores**, so the number in
 [`eval/RESULTS.md`](eval/RESULTS.md) describes what you actually ran.
 
+It searches **two** vocabularies per venue, and the difference between them matters when
+you read a result. The scope vocabulary comes from the venue's pack — prose about a
+*process*. The subject vocabulary ([`topic-postings.tsv`](topic-postings.tsv)) comes from
+the titles of articles the venue *published* — words about a *subject*, which is the
+register your query is in. Not every venue has the second one: where no bibliographic
+source could be resolved, the candidate is marked `°` and the matcher warns that part of
+the shortlist was searched over less evidence than the rest. Treat a `°` venue's low
+placement as a gap in the index, not as a judgement about fit.
+
 Useful flags: `--only-discipline` to hard-filter when you are certain,
 `--exclude <venue_id>` for venues that already rejected the paper, `--lane` / `--region`
 / `--venue-type` / `--coverage` to narrow, `--json` to pipe, `--list-disciplines` for the

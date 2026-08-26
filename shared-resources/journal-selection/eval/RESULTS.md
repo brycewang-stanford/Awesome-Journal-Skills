@@ -8,29 +8,32 @@
 
 Step 2 of [`../journal-match.md`](../journal-match.md) — **candidate generation**. Given a paper, does the matcher surface its true venue in the top *k*? Steps 3-6 (scoring, tiering, the resubmission ladder) are model judgement and are deliberately **not** scored here.
 
-This is a retrieval floor, not a ceiling on the capability: an agent reads each candidate's skills and `official-source-map.md` before recommending anything. The harness reads only the scope index.
+This is a retrieval floor, not a ceiling on the capability: an agent reads each candidate's skills and `official-source-map.md` before recommending anything. The harness reads only the venue index.
+
+**Two vocabularies.** Every configuration below searches both `scope-postings.tsv` (TF-IDF over each pack's own prose, which is about a *process*) and `topic-postings.tsv` (TF-IDF over the titles of articles the venue published, which is about a *subject*). The `title (scope only)` row is the first of those alone — the same query, the same code path, the earlier index — kept in the table because a component whose contribution is folded into the headline stops being auditable.
 
 ## Results
 
 | Configuration | n | R@1 | R@5 | R@10 | R@20 | MRR | any-rank | wrong-lane@10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| `title` | 861 | 18.1% | 36.0% | 46.7% | 54.1% | 0.269 | 85.0% | 6.7% |
-| `title+abstract` | 383 | 23.5% | 44.4% | 55.4% | 64.8% | 0.341 | 100.0% | 6.5% |
-| `title+context` | 861 | 40.2% | 63.3% | 71.7% | 77.7% | 0.507 | 93.8% | 5.8% |
-| `title+discipline` | 861 | 28.7% | 49.1% | 55.7% | 62.4% | 0.379 | 85.0% | 5.3% |
-| `oracle-discipline` | 861 | 37.6% | 64.0% | 70.8% | 77.2% | 0.487 | 85.0% | 3.7% |
+| `title` | 861 | 23.2% | 50.9% | 62.0% | 72.6% | 0.359 | 95.0% | 4.3% |
+| `title (scope only)` | 861 | 18.1% | 36.0% | 46.7% | 54.1% | 0.269 | 85.0% | 6.7% |
+| `title+abstract` | 409 | 28.9% | 56.5% | 67.5% | 76.8% | 0.412 | 100.0% | 3.9% |
+| `title+context` | 861 | 39.5% | 70.2% | 79.3% | 85.2% | 0.526 | 97.1% | 4.5% |
+| `title+discipline` | 861 | 35.2% | 66.1% | 74.4% | 79.7% | 0.489 | 95.0% | 3.9% |
+| `oracle-discipline` | 861 | 43.1% | 74.1% | 81.2% | 86.3% | 0.564 | 95.0% | 3.9% |
 | _random baseline_ | — | 0.1% | 0.7% | 1.3% | 2.7% | — | — | — |
 
-`any-rank` = the true venue was retrieved at all, at any depth (it shares at least one scope term with the query) — the ceiling every cutoff above is working against. It stops bounding anything once the query is long: `title+abstract` sends a median of 130 terms against a 900-deep index, so *some* term reaches the true venue essentially always, and its 100% is a property of the query length rather than a solved problem. Read it on the title rows. `wrong-lane@10` = share of top-10 slots given to a venue that publishes no empirical work, for a paper whose true venue does — the cheapest kind of obviously wrong suggestion, and the one an author notices first.
+`any-rank` = the true venue was retrieved at all, at any depth (it shares at least one index term with the query, in either vocabulary) — the ceiling every cutoff above is working against. It stops bounding anything once the query is long: `title+abstract` sends a median of 130 terms against a 900-deep index, so *some* term reaches the true venue essentially always, and its 100% is a property of the query length rather than a solved problem. Read it on the title rows. `wrong-lane@10` = share of top-10 slots given to a venue that publishes no empirical work, for a paper whose true venue does — the cheapest kind of obviously wrong suggestion, and the one an author notices first.
 
 ### Tuning integrity
 
-The matcher has four weighting constants (`RANK_DECAY`, `PHRASE_BONUS`, `PART_DISCOUNT`, `COORD_K`). They were chosen against the gold set's `dev` half; every number in this file is computed on `test`, which they were never fitted to. Papers are assigned by a hash of their title, so the split is stable as packs are added.
+The matcher has five weighting constants (`RANK_DECAY`, `PHRASE_BONUS`, `PART_DISCOUNT`, `COORD_K`, `TOPIC_WEIGHT`). They were chosen against the gold set's `dev` half; every number in this file is computed on `test`, which they were never fitted to. Papers are assigned by a hash of their title, so the split is stable as packs are added.
 
 | Half | n | R@10 | MRR |
 |---|---:|---:|---:|
-| `dev` (tuned on) | 877 | 46.9% | 0.278 |
-| `test` (reported) | 861 | 46.7% | 0.269 |
+| `dev` (tuned on) | 877 | 63.7% | 0.377 |
+| `test` (reported) | 861 | 62.0% | 0.359 |
 
 A large gap between the two rows would mean the constants had been fitted to noise; they track each other closely, which is the point of publishing both.
 
@@ -39,6 +42,7 @@ A large gap between the two rows would mean the constants had been fitted to noi
 | Configuration | Query | Candidate set | Interpretation |
 |---|---|---|---|
 | `title` | paper title only | all venues, no prior | **headline.** The paper's own words, chosen by its authors — no shared vocabulary with the index. |
+| `title (scope only)` | paper title only | all venues, **prose vocabulary only** | the headline query run against `scope-postings.tsv` alone — what the matcher could do when the only thing it knew about a venue was the prose describing how to submit to it. Contrast row: the gap to `title` is what the subject vocabulary buys. |
 | `title+abstract` | title + the abstract's term bag | all venues, no prior | what an author actually pastes in. Covers only the gold papers whose abstract could be resolved from a free bibliographic source (Crossref, Europe PMC, arXiv), which is uneven by discipline — see Limitations. |
 | `title+context` | title + the exemplar library's gloss | all venues, no prior | optimistic bound. The gloss was written by the same authors as the packs, so it is vocabulary-correlated with the index. Contrast only. |
 | `title+discipline` | paper title only | all venues, discipline **prior** | Step 1 done right: the true discipline and its adjacents are boosted, but a strong match elsewhere still surfaces. |
@@ -48,34 +52,36 @@ A large gap between the two rows would mean the constants had been fitted to noi
 
 | Discipline | R@10 | n |
 |---|---:|---:|
-| cs-ai (conference) | 47.5% | 261 |
-| economics | 22.2% | 54 |
-| finance | 50.0% | 40 |
-| accounting | 58.3% | 36 |
-| psychology | 27.3% | 33 |
-| sociology | 43.8% | 32 |
-| econometrics/methods | 24.0% | 25 |
-| political-science | 32.0% | 25 |
-| management | 36.8% | 19 |
-| marketing | 44.4% | 18 |
-| economics/macro | 35.3% | 17 |
-| operations | 37.5% | 16 |
-| natural-science | 6.7% | 15 |
+| cs-ai (conference) | 52.5% | 261 |
+| economics | 35.2% | 54 |
+| finance | 80.0% | 40 |
+| accounting | 86.1% | 36 |
+| psychology | 60.6% | 33 |
+| sociology | 53.1% | 32 |
+| econometrics/methods | 72.0% | 25 |
+| political-science | 68.0% | 25 |
+| management | 57.9% | 19 |
+| marketing | 66.7% | 18 |
+| economics/macro | 88.2% | 17 |
+| operations | 56.2% | 16 |
+| natural-science | 13.3% | 15 |
 | public-admin | 78.6% | 14 |
-| medicine | 69.2% | 13 |
-| communication | 50.0% | 12 |
-| economics/labor | 83.3% | 12 |
+| medicine | 61.5% | 13 |
+| communication | 83.3% | 12 |
+| economics/labor | 75.0% | 12 |
 | agriculture | 100.0% | 11 |
-| environment/ecology | 60.0% | 10 |
-| life-sciences | 60.0% | 10 |
+| environment/ecology | 100.0% | 10 |
+| life-sciences | 70.0% | 10 |
 
 ## Limitations
 
 1. **The gold set is drawn from the repository itself.** Exemplar libraries hold papers the pack authors judged canonical for that venue, which skews toward famous, prototypical papers. Real routing decisions involve marginal papers, which are harder.
-2. **The headline query is a title.** A real match runs on an abstract plus the five signals of Step 1; a title is a deliberately thin, pessimistic query. `title+abstract` is the realistic figure; it covers 733 of 1738 gold papers (42%), the rest being papers that could not be resolved to an open abstract. That coverage is uneven by discipline — 86% of medicine papers against 9% of economics/labor — so the row is not a like-for-like uplift on the headline.
+2. **The headline query is a title.** A real match runs on an abstract plus the five signals of Step 1; a title is a deliberately thin, pessimistic query. `title+abstract` is the realistic figure; it covers 788 of 1738 gold papers (45%), the rest being papers that could not be resolved to an open abstract. That coverage is uneven by discipline — 88% of natural-science papers against 9% of economics/labor — so the row is not a like-for-like uplift on the headline.
 3. **Only depth packs contribute labels.** Breadth-bundle venues are in the candidate set (so they can absorb probability mass) but have no gold papers, which makes the task harder, not easier.
 4. **Keywords are derived, not curated.** `scope_keywords` come from TF-IDF over each venue's own prose. Chinese terms are filtered through a vocabulary discovered from the corpus (cohesion + boundary entropy), which removes cross-boundary fragments but is not a substitute for a real segmenter.
 5. **The exemplar libraries are excluded from the index text**, so a gold paper's own citation cannot leak into the venue it labels.
+6. **The subject vocabulary is a different measurement, not only a better one.** `topic-postings.tsv` is derived from the titles of articles each venue actually published, harvested from Crossref and DBLP. Titles that *are* gold papers are dropped and the count is published in that file's header — but harvesting a venue's own publication stream carries a residual optimism the prose vocabulary does not: a gold paper's companion piece, its authors' later work and its subfield's subsequent vocabulary are all still in there. That is what any real recommender has, and it is why the `title (scope only)` row is reported beside the headline instead of being replaced by it.
+7. **Not every venue has a subject vocabulary.** Resolution is exact or it does not happen, and the venues it cannot reach are not a random sample: Chinese-language journals that neither registry indexes have none at all. Those venues are searched over their prose alone while their neighbours are searched over both, so their placement is weaker evidence about fit than another venue's. `tools/match_venues.py` marks them; this harness does not correct for it.
 
 ## Regenerating
 

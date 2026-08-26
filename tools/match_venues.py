@@ -51,7 +51,14 @@ WEAK_EVIDENCE_TERMS = 2
 WEAK_EVIDENCE_DEPTH = 3
 
 
-def warnings_for(hits, discipline: str | None) -> list[str]:
+# A shortlist is a comparison, and a comparison between venues that were searched over
+# different amounts of evidence is not a fair one. Below this share of prose-only
+# candidates in the top slots, the asymmetry is a footnote; above it, the ranking itself
+# is partly an artefact of who could be resolved to a bibliographic source.
+PROSE_ONLY_SHARE = 0.34
+
+
+def warnings_for(hits, discipline: str | None, matcher=None) -> list[str]:
     out: list[str] = []
     top = hits[:WEAK_EVIDENCE_DEPTH]
     if top and max(len(h.terms) for h in top) <= WEAK_EVIDENCE_TERMS:
@@ -68,10 +75,23 @@ def warnings_for(hits, discipline: str | None) -> list[str]:
             "discipline label is wrong (check `--list-disciplines`), or this subject "
             "area is thin in the index. Say so rather than recommending what did "
             "surface; `rt-venue-integrity` covers venues this repository does not.")
+    if matcher is not None and matcher.topics_loaded and hits:
+        prose_only = [h for h in hits
+                      if h.venue["venue_id"] not in matcher.subject_venues]
+        if len(prose_only) >= max(1, int(PROSE_ONLY_SHARE * len(hits))):
+            out.append(
+                f"⚠ Uneven evidence: {len(prose_only)} of {len(hits)} candidates "
+                "(marked °) were searched over their pack's prose only. No "
+                "bibliographic source could be resolved for them, so the subject "
+                "vocabulary — what the venue actually publishes about — is missing on "
+                "one side of this comparison. It is mostly Chinese-language journals "
+                "that neither Crossref nor DBLP indexes. Their absence from the top of "
+                "the list is weak evidence about fit; read them before ruling them out.")
     return out
 
 
-def render_text(hits, query_terms: int, discipline: str | None = None) -> str:
+def render_text(hits, query_terms: int, discipline: str | None = None,
+                matcher=None) -> str:
     if not hits:
         return ("No venue shared a scope term with this text.\n"
                 "Widen the query (add the abstract), or drop --discipline / "
@@ -82,14 +102,17 @@ def render_text(hits, query_terms: int, discipline: str | None = None) -> str:
              "scores are relative, not probabilities", ""]
     for i, hit in enumerate(hits, 1):
         v = hit.venue
+        prose_only = (matcher is not None and matcher.topics_loaded
+                      and v["venue_id"] not in matcher.subject_venues)
+        mark = "°" if prose_only else ""
         lines.append(
-            f"{i:>3}. {v['display_name']}  [{v['venue_id']}]\n"
+            f"{i:>3}. {v['display_name']}{mark}  [{v['venue_id']}]\n"
             f"     {v['discipline']} · {v['venue_type']} · {v['lane']} · {v['region']} · "
             f"tier: {v['tier']} · {v['coverage']}\n"
             f"     match {hit.score / top:.2f} via: {hit.why()}\n"
             f"     read: {where_to_read(v)}"
         )
-    for warning in warnings_for(hits, discipline):
+    for warning in warnings_for(hits, discipline, matcher):
         lines += ["", warning]
     lines += [
         "",
@@ -160,12 +183,14 @@ def main(argv: list[str]) -> int:
             "coverage": h.venue["coverage"],
             "read": where_to_read(h.venue),
             "matched_terms": [t for t, _ in h.terms],
+            "subject_vocabulary": h.venue["venue_id"] in matcher.subject_venues,
         } for h in hits]
         print(json.dumps({"candidates": payload,
-                          "warnings": warnings_for(hits, args.discipline)},
+                          "warnings": warnings_for(hits, args.discipline, matcher)},
                          ensure_ascii=False, indent=2))
     else:
-        print(render_text(hits, len(matcher.query_terms(query)), args.discipline))
+        print(render_text(hits, len(matcher.query_terms(query)), args.discipline,
+                          matcher))
     return 0
 
 

@@ -12,6 +12,34 @@ Claude SkillOpt、W1/W2 workflow 波次）已完成并归档至
 
 ## Active lanes
 
+- **主题词表 lane**（2026-08-27）：给检索加第二套词表。`scope-postings.tsv` 是从各 pack
+  的**流程散文**里抽的（怎么投稿、怎么评审、格式规定），而 query 是论文标题，说的是
+  **主题**——两者不在同一个语域上，结果是 dev 半集里每七篇有一篇的真实 venue **在任何
+  深度上都检索不到**。新增 `tools/fetch_venue_topics.py`：按 venue 类型走免费源
+  （期刊 → Crossref，会议 → DBLP），抓各 venue 自己发表过的文章标题，产出
+  `venue-sources.tsv`（可人工复核的解析映射）与 `topic-postings.tsv`（第二套倒排词表），
+  由 `match_lib` 合并检索。**解析规则一律是归一化后的精确匹配**：模糊匹配不会让排序变差
+  一点，而是把别人的主题装进这个 venue——中文刊用译名匹配已经错过三次（《金融研究》→
+  Southern Finance Association 的同名刊等），所以加了 ISSN 否决规则。触碰面：`tools/`
+  （新增 `fetch_venue_topics.py`、两个新测试文件、`match_lib` 双词表加载、
+  `match_venues` 的 `°` 标记、`eval_journal_match` 的 scope-only 对照行、`run_checks`
+  新增 offline `--check`）、`shared-resources/journal-selection/`（两个新生成物 + README
+  + `journal-match.md`）、`CONTRIBUTING.md`、`CHANGELOG.md`。**不触碰任何 pack 内容。**
+
+- **计数护栏 lane**（2026-08-27）：`audit_repo.check_documented_counts` —— 把 capability
+  文档里写死的数字钉到它所描述的生成物上。发现时 `journal-match.md` 与
+  `journal-selection/README.md` 里五个数字全是旧的（743 venue / 289 深度包 / 300 层
+  检索深度 / 1,725 与 1,507 两个互相矛盾的 ladder 边数），而每一句话都和推翻它的那个
+  文件放在同一个目录里。触碰面：`tools/audit_repo.py`、`tools/tests/test_documented_counts.py`、
+  两份 journal-selection 文档、`tools/README.md`。
+
+- **会议届次锚定修正 lane**（2026-08-27）：`cycle_audit.edition_years` 没有左边界，
+  "EACL 2027" 里含有 "ACL 2027"，于是 `ACL-Skills` 被判为锚定在一个它一条事实都没有的
+  届次上——恰好是这个检查本身要防止的那种误读。同批按修正后的结果实地复核了
+  ACL / PODC / ICML / AISTATS 四个包（此前 403 的网关已开放）。触碰面：
+  `tools/cycle_audit.py`、`tools/tests/test_cycle_audit.py`、上述四个包的 source map、
+  `ACL-Skills/skills/acl-workflow`、`.maintenance/` 两份看板。
+
 - **会议届次锚定 lane**（2026-08-26）：新增 `tools/cycle_audit.py` 与
   `.maintenance/CYCLE-CURRENCY.md`——freshness 只回答"什么时候重读的"，对会议还要回答
   "重读的是哪一届"，issue #3 报的就是这个缺口。同批修正 scorecard 的 wiring 维度作用域
