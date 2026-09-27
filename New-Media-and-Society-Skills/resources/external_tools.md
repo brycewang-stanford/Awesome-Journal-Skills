@@ -12,6 +12,7 @@ before use, and verify any NM&S-specific policy in [`official-source-map.md`](of
 | Source | Provider | Typical use |
 |--------|----------|-------------|
 | Platform research APIs (e.g. official academic/researcher APIs) | Platforms | Posts, networks, metadata — within ToS |
+| [Jev Social](https://github.com/socai-io/jev-social) | socai-io | Browser-grounded exploratory collection from a researcher's signed-in Chrome (Instagram, TikTok, and LinkedIn), with source-linked evidence and reports; not an official platform API |
 | CrowdTangle-style / archived public datasets | Various archives | Historical public posts (where redistributable) |
 | Web Archive / Wayback Machine | Internet Archive | Interface change, longitudinal capture |
 | App stores, transparency reports, policy docs | Platforms/regulators | Governance, datafication, business models |
