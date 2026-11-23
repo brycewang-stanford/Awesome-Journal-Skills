@@ -1,16 +1,19 @@
 # IJCAI Skills
 
-面向 IJCAI / IJCAI-ECAI 主会论文的 12 个 agent skills。这个包覆盖 Chairing Tool
-投稿、摘要与作者信息截止、两阶段审稿、作者回复、可复现性证据、补充材料、重投信息、
+面向 IJCAI 主会论文（当前为 IJCAI 2027，京都；与 ECAI 合办的年份称 IJCAI-ECAI）的 12 个
+agent skills。这个包覆盖投稿系统、摘要与作者信息截止、互惠审稿、两阶段审稿、作者回复、
+可复现性证据、补充材料、重投信息、
 LLM 使用政策与 camera-ready。
 
-官方依据核验日期：2026-06-01。已核验 IJCAI-ECAI 2026 Main Track CFP、Submissions
-FAQ、Author's Response FAQ、Reproducibility、Author Kit、Important Dates、Peer Review
-Principles 与 IJCAI COI policy。精确来源见 `resources/official-source-map.md`。
+官方依据重新核验日期：2026-11-23。已核验 IJCAI 2027 Main Track CFP（含 important
+dates）、Submission Process、Primary Paper Initiative、Reciprocal Review Policy、
+Reproducibility、Author Kit（IJCAI 2027 模板）、IJCAI Generative AI Policy、Peer Review
+Principles、Conference Committee 与 IJCAI COI policy。精确来源见
+`resources/official-source-map.md`。
 
 ## Skills
 
-- `ijcai-submission`：核查 Chairing Tool、作者信息、ORCID、页数、匿名、补充材料、
+- `ijcai-submission`：核查投稿系统、作者信息、ORCID、页数、匿名、补充材料、
   重投信息、作者上限、一稿多投与 LLM 使用政策。
 - `ijcai-author-response`：按 1 页模板处理 reviewer pressing questions、事实错误与
   unethical review escalation，不加入新结果。
@@ -39,4 +42,5 @@ Principles 与 IJCAI COI policy。精确来源见 `resources/official-source-map
 
 - 涉及 deadline、页数、模板、费用、LLM 政策、回复格式、补充材料与 camera-ready 时，必须
   重新打开当年官方页面。
-- 本包中的 IJCAI-ECAI 2026 事实是历史锚点，不应当被当成永久规则。
+- 本包描述 IJCAI 2027；IJCAI-ECAI 2026 的事实只作为标注过的历史保留，IJCAI 2027 的事实
+  同样不是永久规则。

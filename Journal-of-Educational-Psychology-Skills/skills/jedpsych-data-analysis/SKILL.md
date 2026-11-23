@@ -87,7 +87,7 @@ exclusions" reviewer; and the ATI is honestly demoted to exploratory.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEdPsych mixes field/lab experiments and observational school data; multilevel (student-in-class-in-school) inference and many-outcome corrections matter most.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JEdPsych mixes field/lab experiments and observational school data; multilevel (student-in-class-in-school) inference and many-outcome corrections matter most.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

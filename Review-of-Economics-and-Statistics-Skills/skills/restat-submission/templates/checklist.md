@@ -8,13 +8,13 @@ REStat pages before upload.
 ## 1. Venue fit & category
 - [ ] The paper is applied economics / applied econometrics with credible identification or careful measurement
 - [ ] Category chosen: full-length **Article** / **Note** / **Short Paper**
-- [ ] If **Short Paper**: ≤6000 words and ≤5 exhibits
+- [ ] If **Short Paper**: ≤6000 words and ≤5 exhibits (+200 words per unused exhibit); AEA word-count PDF ready
 - [ ] Not better suited to AER (general-interest) or *J. Econometrics* (methods-development)
 
 ## 2. Format (hard rules)
 - [ ] Single **PDF**; **12-point** font; **double-spaced throughout** (abstract, acknowledgments, footnotes, references)
 - [ ] Pages numbered; figures/tables placed legibly with self-contained notes
-- [ ] **Online appendix ≤20 pages**; the main manuscript is **self-contained**
+- [ ] Main paper ≤45 pages encouraged now, required at acceptance; online appendix unrestricted for regular papers (**≤20 pages for Short Papers**); the main manuscript is **self-contained**
 
 ## 3. Front matter
 - [ ] **Abstract ≤100 words**, in JEL-suitable form
@@ -44,4 +44,5 @@ REStat pages before upload.
 ## 8. Declarations & fee
 - [ ] Original, unpublished work; not under review elsewhere
 - [ ] Funding / conflict-of-interest disclosures prepared; AI not listed as an author
-- [ ] Submission fee (**US$125**, nonrefundable) ready by credit card (subject to §7 hold)
+- [ ] Generative-AI disclosure (whether used; tool/model/version; all purposes)
+- [ ] Submission fee (**US$125**, nonrefundable) ready by credit card (subject to §7 hold), unless waived (individual subscriber author; majority of authors in low/lower-middle-income economies)

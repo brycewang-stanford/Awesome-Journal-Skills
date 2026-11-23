@@ -6,7 +6,7 @@
 
 1. **双 track、双证据标准。** Research Track 要求可命名的机制（mechanism）加消融与
    规模证据；Applied Data Science（ADS）Track 要求已部署系统并**量化 post-launch
-   （上线后）表现**——2026 年 ADS CFP 明确规定缺少该量化直接 desk reject。
+   （上线后）表现**——KDD 2027 ADS CFP 明确规定缺少该量化直接 desk reject。
 2. **每年两个投稿周期（cycle）。** 每个 cycle 的 abstract 截稿约早于正文一周，且
    决定选项中包含 **Resubmit**：论文可带着上一周期的审稿意见进入下一周期，但必须
    附上一页修改总结。
@@ -16,28 +16,30 @@
    适用 ACM Open 模式；proceedings 统一 12 页预算（9 页正文，references + appendix
    合计不超过 3 页）。
 
-官方依据核验日期：**2026-07-08**。已核验 KDD 2026 官网（第 32 届 SIGKDD 会议，
-2026 年 8 月 9-13 日，韩国济州 ICC Jeju）、Research Track 与 ADS Track CFP、
-Datasets & Benchmarks 与 AI for Sciences track CFP、各 track × cycle 的 OpenReview
-group，以及 ACM Digital Library 的 proceedings 记录。完整来源与所有 待核实 条目见
+官方依据复核日期：**2026-11-23**。已核验 KDD 2027 官网（2027 年 8 月 1-5 日，
+美国圣何塞 San Jose McEnery Convention Center）、KDD 2027 Research / ADS /
+Datasets & Benchmarks / AI for Sciences 四个 track 的 CFP、KDD 2027 组委会页面，
+以及 ACM Digital Library 的 proceedings 记录（KDD 2026 页面于 2026-07-08 读取，
+作为历史保留）。完整来源与所有 待核实 条目见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
-## 已核验的 2026 周期锚点
+## 已核验的 KDD 2027 锚点
 
-| 事实 | 2026 年取值 | 波动性 |
+| 事实 | KDD 2027 取值 | 波动性 |
 |---|---|---|
-| 届次 | 第 32 届 ACM SIGKDD 会议，2026-08-09 至 08-13，济州 ICC Jeju | 每届变化 |
-| 投稿周期 | Cycle 1：abstract 2025-07-24、正文 2025-07-31；Cycle 2：abstract 2026-02-01、正文 2026-02-08（均 AoE） | 每周期 |
-| 投稿格式 | ACM 双栏，`\documentclass[sigconf,anonymous,review]{acmart}`，8 页正文 + references + 可选 appendix，双盲 | 每周期 |
+| 届次 | KDD 2027，2027-08-01 至 08-05，美国圣何塞 San Jose McEnery Convention Center（KDD 2026 已于 2026-08-09 至 13 在济州举行） | 每届变化 |
+| 投稿周期 | Cycle 1（已截止）：abstract 2026-07-19、正文 2026-07-26、rebuttal 2026-09-29 至 10-13、通知 2026-11-14；Cycle 2：CFP 仅称"the February 2027 deadline"，具体日期尚未公布（均 AoE） | 每周期 |
+| 投稿格式 | ACM 双栏，`\documentclass[sigconf,anonymous,review]{acmart}`，8 页正文 + references + 不限页的可选 appendix；Research 双盲，ADS / D&B / AI4Sciences 单盲 | 每周期 |
+| 每位作者每周期投稿上限 | Research 7、ADS 5、AI for Sciences 4、Datasets & Benchmarks 2 | 每周期 |
 | Proceedings 预算 | 共 12 页：9 页正文 + references 与 appendix 合计 3 页以内 | 每周期 |
 | ADS 门槛 | 必须量化 post-launch 表现，缺失即 desk reject | 每周期 |
 | Rebuttal | 逐条回应每份审稿；**禁止超链接**；AC 给出建议，PC chairs 终审 | 每周期 |
 | Resubmit 通道 | 声明上一次的 OpenReview forum id，并把一页修改总结放在 PDF 首页 | 每周期 |
 | 平台 | OpenReview，全体作者 profile 须完整（近五年任职、DBLP、ORCID 等） | 每周期 |
-| 出版 | ACM DL；非 ACM Open 参与机构作者可能需付 APC，ACM 已宣布 2026 年 65% 临时补贴 | 每年 |
+| 出版 | ACM DL；ACM Open 机构作者免 APC，其余作者 2027 年补贴后 APC 为 ACM/SIG 会员 500 美元、非会员 750 美元（可申请豁免） | 每年 |
 
-通知与 camera-ready 日期、各类 chair 名单、费用金额等无法在线核实的条目，在来源
-地图中一律标注 待核实，绝不臆测。
+Cycle 2 日期、camera-ready 日期、注册费等无法在线核实的条目，在来源地图中一律
+标注 待核实，绝不臆测。
 
 ## Skills
 
@@ -131,19 +133,19 @@ claude plugin install kdd-skills
 
 - 本包提供的是 KDD 投稿的**策略、结构与证据**建议，不是 CFP 本身：任何内容与当前
   周期官方说明冲突时，一律以官方为准。
-- 所有事实带日期。具体条目均于 2026-07-08 对照来源地图核验；不稳定项（截稿、费用、
+- 所有事实带日期。具体条目均于 2026-11-23 对照来源地图复核；不稳定项（截稿、费用、
   chair 名单）刻意写成周期波动提示或标注 待核实，绝不硬编码。
 - 请勿把本包任何文字直接粘进论文：worked example 是刻意虚构的教学材料，范文库记录
   的是定位模式而非可复用的语句。
 
 ## 维护说明
 
-- 上表所有带日期的事实都是 **2026 周期锚点，不是规则**。KDD 的周期数、页数预算、
-  track 阵容（2026 年就新增了两个 track）、rebuttal 机制与 ACM Open 条款都会随
-  周期调整。
+- 上表所有带日期的事实都是 **KDD 2027 锚点，不是规则**。KDD 的周期数、页数预算、
+  track 阵容（2026 年新增两个 track；2027 年官网未再列出 Blue Sky Ideas）、各 track
+  的盲审方式、rebuttal 机制与 ACM Open 条款都会随周期调整。
 - 给出任何与截稿相关的建议前，必须重开**指定 cycle 的指定 track** 的 CFP——在这个
   会议上，"KDD 的 CFP"这个说法天然歧义。
-- 来源地图中标注 待核实 的条目（通知日期、chair 名单、费用），在向作者陈述前必须
+- 来源地图中标注 待核实 的条目（Cycle 2 日期、camera-ready 日期、费用），在向作者陈述前必须
   在线核实。
 - 若 CFP 页面与 OpenReview 公告冲突，以较新的 OpenReview 指示或 chair 直接沟通为准，
   并记录该冲突。

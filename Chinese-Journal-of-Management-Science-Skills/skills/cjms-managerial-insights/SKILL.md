@@ -44,7 +44,7 @@ description: Use when writing the managerial insights and countermeasure suggest
 ## 执行桥（StatsPAI / Stata MCP）
 
 "条件—决策—效果"三段式里的**效果**必须是一个带单位的量，而系数本身几乎从来不是那个量。
-工具全表见 [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。
+工具全表见 [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。
 
 - **可解释量级**：`margins` / `margins_at` 把估计换算成"某条件下调一个单位、结果变多少"，
   这才是能写进启示段的句子。

@@ -6,7 +6,7 @@ description: Use when converting an accepted EMNLP paper — Main or Findings �
 # EMNLP Camera Ready
 
 Use this after the acceptance email. For EMNLP 2026 the notification landed August 20 and
-camera-ready was due September 20, for a hybrid conference in Budapest October 24-29.
+camera-ready was due August 30, for a hybrid conference in Budapest October 24-29.
 Main-conference and Findings papers both produce Anthology camera-readies on the same
 clock; what differs is the presentation package. Reopen the acceptance email and the
 current camera-ready instructions before acting — the conference, not ARR, owns this
@@ -33,9 +33,10 @@ grep -rn "github.com\|huggingface.co" camera/*.tex          # links now real and
 
 ## Page arithmetic after acceptance
 
-Recent ACL-family practice grants accepted papers an extra content page to absorb
-reviewer-requested material — **verify the 2026 allowance in the official instructions
-before using it** (unconfirmed at 2026-07-08). Spend any extra space in value order:
+The EMNLP 2026 call grants accepted papers one extra content page to absorb
+reviewer comments — **long papers up to 9 pages, short papers up to 5** (confirmed on the
+official call 2026-11-23; re-check the allowance for later editions). Spend the extra
+space in value order:
 response-phase commitments first, then the error-analysis or scope clarifications
 reviewers wanted, and only then new polish. The Limitations section remains mandatory
 and uncounted; EMNLP 2025 additionally shipped the completed Responsible NLP checklist

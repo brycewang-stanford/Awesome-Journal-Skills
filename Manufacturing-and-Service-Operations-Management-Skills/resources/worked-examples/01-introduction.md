@@ -130,9 +130,9 @@ Mapped to the skill checklists:
 logs, how a holding rule changes on-time rates — the arc is identical: lead with the operational
 decision, state a **credibly identified operational effect**, and name the **policy it implies**, not
 the estimator. The shared identification and reporting discipline lives in the cross-pack hub:
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 and
-[`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+[`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).
 
 > Next: see [`../exemplars/library.md`](../exemplars/library.md) for real, web-verified M&SOM papers
 > whose introductions lead with the operational decision, and [`../code/`](../code/) for the empirical

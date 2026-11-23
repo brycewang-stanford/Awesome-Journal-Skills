@@ -87,3 +87,13 @@ nominal 94/100 and hiding the maintenance backlog."* 这正是本文件禁止的
 饱和度。某一行到 299/299 就说明它已经不再区分任何东西，应当移进 conformance。
 写下这条的原因是：前两次饱和都是靠人偶然注意到均值很漂亮才发现的，中间各隔了
 一个多月，而在那期间「质量分 99.2/100」这句话一直在对所有人说一切都很好。
+
+## 修订（2026-11-23）：绊线改读「静态分」
+
+`--min-score 40` 读的是 backlog score，而 backlog score 的 currency 维度随日历
+每天衰减。结果是：2026-10-12 起 PNAS-Nexus 在**没有任何提交**的情况下跌破 40，
+每周定时 CI 连续红了六周——一道硬门在评判日历而不是评判提交。现在 scorecard
+额外输出 `static_score`（去掉 currency 后按同样权重归一），`run_checks.py` 改用
+`--min-static-score 30`（当时全仓最低 37.3）。currency 仍然参与排序，仍由
+`freshness_audit.py --max-age-days 365` 在每周任务里把关——日期相关的门只该放在
+日期相关的任务里。上面「backlog score 不是目标」的约束不变。

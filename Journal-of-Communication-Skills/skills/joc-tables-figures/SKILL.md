@@ -43,7 +43,7 @@ pages**: the main-document limit of **35 pages** explicitly includes the abstrac
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Communication spans experiments, surveys, and content analysis; randomization inference for experiments, DiD/IV for observational media-effects claims.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Journal of Communication spans experiments, surveys, and content analysis; randomization inference for experiments, DiD/IV for observational media-effects claims.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

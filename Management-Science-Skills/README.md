@@ -126,7 +126,7 @@ mgsci-rebuttal
 ## Verified Facts (confirm current values)
 
 - **Publisher / lineage:** INFORMS; established **1954** by the precursor Institute of Management Sciences (TIMS).
-- **Editor-in-Chief:** Christoph H. Loch, term **Jan 1, 2024 – Dec 31, 2026**.
+- **Editor-in-Chief:** Christoph H. Loch, term **Jan 1, 2024 – Dec 31, 2026** (no successor announced as of the 2026-11-23 check — confirm the masthead after January 2027).
 - **Portal:** ScholarOne Manuscripts at **mc.manuscriptcentral.com/mnsc**; seven-step upload.
 - **Abstract:** ≤ **250 words**; **3–5 keywords**.
 - **Style:** **author-year** in-text citations (e.g., Norman 1977); 11-pt, 1-inch margins; PDF preferred.

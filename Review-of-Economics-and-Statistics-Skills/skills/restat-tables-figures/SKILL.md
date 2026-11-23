@@ -14,7 +14,7 @@ description: Use when building or revising the exhibits of a The Review of Econo
 
 ## The REStat exhibit bar
 
-A REStat reader should grasp the **headline estimate from one main exhibit** — a table or, increasingly, an event-study / RD / coefficient-stability figure with a confidence band. REStat follows **standard economics house style**: significance **stars are permitted**, but **standard errors are expected in parentheses** and the exhibit must stand on its own. Every table and figure carries a **self-contained note** stating the sample, the specification, the unit of observation, the inference (clustering level), and what the reader should take away. The main paper is **self-contained**; supporting detail goes to the **online appendix (≤20 pages; source map refreshed 2026-06-20)**.
+A REStat reader should grasp the **headline estimate from one main exhibit** — a table or, increasingly, an event-study / RD / coefficient-stability figure with a confidence band. REStat follows **standard economics house style**: significance **stars are permitted**, but **standard errors are expected in parentheses** and the exhibit must stand on its own. Every table and figure carries a **self-contained note** stating the sample, the specification, the unit of observation, the inference (clustering level), and what the reader should take away. The main paper is **self-contained**; supporting detail goes to the **online appendix** (no size restriction for regular papers, ≤20 pages for Short Papers; main paper ≤45 pages at acceptance; source map re-verified 2026-11-23).
 
 ## Exhibit design rules
 
@@ -26,7 +26,7 @@ A REStat reader should grasp the **headline estimate from one main exhibit** —
 | Notes | Self-contained: sample, spec, unit, N, inference, source |
 | Figures | Load-bearing (event study with leads, RD plot, coefficient stability) with CIs/bands |
 | Decimals | Consistent, sensible precision; no spurious digits |
-| Appendix | Robustness and construction detail → online appendix (≤20 pp); main paper self-contained |
+| Appendix | Robustness and construction detail → online appendix (no size limit; ≤20 pp for Short Papers); main paper self-contained and ≤45 pp at acceptance |
 | Reproducibility | Every number traces to a script in the Harvard Dataverse package (`restat-replication-package`) |
 
 ## Which exhibit for which design
@@ -39,7 +39,7 @@ A REStat reader should grasp the **headline estimate from one main exhibit** —
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). REStat is applied econometrics/empirical micro — the home of careful identification; DiD/IV/RDD with weak-IV-robust CIs.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). REStat is applied econometrics/empirical micro — the home of careful identification; DiD/IV/RDD with weak-IV-robust CIs.
 
 - **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
 - **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —
@@ -54,7 +54,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 - [ ] Stars (if used) accompany, never replace, standard errors
 - [ ] Every table/figure note is self-contained (sample, spec, unit, N, inference, source)
 - [ ] Figures are load-bearing and carry uncertainty (CIs / bands)
-- [ ] Main paper self-contained; supporting exhibits moved to online appendix (≤20 pp)
+- [ ] Main paper self-contained (≤45 pp at acceptance); supporting exhibits moved to online appendix (≤20 pp if a Short Paper)
 - [ ] Every reported number is reproducible from the deposited code
 
 ## Anti-patterns
@@ -83,7 +83,7 @@ appendix. Self-contained note states sample, estimator, unit, N, and clustering 
 【SE + inference】SEs in parentheses; clustering at [level]; stars: [used/not]
 【Figure load-bearing?】[event-study / RD plot / validation / coef-stability] with CIs? [Y/N]
 【Notes self-contained?】sample/spec/unit/N/inference/source present? [Y/N]
-【Main vs appendix】main exhibits: [...]; online appendix (≤20pp): [...]
+【Main vs appendix】main exhibits: [...]; online appendix (≤20pp if Short): [...]
 【Reproducible?】each number ← script in Dataverse package? [Y/N]
 【Next step】restat-writing-style
 ```

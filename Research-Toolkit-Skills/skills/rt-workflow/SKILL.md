@@ -17,13 +17,13 @@ canonical capability doc in `shared-resources/`.
 
 ## The loop (and the skill that owns each step)
 
-0. **[`paper-profile.yml`](../../../shared-resources/journal-selection/paper-profile.md)** — write the five signals down once. Every skill below reads it instead of re-deriving them from the manuscript and disagreeing with itself.
+0. **[`paper-profile.yml`](../../resources/shared/journal-selection/paper-profile.md)** — write the five signals down once. Every skill below reads it instead of re-deriving them from the manuscript and disagreeing with itself.
 1. **`rt-journal-match`** — profile the paper → ranked reach/match/safe shortlist + resubmission ladder.
 2. **`rt-ladder-ev`** — cost the ladder in months and in probability of placing, when there is a clock or two candidate orders.
 3. **`rt-venue-integrity`** — when the chosen venue is outside the index, verify it against primary sources before submitting.
 4. **`rt-venue-reframe`** — when the target changes (a reject, or a switch), diff the manuscript from the old venue's framing to the new one.
 5. **`rt-execution-bridge`** — run the analysis through the StatsPAI / Stata MCP tools (estimate + audit), not just advise it.
-6. **`rt-submission-readiness`** — go/no-go scorecard on the manuscript against the target venue's bar.
+6. **`rt-submission-readiness`** — the pre-submission pipeline on the actual file: deterministic preflight against the venue's verified rules → nine-dimension scorecard → referee panel → claim-to-evidence polish → cover letter + statements → re-run diff.
 7. **`rt-desk-reject-risk`** — score the draft against the target's own documented desk-reject triggers before uploading.
 8. **`rt-simulated-referee`** — rehearse a calibrated AE + referee panel; surface the decisive objections before a real referee does.
 9. **(fix)** — route each objection back to the target pack's skill + the execution bridge.
@@ -39,7 +39,10 @@ canonical capability doc in `shared-resources/`.
 | "Is this journal real?" / an unfamiliar venue, a solicitation email, an index requirement | `rt-venue-integrity` |
 | "What has to change to send it to X instead?" | `rt-venue-reframe` |
 | "I need to actually run the DiD/IV/RDD/SCM/DML, not just plan it" | `rt-execution-bridge` |
-| "Is it ready to submit?" | `rt-submission-readiness` |
+| "Is it ready to submit?" / "Check my paper before I submit" | `rt-submission-readiness` |
+| "Is it over the page limit / properly anonymized / missing a statement?" | `rt-submission-readiness` stage 0 (`preflight.py`) |
+| "Polish the abstract and intro" / "Do my claims match my results?" | `rt-submission-readiness` stage 3 (prose polish) |
+| "Do I need a cover letter / which disclosures?" | `rt-submission-readiness` stage 4 |
 | "Will the editor desk-reject this?" | `rt-desk-reject-risk` |
 | "What will referees attack?" | `rt-simulated-referee` |
 | "I have an R&R to answer" | `rt-response-to-referees` |
@@ -54,7 +57,7 @@ that pack — this toolkit picks the venue, runs the analysis, and rehearses the
 
 ## Anti-patterns
 
-- Submitting before `rt-submission-readiness` clears the mechanical bar.
+- Submitting before `rt-submission-readiness` clears the mechanical bar — run `preflight.py` on the final PDF, not on an earlier draft.
 - Picking a venue without reading its live source-map facts (`rt-journal-match` hard rule).
 - Treating the simulated referee as a verdict rather than a rehearsal.
 

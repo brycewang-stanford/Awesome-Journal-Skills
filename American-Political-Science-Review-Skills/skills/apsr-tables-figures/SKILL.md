@@ -39,7 +39,7 @@ words**: the word count "includes tables, figures, and footnotes that appear in 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). APSR is general-interest political science — observational causal designs (DiD/IV/RDD) and survey/field experiments alike; cluster by the right unit and foreground identification.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). APSR is general-interest political science — observational causal designs (DiD/IV/RDD) and survey/field experiments alike; cluster by the right unit and foreground identification.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

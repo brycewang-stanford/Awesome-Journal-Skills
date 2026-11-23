@@ -6,11 +6,11 @@ description: Use before submitting to a venue this repository does not cover, on
 # Venue Integrity Check (rt-venue-integrity)
 
 The 743 venues in
-[`shared-resources/journal-selection/venue-index.tsv`](../../../shared-resources/journal-selection/venue-index.tsv)
+[`shared-resources/journal-selection/venue-index.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/venue-index.tsv)
 were each curated into this repository from their own published guidance, so a venue
 being in the index is at least evidence that someone looked. The moment an author steps
 outside it — and
-[`journal-match.md`](../../../shared-resources/journal-selection/journal-match.md)'s
+[`journal-match.md`](../../resources/shared/journal-selection/journal-match.md)'s
 coverage-honesty rule requires saying so rather than forcing a poor fit — this
 repository has nothing to offer, and that is exactly the moment the risk appears: a
 solicitation email, a plausible-looking title, an APC, and a paper that becomes

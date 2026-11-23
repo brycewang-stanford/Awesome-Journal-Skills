@@ -8,7 +8,7 @@ description: Use when an empirical analysis should be RUN and audited, not just 
 Close the last mile: turn "you should use a heterogeneity-robust DiD / weak-IV-robust CI /
 multiple-testing correction" into an actual fitted, audited estimate. Full map +
 orchestration spine + validated worked-examples (DiD / IV / RDD / synthetic-control / DML):
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 ## When to trigger
 

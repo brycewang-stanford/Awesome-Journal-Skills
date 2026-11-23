@@ -13,24 +13,26 @@ built around those differences rather than around a generic conference template:
   reproducibility checklist, and no experiments requirement; papers are accepted on
   theorems, and the referee's line-by-line proof verification replaces artifact
   review.
-- **One PDF, unlimited appendix.** The 2026 cycle allowed a 12-page PMLR-format body
-  (excluding references) with no page limit on references and appendices, all in a
-  single file — so appendix architecture is a first-class writing problem.
+- **One PDF, unlimited appendix.** The COLT 2027 call allows a 12-page PMLR-format
+  body (excluding references and special sections such as an Ethics or AI statement)
+  with no page limit on references and appendices, all in a single file — so appendix
+  architecture is a first-class writing problem.
 - **Double-anonymous with an informed area chair.** Reviewers do not see author
   names, but the area chair does, and may reveal identities to a reviewer during the
   rebuttal period on request.
-- **CMT, not OpenReview.** The 2025 and 2026 cycles ran submissions through Microsoft
-  CMT with a single AoE paper deadline (February 4, 2026 for the 39th edition, held
-  June 29 - July 3, 2026 in San Diego).
+- **One AoE deadline, CMT so far.** COLT 2027 (the 40th edition, June 28 - July 2,
+  2027 in Tokyo) has a single paper deadline of January 29, 2027, AoE. The 2025 and
+  2026 cycles ran submissions through Microsoft CMT, not OpenReview; the 2027 call
+  says its submission instructions are "coming soon", so confirm the portal there.
 - **An open-problems culture.** COLT publishes short, citable open-problem pieces in
   its proceedings; posing a well-parameterized question is a recognized contribution
   vehicle.
 
-Official basis checked on 2026-07-08: the COLT 2026 Call for Papers and conference
-pages at learningtheory.org, the CMT portal link, and PMLR volume pages (v247 = COLT
-2024, v291 = COLT 2025). Direct page fetches were gateway-blocked at the access date,
-so verification ran through search excerpts of those official pages; everything that
-could not be pinned down is flagged 待核实 rather than asserted. See
+Official basis: the COLT 2027 Call for Papers and home page, re-verified 2026-11-23 by
+direct page load, plus the COLT 2026 pages (kept as historical anchors) and PMLR volume
+pages (v247 = COLT 2024, v291 = COLT 2025) first checked on 2026-07-08 through search
+excerpts. Everything that could not be pinned down — including the 2027 LLM policy and
+portal, which the call lists as "coming soon" — is flagged 待核实 rather than asserted. See
 `resources/official-source-map.md` for the full source map.
 
 ## Skills
@@ -119,11 +121,10 @@ COLT-Skills/
 
 ## Fact discipline
 
-- Facts stated as facts in this pack were verified against official sources on
-  2026-07-08 and carry that anchor date; anything unverifiable at that date —
-  program-chair names, notification and camera-ready dates, the 2026 open-problems
-  track, registration and presentation rules, the 2026 PMLR volume number — is
-  explicitly marked 待核实 in the skills and in the source map.
+- Facts stated as facts in this pack were verified against official sources (COLT
+  2027 call re-read 2026-11-23); anything not yet published — the 2027 LLM policy,
+  portal and style package, camera-ready date, Open Problems call, registration rules,
+  PMLR volume numbers — is explicitly marked 待核实 in the skills and in the source map.
 - COLT re-issues every rule annually with the new Call for Papers. Treat the 2026
   facts as historical anchors: reopen learningtheory.org and the current CFP before
   any deadline-sensitive action, and prefer the live text wherever it conflicts with
@@ -150,7 +151,7 @@ COLT-Skills/
 ## Maintenance notes
 
 - Re-verify the portal each cycle (COLT has changed submission systems over its
-  history; 2025-2026 used CMT).
+  history; 2025-2026 used CMT; 2027 not yet announced).
 - Re-check page arithmetic, anonymity mechanics, rebuttal format, and overlap-policy
   wording in each new CFP before editing any skill.
 - When updating exemplars, confirm the PMLR volume landing page names the Conference

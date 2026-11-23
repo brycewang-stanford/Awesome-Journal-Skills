@@ -1,6 +1,6 @@
 ---
 name: jpe-submission
-description: Use when running the final pre-submission preflight for a Journal of Political Economy (JPE) manuscript via Editorial Express — manuscript format, Chicago author-date references, the $250/$125 submission fee, single-blind review, exhibits, the Micro/Macro companion-journal choice, and supplementary files. Final mechanical gate; it does not improve the economic argument.
+description: Use when running the final pre-submission preflight for a Journal of Political Economy (JPE) manuscript via Editorial Manager — manuscript format, Chicago author-date references, the $250/$125 submission fee, single-blind review, exhibits, the Micro/Macro companion-journal choice, and supplementary files. Final mechanical gate; it does not improve the economic argument.
 ---
 
 # Submission Preflight (jpe-submission)
@@ -8,10 +8,10 @@ description: Use when running the final pre-submission preflight for a Journal o
 ## When to trigger
 
 - "Submitting tomorrow" — the last mechanical check before pressing submit
-- Unsure what the Editorial Express portal requires as separate files
+- Unsure what the Editorial Manager portal requires as separate files
 - Confirming format, references, and fee handling are correct
 
-> JPE (founded 1892, edited at the University of Chicago; lead editor **Esteban Rossi-Hansberg**) is published by the University of Chicago Press and processed through the **Editorial Express** system (author portal: editorialmanager.com/jpolec). Review is **single-blind** (referees see authors; authors do not see referees), so author-anonymization is *not* required — this differs from a double-blind journal. A **submission fee** applies: **$250 for nonsubscribers, $125 for individual JPE subscribers**, non-refundable even if the paper is desk-rejected; a **waiver** is available to authors who completed **three or more JPE referee reports in the prior 12 months**. Since the 2023 launch of the companion journals **JPE Microeconomics** (lead editor John List) and **JPE Macroeconomics** (lead editor Greg Kaplan), decide up front whether your paper targets the flagship JPE or a field companion. Verify the current fee and guidelines on the official page before submitting; everything below is the durable structure of a JPE submission.
+> JPE (founded 1892, edited at the University of Chicago; lead editor **Esteban Rossi-Hansberg**) is published by the University of Chicago Press and processed through the **Editorial Manager (EM)** system (author portal: editorialmanager.com/jpolec). Review is **single-blind** (referees see authors; authors do not see referees), so author-anonymization is *not* required — this differs from a double-blind journal. A **submission fee** applies: **$250 for nonsubscribers, $125 for individual JPE subscribers**, non-refundable even if the paper is desk-rejected; a **waiver** is available to authors who completed **three or more JPE referee reports in the prior 12 months**. Since the 2023 launch of the companion journals **JPE Microeconomics** (lead editor John List) and **JPE Macroeconomics** (lead editor Greg Kaplan), decide up front whether your paper targets the flagship JPE or a field companion. Verify the current fee and guidelines on the official page before submitting; everything below is the durable structure of a JPE submission.
 
 ## Pre-submission checklist
 
@@ -49,12 +49,34 @@ description: Use when running the final pre-submission preflight for a Journal o
 - [ ] All co-authors and affiliations correct; corresponding author set
 - [ ] Suggested referees (and any opposed referees) prepared with brief justification
 
-## Editorial Express operational notes
+## Editorial Manager operational notes
 
-- Register/log in to the JPE Editorial Express / Editorial Manager portal; have title, abstract, JEL codes, and the PDF ready before starting.
+- Register/log in to the JPE Editorial Manager (EM) portal; have title, abstract, JEL codes, and the PDF ready before starting.
 - Upload the manuscript PDF; attach the online appendix and cover letter as the portal requests.
 - Complete the **$250/$125** fee step (or apply the 3-reports waiver); the paper is not forwarded to editors until the fee clears, and the fee is non-refundable even if desk-rejected.
 - Confirm the submission acknowledgment email and manuscript number arrive.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jpe-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

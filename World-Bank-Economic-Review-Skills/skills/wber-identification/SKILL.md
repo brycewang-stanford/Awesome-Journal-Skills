@@ -49,7 +49,7 @@ WBER demands the **same identification rigor as a top applied-micro field journa
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). WBER is development economics — RCTs and observational designs in low/middle-income settings; randomization inference + DiD/IV, magnitude in policy units.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). WBER is development economics — RCTs and observational designs in low/middle-income settings; randomization inference + DiD/IV, magnitude in policy units.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

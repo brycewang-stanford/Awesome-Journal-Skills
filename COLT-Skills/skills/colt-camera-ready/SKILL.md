@@ -6,8 +6,10 @@ description: Use when converting an accepted COLT (Conference on Learning Theory
 # COLT Camera Ready
 
 Use this after a COLT acceptance. COLT proceedings are published electronically in the
-Proceedings of Machine Learning Research (PMLR) — verified against the COLT 2026 CFP
-and PMLR volume pages on 2026-07-08. The camera-ready instructions arrive with the
+Proceedings of Machine Learning Research (PMLR) — verified against the COLT 2027 CFP
+(2026-11-23) and PMLR volume pages (2026-07-08). The COLT 2027 call also lets authors
+opt out of the proceedings in favour of a 1-page extended abstract that points to an
+open-access archival version of the full paper reviewed for COLT. The camera-ready instructions arrive with the
 acceptance notification; they, not this file, control exact dates and forms.
 
 ## Recent volume anchors (verified 2026-07-08)
@@ -16,11 +18,12 @@ acceptance notification; they, not this file, control exact dates and forms.
 |---|---|---|---|
 | COLT 2024 (37th) | v247 | Edmonton, Canada | Shipra Agrawal, Aaron Roth |
 | COLT 2025 (38th) | v291 | Lyon, France | Nika Haghtalab, Ankur Moitra |
-| COLT 2026 (39th) | announced with acceptance (待核实) | San Diego, USA | current program chairs |
+| COLT 2026 (39th) | not yet verified (待核实) | San Diego, USA | program chairs Steve Hanneke, Tor Lattimore |
+| COLT 2027 (40th) | announced with acceptance (待核实) | Tokyo, Japan | program chairs Ruth Urner, Wouter Koolen |
 
 Volume editors are the program chairs of that edition; the pairing rotates every year.
-The COLT 2026 volume number and camera-ready deadline were not yet published at the
-access date — take both from your acceptance email.
+The COLT 2027 volume number and camera-ready deadline were not yet published on
+2026-11-23 — take both from your acceptance email.
 
 ## De-anonymization pass
 
@@ -57,14 +60,14 @@ citable record. The PMLR page for your paper generates the canonical citation; m
 your own BibTeX consistent with it:
 
 ```bibtex
-@inproceedings{yourkey2026tight,
+@inproceedings{yourkey2027tight,
   title     = {Tight Rates for a Learning Problem},
   author    = {Lastname, First and Coauthor, Second},
-  booktitle = {Proceedings of the 39th Annual Conference on Learning Theory},
+  booktitle = {Proceedings of the 40th Annual Conference on Learning Theory},
   series    = {Proceedings of Machine Learning Research},
   volume    = {TBD},   % assigned volume number, e.g. v291 was COLT 2025
   pages     = {1--30}, % assigned by the volume
-  year      = {2026},
+  year      = {2027},
   publisher = {PMLR}
 }
 ```
@@ -76,14 +79,14 @@ your own BibTeX consistent with it:
 
 ## Presentation and registration obligations
 
-- Expect that an accepted COLT paper must be presented at the conference by an author;
-  the exact registration requirement, talk versus poster format, and any remote
-  option for the 2026 edition were not verifiable at the access date (待核实) — the
-  acceptance email and the registration page at learningtheory.org control.
+- The COLT 2027 call requires at least one author of each accepted paper to attend in
+  person to present; the registration requirement, talk versus poster format, and
+  any exception are not yet published (待核实) — the acceptance email and the
+  registration page at learningtheory.org control.
 - COLT is single-track: your talk or poster is seen by the whole community, so slide
   preparation deserves more lead time than at parallel-session venues.
-- Budget for registration early; COLT 2026 ran June 29 to July 3 in San Diego, and
-  conference-hotel capacity at smaller venues fills quickly.
+- Budget for registration and travel early; COLT 2027 runs June 28 to July 2 in Tokyo,
+  so start visa paperwork at acceptance, and conference-hotel capacity fills quickly.
 
 ## Preparing the talk alongside the PDF
 

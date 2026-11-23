@@ -125,9 +125,9 @@ Mapped to the skill checklists:
   BJPS word limit (`bjps-writing-style`: Research Articles ~10,000 words, Letters ~4,000).
 
 > Next: stress-test the design with the shared
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > and report results to the shared
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md);
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md);
 > benchmark the framing against verified real BJPS papers in
 > [`../exemplars/library.md`](../exemplars/library.md); and adapt the staggered-DiD command chain in
 > [`../code/`](../code/).

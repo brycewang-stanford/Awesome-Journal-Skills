@@ -24,11 +24,11 @@ availability, not writing.
 | August 7 | Camera-ready | Public artifacts ready to ship simultaneously |
 | October 6-9 | Conference, San Francisco | Presenter, visa, poster all handled |
 
-**Live-phase note:** on this pack's access date — 2026-07-08 — the 2026 cycle is at
-decision day. If that is you, jump to `colm-camera-ready` or the reject branch in
-`colm-review-process`. If you are planning fresh work, you are planning **COLM
-2027**: dates unannounced (待核实), with late March the reasonable working
-assumption to be corrected the moment `colmweb.org` posts the real calendar.
+**Live-phase note:** re-checked 2026-11-23 — the 2026 cycle is complete (the
+conference met October 6-9). If you are planning fresh work, you are planning **COLM
+2027**: dates unannounced (待核实; no call on `colm.cc` yet), with late March the
+reasonable working assumption to be corrected the moment `colm.cc` posts the real
+calendar.
 
 ## Backward plan from a March deadline
 

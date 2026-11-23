@@ -61,7 +61,7 @@ R²               0.61     0.67     0.66
 ## 执行桥（StatsPAI / Stata MCP）
 
 表格图形**从拟合结果生成**，不要手抄数字。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国工业经济》偏产业/企业实证，常见政策冲击 DID 与 IV；强调识别与稳健性。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《中国工业经济》偏产业/企业实证，常见政策冲击 DID 与 IV；强调识别与稳健性。
 
 - **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
 - **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与

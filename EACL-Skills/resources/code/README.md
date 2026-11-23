@@ -10,10 +10,10 @@ Stata/econometrics library used by the economics journal packs in this repositor
 
 The kit sits three levels up, under `shared-resources/ml-conference-methods/`:
 
-- overview and conventions: [`README.md`](../../../shared-resources/ml-conference-methods/README.md)
-- run/seed/config planner: [`experiment-matrix.md`](../../../shared-resources/ml-conference-methods/experiment-matrix.md)
-- generic artifact audit: [`reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
-- smoke checker: [`code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- overview and conventions: [`README.md`](../shared/ml-conference-methods/README.md)
+- run/seed/config planner: [`experiment-matrix.md`](../shared/ml-conference-methods/experiment-matrix.md)
+- generic artifact audit: [`reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
+- smoke checker: [`code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
 
 ## When to reach for it
 

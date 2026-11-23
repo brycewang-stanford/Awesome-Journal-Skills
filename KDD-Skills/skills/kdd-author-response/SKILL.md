@@ -14,7 +14,8 @@ between cycles.
 
 ## The no-links constraint
 
-KDD 2026 forbade hyperlinks in rebuttals and discussion. Practical consequences:
+KDD 2027 (as in 2026) forbids hyperlinks in rebuttals and discussion, and nothing can be
+shared with reviewers after the deadline. Practical consequences:
 
 - You cannot introduce a new repository, demo, or anonymous site now. The only
   artifact reviewers can check is whatever the submitted PDF already references.

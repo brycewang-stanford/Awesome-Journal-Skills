@@ -14,5 +14,5 @@ so this pack **does not vendor a `code/` kit**; reproducibility tooling for meta
 
 Shared-method references (background only — not PoPS-specific):
 
-- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
-- [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md)
+- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md)
+- [`../../shared-resources/empirical-methods/reporting-standards.md`](shared/empirical-methods/reporting-standards.md)

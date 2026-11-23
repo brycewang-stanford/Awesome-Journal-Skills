@@ -20,4 +20,4 @@ This is a fictional example. It does not describe a real paper.
 
 - [`../../skills/wber-topic-selection/SKILL.md`](../../skills/wber-topic-selection/SKILL.md)
 - [`../../skills/wber-writing-style/SKILL.md`](../../skills/wber-writing-style/SKILL.md)
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)

@@ -130,7 +130,7 @@ UAI-Skills/
 - Submission window: **January 25 – February 25, 2026, 23:59 AoE**, on OpenReview.
 - 2026 pipeline: bidding Mar 2–9 · reviews Mar 21–Apr 11 · author response
   Apr 23–May 2 · reviewer-AC discussion May 2–8 · notification Jun 1 ·
-  camera-ready Jul 27.
+  camera-ready Jul 8 (re-verified 2026-11-23; camera-ready body up to 9 pages).
 - Format: UAI LaTeX template · main part ≤ 8 pages · unlimited references/appendices in
   the same PDF · PDF ≤ 15 MB · optional ZIP ≤ 50 MB.
 - Proceedings: PMLR (open access, no author fee). Volume anchors: v124 = 2020,
@@ -143,10 +143,11 @@ them distinguishable:
 
 1. **Verified 2026-cycle facts** — carry dates/caps and trace to a numbered source in
    the source map (e.g., the 8-page main part, the February 25 deadline).
-2. **Reported facts** — found only in secondary sources and labeled as such (e.g.,
-   the 2026 general chairs, sourced from an organizer's homepage).
+2. **Reported facts** — found only in secondary sources and labeled as such (none
+   currently: the 2026 chairs were confirmed on the official committee page on
+   2026-11-23).
 3. **Unverifiable-at-check-time items** — explicitly marked 待核实 and phrased as
-   questions to resolve, never as facts (e.g., registration rules, LLM policy).
+   questions to resolve, never as facts (e.g., the 2026 PMLR volume number).
 
 If you find any statement in the skills that presents class 2 or 3 material as
 class 1, treat it as a bug and fix it against the live official pages.
@@ -155,10 +156,12 @@ class 1, treat it as a bug and fix it against the live official pages.
 
 - Every date and cap above is a **2026-cycle snapshot**; reopen the current
   `auai.org/uai<year>/` pages before giving deadline-sensitive advice.
-- Items that could not be verified live on 2026-07-08 are marked 待核实 in the source
-  map — notably the 2026 Program Chairs, camera-ready page allowance, registration and
-  remote-presentation rules, any LLM/AI-use policy, and the 2026 PMLR volume number.
-  Do not state these as facts until confirmed.
+- Items still unverified are marked 待核实 in the source map — notably the 2026 PMLR
+  volume number and everything about the next edition, which AUAI had not announced as
+  of the 2026-11-23 re-check. The 2026 Program Chairs (Emilija Perković, Daniel
+  Malinsky), the 9-page camera-ready allowance, the registration rule (at least one
+  author per paper, online-only allowed) and the LLM policy (writing aid allowed, LLMs
+  cannot be authors) were confirmed on 2026-11-23. Do not state open items as facts.
 - UAI chairs rotate per edition and policy is re-set annually; treat editor-style
   continuity assumptions (carried over from journal packs) as errors here.
 - When adding exemplar papers, follow the verification recipe at the end of

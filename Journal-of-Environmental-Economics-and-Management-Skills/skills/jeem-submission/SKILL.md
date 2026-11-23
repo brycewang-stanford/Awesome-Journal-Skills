@@ -59,6 +59,28 @@ JEEM's editors screen before review, and the fee is generally lost on a desk rej
 
 The cover letter is read at the scope screen. State, in three or four sentences: the environmental problem and its policy stake, the design and the welfare-relevant number it delivers, why this is a JEEM (not JAERE / JPubE / Ecological Economics) contribution, and any data-availability constraint the Editor must know about at submission. A cover letter that does this gives the editor the load-bearing-mechanism evidence needed to send the paper out rather than screen it.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jeem-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Submitting a paper whose environmental angle is decoration — the fastest desk reject

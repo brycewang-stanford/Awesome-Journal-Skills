@@ -87,8 +87,8 @@ reproducible replication package. Check licenses and current access terms before
 ## 7. Process & portal
 | Item | Note |
 |------|------|
-| Submission portal | Editorial Express (AEA ecosystem) — confirm current URL in author guidelines |
-| Submission fee | Applies; verify current amount before paying |
+| Submission portal | Editorial Express (`editorialexpress.com/qje`) — PDF only |
+| Submission fee | None stated on the official pages (no fee); re-confirm before submitting |
 | Replication deposit | Required for accepted empirical papers; verify current data-editor policy |
 | Publisher | Oxford University Press |
 

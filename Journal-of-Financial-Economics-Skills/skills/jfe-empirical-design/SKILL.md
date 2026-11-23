@@ -44,7 +44,7 @@ JFE is known for nuts-and-bolts methodological rigor. Referees scrutinize measur
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the asset-pricing battery, don't just specify it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFE is finance top-3 (with JF, RFS) — corporate-causal chain for corporate papers, factor-zoo haircut for asset pricing; attribute canon to the correct top-3 journal.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JFE is finance top-3 (with JF, RFS) — corporate-causal chain for corporate papers, factor-zoo haircut for asset pricing; attribute canon to the correct top-3 journal.
 
 - **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
   clustered) — read the alpha and t off the return.

@@ -48,7 +48,7 @@ A study of intraday adverse selection on consolidated TAQ: (1) restrict to commo
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the asset-pricing battery, don't just specify it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFM is market microstructure and asset pricing — liquidity, price discovery, and cross-sectional return tests where the factor-zoo multiple-testing haircut is salient.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JFM is market microstructure and asset pricing — liquidity, price discovery, and cross-sectional return tests where the factor-zoo multiple-testing haircut is salient.
 
 - **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
   clustered) — read the alpha and t off the return, not off a memory of the spec.

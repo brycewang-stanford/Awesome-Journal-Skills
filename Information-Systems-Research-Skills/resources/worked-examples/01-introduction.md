@@ -122,8 +122,8 @@ Mapped to the skill checklists:
   is the ISR ordering: IS argument first, estimator second.
 - **Genre is explicit** — an archival/quasi-experimental empirical paper (per `isr-methods`), so the design
   discipline is identification + parallel-trends evidence, routed through the shared
-  [reviewer-objection-checklist](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
-  and [reporting-standards](../../../shared-resources/empirical-methods/reporting-standards.md).
+  [reviewer-objection-checklist](../shared/empirical-methods/reviewer-objection-checklist.md)
+  and [reporting-standards](../shared/empirical-methods/reporting-standards.md).
 
 > Next: see [`../exemplars/library.md`](../exemplars/library.md) for **real, web-verified** ISR papers
 > whose intros execute this arc across the behavioral, archival, analytical, and design-science genres, and

@@ -9,31 +9,30 @@ COLM-shaped at all, building contamination-aware and version-pinned evidence,
 surviving the OpenReview rebuttal, and turning a July acceptance into an August
 camera-ready and an October talk.
 
-Official basis checked on **2026-07-08**: the COLM 2026 homepage, key-dates page,
-Call for Papers, submission instructions, author guide, FAQ, the COLM 2026
-OpenReview group, the 2024/2025 accepted-paper lists, and independent coverage of
-the Outstanding Paper Awards. Direct fetches of `colmweb.org` were blocked by the
-network gateway used for verification, so official pages were read through
-search-engine renderings of the exact URLs and cross-checked against OpenReview and
-institutional sources; the full trail, including every item still marked 待核实, is
-in [`resources/official-source-map.md`](resources/official-source-map.md).
+Official basis first checked on **2026-07-08** and **re-verified 2026-11-23** by
+direct fetch of the new official site, **`colm.cc`** (`colmweb.org` now only points
+there): the COLM 2026 Call for Papers, Dates, submission instructions, author guide,
+FAQ and organizers pages, plus `proceedings.colm.cc`, the COLM 2026 OpenReview
+group, the 2024/2025 accepted-paper lists, and independent coverage of the
+Outstanding Paper Awards. The full trail, including every item still marked 待核实,
+is in [`resources/official-source-map.md`](resources/official-source-map.md).
 
-## Where the 2026 cycle stands (as of 2026-07-08)
+## Where the cycle stands (as of 2026-11-23)
 
-This pack was built on **COLM 2026 decision day**. The March deadlines (abstract
-March 26, paper March 31) and the rebuttal window (May 22 - June 8) are history;
-**decision notifications land July 8**; camera-ready is due **August 7**; the
-conference runs **October 6-9 at the Hilton Union Square, San Francisco** (main
-program October 6-8, workshops October 9). Practically:
+**COLM 2026 has met** (October 6-9, Hilton Union Square, San Francisco; main program
+October 6-8, workshops October 9), and its pre-proceedings are posted at
+`proceedings.colm.cc`. It is still the newest edition COLM has published: there is
+**no COLM 2027 call, date or location** on any official page yet. Practically:
 
-- **Accepted today?** Start at [`colm-camera-ready`](skills/colm-camera-ready/SKILL.md)
-  — you have one month, and the artifact release should ship in the same pass.
-- **Rejected today?** The reject branch of
+- **Planning new work?** You are planning for the next COLM — dates unannounced
+  (待核实; the 2026 deadlines fell in late March, which is a working assumption,
+  not a published date), so the planning skills teach the cycle shape from the
+  verified 2026 calendar.
+- **Rejected in 2026?** The reject branch of
   [`colm-review-process`](skills/colm-review-process/SKILL.md) maps the
-  ICLR/NeurIPS/COLM-2027 resubmission calendar.
-- **Planning new work?** You are planning **COLM 2027** — dates unannounced
-  (待核实; late March is the working assumption), so the planning skills teach the
-  cycle shape from the verified 2026 calendar.
+  ICLR/NeurIPS/next-COLM resubmission calendar.
+- **Finishing a 2026 paper's public record?** [`colm-camera-ready`](skills/colm-camera-ready/SKILL.md)
+  still covers de-anonymization, the one extra camera-ready page, and artifact release.
 
 ## What makes COLM different from its neighbors
 
@@ -82,7 +81,7 @@ program October 6-8, workshops October 9). Practically:
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Twelve dated sources, the access-method caveat, verified 2026 facts, reported-only items, and the explicit 待核实 list. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Twenty-one dated sources, the edition status, the access-method caveat, verified 2026 facts, reported-only items, and the explicit 待核实 list. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | The eight Outstanding Papers of COLM 2024-2025 with positioning notes, self-check questions, and venue-attribution guards. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional leaderboard-style first page rebuilt into COLM shape: phenomenon first, contamination on page one, pinned models, scoped claims. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces plus five author-side verification passes. |
@@ -134,14 +133,19 @@ COLM-Skills/
   **October 6-9, 2026** (main conference Oct 6-8, workshops Oct 9).
 - Timeline: abstract **March 26** · paper **March 31** · reviews **May 22** ·
   rebuttal **May 22 - June 8** · decisions **July 8** · camera-ready **August 7**.
-- Format: **strict 9-page main text**, unlimited citation pages, optional ≤ 1-page
-  acknowledgments outside the limit (camera-ready only — submissions are
-  double-blind with no acknowledgments and no identity-revealing links).
+- Format: **strict 9-page main text**, unlimited citation pages and appendices;
+  optional ethics and reproducibility statements and an optional acknowledgment
+  section, each ≤ 1 page outside the limit (acknowledgments camera-ready only —
+  submissions are double-blind with no acknowledgments and no identity-revealing
+  links). Camera-ready may add **one extra page** for responses to reviewers.
 - Platform: OpenReview (`colmweb.org/COLM/2026/Conference`), opened February 2026;
   papers published openly on OpenReview.
 - Policy: Code of Ethics acknowledgment required from all authors; LLM-usage
   disclosure per the 2026 policy; per-submission and per-reviewer reciprocal
-  reviewing, with automatic pool entry at 4+ submissions.
+  reviewing, with automatic pool entry at 4+ submissions; at most 25 submissions
+  per author.
+- Attendance: at least one author per accepted paper registers for the main
+  conference; COLM is in-person only, with no remote presentation.
 - Editions: 2024 Philadelphia (UPenn) · 2025 Montreal · 2026 San Francisco; four
   Outstanding Paper Awards in each of the first two editions.
 
@@ -153,9 +157,10 @@ Three statement classes run through the pack, kept deliberately distinguishable:
    source map (the 9-page cap, the March 26 / March 31 / May 22 / June 8 /
    July 8 / August 7 chain, the LLM policy).
 2. **Reported facts** — found only in secondary renderings and labeled as such
-   (the 2026 committee names, the 2025 venue building).
-3. **待核实 items** — camera-ready page allowance, registration and attendance
-   rules, acceptance rates, artifact-track existence, all 2027 dates — phrased as
+   (COLM 2024's first-cycle deadlines; the 2026 camera-ready date, which the live
+   Dates page no longer shows).
+3. **待核实 items** — registration fee amounts, rebuttal PDF-revision rules,
+   acceptance rates, artifact-track existence, all 2027 dates — phrased as
    questions to resolve, never as facts.
 
 If any skill statement presents class 2 or 3 material as class 1, treat it as a bug
@@ -165,7 +170,7 @@ and fix it against the live pages.
 
 - COLM is young enough that *everything* above is cycle-volatile — the venue moved
   continents twice and adjusted policy in each of its first three editions. Reopen
-  `colmweb.org` and the current OpenReview group before deadline-sensitive advice.
+  `colm.cc` and the current OpenReview group before deadline-sensitive advice.
 - The dblp record for COLM could not be fetched at build time; cross-check
   `dblp.org/db/conf/colm/` when adding bibliography guidance.
 - When adding exemplars, follow the verification recipe at the end of

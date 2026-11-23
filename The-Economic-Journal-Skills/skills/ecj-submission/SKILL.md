@@ -12,7 +12,7 @@ description: Use when running the final pre-submission preflight for a The Econo
 - Confirming format, references, review model, and data policy are EJ-correct
 - Deciding finally between the full-length and short-paper routes
 
-## Process facts (verified 2026-06-20; re-confirm on the official OUP/RES pages)
+## Process facts (verified 2026-06-20; re-verified 2026-11-23; re-confirm on the official OUP/RES pages)
 
 - EJ (founded **1891**, the **Royal Economic Society's** flagship, published by **Oxford University Press**; editor-in-chief **Francesco Lippi**) is submitted through the **Editorial Express** portal (editorialexpress.com), **not** ScholarOne. The submission must be a **single PDF** including appendices (but not the cover letter or past reports).
 - **Review model: single-blind** — referee identities are kept from authors as far as possible, but **authors are not anonymized**, so do *not* strip your identity from the manuscript. This differs from a double-blind journal.
@@ -20,8 +20,8 @@ description: Use when running the final pre-submission preflight for a The Econo
 - **Metadata:** JEL classification codes and keywords are entered in Editorial Express; provide title, abstract, authors, and affiliations.
 - **References: author-date** style. The accepted-author guide gives EJ-style examples and asks for an alphabetized, then chronological, reference list; data and replication packages should be cited.
 - **Accepted-author production limits:** short title **40 characters or fewer**, abstract **100 words or fewer**, and keywords **20 characters or fewer each**. Treat these as production-stage limits and keep submission metadata comfortably within them unless the live portal says otherwise.
-- **Submission fee:** RES charges for each **new** EJ submission: current listed fees (re-verified 2026-06-22; non-member rate updated **effective 8 May 2026**) are GBP 248 for non-members, GBP 50 for student / Tier A / unemployed members, and GBP 113 for Tier B-C-D members / Fellows, before 20% VAT. Resubmissions are not charged. Re-confirm the live RES fee table before paying.
-- **Funding:** all sources of research funding must be acknowledged in the manuscript.
+- **Submission fee:** RES charges for each **new** EJ submission: current listed fees (re-verified 2026-11-23, unchanged; non-member rate updated **effective 8 May 2026**) are GBP 248 for non-members, GBP 50 for student / Tier A / unemployed members, and GBP 113 for Tier B-C-D members / Fellows, before 20% VAT. Resubmissions are not charged. Re-confirm the live RES fee table before paying.
+- **Funding / conflicts / ethics:** all sources of research funding must be acknowledged in the manuscript; if there are no disclosures, declare no conflicts of interest; human- or animal-subject research references its approval (IRB date and number) in the acknowledgments.
 - **Data & code:** EJ runs **pre-acceptance reproducibility checks** (since July 2019) via the **EJ Data Editor**; the package is deposited to **Zenodo** at acceptance under the RES policy (DCAS-endorsed). Request any **data exemption at first submission** (see `ecj-replication-package`).
 
 ## Pre-submission checklist
@@ -63,6 +63,28 @@ description: Use when running the final pre-submission preflight for a The Econo
 - [ ] All co-authors and affiliations correct; corresponding author set
 - [ ] Suggested referees (and any opposed referees) prepared with brief justification
 - [ ] One-page cover letter: question, contribution, fit with EJ's broad-interest mandate
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue economic-journal-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

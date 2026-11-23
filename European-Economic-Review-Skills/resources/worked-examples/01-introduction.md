@@ -125,4 +125,4 @@ Mapped to this pack's skill checklists:
 > for building the deposit so it meets the mandatory replication policy, and [`../code/`](../code/) for a
 > runnable empirical command chain. For the venue-neutral referee objections a staggered-DiD wage-incidence
 > claim must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

@@ -33,7 +33,7 @@ The decisive question: **what is the strongest evidence you can honestly produce
 | Your strongest honest evidence | Track | The bar you must clear |
 |---|---|---|
 | New mechanism + ablations + scale curves on (mostly) public data | Research | Delta over the mining lineage, mechanism isolated |
-| A system running in production with measurable post-launch outcomes | ADS | **Quantified post-launch performance — its absence is a desk reject (2026 CFP)**; lessons learned expected |
+| A system running in production with measurable post-launch outcomes | ADS | **Quantified post-launch performance — its absence is a desk reject (KDD 2027 CFP)**; ADS is single-blind; lessons learned expected |
 | A dataset/benchmark others will build on, with licenses and baselines | Datasets & Benchmarks | Documentation, provenance, maintenance story |
 | Mining/ML advancing a natural-science question | AI for Sciences | Scientific validity alongside method quality |
 | A provocative direction without full evidence | Blue Sky Ideas | Argument quality; check the track's own CFP |

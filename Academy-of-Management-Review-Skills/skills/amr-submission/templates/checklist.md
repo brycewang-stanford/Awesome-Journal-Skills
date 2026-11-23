@@ -17,9 +17,9 @@ Academy of Management author page before submitting.
 ## 2. Format
 
 - [ ] Word document; Times New Roman 12-point body text; double-spaced body; 1-inch margins
-- [ ] Separate title page (kept out of the anonymized body)
+- [ ] No title page in the review file (AOM adds it after acceptance); author info goes in the ScholarOne fields, acknowledgments in the cover letter
 - [ ] Abstract no more than 200 words
-- [ ] Manuscript within the journal's length expectation (verify; AMR runs full-length)
+- [ ] Manuscript within AMR's length guide (as of 2026-11-23: no more than 30 double-spaced pages, excluding references, tables, and figures)
 - [ ] No page numbers or running heads unless the portal later instructs otherwise
 - [ ] Figures meet AOM resolution and format requirements
 
@@ -76,5 +76,5 @@ Academy of Management author page before submitting.
 - [ ] Registered in the AMR ScholarOne portal (`https://mc.manuscriptcentral.com/amr`); correct article type selected
 - [ ] Submission fee checked as none; any portal-stage account or membership prompt reviewed at submission time
 - [ ] AI use, if any, disclosed by research stage with model/purpose, accountability, source, verification, and limitation details
-- [ ] Files staged: anonymized manuscript + separate title page + any required forms
+- [ ] Files staged: anonymized Word manuscript + cover letter (acknowledgments, any AI disclosure) + any required forms
 - [ ] Within portal file-size and file-type limits

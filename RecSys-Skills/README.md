@@ -45,20 +45,26 @@ cross-checked against ACM DL and dblp and the mailing-list Calls for Contributio
 CFP verbatim. Reopen the primary URLs directly before relying on any specific deadline, page
 budget, or fee.
 
-## Live cycle status (as of 2026-07-09)
+## Live cycle status (re-verified 2026-11-23)
 
-- RecSys 2026 is the **20th** ACM Conference on Recommender Systems, in **Minneapolis, Minnesota,
-  USA**, main program **September 28 - October 2, 2026** (Doctoral Symposium September 27,
-  tentative).
-- The Main Track abstract (April 14), paper (April 21), and rebuttal (June 4-9) deadlines have
-  **passed**. **Main Track notifications are dated July 9, 2026 — today** — so the live phase for
-  many authors is decision and camera-ready, not submission.
-- Reproducibility and Industry tracks also notify July 9, with camera-ready July 27, 2026.
-- **R&P Notes and Demos** (deadline July 15, 2026) are still open. RecSys 2026 **dropped the
+- **Next edition:** **RecSys 2027**, the **21st** ACM Conference on Recommender Systems, **Honolulu,
+  O‘ahu, Hawaii, August 23–27, 2027** (General Co-Chairs Christine Bauer, Joeran Beel, Bamshad
+  Mobasher). **No RecSys 2027 call is published yet** — deadlines, program chairs, tracks and page
+  budgets are unknown; note the conference is a month earlier than in 2026.
+- RecSys 2026 was the **20th** edition, in **Minneapolis, Minnesota, USA**, September 28 -
+  October 2, 2026 (Doctoral Symposium September 27; main sessions September 29 - October 1). Its
+  call is the latest one published and anchors the rules in this pack.
+- 2026 Main Track timetable (history): abstract April 14, paper April 21, rebuttal June 4-9
+  (**500-character** factual-correction rebuttal), notifications July 9, camera-ready July 27
+  (strict), recorded video within a week after camera-ready.
+- **APC:** under ACM's open-access model (from January 1, 2026), authors from institutions outside
+  ACM Open pay an APC for Main, Reproducibility and Industry papers — $250 ACM/SIG member / $350
+  non-member at the 2026 subsidised rate.
+- **R&P Notes and Demos** ran to a July 15, 2026 deadline. RecSys 2026 **dropped the
   Late-Breaking Results (LBR) track** and added **Research & Practice (R&P) Notes**, presented as
   posters, plus a new **"Past, Present and Future" paper** type in the Main Track.
-- Forward planning: treat every 2026 fact as a historical anchor and re-verify the RecSys 2027
-  cycle when its site opens.
+- Forward planning: treat every 2026 fact as a historical anchor and re-verify against the RecSys
+  2027 call when it replaces the placeholder at `recsys.acm.org/recsys27/call/`.
 
 ## Skills
 

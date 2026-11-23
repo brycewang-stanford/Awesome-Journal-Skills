@@ -60,7 +60,7 @@ live in `io-research-design`.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). International Organization is IR — country/dyad panels with difficult identification; foreground the source of variation and robustness to alternative explanations.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). International Organization is IR — country/dyad panels with difficult identification; foreground the source of variation and robustness to alternative explanations.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

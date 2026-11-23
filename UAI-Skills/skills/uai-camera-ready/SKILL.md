@@ -6,11 +6,13 @@ description: Use when converting an accepted UAI paper into its PMLR proceedings
 # UAI Camera Ready
 
 Use this after the acceptance email. In the 2026 cycle, notification was June 1 and
-camera-ready files were due July 27, ahead of the August 17–21 conference in Amsterdam —
-roughly eight weeks that also contain registration, travel, and poster production. Reopen
-the current camera-ready instructions on the UAI site before starting; PMLR mechanics and
-page allowances are settled per cycle and were not fully published at pack-verification
-time (final-version page allowance: 待核实).
+camera-ready files were due July 8, ahead of the August 17–21 conference in Amsterdam —
+roughly five weeks that also contain registration, travel, and poster production. The
+2026 camera-ready instructions (re-verified 2026-11-23) allowed up to 9 pages of content
+plus unlimited references and appendices in the same file, required
+`\documentclass[accepted]{uai2026}`, and asked for the final PDF, a LaTeX source ZIP and
+a signed PMLR license agreement on OpenReview. Reopen the current camera-ready
+instructions on the UAI site before starting; these mechanics are settled per cycle.
 
 ## Where the paper is going
 
@@ -67,7 +69,7 @@ Reverse every anonymity measure deliberately rather than by memory:
 | Title/abstract identical across PDF, OpenReview, and PMLR forms | Broken indexing and citation splits |
 | Every appendix referenced from the main text still resolves | Dangling "see App. D" after camera-ready edits |
 | Figures regenerated from final code | Plot-vs-table divergence in the archival version |
-| License and copyright forms as required this cycle | Publication held back on paperwork (exact forms: 待核实) |
+| Signed PMLR license agreement (2026) plus LaTeX source ZIP | Publication held back on paperwork |
 | Repository tagged with a release matching the paper | "Code link rots by conference week" failure |
 
 ## Presentation obligations
@@ -80,8 +82,8 @@ longer slots. Practical consequences:
   bonus you learn about later.
 - The physically-or-remotely wording is UAI 2026's; whether remote presentation remains
   available, and what registration category it requires, must be reconfirmed against the
-  current attendance and registration pages (fees and mandatory-registration rules:
-  待核实).
+  current attendance and registration pages. In 2026 at least one author per paper had
+  to register, online-only registration counted, and fees ran EUR 200–650.
 - Build the poster from the paper's inference story — the model, the assumption set, the
   guarantee or diagnostic, one decisive experiment — rather than shrinking eight pages
   onto A0.

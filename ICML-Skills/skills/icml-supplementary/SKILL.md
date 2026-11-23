@@ -5,7 +5,7 @@ description: Use when deciding what ICML material belongs in the main 8-page bod
 
 # ICML Supplementary
 
-Use this to place material correctly. ICML 2026 allows references and unlimited appendices in the
+Use this to place material correctly. ICML 2027 allows references and unlimited appendices in the
 same PDF, plus supplementary manuscripts and code/data, but critical evaluation material should be
 in the main paper because reviewers may choose whether to inspect supplements.
 
@@ -18,7 +18,7 @@ in the main paper because reviewers may choose whether to inspect supplements.
 - Supplementary manuscript: anonymized concurrent submissions or unusually long supporting text that
   cannot fit cleanly in the paper PDF.
 - Code/data supplement: anonymized code, data, scripts, environment, and README.
-- Camera-ready public artifact: final code/data repository or archive. ICML 2026 does not provide a
+- Camera-ready public artifact: final code/data repository or archive. ICML 2027 does not provide a
   final camera-ready supplementary-material upload.
 
 ## Concurrent submission handling

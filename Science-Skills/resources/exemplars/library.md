@@ -70,7 +70,7 @@ question before claiming your manuscript is "*Science*-shaped."
   - **Why it is an exemplar:** a short, decisive Report — an atomically thin material with a measurable
     field effect — told quickly, with the broad implication (a new 2D electronic platform) on the surface.
     A model of `sci-writing` length discipline: one central advance, told in Report form.
-  - **Self-check:** can your single decisive advance be told in a Report (~2,500 words, ≤4 items) without
+  - **Self-check:** can your single decisive advance be told in a standard Research Article (≤3,000 words, 3–5 items) without
     losing the broad point?
 
 ### Earth & environmental science — global remote sensing / data product (Research Article)

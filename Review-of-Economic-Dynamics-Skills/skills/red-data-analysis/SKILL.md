@@ -30,7 +30,7 @@ computation** that illustrate the result rather than estimate it.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). RED is quantitative macro — mostly structural/calibration, which is outside this causal-inference toolchain; apply the chain to its empirical/reduced-form papers.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). RED is quantitative macro — mostly structural/calibration, which is outside this causal-inference toolchain; apply the chain to its empirical/reduced-form papers.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

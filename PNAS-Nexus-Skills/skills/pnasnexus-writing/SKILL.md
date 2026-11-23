@@ -24,7 +24,7 @@ description: Use to choose the PNAS Nexus article type, structure the main text,
 | **Perspective** | **≤10 pages** | a forward-looking, evidence-grounded opinion (may be unsolicited) |
 | **Review** | **≤10 pages** | a synthesis of a field (may be unsolicited) |
 
-> The **page limit counts the whole package** — abstract, Significance Statement, main text, figure captions, and table legends all count toward it. There is no separately stated absolute word cap for the 12-page maximum; the "≈4,000 words" figure describes a *6-page* article, not the 12-page ceiling. A "6,000-word cap" seen in third-party guides is **待核实** — the official limit is page-based.
+> The **page limit counts the whole package** — abstract, Significance Statement, main text, figure captions, and table legends all count toward it. There is no separately stated absolute word cap for the 12-page maximum; the "≈4,000 words" figure describes a *6-page* article, not the 12-page ceiling. A "6,000-word cap" seen in third-party guides is **not** on the official page (re-checked 2026-11-23) — the official limit is page-based.
 
 ## Step 2: PNAS Nexus main-text order
 

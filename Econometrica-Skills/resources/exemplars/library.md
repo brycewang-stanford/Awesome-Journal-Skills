@@ -50,7 +50,7 @@ application; each introduced a durable methodological or theoretical object.
   - **Why it is an exemplar:** a short, sharp methods note — a single positive-semidefinite covariance
     estimator licensing valid inference under serial correlation — shows Econometrica rewards a *clean
     inferential object* with proof, not length. Pairs with the robustness / SE-clustering discipline in
-    [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+    [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).
   - **Self-check:** does your inference procedure come with the asymptotic theory that *justifies* it
     (`ecta-identification` Branch B), not just a claim that it "works"?
 

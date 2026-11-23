@@ -50,7 +50,7 @@ instead they look like ___."* If you cannot, the design does not yet identify th
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPAM is policy analysis — program evaluation is the core; DiD/IV/RDD and the policy-relevant magnitude are decisive.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPAM is policy analysis — program evaluation is the core; DiD/IV/RDD and the policy-relevant magnitude are decisive.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +
@@ -113,4 +113,4 @@ and discusses how it might differ away from the threshold. (Illustrative.)
 ## Supplementary resources
 
 - [`../../resources/code/`](../../resources/code/) — runnable DiD / IV / RD / DML skeletons (Stata + Python)
-- [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — objections by identification strategy, each with a preemption
+- [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../resources/shared/empirical-methods/reviewer-objection-checklist.md) — objections by identification strategy, each with a preemption

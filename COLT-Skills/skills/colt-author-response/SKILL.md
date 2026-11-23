@@ -5,9 +5,10 @@ description: Use when drafting a COLT (Conference on Learning Theory) rebuttal a
 
 # COLT Author Response
 
-Use this after COLT reviews arrive. The COLT 2026 CFP (checked 2026-07-08) stated that
+Use this after COLT reviews arrive. The COLT 2027 CFP (checked 2026-11-23) states that
 initial reviews are sent to authors before final decisions and that authors get an
-opportunity to address issues raised — a rebuttal phase, run through CMT in that cycle.
+opportunity to address issues raised — a rebuttal phase expected March 29 to April 2,
+2027 (COLT 2026 ran it through CMT: reviews April 3, responses due April 10).
 Exact window length, character limits, and attachment rules are announced with the
 reviews; read that announcement before writing a word.
 
@@ -29,11 +30,11 @@ promise it for the final version only when the argument is a routine extension.
 
 ## The identity-reveal rule (distinctively COLT)
 
-Under the 2026 policy, submissions are anonymized and names are withheld from
-reviewers, but the area chair knows author identities and *may reveal them to a
-reviewer during the rebuttal period upon the reviewer's request*, when the AC judges it
-necessary for a proper review — typically to check adjacency to the authors' own prior
-work. Consequences for drafting:
+Under the COLT 2027 policy (unchanged from 2026), submissions are anonymized and names
+are withheld from reviewers, but the area chair knows author identities and *may
+reveal them to a reviewer during the rebuttal period upon the reviewer's request*,
+when the AC judges it necessary for a proper review — typically to check adjacency to
+the authors' own prior work. Consequences for drafting:
 
 - Never write anything inconsistent with your identity becoming known mid-discussion.
 - Do not play games with "the authors of [7]" phrasing that collapses if unmasked.
@@ -111,7 +112,7 @@ anatomy of a COLT rebuttal thread.
 - Rebuttal length limits, whether PDF responses are allowed, and per-reviewer versus
   global response structure change by cycle — read the current instructions (待核实
   each year).
-- The identity-reveal mechanism described above is the 2026 wording; verify it in the
+- The identity-reveal mechanism described above is the 2026 and COLT 2027 wording; verify it in the
   cycle you are in before relying on its exact scope.
 
 ## Output format

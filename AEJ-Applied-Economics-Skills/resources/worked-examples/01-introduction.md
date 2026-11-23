@@ -23,8 +23,8 @@ agenda paper:
 - The **identification is the star**: name the design plainly and put the headline estimate, with units and
   a standard error, in the first breath
   ([`aeja-writing-style`](../../skills/aeja-writing-style/SKILL.md),
-  [`aeja-identification`](../../skills/aeja-identification/SKILL.md)). AEA permits significance stars but
-  expects standard errors — so the magnitude and its SE live in the sentences.
+  [`aeja-identification`](../../skills/aeja-identification/SKILL.md)). The AEJ: Applied style guide bans significance
+  asterisks and expects standard errors — so the magnitude and its SE live in the sentences.
 
 **Illustrative paper (fictional):** *"Free Bus Passes and Teen Employment: Evidence from a Staggered
 Municipal Rollout."* Fictional setting: a transit authority gives free bus passes to high-schoolers,
@@ -130,4 +130,4 @@ Mapped to this pack's skill checklists:
 > building the analysis so it clears the AEA Data Editor reproducibility check, and
 > [`../code/`](../code/) for a runnable empirical command chain. For the venue-neutral referee objections a
 > staggered-DID claim must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

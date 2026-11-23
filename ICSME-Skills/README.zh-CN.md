@@ -8,11 +8,10 @@ FSE、SANER、MSR 或 SCAM；构建能经受审稿人审视的维护实证证据
 投稿（IEEEtran 10+2 篇幅）及其 open-science 义务；应对**单轮**评审的 early-decision 分流与
 author-response rebuttal；直到完成 IEEE Xplore camera-ready 与获得 ROSE-Festival artifact 徽章。
 
-官方依据核验日期：**2026-07-09**。已核验 ICSME 2026 research track 与 Important Dates 页面、
-EasyChair CFP、Journal-First / Registered Reports / RENE / artifact-and-ROSE track 页面，以及 IEEE
-作者模板。核验环境中直接抓取 `conf.researchr.org`、`easychair.org` 与 `ieeexplore.ieee.org` 返回
-403，因此通过搜索引擎对精确 URL 的渲染阅读官方页面，并与 IEEE Xplore、dblp 及 `se-deadlines`
-聚合站交叉核对；完整记录（含所有 待核实 项）见
+官方依据首次核验于 **2026-07-09**（ICSME 2026），并于 **2026-11-23 复核**，改以已上线的
+**ICSME 2027** 页面为准：research-papers call、Important Dates、组委会、open-science policy，以及
+Journal-First / Registered Reports / Artifact Evaluation / Benchmark & Dataset track 页面，均直接
+抓取 `conf.researchr.org` 读取。完整记录（含所有 待核实 项）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 > 命名提醒：本会议 2013 年前称 **ICSM**，2014 年起加入 "and Evolution" 改称 **ICSME**。在 ICSME
@@ -20,13 +19,13 @@ EasyChair CFP、Journal-First / Registered Reports / RENE / artifact-and-ROSE tr
 
 ## ICSME 与同类会议的区别
 
-以下会议机制（按 2026 cycle 核验）驱动了 skills 中的大部分建议，也对应了从 ACM 系会议、从 ICSE/FSE
+以下会议机制（按 2027 cycle 核验）驱动了 skills 中的大部分建议，也对应了从 ACM 系会议、从 ICSE/FSE
 或从技术优先会议转投作者最常犯的错误：
 
 - **它是维护/演化会议。** ICSME 奖励扎根于**发布后生命周期**的贡献 —— 老化系统、变更影响、技术债、
   重构安全性、程序理解、软件如何演化 —— 而非维护收益只是附带的 greenfield 技术。
 - **走 IEEE 路线，而非 ACM。** ICSME 使用 **IEEEtran 双栏**模板，发表于 **IEEE Xplore**，颁发
-  **IEEE** artifact 徽章。2026 篇幅为**正文含图与附录 10 页 + 2 页纯参考文献**。不要沿用 ACM
+  **IEEE** artifact 徽章。2027 篇幅为**正文含图与附录 10 页 + 2 页纯参考文献**（与 2026 相同）。不要沿用 ACM
   `acmart` 单栏习惯。
 - **单一 research 轮 —— 无 Major Revision。** research track 对每篇论文双盲评审一次，然后 accept 或
   reject。与 ESEC/FSE 的期刊式 revise-and-resubmit 不同，没有返修轮：证据必须在投稿时就完整。
@@ -35,10 +34,13 @@ EasyChair CFP、Journal-First / Registered Reports / RENE / artifact-and-ROSE tr
 - **EasyChair，先摘要后全文。** 通过 EasyChair 投稿，全文截止前约一周需完成摘要注册 —— 不是
   HotCRP、CMT 或 OpenReview。
 - **丰富的备选 track。** 强势的 **Journal-First（J1C2）** track 让 TSE/EMSE 论文在会上报告；
-  **Registered Reports** 先评审 protocol；**RENE** 奖励复制与诚实的负结果 —— 维护社区的一大特色。
+  **Registered Reports**（与 EMSE 合作）先评审 protocol；新增 **Benchmark & Dataset Track** 接收数据
+  与基准论文。**RENE**（复制与负结果）track 办到 2026 届，ICSME 2027 的 track 列表中已没有它；复制
+  研究现投 research track（该 track 明确评估 replicability）。
 - **默认 open science 与 ROSE。** **Joint Artifact Evaluation Track and ROSE Festival**（与同址
-  SCAM、VISSOFT 共享）颁发 IEEE **Open Research Object** 与 **Research Object Reviewed** 徽章，评审
-  阶段即期望提供 data-availability 声明与钉死的 mining provenance。
+  SCAM、VISSOFT 共享）颁发 IEEE **Open Research Object** 与 **Research Object Reviewed** 徽章；
+  open-science policy 把数据共享设为评审阶段的默认（不共享须在文中说明理由）。
+- **AI 使用按 IEEE 规则披露。** 作者遵循 IEEE 的 AI 生成内容指南：注明所用 AI 系统及使用的章节。
 
 ## Skills
 
@@ -119,15 +121,19 @@ ICSME-Skills/
    `icsme-author-response`，随后 `icsme-artifact-evaluation` 与 `icsme-camera-ready` —— 若结果不利，
    则用 `icsme-topic-selection` 的路由表改投。
 
-## 2026 周期锚点事实（历史快照，非永久规则）
+## 2027 周期锚点事实（快照，非永久规则）
 
-- ICSME 2026 为**第 42 届**：意大利贝内文托（University of Sannio），**2026 年 9 月 14-18 日**，与
-  SCAM、VISSOFT 同址。research 摘要 2026-02-27、全文 2026-03-06、early decisions 2026-05-03、通知
-  2026-05-29（均 AoE）；经 **EasyChair** 投稿。
+- ICSME 2027 为**第 43 届**：加拿大多伦多（York University），**2027 年 9 月 7-11 日**，SCAM、VISSOFT
+  论文共用 artifact track。research 摘要 2027-02-19、全文 2027-02-26、early decisions 2027-04-26、
+  author response 2027-04-27 至 04-30、通知 2027-05-25、camera-ready 2027-06-25（均 AoE）；经
+  **EasyChair** 投稿（2026-11-23 时链接仍为 TBD）。General Co-Chairs：Gias Uddin、Song Wang；Program
+  Co-Chairs：Shiva Nejati、Lei Ma。
+- 上一届：ICSME 2026（第 42 届），意大利贝内文托，2026 年 9 月 14-18 日。
 - 格式：**IEEEtran 双栏**，正文含图与附录 **10 页 + 2** 页参考文献。评审：**double-anonymous**、
   **单轮**，含 **early-decision 分流**与 **author-response** rebuttal —— **无 Major Revision**。
-- Tracks：Research、**Journal-First（J1C2**，TSE/EMSE）、**Registered Reports**、**RENE**（复制与
-  负结果）、NIER、Tool Demonstration and Data Showcase、Industry、Doctoral Symposium。
+- Tracks（2027）：Research、**Journal-First（J1C2）**、**Registered Reports**、**Benchmark & Dataset**
+  （新增）、NIER、Tool Demonstration and Data Showcase、Industry、Posters、Doctoral Symposium。RENE
+  （复制与负结果）2026 届仍有，2027 列表中已无。
 - Artifacts：**Joint Artifact Evaluation Track and ROSE Festival**，IEEE **Open Research Object** /
   **Research Object Reviewed** 徽章，录用后，与 SCAM/VISSOFT 共享。
 
@@ -135,11 +141,11 @@ ICSME-Skills/
 
 本包区分三类陈述，skills 的写法保持其可区分：
 
-1. **已核验 2026 事实** —— 带日期/篇幅并追溯到 source map 中的编号来源（如 10+2 篇幅、单轮
+1. **已核验 2027 事实** —— 带日期/篇幅并追溯到 source map 中的编号来源（如 10+2 篇幅、单轮
    early-decision 模型、ROSE 的 IEEE 徽章）。
 2. **转述事实** —— 仅经二手渲染读到并如实标注（如 research track 之外各 track 的确切截止日）。
-3. **核验期不可确定项** —— 明确标为 待核实（如 ICSME 2026 General/Program Co-Chair 名单、camera-ready
-   日期、任何 AI 使用披露政策）。
+3. **核验期不可确定项** —— 明确标为 待核实（如 ICSME 2027 EasyChair 链接、Journal-First 与
+   Registered Reports 的 2027 截止日、注册费）。
 
 若任何陈述以第 1 类口吻呈现第 2/3 类内容，视为 bug，对照官方页面修正。
 

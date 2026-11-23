@@ -50,7 +50,7 @@ method choice lives in `demog-research-design`.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Demography is formal + empirical demography; the causal chain serves its reduced-form lane, while formal demographic modeling uses its own tools — decomposition (`oaxaca` / `gelbach`) is often central.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Demography is formal + empirical demography; the causal chain serves its reduced-form lane, while formal demographic modeling uses its own tools — decomposition (`oaxaca` / `gelbach`) is often central.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

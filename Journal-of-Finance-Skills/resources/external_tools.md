@@ -83,7 +83,7 @@ license and your institution's data-use agreement; verify current access on the 
 
 ## 5. Submission & verification
 
-- JF submissions: Manuscript Central / ScholarOne (verify the current portal URL).
+- JF submissions: the AFA's Editorial Express portal, via the "Submit a Paper" link on afajof.org/submissions (verified 2026-11-23).
 - Submission fee / AFA membership norms: confirm the current amount and any membership requirement on the official AFA / JF author page before submitting.
 - Replication package: prepare code + data-construction scripts; JF expects a data-availability statement and a sharable package on acceptance.
 

@@ -8,11 +8,11 @@ skills。IMC 是 ACM SIGCOMM 主办、面向实证互联网与网络测量的旗
 截止日** 的周期与 **One-Shot-Revision** 返修轮；并在发布数据集/工具/平台时竞争 **Community
 Contribution Award（社区贡献奖）**。
 
-官方依据核验日期：**2026-07-09**。已核验 IMC 2026 的 call for papers、submission instructions 与
-committees 页面；IMC 2025 的 call（篇幅）；IMC HotCRP 站点；SIGCOMM 的 IMC 事件页；以及 ACM
-Digital Library 的 IMC proceedings。核验环境中直接抓取 `conferences.sigcomm.org` 与 `dl.acm.org`
-返回 403，因此通过搜索引擎对精确 URL 的渲染阅读官方页面，并与 IMC HotCRP、ACM DL proceedings、
-dblp 及 SIGCOMM 页面交叉核对；完整记录（含所有 待核实 项）见
+官方依据首次核验于 **2026-07-09**，并于 **2026-11-23 直接加载页面复核**：IMC 2027 的主页、call for
+papers、submission instructions 与 committees 页面（本包现以 **IMC 2027** 为准：美国佐治亚州亚特兰大，
+2027 年 10 月 25-29 日）；作为上一届的 IMC 2026 页面；IMC 2025 的 call；IMC HotCRP 站点；SIGCOMM 的
+IMC 事件页；以及 ACM Digital Library 的 IMC proceedings（`dl.acm.org` 在核验环境中仍返回 403）。
+完整记录（含所有 待核实 项）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 > 命名冲突提醒：“IMC” 也指 Leeds 的 *International Medieval Congress*、*Indian Management
@@ -21,27 +21,31 @@ dblp 及 SIGCOMM 页面交叉核对；完整记录（含所有 待核实 项）�
 
 ## IMC 与同类会议的区别
 
-以下会议机制（按 2026 cycle 核验）驱动了 skills 中的大部分建议，也对应了从 SIGCOMM、NSDI、安全会议
+以下会议机制（按 IMC 2027 cycle 核验）驱动了 skills 中的大部分建议，也对应了从 SIGCOMM、NSDI、安全会议
 或 ML 会议转投作者最常犯的错误：
 
 - **测量本身就是贡献。** IMC 更看重 **你对真实互联网学到了什么** 以及 **你如何测量** —— 观测点、
   数据集、ground truth 与方法 —— 而非新系统或新协议。系统出色而测量单薄的论文属 SIGCOMM/NSDI；
   技术朴素却揭示网络真实规律的论文才是 IMC 形态。
-- **每年两个截止日，含 One-Shot-Revision 轮。** IMC 设两个投稿截止日（cycle 1 约 2025-11-20，
-  cycle 2 约 2026-04-29）。首轮决定为 Accept、**One-Shot-Revision** 或 Reject。One-Shot-Revision
+- **每年两个截止日，含 One-Shot-Revision 轮。** IMC 设两个投稿截止日（IMC 2027：cycle 1 为
+  2026-11-17，cycle 2 为 2027-04-07），IMC 2027 并新增 **简短 rebuttal 阶段**。决定为 Accept、
+  **One-Shot-Revision** 或 Reject。One-Shot-Revision
   是 **严格受限** 的返修：数条具体 action point、需一名审稿人 champion、由原审稿人在下一截止日
   复审 —— 不是开放式 major revision。
-- **伦理是关卡，不是脚注。** 必须包含 **强制 Ethics 章节/附录**，缺失可被拒。涉及人类主体、用户
+- **伦理是关卡，不是脚注。** 必须包含 **强制 Ethics 附录章节**，缺失可被拒；IMC 2027 另增
+  **Open Science** 与 **Generative AI** 两个强制附录章节。涉及人类主体、用户
   数据或活体网络的测量按 **Belmont Report** 原则（尊重个人、行善、公正）评审，并有多数系统会议
   不严格执行的 **IRB** 审查与 **负责任披露** 要求。
-- **数据集与 artifact 是一等公民。** 每篇投稿附 **artifact 可用性声明**（完整/部分/无）；录用论文
+- **数据集与 artifact 是一等公民。** 每篇投稿附 **artifact 可用性声明**（完整/部分/无），IMC 2027 并要求
+  **Open Science** 附录；录用论文
   被 **shepherd** 以兑现承诺的 artifact；**Community Contribution Award** 专门表彰发布的数据集、
   工具或平台（camera-ready 前公开）。
 - **Replicability Track。** IMC 设专门 track（经 **Expression of Interest** 筛选），面向复现/再现
   既有测量结果的研究，优先 replicability。测量高度依赖不断变化的互联网，使这一 track 成为会议
   的标志性特征。
-- **走 ACM 路线、double-blind、篇幅较宽。** IMC 使用 **ACM `acmart` 模板**、**double-blind** 评审，
-  篇幅相对宽松（IMC 2025：正文含图 **≤13 页** + 无限参考文献/附录）。不要沿用 IEEE 双栏习惯。
+- **走 ACM 路线、double-blind、篇幅较宽。** IMC 使用 **ACM `acmart` 模板**、**double-blind** 评审、
+  上传参考文献 **BBL**，篇幅相对宽松（IMC 2027：技术内容 **≤13 页**，short paper ≤6 页，参考文献/附录
+  不限）。不要沿用 IEEE 双栏习惯。
 
 ## Skills
 
@@ -122,15 +126,20 @@ IMC-Skills/
    One-Shot-Revision，随后 `imc-artifact-evaluation` 与 `imc-camera-ready` —— 若结果不利，则用
    `imc-topic-selection` 的路由表改投。
 
-## 2026 周期锚点事实（历史快照，非永久规则）
+## IMC 2027 周期锚点事实（周期快照，非永久规则；2026-11-23 复核）
 
-- IMC 2026：**德国卡尔斯鲁厄，2026 年 10 月 12-16 日。** General Chairs：Christian Wressnegger
-  （KIT）与 Nurullah Demir（Stanford）；Program Chairs：Alan Mislove（Northeastern）与 Italo
-  Cunha（UFMG）。
-- **两个截止日：** cycle 1 投稿约 2025-11-20（注册约 2025-11-13）；cycle 2 投稿约 2026-04-29。
-  One-Shot-Revision 在下一截止日再投，由同一批审稿人复审。
-- 格式：**`acmart`、double-blind、上传 BBL**；full paper 正文含图 **≤13 页** + 无限参考文献/附录
-  （IMC 2025 依据，2026 待确认）。**Ethics** 章节强制。
+- IMC 2027：**美国佐治亚州亚特兰大，2027 年 10 月 25-29 日**（第 27 届）。General Chairs：Alberto
+  Dainotti 与 Mike Bailey（Georgia Tech）；Program Chairs：Romain Fontugne（Internet Initiative
+  Japan）与 Narseo Vallina-Rodriguez（IMDEA Networks Institute）。
+- **两个截止日（AoE）：** cycle 1 注册 2026-11-10、投稿 2026-11-17（IMC 2026 的 One-Shot-Revision
+  论文 2026-12-02），early reject 2027-01-05，**新增 rebuttal 期 2027-01-26 至 02-02**，通知
+  2027-02-25，camera-ready 2027-04-14；cycle 2 注册 2027-03-31、投稿 2027-04-07，通知 2027-07-22，
+  camera-ready 2027-09-02。One-Shot-Revision 在下一截止日再投，由同一批审稿人复审。
+- 格式：**`acmart`、double-blind、上传 BBL**；full paper 技术内容 **≤13 页**，short paper **≤6 页**，
+  参考文献/附录不限。三个强制附录章节：**Ethics**、**Open Science**、**Generative AI**。
+- 投稿站点：按 cycle 分开的 HotCRP 实例（`imc2027-cycle1.hotcrp.com`，之后为 `imc2027-cycle2` 与
+  Replicability EoI 用的 `imc2027-repro`）。
+- 上一届（历史）：IMC 2026 于 2026 年 10 月 12-16 日在德国卡尔斯鲁厄举行，篇幅同为 13/6 页。
 - 数据集/artifact：投稿时 **可用性声明**，录用后 **shepherding**，公开发布可竞争 **Community
   Contribution Award**；并设经 EoI 筛选的 **Replicability Track**。
 
@@ -138,10 +147,11 @@ IMC-Skills/
 
 本包区分三类陈述，skills 的写法保持其可区分：
 
-1. **已核验 2026 事实** —— 带日期/篇幅并追溯到 source map 中的编号来源（如双截止日、One-Shot-Revision、
+1. **已核验 IMC 2027 事实** —— 带日期/篇幅并追溯到 source map 中的编号来源（如双截止日、One-Shot-Revision、
    强制 Ethics 章节、artifact 声明、Community Contribution Award）。
-2. **转述事实** —— 仅经二手渲染读到并如实标注（如 cycle 1 精确注册日与 camera-ready 日期）。
-3. **核验期不可确定项** —— 明确标为 待核实（如 2026 精确正文页数、是否颁发正式 ACM 复现徽章、
+2. **转述事实** —— 仅经二手渲染读到并如实标注（自 2026-11-23 直接复核起，IMC 2027 的注册日与
+   camera-ready 日期已属核验事实）。
+3. **核验期不可确定项** —— 明确标为 待核实（如是否颁发正式 ACM 复现徽章、
    public-review 传统当前状态、录用率、完整 PC 名单）。
 
 若任何陈述以第 1 类口吻呈现第 2/3 类内容，视为 bug，对照官方页面修正。

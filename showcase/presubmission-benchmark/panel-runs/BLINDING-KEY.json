@@ -1,0 +1,74 @@
+{
+ "jf-corporate-did--seeded.panel.md": {
+  "blinded_file": "agent1-paperA.md",
+  "fixture": "jf-corporate-did",
+  "state": "seeded",
+  "venue_pack": "Journal-of-Finance-Skills"
+ },
+ "qje-labor-iv--clean.panel.md": {
+  "blinded_file": "agent1-paperB.tex",
+  "fixture": "qje-labor-iv",
+  "state": "clean",
+  "venue_pack": "Quarterly-Journal-of-Economics-Skills"
+ },
+ "jf-corporate-did--clean.panel.md": {
+  "blinded_file": "agent2-paperA.md",
+  "fixture": "jf-corporate-did",
+  "state": "clean",
+  "venue_pack": "Journal-of-Finance-Skills"
+ },
+ "qje-labor-iv--seeded.panel.md": {
+  "blinded_file": "agent2-paperB.tex",
+  "fixture": "qje-labor-iv",
+  "state": "seeded",
+  "venue_pack": "Quarterly-Journal-of-Economics-Skills"
+ },
+ "acl-nlp--clean.panel.md": {
+  "blinded_file": "agent3-paperA.tex",
+  "fixture": "acl-nlp",
+  "state": "clean",
+  "venue_pack": "ACL-Skills"
+ },
+ "icml-ml-method--seeded.panel.md": {
+  "blinded_file": "agent3-paperB.tex",
+  "fixture": "icml-ml-method",
+  "state": "seeded",
+  "venue_pack": "ICML-Skills"
+ },
+ "icml-ml-method--clean.panel.md": {
+  "blinded_file": "agent4-paperA.tex",
+  "fixture": "icml-ml-method",
+  "state": "clean",
+  "venue_pack": "ICML-Skills"
+ },
+ "acl-nlp--seeded.panel.md": {
+  "blinded_file": "agent4-paperB.tex",
+  "fixture": "acl-nlp",
+  "state": "seeded",
+  "venue_pack": "ACL-Skills"
+ },
+ "jama-rct--seeded.panel.md": {
+  "blinded_file": "agent5-paperA.md",
+  "fixture": "jama-rct",
+  "state": "seeded",
+  "venue_pack": "JAMA-Skills"
+ },
+ "erj-cn-did--clean.panel.md": {
+  "blinded_file": "agent5-paperB.md",
+  "fixture": "erj-cn-did",
+  "state": "clean",
+  "venue_pack": "Economic-Research-Journal-Skills"
+ },
+ "erj-cn-did--seeded.panel.md": {
+  "blinded_file": "agent6-paperA.md",
+  "fixture": "erj-cn-did",
+  "state": "seeded",
+  "venue_pack": "Economic-Research-Journal-Skills"
+ },
+ "jama-rct--clean.panel.md": {
+  "blinded_file": "agent6-paperB.md",
+  "fixture": "jama-rct",
+  "state": "clean",
+  "venue_pack": "JAMA-Skills"
+ }
+}

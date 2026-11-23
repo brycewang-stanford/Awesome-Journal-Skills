@@ -71,7 +71,7 @@ identification section so that movement is interpreted, not merely displayed.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the identification claim, don't only argue it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFI is banking and financial intermediation — typically corporate / bank causal designs built around regulation and shocks.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JFI is banking and financial intermediation — typically corporate / bank causal designs built around regulation and shocks.
 
 1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
    the checks the design still owes.

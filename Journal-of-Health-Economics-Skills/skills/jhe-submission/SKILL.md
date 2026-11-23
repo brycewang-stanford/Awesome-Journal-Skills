@@ -53,6 +53,28 @@ If your last submission was to AEJ: Applied, AER, or another AEA outlet, several
 - **Length:** AEA outlets have working length norms; **JHE explicitly takes any length and encourages short papers**, so a tight result need not be inflated.
 - **Stars:** AEA permits significance stars; JHE/Elsevier also permits them, but SEs and clustering remain the load-bearing reporting object either way.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jhe-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Over-anonymizing for double-blind when JHE is single-anonymized (wasted effort, signals wrong target)

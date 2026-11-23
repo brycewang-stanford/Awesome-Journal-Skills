@@ -43,7 +43,7 @@ For a **short paper** (AER:Insights-style), keep the headline robustness in the 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). The Economic Journal is general-interest economics; the DiD/IV/RDD chain serves its broad applied lane.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). The Economic Journal is general-interest economics; the DiD/IV/RDD chain serves its broad applied lane.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

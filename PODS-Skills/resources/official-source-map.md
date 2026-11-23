@@ -1,6 +1,6 @@
 # Official Source Map - ACM PODS
 
-Access date: 2026-07-09
+Access date: 2026-07-09 (dead links re-checked 2026-11-23)
 
 This map records the official and cross-check sources for PODS-specific facts in this pack.
 **PODS** is the ACM SIGMOD/SIGACT Symposium on **Principles of Database Systems** — the
@@ -32,7 +32,7 @@ Principles of *Distributed* Computing) — a different venue; no fact here deriv
 | 4 | https://2027.sigmod.org/calls_papers_important_dates.shtml | PODS 2027 Important Dates: Cycle 1 (abstract 23 May 2026, paper 30 May 2026), Cycle 2 (abstract+COI 10 Oct 2026, paper 17 Oct 2026, feedback 10-17 Dec 2026, notify 19 Jan 2027, revision 19 Feb 2027, final 12 Mar 2027) | 2026-07-09 |
 | 5 | https://2027.sigmod.org/ | PODS 2027 co-located with SIGMOD, Huntington Beach, California, USA, 13-19 Jun 2027 | 2026-07-09 |
 | 6 | https://dl.acm.org/journal/pacmmod/pods | PACMMOD PODS track: PODS research papers publish in Proceedings of the ACM on Management of Data, invited for presentation at PODS | 2026-07-09 |
-| 7 | https://www.easychair.org/my/conference?conf=pods2026 | PODS 2026 submission portal is EasyChair (`pods2026`) | 2026-07-09 |
+| 7 | https://easychair.org/cfp/PODS2026 (public EasyChair CFP listing; replaces the login-only `easychair.org/my/conference?conf=pods2026`, which now returns 404 to anonymous readers; re-read 2026-11-23) | PODS 2026 submission portal is EasyChair (`pods2026`): the listing names the submission link https://easychair.org/conferences/?conf=pods2026 (sign-in required) | 2026-07-09; re-read 2026-11-23 |
 | 8 | https://sigmod.org/pods-home/acm-pods-alberto-o-mendelzon-test-of-time-award/ | ACM PODS Alberto O. Mendelzon Test-of-Time Award (established 2007; paper published in PODS proceedings ten years prior) | 2026-07-09 |
 | 9 | https://sigmod.org/pods-home/pods-best-paper-awards/ | PODS Best Paper Award; Best Newcomer Award (1997-2008) replaced by Best Student Paper Award from PODS 2009 | 2026-07-09 |
 | 10 | https://2026.sigmod.org/org_pods_pc.shtml | PODS 2026 PODS Program Committee page (PC Chair Ke Yi, HKUST) | 2026-07-09 |

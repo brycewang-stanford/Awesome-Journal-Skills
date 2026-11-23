@@ -112,7 +112,7 @@ restud-rebuttal
 | `restud-writing-style`        | Clear, economical prose; result-forward intro & abstract; author-date |
 | `restud-replication-package`  | Data/code deposit, README, reproducibility audit (verify OUP policy) |
 | `restud-referee-strategy`     | Map the referee pool; pre-empt the objections before submission    |
-| `restud-submission`           | Pre-submission preflight + manuscript template (anonymity, format) |
+| `restud-submission`           | Pre-submission preflight + manuscript template (title page, format) |
 | `restud-rebuttal`             | R&R response-letter structure; triage and revise-first discipline  |
 
 ### Resources

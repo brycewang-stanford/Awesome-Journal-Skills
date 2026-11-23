@@ -6,23 +6,23 @@
 
 - [ ] Main manuscript file contains no author names or affiliations
 - [ ] Self-citations are neutral ("prior research (Author, 2020)"), never "our prior study"
-- [ ] Acknowledgments, funding, and bios are on the separate title page only
+- [ ] Acknowledgments go in the ScholarOne Cover Letter section, not in the manuscript (AOM adds a title page only after acceptance)
 - [ ] File metadata/properties scrubbed of author identity
 - [ ] File names contain no author/institution identifiers
 
 ## 2. Format (per current AOM Style Guide)
 
-- [ ] Separate title page: title, authors, affiliations, contact, acknowledgments, funding
+- [ ] No identified title page in the review files; title + abstract on page 2
 - [ ] Abstract within the current AMJ word limit
 - [ ] Keywords supplied as required
 - [ ] AOM/APA-style in-text citations and reference list, alphabetized
 - [ ] AOM heading hierarchy; double-spaced; standard font and margins
-- [ ] Manuscript length within the current AMJ expectation
+- [ ] Manuscript length within the current AMJ expectation (as of 2026-11-23: typically ≤ 40 double-spaced pages, inclusive of all content)
 
 ## 3. Files for ScholarOne
 
 - [ ] Anonymized main document (manuscript, tables, figures, as the portal specifies)
-- [ ] Separate identified title page
+- [ ] Author details entered in the ScholarOne author fields (no identified file uploaded for review)
 - [ ] Cover letter (fit, contribution, not under review elsewhere)
 - [ ] Supplementary / online appendix file(s) if applicable
 - [ ] High-resolution figure files if requested separately
@@ -32,7 +32,7 @@
 - [ ] IRB/human-subjects approval stated where applicable (off the anonymized text)
 - [ ] Data-availability / transparency statement per current policy
 - [ ] No concurrent submission; prior working-paper/conference versions disclosed in cover letter
-- [ ] Conflicts of interest and funding disclosed on the title page
+- [ ] Conflicts of interest and funding disclosed in the cover letter / submission questions
 - [ ] All authors agree to authorship and contribution roles
 
 ## 5. Measurement & analysis (empirical core)

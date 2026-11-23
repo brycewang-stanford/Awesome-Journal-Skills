@@ -65,7 +65,7 @@ Confidential-data note: [access path readers can follow, if applicable]
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the identification claim, don't only argue it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Applied econometrics: the estimator and its diagnostics are themselves the contribution, so foreground the weak-IV / pre-trend / sensitivity tooling.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Applied econometrics: the estimator and its diagnostics are themselves the contribution, so foreground the weak-IV / pre-trend / sensitivity tooling.
 
 1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
    the checks the design still owes.

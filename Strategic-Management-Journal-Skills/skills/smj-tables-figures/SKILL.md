@@ -22,7 +22,7 @@ A typical empirical SMJ paper carries a compact, predictable set of exhibits:
 4. **Robustness table(s).** Alternative DVs, samples, estimators.
 5. **Figure(s):** marginal-effects / interaction plot, event-study plot for DID, or a mechanism/path diagram.
 
-Move secondary tables to an online appendix/supplement rather than crowding the main text. SMJ guides authors toward a tight page budget — full articles around **40 pages** (including tables, figures, and references) and short research articles around **20 pages** (verify the current limit) — so exhibits compete for space: keep the main paper lean and use APA-style table formatting with clear notes.
+Move secondary tables to an online appendix/supplement rather than crowding the main text. SMJ guides authors toward a tight page budget — full articles strongly suggested at **40 pages** including figures and tables, and short research articles no more than **20 pages** including title page, abstract, text, figures, tables, and references (Author Guidelines re-read 2026-11-23) — so exhibits compete for space: keep the main paper lean and use APA-style table formatting with clear notes.
 
 ## Table craft
 
@@ -42,7 +42,7 @@ Move secondary tables to an online appendix/supplement rather than crowding the 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). SMJ is strategy — firm-level panels where strategic choices are endogenous; foreground IV / DiD identification and the endogeneity-of-strategy objection.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). SMJ is strategy — firm-level panels where strategic choices are endogenous; foreground IV / DiD identification and the endogeneity-of-strategy objection.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

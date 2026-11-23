@@ -38,7 +38,7 @@ FM publishes empirical finance across corporate, asset-pricing, and banking data
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the asset-pricing battery, don't just specify it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
 
 - **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
   clustered) — read the alpha and t off the return.

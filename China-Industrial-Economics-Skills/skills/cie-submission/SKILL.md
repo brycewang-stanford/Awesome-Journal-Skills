@@ -15,7 +15,7 @@ description: Use for the pre-submission preflight to 《中国工业经济》 (C
 - 投稿系统：**https://ciejournal.ajcass.com/**（在线投稿，作者登录入口）
 - 主办：中国社会科学院工业经济研究所；月刊；ISSN 1006-480X；CN 11-3536/F
 - **篇幅**：全文约 **2.5 万字**（不含字符数），每页 39 行 ×42 字、五号宋体，**18 页以上**
-- **中文摘要 450—500 字**（创新点占 70% 以上）；**关键词 3—5 个**；英文摘要对应并核对语法
+- **中文摘要 450—500 字**（创新点占 70% 以上）；**关键词 3—5 个**；英文摘要对应并核对语法，含 **JEL Classification（填三个）**
 - **双向匿名审稿**；重复率**控制在 5% 以内**
 - 初审通过需提供**原始数据 + 处理过程 + 程序代码**；录用需提供数据/程序/完整结果以供学术监督
 
@@ -27,6 +27,7 @@ description: Use for the pre-submission preflight to 《中国工业经济》 (C
 - [ ] 中文摘要 450—500 字、明示创新点；关键词 3—5 个
 - [ ] 中文摘要五构件齐全：**[摘要]、[关键词]、[中图分类号]、[文献标识码]（填 "A"）、[文章编号]（"1006-480X（年份）"）**
 - [ ] 中英文标题/摘要/关键词齐全且对齐，英文摘要语法已核
+- [ ] 英文摘要构件：Abstract、Key Words（首字母小写、「；」分隔）、**JEL Classification 三个**（空格分隔、无标点，如 `R12 M58 O18`）
 - [ ] 三级标题 "一、1.（1）"，层级字体/缩进合规；论文题目不作一级标题重复
 - [ ] 同一概念全文术语统一（如 TFP 不混用"全要素生产率/技术进步"；英文缩写用法正确，如只能写 "HHI" 不写 "HHI 指数"）
 - [ ] **注释采用当页页下注（脚注）**，序号 "①②…" 每页单独排序
@@ -58,7 +59,7 @@ description: Use for the pre-submission preflight to 《中国工业经济》 (C
 
 - 凭记忆套体例，不查最新《投稿（修改）指南》
 - 用尾注 / 文中夹注替代页下注；文中注与文后注对不上（违反"实引"）
-- 摘要不到 450 字 / 关键词超 5 个 / 漏中图分类号
+- 摘要不到 450 字 / 关键词超 5 个 / 漏中图分类号 / 英文摘要漏 JEL Classification
 - 投稿时没准备数据与代码
 - 忘清匿名信息就投双盲
 
@@ -102,3 +103,25 @@ description: Use for the pre-submission preflight to 《中国工业经济》 (C
 【系统】ciejournal.ajcass.com 入口已确认
 【结论】可投 / 待修 <清单>
 ```
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue china-industrial-economics-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

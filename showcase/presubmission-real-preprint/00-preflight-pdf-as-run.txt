@@ -1,0 +1,23 @@
+【Preflight】paper.pdf (pdf) → AER: Insights
+【Venue rules】American Economic Review: Insights — verified 2026-11-23 (AER-Insights-Skills/resources/official-source-map.md)
+【Mechanical verdict】NO-GO  (4 FAIL · 1 FLAG · 0 INFO)
+【Counts】abstract_words=100, abstract_chars=100, main_text_words=5565, main_text_chars=5565, keywords=5, references=23, in_text_citations=31
+
+FAIL
+  ANON-AUTHOR       [front matter] Author block is not anonymized: 'Trade Tensions Meet the Gig Economy:
+Evidence from the 2025 Halving of
+Chinese Travel to J'. Double-blind review requires removing names, affiliations and emails.
+                    → owner: *-submission (anonymization)
+  ANON-ACK          [page 1] Acknowledgments / funding / thanks present in a double-blind submission; remove them until the camera-ready version.
+                    → owner: *-submission (anonymization)
+  ANON-META         [file metadata] File metadata field 'author' = 'Suguru Otani; Chang Yang' identifies an author; clear document properties before upload.
+                    → owner: *-submission (anonymization)
+  STMT-MISSING      Disclosure statement is required by the venue but was not found (looked for a heading or a labelled paragraph).
+                    → owner: *-submission (required statements)
+
+FLAG
+  NUM-MISMATCH      [page 2] '51.7 percent' in the introduction does not appear in any table or in the body text (also tried ×100, ÷100, rounding, and — for comparisons — differences within a table). Sentence: 'Visits from China fell by 51.7 percent from'
+                    → owner: *-writing-style + *-tables-figures
+
+【Checked】abstract ≤ 100 words; main text ≤ 7000 words; anonymization (double-blind); required statements: disclosure_statement; author-year citations ↔ reference list; exhibit numbering and cross-references; table notes; abstract/introduction numbers traceable to the body or tables; placeholders, tracked changes, comments
+【Next】This is stage 0 (mechanics). Fix every FAIL, then run the readiness scorecard and the simulated referee panel (rt-submission-readiness → rt-simulated-referee).

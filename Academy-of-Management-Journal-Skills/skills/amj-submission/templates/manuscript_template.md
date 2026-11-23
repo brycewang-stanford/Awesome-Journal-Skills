@@ -1,8 +1,8 @@
 # AMJ Manuscript Skeleton
 
-> A structural template for a full empirical Academy of Management Journal (AMJ) article. Follow the current AOM Style Guide for citation/heading details and verify length limits on the official AMJ page. The anonymized manuscript must contain none of the identifying information shown on the title page.
+> A structural template for a full empirical Academy of Management Journal (AMJ) article. Follow the current AOM Style Guide for citation/heading details and verify length limits on the official AMJ page. The anonymized manuscript must contain none of the identifying information shown on the title page. Under the AOM Style Guide the title page is added only to the **accepted** version; for review, enter author details in ScholarOne and put acknowledgments in the Cover Letter section.
 
-## Title Page (separate, identified file)
+## Title Page (accepted version only — not uploaded with a paper under review)
 
 > Title (concise, conveys the theoretical relationship)
 > Author 1¹, Author 2², ... (corresponding author marked *)

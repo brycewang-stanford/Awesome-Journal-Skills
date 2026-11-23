@@ -28,9 +28,9 @@ Pick the row whose **method × question** is closest to yours, then study how th
 [`../../skills/jm-writing-style/SKILL.md`](../../skills/jm-writing-style/SKILL.md)). For each, ask the
 self-check question before claiming your paper is "JM-shaped." For the cross-cutting empirical craft
 (identification, inference, reporting), use the shared hub:
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 and
-[`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+[`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).
 
 ---
 

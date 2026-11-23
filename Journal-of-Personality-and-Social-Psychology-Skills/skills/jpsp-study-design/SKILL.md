@@ -40,7 +40,7 @@ withstand the question "could one study break the whole story?"
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPSP is predominantly experimental social/personality psychology; randomization inference, mediation done right (`mediate`, not naive controlling-away), power, and family-wise corrections are decisive.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPSP is predominantly experimental social/personality psychology; randomization inference, mediation done right (`mediate`, not naive controlling-away), power, and family-wise corrections are decisive.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

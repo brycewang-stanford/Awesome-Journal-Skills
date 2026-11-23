@@ -1,0 +1,52 @@
+{
+  "manuscript": "arXiv-2611.21070/src/07_1_main_tourism_shock.tex",
+  "format": "tex",
+  "venue": "American Economic Review: Insights",
+  "pack": "AER-Insights-Skills",
+  "rules_verified": "2026-11-23",
+  "verdict": "NO-GO",
+  "stats": {
+    "abstract_words": 100,
+    "abstract_chars": 100,
+    "main_text_words": 5691,
+    "main_text_chars": 5691,
+    "keywords": 5
+  },
+  "findings": [
+    {
+      "check": "ANON-AUTHOR",
+      "severity": "FAIL",
+      "message": "Author block is not anonymized: 'Suguru Otanisuguru.otani@e.u-tokyo.ac.jp mailto:suguru.otani@e.u-tokyo.ac.jp, Market Desig'. Double-blind review requires removing names, affiliations and emails.",
+      "where": "front matter",
+      "owner": "*-submission (anonymization)",
+      "statement": ""
+    },
+    {
+      "check": "ANON-ACK",
+      "severity": "FAIL",
+      "message": "Acknowledgments / funding / thanks present in a double-blind submission; remove them until the camera-ready version.",
+      "where": "line 80",
+      "owner": "*-submission (anonymization)",
+      "statement": ""
+    },
+    {
+      "check": "STMT-MISSING",
+      "severity": "FAIL",
+      "message": "Disclosure statement is required by the venue but was not found (looked for a heading or a labelled paragraph).",
+      "where": "",
+      "owner": "*-submission (required statements)",
+      "statement": "disclosure_statement"
+    }
+  ],
+  "checked": [
+    "abstract ≤ 100 words",
+    "main text ≤ 7000 words",
+    "anonymization (double-blind)",
+    "required statements: disclosure_statement",
+    "citations ↔ bibliography",
+    "exhibits referenced; table notes",
+    "abstract/introduction numbers traceable to the body or tables",
+    "placeholders, tracked changes, comments"
+  ],
+  "not_checked": []
+}

@@ -2,19 +2,21 @@
 
 RFS submits via the **SFS Editorial Express portal** (editorialexpress.com, from
 sfs.org/review-of-financial-studies/submit-a-paper) — not ScholarOne. Verified RFS norms:
-submission fee **$260 SFS member / $320 non-member** (waived for conditionally accepted
-current-year members and for low-income economies; first round waived for invited Cavalcade
-dual submissions), abstract **≤ 100 words**, **Chicago Manual of Style author-date**
-references, manuscript double-spaced (≤ 28 lines/page, font ≥ 11). Confirm current figures
-on sfs.org/submission-fees. The **public code-release condition** is an official RFS
-requirement, not a durable-norm guess.
+submission fee (high-income) **$400 SFS member / $460 non-member**, middle-income
+**$260 / $320**, low-income waived (also waived for conditionally accepted papers; first
+round waived for invited dual submissions), abstract **≤ 100 words**, **Chicago Manual of
+Style author-date** references, manuscript anonymous and double-spaced (≤ 28 lines/page,
+font ≥ 11), Internet Appendix inside the manuscript PDF. Confirm current figures on
+sfs.org/review-of-financial-studies/submit-a-paper (re-verified 2026-11-23). The **public
+code-release condition** is an official RFS requirement, now implemented through the Code and
+Data Sharing Policy (papers conditionally accepted on/after 1 October 2025).
 
 ## 1. Format & anonymization (double-blind)
 
 - [ ] Manuscript fully anonymized: no author names, affiliations, or identifying acknowledgments
 - [ ] Self-citations neutral ("Smith (2021) shows" not "in our prior work")
 - [ ] Grant numbers / thanks / presentation lists removed from the blinded file
-- [ ] Title page with author info uploaded as a separate file per portal instructions
+- [ ] Cover page PDF with author info uploaded separately from the anonymized manuscript PDF
 - [ ] File names contain no author identity
 
 ## 2. Author information
@@ -60,15 +62,15 @@ requirement, not a durable-norm guess.
 - [ ] Every in-text citation appears in the reference list and vice versa
 - [ ] References in Chicago Manual of Style author-date format
 - [ ] Recent (last ~3 years) RFS/JF/JFE work cited; canonical theory cited
-- [ ] Internet Appendix prepared as a separate file, cross-referenced by IA number
-- [ ] Public code-release package planned (RFS condition of publication); exception, if any, explained in cover letter
+- [ ] Internet Appendix inside the manuscript PDF (not a separate upload), de-identified, cross-referenced by IA number
+- [ ] Replication package (data, code, README, license) planned for the Data Editors (RFS condition of publication); any withholding/exemption request uploaded at submission
 
 ## 8. Portal (SFS Editorial Express)
 
 - [ ] Account verified
 - [ ] Cover letter states the RFS-specific novelty and names close competitors
 - [ ] Suggested / opposed referees prepared (no conflicts; no current RFS editor among suggested)
-- [ ] Submission fee handled; SFS-member rate ($260 vs. $320) used / waiver applied if eligible
+- [ ] Submission fee handled; SFS-member rate used (high-income $400 vs. $460; middle-income $260 vs. $320) / waiver applied if eligible
 - [ ] Route chosen: standard / Registered Report (Stage 1) / SFS Cavalcade dual submission
-- [ ] All files staged: manuscript, title page, Internet Appendix, cover letter, replication code
+- [ ] All files staged: anonymized manuscript PDF (with Internet Appendix inside), cover page PDF, disclosures, cover letter if needed
 - [ ] No concurrent submission elsewhere (the RFS–SFS Cavalcade dual submission is the permitted exception)

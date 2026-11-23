@@ -38,7 +38,7 @@ At AEJ: Policy, robustness is judged by whether the **policy takeaway** is stabl
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Policy evaluates programs and reforms; the design must carry a policy-relevant magnitude, not just statistical significance.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AEJ: Policy evaluates programs and reforms; the design must carry a policy-relevant magnitude, not just statistical significance.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

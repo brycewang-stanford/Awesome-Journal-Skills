@@ -43,7 +43,7 @@ Subgroup effects are not garnish here — they are often the finding. Pre-specif
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPP&M lives on policy evaluation and policy-realistic experiments; the counterfactual checks and welfare-relevant subgroup corrections are where reviewers concentrate fire.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPP&M lives on policy evaluation and policy-realistic experiments; the counterfactual checks and welfare-relevant subgroup corrections are where reviewers concentrate fire.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate what the design still owes.

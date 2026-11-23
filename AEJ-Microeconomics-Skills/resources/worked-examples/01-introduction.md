@@ -129,4 +129,4 @@ Mapped to this pack's skill checklists:
 > [`../../skills/aejmic-replication-package/SKILL.md`](../../skills/aejmic-replication-package/SKILL.md) for
 > the proof appendix and numerical-example code the AEA Data Editor will expect. For the venue-neutral
 > referee objections an empirical or experimental companion must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

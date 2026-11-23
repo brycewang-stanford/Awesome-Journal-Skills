@@ -12,21 +12,25 @@ release that cannot be rushed — is the difference between a smooth cycle and a
 
 ## Choose the deadline first
 
-IMC 2026 offered two cycles: cycle 1 submission ~20 Nov 2025, cycle 2 submission ~29 Apr 2026
-(confirm current dates on the Important Dates page). Choose by data-collection readiness, not
-optimism:
+IMC 2027 offers two cycles (AoE, re-verified 2026-11-23): cycle 1 register 10 Nov 2026, submit
+17 Nov 2026, early reject 5 Jan 2027, **rebuttal 26 Jan - 2 Feb 2027** (new for IMC 2027),
+notification 25 Feb 2027, camera-ready 14 Apr 2027; cycle 2 register 31 Mar 2027, submit 7 Apr
+2027, early reject 19 May 2027, notification 22 Jul 2027, camera-ready 2 Sep 2027. Choose by
+data-collection readiness, not optimism:
 
 - If measurement and ethics approvals will be solid by the earlier cutoff, target cycle 1 — and a
   One-Shot-Revision still lands you in cycle 2.
 - If data collection or IRB is unfinished, target cycle 2 rather than submitting thin work that
-  earns a reject instead of a revision.
+  earns a reject instead of a revision — a rejected paper must wait roughly 12 months before
+  resubmitting to IMC, so a cycle-1 reject cannot return in cycle 2.
 
 ## Backward plan from the target cutoff
 
 ```text
 [T-0]     Submission deadline (AoE). PDF + BBL uploaded; availability declaration set.
 [T-1wk]   Registration cutoff (title/abstract/authors/conflicts) — precedes submission by ~a week.
-[T-2wk]   Final anonymity sweep (incl. vantage points); Ethics section finalized; artifact anonymized.
+[T-2wk]   Final anonymity sweep (incl. vantage points); Ethics, Open Science and Generative AI
+          appendix sections finalized; artifact anonymized.
 [T-4wk]   Freeze the measurement narrative; draft complete; limitations argued per-result.
 [T-8wk]   Finish the decision-critical measurements; validate ground-truth subsamples.
 [T-earlier] Obtain IRB determination; run active measurements safely; pin provenance as you collect.
@@ -61,16 +65,16 @@ If you receive a One-Shot-Revision (`imc-review-process`, `imc-author-response`)
 ```text
 [Shepherding]   deliver the artifact you declared; the shepherd checks availability
 [Camera-ready]  de-anonymize; finalize Ethics + availability statements; permanentize dataset/code
-                links to a DOI archive (cycle 1 camera-ready ~mid-April; cycle 2 ~1 Sep — confirm)
+                links to a DOI archive (IMC 2027: cycle 1 camera-ready 14 Apr 2027; cycle 2 2 Sep 2027)
 [Award]         for the Community Contribution Award, the dataset/tool must be public + usable by
                 the camera-ready deadline
-[Present]       at least one author presents at IMC (Karlsruhe, Oct 12-16, 2026)
+[Present]       at least one author presents at IMC 2027 (Atlanta, Georgia, USA, Oct 25-29, 2027)
 ```
 
 ## The Replicability Track calendar (if applicable)
 
 If the contribution is replicating a prior measurement study, the path differs: submit an
-**Expression of Interest** by its (earlier) deadline (IMC 2026 EoI ~29 Jan 2026), a small committee
+**Expression of Interest** by its (earlier) deadline (IMC 2027 EoI 13 Jan 2027, EoI notification 10 Feb 2027; invited full papers follow the cycle-2 deadlines), a small committee
 screens it, and strong abstracts are invited to a full submission judged like the main track. Plan
 the EoI well before you complete the replication.
 

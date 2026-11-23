@@ -32,7 +32,7 @@ shared empirical kit.
 
 For background only, the repository's shared reviewer-objection checklist and reporting-standards
 references live under
-[`../../shared-resources/empirical-methods/`](../../shared-resources/empirical-methods/) — they target
+[`../../shared-resources/empirical-methods/`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/tree/main/shared-resources/empirical-methods) — they target
 *empirical* manuscripts and are **not** part of the Psychological Review workflow; consult them only if a
 project turns out to be empirical (in which case it belongs at a different journal).
 

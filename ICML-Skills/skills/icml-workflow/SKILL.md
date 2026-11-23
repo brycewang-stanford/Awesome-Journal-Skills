@@ -9,8 +9,8 @@ Use this as the router for the ICML depth pack. It chooses the next skill and ke
 evidence, artifact, and public-record risks visible.
 
 ICML is a conference, not a journal: it has no standing editor-in-chief and no article-processing
-charge. The rotating leadership is the per-edition General Chair and Program Chairs (2026 General
-Chair: Tong Zhang; Program Chairs: Dudik, Jaggi, Agarwal, Li, verified 2026-06-22), and the cost
+charge. The rotating leadership is the per-edition General Chair and Program Chairs (2027 General
+Chair: Marina Meila; Program Chairs: Mairal, Wilson, Su, Huang, Paquette, verified 2026-11-23), and the cost
 model is registration fees, not APCs — PMLR proceedings are open-access with no author fee.
 Conference organizers rotate yearly, so re-check the current CFP and committees page rather than
 carrying a name forward.
@@ -38,11 +38,13 @@ carrying a name forward.
 
 ## Deadline cadence (verify against the current CFP)
 
-ICML runs an abstract deadline before the full-paper deadline, and the 2026 cycle freezes the author
-list at the abstract stage. Treat the cadence as: abstract and author list locked, then full PDF and
-supplement, then reviews, then the response window, then one discussion round, then decisions, then
-camera-ready and the PMLR-bound proceedings. Never hard-code the exact dates here; reopen the current
-year's CFP because they move annually.
+ICML runs an abstract deadline before the full-paper deadline, and the 2027 cycle freezes the author
+list at the abstract stage (abstract January 14, full paper January 22, 2027 AoE). Treat the cadence
+as: abstract and author list locked, then full PDF and supplement, then a first-stage AC screen
+(rejections by February 23, 2027), then reviews, then the rebuttal and follow-up rounds, then
+decisions (May 3, 2027), then camera-ready and the PMLR-bound proceedings. The dates above are
+ICML 2027's as of 2026-11-23; reopen the current year's CFP and Dates page because they move
+annually.
 
 ## Stage-to-risk router
 

@@ -8,11 +8,11 @@ FOCS-native checks that replace the rest.
 
 ## From the shared kit, keep only
 
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
   — as a smoke test on a *certificate package* for a computer-assisted proof
   step (README present, no absolute paths, no identity leaks) before it
   ships as arXiv ancillary material.
-- [`../../../shared-resources/ml-conference-methods/README.md`](../../../shared-resources/ml-conference-methods/README.md)
+- [`../../../shared-resources/ml-conference-methods/README.md`](../shared/ml-conference-methods/README.md)
   — background only. Do **not** import experiment matrices or seed/compute
   reporting into a FOCS paper; that vocabulary signals venue confusion
   (see [`../../skills/focs-experiments/SKILL.md`](../../skills/focs-experiments/SKILL.md)).

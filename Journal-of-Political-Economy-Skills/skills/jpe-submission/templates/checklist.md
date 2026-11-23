@@ -2,7 +2,7 @@
 
 Verify the *current* JPE author guidelines, submission fee, and data/code policy on the
 journal's official page before relying on any limit below. This list captures the durable
-structure of a Journal of Political Economy submission via Editorial Express.
+structure of a Journal of Political Economy submission via Editorial Manager.
 
 ## 1. Format
 - [ ] Manuscript is a single PDF, double-spaced
@@ -25,16 +25,15 @@ structure of a Journal of Political Economy submission via Editorial Express.
 - [ ] The leading rival mechanism is named and tested against
 - [ ] The portable economic lesson is stated, not assumed
 
-## 4. Anonymity (if review is double-blind — verify current policy)
-- [ ] Author identities removed from manuscript body
-- [ ] PDF metadata scrubbed of author names
-- [ ] Self-citations phrased neutrally ("Smith (2020) shows...")
-- [ ] Acknowledgments, funding, and institutional info on a separate title page only
+## 4. Author identity (JPE is single-blind — do not anonymize)
+- [ ] Manuscript begins with a title page giving the names, e-mail addresses, and affiliations of all authors
+- [ ] Self-citations phrased neutrally ("Smith (2020) shows...") as a matter of style
+- [ ] Acknowledgments and funding in the title-page footnote
 
 ## 5. Fee & policy
-- [ ] Submission fee amount confirmed on the official page (check waivers/discounts)
-- [ ] Payment method ready (paper typically not forwarded until fee clears)
-- [ ] Data and code availability policy reviewed (AEA Data Editor standard)
+- [ ] Submission fee confirmed on the official page ($250 nonsubscriber / $125 individual subscriber; waiver for 3+ JPE referee reports in the prior 12 months)
+- [ ] Payment method ready (decisions are not released until the fee is paid or waived; non-refundable)
+- [ ] Data and code availability policy reviewed (JPE data policy, DCAS; JPE Data Editor)
 - [ ] Replication package staged for the accepted-paper stage
 - [ ] Paper not under review elsewhere; no overlapping submission
 
@@ -44,7 +43,7 @@ structure of a Journal of Political Economy submission via Editorial Express.
 - [ ] Online appendix referenced from the main text and uploaded
 - [ ] Restricted-data documentation prepared if applicable
 
-## 7. Portal metadata (Editorial Express)
+## 7. Portal metadata (Editorial Manager)
 - [ ] Title and abstract entered
 - [ ] JEL classification codes entered
 - [ ] Keywords entered

@@ -36,7 +36,7 @@
 - **重逻辑严谨度，勿当纯计量刊。** 本刊思辨 / 规范 / 历史比较型稿的逻辑权重不低于实证识别；起论证
   前先读 `../../skills/ssc-argumentation/SKILL.md`、`../../skills/ssc-literature-dialogue/SKILL.md`。
 - **含实证时仍按方法规范做满。** 若用因果识别，底线见
-  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)，
+  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)，
   但识别只是为学理命题服务，勿喧宾夺主。
 - **引用前核对刊名。** 凡记不清是《中国社会科学》还是各学科专业刊（《社会学研究》/《中国法学》/
   《经济研究》/《哲学研究》/《历史研究》）或同名近名刊（《中国社会科学评价》/《社会科学》/

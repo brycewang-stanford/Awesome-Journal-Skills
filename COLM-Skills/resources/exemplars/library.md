@@ -102,7 +102,8 @@ single benchmark table, this lineage is a warning.
 ## Verification recipe before adding entries
 
 1. Find the title on the official accepted list for the claimed edition
-   (`colmweb.org/<year>/AcceptedPapers.html`) or in the COLM OpenReview group.
+   (`colmweb.org/<year>/AcceptedPapers.html` for 2024-2025, `colm.cc/Conferences/<year>/AcceptedPapers`
+   from 2026) or in the COLM OpenReview group.
 2. Record the full author list from that official source, not from arXiv.
 3. Confirm award status from a COLM announcement or an independent institutional page — award
    claims travel badly through secondary blogs.

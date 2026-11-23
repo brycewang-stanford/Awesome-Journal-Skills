@@ -11,9 +11,9 @@ then TAPS) applied to your **source files**. Papers that compile locally but vio
 acmart conventions stall in TAPS, so start this process the week the decision arrives,
 not the week the proceedings deadline arrives.
 
-## The page arithmetic (2026 anchor — reverify per cycle)
+## The page arithmetic (KDD 2027 anchor — reverify per cycle)
 
-Accepted KDD 2026 papers all received the same proceedings budget: **12 pages total,
+Accepted KDD 2027 papers in all four tracks get the same proceedings budget (as in 2026): **12 pages total,
 of which 9 are content pages**. Since submissions were 8 content pages, acceptance
 buys exactly **one extra content page**, while references and appendix together must
 fit in the remaining **3 pages**.
@@ -69,12 +69,15 @@ is the most common post-publication complaint at ACM venues.
 
 - KDD proceedings live in the ACM Digital Library under the **ACM Open** model: authors
   from institutions not participating in ACM Open face an article-processing charge
-  unless they qualify for a waiver; ACM announced a temporary 65% subsidy for 2026.
+  unless they qualify for a waiver (rare, per the CFP). For KDD 2027 the subsidized APC
+  is USD 500 for ACM/SIG members and USD 750 for non-members (a 29% discount off list);
+  about 76% of ACM-sponsored conference papers need no APC.
   Check your institution's ACM Open status before budgeting — this surprises industrial
   and non-Western labs most.
-- Exact APC amounts, waiver mechanics, registration pricing, and presentation
-  obligations were not verifiable at pack-build time (待核实): confirm all four against
-  the acceptance email and the current conference pages.
+- Presentation is mandatory: every accepted KDD 2027 paper needs a Full Conference
+  (5-day) in-person registration at the standard (non-student) rate. Waiver criteria and
+  registration pricing are not on the CFPs (待核实): confirm both against the
+  acceptance email and the current conference pages.
 
 ## Worked example: spending the ninth page
 

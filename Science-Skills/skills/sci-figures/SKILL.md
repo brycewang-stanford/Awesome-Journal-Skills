@@ -7,7 +7,7 @@ description: Use to finalize Science display items — panel/word budget, column
 
 ## When to trigger
 
-- Figure count exceeds the format budget (Report ≤4, Article ≤6).
+- Figure count exceeds the format budget (Research Article 3–5; extended online format ≤6).
 - Fonts are unreadable at print size, or colors are not colorblind-safe.
 - Bar charts hide the underlying data (no points, no n).
 - Panels are screenshots of software output pasted into the figure.
@@ -65,7 +65,7 @@ Use this as a second-pass capability check. First lock the broad discovery claim
 ## Output format
 
 ```
-【Item count】 N (budget: Report ≤4 / Article ≤6) → ok / over
+【Item count】 N (budget: standard 3–5 / extended ≤6) → ok / over
 【Sizing】 designed at 5.5 / 12 / 18 cm? fonts ≥6 pt? yes/no
 【Data shown】 points + n + defined error bars? yes/no
 【Colorblind-safe】 yes/no (palette used)

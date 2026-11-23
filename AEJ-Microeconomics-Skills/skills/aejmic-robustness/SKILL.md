@@ -42,7 +42,7 @@ An extension that merely re-derives the base result under a cosmetic re-paramete
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Micro spans applied and structural micro; the chain below is for the reduced-form / causal lane — structural estimation uses the field's own solvers.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AEJ: Micro spans applied and structural micro; the chain below is for the reduced-form / causal lane — structural estimation uses the field's own solvers.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

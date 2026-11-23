@@ -1,6 +1,6 @@
 ---
 name: pnasnexus-citation
-description: Use to get PNAS Nexus references right — note that PNAS Nexus accepts references in any readable style at submission (unlike flagship PNAS's strict numbered-by-appearance), so the job is internal consistency, completeness, resolvable in-text citations, and the [dataset] tag for data/software. Prepare a single consistent (preferably numbered) style for production; confirm the final style on acceptance.
+description: Use to get PNAS Nexus references right — note that PNAS Nexus accepts references in any readable style at submission (unlike flagship PNAS's strict numbered-by-appearance), so the job is internal consistency, completeness, resolvable in-text citations, and the [dataset] tag for data/software. Production follows the Council of Science Editors (CSE) parent style with US spelling; prepare a single consistent style that converts cleanly.
 ---
 
 # Reference Style (pnasnexus-citation)
@@ -16,7 +16,7 @@ description: Use to get PNAS Nexus references right — note that PNAS Nexus acc
 
 PNAS Nexus states, verbatim, *"You may format references in any readable style at submission."* This is a **deliberate contrast with flagship PNAS**, which enforces a numbered, in-order-of-appearance style up front. So at PNAS Nexus, **do not burn effort forcing a specific house style for initial submission** — instead make the references **clean, complete, consistent, and resolvable**.
 
-> The **final published** reference style is **待核实** — OUP/PNAS-portfolio journals typically render a **numbered, in-order-of-appearance** list at production, but the official page only guarantees submission-stage neutrality. Prepare a single consistent numbered style (it converts cleanly to most production styles) and confirm the exact format on acceptance.
+> At **production**, the journal follows the **Council of Science Editors (CSE) parent style**, with US spelling outside quotations and references (author guidelines, re-checked 2026-11-23). Submission stays format-neutral; prepare a single consistent style (a numbered CSE citation-sequence list converts cleanly) so production edits are mechanical.
 
 ## What actually matters at submission (the real checklist)
 
@@ -57,7 +57,7 @@ Reference formats (shape — confirm production requirements on acceptance):
 【Resolvable】 all in-text ↔ list, no orphans/gaps/duplicates? yes/no
 【Completeness】 authors / title / venue / year / vol / pages / DOI present? yes/no
 【Data/software refs】 cited with [dataset] tag where required? yes/no
-【Production style】 numbered-by-appearance prepared (convertible)? confirm final style on acceptance (待核实)
+【Production style】 single consistent style, convertible to CSE parent style (US spelling)? yes/no
 【Next】 pnasnexus-submission
 ```
 

@@ -7,7 +7,8 @@ description: Use when positioning an IEEE ICSME submission against the software-
 
 Use this to audit novelty and eligibility. ICSME reviewers are close to the maintenance/evolution
 literature and expect to see where your paper sits relative to the nearest prior work — stated as a
-**delta**, not a list. Because the venue values replication (the RENE track) and rewards honest
+**delta**, not a list. Because the venue values replication (the RENE track through 2026; in ICSME 2027 the research
+track evaluates replicability explicitly) and rewards honest
 re-examination, "we redo prior work" is a legitimate contribution *when framed as one* — but it
 must engage the original explicitly. Reopen the current call for dual-submission, anonymity, and
 prior-publication rules before advising.
@@ -24,8 +25,8 @@ prior-publication rules before advising.
   naming what you do differently — not a summary. Position, don't catalog.
 - **Preserve double-anonymity.** Cite your own prior maintenance studies in the third person and
   never link reviewers to an identity-revealing preprint, repository, or homepage.
-- **Declare overlap** with any prior workshop/short version or a replicated original; for a RENE
-  submission, name the exact study you reproduce.
+- **Declare overlap** with any prior workshop/short version or a replicated original; for a
+  replication submission, name the exact study you reproduce.
 
 ## Maintenance literature lanes
 
@@ -52,7 +53,7 @@ technique where the journal offered only economics.
 ## Replication and prior-version judgment calls
 
 ```text
-[RENE replication]        name the exact original study; state what you kept identical and what you
+[Replication]             name the exact original study; state what you kept identical and what you
                           extended (new datasets, new systems); frame reproducibility as the contribution
 [Concurrent arXiv work]   cite neutrally, state the technical difference, avoid priority claims;
                           keep the citation double-anonymous
@@ -66,7 +67,7 @@ technique where the journal offered only economics.
 
 - Substantial text overlap with a published paper by the same authors (self-plagiarism risk).
 - A "new" study that re-reports a prior corpus's numbers without a new maintenance question — unless
-  submitted to RENE and framed honestly as replication.
+  framed honestly as replication (RENE through 2026; the research track in 2027).
 - Citations exclusively to non-maintenance venues, signaling a paper rerouted here without reframing.
 
 ## Output format
@@ -75,6 +76,6 @@ technique where the journal offered only economics.
 [Eligibility] clear / needs declaration / risky
 [Lanes covered] <maintenance-core / mining / comprehension-analysis / flagships / journals>
 [Nearest 3 works] <work -> one-line delta>
-[Replication framing] <n/a | RENE: original study named + what was extended>
+[Replication framing] <n/a | replication: original study named + what was extended>
 [Novelty sentence] <ICSME-ready contribution contrast against the nearest prior work>
 ```

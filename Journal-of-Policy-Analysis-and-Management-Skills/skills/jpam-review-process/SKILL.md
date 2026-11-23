@@ -77,5 +77,5 @@ The reviewer pool is cross-disciplinary, so a paper must satisfy an economist's 
 
 ## Supplementary resources
 
-- [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — objections by identification strategy
+- [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../resources/shared/empirical-methods/reviewer-objection-checklist.md) — objections by identification strategy
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — review model, article types, decision-category guardrails

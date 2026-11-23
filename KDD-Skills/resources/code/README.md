@@ -9,10 +9,10 @@ here (no Stata/DiD/IV/RDD tooling); the shared kit below is the right scaffold.
 
 | File | Role for a KDD package |
 | --- | --- |
-| [`README.md`](../../../shared-resources/ml-conference-methods/README.md) | Kit overview and conventions |
-| [`experiment-matrix.md`](../../../shared-resources/ml-conference-methods/experiment-matrix.md) | Enumerate variant × dataset × seed runs — the KDD ablation matrix |
-| [`reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md) | Pre-upload artifact audit |
-| [`check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py) | Dependency-free smoke check of the anonymous package |
+| [`README.md`](../shared/ml-conference-methods/README.md) | Kit overview and conventions |
+| [`experiment-matrix.md`](../shared/ml-conference-methods/experiment-matrix.md) | Enumerate variant × dataset × seed runs — the KDD ablation matrix |
+| [`reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md) | Pre-upload artifact audit |
+| [`check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py) | Dependency-free smoke check of the anonymous package |
 
 ## Typical Use
 

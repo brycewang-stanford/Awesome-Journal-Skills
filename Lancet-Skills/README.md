@@ -82,7 +82,7 @@ lancet-research-in-context (the signature three-part panel + systematic search)
         ▼
 lancet-abstract            (structured abstract: Findings / Interpretation / Funding ≤300w)
         ▼
-lancet-writing             (IMRaD structure; cautious Discussion; ~3000–3500w)
+lancet-writing             (IMRaD structure; cautious Discussion; ≤3500w, 4500 for RCTs)
         ▼
 lancet-ethics              (declaration of interests, role of funding, data sharing, SAGER)
         ▼
@@ -105,7 +105,7 @@ lancet-rebuttal            (after review — incl. the statistical reviewer)
 | `lancet-reporting`           | EQUATOR guideline (CONSORT/STROBE/PRISMA) + the mandatory flow diagram + checklist |
 | `lancet-research-in-context` | The signature panel: Evidence before / Added value / Implications + systematic search |
 | `lancet-abstract`            | Structured abstract ≤300w: Background / Methods / **Findings** / **Interpretation** / Funding |
-| `lancet-writing`             | IMRaD structure, ~3000–3500w, ~30 refs, cautious globally minded Discussion        |
+| `lancet-writing`             | IMRaD structure, ≤3500w (4500 for RCTs), 30 refs, cautious globally minded Discussion        |
 | `lancet-statistics`          | CIs over bare P, ITT + per-protocol, multiplicity, pre-specified subgroups + interaction, absolute + relative effects |
 | `lancet-figures-tables`      | Table 1, Kaplan–Meier with numbers at risk, forest plots, CONSORT/study-flow diagram, maps |
 | `lancet-ethics`              | Declaration of interests, role of the funding source, data sharing, ICMJE authorship, SAGER + equity |

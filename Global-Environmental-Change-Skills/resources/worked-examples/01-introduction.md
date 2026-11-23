@@ -132,7 +132,7 @@ Mapped to the pack's skill checklists:
 > Note on cross-cutting empirical craft: because the "after" paper makes a **quasi-experimental**
 > (staggered-adoption) claim, it must also clear the standard referee objections on identification,
 > inference, and robustness. Those are venue-neutral and live in the shared hub —
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > — relative to *this* file three levels deep. The econometric **code** kit is **not** vendored into this
 > pack (see [`../README.md`](../README.md)).
 

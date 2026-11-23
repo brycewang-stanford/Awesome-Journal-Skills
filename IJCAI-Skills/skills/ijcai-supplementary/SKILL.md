@@ -6,17 +6,18 @@ description: Use when preparing IJCAI or IJCAI-ECAI supplementary material, tech
 # IJCAI Supplementary
 
 Use this when assembling or auditing IJCAI supplementary material. Reopen the current CFP and
-FAQ because deadlines, file types, and size limits are cycle-specific.
+submission-process page because deadlines, file types, and size limits are cycle-specific.
 
 ## Supplement plan
 
 - Separate the Technical Appendix from the Resubmission File. Do not mix prior-review
   material into the technical supplement.
 - Keep the main paper self-contained; reviewers may choose not to read the appendix.
-- Submit supplement and resubmission files by the full-paper deadline. IJCAI-ECAI 2026 did
-  not use separate later deadlines for these files.
-- Respect file type and size rules. IJCAI-ECAI 2026 allowed up to 50MB of supplementary
-  material in PDF or ZIP format.
+- Submit the supplement (and any resubmission file the current rules require) by the
+  full-paper deadline. IJCAI 2027 lists "Full paper, including appendix" for January 11,
+  2027, with no separate later supplement deadline.
+- Respect file type and size rules. IJCAI 2027 allows up to 50MB of supplementary
+  material in PDF or ZIP format (verified 2026-11-23).
 - Anonymize every file, archive name, directory name, path, metadata field, license header,
   screenshot, notebook output, and URL.
 - Verify that ZIPs open, contain deterministic paths, and do not include cache files, hidden
@@ -33,7 +34,7 @@ artifact before assembling.
 | Full proof, extra derivations | Technical Appendix | Supports credibility but not required reading |
 | Hyperparameter grids, full per-domain tables | Technical Appendix | Detail that would crowd the body |
 | Runnable code, simulator, instance generator | Code/data ZIP | Reproducibility evidence reviewers may sample |
-| Prior reviews and rejected version | Resubmission File only | Must stay out of the technical supplement |
+| Prior reviews and rejected version | Resubmission File only, if the current cycle asks for one (2026 did; 2027 pages are silent) | Must stay out of the technical supplement |
 
 ## Worked vignette: a planning paper's split
 

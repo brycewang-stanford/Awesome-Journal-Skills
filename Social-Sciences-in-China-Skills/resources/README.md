@@ -8,8 +8,8 @@
 | 资源 | 作用 |
 |---|---|
 | [`code/`](code/) | 可复现的 Stata + Python 因果识别脚本骨架（清洗 → 描述 → DID/IV/RDD/DML → 机制 → 稳健性 → 出表）。源自《经济研究》已实跑验证的代码库（Stata 18 MP，2026-06），复制即用，勿盲改命令。 |
-| [审稿人异议清单](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | 顶刊审稿人按识别策略（DID/IV/RDD/DML/匹配/机制）真实提出的攻击点及预防答法。起表前自检设计。 |
-| [报告规范](../../shared-resources/empirical-methods/reporting-standards.md) | 现代推断与报告的底线：聚类标准误、弱工具诊断、多重检验校正、DID/RDD 报告、可复现。 |
+| [审稿人异议清单](shared/empirical-methods/reviewer-objection-checklist.md) | 顶刊审稿人按识别策略（DID/IV/RDD/DML/匹配/机制）真实提出的攻击点及预防答法。起表前自检设计。 |
+| [报告规范](shared/empirical-methods/reporting-standards.md) | 现代推断与报告的底线：聚类标准误、弱工具诊断、多重检验校正、DID/RDD 报告、可复现。 |
 | [`official-source-map.md`](official-source-map.md) | 该刊的官方事实（费用、字数、盲审、数据政策、参考文献体例），区分 [官]/[经验值]。 |
 | [`worked-examples/`](worked-examples/01-introduction.md) | 该刊房风格的引言 before→after 改写示例（示意性、虚构）。 |
 | [`exemplars/library.md`](exemplars/library.md) | 该刊真实、经联网核实的代表作（按主题×取向），附同名刊辨析。 |

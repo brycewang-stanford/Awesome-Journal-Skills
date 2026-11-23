@@ -116,4 +116,4 @@ Mapped to this pack's skill checklists:
 > building the deposit so it clears the AEA Data Editor check, and [`../code/`](../code/) for a runnable
 > empirical command chain. For the venue-neutral referee objections a staggered-DiD claim must pre-empt —
 > critical here because AER: Insights has **no R&R** — see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

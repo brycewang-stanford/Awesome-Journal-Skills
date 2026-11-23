@@ -6,7 +6,7 @@ description: Use when positioning an ICML submission against close ML literature
 # ICML Related Work
 
 Use this when novelty, incremental contribution, or concurrent-submission handling is the risk.
-ICML 2026 treats related concurrent ICML submissions with overlapping authors as prior work.
+ICML 2027 treats related concurrent ICML submissions with overlapping authors as prior work.
 
 ## Required coverage
 

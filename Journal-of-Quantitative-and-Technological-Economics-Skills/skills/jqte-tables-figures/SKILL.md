@@ -36,7 +36,7 @@ JQTE 是数量/技术经济刊，**读者要的是"量多大、占多少、排�
 ## 执行桥（StatsPAI / Stata MCP）
 
 表格图形**从拟合结果生成**，不要手抄数字。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《数量经济技术经济研究》偏计量方法与应用；估计量有效性 + 诊断，必要时附模拟证据。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《数量经济技术经济研究》偏计量方法与应用；估计量有效性 + 诊断，必要时附模拟证据。
 
 - **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
 - **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与

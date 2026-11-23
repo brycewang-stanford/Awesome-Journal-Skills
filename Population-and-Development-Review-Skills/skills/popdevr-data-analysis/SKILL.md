@@ -55,7 +55,7 @@ skill covers execution and reporting norms; method choice lives in `popdevr-rese
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). PDR is population studies blending quantitative and policy work; apply the chain to its empirical-causal papers.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). PDR is population studies blending quantitative and policy work; apply the chain to its empirical-causal papers.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

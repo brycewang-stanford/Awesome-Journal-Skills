@@ -1,0 +1,159 @@
+{
+  "id": "jf-corporate-did",
+  "pack": "Journal-of-Finance-Skills",
+  "venue": "The Journal of Finance",
+  "format": "md",
+  "synthetic": true,
+  "summary": "Staggered adoption of fictional state Prompt Supplier Payment Acts (2009-2019) shortens public suppliers' receivable days and raises investment of financially constrained suppliers, estimated with a Callaway-Sant'Anna staggered DiD.",
+  "defects": [
+    {
+      "id": "M1",
+      "kind": "mechanical",
+      "check": "STMT-MISSING",
+      "statement": "disclosure_statement",
+      "find": "## Disclosure Statement\n\nAvery L. Quillon: I have nothing to disclose. Tobias R. Venn: I have nothing to disclose. This research received no external funding.\n\n",
+      "replace": "",
+      "description": "The Disclosure Statement section required under the AFA disclosure policy has been removed.",
+      "rule_basis": "Journal-of-Finance-Skills/skills/jf-submission/SKILL.md 'Code, disclosures & statements': 'Disclosure statement prepared (AFA disclosure policy: relevant financial interests)'; authoritative text is the JF Submission Guidelines PDF listed in resources/official-source-map.md (line 10)."
+    },
+    {
+      "id": "M2",
+      "kind": "mechanical",
+      "check": "REF-MISSING",
+      "find": "Murfin, Justin, and Ken Njoroge, 2015, The implicit costs of trade credit borrowing by large firms, *Review of Financial Studies* 28, 112–145.\n\n",
+      "replace": "",
+      "description": "Murfin and Njoroge (2015) is still cited in the Introduction but its reference-list entry has been deleted.",
+      "rule_basis": "universal; also Journal-of-Finance-Skills/skills/jf-submission/SKILL.md Formatting: 'every in-text citation appears in the list and vice versa'"
+    },
+    {
+      "id": "M3",
+      "kind": "mechanical",
+      "check": "REF-UNCITED",
+      "find": ", an outcome that has trended upward for U.S. firms over our period (Bates, Kahle, and Stulz, 2009)",
+      "replace": "",
+      "description": "The only in-text citation of Bates, Kahle, and Stulz (2009) has been removed, leaving an uncited reference-list entry.",
+      "rule_basis": "universal; also Journal-of-Finance-Skills/skills/jf-submission/SKILL.md Formatting: 'every in-text citation appears in the list and vice versa'"
+    },
+    {
+      "id": "M4",
+      "kind": "mechanical",
+      "check": "EXH-UNREFERENCED",
+      "find": "Table 2 reports linear probability models of adoption",
+      "replace": "We estimate linear probability models of adoption",
+      "description": "Table 2 (predictors of adoption timing) is no longer referenced anywhere in the text.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M5",
+      "kind": "mechanical",
+      "check": "EXH-NUMBERING",
+      "find": "**Figure 2: Dynamic Effects",
+      "replace": "**Figure 3: Dynamic Effects",
+      "description": "Figures are now numbered 1 and 3 (Figure 2 is missing), and the text still cites a non-existent Figure 2.",
+      "rule_basis": "universal; also Journal-of-Finance-Skills/skills/jf-submission/SKILL.md Formatting: 'Tables/figures numbered with the journal's running scheme'"
+    },
+    {
+      "id": "M6",
+      "kind": "mechanical",
+      "check": "EXH-SE-NOTE",
+      "find": "Investment is measured in percentage points. Standard errors clustered by state of headquarters are in parentheses. ",
+      "replace": "Investment is measured in percentage points. ",
+      "description": "The Table 4 note no longer states what the standard errors in parentheses are or how they are clustered.",
+      "rule_basis": "Journal-of-Finance-Skills/skills/jf-submission/SKILL.md Formatting: 'Standard-error/clustering conventions stated in every table note'"
+    },
+    {
+      "id": "M7",
+      "kind": "mechanical",
+      "check": "NUM-MISMATCH",
+      "find": "shortens receivable days by 6.8 days (11.6%)",
+      "replace": "shortens receivable days by 8.6 days (11.6%)",
+      "description": "The abstract reports an 8.6-day decline in receivable days, but Table 3 and the results text report 6.8 days.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M8",
+      "kind": "mechanical",
+      "check": "LEFTOVER-MARKER",
+      "find": "We winsorize all ratios at the 1st and 99th percentiles.",
+      "replace": "We winsorize all ratios at the 1st and 99th percentiles. TODO: extend the sample through 2023 once the 10-K headquarters data are updated.",
+      "description": "A TODO note has been left in the Data section.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "S1",
+      "kind": "substantive",
+      "lens": "identification",
+      "severity": "major",
+      "find": "Because PSPAs were adopted in six cohorts and their effects may build over time and differ across cohorts, a static two-way fixed effects regression would use already-treated firms as controls for later adopters and can place negative weights on some cohort-period effects (Goodman-Bacon, 2021; de Chaisemartin and D'Haultfœuille, 2020; Baker, Larcker, and Wang, 2022). We therefore estimate group-time average treatment effects, ATT(g, t) = E[Y_t(g) - Y_t(0) | G = g], for each adoption cohort g and year t, using the doubly robust estimator of Callaway and Sant'Anna (2021) and Sant'Anna and Zhao (2020). The comparison group consists of firms headquartered in states that have not yet adopted by year t, and the covariates are baseline firm size, book leverage, sales-to-assets, and two-digit SIC industry. We aggregate the ATT(g, t) into an overall effect that weights cohorts by their number of firms, and into event-time effects for e = -5, ..., 6 relative to the year before adoption. For comparison, the static two-way fixed effects estimate for receivable days is -4.9, and a Goodman-Bacon (2021) decomposition attributes 27% of its weight to comparisons that use earlier adopters as controls. The interaction-weighted estimator of Sun and Abraham (2021) and the imputation estimator of Borusyak, Jaravel, and Spiess (2024) yield -6.5 and -7.1 days, respectively (Internet Appendix Section IA.C).",
+      "replace": "We estimate the static two-way fixed effects regression y_ist = a_i + d_t + b PSPA_st + X_it'g + e_ist, where PSPA_st equals one for firms headquartered in state s from the year its act takes effect, a_i and d_t are firm and year fixed effects, and X_it contains firm size, book leverage, and sales-to-assets. Recent work studies settings in which treatment effects vary across adoption cohorts or over time (Goodman-Bacon, 2021; de Chaisemartin and D'Haultfœuille, 2020; Callaway and Sant'Anna, 2021; Sant'Anna and Zhao, 2020; Sun and Abraham, 2021; Borusyak, Jaravel, and Spiess, 2024; Baker, Larcker, and Wang, 2022). Because every PSPA imposes the same statutory cap, we expect homogeneous effects and therefore interpret b as the average effect of adoption. For the event-time estimates we add leads and lags of adoption, for e = -5, ..., 6 relative to the year before adoption, to the same two-way fixed effects regression.",
+      "description": "With six adoption cohorts and effects that build over time, the paper now relies on static and dynamic TWFE regressions that use already-treated states as controls and can be badly biased (negative weights, contaminated leads/lags), and it dismisses heterogeneity-robust estimators on an untested homogeneity assumption.",
+      "match_terms": [
+        "two-way fixed effects",
+        "TWFE",
+        "staggered",
+        "heterogeneous treatment effects",
+        "negative weights",
+        "Callaway",
+        "Sun and Abraham",
+        "forbidden comparisons"
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "substantive",
+      "lens": "inference",
+      "severity": "major",
+      "find": "Standard errors clustered by state of headquarters (51 clusters) are in parentheses.",
+      "replace": "Standard errors clustered by firm (2,614 clusters) are in parentheses.",
+      "description": "The headline table clusters standard errors by firm even though treatment (PSPA adoption) is assigned at the state level, so the reported standard errors ignore within-state correlation and overstate precision.",
+      "match_terms": [
+        "cluster",
+        "clustered by firm",
+        "state level",
+        "level of treatment",
+        "treatment assignment",
+        "serial correlation",
+        "Bertrand",
+        "understate standard errors"
+      ]
+    },
+    {
+      "id": "S3",
+      "kind": "substantive",
+      "lens": "robustness",
+      "severity": "major",
+      "find": "The main alternative explanation for our results is that adoption coincided with state-specific economic shocks that independently affected supplier balance sheets. We address this concern in two ways. First, we add census-division-by-year fixed effects, so that adopting states are compared only with non-adopting states in the same region and year. The estimates are -6.2 days (standard error 1.8) for receivable days and 2.1 percentage points (standard error 0.9) for investment. Second, we run a placebo test on firms headquartered in adopting states whose revenue exceeds the $500 million coverage threshold. These firms face the same local economic conditions but are not protected by the acts. Their receivable days change by -0.7 days (standard error 1.5) and their investment by 0.3 percentage points (standard error 0.8), neither significant.",
+      "replace": "Because PSPAs regulate contractual payment terms rather than local demand, concurrent state economic conditions are unlikely to affect our estimates, and we therefore do not add further controls for them.",
+      "description": "The paper no longer addresses the leading confound that adoption coincided with state-specific economic shocks: no region-by-year fixed effects and no placebo on uncovered (above-threshold) firms in the same states.",
+      "match_terms": [
+        "local economic shocks",
+        "concurrent",
+        "state-specific",
+        "region-by-year",
+        "division-by-year",
+        "placebo",
+        "above-threshold",
+        "confound"
+      ]
+    },
+    {
+      "id": "S4",
+      "kind": "substantive",
+      "lens": "contribution",
+      "severity": "major",
+      "find": "Our paper is closest to two studies of payment-term reforms. Barrot (2016) studies the 2008 French reform that capped payment terms at sixty days and shows that shorter terms lowered entry barriers in the trucking industry. Barrot and Nanda (2020) study QuickPay, which accelerated federal payments to small government contractors, and find positive employment effects concentrated in tight local labor markets. Relative to these papers, we exploit staggered, state-level variation in a mandate that applies to private buyer-supplier contracts across all industries, and we trace the full balance-sheet response of suppliers, from receivables to cash, short-term debt, and investment. We also contribute to the literature on how financing constraints shape liquidity management (Almeida, Campello, and Weisbach, 2004) by showing that a regulatory change in the terms of trade credit, rather than a change in the supply of bank credit, moves constrained firms' investment.",
+      "replace": "To our knowledge, this paper provides the first causal evidence that regulating payment terms affects how suppliers finance themselves and invest. Existing work on trade credit is largely descriptive (Petersen and Rajan, 1997; Klapper, Laeven, and Rajan, 2012), and no prior study has exploited a reform of payment terms. We also contribute to the literature on how financing constraints shape liquidity management (Almeida, Campello, and Weisbach, 2004) by showing that a regulatory change in the terms of trade credit, rather than a change in the supply of bank credit, moves constrained firms' investment.",
+      "description": "The introduction now claims to be the first causal study of payment-term regulation and omits positioning against Barrot (2016) on the French payment-term cap and Barrot and Nanda (2020) on QuickPay, which the paper itself cites in Section 2; the contribution is overstated.",
+      "match_terms": [
+        "Barrot",
+        "QuickPay",
+        "first",
+        "novelty",
+        "prior work",
+        "contribution",
+        "French reform",
+        "overstated"
+      ]
+    }
+  ]
+}

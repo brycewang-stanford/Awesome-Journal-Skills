@@ -44,7 +44,7 @@ through.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPAM is policy analysis — program evaluation is the core; DiD/IV/RDD and the policy-relevant magnitude are decisive.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPAM is policy analysis — program evaluation is the core; DiD/IV/RDD and the policy-relevant magnitude are decisive.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.
@@ -107,5 +107,5 @@ story is the package, not the \$420. (Numbers illustrative.)
 ## Supplementary resources
 
 - [`../../resources/code/`](../../resources/code/) — estimation + robustness skeletons (Stata + Python)
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md) — inference + reporting table stakes
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../resources/shared/empirical-methods/reporting-standards.md) — inference + reporting table stakes
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — cost-benefit / MVPF tooling and policy data sources

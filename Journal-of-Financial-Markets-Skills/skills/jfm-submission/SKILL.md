@@ -59,6 +59,28 @@ The cover letter is read by the handling editor as a triage signal. In a tight p
 
 If the portal requests suggested reviewers, treat it as a real lever. Propose three to five **microstructure specialists** whose own work your paper engages, excluding recent coauthors, advisors/advisees, and same-institution colleagues — a conflicted suggestion is worse than none. The point is to signal which sub-field expertise the paper needs (information-based, market design, HFT), helping the editor route it well. If there are scholars who should be excluded for a genuine conflict, the portal usually allows that too; use it sparingly and only for real conflicts, since over-exclusion reads as gaming the process. None of this substitutes for the paper standing on its own at desk screen.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jfm-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Uploading a non-anonymized manuscript when the model is double-blind (self-citation/metadata tells)

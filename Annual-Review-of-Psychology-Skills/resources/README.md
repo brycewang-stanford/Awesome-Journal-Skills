@@ -16,5 +16,5 @@ embedded meta-analysis (see [`../skills/arpsych-transparency-and-reproducibility
 
 Shared-method references (background only):
 
-- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
-- [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md)
+- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md)
+- [`../../shared-resources/empirical-methods/reporting-standards.md`](shared/empirical-methods/reporting-standards.md)

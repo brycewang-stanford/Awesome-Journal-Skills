@@ -485,6 +485,11 @@ def score_pack(pack: Path) -> dict:
     # A pack with nothing to wire is not penalised for not having wired it: the
     # dimension leaves the denominator instead of scoring zero.
     total = round(100 * earned / available, 1)
+    # The same score without the currency dimension. Currency is a function of today's
+    # date, so a floor on ``total`` turns red on a calendar day with no commit — which is
+    # what kept the weekly CI red from 2026-10-12 on, when one pack aged past the floor.
+    # A hard gate must judge the commit, so the tripwire reads this number instead.
+    static_total = round(100 * (earned - currency_points) / (available - CURRENCY_WEIGHT), 1)
     weak_skills = sorted(
         skill_rows,
         key=lambda row: (
@@ -518,6 +523,7 @@ def score_pack(pack: Path) -> dict:
         "exec_bridge": exec_bridge_skills > 0,
         "exec_bridge_skills": exec_bridge_skills,
         "score": total,
+        "static_score": static_total,
         "conforms": not failures,
         "conformance_failures": failures,
         "min_substance_units": round(min_units),
@@ -588,7 +594,11 @@ def main() -> int:
     ap.add_argument("--require-conformance", action="store_true",
                     help="exit 1 if any pack fails a structural requirement")
     ap.add_argument("--min-score", type=float, default=None,
-                    help="exit 1 if any pack's backlog score is below this")
+                    help="exit 1 if any pack's backlog score is below this "
+                         "(date-dependent: currency decays daily; not for CI)")
+    ap.add_argument("--min-static-score", type=float, default=None,
+                    help="exit 1 if any pack's score without the date-dependent currency "
+                         "dimension is below this (the CI tripwire)")
     args = ap.parse_args()
 
     rows = sorted((score_pack(p) for p in first_party_packs()), key=lambda r: r["score"])
@@ -660,6 +670,13 @@ def main() -> int:
         below = [r for r in rows if r["score"] < args.min_score]
         if below:
             print(f"\n{len(below)} pack(s) below min-score {args.min_score}", file=sys.stderr)
+            return 1
+    if args.min_static_score is not None:
+        below = [r for r in rows if r["static_score"] < args.min_static_score]
+        if below:
+            names = ", ".join(f"{r['pack']} ({r['static_score']})" for r in below[:10])
+            print(f"\n{len(below)} pack(s) below min-static-score "
+                  f"{args.min_static_score}: {names}", file=sys.stderr)
             return 1
     return 0
 

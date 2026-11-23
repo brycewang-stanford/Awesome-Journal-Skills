@@ -90,7 +90,7 @@ respects subject/item variance, and the exploratory drift is honestly demoted.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Cognitive Psychology is experimental — within-subject designs and mixed models dominate; report the model, the effect size, and multiple-comparison control.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Cognitive Psychology is experimental — within-subject designs and mixed models dominate; report the model, the effect size, and multiple-comparison control.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

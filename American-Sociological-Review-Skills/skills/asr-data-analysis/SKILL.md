@@ -95,7 +95,7 @@ discrimination via screening signals), and the law-ban null is reported as evide
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ASR is general sociology where observational designs dominate; foreground identification (DiD/IV/RDD), decomposition, and clustered inference.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). ASR is general sociology where observational designs dominate; foreground identification (DiD/IV/RDD), decomposition, and clustered inference.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

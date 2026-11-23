@@ -64,7 +64,7 @@ Note the QJE-specific twist: a *novel, hard-to-assemble dataset answering a firs
 ## Execution bridge (StatsPAI / Stata MCP)
 
 A QJE identification claim should be **estimated and audited**, not just argued. Full
-map: [`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). QJE applied-micro instantiation:
+map: [`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md). QJE applied-micro instantiation:
 
 1. `detect_design` → `recommend` → fit with `as_handle=true`, then `audit_result` to
    enumerate the checks the design still owes.

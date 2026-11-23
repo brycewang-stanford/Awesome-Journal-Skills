@@ -1,6 +1,6 @@
 # Official Source Map - CVPR
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (dead links re-checked 2026-11-23)
 
 This map records the official sources behind every CVPR-specific fact in this pack.
 CVPR policy is rewritten by each edition's Program Chairs; before giving submission-ready
@@ -37,7 +37,7 @@ deadlines, or policies** as of 2026-07-08 — everything about 2027 is 待核实
 | 11 | https://github.com/cvpr-org/author-kit | The official CVPR author kit (LaTeX class, submission template, and `rebuttal.tex` one-page rebuttal template). | 2026-07-08 |
 | 12 | https://tc.computer.org/tcpami/cvpr/ and https://www.thecvf.com/?p=137 | CVPR co-sponsorship by the IEEE Computer Society (TC on Pattern Analysis and Machine Intelligence) and the Computer Vision Foundation; CVF list of upcoming sponsored conferences, including a Seattle listing for CVPR 2027. | 2026-07-08 |
 | 13 | https://dblp.org/rec/conf/cvpr/RedmonDGF16.html plus CVF open-access paper pages | Metadata verification (venue, authors, pages) for every exemplar in `exemplars/library.md`. | 2026-07-08 |
-| 14 | https://denverconvention.com/events/details/ieee-cvpr-2026 and https://cvpr.thecvf.com/Conferences/2026/ExpoSchedule | CVPR 2026 ran June 3–7, 2026 at the Colorado Convention Center, Denver: workshops/tutorials June 3–4, main conference and expo June 5–7. | 2026-07-08 |
+| 14 | https://cvpr.thecvf.com/Conferences/2026 (replaces the Colorado Convention Center event listing, removed after the event; the CVPR 2026 home page reads "Wed June 3 - Sun June 7, 2026 at the Colorado Convention Center", re-read 2026-11-23) and https://cvpr.thecvf.com/Conferences/2026/ExpoSchedule | CVPR 2026 ran June 3–7, 2026 at the Colorado Convention Center, Denver: workshops/tutorials June 3–4, main conference and expo June 5–7. | 2026-07-08 |
 
 ## Verified 2026-cycle facts used in the skills
 

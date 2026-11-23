@@ -102,7 +102,7 @@ page.
 | Site | Use |
 |------|-----|
 | Journal of Political Economy (official page) | Scope, author guidelines, fee, data/code policy — verify current details |
-| Editorial Express | JPE submission portal |
+| Editorial Manager | JPE submission portal |
 | NBER, SSRN, RePEc / IDEAS | Working papers and preprints |
 | AEA Data Editor / Social Science Data Editors | Replication standards and README template |
 | Google Scholar, Web of Science | Literature search |

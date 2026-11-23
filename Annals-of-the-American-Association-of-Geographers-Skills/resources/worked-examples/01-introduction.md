@@ -125,8 +125,8 @@ Mapped to the skill checklists:
 > Next: hold the maps and remote-sensing figures to cartographic standard with
 > [`../../skills/aaag-tables-figures/SKILL.md`](../../skills/aaag-tables-figures/SKILL.md); stress-test
 > the spatial design against the venue-neutral
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > and report results to the shared
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md);
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md);
 > and benchmark the framing against verified real Annals papers in
 > [`../exemplars/library.md`](../exemplars/library.md).

@@ -42,7 +42,7 @@ behind every estimate.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Public Opinion Quarterly is survey methodology and public opinion; the chain serves causal/experimental claims, while survey-design and measurement contributions use their own standards (sampling, weighting, measurement error).
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Public Opinion Quarterly is survey methodology and public opinion; the chain serves causal/experimental claims, while survey-design and measurement contributions use their own standards (sampling, weighting, measurement error).
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

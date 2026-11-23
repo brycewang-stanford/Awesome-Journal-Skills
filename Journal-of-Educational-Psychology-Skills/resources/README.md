@@ -16,8 +16,8 @@ hub and is linked below as background.
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (scope, word/abstract limits, masked review, transparency/JARS, portal, fee) with sourcing discipline and 待核实 markers. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to this venue (power for nested designs, multilevel/SEM, preregistration, repositories, JARS). |
 | [`code/`](code/) | Runnable R skeletons for cluster-design diagnostics, multilevel/growth models, mediation with indirect-effect intervals, and JARS-ready reproducible tables. |
-| [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | Background: objections referees raise by identification strategy (DiD / IV / RDD / matching / mechanism); useful when a JEP study has a quasi-experimental component. |
-| [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Background: modern inference + reporting table stakes (SE clustering, multiple-testing, reproducibility) — complements JEP's JARS requirements. |
+| [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) | Background: objections referees raise by identification strategy (DiD / IV / RDD / matching / mechanism); useful when a JEP study has a quasi-experimental component. |
+| [reporting-standards](shared/empirical-methods/reporting-standards.md) | Background: modern inference + reporting table stakes (SE clustering, multiple-testing, reproducibility) — complements JEP's JARS requirements. |
 
 ## How to use
 

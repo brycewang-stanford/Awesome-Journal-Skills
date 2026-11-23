@@ -29,7 +29,7 @@ description: Use when building or cleaning the tables and figures for an Academy
 - **Standard errors / CIs**: report SEs (or CIs) in parentheses; be consistent across tables.
 - **Decimals**: consistent precision (commonly two decimals); align on the decimal point.
 - **Nested models**: report model fit / ΔR² / Δ-2LL across steps so the incremental contribution of interactions is visible.
-- **Exhibits do not count toward the page limit.** AOM's 40-page main-body maximum *excludes* tables and figures (it includes text, references, and appendices), so move dense supporting material into well-built exhibits rather than crowding the prose — but keep each exhibit genuinely necessary, not padding.
+- **Exhibits count toward the page budget.** The current AMJ guideline is roughly 40 double-spaced pages *inclusive of all content* — tables and figures included — so every exhibit must earn its space; move secondary material to a supplementary file for review rather than padding the main document.
 - Confirm current limits on number/format of exhibits and figure resolution against the AMJ Style Guide for Authors and the ScholarOne portal.
 
 ## Figures
@@ -41,7 +41,7 @@ description: Use when building or cleaning the tables and figures for an Academy
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AMJ is empirical management — panel, multilevel, DiD, IV, and field/lab experiments; the chain below serves that lane, while grounded-theory / qualitative work uses its own standards.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AMJ is empirical management — panel, multilevel, DiD, IV, and field/lab experiments; the chain below serves that lane, while grounded-theory / qualitative work uses its own standards.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.
@@ -60,7 +60,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 - [ ] Every significant interaction has a simple-slopes plot
 - [ ] Theoretical-model figure maps one-to-one to the hypotheses
 - [ ] Each exhibit is self-contained (title + complete note)
-- [ ] Exhibit count/format checked against the AMJ Style Guide (tables/figures are excluded from the 40-page limit)
+- [ ] Exhibit count/format checked against the AMJ Style Guide (tables/figures count toward the ~40-page guideline)
 
 ## Anti-patterns
 

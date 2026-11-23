@@ -30,8 +30,8 @@ Pick the row whose **tradition × method** is closest to yours, then study how t
 [`../../skills/spq-writing-style/SKILL.md`](../../skills/spq-writing-style/SKILL.md)). For each, ask the
 self-check question before claiming your paper is "SPQ-shaped." Method idiom (multilevel/nested-data
 models, measurement validity, manipulation checks) is venue-neutral — see the shared
-[reporting-standards](../../../shared-resources/empirical-methods/reporting-standards.md) and
-[reviewer-objection-checklist](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+[reporting-standards](../shared/empirical-methods/reporting-standards.md) and
+[reviewer-objection-checklist](../shared/empirical-methods/reviewer-objection-checklist.md).
 
 ---
 

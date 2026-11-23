@@ -60,6 +60,28 @@ Budget for the submission fee now; the APC is a later, optional decision.
 
 Because JMCB sits among close siblings, the cover letter should pre-empt the "wrong journal" reflex: state in two or three sentences why the paper is a JMCB contribution (the monetary/credit/banking mechanism and the policy payoff), not a JME, AEJ:Macro, or JBF paper. Name the contribution and the policy lever; do not merely summarize the abstract. If the data are restricted, note the data-exemption request in the letter so the editor is not surprised.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jmcb-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Submitting through the wrong system (ScholarOne/Editorial Manager) because it is a Wiley journal — JMCB uses **Editorial Express**

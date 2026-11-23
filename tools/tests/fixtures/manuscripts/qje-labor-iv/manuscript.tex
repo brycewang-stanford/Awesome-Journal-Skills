@@ -1,0 +1,305 @@
+% SYNTHETIC BENCHMARK FIXTURE: fictional paper, data and authors.
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{natbib}
+\onehalfspacing
+
+\title{Training on the Margin: Lottery Evidence on the Earnings Returns to Sectoral Job Training}
+\author{Anonymous Authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We estimate the earnings returns to sectoral job training using admission lotteries among 11,482 applicants to oversubscribed training centers in a large U.S. state. A lottery offer raises program enrollment by 62.7 percentage points. Instrumenting enrollment with the offer, we find that enrolling in the program raises annual earnings three to five years after application by \$3,049, or 16.4 percent of the complier control mean, and raises employment in the targeted sectors by 12.6 percentage points. Earnings fall during training and overtake those of the control group in the second year. Returns are largest for applicants with low prior earnings. Weak-instrument-robust confidence sets are nearly identical to conventional ones. Sector-focused training can produce durable earnings gains for disadvantaged workers by moving them into higher-paying jobs in the targeted sectors.
+\end{abstract}
+
+\noindent\textbf{JEL Codes:} J24, J68, I26, C26
+
+\noindent\textbf{Keywords:} job training; sectoral employment programs; admission lotteries; instrumental variables; earnings
+
+\section{Introduction}
+
+Governments spend large sums on job training for disadvantaged and displaced workers, yet the evidence on whether training raises earnings is famously mixed. Early experimental evaluations found modest or short-lived effects \citep{lalonde1986,schochet2008}, and syntheses of the active labor market program literature conclude that average effects are small in the short run and grow only slowly \citep{heckman1999,card2018}. A newer generation of sectoral programs, which train workers for specific occupations in industries with strong local demand, has produced more encouraging results \citep{katz2022}. Whether these results hold for programs operated at scale by public agencies, rather than for small demonstration projects run by specialized nonprofits, remains an open question with direct consequences for workforce policy.
+
+Answering it is hard because applicants who enroll in training differ from those who do not in motivation, prior earnings trajectories, and outside options. Comparisons of participants and nonparticipants confound the return to training with these differences, and the direction of the bias is not obvious: motivated applicants may have earned more anyway, while applicants who enroll after a job loss may have been on a declining path. Methods for bounding training effects under sample selection \citep{lee2009} help with some of these problems but not with selection into enrollment itself.
+
+We overcome this problem using admission lotteries at a statewide sectoral training program. Between 2012 and 2017, demand for seats at the program's nine training centers exceeded capacity, and the state workforce agency allocated seats by lottery within center-by-intake-cohort strata. We link 11,482 lottery applicants to program records and to quarterly unemployment insurance (UI) wage records, which allows us to follow their earnings for up to seven years after application. The lottery offer provides an instrument for enrollment that is as good as randomly assigned within strata.
+
+The lotteries generate a strong first stage. Winning a lottery raises the probability of enrolling in the program by 62.7 percentage points, with an effective first-stage F-statistic of 4,853. Instrumenting enrollment with the offer, we find that enrolling raises annual earnings three to five years after application by \$3,049, or 16.4 percent of the earnings of compliers who did not enroll. Employment rises by 4.1 percentage points, and employment in the targeted sectors rises by 12.6 percentage points, which indicates that the earnings gains operate through entry into the occupations for which the program trains. Earnings fall by \$1,670 in the first year, while participants are in training, and the gains appear in the second year and persist. The naive comparison of participants and nonparticipants overstates the return: the ordinary least squares estimate is \$4,870.
+
+The returns are largest for applicants with low prior earnings. For applicants with below-median earnings in the year before application, enrollment raises annual earnings by \$4,280; for applicants with above-median prior earnings, the gain is \$1,870. Returns are similar for women and men and across the three sector tracks.
+
+Our paper contributes to the literature on the returns to job training \citep{lalonde1986,heckman1999,card2018} by providing lottery-based estimates for a sectoral program operated by a public agency at scale. Relative to the WorkAdvance demonstration studied by \citet{katz2022}, our setting involves larger cohorts, a public provider, and a longer follow-up. We also contribute to work on interpreting instrumental-variable estimates of program effects when the control group has access to substitute programs \citep{klinewalters2016}: about one in five lottery losers enrolled in other publicly funded training, and we show how this substitution affects the interpretation of our estimates. Evaluations of labor market programs also caution that gains for participants can come partly at the expense of nonparticipants \citep{crepon2013}, a point we return to in the conclusion.
+
+Section~\ref{sec:program} describes the program and the lotteries. Section~\ref{sec:data} describes the data. Section~\ref{sec:strategy} presents the empirical strategy. Section~\ref{sec:results} reports the results, Section~\ref{sec:robust} examines robustness and external validity, and Section~\ref{sec:conclusion} concludes.
+
+\section{The Program and the Lotteries}\label{sec:program}
+
+The program offers tuition-free training of 16 to 26 weeks in three sector tracks: healthcare support occupations, such as medical assistant and pharmacy technician; information technology support; and advanced manufacturing, such as machining and industrial maintenance. Each track combines classroom instruction with an employer-designed curriculum and ends with an industry-recognized credential. Training is delivered at nine centers operated by the state workforce agency in partnership with community colleges. Applicants must be at least 18 years old, unemployed or earning below a regional income threshold, and able to pass a basic skills assessment.
+
+From the spring 2012 intake through the fall 2017 intake, applications exceeded capacity at every center in every cohort. The agency therefore allocated seats by lottery among eligible applicants, separately for each center and semiannual intake cohort, which yields 108 lottery strata. The share of applicants offered a seat ranged from 28 to 67 percent across strata and averaged 45.4 percent. Winners received an offer letter that reserved a seat in a specific track and set a start date. Losers were placed on a waitlist and could enroll if a seat opened before the cohort began; a small number enrolled in a later cohort after reapplying. Offers were not transferable, and the agency recorded every draw, which allows us to reconstruct the lottery outcome for every applicant.
+
+\section{Data}\label{sec:data}
+
+We combine three administrative sources. Lottery records contain every applicant's center, cohort, track, lottery outcome, and baseline information collected at application: age, sex, race and ethnicity, education, employment status, and UI receipt. Program records report enrollment, attendance, and completion. Quarterly UI wage records, provided by the state labor department under a data use agreement, report each worker's earnings from covered in-state employers from 2010 through 2024, together with the employer's industry.
+
+We link applicants to quarterly UI wage records using Social Security numbers. Overall, 97.2 percent of applicants are linked: 97.4 percent of lottery winners and 97.0 percent of lottery losers, a strata-adjusted difference of 0.4 percentage points (standard error 0.3). Linked applicants with no UI earnings in a quarter are coded as having zero earnings. Because UI records cover only in-state employment, applicants who move out of state appear to have zero earnings. The offer has no effect on the probability of having no in-state earnings in every quarter of years three to five (a difference of $-0.4$ percentage points, standard error 0.6), and bounds that trim the sample to equalize linkage rates across lottery groups \citep{lee2009} yield an interval of [2,610, 3,390] for our main estimate. Our outcome sample therefore contains the 11,161 linked applicants.
+
+Our main outcome is average annual earnings in years three to five after the lottery, measured in 2024 dollars. We also measure employment, defined as having positive earnings in at least one quarter of years three to five; employment in the targeted sectors, defined as positive earnings from an employer in the industries that correspond to the applicant's track; and annual earnings in the first year after the lottery, when most enrollees are in training.
+
+Table~\ref{tab:balance} reports baseline characteristics by lottery outcome. Applicants are on average 31 years old, 47 percent are women, and 58 percent have at most a high school diploma. Within strata, winners and losers are statistically indistinguishable on every characteristic, and a joint test of all differences does not reject balance ($p = 0.64$).
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Baseline Characteristics by Lottery Outcome}
+\label{tab:balance}
+\begin{tabular}{lccc}
+\toprule
+ & Lottery winners & Lottery losers & Strata-adjusted difference \\
+\midrule
+Age (years) & 31.4 & 31.6 & $-0.2$ (0.2) \\
+Female & 0.47 & 0.47 & 0.00 (0.01) \\
+Black & 0.29 & 0.30 & $-0.01$ (0.01) \\
+Hispanic & 0.17 & 0.16 & 0.01 (0.01) \\
+High school diploma or less & 0.58 & 0.57 & 0.01 (0.01) \\
+Earnings in prior year (\$) & 14,210 & 14,350 & $-140$ (190) \\
+Employed at application & 0.38 & 0.39 & $-0.01$ (0.01) \\
+Receiving UI at application & 0.31 & 0.30 & 0.01 (0.01) \\
+\midrule
+Joint test $p$-value & & & 0.64 \\
+Applicants & 5,214 & 6,268 & 11,482 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.92\linewidth}
+\footnotesize \textit{Notes:} Columns 1 and 2 report means for applicants to the 2012--2017 lotteries. Column 3 reports the coefficient from a regression of each characteristic on an offer indicator and lottery-stratum fixed effects. Standard errors of the strata-adjusted differences are heteroskedasticity-robust and reported in parentheses. The joint test is an $F$-test that all differences equal zero.
+\end{minipage}
+\end{table}
+
+\section{Empirical Strategy}\label{sec:strategy}
+
+\subsection{Estimating Equations}
+
+Let $Y_i$ denote an outcome for applicant $i$, $D_i$ an indicator for enrolling in the program within twelve months of the lottery, and $Z_i$ an indicator for receiving a lottery offer. Because offer probabilities differ across strata, we condition on a full set of lottery-stratum fixed effects $\gamma_{s(i)}$. The first stage and reduced form are
+\begin{align}
+D_i &= \pi Z_i + \gamma_{s(i)} + X_i'\delta + u_i, \\
+Y_i &= \rho Z_i + \gamma_{s(i)} + X_i'\lambda + e_i,
+\end{align}
+where $X_i$ contains the baseline characteristics in Table~\ref{tab:balance}, included to improve precision. We estimate the effect of enrollment, $\beta$, by two-stage least squares (2SLS), instrumenting $D_i$ with $Z_i$; with a single instrument, $\beta = \rho/\pi$.
+
+\subsection{Identifying Assumptions}
+
+Under independence, exclusion, and monotonicity, $\beta$ is the local average treatment effect (LATE) of enrollment for compliers, applicants who enroll if offered a seat and do not enroll otherwise \citep{imbens1994,angrist1996}. Independence holds by design within strata, and the balance results support it.
+
+The exclusion restriction requires that a lottery offer affects earnings only through enrollment in the program. Three features of the setting support it. First, the offer letter reserved a seat and set a start date; it carried no stipend, placement service, or priority for other benefits, and winners who declined their seat returned to the same job-center services available to losers. Second, the offer did not change job search through the notification itself: the offer has no effect on UI claims filed in the quarter of the lottery (a difference of 0.3 percentage points, standard error 0.6), and the quarterly earnings of winners and losers are identical in the quarter of the lottery, before training begins. Third, lottery losers retained access to other services, and 21.4 percent of losers and 9.8 percent of winners enrolled in other publicly funded training within two years. This substitution affects the interpretation of our estimate, which measures the effect of the program relative to a counterfactual that includes other training, but it operates through training enrollment rather than through the offer directly. Section~\ref{sec:robust} reports estimates that account for it.
+
+Monotonicity requires that no applicant enrolls only if she loses the lottery, which is plausible because losing conferred no advantage in admission. The test of instrument validity proposed by \citet{kitagawa2015}, which checks testable implications of independence, exclusion, and monotonicity jointly, does not reject ($p = 0.47$).
+
+\subsection{Inference}
+
+Lotteries were drawn at the individual level within strata, so we report heteroskedasticity-robust standard errors. Because conventional 2SLS inference can be misleading when instruments are weak \citep{andrews2019}, we report the effective first-stage F-statistic of \citet{montielolea2013} and Anderson--Rubin confidence sets \citep{andersonrubin1949}, which are valid regardless of instrument strength. With a first-stage F-statistic in the thousands, the critical-value adjustment proposed by \citet{lee2022} is negligible.
+
+\section{Results}\label{sec:results}
+
+\subsection{First Stage}
+
+Table~\ref{tab:firststage} reports the first stage and reduced-form effects. A lottery offer raises the probability of enrolling by 62.7 percentage points (standard error 0.9), from 8.9 percent among losers. Among enrollees, 78.3 percent completed their track. The reduced form shows that the offer raises annual earnings in years three to five by \$1,912 and employment in the targeted sectors by 7.9 percentage points, and lowers earnings in the first year by \$1,047.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{First Stage and Reduced-Form Effects of a Lottery Offer}
+\label{tab:firststage}
+\begin{tabular}{lccccc}
+\toprule
+ & (1) & (2) & (3) & (4) & (5) \\
+ & Enrolled & Earnings, & Employed, & Employed in & Earnings, \\
+ & & years 3--5 & years 3--5 & target sector & year 1 \\
+\midrule
+Lottery offer & 0.627*** & 1,912*** & 0.026*** & 0.079*** & $-1,047$*** \\
+ & (0.009) & (382) & (0.008) & (0.007) & (214) \\
+\midrule
+Control mean & 0.089 & 17,860 & 0.701 & 0.142 & 13,920 \\
+Observations & 11,482 & 11,161 & 11,161 & 11,161 & 11,161 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.92\linewidth}
+\footnotesize \textit{Notes:} Each column reports the coefficient on the lottery-offer indicator from a regression that includes lottery-stratum fixed effects and the baseline characteristics in Table~\ref{tab:balance}. Earnings are annual and in 2024 dollars. Column 1 uses all applicants; columns 2--5 use applicants linked to UI wage records. Heteroskedasticity-robust standard errors in parentheses. *** $p<0.01$.
+\end{minipage}
+\end{table}
+
+\subsection{Earnings and Employment}
+
+Table~\ref{tab:iv} reports the 2SLS estimates. Enrolling in the program raises average annual earnings in years three to five by \$3,049 (standard error 609). Relative to the complier control mean of \$18,640, the return is 16.4 percent. Enrollment raises employment by 4.1 percentage points and employment in the targeted sectors by 12.6 percentage points, more than doubling the share of compliers working in those sectors. During the first year, enrollment lowers earnings by \$1,670, reflecting time spent in training rather than at work.
+
+The Anderson--Rubin confidence sets in Table~\ref{tab:iv} are nearly identical to the conventional Wald intervals; for the earnings return, the set is [1,852, 4,252]. The OLS estimates in the second row compare enrollees with non-enrollees and are substantially larger than the 2SLS estimates for every outcome except first-year earnings: the OLS estimate of the earnings return is \$4,870. Applicants who enroll without the lottery's push would have earned more even without training, so the naive comparison overstates the return by about 60 percent.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Effects of Program Enrollment: Two-Stage Least Squares Estimates}
+\label{tab:iv}
+\begin{tabular}{lcccc}
+\toprule
+ & (1) & (2) & (3) & (4) \\
+ & Earnings, & Employed, & Employed in & Earnings, \\
+ & years 3--5 & years 3--5 & target sector & year 1 \\
+\midrule
+2SLS: enrolled & 3,049*** & 0.041*** & 0.126*** & $-1,670$*** \\
+ & (609) & (0.013) & (0.011) & (341) \\
+OLS: enrolled & 4,870*** & 0.068*** & 0.171*** & $-1,190$*** \\
+ & (270) & (0.006) & (0.006) & (180) \\
+\midrule
+Complier control mean & 18,640 & 0.682 & 0.118 & 14,310 \\
+Anderson--Rubin 95\% CI & [1,852, 4,252] & [0.016, 0.066] & [0.104, 0.148] & [$-2,338$, $-1,002$] \\
+Effective first-stage F & 4,853 & 4,853 & 4,853 & 4,853 \\
+Observations & 11,161 & 11,161 & 11,161 & 11,161 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.92\linewidth}
+\footnotesize \textit{Notes:} The 2SLS row instruments program enrollment with the lottery offer; the OLS row regresses each outcome on enrollment. All specifications include lottery-stratum fixed effects and the baseline characteristics in Table~\ref{tab:balance}. The complier control mean is estimated following \citet{abadie2002}. Heteroskedasticity-robust standard errors are in parentheses; the effective first-stage F-statistic follows \citet{montielolea2013}. *** $p<0.01$.
+\end{minipage}
+\end{table}
+
+\subsection{Dynamics}
+
+Figure~\ref{fig:quarterly} plots reduced-form effects of the offer on quarterly earnings from eight quarters before to twenty quarters after the lottery. Before the lottery, the coefficients are small and jointly insignificant ($p = 0.58$). Both groups exhibit the decline in earnings before application documented by \citet{ashenfelter1978}, but the decline is identical for winners and losers, as randomization implies. In the four quarters after the lottery, winners earn less than losers, reflecting time spent in training. Winners' earnings overtake losers' earnings in the sixth quarter, and the gap stabilizes at about \$480 per quarter from the twelfth quarter onward, with no sign of fading by the end of our follow-up.
+
+\begin{figure}[htbp]
+\centering
+\fbox{\parbox{0.85\linewidth}{\centering\textit{Description: reduced-form coefficients and 95 percent confidence intervals for quarterly earnings, quarters $-8$ to $20$ relative to the lottery.}}}
+\caption{Quarterly Earnings Effects of a Lottery Offer}
+\label{fig:quarterly}
+\end{figure}
+
+\subsection{Heterogeneity and Mechanisms}
+
+Table~\ref{tab:het} reports 2SLS estimates for subgroups. Returns are similar for women (\$3,410) and men (\$2,690). They differ sharply by prior earnings: enrollment raises annual earnings by \$4,280 for applicants with below-median prior earnings, 31.6 percent of their complier control mean, and by \$1,870 for applicants with above-median prior earnings, 8.0 percent of theirs ($p = 0.02$ for the difference). Returns are similar across the healthcare, information technology, and advanced manufacturing tracks, although the estimates for the two smaller tracks are less precise.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{Heterogeneity in the Earnings Returns to Enrollment}
+\label{tab:het}
+\begin{tabular}{lcccc}
+\toprule
+ & 2SLS: earnings, & Complier & First-stage & Observations \\
+ & years 3--5 & control mean & coefficient & \\
+\midrule
+\multicolumn{5}{l}{\textit{Panel A: Sex} ($p$-value for equality = 0.55)} \\
+Women & 3,410*** (840) & 17,020 & 0.641 & 5,246 \\
+Men & 2,690*** (870) & 20,180 & 0.613 & 5,915 \\
+\multicolumn{5}{l}{\textit{Panel B: Prior-year earnings} ($p$-value for equality = 0.02)} \\
+Below median & 4,280*** (690) & 13,550 & 0.652 & 5,581 \\
+Above median & 1,870** (760) & 23,480 & 0.601 & 5,580 \\
+\multicolumn{5}{l}{\textit{Panel C: Sector track} ($p$-value for equality = 0.60)} \\
+Healthcare & 3,380*** (790) & 16,940 & 0.648 & 5,023 \\
+Information technology & 3,620** (1,410) & 21,860 & 0.587 & 2,344 \\
+Advanced manufacturing & 2,240** (1,060) & 19,750 & 0.619 & 3,794 \\
+\bottomrule
+\end{tabular}
+\par\medskip
+\begin{minipage}{0.92\linewidth}
+\footnotesize \textit{Notes:} Each row reports the 2SLS estimate for the indicated subgroup, using the specification in Table~\ref{tab:iv}, column 1. Heteroskedasticity-robust standard errors for the 2SLS estimates are in parentheses. ** $p<0.05$, *** $p<0.01$.
+\end{minipage}
+\end{table}
+
+Two pieces of evidence indicate that the gains operate through entry into higher-paying occupations within the targeted sectors rather than through a general increase in labor supply. First, most of the employment effect is accounted for by employment in the targeted sectors, which rises by 12.6 percentage points while total employment rises by only 4.1 percentage points; enrollees shift from other industries into the sectors for which they trained. Second, Figure~\ref{fig:distribution} plots the earnings distributions of treated and untreated compliers. Enrollment shifts compliers from annual earnings between \$5,000 and \$15,000 into the range between \$20,000 and \$35,000, and the test of \citet{abadie2002} rejects equality of the distributions ($p < 0.01$). The program moves compliers into full-time, credentialed jobs rather than adding hours at their previous wage.
+
+\begin{figure}[htbp]
+\centering
+\fbox{\parbox{0.85\linewidth}{\centering\textit{Description: cumulative distribution functions of average annual earnings in years three to five for treated and untreated compliers.}}}
+\caption{Earnings Distributions of Treated and Untreated Compliers}
+\label{fig:distribution}
+\end{figure}
+
+\section{Robustness and External Validity}\label{sec:robust}
+
+\subsection{Alternative Specifications and Substitute Training}
+
+The main estimate changes little across specifications. Dropping the baseline covariates yields \$3,112 (standard error 655), and using earnings in years three to seven for the cohorts we observe that long yields \$3,184 (standard error 702). Treating applicants who reapplied and enrolled in a later cohort as untreated, rather than as enrolled, yields \$2,971 (standard error 598).
+
+Because 21.4 percent of losers and 9.8 percent of winners enrolled in other publicly funded training, our estimate compares the program with a counterfactual that includes substitute training. Following \citet{klinewalters2016}, we also scale the reduced form by the effect of the offer on enrollment in any training, program or substitute, which is 51.1 percentage points. This yields \$3,742, which equals the return to training relative to no training if the program and substitute training have equal returns. Because substitute training plausibly has nonnegative returns, the program's return relative to no training is at least as large as our main estimate.
+
+\subsection{Beyond the Lottery Sites}
+
+Our lottery estimates apply to applicants at oversubscribed centers between 2012 and 2017. To probe external validity, we use 7,930 applicants from 2018 and 2019, when no center was oversubscribed, and instrument enrollment with the distance from the applicant's residence to the nearest training center, controlling for commuting-zone fixed effects, application year, and baseline characteristics. Each additional 10 kilometers of distance reduces enrollment by 3.8 percentage points (standard error 0.6), which implies an effective first-stage F-statistic of 40.1. The 2SLS estimate of the earnings return in years three to five is \$2,720 (standard error 1,140), with an Anderson--Rubin 95 percent confidence set of [560, 5,190]. Distance could be correlated with local labor market conditions within commuting zones; the estimate changes little when we add controls for tract-level median income and the distance to the nearest job center (Online Appendix C). The distance-based estimate is less precise than the lottery estimate but statistically indistinguishable from it.
+
+\section{Conclusion}\label{sec:conclusion}
+
+Admission lotteries at a statewide sectoral training program show that enrolling raises annual earnings by \$3,049 three to five years after application, with the largest gains for applicants with low prior earnings. The gains reflect entry into credentialed jobs in the targeted sectors and show no sign of fading. With a direct program cost of about \$6,800 per enrollee, the cumulative earnings gains exceed the program's cost plus participants' forgone first-year earnings within about four years of application.
+
+Our estimates are local average treatment effects for compliers, applicants who enroll if and only if offered a seat at an oversubscribed center. Compliers have lower prior earnings and are more likely to be women than the average UI claimant in the state (Online Appendix D), and returns at a larger scale could differ if an expansion drew in less motivated applicants or if trained workers displaced other job seekers in the targeted sectors \citep{crepon2013}. These caveats argue for scaling such programs gradually and for evaluating expansions with the same lottery design.
+
+\section*{Data Availability Statement}
+
+The UI wage records and program records are confidential administrative data provided by state agencies under a data use agreement that prohibits redistribution. Researchers can apply for access through the state's research data request process, which will be described in the replication package. All programs that construct the analysis sample and reproduce every table and figure, together with a README, will be deposited in the QJE Dataverse upon acceptance, in accordance with the journal's data policy.
+
+\section*{Disclosure Statement}
+
+The authors have no relevant or material financial interests that relate to the research described in this paper. Disclosure statements consistent with the AEA Disclosure Policy are provided separately to preserve anonymity.
+
+\begin{thebibliography}{99}
+
+\bibitem[Abadie(2002)]{abadie2002}
+Abadie, Alberto. 2002. ``Bootstrap Tests for Distributional Treatment Effects in Instrumental Variable Models.'' \textit{Journal of the American Statistical Association} 97 (457): 284--292.
+
+\bibitem[Anderson and Rubin(1949)]{andersonrubin1949}
+Anderson, T. W., and Herman Rubin. 1949. ``Estimation of the Parameters of a Single Equation in a Complete System of Stochastic Equations.'' \textit{Annals of Mathematical Statistics} 20 (1): 46--63.
+
+\bibitem[Andrews, Stock, and Sun(2019)]{andrews2019}
+Andrews, Isaiah, James H. Stock, and Liyang Sun. 2019. ``Weak Instruments in Instrumental Variables Regression: Theory and Practice.'' \textit{Annual Review of Economics} 11: 727--753.
+
+\bibitem[Angrist, Imbens, and Rubin(1996)]{angrist1996}
+Angrist, Joshua D., Guido W. Imbens, and Donald B. Rubin. 1996. ``Identification of Causal Effects Using Instrumental Variables.'' \textit{Journal of the American Statistical Association} 91 (434): 444--455.
+
+\bibitem[Ashenfelter(1978)]{ashenfelter1978}
+Ashenfelter, Orley. 1978. ``Estimating the Effect of Training Programs on Earnings.'' \textit{Review of Economics and Statistics} 60 (1): 47--57.
+
+\bibitem[Card, Kluve, and Weber(2018)]{card2018}
+Card, David, Jochen Kluve, and Andrea Weber. 2018. ``What Works? A Meta Analysis of Recent Active Labor Market Program Evaluations.'' \textit{Journal of the European Economic Association} 16 (3): 894--931.
+
+\bibitem[Cr\'epon et al.(2013)]{crepon2013}
+Cr\'epon, Bruno, Esther Duflo, Marc Gurgand, Roland Rathelot, and Philippe Zamora. 2013. ``Do Labor Market Policies Have Displacement Effects? Evidence from a Clustered Randomized Experiment.'' \textit{Quarterly Journal of Economics} 128 (2): 531--580.
+
+\bibitem[Heckman, LaLonde, and Smith(1999)]{heckman1999}
+Heckman, James J., Robert J. LaLonde, and Jeffrey A. Smith. 1999. ``The Economics and Econometrics of Active Labor Market Programs.'' In \textit{Handbook of Labor Economics}, vol. 3A, edited by Orley Ashenfelter and David Card, 1865--2097. Amsterdam: Elsevier.
+
+\bibitem[Imbens and Angrist(1994)]{imbens1994}
+Imbens, Guido W., and Joshua D. Angrist. 1994. ``Identification and Estimation of Local Average Treatment Effects.'' \textit{Econometrica} 62 (2): 467--475.
+
+\bibitem[Katz et al.(2022)]{katz2022}
+Katz, Lawrence F., Jonathan Roth, Richard Hendra, and Kelsey Schaberg. 2022. ``Why Do Sectoral Employment Programs Work? Lessons from WorkAdvance.'' \textit{Journal of Labor Economics} 40 (S1): S249--S291.
+
+\bibitem[Kitagawa(2015)]{kitagawa2015}
+Kitagawa, Toru. 2015. ``A Test for Instrument Validity.'' \textit{Econometrica} 83 (5): 2043--2063.
+
+\bibitem[Kline and Walters(2016)]{klinewalters2016}
+Kline, Patrick, and Christopher R. Walters. 2016. ``Evaluating Public Programs with Close Substitutes: The Case of Head Start.'' \textit{Quarterly Journal of Economics} 131 (4): 1795--1848.
+
+\bibitem[LaLonde(1986)]{lalonde1986}
+LaLonde, Robert J. 1986. ``Evaluating the Econometric Evaluations of Training Programs with Experimental Data.'' \textit{American Economic Review} 76 (4): 604--620.
+
+\bibitem[Lee(2009)]{lee2009}
+Lee, David S. 2009. ``Training, Wages, and Sample Selection: Estimating Sharp Bounds on Treatment Effects.'' \textit{Review of Economic Studies} 76 (3): 1071--1102.
+
+\bibitem[Lee et al.(2022)]{lee2022}
+Lee, David S., Justin McCrary, Marcelo J. Moreira, and Jack Porter. 2022. ``Valid t-Ratio Inference for IV.'' \textit{American Economic Review} 112 (10): 3260--3290.
+
+\bibitem[Montiel Olea and Pflueger(2013)]{montielolea2013}
+Montiel Olea, Jos\'e Luis, and Carolin Pflueger. 2013. ``A Robust Test for Weak Instruments.'' \textit{Journal of Business \& Economic Statistics} 31 (3): 358--369.
+
+\bibitem[Schochet, Burghardt, and McConnell(2008)]{schochet2008}
+Schochet, Peter Z., John Burghardt, and Sheena McConnell. 2008. ``Does Job Corps Work? Impact Findings from the National Job Corps Study.'' \textit{American Economic Review} 98 (5): 1864--1886.
+
+\end{thebibliography}
+
+\end{document}

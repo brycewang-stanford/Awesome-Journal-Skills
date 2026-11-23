@@ -18,7 +18,7 @@ Every PNAS research article must include a **Significance Statement** — a shor
 
 ## The hard rule: ≤120 words, written for a non-specialist
 
-- **Length:** **≤ 120 words** (confirm the exact cap in current PNAS author guidelines; treat 120 as the ceiling).
+- **Length:** **≤ 120 words and at least 50 words**, with no references (PNAS main-manuscript template, re-checked 2026-11-23; treat 120 as the ceiling).
 - **Audience:** an **educated scientist outside your field — down to a bright undergraduate**. If a chemistry undergraduate or a non-specialist colleague cannot follow it, rewrite it.
 - **Test:** read it aloud to someone who is smart but not in your subfield. If they can say back *why the result matters*, it works.
 

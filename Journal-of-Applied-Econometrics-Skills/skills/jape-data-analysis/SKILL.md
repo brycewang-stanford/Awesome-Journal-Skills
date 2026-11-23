@@ -79,7 +79,7 @@ Question answered: [which empirical inference concern this resolves]
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Applied econometrics: the estimator and its diagnostics are themselves the contribution, so foreground the weak-IV / pre-trend / sensitivity tooling.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Applied econometrics: the estimator and its diagnostics are themselves the contribution, so foreground the weak-IV / pre-trend / sensitivity tooling.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

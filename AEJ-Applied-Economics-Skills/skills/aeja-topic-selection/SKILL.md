@@ -40,7 +40,7 @@ AEJ: Applied is **empirical-first**: theory appears to interpret and discipline 
 - [ ] Two subfields beyond your own that will cite it, named
 - [ ] An imaginable headline sentence with a magnitude and units
 - [ ] A candidate research design that could make the estimate credible
-- [ ] JEL codes drafted (required at submission) reflecting the cross-field appeal
+- [ ] JEL codes drafted (customary at submission) reflecting the cross-field appeal
 
 ## Anti-patterns
 

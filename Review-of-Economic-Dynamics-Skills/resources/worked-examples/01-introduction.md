@@ -112,4 +112,4 @@ Mapped to the skill checklists:
 > introductions execute this dynamic-mechanism-first arc, and [`../code/`](../code/) for the empirical
 > command chains referenced when a RED paper disciplines its model with reduced-form dynamics. For
 > cross-cutting reporting and identification stakes, the shared hub is at
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

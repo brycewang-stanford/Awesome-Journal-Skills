@@ -113,7 +113,7 @@ topic-selection → literature-positioning → identification ─┐
 ## Related
 
 - Reference pack: `../Quantitative-Economics-Skills/` (Econometric Society, structurally identical).
-- Shared method hub: [`../shared-resources/empirical-methods/`](../shared-resources/empirical-methods/).
+- Shared method hub: [`../shared-resources/empirical-methods/`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/tree/main/shared-resources/empirical-methods).
 
 ## License
 

@@ -14,7 +14,7 @@ description: Use when war-gaming likely referee objections for a Quarterly Journ
 
 ## The QJE refereeing reality
 
-QJE is **the fastest top-5 journal at desk** — its five Harvard-based Editors desk-decide in roughly **two weeks** and desk-reject a clear majority (commonly cited around 60%+), with an unconditional acceptance rate of only **~1-4%**. Review is **double-blind**, so you cannot tailor to a known referee; you must satisfy *the toughest plausible expert*. Two consequences: (1) the paper has to survive a fast, skim-level editor screen before any referee sees it, so the big idea and clean identification must be visible up front; (2) for papers that survive, QJE grants few rounds with demanding referees, so you usually get *one* substantive shot. Anticipate the report you would write if you were the toughest expert in your subfield, and answer it in advance.
+QJE is **the fastest top-5 journal at desk** — its five Harvard-based Editors desk-decide in roughly **two weeks** and desk-reject a clear majority (commonly cited around 60%+), with an unconditional acceptance rate of only **~1-4%**. Manuscripts are submitted with author names (QJE does not ask for anonymization), but you still cannot know or tailor to the referee; you must satisfy *the toughest plausible expert*. Two consequences: (1) the paper has to survive a fast, skim-level editor screen before any referee sees it, so the big idea and clean identification must be visible up front; (2) for papers that survive, QJE grants few rounds with demanding referees, so you usually get *one* substantive shot. Anticipate the report you would write if you were the toughest expert in your subfield, and answer it in advance.
 
 ## Map the three referee archetypes
 

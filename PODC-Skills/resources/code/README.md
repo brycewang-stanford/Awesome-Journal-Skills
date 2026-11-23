@@ -16,14 +16,14 @@ artifact-evaluation track** to submit it to; it lives in the arXiv full version 
 
 ## Shared kits
 
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
   — a general packaging checklist; use only the parts about seeds, environment pinning, and a
   one-command run for the *optional simulation*. Ignore the badge/anonymous-artifact sections; PODC
   has neither.
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
   — dependency-free layout smoke checker, useful if you release a simulation bundle alongside the
   arXiv full version.
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
   — generic pre-submission scaffolding; the PODC-specific readiness gate is the proof appendix and
   the double-blind sweep, in [`../../skills/podc-submission/SKILL.md`](../../skills/podc-submission/SKILL.md).
 

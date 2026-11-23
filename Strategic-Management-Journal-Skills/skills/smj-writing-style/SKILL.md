@@ -36,7 +36,7 @@ Introduction → Theory & Hypotheses → Methods (sample, measures, identificati
 - **Two abstracts**, each up to **125 words**: a *research summary* (precise, stands alone, no citations) **and** a *managerial summary* (plain, non-academic, for practitioners). This dual-summary requirement is distinctive to SMJ — AMJ and ASQ ask for a single abstract — so budget real time for the managerial summary.
 - **Five (5) keywords** for indexing.
 - **APA author-date** references ("(Author, 2021)"; "(Collins, 2005a, 2005b)") — set your citation manager to APA, not a default style.
-- Respect the page budget (full articles ~40 pages incl. tables/figures/references; short research articles ~20 — verify the current limit on the official page); references single-spaced to conserve space.
+- Respect the page budget (SMJ "strongly suggest[s]" limiting the paper to 40 pages including figures and tables; short research articles and commentaries no more than 20 pages — Author Guidelines re-read 2026-11-23); references single-spaced to conserve space.
 - US spelling and standard academic register; expand acronyms on first use.
 
 ## Checklist

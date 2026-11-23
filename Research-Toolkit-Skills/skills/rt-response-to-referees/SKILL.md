@@ -6,7 +6,7 @@ description: Use after an R&R (or the simulated rehearsal) to turn a referee rep
 # Response-to-Referees (rt-response-to-referees)
 
 Draft the reply that decides the second round. Full method:
-[`shared-resources/submission-readiness/response-to-referees.md`](../../../shared-resources/submission-readiness/response-to-referees.md).
+[`shared-resources/submission-readiness/response-to-referees.md`](../../resources/shared/submission-readiness/response-to-referees.md).
 
 ## When to trigger
 

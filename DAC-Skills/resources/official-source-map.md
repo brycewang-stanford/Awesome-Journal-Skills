@@ -1,6 +1,6 @@
 # Official Source Map - DAC (Design Automation Conference)
 
-Access date: 2026-07-09
+Access date: 2026-07-09 (dead links re-checked 2026-11-23)
 
 **Edition status, checked 2026-08-26.** `https://www.dac.com/` now reads "Thank You for
 Attending DAC 2026" and announces **DAC 2027 for July 11-14, 2027 at the San Jose
@@ -40,10 +40,10 @@ in-scope research topic, not this conference.
 | 2 | https://dac.com/2026/call-for-contributions | DAC 2026 Call for Contributions: Research Manuscripts, Engineering Track, Late Breaking Results, Special Sessions/Panels | 2026-07-09 |
 | 3 | https://dac.com/2026/speaker-resource-center/research-manuscripts-guidelines | Research Manuscript format: ≤6 pages + 1 references-only page, double-column, 9-10 pt, ACM template, single PDF; ACM is the 2026 copyright holder, archived on ACM DL | 2026-07-09 |
 | 4 | https://dac.com/2026/events/manuscript-submission-deadline-rm | Research Manuscript submission deadline event (mid-to-late November 2025; rendering showed Nov 19, 2025) | 2026-07-09 |
-| 5 | https://dac.com/2026/authors/research-frequently-asked-questions | Research FAQ: two-stage abstract-then-manuscript submission, double-blind rules, TPC conflict-of-interest declaration | 2026-07-09 |
+| 5 | https://web.archive.org/web/20251109213124/https://dac.com/2026/authors/research-frequently-asked-questions (Wayback Machine snapshot of 2025-11-09; the live `dac.com/2026/authors/research-frequently-asked-questions` page returns 404 since dac.com moved to DAC 2027 — archive link, re-read 2026-11-23) | Research FAQ: two-stage abstract-then-manuscript submission, double-blind rules, TPC conflict-of-interest declaration | 2026-07-09; archive re-read 2026-11-23 |
 | 6 | https://ieee-ceda.org/post/announcement/dac-2026-call-contributions | IEEE CEDA announcement of the DAC 2026 Call for Contributions; ACM/IEEE + SIGDA/CEDA sponsorship | 2026-07-09 |
 | 7 | https://dac.com/2026/late-breaking-results and https://softconf.com/dac26/lbr26/ | Late Breaking Results track and the Softconf/START submission system (`dac26`) used by DAC | 2026-07-09 |
-| 8 | https://dac.com/2026/engineering-track-presentations | Engineering Track (industry practitioners: front-end/back-end design, IP, embedded systems & software) with a separate review committee | 2026-07-09 |
+| 8 | https://web.archive.org/web/20251219174745/https://dac.com/2026/engineering-track-presentations (Wayback Machine snapshot of 2025-12-19; the live `dac.com/2026/engineering-track-presentations` page returns 404 — archive link, re-read 2026-11-23) | Engineering Track (industry practitioners: Back-End Design, Front-End Design, IP, and Systems and Software tracks; submission deadline Jan 12, 2026; accept/reject Mar 2, 2026). The snapshot does not state that the tracks use a separate review committee — that detail is recorded as before but is **待核实** | 2026-07-09; archive re-read 2026-11-23 |
 | 9 | https://dl.acm.org/conference/dac | ACM Digital Library DAC proceedings series (archival record of accepted Research Manuscripts) | 2026-07-09 |
 | 10 | https://ieee-ceda.org/awards/a-richard-newton-award and http://sigda.org/archive/node/44.html | ACM/IEEE A. Richard Newton Technical Impact Award in EDA (paper ≥10 years old, peer-reviewed ACM/IEEE archival publication) | 2026-07-09 |
 
@@ -79,7 +79,7 @@ in-scope research topic, not this conference.
   figure as **待核实** each cycle).
 - **Tracks:** the **Research Manuscript** track (double-blind, archival, ACM DL) is distinct from
   the **Engineering Track** (industry practitioners; front-end design, back-end design, IP,
-  embedded systems & software; separate review committee; presentation-oriented), and from **Late
+  embedded systems & software; separate review committee — **待核实**, not stated on the archived track page; presentation-oriented), and from **Late
   Breaking Results**, **Research/Engineering Special Sessions**, **Panels**, tutorials, workshops,
   and the large **exhibition** floor (sources 2, 7, 8).
 - **Topic lanes (DAC 2026):** classical EDA (logic synthesis, physical design, timing, verification
@@ -132,3 +132,7 @@ SIGDA and IEEE CEDA. DAC is funded by registration and its large industry exhibi
 - IEEE Xplore vs ACM-DL-only archival arrangement, and the full 2026 supporting-organization list
   beyond SIGDA/CEDA (**待核实**).
 - DAC 2026 full TPC / Track-Chair rosters (**待核实**).
+- Whether the Engineering Tracks are reviewed by a committee separate from the Research TPC
+  (**待核实**: source 8 now resolves only to an archived track page, which does not say; the
+  archived FAQ, source 5, says only that the Engineering Tracks require no manuscript and entail
+  no publication).

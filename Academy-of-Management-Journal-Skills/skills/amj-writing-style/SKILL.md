@@ -41,7 +41,7 @@ Standard full structure: **Introduction → Theory & Hypotheses → Methods → 
 
 - Follow AOM/APA-style conventions for citations, headings, and references as specified in the current AMJ Style Guide for Authors.
 - US spelling and AOM heading hierarchy; consistent tense (past tense for what you did/found, present for established theory).
-- The full manuscript main body must fit the **40-page maximum** (text + references + appendices; tables/figures excluded), **double-spaced, Times New Roman 12-pt, 1-inch margins** — so trimming targets prose, not just exhibits, and a bloated reference list eats into your page budget.
+- The full manuscript should typically fit **~40 double-spaced pages inclusive of all content** (text, references, tables, figures, appendices), **Times New Roman 12-pt, 1-inch margins** — so trimming targets prose and exhibits alike, and a bloated reference list eats into your page budget.
 
 ## Checklist
 
@@ -52,7 +52,7 @@ Standard full structure: **Introduction → Theory & Hypotheses → Methods → 
 - [ ] Sections are signposted; the theory→method→results→discussion arc is followed
 - [ ] Hedging is calibrated, not stacked
 - [ ] Citations/headings/references conform to the current AMJ Style Guide
-- [ ] Main body ≤ 40 pages (refs + appendices count; tables/figures do not); 12-pt TNR, double-spaced
+- [ ] Whole manuscript ≤ ~40 pages (everything counts, incl. tables/figures); 12-pt TNR, double-spaced
 
 ## Anti-patterns
 
@@ -72,6 +72,6 @@ Standard full structure: **Introduction → Theory & Hypotheses → Methods → 
 【Terminology】construct names consistent? drift: [...]
 【Structure/signposting】arc intact? gaps: [...]
 【House style】AOM/APA citations & headings: pass/fix
-【Length】main body vs. 40-page limit (refs+appendices incl.): ok/trim
+【Length】manuscript vs. ~40-page guideline (all content incl.): ok/trim
 【Next step】amj-submission
 ```

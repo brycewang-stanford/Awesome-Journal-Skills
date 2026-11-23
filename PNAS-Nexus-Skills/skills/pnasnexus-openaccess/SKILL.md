@@ -31,7 +31,7 @@ PNAS Nexus is **fully gold open access**: every published article is free to rea
 | **Low-income-country full waiver** | Corresponding authors based in countries in OUP's low-income tier — fees fully waived. |
 | **Middle-income-country discount** | Corresponding authors in OUP's middle-income tier — reduced APC (applied before other discounts). |
 | **Read & Publish / transformative agreements** | Authors at institutions with an OUP agreement — the institution covers the charge. Note: you **may not** switch the corresponding author just to access this funding. |
-| **Membership discount** | A membership-discount option exists in the calculator; the exact eligibility/amount is **待核实** — confirm. |
+| **Membership discount** | The OUP calculator lists a **20% society-membership discount** (seen 2026-11-23 against the calculator's default category); which memberships qualify for research articles is **待核实** — confirm in the calculator. |
 | **Discretionary waiver** | Authors without sufficient funds may **request a waiver at submission** (historically via openaccess@oup.com) — confirm the current route. |
 
 > Eligibility usually hinges on the **corresponding author's** affiliation/region. Decide who the corresponding author is **before** you price the APC — and never reassign corresponding authorship purely to capture Read & Publish funding.
@@ -46,7 +46,7 @@ PNAS Nexus offers **two** Creative Commons licenses (as of the February-2024 cha
 | **CC BY-NC 4.0** | Reuse with attribution, **non-commercial only**. | You specifically want to restrict commercial reuse **and** no funder mandate forbids NC. |
 
 - **If a funder mandates open access, default to CC BY** — many mandates do not accept NC or ND. Confirm against your grant's policy.
-- The named technical default on the journal page is **待核实**; do not assert which is pre-selected — make the choice deliberately.
+- The author guidelines name **no default license** (re-checked 2026-11-23) — authors choose between CC BY 4.0 and CC BY-NC 4.0 after checking funder requirements, so make the choice deliberately.
 
 ## Funder-compliance quick check
 

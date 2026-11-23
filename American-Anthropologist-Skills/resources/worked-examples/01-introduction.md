@@ -125,4 +125,4 @@ Mapped to the skill checklists:
 > benchmark the framing against verified real AA papers in
 > [`../exemplars/library.md`](../exemplars/library.md); and, for any *quantitative* (biological/
 > archaeological) component only, consult the background reporting hygiene in
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

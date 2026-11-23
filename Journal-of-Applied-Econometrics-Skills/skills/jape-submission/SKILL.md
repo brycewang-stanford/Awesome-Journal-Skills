@@ -67,6 +67,28 @@ Keep it under a page; at this venue the letter's only real job is fit, track, an
 
 A 41-page draft with 11 main-text exhibits: move three robustness tables and two figures to the appendix (now 34 pp, 6 exhibits), compress a 132-word abstract to 97 words by cutting two citation clauses and one methods sentence, export the final `.dta` files to CSV with a readme stub, and confirm only two other papers are under JAE review. Total cost: an afternoon. Skipping it risks an administrative bounce before any referee reads page one.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jape-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Output format
 
 ```

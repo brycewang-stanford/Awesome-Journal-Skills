@@ -54,6 +54,28 @@ Because JMIS is published by Taylor & Francis, authors reasonably assume the sub
 
 Keep the package as two deliberately separated parts. (1) The **anonymized manuscript** — no names, affiliations, emails, funding IDs, acknowledgments, or revealing self-citations, and with document metadata stripped (a leftover author name in PDF/Word properties defeats blinding). (2) The **cover letter**, sent separately, carrying the identifying information (affiliations, contact, brief bios) the anonymized file must not. Survey instruments and online appendixes ride as additional **anonymized** attachments. Treat anything that could de-anonymize the authors in the manuscript file as a defect to fix before sending.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jmis-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Submitting through a Taylor & Francis / ScholarOne portal — JMIS intake is the EIC's email

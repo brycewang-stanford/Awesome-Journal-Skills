@@ -11,18 +11,25 @@ submission-ready advice.
 
 ## Submission checks
 
-- Confirm the target is main-track research paper, not position paper, workshop, tutorial, expo, or
-  Journal-to-Conference. Position papers use a separate call and OpenReview site.
-- Verify OpenReview account readiness for all authors before the relevant deadline. ICML 2026
-  freezes the author list after the abstract deadline.
-- Check that the PDF uses the current ICML LaTeX style. ICML 2026 provides no support for non-LaTeX
-  typesetting.
-- Enforce the current main-body limit. The 2026 submission body limit is 8 pages, followed by
-  references and appendices in the same PDF.
-- Check the PDF file-size limit and all required OpenReview fields.
+- Confirm the target is a main-track paper, not workshop, tutorial, expo, or Journal-to-Conference,
+  and pick the right contribution type. In ICML 2027, position papers go through the main track as
+  the "Position Papers" contribution type rather than a separate call.
+- Verify OpenReview account readiness for all authors before the relevant deadline (suggested by
+  January 8, 2027). ICML 2027 requires title, full author list, and complete abstract by the January
+  14, 2027 abstract deadline and freezes the author list after it; full papers are due January 22,
+  2027 AoE.
+- Check quotas: no author on more than 20 submissions, one eligible reciprocal reviewer named per
+  submission (at most 6 submissions each), and self-rankings filed by authors with multiple
+  submissions.
+- Check that the PDF uses the current ICML LaTeX style (`icml2027.zip`). ICML 2027 provides no
+  support for non-LaTeX typesetting.
+- Enforce the current main-body limit. The 2027 submission body limit is 8 pages, followed by
+  references, the impact statement, and appendices in the same PDF.
+- Check the 50MB PDF file-size limit and all required OpenReview fields.
 - Confirm double-blind compliance in the paper, appendices, supplementary manuscripts, code/data
   ZIPs, anonymous repositories, filenames, metadata, acknowledgments, grant numbers, and links.
-- Include the impact statement in the required place for main-track papers.
+- Include the impact statement (before References) and the AI Disclosure Statement (end of paper);
+  neither counts toward the page limit, and ICML 2027 requires both in every submission.
 
 ## ICML-specific desk-reject risks
 
@@ -46,11 +53,11 @@ Run these in order, because each later check assumes the earlier one passed.
 
 | Order | Check | Pass condition |
 | --- | --- | --- |
-| 1 | Track | Main research paper, not Position Papers or workshop |
+| 1 | Track | Main-track paper with the right contribution type, not workshop |
 | 2 | LaTeX style | Current ICML template, unmodified margins |
-| 3 | Page limit | Body within the 2026 8-page limit, references and appendices after |
+| 3 | Page limit | Body within the 2027 8-page limit, references and appendices after |
 | 4 | Anonymity | No author, repo, path, grant, or link leak in PDF or supplement |
-| 5 | OpenReview fields | Code URL, impact statement, policy labels complete |
+| 5 | OpenReview fields | Code URL, contribution type, reciprocal reviewer, impact and AI Disclosure statements complete |
 | 6 | Dual submission | No archival overlap at the full-paper deadline |
 
 ## Worked vignette: auditing the optimizer submission
@@ -60,6 +67,28 @@ inlined; the fix is moving the full proof to the same-PDF appendix and keeping o
 body. The anonymous code ZIP still contains a cluster username in a launch script, a desk-reject risk,
 so it is scrubbed before upload. Re-verify the page limit, file-size cap, and policy labels against
 the current CFP.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue icml-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

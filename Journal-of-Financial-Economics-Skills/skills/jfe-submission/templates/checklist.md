@@ -16,7 +16,7 @@ for Authors) before you submit.
 - [ ] Equations numbered; notation defined and consistent throughout
 - [ ] **Author-date (name-year) reference style**
 
-## 2. Anonymity (double-blind — verify current policy)
+## 2. Anonymity (required: jfinec.com says the manuscript PDF "must be anonymous"; re-verified 2026-11-23)
 
 - [ ] No author names, affiliations, or identifying phrases in the manuscript body
 - [ ] Self-citations phrased neutrally (not "in our earlier work")
@@ -75,5 +75,6 @@ for Authors) before you submit.
 - [ ] Aware that only ~US$400 is refunded on desk reject, and the full fee is refunded if a decision takes > 120 days
 - [ ] Cover letter states contribution and fit briefly; any data/code exemption requested here
 - [ ] Suggested / opposed referees entered as the system allows
-- [ ] Conflict-of-interest and prior-presentation disclosures completed
+- [ ] Conflict-of-interest disclosure statement for every author, in one PDF uploaded separately (explicit "nothing to disclose" if so)
+- [ ] Nothing uploaded as "Supplementary Material" (the paper is returned if you do)
 - [ ] The uploaded version is final (no tracked changes / comments)

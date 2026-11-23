@@ -1,30 +1,29 @@
 ---
 name: sci-writing
-description: Use when choosing the Science (AAAS) format (Research Article vs Report) and holding its length and structure budgets — main-text word caps, figure caps, argument-ordered Results, and deciding what belongs in the main text versus Supplementary Materials.
+description: Use when choosing the Science (AAAS) Research Article format (standard vs extended online) and holding its length and structure budgets — main-text word caps, figure caps, argument-ordered Results, and deciding what belongs in the main text versus Supplementary Materials.
 ---
 
 # Main-Text Writing & Format (sci-writing)
 
 ## When to trigger
 
-- Unsure whether the work is a **Report** or a **Research Article**.
+- Unsure whether the work fits the **standard Research Article** budget or needs the **extended online format** (Science no longer lists a separate Report category).
 - The main text is over length, or Methods are bloating the body.
 - The structure wanders (lab-notebook order instead of argument order).
 - Co-authors keep adding paragraphs and the paper is creeping past budget.
 
 ## Pick the format first
 
-| Format               | Use when                                                | Main-text target | Display items |
-|----------------------|---------------------------------------------------------|------------------|---------------|
-| **Report**           | A single, decisive advance told quickly                 | ~2,500 words     | ≤ 4 (figs+tables) |
-| **Research Article** | A larger study needing more development/multiple results | ~4,500 words     | ≤ 6 (figs+tables) |
+| Format               | Use when                                                | Main-text cap | Display items | Main-text refs |
+|----------------------|---------------------------------------------------------|---------------|---------------|----------------|
+| **Research Article (standard)** | The default for all peer-reviewed research papers | ≤ 3,000 words | 3–5 (figs+tables) | ~50 |
+| **Research Article (extended online format)** | Rare cases whose results cannot be presented within the standard constraints; the cover letter must justify the extra length | ≤ 6,000 words | ≤ 6 (may include videos) | ≤ 100 |
 
-> Numbers are working targets; confirm current caps in the author guidelines. The principle is fixed: **Science main texts are short**, and most detail lives in Supplementary Materials.
+> Caps from the *Science* Information for Authors page (re-verified 2026-11-23; see `resources/official-source-map.md`). *Science* no longer lists Reports as a separate category — older ~2,500-word Report / ~4,500-word Research Article budgets are obsolete. The principle is fixed: **Science main texts are short**, and most detail lives in Supplementary Materials.
 
 ## What goes where
 
-- **Main text (Report)**: no section headers beyond the flow; combined results-and-discussion narrative. **Methods are NOT in the main text** — they go to Supplementary Materials (Materials and Methods).
-- **Main text (Research Article)**: may use brief headers; still lean. Extended methods → Supplementary.
+- **Main text (Research Article)**: divided into sections with brief subheadings; lean, results-and-interpretation narrative. **Materials and Methods are NOT in the main text** — they go to Supplementary Materials with enough detail to allow replication.
 - **Supplementary Materials**: full Materials and Methods, supplementary figures/tables, supplementary text, captions, and additional data. This is where rigor lives without bloating the body.
 
 ## Structure as argument, not chronology
@@ -73,7 +72,7 @@ The pattern: verbs over nominalizations, numbers over adjectives, one hedge maxi
 ## Output format
 
 ```
-【Format】 Report (~2,500w / ≤4 items) or Research Article (~4,500w / ≤6 items)
+【Format】 Research Article standard (≤3,000w / 3–5 items / ~50 refs) or extended online (≤6,000w / ≤6 items / ≤100 refs)
 【Current main-text word count】 N → over/under budget by M
 【Methods location】 main text (FIX → move to SM) / Supplementary (ok)
 【Results order】 argument-ordered? yes/no
@@ -83,7 +82,7 @@ The pattern: verbs over nominalizations, numbers over adjectives, one hedge maxi
 
 ## Anti-patterns
 
-- **Do not** keep a full Methods section in a Report's main text.
+- **Do not** keep a full Methods section in the main text — it belongs in Supplementary Materials.
 - **Do not** structure Results chronologically when a logical order is clearer.
 - **Do not** treat the word cap as negotiable by shrinking font in figures — move content to SM instead.
 - **Do not** add a standalone Discussion that repeats Results; integrate the interpretation.

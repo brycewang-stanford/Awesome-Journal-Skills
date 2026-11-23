@@ -77,7 +77,7 @@ and promotes the by-speaker variation from a coefficient table to a figure with 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Numbered examples, glosses and tableaux are typeset by hand and stay that way. The
-**quantitative** exhibits should not be. Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+**quantitative** exhibits should not be. Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - **Model tables:** `etable` from the fitted `result_id`, so the coefficients in a table
   and the effect sizes in the prose cannot drift apart between revisions.

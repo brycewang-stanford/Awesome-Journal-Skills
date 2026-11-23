@@ -53,9 +53,10 @@ KDD-specific blend with predictable reading patterns:
 
 ## Review-integrity rules worth knowing as an author
 
-- KDD 2026 forbade reviewers from pasting any passage of a paper under review into
-  generative-AI tools verbatim, and required authors to disclose their own
-  generative-AI use in the submission form. Symmetrically, your rebuttal should not
+- KDD 2027 forbids reviewers from uploading any passage of a paper under review to a
+  generative-AI tool and requires them to disclose any generative-AI use in the review
+  form; authors follow ACM's generative-AI policy (KDD 2026 also had an author
+  disclosure field in the Research submission form; the 2027 Research CFP states none). Symmetrically, your rebuttal should not
   read as unedited model output — ACs increasingly discount it.
 - Confidentiality runs both directions; do not cite or publicize reviewer text during
   the process.

@@ -61,12 +61,15 @@ def main(argv: list[str]) -> int:
         ["python3", "-m", "unittest", "discover", "-s", "tools/tests", "-t", "tools"],
         ["python3", "tools/audit_repo.py"],
         # Conformance is the gate: every pack must meet every structural requirement.
-        # The backlog score below it is a ranking, not a standard, so its floor is set
-        # well under the current minimum (51.5) — low enough that only a genuinely
-        # broken new pack trips it, and it is not a target to be optimised against.
+        # The backlog score below it is a ranking, not a standard. Its tripwire reads
+        # the *static* score (the backlog score without the date-dependent currency
+        # dimension): the old `--min-score 40` floor sat on a number that decays every
+        # day, so the weekly CI went red on 2026-10-12 with no commit at all. The floor
+        # sits well under the current static minimum (37.3 in 2026-11, PNAS-Nexus, a
+        # pack heavy with unresolved facts) so only a genuinely broken new pack trips it.
         [
             "python3", "tools/quality_scorecard.py", "--top", "15",
-            "--require-conformance", "--min-score", "40",
+            "--require-conformance", "--min-static-score", "30",
         ],
         [
             "python3",
@@ -84,6 +87,12 @@ def main(argv: list[str]) -> int:
         ["python3", "tools/gen_ladder.py", "--check"],
         ["python3", "tools/build_eval_set.py", "--check"],
         ["python3", "tools/gen_catalog.py", "--check"],
+        # Machine-readable venue rules: every source-map rules block must agree with its
+        # own prose, and the compiled venue-rules.json that preflight reads must be current.
+        ["python3", "tools/venue_rules.py", "--check"],
+        # Installed packs only see their own directory: vendored shared resources and the
+        # Research Toolkit's preflight copy must match their originals.
+        ["python3", "tools/vendor_shared.py", "--check"],
         [
             "python3", "tools/freshness_audit.py", "--check",
             "--max-age-days", "365", "--max-unknown", "0",

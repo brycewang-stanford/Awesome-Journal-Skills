@@ -63,7 +63,7 @@ when design-based inference is described in text but not actually encoded in the
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Public Opinion Quarterly is survey methodology and public opinion; the chain serves causal/experimental claims, while survey-design and measurement contributions use their own standards (sampling, weighting, measurement error).
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Public Opinion Quarterly is survey methodology and public opinion; the chain serves causal/experimental claims, while survey-design and measurement contributions use their own standards (sampling, weighting, measurement error).
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

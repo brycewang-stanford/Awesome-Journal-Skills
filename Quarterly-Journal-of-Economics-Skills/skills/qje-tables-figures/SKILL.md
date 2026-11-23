@@ -55,7 +55,7 @@ QJE has moved firmly toward **figure-forward presentation** — the Opportunity 
 
 Generate exhibits from the fitted result rather than retyping numbers (the usual source
 of body-vs-appendix drift). Full map:
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - **Tables:** `etable` (multi-column) or `did_summary_to_latex` straight from the
   `result_id` — one definition, one set of numbers, body and appendix in sync.

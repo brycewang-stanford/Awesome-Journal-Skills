@@ -25,7 +25,7 @@ Marketing Science readers are technical, but the **intuition must come first**. 
 - **Citations**: author-year, e.g., (Norman 1977) or Norman (1977); reference list alphabetical by author in INFORMS reference style.
 - **Format**: double-spaced, single column, 11- or 12-point font, one-inch margins; prepared in MS Word or LaTeX (INFORMS LaTeX style files and Style-Instructions.pdf on the Author Portal); uploaded as Word or PDF.
 - **Abstract**: not more than 200 words, on the first page; 3–6 keywords describing the theoretical and methodological orientation.
-- **Length discipline**: regular articles have no fixed cap but are expected to be written succinctly; **Frontiers** is a strict 6,000-word total cap (including references, tables, graphs, appendices), so for Frontiers, ruthlessly cut and push detail online.
+- **Length discipline**: regular articles should strive for **40 double-spaced pages** including references, tables, graphs, and appendices (online appendices excluded); **Frontiers** is a strict 6,000-word total cap (including references, tables, graphs, appendices), so for Frontiers, ruthlessly cut and push detail online.
 - Keep the manuscript **blinded** for double-anonymous review — no self-identifying phrasing.
 
 ## Checklist
@@ -63,7 +63,7 @@ Treat this skill as an executable review pass, not a prose hint. First lock the 
 【Notation】minimal, consistent, just-in-time?
 【Citations/format】INFORMS author-year; double-spaced 11–12pt; Word/LaTeX
 【Abstract/keywords】≤200 words; 3–6 keywords
-【Length】regular succinct / Frontiers ≤6,000 words total
+【Length】regular ≤ ~40 pages (all in) / Frontiers ≤6,000 words total
 【Blinding】intact?
 【Next step】mksc-submission
 ```

@@ -31,7 +31,7 @@ test, it belongs at ASR/AJS, not ST.
 
 For background only — the shared, discipline-agnostic reviewer and reporting references that
 empirical packs draw on live under
-[`../../shared-resources/empirical-methods/`](../../shared-resources/empirical-methods/) (e.g.,
+[`../../shared-resources/empirical-methods/`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/tree/main/shared-resources/empirical-methods) (e.g.,
 the reviewer-objection checklist and reporting-standards notes). They are **not** part of the ST
 workflow and are listed here purely so an agent knows where the empirical material is when a
 project turns out to be ASR/AJS-shaped rather than ST-shaped.

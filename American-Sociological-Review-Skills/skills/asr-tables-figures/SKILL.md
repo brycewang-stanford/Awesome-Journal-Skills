@@ -87,7 +87,7 @@ cares about, and ties the numbers to the shared script.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ASR is general sociology where observational designs dominate; foreground identification (DiD/IV/RDD), decomposition, and clustered inference.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). ASR is general sociology where observational designs dominate; foreground identification (DiD/IV/RDD), decomposition, and clustered inference.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

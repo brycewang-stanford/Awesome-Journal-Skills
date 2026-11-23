@@ -107,4 +107,4 @@ Mapped to the skill checklists:
 > benchmark the framing against verified real HLR pieces in
 > [`../exemplars/library.md`](../exemplars/library.md); and, for the rare empirical-legal piece, consult the
 > shared background in
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

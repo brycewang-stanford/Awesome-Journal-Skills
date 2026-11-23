@@ -142,8 +142,8 @@ smr-rebuttal
 
 本技能包面向 **方法期刊**：它 **不** 内置通用应用因果推断代码套件。SMR 论文应附自己的软件
 （`smr-software-and-reproducibility`）；共享的
-[`reviewer-objection-checklist`](../shared-resources/empirical-methods/reviewer-objection-checklist.md)
-与 [`reporting-standards`](../shared-resources/empirical-methods/reporting-standards.md) 仅作为压力测试
+[`reviewer-objection-checklist`](resources/shared/empirical-methods/reviewer-objection-checklist.md)
+与 [`reporting-standards`](resources/shared/empirical-methods/reporting-standards.md) 仅作为压力测试
 实证说明的 **背景** 链接。
 
 ---

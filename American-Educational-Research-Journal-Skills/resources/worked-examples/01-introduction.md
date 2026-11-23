@@ -134,7 +134,7 @@ policy/institutional resource allocation** (a system-level organization question
 
 ## See also (shared empirical-methods hub)
 
-- [`reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+- [`reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
   — stress-test the staggered-DiD identification and the heterogeneity claim before drafting.
-- [`reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
+- [`reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)
   — clustering, pre-trends, and heterogeneity-reporting stakes for the empirical strand.

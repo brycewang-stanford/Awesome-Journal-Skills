@@ -59,7 +59,7 @@ The editor sees a named shock, a defended assumption, the right estimator, and a
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Do not stop at advising the right estimator — **run it and report the number.** Full
-map: [`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JF-specific instantiation:
+map: [`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md). JF-specific instantiation:
 
 1. `detect_design` → `preflight` → `recommend` on the data; fit with `as_handle=true`.
 2. **Staggered DiD:** estimate with `callaway_santanna` / `sun_abraham` (not bare TWFE);

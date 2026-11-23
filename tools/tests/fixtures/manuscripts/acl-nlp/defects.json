@@ -1,0 +1,161 @@
+{
+  "id": "acl-nlp",
+  "pack": "ACL-Skills",
+  "venue": "Annual Meeting of the Association for Computational Linguistics (ACL), via ACL Rolling Review",
+  "format": "tex",
+  "synthetic": true,
+  "summary": "A fictional ACL long paper proposing Cross-Lingual Quality Filtering (XQF), which selects multilingual instruction-tuning data by round-trip translation consistency and English-pivot quality with per-language normalization and quotas, evaluated on held-out XCOPA, XStoryCloze, XNLI and MGSM with a contamination check.",
+  "defects": [
+    {
+      "id": "M1",
+      "kind": "mechanical",
+      "check": "STMT-MISSING",
+      "statement": "limitations",
+      "find": "\\section*{Limitations}\n\nXQF depends on a translation system and a multilingual encoder, and it inherits their coverage. For languages that NLLB or LaBSE handle poorly, round-trip consistency is low for every example and, after normalization, ranks examples by noise; Quechua, our weakest language, shows the smallest gain in the low-resource tier. Scoring quality on the English pivot means that culturally specific content that does not translate well may be removed even when it is valuable, and a filter that rewards translatability may push the data toward content that resembles English sources. Our evaluation relies on classification and short-answer benchmarks plus a six-language human evaluation; we do not measure long-form generation quality or safety behavior in most languages. All models come from one family, Llama 2, at 7B and 13B parameters, and we did not test larger models or other architectures. Finally, the reward model is trained on English preference data, so its notion of a good response reflects the annotators of that data.\n\n",
+      "replace": "",
+      "description": "The mandatory Limitations section is deleted.",
+      "rule_basis": "ACL-Skills/resources/official-source-map.md source 2 (ARR CFP): 'required Limitations section (desk reject if missing)'; acl-submission skill: 'A missing Limitations section ... is an explicit desk-reject condition under the ARR CFP.'"
+    },
+    {
+      "id": "M2",
+      "kind": "mechanical",
+      "check": "ANON-SELFCITE",
+      "find": "\\citet{quillfeather2024quota} argue that a single global quality threshold removes low-resource languages disproportionately from translated corpora and propose per-language quotas; we adopt the same principle for instruction data",
+      "replace": "In our previous work \\citep{quillfeather2024quota}, we showed that a single global quality threshold removes low-resource languages disproportionately from translated corpora and proposed per-language quotas; here we extend our own approach to instruction data",
+      "description": "A first-person self-citation ('In our previous work ... we showed') reveals the authors' identity in an anonymized ARR submission.",
+      "rule_basis": "acl-submission skill anonymity gate: 'no names, affiliations, acknowledgements, or self-revealing \"we previously showed\" citations'; official-source-map.md source 2/6: anonymized submissions."
+    },
+    {
+      "id": "M3",
+      "kind": "mechanical",
+      "check": "ANON-URL",
+      "find": "\\url{https://anonymous.4open.science/r/xqf-multi-8B21}",
+      "replace": "\\url{https://github.com/tbrambleton/xqf-multilingual}",
+      "description": "The code link points to a personal GitHub account rather than an anonymized repository.",
+      "rule_basis": "acl-submission skill: 'Supplementary archives, repo links, and dataset pages must be anonymized too'; official-source-map.md source 2: anonymized submissions."
+    },
+    {
+      "id": "M4",
+      "kind": "mechanical",
+      "check": "ANON-ACK",
+      "find": "\\begin{thebibliography}{99}",
+      "replace": "\\section*{Acknowledgments}\nWe thank the Brambleton Lab at the University of Eastmere for compute support. This work was funded by Example Science Foundation grant EXF-2291-0457.\n\n\\begin{thebibliography}{99}",
+      "description": "An acknowledgments section with a lab name, university and grant number is added to the anonymous submission.",
+      "rule_basis": "acl-submission skill anonymity gate: 'no names, affiliations, acknowledgements'."
+    },
+    {
+      "id": "M5",
+      "kind": "mechanical",
+      "check": "REF-UNCITED",
+      "find": "\\bibitem[Dror et~al.(2018)]{dror2018hitchhiker}",
+      "replace": "\\bibitem[Conneau et~al.(2020)]{conneau2020xlmr}\nConneau, A., Khandelwal, K., Goyal, N., Chaudhary, V., Wenzek, G., Guzm\\'{a}n, F., Grave, E., Ott, M., Zettlemoyer, L., and Stoyanov, V. (2020).\nUnsupervised cross-lingual representation learning at scale.\nIn \\textit{Proceedings of ACL}.\n\n\\bibitem[Dror et~al.(2018)]{dror2018hitchhiker}",
+      "description": "A bibliography entry (Conneau et al., 2020) is added that is never cited in the text.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M6",
+      "kind": "mechanical",
+      "check": "EXH-UNREFERENCED",
+      "find": "Figure~\\ref{fig:rate} varies the retention rate.",
+      "replace": "We also vary the retention rate.",
+      "description": "The only in-text reference to Figure 2 (fig:rate) is removed, leaving the figure unreferenced.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M7",
+      "kind": "mechanical",
+      "check": "NUM-MISMATCH",
+      "find": "XQF improves the average held-out score of Llama 2 7B from 45.2 to 47.5 relative to training on the full pool",
+      "replace": "XQF improves the average held-out score of Llama 2 7B from 45.2 to 48.9 relative to training on the full pool",
+      "description": "The abstract reports a 7B average of 48.9, while Table 1 and the results text report 47.5.",
+      "rule_basis": "universal",
+      "preflight": "known-miss",
+      "miss_reason": "The seeded abstract value 48.9 also appears verbatim in Table 1 (the Perplexity filter's score on another benchmark), so a number-traceability check that does not read context cannot tell it is the wrong cell. The referee panel and the prose-polish claim audit are expected to catch it."
+    },
+    {
+      "id": "M8",
+      "kind": "mechanical",
+      "check": "LEFTOVER-MARKER",
+      "find": "Each of our 18 languages is covered by at least one benchmark.",
+      "replace": "Each of our 18 languages is covered by at least one benchmark (per-language coverage is listed in Appendix~??).",
+      "description": "An unresolved cross-reference marker (Appendix ??) is left in the Evaluation paragraph.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "S1",
+      "kind": "substantive",
+      "lens": "identification",
+      "severity": "major",
+      "find": "Before any filtering, we removed every pool example that shares a 13-gram with any validation or test item of the four evaluation benchmarks, after lowercasing, NFKC normalization and whitespace collapsing, following \\citet{brown2020gpt3}. For Chinese and Japanese, which are not whitespace-tokenized, we use character 25-grams instead. This removed 1,647 examples (0.4\\% of the pool), most of them translated reasoning questions overlapping with MGSM, leaving 412K examples (131K human-written, 281K machine-translated). We further confirmed that none of the evaluation benchmarks' training splits, which we do not use, were among the pool's sources, and that the reward model's preference data contain no items from the evaluation benchmarks. The base model's pretraining data cannot be audited, but every condition shares the same base model, so pretraining contamination cannot favor one filter over another.",
+      "replace": "We did not deduplicate the pool against the evaluation benchmarks. Because Bactrian-X and parts of the Aya Dataset include translations of public NLP data, some benchmark items may occur in the pool, but we expect any such overlap to be small and to affect all filtering methods equally. This leaves 412K examples (131K human-written, 281K machine-translated).",
+      "description": "No contamination check is run between the instruction pool and the evaluation benchmarks, and a consistency-based filter could preferentially retain translated benchmark items, so the gains may reflect leakage.",
+      "match_terms": [
+        "contamination",
+        "leakage",
+        "overlap",
+        "deduplicate",
+        "n-gram",
+        "test set",
+        "memorization",
+        "benchmark items"
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "substantive",
+      "lens": "inference",
+      "severity": "major",
+      "find": "Against IFD, the strongest baseline, the 7B difference of 1.4 points on average is significant after correction in 4 of 18 languages, all of them low-resource; we therefore describe XQF's advantage over IFD as concentrated in low-resource languages rather than uniform across languages.",
+      "replace": "Against IFD, the strongest baseline, running a separate paired bootstrap test at $p < 0.05$ in each of the 18 languages without correction, XQF is significantly better in 7 languages; we therefore conclude that XQF significantly outperforms IFD across all languages.",
+      "description": "The comparison with the strongest baseline uses 18 uncorrected per-language tests and generalizes significance in 7 languages to all languages, ignoring multiple comparisons.",
+      "match_terms": [
+        "multiple comparisons",
+        "correction",
+        "Bonferroni",
+        "Holm",
+        "uncorrected",
+        "family-wise",
+        "false positive",
+        "18 languages"
+      ]
+    },
+    {
+      "id": "S3",
+      "kind": "substantive",
+      "lens": "contribution",
+      "severity": "major",
+      "find": "Our experiments cover one model family at two scales, 18 languages and four benchmarks; whether the same retention rate is optimal for other model families or for generation-heavy tasks remains open.",
+      "replace": "Because XQF is language-agnostic, it will improve instruction tuning for any language and any base model, and it makes the collection of human-written multilingual instruction data unnecessary.",
+      "description": "The conclusion claims XQF works for any language and any model and replaces human-written data, although only one model family, 18 languages and four classification/short-answer benchmarks were tested (and human-written data were preferentially selected).",
+      "match_terms": [
+        "overclaim",
+        "any language",
+        "any base model",
+        "one model family",
+        "generalize",
+        "unsupported",
+        "human-written",
+        "scope"
+      ]
+    },
+    {
+      "id": "S4",
+      "kind": "substantive",
+      "lens": "ethics",
+      "severity": "major",
+      "find": "The human evaluation was conducted with professional annotators recruited through a translation vendor, all native speakers of the language they judged. Annotators were paid USD 18 per hour, above the local minimum wage in every country involved, were informed of the purpose of the study, and could stop at any time. The study protocol was reviewed by our institution's ethics board and judged exempt. Before release, we removed email addresses, phone numbers and personal names detected by a pattern-and-NER pass from the selected examples; source datasets are redistributed only as example identifiers under their original licenses.",
+      "replace": "Human preference judgments were collected from crowdworkers recruited on an online platform. The selected examples will be released in full, including the human-written native-language examples.",
+      "description": "The ethics statement no longer reports annotator compensation, consent or ethics-board review, and the dataset is released in full without any PII removal or licensing provisions.",
+      "match_terms": [
+        "compensation",
+        "annotators",
+        "consent",
+        "IRB",
+        "ethics review",
+        "personally identifiable",
+        "PII",
+        "license"
+      ]
+    }
+  ]
+}

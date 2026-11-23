@@ -69,6 +69,28 @@ cover_letter.pdf       # one-paragraph pitch + fit to the JCF remit
 
 JCF offers free SSRN posting in-flow. Take it when priority matters (a crowded corporate-governance or ESG race) or when working-paper visibility helps recruit conference feedback before the first decision; skip it when the draft still carries claims you expect the desk screen or referees to force down, since the posted version circulates regardless of the outcome. Whatever you choose, keep the SSRN title identical to the EM title so citations consolidate.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jcf-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Anonymizing the manuscript (JCF is single-blind, not double-blind).

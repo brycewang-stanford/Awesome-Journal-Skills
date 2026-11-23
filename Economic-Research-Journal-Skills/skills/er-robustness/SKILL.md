@@ -104,7 +104,7 @@ description: Use when building or writing the robustness-check section of an Eco
 ## 执行桥（StatsPAI / Stata MCP）
 
 把稳健性 battery **跑出来**，而不是只罗列。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《经济研究》是中文经济学顶刊，识别可信度通常是约束；交错 DID、弱工具稳健 IV、RDD 与机制检验。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《经济研究》是中文经济学顶刊，识别可信度通常是约束；交错 DID、弱工具稳健 IV、RDD 与机制检验。
 
 - **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
 - **遗漏变量敏感性：**`oster_delta` / `sensemakr`。

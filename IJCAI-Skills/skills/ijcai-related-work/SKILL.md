@@ -6,15 +6,16 @@ description: Use when positioning an IJCAI or IJCAI-ECAI submission against arch
 # IJCAI Related Work
 
 Use this to audit novelty, prior work, and submission eligibility. Reopen the current CFP and
-submissions FAQ because resubmission and dual-submission rules are policy-sensitive.
+submission-process page because resubmission and dual-submission rules are policy-sensitive.
 
 ## Positioning checks
 
 - Distinguish non-archival workshop or poster versions from formally published proceedings
   with DOI, ISBN, or ISSN.
 - If the paper was rejected by another peer-reviewed conference in the last 12 months,
-  prepare the required anonymized rejected version and reviews; the response cover letter may
-  be optional depending on current rules.
+  check whether the current cycle requires a disclosure package. IJCAI-ECAI 2026 required the
+  anonymized rejected version and reviews; the IJCAI 2027 CFP and submission-process page do
+  not mention it (unverified, re-check when the submission site opens).
 - Cite author preprints and prior work in third person. A non-anonymous arXiv version may be
   allowed, but the IJCAI submission itself must remain anonymous.
 - Do not submit a paper that is under review, accepted, or published at another formal

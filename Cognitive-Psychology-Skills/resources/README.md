@@ -13,8 +13,8 @@ once in the shared empirical-methods hub and is linked below as background.
 | [`exemplars/library.md`](exemplars/library.md) | Real, web-verified *Cognitive Psychology* papers by topic × method (signal-detection/memory modeling, categorization, decision modeling, language), with a sibling-journal omission guard. Design positioning only — read the originals before citing numbers. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (publisher, portal, scope, review model, data/code policy, house style) with sourcing discipline and 待核实 markers. |
 | [`external_tools.md`](external_tools.md) | Cognitive-modeling frameworks, model-comparison and mixed-model packages, repositories, and reproducibility tooling relevant to this venue. |
-| [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | *Background.* General objections referees raise by identification strategy (DiD / IV / RDD / DML / matching / mechanism) — relevant only if your study has a quasi-experimental or panel component; the core modeling objections for this venue live in this pack's skills. |
-| [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | *Background.* Modern inference + reporting table stakes (SE clustering, multiple-testing, reproducibility) — useful as a general reference; defer to `cogpsych-data-analysis` for model-comparison and recovery norms. |
+| [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) | *Background.* General objections referees raise by identification strategy (DiD / IV / RDD / DML / matching / mechanism) — relevant only if your study has a quasi-experimental or panel component; the core modeling objections for this venue live in this pack's skills. |
+| [reporting-standards](shared/empirical-methods/reporting-standards.md) | *Background.* Modern inference + reporting table stakes (SE clustering, multiple-testing, reproducibility) — useful as a general reference; defer to `cogpsych-data-analysis` for model-comparison and recovery norms. |
 
 ## How to use
 

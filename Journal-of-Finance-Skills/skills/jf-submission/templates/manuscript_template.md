@@ -6,7 +6,7 @@
 
 > [Title — concrete and general-interest]
 >
-> Abstract (≈100 words): one sentence on the question, one on the design/data, one or two on the headline result **with its economic magnitude**, one on the contribution.
+> Abstract (no more than 100 words — JF hard limit): one sentence on the question, one on the design/data, one or two on the headline result **with its economic magnitude**, one on the contribution.
 >
 > JEL classification: [e.g., G12, G14, G32]
 > Keywords: [3–5]

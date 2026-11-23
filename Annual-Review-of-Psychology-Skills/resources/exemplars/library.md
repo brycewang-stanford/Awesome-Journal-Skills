@@ -30,4 +30,4 @@ never import a sibling-journal paper as an ARPsych exemplar (see the guardrail r
 - Diener, "Subjective Well-Being" (1984) — *Psychological Bulletin*, a **submitted-review** venue, not ARPsych.
 - Any *Annual Review of Clinical Psychology* article — the **clinical sister** series, distinct from ARPsych.
 
-Shared reviewer-objection reference (background): [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+Shared reviewer-objection reference (background): [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

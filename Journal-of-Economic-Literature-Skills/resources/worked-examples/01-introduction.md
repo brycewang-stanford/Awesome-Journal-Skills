@@ -125,6 +125,6 @@ Mapped to this pack's skill checklists:
 > [`../../skills/jel-organizing-framework/SKILL.md`](../../skills/jel-organizing-framework/SKILL.md) for
 > choosing the spine. To set the **credibility tier** of each primary study a survey weighs — the appraisal
 > a JEL author owes the reader — use the venue-neutral
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > and
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

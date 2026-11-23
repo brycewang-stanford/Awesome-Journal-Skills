@@ -13,25 +13,27 @@ the author-response rebuttal, not a revise-and-resubmit.
 
 ICSME is an IEEE conference with **no standing editor-in-chief** and no APC: proceedings go to IEEE
 Xplore and the cost model is registration. Rotating leadership is the per-edition General and
-Program Co-Chairs (ICSME 2026 committee roster **待核实** on the access date); re-check the
-organizing-committee page rather than carrying names forward. ICSME 2026 is the **42nd** edition in
-**Benevento, Italy** (University of Sannio), **14-18 September 2026**, co-located with SCAM and
-VISSOFT.
+Program Co-Chairs (ICSME 2027: General Co-Chairs Gias Uddin and Song Wang, Program Co-Chairs Shiva
+Nejati and Lei Ma, checked 2026-11-23); re-check the organizing-committee page rather than carrying
+names forward. ICSME 2027 is the **43rd** edition in **Toronto, Canada** (York University),
+**7-11 September 2027**; SCAM and VISSOFT papers share its artifact track.
 
 ## Milestones
 
 - **Venue and track fit:** confirm ICSME over ICSE/FSE/SANER/MSR and pick the track — research,
-  Journal-First, Registered Reports, RENE, NIER, tool-demo, or industry (`icsme-topic-selection`).
+  Journal-First, Registered Reports, Benchmark & Dataset, NIER, tool-demo, or industry (`icsme-topic-selection`).
 - **Evidence lock:** freeze research questions, subject systems and their change history, baselines,
   statistics, threats, and the artifact contents.
 - **Abstract registration:** submit real title, abstract, authors, and topics by the earlier
-  abstract deadline (ICSME 2026: 27 Feb 2026).
-- **Paper submission:** upload the anonymized PDF and data-availability statement (ICSME 2026:
-  6 Mar 2026).
+  abstract deadline (ICSME 2027: 19 Feb 2027).
+- **Paper submission:** upload the anonymized PDF and data-availability statement (ICSME 2027:
+  26 Feb 2027).
 - **Early-decision cut:** at the response period's start, some papers are already Accept or Reject;
-  the rest are "Response Recommended" (ICSME 2026 early decisions: 3 May 2026).
+  the rest are "Response Recommended" (ICSME 2027 early decisions: 26 Apr 2027;
+  response period 27-30 Apr 2027).
 - **Author response:** if invited, answer the PC's specific questions with existing evidence.
-- **Notification:** final accept/reject (ICSME 2026: 29 May 2026); archive reviews and the response.
+- **Notification:** final accept/reject (ICSME 2027: 25 May 2027); archive reviews and the response.
+  Camera-ready is due 25 Jun 2027.
 - **Acceptance:** prepare the IEEE Xplore camera-ready, submit to the ROSE-Festival artifact track
   for IEEE badges, register, and present.
 
@@ -61,8 +63,10 @@ and there is no Major Revision to fall back on. Planning consequences:
   returned later via the **Journal-First** track.
 - **A not-yet-finished study** may fit **Registered Reports** (protocol reviewed first) rather than
   being rushed into the research track and rejected on thin evidence.
-- **A replication or negative result** has a dedicated home in **RENE** — do not force it into the
-  research track where novelty framing will hurt it.
+- **A replication or negative result** had a dedicated home in **RENE** through 2026, but RENE is
+  not in the ICSME 2027 track list. In 2027 submit it to the research track, which evaluates
+  replicability explicitly, framed as a replication rather than a novelty claim — or pre-register it
+  via Registered Reports; a data or benchmark contribution fits the new Benchmark & Dataset Track.
 
 ## Failure modes by stage
 
@@ -88,7 +92,7 @@ and there is no Major Revision to fall back on. Planning consequences:
 
 ```text
 [Current stage] idea / evidence / abstract / submitted / response period / accepted
-[Track] research / journal-first / registered report / RENE / NIER / tool-demo / industry
+[Track] research / journal-first / registered report / benchmark-dataset / NIER / tool-demo / industry
 [Next official deadline] <date and source, or unknown>
 [Critical path] <three tasks that determine readiness>
 [Risk register] <page budget / anonymity / evidence / threats / artifact / presentation>

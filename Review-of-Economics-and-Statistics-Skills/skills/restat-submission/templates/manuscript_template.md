@@ -3,7 +3,8 @@
 A neutral starting skeleton for a *The Review of Economics and Statistics* (REStat)
 manuscript. REStat is empirical-first: lead with the question and the estimate,
 right-size theory, and make measurement and identification legible. Format rules
-(12pt, double-spaced throughout, abstract ≤100 words, online appendix ≤20pp) are
+(12pt, double-spaced throughout, abstract ≤100 words, ≤45 pages at acceptance, online
+appendix ≤20pp for Short Papers) are
 volatile — verify on the official MIT Press REStat submission guidelines
 before upload.
 
@@ -47,7 +48,7 @@ before upload.
 
 ## References
 
-## Online Appendix (≤20 pages; main paper self-contained)
+## Online Appendix (no size limit for regular papers, ≤20 pages for Short Papers; main paper self-contained)
 - Supporting tables, construction detail, additional robustness
 
 ## Data & Code Availability

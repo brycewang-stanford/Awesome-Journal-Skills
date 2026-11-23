@@ -9,17 +9,17 @@ illustration of a bound, separation, or phase transition.
 
 ## Shared Kit
 
-- [`../../../shared-resources/ml-conference-methods/README.md`](../../../shared-resources/ml-conference-methods/README.md)
-- [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../../../shared-resources/ml-conference-methods/experiment-matrix.md)
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/README.md`](../shared/ml-conference-methods/README.md)
+- [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../shared/ml-conference-methods/experiment-matrix.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
 
 ## COLT-specific usage notes
 
 - Apply the kit's seed/replication discipline to illustration scripts, but skip its
   benchmark-oriented sections (baseline tuning budgets, dataset provenance) — they
   answer questions COLT does not ask.
-- The 2026 cycle had no code-upload channel; during review, an illustration's
+- Neither the 2026 cycle nor the COLT 2027 call has a code-upload channel; during review, an illustration's
   procedure lives in the appendix as prose plus pseudocode, and any linked repository
   must be anonymized.
 - Post-acceptance, release the (usually tiny) script publicly and link it from the

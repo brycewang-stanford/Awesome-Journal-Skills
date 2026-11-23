@@ -87,7 +87,7 @@ Aggregation: report ICC(1), ICC(2), r_wg(j) to justify team-level aggregation
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JAP is organizational psychology — multilevel survey/field data and experiments; cluster at the right level and apply mediation/moderation discipline.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JAP is organizational psychology — multilevel survey/field data and experiments; cluster at the right level and apply mediation/moderation discipline.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

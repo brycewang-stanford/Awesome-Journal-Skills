@@ -37,7 +37,7 @@
   模型"如何嵌进引言；起行为路径前读 `../../skills/jmsc-behavioral-om/SKILL.md`。
 - **算法与性质做满本刊红线。** 优化/鲁棒类（如张静文等(2017)）须给复杂度或收敛或界，并配数值验证
   （`../../skills/jmsc-algorithm/SKILL.md`、`../../skills/jmsc-proofs/SKILL.md`）；方法报告底线另见
-  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)。
+  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)。
 - **引用前核对刊名。** 凡记不清是 JMSC 还是《中国管理科学》/《系统工程理论与实践》/《管理世界》/
   《管理科学》的篇目，先回官网（`jmsc.tju.edu.cn` 过刊浏览）或 CNKI 核对，再写进参考文献。
 

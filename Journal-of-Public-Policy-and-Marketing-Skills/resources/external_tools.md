@@ -37,4 +37,4 @@ Resources that recur in marketing-and-public-policy research. Availability and a
 - For policy evaluations, archive the policy-timing ledger (adoption, effective, enforcement dates per jurisdiction) alongside the code; reviewers will ask.
 - Keep a raw-to-analysis data lineage and a table-reproduction script even though first-submission deposits may not be mandatory — the revision will demand them faster than you can rebuild.
 - For vulnerable-population studies, document recruitment, consent, and compensation decisions as part of the methods audit trail.
-- Cross-pack references: [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md) and [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+- Cross-pack references: [`../../shared-resources/empirical-methods/reporting-standards.md`](shared/empirical-methods/reporting-standards.md) and [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md).

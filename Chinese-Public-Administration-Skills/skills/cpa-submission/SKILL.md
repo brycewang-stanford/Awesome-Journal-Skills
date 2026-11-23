@@ -97,3 +97,25 @@ description: Use when running the final pre-submission preflight for 《中国�
 - [`templates/manuscript_template.md`](templates/manuscript_template.md) — 公共管理稿件结构骨架（中英摘要、理论框架、研究设计、变量 / 编码表、参考文献格式）
 - [`templates/checklist.md`](templates/checklist.md) — 投稿前 8 类自检清单
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — 数据资源（CGSS / CFPS / 政府开放数据 / 政策文本库）与定量 / 定性软件包速查
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue chinese-public-administration-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

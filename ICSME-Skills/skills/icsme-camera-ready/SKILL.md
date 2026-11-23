@@ -17,7 +17,7 @@ ROSE-Festival and registration pages before advising.
   the real tool and repository names, and the real subject-system names that double-anonymity forced
   you to hide or genericize.
 - **Apply the final format:** the IEEEtran two-column conference template, within the page budget
-  (2026: 10 + 2 references), with any camera-ready allowance the acceptance letter states.
+  (2027: 10 + 2 references), with any camera-ready allowance the acceptance letter states.
 - **Complete IEEE metadata and rights:** title/abstract, author order and affiliations, the IEEE
   copyright / eCopyright form, and the correct IEEE copyright notice on the first page. Add ORCID and
   index terms/keywords as the template requires.
@@ -71,8 +71,9 @@ only per the current instructions.
 
 - Page allowances, IEEE rights-form mechanics, keyword/index-term requirements, and the exact
   camera-ready date change each cycle; confirm against the decision email and current IEEE
-  instructions rather than a prior year. The ICSME 2026 camera-ready date is **待核实** on the access
-  date.
+  instructions rather than a prior year. ICSME 2027 posts a camera-ready deadline of **25 June
+  2027** (2026: 26 June 2026); at least one author must register by the early-registration date or
+  the paper is withdrawn.
 
 ## Output format
 

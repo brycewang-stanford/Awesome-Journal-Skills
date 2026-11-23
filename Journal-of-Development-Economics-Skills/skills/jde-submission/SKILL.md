@@ -77,6 +77,28 @@ Hypothetical: a cluster-randomized health-information experiment, sharp single r
 - **Preflight hits:** the manuscript was anonymized as if double-blind — un-anonymize, since review is single-anonymized; the cover letter omitted the USD 50 fee budget — add it before filing.
 - **Go/no-go:** replication package regenerates all 4 exhibits from `run_all`; COI/IRB disclosures attached; within the 3-per-12-months cap → cleared to submit.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jde-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Anonymizing as double-blind when JDE review is single-anonymized

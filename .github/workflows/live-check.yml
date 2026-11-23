@@ -1,0 +1,46 @@
+# Live-check: fetch the official pages behind source-map facts from a GitHub-hosted
+# runner (which, unlike the repo's build sandboxes, can reach journal/publisher domains).
+# Report-only — page text goes to the job log; updating source maps stays a deliberate
+# human/agent editing step (see .maintenance/FRESHNESS.md for the backlog).
+#
+# Activated 2026-11-23 (it had been staged under .maintenance/ since 2026-07-08, and the
+# weekly live-check stopped after 2026-09-14). The weekly run targets the pages behind the
+# machine-readable rules blocks — the limits and policies tools/preflight.py enforces — so
+# a venue changing its page limit shows up in the log within a week.
+name: Live check
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_chars:
+        description: Text budget per page in the log
+        required: false
+        default: "6000"
+      targets:
+        description: "rules (pages behind venue-rules.json) or list (.maintenance/LIVE-CHECK-URLS.txt)"
+        required: false
+        default: "rules"
+  schedule:
+    - cron: "41 3 * * 1"   # weekly, Mondays 03:41 UTC
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          submodules: false
+      - name: Fetch live-check targets
+        env:
+          MAX_CHARS: ${{ github.event.inputs.max_chars || '6000' }}
+          TARGETS: ${{ github.event.inputs.targets || 'rules' }}
+        run: |
+          if [ "$TARGETS" = "list" ]; then
+            python3 tools/live_check_fetch.py --max-chars "$MAX_CHARS"
+          else
+            python3 tools/live_check_fetch.py --from-rules --timeout 20 --max-chars "$MAX_CHARS"
+          fi

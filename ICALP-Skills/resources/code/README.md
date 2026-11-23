@@ -12,13 +12,13 @@ format, page budget) and a discipline for mapping every claim to a complete proo
 
 ## Shared kits
 
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
   — generic pre-submission checklist; adapt the "artifact" rows to the **full-version / appendix**
   rows described in [`../../skills/icalp-supplementary/SKILL.md`](../../skills/icalp-supplementary/SKILL.md).
-- [`../../../shared-resources/submission-readiness/response-to-referees.md`](../../../shared-resources/submission-readiness/response-to-referees.md)
+- [`../../../shared-resources/submission-readiness/response-to-referees.md`](../shared/submission-readiness/response-to-referees.md)
   — generic response scaffolding; adapt it to the **Track B rebuttal** in
   [`../../skills/icalp-author-response/SKILL.md`](../../skills/icalp-author-response/SKILL.md).
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
   — use **only** the anonymity/self-reference rows; ignore the runnable-artifact rows, which do not
   apply at ICALP.
 

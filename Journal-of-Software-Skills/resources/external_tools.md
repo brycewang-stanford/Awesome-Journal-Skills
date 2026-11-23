@@ -19,7 +19,7 @@
 ## 专刊 / 学术活动入口
 
 - CCF ChinaSoft 中国软件大会（专刊征稿主渠道）：https://chinasoft.ccf.org.cn/
-- ChinaSoft 专刊征稿页示例：https://chinasoft.ccf.org.cn/submission/
+- ChinaSoft 专刊征稿页（2026 届）：https://chinasoft.ccf.org.cn/2026/#callforpaper ；单个《软件学报》专刊征文示例（"形式化方法与应用"）：https://chinasoft.ccf.org.cn/2026/pages/callforpaper/formal-methods.html
 - CCF 推荐中文科技期刊目录：https://www.ccf.org.cn/
 - CCF 计算领域高质量科技期刊分级目录：https://www.ccf.org.cn/ccftjgjxskwml/
 

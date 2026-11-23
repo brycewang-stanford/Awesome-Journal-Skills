@@ -1,0 +1,74 @@
+# Cover Letter and Disclosures — generated per venue policy
+
+The last artefacts before the portal: a cover letter (only when the venue wants one) and
+the statements the venue requires. Policy comes from the venue's compiled rules
+(`cover_letter`, `required_statements`, `llm_policy`, `data_code_policy` in
+`venue-rules.json`, see `python3 tools/preflight.py --list-venues`) and from the pack's
+`*-submission` skill. Where the rules say nothing, say so — do not invent a requirement.
+
+## 1. Decide whether to write a cover letter
+
+| `cover_letter` rule | Action |
+|---|---|
+| `required` | Draft it (template below). |
+| `optional` | Draft a short one only if there is something the editor needs to know: a preprint, a related submission, a conflict, a requested exclusion, a data exemption. |
+| `discouraged` | Do **not** draft one. Some journals (e.g. The Journal of Finance) state that a cover letter is normally unnecessary. Tell the author, and draft only the specific note the policy allows (code-sharing exemption, conflict). |
+| missing / null | Say the venue does not state a policy; default to a short optional letter. |
+
+Conference submissions on OpenReview/CMT/ARR have no cover letter; their equivalents are
+form fields (conflicts, preprint declaration, responsible-research checklist). Map the
+content there instead.
+
+## 2. Cover-letter template (journals)
+
+```
+Dear Editor [name from the pack's source map — re-verify the masthead],
+
+We submit "[title]" for consideration as a [article type] in [journal].
+
+[1–2 sentences: the question and the answer, with the headline magnitude.]
+[1 sentence: why this journal's readers — name the conversation the journal hosts.]
+
+[Only if true:] A preprint is available at [repository]; the paper is not under review
+elsewhere. [Related manuscripts: …] [Data/code: how the venue's policy will be met.]
+[Conflicts / requested exclusions with a one-line reason.] [Suggested reviewers, if the
+venue asks, chosen by the authors — never generated names.]
+
+Sincerely, [corresponding author]
+```
+
+Rules: no claims stronger than the paper's (reuse the audited claims from
+[`prose-polish.md`](prose-polish.md)); no flattery; one page; the editor's name only from
+a masthead re-verified in the source map.
+
+## 3. Statements — draft each required one
+
+For every statement in the venue's `required_statements`, draft text from facts the author
+supplies. Ask for the facts; never fill them in.
+
+| Statement | Facts to ask the author for | Notes |
+|---|---|---|
+| `data_availability` | Data sources, access conditions, where the replication package will live | Restricted data: say how a replicator obtains access |
+| `code_availability` | Repository (anonymized for blind review), licence | Double-blind: anonymous mirror only |
+| `conflict_of_interest` / `disclosure_statement` | Funding, consulting, equity, board roles, related-party data access per author | Clinical: ICMJE disclosure form; economics: AEA/AFA-style disclosure statements per author |
+| `funding` | Grant numbers, funders' role in design/analysis | Double-blind: hold until camera-ready if the venue says so |
+| `ethics_approval` / `informed_consent` | IRB/ethics body, protocol number, consent procedure or waiver | Human-subjects work in any discipline |
+| `trial_registration` | Registry and ID (e.g. NCT…), date, whether the primary outcome matches | Clinical; preregistered field experiments (AEA registry) too |
+| `reporting_guideline` | Design → CONSORT 2025 / STROBE / PRISMA 2020 / STARD / TRIPOD | Attach the completed checklist if the venue asks |
+| `ai_use_disclosure` | Which tools, for what (editing, code, analysis, figures), what humans verified | Follow `llm_policy`: some venues forbid listing AI as author, some require a section |
+| `limitations` / `broader_impact` | Honest scope limits; societal risks and mitigations | ARR: mandatory Limitations section; ICML: Impact Statement |
+| `jel_codes` / `keywords` | Candidate codes; keyword count per `keywords_min/max` | |
+
+## 4. Checks before upload
+
+Run preflight once more on the final file. It must show no `STMT-MISSING`, and for
+double-blind venues no `ANON-*` (statements that de-anonymize — funding, acknowledgments —
+are often withheld until acceptance; follow the venue).
+
+## Hard rules
+
+1. **Policy first**: no cover letter where the venue discourages one; no statement the
+   venue does not ask for presented as mandatory.
+2. **Facts from the author**: grant numbers, conflicts, IRB numbers, registry IDs and
+   reviewer names are never generated.
+3. **Same claims as the paper**: the letter cannot oversell what the audit narrowed.

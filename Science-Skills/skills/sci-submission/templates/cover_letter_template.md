@@ -13,7 +13,7 @@ American Association for the Advancement of Science
 
 Dear Dr. [Editor Name],
 
-We submit our manuscript, **"[Declarative title],"** for consideration as a **[Report / Research Article]** in *Science*.
+We submit our manuscript, **"[Declarative title],"** for consideration as a **Research Article [standard / extended online format — say why the extra length is merited]** in *Science*.
 
 **[Opening claim — the advance + why it matters broadly.]** We show that [surprising, general result], which means [consequence for a broad field]. [One sentence quantifying the headline effect.]
 

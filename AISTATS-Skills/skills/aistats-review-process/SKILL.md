@@ -15,8 +15,13 @@ process claims.
 - Reviewers evaluate technical correctness, statistical and machine-learning contribution,
   empirical support, clarity, reproducibility, and relevance to artificial intelligence and
   statistics.
-- Author discussion is limited. AISTATS 2026 used a discussion period after initial reviews,
-  with text-only author-reviewer discussion and no links.
+- Author discussion is limited. In AISTATS 2027 reviews, an AI factual-correctness review
+  and a preliminary meta-review arrive together (November 16, 2026); authors get one
+  5,000-character response per review plus a 2,500-character answer to the preliminary
+  meta-review, no external links, then an author–reviewer discussion (November 24 –
+  December 3, 2026). Human reviewers did not see the AI review while writing.
+- Each AISTATS 2027 submission nominated a reciprocal reviewer; negligent nominated
+  reviewers can get their own submissions desk-rejected.
 - Reviewer and author obligations include confidentiality, appropriate conflicts,
   professional conduct, and respect for anonymity.
 - The most useful response is a decision-focused clarification that gives the area chair or

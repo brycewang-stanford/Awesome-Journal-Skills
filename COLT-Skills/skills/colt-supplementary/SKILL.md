@@ -5,9 +5,10 @@ description: Use when structuring the appendix of a COLT (Conference on Learning
 
 # COLT Supplementary
 
-COLT's "supplementary material" is the appendix of the same PDF: the 2026 CFP (checked
-2026-07-08) capped the main body at 12 PMLR-formatted pages excluding references and
-put **no page limit on references and appendices**, with the entire manuscript
+COLT's "supplementary material" is the appendix of the same PDF: the COLT 2027 CFP (checked
+2026-11-23) caps the main body at 12 PMLR-formatted pages excluding references and
+special sections such as an Ethics or AI statement, and puts
+**no page limit on references and appendices**, with the entire manuscript
 submitted as a single file. There is no separate upload, no later supplement deadline,
 and no distinction between "appendix" and "supplement" — which changes how you should
 architect the document compared to venues with detached supplements.
@@ -112,7 +113,7 @@ The COLT-shaped split:
 
 ## Cycle-volatility warnings
 
-- The unlimited-appendix, single-PDF rule is the 2026 formulation; earlier cycles
+- The unlimited-appendix, single-PDF rule is the 2026 and COLT 2027 formulation; earlier cycles
   phrased limits differently and later ones may again (待核实 in each CFP).
 - If a cycle ever adds a separate supplement channel or reviewable-code slot, its CFP
   will say so; do not assume either from this file.

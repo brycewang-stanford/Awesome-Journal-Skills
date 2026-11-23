@@ -14,7 +14,7 @@ description: Use when building or revising the exhibits of an American Economic 
 
 ## The AEJ: Applied exhibit bar
 
-At AEJ: Applied the **main causal estimate should be findable in seconds** and every exhibit should earn its place. AEA house style permits **significance stars but expects standard errors** in parentheses, clear notes that make each exhibit self-contained, and clean figures over chartjunk. Lead with the design's signature visual — the event-study plot, the RD scatter, or the balance table — because at this journal the *picture of the identification* is half the persuasion.
+At AEJ: Applied the **main causal estimate should be findable in seconds** and every exhibit should earn its place. The AEJ: Applied style guide says **do not use asterisks to denote significance** and **report standard errors in parentheses** (style-guide adherence is optional at submission but required for accepted articles), clear notes that make each exhibit self-contained, and clean figures over chartjunk. Lead with the design's signature visual — the event-study plot, the RD scatter, or the balance table — because at this journal the *picture of the identification* is half the persuasion.
 
 | Exhibit | What it must show | Common failure |
 |---------|-------------------|----------------|
@@ -28,15 +28,15 @@ At AEJ: Applied the **main causal estimate should be findable in seconds** and e
 ## Exhibit craft
 
 1. **One table for the headline.** Table 1 (or 2) should let a referee read the main causal estimate, its SE, and N without flipping pages.
-2. **Standard errors always, stars optional.** AEA permits stars, but SEs in parentheses are the load-bearing object; report the dependent-variable mean so magnitudes are interpretable.
-3. **Self-contained notes.** Each exhibit's note states sample, units, clustering level, controls, and what an asterisk (if used) means — a referee should not need the text to read the table.
+2. **Standard errors always, no stars.** The style guide bans significance asterisks; SEs in parentheses are the load-bearing object; report the dependent-variable mean so magnitudes are interpretable.
+3. **Self-contained notes.** Each exhibit's note states sample, units, clustering level, controls, and the inference reported (no significance asterisks; letter keys a, b, c for entry-specific notes) — a referee should not need the text to read the table.
 4. **Figures carry identification.** Event-study leads, RD continuity, and balance are more convincing as figures than as prose; make them publication-clean (vector output, readable fonts, CIs shown).
 5. **Right precision.** Two to three significant figures; do not report coefficients to five decimals.
 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id` — one variable definition, one set of numbers, body and appendix in sync.
@@ -49,7 +49,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 ## Checklist
 
 - [ ] Main causal estimate readable in one table: coefficient, SE in parentheses, N, dep-var mean, controls flagged
-- [ ] Standard errors reported everywhere; clustering level stated in notes; stars (if used) defined
+- [ ] Standard errors reported everywhere; clustering level stated in notes; no significance asterisks
 - [ ] Identification figure present (event-study with CIs / RD with density / balance with joint test)
 - [ ] Notes make every exhibit self-contained (sample, units, clustering, controls)
 - [ ] Figures are clean vector output, legible, no chartjunk, consistent scales
@@ -78,7 +78,7 @@ visible before the reader reaches the table. The result is now findable in secon
 - *"I cannot find your main estimate."* → One headline table with the coefficient, SE, N, and dep-var mean;
   everything else demoted to the appendix.
 - *"Where are the standard errors / what is the clustering?"* → SEs in parentheses everywhere; clustering
-  level and (if used) star meaning stated in the self-contained note.
+  level stated in the self-contained note; no significance asterisks.
 - *"This RD jump looks like an artifact of the polynomial."* → Replace the global high-order fit with a
   local-linear binned scatter plus a density panel.
 
@@ -86,7 +86,7 @@ visible before the reader reaches the table. The result is now findable in secon
 
 ```
 【Headline exhibit】one table/figure carrying the main estimate? [Y/N]
-【Inference shown】SEs in parentheses + clustering level in notes? [Y/N]; stars defined if used
+【Inference shown】SEs in parentheses + clustering level in notes? [Y/N]; asterisks removed? [Y/N]
 【Identification figure】event-study / RD / balance present with CIs? [Y/N]
 【Self-contained notes】sample/units/clustering/controls in every note? [Y/N]
 【Figure quality】vector, legible, no chartjunk? [Y/N]

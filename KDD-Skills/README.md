@@ -7,8 +7,8 @@ structural facts that make KDD strategy different from single-deadline ML venues
 
 1. **Two tracks with different evidence bars.** The Research Track wants a named
    mechanism with ablations and scale evidence; the Applied Data Science (ADS) Track
-   wants deployed systems with **quantified post-launch performance** — and the 2026
-   ADS CFP desk-rejects submissions that lack that quantification.
+   wants deployed systems with **quantified post-launch performance** — and the KDD
+   2027 ADS CFP desk-rejects submissions that lack that quantification.
 2. **Two submission cycles per year.** Each cycle pairs an abstract deadline with a
    paper deadline about a week later, and the decision space includes **Resubmit**,
    which feeds a paper from one cycle into the next with a mandatory change summary.
@@ -19,29 +19,31 @@ structural facts that make KDD strategy different from single-deadline ML venues
    Digital Library under the ACM Open model, with a uniform 12-page proceedings
    budget (9 content pages; references + appendix within 3).
 
-Official basis checked on **2026-07-08**: the KDD 2026 site (32nd SIGKDD conference,
-August 9-13, 2026, ICC Jeju, Korea), the Research Track and ADS Track CFPs, the
-Datasets & Benchmarks and AI for Sciences track CFPs, the per-track-per-cycle
-OpenReview groups, and the ACM Digital Library proceedings record. The exact source
-map, including every fact left 待核实, is in
+Official basis re-verified on **2026-11-23**: the KDD 2027 site (August 1-5, 2027,
+San Jose McEnery Convention Center, San Jose, USA), the KDD 2027 Research, ADS,
+Datasets & Benchmarks and AI for Sciences track CFPs, the KDD 2027 organizing
+committee, and the ACM Digital Library proceedings record (KDD 2026 pages were first
+read on 2026-07-08 and are kept as history). The exact source map, including every
+fact left 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
-## Verified 2026-cycle anchors
+## Verified KDD 2027 anchors
 
-| Fact | 2026 value | Volatility |
+| Fact | KDD 2027 value | Volatility |
 |---|---|---|
-| Edition | 32nd ACM SIGKDD Conference, Aug 9-13, 2026, ICC Jeju, Korea | Per edition |
-| Cycles | Cycle 1: abstract 2025-07-24, paper 2025-07-31; Cycle 2: abstract 2026-02-01, paper 2026-02-08 (AoE) | Per cycle |
-| Submission format | ACM double-column, `\documentclass[sigconf,anonymous,review]{acmart}`, 8 content pages + refs + optional appendix, double-blind | Per cycle |
+| Edition | KDD 2027, Aug 1-5, 2027, San Jose McEnery Convention Center, San Jose, USA (KDD 2026 met Aug 9-13, 2026 in Jeju) | Per edition |
+| Cycles | Cycle 1 (closed): abstract 2026-07-19, paper 2026-07-26, rebuttal 2026-09-29 to 10-13, notification 2026-11-14; Cycle 2: "the February 2027 deadline", exact dates not yet posted (AoE) | Per cycle |
+| Submission format | ACM double-column, `\documentclass[sigconf,anonymous,review]{acmart}`, 8 content pages + refs + optional appendix with no page limit; Research double-blind, ADS / D&B / AI4Sciences single-blind | Per cycle |
+| Per-author cap per cycle | Research 7, ADS 5, AI for Sciences 4, Datasets & Benchmarks 2 | Per cycle |
 | Proceedings budget | 12 pages total: 9 content + up to 3 for references and appendix | Per cycle |
 | ADS gate | Quantified post-launch performance required; absence = desk reject | Per cycle |
 | Rebuttal | Response per review; **no hyperlinks**; ACs recommend, PC chairs decide | Per cycle |
 | Resubmit path | Prior forum id declared + one-page change summary as PDF page 1 | Per cycle |
 | Platform | OpenReview, complete profiles for all authors (5-year affiliations, DBLP, ORCID, ...) | Per cycle |
-| Publication | ACM DL; ACM Open APC exposure for non-member institutions, 65% ACM subsidy announced for 2026 | Per year |
+| Publication | ACM DL; no APC from ACM Open institutions, otherwise 2027 subsidized APC USD 500 (ACM/SIG member) / USD 750 (non-member) unless waived | Per year |
 
-Notification/camera-ready dates, chair names, fee amounts, and other unverifiable
-items are explicitly flagged 待核实 in the source map rather than guessed.
+Cycle 2 dates, camera-ready dates, registration fees, and other unverifiable items
+are explicitly flagged 待核实 in the source map rather than guessed.
 
 ## Skills
 
@@ -143,7 +145,7 @@ with a structured output format so results compose across skills.
 - This pack advises on **strategy, structure, and evidence** for KDD submissions.
   It is not the CFP: where any statement here conflicts with the current cycle's
   official instructions, the official instructions win, always.
-- Facts are dated. Everything specific was checked on 2026-07-08 against the
+- Facts are dated. Everything specific was re-checked on 2026-11-23 against the
   sources in the source map; the pack deliberately phrases unstable items
   (deadlines, fees, chairs) as cycle-volatile or 待核实 rather than asserting them.
 - No text here should be pasted into a paper. The worked example is fictional by
@@ -151,12 +153,13 @@ with a structured output format so results compose across skills.
 
 ## Maintenance notes
 
-- Every dated fact above is a **2026-cycle anchor, not a rule**. KDD changes cycle
-  counts, page budgets, track lineups (two tracks were new in 2026), rebuttal
-  mechanics, and ACM Open terms between cycles.
+- Every dated fact above is a **KDD 2027 anchor, not a rule**. KDD changes cycle
+  counts, page budgets, track lineups (two tracks were new in 2026; Blue Sky Ideas is
+  not linked for 2027), per-track review mode, rebuttal mechanics, and ACM Open terms
+  between cycles.
 - Before deadline-sensitive advice, reopen the **track-specific** CFP for the
   **named cycle** — "the KDD CFP" is ambiguous at this venue by construction.
-- Facts marked 待核实 in the source map (notification dates, chairs, fees) must be
+- Facts marked 待核实 in the source map (Cycle 2 dates, camera-ready dates, fees) must be
   verified live before being stated to an author as fact.
 - If a CFP page and an OpenReview announcement disagree, prefer the newer OpenReview
   instruction or direct chair communication, and record the conflict.

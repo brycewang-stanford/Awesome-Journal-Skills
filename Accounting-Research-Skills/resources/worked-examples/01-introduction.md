@@ -109,5 +109,5 @@
   （[`acr-implications`](../../skills/acr-implications/SKILL.md)）。
 
 > 下一步：见 [`../exemplars/library.md`](../exemplars/library.md) 中已核实的真实《会计研究》范文，
-> 用[审稿人异议清单](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)在
+> 用[审稿人异议清单](../shared/empirical-methods/reviewer-objection-checklist.md)在
 > 起表前压测 DID，并参照 [`../code/`](../code/) 的分批 DID 命令链落地实证工作流。

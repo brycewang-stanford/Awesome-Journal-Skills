@@ -118,9 +118,9 @@ Mapped to the skill checklists:
   within the JPART word limit (`jpart-writing-style`: ~12,000 words including abstract, tables, references).
 
 > Next: stress-test the design with the shared
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > and report results to the shared
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md);
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md);
 > benchmark the framing against verified real JPART papers in
 > [`../exemplars/library.md`](../exemplars/library.md); and adapt the staggered-DiD command chain in
 > [`../code/`](../code/).

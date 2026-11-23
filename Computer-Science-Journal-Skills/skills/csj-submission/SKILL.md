@@ -122,3 +122,25 @@ CCF 推荐 B 类中文科技期刊、CCF 计算领域高质量科技期刊分级
 考虑转投，用 `csj-topic-selection` 重新定位；属质量问题则据外审意见系统性补强(实验、写作、创新性)后，方可
 考虑改投或在充分修改后再与编辑沟通。切忌原样改投他刊造成一稿多投或重复问题。任何再投都要重新过一遍本
 技能的就绪审计与查重自查。
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue csj-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

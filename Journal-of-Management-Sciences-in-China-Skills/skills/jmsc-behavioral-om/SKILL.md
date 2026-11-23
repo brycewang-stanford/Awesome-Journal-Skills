@@ -37,7 +37,7 @@ description: Use when taking the behavioral operations (行为运作) path of a 
 ## 执行桥（StatsPAI / Stata MCP）
 
 把设计**跑出来并审计**，而不是只做描述。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《管理科学学报》以解析/运筹/建模为主——优化、算法、数值实验与证明不在该因果推断工具链内；下面的链路服务其行为运营(behavioral-om)等实证支线。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《管理科学学报》以解析/运筹/建模为主——优化、算法、数值实验与证明不在该因果推断工具链内；下面的链路服务其行为运营(behavioral-om)等实证支线。
 
 - `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
 - **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +

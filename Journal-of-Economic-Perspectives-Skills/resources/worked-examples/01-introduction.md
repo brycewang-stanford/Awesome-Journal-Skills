@@ -131,5 +131,5 @@ Mapped to this pack's skill checklists:
 > [`../../skills/jep-exhibits-for-general-readers/SKILL.md`](../../skills/jep-exhibits-for-general-readers/SKILL.md)
 > for turning the "roughly a quarter" magnitude into a self-explanatory figure. When deciding whether a
 > study you cite is credible enough to feature, use the venue-neutral
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > as **background** — JEP synthesizes others' evidence rather than producing its own.

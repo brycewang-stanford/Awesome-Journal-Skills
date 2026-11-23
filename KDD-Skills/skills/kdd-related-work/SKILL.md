@@ -83,7 +83,7 @@ problem — surface it before the deadline, not in rebuttal.
 
 ## Vignette: positioning an LLM-era mining paper
 
-A 2026-cycle submission uses an LLM to label graph nodes for semi-supervised fraud
+A KDD 2027-cycle submission uses an LLM to label graph nodes for semi-supervised fraud
 detection. Its positioning problem is triangular: the graph-mining lane (prior KDD
 fraud and GNN work) will ask what changed structurally; the LLM lane (recent ML
 flagship work on LLM annotation) will ask why this is not just prompt engineering;

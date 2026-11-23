@@ -1,0 +1,3285 @@
+{
+ "generated_by": "python3 tools/venue_rules.py --write",
+ "note": "Compiled from the JSON rules block in each pack's official-source-map.md. Do not edit by hand; edit the source map and regenerate.",
+ "schema": "ajs-venue-rules/1",
+ "venues": {
+  "ACL-Skills": {
+   "aliases": [
+    "ACL 2027 (via ACL Rolling Review)",
+    "ACL-Skills",
+    "acl-skills",
+    "acl",
+    "ACL"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "anonymized_supplement_required": {
+     "note": "software and data each as a single .tgz/.zip; anonymized repositories only, no cloud-drive links",
+     "source": "https://aclrollingreview.org/cfp",
+     "value": true
+    },
+    "llm_policy": {
+     "source": "https://aclrollingreview.org/cfp",
+     "value": "Generative AI cannot be an author; writing or coding use and its scope must be disclosed in the Responsible NLP checklist with details in the Acknowledgements; proofreading-only tools exempt; prompt injection may lead to desk rejection"
+    },
+    "main_text_pages_max": {
+     "note": "ACL 2027 long papers; short papers 4 content pages. Limitations, optional ethics section, references and appendices are outside the count; camera-ready gets one extra page (9 / 5)",
+     "source": "https://aclrollingreview.org/cfp",
+     "value": 8
+    },
+    "page_limit_includes_references": {
+     "note": "unlimited references",
+     "source": "https://aclrollingreview.org/cfp",
+     "value": false
+    },
+    "portal": {
+     "source": "https://2027.aclweb.org/calls/main/",
+     "value": "OpenReview: ARR January 2027 cycle (submission January 4, 2027 AoE), then commitment to ACL 2027 (commitment date TBA)"
+    },
+    "preprint_policy": {
+     "source": "https://aclrollingreview.org/cfp",
+     "value": "No anonymity period; non-anonymous preprints allowed. Choosing the binding 'no non-anonymous preprint' option (no preprint until meta-reviews) earns award eligibility and borderline priority; breaking it is a desk reject"
+    },
+    "required_statements": {
+     "note": "Limitations section (desk reject if missing) and the Responsible NLP checklist (filed in the submission form). AI writing/coding use is disclosed in checklist section E when it occurred; an ethics statement is encouraged, not required",
+     "source": "https://aclrollingreview.org/cfp",
+     "value": [
+      "limitations",
+      "reproducibility_checklist"
+     ]
+    },
+    "review_mode": {
+     "note": "ACL 2027 via ARR; anonymized PDF, supplements and repository links; non-anonymous preprints allowed",
+     "source": "https://2027.aclweb.org/calls/main/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23; ACL 2027 registration fees not yet published",
+     "value": null
+    },
+    "supplement_policy": {
+     "source": "https://aclrollingreview.org/cfp",
+     "value": "Appendices after the references in the same PDF (not counted, reviewers need not read them); software and data as separate single .tgz/.zip archives"
+    },
+    "template": {
+     "source": "https://aclrollingreview.org/cfp",
+     "value": "Official ACL style files (acl-org/acl-style-files), unmodified; other conferences' templates not allowed"
+    }
+   },
+   "source_map": "ACL-Skills/resources/official-source-map.md",
+   "venue": "ACL 2027 (via ACL Rolling Review)",
+   "verified": "2026-11-23"
+  },
+  "AEJ-Applied-Economics-Skills": {
+   "aliases": [
+    "American Economic Journal: Applied Economics",
+    "AEJ-Applied-Economics-Skills",
+    "aej-applied-economics-skills",
+    "aej-applied-economics",
+    "AEJ Applied Economics"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": 100
+    },
+    "cover_letter": {
+     "note": "not required; only for substantive information such as coeditor conflicts or data-access limitations, preferably in the form field",
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": "discouraged"
+    },
+    "data_code_policy": {
+     "source": "https://www.aeaweb.org/journals/data/data-code-policy",
+     "value": "AEA Data and Code Availability Policy (Feb 2026): data, code and README in a trusted repository, checked by the AEA Data Editor before acceptance; package requested at first R&R resubmission"
+    },
+    "file_format": {
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": "PDF, under 10 MB when reasonably possible"
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official AEJ: Applied pages as of 2026-11-23",
+     "value": null
+    },
+    "llm_policy": {
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": "AI may not be an author; AI use in preparing the manuscript, including drafting or editing text, must be briefly described during submission; authors accountable for AI output"
+    },
+    "portal": {
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": "ScholarOne Manuscripts"
+    },
+    "reference_style": {
+     "source": "https://www.aeaweb.org/journals/app/style-guide",
+     "value": "Chicago Manual of Style author-date"
+    },
+    "required_statements": {
+     "note": "in-manuscript statements only; disclosure_statement is a separate upload (see separate_upload_statements)",
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": []
+    },
+    "review_mode": {
+     "note": "every submission must be author-anonymized (title page separate) under the AEA three-year RCT launched fall 2026; control-arm papers are still reviewed single-blind and the editorial-policy page still describes single-blind review",
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": "double-blind"
+    },
+    "separate_upload_statements": {
+     "note": "one Disclosure Statement PDF per (co)author, including IRB status; AI use must be described in the submission form if used, and field experiments supply the AEA RCT ID",
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": [
+      "disclosure_statement"
+     ]
+    },
+    "significance_stars": {
+     "note": "\"Do not use asterisks to denote significance of estimation results.\"",
+     "source": "https://www.aeaweb.org/journals/app/style-guide",
+     "value": "prohibited"
+    },
+    "submission_fee": {
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": "AEA members USD 200 / 100 / 0, nonmembers USD 300 / 200 / 0 by country income; 50% refund if rejected without review; publication fee USD 15 per typeset page if accepted (first submitted on/after 2024-02-01)"
+    },
+    "supplement_policy": {
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": "optional Supplemental Appendix, anonymized at submission; paper with in-paper appendices must be self-contained"
+    },
+    "template": {
+     "source": "https://www.aeaweb.org/journals/app/submissions",
+     "value": "AEA templates optional; if used, in review mode"
+    }
+   },
+   "source_map": "AEJ-Applied-Economics-Skills/resources/official-source-map.md",
+   "venue": "American Economic Journal: Applied Economics",
+   "verified": "2026-11-23"
+  },
+  "AER-Insights-Skills": {
+   "aliases": [
+    "American Economic Review: Insights",
+    "AER-Insights-Skills",
+    "aer-insights-skills",
+    "aer-insights",
+    "AER Insights"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": 100
+    },
+    "anonymized_supplement_required": {
+     "note": "supplementary appendices and response letters must be anonymized",
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": true
+    },
+    "cover_letter": {
+     "note": "not required; use for coeditor conflicts or data-access limits, preferably in the form field",
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": "optional"
+    },
+    "data_code_policy": {
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": "AEA Data and Code Availability Policy: data, code and computation details sufficient for replication before acceptance; AEA Data Editor checks"
+    },
+    "exhibits_max": {
+     "note": "figures or tables, each limited to one page",
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": 5
+    },
+    "file_format": {
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": "PDF, under 10 MB where possible; anonymized manuscript with title and abstract on the first page plus a separate 'title page' PDF and the AEA word-count PDF"
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official submissions or style-guide pages as of 2026-11-23",
+     "value": null
+    },
+    "keywords_required": {
+     "note": "not stated on the official submissions or style-guide pages as of 2026-11-23",
+     "value": null
+    },
+    "llm_policy": {
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": "AI cannot be an author; AI use in preparing the manuscript (including drafting or editing text) must be briefly described at submission; authors responsible for checking AI output"
+    },
+    "main_text_words_max": {
+     "note": "cap with no exhibits; each exhibit lowers it by 200 words (6,000 at five exhibits); count per the AEA word-count PDF rules; over-cap papers are returned unreviewed",
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": 7000
+    },
+    "portal": {
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": "ScholarOne Manuscripts"
+    },
+    "reference_style": {
+     "source": "https://www.aeaweb.org/journals/aeri/style-guide",
+     "value": "author-date, based on the Chicago Manual of Style"
+    },
+    "required_statements": {
+     "note": "in-manuscript statements only; disclosure_statement is a separate upload (see separate_upload_statements)",
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": []
+    },
+    "review_mode": {
+     "note": "AEA three-year author-anonymization RCT (launched fall 2026): all manuscripts must be anonymized, author details in a separate 'title page' PDF; only the treatment group is reviewed author-anonymized, and the editorial-policy page still describes single-blind review",
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": "double-blind"
+    },
+    "separate_upload_statements": {
+     "note": "one Disclosure Statement PDF per coauthor, even if nothing to disclose. Conditional: describe AI use at submission if AI was used; AEA RCT ID for field experiments",
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": [
+      "disclosure_statement"
+     ]
+    },
+    "significance_stars": {
+     "note": "AEA style: no significance asterisks; standard errors in parentheses",
+     "source": "https://www.aeaweb.org/journals/aeri/style-guide",
+     "value": "prohibited"
+    },
+    "submission_fee": {
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": "AEA members USD 200 / 100 / 0, nonmembers USD 300 / 200 / 0 (high / middle / low income); 50% refund if rejected without review; plus USD 15 per typeset page publication fee for papers first submitted on or after 2024-02-01"
+    },
+    "words_per_exhibit": {
+     "note": "7,000 with no exhibits; 6,000 at the five-exhibit maximum",
+     "source": "https://www.aeaweb.org/journals/aeri/submissions",
+     "value": 200
+    }
+   },
+   "source_map": "AER-Insights-Skills/resources/official-source-map.md",
+   "venue": "American Economic Review: Insights",
+   "verified": "2026-11-23"
+  },
+  "AISTATS-Skills": {
+   "aliases": [
+    "AISTATS",
+    "AISTATS-Skills",
+    "aistats-skills",
+    "aistats"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "llm_policy": {
+     "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+     "value": "generative AI allowed with full author responsibility and a mandatory AI Use Statement; LLMs cannot be authors; hidden prompts are misconduct; every submission also receives an AI factual-correctness review"
+    },
+    "main_text_pages_max": {
+     "note": "AISTATS 2027; 9 pages at camera-ready; over-length main text is desk-rejected",
+     "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+     "value": 8
+    },
+    "page_limit_includes_references": {
+     "note": "references, AI Use Statement, reproducibility checklist and appendices are not counted",
+     "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+     "value": false
+    },
+    "portal": {
+     "source": "https://openreview.net/group?id=aistats.org/AISTATS/2027/Conference",
+     "value": "OpenReview (aistats.org/AISTATS/2027/Conference)"
+    },
+    "preprint_policy": {
+     "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+     "value": "arXiv/tech reports allowed and not prior publication; use a neutral non-AISTATS format and do not identify the preprint as an AISTATS submission during review"
+    },
+    "reference_style": {
+     "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+     "value": "author-year or numeric at submission (consistently); author-year required at camera-ready"
+    },
+    "required_statements": {
+     "note": "AI Use Statement section before the references; desk rejection if missing. The reproducibility checklist is part of the template but omitting it at first submission does not cause desk rejection (requested at author response, required at camera-ready)",
+     "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+     "value": [
+      "ai_use_disclosure"
+     ]
+    },
+    "review_mode": {
+     "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "supplement_policy": {
+     "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+     "value": "due with the full paper (no separate deadline); appended to the main PDF or uploaded as one PDF or one ZIP; must be anonymized"
+    },
+    "template": {
+     "source": "https://aistats.org/aistats2027/AISTATS2027PaperPack.zip",
+     "value": "official AISTATS 2027 LaTeX style (aistats2027.sty, AISTATS2027PaperPack.zip)"
+    }
+   },
+   "source_map": "AISTATS-Skills/resources/official-source-map.md",
+   "venue": "AISTATS",
+   "verified": "2026-11-23"
+  },
+  "Academy-of-Management-Journal-Skills": {
+   "aliases": [
+    "Academy of Management Journal",
+    "Academy-of-Management-Journal-Skills",
+    "amj-skills",
+    "academy-of-management-journal"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://www.aom.org/wp-content/uploads/2025/07/aom_journal_style_guidea3b84b773e3649569a17a05e14cc6eaf.pdf",
+     "value": 200
+    },
+    "apc": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/open-access/",
+     "value": "none; AOM does not support Gold author-funded OA (Green OA, 12-month embargo on the Version of Record)"
+    },
+    "cover_letter": {
+     "note": "not stated as mandatory on the official pages as of 2026-11-23; the ScholarOne Cover Letter section carries acknowledgments and any AI disclosure",
+     "value": null
+    },
+    "data_code_policy": {
+     "note": "no data-availability mandate stated on the official AMJ pages as of 2026-11-23",
+     "value": null
+    },
+    "file_format": {
+     "source": "https://www.aom.org/wp-content/uploads/2025/07/aom_journal_style_guidea3b84b773e3649569a17a05e14cc6eaf.pdf",
+     "value": "Word; Times New Roman 12-pt, double-spaced, 1-inch margins, no page numbers or running heads, no title page under review"
+    },
+    "keywords_max": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-journal/",
+     "value": 3
+    },
+    "keywords_min": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-journal/",
+     "value": 3
+    },
+    "keywords_required": {
+     "note": "selected from the ScholarOne drop-down list",
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-journal/",
+     "value": true
+    },
+    "llm_policy": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/aom-artificial-intelligence-policy/",
+     "value": "work must be the authors' own; disclose any AI use (model and purpose) in the cover letter and acknowledgements and confirm reading the AOM AI policy"
+    },
+    "main_text_pages_max": {
+     "note": "'typically' not to exceed 40 double-spaced pages, Times New Roman 12-pt, 1-inch margins, inclusive of all content; longer papers considered when warranted",
+     "soft": true,
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-journal/",
+     "value": 40
+    },
+    "page_limit_includes_references": {
+     "note": "inclusive of all content, so tables and figures count too",
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-journal/",
+     "value": true
+    },
+    "portal": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-journal/",
+     "value": "ScholarOne Manuscripts (mc.manuscriptcentral.com/AMJ)"
+    },
+    "preprint_policy": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/open-access/",
+     "value": "prior drafts posted online must be taken down before submission and remain down during review"
+    },
+    "reference_style": {
+     "source": "https://www.aom.org/wp-content/uploads/2025/07/aom_journal_style_guidea3b84b773e3649569a17a05e14cc6eaf.pdf",
+     "value": "AOM Style Guide author-date"
+    },
+    "required_statements": {
+     "note": "AI use disclosed in the cover letter and acknowledgements when AI was used; acknowledgments go in the cover letter, not the manuscript",
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-journal/",
+     "value": [
+      "ai_use_disclosure"
+     ]
+    },
+    "review_mode": {
+     "note": "'All submissions are blind-reviewed'; all author identifiers removed",
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-journal/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://www.aom.org/research/publishing-with-aom/author-resources",
+     "value": "none"
+    }
+   },
+   "source_map": "Academy-of-Management-Journal-Skills/resources/official-source-map.md",
+   "venue": "Academy of Management Journal",
+   "verified": "2026-11-23"
+  },
+  "Academy-of-Management-Review-Skills": {
+   "aliases": [
+    "Academy of Management Review",
+    "Academy-of-Management-Review-Skills",
+    "amr-skills",
+    "academy-of-management-review"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://www.aom.org/wp-content/uploads/2025/07/aom_journal_style_guidea3b84b773e3649569a17a05e14cc6eaf.pdf",
+     "value": 200
+    },
+    "apc": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/open-access/",
+     "value": "none; AOM does not support Gold author-funded OA"
+    },
+    "data_code_policy": {
+     "note": "theory-only journal; no data or code policy applies",
+     "value": null
+    },
+    "file_format": {
+     "source": "https://www.aom.org/wp-content/uploads/2025/07/aom_journal_style_guidea3b84b773e3649569a17a05e14cc6eaf.pdf",
+     "value": "Word; Times New Roman 12-pt, double-spaced, 1-inch margins, no page numbers or running heads, no title page under review"
+    },
+    "keywords_required": {
+     "note": "AMR-specific keyword count not stated on the official AMR pages as of 2026-11-23",
+     "value": null
+    },
+    "llm_policy": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/aom-artificial-intelligence-policy/",
+     "value": "work must be the authors' own; disclose any AI use (model and purpose) in the cover letter and acknowledgements and confirm reading the AOM AI policy"
+    },
+    "main_text_pages_max": {
+     "note": "'as a general guide' for initial submissions, double-spaced; contribution-to-length ratio assessed",
+     "soft": true,
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-review/",
+     "value": 30
+    },
+    "page_limit_includes_references": {
+     "note": "excluding references, tables, and figures",
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-review/",
+     "value": false
+    },
+    "portal": {
+     "source": "https://www.aom.org/research/publishing-with-aom/author-resources",
+     "value": "ScholarOne Manuscripts (mc.manuscriptcentral.com/amr)"
+    },
+    "preprint_policy": {
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-review/",
+     "value": "working papers and drafts posted online must be taken down during review; conference or AOM Proceedings versions allowed"
+    },
+    "reference_style": {
+     "source": "https://www.aom.org/wp-content/uploads/2025/07/aom_journal_style_guidea3b84b773e3649569a17a05e14cc6eaf.pdf",
+     "value": "AOM Style Guide author-date"
+    },
+    "required_statements": {
+     "note": "AI use disclosed in the cover letter and acknowledgements when AI was used; acknowledgments go in the cover letter",
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-review/",
+     "value": [
+      "ai_use_disclosure"
+     ]
+    },
+    "review_mode": {
+     "note": "Word file with the title page and all author-identifying references removed",
+     "source": "https://www.aom.org/publications/journals/publishing-with-aom/author-and-reviewer-resources/author-resources/submitting-to-review/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://www.aom.org/research/publishing-with-aom/author-resources",
+     "value": "none"
+    }
+   },
+   "source_map": "Academy-of-Management-Review-Skills/resources/official-source-map.md",
+   "venue": "Academy of Management Review",
+   "verified": "2026-11-23"
+  },
+  "Administrative-Science-Quarterly-Skills": {
+   "aliases": [
+    "Administrative Science Quarterly",
+    "Administrative-Science-Quarterly-Skills",
+    "asq-skills",
+    "administrative-science-quarterly"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": 200
+    },
+    "cover_letter": {
+     "note": "pasted into the submission form: people who have seen the paper, conflicts, blind-review issues, data overlap; not a summary",
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": "required"
+    },
+    "file_format": {
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": "Word or PDF at submission; Word required if accepted"
+    },
+    "keywords_required": {
+     "note": "several keywords from the ASQ ScholarOne keyword list",
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": true
+    },
+    "llm_policy": {
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": "authors fully responsible for accuracy and presentation of AI-assisted content, including citations; Sage AI policy and ASQ AI guidance apply"
+    },
+    "main_text_pages_max": {
+     "note": "no firm page limit; suggested 35-45 pages of text (12-pt Times New Roman, double-spaced, 1-inch margins) plus references, tables, figures, appendices; editors unsubmit very long manuscripts. Re-read 2026-11-23 via the Sage-hosted copy",
+     "soft": true,
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": 45
+    },
+    "page_limit_includes_references": {
+     "note": "references, tables, figures, and appendices are on top of the 35-45 text pages",
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": false
+    },
+    "portal": {
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": "ScholarOne Manuscripts (mc.manuscriptcentral.com/asq)"
+    },
+    "preprint_policy": {
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": "remove working-paper versions from public websites before submitting whenever possible"
+    },
+    "reference_style": {
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": "APA (since January 2025)"
+    },
+    "required_statements": {
+     "note": "a Data and Methods Transparency plan explaining how data/methods information will be shared, required at submission and implemented before acceptance",
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": [
+      "data_availability"
+     ]
+    },
+    "review_mode": {
+     "note": "authors must preserve the integrity of the blind review process",
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": "double-blind"
+    },
+    "supplement_policy": {
+     "source": "https://journals.sagepub.com/author-instructions/asq",
+     "value": "supplemental material may be placed online, anonymized, and linked from the manuscript"
+    }
+   },
+   "source_map": "Administrative-Science-Quarterly-Skills/resources/official-source-map.md",
+   "venue": "Administrative Science Quarterly",
+   "verified": "2026-11-23"
+  },
+  "COLM-Skills": {
+   "aliases": [
+    "Conference on Language Modeling (COLM)",
+    "COLM-Skills",
+    "colm-skills",
+    "colm",
+    "COLM"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "anonymized_supplement_required": {
+     "note": "COLM 2026: code/data as one anonymized zip (max 50 MB) or anonymous URL",
+     "source": "https://colm.cc/Conferences/2026/AuthorGuide",
+     "value": true
+    },
+    "apc": {
+     "note": "no author or publication fee stated on the official pages as of 2026-11-23; papers are public on OpenReview and in pre-proceedings at proceedings.colm.cc",
+     "value": null
+    },
+    "llm_policy": {
+     "source": "https://colm.cc/Conferences/2026/CallForPapers",
+     "value": "COLM 2026 adopts the ICLR 2026 LLM policy minus minor assistance: disclose LLM-originated ideas, LLM-written content (incl. references), LLM-generated data/plots, LLM-based evaluation; grammar/typo fixes and coding assistants need no disclosure"
+    },
+    "main_text_pages_max": {
+     "note": "COLM 2026 (latest published edition; no call for the 2027 edition as of 2026-11-23). Citations and appendices unlimited; optional ethics, reproducibility and acknowledgment sections (each at most 1 page) do not count. Camera-ready gets one extra page (https://colm.cc/FAQ).",
+     "source": "https://colm.cc/Conferences/2026/CallForPapers",
+     "value": 9
+    },
+    "page_limit_includes_references": {
+     "note": "COLM 2026: unlimited pages for citations",
+     "source": "https://colm.cc/Conferences/2026/CallForPapers",
+     "value": false
+    },
+    "portal": {
+     "source": "https://colm.cc/Conferences/2026/CallForPapers",
+     "value": "OpenReview (colmweb.org/COLM/2026/Conference)"
+    },
+    "preprint_policy": {
+     "source": "https://colm.cc/FAQ",
+     "value": "Non-anonymous preprints (arXiv, social media, websites) permitted; submission itself stays anonymous"
+    },
+    "required_statements": {
+     "note": "COLM 2026: ethics, reproducibility and acknowledgment sections are optional; the Code of Ethics is acknowledged in the OpenReview form, and LLM use is disclosed only when it falls in the disclosable categories",
+     "source": "https://colm.cc/Conferences/2026/CallForPapers",
+     "value": []
+    },
+    "review_mode": {
+     "note": "COLM 2026: no acknowledgments and no identity-revealing links (e.g., GitHub) in the submission",
+     "source": "https://colm.cc/Conferences/2026/CallForPapers",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "supplement_policy": {
+     "source": "https://colm.cc/Conferences/2026/AuthorGuide",
+     "value": "Unlimited appendices in the PDF (reviewers not required to read them); code/data as one anonymized zip up to 50 MB or an anonymous URL"
+    },
+    "template": {
+     "source": "https://colm.cc/Conferences/2026/CallForPapers",
+     "value": "COLM 2026 LaTeX style files (github.com/COLM-org/Template, release 2026); packages must not alter template parameters"
+    }
+   },
+   "source_map": "COLM-Skills/resources/official-source-map.md",
+   "venue": "Conference on Language Modeling (COLM)",
+   "verified": "2026-11-23"
+  },
+  "COLT-Skills": {
+   "aliases": [
+    "COLT",
+    "COLT-Skills",
+    "colt-skills",
+    "colt"
+   ],
+   "rules": {
+    "file_format": {
+     "note": "COLT 2027",
+     "source": "https://learningtheory.org/colt2027/cfp.html",
+     "value": "single PDF containing the whole manuscript (main body, references, appendices)"
+    },
+    "llm_policy": {
+     "note": "COLT 2027 LLM policy reads 'Coming soon' as of 2026-11-23; COLT 2026 allowed author LLM use with responsibility for correctness",
+     "value": null
+    },
+    "main_text_pages_max": {
+     "note": "COLT 2027: PMLR-formatted main body; references and special sections such as an Ethics or AI statement excluded; appendices unlimited",
+     "source": "https://learningtheory.org/colt2027/cfp.html",
+     "value": 12
+    },
+    "page_limit_includes_references": {
+     "note": "COLT 2027",
+     "source": "https://learningtheory.org/colt2027/cfp.html",
+     "value": false
+    },
+    "portal": {
+     "note": "not stated for COLT 2027 as of 2026-11-23 (submission instructions 'coming soon'); COLT 2025 and 2026 used Microsoft CMT",
+     "value": null
+    },
+    "preprint_policy": {
+     "note": "COLT 2027 dual-submission policy; the call does not address arXiv posting",
+     "source": "https://learningtheory.org/colt2027/cfp.html",
+     "value": "no parallel submission to proceedings conferences or journals; no journal submission while under COLT review"
+    },
+    "required_statements": {
+     "note": "COLT 2027 call names no mandatory statement; Ethics/AI statements are excluded from the page count if present",
+     "source": "https://learningtheory.org/colt2027/cfp.html",
+     "value": []
+    },
+    "review_mode": {
+     "note": "COLT 2027; area chair knows identities and may reveal them to a reviewer during rebuttal on request; no acknowledgments in the submission",
+     "source": "https://learningtheory.org/colt2027/cfp.html",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "supplement_policy": {
+     "note": "COLT 2027",
+     "source": "https://learningtheory.org/colt2027/cfp.html",
+     "value": "no separate supplement: proofs and details go in unlimited appendices inside the same PDF; judged primarily on the main paper"
+    },
+    "template": {
+     "note": "the COLT 2027 call still links the 2026 style-file archive; check for a 2027 package",
+     "source": "https://learningtheory.org/colt2027/cfp.html",
+     "value": "COLT/PMLR LaTeX style with the [anon] option for submission"
+    }
+   },
+   "source_map": "COLT-Skills/resources/official-source-map.md",
+   "venue": "COLT",
+   "verified": "2026-11-23"
+  },
+  "Cell-Skills": {
+   "aliases": [
+    "Cell",
+    "Cell-Skills",
+    "cell-skills",
+    "cell"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "Cell summary cap not shown on the official pages read on 2026-11-23",
+     "value": null
+    },
+    "apc": {
+     "note": "publishing-options page not readable on 2026-11-23; pack records ~USD 11,400 from 2026-06-23",
+     "value": null
+    },
+    "file_format": {
+     "note": "read via search-engine rendering; Highlights (up to four, ≤85 characters each), eTOC blurb and graphical abstract are final-submission items",
+     "source": "https://www.cell.com/cell/information-for-authors/submit-manuscript",
+     "value": "no specific format required at initial submission (title, authors, summary, enough experimental detail); files 1–2 MB each, 20 MB total"
+    },
+    "portal": {
+     "note": "portal home showed a 'Site under development' banner on 2026-11-23",
+     "source": "https://www.editorialmanager.com/cell",
+     "value": "Cell Press Editorial Manager"
+    },
+    "required_statements": {
+     "note": "initial submission is format-free; Highlights, eTOC blurb and graphical abstract are required at final submission (not at initial submission)",
+     "value": null
+    },
+    "review_mode": {
+     "note": "not confirmed on the official pages as of 2026-11-23",
+     "value": null
+    }
+   },
+   "source_map": "Cell-Skills/resources/official-source-map.md",
+   "venue": "Cell",
+   "verified": "2026-11-23"
+  },
+  "China-Industrial-Economics-Skills": {
+   "aliases": [
+    "中国工业经济 (China Industrial Economics)",
+    "China-Industrial-Economics-Skills",
+    "china-industrial-economics-skills",
+    "china-industrial-economics",
+    "China Industrial Economics"
+   ],
+   "rules": {
+    "abstract_chars_max": {
+     "note": "[摘要] 字数以450—500字为宜 (2022-07 guide); the guide treats 450 as the lower bound too",
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": 500
+    },
+    "data_code_policy": {
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": "After passing the first screening, authors provide original data, processing steps and program code for review; after acceptance, data, programs and complete results for academic oversight; the author pledge consents to publishing data and programs on the journal site."
+    },
+    "jel_codes_required": {
+     "note": "English abstract block must include JEL Classification with three codes separated by spaces; the Chinese block also needs [中图分类号] (one) and [文献标识码] A",
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": true
+    },
+    "keywords_max": {
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": 5
+    },
+    "keywords_min": {
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": 3
+    },
+    "keywords_required": {
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": true
+    },
+    "main_text_chars_max": {
+     "note": "the guide gives a target (全文以2.5万字左右为宜, 18 pages or more at 39×42), not a stated maximum, as of 2026-11-23",
+     "value": null
+    },
+    "portal": {
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=10192",
+     "value": "online 作者投稿 system at https://ciejournal.ajcass.com/"
+    },
+    "reference_style": {
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": "实引 system: in-text 作者（年份）/（作者，年份）; end list Chinese first then English, alphabetical, GB-style tags e.g. 作者.题名[J].期刊名,出版年,卷(期):页数.; notes as per-page footnotes"
+    },
+    "required_statements": {
+     "note": "author pledge (作者承诺书) is signed and sent with the revised manuscript, not at first submission; [基金项目] lists at most 3 national/provincial grants when funded",
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": [
+      "keywords",
+      "jel_codes"
+     ]
+    },
+    "review_mode": {
+     "note": "双向匿名专家审稿制度; at least two field experts per paper",
+     "source": "https://ciejournal.ajcass.com/CommonBlock/SiteContentDetail?contentID=147144",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23 (a 'no fees of any kind' line seen in a 2026-07-08 search snapshot is no longer on the live page)",
+     "value": null
+    }
+   },
+   "source_map": "China-Industrial-Economics-Skills/resources/official-source-map.md",
+   "venue": "中国工业经济 (China Industrial Economics)",
+   "verified": "2026-11-23"
+  },
+  "ECAI-Skills": {
+   "aliases": [
+    "ECAI",
+    "ECAI-Skills",
+    "ecai-skills",
+    "ecai"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "IJCAI-ECAI 2026 states none; ECAI 2025 asked for an abstract of around 100-300 words (not a hard cap)",
+     "value": null
+    },
+    "keywords_max": {
+     "note": "content-area keywords chosen in the submission system at abstract time (IJCAI-ECAI 2026)",
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": 3
+    },
+    "llm_policy": {
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": "LLMs cannot be authors; authors fully responsible; LLM-generated text used as methodology must be documented in the paper"
+    },
+    "main_text_pages_max": {
+     "note": "IJCAI-ECAI 2026 rules (latest published edition; the ECAI 2027 call is 'Coming soon' as of 2026-11-23). Body incl. figures/tables; the last standalone call (ECAI 2025) also capped the body at 7",
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": 7
+    },
+    "page_limit_includes_references": {
+     "note": "IJCAI-ECAI 2026: up to 2 extra pages of references (9 total); ECAI 2025 standalone allowed at most 1",
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": false
+    },
+    "portal": {
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": "chairingtool (IJCAI-ECAI 2026); ECAI 2025 used EasyChair"
+    },
+    "preprint_policy": {
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": "non-anonymous preprints and non-archival venues allowed; the submission itself must be anonymized"
+    },
+    "required_statements": {
+     "note": "ethics statement optional (recommended for sensitive data/tasks); resubmission information is a declaration in the submission form, not a paper section",
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": []
+    },
+    "review_mode": {
+     "note": "IJCAI-ECAI 2026; no acknowledgements at submission",
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": "USD 100 per submission, waived for primary papers (no author on any other submission) — IJCAI-ECAI 2026 only"
+    },
+    "supplement_policy": {
+     "note": "IJCAI-ECAI 2026; ECAI 2025 also 50MB and forbade links to web supplements",
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": "up to 50MB, PDF or ZIP, anonymized, due with the full paper"
+    },
+    "template": {
+     "source": "https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/",
+     "value": "IJCAI author kit (LaTeX styles and Word template) for IJCAI-ECAI 2026; standalone ECAI 2025 used the ECAI LaTeX template (ecai.cls, doubleblind option)"
+    }
+   },
+   "source_map": "ECAI-Skills/resources/official-source-map.md",
+   "venue": "ECAI",
+   "verified": "2026-11-23"
+  },
+  "EMNLP-Skills": {
+   "aliases": [
+    "EMNLP 2026 (via ACL Rolling Review)",
+    "EMNLP-Skills",
+    "emnlp-skills",
+    "emnlp",
+    "EMNLP"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "anonymized_supplement_required": {
+     "note": "supplements and repository links anonymized; no download-tracking cloud links",
+     "source": "https://aclrollingreview.org/cfp",
+     "value": true
+    },
+    "apc": {
+     "note": "no article-processing charge is stated on the official pages as of 2026-11-23; ACL Anthology is CC BY 4.0 open access",
+     "value": null
+    },
+    "llm_policy": {
+     "source": "https://aclrollingreview.org/cfp",
+     "value": "Generative AI cannot be an author; AI writing assistance permitted, but use beyond grammar/spell checkers must be disclosed in the checklist; entirely AI-generated papers, hallucinated citations and prompt injection are desk-rejection grounds"
+    },
+    "main_text_pages_max": {
+     "note": "EMNLP 2026 edition (ARR May 2026 cycle); long papers 8 content pages, short papers 4; accepted papers get one extra page (9 / 5); exceeding the limit is desk rejection. No call for the 2027 edition as of 2026-11-23.",
+     "source": "https://aclrollingreview.org/cfp",
+     "value": 8
+    },
+    "page_limit_includes_references": {
+     "note": "references, the Limitations section, an end-placed ethics section and double-column appendices are uncounted",
+     "source": "https://aclrollingreview.org/cfp",
+     "value": false
+    },
+    "portal": {
+     "source": "https://2026.emnlp.org/calls/main_conference_papers/",
+     "value": "OpenReview via ACL Rolling Review (May 2026 cycle, EMNLP selected at submission), then commitment to EMNLP 2026 by August 2, 2026"
+    },
+    "preprint_policy": {
+     "source": "https://aclrollingreview.org/cfp",
+     "value": "No anonymity period since February 15, 2024; non-anonymous preprints allowed but preprint status must be declared, and the binding 'no non-anonymous preprint' option forbids preprinting until meta-reviews are released"
+    },
+    "required_statements": {
+     "note": "a section titled 'Limitations' (desk rejection if missing) and the Responsible NLP checklist filed in the submission form; ethics statement optional; AI writing/coding assistance beyond grammar tools must be disclosed in the checklist and Acknowledgements",
+     "source": "https://aclrollingreview.org/cfp",
+     "value": [
+      "limitations",
+      "reproducibility_checklist"
+     ]
+    },
+    "review_mode": {
+     "note": "EMNLP 2026; no anonymity period, non-anonymous preprints allowed",
+     "source": "https://2026.emnlp.org/calls/main_conference_papers/",
+     "value": "double-blind"
+    },
+    "supplement_policy": {
+     "source": "https://aclrollingreview.org/cfp",
+     "value": "Appendices after the references in the PDF (double-column, uncounted); software and data each as a single .tgz or .zip archive; no size limit stated"
+    },
+    "template": {
+     "source": "https://aclrollingreview.org/cfp",
+     "value": "Official ACL style template, unmodified; another conference's template or altered margins/fonts is rejected without review"
+    }
+   },
+   "source_map": "EMNLP-Skills/resources/official-source-map.md",
+   "venue": "EMNLP 2026 (via ACL Rolling Review)",
+   "verified": "2026-11-23"
+  },
+  "Econometrica-Skills": {
+   "aliases": [
+    "Econometrica",
+    "Econometrica-Skills",
+    "econometrica-skills",
+    "econometrica"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": 150
+    },
+    "cover_letter": {
+     "note": "include only if it carries review-relevant information: related work elsewhere, prior rejection, exemption requests",
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": "optional"
+    },
+    "data_code_policy": {
+     "source": "https://www.econometricsociety.org/publications/es-data-editor-website/data-and-code-availability-policy",
+     "value": "ES Data and Code Availability Policy: raw data, code and README.pdf before acceptance; Data Editor reproducibility checks; Zenodo ES Journals' Community; exemptions only if stated at initial submission"
+    },
+    "file_format": {
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": "PDF via the electronic submission system; LaTeX template recommended but not required"
+    },
+    "jel_codes_required": {
+     "note": "JEL codes are optional",
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": false
+    },
+    "keywords_required": {
+     "note": "on the title page",
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": true
+    },
+    "llm_policy": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "main_text_pages_max": {
+     "note": "including references and appendices; font >= 12pt, line spacing >= 1.5, margins >= 1.25in; exceptions only with the Editor's prior e-mail permission; supplemental appendix (max 25 pages) not counted",
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": 45
+    },
+    "page_limit_includes_references": {
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": true
+    },
+    "portal": {
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors",
+     "value": "Editorial Express (editorialexpress.com, dbase=econometrica)"
+    },
+    "required_statements": {
+     "note": "data/code exemption requests must be stated at initial submission (cover letter)",
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": [
+      "keywords"
+     ]
+    },
+    "review_mode": {
+     "note": "not stated on the ES pages as of 2026-11-23; the title page carries full author affiliations (no de-identification asked); single-anonymous per the 2026-06-21 Wiley reading",
+     "value": null
+    },
+    "submission_fee": {
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors",
+     "value": "USD 125 regular member / USD 50 student member; submitter must be an ES member; non-refundable; invited resubmissions need only membership; exempt if all authors reside in World Bank low-income countries"
+    },
+    "supplement_policy": {
+     "source": "https://www.econometricsociety.org/publications/econometrica/information-authors/instructions-submitting-articles",
+     "value": "supplemental appendix up to 25 pages, same formatting, posted as Supplemental Material and not typeset; main paper must be self-contained"
+    }
+   },
+   "source_map": "Econometrica-Skills/resources/official-source-map.md",
+   "venue": "Econometrica",
+   "verified": "2026-11-23"
+  },
+  "Economic-Research-Journal-Skills": {
+   "aliases": [
+    "经济研究 (Economic Research Journal)",
+    "Economic-Research-Journal-Skills",
+    "economic-research-skills",
+    "economic-research-journal",
+    "Economic Research Journal"
+   ],
+   "rules": {
+    "abstract_chars_max": {
+     "note": "中文内容提要「一般约300个汉字符」——official typical length, not a stated hard cap; the separate English Summary is ~4400 characters incl. spaces",
+     "soft": true,
+     "source": "https://erj.ajcass.com/detail?id=157467&channelId=11782",
+     "value": 300
+    },
+    "data_code_policy": {
+     "source": "https://erj.ajcass.com/detail?id=157467&channelId=11782",
+     "value": "Since 2025 issue 1: after the acceptance-to-publish notice, authors submit appendix, data files and code that generate the published tables/figures (plus any rights-restriction statement); published on the journal site, WeChat and CNKI. Not required at initial submission."
+    },
+    "file_format": {
+     "source": "https://erj.ajcass.com/detail?id=157467&channelId=11782",
+     "value": "DOC or DOCX"
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official pages as of 2026-11-23; the official template shows no JEL line",
+     "value": null
+    },
+    "keywords_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "keywords_min": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "keywords_required": {
+     "note": "中英文关键词 listed among required manuscript parts; no count stated (template shows 4)",
+     "source": "https://erj.ajcass.com/detail?id=157467&channelId=11782",
+     "value": true
+    },
+    "language": {
+     "source": "https://erj.ajcass.com/detail?id=157467&channelId=11782",
+     "value": "Chinese (original work written in Chinese, with English Summary)"
+    },
+    "main_text_chars_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "portal": {
+     "source": "https://erj.ajcass.com/detail?id=157467&channelId=11782",
+     "value": "https://erj.ajcass.com/Admin/user/login (the only official submission system)"
+    },
+    "reference_style": {
+     "source": "https://erj.ajcass.com/detail?id=158632&channelId=12816",
+     "value": "author-year in-text (作者，年份，页码); end list Chinese first then foreign, by pinyin/alphabet; e.g. 张三，1989：《论市场》，《经济研究》第8期。"
+    },
+    "required_statements": {
+     "note": "author names/order/affiliations/funding go on a separate page (≤5 authors, ≤2 affiliations and ≤2 grants each); English Summary (~4400 chars, five elements) plus its Chinese mirror is also required",
+     "source": "https://erj.ajcass.com/detail?id=157467&channelId=11782",
+     "value": [
+      "keywords"
+     ]
+    },
+    "review_mode": {
+     "note": "manuscript must be fully anonymised (incl. file properties) and is reviewed by anonymous referees; the site says 匿名审稿 without the word 双向",
+     "source": "https://erj.ajcass.com/detail?id=157467&channelId=11782",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23 (secondary sources say no review or page fees)",
+     "value": null
+    }
+   },
+   "source_map": "Economic-Research-Journal-Skills/resources/official-source-map.md",
+   "venue": "经济研究 (Economic Research Journal)",
+   "verified": "2026-11-23"
+  },
+  "ICCV-Skills": {
+   "aliases": [
+    "ICCV",
+    "ICCV-Skills",
+    "iccv-skills",
+    "iccv"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "llm_policy": {
+     "note": "ICCV 2025",
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": "authors may use any tools but are responsible for the content; citations of non-existent material lead to rejection, possibly without review; no disclosure statement required"
+    },
+    "main_text_pages_max": {
+     "note": "ICCV 2025 rules (latest published edition; no ICCV 2027 CFP as of 2026-11-23). Eight pages including figures and tables; over-length papers rejected without review",
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": 8
+    },
+    "page_limit_includes_references": {
+     "note": "additional pages containing only cited references are allowed (ICCV 2025)",
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": false
+    },
+    "portal": {
+     "note": "ICCV 2025 group thecvf.com/ICCV/2025/Conference; the 2027 group is not yet announced",
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": "OpenReview"
+    },
+    "preprint_policy": {
+     "note": "ICCV 2025",
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": "arXiv/technical-report posting allowed and not an anonymity violation; no media discussion until acceptance"
+    },
+    "required_statements": {
+     "note": "no mandatory statement at submission in ICCV 2025; authors are invited (not required) to discuss negative societal impact",
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": []
+    },
+    "review_mode": {
+     "note": "ICCV 2025",
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "supplement_policy": {
+     "note": "ICCV 2025",
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": "optional; due with the paper; reviewers encouraged but not obliged to read it; code encouraged, not required; do not cite a public codebase"
+    },
+    "template": {
+     "source": "https://iccv.thecvf.com/Conferences/2025/AuthorGuidelines",
+     "value": "ICCV 2025 Author Kit (LaTeX, ICCV style); papers not on the template are rejected without review"
+    }
+   },
+   "source_map": "ICCV-Skills/resources/official-source-map.md",
+   "venue": "ICCV",
+   "verified": "2026-11-23"
+  },
+  "ICML-Skills": {
+   "aliases": [
+    "ICML 2027",
+    "ICML-Skills",
+    "icml-skills",
+    "icml",
+    "ICML"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23 (camera-ready guidance: one paragraph, ideally 4-6 sentences)",
+     "value": null
+    },
+    "anonymized_supplement_required": {
+     "source": "https://icml.cc/Conferences/2027/AuthorInstructions",
+     "value": true
+    },
+    "data_code_policy": {
+     "source": "https://icml.cc/Conferences/2027/AuthorInstructions",
+     "value": "code/data encouraged, anonymized; reproducibility considered in decisions; anonymous repo branch frozen after deadline"
+    },
+    "file_format": {
+     "source": "https://icml.cc/Conferences/2027/AuthorInstructions",
+     "value": "single PDF, at most 50MB at submission (20MB camera-ready)"
+    },
+    "llm_policy": {
+     "source": "https://icml.cc/Conferences/2027/UseOfGenerativeAIByAuthors",
+     "value": "AI Disclosure Statement for substantive generative-AI use (routine editing exempt); AI cannot be an author; prompt injection forbidden"
+    },
+    "main_text_pages_max": {
+     "note": "ICML 2027 main paper; references, impact statement, AI Disclosure Statement and appendices unlimited and not counted; camera-ready allows 9",
+     "source": "https://icml.cc/Conferences/2027/CallForPapers",
+     "value": 8
+    },
+    "page_limit_includes_references": {
+     "source": "https://icml.cc/Conferences/2027/AuthorInstructions",
+     "value": false
+    },
+    "portal": {
+     "source": "https://icml.cc/Conferences/2027/CallForPapers",
+     "value": "OpenReview (ICML.cc/2027/Conference)"
+    },
+    "preprint_policy": {
+     "source": "https://icml.cc/Conferences/2027/CallForPapers",
+     "value": "arXiv/preprints and talks allowed; do not advertise as an ICML submission during review; submission must not refer to a non-anonymous version"
+    },
+    "required_statements": {
+     "note": "impact statement and AI Disclosure Statement required in all ICML 2027 submissions; lay summary and financial conflict disclosure are camera-ready only",
+     "source": "https://icml.cc/Conferences/2027/CallForPapers",
+     "value": [
+      "broader_impact",
+      "ai_use_disclosure"
+     ]
+    },
+    "review_mode": {
+     "source": "https://icml.cc/Conferences/2027/CallForPapers",
+     "value": "double-blind"
+    },
+    "supplement_policy": {
+     "source": "https://icml.cc/Conferences/2027/AuthorInstructions",
+     "value": "supplementary manuscripts and code/data, anonymized, same deadline as the paper; no camera-ready supplement"
+    },
+    "template": {
+     "source": "https://icml.cc/Conferences/2027/AuthorInstructions",
+     "value": "ICML 2027 LaTeX style files (icml2027.zip), US letter; no non-LaTeX support"
+    }
+   },
+   "source_map": "ICML-Skills/resources/official-source-map.md",
+   "venue": "ICML 2027",
+   "verified": "2026-11-23"
+  },
+  "ICSME-Skills": {
+   "aliases": [
+    "IEEE ICSME",
+    "ICSME-Skills",
+    "icsme-skills",
+    "icsme",
+    "ICSME"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "conditional_statements": {
+     "note": "required only when AI-generated content is used; data availability is expected under the open-science policy but may be an explanation of non-sharing",
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": [
+      "ai_use_disclosure"
+     ]
+    },
+    "data_code_policy": {
+     "source": "https://conf.researchr.org/attending/icsme-2027/open-science-policy",
+     "value": "open science expected by default: share data/replication package via an archival host, or justify non-sharing in the paper, or promise release on acceptance (discouraged)"
+    },
+    "file_format": {
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": "PDF"
+    },
+    "language": {
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": "English"
+    },
+    "llm_policy": {
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": "IEEE AI-generated-content rule: disclose all AI-generated content, identify the AI system, and note the sections that use it with a brief explanation"
+    },
+    "main_text_pages_max": {
+     "note": "ICSME 2027 research track; includes figures, tables and appendices",
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": 10
+    },
+    "page_limit_includes_references": {
+     "note": "plus up to 2 pages containing only references",
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": false
+    },
+    "portal": {
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": "EasyChair (ICSME 2027 link TBD as of 2026-11-23)"
+    },
+    "preprint_policy": {
+     "source": "https://conf.researchr.org/attending/icsme-2027/open-science-policy",
+     "value": "preprints allowed but the submission title must differ from the arXiv version; archiving after review is recommended"
+    },
+    "required_statements": {
+     "note": "required only when AI-generated content is used; data availability is expected under the open-science policy but may be an explanation of non-sharing",
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": []
+    },
+    "review_mode": {
+     "note": "double-anonymous; title must differ from arXiv preprint",
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "template": {
+     "source": "https://conf.researchr.org/track/icsme-2027/icsme-2027-papers",
+     "value": "IEEE two-column conference format, \\documentclass[conference]{IEEEtran}; Word users US Letter template"
+    }
+   },
+   "source_map": "ICSME-Skills/resources/official-source-map.md",
+   "venue": "IEEE ICSME",
+   "verified": "2026-11-23"
+  },
+  "IJCAI-Skills": {
+   "aliases": [
+    "IJCAI 2027",
+    "IJCAI-Skills",
+    "ijcai-skills",
+    "ijcai",
+    "IJCAI"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "anonymized_supplement_required": {
+     "source": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+     "value": true
+    },
+    "data_code_policy": {
+     "source": "https://2027.ijcai.org/reproducibility/",
+     "value": "Code and data sharing encouraged but not strictly required if results are reproducible in principle"
+    },
+    "file_format": {
+     "source": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+     "value": "PDF in IJCAI 2027 style"
+    },
+    "keywords_max": {
+     "note": "content-area keywords chosen in the submission form, not printed in the paper",
+     "source": "https://2027.ijcai.org/ijcai-2027-submission-process/",
+     "value": 3
+    },
+    "llm_policy": {
+     "source": "https://ijcai.org/generative_ai_policy/",
+     "value": "AI cannot be an author; LLMs may only polish the authors' own text; LLM outputs used in the method or experiments must be labelled and described; prompt injection forbidden"
+    },
+    "main_text_pages_max": {
+     "note": "IJCAI 2027 main track: 7 body pages incl. figures/tables, plus up to 2 reference pages (9 total); overlength rejected without review",
+     "source": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+     "value": 7
+    },
+    "page_limit_includes_references": {
+     "note": "references get up to 2 extra pages; optional ethics statement may also sit there",
+     "source": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+     "value": false
+    },
+    "portal": {
+     "note": "IJCAI 2027 submission site listed as TBA as of 2026-11-23",
+     "value": null
+    },
+    "preprint_policy": {
+     "source": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+     "value": "Non-anonymous preprints do not cause rejection; the submission itself must stay anonymous"
+    },
+    "required_statements": {
+     "note": "IJCAI 2027: no in-paper statement is required (ethics statement optional; acknowledgements and contribution statements forbidden in the review version); whether the reproducibility checklist is filed at submission is contradictory across official pages as of 2026-11-23",
+     "value": null
+    },
+    "review_mode": {
+     "source": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://2027.ijcai.org/primary-paper-initiative/",
+     "value": "USD 100 per main/special-track submission that is not a primary paper; waived for primary papers"
+    },
+    "supplement_policy": {
+     "source": "https://2027.ijcai.org/ijcai-2027-call-for-papers-main-track/",
+     "value": "Up to 50MB, PDF or ZIP, anonymized; appendix due with the full paper (January 11, 2027)"
+    },
+    "template": {
+     "source": "https://www.ijcai.org/authors_kit",
+     "value": "IJCAI 2027 formatting guidelines (FormattingGuidelines-IJCAI-27.zip, LaTeX and Word) from the IJCAI Author Kit"
+    }
+   },
+   "source_map": "IJCAI-Skills/resources/official-source-map.md",
+   "venue": "IJCAI 2027",
+   "verified": "2026-11-23"
+  },
+  "IMC-Skills": {
+   "aliases": [
+    "ACM Internet Measurement Conference (IMC)",
+    "IMC-Skills",
+    "imc-skills",
+    "imc",
+    "IMC"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "recommended maximum, not a hard limit",
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": 200
+    },
+    "apc": {
+     "source": "https://conferences.sigcomm.org/imc/2027/cfp/",
+     "value": "ACM Open Access: none for ACM Open institutions; otherwise 2027 subsidized APC USD 500 (ACM/SIG members) / 750 (non-members) unless waived"
+    },
+    "data_code_policy": {
+     "source": "https://conferences.sigcomm.org/imc/2027/cfp/",
+     "value": "artifact-availability declaration (full / partial / no) required at submission plus a mandatory Open Science appendix section; reasons required if artifacts cannot be shared; accepted papers shepherded"
+    },
+    "file_format": {
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": "PDF under 15 MB plus the BBL file of references"
+    },
+    "llm_policy": {
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": "limited generative-AI use allowed per ACM author guidelines; disclose in a mandatory Generative AI appendix section (footnote for small text spans); upload the BBL/plain-text references for verification; authors fully responsible"
+    },
+    "main_text_pages_max": {
+     "note": "IMC 2027 full papers: 13 pages of technical content; short papers up to 6 pages; any paper over 6 pages of technical content is reviewed as full",
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": 13
+    },
+    "page_limit_includes_references": {
+     "note": "unlimited pages for references and appendices (IMC 2027)",
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": false
+    },
+    "portal": {
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": "HotCRP, one instance per cycle (imc2027-cycle1.hotcrp.com, imc2027-cycle2.hotcrp.com; Replicability EoI at imc2027-repro.hotcrp.com)"
+    },
+    "preprint_policy": {
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": "technical reports/arXiv allowed and not concurrent submission, but do not broadcast the paper (no large mailing lists, social media, press releases) during review"
+    },
+    "required_statements": {
+     "note": "IMC 2027 requires three appendix sections at submission: Ethics, Open Science and Generative AI. Only Generative AI maps to an allowed key; the Ethics section is an ethics statement (not an approval) and Open Science is an artifact-availability statement — see data_code_policy",
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": [
+      "ai_use_disclosure"
+     ]
+    },
+    "review_mode": {
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "template": {
+     "source": "https://conferences.sigcomm.org/imc/2027/submission-instructions/",
+     "value": "ACM acmart: \\documentclass[10pt,sigconf,letterpaper,anonymous,nonacm]{acmart}; Letter paper, 10-point, numbered pages"
+    }
+   },
+   "source_map": "IMC-Skills/resources/official-source-map.md",
+   "venue": "ACM Internet Measurement Conference (IMC)",
+   "verified": "2026-11-23"
+  },
+  "JAMA-Skills": {
+   "aliases": [
+    "JAMA",
+    "JAMA-Skills",
+    "jama-skills",
+    "jama"
+   ],
+   "rules": {
+    "abstract_format": {
+     "note": "Importance, Objective, Design/Setting/Participants, Intervention(s) or Exposure(s), Main Outcome(s) and Measure(s), Results, Conclusions and Relevance, Trial Registration",
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": "structured"
+    },
+    "abstract_words_max": {
+     "note": "reports of original data",
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": 350
+    },
+    "apc": {
+     "note": "no author fee on the default route; flagship OA fee not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "cover_letter": {
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": "required"
+    },
+    "data_code_policy": {
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": "Data Sharing Statement required for all research reports (whether data will or will not be shared), collected in the submission system"
+    },
+    "exhibits_max": {
+     "note": "total tables and/or figures, Original Investigation",
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": 5
+    },
+    "llm_policy": {
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": "AI-generated content discouraged unless part of the research design; AI used in the study described in Methods; AI used in manuscript preparation reported in the Acknowledgment section with tool, version, manufacturer, dates and use"
+    },
+    "main_text_words_max": {
+     "note": "Original Investigation; excludes abstract, tables, figures, acknowledgments, references and online-only material",
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": 3000
+    },
+    "portal": {
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": "http://manuscripts.jama.com"
+    },
+    "preprint_policy": {
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": "preprints allowed; give the preprint link and describe differences at submission"
+    },
+    "reference_style": {
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": "AMA style, numbered in citation order; up to 6 authors, else first 3 + et al"
+    },
+    "required_statements": {
+     "note": "trial_registration applies to clinical trials (registry name, ID, URL at end of abstract); data_availability = JAMA Data Sharing Statement; COI disclosures in the Acknowledgment section (Authorship Forms requested after submission); funding source and role of funder; EQUATOR guideline (CONSORT diagram + checklist for RCTs). Conditional: IRB approval/waiver and informed consent in Methods for human studies; AI use in Acknowledgment section; trial protocol + SAP for clinical trials",
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": [
+      "structured_abstract",
+      "key_points",
+      "trial_registration",
+      "data_availability",
+      "conflict_of_interest",
+      "funding",
+      "reporting_guideline"
+     ]
+    },
+    "review_mode": {
+     "note": "single-anonymized: author identities are made known to reviewers",
+     "source": "https://jamanetwork.com/journals/jama/pages/instructions-for-authors",
+     "value": "single-blind"
+    }
+   },
+   "source_map": "JAMA-Skills/resources/official-source-map.md",
+   "venue": "JAMA",
+   "verified": "2026-11-23"
+  },
+  "Journal-of-Finance-Skills": {
+   "aliases": [
+    "The Journal of Finance",
+    "Journal-of-Finance-Skills",
+    "jf-skills",
+    "journal-of-finance",
+    "Journal of Finance"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://afajof.org/wp-content/uploads/JF_Submission_Guidelines.pdf",
+     "value": 100
+    },
+    "cover_letter": {
+     "note": "only for a code-sharing exemption request or a potential conflict of interest",
+     "source": "https://afajof.org/submissions/",
+     "value": "discouraged"
+    },
+    "data_code_policy": {
+     "source": "https://afajof.org/wp-content/uploads/Data-and-Code-Sharing-Policy-1-April-2024.pdf",
+     "value": "code (and data where shareable, else pseudo data) delivered after conditional acceptance and checked by the Data Editor; disclosure plan and any exemption request at initial submission"
+    },
+    "file_format": {
+     "source": "https://afajof.org/submissions/",
+     "value": "single PDF; at least 1.5 line spacing, 12-point font, 1-inch side and 1.5-inch top/bottom margins"
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "keywords_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "llm_policy": {
+     "source": "https://afajof.org/submissions/",
+     "value": "AI may assist drafting/editing text or code; authors accountable; AI not a co-author; tool use may be briefly described at submission; AI-built datasets/analyses need open-source or time-stamped models and prompt documentation"
+    },
+    "main_text_pages_max": {
+     "note": "includes internal appendices, references, figures and tables; the Internet Appendix bundled at the end of the same PDF and the disclosure-statement pages are not counted; over-length papers are desk-rejected",
+     "source": "https://afajof.org/submissions/",
+     "value": 60
+    },
+    "page_limit_includes_references": {
+     "source": "https://afajof.org/wp-content/uploads/JF_Submission_Guidelines.pdf",
+     "value": true
+    },
+    "portal": {
+     "source": "https://afajof.org/submissions/",
+     "value": "Editorial Express (via the Submit a Paper link on afajof.org/submissions/)"
+    },
+    "required_statements": {
+     "note": "one disclosure per author by name, on the page after the title page in the same PDF; submissions without it are returned",
+     "source": "https://afajof.org/submissions/",
+     "value": [
+      "disclosure_statement"
+     ]
+    },
+    "review_mode": {
+     "note": "title page carries the title and all author names; no anonymization",
+     "source": "https://afajof.org/submissions/",
+     "value": "single-blind"
+    },
+    "submission_fee": {
+     "source": "https://afajof.org/submissions/",
+     "value": "USD 400 AFA member / 525 non-member (high-income); 100 / 150 (middle-income); none (low-income)"
+    },
+    "supplement_policy": {
+     "source": "https://afajof.org/submissions/",
+     "value": "Internet Appendix placed at the end of the same PDF, titled 'Internet Appendix', not a separate upload; paper must be self-contained"
+    }
+   },
+   "source_map": "Journal-of-Finance-Skills/resources/official-source-map.md",
+   "venue": "The Journal of Finance",
+   "verified": "2026-11-23"
+  },
+  "Journal-of-Financial-Economics-Skills": {
+   "aliases": [
+    "Journal of Financial Economics",
+    "Journal-of-Financial-Economics-Skills",
+    "jfe-skills",
+    "journal-of-financial-economics"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://www.jfinec.com/submissions",
+     "value": 100
+    },
+    "cover_letter": {
+     "note": "required in practice only to request a data/code-policy exemption (initial submission), flag an R&R, or request an editor",
+     "source": "https://www.jfinec.com/submissions",
+     "value": "optional"
+    },
+    "data_code_policy": {
+     "source": "https://www.jfinec.com/data-and-code-sharing-policy",
+     "value": "accepted papers deposit data (or pseudo data), code and instructions to Mendeley Data or a domain repository; exemptions requested in the initial cover letter"
+    },
+    "file_format": {
+     "source": "https://www.jfinec.com/submissions",
+     "value": "PDF; double-spaced, 12-point or larger font, at least one-inch margins; avoid high-resolution figures at initial submission"
+    },
+    "jel_codes_required": {
+     "note": "not stated on jfinec.com as of 2026-11-23",
+     "value": null
+    },
+    "language": {
+     "source": "https://www.jfinec.com/submissions",
+     "value": "English"
+    },
+    "llm_policy": {
+     "note": "not stated on jfinec.com as of 2026-11-23; the Elsevier Guide for Authors carries a generative-AI declaration whose application at initial submission is unconfirmed",
+     "value": null
+    },
+    "main_text_pages_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "portal": {
+     "source": "https://www.jfinec.com/submissions",
+     "value": "Editorial Manager (editorialmanager.com/finec)"
+    },
+    "reference_style": {
+     "source": "https://www.sciencedirect.com/journal/journal-of-financial-economics/publish/guide-for-authors",
+     "value": "author-date (name-year)"
+    },
+    "required_statements": {
+     "note": "in-manuscript statements only; conflict_of_interest is a separate upload (see separate_upload_statements)",
+     "source": "https://www.jfinec.com/submissions",
+     "value": []
+    },
+    "review_mode": {
+     "note": "the manuscript PDF must be anonymous (no author information or acknowledgments); author details go in a separate title page PDF. The page does not use the term 'double-blind'",
+     "source": "https://www.jfinec.com/submissions",
+     "value": "double-blind"
+    },
+    "separate_upload_statements": {
+     "note": "one conflict-of-interest disclosure per author, gathered in one separate PDF; required even when there is nothing to disclose, and at resubmission",
+     "source": "https://www.jfinec.com/submissions",
+     "value": [
+      "conflict_of_interest"
+     ]
+    },
+    "submission_fee": {
+     "source": "https://www.jfinec.com/submissions",
+     "value": "USD 850 initial submission; USD 400 refunded on desk reject (max four per author per calendar year); full refund if decision after 120 days; no fee for R&R"
+    },
+    "supplement_policy": {
+     "source": "https://www.jfinec.com/submissions",
+     "value": "online appendix attached to the end of the main manuscript file, clearly marked, no author names; nothing uploaded as Supplementary Material"
+    }
+   },
+   "source_map": "Journal-of-Financial-Economics-Skills/resources/official-source-map.md",
+   "venue": "Journal of Financial Economics",
+   "verified": "2026-11-23"
+  },
+  "Journal-of-Management-World-Skills": {
+   "aliases": [
+    "管理世界 (Management World)",
+    "Journal-of-Management-World-Skills",
+    "management-world-skills",
+    "journal-of-management-world",
+    "Journal of Management World"
+   ],
+   "rules": {
+    "abstract_chars_max": {
+     "note": "300字以内的中文摘要",
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/wkTextContent.aspx?navigationContentID=0a96be87-490b-49ff-90aa-bee7b5d1b2cc&mid=glsj",
+     "value": 300
+    },
+    "data_code_policy": {
+     "note": "a 2023/2025 data-and-code availability policy is NOT on the official pages as of 2026-11-23",
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/wkTextContent.aspx?navigationContentID=0a96be87-490b-49ff-90aa-bee7b5d1b2cc&mid=glsj",
+     "value": "Authors must provide the research data if the editorial office asks during review; after publication they should share data with readers on request or explain how to obtain it."
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "keywords_max": {
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/wkTextContent.aspx?navigationContentID=0a96be87-490b-49ff-90aa-bee7b5d1b2cc&mid=glsj",
+     "value": 5
+    },
+    "keywords_min": {
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/wkTextContent.aspx?navigationContentID=0a96be87-490b-49ff-90aa-bee7b5d1b2cc&mid=glsj",
+     "value": 3
+    },
+    "keywords_required": {
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/wkTextContent.aspx?navigationContentID=0a96be87-490b-49ff-90aa-bee7b5d1b2cc&mid=glsj",
+     "value": true
+    },
+    "main_text_chars_max": {
+     "note": "not stated on the official pages as of 2026-11-23 (only: length should match the contribution)",
+     "value": null
+    },
+    "portal": {
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/index.aspx?mid=glsj",
+     "value": "online submission via the author system at glsj.cbpt.cnki.net (real-name registration)"
+    },
+    "reference_style": {
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/wkTextContent.aspx?navigationContentID=0a96be87-490b-49ff-90aa-bee7b5d1b2cc&mid=glsj",
+     "value": "notes and references at the end of the article; notes numbered consecutively; references ordered by author pinyin / English name; only works cited in text or footnotes"
+    },
+    "review_mode": {
+     "note": "匿名审稿制度: author identity only on the title page, nothing identifying elsewhere",
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/wkTextContent.aspx?navigationContentID=0a96be87-490b-49ff-90aa-bee7b5d1b2cc&mid=glsj",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "page charges are not mentioned on the official page",
+     "source": "https://glsj.cbpt.cnki.net/WKB2/WebPublication/wkTextContent.aspx?navigationContentID=0a96be87-490b-49ff-90aa-bee7b5d1b2cc&mid=glsj",
+     "value": "No review fee (本刊不收取审稿费); no author payment since 2007"
+    }
+   },
+   "source_map": "Journal-of-Management-World-Skills/resources/official-source-map.md",
+   "venue": "管理世界 (Management World)",
+   "verified": "2026-11-23"
+  },
+  "Journal-of-Marketing-Research-Skills": {
+   "aliases": [
+    "Journal of Marketing Research",
+    "Journal-of-Marketing-Research-Skills",
+    "jmr-skills",
+    "journal-of-marketing-research"
+   ],
+   "rules": {
+    "abstract_format": {
+     "note": "re-read 2026-11-23 via the Sage-hosted copy",
+     "source": "https://journals.sagepub.com/author-instructions/mrj",
+     "value": "unstructured"
+    },
+    "abstract_words_max": {
+     "note": "written in third person",
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": 200
+    },
+    "data_code_policy": {
+     "source": "https://www.ama.org/journal-of-marketing-research-policy-for-research-transparency/",
+     "value": "JMR Research Transparency Policy (effective 2023-07-01, updated 2025-08-01): alternative disclosure plan proposed at initial submission; replication materials to JMR Dataverse at conditional acceptance, verified by a Data Editor; Data Availability Statement in the final manuscript"
+    },
+    "file_format": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "Word (PDF if LaTeX); 12-pt Times New Roman, double-spaced, 1-inch margins, no page numbers, line numbers, headers or footers"
+    },
+    "keywords_max": {
+     "note": "up to 8 primary keywords",
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": 8
+    },
+    "keywords_min": {
+     "note": "re-read 2026-11-23 via the Sage-hosted copy",
+     "source": "https://journals.sagepub.com/author-instructions/mrj",
+     "value": 3
+    },
+    "keywords_required": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": true
+    },
+    "llm_policy": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "AI-generated content identified in the main document (e.g., Methods) and in Acknowledgments; AI cannot be an author"
+    },
+    "main_text_pages_max": {
+     "note": "applies at all review stages; inclusive of title, abstract, keywords, text, footnotes, references, tables, figures, print appendices; Web Appendix excluded",
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": 50
+    },
+    "page_limit_includes_references": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": true
+    },
+    "portal": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "ScholarOne (mc.manuscriptcentral.com/ama_jmr)"
+    },
+    "preprint_policy": {
+     "source": "https://journals.sagepub.com/author-instructions/mrj",
+     "value": "preprints accepted; enter the preprint DOI; do not post updated versions during review"
+    },
+    "reference_style": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "AMA author-date (full first names; et al. for four or more authors)"
+    },
+    "required_statements": {
+     "note": "on the separate title page under Statements and Declarations; AI-generated content must be identified in the main document and in Acknowledgments if used",
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": [
+      "conflict_of_interest",
+      "funding",
+      "ethics_approval",
+      "informed_consent",
+      "data_availability"
+     ]
+    },
+    "review_mode": {
+     "note": "AMA: 'All reviews use a double-anonymous review process'",
+     "source": "https://www.ama.org/ama-journals-editorial-policies-procedures/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://journals.sagepub.com/author-instructions/mrj",
+     "value": "none; no fees to submit or publish (optional Sage Choice OA)"
+    },
+    "supplement_policy": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "at most one Web Appendix, single PDF, anonymized, W-prefixed tables/figures, excluded from the 50 pages"
+    },
+    "title_words_max": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": 25
+    }
+   },
+   "source_map": "Journal-of-Marketing-Research-Skills/resources/official-source-map.md",
+   "venue": "Journal of Marketing Research",
+   "verified": "2026-11-23"
+  },
+  "Journal-of-Marketing-Skills": {
+   "aliases": [
+    "Journal of Marketing",
+    "Journal-of-Marketing-Skills",
+    "jm-skills",
+    "journal-of-marketing"
+   ],
+   "rules": {
+    "abstract_format": {
+     "note": "re-read 2026-11-23 via the Sage-hosted copy",
+     "source": "https://journals.sagepub.com/author-instructions/JMX",
+     "value": "unstructured"
+    },
+    "abstract_words_max": {
+     "note": "third person; SAGE: unstructured",
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": 200
+    },
+    "data_code_policy": {
+     "source": "https://www.ama.org/journal-of-marketing-policy-for-research-transparency/",
+     "value": "JM Research Transparency Policy: replication packet to JM Dataverse at conditional acceptance; alternative disclosure plan proposed at initial submission; Data Availability Statement in the final manuscript"
+    },
+    "file_format": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "Word (PDF if LaTeX); 12-pt Times New Roman, double-spaced, 1-inch margins, no page numbers, line numbers, headers or footers"
+    },
+    "keywords_max": {
+     "note": "up to 8 primary keywords",
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": 8
+    },
+    "keywords_min": {
+     "note": "re-read 2026-11-23 via the Sage-hosted copy",
+     "source": "https://journals.sagepub.com/author-instructions/JMX",
+     "value": 3
+    },
+    "keywords_required": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": true
+    },
+    "llm_policy": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "AI-generated content identified in the main document (e.g., Methods) and in Acknowledgments; AI cannot be an author"
+    },
+    "main_text_pages_max": {
+     "note": "applies at all review stages; inclusive of title, abstract, keywords, text, footnotes, references, tables, figures, print appendices; web appendix excluded",
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": 50
+    },
+    "page_limit_includes_references": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": true
+    },
+    "portal": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "ScholarOne (mc.manuscriptcentral.com/ama_jm)"
+    },
+    "preprint_policy": {
+     "source": "https://journals.sagepub.com/author-instructions/JMX",
+     "value": "preprints accepted; enter the preprint DOI; do not post updated versions during review"
+    },
+    "reference_style": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "AMA author-date (full first names; et al. for four or more authors)"
+    },
+    "required_statements": {
+     "note": "on the separate title page under Statements and Declarations; write 'Not applicable' rather than omitting a heading. AI-generated content must be identified in the main document and in Acknowledgments if used",
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": [
+      "conflict_of_interest",
+      "funding",
+      "ethics_approval",
+      "informed_consent",
+      "data_availability"
+     ]
+    },
+    "review_mode": {
+     "note": "AMA: double-anonymous; separate title page and main document, web appendix also anonymized",
+     "source": "https://www.ama.org/ama-journals-editorial-policies-procedures/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://journals.sagepub.com/author-instructions/JMX",
+     "value": "none; no fees to submit or publish (optional Sage Choice OA fee; color print charged separately)"
+    },
+    "supplement_policy": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": "at most one Web Appendix, single PDF, anonymized, W-prefixed tables/figures, excluded from the 50 pages"
+    },
+    "title_words_max": {
+     "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/",
+     "value": 25
+    }
+   },
+   "source_map": "Journal-of-Marketing-Skills/resources/official-source-map.md",
+   "venue": "Journal of Marketing",
+   "verified": "2026-11-23"
+  },
+  "Journal-of-Political-Economy-Skills": {
+   "aliases": [
+    "Journal of Political Economy",
+    "Journal-of-Political-Economy-Skills",
+    "jpe-skills",
+    "journal-of-political-economy"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "data_code_policy": {
+     "source": "https://jpedataeditor.github.io/policy",
+     "value": "JPE Data and Code Policy (DCAS v1.0): data, programs and computation details before publication; JPE Data Editor reproducibility check; JPE Dataverse deposit; exemptions only if requested at first submission"
+    },
+    "file_format": {
+     "source": "https://www.journals.uchicago.edu/journals/jpe/instruct",
+     "value": "PDF preferred; Editorial Manager also accepts Word and LaTeX; title page with names, e-mail addresses and affiliations of all authors"
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "language": {
+     "source": "https://www.journals.uchicago.edu/journals/jpe/instruct",
+     "value": "English"
+    },
+    "llm_policy": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "main_text_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "portal": {
+     "source": "https://www.journals.uchicago.edu/journals/jpe/instruct",
+     "value": "Editorial Manager (editorialmanager.com/jpolec)"
+    },
+    "review_mode": {
+     "note": "read via search-engine rendering (site returns 403 to direct fetches); manuscript must begin with a title page naming all authors",
+     "source": "https://www.journals.uchicago.edu/journals/jpe/instruct",
+     "value": "single-blind"
+    },
+    "submission_fee": {
+     "source": "https://www.journals.uchicago.edu/journals/jpe/instruct",
+     "value": "USD 250 nonsubscribers / USD 125 individual JPE subscribers; non-refundable; waiver for 3+ JPE referee reports in the prior 12 months"
+    }
+   },
+   "source_map": "Journal-of-Political-Economy-Skills/resources/official-source-map.md",
+   "venue": "Journal of Political Economy",
+   "verified": "2026-11-23"
+  },
+  "Journal-of-World-Economy-Skills": {
+   "aliases": [
+    "世界经济 (The Journal of World Economy)",
+    "Journal-of-World-Economy-Skills",
+    "journal-of-world-economy-skills",
+    "journal-of-world-economy",
+    "Journal of World Economy"
+   ],
+   "rules": {
+    "abstract_chars_max": {
+     "note": "not stated on the official pages as of 2026-11-23 (400—500 belongs to 世界经济与政治)",
+     "value": null
+    },
+    "data_code_policy": {
+     "source": "http://iwep.cssn.cn/cbw/cbw_xsqk/xsqk_sjjj/xsqk_zzz/",
+     "value": "Within one week after final acceptance, send data and code per the journal's replication-policy guide; data, code and appendices are published on jweonline.cn, WeChat and CNKI; a data-disclosure exemption can be requested but code, logs and output must still be published. Not required at initial submission."
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "keywords_max": {
+     "source": "https://sjjj.magtech.com.cn/CN/column/column6.shtml",
+     "value": 5
+    },
+    "keywords_min": {
+     "source": "https://sjjj.magtech.com.cn/CN/column/column6.shtml",
+     "value": 3
+    },
+    "keywords_required": {
+     "source": "https://sjjj.magtech.com.cn/CN/column/column6.shtml",
+     "value": true
+    },
+    "main_text_chars_max": {
+     "note": "论文字数最好不超过2万字 — soft guidance in the editorial office's format-adjustment rules",
+     "soft": true,
+     "source": "https://sjjj.magtech.com.cn/attached/file/20231010/20231010085505_466.docx",
+     "value": 20000
+    },
+    "portal": {
+     "source": "https://sjjj.magtech.com.cn/CN/column/column6.shtml",
+     "value": "www.jweonline.cn (redirects to https://sjjj.magtech.com.cn/CN/home)"
+    },
+    "reference_style": {
+     "source": "https://sjjj.magtech.com.cn/CN/column/column6.shtml",
+     "value": "per-page footnotes for notes; reference list at the end matching in-text citations, Chinese first then foreign, by pinyin/alphabet; e.g. 陆铭、冯皓（2014）：《……》，《世界经济》第7期。"
+    },
+    "review_mode": {
+     "note": "双向匿名审稿制度; not applied to invited papers",
+     "source": "http://iwep.cssn.cn/cbw/cbw_xsqk/xsqk_sjjj/xsqk_zzz/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://sjjj.magtech.com.cn/CN/column/column6.shtml",
+     "value": "None — 本刊不向作者以任何形式收取任何费用; authors are paid per article"
+    },
+    "title_chars_max": {
+     "note": "title incl. subtitle and punctuation; declarative sentence",
+     "soft": true,
+     "source": "https://sjjj.magtech.com.cn/attached/file/20231010/20231010085505_466.docx",
+     "value": 26
+    }
+   },
+   "source_map": "Journal-of-World-Economy-Skills/resources/official-source-map.md",
+   "venue": "世界经济 (The Journal of World Economy)",
+   "verified": "2026-11-23"
+  },
+  "Journal-of-the-European-Economic-Association-Skills": {
+   "aliases": [
+    "Journal of the European Economic Association",
+    "Journal-of-the-European-Economic-Association-Skills",
+    "jeea-skills",
+    "journal-of-the-european-economic-association"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "data_code_policy": {
+     "source": "https://academic.oup.com/jeea/pages/Author_Guidelines",
+     "value": "DCAS-endorsing; data, programs and computation details before publication; Data Editor verifies before formal acceptance; ZIP package with README PDF and data checklist; packages posted to the JEEA Zenodo community; exemptions only if requested at first submission"
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "keywords_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "language": {
+     "source": "https://eeassoc.org/submit-your-paper",
+     "value": "English"
+    },
+    "llm_policy": {
+     "source": "https://academic.oup.com/jeea/pages/Author_Guidelines",
+     "value": "AI use beyond spelling and grammar checks must be disclosed and precisely described; authors remain responsible for all content"
+    },
+    "main_text_pages_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "main_text_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "portal": {
+     "source": "https://eeassoc.org/submit-your-paper",
+     "value": "EEA members-only area ('Submit a paper to JEEA' link appears after fee payment)"
+    },
+    "required_statements": {
+     "note": "in-manuscript statements only; disclosure_statement is a separate upload (see separate_upload_statements)",
+     "source": "https://academic.oup.com/jeea/pages/Author_Guidelines",
+     "value": []
+    },
+    "review_mode": {
+     "note": "authors known to reviewers; reviewers anonymous",
+     "source": "https://academic.oup.com/jeea/pages/Author_Guidelines",
+     "value": "single-blind"
+    },
+    "separate_upload_statements": {
+     "note": "upload at online-form step 4 or select 'nothing to disclose'. Conditional: AI use beyond spelling/grammar must be disclosed; contribution statement required with 5+ coauthors; data-exemption requests must be stated at first submission",
+     "source": "https://academic.oup.com/jeea/pages/Author_Guidelines",
+     "value": [
+      "disclosure_statement"
+     ]
+    },
+    "submission_fee": {
+     "source": "https://eeassoc.org/jeea-submission-fee",
+     "value": "EUR 100 (from 2026-02-01); submitter must be an EEA member; waived if all authors are based in World Bank low/middle-income countries; non-refundable"
+    }
+   },
+   "source_map": "Journal-of-the-European-Economic-Association-Skills/resources/official-source-map.md",
+   "venue": "Journal of the European Economic Association",
+   "verified": "2026-11-23"
+  },
+  "KDD-Skills": {
+   "aliases": [
+    "KDD 2027 (Research Track)",
+    "KDD-Skills",
+    "kdd-skills",
+    "kdd",
+    "KDD"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "apc": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "None for ACM Open institutions; otherwise 2027 subsidized APC USD 500 ACM/SIG member / 750 non-member unless waived"
+    },
+    "data_code_policy": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "Anonymized code repository optional but highly recommended at submission; public release strongly encouraged on acceptance; ACM Artifacts Available badge needs a DOI archive; optional artifact pledge"
+    },
+    "file_format": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "single PDF"
+    },
+    "keywords_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "language": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "English"
+    },
+    "llm_policy": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "ACM authorship and generative-AI policy applies; the 2027 Research CFP states no separate author disclosure step; reviewers must disclose generative-AI use and may not upload paper text to such tools"
+    },
+    "main_text_pages_max": {
+     "note": "KDD 2027 Research Track, 8 content pages; references and optional appendix follow with no page limit. ADS, Datasets and Benchmarks and AI for Sciences full papers also use 8 content pages; camera-ready is 9 content within 12 total",
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": 8
+    },
+    "page_limit_includes_references": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": false
+    },
+    "portal": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "OpenReview (KDD.org/2027/Research_Track_Cycle_1; Cycle 2 group not yet posted)"
+    },
+    "preprint_policy": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "Anonymized preprints (e.g., arXiv, SSRN) allowed without citing them"
+    },
+    "required_statements": {
+     "note": "Research Track requires no manuscript statement at submission; an ethical-use-of-data / informed-consent section is encouraged when appropriate. AI for Sciences requires Limitations and Ethical Considerations plus Generative AI Usage sections",
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": []
+    },
+    "review_mode": {
+     "note": "Research Track only; the KDD 2027 ADS, Datasets and Benchmarks and AI for Sciences tracks are single-blind",
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "no submission fee stated on the KDD 2027 CFPs as of 2026-11-23",
+     "value": null
+    },
+    "supplement_policy": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "Optional appendix after the references in the same PDF, no page limit, same format as the body; reviewers need not read beyond page 8; nothing may be shared with reviewers after the deadline"
+    },
+    "template": {
+     "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+     "value": "ACM acmart double-column, \\documentclass[sigconf,anonymous,review]{acmart} (Word Interim Template accepted)"
+    }
+   },
+   "source_map": "KDD-Skills/resources/official-source-map.md",
+   "venue": "KDD 2027 (Research Track)",
+   "verified": "2026-11-23"
+  },
+  "Lancet-Skills": {
+   "aliases": [
+    "The Lancet",
+    "Lancet-Skills",
+    "lancet-skills",
+    "lancet",
+    "Lancet"
+   ],
+   "rules": {
+    "abstract_format": {
+     "note": "five paragraphs: Background, Methods, Findings, Interpretation, Funding",
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "structured"
+    },
+    "abstract_words_max": {
+     "note": "semistructured summary",
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": 300
+    },
+    "apc": {
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "hybrid: gold OA (CC BY / CC BY-NC-ND / CC BY-NC) for funder-mandated research Articles with an APC set per the open-access page (Elsevier personalized pricing); or green OA at 6 months"
+    },
+    "cover_letter": {
+     "note": "first item on the first-submission list; uploaded at the Enter Comments stage",
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "required"
+    },
+    "data_code_policy": {
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "data sharing statement required in all submitted research Articles (what, when, where, access criteria; 'undecided' not acceptable); trials enrolling from 2019-01-01 need a data sharing plan in the registration"
+    },
+    "llm_policy": {
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "AI tools allowed with human oversight; separate AI declaration at end of manuscript at submission (tool, version, purpose, oversight); research use in Methods; grammar/spelling checks exempt; AI cannot be an author"
+    },
+    "main_text_words_max": {
+     "note": "Articles, manuscript text only; 4500 for randomised controlled trials and for qualitative/mixed-methods Articles",
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": 3500
+    },
+    "portal": {
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "Editorial Manager (www.editorialmanager.com/thelancet)"
+    },
+    "preprint_policy": {
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "preprint posting does not conflict with submission"
+    },
+    "reference_style": {
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "Vancouver numbering, superscript after punctuation"
+    },
+    "references_max": {
+     "note": "Articles",
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": 30
+    },
+    "required_statements": {
+     "note": "Research in context panel also required for all research Articles (no schema key); Declaration of interests at end of text (signed ICMJE forms requested after peer review for Articles); source of funding + Role of the funding source; contributors statement; data sharing statement; trial_registration for interventional trials; CONSORT 2025 + protocol for RCTs, other EQUATOR guidelines by design. Conditional: AI declaration at the end of the manuscript if AI tools were used; ethics approval and consent for human studies",
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": [
+      "structured_abstract",
+      "conflict_of_interest",
+      "funding",
+      "author_contributions",
+      "data_availability",
+      "trial_registration",
+      "reporting_guideline"
+     ]
+    },
+    "review_mode": {
+     "note": "single/double blind not stated in the Information for Authors as of 2026-11-23; at least two reviewers and a statistician",
+     "value": null
+    },
+    "submission_fee": {
+     "source": "https://www.thelancet.com/pb-assets/Lancet/authors/tl-info-for-authors.pdf",
+     "value": "none (manuscript submission to all Lancet journals is free)"
+    }
+   },
+   "source_map": "Lancet-Skills/resources/official-source-map.md",
+   "venue": "The Lancet",
+   "verified": "2026-11-23"
+  },
+  "Management-Science-Skills": {
+   "aliases": [
+    "Management Science",
+    "Management-Science-Skills",
+    "mgsci-skills",
+    "management-science"
+   ],
+   "rules": {
+    "data_code_policy": {
+     "source": "https://pubsonline.informs.org/page/mnsc/submission-guidelines",
+     "value": "Code and Data Disclosure Policy: authors certify at submission that they are familiar with it and plan to comply; accepted numerical/computational papers provide data, programs, and details sufficient for replication (or an approved alternative disclosure plan)"
+    },
+    "file_format": {
+     "source": "https://pubsonline.informs.org/page/mnsc/submission-guidelines",
+     "value": "at least 1.5 spacing (or double), 11-point font, 1-inch margins"
+    },
+    "main_text_pages_max": {
+     "note": "no page limit on first-round submissions (Department Editors may reject for excessive length); invited revisions capped at 47 double-spaced or 32 pages at 1.5 spacing, online appendix excluded",
+     "value": null
+    },
+    "review_mode": {
+     "note": "INFORMS wording: double-anonymous; names, institutions, and acknowledgments removed",
+     "source": "https://pubsonline.informs.org/page/mnsc/submission-guidelines",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://pubsonline.informs.org/page/mnsc/submission-fee-faq",
+     "value": "USD 79 per original submission (from 2025-08-01); waived for INFORMS members, low-/lower-middle-income-country affiliations, and on honor-based request; none on invited revisions"
+    }
+   },
+   "source_map": "Management-Science-Skills/resources/official-source-map.md",
+   "venue": "Management Science",
+   "verified": "2026-11-23"
+  },
+  "Marketing-Science-Skills": {
+   "aliases": [
+    "Marketing Science",
+    "Marketing-Science-Skills",
+    "mksc-skills",
+    "marketing-science"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "'approximately 100-200 words' / 'not more than 200 words'; text-only, no math notation",
+     "source": "https://pubsonline.informs.org/page/mksc/submission-guidelines",
+     "value": 200
+    },
+    "data_code_policy": {
+     "source": "https://pubsonline.informs.org/page/mksc/submission-guidelines",
+     "value": "Replication and Disclosure Policy: data and estimation code submitted upon acceptance; NDA noted at submission, then disguised or simulated data plus code"
+    },
+    "file_format": {
+     "source": "https://pubsonline.informs.org/page/mksc/submission-guidelines",
+     "value": "double-spaced, one column, 11- or 12-point font, one-inch margins; Word or LaTeX uploaded as Word or PDF"
+    },
+    "review_mode": {
+     "note": "INFORMS wording: double-anonymous; Practice Papers are single-blind",
+     "source": "https://pubsonline.informs.org/page/mksc/submission-guidelines",
+     "value": "double-blind"
+    }
+   },
+   "source_map": "Marketing-Science-Skills/resources/official-source-map.md",
+   "venue": "Marketing Science",
+   "verified": "2026-11-23"
+  },
+  "NEJM-Skills": {
+   "aliases": [
+    "The New England Journal of Medicine",
+    "NEJM-Skills",
+    "nejm-skills",
+    "nejm",
+    "NEJM"
+   ],
+   "rules": {
+    "abstract_format": {
+     "note": "four labeled paragraphs: Background, Methods, Results, Conclusions; include trial registration number",
+     "source": "https://www.nejm.org/author-center/new-manuscripts",
+     "value": "structured"
+    },
+    "abstract_words_max": {
+     "source": "https://www.nejm.org/author-center/new-manuscripts",
+     "value": 250
+    },
+    "apc": {
+     "note": "optional OA fee not posted on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "exhibits_max": {
+     "note": "tables and figures combined, Original Article",
+     "source": "https://www.nejm.org/author-center/article-types",
+     "value": 5
+    },
+    "main_text_words_max": {
+     "note": "Original Article; excludes abstract, figure legends and table notes; read via search-engine rendering (nejm.org blocks automated access)",
+     "source": "https://www.nejm.org/author-center/article-types",
+     "value": 2700
+    },
+    "reference_style": {
+     "source": "https://www.nejm.org/author-center/new-manuscripts",
+     "value": "numbered in order of first citation"
+    },
+    "references_max": {
+     "note": "Original Article",
+     "source": "https://www.nejm.org/author-center/article-types",
+     "value": 40
+    },
+    "required_statements": {
+     "note": "trial_registration (before onset of enrollment) and the ICMJE data sharing statement apply to clinical trials; ICMJE disclosure form required, timing not confirmed on 2026-11-23; protocol + SAP with trials",
+     "source": "https://www.nejm.org/about-nejm/editorial-policies",
+     "value": [
+      "structured_abstract",
+      "trial_registration",
+      "data_availability"
+     ]
+    },
+    "review_mode": {
+     "note": "pack records single-blind (2026-06-23); not re-readable on the official pages on 2026-11-23",
+     "value": null
+    }
+   },
+   "source_map": "NEJM-Skills/resources/official-source-map.md",
+   "venue": "The New England Journal of Medicine",
+   "verified": "2026-11-23"
+  },
+  "PNAS-Nexus-Skills": {
+   "aliases": [
+    "PNAS Nexus",
+    "PNAS-Nexus-Skills",
+    "pnas-nexus-skills",
+    "pnas-nexus"
+   ],
+   "rules": {
+    "abstract_format": {
+     "note": "single paragraph with no headings",
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": "unstructured"
+    },
+    "abstract_words_max": {
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": 250
+    },
+    "apc": {
+     "note": "gold OA; research-article APC comes from the OUP calculator and was not displayed to automated readers on 2026-11-23",
+     "value": null
+    },
+    "data_code_policy": {
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": "all materials, data, protocols, code and scripts in a public repository upon publication; sharing-plan statement at submission; raw images retained; [dataset] citation tag"
+    },
+    "keywords_required": {
+     "note": "title-page item with classification; no count stated",
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": true
+    },
+    "llm_policy": {
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": "AI use in preparing the manuscript disclosed in Materials and Methods; AI cannot be an author"
+    },
+    "main_text_pages_max": {
+     "note": "Research Report: preferred 6 pages (~4,000 words, 50 references, 4 medium-size graphical elements), maximum 12; abstract, significance statement, captions and legends count; Brief Report 3 pages",
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": 12
+    },
+    "portal": {
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": "https://pnasnexus.msubmit.net/"
+    },
+    "reference_style": {
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": "any readable style at submission; Council of Science Editors parent style at production (US spelling)"
+    },
+    "required_statements": {
+     "note": "Significance Statement 50-120 words for Research Reports and Stage 2 Registered Reports; data-sharing statement in the submitted manuscript; competing interests disclosed at submission in the system; CRediT contributions; funding statement. Conditional: AI use disclosed in Materials and Methods",
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": [
+      "significance_statement",
+      "data_availability",
+      "conflict_of_interest",
+      "author_contributions",
+      "funding",
+      "keywords"
+     ]
+    },
+    "review_mode": {
+     "note": "single anonymous peer review",
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": "single-blind"
+    },
+    "template": {
+     "source": "https://academic.oup.com/pnasnexus/pages/general-instructions",
+     "value": "Word templates (research article, SI Appendix); PNAS Nexus Overleaf template preferred for LaTeX"
+    }
+   },
+   "source_map": "PNAS-Nexus-Skills/resources/official-source-map.md",
+   "venue": "PNAS Nexus",
+   "verified": "2026-11-23"
+  },
+  "PNAS-Skills": {
+   "aliases": [
+    "PNAS",
+    "PNAS-Skills",
+    "pnas-skills",
+    "pnas"
+   ],
+   "rules": {
+    "abstract_format": {
+     "note": "single paragraph",
+     "source": "https://www.pnas.org/pb-assets/authors/PNASTemplateforMainManuscript-1755285180130.docx",
+     "value": "unstructured"
+    },
+    "abstract_words_max": {
+     "source": "https://www.pnas.org/pb-assets/authors/PNASTemplateforMainManuscript-1755285180130.docx",
+     "value": 250
+    },
+    "apc": {
+     "note": "publication-charges page not readable on 2026-11-23; pack records ~USD 4,975 / 5,475 / 2,575 from 2026-06-23",
+     "value": null
+    },
+    "keywords_max": {
+     "source": "https://www.pnas.org/pb-assets/authors/PNASTemplateforMainManuscript-1755285180130.docx",
+     "value": 5
+    },
+    "keywords_min": {
+     "source": "https://www.pnas.org/pb-assets/authors/PNASTemplateforMainManuscript-1755285180130.docx",
+     "value": 3
+    },
+    "keywords_required": {
+     "source": "https://www.pnas.org/author-center/submitting-your-manuscript",
+     "value": true
+    },
+    "main_text_pages_max": {
+     "note": "Research Report maximum; preferred 6 pages (~4,000 words, 50 references, 4 medium-size figures/tables); read via search-engine rendering",
+     "source": "https://www.pnas.org/author-center/submitting-your-manuscript",
+     "value": 12
+    },
+    "reference_style": {
+     "source": "https://www.pnas.org/pb-assets/authors/PNASTemplateforMainManuscript-1755285180130.docx",
+     "value": "numbered in order of citation"
+    },
+    "required_statements": {
+     "note": "Significance Statement 50-120 words, no references; Author Contributions and Competing Interest Statement on the title page; Classification also required (no schema key)",
+     "source": "https://www.pnas.org/pb-assets/authors/PNASTemplateforMainManuscript-1755285180130.docx",
+     "value": [
+      "significance_statement",
+      "author_contributions",
+      "conflict_of_interest",
+      "keywords"
+     ]
+    },
+    "review_mode": {
+     "note": "blinding not confirmed on the official pages as of 2026-11-23; at least two independent expert reviewers",
+     "value": null
+    },
+    "template": {
+     "source": "https://www.pnas.org/pb-assets/authors/PNASTemplateforMainManuscript-1755285180130.docx",
+     "value": "PNAS Template for Main Manuscript (.docx)"
+    }
+   },
+   "source_map": "PNAS-Skills/resources/official-source-map.md",
+   "venue": "PNAS",
+   "verified": "2026-11-23"
+  },
+  "Quarterly-Journal-of-Economics-Skills": {
+   "aliases": [
+    "The Quarterly Journal of Economics",
+    "Quarterly-Journal-of-Economics-Skills",
+    "qje-skills",
+    "quarterly-journal-of-economics",
+    "Quarterly Journal of Economics"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "no reference citations in the abstract",
+     "source": "https://academic.oup.com/qje/pages/Instructions_To_Authors",
+     "value": 250
+    },
+    "cover_letter": {
+     "note": "required in practice when data are proprietary or an exemption is sought (Data Policy)",
+     "source": "https://editorialexpress.com/qje/",
+     "value": "optional"
+    },
+    "data_code_policy": {
+     "source": "https://academic.oup.com/qje/pages/data_policy",
+     "value": "AER-style data availability policy: data, programs and computation details before publication, posted to the QJE Dataverse after acceptance; README PDF; proprietary data flagged in the submission cover letter"
+    },
+    "file_format": {
+     "source": "https://academic.oup.com/qje/pages/Instructions_To_Authors",
+     "value": "single PDF containing the complete manuscript (tables, figures, appendices); supplementary material in separate PDFs; source files only after acceptance"
+    },
+    "jel_codes_required": {
+     "note": "placed at the end of the abstract",
+     "source": "https://academic.oup.com/qje/pages/Instructions_To_Authors",
+     "value": true
+    },
+    "keywords_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "llm_policy": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "main_text_pages_max": {
+     "note": "not stated on the official pages as of 2026-11-23; total word count must be given on the first page",
+     "value": null
+    },
+    "portal": {
+     "source": "https://editorialexpress.com/qje/",
+     "value": "Editorial Express (editorialexpress.com/qje)"
+    },
+    "reference_style": {
+     "source": "https://academic.oup.com/qje/pages/Instructions_To_Authors",
+     "value": "author-date"
+    },
+    "required_statements": {
+     "note": "first page must also give contributor names, corresponding author's address/email and total word count; funding and acknowledgments go in the first footnote; conflicts are disclosed at submission per the Journal Policies page",
+     "source": "https://academic.oup.com/qje/pages/Instructions_To_Authors",
+     "value": [
+      "jel_codes"
+     ]
+    },
+    "review_mode": {
+     "note": "not stated on the official pages as of 2026-11-23; the instructions require contributor names on the first page, so do not anonymize",
+     "value": null
+    },
+    "submission_fee": {
+     "note": "no fee is stated on any official page as of 2026-11-23 (secondary sources: none)",
+     "value": null
+    }
+   },
+   "source_map": "Quarterly-Journal-of-Economics-Skills/resources/official-source-map.md",
+   "venue": "The Quarterly Journal of Economics",
+   "verified": "2026-11-23"
+  },
+  "RecSys-Skills": {
+   "aliases": [
+    "RecSys",
+    "RecSys-Skills",
+    "recsys-skills",
+    "recsys"
+   ],
+   "rules": {
+    "apc": {
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": "ACM Open: no APC if the corresponding author's institution is in ACM Open; otherwise USD 250 (ACM/SIG member) / 350 (non-member) in 2026 for Main, Reproducibility and Industry papers"
+    },
+    "llm_policy": {
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": "ACM generative-AI policy: disclose GenAI-generated material (extent and nature) in the Acknowledgments section; light editing exempt; GenAI-primary submissions prohibited"
+    },
+    "main_text_pages_max": {
+     "note": "RecSys 2026 Main Track long papers (latest published call; no RecSys 2027 call as of 2026-11-23). Includes figures, tables, appendices and acknowledgements; short and Past/Present/Future papers 4 pages",
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": 8
+    },
+    "page_limit_includes_references": {
+     "note": "reference pages do not count (RecSys 2026)",
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": false
+    },
+    "portal": {
+     "note": "RecSys 2026",
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": "EasyChair"
+    },
+    "preprint_policy": {
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": "anonymous preprints any time; overlapping non-anonymous preprints posted before the deadline must be disclosed and use a distinct title/abstract; no non-anonymous posting during review"
+    },
+    "required_statements": {
+     "note": "no unconditional manuscript statement (RecSys 2026); COI with PC/SPC is declared in the submission system, not the paper. Conditional, so not listed: AI-use disclosure in Acknowledgments when GenAI material is included; human-subjects regulatory-review statement when such research is reported",
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": []
+    },
+    "review_mode": {
+     "note": "mutually anonymous for Main, Reproducibility (except Resource papers) and R&P Notes; Industry and Resource papers are not anonymous (RecSys 2026)",
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "supplement_policy": {
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": "auxiliary material or a link to an anonymous repository encouraged; reviewers not obliged to consult it; papers must be self-contained"
+    },
+    "template": {
+     "source": "https://recsys.acm.org/recsys26/call/",
+     "value": "ACM two-column (double-column) template"
+    }
+   },
+   "source_map": "RecSys-Skills/resources/official-source-map.md",
+   "venue": "RecSys",
+   "verified": "2026-11-23"
+  },
+  "Review-of-Economic-Studies-Skills": {
+   "aliases": [
+    "The Review of Economic Studies",
+    "Review-of-Economic-Studies-Skills",
+    "restud-skills",
+    "review-of-economic-studies",
+    "Review of Economic Studies"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://www.restud.com/submissions/",
+     "value": 150
+    },
+    "data_code_policy": {
+     "source": "https://www.restud.com/submissions/",
+     "value": "Data and Code Availability Policy (DCAS v1.0): code and data to reproduce results for accepted papers; Data Editor pre-publication check; exemptions only via cover letter at first submission"
+    },
+    "file_format": {
+     "source": "https://www.restud.com/submissions/",
+     "value": "single PDF containing title page, abstract, text, figures and tables"
+    },
+    "jel_codes_required": {
+     "note": "JEL codes provided upon submission",
+     "source": "https://academic.oup.com/restud/pages/general_instructions",
+     "value": true
+    },
+    "keywords_required": {
+     "source": "https://www.restud.com/submissions/",
+     "value": true
+    },
+    "llm_policy": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "main_text_pages_max": {
+     "note": "under 45 pages including title page, tables, figures, references and appendices; 1.5-spaced 12-pt, >= 1-inch margins; Online Appendix (max 30 pages) separate",
+     "source": "https://www.restud.com/submissions/",
+     "value": 45
+    },
+    "page_limit_includes_references": {
+     "source": "https://www.restud.com/submissions/",
+     "value": true
+    },
+    "portal": {
+     "source": "https://www.restud.com/submissions/",
+     "value": "Editorial Express (editorialexpress.com/restud)"
+    },
+    "preprint_policy": {
+     "source": "https://academic.oup.com/restud/pages/general_instructions",
+     "value": "post-print self-archiving after a 24-month embargo (12 months where funders require)"
+    },
+    "required_statements": {
+     "note": "JEL requirement per the OUP general instructions; data/code exemption requests must be in the cover letter at first submission",
+     "source": "https://www.restud.com/submissions/",
+     "value": [
+      "keywords",
+      "jel_codes"
+     ]
+    },
+    "review_mode": {
+     "note": "not stated on the official pages as of 2026-11-23; the title page must give author names and affiliations, so do not anonymize",
+     "value": null
+    },
+    "submission_fee": {
+     "source": "https://www.restud.com/submissions/",
+     "value": "USD 250 standard / USD 150 reduced if every author is a current student, within six years of the PhD, or resident in a World Bank low- or middle-income economy (from 1 June 2026); resubmissions exempt except reject-and-resubmit"
+    },
+    "supplement_policy": {
+     "source": "https://www.restud.com/submissions/",
+     "value": "Online Appendix should not exceed 30 pages"
+    }
+   },
+   "source_map": "Review-of-Economic-Studies-Skills/resources/official-source-map.md",
+   "venue": "The Review of Economic Studies",
+   "verified": "2026-11-23"
+  },
+  "Review-of-Economics-and-Statistics-Skills": {
+   "aliases": [
+    "The Review of Economics and Statistics",
+    "Review-of-Economics-and-Statistics-Skills",
+    "restat-skills",
+    "review-of-economics-and-statistics",
+    "Review of Economics and Statistics"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": 100
+    },
+    "data_code_policy": {
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": "data, code and README posted before publication to permit replication (REStat Harvard Dataverse); proprietary data indicated at submission"
+    },
+    "file_format": {
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": "PDF; 12-point font; double-spaced throughout"
+    },
+    "jel_codes_required": {
+     "note": "EconLit classification number(s) required with the abstract; editors are assigned by JEL code",
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": true
+    },
+    "llm_policy": {
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": "all authors must disclose whether generative AI was used, naming tools, models, versions and all purposes; prompts encouraged if extensive"
+    },
+    "main_text_pages_max": {
+     "note": "required at acceptance, encouraged but not required at submission; counts text, tables, figures, references and all print parts; online appendices excluded. Short Papers instead: 6000 words and 5 exhibits",
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": 45
+    },
+    "page_limit_includes_references": {
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": true
+    },
+    "portal": {
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": "Editorial Express"
+    },
+    "required_statements": {
+     "note": "all authors disclose whether generative AI was used (tools, models, versions, purposes)",
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": [
+      "ai_use_disclosure",
+      "jel_codes"
+     ]
+    },
+    "review_mode": {
+     "note": "peer-review taxonomy: Single anonymized",
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": "single-blind"
+    },
+    "submission_fee": {
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": "USD 125 nonrefundable per new submission; waived for current individual subscribers or majority low/lower-middle-income author teams"
+    },
+    "supplement_policy": {
+     "source": "https://direct.mit.edu/rest/pages/submission-guidelines",
+     "value": "online appendices unrestricted for regular papers; at most 20 pages for Short Papers; paper must be self-contained"
+    }
+   },
+   "source_map": "Review-of-Economics-and-Statistics-Skills/resources/official-source-map.md",
+   "venue": "The Review of Economics and Statistics",
+   "verified": "2026-11-23"
+  },
+  "Review-of-Financial-Studies-Skills": {
+   "aliases": [
+    "The Review of Financial Studies",
+    "Review-of-Financial-Studies-Skills",
+    "rfs-skills",
+    "review-of-financial-studies",
+    "Review of Financial Studies"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "submissions with a longer abstract are returned",
+     "source": "https://sfs.org/guidelines-for-submissions/",
+     "value": 100
+    },
+    "data_code_policy": {
+     "source": "https://sfs.org/review-of-financial-studies/code-sharing-policy/",
+     "value": "papers conditionally accepted on/after 2025-10-01 deliver a data+code+README package that the RFS Data Editors reproduce; withholding/exemption requests at submission"
+    },
+    "file_format": {
+     "source": "https://sfs.org/guidelines-for-submissions/",
+     "value": "PDF; double-spaced, at most 28 lines per page, font size 11 or larger; alt text under every figure caption; footnotes, no endnotes"
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "language": {
+     "source": "https://sfs.org/guidelines-for-submissions/",
+     "value": "English"
+    },
+    "llm_policy": {
+     "source": "https://sfs.org/review-of-financial-studies/submit-a-paper/",
+     "value": "authors take full responsibility for content under the AFA Code of Professional Conduct and Ethics; AI assistance does not absolve that responsibility"
+    },
+    "main_text_pages_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "portal": {
+     "source": "https://sfs.org/review-of-financial-studies/submit-a-paper/",
+     "value": "SFS Editorial Express"
+    },
+    "reference_style": {
+     "note": "OUP Instructions to Authors, which SFS says apply to accepted papers",
+     "source": "https://academic.oup.com/rfs/pages/Instructions_To_Authors",
+     "value": "Chicago Manual of Style author-date"
+    },
+    "required_statements": {
+     "note": "in-manuscript statements only; disclosure_statement is a separate upload (see separate_upload_statements)",
+     "source": "https://sfs.org/review-of-financial-studies/submit-a-paper/",
+     "value": []
+    },
+    "review_mode": {
+     "note": "manuscript PDF must be anonymous (no author information or acknowledgments); author details in a separate cover page PDF; replies to referees anonymous",
+     "source": "https://sfs.org/guidelines-for-submissions/",
+     "value": "double-blind"
+    },
+    "separate_upload_statements": {
+     "note": "authors confirm the SFS Disclosure Policy and upload disclosures in Step 4 of Editorial Express",
+     "source": "https://sfs.org/review-of-financial-studies/submit-a-paper/",
+     "value": [
+      "disclosure_statement"
+     ]
+    },
+    "submission_fee": {
+     "source": "https://sfs.org/review-of-financial-studies/submit-a-paper/",
+     "value": "USD 400 SFS member / 460 non-member (high-income); 260 / 320 (middle-income); waived (low-income); same for R&Rs; waived when conditionally accepted"
+    },
+    "supplement_policy": {
+     "source": "https://sfs.org/guidelines-for-submissions/",
+     "value": "Internet Appendix inside the manuscript PDF, clearly marked, no author names; never uploaded separately"
+    }
+   },
+   "source_map": "Review-of-Financial-Studies-Skills/resources/official-source-map.md",
+   "venue": "The Review of Financial Studies",
+   "verified": "2026-11-23"
+  },
+  "Science-Skills": {
+   "aliases": [
+    "Science",
+    "Science-Skills",
+    "science-skills",
+    "science"
+   ],
+   "rules": {
+    "abstract_format": {
+     "note": "single paragraph, no citations or abbreviations",
+     "source": "https://www.science.org/content/page/instructions-preparing-initial-manuscript",
+     "value": "unstructured"
+    },
+    "abstract_words_max": {
+     "source": "https://www.science.org/content/page/instructions-preparing-initial-manuscript",
+     "value": 125
+    },
+    "cover_letter": {
+     "source": "https://www.science.org/content/page/science-information-authors",
+     "value": "required"
+    },
+    "exhibits_max": {
+     "note": "3 to 5 display items (figures or tables); extended online format up to 6",
+     "source": "https://www.science.org/content/page/science-information-authors",
+     "value": 5
+    },
+    "main_text_words_max": {
+     "note": "standard Research Article; extended online format allows up to 6000 words with justification in the cover letter; read via search-engine rendering",
+     "source": "https://www.science.org/content/page/science-information-authors",
+     "value": 3000
+    },
+    "portal": {
+     "source": "https://www.science.org/content/page/science-information-authors",
+     "value": "Content Tracking System, https://cts.sciencemag.org"
+    },
+    "reference_style": {
+     "source": "https://www.science.org/content/page/instructions-preparing-initial-manuscript",
+     "value": "numbered in order of citation, italic numbers in parentheses, single combined list incl. supplementary references"
+    },
+    "references_max": {
+     "note": "'about 50 main-text references'; extended online format up to 100",
+     "soft": true,
+     "source": "https://www.science.org/content/page/science-information-authors",
+     "value": 50
+    },
+    "required_statements": {
+     "note": "Acknowledgments headings: Funding, Author contributions, Competing interests, Data and materials availability; all authors also complete the Conflict of Interest form",
+     "source": "https://www.science.org/content/page/instructions-preparing-initial-manuscript",
+     "value": [
+      "funding",
+      "author_contributions",
+      "conflict_of_interest",
+      "data_availability"
+     ]
+    },
+    "review_mode": {
+     "note": "blinding not stated on the official author pages as of 2026-11-23; pack convention is single-blind",
+     "value": null
+    },
+    "supplement_policy": {
+     "source": "https://www.science.org/content/page/instructions-preparing-initial-manuscript",
+     "value": "Materials and Methods in the supplementary materials (single .docx/PDF file, 50 MB maximum)"
+    },
+    "template": {
+     "source": "https://www.science.org/content/page/instructions-preparing-initial-manuscript",
+     "value": "Science Word template (.docx) preferred; LaTeX template with .docx conversion or PDF"
+    },
+    "title_chars_max": {
+     "note": "including spaces",
+     "source": "https://www.science.org/content/page/instructions-preparing-initial-manuscript",
+     "value": 96
+    }
+   },
+   "source_map": "Science-Skills/resources/official-source-map.md",
+   "venue": "Science",
+   "verified": "2026-11-23"
+  },
+  "Social-Sciences-in-China-Skills": {
+   "aliases": [
+    "中国社会科学 (Social Sciences in China)",
+    "Social-Sciences-in-China-Skills",
+    "social-sciences-in-china-skills",
+    "social-sciences-in-china",
+    "Social Sciences in China"
+   ],
+   "rules": {
+    "abstract_chars_max": {
+     "note": "300字以内的中、英文摘要 (applies to the Chinese abstract; an English abstract is also required)",
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": 300
+    },
+    "file_format": {
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": "Word manuscript plus a signed author pledge (作者承诺书); A4, 宋体小4号, 36字×35行"
+    },
+    "jel_codes_required": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "keywords_max": {
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": 5
+    },
+    "keywords_min": {
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": 3
+    },
+    "keywords_required": {
+     "note": "3—5 Chinese and English keywords plus an English title",
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": true
+    },
+    "language": {
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": "Chinese (English-language originals go to the English edition)"
+    },
+    "main_text_chars_max": {
+     "note": "单篇稿件字数不超2万字 (research articles); 专题 8000—10000, 笔谈 5000—6000, 讨论与评议 3000—4000 per piece",
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": 20000
+    },
+    "portal": {
+     "source": "https://sscp.cssn.cn/tsgpt/",
+     "value": "https://sscp.portal.founderss.cn (作者中心, linked from the official 投审稿平台 page)"
+    },
+    "reference_style": {
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": "page-bottom footnotes numbered per page (页下注，每页单独编号), per 中国社会科学杂志社关于引文注释的规定"
+    },
+    "review_mode": {
+     "note": "双向匿名专家审稿制度; no author information in the text or in identifying phrasing",
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "source": "https://sscp.cssn.cn/tsgpt/202510/t20251031_5922424.shtml",
+     "value": "None — the publisher charges authors and their institutions no fees of any kind; authors are paid on publication"
+    }
+   },
+   "source_map": "Social-Sciences-in-China-Skills/resources/official-source-map.md",
+   "venue": "中国社会科学 (Social Sciences in China)",
+   "verified": "2026-11-23"
+  },
+  "Strategic-Management-Journal-Skills": {
+   "aliases": [
+    "Strategic Management Journal",
+    "Strategic-Management-Journal-Skills",
+    "smj-skills",
+    "strategic-management-journal"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "applies to EACH of two abstracts: research summary and managerial summary; no citations",
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": 125
+    },
+    "cover_letter": {
+     "note": "must answer three questions: other papers from the same database published or under review, and whether all relevant work of all authors is cited",
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "required"
+    },
+    "data_code_policy": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "editors and reviewers may request access to data and programs during review for replication; notify the Editor at submission if access is restricted"
+    },
+    "file_format": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "Word (.doc/.docx) or LaTeX (.tex) with PDF as supplemental; 12-pt font, double-spaced, single-spaced references, 1-inch margins, page numbers"
+    },
+    "keywords_max": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": 5
+    },
+    "keywords_min": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": 5
+    },
+    "keywords_required": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": true
+    },
+    "language": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "American English"
+    },
+    "llm_policy": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "generative AI may aid writing; acknowledge its use in the paper; authors responsible for accuracy and plagiarism"
+    },
+    "main_text_pages_max": {
+     "note": "Research Article: 'strongly suggest' 40 pages including figures and tables; short research articles and commentaries no more than 20 pages",
+     "soft": true,
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": 40
+    },
+    "portal": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "Wiley Research Exchange (wiley.atyponrex.com/journal/SMJ)"
+    },
+    "reference_style": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "APA 7th edition"
+    },
+    "required_statements": {
+     "note": "acknowledgments (sponsors, grant numbers) ONLY on the separate title page at submission; generative-AI use must be acknowledged in the paper if used",
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": [
+      "acknowledgments"
+     ]
+    },
+    "review_mode": {
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "publication fees are optional (OnlineOpen or Wiley transformative agreements)",
+     "source": "https://sms.onlinelibrary.wiley.com/pb-assets/hub-assets/sms/AG/SMJ-Author-Instructions-May-2025-1748220403090.pdf",
+     "value": "none"
+    }
+   },
+   "source_map": "Strategic-Management-Journal-Skills/resources/official-source-map.md",
+   "venue": "Strategic Management Journal",
+   "verified": "2026-11-23"
+  },
+  "The-Economic-Journal-Skills": {
+   "aliases": [
+    "The Economic Journal",
+    "The-Economic-Journal-Skills",
+    "economic-journal-skills",
+    "the-economic-journal"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "accepted-author/production rule; the Instructions to Authors state no abstract limit for initial submission",
+     "source": "https://ejdataeditor.github.io/Guide-for-Accepted-Authors.pdf",
+     "value": 100
+    },
+    "data_code_policy": {
+     "source": "https://ejdataeditor.github.io/before.html",
+     "value": "pre-acceptance reproducibility checks by the EJ Data Editor; README, raw data, code; package published on the EJ Zenodo community; data exemptions only if requested at first submission"
+    },
+    "file_format": {
+     "source": "https://academic.oup.com/ej/pages/general_instructions",
+     "value": "one single PDF including appendices and referee supplementary material (cover letter separate)"
+    },
+    "jel_codes_required": {
+     "note": "entered in Editorial Express",
+     "source": "https://academic.oup.com/ej/pages/general_instructions",
+     "value": true
+    },
+    "llm_policy": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "main_text_words_max": {
+     "note": "no limit stated for full papers as of 2026-11-23; the short-paper route is <6,000 words and 5 exhibits",
+     "value": null
+    },
+    "portal": {
+     "source": "https://academic.oup.com/ej/pages/general_instructions",
+     "value": "Editorial Express"
+    },
+    "preprint_policy": {
+     "source": "https://academic.oup.com/ej/pages/general_instructions",
+     "value": "preprints allowed; do not prevent submission"
+    },
+    "reference_style": {
+     "source": "https://ejdataeditor.github.io/Guide-for-Accepted-Authors.pdf",
+     "value": "author-date, alphabetical then chronological reference list; datasets and replication packages cited"
+    },
+    "required_statements": {
+     "note": "funding acknowledged in the manuscript; declare no conflicts if none; IRB/ethics approval referenced in the acknowledgments only for human- or animal-subject research",
+     "source": "https://academic.oup.com/ej/pages/general_instructions",
+     "value": [
+      "funding",
+      "conflict_of_interest",
+      "jel_codes"
+     ]
+    },
+    "review_mode": {
+     "note": "authors are not anonymized",
+     "source": "https://academic.oup.com/ej/pages/general_instructions",
+     "value": "single-blind"
+    },
+    "submission_fee": {
+     "source": "https://res.org.uk/submission-fee-policy/",
+     "value": "GBP 248 non-member; GBP 50 student/Tier A/unemployed member; GBP 113 Tier B-D member/Fellow; plus 20% VAT; new submissions only, no desk-reject refund"
+    }
+   },
+   "source_map": "The-Economic-Journal-Skills/resources/official-source-map.md",
+   "venue": "The Economic Journal",
+   "verified": "2026-11-23"
+  },
+  "UAI-Skills": {
+   "aliases": [
+    "UAI",
+    "UAI-Skills",
+    "uai-skills",
+    "uai"
+   ],
+   "rules": {
+    "abstract_words_max": {
+     "note": "not stated on the official pages as of 2026-11-23",
+     "value": null
+    },
+    "data_code_policy": {
+     "source": "https://www.auai.org/uai2026/call_for_papers",
+     "value": "code and data release strongly encouraged, not required"
+    },
+    "file_format": {
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": "single PDF, at most 15 MB; appendices start on a new page after the main part"
+    },
+    "llm_policy": {
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": "LLMs permitted as a general-purpose writing aid, not as authors; authors fully responsible; no disclosure statement required"
+    },
+    "main_text_pages_max": {
+     "note": "UAI 2026 rules (latest published edition; no next-edition call as of 2026-11-23). Main part only; camera-ready allows 9",
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": 8
+    },
+    "page_limit_includes_references": {
+     "note": "unlimited references and appendices after the main part, same PDF (UAI 2026)",
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": false
+    },
+    "portal": {
+     "note": "UAI 2026 group auai.org/UAI/2026/Conference",
+     "source": "https://www.auai.org/uai2026/call_for_papers",
+     "value": "OpenReview"
+    },
+    "preprint_policy": {
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": "arXiv, technical reports and venues without proceedings are not dual submissions"
+    },
+    "required_statements": {
+     "note": "no mandatory statement at submission (UAI 2026); contributions and acknowledgements sections are optional at camera-ready",
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": []
+    },
+    "review_mode": {
+     "note": "UAI 2026; accepted papers and their reviews are made public after decisions",
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": "double-blind"
+    },
+    "submission_fee": {
+     "note": "not stated on the official pages as of 2026-11-23 (registration fees apply to accepted papers)",
+     "value": null
+    },
+    "supplement_policy": {
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": "optional ZIP up to 50 MB (code, data), anonymized; reviewers not required to consider it"
+    },
+    "template": {
+     "source": "https://www.auai.org/uai2026/submission_instructions",
+     "value": "UAI LaTeX template (uai2026.cls)"
+    }
+   },
+   "source_map": "UAI-Skills/resources/official-source-map.md",
+   "venue": "UAI",
+   "verified": "2026-11-23"
+  }
+ }
+}

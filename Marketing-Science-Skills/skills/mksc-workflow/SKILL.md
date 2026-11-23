@@ -61,7 +61,7 @@ MARKETING SCIENCE MANUSCRIPT STAGE LEDGER
 Model genre     : structural econometric | analytical/game-theoretic | causal-ML-in-service-of-model
 Identification  : instrument | exclusion restriction | functional form | exogenous shock | (FIX: none)
 Counterfactual  : managerial decision margin the model makes answerable: ______
-Track           : regular (no fixed cap) | Frontiers (6,000-word TOTAL cap) | Database | Practice
+Track           : regular (~40 double-spaced pages, all in) | Frontiers (6,000-word TOTAL cap) | Database | Practice
 Stage gates (✓ / ✗ / n/a):
   [ ] mksc-topic-selection        modeling-worthy marketing question (not reduced-form)
   [ ] mksc-theory-development      analytical/structural model + identification logic built

@@ -14,8 +14,8 @@ description: Use to write the PNAS abstract — a single self-contained paragrap
 
 ## The PNAS abstract: ~250 words, single paragraph, self-contained
 
-- **Length:** up to **~250 words** (confirm the exact cap in current PNAS author guidelines).
-- **One paragraph, no subheadings**, no reference citations, no figure/table callouts.
+- **Length:** up to **250 words** (PNAS main-manuscript template: "it may not exceed 250 words"; re-checked 2026-11-23).
+- **One paragraph, no subheadings**, no figure/table callouts; avoid citations (the template allows at most three cited, non-numerical references).
 - **Self-contained:** a reader who sees only the abstract should understand the question, what was done, what was found (quantified), and what it means.
 - **Accessible** to the broad PNAS readership across Biological/Physical/Social Sciences — define or avoid acronyms.
 

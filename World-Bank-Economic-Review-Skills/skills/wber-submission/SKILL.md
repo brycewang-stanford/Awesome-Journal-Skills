@@ -52,6 +52,28 @@ description: Use when running the final pre-submission preflight for The World B
 - **Data availability:** the statement and DOI link are *in the manuscript*, not just promised — public release of data and code is a condition of publication, so the deposit should exist before submission, not after acceptance.
 - **Final read of the PDF:** exhibits legible at print size, no broken cross-references, page count confirmed ≤40.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue wber-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Blinding the manuscript as if review were double-blind (it is single-anonymized; names go on the title page)

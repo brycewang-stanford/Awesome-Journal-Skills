@@ -30,7 +30,7 @@ JPubE bar (see [`../../skills/jpube-identification-strategy/SKILL.md`](../../ski
 [`../../skills/jpube-contribution-framing/SKILL.md`](../../skills/jpube-contribution-framing/SKILL.md), and
 [`../../skills/jpube-writing-style/SKILL.md`](../../skills/jpube-writing-style/SKILL.md)). For each, ask the
 self-check question before claiming your paper is "JPubE-shaped." The cross-cutting design checks live in
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).
 
 ---
 

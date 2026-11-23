@@ -97,8 +97,8 @@
 - **先判对口，再动笔。** 若落点是"某政策有没有效"，多半应改投经济学/政策评估类刊，见
   `../../skills/socs-fit-positioning/SKILL.md`。
 - **定量稿的识别底线另见共享中枢。** 用 CGSS/CFPS 做因果推断时，方法规范见
-  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
-  与 [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)；
+  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)
+  与 [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)；
   但本刊要的是机制的**社会学含义**，不是"识别更干净"本身（`../../skills/socs-fit-positioning/SKILL.md`）。
 - **引用前核对刊名。** 凡记不清是《社会学研究》还是《社会》/《中国社会科学》/《社会学评论》/
   《清华社会学评论》/《青年研究》/《人口研究》的篇目，先回官方刊站（`shxyj.ajcass.com`）或 CNKI

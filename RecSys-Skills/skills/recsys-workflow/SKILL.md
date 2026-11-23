@@ -8,8 +8,10 @@ description: Use when planning an ACM RecSys project timeline from venue fit thr
 Use this as the project-management skill for a RecSys submission. Replace all dates with the
 current official timetable and work backwards from the submission-system cutoffs.
 
-RecSys is a conference, not a journal: it has no standing editor-in-chief and no article-processing
-charge. The rotating leadership is the per-edition General Chairs and Program Chairs (2026 General
+RecSys is a conference, not a journal: it has no standing editor-in-chief. Since ACM's move to
+full open access (January 1, 2026), Main, Reproducibility and Industry papers from institutions
+outside ACM Open carry an article-processing charge ($250 ACM/SIG member / $350 non-member at the
+2026 subsidised rate; re-verified 2026-11-23). The rotating leadership is the per-edition General Chairs and Program Chairs (2026 General
 Chairs: Joseph A. Konstan, George Karypis, Gediminas Adomavicius; Program Chairs: Minmin Chen, Bart
 Goethals, Martijn Willemsen — verified 2026-07-09), and the cost model is registration fees, with
 proceedings in the ACM Digital Library. Chairs rotate yearly, so re-check the current committees

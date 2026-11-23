@@ -39,7 +39,7 @@ A general-interest referee does not want a wall of extra columns — they want t
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEEA is a general-interest European economics flagship; credible identification across applied fields.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JEEA is a general-interest European economics flagship; credible identification across applied fields.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

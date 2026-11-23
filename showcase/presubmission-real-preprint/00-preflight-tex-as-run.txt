@@ -1,0 +1,15 @@
+【Preflight】07_1_main_tourism_shock.tex (tex) → AER: Insights
+【Venue rules】American Economic Review: Insights — verified 2026-11-23 (AER-Insights-Skills/resources/official-source-map.md)
+【Mechanical verdict】NO-GO  (3 FAIL · 0 FLAG · 0 INFO)
+【Counts】abstract_words=100, abstract_chars=100, main_text_words=5691, main_text_chars=5691, keywords=5
+
+FAIL
+  ANON-AUTHOR       [front matter] Author block is not anonymized: 'Suguru Otanisuguru.otani@e.u-tokyo.ac.jp mailto:suguru.otani@e.u-tokyo.ac.jp, Market Desig'. Double-blind review requires removing names, affiliations and emails.
+                    → owner: *-submission (anonymization)
+  ANON-ACK          [line 80] Acknowledgments / funding / thanks present in a double-blind submission; remove them until the camera-ready version.
+                    → owner: *-submission (anonymization)
+  STMT-MISSING      Disclosure statement is required by the venue but was not found (looked for a heading or a labelled paragraph).
+                    → owner: *-submission (required statements)
+
+【Checked】abstract ≤ 100 words; main text ≤ 7000 words; anonymization (double-blind); required statements: disclosure_statement; citations ↔ bibliography; exhibits referenced; table notes; abstract/introduction numbers traceable to the body or tables; placeholders, tracked changes, comments
+【Next】This is stage 0 (mechanics). Fix every FAIL, then run the readiness scorecard and the simulated referee panel (rt-submission-readiness → rt-simulated-referee).

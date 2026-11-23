@@ -74,6 +74,28 @@ Suppose a structural demand-and-merger article sits at 43 main-text pages the ni
 - **Supporting information may be declined.** Fix: keep decisive results in the article and appendix; justify anything attached and confirm hosting against the journal's current author guidelines.
 - **Fee specifics drift.** Fix: re-confirm the exact fee amount and refund terms on the current Wiley "For Authors" page before paying.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue rje-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Blowing the 40-page main-text cap and assuming "they count words" — they count **pages**

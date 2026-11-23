@@ -44,7 +44,7 @@ both communicate and free up words for the (capped) introduction and discussion.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPSP is predominantly experimental social/personality psychology; randomization inference, mediation done right (`mediate`, not naive controlling-away), power, and family-wise corrections are decisive.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPSP is predominantly experimental social/personality psychology; randomization inference, mediation done right (`mediate`, not naive controlling-away), power, and family-wise corrections are decisive.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

@@ -65,7 +65,7 @@ The editor sees a robust effect, a transparent search, and a magnitude that surv
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just list it. Full map:
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JF-specific instantiation:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md). JF-specific instantiation:
 
 - **Multiple testing (the JF-salient one):** after disclosing the search count, apply
   `romano_wolf` (step-down, accounts for cross-test correlation — the right tool for a

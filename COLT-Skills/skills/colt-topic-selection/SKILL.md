@@ -6,7 +6,7 @@ description: Use when deciding whether a result is COLT-shaped (Conference on Le
 # COLT Topic Selection
 
 Use this before writing begins. COLT solicits papers on theoretical aspects of machine
-learning, described in the 2026 CFP (checked 2026-07-08) as a subject at the
+learning, described in the COLT 2027 CFP (checked 2026-11-23) as a subject at the
 intersection of computer science, statistics, and applied mathematics, with an
 explicitly inclusive view that includes theory shedding light on empirical phenomena.
 The practical bar: the contribution must be a theorem — a rate, a separation, a
@@ -104,7 +104,7 @@ a global minimum under an over-parameterization condition.
 
 ## Timing considerations
 
-- COLT's single annual deadline (February 4, 2026 for the 39th edition) sits between
+- COLT's single annual deadline (January 29, 2027 for COLT 2027, the 40th edition) sits between
   the autumn ML-conference cluster and summer; a NeurIPS reject in September leaves
   comfortable repair time, an ICML reject usually does not — plan the cascade.
 - ALT and COLT deadlines are roughly anti-phased, making ALT the natural same-community
@@ -113,7 +113,7 @@ a global minimum under an over-parameterization condition.
 ## Cycle-volatility warnings
 
 - Scope emphasis and the topics list are re-issued every cycle; the intersection
-  framing above is the 2026 wording (待核实 later).
+  framing above is the 2026 and COLT 2027 wording (待核实 later).
 - Open-problem track existence, format, and deadline: current CFP only.
 
 ## Output format

@@ -27,8 +27,8 @@ Pick the row whose **method × question** is closest to yours, then study how th
 [`../../skills/car-topic-selection/SKILL.md`](../../skills/car-topic-selection/SKILL.md) and
 [`../../skills/car-contribution-framing/SKILL.md`](../../skills/car-contribution-framing/SKILL.md)). For
 each, ask the self-check question before claiming your paper is "CAR-shaped." The
-[shared reviewer-objection checklist](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
-and [reporting standards](../../../shared-resources/empirical-methods/reporting-standards.md) cover the
+[shared reviewer-objection checklist](../shared/empirical-methods/reviewer-objection-checklist.md)
+and [reporting standards](../shared/empirical-methods/reporting-standards.md) cover the
 venue-neutral design and inference stakes; defer to this pack's skills for what *CAR specifically* wants.
 
 ---

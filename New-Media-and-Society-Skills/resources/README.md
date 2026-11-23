@@ -31,8 +31,8 @@ For background only, cross-cutting method guidance lives once in the shared empi
 linked here for the **computational/quantitative** strand of NM&S work; defer to this pack's skills and
 `official-source-map.md` for what *this* journal requires:
 
-- [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — objections referees raise on quantitative/computational designs, each with its preemption (background for the computational strand only).
-- [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) — modern inference + reporting table stakes (SE clustering, multiple-testing, reproducibility) — background for quantitative/computational analyses only.
+- [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) — objections referees raise on quantitative/computational designs, each with its preemption (background for the computational strand only).
+- [reporting-standards](shared/empirical-methods/reporting-standards.md) — modern inference + reporting table stakes (SE clustering, multiple-testing, reproducibility) — background for quantitative/computational analyses only.
 
 ## Suggested workflow
 

@@ -8,30 +8,37 @@ description: Use when auditing an ACM IMC submission for HotCRP readiness, cover
 Run this audit before uploading to the IMC HotCRP site. IMC — the ACM Internet Measurement
 Conference, sponsored by ACM SIGCOMM — judges a submission on **what it measured about the real
 Internet and how**, so the mechanics below are where good measurement work is needlessly lost.
-Every number was read from the IMC 2026 call and submission instructions and the IMC 2025 call on
-2026-07-09 via search renderings (see `resources/official-source-map.md`); treat them as a
-one-cycle snapshot and reopen the live pages first.
+Every number was read from the IMC 2027 call and submission instructions, re-verified 2026-11-23
+by direct page load (see `resources/official-source-map.md`); treat them as a one-cycle snapshot
+and reopen the live pages first.
 
 ## Pick the cycle first
 
-IMC runs **two deadlines a year** (cycle 1 ~20 Nov 2025, cycle 2 ~29 Apr 2026). This is a real
-choice, not a formality:
+IMC runs **two deadlines a year** (IMC 2027: cycle 1 17 Nov 2026, cycle 2 7 Apr 2027, both
+11:59PM AoE, hard deadlines with no extensions). This is a real choice, not a formality:
 
 - The **One-Shot-Revision** path resubmits to the *next* deadline with the *same* reviewers, so a
   cycle-1 submission that earns a revision lands back in cycle 2. If your data collection finishes
   late, cycle 2 may be the honest target rather than rushing cycle 1.
-- Registration precedes submission by roughly a week (cycle 1: register ~13 Nov 2025). Miss
-  registration and no PDF slot exists.
+- Registration precedes submission by a week (IMC 2027: register by 10 Nov 2026 for cycle 1,
+  by 31 Mar 2027 for cycle 2). Miss registration and no PDF slot exists.
+- A paper **rejected** at one deadline cannot come back at the next: roughly 12 months must pass
+  since the last IMC deadline it was submitted to (a paper rejected in IMC 2026 cycle 2 can go to
+  IMC 2027 cycle 2, not cycle 1). Format desk rejects are exempt.
+- Each cycle has its own HotCRP instance (`imc2027-cycle1.hotcrp.com`, `imc2027-cycle2.hotcrp.com`).
 
 ## Format and page budget
 
-- **ACM `acmart` template**, in the required review format, unmodified. This is the ACM path — do
+- **ACM `acmart` template**, in the required review format, unmodified — the submission
+  instructions give `\documentclass[10pt,sigconf,letterpaper,anonymous,nonacm]{acmart}`; Letter
+  paper, 10-point font, numbered pages, PDF under 15 MB, abstract recommended at no more than
+  200 words. This is the ACM path — do
   not carry an IEEE two-column habit across from a sibling networking venue.
 - Upload the **BBL file** of your references on the reviewing system, as the submission
   instructions require — a missing BBL is a preventable processing failure.
-- **Page budget (IMC 2025 basis; confirm 2026):** full papers **up to 13 pages** of text and
-  figures **+ unlimited** references and appendix; short papers **up to 6 pages** of text and
-  figures. Any paper with **more than 6 pages of technical content is reviewed as a full paper**.
+- **Page budget (IMC 2027):** full papers **up to 13 pages** of technical content **+
+  unlimited** references and appendices; short papers **up to 6 pages** of technical content +
+  unlimited references and appendices. Any paper with **more than 6 pages of technical content is reviewed as a full paper**.
 - The appendix is unlimited but **may not be used to dodge the body limit** — the page-limited
   body must be self-contained and decision-complete.
 
@@ -50,12 +57,19 @@ pdftotext paper.pdf - | grep -nEi 'github\.com/[a-z0-9-]+|zenodo\.org/record|ack
 The measurement-specific leaks: a **vantage point** or testbed that only your group operates, an
 AS number or probe hostname that names your institution, a RIPE Atlas measurement ID tied to your
 account, a released-dataset URL on a personal or lab domain, and acknowledgements to the operators
-who gave you access. Anonymize the *infrastructure description*, not just the byline.
+who gave you access. Anonymize the *infrastructure description*, not just the byline. IMC's
+anonymity guidelines do allow a narrow exception: naming a well-known but non-public capability
+(a network telescope, an established measurement app) when blinding it would gut the paper — use
+it rarely and only for that text; public platforms and datasets (RIPE Atlas, RouteViews) should
+simply be named.
 
 ## The Ethics section is a gate
 
-IMC requires a **clearly marked Ethics section or appendix**; a paper without one **may be
-rejected**. This is not boilerplate:
+IMC requires a **clearly marked appendix section titled "Ethics"**; a paper without one **may be
+rejected**. IMC 2027 makes it one of **three mandatory appendix sections** — **Ethics**, **Open
+Science** (what artifacts will be released, or why not), and **Generative AI** (if, where, and how
+generative AI was used; a footnote for small AI-generated text spans). These are the only
+appendix sections reviewers are expected to read. The Ethics section is not boilerplate:
 
 - **Human subjects / user data** (traffic, DNS queries, social data, credentials): document
   **IRB** approval or exemption, and attach the anonymized determination form if required. Reason
@@ -86,6 +100,7 @@ Every submission carries a declaration: **full**, **partial**, or **no** availab
 | Missing BBL upload | Processing failure | Generate and upload the BBL |
 | Identity leak in PDF, dataset link, or vantage-point description | Anonymity violation | Re-anonymize infrastructure and links; scrub PDF metadata |
 | **No Ethics section** | Named rejection ground | Add a real Ethics section; document IRB/disclosure |
+| Missing Open Science or Generative AI appendix section (IMC 2027) | Mandatory-section gap | Add both sections, even if the answer is "none" |
 | Human-subjects work without IRB documentation | Ethics failure | Obtain/attach the IRB determination |
 | Not registered by the cycle's registration date | No submission slot | Nothing fixes this post-cutoff — calendar it now |
 
@@ -93,7 +108,8 @@ Every submission carries a declaration: **full**, **partial**, or **no** availab
 
 1. Freeze the measurement narrative early; the finding and its vantage points cannot churn.
 2. Register title/abstract/authors/conflicts before the registration cutoff.
-3. Write the Ethics section and confirm IRB/disclosure documentation is ready.
+3. Write the Ethics, Open Science, and Generative AI appendix sections and confirm IRB/disclosure
+   documentation is ready.
 4. Build the anonymized dataset/tool link and set the availability declaration honestly.
 5. Run the mechanical anonymity checks — including infrastructure — on the *final* PDF.
 6. Upload the PDF **and the BBL**, fill every HotCRP field (topics, conflicts for every coauthor's
@@ -106,6 +122,28 @@ Every submission carries a declaration: **full**, **partial**, or **no** availab
 - Ethics-statement wording and the IRB-form requirement.
 - Artifact-declaration options and any responsible-disclosure or AI-use rule — all cycle-volatile.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue imc-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Output format
 
 ```text
@@ -114,6 +152,7 @@ Every submission carries a declaration: **full**, **partial**, or **no** availab
 [Format] pages used (body/refs), acmart compliance, BBL uploaded?
 [Anonymity] clean / leaks: <where, incl. vantage points>
 [Ethics] section present? IRB/disclosure documented? yes/no
+[Appendix] Open Science + Generative AI sections present? yes/no
 [Availability] declaration full/partial/none + justification if none
 [Fix queue] <ordered, with owners and dates before the AoE cutoff>
 ```

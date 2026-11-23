@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "jse-tju-skills",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "description": "A twelve-skill lifecycle pack for manuscripts submitted to 《系统工程学报》.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "jse-tju-skills",
-      "version": "0.1.0",
+      "version": "1.2.0",
       "source": "./",
       "description": "Twelve-skill bundle for 《系统工程学报》 covering workflow, fit, topic selection, literature review, modeling, theory, algorithms, validation, reproducibility, writing, submission, and rebuttal.",
       "author": {

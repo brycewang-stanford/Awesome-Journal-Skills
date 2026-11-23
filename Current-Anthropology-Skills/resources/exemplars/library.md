@@ -135,4 +135,4 @@ Before adding any new paper to this library, confirm it on the UChicago Press pl
 (`journals.uchicago.edu/doi/10.1086/...`) with volume/issue/pages and the DOI, note whether it carries the
 **"[and Comments and Reply]"** CA✩ format, and update the access-date header. When in doubt, omit. For
 background reporting hygiene on the *quantitative* (biological/archaeological) subfields only, see
-[`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+[`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

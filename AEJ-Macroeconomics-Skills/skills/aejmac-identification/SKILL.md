@@ -42,7 +42,7 @@ AEJ: Macro publishes identified-empirical macro, so the **mapping from data to t
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the identification claim, don't only argue it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Macro mixes empirical and structural work — local projections (`local_projections` / `irf`) are in StatsPAI, but DSGE / calibration estimation is outside this causal-inference toolchain.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AEJ: Macro mixes empirical and structural work — local projections (`local_projections` / `irf`) are in StatsPAI, but DSGE / calibration estimation is outside this causal-inference toolchain.
 
 1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
    the checks the design still owes.

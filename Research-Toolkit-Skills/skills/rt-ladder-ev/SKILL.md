@@ -15,7 +15,7 @@ visible, so it was settled by optimism.
 
 The size of the trade is whatever your inputs say it is; the point of the tool is that
 you find out before spending the months rather than after. In the
-[worked example](../../../shared-resources/journal-selection/worked-example.md), one
+[worked example](../../resources/shared/journal-selection/worked-example.md), one
 reach rung costs about four and a half months and buys about four points of placement
 probability — and the sensitivity band shows the four points are not distinguishable
 from zero while the four months are. That shape of answer, rather than a winner, is the
@@ -30,7 +30,7 @@ usual output.
 
 ## What it needs
 
-The [`paper-profile.yml`](../../../shared-resources/journal-selection/paper-profile.md)
+The [`paper-profile.yml`](../../resources/shared/journal-selection/paper-profile.md)
 (for `ambition`, `constraints.clock`, `history`) plus, **for each rung**, three numbers:
 
 | Input | Where it comes from |
@@ -47,6 +47,8 @@ Start from the published rate, then move it with the venue's own
 moved it and why.
 
 ## What it does
+
+Run from the repository root — from an installed plugin, the marketplace clone at `~/.claude/plugins/marketplaces/awesome-journal-skills/` is that root.
 
 ```bash
 python3 tools/ladder_ev.py \
@@ -102,5 +104,5 @@ either number on its own.
 ---
 *Follows [`rt-journal-match`](../rt-journal-match/SKILL.md) (which builds the ladder) and
 [`rt-venue-reframe`](../rt-venue-reframe/SKILL.md) (which prices the rewrite each rung
-needs). Method: [`journal-match.md`](../../../shared-resources/journal-selection/journal-match.md)
+needs). Method: [`journal-match.md`](../../resources/shared/journal-selection/journal-match.md)
 step 6.*

@@ -1,18 +1,20 @@
 # IJCAI Skills
 
-Twelve agent skills for IJCAI and IJCAI-ECAI main-track papers. The pack focuses on
-Chairing Tool submission readiness, abstract and author-information deadlines, two-phase
+Twelve agent skills for IJCAI main-track papers (IJCAI 2027, Kyoto; earlier editions ran
+as IJCAI-ECAI when co-located). The pack focuses on submission-site readiness, abstract and
+author-information deadlines, reciprocal reviewing, two-phase
 review, concise author responses, reproducibility evidence, supplementary files,
 resubmission information, LLM-use policy, and camera-ready publication.
 
-Official basis checked on 2026-06-01: IJCAI-ECAI 2026 Main Track CFP, submissions FAQ,
-Author's Response FAQ, reproducibility guidelines, Author Kit, important dates, peer-review
-principles, and IJCAI conflict-of-interest policy. See `resources/official-source-map.md`
-for the exact source map.
+Official basis re-verified on 2026-11-23: IJCAI 2027 Main Track CFP and important dates,
+submission-process page, Primary Paper Initiative, reciprocal-review policy, reproducibility
+guidelines, Author Kit (IJCAI 2027 guidelines), IJCAI Generative AI Policy, peer-review
+principles, conference committee, and IJCAI conflict-of-interest policy. See
+`resources/official-source-map.md` for the exact source map.
 
 ## Skills
 
-- `ijcai-submission` - audit Chairing Tool, author information, ORCID, page limits,
+- `ijcai-submission` - audit the submission site, author information, ORCID, page limits,
   anonymity, supplementary material, resubmission information, author limits, dual
   submission, and LLM-use policy.
 - `ijcai-author-response` - draft one-page IJCAI author responses for pressing questions,
@@ -41,6 +43,7 @@ for the exact source map.
 ## Maintenance notes
 
 - Reopen current-cycle official sources before deadline-sensitive advice.
-- Treat IJCAI-ECAI 2026 facts as historical anchors, not permanent rules.
+- The pack describes IJCAI 2027; IJCAI-ECAI 2026 facts are kept only as labeled history,
+  and IJCAI 2027 facts are not permanent rules either.
 - Track rules, page limits, submission systems, PPI fees, LLM policy, response format,
   supplementary limits, and camera-ready obligations can change by cycle and track.

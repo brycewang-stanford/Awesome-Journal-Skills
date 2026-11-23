@@ -14,7 +14,7 @@
 | MBSE/工程追溯 | SysML/KARMA、OSLC、Simulink | 架构版本、接口、追溯矩阵、模型到仿真的可执行链 |
 
 涉及现代因果推断时，优先调用仓库共享
-[execution-with-mcp](../../shared-resources/empirical-methods/execution-with-mcp.md)；
+[execution-with-mcp](shared/empirical-methods/execution-with-mcp.md)；
 它不适用于纯优化、解析博弈、MBSE 或网络扩散模型。
 
 ## 禁止做法

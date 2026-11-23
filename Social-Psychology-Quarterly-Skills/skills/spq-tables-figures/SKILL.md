@@ -43,7 +43,7 @@ SSP survey table, or vice versa).
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). SPQ spans lab/survey experiments and observational work; randomization inference and mediation done right matter for the experimental lane.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). SPQ spans lab/survey experiments and observational work; randomization inference and mediation done right matter for the experimental lane.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

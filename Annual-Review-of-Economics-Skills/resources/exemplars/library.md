@@ -10,4 +10,4 @@ Access date for this starter library: 2026-06. This file intentionally uses veri
 | evidence stocktake | Add a verified AREcon article from the official archive | 待核实 | Do not import a sibling-journal paper without checking venue |
 | future agenda | Add a verified AREcon article from the official archive | 待核实 | Do not import a sibling-journal paper without checking venue |
 
-Shared reviewer-objection reference: [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+Shared reviewer-objection reference: [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

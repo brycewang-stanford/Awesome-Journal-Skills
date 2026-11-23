@@ -52,7 +52,7 @@ Suppose 23 states adopt a disclosure rule between 2008 and 2016 and the outcome 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the identification claim, don't only argue it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFQA is empirical finance (asset pricing + corporate) — the DiD / IV / RDD chain for corporate causal claims, the factor-zoo haircut for cross-sectional pricing.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JFQA is empirical finance (asset pricing + corporate) — the DiD / IV / RDD chain for corporate causal claims, the factor-zoo haircut for cross-sectional pricing.
 
 1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
    the checks the design still owes.

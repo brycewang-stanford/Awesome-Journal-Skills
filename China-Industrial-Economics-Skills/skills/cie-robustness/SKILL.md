@@ -54,7 +54,7 @@ description: Use when building or auditing the robustness section of a 《中国
 ## 执行桥（StatsPAI / Stata MCP）
 
 把稳健性 battery **跑出来**，而不是只罗列。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国工业经济》偏产业/企业实证，常见政策冲击 DID 与 IV；强调识别与稳健性。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《中国工业经济》偏产业/企业实证，常见政策冲击 DID 与 IV；强调识别与稳健性。
 
 - **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
 - **遗漏变量敏感性：**`oster_delta` / `sensemakr`。

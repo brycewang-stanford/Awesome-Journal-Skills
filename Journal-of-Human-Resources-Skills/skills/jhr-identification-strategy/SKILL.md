@@ -96,7 +96,7 @@ to show the decision rules):
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JHR is labor/education economics — program evaluation with selection; DiD/IV/RDD and the selection objection are central.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JHR is labor/education economics — program evaluation with selection; DiD/IV/RDD and the selection objection are central.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

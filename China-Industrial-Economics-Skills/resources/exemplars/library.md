@@ -36,7 +36,7 @@
   机制部分前先读 `../../skills/cie-mechanism/SKILL.md`。
 - **识别按本刊红线做满。** 交错 DID 必上事件研究图 + 安慰剂 + 异质性稳健估计（Bacon 分解 /
   CS / SA / dCDH），见 `../../skills/cie-did-identification/SKILL.md`；方法规范底线另见
-  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)。
+  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)。
 - **引用前核对刊名。** 凡记不清是 CIE 还是《经济研究》/《管理世界》/《数量经济技术经济研究》
   的篇目，先回 CNKI（GGYY）或官网（`ciejournal.ajcass.com`）核对，再写进参考文献。
 

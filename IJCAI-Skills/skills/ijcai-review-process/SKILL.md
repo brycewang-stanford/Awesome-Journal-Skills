@@ -10,9 +10,11 @@ principles, and conflict policy before making process claims.
 
 ## Process model
 
-- Phase 1 can be decisive. IJCAI-ECAI 2026 gave every paper two PC reviews first; papers
-  with two good-quality but insufficiently positive reviews could receive summary rejection
-  without author response.
+- Phase 1 can be decisive. The IJCAI 2027 CFP keeps the two-phase design: papers with two
+  good-quality but insufficiently positive Phase 1 reviews are summarily rejected without
+  author response (summary-reject notification February 25, 2027).
+- Reciprocal reviewing binds the submission: if the designated author-reviewer misses Phase 1
+  or Phase 2 duties, the IJCAI 2027 submission is desk rejected.
 - Papers advancing to full review receive additional review and discussion by PC/SPC members,
   with AC coordination and SAC cross-checking.
 - The response is concise and visible to the decision group specified by current rules; it is

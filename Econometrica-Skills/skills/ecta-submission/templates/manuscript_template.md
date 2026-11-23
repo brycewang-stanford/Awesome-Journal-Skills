@@ -17,7 +17,7 @@ paper by expanding the application section and the identification discussion. Us
 
 ## Authors
 
-> [Anonymized for submission — author names, affiliations, and contact handled in the portal]
+> [Author names and full affiliations on the title page — Econometrica is single-anonymous; no de-identification]
 
 ## Abstract
 

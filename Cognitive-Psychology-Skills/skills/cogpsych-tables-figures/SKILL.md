@@ -84,7 +84,7 @@ Table 1. Model comparison: free parameters, -2logL, AIC, BIC, BF, by model.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Cognitive Psychology is experimental — within-subject designs and mixed models dominate; report the model, the effect size, and multiple-comparison control.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Cognitive Psychology is experimental — within-subject designs and mixed models dominate; report the model, the effect size, and multiple-comparison control.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

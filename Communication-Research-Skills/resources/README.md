@@ -9,8 +9,8 @@ is linked below.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python analysis skeleton (clean → descriptive → models → mechanism → robustness → tables). Vendored from the verified shared empirical-methods library (Stata 18 MP, 2026-06); copy-and-adapt, change no command blindly. For CR, lean on the measurement, mediation, and reporting blocks more than the causal-identification chain. |
-| [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by strategy, each with its preemption. Stress-test the design before drafting. |
-| [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: effect sizes, SE clustering, multiple-testing, reproducibility — the APA-reporting bar CR enforces. |
+| [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by strategy, each with its preemption. Stress-test the design before drafting. |
+| [reporting-standards](shared/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: effect sizes, SE clustering, multiple-testing, reproducibility — the APA-reporting bar CR enforces. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (page limit, blinding, two-review rule, APA reporting, data policy) with sourcing discipline and 待核实 markers. |
 | [`external_tools.md`](external_tools.md) | Data sources, measurement/reliability/SEM tooling, and the SAGE Track portal for this venue. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | A fictional, clearly-labelled CR-style introduction + abstract in house style. |

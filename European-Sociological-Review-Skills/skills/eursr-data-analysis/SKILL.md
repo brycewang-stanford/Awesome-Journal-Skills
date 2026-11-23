@@ -90,7 +90,7 @@ few-cluster inference is handled honestly rather than asserted.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ESR is comparative quantitative sociology; cross-country panels with confounded institutions — foreground fixed effects and clustering.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). ESR is comparative quantitative sociology; cross-country panels with confounded institutions — foreground fixed effects and clustering.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

@@ -15,9 +15,9 @@ are distinct EDA conferences with their own calls; and note "DAC" in a circuits 
 - DAC 2026 home (Long Beach, Jul 26-29, 2026): https://dac.com/2026
 - DAC 2026 Call for Contributions: https://dac.com/2026/call-for-contributions
 - Research Manuscripts Guidelines (6+1, ACM double-column): https://dac.com/2026/speaker-resource-center/research-manuscripts-guidelines
-- Research FAQ (two-stage submission, double-blind, COI): https://dac.com/2026/authors/research-frequently-asked-questions
+- Research FAQ (two-stage submission, double-blind, COI; archived copy — the live page is gone): https://web.archive.org/web/20251109213124/https://dac.com/2026/authors/research-frequently-asked-questions
 - Manuscript submission deadline event: https://dac.com/2026/events/manuscript-submission-deadline-rm
-- Engineering Track: https://dac.com/2026/engineering-track-presentations
+- Engineering Track (archived copy — the live page is gone): https://web.archive.org/web/20251219174745/https://dac.com/2026/engineering-track-presentations
 - Late Breaking Results: https://dac.com/2026/late-breaking-results and Softconf `dac26`: https://softconf.com/dac26/lbr26/
 - IEEE CEDA DAC 2026 announcement: https://ieee-ceda.org/post/announcement/dac-2026-call-contributions
 - A. Richard Newton Technical Impact Award: https://ieee-ceda.org/awards/a-richard-newton-award

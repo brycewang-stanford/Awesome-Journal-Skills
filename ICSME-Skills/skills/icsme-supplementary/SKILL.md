@@ -29,7 +29,7 @@ mis-partitioned — move that evidence into the body.
 
 ## The 10-page discipline (figures and appendices count)
 
-ICSME's IEEEtran two-column budget (2026: 10 pages including figures, tables, and appendices, plus
+ICSME's IEEEtran two-column budget (2027, as in 2026: 10 pages including figures, tables, and appendices, plus
 2 reference-only pages) is tighter than FSE's single-column allowance. Consequences:
 
 - Keep the full threats-to-validity treatment and the primary result tables **in the body** — they

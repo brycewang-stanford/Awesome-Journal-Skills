@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "research-toolkit-skills",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Cross-journal author workflow toolkit (11 skills): pick the venue (journal-match runs tools/match_venues.py over a generated index of 743 venues with a resubmission-ladder graph, and is measured against a held-out gold set), cost the submission ladder in months and probability of placing, verify an unfamiliar venue against primary sources before submitting, reframe a manuscript from one venue to another, run the analysis through the StatsPAI / Stata MCP execution bridge, self-check submission readiness, score desk-reject risk against the target's own documented triggers, rehearse a calibrated referee panel, draft the point-by-point response, and assemble a Data-Editor replication package. Venue-neutral; reads each target pack's skills + official-source-map for the venue bar and live facts.",
   "owner": {
     "name": "Bryce Wang",
@@ -13,7 +13,7 @@
   "plugins": [
     {
       "name": "research-toolkit-skills",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "source": "./",
       "description": "Cross-journal author workflow toolkit (11 skills): pick the venue (journal-match runs tools/match_venues.py over a generated index of 743 venues with a resubmission-ladder graph, and is measured against a held-out gold set), cost the submission ladder in months and probability of placing, verify an unfamiliar venue against primary sources before submitting, reframe a manuscript from one venue to another, run the analysis through the StatsPAI / Stata MCP execution bridge, self-check submission readiness, score desk-reject risk against the target's own documented triggers, rehearse a calibrated referee panel, draft the point-by-point response, and assemble a Data-Editor replication package. Venue-neutral; reads each target pack's skills + official-source-map for the venue bar and live facts.",
       "author": {

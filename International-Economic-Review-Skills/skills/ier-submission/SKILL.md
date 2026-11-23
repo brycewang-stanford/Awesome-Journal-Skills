@@ -55,6 +55,28 @@ The ≤50-page, double-spaced ceiling is tighter than it looks — double spacin
 
 Because IER uses Editorial Express rather than the ScholarOne/Manuscript Central system most economists default to, confirm the live portal URL and the exact upload format it expects before the deadline. Verify the current style-guideline requirements (request them from the editorial office if you do not hold them), since exact abstract length and reference format are 待核实 and can change. A last-minute discovery that the portal or format differs from expectation is an avoidable delay on a paper that is otherwise ready.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue ier-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Uploading and assuming review starts — at IER **nothing happens until the $150 fee clears**

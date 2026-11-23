@@ -13,13 +13,17 @@ description: Use when running the final pre-submission preflight for an Economet
 
 > Verify all volatile specifics — portal URL, submission fee, the current Data and Code
 > Availability Policy, the editorial board, and formatting rules — on the official journal
-> site before submitting. The figures below were current as of 2026-05-30 but change.
+> site before submitting. The figures below were re-checked on 2026-11-23 but change.
 
-## Econometrica specifics (verify; current as of 2026-05-30)
+## Econometrica specifics (verify; re-checked 2026-11-23)
 
 - **Membership + fee:** at least one author must be a member of the **Econometric Society**.
-  Submission fee (from Jan 1, 2025): **US$125 regular member, US$50 student member**. Invited
-  resubmissions and ES-journal transfers are fee-exempt.
+  Submission fee (from Jan 1, 2025): **US$125 regular member, US$50 student member**,
+  non-refundable even on rejection without review. Invited resubmissions require only membership;
+  authors residing in World Bank **low-income** countries are exempt (every coauthor must qualify
+  for a discount/exemption to use it). Papers *transferred from* Econometrica to QE or TE pay no
+  extra fee there. Accepted papers pay a **publication page fee** of 50% of production cost
+  (currently US$12/page), waived for low- and lower-middle-income-country authors.
 - **Length:** main text **≤45 pages including references and appendices**; font ≥12pt, line
   spacing ≥1.5, margins ≥1.25in. **Supplemental Appendix ≤25 pages**, same formatting;
   additional online Supplemental Material (proofs, Monte Carlo detail) is uploaded with the
@@ -29,9 +33,9 @@ description: Use when running the final pre-submission preflight for an Economet
 - **Replication:** governed by the **Econometric Society** Data and Code Availability Policy;
   the **Data Editor** runs a reproducibility check at conditional acceptance; deposit at the
   ES Journals' Community on **Zenodo** (see `ecta-replication-package`).
-- **Anonymization: UNVERIFIED.** Economics convention is single-anonymous (referees know the
-  author); confirm whether Econometrica currently requires a de-identified PDF before relying
-  on it.
+- **Anonymization: not required.** The official submission instructions (re-checked
+  2026-11-23) say the title page carries the abstract, keywords, and **full author
+  affiliations**; Econometrica is single-anonymous (referees know the author).
 
 ## Pre-submission checklist
 
@@ -54,13 +58,12 @@ description: Use when running the final pre-submission preflight for an Economet
 - [ ] Supplemental Appendix within ≤25 pages; further material in unrestricted Supplemental Material
 - [ ] Self-contained and cross-referenced from the main text
 
-### Anonymization (verify — UNVERIFIED whether currently required)
+### Title page and author identity (single-anonymous — do not de-identify)
 
-- [ ] If a de-identified PDF is required: no author-identifying content in the body
-- [ ] Self-citation phrased in the third person ("X (2020) shows"), not "our earlier work"
-- [ ] Acknowledgments / funding removed from the anonymized manuscript
-- [ ] File metadata scrubbed of author names
-- [ ] Confirm the journal's **current** blinding policy on the Instructions/Editorial Procedures pages
+- [ ] Title page carries the abstract (≤150 words), keywords, and full author affiliations
+- [ ] Optional footnote explaining how author order was determined, if non-alphabetical
+- [ ] Self-citation phrased in the third person ("X (2020) shows") as a matter of style
+- [ ] Re-check the Instructions page in case the blinding policy changes
 
 ### References
 
@@ -82,7 +85,7 @@ description: Use when running the final pre-submission preflight for an Economet
 
 - [ ] Submission fee handled (US$125 regular / US$50 student member, from 2025 — verify current amounts)
 - [ ] At least one author is a current Econometric Society member
-- [ ] Fee-exemption checked if an invited resubmission or ES-journal transfer
+- [ ] Fee-exemption checked (invited resubmission; all authors in World Bank low-income countries)
 
 ## Editorial Express operation
 
@@ -94,6 +97,28 @@ description: Use when running the final pre-submission preflight for an Economet
 - Choose the correct classification / field for routing to an appropriate co-editor.
 - At **conditional acceptance**, final files (and the replication package) go to a separate
   Editorial Express account for the **Data Editor**'s reproducibility check.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue econometrica-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 
@@ -111,7 +136,7 @@ description: Use when running the final pre-submission preflight for an Economet
 ```
 【Body ≤45pp + split】within limit + proofs split correctly: yes/no
 【Supplemental Material assembled】yes/no — missing: [...]
-【Anonymization】pass / fix / N/A (verify if required): [...]
+【Title page】abstract ≤150 words + keywords + full affiliations: pass / fix: [...]
 【References】in/out consistent: yes/no
 【ES Data & Code Policy】reproduces + Zenodo plan / theory-exempt: yes/no
 【Fee + ES membership】handled: yes/no (US$125/US$50 — verify)

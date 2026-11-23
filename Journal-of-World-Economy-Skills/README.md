@@ -33,7 +33,7 @@ Verified journal facts live in [`resources/journal-profile.md`](resources/journa
 | Identification | External shocks + shift-share / gravity | Modern shift-share inference critiques must be met |
 | Policy | Opening-up policy (trade, FX, capital account) | Domestic-operational suggestions miss the level |
 | Notes | Footnotes (页下注), references at the end | Endnotes / in-text-only citations off-style |
-| Abstract | 内容提要 ≤ 300 chars, 3–5 keywords | Lead with the open-economy finding |
+| Abstract | 内容提要 (no official length), 3–5 keywords, title ≤ 26 chars | Lead with the open-economy finding |
 
 ---
 

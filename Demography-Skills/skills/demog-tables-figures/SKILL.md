@@ -44,7 +44,7 @@ exhibit must earn its place.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Demography is formal + empirical demography; the causal chain serves its reduced-form lane, while formal demographic modeling uses its own tools — decomposition (`oaxaca` / `gelbach`) is often central.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Demography is formal + empirical demography; the causal chain serves its reduced-form lane, while formal demographic modeling uses its own tools — decomposition (`oaxaca` / `gelbach`) is often central.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

@@ -35,7 +35,7 @@ The single organizing question behind every JPE skill: **"What does economic the
 | Prose is verbose / hedged / not in JPE's spare analytical voice        | `jpe-writing-style`         |
 | Conditionally accepted; need a DCAS package for the JPE Data Editor / JPE Dataverse | `jpe-replication-package` |
 | Want to anticipate the price-theory / GE objections a referee will raise | `jpe-referee-strategy`    |
-| Ready to submit; need Editorial Express preflight + $250/$125 fee/format check | `jpe-submission`     |
+| Ready to submit; need Editorial Manager preflight + $250/$125 fee/format check | `jpe-submission`     |
 | Received an R&R; need to draft the response letter                     | `jpe-rebuttal`              |
 
 ## Default order
@@ -49,7 +49,7 @@ The single organizing question behind every JPE skill: **"What does economic the
 7. `jpe-writing-style` — tighten prose into JPE's analytical register (polish)
 8. `jpe-referee-strategy` — pre-mortem the report you expect, patch holes
 9. `jpe-replication-package` — assemble data/code to DCAS standard for the JPE Data Editor / JPE Dataverse
-10. `jpe-submission` — Editorial Express preflight ($250/$125 fee, Chicago author-date format, single-blind)
+10. `jpe-submission` — Editorial Manager preflight ($250/$125 fee, Chicago author-date format, single-blind)
 11. `jpe-rebuttal` — after the R&R lands
 
 > `jpe-writing-style` is a **late polish** stage. Do not chase prose before the identification and the model are sound. `jpe-theory-model` and `jpe-identification` often iterate together — for JPE the model frequently disciplines the empirical specification, not the reverse.
@@ -82,7 +82,7 @@ jpe_pipeline:
     - {skill: jpe-writing-style,          status: todo,    gate: "spare analytical register throughout"}
     - {skill: jpe-referee-strategy,       status: todo,    gate: "price-theory / GE objections pre-answered"}
     - {skill: jpe-replication-package,    status: todo,    gate: "DCAS package ready for JPE Dataverse deposit"}
-    - {skill: jpe-submission,             status: todo,    gate: "Editorial Express preflight; $250/$125 fee cleared"}
+    - {skill: jpe-submission,             status: todo,    gate: "Editorial Manager preflight; $250/$125 fee cleared"}
     - {skill: jpe-rebuttal,               status: n/a,     gate: "activates only after an R&R decision"}
   rule: "route to the first stage whose status is blocked or todo; never polish downstream of a blocked gate"
 ```

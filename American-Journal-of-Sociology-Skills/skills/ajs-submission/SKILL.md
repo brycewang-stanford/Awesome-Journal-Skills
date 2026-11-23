@@ -82,6 +82,28 @@ Recurring pre-review failures specific to AJS's portal and double-blind model. C
 
 Reflects AJS's house and culture, not universal rules; confirm wording against the journal's current submission guidelines. The most common avoidable style failure is mis-applying the ASA Style Guide — AJS uses its own author-date system. Length is tolerated, not rewarded: no fixed word cap, but referees may need more time over an illustrative ~18,000 words. The $30 fee is waived only for graduate students submitting as sole authors; a coauthored paper does not qualify. Illustrative: a sole-author candidate's 17,500-word article catches three triage issues — an acknowledgments footnote naming the committee, references in ASA style from a prior ASR attempt, and two figures lacking alt text — and after fixes the waiver applies and the submission clears pre-review checks.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue ajs-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Leaving the cover page / author identifiers inside the manuscript file (breaks double-blind)

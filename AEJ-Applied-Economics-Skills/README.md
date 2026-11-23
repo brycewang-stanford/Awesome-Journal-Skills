@@ -10,10 +10,10 @@ microeconomics with credible causal identification** (labor, development, health
 environmental, household finance). The pack is identification-driven and empirical-first: it routes a
 manuscript from venue fit and a clean research design, through robustness, exhibits, and AEA house-style
 writing, into the signature **AEA Data and Code Availability Policy** — the openICPSR replication package
-that the AEA Data Editor checks for reproducibility **before** publication — and on through single-blind
+that the AEA Data Editor checks for reproducibility **before** publication — and on through author-anonymized
 submission and the R&R rebuttal.
 
-**Official basis checked 2026-06-20**: AEA / AEJ: Applied journal, editors, editorial policy, reviewer,
+**Official basis checked 2026-06-20; re-verified 2026-11-23**: AEA / AEJ: Applied journal, editors, editorial policy, reviewer,
 submission, style, disclosure, and data/code pages. Sources and live-check boundaries are in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
@@ -22,11 +22,11 @@ submission, style, disclosure, and data/code pages. Sources and live-check bound
 | AEJ: Applied constraint | What it forces on the manuscript |
 |-------------------------|----------------------------------|
 | Empirical-first applied micro | A credible causal design is the contribution; theory only interprets/structures |
-| Single-blind review | Author identities are visible to referees; referee identities remain anonymous |
-| AEA online submission + JEL codes | JEL codes required; title/byline/affiliations on first page; member/nonmember fee |
+| Author-anonymized submission (AEA RCT, launched fall 2026) | Manuscript carries no author names, affiliations, or acknowledgement footnote — those go in a separate "title page" PDF; referees are randomized to author-anonymized or traditional single-blind review |
+| AEA ScholarOne submission | Title + abstract on the first page of the anonymized PDF; separate title page and per-author disclosure PDFs; member/nonmember fee; JEL codes customary |
 | AEA Data & Code Availability Policy | Data + code deposited to the AEA Data and Code Repository on openICPSR |
 | Pre-publication reproducibility check (AEA Data Editor, Lars Vilhuber) | Tables/figures must regenerate from the deposited package before publication |
-| AEA house presentation | 100-word abstract; stars permitted but standard errors expected; self-contained exhibit notes; online appendix |
+| AEA house presentation | 100-word abstract; standard errors in parentheses and **no significance asterisks** (style guide); self-contained exhibit notes; online appendix |
 
 ## Quick Start
 

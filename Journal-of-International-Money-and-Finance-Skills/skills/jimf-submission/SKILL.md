@@ -63,6 +63,28 @@ Before uploading, read the paper as an editor doing a 10-minute triage: Is the i
 
 This is a mechanics-and-compliance check, not a content review. It confirms the file set, front matter, declarations, and house style are submission-ready; it does not judge whether the identification holds (`jimf-identification`), whether the result is robust (`jimf-robustness`), or whether the contribution is staked (`jimf-literature-positioning`). Run those substantive checks first; a perfectly formatted submission with a weak design wastes a review cycle. The preflight's value is catching the avoidable rejections — missing Highlights, an over-long abstract, an absent data statement, a cover letter that never says why JIMF.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jimf-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Uploading without Highlights, keywords, or JEL codes — a visible Elsevier-compliance gap

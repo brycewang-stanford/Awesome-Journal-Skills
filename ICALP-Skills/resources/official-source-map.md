@@ -1,6 +1,6 @@
 # Official Source Map - ICALP (EATCS)
 
-Access date: 2026-07-09
+Access date: 2026-07-09 (dead links re-checked 2026-11-23)
 
 This map records the official and cross-check sources used for ICALP-specific facts in this
 pack. ICALP is the main annual conference of the **European Association for Theoretical Computer
@@ -31,7 +31,7 @@ calendar, format, or review model with STOC, FOCS, or SODA (ACM/SIAM venues with
 |---|---|---|---|
 | 1 | https://icalppodcspaa2026.cs.rhul.ac.uk/icalp/ | ICALP 2026 identity: 53rd EATCS ICALP, Royal Holloway (Egham, UK), co-located with PODC and SPAA; Track A / Track B; LIPIcs proceedings | 2026-07-09 |
 | 2 | https://lists.seas.upenn.edu/pipermail/types-announce/2025/012199.html | ICALP 2026 Call for Papers (TYPES-announce rendering): dates, 15-page extended-abstract + appendix/full-version rule, anonymity, no-simultaneous-submission, awards | 2026-07-09 |
-| 3 | http://dmatheorynet.blogspot.com/2025/12/dmanet-icalp-2025-12-icalp-2026-call.html (DMANET ICALP 2026 CFP posting) | Cross-rendering of the same CFP: Track A/B scope, lightweight double-blind, Track B rebuttal 21-24 Mar 2026 | 2026-07-09 |
+| 3 | https://dmatheorynet.blogspot.com/2025/12/dmanet-icalp-2026-call-for-papers.html (DMANET ICALP 2026 CFP posting; the previously cited `dmanet-icalp-2025-12-icalp-2026-call.html` slug returns 404, re-read 2026-11-23) | Cross-rendering of the same CFP: Track A/B scope, Track B rebuttal 21-24 Mar 2026 (Track A authors contacted only on correctness issues), dates, PC chairs. This short posting does not itself state the anonymity rule; lightweight double-blind rests on source 2 | 2026-07-09; re-read 2026-11-23 |
 | 4 | https://icalp2026-a.hotcrp.com/ | ICALP 2026 **Track A** HotCRP submission site and deadlines | 2026-07-09 |
 | 5 | https://icalp2026-b.hotcrp.com/ | ICALP 2026 **Track B** HotCRP submission site (rebuttal-enabled) | 2026-07-09 |
 | 6 | https://drops.dagstuhl.de/entities/series/LIPICs | LIPIcs series home: open-access Dagstuhl proceedings; the `lipics-v2021` document class and 20-page (e.g. 15+5) style recommendation | 2026-07-09 |

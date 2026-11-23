@@ -12,15 +12,17 @@ description: Use when calibrating expectations for the fast, decisive American E
 - Anticipating the one or two objections that would sink a short paper
 - Choosing whether to risk AER: Insights vs. a journal that offers multiple rounds
 
-## The AER: Insights process (official AEA baseline checked 2026-06-20)
+## The AER: Insights process (official AEA baseline re-checked 2026-11-23)
 
-AER: Insights runs **single-blind** AEA peer review: authors are visible to referees, while referees
-remain anonymous to authors. It is deliberately **fast and decisive**:
+AER: Insights historically ran **single-blind** AEA peer review (authors visible to referees, referees
+anonymous to authors). Since fall 2026 the AEA is running a three-year randomized trial of
+**author-anonymized** review at AER, AER: Insights, and the AEJs: every submission must be anonymized,
+and in the treatment group referees do not see author identities. It is deliberately **fast and decisive**:
 
 - **First decision is conditional accept or reject** — there is **no traditional revise-and-resubmit** category.
 - **Conditional accept** means the editor expects to publish subject to changes in the decision letter; authors usually get about **8 weeks** to return the revision, which is **normally not sent back to referees** for a second round.
 - **Reject is reject** — there is no iterative path to wear referees down. The screening is sharp: a paper over the word/exhibit cap is **returned unreviewed**.
-- Editor as of 2026: **Matthew Gentzkow** (lead editor beginning January 2024; founding editor Amy Finkelstein). Aim for AER-level importance in a short, clean package.
+- Editor as of late 2026: **Larry Samuelson** (lead editor beginning September 2026, succeeding Matthew Gentzkow, 2024–2026; founding editor Amy Finkelstein). Aim for AER-level importance in a short, clean package.
 
 **Strategic implication:** because there is no R&R to fix things later, the paper must be **submission-ready and objection-proofed up front**. You get essentially one substantive look. A weak design, an overclaim, or a missing key check that an AER R&R would let you repair will instead produce a reject here.
 

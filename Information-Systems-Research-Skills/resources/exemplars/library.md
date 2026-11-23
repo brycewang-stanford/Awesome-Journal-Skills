@@ -27,8 +27,8 @@ design-science genres as co-equals (see
 **genre × method × question** is closest to yours, then study how that paper makes the **IT artifact do
 load-bearing theoretical work** rather than supply mere context. For each, ask the self-check question
 before claiming your paper is "ISR-shaped." The shared empirical-methods hub
-([reviewer-objection-checklist](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md),
-[reporting-standards](../../../shared-resources/empirical-methods/reporting-standards.md)) covers the
+([reviewer-objection-checklist](../shared/empirical-methods/reviewer-objection-checklist.md),
+[reporting-standards](../shared/empirical-methods/reporting-standards.md)) covers the
 identification and inference table stakes referenced below.
 
 ---

@@ -117,8 +117,8 @@ aejpol-workflow（路由器）
 - [`resources/official-source-map.md`](resources/official-source-map.md) —— 每条事实背后的官方 AEA 链接。
 - [`resources/external_tools.md`](resources/external_tools.md) —— 数据源、软件、福利／成本—收益工具。
 - 共享中心：
-  [`reviewer-objection-checklist`](../shared-resources/empirical-methods/reviewer-objection-checklist.md) ·
-  [`reporting-standards`](../shared-resources/empirical-methods/reporting-standards.md)。
+  [`reviewer-objection-checklist`](resources/shared/empirical-methods/reviewer-objection-checklist.md) ·
+  [`reporting-standards`](resources/shared/empirical-methods/reporting-standards.md)。
 
 ---
 

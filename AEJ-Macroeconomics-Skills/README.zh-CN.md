@@ -108,7 +108,7 @@ topic-selection → literature-positioning → identification ─┐
 ## 相关链接
 
 - 参考技能包：`../Quantitative-Economics-Skills/`（计量经济学会，结构完全一致）。
-- 共享方法中枢：[`../shared-resources/empirical-methods/`](../shared-resources/empirical-methods/)。
+- 共享方法中枢：[`../shared-resources/empirical-methods/`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/tree/main/shared-resources/empirical-methods)。
 
 ## 许可证
 

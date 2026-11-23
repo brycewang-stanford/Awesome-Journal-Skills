@@ -7,7 +7,7 @@ description: Use before final submission or on acceptance to assemble and valida
 
 The step that now blocks acceptance at the top (AEA / JF / Management Science Data Editors
 re-run your code and check every number). Full manifest + validation checklist:
-[`shared-resources/empirical-methods/replication-package.md`](../../../shared-resources/empirical-methods/replication-package.md).
+[`shared-resources/empirical-methods/replication-package.md`](../../resources/shared/empirical-methods/replication-package.md).
 
 ## When to trigger
 

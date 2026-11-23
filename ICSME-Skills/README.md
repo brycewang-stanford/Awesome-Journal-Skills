@@ -11,12 +11,11 @@ obligations; navigating the **single-round** research process with its early-dec
 author-response rebuttal; and delivering the IEEE Xplore camera-ready plus a ROSE-Festival-badged
 artifact.
 
-Official basis checked on **2026-07-09**: the ICSME 2026 research-track and Important Dates pages,
-the EasyChair CFP, the Journal-First / Registered Reports / RENE / artifact-and-ROSE track pages, and
-the IEEE author templates. Direct fetches of `conf.researchr.org`, `easychair.org`, and
-`ieeexplore.ieee.org` returned 403 in the verification environment, so official pages were read via
-search-engine renderings of the exact URLs and cross-checked against IEEE Xplore, dblp, and the
-`se-deadlines` aggregator; the full trail, including everything still marked 待核实, is in
+Official basis first checked on **2026-07-09** (ICSME 2026) and **re-verified 2026-11-23** against
+the live **ICSME 2027** pages: the research-papers call, Important Dates, organizing committee,
+open-science policy, and the Journal-First / Registered Reports / Artifact Evaluation / Benchmark &
+Dataset track pages, all read by direct page load of `conf.researchr.org`. The full trail, including
+everything still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 > Naming note: the venue was **ICSM** through 2013 and **ICSME** from 2014, when "and Evolution" was
@@ -24,7 +23,7 @@ search-engine renderings of the exact URLs and cross-checked against IEEE Xplore
 
 ## What makes ICSME different from its siblings
 
-These venue mechanics, verified for the 2026 cycle, drive most of the advice in the skills — and most
+These venue mechanics, verified for the 2027 cycle, drive most of the advice in the skills — and most
 of the mistakes made by authors arriving from an ACM venue, from ICSE/FSE, or from a technique-first
 conference:
 
@@ -32,8 +31,8 @@ conference:
   *post-release lifecycle* — aging systems, change impact, debt, refactoring safety, comprehension,
   and how software evolves — not greenfield techniques whose maintenance payoff is incidental.
 - **The IEEE path, not ACM.** ICSME uses the **IEEEtran two-column** template, publishes in **IEEE
-  Xplore**, and awards **IEEE** artifact badges. The 2026 budget is **10 pages** (figures and
-  appendices included) **+ 2 reference-only pages**. Do not carry an ACM `acmart` single-column habit
+  Xplore**, and awards **IEEE** artifact badges. The 2027 budget is **10 pages** (figures and
+  appendices included) **+ 2 reference-only pages**, unchanged from 2026. Do not carry an ACM `acmart` single-column habit
   across.
 - **A single research round — no Major Revision.** The research track reviews each paper once,
   double-anonymously, then accepts or rejects. Unlike ESEC/FSE's journal-style revise-and-resubmit,
@@ -44,12 +43,16 @@ conference:
 - **EasyChair, abstract-then-paper.** Submission is via EasyChair with an abstract-registration step
   a week before the full-paper deadline — not HotCRP, CMT, or OpenReview.
 - **A rich set of alternative tracks.** A strong **Journal-First (J1C2)** track presents TSE/EMSE
-  papers at the conference; **Registered Reports** review a protocol first; **RENE** rewards
-  replications and honest negative results — a maintenance-community distinctive.
+  papers at the conference; **Registered Reports** (with EMSE) review a protocol first; a new
+  **Benchmark & Dataset Track** takes data and benchmark papers. The **RENE** (replication and
+  negative results) track ran through 2026 but is not in the ICSME 2027 track list; replications
+  now go to the research track, which evaluates replicability explicitly.
 - **Open science and ROSE by default.** The **Joint Artifact Evaluation Track and ROSE Festival**
   (shared with co-located SCAM and VISSOFT) awards the IEEE **Open Research Object** and **Research
-  Object Reviewed** badges, and a data-availability statement with pinned mining provenance is
-  expected at review time.
+  Object Reviewed** badges, and the open-science policy makes data sharing the default at review
+  time (non-sharing must be justified in the paper).
+- **AI use is disclosed, IEEE-style.** Authors follow IEEE's AI-generated-content guidelines:
+  identify the AI system and note which sections used it.
 
 ## Skills
 
@@ -134,17 +137,20 @@ ICSME-Skills/
    "Response Recommended", then `icsme-artifact-evaluation` and `icsme-camera-ready` — or the routing
    table in `icsme-topic-selection` if the decision goes the other way.
 
-## 2026-cycle anchor facts (historical snapshot, not permanent rules)
+## 2027-cycle anchor facts (snapshot, not permanent rules)
 
-- ICSME 2026 is the **42nd** edition: **Benevento, Italy** (University of Sannio),
-  **September 14-18, 2026**, co-located with SCAM and VISSOFT. Research abstract 27 Feb 2026, paper
-  6 Mar 2026, early decisions 3 May 2026, notification 29 May 2026 (all AoE); submission via
-  **EasyChair**.
+- ICSME 2027 is the **43rd** edition: **Toronto, Canada** (York University), **September 7-11,
+  2027**, with SCAM and VISSOFT papers sharing the artifact track. Research abstract 19 Feb 2027,
+  paper 26 Feb 2027, early decisions 26 Apr 2027, author response 27-30 Apr 2027, notification
+  25 May 2027, camera-ready 25 Jun 2027 (all AoE); submission via **EasyChair** (link still TBD on
+  2026-11-23). General Co-Chairs Gias Uddin and Song Wang; Program Co-Chairs Shiva Nejati and Lei Ma.
+- Previous edition: ICSME 2026 (42nd), Benevento, Italy, September 14-18, 2026.
 - Format: **IEEEtran two-column**, **10 pages** (figures/appendices included) **+ 2** reference pages.
   Review: **double-anonymous**, **single round**, with an **early-decision cut** and an
   **author-response** rebuttal — **no Major Revision**.
-- Tracks: Research, **Journal-First (J1C2**, TSE/EMSE), **Registered Reports**, **RENE** (Replication
-  and Negative Results), NIER, Tool Demonstration and Data Showcase, Industry, Doctoral Symposium.
+- Tracks (2027): Research, **Journal-First (J1C2)**, **Registered Reports**, **Benchmark & Dataset**
+  (new), NIER, Tool Demonstration and Data Showcase, Industry, Posters, Doctoral Symposium. RENE
+  (Replication and Negative Results) ran in 2026 and is absent from the 2027 list.
 - Artifacts: **Joint Artifact Evaluation Track and ROSE Festival**, IEEE **Open Research Object** /
   **Research Object Reviewed** badges, post-acceptance, shared with SCAM/VISSOFT.
 
@@ -153,12 +159,12 @@ ICSME-Skills/
 This pack separates three classes of statement, and the skills are written to keep them
 distinguishable:
 
-1. **Verified 2026 facts** — carry dates/budgets and trace to a numbered source in the source map
+1. **Verified 2027 facts** — carry dates/budgets and trace to a numbered source in the source map
    (e.g., the 10+2 budget, the single-round early-decision model, the ROSE IEEE badges).
 2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., exact track
    deadlines beyond the research track).
-3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., ICSME 2026 General/Program
-   Co-Chair rosters, the camera-ready date, any AI-use disclosure policy).
+3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the ICSME 2027 EasyChair
+   link, Journal-First and Registered Reports 2027 deadlines, registration fees).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it
 against the live official pages.

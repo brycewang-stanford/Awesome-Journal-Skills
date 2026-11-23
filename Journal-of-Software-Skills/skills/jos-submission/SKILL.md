@@ -122,3 +122,25 @@ description: 当你要把一篇稿件投向《软件学报》(Journal of Softwar
 > 提醒：版面费、审稿费、录用率、影响因子、摘要字数与正文页数硬约束等在本刊官网渲染结果中
 > 未明确者，本包一律标 **待核实**，请以《软件学报》(Journal of Software) 官网投稿指南与
 > 2021 版模板的最新版本为准，不要照搬本文的快照数字。
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jos-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

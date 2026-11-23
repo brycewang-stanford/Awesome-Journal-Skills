@@ -7,7 +7,7 @@ description: Use when deciding what evidence package a COLT (Conference on Learn
 
 First, the honest framing: **COLT has no artifact-evaluation track, no artifact
 badges, and no code-submission requirement.** Nothing of the kind appears in the COLT
-2026 Call for Papers or conference pages (checked 2026-07-08). Do not import
+2026 or COLT 2027 Call for Papers or conference pages (2027 call checked 2026-11-23). Do not import
 NeurIPS/ICML-style artifact checklists into a COLT plan; they answer questions this
 venue does not ask. What replaces artifact review at COLT is the referee's line-by-line
 reading of your proofs — so this skill treats the proof appendix as the artifact and
@@ -59,7 +59,7 @@ ledger, not a badge, is COLT-grade artifact discipline.
 Many COLT papers include small numerical illustrations, and some results come with
 reference implementations. Norms for those:
 
-- The 2026 CFP imposed no code-upload mechanism; if you want reviewers to see code,
+- Neither the 2026 nor the COLT 2027 CFP imposes a code-upload mechanism; if you want reviewers to see code,
   it must be referenced in the PDF via an anonymized link or included as appendix
   pseudocode. Anonymize repository history and hosting if you link during review.
 - Keep illustration scripts tiny and dependency-light: one file that regenerates the
@@ -109,7 +109,7 @@ When code or mechanization exists, release it once anonymity ends:
 ## Cycle-volatility warnings
 
 - If a future COLT cycle introduces any code or artifact mechanism, the CFP will say
-  so explicitly; absence in 2026 does not bind later years (待核实 each cycle).
+  so explicitly; absence in 2026 and 2027 does not bind later years (待核实 each cycle).
 - Anonymous-linking rules during review follow the current anonymity policy, which is
   re-issued yearly.
 

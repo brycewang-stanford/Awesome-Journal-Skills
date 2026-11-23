@@ -20,7 +20,7 @@ description: Use when preparing to submit a Marketing Science manuscript through
 
 ## Choose the right track
 
-- **Regular (Original Article)** — no fixed length cap, but write succinctly.
+- **Regular (Original Article)** — authors "should strive to keep their manuscripts to 40 double-spaced pages, including all references, tables, graphs, and appendices"; online appendices do not count and can be any length; shorter is welcome.
 - **Frontiers in Marketing Science** — Science-like, faster review, **strict 6,000-word total cap** (including references, tables, graphs, appendices); requires a major contribution on one primary dimension.
 - **Database** — built around a novel dataset.
 - **Practice Paper / Practice Prize** — requires a **500–1,000-word Impact Statement** and uses a **single-blind** process; Science-to-Practice is a related track.
@@ -28,10 +28,12 @@ description: Use when preparing to submit a Marketing Science manuscript through
 ## Format and front matter
 
 - Double-spaced, single column, 11- or 12-point font, one-inch margins; Word or LaTeX (INFORMS style files), uploaded as Word or PDF.
-- Abstract **≤ 200 words** on the first page; **3–6 keywords** (theoretical and methodological orientation).
+- Abstract **≤ 200 words** on the first page (the format paragraph says "approximately 100-200 words"); text-only, no math notation; **3–6 keywords** beneath the abstract (theoretical and methodological orientation).
 - INFORMS author-year citations; alphabetical reference list.
 - You may suggest **2 preferred Associate Editors and 3 preferred reviewers**.
 - Disclose any self-overlap with your published or under-review work and how this paper goes beyond it.
+- Note any **nondisclosure agreement** covering your data in the cover letter at submission (it shapes what the replication package can contain); funding is entered in the Details & Comments step, where you also pick a preferred Senior Editor.
+- **Generative AI** may be used, but authors are responsible for every fact and reference; fabricated ("hallucinated") references can be grounds for rejection on their own.
 
 ## Replication package
 
@@ -44,13 +46,35 @@ No mandatory submission or publication fee for standard subscription publication
 ## Checklist
 
 - [ ] Manuscript blinded (names, affiliations, acknowledgments, self-citations)
-- [ ] Track chosen; Frontiers within 6,000-word total cap; Practice has Impact Statement
+- [ ] Track chosen; regular paper ≤ ~40 double-spaced pages incl. references/tables/appendices (online appendix excluded); Frontiers within 6,000-word total cap; Practice has Impact Statement
 - [ ] Abstract ≤ 200 words; 3–6 keywords; INFORMS author-year + alphabetical refs
 - [ ] Format: double-spaced 11–12 pt, one-inch margins; Word/LaTeX → Word/PDF
 - [ ] Cover letter (Editor/AE-only) with self-overlap disclosure
 - [ ] 2 preferred AEs and 3 preferred reviewers suggested
 - [ ] Replication package assembled (code + licensed-data access/build)
 - [ ] Open Option decision noted (US$3,000, post-acceptance, optional)
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue mksc-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

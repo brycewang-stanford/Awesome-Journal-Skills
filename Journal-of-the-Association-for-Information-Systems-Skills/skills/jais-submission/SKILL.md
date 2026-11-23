@@ -63,6 +63,28 @@ The single most consequential field in the JAIS submission form is the category,
 
 JAIS follows the AIS **Green Open Access** model: authors of accepted papers may self-archive the accepted version with no embargo, and articles are free to AIS members. There is no stated article processing charge, but **copyright is transferred to AIS prior to publication** via the Copyright Release form, with certain author rights retained. Confirm the current rights and OA terms on the policies page before submitting, and make sure your coauthors and any funder mandates are compatible with green self-archiving rather than gold OA. These are policy facts that shift, so treat specifics as **待核实** at submission time.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jais-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Submitting through the wrong portal — JAIS uses ManuscriptCentral, not an INFORMS or Wiley system.

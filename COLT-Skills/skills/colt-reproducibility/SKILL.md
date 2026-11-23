@@ -6,8 +6,8 @@ description: Use when strengthening the reproducibility of a COLT (Conference on
 # COLT Reproducibility
 
 At COLT, reproducibility means a competent reader can *re-derive* every claim from the
-PDF alone. There is no reproducibility checklist form in the COLT 2026 CFP (checked
-2026-07-08) — the venue enforces the property the hard way, through referees who
+PDF alone. There is no reproducibility checklist form in the COLT 2027 CFP (checked
+2026-11-23) — the venue enforces the property the hard way, through referees who
 attempt the re-derivation during review. This skill is the pre-submission audit that
 makes that attempt succeed.
 
@@ -107,8 +107,8 @@ into a reject.
 ## Cycle-volatility warnings
 
 - If a future COLT cycle adds any checklist, code policy, or supplementary channel,
-  the current CFP announces it; the 2026 cycle had none (待核实 in later cycles).
-- The 12-page body and single-PDF rules that shape where proofs live are the 2026
+  the current CFP announces it; neither the 2026 cycle nor the COLT 2027 call has any (待核实 in later cycles).
+- The 12-page body and single-PDF rules that shape where proofs live are the 2026 and COLT 2027
   formulation; re-read the live CFP before restructuring a paper around them.
 - Formatting of assumptions and environments is a house-style choice, not a CFP rule;
   the CFP-level constraints remain the 12-page body and the single PDF.

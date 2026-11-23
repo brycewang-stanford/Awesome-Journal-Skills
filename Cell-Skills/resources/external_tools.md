@@ -30,7 +30,7 @@ A working list of repositories, software, and references useful when preparing a
 
 - **Highlights** — 3–4 bullets, each ≤ 85 characters; see the Cell Press author guidelines for exact formatting.
 - **eTOC / In Brief blurb** — ~50 words, third-person, for non-specialists.
-- **Graphical Abstract** — single-panel visual summary; see the [Cell Press Graphical Abstract guidelines](https://www.cell.com/pb-assets/journals/research/cellpress/graphical_abstract_guidelines.pdf) for size and design rules.
+- **Graphical Abstract** — single-panel visual summary; see the [Cell Press Graphical Abstract guidelines](https://www.cell.com/pb/assets/raw/shared/figureguidelines/GA_guide.pdf) for size and design rules.
 
 ## 4. Figures & visualization
 
@@ -57,7 +57,7 @@ A working list of repositories, software, and references useful when preparing a
 |------|-----|
 | Cell — Information for Authors | https://www.cell.com/cell/authors |
 | Cell Press STAR Methods | https://www.cell.com/star-methods |
-| Graphical Abstract guidelines | https://www.cell.com/pb-assets/journals/research/cellpress/graphical_abstract_guidelines.pdf |
+| Graphical Abstract guidelines | https://www.cell.com/pb/assets/raw/shared/figureguidelines/GA_guide.pdf |
 | Cell Press data & code availability policy | https://www.cell.com/cell/authors |
 | Cell Press journals (Molecular Cell, Cell Reports, etc.) | https://www.cell.com/ |
 | Editorial Manager (submission) | https://www.editorialmanager.com/cell/ |

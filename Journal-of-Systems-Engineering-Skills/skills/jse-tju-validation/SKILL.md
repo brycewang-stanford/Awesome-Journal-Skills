@@ -60,7 +60,7 @@ description: Use when choosing and designing evidence for a manuscript submitted
 从系统机制确定空间、网络、动态或异质性结构。明确识别假设、内生性风险、标准误、固定效应、
 替代解释和外推范围。政策含义必须由估计对象和样本支持。
 涉及现代因果推断时，直接使用仓库共享
-[`execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md)；
+[`execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md)；
 该执行桥不适用于纯优化、解析博弈或仿真稿。
 
 ## 主张—证据矩阵

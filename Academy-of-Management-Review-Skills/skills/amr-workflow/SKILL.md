@@ -119,7 +119,8 @@ GATE: no data, no hypothesis tests, no results section — if present, this is a
 - **Do not** let `amr-rebuttal` draft a response before the theory itself has actually been revised.
 - **Do not** treat AMR as a venue for data; route empirical work elsewhere.
 
-> Submission specifics change. The source map now verifies the current editor, ScholarOne
-> portal, no-fee policy, AOM style mechanics, 200-word abstract limit, and AI-disclosure
-> policy; keep checking the official AMR / AOM author pages for manuscript length, portal
-> prompts, and any newly published acceptance-rate or reviewer-count figures.
+> Submission specifics change. The source map (re-verified 2026-11-23) verifies the editor
+> transition, ScholarOne portal, no-fee policy, AOM style mechanics, 200-word abstract limit,
+> the 30-page length guide (excluding references, tables, and figures), and the AI-disclosure
+> policy; keep checking the official AMR / AOM author pages for portal prompts and any newly
+> published acceptance-rate or reviewer-count figures.

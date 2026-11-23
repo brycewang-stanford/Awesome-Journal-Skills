@@ -75,8 +75,8 @@ version is a credibility leak).
 
 ## Budgeting 12 pages
 
-The 2026 CFP allowed 12 PMLR-formatted body pages (references and appendix free,
-checked 2026-07-08). A working allocation for a two-theorem paper:
+The COLT 2027 CFP allows 12 PMLR-formatted body pages (references, appendix, and special
+sections such as an Ethics or AI statement free; checked 2026-11-23). A working allocation for a two-theorem paper:
 
 - 1.5 pages: introduction with the known-vs-new table.
 - 1 page: related work (compressed to contrasts; full survey in the appendix).
@@ -112,7 +112,7 @@ motivation beyond one clause, "extensive experiments," and any sentence beginnin
 ## Anonymity phrasing
 
 Write self-references in third person ("extending the reduction of [14]") and strip
-acknowledgements for review — the 2026 template's `anon` option handles the author
+acknowledgements for review (the COLT 2027 call forbids them in the submission) — the template's `anon` option handles the author
 block, but prose leaks are on you. See `colt-submission` for the full sweep.
 
 ## Output format

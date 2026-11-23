@@ -105,7 +105,7 @@ Target: bank-quarter panel for a liquidity-regulation study, 2005Q1–2019Q4.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JBF is empirical banking/finance — corporate/bank causal designs around regulation and shocks.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JBF is empirical banking/finance — corporate/bank causal designs around regulation and shocks.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

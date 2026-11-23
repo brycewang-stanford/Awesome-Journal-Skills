@@ -81,7 +81,7 @@ not only by a textbook power formula for a mean difference — this is the venue
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Cognitive Psychology is experimental — within-subject designs and mixed models dominate; report the model, the effect size, and multiple-comparison control.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Cognitive Psychology is experimental — within-subject designs and mixed models dominate; report the model, the effect size, and multiple-comparison control.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

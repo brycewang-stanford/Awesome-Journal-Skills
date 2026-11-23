@@ -135,4 +135,4 @@ Before adding any new paper to this library, confirm it on `academic.oup.com/ej`
 `onlinelibrary.wiley.com`, or RePEc (`ecj:econjl` / `oup:econjl`) with volume/issue/pages **and** an
 EJ DOI stem, then update the access-date header. When in doubt, omit. For venue-neutral referee
 objections by design, see
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

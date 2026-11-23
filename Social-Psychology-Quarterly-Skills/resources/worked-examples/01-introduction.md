@@ -128,6 +128,6 @@ Mapped to the skill checklists:
 > introductions execute this arc across the traditions, and
 > [`../code/`](../code/) for the analysis skeleton (multilevel / nested-data models, sensitivity to
 > unobserved confounding) referenced above. Method guidance is venue-neutral — see the shared
-> [reporting-standards](../../../shared-resources/empirical-methods/reporting-standards.md) and
-> [reviewer-objection-checklist](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md);
+> [reporting-standards](../shared/empirical-methods/reporting-standards.md) and
+> [reviewer-objection-checklist](../shared/empirical-methods/reviewer-objection-checklist.md);
 > always defer to this pack's skills and `official-source-map.md` for what *SPQ* specifically requires.

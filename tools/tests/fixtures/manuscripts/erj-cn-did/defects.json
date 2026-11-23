@@ -1,0 +1,160 @@
+{
+  "id": "erj-cn-did",
+  "pack": "Economic-Research-Journal-Skills",
+  "venue": "经济研究（Economic Research Journal）",
+  "format": "md",
+  "synthetic": true,
+  "summary": "Fictional Chinese-language staggered-DID study of a three-batch SME digital-finance pilot (82 cities, 2015/2017/2019) on SME bank-loan access and financing cost, using Callaway–Sant'Anna, Sun–Abraham and BJS estimators, HonestDiD and mechanism tests per 江艇（2022）.",
+  "defects": [
+    {
+      "id": "M1",
+      "kind": "mechanical",
+      "check": "LEN-ABSTRACT",
+      "find": "本文为理解数字技术如何重塑中小企业信贷配给提供了因果证据。",
+      "replace": "本文为理解数字技术如何重塑中小企业信贷配给提供了因果证据。具体而言，本文首先梳理了信贷配给理论与关系型信贷理论，在此基础上提出数字金融影响中小企业融资的信息渠道与竞争渠道；随后系统比较了双向固定效应、Callaway-Sant'Anna、Sun-Abraham与插补估计量的差异，发现传统方法低估政策效应约三分之一；进一步地，本文利用随机化推断、平行趋势敏感性分析、剔除同期政策、平衡面板、替换被解释变量等方法反复验证了结论的稳健性，并从企业信贷记录、城市银行业结构、地区与企业规模等多个维度讨论了试点效应的异质性，为后续相关研究提供了较为完整的分析框架与参照。",
+      "description": "The 中文内容提要 is padded to roughly 500 characters, far beyond the official ~300-character guidance.",
+      "rule_basis": "official-source-map.md §一 #4: 中文内容提要「一般约300个汉字符」(CSSN 官文, VERIFIED)"
+    },
+    {
+      "id": "M2",
+      "kind": "mechanical",
+      "check": "ANON-AUTHOR",
+      "find": "匿名作者",
+      "replace": "陈立新¹　周文斌²\n\n1. 江海财经大学金融学院；2. 东岳大学经济学院\n\n通讯作者：陈立新，chenlixin@jhufe.edu.cn",
+      "description": "Author names, affiliations, and a corresponding-author email appear on the first page of a manuscript submitted for anonymous review.",
+      "rule_basis": "official-source-map.md §一 #10: 实行匿名审稿，作者姓名、单位等须置于独立页，正文不得出现可识别身份的信息 (VERIFIED)"
+    },
+    {
+      "id": "M3",
+      "kind": "mechanical",
+      "check": "ANON-SELFCITE",
+      "find": "周文斌和陈立新（2021）基于某省小微企业调查发现，",
+      "replace": "我们在前期研究中（周文斌和陈立新，2021）基于某省小微企业调查发现，",
+      "description": "A first-person self-citation ('我们在前期研究中') reveals the authors' identity.",
+      "rule_basis": "official-source-map.md §一 #10 (匿名审稿) and er-submission SKILL: 自引使用「已有研究（XX，2020）」，不要写「作者前期研究」"
+    },
+    {
+      "id": "M4",
+      "kind": "mechanical",
+      "check": "ANON-ACK",
+      "find": "## 参考文献",
+      "replace": "## 致谢\n\n感谢国家社会科学基金重大项目（21&ZD999）的资助，感谢江海财经大学金融学院学术研讨会参与者的有益评论。文责自负。\n\n## 参考文献",
+      "description": "An acknowledgments section with a grant number and an identifying institution is included in the anonymized manuscript.",
+      "rule_basis": "official-source-map.md §一 #10: 资助等信息须置于独立页 (VERIFIED); er-submission SKILL: 致谢、基金资助说明单独提交"
+    },
+    {
+      "id": "M5",
+      "kind": "mechanical",
+      "check": "ANON-URL",
+      "find": "https://anonymous.4open.science/r/dfp-sme-7c3e",
+      "replace": "https://github.com/chenlixin-econ/dfp-sme",
+      "description": "The code repository link is a personal GitHub URL that identifies an author.",
+      "rule_basis": "official-source-map.md §一 #10: 正文内不得出现可识别身份的信息 (VERIFIED)"
+    },
+    {
+      "id": "M6",
+      "kind": "mechanical",
+      "check": "REF-MISSING",
+      "find": "可能迫使传统银行下沉服务、降低利率。",
+      "replace": "可能迫使传统银行下沉服务、降低利率（Beck et al.，2018）。",
+      "description": "A citation to Beck et al. (2018) is added in the literature review with no entry in 参考文献.",
+      "rule_basis": "official-source-map.md §一 #12 and er-submission SKILL: 文中每条引用都在文末列表"
+    },
+    {
+      "id": "M7",
+      "kind": "mechanical",
+      "check": "EXH-SE-NOTE",
+      "find": "*注：* 括号内为聚类到城市层面的稳健标准误，第（2）（3）列的标准误由城市层面乘数自助法（1,000次）得到；*、**、***分别表示",
+      "replace": "*注：* *、**、***分别表示",
+      "description": "The note to Table 2 (main results) no longer states what the parenthesized numbers are or how standard errors were clustered/bootstrapped.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M8",
+      "kind": "mechanical",
+      "check": "NUM-MISMATCH",
+      "find": "获得新增银行贷款的概率平均提高4.6个百分点",
+      "replace": "获得新增银行贷款的概率平均提高6.4个百分点",
+      "description": "The introduction reports a 6.4 percentage-point effect while the abstract, Table 2, and results text report 4.6 (0.046).",
+      "rule_basis": "universal",
+      "preflight": "known-miss",
+      "miss_reason": "0.064 is a genuine event-study coefficient in §四(二) (the year-3 dynamic effect), and ×100 is the correct conversion for a percentage-point claim, so the seeded 6.4 is traceable to a real number in the paper. Context-free traceability cannot tell it is the wrong one; the referee panel and the claim-to-evidence audit (abstract 4.6 vs introduction 6.4) are expected to."
+    },
+    {
+      "id": "S1",
+      "kind": "substantive",
+      "lens": "identification",
+      "severity": "major",
+      "find": "试点前第4期至第2期的系数分别为0.004、−0.003和0.002，标准误在0.007至0.009之间，均不显著，三者的联合检验p值为0.78，表明试点城市与非试点城市在试点前的获贷概率变化趋势无系统差异，也不存在明显的预期效应。",
+      "replace": "试点前第4期至第2期的系数分别为0.021、0.026和0.018，均在5%水平上显著为正，三者的联合检验p值为0.003。不过，由于试点城市由有关部门统一评审确定，政策冲击具有外生性，事前系数显著并不影响本文的因果识别，因此本文不再对平行趋势作进一步处理。",
+      "description": "Event-study leads are significantly positive (joint p=0.003), i.e. parallel trends is rejected, yet the authors dismiss it by asserting policy exogeneity even though pilot cities were selected by application/review.",
+      "match_terms": [
+        "平行趋势",
+        "事前趋势",
+        "事前系数",
+        "预期效应",
+        "parallel trends",
+        "pre-trend",
+        "选择性",
+        "selection"
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "substantive",
+      "lens": "inference",
+      "severity": "major",
+      "find": "按地区划分，东部地区的估计系数为0.051（标准误0.013），中西部地区为0.034（标准误0.017），二者均显著为正；组间差异为0.017（标准误0.021，p=0.42），并无证据表明试点效应存在显著的地区差异。",
+      "replace": "按地区划分，东部地区的估计系数为0.051，在1%水平上显著；中西部地区系数为0.034，仅在5%水平上显著且数值明显更小。这表明数字金融试点主要在东部地区发挥作用，试点效应存在显著的地区差异，后续推广应优先向东部地区倾斜。",
+      "description": "A regional difference is asserted from comparing significance levels/point estimates of two subgroups without any test of the between-group difference (which is in fact insignificant), and a policy recommendation is drawn from it.",
+      "match_terms": [
+        "组间差异",
+        "组间系数差异",
+        "差异检验",
+        "交互项",
+        "费舍尔组合检验",
+        "似无相关",
+        "difference in coefficients",
+        "interaction"
+      ]
+    },
+    {
+      "id": "S3",
+      "kind": "substantive",
+      "lens": "robustness",
+      "severity": "major",
+      "find": "借鉴江艇（2022）的建议，本文不采用Baron and Kenny（1986）的逐步回归三步法。原因在于，中介变量本身受试点影响，且可能与结果变量共享未观测的决定因素，将其作为控制变量加入回归会引入\"坏控制\"偏误，所得的\"中介效应\"缺乏因果解释。本文分两步提供机制证据：第一，直接估计试点对机制变量的因果效应，检验理论所预期的中间环节是否发生了变化；第二，检验试点效应是否在机制更相关的企业或城市中更强，即依据基期特征分组估计并对组间差异进行正式检验。",
+      "replace": "本文借鉴Baron and Kenny（1986）的逐步回归三步法检验中介效应：第一步，以获贷概率对试点变量回归；第二步，以信用信息覆盖对试点变量回归；第三步，将信用信息覆盖与试点变量同时纳入回归，若试点变量系数下降且信用信息覆盖显著，则表明存在部分中介效应，并以Sobel检验确认其显著性。江艇（2022）曾讨论这一方法的适用条件，但考虑到其在文献中被广泛采用，本文仍以此作为主要的机制检验方法。",
+      "description": "The mechanism is established solely with the Baron–Kenny three-step mediation regression, conditioning on a post-treatment, likely endogenous mediator (bad control), so the 'mediation effect' has no causal interpretation.",
+      "match_terms": [
+        "Baron",
+        "Kenny",
+        "三步法",
+        "逐步回归",
+        "中介效应",
+        "坏控制",
+        "bad control",
+        "Sobel"
+      ]
+    },
+    {
+      "id": "S4",
+      "kind": "substantive",
+      "lens": "contribution",
+      "severity": "major",
+      "find": "其一，中小企业融资约束在很大程度上源于信息约束而非资金总量不足，以公共数据整合为核心的信用信息基础设施建设，能够以较低成本将软信息转化为可验证的硬信息，从而改善信贷配给。",
+      "replace": "其一，数字金融试点从根本上解决了中小企业融资难、融资贵问题，应立即在全国所有城市全面推广；据本文估计，全面推广将显著提升地区经济增长和全要素生产率，并使全国中小企业信贷缺口基本消失。",
+      "description": "The policy section extrapolates an ATT for self-selected pilot cities to a nationwide roll-out and claims growth/TFP effects and elimination of the credit gap that the paper never estimates (external validity, general equilibrium).",
+      "match_terms": [
+        "外推",
+        "外部有效性",
+        "推广",
+        "一般均衡",
+        "external validity",
+        "extrapolat",
+        "过度",
+        "未检验"
+      ]
+    }
+  ]
+}

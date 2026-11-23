@@ -63,7 +63,7 @@ Hypothetical study of cash holdings and supplier concentration. Sample: Compusta
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFQA is empirical finance (asset pricing + corporate) — the DiD / IV / RDD chain for corporate causal claims, the factor-zoo haircut for cross-sectional pricing.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JFQA is empirical finance (asset pricing + corporate) — the DiD / IV / RDD chain for corporate causal claims, the factor-zoo haircut for cross-sectional pricing.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

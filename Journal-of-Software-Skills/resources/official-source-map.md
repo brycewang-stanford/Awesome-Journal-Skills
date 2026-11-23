@@ -1,6 +1,6 @@
 # 官方来源对照表 — 《软件学报》(Journal of Software, JOS)
 
-访问日期：2026-07-09
+访问日期：2026-07-09（失效链接复核 / dead links re-checked 2026-11-23）
 
 本文件记录本技能包用到的《软件学报》(Journal of Software, JOS) 事实的官方来源与交叉核实
 渠道。《软件学报》是中国科学院软件研究所与中国计算机学会 (CCF) 联合主办的中文软件学科旗舰
@@ -26,7 +26,7 @@
 | 3 | https://www.jos.org.cn/jos/site/menu/20210909102616001?id=20210909102616001 | 投稿指南栏目页、作者园地、2021 版排版模板下载 | 2026-07-09 |
 | 4 | https://www.ccf.org.cn/ (CCF 推荐中文科技期刊目录, 2019) | 《软件学报》列入 CCF 推荐中文科技期刊 A 类（7 本之一） | 2026-07-09 |
 | 5 | https://www.ccf.org.cn/ccftjgjxskwml/ | CCF 计算领域高质量科技期刊分级目录（T1/T2/T3） | 2026-07-09 |
-| 6 | https://chinasoft.ccf.org.cn/CFP/ 及 /submission/ | CCF ChinaSoft 中国软件大会《软件学报》专刊征稿、特约（客座）编辑机制 | 2026-07-09 |
+| 6 | https://chinasoft.ccf.org.cn/2026/#callforpaper（单页应用；正文片段 https://chinasoft.ccf.org.cn/2026/pages/callforpaper.html ，专刊示例 https://chinasoft.ccf.org.cn/2026/pages/callforpaper/formal-methods.html ）。原引 `/CFP/` 与 `/submission/` 已 404，2026-11-23 改指 ChinaSoft 2026 征稿页并重读 | CCF ChinaSoft 中国软件大会《软件学报》专刊征稿、特约（客座）编辑机制（2026 届征稿页："录用论文将由《软件学报》、《计算机学报》等期刊出版"；各专刊页列"特约编辑"，经第一轮评审的作者须到会报告，"之后特约编辑和编辑部根据复审情况和会议报告情况决定文章的最终结果"，经 jos.org.cn 投稿系统以"专刊投稿"类型提交） | 2026-07-09；2026-11-23 复核 |
 | 7 | https://baike.baidu.com/item/软件学报/9949716 | 创刊 1990、CN 11-2560/TP、CODEN RUXUEW、EI(2016)/CSCD/北大核心 收录（二手，需交叉核实） | 2026-07-09 |
 | 8 | https://sns.wanfangdata.com.cn/perio/rjxb | 万方期刊主页：主办单位、出版周期（月刊）、学科分类 | 2026-07-09 |
 | 9 | http://www.is.cas.cn/ (中科院软件所) | 主办单位隶属关系确认 | 2026-07-09 |

@@ -52,7 +52,7 @@ will be public. This skill covers execution and reporting norms; design decision
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). BJPS is comparative/IR-heavy — cross-country panels with confounded institutions; emphasize fixed effects, clustering, and weak-IV-robust inference.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). BJPS is comparative/IR-heavy — cross-country panels with confounded institutions; emphasize fixed effects, clustering, and weak-IV-robust inference.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

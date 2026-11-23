@@ -33,7 +33,7 @@ JPE 虽属五大刊，但其办刊口味与 QJE / Econometrica / REStud 存在�
 | 均衡推理           | 一般均衡 / 激励因素会被严格审视                            | 忽视一般均衡（GE）反馈的局部均衡叙事很脆弱            |
 | 参考文献           | 作者-年份制（Chicago / 芝加哥大学出版社）                  | 数字/方括号引用不符合该刊体例                          |
 | 格式               | 理论与实证融合；证明与稳健性放入附录                      | 在线附录承载繁重材料                                  |
-| 流程               | Editorial Express 投稿系统；收取投稿费（请核实）           | 选择性强、要求高；缴费环节是进入评审的前提            |
+| 流程               | Editorial Manager 投稿系统；收取投稿费（请核实）           | 选择性强、要求高；缴费环节是进入评审的前提            |
 | 复制               | 录用论文须提交数据/代码（AEA 标准；请核实）                | 期望可复现的主控脚本 + README                         |
 
 通用的“科研写作”或“经济学写作”技能包无法覆盖上述约束。
@@ -113,7 +113,7 @@ jpe-rebuttal
 | `jpe-writing-style`            | 简练、以经济学为先的行文 + 作者-年份制体例                             |
 | `jpe-replication-package`      | 符合 AEA 数据编辑标准的数据/代码包与 README                           |
 | `jpe-referee-strategy`         | 预判：价格理论 / 一般均衡 / 识别方面的反对意见                         |
-| `jpe-submission`               | Editorial Express 投稿前自检（格式、文献、费用、匿名）                 |
+| `jpe-submission`               | Editorial Manager 投稿前自检（格式、文献、费用、匿名）                 |
 | `jpe-rebuttal`                 | R&R 回复信结构与修订计划                                              |
 
 ### 资源

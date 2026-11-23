@@ -12,20 +12,22 @@ COLT 在结构上与大型实证类 ML 会议差异很大，本包围绕这些�
 - **证明就是 artifact。** COLT 没有 artifact-evaluation track、没有 reproducibility
   checklist、也没有实验要求；论文凭定理被录用，替代 artifact review 的是审稿人对
   证明的逐行核验。
-- **单一 PDF、附录不限页。** 2026 周期允许正文 12 页 PMLR 格式（references 不计），
+- **单一 PDF、附录不限页。** COLT 2027 CFP 允许正文 12 页 PMLR 格式（references 及
+  Ethics / AI statement 等特殊小节不计），
   references 与 appendix 不限页数，全部装进同一个 PDF——因此附录架构本身是一等
   写作问题。
 - **双匿名 + 知情 Area Chair。** 审稿人看不到作者姓名，但 AC 知道；在 rebuttal
   期间，AC 可应审稿人请求、在其认为必要时向该审稿人披露作者身份。
-- **CMT 而非 OpenReview。** 2025 与 2026 两个周期均通过 Microsoft CMT 投稿，只有
-  一个 AoE 截稿日（第 39 届为 2026-02-04；会议 2026-06-29 至 07-03，圣迭戈）。
+- **单一 AoE 截稿，迄今用 CMT。** COLT 2027（第 40 届，2027-06-28 至 07-02，东京）
+  只有一个截稿日：2027-01-29 AoE。2025 与 2026 两个周期均通过 Microsoft CMT（而非
+  OpenReview）投稿；2027 CFP 的投稿说明仍写"coming soon"，投稿系统请以官网为准。
 - **Open problems 传统。** COLT 在正式 proceedings 中发表简短、可引用的
   open-problem 短文；提出一个参数化精确的好问题本身就是被认可的贡献形式。
 
-官方依据核验日期：2026-07-08。已核验 learningtheory.org 的 COLT 2026 Call for
-Papers 与会议页面、CMT 入口链接，以及 PMLR 卷页（v247 = COLT 2024、v291 = COLT
-2025）。核验当日直接抓取官网被网络网关拦截，故所有事实经由上述官方页面的搜索
-摘录完成核验；无法钉死的信息一律标注 待核实，绝不硬写。完整来源表见
+官方依据：COLT 2027 Call for Papers 与主页，已于 2026-11-23 直接加载官网复核
+（re-verified 2026-11-23）；COLT 2026 页面作为历史锚点保留；PMLR 卷页（v247 = COLT
+2024、v291 = COLT 2025）于 2026-07-08 经搜索摘录核验。无法钉死的信息——包括 CFP
+标注为"coming soon"的 2027 LLM 政策与投稿系统——一律标注 待核实，绝不硬写。完整来源表见
 `resources/official-source-map.md`。
 
 ## Skills
@@ -103,10 +105,9 @@ COLT-Skills/
 
 ## 事实纪律
 
-- 本包中以事实口吻陈述的内容均于 2026-07-08 对照官方来源核验，并带有该锚定日期；
-  当日无法核验的信息——2026 届 program chairs 姓名、通知与 camera-ready 日期、
-  2026 届 open problems track、注册与报告义务、2026 届 PMLR 卷号——在技能文本与
-  来源表中一律标注 待核实。
+- 本包中以事实口吻陈述的内容均对照官方来源核验（COLT 2027 CFP 于 2026-11-23 复读）；
+  尚未发布的信息——2027 届 LLM 政策、投稿系统与 style 包、camera-ready 日期、
+  open problems 征稿、注册规则、PMLR 卷号——在技能文本与来源表中一律标注 待核实。
 - COLT 每届随新 CFP 重新发布全部规则。请把 2026 事实当作历史锚点：任何涉及
   deadline 的行动前，务必重开 learningtheory.org 与当年 CFP，冲突处以官方现行
   文本为准。
@@ -132,7 +133,7 @@ COLT-Skills/
   对"是否需要数值内容"的判定表。
 - **附录会被审吗？** 附录在同一 PDF 内、属于被审记录；审稿人是否细读取决于正文
   的 proof overview 是否说服了他们。见 `colt-supplementary`。
-- **可以同时投期刊吗？** 2026 规则明确禁止：COLT 在审期间不得投期刊，与
+- **可以同时投期刊吗？** 2026 与 2027 规则均明确禁止：COLT 在审期间不得投期刊，与
   proceedings 会议的实质重叠平行投稿同样被禁。见 `colt-submission`。
 - **审稿人知道我是谁吗？** 默认不知道（双匿名），但 AC 知道，且在 rebuttal 期间
   可应审稿人请求向其披露。见 `colt-review-process`。
@@ -141,7 +142,7 @@ COLT-Skills/
 
 ## 维护说明
 
-- 每个周期重新确认投稿系统（COLT 历史上更换过系统；2025-2026 使用 CMT）。
+- 每个周期重新确认投稿系统（COLT 历史上更换过系统；2025-2026 使用 CMT；2027 尚未公布）。
 - 修改任何技能前，先对照新 CFP 复查页数规则、匿名机制、rebuttal 形式与重叠投稿
   条款。
 - 更新示例论文时，须确认 PMLR 卷落地页写明 Conference on Learning Theory——

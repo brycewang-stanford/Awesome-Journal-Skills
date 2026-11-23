@@ -1,6 +1,6 @@
 ---
 name: icml-author-response
-description: Use when drafting ICML rebuttals and reviewer-author discussion replies under OpenReview double-blind constraints, where authors respond after initial reviews, reviewers may then have one additional discussion round, no revised paper can be uploaded during the period, and responses must stay anonymous. Use to triage objections by soundness, originality, significance, clarity, ethics, and reproducibility for the AC.
+description: Use when drafting ICML rebuttals and reviewer-author discussion replies under OpenReview double-blind constraints, where authors respond after initial reviews, the 2027 cycle then allows reviewer and author follow-up rounds (each capped at 5,000 characters), no revised paper can be uploaded during the period, and responses must stay anonymous. Use to triage objections by soundness, originality, significance, clarity, ethics, and reproducibility for the AC.
 ---
 
 # ICML Author Response
@@ -10,9 +10,11 @@ on uploading a revised paper during the feedback period.
 
 ## ICML response model
 
-ICML 2026 author instructions state that authors can respond after initial reviews, that reviewers
-see those responses after the response period, and that reviewers and authors may then have one
-additional communication round. Responses must remain anonymous and should not contain
+ICML 2027 author instructions state that authors can respond after initial reviews, that reviewers
+see those responses after the response period, and that reviewers and authors then have a further
+communication round; the 2027 reviewer instructions frame this as three rounds (rebuttal, reviewer
+follow-up, author follow-up), each limited to 5,000 characters, so the rebuttal has to lead with the
+AC's decision issue. Responses must remain anonymous and should not contain
 non-anonymized URLs, personal websites, or shortened URLs. Reviewer instructions tell reviewers to
 explain whether the rebuttal changed their final recommendation.
 
@@ -36,7 +38,7 @@ explain whether the rebuttal changed their final recommendation.
 
 ## Objection-to-response routing
 
-ICML gives one response window plus one discussion round, so spend words on what an AC can quote, not
+ICML 2027 gives a rebuttal plus reviewer and author follow-up rounds, each capped at 5,000 characters, so spend words on what an AC can quote, not
 on every minor note.
 
 | Reviewer objection | Best ICML response move |

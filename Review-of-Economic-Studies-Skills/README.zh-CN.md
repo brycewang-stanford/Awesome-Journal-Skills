@@ -112,7 +112,7 @@ restud-rebuttal
 | `restud-writing-style`        | 清晰、经济的行文；结果先行的引言与摘要；著者—年份格式          |
 | `restud-replication-package`  | 数据/代码复现包、README、复现性审计（以 OUP 政策为准）         |
 | `restud-referee-strategy`     | 勾勒审稿人画像；投稿前预先化解其异议                           |
-| `restud-submission`           | 投稿前检查 + 稿件模板（匿名、格式）                            |
+| `restud-submission`           | 投稿前检查 + 稿件模板（标题页、格式）                            |
 | `restud-rebuttal`             | R&R 回复信结构；分类处理与“先改稿后回信”原则                   |
 
 ### 资源

@@ -33,7 +33,7 @@ description: Use when building the robustness section for a 《会计研究》 (
 ## 执行桥（StatsPAI / Stata MCP）
 
 把稳健性 battery **跑出来**，而不是只罗列。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
 
 - **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
 - **遗漏变量敏感性：**`oster_delta` / `sensemakr`。

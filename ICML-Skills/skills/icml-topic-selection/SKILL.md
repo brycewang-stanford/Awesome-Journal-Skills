@@ -51,8 +51,10 @@ position argument.
 A new adaptive-step method has a non-convex convergence theorem and deep-learning benchmarks. This is
 a textbook ICML main-track fit because the ML mechanism, the rate, and the empirical gain are all of
 broad interest. If the same authors instead wrote an essay arguing the community over-relies on
-adaptive methods, that belongs in the Position Papers track, which uses a separate call and
-OpenReview site; check the current year's CFP for both tracks before deciding.
+adaptive methods, that is a Position Papers submission. In ICML 2027 that is a contribution type
+inside the main track (it replaced the separate 2026 position call and OpenReview site), reviewed
+against position-paper criteria; check the current year's CFP and Contribution Types page before
+deciding.
 
 ## Output format
 

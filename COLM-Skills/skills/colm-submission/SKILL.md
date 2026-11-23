@@ -5,7 +5,9 @@ description: Use when preparing or auditing a COLM submission on OpenReview — 
 
 # COLM Submission
 
-Everything below is the COLM 2026 cycle as read from `colmweb.org` on 2026-07-08.
+Everything below is the COLM 2026 cycle as read from `colmweb.org` on 2026-07-08 and
+re-verified on `colm.cc` (COLM's new site) on 2026-11-23. COLM 2026 is still the
+latest published edition; no 2027 call is out yet.
 COLM re-issues its instructions each edition and has already changed details between
 2024, 2025, and 2026 — reopen the current submission-instructions page before acting
 on any number here.
@@ -20,9 +22,11 @@ on any number here.
   and publication history *before* the deadline; profile gaps break conflict
   detection and can strand the submission.
 - **Format:** a **strict 9-page upper limit on main text**, with unlimited
-  additional pages for citations. An optional acknowledgments section (≤ 1 page)
-  sits outside the limit — but in the *submitted* version there must be no
-  acknowledgments at all, because review is double-blind.
+  additional pages for citations and unlimited appendices (reviewers need not read
+  them). Optional ethics and reproducibility statements and an optional
+  acknowledgments section (each ≤ 1 page) sit outside the limit — but in the
+  *submitted* version there must be no acknowledgments at all, because review is
+  double-blind. No author may appear on more than 25 submissions.
 - **Anonymity:** no author names, no acknowledgments, and no links that resolve to
   you — the instructions call out GitHub links explicitly. LM papers leak identity
   through unusual channels; sweep them (next section).
@@ -115,8 +119,32 @@ Abstract-week triage:
 - LLM-policy wording — 2026's is one edition old and explicitly adapted from
   another venue's; expect revision.
 - Reciprocal-reviewing thresholds and mechanics.
-- 待核实: any supplementary-material size caps and any abstract-edit grace rules;
-  neither was verifiable on 2026-07-08.
+- Supplementary and abstract rules (verified 2026-11-23): code/data go in one
+  anonymized zip of at most 50 MB or an anonymous URL; after the abstract deadline
+  only minor title/abstract edits are allowed, and major changes are
+  desk-rejection grounds.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue colm-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

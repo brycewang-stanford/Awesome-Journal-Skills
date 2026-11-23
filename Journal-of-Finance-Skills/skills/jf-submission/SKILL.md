@@ -11,14 +11,15 @@ description: Use when running the final pre-submission preflight for The Journal
 - Unsure which files and statements the AFA portal expects
 - Unsure about the submission fee tier or whether a cover letter is needed
 
-> ACCURACY NOTE: fees, limits, and editor lists change. Verify current specifics on afajof.org/submissions before submitting. Fee tiers and the editor masthead were **re-verified 2026-06-22** against the live AFA pages (amounts unchanged; current Co-Editors confirmed below); the JF Submission Guidelines PDF is Rev. March 12, 2024.
+> ACCURACY NOTE: fees, limits, and editor lists change. Verify current specifics on afajof.org/submissions before submitting. Fee tiers, format rules, the disclosure-statement and AI policies, and the editor masthead were **re-verified 2026-11-23** against the live AFA pages (amounts unchanged; current Co-Editors confirmed below); the JF Submission Guidelines PDF is Rev. March 12, 2024.
 
 ## Submission logistics (JF-specific)
 
-- JF submissions go through the **AFA's online submission system** (afajof.org/submissions); the fee is paid by credit card (Visa / MasterCard / Amex) as part of the submission.
+- JF submissions go through the **AFA's online submission system** — **Editorial Express**, reached from the "Submit a Paper" link on afajof.org/submissions; the fee is paid by credit card (Visa / MasterCard / Amex) as part of the submission.
+- Refereeing is **single-blind**: the title page carries the title, **all author names**, and an **abstract of no more than 100 words**.
 - **Tiered submission fee by author economy and AFA membership** (high-income: **AFA member $400, non-member $525**; middle-income: **$100 / $150**; low-income: **no fee**). All authors must reside in a low/middle-income country to qualify for the reduced/zero tier.
 - **Refund policy**: a flat **$200** is returned on a desk rejection (high-income; not for resubmissions of previously rejected papers); the **entire fee is refunded if the first decision takes more than 100 days**. Applies to the first submission only.
-- **Editor: Antoinette Schoar (MIT)**, with Co-Editors **Kogan, Lewellen, Philippon, and Sunderam** (Adi Sunderam replaced Urban Jermann on 1 July 2025) and 50+ Associate Editors, plus a **Data Editor (Hong Ru)** — masthead confirmed on afajof.org/editorial-board 2026-06-22; re-verify before submission.
+- **Editor: Antoinette Schoar (MIT)**, with Co-Editors **Kogan, Lewellen, Philippon, and Sunderam** (Adi Sunderam replaced Urban Jermann on 1 July 2025) and 50+ Associate Editors, plus a **Data Editor (Hong Ru)** — masthead confirmed on afajof.org/editorial-board 2026-11-23; re-verify before submission.
 
 ## Cover letter (JF norm — usually skip it)
 
@@ -26,8 +27,8 @@ description: Use when running the final pre-submission preflight for The Journal
 
 ## Formatting (confirm against current guidelines)
 
-- [ ] Manuscript **no more than 60 pages**, **at least 1.5 line spacing**, **12-point font**
-- [ ] Title page with abstract and JEL codes; keywords as requested
+- [ ] Manuscript **no more than 60 pages** — the limit **includes internal appendices, references, figures, and tables** (over-length papers are desk-rejected automatically) — **at least 1.5 line spacing**, **12-point font**, 1-inch side and 1.5-inch top/bottom margins, PDF
+- [ ] Title page with author names and an **abstract of no more than 100 words**; JEL codes and keywords as requested
 - [ ] References in the journal's style; every in-text citation appears in the list and vice versa
 - [ ] Tables/figures numbered with the journal's running scheme; each self-contained
 - [ ] Standard-error/clustering conventions stated in every table note
@@ -40,7 +41,8 @@ description: Use when running the final pre-submission preflight for The Journal
 
 ## Code, disclosures & statements
 
-- [ ] Disclosure statement prepared (AFA disclosure policy: relevant financial interests)
+- [ ] **Disclosure statement** — a separate disclosure for **each author by name**, on the page **right after the title page** (same PDF, not a separate file; it does not count toward the 60 pages). Submissions without it are returned immediately; resubmissions need one too
+- [ ] AI use: tools may help draft/edit text or code, but authors stay accountable and AI is never a co-author; a brief description of tool use may be given at submission. New datasets/analyses built with AI must use open-source or clearly time-stamped proprietary models with detailed prompt documentation
 - [ ] **Replication code** ready — the **Data and Code Sharing Policy (in force since Sept 2016; current rev. 1 April 2024)** requires code with the final accepted version, published in Supplementary Information and checked by the Data Editor
 - [ ] Funding/acknowledgments drafted; suggested/opposed reviewers if asked (see `jf-referee-strategy`)
 
@@ -54,6 +56,28 @@ description: Use when running the final pre-submission preflight for The Journal
 | Body over 60 pp                                     | Move non-decisive exhibits to the Internet Appendix             |
 | IA uploaded as a separate file                      | Re-bundle in the same PDF, titled "Internet Appendix"           |
 | Stale fee tier quoted                               | Re-check the current tier on the AFA submission page            |
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jf-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

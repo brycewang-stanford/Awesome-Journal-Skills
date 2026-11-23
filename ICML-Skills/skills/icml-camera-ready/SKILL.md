@@ -17,12 +17,14 @@ rebuttal, and reviewer-author discussion along with camera-ready.
 - PMLR publication agreement and ICML release forms.
 - Registration, presentation, proceedings-only, poster/oral, and post-conference revision rules.
 
-## 2026 baseline
+## 2027 baseline
 
-ICML 2026 camera-ready instructions require upload by May 28 AoE, allow a 9-page paper body, limit
-the camera-ready PDF to 20MB, require appendices in the PDF, provide no camera-ready supplementary
-material, ask for a lay summary, and require the format-checker code. They also introduce a
-financial conflict-of-interest disclosure rule for relevant cases.
+ICML 2027 camera-ready instructions allow a 9-page paper body, limit the camera-ready PDF to 20MB,
+require appendices in the PDF, provide no camera-ready supplementary material, ask for a lay summary,
+require the format-checker code, and require a financial "Conflict of Interest Disclosure" paragraph
+at the end of the introduction where relevant. The 2027 Author Instructions still print the 2026
+deadline (May 28 AoE) without a year and the 2027 Dates page lists no camera-ready date, so confirm
+the date before planning around it.
 
 ## Workflow
 
@@ -56,7 +58,7 @@ funding, links the public code repository in the OpenReview code URL field, and 
 explaining "a faster training rule" without the convergence notation. The team runs the format
 checker and keeps the passing code, then double-checks that the rebuttal's promised in-regime plot
 actually appears, because both the rebuttal and the final paper are now public. Treat exact dates and
-page limits as annual; the 2026 baseline above should be re-verified against the current checklist.
+page limits as annual; the 2027 baseline above should be re-verified against the current checklist.
 
 ## Output format
 

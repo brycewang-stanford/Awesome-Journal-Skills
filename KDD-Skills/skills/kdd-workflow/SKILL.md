@@ -7,15 +7,17 @@ description: Use when planning a KDD project calendar across the venue's two sub
 
 Use this as the project-management layer. KDD's calendar is structurally different
 from single-deadline ML venues: **two cycles per year**, each with an abstract
-deadline about one week before the paper deadline (2026 anchors: Jul 24/Jul 31, 2025
-and Feb 1/Feb 8, 2026, AoE), a rebuttal window inside review, and a Resubmit outcome
+deadline about one week before the paper deadline (KDD 2027 Cycle 1: Jul 19/Jul 26,
+2026, rebuttal Sep 29-Oct 13, notification Nov 14, 2026; Cycle 2 is "the February 2027
+deadline", exact days not yet posted; all AoE), a rebuttal window inside review, and a Resubmit outcome
 that connects the cycles into a pipeline. Plan the pipeline, not a single date.
 
 KDD is an ACM conference, not a journal: no standing editor, leadership rotates per
-edition (the KDD 2026 committee roster lives on the conference site; individual names
-待核实 before citing), and the cost surface is registration plus, under ACM Open,
-a possible APC for authors at non-participating institutions — with a temporary 65%
-ACM subsidy announced for 2026. Verify all money facts against current pages.
+edition (KDD 2027 General Chairs Qi He, Yu Liu and George Karypis; the per-track
+program chairs are on the 2027 organizing-committee page), and the cost surface is a
+mandatory Full Conference in-person registration plus, under ACM Open, an APC for
+authors at non-participating institutions — USD 500 (ACM/SIG member) / USD 750
+(non-member) subsidized for 2027. Verify all money facts against current pages.
 
 ## Cycle-choice decision
 
@@ -54,13 +56,13 @@ ACM subsidy announced for 2026. Verify all money facts against current pages.
 paper: streamhive
 track: research
 cycle_history:
-  - cycle: 2026-C1
+  - cycle: 2027-C1
     outcome: resubmit
     contract:            # concerns named in reviews = next cycle's spec
       - temporal-split rebuild (R2)
       - decay-mechanism ablation (R1)
       - scale claim beyond 10M edges (R3)
-  - cycle: 2026-C2
+  - cycle: 2027-C2
     changes_summary_page: drafted   # mandatory first page of the PDF
     prior_forum_id: declared
     new_evidence: [table5_ablation, 2.1B_run, rebuilt_splits]

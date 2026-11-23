@@ -41,7 +41,7 @@ QE is the Econometric Society's empirically/computationally oriented journal, so
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Quantitative Economics spans structural and applied micro; the chain serves its reduced-form lane, structural estimation uses its own toolkit.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Quantitative Economics spans structural and applied micro; the chain serves its reduced-form lane, structural estimation uses its own toolkit.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

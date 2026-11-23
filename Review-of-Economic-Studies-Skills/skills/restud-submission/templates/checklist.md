@@ -1,9 +1,9 @@
 # REStud Pre-Submission Checklist
 
 Use this before uploading to **Editorial Express** (editorialexpress.com/restud).
-Figures here (USD 250 / 150 fee effective 1 June 2026, ~45-page limit, Harvard author-date, double-anonymous
-review, JEL codes, the Data Editor's pre-publication DCAS check) were verified on
-restud.com / OUP on 2026-05-30 — limits, fees, and the portal **change**, so re-confirm
+Figures here (USD 250 / 150 fee effective 1 June 2026, ~45-page limit, 150-word abstract, 30-page Online
+Appendix, title page with author names, JEL codes, the Data Editor's pre-publication DCAS check) were
+re-verified on restud.com / OUP on 2026-11-23 — limits, fees, and the portal **change**, so re-confirm
 the current specifics on the journal's official author guidelines page before submitting.
 
 ## 1. Contribution & framing
@@ -13,13 +13,12 @@ the current specifics on the journal's official author guidelines page before su
 - [ ] The paper makes one clean point, not a bundle of three
 - [ ] General interest is visible to a non-specialist — and to *both* a theorist and an applied reader (REStud weights theory and applied equally)
 
-## 2. Anonymity (REStud uses double-anonymous review)
+## 2. Title page (REStud does not ask for an anonymized manuscript)
 
-- [ ] Author names, affiliations, acknowledgements removed from the manuscript
-- [ ] Self-citations phrased neutrally ("Smith (2020) shows", not "in our prior work")
-- [ ] File metadata stripped of author identity
-- [ ] Funding / thanks notes moved out of the anonymized file
-- [ ] Identity-revealing links (personal site, named repository) removed or anonymized
+- [ ] Each author's first name, initial(s), surname, department, and institution on the title page
+- [ ] Corresponding author's contact details; acknowledgements / funding included
+- [ ] Self-citations phrased neutrally ("Smith (2020) shows") as a matter of style
+- [ ] Abstract ≤150 words; keywords present
 
 ## 3. Format
 
@@ -64,12 +63,12 @@ the current specifics on the journal's official author guidelines page before su
 
 ## 8. Files & portal (Editorial Express — editorialexpress.com/restud)
 
-- [ ] Main manuscript PDF, **fully anonymized** (double-anonymous review)
-- [ ] Online appendix / supplementary file
+- [ ] Main manuscript as a single PDF, title page with author names and affiliations included
+- [ ] Online Appendix (≤30 pages)
 - [ ] Cover letter only if substantive (COI / data-access limits / related submissions)
 - [ ] Disclosure / conflict statement per current policy
 - [ ] Suggested / opposed referees ready (genuine experts; conflicts only for opposed)
-- [ ] Replication materials planned — the **Data Editor (Miklós Koren) runs an AEA DCAS reproducibility check before publication**; deposit at Zenodo
-- [ ] Proprietary-data exemption (if any) flagged to the editors at submission
+- [ ] Replication materials planned — the **Data Editor (Andrea Moro) runs a DCAS reproducibility check before publication**; deposit at Zenodo
+- [ ] Proprietary-data exemption (if any) requested in the cover letter at first submission (not considered later)
 - [ ] Submission fee ready: **USD 250** (or **USD 150** if every author is a student / within 6 yrs of PhD / in a low-or-middle-income economy; evidence required; rate effective 1 June 2026) — verify on restud.com
 - [ ] Corresponding-author ORCID and contact details current

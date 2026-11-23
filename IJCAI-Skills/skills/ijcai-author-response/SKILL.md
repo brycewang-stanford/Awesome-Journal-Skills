@@ -15,7 +15,8 @@ response template before drafting; rebuttal rules are cycle-specific.
 - Do not use the response to complain about tone, scores, reviewer identity, or broad
   disagreement without a decision-relevant correction.
 - Keep the public PDF response short. IJCAI-ECAI 2026 limited ordinary responses to one
-  page using the official response template.
+  page using the official response template; IJCAI 2027 (response window March 30 - April 2,
+  2027) has not yet published its response FAQ, so confirm the length and format then.
 - Do not upload new code, new links, new experiments, or new results. Clarifying figures or
   examples are acceptable only when they explain material already in the submission.
 - Use the confidential box only for unethical-review concerns; it is not visible to ordinary

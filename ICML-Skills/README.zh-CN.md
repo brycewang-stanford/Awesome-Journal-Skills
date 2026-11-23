@@ -10,11 +10,11 @@ camera-ready、artifact、可复现性、补充材料、审稿流程、写作风
 
 | Skill | 用途 |
 |---|---|
-| `icml-topic-selection` | 判断论文是否适合 ICML main track、position track 或其它 venue。 |
+| `icml-topic-selection` | 判断论文适合哪种 ICML contribution type（含 2027 年并入 main track 的 Position Papers）或其它 venue。 |
 | `icml-workflow` | 规划从 fit 诊断到 PMLR camera-ready 的全流程。 |
-| `icml-submission` | 核验 OpenReview、LaTeX、8 页正文、匿名、supplement、impact statement 和政策风险。 |
+| `icml-submission` | 核验 OpenReview、LaTeX、8 页正文、匿名、supplement、impact statement、AI Disclosure Statement、投稿配额和政策风险。 |
 | `icml-review-process` | 理解 reciprocal reviewing、reviewer/AC、ethics、LLM-review policy 和公开评审记录。 |
-| `icml-author-response` | 写 rebuttal 和一轮 reviewer-author discussion 回复。 |
+| `icml-author-response` | 写 rebuttal 和后续几轮 reviewer-author discussion 回复。 |
 | `icml-camera-ready` | 准备录用后 PDF、PMLR agreement、lay summary、公开 artifact 和会后修订。 |
 | `icml-artifact-evaluation` | 整理匿名代码/数据和公开发布 artifact。 |
 | `icml-reproducibility` | 强化可复现实验、代码/数据声明和 impact statement 支撑。 |
@@ -25,6 +25,8 @@ camera-ready、artifact、可复现性、补充材料、审稿流程、写作风
 
 ## 来源纪律
 
-本包已在 2026-06-01 核验 ICML 2026 官方来源。ICML 政策每年变化；任何投稿级建议都必须
+本包已于 2026-11-23 切换到 ICML 2027（巴西里约热内卢，2027 年 7 月 31 日至 8 月 6 日；摘要截止 2027 年
+1 月 14 日，全文截止 1 月 22 日，AoE），并据 ICML 2027 官方 CFP、Author Instructions、生成式 AI 政策和
+Reviewer Instructions 核验。ICML 政策每年变化；任何投稿级建议都必须
 重新打开当年 CFP、Author Instructions、Peer Review FAQ、OpenReview group 和 LLM-review policy。
 

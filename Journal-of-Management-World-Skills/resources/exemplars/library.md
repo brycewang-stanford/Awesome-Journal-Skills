@@ -40,8 +40,8 @@
   需说明词典/模型、稳健性与度量误差（`../../skills/mw-mechanism-heterogeneity/SKILL.md`）。
 - **识别要现代且自证**：DID 用 staggered + CS/Bacon、IV 报告第一阶段 F、RDD 报告带宽敏感性，按
   `../../skills/mw-identification/SKILL.md` 与共享的
-  [审稿人异议清单](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)、
-  [报告规范](../../../shared-resources/empirical-methods/reporting-standards.md) 自检。
+  [审稿人异议清单](../shared/empirical-methods/reviewer-objection-checklist.md)、
+  [报告规范](../shared/empirical-methods/reporting-standards.md) 自检。
 - **格式硬规则**（字数、摘要、关键词、参考文献体例、匿名）以 [`../official-source-map.md`](../official-source-map.md)
   为准；该表中的待核实项投稿前回官方投稿指南确认。
 

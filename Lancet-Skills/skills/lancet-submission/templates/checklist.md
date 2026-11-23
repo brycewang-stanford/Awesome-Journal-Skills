@@ -57,7 +57,7 @@
 - [ ] PPI statement; SAGER sex/gender reporting; race/ethnicity + PROGRESS-Plus where relevant
 
 ## 9. References & required files
-- [ ] References within budget (~30 for an Article): ______
+- [ ] References within budget (30 for an Article): ______
 - [ ] All in-text citations resolve; correct reference style
 - [ ] Main text (IMRaD + Research in context panel)
 - [ ] Tables, figures + legends, appendix/supplement

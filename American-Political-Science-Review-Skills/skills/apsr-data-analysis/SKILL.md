@@ -46,7 +46,7 @@ decisions live in `apsr-research-design`.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). APSR is general-interest political science — observational causal designs (DiD/IV/RDD) and survey/field experiments alike; cluster by the right unit and foreground identification.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). APSR is general-interest political science — observational causal designs (DiD/IV/RDD) and survey/field experiments alike; cluster by the right unit and foreground identification.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

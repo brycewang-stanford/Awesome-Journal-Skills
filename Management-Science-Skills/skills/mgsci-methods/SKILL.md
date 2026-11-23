@@ -73,7 +73,7 @@ A team wants to claim algorithmic shift-recommendations raise gig-driver retenti
 
 For the **empirical / causal lane** (field data, natural experiments, behavioral
 experiments), estimate and audit rather than only specify. Full map:
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

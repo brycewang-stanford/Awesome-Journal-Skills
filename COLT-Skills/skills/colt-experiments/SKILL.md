@@ -6,9 +6,10 @@ description: Use when deciding whether a COLT (Conference on Learning Theory) pa
 # COLT Experiments
 
 Start from the venue truth: **COLT imposes no experiments requirement, and most COLT
-papers contain no experiments.** The 2026 CFP (checked 2026-07-08) asks for
+papers contain no experiments.** The COLT 2027 CFP (checked 2026-11-23) asks for
 theoretical machine-learning contributions and mentions no empirical-evaluation
-expectation; papers are accepted on theorems. The decision this skill supports is
+expectation beyond noting that authors are welcome to support their analysis with
+relevant experimental results; papers are accepted on theorems. The decision this skill supports is
 therefore *whether* to include numerics, and only then *how*.
 
 ## Should this paper contain numerics at all?
@@ -38,7 +39,7 @@ confidence.
   the caption), fixed seeds, and replication counts — theorists distrust single
   trajectories on principle.
 - Keep total numerical content to roughly a figure or two; the appendix holds the
-  procedure description (no code-upload channel existed in the 2026 cycle).
+  procedure description (no code-upload channel existed in the 2026 cycle or in the COLT 2027 call).
 
 ## A rate-illustration recipe
 

@@ -36,7 +36,7 @@
   起测度部分前先读 `../../skills/jqte-measurement/SKILL.md`。
 - **计量按本刊规范做满。** 时序 / 面板须先验平稳性 + 协整防伪回归，混频用 MIDAS / 桥接，动态面板
   GMM 须报工具有效性，见 `../../skills/jqte-econometric-methods/SKILL.md`；方法规范底线另见
-  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)。
+  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)。
 - **引用前核对刊名。** 凡记不清是 JQTE 还是《经济研究》/《统计研究》/《中国工业经济》的篇目，
   先回 CNKI 或官网核对，再写进参考文献。
 

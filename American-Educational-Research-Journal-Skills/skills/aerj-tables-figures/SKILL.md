@@ -36,7 +36,7 @@ no identifying clues (institution names, data-source giveaways in titles).
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AERJ is empirical education research — field experiments and observational school data; multilevel inference and many-outcome corrections are central.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AERJ is empirical education research — field experiments and observational school data; multilevel inference and many-outcome corrections are central.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

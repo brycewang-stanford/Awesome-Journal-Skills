@@ -72,8 +72,8 @@ before submission.
   must **accompany, never replace**, the SE. Self-contained exhibit notes.
 - Make the headline result legible from **one main exhibit**; event-study / RD /
   validation figures with confidence bands are persuasive.
-- Push supporting detail to the **online appendix (≤20 pages)**; keep the main paper
-  self-contained.
+- Push supporting detail to the **online appendix** (no size limit for regular papers;
+  ≤20 pages for Short Papers); keep the main paper self-contained and ≤45 pages by acceptance.
 
 ## 5. Writing & references
 - Reference managers: Zotero, BibTeX/BibLaTeX. Standard economics house style;
@@ -85,10 +85,11 @@ before submission.
 | Item | Note |
 |------|------|
 | Submission portal | **Editorial Express** (`editorialexpress.com/.../e-submit...?dbase=restat`) |
-| Categories | Full-length **Articles**, **Notes**, **Short Papers** (≤6000 words, ≤5 exhibits since Dec 2019) |
-| Submission fee | **US$125** nonrefundable per new submission, by credit card; proprietary-data fee held until compliance confirmed |
+| Categories | Full-length **Articles** (≤45 pages at acceptance), **Notes**, **Short Papers** (≤6000 words, ≤5 exhibits since Dec 2019) |
+| Submission fee | **US$125** nonrefundable per new submission, by credit card; waived for individual-subscriber authors and majority low/lower-middle-income author teams; proprietary-data fee held until compliance confirmed |
+| Review / AI | Single-blind ("Single anonymized"); generative-AI use must be disclosed by all authors |
 | Data/code archive | **REStat Harvard Dataverse** (NOT openICPSR, NOT the JAE archive); README permitting replication, before publication |
-| Editors (2026) | Will Dobbie (Harvard), Raymond Fisman (Boston U) — co-chairs; confirm full board on the live MIT Press page |
+| Editors (2026-11-23) | Will Dobbie (Harvard), Tavneet Suri (MIT) — co-chairs; confirm full board on the live MIT Press page |
 
 ## 7. Cautions
 1. **Live-check volatile specifics** (editors, fee, abstract/appendix limits, category

@@ -128,8 +128,8 @@ aejpol-workflow (router)
 - [`resources/external_tools.md`](resources/external_tools.md) — data sources, software, welfare/cost-
   benefit tooling.
 - Shared hub:
-  [`reviewer-objection-checklist`](../shared-resources/empirical-methods/reviewer-objection-checklist.md) ·
-  [`reporting-standards`](../shared-resources/empirical-methods/reporting-standards.md).
+  [`reviewer-objection-checklist`](resources/shared/empirical-methods/reviewer-objection-checklist.md) ·
+  [`reporting-standards`](resources/shared/empirical-methods/reporting-standards.md).
 
 ---
 

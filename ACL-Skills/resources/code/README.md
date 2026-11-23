@@ -11,10 +11,10 @@ the economics journal packs.)
 
 | File | Role for an ACL supplement |
 | --- | --- |
-| [`README.md`](../../../shared-resources/ml-conference-methods/README.md) | Kit overview and conventions |
-| [`experiment-matrix.md`](../../../shared-resources/ml-conference-methods/experiment-matrix.md) | Plan runs/seeds/configs before results exist |
-| [`reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md) | Generic artifact audit to run before the ACL-specific one |
-| [`code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py) | Smoke-check the archive you intend to upload |
+| [`README.md`](../shared/ml-conference-methods/README.md) | Kit overview and conventions |
+| [`experiment-matrix.md`](../shared/ml-conference-methods/experiment-matrix.md) | Plan runs/seeds/configs before results exist |
+| [`reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md) | Generic artifact audit to run before the ACL-specific one |
+| [`code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py) | Smoke-check the archive you intend to upload |
 
 ## Typical Use
 

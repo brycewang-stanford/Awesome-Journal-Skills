@@ -4,14 +4,18 @@ Use these links only after checking the current ICML year. ICML submission and r
 annual.
 
 - ICML conference site: https://icml.cc/
-- ICML 2026 Call for Papers: https://icml.cc/Conferences/2026/CallForPapers
-- ICML 2026 Author Instructions: https://icml.cc/Conferences/2026/AuthorInstructions
-- ICML 2026 Peer Review FAQ: https://icml.cc/Conferences/2026/PeerReviewFAQ
-- ICML 2026 Reviewer Instructions: https://icml.cc/Conferences/2026/ReviewerInstructions
-- ICML 2026 Policy for LLM use in Reviewing: https://icml.cc/Conferences/2026/LLM-Policy
-- ICML 2026 Peer-review Ethics: https://icml.cc/Conferences/2026/PeerReviewEthics
-- ICML 2026 Research Ethics: https://icml.cc/Conferences/2026/ResearchEthics
-- ICML 2026 OpenReview group: https://openreview.net/group?id=ICML.cc/2026/Conference
+- ICML 2027 Call for Papers: https://icml.cc/Conferences/2027/CallForPapers
+- ICML 2027 Dates: https://icml.cc/Conferences/2027/Dates
+- ICML 2027 Author Instructions: https://icml.cc/Conferences/2027/AuthorInstructions
+- ICML 2027 Use of Generative AI by Authors: https://icml.cc/Conferences/2027/UseOfGenerativeAIByAuthors
+- ICML 2027 Reciprocal Reviewing and Submission Quotas: https://icml.cc/Conferences/2027/ReciprocalReviewingAndSubmissionQuotas
+- ICML 2027 Contribution Types: https://icml.cc/Conferences/2027/ContributionTypes
+- ICML 2027 Peer Review FAQ (placeholder as of 2026-11-23): https://icml.cc/Conferences/2027/PeerReviewFAQ
+- ICML 2027 Reviewer Instructions: https://icml.cc/Conferences/2027/ReviewerInstructions
+- ICML 2027 Policy for LLM use in Reviewing: https://icml.cc/Conferences/2027/LLM-Policy
+- ICML 2027 Peer-review Ethics: https://icml.cc/Conferences/2027/PeerReviewEthics
+- ICML 2026 Research Ethics (2027 page not checked): https://icml.cc/Conferences/2026/ResearchEthics
+- ICML 2027 OpenReview group: https://openreview.net/group?id=ICML.cc/2027/Conference
 - Proceedings of Machine Learning Research: https://proceedings.mlr.press/
 - ICML format checker: https://papercheck.icml.cc/papercheck.html
 

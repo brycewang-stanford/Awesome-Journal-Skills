@@ -80,4 +80,4 @@ the start (run this skill early *and* before submission).
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — AAA Principles of Professional Responsibility, AA ethics-of-care statement, Wiley data policy
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md) — background reporting hygiene for quantitative (biological/archaeological) subfields only
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../resources/shared/empirical-methods/reporting-standards.md) — background reporting hygiene for quantitative (biological/archaeological) subfields only

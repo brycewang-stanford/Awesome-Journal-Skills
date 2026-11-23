@@ -1,7 +1,7 @@
 {
   "name": "jse-tju-skills",
   "description": "Agent skill stack for manuscripts submitted to 《系统工程学报》 (Journal of Systems Engineering): venue fit, systems problem selection, literature positioning, system modeling, theory, algorithms, validation, reproducibility, writing, submission, and rebuttal.",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"

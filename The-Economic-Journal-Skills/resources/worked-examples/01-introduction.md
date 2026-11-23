@@ -134,4 +134,4 @@ Mapped to this pack's skill checklists:
 > building the analysis so it clears the EJ Data Editor reproducibility check, and
 > [`../code/`](../code/) for a runnable empirical command chain. For the venue-neutral referee
 > objections a staggered-DiD take-up claim must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

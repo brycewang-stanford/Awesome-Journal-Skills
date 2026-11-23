@@ -6,21 +6,26 @@ description: Use when reasoning about COLT (Conference on Learning Theory) peer 
 # COLT Review Process
 
 Use this to plan around COLT's review pipeline. Process facts below were verified
-against the COLT 2026 CFP on 2026-07-08; mechanics are re-decided by each edition's
+against the COLT 2027 CFP on 2026-11-23; mechanics are re-decided by each edition's
 program chairs, so reconfirm in the cycle you are in.
 
-## The 2026 pipeline
+## The COLT 2027 pipeline
 
-- Submission via Microsoft CMT by February 4, 2026 (AoE) for the 39th edition.
+- Submission by January 29, 2027 (AoE) for COLT 2027, the 40th edition; the portal is
+  not yet announced (CMT in 2025-2026; 待核实 for 2027).
 - Double-anonymous refereeing with a twist: reviewers do not see author names, but the
   area chair handling the paper does, and may reveal identities to a reviewer during
   the rebuttal period on request when needed for a proper review.
-- Initial reviews go to authors before decisions; a rebuttal window follows.
-- Accepted papers appear in PMLR (v291 carried COLT 2025; the 2026 volume number is
-  assigned at publication).
+- Initial reviews go to authors before decisions; the COLT 2027 expected rebuttal
+  period is March 29 to April 2, 2027, and authors are notified on or before May 3,
+  2027. (COLT 2026 for comparison: reviews April 3, responses due April 10, discussion
+  April 10-20, notification May 4.)
+- Accepted papers appear in PMLR (v291 carried COLT 2025; the 2026 and 2027 volume
+  numbers are assigned at publication), with an opt-out to a 1-page extended abstract
+  pointing to an open-access archival version.
 - COLT is run by the Association for Computational Learning, with program chairs
-  rotating yearly; the 2026 chair names were not published in a form verifiable at the
-  access date (待核实 — check learningtheory.org/colt2026/).
+  rotating yearly: COLT 2027 Program Chairs are Ruth Urner and Wouter Koolen; COLT 2026
+  had Steve Hanneke and Tor Lattimore.
 
 ## Who reviews a COLT paper
 
@@ -98,10 +103,12 @@ is a framing problem the rebuttal must solve.
 
 - Submissions are confidential; reviewers may not use or share the results before
   publication.
-- COLT publishes a code of conduct for participants (a 2026 page exists at
-  learningtheory.org); professional-conduct expectations extend to the rebuttal tone.
-- Reviewer conflicts run through CMT domain and coauthor declarations — enter them
-  completely, since the informed-AC model depends on accurate conflict data.
+- COLT publishes a code of conduct for participants (a COLT 2027 page exists at
+  learningtheory.org/colt2027/code-of-conduct.html); professional-conduct expectations
+  extend to the rebuttal tone.
+- Reviewer conflicts run through the portal's (CMT in 2025-2026) domain and coauthor
+  declarations — enter them completely, since the informed-AC model depends on
+  accurate conflict data.
 - Discussing your submission publicly (talks, social media) during review is not
   forbidden by anonymity rules aimed at reviewers, but volume-seeking publicity
   during the review window is poor form in a community this small.
@@ -109,7 +116,7 @@ is a framing problem the rebuttal must solve.
 ## Cycle-volatility warnings
 
 - Portal, anonymity mechanics, rebuttal format, shepherding, and decision timeline are
-  annual decisions. Decision dates for 2026 were not on the pages checked (待核实).
+  annual decisions; reconfirm the COLT 2027 dates above against the live page.
 - Reviewer-volunteering expectations for submitting authors have not been a stated
   COLT policy in the verified material; do not assume one either way without the
   current CFP.

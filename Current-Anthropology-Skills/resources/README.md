@@ -32,8 +32,8 @@ scripts. For the **biological and archaeological** subfields, where quantitative
 shared method references are linked **as background only** (they are venue-neutral; always defer to this
 pack's skills and `official-source-map.md` for what CA specifically requires):
 
-- [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — common objections to quantitative designs, each with a preemption (relevant to biological/archaeological quant work only).
-- [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) — modern inference + reporting hygiene (effect sizes, uncertainty, multiple testing) for the quantitative subfields, **subject to** CA's ethics constraints in [`../skills/curranthro-transparency-and-data`](../skills/curranthro-transparency-and-data/SKILL.md).
+- [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) — common objections to quantitative designs, each with a preemption (relevant to biological/archaeological quant work only).
+- [reporting-standards](shared/empirical-methods/reporting-standards.md) — modern inference + reporting hygiene (effect sizes, uncertainty, multiple testing) for the quantitative subfields, **subject to** CA's ethics constraints in [`../skills/curranthro-transparency-and-data`](../skills/curranthro-transparency-and-data/SKILL.md).
 
 If you came looking for a `code/` kit, there isn't one — and that is by design for a predominantly
 ethnographic, comment-and-reply flagship.

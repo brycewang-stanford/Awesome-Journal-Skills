@@ -11,20 +11,12 @@ The `edition` column is the newest year the source map states for its own venue,
 | Pack | Venue writes | Edition | Month | Retired | Note |
 |---|---|---:|---:|---|---|
 | IPSN-Skills | IPSN | 2024 | 5 | yes | — |
-| AISTATS-Skills | AISTATS | 2026 | 5 | no | — |
 | ATC-Skills | ATC | 2026 | 11 | no | — |
 | COLM-Skills | COLM | 2026 | 10 | no | — |
 | CoNEXT-Skills | CoNEXT | 2026 | 12 | no | — |
-| ECAI-Skills | ECAI | 2026 | 8 | no | — |
 | EMNLP-Skills | EMNLP | 2026 | 10 | no | — |
 | ICDM-Skills | ICDM | 2026 | 11 | no | — |
-| ICML-Skills | ICML | 2026 | 7 | no | — |
-| ICSME-Skills | ICSME | 2026 | 9 | no | — |
-| IJCAI-Skills | IJCAI | 2026 | 8 | no | — |
-| IMC-Skills | IMC | 2026 | 10 | no | — |
-| KDD-Skills | KDD | 2026 | 8 | no | — |
 | NeurIPS-Skills | NeurIPS | 2026 | 12 | no | — |
-| RecSys-Skills | RecSys | 2026 | 9 | no | — |
 | SIGGRAPH-Skills | SIGGRAPH | 2026 | 12 | no | — |
 | SoCC-Skills | SoCC | 2026 | 11 | no | — |
 | UAI-Skills | UAI | 2026 | 8 | no | — |
@@ -35,6 +27,7 @@ The `edition` column is the newest year the source map states for its own venue,
 | ACL-Skills | ACL | 2027 | 8 | no | — |
 | ACM-CCS-Skills | CCS | 2027 | — | no | — |
 | ACM-MM-Skills | ACM MM | 2027 | — | no | — |
+| AISTATS-Skills | AISTATS | 2027 | 5 | no | — |
 | ASE-Skills | ASE | 2027 | — | no | — |
 | ASPLOS-Skills | ASPLOS | 2027 | 4 | no | — |
 | CAV-Skills | CAV | 2027 | — | no | — |
@@ -45,6 +38,7 @@ The `edition` column is the newest year the source map states for its own venue,
 | CoRL-Skills | CoRL | 2027 | — | no | — |
 | DAC-Skills | DAC | 2027 | 7 | no | — |
 | EACL-Skills | EACL | 2027 | 3 | no | — |
+| ECAI-Skills | ECAI | 2027 | 10 | no | — |
 | EDBT-Skills | EDBT | 2027 | — | no | — |
 | EuroSys-Skills | EuroSys | 2027 | 4 | no | — |
 | FAST-Skills | FAST | 2027 | 2 | no | — |
@@ -58,14 +52,19 @@ The `edition` column is the newest year the source map states for its own venue,
 | ICCV-Skills | ICCV | 2027 | 10 | no | — |
 | ICDT-Skills | ICDT | 2027 | 4 | no | — |
 | ICLR-Skills | ICLR | 2027 | 4 | no | — |
+| ICML-Skills | ICML | 2027 | 8 | no | — |
 | ICRA-Skills | ICRA | 2027 | 5 | no | — |
 | ICSE-Skills | ICSE | 2027 | 4 | no | — |
+| ICSME-Skills | ICSME | 2027 | 9 | no | — |
 | IEEE-SP-Skills | S&P | 2027 | 5 | no | — |
+| IJCAI-Skills | IJCAI | 2027 | 8 | no | — |
+| IMC-Skills | IMC | 2027 | 10 | no | — |
 | INFOCOM-Skills | INFOCOM | 2027 | 5 | no | — |
 | IROS-Skills | IROS | 2027 | 9 | no | — |
 | ISCA-Skills | ISCA | 2027 | 6 | no | — |
 | ISSTA-Skills | ISSTA | 2027 | — | no | — |
 | ITCS-Skills | ITCS | 2027 | — | no | — |
+| KDD-Skills | KDD | 2027 | 8 | no | — |
 | MICRO-Skills | MICRO | 2027 | 6 | no | — |
 | MLSys-Skills | MLSys | 2027 | — | no | — |
 | MobiCom-Skills | MobiCom | 2027 | — | no | — |
@@ -82,6 +81,7 @@ The `edition` column is the newest year the source map states for its own venue,
 | PPoPP-Skills | PPoPP | 2027 | 3 | no | — |
 | PerCom-Skills | PerCom | 2027 | 3 | no | — |
 | RSS-Skills | RSS | 2027 | — | no | — |
+| RecSys-Skills | RecSys | 2027 | 8 | no | — |
 | SIGCOMM-Skills | SIGCOMM | 2027 | — | no | — |
 | SIGIR-Skills | SIGIR | 2027 | — | no | — |
 | SIGMETRICS-Skills | SIGMETRICS | 2027 | 6 | no | — |

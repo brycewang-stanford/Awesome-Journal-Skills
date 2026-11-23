@@ -24,18 +24,18 @@ and corporate-finance designs.
 JFE-specific policy lives in [`official-source-map.md`](official-source-map.md). The general
 empirical-craft prose is shared across journal packs and lives in the repo's shared kit:
 
-- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md)
   — the standard referee objections (identification, inference, robustness, mechanism) and how to
   pre-empt them. Pairs with [`../skills/jfe-identification`](../skills/jfe-identification/SKILL.md) and
   [`../skills/jfe-referee-strategy`](../skills/jfe-referee-strategy/SKILL.md).
-- [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md)
+- [`../../shared-resources/empirical-methods/reporting-standards.md`](shared/empirical-methods/reporting-standards.md)
   — what every empirical result must report (estimator, SE/clustering, sample, diagnostics) to clear a
   top-3 finance reviewer. Pairs with [`../skills/jfe-empirical-design`](../skills/jfe-empirical-design/SKILL.md).
-- [`execution-with-mcp`](../../shared-resources/empirical-methods/execution-with-mcp.md)
+- [`execution-with-mcp`](shared/empirical-methods/execution-with-mcp.md)
   — **the last mile: guidance → a fitted, audited result.** Maps each design family to the concrete StatsPAI / Stata MCP tools, so this pack's empirical skills *run* the modern DiD / weak-IV-robust CI / multiple-testing correction and report the number.
 
 The [`code/`](code/) directory is **vendored** from
-[`../../shared-resources/empirical-methods/code`](../../shared-resources/empirical-methods/code) so this
+[`../../shared-resources/empirical-methods/code`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/tree/main/shared-resources/empirical-methods/code) so this
 plugin is self-contained; its commands are verified on Stata 18 MP (2026-06). Fix issues upstream and
 re-vendor rather than editing the copy here.
 
@@ -52,8 +52,8 @@ re-vendor rather than editing the copy here.
    [`../skills/jfe-empirical-design`](../skills/jfe-empirical-design/SKILL.md) (factor construction,
    clustering, multiple-testing) and [`../skills/jfe-robustness`](../skills/jfe-robustness/SKILL.md).
 4. Pre-empt referees with the shared
-   [`reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+   [`reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md)
    and report to the shared
-   [`reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md).
+   [`reporting-standards.md`](shared/empirical-methods/reporting-standards.md).
 5. Confirm submission, fee, and data/code policy in [`official-source-map.md`](official-source-map.md)
    before submitting via [`../skills/jfe-submission`](../skills/jfe-submission/SKILL.md).

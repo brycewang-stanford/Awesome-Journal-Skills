@@ -9,7 +9,7 @@ description: Use when deciding which qje-* sub-skill to invoke next, or when seq
 
 This is the router. It does not replace any specialized skill. It tells you **which qje-* skill to use at the current stage** of a manuscript aimed at the *Quarterly Journal of Economics*.
 
-Default assumption: unless the user says otherwise, treat the target as QJE — the oldest English-language economics journal (founded 1886, published by Oxford University Press for the **Harvard** Department of Economics), a top-5 general-interest journal that rewards a **big conceptual idea backed by clean, credible empirics**. Its five Harvard-based Editors (Barro, Katz, Nunn, Shleifer, Stantcheva as of 2024) desk-decide in roughly **two weeks** — the fastest at desk among the top-5 — and desk-reject the majority; unconditional acceptance is only **~1-4%**. There is **no submission fee**; initial submission is a **single PDF via Editorial Express** under **double-blind** review. Re-verify volatile specifics (current editors, fee, deposit policy) on the official journal page before relying on them.
+Default assumption: unless the user says otherwise, treat the target as QJE — the oldest English-language economics journal (founded 1886, published by Oxford University Press for the **Harvard** Department of Economics), a top-5 general-interest journal that rewards a **big conceptual idea backed by clean, credible empirics**. Its five Harvard-based Editors (Barro, Katz, Nunn, Shleifer, Stantcheva as of 2024) desk-decide in roughly **two weeks** — the fastest at desk among the top-5 — and desk-reject the majority; unconditional acceptance is only **~1-4%**. There is **no submission fee**; initial submission is a **single PDF via Editorial Express**, with author names, total word count, and a ≤250-word abstract (JEL codes at its end) on the first page — QJE does not ask for anonymization. Re-verify volatile specifics (current editors, fee, deposit policy) on the official journal page before relying on them.
 
 ## When to trigger
 
@@ -65,7 +65,7 @@ Main exhibits figure-forward; no table past ~6 columns?                NO -> qje
 Abstract states question, design, and magnitude in plain prose?        NO -> qje-writing-style
 QJE Dataverse deposit (data + code) assembled and re-runnable?         NO -> qje-replication-package
 Referee objections war-gamed and pre-empted in the draft?              NO -> qje-referee-strategy
-Single anonymized PDF ready for Editorial Express (no fee due)?        NO -> qje-submission
+Single complete PDF ready for Editorial Express (no fee due)?          NO -> qje-submission
 Decision letter with an R&R in hand?                                   YES -> qje-rebuttal
 ```
 
