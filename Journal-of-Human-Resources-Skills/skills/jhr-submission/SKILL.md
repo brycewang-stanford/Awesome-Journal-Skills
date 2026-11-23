@@ -34,7 +34,8 @@ description: Use when running the final pre-submission preflight for the Journal
 ### Required front matter & footnotes
 - [ ] **Per-author Disclosure Statement** up front (funding/support >= $10,000 over 3 yr, positions, relatives/partners, right-to-review, IRB status)
 - [ ] **Data-archive plan footnote** with a persistent (DOI) link, or a waiver request made now (see jhr-replication-and-data-policy)
-- [ ] **Data Availability Statement** drafted for the title page
+- [ ] **Data Availability Statement** drafted for the title page (the Manuscript Preparation page calls the Data Replication Statement, with contact information, "required for all papers upon submission")
+- [ ] Title page carries an abstract of **100 words or fewer** and **JEL codes** (Manuscript Preparation page; written for accepted papers, so treat as best practice at first submission)
 - [ ] For RCTs: pre-analysis plan existence, registry, and deviations stated
 - [ ] Author-order randomization "r" superscript used if applicable
 

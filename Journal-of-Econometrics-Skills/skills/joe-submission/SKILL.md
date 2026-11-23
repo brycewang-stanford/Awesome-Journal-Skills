@@ -12,9 +12,9 @@ description: Use when running the final pre-submission preflight for the Journal
 - Confirming format, abstract length, and fee/proof-of-payment requirements
 - Checking declarations and the PDF is single-anonymized-ready
 
-## Process facts (verified on 2026-06-20; re-confirm volatile portal routing on the official pages)
+## Process facts (verified on 2026-06-20; fee, abstract, review model, portal split and masthead re-verified 2026-11-24; re-confirm volatile portal routing on the official pages)
 
-- JoE is published by **Elsevier** (founded 1973); Co-Editors-in-Chief **Michael Jansson (UC Berkeley)** and **Aureo de Paula (UCL)**.
+- JoE is published by **Elsevier** (founded 1973); Managing Editor **Michael Jansson (UC Berkeley)** with Co-Editors **Giuseppe Cavaliere, Yanqin Fan, Bo Honoré, and Viktor Todorov** (ScienceDirect masthead, Internet Archive capture of 2026-10-17; Aureo de Paula is now listed as a former editor).
 - **Portal:** ScienceDirect's current **Submit your article** link points new submissions to **Editorial Manager**. JoE's own Google Sites Guidelines still says all submissions are made through **Editorial Express**, and the Editorial Express `dbase=je` page now says it is for **resubmissions only** and links new submissions to Editorial Manager. Start from the live ScienceDirect/JoE official link; use Editorial Express when the live route or resubmission flow directs you there.
 - **Fee:** a **USD $75 nonrefundable submission fee** applies to new submissions and resubmissions over one year old. VAT is added for European authors; no student discounts or refunds.
 - **Files/format:** the ScienceDirect Guide asks for editable source files (`.doc/.docx` or `.tex`) and says PDF is not an acceptable source file for that requirement. The Editorial Express resubmission flow instructs a **PDF-only** upload, with main text around **40 pages** at **≥1.5 spacing and 11pt font**.

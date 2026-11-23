@@ -5,11 +5,26 @@ description: Use when preparing the final version of an accepted CVPR paper, cov
 
 # CVPR Camera-Ready
 
-Use this after a CVPR acceptance (decisions landed February 20 in the 2026 cycle,
-conference in early June). The verified 2026 publication pipeline is described below;
-the *mechanical* camera-ready details for any given year — exact deadline, page
-allowance, IEEE forms — were not fetchable at check time and are 待核实: read the
-instructions email and the current Author Guidelines before building the final PDF.
+Use this after a CVPR acceptance (CVPR 2027 decisions land February 25, 2027, conference
+June 20–24 in Seattle; in the 2026 cycle, February 20 and early June). The verified
+publication pipeline is described below; the *mechanical* camera-ready details — exact
+deadline, page allowance, IEEE forms — are not on the CVPR 2027 pages yet and are
+待核实: read the instructions email and the current Author Guidelines before building
+the final PDF.
+
+Verified CVPR 2027 final-version rules (Author Guidelines, re-read 2026-11-24):
+
+- **Main Track or Findings Track.** CVPR 2027 has two tracks with separate proceedings;
+  the Findings Track (piloted at CVPR 2026) takes technically sound papers with more
+  incremental novelty, by AC recommendation and invitation.
+- **Author list frozen.** No additions or removals; order changes only with PC approval in
+  extraordinary circumstances.
+- **AI disclosure moves to the Acknowledgements.** Per IEEE policy, the camera-ready
+  discloses AI-generated text, figures, images or code — system, sections and level of
+  use; the de-anonymized LLM Usage Statement may be moved there.
+- **CVF releases all accepted papers two weeks before the conference**, which is the
+  public-disclosure date for patent purposes unless you publish earlier.
+- At least one author must register and present the paper.
 
 ## Where the paper actually ends up
 
@@ -42,7 +57,7 @@ Reversing double-blind is edit work, not a switch:
 
 ## The dataset clause has a deadline
 
-Verified 2026 policy: if the paper claims a **dataset release as a scientific
+Verified 2026 and 2027 policy: if the paper claims a **dataset release as a scientific
 contribution**, the dataset must be publicly available **no later than the camera-ready
 deadline**. "Available upon request" or a landing page with a form does not meet the
 bar you promised reviewers. Licensing, hosting bandwidth, and consent/PII scrubbing all
@@ -110,7 +125,8 @@ allowed.
 - Whether the final template differs from the submission template (line numbers off,
   copyright block on).
 - IEEE copyright/e-forms and PDF validation requirements.
-- Registration-per-paper and in-person presentation obligations.
+- Registration-per-paper details (2027 requires at least one registered presenting author).
+- Findings Track camera-ready and presentation rules.
 - Poster dimensions, talk lengths, and virtual-platform upload list.
 
 ## Output format

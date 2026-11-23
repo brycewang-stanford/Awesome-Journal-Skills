@@ -8,7 +8,7 @@ in effect), six clean controls. See [README.md](README.md) for the design and it
 | Stage | Measure | Result |
 |---|---|---|
 | 0 · Preflight (deterministic) | Mechanical defects caught | **45 / 47 (95.7%)**. The 2 misses are documented known limits (below) |
-| 0 · Preflight | False alarms on clean controls | **0 FAIL · 0 FLAG** across all 6 (one INFO reminder on ACL) |
+| 0 · Preflight | False alarms on clean controls | **0 FAIL · 0 FLAG** across all 6 (one INFO reminder on ACL), in source, PDF and Word form |
 | 0 · Preflight | Verdict separation | **6 / 6** clean copies GO, **6 / 6** seeded copies NO-GO |
 | 2 · Referee panel (inline) | Planted substantive flaws kept as a *major* concern | **23 / 24 (95.8%)** |
 | 2 · Referee panel | Planted substantive flaws raised at any severity | **24 / 24** |
@@ -57,6 +57,52 @@ building the benchmark, each fixed in the code rather than in the fixture:
 - **Descriptive tables:** a table with an N column was read as a regression table.
 - **JF exhibits:** Roman-numeral numbering, as JF uses, was not recognised.
 
+## Stage 0 across file formats (added 2026-11-24)
+
+Authors submit PDFs and Word files, not the Markdown or LaTeX the fixtures are written
+in. So every fixture, clean and seeded, was also converted and scored:
+
+- to Word with pandoc;
+- to PDF with xelatex (via pandoc) or pdflatex. The ICML and ACL fixtures were compiled
+  two-column at 10pt, the layout those venues use.
+
+| Format | Mechanical defects caught | False alarms on clean controls |
+|---|---|---|
+| Source (.md / .tex) | 45 / 47 | 0 FAIL · 0 FLAG |
+| PDF (single- and two-column) | 45 / 47 | 0 FAIL · 0 FLAG |
+| Word (.docx, the three Markdown fixtures) | 23 / 24 | 0 FAIL · 0 FLAG |
+
+The misses in every format are the same two known ones. Reaching parity took ten fixes
+to the PDF and Word readers:
+
+- **Column order:** pdftotext's reading order interleaves the two columns. Two-column
+  layout is now detected from the gutter in `-layout` output and extracted in stream
+  order.
+- **Structure:** statement headings ("Key Points", "Data Sharing Statement"), Chinese
+  section headings (一、 / （一）) and captions that run on into prose were not recognised.
+- **References:**
+  - AMA/Vancouver and corporate-author entries, and author lines ending "(2019).",
+    were split wrongly;
+  - a second, cruder re-merge of reference entries was removed;
+  - a missing LaTeX citation renders as "(?)", which is now a REF-MISSING.
+- **URLs:** links broken across lines are rejoined.
+- **Table notes:** a note split by a page break is reconnected.
+- **Word:** heading styles in Chinese-locale Word are resolved through `styles.xml`.
+
+The first PDF run, before these fixes, gave 43/47 caught and 165 false alarms on the six
+clean papers. Most came from one Chinese PDF in which no section heading was
+recognised. The per-format script is not committed, because it needs pandoc and a TeX
+installation, and CI is stdlib only. Its result is recorded here.
+
+## Fixture revision v2 (2026-11-24)
+
+The panel's blind read found real errors in three "clean" fixtures (next section). They
+were fixed afterwards: ACL language coverage and the quota attribution, the ERJ standard
+error of a difference, and the JF sample definition and reference period. Each
+`defects.json` now records `"revision": "v2 …"`. **The panel results below were produced
+on v1** (commit `d9793503`). The stage-0 results above are on v2, and both versions give
+the same mechanical scores.
+
 ## Stage 2: referee panel, graded against the manifests
 
 The grading rule: a planted flaw counts as **caught** when a concern the verifier kept
@@ -90,8 +136,28 @@ defensible. It is still counted as a miss.
 | `erj-cn-did` | major revision | (1) SE of a between-group difference too small (0.012 vs ≈0.019); (2) contributions are mainly econometric | (1) **genuine fixture error**: the clean paper's arithmetic is wrong; (2) defensible critique |
 
 The fixture-writing agents could not see these errors, but the panel found them in a
-blind read. The fixtures are left as they were run, so these results stay reproducible.
-Corrections belong in a fixture v2 with a fresh run.
+blind read. They are fixed in fixture v2 (see above). The panel runs here used v1.
+
+## Multi-agent configuration, two targeted runs (2026-11-24)
+
+The runs above used the cheaper inline configuration. The protocol recommends the
+multi-agent one: an AE, three referee subagents that cannot see each other's work, and
+a separate verifier. It was tested on the two most informative v2 cases, both blinded
+under neutral names ([`panel-runs-multiagent/`](panel-runs-multiagent/)):
+
+| Case | Inline (v1) | Multi-agent (v2) |
+|---|---|---|
+| `acl-nlp`, seeded | 3 of 4 planted flaws kept as major; S4 (ethics details removed) downgraded | **4 of 4 kept as major**; S4 caught (R3-M3), as was the 48.9 known miss. 23 concerns filed, 18 kept, 5 downgraded |
+| `jf-corporate-did`, clean | 2 unplanted major concerns (both genuine v1 fixture errors, since fixed) | **6 unplanted major concerns**: investment pre-trends (breakdown value 0.9), a placebo group that is not clean, buyer-side spillovers, a likely misdescription of Barrot (2016) and Barrot and Nanda (2020), a thin mechanism, and COVID-era timing. Band unchanged (major revision) |
+
+The multi-agent panel is **more thorough in both directions**. It closed the inline
+panel's one miss, and it raised three times as many unplanted major concerns on a clean
+paper. Read individually, these are defensible referee points for a JF submission, and
+the literature one may be a genuine error in the fixture. But they show that "a clean
+paper comes back with no major concerns" should not be expected at a top-3 bar. Use
+multi-agent when the goal is to surface everything a demanding referee could raise, and
+inline for a cheaper first pass. Two runs are not a rate. These are recorded as
+observations, not estimates.
 
 ## What to take from this
 

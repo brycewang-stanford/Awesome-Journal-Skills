@@ -1,6 +1,6 @@
 ---
 name: socs-submission
-description: "Use for the pre-submission preflight to 《社会学研究》 (Sociological Studies) — checking in-text author-date citation (作者, 年: 页) plus end references (GB/T 7714, A–Z, 中外文分列), explanatory footnotes, abstract/keyword limits, the official online system (the journal's only channel), anonymity, and document hygiene. Verify every rule against the journal's current 投稿指南."
+description: "Use for the pre-submission preflight to 《社会学研究》 (Sociological Studies) — checking in-text author-date citation (作者, 年: 页) plus end references (A–Z, 中外文分列, per the journal guide), explanatory footnotes, abstract/keyword limits, the official online system (the journal's only channel), anonymity, and document hygiene. Verify every rule against the journal's current 投稿指南."
 ---
 
 # 投稿前 preflight（socs-submission）
@@ -13,11 +13,11 @@ description: "Use for the pre-submission preflight to 《社会学研究》 (Soc
 ## 关键事实（详见 resources/journal-profile.md）
 
 - 投稿系统：**官网 https://shxyj.ajcass.com/ 为本刊唯一投稿渠道**（谨防冒名收费网站）
-- **注释体例（区别于《中国社会科学》）**：引文出处用**文中夹注**——引文后括号注明**作者、出版年、页码**；**参考文献**列文末，按作者姓氏字母 **A–Z** 排列，**中外文分列**，遵 **GB/T 7714**；**说明性文字用当页脚注**
+- **注释体例（区别于《中国社会科学》）**：引文出处用**文中夹注**——引文后括号注明**作者、出版年、页码**；**参考文献**列文末，按作者姓氏字母 **A–Z** 排列，**中外文分列**（条目按作者、出版年、书名/文章名、译者、出版地、出版社/期刊名排序；官网未提 GB/T 7714）；**说明性文字用当页脚注**
 - 中文摘要 ≤ 200 字；关键词 3–5；英文摘要 ≤ 150 词；中英文标题/摘要/关键词齐全
 - 篇幅：学术论文以 **15000–20000 字**为宜
 - 主办：中国社会科学院社会学研究所；双月刊；**主编李培林**（2026-06-22 核实；主编/编委为可变项，投前以官网"编委会"栏最新名单为准）
-- **不收版面费**，采用即**奉稿酬+样刊两册**；**匿名评审 + 三审定稿制**（官网原文，2026-05-30 首次核实，2026-06-22 复核仍现行）
+- **不收版面费**，采用即**奉稿酬+样刊两册**；**匿名评审 + 三审定稿制**（官网原文，2026-05-30 首次核实，2026-11-24 复核仍现行）
 - **不设通讯作者**，署名投稿后不可变动；**勿一稿多投**；**投稿 4 个月**未获刊用通知可自行处理
 - 只收**未公开发表**之作（含网络版/预印本均算已发表）
 
@@ -27,7 +27,7 @@ description: "Use for the pre-submission preflight to 《社会学研究》 (Soc
 
 - [ ] 引文出处统一为**文中夹注**（作者, 出版年: 页码），不是数字尾注
 - [ ] **说明性文字**才用当页脚注（区分出处注与说明注）
-- [ ] 文末**参考文献**按姓氏 A–Z、中外文分列、遵 GB/T 7714
+- [ ] 文末**参考文献**按姓氏 A–Z、中外文分列，条目按作者—出版年—题名—译者—出版地—出版社/期刊排序
 - [ ] 引文准确、可核查；直接引用标页码
 - [ ] 中英文标题、摘要、关键词齐全且对齐
 - [ ] 摘要 ≤ 200 字、关键词 3–5、英文摘要 ≤ 150 词
@@ -65,7 +65,7 @@ description: "Use for the pre-submission preflight to 《社会学研究》 (Soc
   ……机会结构被重新编码（费孝通，1985：25）。①
   （脚注①：本文的"户籍"指户口登记性质，不含居住证持有状态，详见数据说明。）
   正文已提作者时则作：费孝通（1985：25）指出……
-  文末参考文献：中外文分列、按姓氏 A–Z、遵 GB/T 7714；
+  文末参考文献：中外文分列、按姓氏 A–Z（作者—年份—题名—出版地—出版社/期刊）；
     外文书名/刊名斜体，论文题入引号。
 
 字数核对（示意）：中文摘要 178 字（≤200）✓；关键词 5 个（3–5）✓；
@@ -78,9 +78,9 @@ description: "Use for the pre-submission preflight to 《社会学研究》 (Soc
 
 - 出处用了数字尾注/中括号编号 → 改为文中夹注（作者, 年: 页）。
 - 说明性文字塞进出处注 → 说明走当页脚注，出处走夹注，二者分开。
-- 参考文献未中外文分列或未按 A–Z → 按 GB/T 7714 重排。
+- 参考文献未中外文分列或未按 A–Z → 按官网《投稿指南》第 6 条重排。
 - 摘要超 200 字 / 英文摘要超 150 词 / 关键词不在 3–5 → 压缩到限内。
-- 正文残留作者身份信息 → 清理后再投双盲（见上节）。
+- 正文（第二页起）残留作者身份信息 → 清理后再投；本刊实行匿名评审，作者信息只放第一页（见上节）。
 - 误投冒名收费网站或经第三方代投 → 仅用官网 shxyj.ajcass.com 自行投稿。
 
 ## 反模式
@@ -89,7 +89,7 @@ description: "Use for the pre-submission preflight to 《社会学研究》 (Soc
 - 用数字尾注/中括号编号替代文中夹注
 - 把说明性文字与出处注混为一谈
 - 经第三方"代投"或冒名收费网站投稿
-- 忘清匿名信息就投双盲
+- 忘清正文（第二页起）的匿名信息就投匿名评审
 
 ## 输出格式
 

@@ -7,9 +7,10 @@ description: Use when deciding whether a project belongs at SIGIR and in which o
 
 Two decisions, in order: (1) is this an information-retrieval contribution at all,
 and (2) which SIGIR track owns it. Both are cheaper to get right in October than to
-learn from reviews in March. SIGIR 2026's verified lineup — Full, Short,
-Perspectives, Resources, Reproducibility, Low Resource Environments, and Industry
-tracks — makes the second decision genuinely multi-way.
+learn from reviews in March. SIGIR 2027's published lineup (sigir2027.org, checked
+2026-11-24) — Full, Short (call TBA), Resource, Reproducibility and Replicability,
+Demonstrations, Perspectives, and SIRIP/industry (call TBA) — makes the second decision
+genuinely multi-way.
 
 ## Test 1: is retrieval the contribution or the plumbing?
 
@@ -29,15 +30,16 @@ natural related work includes SIGIR/TOIS/TREC lineage (see `sigir-related-work`)
 
 ## Test 2: the track fork
 
-| Your strongest honest sentence starts with... | Track | 2026 anchor |
+| Your strongest honest sentence starts with... | Track | SIGIR 2027 anchor |
 |---|---|---|
-| "We propose/analyze a method and show on N collections..." | Full papers | ≤9 pp excl. refs, double-blind |
-| "We report one focused finding..." | Short papers | ≤4 pp excl. refs, own OpenReview group |
-| "We built and share a corpus/toolkit/judgments..." | Resources | ≤6 pp + refs, **single-anonymous** |
-| "We reproduced (or failed to reproduce) published results..." | Reproducibility | Own track in 2026; details 待核实 |
-| "We argue the field should..." | Perspectives | Details 待核实 |
-| "We deployed retrieval in production and learned..." | Industry (SIRIP lineage) | Details 待核实 |
-| "Search under compute/connectivity/language constraints..." | Low Resource Environments | Feb 5 abstract, Apr 2 notify (2026) |
+| "We propose/analyze a method and show on N collections..." | Full papers | ≤9 pp excl. refs, double-anonymous; abstract Jan 14, paper Jan 21, 2027 |
+| "We report one focused finding..." | Short papers | 2027 call TBA (2026: ≤4 pp excl. refs) |
+| "We built and share a corpus/toolkit/judgments..." | Resource | ≤6 pp + refs, **single-anonymous**; Feb 4 / Feb 11, 2027 |
+| "We reproduced (or failed to reproduce) published results..." | Reproducibility and Replicability | ≤9 pp + refs, double-anonymous; Feb 4 / Feb 11, 2027 |
+| "We argue the field should..." | Perspectives | ≤9 pp + refs, mandatory "Call for Action"; Jan 28 / Feb 4, 2027 |
+| "Here is a working system you can try..." | Demonstrations | ≤4 pp + refs, single-anonymous, video/live link; Feb 4 / Feb 11, 2027 |
+| "We deployed retrieval in production and learned..." | Industry (SIRIP) | 2027 call TBA |
+| "Search under compute/connectivity/language constraints..." | (Low Resource Environments ran in 2026; not in the 2027 overview) | Route to Full/Resource unless a 2027 call appears |
 
 Fork rules of thumb:
 
@@ -98,18 +100,20 @@ possible SIGIR pipeline — campaign participation year 1, analysis paper year 2
   unfinished ablation, the choice is not "which track" but "which *cycle*" — a
   rushed January submission burns the year anyway.
 
-One more timing lever: the staggered secondary-track calendar (Resources and LRE
-ran weeks behind full papers in 2026) sometimes lets a January full-paper miss
+One more timing lever: the staggered secondary-track calendar (Resource,
+Reproducibility and Replicability and Demonstrations run about three weeks behind full
+papers in 2027: February 4 abstracts vs January 14) sometimes lets a January full-paper miss
 become a same-year February resource or reproducibility submission — but only if
 the contribution genuinely re-frames, not as a costume change reviewers see through.
 
 ## Scope vocabulary check
 
-SIGIR's own topic language (2026 full-papers page): search and ranking, queries and
-query analysis, web search, retrieval models and ranking, efficiency and
-scalability (indexing, crawling, compression), recommender systems — plus the
-community's standing breadth: evaluation, conversational search, and
-retrieval-augmented systems. If the abstract cannot be written naturally in this
+SIGIR's own topic language (2027 full-paper call): search and ranking; system,
+efficiency and scalability; recommender systems; Foundation Models for IR (merging the
+former ML-for-IR and NLP-for-IR areas); **Agentic IR** (new standalone area);
+conversational IR; **Information Access through Generative AI** (new); humans and
+interfaces; datasets, benchmarks and evaluation; FATES (now including AI safety);
+multimodal IR; domain-specific applications. If the abstract cannot be written naturally in this
 vocabulary, revisit Test 1.
 
 ## Output format

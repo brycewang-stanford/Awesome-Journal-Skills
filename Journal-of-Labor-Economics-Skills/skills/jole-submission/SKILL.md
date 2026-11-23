@@ -21,6 +21,9 @@ description: Use when running the final pre-submission preflight for the Journal
 - JOLE does **not normally publish articles exceeding 20,000 words**, counting a **full-page table or figure as 500 words** toward that total.
 - References use **University of Chicago Press author-date (Chicago)** style; in-text citations are ordered **chronologically, then alphabetically within the same year** (a, b disambiguation), with **"et al." for three or more authors**. LaTeX is accepted (`.bib`/`.bst` rules; Biblatex/Biber supported with a required directive line).
 - Text and figures are preferred as **separate files** (or a single combined file). Operates under UChicago Press / **COPE** ethics guidelines.
+- **LLM disclosure (manuscripts submitted after October 1, 2024):** if an LLM was used to write or substantially rewrite the manuscript, say so in the **acknowledgment footnote** and give details in the **online appendix**; other substantial uses (e.g., generating hypotheses or data) must be **cited in the text**, with the exact prompts in the text or, if numerous, in the online appendix. Grammar/typo fixes and routine code generation need no disclosure.
+- **Prior Review Process:** a paper reviewed previously at one or more Top-5 journals (Econometrica, AER, QJE, JPE, REStud) **and no other journals** can request expedited review by uploading all prior correspondence (referee reports and decision letters) — see the official prior-review page.
+- Authors must attach a statement disclosing any **direct funding** that contributed to the research (published with the article if accepted) and declare any conflicts of interest.
 - The direct Editorial Manager shell can display portal-status banners; enter through the live official instructions route and follow the prompts shown in that session.
 
 ## Preflight checklist
@@ -52,7 +55,9 @@ description: Use when running the final pre-submission preflight for the Journal
 ### Declarations & fee
 
 - [ ] **Submission fee ready** ($100 SOLE / $175 non-member) — decision is withheld until paid
-- [ ] Conflict-of-interest / disclosure consistent with AEA Disclosure Policy
+- [ ] Conflict-of-interest / disclosure consistent with AEA Disclosure Policy; **direct-funding statement** attached
+- [ ] **LLM use** disclosed per the post-October-2024 policy (acknowledgment footnote + online appendix; in-text citation and prompts for substantive uses), or none to disclose
+- [ ] If eligible and wanted: **Prior Review Process** requested in the cover letter with all Top-5 correspondence in one PDF
 - [ ] **Editor notified at submission if data are proprietary** or replication cannot be met
 - [ ] Confirmed the paper is not under review elsewhere; human-subjects/confidential-data handling noted
 

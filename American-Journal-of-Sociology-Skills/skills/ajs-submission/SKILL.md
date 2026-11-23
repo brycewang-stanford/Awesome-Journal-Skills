@@ -38,7 +38,8 @@ own house style** (not the ASA Style Guide). Verify volatile items on the live p
 - **Abstract:** **~150 words** (as close to 150 as possible); must state the question/puzzle, identify
   the data, and indicate findings. **No abstract → not sent to reviewers.**
 - **Length:** **no fixed word cap**; be concise (referees may need more time over ~18,000 words).
-  Live-check current guidance before upload.
+  A **word count including text, notes, and references must be included in the cover letter**
+  (re-verified 2026-11-24). Live-check current guidance before upload.
 - **Style:** **AJS's own author-date house style** (name + year; "et al." for 3+); **NOT the ASA Style
   Guide**. Notes start at "1"; acknowledgment note on the cover sheet with an asterisk; footnotes or
   endnotes both fine.
@@ -51,6 +52,7 @@ own house style** (not the ASA Style Guide). Verify volatile items on the live p
 - [ ] $30 submission fee ready (or sole-author grad-student waiver + proof of status)
 - [ ] Manuscript file (Word/PDF/LaTeX) **with no cover page inside it**
 - [ ] **Separate cover page** file (names, affiliations, acknowledgments)
+- [ ] Cover letter states the word count (text + notes + references)
 
 ### Anonymity (double-blind)
 - [ ] No author names, affiliations, or acknowledgments in the manuscript

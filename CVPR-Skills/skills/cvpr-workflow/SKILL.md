@@ -5,13 +5,14 @@ description: Use when planning a CVPR submission campaign end to end, covering t
 
 # CVPR Workflow
 
-CVPR is an annual machine with one intake: in the 2026 cycle, abstracts November 6,
-papers November 13, supplements November 20, rebuttal late January, decisions
-February 20, conference June 3–7 in Denver. This skill turns that spine into a
+CVPR is an annual machine with one intake: for CVPR 2027, paper registration November
+10, 2026, papers November 16, supplements November 23, rebuttal January 25 – February 1,
+2027, decisions February 25, conference June 20–24, 2027 in Seattle (the 2026 cycle ran
+November 6 / 13 / 20, 2025 to a June 3–7 Denver meeting). This skill turns that spine into a
 project plan with owners, because CVPR deadline weeks are lost to coordination
 failures more often than to science failures.
 
-## Campaign calendar (2026-cycle anchors)
+## Campaign calendar (CVPR 2027 dates, re-verified 2026-11-24)
 
 | When | Milestone | Owner discipline |
 |---|---|---|
@@ -19,15 +20,15 @@ failures more often than to science failures.
 | T–8 weeks | Experiment matrix running; recipe ledger live | Every table row has a config |
 | T–6 weeks | First full draft; flip-test the figures | Co-authors annotate, don't rewrite |
 | T–4 weeks (early Oct) | OpenReview profiles audited for every author | One named owner; new coauthors close the list |
-| T–1 week (Nov 6) | **Abstract registered; profiles valid** | Desk-reject exposure if missed |
-| Nov 13 | **Paper + CRF submitted** | Freeze 24h early; upload before the panic hour |
-| Nov 20 | **Supplement uploaded** | Videos/code packaged per `cvpr-supplementary` |
-| Dec – Jan 12 | Coauthors deliver their assigned reviews | Late reviews endanger *your* paper |
-| Jan 22–29 | Reviews land; one-page rebuttal | Pre-book this week; nobody travels |
-| Jan 30 – Feb 5 | Discussion (no author access) | Resist mailing the AC |
-| Feb 20 | Decisions | Both branches pre-planned |
+| T–1 week (Nov 10, 2026) | **Paper registered; profiles + enrollment complete; quotas checked** | Desk-reject exposure if missed; author list frozen |
+| Nov 16, 2026 | **Paper (with LLM Usage Statement) submitted** | Freeze 24h early; upload before the panic hour |
+| Nov 23, 2026 | **Supplement uploaded** | Videos/code packaged per `cvpr-supplementary` |
+| Dec 14, 2026 – Jan 8, 2027 | Coauthors deliver their assigned reviews | Late reviews endanger *your* paper |
+| Jan 25 – Feb 1, 2027 | Reviews land; one-page rebuttal | Pre-book this week; nobody travels |
+| Jan 25 – Feb 5, 2027 | Reviewer responses and AC–reviewer discussion | Resist mailing the AC |
+| Feb 25, 2027 | Decisions (Main or Findings Track) | Both branches pre-planned |
 | Spring (待核实) | Camera-ready + dataset release due | See `cvpr-camera-ready` |
-| Jun 3–7 | Conference (workshops 3–4, main 5–7 in 2026) | Poster/talk/travel logistics |
+| Jun 20–24, 2027 | Conference (workshops 20–21, main 22–24) | Poster/talk/travel logistics |
 
 ## The two windows people fail to defend
 
@@ -51,8 +52,8 @@ deadline:      # internal freeze 24h before OpenReview close
 ## Reviewer duty as a planned workload
 
 Submitting enrolls qualifying authors into a 25k-reviewer pool, and undelivered or
-irresponsible reviews can desk-reject every paper the offender authored (verified 2026
-enforcement). Treat December–January reviewing as a scheduled deliverable: at
+irresponsible reviews — including uploading a submission to an external LLM — can
+desk-reject every paper the offender authored (verified 2026 and 2027 policy). Treat December–January reviewing as a scheduled deliverable: at
 submission time, list which coauthors are likely reviewers, block their calendar for
 review weeks, and have the group's senior authors sanity-check first-time reviewers'
 drafts against the official reviewer guidelines.
@@ -81,8 +82,9 @@ ECCV (spring deadline, even years) → WACV/3DV or back to CVPR. Rules for climb
 - Bank the reviews: fix every factual objection before the next deadline; reviewer
   pools overlap across CVF venues and repeat objections read badly (triage method in
   `cvpr-review-process`).
-- Mind the dual-submission windows: the CVPR attestation covered Nov 13 – Feb 20 in
-  2026; the next venue's window must not overlap a paper still under CVPR review.
+- Mind the dual-submission windows: the CVPR attestation covers Nov 16, 2026 – Feb 22,
+  2027 for CVPR 2027 (Nov 13 – Feb 20 in 2026); the next venue's window must not overlap
+  a paper still under CVPR review.
 - Re-check freshness: three months of arXiv can obsolete a comparison table; budget a
   baseline-refresh pass, not just an edit pass.
 
@@ -98,7 +100,8 @@ contact with real teams:
 - **T–7 (abstract day)**: register the abstract, verify every profile renders as
   complete when logged out of the authors' accounts, lock the author list.
 - **T–6 to T–3**: claim-calibration pass (`cvpr-writing-style`), bibliography venue
-  verification (`cvpr-related-work`), CRF mandatory sections drafted.
+  verification (`cvpr-related-work`), LLM Usage Statement drafted and checked for
+  anonymity.
 - **T–2**: full mechanical sweep from `cvpr-submission`; internal freeze.
 - **T–1**: upload; re-download; cold read. Nobody edits after upload day.
 - **T to T+7 (supplement week)**: execute — do not design — the supplement plan;
@@ -106,11 +109,11 @@ contact with real teams:
 
 ## Cycle-status note
 
-As of 2026-07-08, CVPR 2026 has concluded and the CVPR 2027 cycle (Seattle, reported
-around June 20–24, 2027) had published **no** CFP or deadlines. Every date above is a
-2026-cycle anchor for planning shape only — reopen cvpr.thecvf.com the moment your team
-commits, because the deadline chain (and things like the CRF) can change between
-editions.
+As of 2026-11-24, the CVPR 2027 call (Seattle, June 20–24, 2027) is published and its
+submission window has closed; the dates above are CVPR 2027's. No later edition is
+announced — for the next cycle, reopen cvpr.thecvf.com the moment your team commits,
+because the deadline chain and requirements (the 2026 Compute Reporting Form, the 2027
+LLM Usage Statement and quotas) change between editions.
 
 ## Output format
 

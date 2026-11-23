@@ -4,6 +4,7 @@
   "venue": "Annual Meeting of the Association for Computational Linguistics (ACL), via ACL Rolling Review",
   "format": "tex",
   "synthetic": true,
+  "revision": "v2 (2026-11-24): replaced Yoruba (in none of XCOPA/XStoryCloze/XNLI/MGSM) with Burmese (XStoryCloze) so all 18 languages are benchmark-covered, disclosed single-benchmark languages, and credited per-language quotas to the paper itself instead of the fictional Quillfeather and Brambleton (2024) reference.",
   "summary": "A fictional ACL long paper proposing Cross-Lingual Quality Filtering (XQF), which selects multilingual instruction-tuning data by round-trip translation consistency and English-pivot quality with per-language normalization and quotas, evaluated on held-out XCOPA, XStoryCloze, XNLI and MGSM with a contamination check.",
   "defects": [
     {
@@ -20,9 +21,9 @@
       "id": "M2",
       "kind": "mechanical",
       "check": "ANON-SELFCITE",
-      "find": "\\citet{quillfeather2024quota} argue that a single global quality threshold removes low-resource languages disproportionately from translated corpora and propose per-language quotas; we adopt the same principle for instruction data",
-      "replace": "In our previous work \\citep{quillfeather2024quota}, we showed that a single global quality threshold removes low-resource languages disproportionately from translated corpora and proposed per-language quotas; here we extend our own approach to instruction data",
-      "description": "A first-person self-citation ('In our previous work ... we showed') reveals the authors' identity in an anonymized ARR submission.",
+      "find": "Applied to such a pool, a single global quality threshold removes low-resource languages disproportionately (Section~\\ref{sec:results}); we therefore introduce per-language quotas for instruction data",
+      "replace": "In our previous work on translated web corpora, we showed that a single global quality threshold removes low-resource languages disproportionately and proposed per-language quotas; here we extend our own approach to instruction data",
+      "description": "A first-person reference to the authors' own earlier work ('In our previous work ... we showed ... here we extend our own approach') reveals their identity in an anonymized ARR submission.",
       "rule_basis": "acl-submission skill anonymity gate: 'no names, affiliations, acknowledgements, or self-revealing \"we previously showed\" citations'; official-source-map.md source 2/6: anonymized submissions."
     },
     {

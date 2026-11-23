@@ -15,7 +15,7 @@
       "name": "sigir-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
+      "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2027 cycle checked 2026-11-24.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

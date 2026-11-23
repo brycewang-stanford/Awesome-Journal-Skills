@@ -10,13 +10,13 @@ Run this before pressing submit on **Editorial Manager** (`editorialmanager.com/
 ## Process facts (verify on the official page)
 
 - Published by **Cambridge University Press** for the **University of Washington Foster School of Business**.
-- **$350** fee (re-verified 2026-06-22, unchanged), credit card only; **$275 refunded** if the paper is not sent to a reviewer (a desk reject keeps **$75**). **Double-anonymous** review; the text-searchable PDF goes blind to reviewer(s). No fixed length limit, but over-long papers are likely desk-rejected.
-- **Editor structure (re-verified 2026-09-14):** JFQA has **no single Editor-in-Chief** — seven **Managing Editors** handle papers by assignment. Current slate: Bessembinder, Duchin, Foucault, Harford, Li, **Giannetti**, Siegel. **Mariassunta Giannetti** (Stockholm School of Economics) joined 1 Sep 2026, replacing George Pennacchi who stepped down on that date. Re-verify the live slate before submission.
+- **$350** fee (re-verified 2026-11-24, unchanged), credit card only; **$275 refunded** if the paper is not sent to a reviewer (a desk reject keeps **$75**). **Double-anonymous** review; the text-searchable PDF goes blind to reviewer(s). No fixed length limit, but over-long papers are likely desk-rejected.
+- **Editor structure (re-verified 2026-11-24):** JFQA has **no single Editor-in-Chief** — seven **Managing Editors** handle papers by assignment. Current slate: Bessembinder, Duchin, Foucault, Harford, Li, **Giannetti**, Siegel. **Mariassunta Giannetti** (Stockholm School of Economics) joined 1 Sep 2026, replacing George Pennacchi who stepped down on that date. Re-verify the live slate before submission.
 
 ## Preflight checklist
 
 ### Manuscript & formatting
-- [ ] Single **text-searchable PDF** (no image-only pages, no separate figure files).
+- [ ] Two files: a **title page** (title, author names, affiliations, mailing and e-mail addresses, acknowledgments — all identifying information lives only here) and the anonymized manuscript as a single **text-searchable PDF** (no image-only pages, no separate figure files). A cover letter is optional ("not required but can be included"), except where the prior-rejection rule below makes it mandatory.
 - [ ] **8.5 × 11** paper, **1-inch** margins, **12-pt Times New Roman**, **double-spaced** body and appendices.
 - [ ] **Abstract**: one paragraph, **≤ 100 words** (see jfqa-contribution-framing).
 - [ ] Tables/figures embedded, numbered, with self-contained notes (see jfqa-tables-figures).
@@ -28,6 +28,9 @@ Run this before pressing submit on **Editorial Manager** (`editorialmanager.com/
 ### Disclosures & resubmission rule
 - [ ] If this paper was **previously rejected by JFQA** and substantially modified, the **cover letter explicitly discloses the prior rejection** — failing to do so triggers desk rejection **and a one-year submission ban** for the corresponding author.
 - [ ] Confirmed not under review elsewhere.
+- [ ] **Funding information** citing funding or support for the paper is provided (submissions page).
+- [ ] Experiments: IRB review/approval/exemption referenced (or explained); any pre-registration referenced through an **anonymized** link or anonymized PDF appendix.
+- [ ] Empirical papers: detailed summary statistics (mean, SD, min, max, median) for all variables and variable definitions in an appendix table (the submissions page's "Suggestions").
 
 ### Code-sharing timing
 - [ ] If you need a **code-sharing exception** (e.g., delayed release for confidential data), it is requested **on this initial submission** — not later (see jfqa-replication-and-data-policy).

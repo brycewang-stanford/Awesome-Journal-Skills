@@ -1,6 +1,6 @@
 # External Tools - NAACL
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (edition links re-checked 2026-11-24)
 
 The surfaces below are where NAACL work actually happens. Because the chapter
 skips years and per-edition sites appear with little lead time, the first tool
@@ -9,13 +9,16 @@ is always the calendar check, not the style file.
 ## Live official surfaces
 
 - Chapter home and news: https://naacl.org/
-- Next edition site: https://2027.naacl.org/ (dates/venue TBA as of the
-  access date; watch for the CFP and feeding-cycle announcement)
+- Current edition site: https://2027.naacl.org/ (San Francisco, June 1-5,
+  2027) and its call: https://2027.naacl.org/calls/main_conference_papers/
+  (ARR October 2026 cycle; commitment December 23, 2026, shared with
+  COLING 2027)
 - Historical anchors: https://2025.naacl.org/ and https://2024.naacl.org/
 - ARR portal and policy: https://aclrollingreview.org/ (CFP, dates, author
   guide)
 - OpenReview: the ARR cycle groups (`aclweb.org/ACL/ARR/{year}/{month}`)
   for submission and, later, the NAACL commitment venue the edition names
+  (`aclweb.org/NAACL/2027/Conference`, opened two weeks before commitment)
 - ACL Anthology NAACL record: https://aclanthology.org/venues/naacl/
 - Findings volumes: https://aclanthology.org/venues/findings/
 - AmericasNLP workshop series: https://turing.iimas.unam.mx/americasnlp/

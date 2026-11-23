@@ -33,7 +33,7 @@ JOM imposes constraints that differ materially from analytical OM journals and g
 | Routing                 | One of **12 Departments**; name 2 (one preferred) in the cover letter | Misrouted framing reads as off-fit                          |
 | Cover letter            | Recommend **≥3 Associate Editors and ≥3 ERB reviewers**, conflict-free | Unusually prescriptive — must be done                       |
 | Review                  | **Asymmetric** double-anonymous (EICs/DEs see identity; reviewers/AEs do not) | Anonymize the manuscript fully                          |
-| Format                  | ~40 pages; double-spaced, single-column, 12-pt; **APA**; checklist required | Over-long manuscripts are returned for streamlining        |
+| Format                  | ~40 pages; double-spaced, single-column, 11-pt; **APA**; checklist required | Over-long manuscripts are returned for streamlining        |
 | Integrity               | iThenticate/CrossCheck; single source <~1%, overall <15% (else justify) | Stricter than a single global threshold                     |
 | Audience                | Academics **and** ASCM practitioners                            | Practical relevance must be concrete and operational              |
 

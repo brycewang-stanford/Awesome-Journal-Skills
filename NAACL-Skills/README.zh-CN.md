@@ -17,15 +17,18 @@ NLP）等工作坊随会举办。
    给某届 NAACL；该届的资深领域主席与程序主席据此决定录取进主会、
    **Findings of NAACL**，或拒稿。
 2. **NAACL 不是每年都开。** 当 ACL 主会在美洲举办时，分会当年停办——
-   没有 NAACL 2023，也没有 NAACL 2026（ACL 2026 在圣迭戈举行）。截至本包
-   核验日期，下一届是 **NAACL 2027**，日期与地点均未公布。因此"投 NAACL"
-   实质上是在为一个有时并不存在的会议规划 ARR 时间线，必须自带备选路线。
+   没有 NAACL 2023，也没有 NAACL 2026（ACL 2026 在圣迭戈举行）。下一届
+   **NAACL 2027** 已公布：**2027 年 6 月 1–5 日，旧金山**，对应 ARR 2026 年
+   10 月周期（投稿截止 2026-10-12），commit 截止 2026-12-23；该周期与
+   COLING 2027 共用，commit 时须指定首选会议。因此"投 NAACL"实质上是在为
+   一个有时并不存在的会议规划 ARR 时间线，必须自带备选路线。
 
 官方依据核验日期：**2026-07-08**。已核验 naacl.org、NAACL 2024/2025 届会
 网站与征稿、更名投票公告、2027 届占位网站、ARR 的 CFP 与日期页，以及 ACL
 Anthology 的 NAACL 与 Findings 卷目。核验时网络网关拦截了对官方域名的直接
 抓取，因此所有事实均通过对精确官方 URL 的搜索引擎渲染结果确认，并与 ACL
-Member Portal 公告交叉核对——完整来源链、访问日期与所有 **待核实** 条目见
+Member Portal 公告交叉核对。**2026-11-24 已直接抓取复核** NAACL 2027 网站、
+征稿与 FAQ 以及 ARR 的 CFP 与日期页——完整来源链、访问日期与所有 **待核实** 条目见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## 本包的 NAACL 特色
@@ -63,7 +66,7 @@ Member Portal 公告交叉核对——完整来源链、访问日期与所有 **
 
 | 路径 | 内容 |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | 12 条来源（URL + 访问日期）、已核验事实清单、访问方式说明与待核实清单。 |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | 14 条来源（URL + 访问日期）、已核验事实清单、访问方式说明与待核实清单。 |
 | [`resources/external_tools.md`](resources/external_tools.md) | 官方在线入口，及上传前按序执行的五轮作者侧核验。 |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | 5 篇经 Anthology 核验的 NAACL 论文（2013-2022）作为写作范本，附防误归 venue 的排除清单。 |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | 一篇虚构的语码转换 QA 论文开头，从"无范围界定"逐步重建为 NAACL 语域。 |
@@ -134,17 +137,19 @@ claude plugin install naacl-skills
 
 ## 诚实性与维护规则
 
-本包构建于 2026-07-08，正处于两届 NAACL 之间，并且明说这一点：
+本包构建于 2026-07-08，正处于两届 NAACL 之间；2026-11-24 已迁移到已发布的
+NAACL 2027 征稿：
 
-- NAACL 2024/2025 的日期与机制是**历史锚点**，用于展示流程形状，绝不冒充
-  下一届的规则。
-- 一切未钉死的事实——NAACL 2027 的日期、地点、对应 ARR 周期、commit
-  截止、主题赛道、报告形式——都在来源图中标注**待核实**，各技能在每个
-  涉及截止日期的步骤都把读者引回官方页面。
+- NAACL 2027 的日期、地点、对应 ARR 周期、commit 截止、主题赛道（"Language
+  as a Medium for Agentic Communication"）与报告形式现均取自官方征稿；
+  NAACL 2024/2025 的日期与机制仍是**历史锚点**，只用于展示流程形状。
+- 仍未钉死的事实在来源图中标注**待核实**，各技能在每个涉及截止日期的步骤
+  都把读者引回官方页面。
 - ARR 机制（页数、checklist 执法、preprint 政策、周期节奏）随周期变化，
   以 CFP 与日期页为准；本包在结构上服从它们。
-- NAACL 2027 征稿发布后需要更新：来源图的待核实节、workflow 技能的日历
-  块、submission 技能的 check-zero 示例，以及本 README 的第二条结构性事实。
+- NAACL 2027 之后的下一届发布征稿时需要更新：来源图的届次状态与待核实节、
+  workflow 技能的日历块、submission 技能的 check-zero 示例，以及本 README 的
+  第二条结构性事实。
 
 ## 许可
 

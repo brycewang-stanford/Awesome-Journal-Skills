@@ -10,8 +10,8 @@ description: Use when deciding which jde-* sub-skill to invoke next, or when seq
 This is the router. It does not replace any specialized skill. It tells you **which jde-* skill to use at the current stage** of a manuscript aimed at the *Journal of Development Economics*.
 
 Default assumption: unless the user says otherwise, treat the target as JDE — the **leading field journal
-in development economics**, published by **Elsevier** and edited by Editors-in-Chief **A. Foster** and
-**K. Macours**. It is highly selective: roughly **1,300 submissions a year**, only about a quarter sent
+in development economics**, published by **Elsevier** and edited by Editor-in-Chief
+**K. Macours** (re-verified 2026-11-24). It is highly selective: roughly **1,300 submissions a year**, only about a quarter sent
 for review, and roughly **6-8% published**. Submission is via **Editorial Manager** under
 **single-anonymized review**, with a **USD 50 non-refundable submission fee** for original manuscripts.
 JDE has three distinctive routes: a permanent **pre-results review / Registered Reports** track (run

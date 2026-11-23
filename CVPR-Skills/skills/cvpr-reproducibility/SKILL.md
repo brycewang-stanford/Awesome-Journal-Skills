@@ -7,16 +7,19 @@ description: Use when hardening a CVPR paper's reproducibility story, covering t
 
 At CVPR, reproducibility failures rarely look like fraud; they look like a table nobody
 can match because one augmentation flag, one crop size, or one pretraining corpus went
-unstated. This skill hardens the paper against that fate, anchored in the 2026-cycle
-machinery (checked 2026-07-08): the Compute Reporting Form, the anonymous supplement,
-and reviewers trained on a decade of un-reproducible state-of-the-art claims.
+unstated. This skill hardens the paper against that fate, anchored in the CVPR
+machinery (2026 cycle checked 2026-07-08; CVPR 2027 re-checked 2026-11-24): the anonymous
+supplement with code encouraged, the LLM Usage Statement (which must name AI help with
+code and experiments too), the 2026 Compute Reporting Form as a compute-disclosure
+template, and reviewers trained on a decade of un-reproducible state-of-the-art claims.
 
 ## The CRF as a reproducibility floor
 
 The 2026 cycle attached a Compute Reporting Form to every submission — Section 1
 (hardware specification) and Section 5 (verification) mandatory, deeper sections
-optional, with an explicit opt-out route for proprietary constraints. Treat the
-mandatory floor as the start, not the ceiling:
+optional, with an explicit opt-out route for proprietary constraints. The CVPR 2027
+guidelines do not mention the form, but its layers remain a sound disclosure floor for
+the paper and supplement. Treat the mandatory floor as the start, not the ceiling:
 
 | CRF layer | What it pins down | Why reviewers care |
 |---|---|---|
@@ -42,7 +45,7 @@ table3_row2:
   aug: [rrc-224, hflip, randaug-m9]
   optim: adamw, lr: 1.0e-4, sched: cosine, epochs: 90, batch: 1024
   seed: 3407          # and whether cudnn deterministic was set
-  hardware: 8xA100-80G   # must agree with CRF Section 1
+  hardware: 8xA100-80G   # must agree with the paper's compute disclosure (CRF Sec. 1 in 2026)
   command: scripts/train.sh configs/table3_row2.yaml
 ```
 
@@ -108,16 +111,17 @@ validation-set protocol that predicts the server number.
 
 ## Reverify each cycle
 
-- CRF structure, which sections are mandatory, and award tie-ins.
+- Whether a compute-reporting form exists for the cycle (2026: CRF; 2027: none stated),
+  its mandatory sections, and award tie-ins.
 - Any reproducibility checklist added to the OpenReview form.
 - Supplement caps that constrain how much recipe/code detail ships at review time
-  (2026 caps 待核实).
+  (2026 and 2027 caps 待核实).
 
 ## Output format
 
 ```text
 [Repro grade] recipe-complete / gaps found
-[CRF] hardware row consistent with paper claims: yes/no; optional sections: <filled?>
+[Compute disclosure] hardware consistent with paper claims: yes/no; CRF (if the cycle has one): <filled?>
 [Ledger] rows covering all reported tables: <n/m>
 [Benchmark hygiene] splits · test-set count · metric provenance · pretrain disclosure
 [Variance] multi-seeded: <experiments>; single-run flagged: <experiments>

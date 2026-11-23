@@ -5,11 +5,14 @@ description: Use when deciding what belongs in a CVPR supplementary upload versu
 
 # CVPR Supplementary Material
 
-CVPR gives supplementary material its own deadline — November 20 in the 2026 cycle, one
-week after the November 13 paper deadline — and vision reviewers open supplements more
-than reviewers at most venues, because qualitative evidence lives there. That makes the
-supplement a designed deliverable, not an attic. Facts below are the 2026 cycle as read
-on 2026-07-08.
+CVPR gives supplementary material its own deadline — November 23, 2026 for CVPR 2027,
+one week after the November 16 paper deadline (November 20 / 13 in the 2026 cycle) — and
+vision reviewers open supplements more than reviewers at most venues, because
+qualitative evidence lives there. That makes the supplement a designed deliverable, not
+an attic. Facts below are the CVPR 2027 cycle as re-read on 2026-11-24: supplements are
+optional, reviewers are encouraged but not obliged to read them, code is encouraged,
+supplementary PDFs have no formatting requirements (single-column is fine), and the
+external-link ban applies.
 
 ## The placement decision
 
@@ -39,8 +42,9 @@ prohibited, the uploaded file is your one shot:
 - Include at least one failure sequence; a flawless reel reads as curation.
 - Keep an index (`README.txt`) mapping each clip to the paper section it supports.
 - Strip authorship metadata from containers; MP4 tags leak names more often than PDFs.
-- Mind size: the 2026 cap on supplement uploads was not verifiable (待核实) — compress
-  to survive a strict cap and check the current page before rendering hours of footage.
+- Mind size: no byte cap on supplement uploads is stated in the 2027 guidelines (and the
+  2026 cap was not verifiable) — 待核实; compress to survive a strict cap and check the
+  OpenReview form before rendering hours of footage.
 
 ## The extra week is for packaging, not new results
 
@@ -108,7 +112,7 @@ a supplement that testifies for you and one that never takes the stand.
 ## Reverify each cycle
 
 - Supplement deadline offset and whether late supplement upload is still permitted.
-- Size caps and accepted formats (待核实 for 2026).
+- Size caps and accepted formats (待核实 for 2026 and 2027).
 - Whether reviewers are formally told supplements are optional reading — phrase body
   pointers so the paper survives an unopened supplement either way.
 

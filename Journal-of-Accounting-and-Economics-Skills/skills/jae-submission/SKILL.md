@@ -13,7 +13,7 @@ description: Use when preparing to submit to the Journal of Accounting and Econo
 
 ## Submission system and fee
 
-JAE submits through Elsevier **Editorial Manager (EM)**, which converts your files into a single review PDF. Local source-map defaults use **USD 650** for unsolicited **new** manuscripts and no fee for resubmissions, but you must check the current ScienceDirect Guide for Authors before payment. The fee is paid during the submission process via Elsevier's Submission Start portal (submissionstart.elsevier.com); **EU authors add applicable VAT**. The paper is only considered after the fee is paid; proceeds fund journal activities and reviewer reimbursements.
+JAE submits through Elsevier **Editorial Manager (EM)** at **www.editorialmanager.com/jacec/** (the EM site titled "Journal of Accounting and Economics"; note that editorialmanager.com/jae/ is a different journal), which converts your files into a single review PDF. The pack's last confirmed fee is **USD 650** for unsolicited **new** manuscripts with no fee for resubmissions (2026-06-22), but the 2027 JAE Conference call — whose submissions are formal JAE submissions — lists **USD 750**, so expect USD 750 and check the current ScienceDirect Guide for Authors before payment. The fee is paid during the submission process via Elsevier's Submission Start portal (submissionstart.elsevier.com); **EU authors add applicable VAT**. The paper is only considered after the fee is paid; proceeds fund journal activities and reviewer reimbursements.
 
 ## Double-anonymized file separation
 
@@ -29,7 +29,7 @@ EM builds the review PDF from the files in the order you upload them, so sequenc
 
 ## Required packaging
 
-- **Highlights**: 2-5 bullet points, **max 125 characters each**.
+- **Highlights**: 2-5 bullet points, **max 125 characters each** (last confirmed on the 2024 archived Guide; recent search-engine snippets of the live Guide suggest Elsevier's newer 3-5 bullets / 85-character format — confirm before upload).
 - **Keywords**: up to **6** (American spelling).
 - **JEL classification codes**: up to **6** — required.
 - **References**: Elsevier author-date (Harvard) style; numbered sections (1, 1.1, 1.1.1).

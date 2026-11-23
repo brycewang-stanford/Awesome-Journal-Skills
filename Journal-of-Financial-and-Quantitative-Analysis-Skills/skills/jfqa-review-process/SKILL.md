@@ -9,12 +9,12 @@ Use this skill to understand what happens to a **JFQA** manuscript after submiss
 
 ## Who decides
 
-- JFQA has **no single Editor-in-Chief**. It is led by a team of **seven Managing Editors** (as of 2026): Hendrik Bessembinder, Ran Duchin, Thierry Foucault, Jarrad Harford, Kai Li, George Pennacchi, and Stephan Siegel, supported by advisory editors and 50+ associate editors.
+- JFQA has **no single Editor-in-Chief**. It is led by a team of **seven Managing Editors** (re-verified 2026-11-24): Hendrik Bessembinder, Ran Duchin, Thierry Foucault, Mariassunta Giannetti, Jarrad Harford, Kai Li, and Stephan Siegel (Giannetti replaced George Pennacchi on 1 September 2026; Pennacchi is now an Advisory Editor), supported by advisory editors and 50+ associate editors.
 - A Managing Editor is assigned per paper; that editor decides whether to desk-reject or send the paper to reviewer(s). (The specific handling editor is assigned per submission — 待核实 for any individual case.)
 
 ## The review model
 
-- **Double-anonymous** peer review (Cambridge Core terminology). Author-identifying information is removed and the manuscript PDF is sent **blind to the reviewer(s)**. Anonymize accordingly (see jfqa-writing-style / jfqa-submission).
+- **Double-anonymous** peer review (Cambridge Core terminology; jfqa.org's submissions page also says "the JFQA uses double-anonymized review"). Author-identifying information is removed and the manuscript PDF is sent **blind to the reviewer(s)**. Anonymize accordingly (see jfqa-writing-style / jfqa-submission).
 
 ## Fee and the desk-screen economics
 

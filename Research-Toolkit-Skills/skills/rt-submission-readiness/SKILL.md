@@ -49,7 +49,7 @@ the venue's page. Python 3.9+, no packages; PDFs need `pdftotext` (poppler).
 | **2 · Referee panel** | Run `rt-simulated-referee` on the venue family's review form ([`review-forms.md`](../../resources/shared/submission-readiness/review-forms.md)) | Verified major concerns, decision band, skill-mapped fixes |
 | **3 · Polish** | Claim-to-evidence audit + first-page test + title/abstract house style ([`prose-polish.md`](../../resources/shared/submission-readiness/prose-polish.md)) | Ranked edit list, before → after, never changing numbers or scope silently |
 | **4 · Letter & statements** | Per venue policy ([`cover-letter-and-disclosures.md`](../../resources/shared/submission-readiness/cover-letter-and-disclosures.md)) | Cover letter only if wanted; every required statement drafted from author-supplied facts |
-| **5 · Re-run** | After the author revises: preflight + scorecard again on the new file | Resolved / still open / newly introduced |
+| **5 · Re-run** | After the author revises: `preflight.py <new file> --venue "<venue>" --compare preflight.json`, then re-score the scorecard dimensions the edits touched | Resolved / still open / newly introduced, computed by the tool |
 
 Stop early when it pays: a preflight NO-GO on a hard rule (over the page limit, broken
 anonymity) is fixed before spending a referee panel on the paper. Scope down when asked:
@@ -107,7 +107,7 @@ NUM-MISMATCH resolved, and R1 answered with a validation-only re-run.
 【Stage 4 · Letter & statements】cover letter: required/optional/discouraged → drafted/skipped; statements drafted: …
 【Overall】GO / CONDITIONAL GO / NO-GO — deciding items
 【Fix order】1 … 2 … 3 … (blocking first; each with owner skill)
-【Re-run】after fixes: python3 … preflight.py <revised file> --venue …
+【Re-run】after fixes: python3 … preflight.py <revised file> --venue … --compare preflight.json
 ```
 
 Next: `rt-simulated-referee` (stage 2 detail), `rt-desk-reject-risk` (desk-screen focus),

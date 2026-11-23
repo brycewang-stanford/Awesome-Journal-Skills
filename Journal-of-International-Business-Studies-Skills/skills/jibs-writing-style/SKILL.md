@@ -26,7 +26,7 @@ Because JIBS scrutinizes how country and culture are handled, your prose must av
 
 ## JIBS Style Guide conventions
 
-Follow the **JIBS Style Guide**: **11-point Times New Roman, double-spaced**, **author-date (name, year)** in-text citations with a matching reference list. Keep hypothesis labels, construct names, and table/figure numbers consistent throughout. Write in clear, active prose; international readers and reviewers value plain, unambiguous phrasing over jargon. Spell out acronyms (MNE, FDI, OLI) on first use.
+Follow the **JIBS Style Guide**: **11-point Times New Roman, double-spaced**, **APA-style author-date (name, year)** in-text citations with a matching reference list. Keep hypothesis labels, construct names, and table/figure numbers consistent throughout. Write in clear, active prose; international readers and reviewers value plain, unambiguous phrasing over jargon. Spell out acronyms (MNE, FDI, OLI) on first use.
 
 
 ## Style execution pass for Journal of International Business Studies

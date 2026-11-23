@@ -12,10 +12,10 @@ AAAI is a conference, not a journal: it has no standing editor-in-chief and no a
 charge. The rotating leadership is the per-edition Program Chairs, and the cost model is registration
 fees, not APCs — at least one author must register at the in-person rate and present **in person**;
 AAAI-27 offers no remote option, and a paper without a registered presenter is removed before
-publication. The AAAI-27 chairs are not recorded in this pack: the AAAI-27 organizers URL still
-redirects to an older edition's roster, so no official page names them (the AAAI-26 chairs were Chad
+publication. AAAI-27 is led by General Chair Edith Elkind and Program Co-Chairs Yan Liu and
+Balaraman Ravindran (AAAI-27 organizers page, verified 2026-11-24; the AAAI-26 chairs were Chad
 Jenkins and Matthew Taylor, and those appointments rotate). Re-check the current CFP and
-conference-organizers page rather than carrying a name or contact forward.
+organizers page rather than carrying a name or contact forward.
 
 ## Milestones
 

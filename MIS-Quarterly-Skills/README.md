@@ -29,7 +29,7 @@ MISQ imposes constraints that differ materially from management, economics, or C
 | Paradigm                | **Pluralistic**: behavioral, design science, economics, organizational | Pick the tradition; it sets the category, method, and contribution |
 | Distinctive genre       | First-class **Design Science** track (Hevner et al. 2004)          | Build *and evaluate* an IT artifact; design principles are the contribution |
 | Length                  | **Page** limits that count **everything** (text, tables, figures, refs, appendices) | Over-length manuscripts are returned; supplements discouraged    |
-| Categories              | Research Article (50 pp), Research Notes (~half), Theory Development (55 pp), Theory-Generative Research Synthesis (65 pp), Issues & Opinions, Design Science | Self-select the genre up front |
+| Categories              | Research Article (55 pp), Research Note (30 pp), Methods Article (55 pp), Theory Development (55 pp), Theory-Generative Research Synthesis (65 pp), Issues & Opinions (30 pp), Research Commentary (30 pp, invited) | Self-select the genre up front |
 | Transparency            | Pluralistic, genre-appropriate commitment uploaded at submission    | Procedures/code sufficient for replication; not one mandated standard |
 | Review                  | **Double-anonymous**; SE + AE then external reviewers; **SE owns the decision** | No identifying info in the manuscript; multi-round revision normal |
 | Service                 | By submitting, authors agree to review up to **three papers/year**  | A reciprocal obligation                                          |
@@ -111,7 +111,7 @@ misq-rebuttal
 | `misq-contribution-framing`    | State the contribution in the tradition's currency; theory **and** practice         |
 | `misq-tables-figures`          | Tradition-specific exhibits sized to the page limit (which counts them)             |
 | `misq-writing-style`           | Front-loaded argument, interdisciplinary readability, APA 7 / MISQ style            |
-| `misq-submission`              | ScholarOne preflight: Word file, anonymity, category/page cap, transparency commitment |
+| `misq-submission`              | ScholarOne preflight: MISQ template, anonymity, category/page cap, transparency commitment |
 | `misq-review-process`          | The SE/AE double-anonymous process; reading a decision letter                       |
 | `misq-rebuttal`                | Multi-round revision and point-by-point response, SE-letter-first                   |
 

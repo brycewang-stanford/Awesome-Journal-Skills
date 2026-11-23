@@ -20,17 +20,19 @@ research-transparency policy before relying on any resource.
 - **Power & design**: G*Power, R `pwr`/`Superpower`.
 - **Interpretive / CCT**: NVivo, ATLAS.ti, Dedoose for coding interviews, fieldnotes, and netnographic data; hermeneutic interpretation with an audit trail.
 
-## 3. Transparency repositories (JCR-approved)
-OSF, Harvard Dataverse, Qualitative Data Repository (qualitative data), ResearchBox. Provide
-statistical/programming replication code (or a written description for proprietary code) and
-retain data **≥ 7 years** after publication. Consult JCR's "Research Method Transparency
-Guidelines and Reporting Requirements." Preregistration / Registered Reports: OSF Registries,
-AsPredicted.
+## 3. Transparency repositories
+JCR's research-ethics policy (revised September 24, 2026) prefers a third-party repository (e.g.,
+Dataverse; OSF, Qualitative Data Repository and ResearchBox are common choices) for anonymized data
+shared with the review team and, after acceptance, readers. Post stimuli, measures, protocols and
+code, cite their location in the Data and Materials Availability Statement, and keep links live
+**≥ 7 years** after publication. Consult JCR's "Research Method Transparency
+Guidelines and Reporting Requirements." Preregistration (not required, encouraged for
+hypothesis-testing experiments) / Registered Reports: OSF Registries, AsPredicted.
 
 ## 4. Reference & writing
 
 - Zotero / EndNote configured to a **Chicago** author-date style (JCR defaults to the Chicago Manual of Style for matters not in its own style guide).
-- **Microsoft Word** is required for the manuscript and the final accepted version.
+- Upload the manuscript in **Word, Rich Text, or PDF** (LaTeX users upload a PDF).
 
 ## 5. Submission
 ScholarOne Manuscripts at **mc.manuscriptcentral.com/jconres**; fully anonymize for

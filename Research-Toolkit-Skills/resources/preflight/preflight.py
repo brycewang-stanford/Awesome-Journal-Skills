@@ -35,6 +35,7 @@ PDFs when present.
 from __future__ import annotations
 
 import argparse
+from collections import Counter
 import json
 import re
 import shutil
@@ -416,9 +417,17 @@ W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
 def load_docx(path: Path) -> Doc:
     doc = Doc(path=path, fmt="docx", loc_unit="paragraph")
+    style_names: dict[str, str] = {}
     with zipfile.ZipFile(path) as z:
         xml = z.read("word/document.xml")
         names = set(z.namelist())
+        if "word/styles.xml" in names:
+            # styleIds are locale-dependent ("Heading1", or "1"/"2" in Chinese Word); the
+            # w:name ("heading 1", "Title") is not.
+            for st in ET.fromstring(z.read("word/styles.xml")).iter(W + "style"):
+                nm = st.find(W + "name")
+                if nm is not None and st.get(W + "styleId"):
+                    style_names[st.get(W + "styleId")] = (nm.get(W + "val") or "").lower()
         if "word/comments.xml" in names:
             croot = ET.fromstring(z.read("word/comments.xml"))
             for c in croot.iter(W + "comment"):
@@ -450,14 +459,15 @@ def load_docx(path: Path) -> Doc:
             continue
         n += 1
         style = el.find(f"{W}pPr/{W}pStyle")
-        sname = (style.get(W + "val") if style is not None else "") or ""
+        sid = (style.get(W + "val") if style is not None else "") or ""
+        sname = style_names.get(sid, sid)
         txt = "".join(t.text or "" for t in el.iter(W + "t")).strip()  # deletions live in w:delText
         if not txt:
             continue
         if sname.lower() == "title" and not seen_title:
             doc.title, seen_title, in_front = txt, True, True
             continue
-        hm = re.match(r"heading\s*(\d)", sname, re.I) or re.match(r"(\d)$", sname)
+        hm = re.match(r"(?:heading|标题)\s*(\d)", sname, re.I) or (re.match(r"(\d)$", sname) if not style_names else None)
         level = int(hm.group(1)) if hm else 0
         if not level and (is_abstract_h(txt) or is_refs_h(txt)) and len(txt) < 40:
             level = 1
@@ -481,6 +491,11 @@ def load_pdf(path: Path) -> Doc:
         raise SystemExit("preflight: PDF input needs pdftotext (poppler). Install it, or pass the .tex/.docx source.")
     text = subprocess.run(["pdftotext", "-enc", "UTF-8", str(path), "-"], capture_output=True,
                           text=True, check=False).stdout
+    if _two_column(path):
+        # pdftotext's reading-order heuristic interleaves the columns of a two-column paper;
+        # the content-stream order (-raw) of LaTeX/Word output reads column by column.
+        text = subprocess.run(["pdftotext", "-raw", "-enc", "UTF-8", str(path), "-"], capture_output=True,
+                              text=True, check=False).stdout
     doc = load_plain(path, text, "pdf")
     if shutil.which("pdfinfo"):
         info = subprocess.run(["pdfinfo", str(path)], capture_output=True, text=True, check=False).stdout
@@ -495,12 +510,35 @@ def load_pdf(path: Path) -> Doc:
     return doc
 
 
+def _two_column(path: Path) -> bool:
+    """Two-column layout? In pdftotext -layout output the right column of a two-column page
+    starts at the same x on line after line, after a gap of 2+ spaces. Single-column pages
+    (justified prose) have almost no such gaps. Measured on the benchmark PDFs: two-column
+    papers put 44-51% of their full lines in one 9-character band, single-column ones at
+    most 7%; the threshold sits between."""
+    lay = subprocess.run(["pdftotext", "-layout", "-l", "4", "-enc", "UTF-8", str(path), "-"],
+                         capture_output=True, text=True, check=False).stdout
+    lines = [ln.rstrip() for ln in lay.splitlines() if len(ln.strip()) > 50]
+    if len(lines) < 30:
+        return False
+    hits: Counter = Counter()
+    for ln in lines:
+        hits.update({m.end() // 3 for m in re.finditer(r"(?<=\S) {2,}(?=\S)", ln) if m.end() >= 25})
+    if not hits:
+        return False
+    mode = hits.most_common(1)[0][0]
+    band = sum(1 for ln in lines if any(abs(m.end() // 3 - mode) <= 1
+                                         for m in re.finditer(r"(?<=\S) {2,}(?=\S)", ln)))
+    return band / len(lines) > 0.25
+
+
 KNOWN_HEADINGS = re.compile(
     r"^(abstract|introduction|related work|background|method(s|ology)?|data|results|discussion|"
     r"conclusions?|references|bibliography|acknowledg(e)?ments?|limitations|appendix.*|"
     r"(?:supplementary|online|internet|supplemental) (?:appendix|material).*|"
     r"impact statement|broader impacts?|ethics statement|data availability.*|funding.*|"
-    r"conflicts? of interest.*|disclosure.*|摘\s*要|引言|参考文献|附录|结论|致谢)$", re.I)
+    r"conflicts? of interest.*|disclosure.*|摘\s*要|引言|参考文献|附录|结论|致谢|英文(?:梗概|摘要).*|"
+    r"key points|trial registration|data sharing statement)$", re.I)
 
 
 CAPTION_EN = re.compile(r"^\s*(Table|Figure|Fig\.|Exhibit)\s*([A-Z]?)(\d+|[IVXL]+\b)\s*(?:[.:：|—–]|-\s|$)")
@@ -516,7 +554,8 @@ def exhibit_number(tok: str) -> int:
         v = ROMAN.get(a, 0)
         total += -v if ROMAN.get(b, 0) > v else v
     return total
-CAPTION_CN = re.compile(r"^\s*(表|图)\s*([A-Z]?)(\d+)\s*(?:[.:：]|\s+\S)")
+# "表1：…" / "表 1 描述性统计" — but not prose that starts with a reference ("表 4 Panel A 显示，…")
+CAPTION_CN = re.compile(r"^\s*(表|图)\s*([A-Z]?)(\d+)\s*(?:[.:：]|\s+[^，。,；]{1,40}$)")
 
 
 def caption_match(text: str):
@@ -544,7 +583,9 @@ def load_plain(path: Path, text: str, fmt: str) -> Doc:
         if buf:
             joined = ""
             for part in buf:
-                if joined.endswith("-") and part[:1].islower():
+                if re.search(r"(https?:|https?://\S*[/._-])$", joined):
+                    joined += part  # a URL broken across lines
+                elif joined.endswith("-") and part[:1].islower():
                     joined = joined[:-1] + part
                 elif joined and CJK.match(joined[-1:] or " ") and CJK.match(part[:1] or " "):
                     joined += part
@@ -566,10 +607,19 @@ def load_plain(path: Path, text: str, fmt: str) -> Doc:
         if fmt == "pdf" and re.fullmatch(r"\d{1,3}|page \d+( of \d+)?", s, re.I):
             continue  # running page numbers
         core = heading_core(s)
-        numbered = re.match(r"^(\d+(\.\d+)*\.?|[IVX]+\.|[A-H](\.\d+)*\.?)\s+[A-Z][^.!?]{2,60}$", s)
-        if (KNOWN_HEADINGS.match(core) and len(s) < 60) or (numbered and len(s) < 70 and not s.endswith(",")):
+        numbered = (re.match(r"^((?:1?\d)(\.\d+)*\.?|[IVX]+\.|[A-H](\.\d+)*\.?)\s+[A-Z][^.!?,]{2,60}$", s)
+                    and not re.match(r"^0", s))
+        fragment = re.search(r"[,;)]\.?$", s) or s[:1].islower()  # "Appendix Section IA.C)." is prose
+        stmt_head = (len(s) < 50 and not re.search(r"[.,;:]$", s)
+                     and any(re.fullmatch(f"(?:{p})(?:\\s+statement|\\s+disclosures?)?", core, re.I)
+                             for k, p in STATEMENT_PATTERNS.items()
+                             if k not in {"jel_codes", "keywords", "reporting_guideline", "trial_registration"}))
+        cn_head = re.fullmatch(r"(?:[一二三四五六七八九十]+、|（[一二三四五六七八九十]+）)[^。，；]{1,28}", s)
+        if cn_head or (not fragment and ((KNOWN_HEADINGS.match(core) and len(s) < 60) or stmt_head
+                             or re.fullmatch(r"(key points|trial registration|data sharing statement)", core, re.I)
+                             or (numbered and len(s) < 70))):
             flush()
-            level = 2 if re.match(r"^(\d+|[A-H])\.\d+", s) else 1
+            level = 2 if re.match(r"^(\d+|[A-H])\.\d+|^（", s) else 1
             doc.lines.append(Line(no, s, heading=level))
             if is_refs_h(s) and fmt == "pdf" and doc.ref_start_page is None:
                 doc.ref_start_page = page
@@ -580,9 +630,13 @@ def load_plain(path: Path, text: str, fmt: str) -> Doc:
             buf.append(s)
             flush()
             continue
-        if caption_match(s) or (doc.lines and is_refs_h_current(doc) and
-                                re.match(rf"^(\[\d+\]|\d+\.\s|{SURNAME},\s+(?:[A-ZÀ-Þ]\.|[A-ZÀ-Þ][a-zà-ÿ]+)|[\u4e00-\u9fff]{{2,4}}[，,.])", s)
-                                and buf and re.search(r"(19|20)\d{2}", " ".join(buf))):
+        if caption_match(s) and len(s) < 160:
+            flush()  # a caption is its own line; the description that follows is not part of it
+            buf_no = no
+            buf.append(s)
+            flush()
+            continue
+        if _starts_reference(doc, buf, s):
             flush()
         if not buf:
             buf_no = no
@@ -614,6 +668,22 @@ def _join_split_headings(text: str) -> str:
         out.append(cur)
         i += 1
     return "\n".join(out)
+
+
+def _starts_reference(doc: Doc, buf: list[str], s: str) -> bool:
+    """In a PDF reference list, does line ``s`` begin a new entry? The buffered entry must
+    already carry a year. A new entry starts with an author ("Surname, I." / "Surname, Given"
+    / AMA "Surname IK," / a Chinese name / a number), or follows a line that closed an entry
+    with a period (corporate authors such as "SPRINT Research Group.")."""
+    if not (doc.lines and buf and is_refs_h_current(doc) and re.search(r"(19|20)\d{2}", " ".join(buf))):
+        return False
+    if re.match(rf"^(\[\d+\]|\d+\.\s|{SURNAME},\s+(?:[A-ZÀ-Þ]\.|[A-ZÀ-Þ][a-zà-ÿ]+)|"
+                rf"{SURNAME}\s+[A-Z]{{1,3}}[,.]\s|[一-鿿]{{2,4}}[，,.、（(])", s):
+        return True
+    # "Borkan, D., … (2019)." then the title on the next line: the entry is not finished yet
+    if re.search(r"\((19|20)\d{2}[a-z]?\)\.?$", buf[-1].rstrip()):
+        return False
+    return bool(re.match(r"[A-Z]", s) and buf[-1].rstrip().endswith("."))
 
 
 def is_refs_h_current(doc: Doc) -> bool:
@@ -856,23 +926,13 @@ class Ref:
 
 
 def reference_entries(doc: Doc, secs: list[Section]) -> list[Ref]:
+    """One entry per reference line. Markdown/LaTeX/Word already give one paragraph per
+    entry, and the PDF/text loader splits the wrapped list into entries itself
+    (``_starts_reference``), so no second, cruder split happens here."""
     entries: list[Ref] = []
     for s in secs:
-        if not is_refs_h(s.heading):
-            continue
-        buf: list[Line] = []
-        for ln in s.lines:
-            starts_new = (not buf or ln.kind == "ref" or re.match(r"^\s*(\[\d+\]|\d+\.\s|[A-Z\u4e00-\u9fff])", ln.text)
-                          and re.search(r"(19|20)\d{2}", " ".join(b.text for b in buf)))
-            if buf and starts_new and doc.fmt in {"pdf", "txt"}:
-                entries.append(_mk_ref(buf))
-                buf = []
-            elif buf and doc.fmt not in {"pdf", "txt"}:
-                entries.append(_mk_ref(buf))
-                buf = []
-            buf.append(ln)
-        if buf:
-            entries.append(_mk_ref(buf))
+        if is_refs_h(s.heading):
+            entries.extend(_mk_ref([ln]) for ln in s.lines)
     return [e for e in entries if e.year]
 
 
@@ -947,6 +1007,7 @@ class Checker:
             fn()
         if self.online:
             self.online_refs()
+        self.reference_count()
         self.stars()
         self.venue_reminders()
         self.unimplemented()
@@ -958,7 +1019,7 @@ class Checker:
         "abstract_chars_max", "main_text_chars_max", "keywords_min", "keywords_max", "title_words_max",
         "title_chars_max", "words_per_exhibit", "exhibits_max", "review_mode", "abstract_format",
         "jel_codes_required", "keywords_required", "page_limit_includes_references", "required_statements",
-        "separate_upload_statements", "conditional_statements", "significance_stars",
+        "separate_upload_statements", "conditional_statements", "significance_stars", "references_max",
     }
     REMINDER = {
         "cover_letter": "Cover letter", "llm_policy": "AI/LLM policy", "data_code_policy": "Data & code policy",
@@ -987,6 +1048,25 @@ class Checker:
                 continue
             if rule.get("value") is not None:
                 self.not_checked.append(f"venue rule {key} = {rule['value']} (preflight does not test it yet)")
+
+    def reference_count(self) -> None:
+        cap = self.rule("references_max")
+        if not cap:
+            return
+        if self.doc.fmt == "tex" and self.doc.bib_keys:
+            # a .bib may hold more entries than the paper uses; count what is cited then
+            n = (len(self.doc.bib_keys) if not self.doc.metadata.get("bib_files")
+                 else len({k for k, _ in self.doc.cite_keys if k in self.doc.bib_keys}))
+        else:
+            n = len(reference_entries(self.doc, self.secs))
+        if not n:
+            self.not_checked.append(f"reference count ≤ {cap} (no reference list found)")
+            return
+        self.stats["references_counted"] = n
+        self.checked.append(f"≤ {cap} references")
+        if n > cap:
+            self.add("LEN-REFS", self.sev("references_max"), f"{n} references; the venue allows {cap}"
+                     f"{self.soft_note('references_max')}.")
 
     def stars(self) -> None:
         policy = self.rule("significance_stars")
@@ -1278,6 +1358,13 @@ class Checker:
     # ---- references
     def references(self) -> None:
         doc = self.doc
+        if doc.fmt in {"pdf", "txt"}:
+            # LaTeX renders an undefined \cite as "(?)" or "[?]"
+            for ln in doc.lines:
+                if ln.kind != "front" and re.search(r"\((?:\?\s*[,;]?\s*)+\)|\[\?\]", ln.text):
+                    m = re.search(r".{0,40}(?:\((?:\?\s*[,;]?\s*)+\)|\[\?\]).{0,20}", ln.text)
+                    self.add("REF-MISSING", "FAIL", f"Unresolved citation rendered as '?': '…{m.group(0)}…' — a cited "
+                             "key has no bibliography entry.", self.loc(ln.no))
         if doc.fmt == "tex" and (doc.cite_keys or doc.bib_keys):
             if not doc.bib_keys:
                 self.not_checked.append("citation ↔ bibliography (no \\bibitem and no readable .bib — pass --bib refs.bib)")
@@ -1473,11 +1560,18 @@ class Checker:
             if not m or m.group(1) not in {"Table", "表", "Exhibit"}:
                 continue
             block = []
-            for ln in lines[idx: idx + 80]:
-                if ln is not lines[idx] and (ln.heading or caption_match(ln.text)):
+            k = idx
+            for k in range(idx, min(len(lines), idx + 400)):  # PDF tables come out one cell per line
+                ln = lines[k]
+                if k != idx and (ln.heading or caption_match(ln.text)):
                     break
                 block.append(ln.text)
-                if ln.kind == "text" and ln is not lines[idx] and re.match(r"^\s*(notes?|注|说明)\s*[:：.]", ln.text, re.I):
+                if ln.kind == "text" and k != idx and re.match(r"^\s*(notes?|注|说明)\s*[:：.]", ln.text, re.I):
+                    # a note broken by a PDF page break continues in lowercase
+                    for nxt in lines[k + 1: k + 3]:
+                        if nxt.heading or caption_match(nxt.text) or not nxt.text[:1].islower():
+                            break
+                        block.append(nxt.text)
                     break
             self._se_note("\n".join(block), self.loc(lines[idx].no), f"Table {m.group(2)}{m.group(3)}")
         self.checked.append("exhibit numbering and cross-references; table notes")
@@ -1503,7 +1597,8 @@ class Checker:
         # "robust"/"稳健" alone is not enough: "doubly robust estimator" / "双重稳健估计量" names
         # an estimator, not the standard errors.
         if not re.search(r"standard errors?|std\.? err|\bs\.e\.|robust (?:standard|s\.?e)|cluster|t-stat|z-stat|"
-                         r"bootstrap|heteroskedastic|Newey|confidence intervals?|标准误|聚类|自助法|t\s*值|t\s*统计量",
+                         r"bootstrap|heteroskedastic|Newey|confidence intervals?|标准误|聚类|自助法|t\s*值|t\s*统计量|"
+                         r"standard deviations?|\bstd\b|±\s*(?:std|sd|s\.d\.)|over \d+ (?:random )?seeds|标准差",
                          text, re.I):
             self.add("EXH-SE-NOTE", "FLAG", f"{name} looks like a regression table but its note does not say what the "
                      "standard errors are (type, clustering level) or what the parentheses contain.", where)
@@ -1692,6 +1787,36 @@ def resolve_venue(db: dict, name: str) -> tuple[str, dict] | None:
 
 # ----------------------------------------------------------------------------- report
 
+def _finding_key(f: dict) -> tuple:
+    """Identity of a finding across two runs: check + statement + message with numbers and
+    quoted excerpts blanked, since a revision moves line numbers and changes counts."""
+    msg = re.sub(r"'[^']*'|\[[^\]]*\]|\d[\d,.]*", "#", f.get("message", ""))
+    return (f.get("check"), f.get("statement", ""), msg)
+
+
+def compare(prev: dict, findings: list[Finding]) -> dict:
+    """Stage 5 of the pipeline: what the revision resolved, left open, or introduced."""
+    old = [f for f in prev.get("findings", []) if f.get("severity") in {"FAIL", "FLAG"}]
+    new = [asdict(f) for f in findings if f.severity in {"FAIL", "FLAG"}]
+    old_keys = {_finding_key(f) for f in old}
+    new_keys = {_finding_key(f) for f in new}
+    return {
+        "previous_verdict": prev.get("verdict"),
+        "resolved": [f for f in old if _finding_key(f) not in new_keys],
+        "still_open": [f for f in new if _finding_key(f) in old_keys],
+        "new": [f for f in new if _finding_key(f) not in old_keys],
+    }
+
+
+def render_diff(d: dict, now: str) -> str:
+    out = [f"\n【Re-run diff】{d['previous_verdict']} → {now}: {len(d['resolved'])} resolved · "
+           f"{len(d['still_open'])} still open · {len(d['new'])} new"]
+    for label, key in (("Resolved", "resolved"), ("Still open", "still_open"), ("New since last run", "new")):
+        for f in d[key]:
+            out.append(f"  {label:<18} {f['check']:<16} {f['message'][:110]}")
+    return "\n".join(out)
+
+
 def verdict(findings: list[Finding]) -> str:
     if any(f.severity == "FAIL" for f in findings):
         return "NO-GO"
@@ -1749,6 +1874,9 @@ def main(argv: list[str] | None = None) -> int:
     blind.add_argument("--no-blind", dest="blind", action="store_false", help="skip anonymization checks")
     ap.add_argument("--online", action="store_true", help="also check references exist on Crossref (network)")
     ap.add_argument("--json", action="store_true", help="machine-readable output")
+    ap.add_argument("--compare", metavar="PREVIOUS.json",
+                    help="a previous --json report for this manuscript: show what was resolved, is still "
+                         "open, or is new (stage 5 of the pipeline)")
     ap.add_argument("--list-venues", action="store_true", help="list venues with machine-readable rules")
     args = ap.parse_args(argv)
 
@@ -1783,6 +1911,13 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     ck = Checker(doc, (entry or {}).get("rules", {}), args.venue or "", args.blind, args.online)
     ck.run()
+    diff = None
+    if args.compare:
+        try:
+            diff = compare(json.loads(Path(args.compare).read_text(encoding="utf-8")), ck.findings)
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"preflight: could not read --compare file: {exc}", file=sys.stderr)
+            return 2
     if args.json:
         print(json.dumps({
             "manuscript": str(path), "format": doc.fmt, "venue": entry["venue"] if entry else args.venue,
@@ -1790,9 +1925,12 @@ def main(argv: list[str] | None = None) -> int:
             "verdict": verdict(ck.findings), "stats": ck.stats,
             "findings": [asdict(f) for f in ck.findings],
             "checked": ck.checked, "not_checked": ck.not_checked, "portal_checklist": ck.reminders,
+            **({"diff": diff} if diff else {}),
         }, ensure_ascii=False, indent=2))
     else:
         print(render(doc, args.venue or "", entry, ck))
+        if diff:
+            print(render_diff(diff, verdict(ck.findings)))
     return 1 if verdict(ck.findings) == "NO-GO" else 0
 
 

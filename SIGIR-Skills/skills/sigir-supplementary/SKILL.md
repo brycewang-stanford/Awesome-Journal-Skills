@@ -5,10 +5,11 @@ description: Use when deciding what goes inside a SIGIR paper's page budget vers
 
 # SIGIR Supplementary
 
-SIGIR has no appendix escape hatch. The 2025 full-paper wording (the clearest recent
-statement of the standing rule) caps papers at 9 pages **including figures, tables,
-proofs, appendixes, and acknowledgments — everything except references**; the 2026
-pages restate the budgets as 9/4 pages excluding references. There is no separate
+SIGIR has no appendix escape hatch. The SIGIR 2027 full-paper call (verified
+2026-11-24, same wording as 2025) caps papers at 9 pages **including figures, tables,
+proofs, appendixes, and acknowledgments — any content except references**, and any
+content after page 9 is a desk-rejection trigger; the 2026 pages stated 9/4 pages
+(full/short) excluding references. There is no separate
 supplementary upload in the NeurIPS sense on the verified track pages. Overflow
 therefore has exactly three destinations: compression, the cited repository, or the
 bin. This skill is the triage protocol.

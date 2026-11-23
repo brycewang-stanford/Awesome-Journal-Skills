@@ -13,8 +13,8 @@ baseline or a citation nobody reproduces. Package for both audiences deliberatel
 
 ## Review-time artifacts: sealed-box rules
 
-Everything must ride inside the uploaded supplement, because the 2026-verified policy
-bans external links that expand content or subvert review. That kills the usual
+Everything must ride inside the uploaded supplement, because the verified 2026 and 2027
+policy bans external links that expand content or subvert review. That kills the usual
 anonymous-repo-link workflow many venues tolerate. Practical consequences:
 
 - Code goes **in the supplement archive**, scrubbed: no `.git` history, no usernames in
@@ -23,8 +23,8 @@ anonymous-repo-link workflow many venues tolerate. Practical consequences:
   exact dependency pins instead, and say which checkpoints will be released.
 - Demo videos are first-class CVPR evidence (see `cvpr-supplementary`) but strip
   container metadata — video files carry author tags more often than PDFs do.
-- The 2026 supplementary **size cap was not verifiable** at check time (待核实); design
-  the package assuming a strict cap, then confirm on the current page.
+- The supplementary **size cap was not verifiable** for 2026 and is not stated for 2027
+  (待核实); design the package assuming a strict cap, then confirm on the current page.
 
 ```bash
 # Build a clean review artifact from a working repo
@@ -42,7 +42,7 @@ one config, one expected number:
 
 | Artifact layer | Minimum viable | Gold standard |
 |---|---|---|
-| Environment | pinned `requirements.txt` + CUDA/driver note | Dockerfile reproducing the CRF hardware row |
+| Environment | pinned `requirements.txt` + CUDA/driver note | Dockerfile reproducing the reported hardware setup |
 | Inference | script + 5 sample images + expected outputs | notebook rendering figure-quality results |
 | Training | full config + command + seed | resumable run with logged curves |
 | Evaluation | script that recomputes one main-table row | all-tables harness with dataset download stubs |

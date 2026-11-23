@@ -26,7 +26,7 @@ PRL imposes constraints that differ materially from the specialized Physical Rev
 | The gate              | Importance **AND** broad interest (both required)               | A correct-but-incremental result is rejected on breadth grounds      |
 | Audience              | All of physics, not just your subfield                          | The opening and abstract must read out-of-subfield                   |
 | Length                | Short — on the order of ~3750 words / ~4 pages (verify)         | Substantially shorter than a PR article; ruthless trimming required  |
-| Length counting       | **Deductible budget**: figures + equations + references count   | An extra figure can cost a paragraph of text                         |
+| Length counting       | **Deductible budget**: figures + tables + equations count (refs/abstract do not) | An extra figure can cost a paragraph of text                         |
 | Figures               | A few high-impact figures only                                  | Fig. 1 must convey the central result at a glance                    |
 | Supplemental Material | Hosts derivations, extended data, methods detail                | The Letter must **stand alone** without it                           |
 | Central claim         | Exactly **one** headline result                                 | "Kitchen-sink" Letters reporting everything are off-fit              |

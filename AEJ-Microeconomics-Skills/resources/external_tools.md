@@ -6,7 +6,7 @@ it "publishes theoretical work as well as both empirical and experimental work w
 theoretical framework." Most papers are built around a **model and proofs**; the empirical /
 structural / experimental tooling below applies only to that subset. Check licenses and
 current access terms before use; verify volatile process specifics on the official AEA pages
-(检索于 2026-06；以官网为准).
+(检索于 2026-11-24；以官网为准).
 
 ## 1. Theory toolchain (the AEJ: Micro core)
 
@@ -59,12 +59,13 @@ current access terms before use; verify volatile process specifics on the offici
 ## 6. Process & portal (verify on the official AEA pages)
 | Item | Note |
 |------|------|
-| Submission portal | AEA submission/editorial system for AEJ: Micro |
-| Review | **Single-blind** (author revealed to referees; referees anonymous) |
+| Submission portal | ScholarOne Manuscripts (mc.manuscriptcentral.com/aej-micro); anonymized PDF under 10 MB + separate title-page PDF |
+| Review | Submissions must be **author-anonymized** (AEA three-year RCT of author-anonymized review, launched fall 2026); the editorial-policy page still describes single-blind review |
 | Abstract | **≤100 words** required |
-| JEL codes | Per AEA practice; route the paper to the right co-editor |
+| JEL codes | Customary per AEA practice (not stated as a rule on the current pages); route the paper to the right co-editor |
+| Length | Strongly recommended ≤45 pages at ≥12-point, 1.5 spacing, 1-inch margins, incl. references and in-paper appendices |
 | Submission fee | Member $200/$100/$0 (high/middle/low income); nonmember $300/$200/$0; 50% refund if rejected without review (volatile — confirm) |
-| Publication fee | $15 per typeset page at proofs (papers submitted after Feb 1, 2024) |
+| Publication fee | $15 per typeset page at proofs (papers first submitted on or after Feb 1, 2024) |
 | Data & code | AEA Data and Code Availability Policy; AEA Data Editor (Lars Vilhuber); openICPSR; checked before acceptance for empirical/simulation/experimental work |
 
 ## 7. Cautions

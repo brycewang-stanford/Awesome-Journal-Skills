@@ -1,6 +1,6 @@
 {
   "name": "dac-skills",
-  "description": "A 12-skill depth pack for the ACM/IEEE Design Automation Conference (DAC), the premier electronic-design-automation and chip-design venue: routing between the double-blind archival Research Manuscript track and the industry-facing Engineering Track, the two-stage abstract-then-manuscript submission on Softconf, the 6+1-page ACM double-column budget, QoR/PPA evidence on EDA benchmark suites (ISPD, EPFL, OpenROAD, ISCAS/ITC, TAU, CircuitNet), ML-for-EDA and hardware-security topic lanes, and the ACM Digital Library camera-ready. Grounded in the live DAC 2026 (63rd) call, dac.com, IEEE CEDA, ACM SIGDA, ACM DL, and dblp checked on 2026-07-09.",
+  "description": "A 12-skill depth pack for the ACM/IEEE Design Automation Conference (DAC), the premier electronic-design-automation and chip-design venue: routing between the double-blind archival Research Manuscript track and the industry-facing Engineering Track, the two-stage abstract-then-manuscript submission on Softconf, the 6+1-page double-column budget (IEEE template for DAC 2027), QoR/PPA evidence on EDA benchmark suites (ISPD, EPFL, OpenROAD, ISCAS/ITC, TAU, CircuitNet), ML-for-EDA and hardware-security topic lanes, and the camera-ready for IEEE Xplore and the ACM Digital Library. Grounded in the live DAC 2027 (64th) call on dac.com re-checked on 2026-11-24, plus IEEE CEDA, ACM SIGDA, ACM DL, and dblp.",
   "version": "1.2.0",
   "author": {
     "name": "Bryce Wang",

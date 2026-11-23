@@ -7,9 +7,10 @@ description: Use when reviews arrive for a SIGIR submission and the authors must
 
 First establish what response channel exists this cycle. SIGIR does **not** have a
 famous institutionalized rebuttal ritual the way ICLR or KDD do, and whether a given
-edition runs an author-response or discussion phase for full/short papers was not
-verifiable for 2026 (待核实 — check the track page and the OpenReview timeline of your
-own submission). This skill therefore covers three situations: a real response window,
+edition runs an author-response or discussion phase for full/short papers is not
+stated in the SIGIR 2027 full-paper call (待核实 — check the track page and the
+OpenReview timeline of your own submission); the SIGIR 2027 Resource call states there
+is no rebuttal phase. This skill therefore covers three situations: a real response window,
 no window at all, and the post-rejection letter.
 
 ## Situation 1: the cycle offers a response window

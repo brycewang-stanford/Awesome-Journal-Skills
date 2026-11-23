@@ -92,7 +92,10 @@ Chicago author-date style and reconcile against the current AAA Manuscript Prepa
 
 ## 5. Reproducibility & Data-Authenticity (TAR-specific)
 
-TAR's data-authenticity policy is differentiated by data type — build your archive accordingly:
+TAR's data-authenticity policy is differentiated by data type — build your archive accordingly. For
+TAR manuscripts conditionally accepted on or after July 1, 2026, the AAA Guide for Authors (re-verified
+2026-11-24) requires a separate Data Description Disclosures list and submission of all computer code at
+conditional acceptance, with final datasets archived for at least 7 years:
 
 1. **Publicly available databases** (Compustat, CRSP, I/B/E/S, Audit Analytics): provide a precise
    description of the data **and** access to the computer code used to process it.

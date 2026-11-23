@@ -21,7 +21,7 @@ MISQ readers come from all four traditions — behavioral, design science, econo
 - **Citations/references:** APA 7th edition. Note the MISQ convention that **in-text citations lead with the cited information, not the author name** — e.g., "... the best team in the nation (Smith & Jones, 1997)" rather than "Smith and Jones (1997) found...". Reconcile your reference manager's output to this.
 - **Headings:** major heads bold, all caps, centered; subheads in title case.
 - **First page:** title, abstract, and **5–10 specific keywords**. (The exact abstract word cap is 待核实; keep the abstract tight and concrete.)
-- **File:** prepared as a Word (.doc/.docx) document per the submission guidelines.
+- **File:** prepared with the MISQ Word or LaTeX manuscript template per the submission guidelines (Times New Roman 12pt, double-spaced).
 
 ## Respect the page limit while editing
 

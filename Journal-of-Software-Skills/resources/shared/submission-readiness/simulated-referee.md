@@ -112,6 +112,14 @@ Pull the venue's bar from the pack, not from generic intuition:
 
   Distinct lenses + independence + verification are what make it catch more than a
   single read.
+- **Choosing between them (measured, see `showcase/presubmission-benchmark/RESULTS.md`).**
+  On the seeded benchmark the inline panel kept 23/24 planted flaws as major. The
+  multi-agent panel also caught the one it had downgraded. It is more exhaustive in both
+  directions, though: on a clean top-3 paper it filed three times as many defensible
+  major concerns. Use inline for a quick first pass. Use multi-agent before a flagship
+  submission, when a long list of everything a demanding referee could raise is what the
+  author wants. In either case, tell the author how many concerns come with any clean
+  paper at that bar.
 
 ## Anti-patterns
 

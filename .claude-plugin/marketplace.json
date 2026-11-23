@@ -11,7 +11,7 @@
     {
       "name": "aaai-skills",
       "source": "./AAAI-Skills",
-      "description": "Twelve AAAI-specific skills for AI conference submission strategy, grounded in official AAAI-26 submission instructions, review process, author policies, rebuttal FAQ, supplementary-material rules, and AI-assisted review FAQ.",
+      "description": "Twelve AAAI-specific skills for AI conference submission strategy, grounded in official AAAI-27 submission instructions, review process, author policies, supplementary-material rules, the AAAI-26 rebuttal FAQ, and AI-assisted review FAQ.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -480,14 +480,14 @@
     {
       "name": "cvpr-skills",
       "source": "./CVPR-Skills",
-      "description": "Twelve CVPR-specific skills covering the full cycle of the largest computer-vision conference — submission, review at 16k-paper scale, rebuttal, artifacts, and publication — grounded in official CVPR 2026 author/reviewer pages checked 2026-07-08.",
+      "description": "Twelve CVPR-specific skills covering the full cycle of the largest computer-vision conference — submission, review at 16k-paper scale, rebuttal, artifacts, and publication — grounded in official CVPR 2027 author/reviewer pages re-checked 2026-11-24.",
       "version": "1.2.0",
       "category": "academic"
     },
     {
       "name": "dac-skills",
       "source": "./DAC-Skills",
-      "description": "Twelve DAC-specific skills for the ACM/IEEE Design Automation Conference (the Chips to Systems Conference) and its double-blind Research Manuscript track, grounded in the DAC 2026 (63rd) call, dac.com, IEEE CEDA, ACM SIGDA, the ACM Digital Library, and dblp.",
+      "description": "Twelve DAC-specific skills for the ACM/IEEE Design Automation Conference (the Chips to Systems Conference) and its double-blind Research Manuscript track, grounded in the DAC 2027 (64th) call, dac.com, IEEE CEDA, ACM SIGDA, IEEE Xplore, the ACM Digital Library, and dblp.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -802,7 +802,7 @@
     {
       "name": "iclr-skills",
       "source": "./ICLR-Skills",
-      "description": "Twelve ICLR-specific skills for ML conference submission strategy, grounded in official ICLR 2026 CFP, Author Guide, Reviewer Guide, Code of Ethics, Code of Conduct, and LLM-use policy.",
+      "description": "Twelve ICLR-specific skills for ML conference submission strategy, grounded in official ICLR 2027 CFP, Author Guidelines, Reviewer Guidelines, Code of Ethics, Code of Conduct, and AI policy for authors.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -1530,7 +1530,7 @@
     {
       "name": "naacl-skills",
       "source": "./NAACL-Skills",
-      "description": "Twelve NAACL-specific skills covering the full arc from *ACL venue routing through ACL Rolling Review, commitment, decision, and ACL Anthology publication, with the chapter's Nations-of-the-Americas identity and skipped-year calendar built into the advice.",
+      "description": "Twelve NAACL-specific skills covering the full arc from *ACL venue routing through ACL Rolling Review, commitment, decision, and ACL Anthology publication, with the chapter's Nations-of-the-Americas identity and skipped-year calendar built into the advice; anchored to NAACL 2027 (San Francisco, ARR October 2026 cycle).",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -1887,7 +1887,7 @@
     {
       "name": "sigir-skills",
       "source": "./SIGIR-Skills",
-      "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2026 cycle checked 2026-07-08.",
+      "description": "Twelve SIGIR-specific skills covering the ACM flagship IR conference's multi-track submission system, test-collection evaluation standards, significance-testing norms, and ACM Digital Library publication pipeline, grounded in the SIGIR 2027 call (50th SIGIR, San Jose) re-verified 2026-11-24.",
       "version": "1.2.0",
       "category": "academic"
     },

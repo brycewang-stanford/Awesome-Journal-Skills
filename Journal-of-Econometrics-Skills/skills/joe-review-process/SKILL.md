@@ -16,7 +16,7 @@ description: Use to understand and navigate the Journal of Econometrics (JoE) ed
 
 - **Single-anonymized review:** referees know the authors' identities; authors do **not** know the referees.
 - **Editor screening first:** editors screen submissions; suitable papers are sent to a **minimum of two independent expert referees**, and the editors make the **final decision**. Unsuitable or out-of-scope papers are desk-screened out.
-- **Co-Editors-in-Chief:** Michael Jansson (UC Berkeley) and Aureo de Paula (UCL), supported by a set of Co-Editors. Check the live board page for the complete current roster before naming a handling editor.
+- **Editors:** Managing Editor Michael Jansson (UC Berkeley) with Co-Editors Giuseppe Cavaliere (Bologna), Yanqin Fan (Washington), Bo Honoré (Princeton), and Viktor Todorov (Northwestern) — ScienceDirect masthead as captured 2026-10-17; Aureo de Paula is now listed as a former editor. Check the live board page for the complete current roster before naming a handling editor.
 
 ## The three submission tracks
 

@@ -36,7 +36,7 @@ The journal also publishes quantitative/modeling and methodological work. Choose
 
 ## Transparency is a design decision, not an afterthought
 
-JCR's transparency regime shapes the design from the start: a **Data Collection Statement** is required for **all** submissions (Step 6), data/materials posting is **required at invited revision** unless exempt, and replication code must be provided. Build clean materials, preregistration where appropriate, and a repository plan (OSF / Harvard Dataverse / Qualitative Data Repository / ResearchBox) into the design. For confirmatory questions, consider a **Registered Report** (full review before final data collection; must be JCR-worthy regardless of outcome).
+JCR's transparency regime shapes the design from the start: a **Data Collection Statement** is required for **all** submissions (Step 6), and since the September 24, 2026 policy revision every submission also carries a **Data and Materials Availability Statement**, with anonymized data available to the review team by default and stimuli, measures, protocols and code shared unless the statement explains why not. Build clean materials, preregistration where appropriate (not required; encouraged for hypothesis-testing experiments), and a third-party repository plan (e.g., Dataverse, OSF) into the design. For confirmatory questions, consider a **Registered Report** (full review before final data collection; must be JCR-worthy regardless of outcome).
 
 ## Execution bridge (StatsPAI / Stata MCP)
 

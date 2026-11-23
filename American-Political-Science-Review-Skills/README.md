@@ -39,7 +39,7 @@ APSR's constraints differ from a field journal or a methods journal:
 | Review model          | **Double-anonymous**                                                          | Anonymize the manuscript; remove obvious self-references         |
 | Fee                   | **No submission fee** stated; no membership requirement                       | Do not budget a submission fee                                   |
 | Length                | Most **Articles < 11,000 words**; **Research Notes < 7,000**; **abstract ≤ 150** | Word count goes on the front page                            |
-| Style                 | **APSA Style Manual for Political Science** (author-date)                      | Not Chicago-generic; ORCID required for corresponding author     |
+| Style                 | **Chicago 17th author-date** references (full first names); APSA Style Manual on the submission page | Style not enforced at first submission; ORCID required for corresponding author |
 | Transparency          | **Reproducibility package to the APSR Dataverse**, verified at conditional acceptance | Build it as you go; the editors actually run it          |
 | Distinctive tracks    | Registered Reports + Replications and Reappraisals + Syntheses                | Choose the right track up front                                  |
 

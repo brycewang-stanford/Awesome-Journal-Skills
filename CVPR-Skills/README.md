@@ -5,37 +5,40 @@ Vision and Pattern Recognition**, computer vision's flagship venue and, by submi
 volume, one of the largest peer-reviewed meetings in science. The pack covers the whole
 arc of a CVPR campaign: deciding whether a project can survive a 16,000-submission
 review machine, building benchmark-grade evidence, clearing the November triple
-deadline on OpenReview, writing the one-page rebuttal, honoring author-side reviewer
+deadline on OpenReview (with the mandatory LLM Usage Statement), writing the one-page rebuttal, honoring author-side reviewer
 duties, and landing the paper in CVF open access and IEEE Xplore.
 
-Official basis checked on **2026-07-08**: the CVPR 2026 Author Guidelines, Dates page,
-Call for Papers, Reviewer Guidelines, Compute Reporting Form pages, the CVPR 2026
-OpenReview group, the `cvpr-org/author-kit` repository, CVF open-access indexes, and
-official CVPR program/attendance announcements. Direct fetches of `cvpr.thecvf.com`
-and `openaccess.thecvf.com` were blocked (HTTP 403) in the verification environment,
-so official pages were read through search-engine renderings of the exact URLs and
-cross-checked against OpenReview, dblp, GitHub, and press mirrors; the full trail —
-including everything still marked 待核实 — is in
-[`resources/official-source-map.md`](resources/official-source-map.md).
+Official basis **re-verified on 2026-11-24** against the live CVPR 2027 Call for
+Papers, Author Guidelines, Dates page, Reviewer Guidelines and Organizers page (direct
+fetch). The original 2026-07-08 build read the CVPR 2026 pages, the Compute Reporting
+Form pages, the `cvpr-org/author-kit` repository, CVF open-access indexes, and official
+program/attendance announcements through search-engine renderings (direct fetches were
+then blocked with HTTP 403); the full trail — including everything still marked 待核实 —
+is in [`resources/official-source-map.md`](resources/official-source-map.md).
 
-**Cycle status:** CVPR 2026 (Denver, June 3–7, 2026) is the most recent completed
-cycle and supplies every verified anchor in this pack. CVPR 2027 (Seattle, reported
-around June 20–24, 2027) had published no CFP, deadlines, or policies at check time.
+**Cycle status:** the pack describes **CVPR 2027 (Seattle, June 20–24, 2027)**. Its
+submission window closed November 16, 2026; reviews return January 25, 2027, the
+rebuttal runs January 25 – February 1, and decisions land February 25, 2027. CVPR 2026
+(Denver, June 3–7, 2026) is kept as the historical scale and program anchor.
 
 ## What makes CVPR unlike its siblings
 
-Verified 2026-cycle mechanics that drive the advice in these skills:
+Verified CVPR 2027 mechanics that drive the advice in these skills:
 
 - **Figures count against the cap.** Eight pages *including figures and tables*, with
-  free pages for cited references only. Page budgeting is figure design.
-- **Three deadlines a week apart.** Abstract registration + valid OpenReview profiles
-  for every coauthor (Nov 6, 2025), paper + Compute Reporting Form (Nov 13), then the
-  supplement (Nov 20). The first one is the silent killer.
-- **Authorship is a reviewing contract.** Submitting authors are enrolled in the
-  reviewer pool, and papers by reviewers who miss deadlines or write highly
-  irresponsible reviews can be desk-rejected wholesale, at PC discretion.
-- **A mandatory Compute Reporting Form** (new in 2026): hardware and verification
-  sections required for every submission, with an opt-out path and transparency awards.
+  free pages only for cited references and the mandatory LLM Usage Statement. Page
+  budgeting is figure design.
+- **Three deadlines a week apart.** Paper registration with complete OpenReview profiles
+  and enrollment for every coauthor (Nov 10, 2026), paper (Nov 16), then the supplement
+  (Nov 23). The first one is the silent killer.
+- **Authorship is a reviewing contract.** All authors join the reviewer pool, at most 25
+  submissions per author, at most one paper per author without an eligible reciprocal
+  reviewer (new in 2027), and papers by highly irresponsible reviewers can be
+  desk-rejected wholesale.
+- **A mandatory LLM Usage Statement** (new in 2027): every paper states its LLM/AI use —
+  or that none was used — after the main text; a missing statement is a desk reject, and
+  conference-approved LLM tools process submissions during review with no opt-out.
+  (The 2026 Compute Reporting Form is not mentioned in the 2027 guidelines.)
 - **One page, no attachments.** The rebuttal is a single-page PDF on the official
   template; longer or reformatted responses are not read, and external links are
   banned there as everywhere in review.
@@ -45,7 +48,8 @@ Verified 2026-cycle mechanics that drive the advice in these skills:
 - **Scale as a fact of life.** 2026: 16,092 reviewed submissions, 4,090 acceptances
   (25.42%), ~25,149 reviewers, 909 area chairs, ~12,200 registrants. Publication is
   dual: CVF open access (free, watermarked accepted version) plus IEEE Xplore (version
-  of record). No APC; no standing editor — chairs rotate each edition.
+  of record), with a separate Findings Track proceedings in 2027. No APC; no standing
+  editor — chairs rotate each edition.
 
 ## Skills
 
@@ -59,8 +63,8 @@ Verified 2026-cycle mechanics that drive the advice in these skills:
 | [`cvpr-reproducibility`](skills/cvpr-reproducibility/SKILL.md) | Maintain the recipe ledger, benchmark/split hygiene, seed-honesty at vision compute scale, and CRF consistency. |
 | [`cvpr-supplementary`](skills/cvpr-supplementary/SKILL.md) | Split content between the 8-page body and the week-later supplement; package videos as evidence under the no-links rule. |
 | [`cvpr-artifact-evaluation`](skills/cvpr-artifact-evaluation/SKILL.md) | Build the sealed anonymous review artifact and the public release, including the dataset-by-camera-ready obligation and license decisions. |
-| [`cvpr-submission`](skills/cvpr-submission/SKILL.md) | Final OpenReview audit: profiles, page cap, CRF, anonymity/link sweep, dual-submission attestation, desk-reject triage, 72-hour sequence. |
-| [`cvpr-review-process`](skills/cvpr-review-process/SKILL.md) | Model the 16k-scale pipeline — enrollment, reviewer LLM ban, discussion, decision tiers (oral/highlight/poster) — and where author leverage exists. |
+| [`cvpr-submission`](skills/cvpr-submission/SKILL.md) | Final OpenReview audit: profiles, quotas, page cap, LLM Usage Statement, anonymity/link sweep, dual-submission attestation, desk-reject triage, 72-hour sequence. |
+| [`cvpr-review-process`](skills/cvpr-review-process/SKILL.md) | Model the 16k-scale pipeline — enrollment, conference-approved LLM tools and the external-LLM ban, discussion, decision tiers (oral/highlight/poster) — and where author leverage exists. |
 | [`cvpr-author-response`](skills/cvpr-author-response/SKILL.md) | Triage multiple reviews into one skimmable page for the AC: factual kills first, mini-tables, calibrated concessions. |
 | [`cvpr-camera-ready`](skills/cvpr-camera-ready/SKILL.md) | Deliver the version of record: de-anonymization, live links, dataset release, CVF/IEEE dual publication, tier-specific presentation prep. |
 
@@ -68,7 +72,7 @@ Verified 2026-cycle mechanics that drive the advice in these skills:
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Fourteen official sources with access dates, verified 2026-cycle facts, the access-method disclosure, and the explicit 待核实 list. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Eight CVPR 2027 and fourteen CVPR 2026 official sources with access dates, verified 2027 and 2026 facts, the access-method disclosure, the explicit 待核实 list, and the machine-readable rules block. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces plus five author-side verification passes. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five metadata-verified CVPR papers across contribution types (ResNet, YOLO, PointNet, ImageNet, Latent Diffusion), plus a do-not-misattribute guard list. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional tracking paper's first page rebuilt for the flip-then-read reviewer, before → after. |
@@ -113,6 +117,18 @@ CVPR-Skills/
     └── code/README.md        # adapter to the shared repro kit
 ```
 
+## CVPR 2027 cycle facts (re-verified 2026-11-24)
+
+- CVPR 2027: June 20–24, 2027, Seattle (workshops/tutorials June 20–21; main conference
+  June 22–24).
+- Deadlines: paper registration + profiles/enrollment Nov 10, 2026 · paper Nov 16 (AoE,
+  fixed) · supplement Nov 23 · reviews to authors Jan 25, 2027 · rebuttal Jan 25 – Feb 1 ·
+  decisions Feb 25, 2027.
+- Format: 8 pages including figures/tables + references and LLM Usage Statement
+  overflow; CVPR 2027 author kit with the one-page rebuttal template.
+- Chairs: General Chairs Deva Ramanan and Arun Ross; Program Chairs Alexander Berg,
+  Liangliang Cao, Vicky Kalogeiton, Nicu Sebe, Humphrey Shi, Angela Yao.
+
 ## 2026-cycle anchor facts (historical snapshot, not permanent rules)
 
 - CVPR 2026: June 3–7, 2026, Colorado Convention Center, Denver (workshops/tutorials
@@ -131,26 +147,27 @@ CVPR-Skills/
 
 Three classes of statement are kept distinguishable throughout the pack:
 
-1. **Verified 2026-cycle facts** — trace to a numbered source in the source map (e.g.,
-   the 8-page inclusive cap, the Nov 13 deadline, the CRF's mandatory sections).
-2. **Reported facts** — consistent secondary sources, labeled as such (e.g., oral and
-   highlight counts, chair names from a university news item, CVPR 2027's Seattle
-   dates).
+1. **Verified facts** — trace to a numbered source in the source map (e.g., the
+   8-page inclusive cap, the Nov 16, 2026 deadline, the LLM Usage Statement; for 2026,
+   the CRF's mandatory sections).
+2. **Reported facts** — consistent secondary sources, labeled as such (e.g., 2026 oral
+   and highlight counts, 2026 chair names from a university news item).
 3. **Unverifiable-at-check-time items** — explicitly 待核实 and phrased as questions
-   (e.g., supplementary size caps, camera-ready forms and deadline, presentation
-   obligations, any author-side AI-disclosure requirement, everything about the 2027
-   cycle).
+   (e.g., supplementary size caps, camera-ready forms and deadline, whether any compute
+   form survives into 2027, Findings Track details).
 
 If a skill states class-2/3 material as class 1, treat it as a bug and fix it against
 the live official pages.
 
 ## Maintenance notes
 
-- Every date, cap, and enforcement rule here is a **2026-cycle snapshot**. CVPR
-  policies are rewritten annually by rotating Program Chairs — reopen
-  `cvpr.thecvf.com` for the current cycle before deadline-sensitive advice.
-- The Compute Reporting Form was a 2026 novelty; assume it evolves (or disappears)
-  rather than persists unchanged.
+- Every date, cap, and enforcement rule here is a **CVPR 2027 snapshot** (2026 values
+  are labelled history). CVPR policies are rewritten annually by rotating Program
+  Chairs — reopen `cvpr.thecvf.com` for the current cycle before deadline-sensitive
+  advice.
+- The Compute Reporting Form was a 2026 novelty and is absent from the 2027 guidelines;
+  the LLM Usage Statement and reciprocal-reviewer quota are the 2027 novelties — assume
+  each evolves rather than persists unchanged.
 - Reviewer-duty enforcement, LLM policies, and the media embargo hardened recently and
   may harden further; check both Author and Reviewer Guidelines each cycle.
 - When adding exemplars, follow the verification recipe at the bottom of

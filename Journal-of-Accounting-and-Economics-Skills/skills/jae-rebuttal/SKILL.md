@@ -34,7 +34,7 @@ Because the decision rests on **economic mechanism and identification**, allocat
 
 ## Practical notes
 
-- **Resubmissions carry no submission fee** at JAE (the USD 650 fee applies only to unsolicited new manuscripts) — revise thoroughly rather than rushing.
+- **Resubmissions carry no submission fee** at JAE (the fee — USD 650 last confirmed, USD 750 on the 2027 conference call — applies only to unsolicited new manuscripts) — revise thoroughly rather than rushing.
 - Keep the manuscript **double-anonymized**; do not unmask authorship in the response or new acknowledgments.
 - Track changes or a marked-up copy if the editor requests it; keep the clean version submission-ready.
 

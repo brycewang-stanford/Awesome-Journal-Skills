@@ -15,12 +15,14 @@ description: Use when running the final pre-submission preflight for the Journal
 ## Process facts (verified 2026-06-20; editors + fees re-verified 2026-06-22; re-confirm volatile items on the official page)
 
 - JDE is published by **Elsevier** and submitted through **Editorial Manager**. It is the **leading field
-  journal in development economics**, edited by Editors-in-Chief **A. Foster** (Brown) and **K. Macours**
-  (Paris School of Economics) — re-verified 2026-06-22; re-confirm on the ScienceDirect editorial-board page before naming them in a cover letter.
+  journal in development economics**, edited by Editor-in-Chief **K. Macours**
+  (Paris School of Economics) — re-verified 2026-11-24 (A. Foster is no longer listed as Editor-in-Chief); re-confirm on the ScienceDirect editorial-board page before naming them in a cover letter.
 - Review is **single-anonymized** (referees know the author; the author does not know referees).
   **Do not anonymize** the manuscript as if it were double-blind unless the current guidance changes.
-- A **USD 50 non-refundable submission fee** applies to original manuscripts. Open access is optional and
-  charged only after acceptance; the current APC is **USD 4,760** excluding taxes.
+- A **USD 50 non-refundable submission fee** applies to original manuscripts (**USD 25** for full-time students;
+  waived for corresponding authors in low- and middle-income economies per the AEA country designation, via a
+  discount code from Elsevier support). Open access is optional and charged only after acceptance; the current
+  APC is **USD 4,400** excluding taxes (as captured 2026-10-17).
 - **Submission cap:** no more than **three papers per author within any 12-month period**.
 - **Replication readiness:** data, programs, and computational details can be requested **at the review
   stage**, so the package must be ready at submission (see jde-replication-and-data-policy).

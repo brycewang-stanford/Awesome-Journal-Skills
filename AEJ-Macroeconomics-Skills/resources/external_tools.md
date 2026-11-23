@@ -69,7 +69,7 @@ verify volatile process specifics on the official AEA pages.
 ## 4. Figures & tables (AEA house + macro conventions)
 - **Impulse-response figures** with stated confidence bands, labeled horizon axes, and a zero line; sign-restricted responses shown as a set / median-target.
 - **Model-fit overlays** (data vs. simulated moments; targeted + untargeted) for quantitative papers.
-- Tables report the **macro quantity** (multiplier, peak response, welfare cost) with its SE/band; AEA tables conventionally use significance stars, but the SE/band must be present.
+- Tables report the **macro quantity** (multiplier, peak response, welfare cost) with its SE/band; the AEA style guide says not to use significance asterisks, so the SE/band carries the inference.
 - Vector output (`.eps`/`.pdf`); legible after two-column AEA typesetting; no chartjunk.
 
 ## 5. Writing & references
@@ -79,11 +79,11 @@ verify volatile process specifics on the official AEA pages.
 ## 6. Process & portal (verify on the official AEA pages)
 | Item | Note |
 |------|------|
-| Submission portal | AEA submission system (reached from the journal page); PDF |
-| Review | Single-blind; editor/coeditor-managed; desk rejection possible |
-| Submission fee | Scaled by AEA membership × country income tier; 50% refund if rejected without review (检索于 2026-06；以官网为准) |
-| Publication fee | US$15 / typeset page at page proofs (post Feb 1, 2024; 检索于 2026-06；以官网为准) |
-| Abstract | ≤100 words; JEL codes required |
+| Submission portal | ScholarOne Manuscripts (mc.manuscriptcentral.com/aej-macro); anonymized PDF under 10 MB + separate title page PDF |
+| Review | Submissions must be author-anonymized (AEA three-year RCT of author-anonymized review, launched fall 2026); the editorial-policy page still describes single-blind review; editor/coeditor-managed; desk rejection possible |
+| Submission fee | Scaled by AEA membership × country income tier; 50% refund if rejected without review (检索于 2026-11-24；以官网为准) |
+| Publication fee | US$15 / typeset page at page proofs (first submitted on or after Feb 1, 2024; 检索于 2026-11-24；以官网为准) |
+| Abstract | ≤100 words; JEL codes customary (not stated as a rule on the current pages) |
 | Length | ~40pp (11pt) / ~45pp (12pt), incl. figures/tables/refs/appendices |
 | Replication deposit | AEA Data and Code Repository on openICPSR; AEA Data Editor check **before** publication; simulation/solver code included |
 | Disclosure | Separate statement per coauthor; US$10,000 interested-party threshold |

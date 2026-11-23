@@ -29,7 +29,7 @@
 | 范式       | **多元并立**：行为学、设计科学、经济学、组织学                     | 先定传统，它决定了体裁、方法与贡献形态                     |
 | 标志体裁   | 一等公民的 **Design Science（设计科学）**通道（Hevner 等 2004）     | 既要构建*也要评估* IT 人工物；设计原则才是贡献             |
 | 篇幅       | **按页**计的限制，且**把一切都算进去**（正文、表、图、参考文献、附录） | 超长稿件会被退回；不鼓励补充材料                           |
-| 体裁分类   | Research Article（50 页）、Research Notes（约一半）、Theory Development（55 页）、Theory-Generative Research Synthesis（65 页）、Issues & Opinions、Design Science | 投稿前自行选定体裁 |
+| 体裁分类   | Research Article（55 页）、Research Note（30 页）、Methods Article（55 页）、Theory Development（55 页）、Theory-Generative Research Synthesis（65 页）、Issues & Opinions（30 页）、Research Commentary（30 页，受邀） | 投稿前自行选定体裁 |
 | 透明度     | 多元、按体裁定制的透明度承诺，于投稿时上传                          | 程序/代码须足以支持复现；并非单一强制标准                 |
 | 评审       | **双盲**；SE + AE 初审后再送外审；**Senior Editor 拥有决定权**      | 稿件不得含任何身份信息；多轮修改是常态                     |
 | 服务义务   | 投稿即同意：若被邀请，每年最多为期刊评审**三篇**稿件               | 一项互惠义务                                              |
@@ -111,7 +111,7 @@ misq-rebuttal（修改答复）
 | `misq-contribution-framing`    | 用所属传统的"货币"陈述贡献；理论**与**实践并重                         |
 | `misq-tables-figures`          | 分传统的、契合页数限制（图表也计入）的图表                            |
 | `misq-writing-style`           | 论点前置、跨学科可读性、APA 7 / MISQ 体例                              |
-| `misq-submission`              | ScholarOne 投稿前自检：Word 文件、匿名、体裁/页数上限、透明度承诺      |
+| `misq-submission`              | ScholarOne 投稿前自检：MISQ 模板、匿名、体裁/页数上限、透明度承诺      |
 | `misq-review-process`          | SE/AE 双盲流程；读懂决定信                                             |
 | `misq-rebuttal`                | 多轮修改与逐条答复，以 SE 决定信为先                                   |
 

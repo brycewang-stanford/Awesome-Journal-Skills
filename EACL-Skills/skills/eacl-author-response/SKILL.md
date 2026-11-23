@@ -8,7 +8,10 @@ description: Use when drafting an EACL author response during the ACL Rolling Re
 Use this to work the ARR rebuttal window for a paper aimed at EACL. In ARR the response is
 addressed to reviewers **and** to the **action editor** who will synthesize a meta-review;
 that meta-review, not any single score, is what EACL's area chairs read at commitment. Reopen
-the current ARR author guidelines before drafting.
+the current ARR author guidelines before drafting. In the August 2026 cycle that fed EACL 2027,
+the response came in **two separate stages**: an author response (September 14-19, 2026) in which
+reviewers were not engaged, then author-reviewer discussion (September 20-24, 2026) in which
+reviewers finalised their reviews — so the first response must stand on its own.
 
 ## Read the room first
 

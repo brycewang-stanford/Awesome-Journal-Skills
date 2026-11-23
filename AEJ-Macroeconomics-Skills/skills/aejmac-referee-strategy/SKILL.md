@@ -12,9 +12,9 @@ description: Use when anticipating the objections referees and coeditors will ra
 - You need to decide which robustness checks to run *before* submitting vs. hold in reserve
 - You want to pre-empt the predictable macro objections in the paper itself
 
-## How AEJ: Macro review works (verified 2026-06; re-confirm on the official AEA pages)
+## How AEJ: Macro review works (re-verified 2026-11-24; re-confirm on the official AEA pages)
 
-- Managed by the **Editor** (Ayşegül Şahin, 检索于 2026-06；以官网为准) and **coeditors**; **single-blind** external peer review (the author is known to the referee; referees are anonymous to the author). Note this is **single-blind**, unlike some AEJs/economics venues that anonymize the author.
+- Managed by the **Editor** (Ayşegül Şahin, 检索于 2026-11-24；以官网为准) and **coeditors**. The editorial-policy page still describes **single-blind** review (author known to the referee; referees anonymous to the author), but since fall 2026 the AEA is running a **three-year RCT of author-anonymized review** across the AER, AER: Insights and the four AEJs: every submission must be anonymized (separate title page), and papers in the treatment arm reach referees with no author-identifying information. Do not count on reputation or name recognition reaching the referee.
 - **Desk rejection** is possible without referees; editorial decisions weigh the probability of meeting AEJ: Macro standards, **breadth of topic, and interest to the AEJ: Macro audience**.
 - After conditional acceptance, the **AEA Data Editor** runs the reproducibility check before publication (see `aejmac-replication-package`).
 
@@ -50,12 +50,12 @@ description: Use when anticipating the objections referees and coeditors will ra
 - [ ] Decisive robustness/identification checks run before submission
 - [ ] Second-tier checks identified to hold in reserve for the response
 - [ ] Referee suggestions span the relevant theory/empirical communities
-- [ ] Single-blind reviewed: nothing in the paper assumes anonymity of the author
+- [ ] Manuscript anonymized per the current submission guidelines (title page separate); nothing in the argument leans on who the authors are
 
 ## Anti-patterns
 
 - Submitting before the obvious adversarial robustness check is run
-- Assuming double-blind anonymity (AEJ: Macro is single-blind)
+- Relying on author reputation or leaving identifying details in the manuscript (submissions must now be anonymized; some referees will not know who wrote it)
 - A paper a desk editor cannot pitch as broad-interest in one sentence
 - Front-loading every conceivable robustness table, leaving nothing for the response
 - Suggesting only referees from one camp for a hybrid paper

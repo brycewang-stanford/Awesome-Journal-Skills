@@ -12,7 +12,10 @@ Use this to plan around RoF's editorial model.
 - RoF uses double-blind anonymous review under the current OUP instructions; manuscripts must
   contain no author-identifying references (also scrub PDF metadata).
 - Screen Reports from trusted referees and Associate Editors can inform desk-rejection
-  decisions before full review.
+  decisions before full review. Since 1 November 2026 every desk rejection is either
+  *summarily rejected with comment* (substantive comments on weaknesses or fit, no fee refund)
+  or *summarily rejected without comment* (one or two sentences; RoF keeps EUR 100 and refunds
+  the rest), on all submission types including Fast-Track.
 - Referees are asked to apply top-three-finance-journal standards and to separate their
   comments into (1) major concerns required for publication and (2) suggestions. Read reports
   through this lens: bucket (1) is what you must satisfy.
@@ -24,7 +27,11 @@ Use this to plan around RoF's editorial model.
 - Fast-Track submissions pay a premium (EUR 900 first submission) for a 14-day decision target.
 - Undisclosed resubmission of a rejected RoF paper, or simultaneous submission elsewhere,
   triggers desk rejection and a two-year submission ban. Authors are also responsible for
-  searching and citing relevant work — lack of awareness is not a defense.
+  searching and citing relevant work — lack of awareness is not a defense, and knowingly
+  failing to cite relevant work draws a two-year ban for all authors in clear-cut cases.
+- AI tools may support the work but must be disclosed (cover letter + manuscript); hidden text
+  or embedded instructions aimed at automated systems mean rejection without refund and a
+  one-year suspension (LLM policy updated 30 October 2026).
 
 ## Desk-screen patterns at this journal
 
@@ -43,8 +50,10 @@ Use this to plan around RoF's editorial model.
   confirm the current schedule against the journal's current author guidelines.
 - Fast-Track: a 14-day decision target after valid payment, built for finished papers
   facing competition; confirm the current decision set and refund mechanics before paying.
-- Screen Reports can close the file within weeks, with partial fee refund on the regular
-  track — evidence the desk filter is genuinely used, not ornamental.
+- Screen Reports can close the file within weeks; the refund now depends on whether the desk
+  rejection comes with comments (none) or without (all but EUR 100) — evidence the desk filter
+  is genuinely used, not ornamental. Published statistics for July 2025 to June 2026: 7.18%
+  acceptance rate, 30-day median turnaround.
 
 ## Reading the decision letter
 
@@ -59,13 +68,14 @@ Use this to plan around RoF's editorial model.
   dates, the process is unusually auditable — sample recent issues to calibrate realistic
   durations in your subfield.
 
-## Editorial board (as of the 1 January 2026 update — re-verify)
+## Editorial board (re-verified 2026-11-24 — re-verify)
 
-Managing Editor Marcin Kacperczyk (Imperial College London), with Editors including Ian
-Dew-Becker, Hui Chen, Laurent Fresard, Marcus Opp, Jun Pan, Jacopo Ponticelli, David Solomon,
-and Margarita Tsoutsoura, plus ~29 Associate Editors. Hui Chen and Margarita Tsoutsoura became
-Editors on 1 January 2026, succeeding Xavier Giroud (stepped down end of 2025); Jun Pan's term
-ends June 2026. Exact AE count is 待核实 — confirm on revfin.org/editorial-board/.
+Managing Editor Marcin Kacperczyk (Imperial College London), with Editors Hui Chen, Ian
+Dew-Becker, Laurent Fresard, Marcus Opp, Fabio Trojani, Jacopo Ponticelli, David Solomon,
+Margarita Tsoutsoura, and Constantine Yannelis, plus 39 Associate Editors. Constantine Yannelis
+joined as Editor on 1 September 2026 and Fabio Trojani on 1 October 2026; they succeed Ian
+Dew-Becker and Jacopo Ponticelli, whose terms end at the close of 2026. Jun Pan is no longer
+listed (term ended June 2026). Confirm on revfin.org/editorial-board/ before naming an editor.
 
 ## Output format
 

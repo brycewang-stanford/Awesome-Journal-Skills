@@ -77,8 +77,9 @@ terms before use, and verify any APSR-specific policy in
 - Colorblind-safe palettes and figures legible in grayscale; vector output (PDF/EPS) for print
 
 ## 5. Writing & references
-- Reference managers: Zotero, BibTeX/BibLaTeX, EndNote — format to the **APSA Style Manual for
-  Political Science** (author-date); keep a single consistent style
+- Reference managers: Zotero, BibTeX/BibLaTeX, EndNote — format to **Chicago 17th author-date**
+  (biblatex `style=chicago-authordate`, per the APSR Cambridge guidelines; the APSA Style Manual is also
+  referenced); keep a single consistent style
 - Typesetting: LaTeX (TeX Live / MacTeX, Overleaf) or Word; prepare a **double-anonymous** manuscript
   (no identifying metadata, no obvious self-references) plus a separate title page
 - Include a **word count on the front page**; an ORCID iD for the corresponding author

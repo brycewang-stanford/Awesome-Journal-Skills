@@ -61,6 +61,14 @@ merely adequate package faces more competition at NAACL commitment than the
 same package would at an annual venue's, and freshness of the reviews (did
 the field move since?) becomes a real, if unwritten, factor.
 
+**Shared-cycle commitment (NAACL 2027).** NAACL 2027 and COLING 2027 draw on
+the same ARR October 2026 cycle. At commitment (December 23, 2026) each paper
+names one primary conference and may opt in to consideration by the other;
+the secondary option is never guaranteed, a paper can receive at most one
+acceptance, and only NAACL offers a Findings tier. Authors who would rather
+have a main-conference paper than Findings should weigh that when choosing
+the primary venue (NAACL 2027 FAQ).
+
 ## One package's path through the machine
 
 A concrete trace, using the NAACL 2025 shape (October 2024 ARR cycle) as

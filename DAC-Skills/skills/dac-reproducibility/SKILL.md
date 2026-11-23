@@ -6,7 +6,7 @@ description: Use when building the reproducibility story for an ACM/IEEE Design 
 # DAC Reproducibility
 
 Build the reproducibility story into the evaluation, not onto it. DAC does **not** run a formal,
-badge-issuing artifact-evaluation track for research manuscripts (**待核实** per cycle), so
+badge-issuing artifact-evaluation track for research manuscripts (none in the DAC 2027 call), so
 reproducibility at DAC is not a review checkbox — it is what makes your QoR numbers *credible* to a
 skeptical EDA reviewer and *usable* by the community that cites you. The currency is **pinned
 benchmarks, disclosed tool versions, and re-runnable flows**.

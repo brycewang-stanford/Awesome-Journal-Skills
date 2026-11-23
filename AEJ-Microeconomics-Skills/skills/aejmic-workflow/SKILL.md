@@ -45,7 +45,7 @@ Default assumption: unless the user says otherwise, treat the target as AEJ: Mic
 7. `aejmic-writing-style` — make the result land (abstract + intro last)
 8. `aejmic-replication-package` — proof appendix + code (AEA Data Editor)
 9. `aejmic-referee-strategy` — pre-empt the objections theory referees raise
-10. `aejmic-submission` — AEA system preflight (single-blind, JEL, fee)
+10. `aejmic-submission` — AEA ScholarOne preflight (anonymized manuscript + title page, JEL, fee)
 11. `aejmic-rebuttal` — after the R&R
 
 > `aejmic-writing-style` is a late-stage polish; do not rewrite the intro before the model and proofs settle.

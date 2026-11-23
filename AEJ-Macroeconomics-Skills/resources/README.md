@@ -21,7 +21,7 @@ shared empirical-methods hub and is linked below.
 
 1. **Before drafting tables** — run the empirical design against the reviewer-objection checklist; every objection you cannot answer in one paragraph + one exhibit is a hole. For time-series identification, pair it with this pack's `aejmac-identification`.
 2. **When building results** — adapt `code/` for the cross-sectional/panel parts; for the macro core, add SVAR/LP/DSGE code per `external_tools.md` and keep the AEA-compliant chain (heterogeneity-robust estimators, weak-IV-robust bands, documented solver/seeds).
-3. **Before submission** — walk the reporting-standards inference audit and this pack's `official-source-map.md` for venue limits (≤100-word abstract, ~40-page length, single-blind, per-coauthor disclosure).
+3. **Before submission** — walk the reporting-standards inference audit and this pack's `official-source-map.md` for venue limits (≤100-word abstract, ~40-page length, author-anonymized submission, per-coauthor disclosure).
 
 > Method guidance in the shared hub is venue-neutral; always defer to this pack's
 > skills and `official-source-map.md` for what *AEJ: Macro* specifically requires.

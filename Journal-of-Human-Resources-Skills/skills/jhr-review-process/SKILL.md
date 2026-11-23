@@ -62,10 +62,12 @@ fail, route back to `jhr-contribution-framing` before paying the fee.
 
 ## Timeline posture
 
-JHR does not commit to public turnaround statistics, and stated desk-release
-speed is "quickly" rather than a number — do not promise coauthors a specific
-month, and confirm against the journal's current author guidelines for any
-stated processing details. What is controllable: the desk screen is the fastest
+JHR's Authors page now posts first-round turnaround statistics (read
+2026-11-24): average time to decision 30.55 days, median 9 days, acceptance rate
+4%, and "we reject more than half of all manuscripts without sending them to
+outside reviewers". The low median reflects the desk screen; a refereed first
+round takes far longer, so do not promise coauthors a specific month, and
+re-read the live figures before quoting them. What is controllable: the desk screen is the fastest
 gate, and review recycling can compress the refereeing stage when prior reports
 are attached.
 

@@ -15,7 +15,7 @@ description: Use when you need to understand how the Journal of Monetary Economi
 ## How JME review works
 
 - **Single anonymized (single-blind) review**: reviewers know the author identities; **authors do not know the reviewers.** Plan your framing and self-citation accordingly — there is no point anonymizing the manuscript.
-- **At least two reviewers**: suitable submissions are typically sent to a **minimum of two reviewers.**
+- **At least two reviewers**: suitable submissions are typically sent to a **minimum of two reviewers** (Guide wording as read 2026-06-21; not re-confirmed 2026-11-24, and an EIC interview on ScienceDirect describes typically one referee per paper — plan for one or two reports).
 - **Editors**: the journal is led by two **co-Editors-in-Chief**, **S. Borağan Aruoba (University of Maryland)** and **Eric Swanson (University of California, Irvine)** (Aruoba appointed as one of the two Editors-in-Chief effective January 1, 2022); neither outranks the other.
 - **Suggested / excluded referees**: in the cover letter, authors **may suggest up to five referees** and request that some not be used.
 - **Reconsideration**: a formal reconsideration of a rejection is **costly, rare, and unlikely to reverse** the decision — do not bank on it.

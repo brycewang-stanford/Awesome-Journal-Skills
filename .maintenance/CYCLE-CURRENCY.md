@@ -36,7 +36,6 @@ The `edition` column is the newest year the source map states for its own venue,
 | COLT-Skills | COLT | 2027 | 6 | no | — |
 | CVPR-Skills | CVPR | 2027 | 6 | no | — |
 | CoRL-Skills | CoRL | 2027 | — | no | — |
-| DAC-Skills | DAC | 2027 | 7 | no | — |
 | EACL-Skills | EACL | 2027 | 3 | no | — |
 | ECAI-Skills | ECAI | 2027 | 10 | no | — |
 | EDBT-Skills | EDBT | 2027 | — | no | — |
@@ -69,7 +68,7 @@ The `edition` column is the newest year the source map states for its own venue,
 | MLSys-Skills | MLSys | 2027 | — | no | — |
 | MobiCom-Skills | MobiCom | 2027 | — | no | — |
 | MobiSys-Skills | MobiSys | 2027 | — | no | — |
-| NAACL-Skills | NAACL | 2027 | — | no | — |
+| NAACL-Skills | NAACL | 2027 | 6 | no | — |
 | NDSS-Skills | NDSS | 2027 | 3 | no | — |
 | NSDI-Skills | NSDI | 2027 | 5 | no | — |
 | OOPSLA-Skills | OOPSLA | 2027 | — | no | — |
@@ -83,7 +82,7 @@ The `edition` column is the newest year the source map states for its own venue,
 | RSS-Skills | RSS | 2027 | — | no | — |
 | RecSys-Skills | RecSys | 2027 | 8 | no | — |
 | SIGCOMM-Skills | SIGCOMM | 2027 | — | no | — |
-| SIGIR-Skills | SIGIR | 2027 | — | no | — |
+| SIGIR-Skills | SIGIR | 2027 | 7 | no | — |
 | SIGMETRICS-Skills | SIGMETRICS | 2027 | 6 | no | — |
 | SIGMOD-Skills | SIGMOD | 2027 | 6 | no | — |
 | SODA-Skills | SODA | 2027 | 1 | no | — |
@@ -97,6 +96,7 @@ The `edition` column is the newest year the source map states for its own venue,
 | WACV-Skills | WACV | 2027 | 1 | no | — |
 | WSDM-Skills | WSDM | 2027 | 2 | no | — |
 | CSCW-Skills | CSCW | 2028 | — | no | — |
+| DAC-Skills | DAC | 2028 | — | no | — |
 | ECCV-Skills | ECCV | 2028 | — | no | — |
 | ICDE-Skills | ICDE | 2028 | — | no | — |
 | INTERSPEECH-Skills | INTERSPEECH | 2028 | 9 | no | — |

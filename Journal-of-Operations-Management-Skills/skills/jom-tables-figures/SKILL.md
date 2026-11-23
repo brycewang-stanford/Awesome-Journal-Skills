@@ -27,7 +27,7 @@ A typical JOM empirical paper carries:
 
 - **APA conventions** for tables, figures, notes, and references (JOM uses APA; Wiley applies final styling at proof). Keep formatting *consistent* — at first submission any consistent style is accepted, journal style preferred.
 - Number tables/figures; give each a stand-alone title and a complete note (estimator, SE type, significance thresholds, N, units).
-- Manuscript body is **double-spaced, single-column, 12-point, one-inch margins, numbered pages, no running headers/footers**; place exhibits per the author guidelines.
+- Manuscript body is **double-spaced, single-column, 11-point, one-inch margins, numbered pages, no running headers/footers**; place exhibits per the author guidelines.
 - Every exhibit must be readable without the text and must report the *operational* units (days, defects per million, inventory turns, on-time %).
 
 ## Self-explanation test

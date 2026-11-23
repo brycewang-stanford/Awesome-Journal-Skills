@@ -80,8 +80,8 @@ pages — *(检索于 2026-06；以官网为准)*.
 ## 6. Process & portal (verify on the official AEA pages)
 | Item | Note |
 |------|------|
-| Submission portal | AEA submission system; **single-blind** — manuscript carries title/byline/affiliations |
-| Codes | JEL codes + keywords required on the form |
+| Submission portal | ScholarOne Manuscripts (mc.manuscriptcentral.com/aej-policy); submissions **author-anonymized** (AEA RCT, fall 2026) — title/byline/affiliations in a separate title-page PDF |
+| Codes | JEL codes + keywords customary (not stated as a rule on the current pages) |
 | Submission fee | Applies; reduced/waived categories exist — **amount VOLATILE, verify on the AEA site** |
 | Disclosure | AEA Disclosure Policy — each author discloses funding / interested parties |
 | Replication deposit | AEA Data and Code Availability Policy; AEA Data Editor reproducibility check **before** publication; deposit at openICPSR |

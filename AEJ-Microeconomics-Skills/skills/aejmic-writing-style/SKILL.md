@@ -26,12 +26,12 @@ A theory-first AEA journal rewards an introduction that makes a **broad micro au
 
 ## AEA house-style conventions
 
-- **Abstract:** short and result-bearing; lead with the result, not the activity. (Confirm the current word limit on the AEA author page — volatile; 检索于 2026-06，以官网为准.)
-- **JEL codes and keywords** required.
+- **Abstract:** short and result-bearing; lead with the result, not the activity. (100 words or fewer — re-verified 2026-11-24 on the AEA submission page; 以官网为准.)
+- **JEL codes and keywords** customary (the current AEJ pages do not state them as a rule).
 - **Statistical presentation:** for any empirical/experimental content, report **standard errors / confidence sets, not significance asterisks**.
 - **Notation discipline:** define on first use; consistent throughout; avoid clutter.
 - **Proofs:** key proofs self-contained in the paper (main text or appendix), not exiled to supplementary files.
-- **Single-blind note:** AEJ: Micro review is single-blind (the referee sees the author), so the manuscript need **not** be anonymized — but acknowledgments and self-citations should still read professionally, not promotionally.
+- **Anonymization note:** since fall 2026 AEJ: Micro submissions must be **author-anonymized** (AEA three-year RCT of anonymized review): no names, affiliations, or acknowledgement footnote in the manuscript (they go in a separate title page), and self-citations by name in the third person, never "my/our previous work".
 
 ## Checklist
 
@@ -41,7 +41,7 @@ A theory-first AEA journal rewards an introduction that makes a **broad micro au
 - [ ] Abstract leads with the result; JEL codes + keywords present
 - [ ] No significance asterisks anywhere; SEs / coverage sets where relevant
 - [ ] Notation defined at first use and consistent
-- [ ] Self-citations and acknowledgments read professionally (single-blind: no anonymization needed)
+- [ ] Self-citations by name in the third person; acknowledgments moved to the separate title page (anonymized submission)
 
 ## Anti-patterns
 

@@ -19,18 +19,26 @@ Knowing how APSR screens and decides lets you pre-empt the failure modes before 
 
 1. **Double-anonymous.** Reviewers do not know the authors and authors do not know reviewers.
    Anonymize the manuscript accordingly (see `apsr-submission`).
-2. **Desk screening first.** Every paper is considered for **desk rejection** on three grounds:
+2. **Desk screening first.** Roughly **two-thirds of all submissions are not sent out for review**
+   (Cambridge Review process page, verified 2026-11-24), and desk rejects **cannot be appealed**. A
+   cited reference that cannot be found is an automatic desk rejection. The three grounds below come
+   from APSA's former peer-review policy text (2026-06 reading) and are **no longer restated on the
+   live pages — 需复核**; they remain a useful self-test:
    - **Remit** — not research, not political science, out of scope, or not in adequate English.
    - **Ethics** — plagiarized/unattributed text, or research based on unethical procedures.
    - **Substance** — missing a key element of an article, insufficiently significant findings, or
      **failure to engage the relevant literature(s)**.
    - *Substantive* desk rejections require **at least two editors** to agree.
-3. **External review.** Papers passing the desk are sent to expert reviewers.
+3. **External review.** Papers passing the desk are sent to expert reviewers — the journal aims for
+   **at least two** per manuscript.
 4. **Decision categories**: **reject**, **accept**, or **revise and resubmit** — where **R&R is
    reserved for papers very close to publishable quality**. Strong support from **all or nearly all**
    reviewers is generally necessary, but the decision is **at the editor's discretion**.
-5. **Review transfer.** Anonymized manuscripts/reviews may be forwarded only to journals that also use
-   double-anonymous protocols (an opt-in initiative).
+5. **Review transfer.** After a rejection with reviews, the author may ask (within 4 weeks) to transfer
+   the anonymized manuscript and reviews to a participating journal; APSR also accepts transfers in from
+   journals with anonymous review.
+6. **Appeals.** Only after external review: wait fourteen days, file within 60 days by email
+   ("Appeal: [Manuscript number]"), on grounds such as factual errors or procedural irregularities.
 
 ## Registered Reports route (prospective designs)
 

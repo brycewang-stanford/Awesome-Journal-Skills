@@ -8,7 +8,7 @@
 
 ## 摘要
 
-中小企业融资难的根源在于银企信息不对称。本文以分三批推进的中小企业数字金融服务试点为准自然实验，基于2012—2022年280个城市38,642家中小企业的信贷面板数据，采用异质性稳健的交错双重差分估计量与事件研究法进行评估。研究发现：试点使中小企业获贷概率平均提高4.6个百分点，约为样本均值的14.7%，并使融资成本下降0.41个百分点。机制分析表明，试点通过扩大替代数据的信用信息覆盖缓解了信息不对称，其效应在缺乏信贷记录的企业和银行业集中度较高的城市更强。本文为理解数字技术如何重塑中小企业信贷配给提供了因果证据。
+中小企业融资难的根源在于银企信息不对称。本文以分三批推进的中小企业数字金融服务试点为准自然实验，基于2012—2022年280个城市38,642家中小企业的信贷面板数据，采用异质性稳健的交错双重差分估计量与事件研究法进行评估。研究发现：试点使中小企业获贷概率平均提高4.6个百分点，约为样本均值的14.7%，并使融资成本下降0.41个百分点。机制分析表明，试点通过扩大替代数据的信用信息覆盖缓解了信息不对称，其效应在缺乏信贷记录的企业中显著更强；银行业集中度较高城市的点估计更大，但组间差异不显著。本文为理解数字技术如何重塑中小企业信贷配给提供了因果证据。
 
 **关键词：** 数字金融；中小企业；融资约束；交错双重差分
 
@@ -20,7 +20,7 @@
 
 **Methods, theory, and data.** Building on credit-rationing and relationship-lending theory, we derive testable predictions for each channel. We use a firm-level credit panel from a national credit-information provider covering 38,642 SMEs in 280 cities from 2012 to 2022, combined with city statistical yearbooks. Because treatment effects may vary across adoption cohorts and grow over time, conventional two-way fixed effects estimates are weighted averages that include comparisons in which earlier-treated cities serve as controls. Our main estimator is the doubly robust group-time estimator of Callaway and Sant'Anna, conditioning on baseline firm and city characteristics and using never-treated cities as controls; we cross-check it with not-yet-treated controls and with the Sun-Abraham and Borusyak-Jaravel-Spiess estimators. We report cohort-aggregated event studies, the Rambachan-Roth sensitivity analysis for violations of parallel trends, and randomization inference based on 1,000 placebo assignments. Standard errors are clustered at the city level, the level of treatment assignment. For mechanisms, we estimate the effect of the pilot on the mediating variables directly and test whether effects are larger where each channel should matter more, with formal tests of between-group differences.
 
-**Main findings and policy implications.** The pilot raised the probability that an SME obtained a new bank loan by 4.6 percentage points (14.7% of the sample mean) and lowered the average financing cost by 0.41 percentage points. Pre-treatment coefficients are small and jointly insignificant (p = 0.78), and the effects grow over the first four years after adoption. The conventional two-way fixed effects estimate is 0.031, about one-third smaller, because 21.4% of its weight comes from comparisons that use earlier pilot cities as controls. Effects were 0.067 for firms without prior bank credit records and 0.029 for firms with such records, and were larger in cities with more concentrated banking markets. The results suggest that public investment in credit-information infrastructure can complement, rather than replace, bank lending to SMEs.
+**Main findings and policy implications.** The pilot raised the probability that an SME obtained a new bank loan by 4.6 percentage points (14.7% of the sample mean) and lowered the average financing cost by 0.41 percentage points. Pre-treatment coefficients are small and jointly insignificant (p = 0.78), and the effects grow over the first four years after adoption. The conventional two-way fixed effects estimate is 0.031, about one-third smaller, because 21.4% of its weight comes from comparisons that use earlier pilot cities as controls. Effects were 0.067 for firms without prior bank credit records and 0.029 for firms with such records. Point estimates were also larger in cities with more concentrated banking markets (0.059 vs. 0.033), but that difference is not statistically significant (p = 0.18), so the evidence for a competition channel is weak. The results suggest that public investment in credit-information infrastructure can complement, rather than replace, bank lending to SMEs.
 
 **Innovation and contribution.** The paper makes three contributions. First, it provides firm-level, heterogeneity-robust causal evidence on digital finance and SME credit, moving beyond correlations with regional indices. Second, it quantifies how much conventional two-way fixed effects estimates understate the effect of a staggered policy in this setting. Third, it separates the information channel from the competition channel using direct effects on mechanism variables and tests of heterogeneity by baseline characteristics, rather than stepwise mediation regressions that condition on post-treatment variables.
 
@@ -34,7 +34,7 @@
 
 **研究方法、理论依据、经验数据及来源。** 本文基于信贷配给理论与关系型信贷理论推导各渠道的可检验含义，使用某全国性企业征信机构提供的2012—2022年280个城市38,642家中小企业信贷面板，并结合城市统计年鉴数据。由于处理效应可能随批次和时间变化，传统双向固定效应估计量包含以早期试点城市为控制组的比较。本文以Callaway-Sant'Anna双重稳健估计量为主要方法，以从未试点城市为控制组并以基期特征为条件，同时以尚未试点控制组及Sun-Abraham和Borusyak-Jaravel-Spiess估计量交叉验证；报告按批次汇总的事件研究、Rambachan-Roth平行趋势敏感性分析和基于1,000次伪分配的随机化推断。标准误聚类到处理分配所在的城市层面。机制检验直接估计试点对机制变量的效应，并检验效应是否在相应渠道更重要的样本中更强，对组间差异进行正式检验。
 
-**主要结论及政策建议。** 试点使中小企业获贷概率提高4.6个百分点（为样本均值的14.7%），使平均融资成本下降0.41个百分点。试点前系数很小且联合不显著（p=0.78），试点后效应在前四年逐步增强。传统双向固定效应估计值为0.031，约小三分之一，原因是其21.4%的权重来自以早期试点城市为控制组的比较。对无信贷记录企业的效应为0.067，对有信贷记录企业为0.029，且在银行业集中度较高的城市更强。结果表明，公共信用信息基础设施建设可以补充而非替代银行对中小企业的信贷。
+**主要结论及政策建议。** 试点使中小企业获贷概率提高4.6个百分点（为样本均值的14.7%），使平均融资成本下降0.41个百分点。试点前系数很小且联合不显著（p=0.78），试点后效应在前四年逐步增强。传统双向固定效应估计值为0.031，约小三分之一，原因是其21.4%的权重来自以早期试点城市为控制组的比较。对无信贷记录企业的效应为0.067，对有信贷记录企业为0.029；银行业集中度较高城市的点估计也更大（0.059对0.033），但组间差异在统计上不显著（p=0.18），竞争渠道的证据较弱。结果表明，公共信用信息基础设施建设可以补充而非替代银行对中小企业的信贷。
 
 **重要创新与贡献。** 第一，本文提供了数字金融影响中小企业信贷的企业层面、异质性稳健的因果证据，超越了基于地区指数的相关性研究。第二，本文量化了传统双向固定效应估计量在此类交错政策评估中的低估程度。第三，本文以试点对机制变量的直接效应和基于基期特征的异质性检验区分信息渠道与竞争渠道，而非依赖以事后变量为条件的逐步中介回归。
 
@@ -46,7 +46,7 @@
 
 本文利用2015年起分三批推进的中小企业数字金融服务试点（以下简称"数字金融试点"）构造准自然实验。试点在82个城市分别于2015年、2017年和2019年落地，核心内容是由地方政府牵头建设整合税务、社保、水电等替代数据的企业信用信息平台，并向辖区内银行开放查询。试点的交错推进为识别提供了时间与空间上的双重变异，但也带来了新的计量挑战：在处理效应随批次和时间变化时，传统双向固定效应（TWFE）估计量会把已处理城市当作控制组，其估计值是各组比较的加权平均，权重甚至可能为负（Goodman-Bacon，2021；de Chaisemartin and D'Haultfœuille，2020）。为此，本文以Callaway and Sant'Anna（2021）的双重稳健估计量为主要方法，并以Sun and Abraham（2021）和Borusyak et al.（2024）的估计量交叉验证。
 
-基于2012—2022年280个城市38,642家中小企业的信贷面板数据，本文发现：数字金融试点使中小企业当年获得新增银行贷款的概率平均提高4.6个百分点，相当于样本均值的14.7%；新增贷款率提高0.0058，融资成本下降0.41个百分点，约为样本均值的6.0%。事件研究显示，试点前各期系数接近于零且联合不显著，试点后效应逐年增强。对比之下，TWFE估计值仅为0.031，Goodman-Bacon分解表明约21.4%的权重来自以早期试点城市为控制组的"坏的比较"。机制分析表明，试点显著扩大了企业的信用信息覆盖，且其效应集中于缺乏信贷记录、信息不对称更严重的企业，以及银行业集中度较高、关系型信贷替代空间更大的城市。
+基于2012—2022年280个城市38,642家中小企业的信贷面板数据，本文发现：数字金融试点使中小企业当年获得新增银行贷款的概率平均提高4.6个百分点，相当于样本均值的14.7%；新增贷款率提高0.0058，融资成本下降0.41个百分点，约为样本均值的6.0%。事件研究显示，试点前各期系数接近于零且联合不显著，试点后效应逐年增强。对比之下，TWFE估计值仅为0.031，Goodman-Bacon分解表明约21.4%的权重来自以早期试点城市为控制组的"坏的比较"。机制分析表明，试点显著扩大了企业的信用信息覆盖，且其效应集中于缺乏信贷记录、信息不对称更严重的企业；银行业集中度较高城市的点估计虽然更大，但组间差异在统计上不显著。
 
 本文的边际贡献有三。第一，本文利用交错推进的政策试点，为数字金融缓解中小企业融资约束提供了企业层面的因果证据，弥补了基于地区指数的相关性研究的不足。第二，本文在交错双重差分框架下系统比较了多种异质性稳健估计量，并结合敏感性分析评估平行趋势假设，量化了传统TWFE在此类政策评估中的偏误。第三，在机制识别上，本文遵循江艇（2022）的建议，以政策对机制变量的直接效应和基于机制相关性的异质性检验替代逐步回归式的中介效应检验，为区分"信息渠道"与"竞争渠道"提供了更可信的证据。
 
@@ -193,7 +193,7 @@ $$\theta(e)=\sum_{g}w_g\cdot ATT(g,g+e) \qquad (3)$$
 
 ### （二）信息渠道与竞争渠道
 
-表4 Panel A显示，试点使企业在信用信息平台留有替代数据记录的概率提高9.8个百分点，使城市线上信贷产品数量的对数值上升0.214（约合24%），表明试点确实扩大了信用信息覆盖并促进了数字信贷产品的进入。Panel B显示，基期无银行信贷记录企业的试点效应为0.067，有信贷记录企业为0.029，组间差异为0.038，在1%水平上显著（p=0.002），这与信息渠道的预期一致：试点对信息不对称最严重、最缺乏"硬信息"的企业作用最大，支持假设H2。Panel C显示，在基期银行业集中度高于中位数的城市，试点效应为0.059，低于中位数的城市为0.033，组间差异为0.026（p=0.030），表明在传统银行竞争不足的地区，数字信贷对原有信贷供给的补充作用更大，支持假设H3。
+表4 Panel A显示，试点使企业在信用信息平台留有替代数据记录的概率提高9.8个百分点，使城市线上信贷产品数量的对数值上升0.214（约合24%），表明试点确实扩大了信用信息覆盖并促进了数字信贷产品的进入。Panel B显示，基期无银行信贷记录企业的试点效应为0.067，有信贷记录企业为0.029，组间差异为0.038，在1%水平上显著（p=0.002），这与信息渠道的预期一致：试点对信息不对称最严重、最缺乏"硬信息"的企业作用最大，支持假设H2。Panel C显示，在基期银行业集中度高于中位数的城市，试点效应为0.059，低于中位数的城市为0.033。两组为互不重叠的城市集合，组间差异0.026的标准误为0.019（p=0.18），在常规水平上不显著。因此，尽管点估计的方向与假设H3一致，且Panel A显示线上信贷产品有所增加，但现有证据不足以表明试点效应随地区银行业集中度显著变化，H3未获得显著支持。
 
 **表4：机制检验与基于机制相关性的异质性**
 
@@ -209,9 +209,9 @@ $$\theta(e)=\sum_{g}w_g\cdot ATT(g,g+e) \qquad (3)$$
 | Panel C：按基期城市银行业集中度分组（被解释变量：Loan） | | |
 | 高于中位数 | 0.059***（0.015） | 156,212 |
 | 低于中位数 | 0.033***（0.012） | 156,692 |
-| 组间差异 | 0.026**（0.012） | |
+| 组间差异 | 0.026（0.019） | |
 
-*注：* 企业层面结果采用Callaway and Sant'Anna（2021）估计量；城市线上信贷产品数量为城市—年度层面结果。括号内为聚类到城市层面的稳健标准误；组间差异的标准误由城市层面整群自助法（1,000次）得到；**、***分别表示在5%、1%水平上显著。分组变量均以试点前基期值定义，银行业集中度以城市银行网点赫芬达尔指数衡量。
+*注：* 企业层面结果采用Callaway and Sant'Anna（2021）估计量；城市线上信贷产品数量为城市—年度层面结果。括号内为聚类到城市层面的稳健标准误；组间差异的标准误由城市层面整群自助法（1,000次）对两组联合重抽得到：Panel B两组企业分布于相同城市，两组估计量正相关；Panel C两组为互不重叠的城市集合，两组估计量相互独立；**、***分别表示在5%、1%水平上显著。分组变量均以试点前基期值定义，银行业集中度以城市银行网点赫芬达尔指数衡量。
 
 ### （三）其他异质性
 
@@ -221,11 +221,11 @@ $$\theta(e)=\sum_{g}w_g\cdot ATT(g,g+e) \qquad (3)$$
 
 ### （一）研究结论
 
-本文以分批推进的中小企业数字金融服务试点为准自然实验，基于2012—2022年38,642家中小企业的信贷面板数据，采用异质性稳健的交错双重差分方法，评估了数字金融对中小企业融资约束的影响。研究发现，试点显著提高了中小企业的银行贷款可得性并降低了融资成本，效应在试点后数年内逐步增强；这一结论在平行趋势敏感性分析、替换估计量、控制同期政策和随机化推断等检验下保持稳健。机制分析表明，试点主要通过扩大替代数据的信用信息覆盖缓解了银企信息不对称，并在银行业集中度较高的城市通过补充信贷供给发挥作用。本文还表明，在交错推进的政策评估中，传统TWFE估计量可能低估政策效应约三分之一。
+本文以分批推进的中小企业数字金融服务试点为准自然实验，基于2012—2022年38,642家中小企业的信贷面板数据，采用异质性稳健的交错双重差分方法，评估了数字金融对中小企业融资约束的影响。研究发现，试点显著提高了中小企业的银行贷款可得性并降低了融资成本，效应在试点后数年内逐步增强；这一结论在平行趋势敏感性分析、替换估计量、控制同期政策和随机化推断等检验下保持稳健。机制分析表明，试点主要通过扩大替代数据的信用信息覆盖缓解了银企信息不对称；银行业集中度较高城市的试点效应点估计更大，但组间差异不显著，竞争渠道的证据较弱。本文还表明，在交错推进的政策评估中，传统TWFE估计量可能低估政策效应约三分之一。
 
 ### （二）政策含义
 
-本文的发现对理解信用基础设施在中小企业金融中的作用具有启示意义。其一，中小企业融资约束在很大程度上源于信息约束而非资金总量不足，以公共数据整合为核心的信用信息基础设施建设，能够以较低成本将软信息转化为可验证的硬信息，从而改善信贷配给。其二，数字金融的作用在于补充而非替代银行信贷：试点效应在缺乏信贷记录的企业和银行竞争不足的城市更强，说明信息基础设施的边际价值取决于原有信贷市场的结构。其三，数据开放应以企业授权和隐私保护为前提，在扩大信息覆盖的同时防范数据滥用风险。
+本文的发现对理解信用基础设施在中小企业金融中的作用具有启示意义。其一，中小企业融资约束在很大程度上源于信息约束而非资金总量不足，以公共数据整合为核心的信用信息基础设施建设，能够以较低成本将软信息转化为可验证的硬信息，从而改善信贷配给。其二，数字金融的作用在于补充而非替代银行信贷：试点效应在缺乏信贷记录的企业中显著更强，说明信息基础设施的边际价值取决于企业原有的信息状况；至于效应是否因地区银行竞争程度而异，本文的证据尚不充分。其三，数据开放应以企业授权和隐私保护为前提，在扩大信息覆盖的同时防范数据滥用风险。
 
 ### （三）研究局限
 

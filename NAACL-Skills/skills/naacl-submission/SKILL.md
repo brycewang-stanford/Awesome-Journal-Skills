@@ -16,10 +16,12 @@ think to make.
 
 NAACL is not annual. The chapter historically stands down in years when the
 main ACL meeting is hosted in the Americas — there was no NAACL 2023 and no
-NAACL 2026 (ACL 2026 ran in San Diego, July 2-7, 2026). As of 2026-07-08 the
-next edition is NAACL 2027, whose dates, venue, and feeding ARR cycles were
-still unannounced (待核实 via https://2027.naacl.org/ and
-https://aclrollingreview.org/dates). Before polishing anything:
+NAACL 2026 (ACL 2026 ran in San Diego, July 2-7, 2026). As of 2026-11-24 the
+current edition is NAACL 2027 (San Francisco, June 1-5, 2027), fed by the ARR
+October 2026 cycle — submission October 12, 2026, NAACL commitment December
+23, 2026 (https://2027.naacl.org/calls/main_conference_papers/ and
+https://aclrollingreview.org/dates). That cycle is shared with COLING 2027,
+so the commitment form asks for a primary venue. Before polishing anything:
 
 ```text
 1. Open aclrollingreview.org/dates → does any listed cycle name NAACL?
@@ -77,14 +79,15 @@ by posting one mid-cycle.
 
 ## Worked micro-case
 
-A team studying code-switched Spanish-English dialogue plans to submit in
-July 2026 "for NAACL." The calendar check shows no cycle currently names
-NAACL 2027. Their real options: enter the next open cycle now and let the
+A team studying code-switched Spanish-English dialogue planned in July 2026
+to submit "for NAACL," when the calendar check showed no cycle yet naming
+NAACL 2027. Their real options then: enter the next open cycle and let the
 reviewed package wait for a NAACL commitment window (reviews stay valid
 across cycles), target EMNLP/AACL via the May cycle instead, or hold for the
-cycle NAACL 2027 eventually announces. The audit's job is to force that
-decision explicitly rather than let a vague "submit to NAACL" drift into a
-missed conference entirely.
+cycle NAACL 2027 would announce — which turned out to be the October 12,
+2026 cycle, with commitment on December 23, 2026 shared with COLING 2027.
+The audit's job is to force that decision explicitly rather than let a vague
+"submit to NAACL" drift into a missed conference entirely.
 
 ## Ordered pre-upload pass
 

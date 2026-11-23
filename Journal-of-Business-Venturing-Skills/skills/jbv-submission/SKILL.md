@@ -44,7 +44,7 @@ Review is **double-anonymized**, so prepare an anonymized manuscript:
 ## Fees / open access
 
 - The subscription publication route lists **no publication fee charged to authors**.
-- Optional open access carries an **APC of USD 4,280 (excluding taxes)**; the open-access choice **does not affect peer review or acceptance**.
+- Optional open access carries an **APC of USD 4,210 (excluding taxes; re-verified 2026-11-24)**; the open-access choice **does not affect peer review or acceptance**.
 
 ## Co-submission (optional)
 
@@ -59,7 +59,7 @@ Review is **double-anonymized**, so prepare an anonymized manuscript:
 - [ ] Generative-AI disclosure included if AI tools were used
 - [ ] Option C data availability statement included
 - [ ] Abstract ≤ 250 words; 1-7 keywords; highlights; ORCID linked
-- [ ] Open-access/APC choice decided (USD 4,280 if OA; live-check current)
+- [ ] Open-access/APC choice decided (USD 4,210 if OA; live-check current)
 - [ ] Data in Brief / MethodsX co-submission decided
 
 ## Automated preflight (run this first)
@@ -124,7 +124,7 @@ A founder-team study of accelerator effects is ready to upload. The preflight ca
 【Anonymization】clean? remaining identifiers ...
 【Declarations】competing-interest / AI / data-statement present? ...
 【Abstract/metadata】≤250 words; 1-7 keywords; highlights; ORCID ...
-【OA/APC】subscription | OA (USD 4,280) ...
+【OA/APC】subscription | OA (USD 4,210) ...
 【Co-submission】Data in Brief / MethodsX? ...
 【Next step】jbv-review-process
 ```

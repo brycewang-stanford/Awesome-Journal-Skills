@@ -1,7 +1,7 @@
 # DAC Replication-Package Code Adapter
 
 This directory routes DAC authors to the repository-level shared tooling. It stays deliberately thin:
-DAC-specific *policy* (double-blind review, the 6+1 budget, ACM-DL archival, the Research-vs-
+DAC-specific *policy* (double-blind review, the 6+1 budget, IEEE Xplore/ACM-DL archival, the Research-vs-
 Engineering track split, and the fact that DAC runs **no standing artifact-badging track**) lives in
 the skills and in [`../official-source-map.md`](../official-source-map.md); reusable *tooling* lives
 in the shared kits so packs do not carry diverging copies.
@@ -16,7 +16,7 @@ in the shared kits so packs do not carry diverging copies.
 - [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
   and [`../../../shared-resources/submission-readiness/response-to-referees.md`](../shared/submission-readiness/response-to-referees.md)
   — generic pre-submission scaffolding; adapt the latter only when you **reroute a rejected DAC paper
-  to a journal (TCAD/TODAES)**, since DAC itself has historically had no author-response letter
+  to a journal (TCAD/TODAES)**, since DAC itself has no author-response letter (none in the DAC 2027 timeline)
   ([`../../skills/dac-author-response/SKILL.md`](../../skills/dac-author-response/SKILL.md)).
 
 ## Typical use for a DAC package
@@ -46,8 +46,8 @@ packaging.
 - **Double-blind extends to the artifact.** At review time the linked repo/dataset is anonymized —
   no author/lab names, no personal GitHub, no cluster paths, no vendor-flow fingerprints — and
   reviewers are not obligated to open it ([`../../skills/dac-submission/SKILL.md`](../../skills/dac-submission/SKILL.md)).
-- **No badge to chase.** DAC has historically run **no artifact-evaluation/badging track** (**待核实**
-  per cycle); package for reviewer credibility and community reuse (DOI-archived, licensed) rather
+- **No badge to chase.** DAC runs **no artifact-evaluation/badging track** (none in the DAC 2027
+  call); package for reviewer credibility and community reuse (DOI-archived, licensed) rather
   than an ACM badge ([`../../skills/dac-artifact-evaluation/SKILL.md`](../../skills/dac-artifact-evaluation/SKILL.md)).
 
 This is not the econometrics/Stata kit used by the journal packs in this repository, and DAC evidence

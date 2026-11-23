@@ -22,7 +22,7 @@
 
 `joe-skills` is a Claude Code plugin: a bundle of twelve agent **skills** that encode how to take a paper from idea to acceptance at the *Journal of Econometrics* — a peer-reviewed Elsevier journal (founded 1973) for **substantive contributions to econometric methodology**: identification, estimation, testing, decision, and prediction problems in economic research, plus applications of econometric techniques. The center of gravity is a **new estimator, test, identification result, or asymptotic theory**, defended with proofs and **Monte Carlo evidence** — not a purely applied finding.
 
-Each skill is tuned to JoE's actual norms, not a generic template. Co-Editors-in-Chief: **Michael Jansson** (UC Berkeley) and **Aureo de Paula** (UCL).
+Each skill is tuned to JoE's actual norms, not a generic template. Managing Editor: **Michael Jansson** (UC Berkeley), with Co-Editors Giuseppe Cavaliere, Yanqin Fan, Bo Honoré, and Viktor Todorov (ScienceDirect masthead, captured 2026-10-17; re-verified 2026-11-24).
 
 ## Why JoE is different (and the skills reflect it)
 
@@ -91,7 +91,9 @@ Journal-of-Econometrics-Skills/
 ## A note on verification
 
 Journal policies change. The 2026-06-20 source refresh verified the fee, review model, abstract
-limit, data-citation guidance, and the current portal split directly from official pages. Re-confirm
+limit, data-citation guidance, and the current portal split directly from official pages; the
+2026-11-24 re-check confirmed the USD $75 fee, 250-word abstract, single-anonymized review and the
+portal split, and found a new masthead (Managing Editor Michael Jansson plus four Co-Editors). Re-confirm
 portal routing, open themed calls, and editor roster on the live official pages before relying on
 them.
 

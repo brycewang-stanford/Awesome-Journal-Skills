@@ -1,13 +1,14 @@
 ---
 name: est-figures-and-tables
-description: Use when building figures, tables, and the mandatory Table of Contents (TOC)/abstract graphic for an Environmental Science & Technology (ES&T) manuscript. ES&T requires a TOC graphic for Research Articles, Reviews, Features, Perspectives, and Policy Analysis, and figures/tables may count toward the word limit, so every exhibit must earn its space. It designs exhibits; it does not run the analysis.
+description: Use when building figures, tables, and the mandatory Table of Contents (TOC)/abstract graphic for an Environmental Science & Technology (ES&T) manuscript. ES&T requires a TOC graphic for Research Articles, Reviews, Features, Perspectives, and Policy Analysis, and figure/table captions count toward the word limit, so every exhibit must earn its space. It designs exhibits; it does not run the analysis.
 ---
 
 # Figures, Tables & TOC Graphic (est-figures-and-tables)
 
 Exhibits are where an expert reviewer checks whether the result is real, and at ES&T they also carry
 two venue-specific rules: a **mandatory TOC/abstract graphic**, and a word budget in which
-**figures/tables may count as word-equivalents** (historically ~300 for small, ~600 for large — 待核实
+**figure/table titles, captions and footnotes count** while the graphics and tables themselves do not
+(live guidelines re-verified 2026-11-24; the older ~300/600 word-equivalent charge no longer appears
 on the live page). Every exhibit must pull its weight.
 
 ## When to trigger

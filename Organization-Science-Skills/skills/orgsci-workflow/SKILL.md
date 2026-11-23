@@ -11,7 +11,7 @@ This is the router. It does not replace any specialized skill; it tells you **wh
 
 Default assumption: unless told otherwise, treat the target as Organization Science — the interdisciplinary, theory-driven INFORMS journal about organizations (their processes, structures, technologies, identities, capabilities, forms, and performance) spanning **micro (individual/team) to macro (organizational/field/population)** levels. Its defining bar is **overall contribution**: the editorial statement holds that "theoretical novelty is neither necessary nor sufficient," and contributions may come from new theory, data, method, settings, mechanisms, or social-problem/grand-challenge relevance. It is methodologically eclectic, with a signature openness to **qualitative and inductive** work alongside quantitative, experimental, computational, and formal-analytical research; causal inference is valued but "not necessary and often impossible."
 
-> Time-sensitive items: Lamar Pierce (Washington University in St. Louis) is Editor-in-Chief (oseic@wustl.edu); verify the masthead at pubsonline.informs.org/journal/orsc. A mandatory **<500-word contribution statement** in the cover letter has been required since June 1, 2023.
+> Time-sensitive items: Lamar Pierce (Washington University in St. Louis) is Editor-in-Chief (oseic@wustl.edu) — his final term ends June 30, 2027 and INFORMS is searching for a successor (checked 2026-11-24); verify the masthead at pubsonline.informs.org/journal/orsc. The cover letter (seen by the EIC and Senior Editor, not reviewers) should carry a concise contribution case and the COI / overlapping-data disclosures the submission certification asks for; the guidelines do not set a word-limited contribution statement (the June 1, 2023 <500-word rule belongs to Information Systems Research).
 
 ## When to trigger
 
@@ -44,7 +44,7 @@ Default assumption: unless told otherwise, treat the target as Organization Scie
 3. `orgsci-literature-positioning` — join an organization-theory conversation
 4. `orgsci-methods` — match design to the question and level of analysis
 5. `orgsci-data-analysis` — analyze and report transparently (including trustworthiness for qualitative work)
-6. `orgsci-contribution-framing` — draft the mandatory <500-word contribution statement
+6. `orgsci-contribution-framing` — draft the concise cover-letter contribution case
 7. `orgsci-tables-figures` — finalize exhibits / data structure / process model
 8. `orgsci-writing-style` — prose polish in INFORMS author-date style
 9. `orgsci-submission` — ScholarOne preflight (anonymization, ~50-page norm, separate appendix)
@@ -70,7 +70,7 @@ Design .............. qualitative / quant / experiment / computational /
                       formal — matched to the question? shaky -> orgsci-methods
 Evidence ............ analysis transparent; trustworthiness shown for
                       inductive work?                  shaky -> orgsci-data-analysis
-Contribution ........ <500-word cover-letter statement drafted and beyond
+Contribution ........ concise cover-letter contribution case drafted and beyond
                       "theoretical novelty"?           blank -> orgsci-contribution-framing
 Package ............. exhibits, INFORMS author-date prose, ScholarOne files,
                       anonymization, ~50-page norm?    shaky -> orgsci-tables-figures /
@@ -96,5 +96,5 @@ Package ............. exhibits, INFORMS author-date prose, ScholarOne files,
 ## Anti-patterns
 
 - **Do not** chase causal identification at the expense of the contribution — this venue does not require it.
-- **Do not** skip the contribution statement; submissions without it are returned before review.
+- **Do not** send a bare cover letter; the desk editors read it alongside the abstract, and it is where COI and overlapping-data disclosures belong.
 - **Do not** treat polish as a substitute for an organization-theory contribution.

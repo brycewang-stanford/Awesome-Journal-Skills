@@ -25,7 +25,7 @@ into a clear policy takeaway without overclaiming**.
 
 It is **not** a generic applied-microeconomics toolbox. It is an AEJ: Policy-specific methodology stack.
 
-Official basis checked **2026-06** against the AEA / AEJ: Policy pages (journal home, submission
+Official basis checked **2026-06** and **re-verified 2026-11-24** against the AEA / AEJ: Policy pages (journal home, submission
 guidelines, AEA Data and Code Availability Policy, AEA Disclosure Policy). See
 [`resources/official-source-map.md`](resources/official-source-map.md). Volatile facts (submission fee,
 editors, exact format limits) are tagged *(检索于 2026-06；以官网为准)* and marked **待核实** where a primary
@@ -44,8 +44,8 @@ AEJs, and the AER (rows marked **[official]** are verified against AEA sources):
 | Scope [official] | Economic analysis **of policy** (public econ, environment/energy, health, education, labor/welfare, regulation, dev/political economy) | Pure methods or no-policy applied micro is off-fit |
 | Identification | Credible quasi-experimental / RCT evaluation of the policy | TWFE-on-staggered / OLS+controls draws fast pushback |
 | Welfare reading | Estimate → MVPF / cost-benefit / incidence | "This is welfare-improving" asserted is not enough |
-| Review [official] | **Single-blind** via the AEA submission system | Manuscript carries title, byline, and affiliations |
-| Codes [official] | **JEL codes + keywords** required | Missing codes is a form error |
+| Review [official] | **Author-anonymized submission** via ScholarOne (AEA RCT, launched fall 2026) | Names, affiliations and acknowledgements go in a separate title page |
+| Codes | **JEL codes + keywords** customary (not stated on the current pages) | Supply them anyway |
 | Significance [official] | **Standard errors / CIs, no asterisks** (AEA house style) | `***` is disallowed; report SEs |
 | Data & code [official] | AEA Data and Code Availability Policy; **AEA Data Editor** check **before** publication; deposit at **openICPSR** | Build the replication package as you go |
 | Restricted data [official] | ≥5-yr preservation, public code, documented sources; "upon request" **not** acceptable | Document a real access path |
@@ -91,7 +91,7 @@ aejpol-workflow (router)
    ├─ aejpol-writing-style ......... translate estimates into a policy takeaway (intro/abstract last)
    ├─ aejpol-replication-package ... AEA Data Editor / openICPSR deposit
    ├─ aejpol-referee-strategy ...... pre-empt the objections referees will raise
-   ├─ aejpol-submission ............ AEA system preflight (front matter + JEL + disclosure)
+   ├─ aejpol-submission ............ AEA system preflight (anonymization + JEL + disclosure)
    └─ aejpol-rebuttal .............. response letter + revision plan after the R&R
 ```
 
@@ -111,7 +111,7 @@ aejpol-workflow (router)
 | `aejpol-writing-style` | Translate estimates into a clear policy takeaway without overclaiming |
 | `aejpol-replication-package` | AEA Data and Code Availability Policy / AEA Data Editor / openICPSR deposit |
 | `aejpol-referee-strategy` | Pre-empt the objections AEJ: Policy referees raise; calibrate expectations |
-| `aejpol-submission` | AEA system preflight: front matter, JEL codes, data statement, disclosure |
+| `aejpol-submission` | AEA system preflight: anonymized manuscript + title page, JEL codes, data statement, disclosure |
 | `aejpol-rebuttal` | Response-letter strategy and revision plan after an R&R |
 
 ---
@@ -142,7 +142,7 @@ aejpol-workflow (router)
 | Welfare / cost-benefit reading | Expected (MVPF / incidence) | Not required | Often, but for specialists | Varies |
 | Readership | Broad AEA policy audience | Applied-micro audience | Public-finance field | Top general-interest |
 | Length | Field-leading policy paper | Applied-micro paper | Field paper | Longer, top-5 scale |
-| Process | AEA single-blind, openICPSR Data Editor | AEA single-blind, openICPSR Data Editor | Elsevier, double-blind | AEA single-blind, openICPSR Data Editor |
+| Process | AEA anonymized submission (2026 RCT), openICPSR Data Editor | AEA anonymized submission (2026 RCT), openICPSR Data Editor | Elsevier, single-anonymized | AEA anonymized submission (2026 RCT), openICPSR Data Editor |
 
 > Pick AEJ: Policy when the **policy lesson is the headline** and a broad AEA reader would care; pick
 > AEJ: Applied when the natural experiment is the point; pick JPubE when the audience is the public-finance

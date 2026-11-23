@@ -4,6 +4,7 @@
   "venue": "经济研究（Economic Research Journal）",
   "format": "md",
   "synthetic": true,
+  "revision": "v2 (2026-11-24): corrected Table 4 Panel C (disjoint high/low bank-concentration city groups) between-group SE from 0.012 to 0.019 (p 0.030 -> 0.18, no longer significant) and rewrote H3 conclusions in the abstract, summaries, introduction, results, conclusion and policy section as not significantly supported.",
   "summary": "Fictional Chinese-language staggered-DID study of a three-batch SME digital-finance pilot (82 cities, 2015/2017/2019) on SME bank-loan access and financing cost, using Callaway–Sant'Anna, Sun–Abraham and BJS estimators, HonestDiD and mechanism tests per 江艇（2022）.",
   "defects": [
     {

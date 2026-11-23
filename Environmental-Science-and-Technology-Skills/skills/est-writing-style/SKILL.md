@@ -25,9 +25,10 @@ word budget. House style is **ACS** (numbered citations).
    Features.
 3. **Write for the broad audience.** Define specialist terms on first use; avoid undefined acronyms;
    lead paragraphs with the point, then the evidence.
-4. **Word discipline.** Respect the per-type cap (Research Article ~7,000; Feature ~5,000; Review
-   ~10,000; Perspective ~4,000; Policy Analysis ~7,000 — all 待核实) and remember exhibits may count
-   as word-equivalents. Move detail to the SI.
+4. **Word discipline.** Respect the per-type cap (Research Article 7,000; Feature 5,000; Review
+   10,000; Perspective 4,000; Policy Analysis 7,000 — re-verified 2026-11-24). The count covers the
+   abstract, main text and figure/table captions; references, tables and graphics are excluded.
+   Move detail to the SI.
 5. **ACS style.** Numbered citations in order of appearance; SI units; chemical names/formulae per
    ACS conventions; an "Environmental Implications" framing where the genre fits.
 6. **Features** are journalistic in tone; **Policy Analysis** speaks to the science–policy interface.
@@ -67,7 +68,7 @@ recover word budget.
   in the abstract and intro close; add an Environmental Implications paragraph.
 - *"Inaccessible to non-specialists."* → Define specialist terms and acronyms on first use; lead each
   paragraph with the point.
-- *"Over the word limit."* → Move robustness and full methods to the SI; count figure word-equivalents.
+- *"Over the word limit."* → Move robustness and full methods to the SI; tighten captions (they count).
 
 ## Anti-patterns
 
@@ -84,7 +85,7 @@ recover word budget.
 【Significance stated early】abstract + intro answer "why for the environment"? [Y/N]
 【Structure】sections present and in order? [Y/N]
 【Audience】jargon defined, readable across sub-fields? [Y/N]
-【Word count】within type cap (note word-equivalents)? [count / cap]
+【Word count】abstract + text + captions within type cap? [count / cap]
 【ACS style】numbered citations + SI units + conventions? [Y/N]
 【Next】est-cover-letter
 ```

@@ -64,3 +64,30 @@ All seven plan days were delivered; the release itself (push and tag) is owner-r
   benchmark is hand-run and its outputs are committed (QUALITY-LANE constraints).
 - The backlog score is not a target. Only the date-independent tripwire changed.
 - No push and no tag were made by the agent; release actions are owner-run.
+
+## 5. Addendum (2026-11-24): second tranche
+
+Done after the owner said "continue". It is on the same branch and not pushed.
+
+- **Rules coverage:** 46 → **94 venues** (48 more packs re-verified; 585 → 1239 rules in
+  `venue-rules.json`). Notable corrections are listed in CHANGELOG 1.2.0.
+- **Preflight:**
+  - `--compare` re-run diff;
+  - `references_max` enforcement;
+  - Word heading styles resolved through `styles.xml`;
+  - two-column PDF detection;
+  - eight further PDF-reader fixes.
+- **Cross-format benchmark:** source, PDF and Word all reach 45/47 caught with zero
+  clean-control false alarms. Before the fixes, the first PDF run had 165 false alarms,
+  mostly from one Chinese PDF.
+- **Fixture v2:** fixes the clean-fixture errors the panel found (ACL coverage, ERJ
+  standard error, JF sample and reference period).
+- **Multi-agent panel:** caught the inline panel's one miss (ACL S4), and raised six
+  defensible major concerns on the v2 clean JF paper. The protocol now records the
+  trade-off.
+- **DAC:** moved to 2027. The IEEE/ACM template question is settled: IEEE for 2027.
+- **Still open:**
+  - Publisher sites that block automation (INFORMS, SAGE, ScienceDirect, cell.com,
+    nejm.org, science.org) were read through archives or search rendering. Each map says
+    so; the weekly live-check on a GitHub runner should re-read them.
+  - Several APC figures are left null where the sources disagree.

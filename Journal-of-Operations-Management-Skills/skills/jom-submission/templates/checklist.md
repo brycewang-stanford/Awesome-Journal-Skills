@@ -36,7 +36,7 @@
 
 ## 6. Formatting
 - [ ] ~40 pages or fewer (over-long manuscripts are returned for streamlining)
-- [ ] Double-spaced, single-column, 12-point, one-inch margins
+- [ ] Double-spaced, single-column, 11-point, one-inch margins
 - [ ] Pages numbered; no running headers/footers
 - [ ] APA citation/reference style (consistent format)
 - [ ] Abstract within limit (待核实 — confirm current word limit)

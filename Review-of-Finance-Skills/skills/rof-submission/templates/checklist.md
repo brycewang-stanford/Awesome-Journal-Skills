@@ -25,13 +25,14 @@
 ## 4. Fee & track
 - [ ] Track chosen: **regular (EUR 350 / EUR 300 EFA members)** or **Fast-Track (EUR 900, 14-day decision)**
 - [ ] EFA membership status confirmed (affects fee)
-- [ ] Tiered **refund** schedule for the chosen track understood (Fast-Track refund amounts 待核实)
+- [ ] Tiered **refund** schedule for the chosen track understood (since 1 Nov 2026: desk rejection with comment = no refund; without comment = all but EUR 100 refunded)
 
 ## 5. Cover-letter disclosures (omission → desk reject + 2-year ban)
 - [ ] Confirmed **not under review elsewhere** (no simultaneous submission)
 - [ ] Any **prior RoF rejection disclosed**
 - [ ] Any **code-sharing exception requested here**, at initial submission
-- [ ] Relevant work searched and cited (lack of awareness is not a defense)
+- [ ] Relevant work searched and cited (lack of awareness is not a defense; knowingly omitting it → 2-year ban)
+- [ ] Any **AI-tool use disclosed** here and acknowledged in the manuscript; no hidden text in the PDF
 
 ## 6. Replication readiness (Code Sharing and Data Availability Policy)
 - [ ] Replication programs with software details and comments

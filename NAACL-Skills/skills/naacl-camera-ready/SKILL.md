@@ -10,8 +10,10 @@ ACL Anthology under the chapter's proceedings (or under Findings of NAACL).
 The camera-ready phase is where the anonymous ARR artifact, the promises made
 in your author response, and your public identity get merged into that
 object. Historical anchor: NAACL 2025 set a single final-version deadline of
-February 8, 2025 covering both Main and Findings; always reconfirm the
-current edition's date and instructions.
+February 8, 2025 covering both Main and Findings. NAACL 2027's call sets
+camera-ready for long and short papers on March 3, 2027 and grants one extra
+content page (long up to 9, short up to 5); always reconfirm the current
+edition's date and instructions.
 
 ## The three-source merge
 

@@ -19,7 +19,7 @@ experimental subset**. For a **pure-theory** paper, do not reach for the code ki
 | [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) | (Applied subset) the objections referees actually raise, by identification strategy, each with its preemption. |
 | [reporting-standards](shared/empirical-methods/reporting-standards.md) | (Applied subset) modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, reproducibility. |
 | [execution-with-mcp](shared/empirical-methods/execution-with-mcp.md) | **Guidance → a fitted, audited result.** Maps each design family / reviewer objection to the concrete StatsPAI / Stata MCP tools in this environment, so this pack's identification / analysis skills *run* the modern DiD / weak-IV-robust CI / multiple-testing correction and report the number. |
-| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fee, abstract limit, single-blind review, JEL, data/code policy, Data Editor) with sourcing discipline and 待核实 flags. |
+| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (fee, abstract limit, author-anonymized submission, JEL, data/code policy, Data Editor) with sourcing discipline and 待核实 flags. |
 | [`external_tools.md`](external_tools.md) | External tools / packages relevant to AEJ: Micro theory and its empirical/experimental applications. |
 
 ## How to use

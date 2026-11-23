@@ -87,7 +87,7 @@ published work and may require comparative estimation and sensitivity tests.
 ## 6. Writing & references
 - Reference managers: Zotero, BibTeX/BibLaTeX, EndNote
 - Typesetting: LaTeX (TeX Live / MacTeX, Overleaf) or Word — keep within the 40-page (12pt, 1.5-spacing) limit; push overflow to an Online Appendix
-- The specific manuscript citation style is not named on the official pages (待核实) — follow the live guidance
+- Citations are author-date — "Jones (1990)" / "(Jones and Jackson 1990)", "Jones et al." for more than three authors, no numbered references — with Chicago-style page ranges and heading capitalization (JHR Manuscript Preparation page, re-read 2026-11-24); the house style is not given a single formal name
 
 ## 7. Process & portal
 | Item | Note |

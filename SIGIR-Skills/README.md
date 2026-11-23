@@ -6,13 +6,14 @@ venue for search, ranking, recommendation, and retrieval evaluation. The pack is
 organized around four structural facts that make SIGIR strategy different from
 generic ML-conference advice:
 
-1. **A multi-track submission system, not one CFP.** SIGIR 2026 fields Full, Short,
-   Perspectives, Resources, Reproducibility, Industry, and Low Resource Environments
-   tracks, each with its own page (and in the Resources case, its own
-   *single-anonymous* review regime). Routing a contribution to the right track is a
+1. **A multi-track submission system, not one CFP.** SIGIR 2027 fields Full, Short,
+   Resource, Reproducibility and Replicability, Demonstration, Perspectives,
+   SIRIP/industry, tutorial, workshop and Doctoral Colloquium tracks, each with its own
+   call (and in the Resource and Demonstration cases, a *single-anonymous* review
+   regime). Routing a contribution to the right track is a
    first-class decision.
-2. **No appendix escape hatch.** Full papers get 9 pages and short papers 4, with
-   only references excluded — appendices count inside the budget, so overflow lives
+2. **No appendix escape hatch.** Full papers get 9 pages (short-paper budget for 2027
+   still TBA; 4 pages in 2026), with only references excluded — appendices count inside the budget, so overflow lives
    in the cited repository or dies.
 3. **TREC-lineage evaluation culture.** Reviewers audit collection choice, baseline
    tuning symmetry, metric-cutoff discipline, and paired significance testing before
@@ -21,33 +22,34 @@ generic ML-conference advice:
    Library (SIGIR 2025 volume: DOI 10.1145/3726302), with CCS concepts and metadata
    that outlive the conference.
 
-Official basis checked on **2026-07-08**: the SIGIR 2026 site (49th edition, July
-20-24, 2026, Melbourne | Naarm, Australia), its per-track submission pages and
-cross-track policy page, the SIGIR OpenReview venue groups, the ACM DL proceedings
-record, sigir.org, and the SIGIR 2025 CFP as the previous-cycle anchor. The exact
-source list — including the access-method note (several official domains were only
-reachable through search renderings) and every fact left 待核实 — is in
+Official basis **re-verified 2026-11-24** against the live SIGIR 2027 site (50th
+edition, July 19-24, 2027, San Jose, California, USA): the home page, track overview,
+the Full Paper, Resource, Reproducibility and Replicability, Perspectives and
+Demonstration calls, and the organizing committee; the SIGIR 2026 (Melbourne) pages
+checked 2026-07-08 are kept as history. The exact source list — including the
+access-method note and every fact left 待核实 — is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
-## Verified 2026-cycle anchors
+## Verified SIGIR 2027 anchors
 
-| Fact | 2026 value | Volatility |
+| Fact | SIGIR 2027 value | Volatility |
 |---|---|---|
-| Edition | 49th International ACM SIGIR Conference, July 20-24, 2026, Melbourne \| Naarm, Australia | Per edition |
-| Full papers | ≤ 9 pages excluding references; appendices inside the budget; double-blind | Per cycle |
-| Short papers | ≤ 4 pages excluding references; separate OpenReview group | Per cycle |
-| Resources track | ≤ 6 pages + refs; **single-anonymous**; abstract Feb 5 → notify Apr 2 → camera-ready Apr 29, 2026 | Per cycle |
-| Reproducibility | Own track in 2026 (split from the former combined track) | Per cycle |
-| Template | ACM Primary Article Template (`sigconf` LaTeX / Word Interim) | Per cycle |
-| PC duty | Full-paper submissions nominate one author as a PC member | Per cycle |
-| Platform | OpenReview, per-track venue groups | Per cycle |
-| Policy | ACM authorship + AI-use disclosure; parallel submission desk-rejected; cross-track double submission banned | Per cycle |
+| Edition | 50th International ACM SIGIR Conference, July 19-24, 2027, San Jose, California, USA (in person; Tianjin satellite for visa cases) | Per edition |
+| Full papers | ≤ 9 pages excluding references; appendices inside the budget; double-anonymous; CCS concepts + keywords required for review; +1 page at camera-ready | Per cycle |
+| Full-paper dates | Abstract Jan 14 → paper Jan 21 → notification Apr 5 → camera-ready + author registration Apr 30, 2027 (AoE) | Per cycle |
+| Short papers | Call TBA (2026: ≤ 4 pages excluding references) | Per cycle |
+| Resource track | ≤ 6 pages + refs; **single-anonymous**; EasyChair; abstract Feb 4 → paper Feb 11 → notify Apr 5, 2027; no rebuttal | Per cycle |
+| Reproducibility and Replicability | Renamed track; ≤ 9 pages + refs; double-anonymous; same dates as Resource | Per cycle |
+| Template | ACM `sigconf` (`anonymous=true` for full papers) / Word Interim | Per cycle |
+| Reviewing duty | One author per submission agrees to review (a different author per submission) | Per cycle |
+| Platform | OpenReview for full papers; EasyChair for Resource, R&R and Perspectives | Per cycle |
+| Policy | ACM authorship + AI policies; author list frozen at abstract; concurrent submission (incl. other SIGIR tracks) banned; anonymous code links; Chair for Integrity and Robustness | Per cycle |
+| Chairs | General: Yi Zhang, Yi Fang, Chenyan Xiong; Program: Mounia Lalmas, Qiaozhu Mei, Mark Sanderson | Per edition |
 | Publication | ACM Digital Library via e-rights + TAPS | Per year |
 
-Full/short submission deadlines for 2026 (trackers reported abstract Jan 15 / paper
-Jan 22, 2026 AoE, matching the 2025 pattern), rebuttal mechanics, camera-ready page
-allowances, chair names, and fees could not be verified live and are flagged 待核实
-in the source map rather than asserted.
+The short-paper and SIRIP/industry calls, the SIGIR 2027 preprint/anonymity policy,
+any rebuttal phase for full papers, and fees were not yet published on 2026-11-24 and
+are flagged 待核实 in the source map rather than asserted.
 
 ## Skills
 
@@ -146,9 +148,9 @@ output block so results compose.
 - The pack advises on strategy, structure, and evidence for SIGIR submissions. It is
   not the CFP: where anything here conflicts with the current track pages, the
   official pages win, always.
-- Facts are dated 2026-07-08 and phrased as cycle anchors. SIGIR restructured its
-  own track lineup between 2025 and 2026 (Resource & Reproducibility split) — assume
-  it can again.
+- Facts are dated 2026-11-24 (SIGIR 2027) and phrased as cycle anchors. SIGIR
+  restructured its own track lineup between 2025 and 2026 (Resource & Reproducibility
+  split) and renamed the latter for 2027 — assume it can again.
 - Facts marked 待核实 (deadlines, rebuttal mechanics, fees, chairs, camera-ready
   allowances) must be verified live before being stated to an author as fact.
 - No text here should be pasted into a paper; the worked example is fictional by
@@ -160,5 +162,6 @@ output block so results compose.
   advice; SIGIR's rules are track-scoped by construction.
 - After each edition, refresh: edition number/venue, track lineup, page budgets,
   anonymity regimes per track, OpenReview group ids, and the ACM Open status note.
-- SIGIR 2027 is the 50th edition and an Americas year per the SIG's rotation —
-  expect anniversary-cycle changes and verify everything.
+- SIGIR 2027 is the 50th edition (San Jose, an Americas year per the SIG's rotation)
+  and already changed topic areas, track names and platforms — verify everything, and
+  move the pack to SIGIR 2028 once its call appears.

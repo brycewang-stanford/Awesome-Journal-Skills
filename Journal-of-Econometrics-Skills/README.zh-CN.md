@@ -3,7 +3,7 @@
 面向 **Journal of Econometrics (JoE)** 的 12 个 agent skills。JoE 是 Elsevier 的计量经济学方法旗舰，
 关注 identification、estimation、testing、decision、prediction 与经济研究中的方法应用。
 
-官方依据最新核验日期：2026-06-20。来源见 `resources/official-source-map.md`，包括
+官方依据最新核验日期：2026-11-24（编辑部改为 Managing Editor Michael Jansson + 四位 Co-Editors；USD $75 投稿费、250 词摘要、single-anonymized 评审与投稿入口分流均已复核）。来源见 `resources/official-source-map.md`，包括
 ScienceDirect Guide for Authors、JoE 自有指南、Editorial Express resubmission 页面，以及当前
 “新投稿入口 vs. Editorial Express 指引”并存的操作性冲突。
 

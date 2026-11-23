@@ -31,7 +31,7 @@ JQTE rewards a different contribution shape than the clean-causal flagships (经
 | Forecasting | Out-of-sample evaluation | In-sample fit alone is a desk-reject risk |
 | IO / CGE | Data source, calibration, closure, scenario | Black-box software runs without setup detail get rejected |
 | Notes | Footnotes, renumbered per page (脚式编排) | Endnotes / in-text citations off-style |
-| Policy section | ≥ 1000 characters (except pure-method papers) | Implications must land on planning / forecasting / industry decisions |
+| Policy section | ≥ 1000 characters per the 投稿须知, ≥ 1200 in numbered points per the official style sheet (except pure-method papers) | Implications must land on planning / forecasting / industry decisions |
 
 > Do **not** force a causal story onto a measurement paper. If identification is the real contribution and it is clean, route to 经济研究 / 中国经济学季刊 instead.
 

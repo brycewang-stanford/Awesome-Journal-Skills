@@ -50,7 +50,9 @@ description: Use when running the final pre-submission preflight for Cancer Cell
 
 ### Front matter & consistency
 
-- [ ] Summary within word limit; Highlights within count/length
+- [ ] Summary ≤150 words; Highlights 3–4 bullets ≤85 characters; eTOC blurb ≤50 words; title ≤145 characters
+- [ ] Main text ≤7,000 words (Article) / ≤4,000 (Report), excluding STAR Methods and References; ≤8 main figures/tables (final-file limits; initial submission is format-free)
+- [ ] Declaration of Interests form uploaded (required at initial submission); AI-use declaration section if generative AI was used in writing
 - [ ] Gene/protein nomenclature consistent across text, figures, front matter
 - [ ] Every in-text figure/table/reference citation resolves; reference style correct
 - [ ] Claims match evidence (no therapeutic claim without in vivo/human support)

@@ -33,5 +33,5 @@ INFO
   · Portal: ScholarOne Manuscripts
   · Reference style: author-date, based on the Chicago Manual of Style
 
-【Checked】abstract ≤ 100 words; ≤ 5 main-text exhibits; main text ≤ 6000 words (7000 − 200 × 5 exhibits); anonymization (double-blind); in-manuscript statements (the venue requires none; uploads listed in the portal checklist); author-year citations ↔ reference list; exhibit numbering and cross-references; table notes; abstract/introduction numbers traceable to the body or tables; placeholders, tracked changes, comments; online reference existence (Crossref; 19 checked, 1 not answered); no significance asterisks
+【Checked】abstract ≤ 100 words; ≤ 5 main-text exhibits; main text ≤ 6000 words (7000 − 200 × 5 exhibits); anonymization (double-blind); in-manuscript statements (the venue requires none; uploads listed in the portal checklist); author-year citations ↔ reference list; exhibit numbering and cross-references; table notes; abstract/introduction numbers traceable to the body or tables; placeholders, tracked changes, comments; online reference existence (Crossref; 20 checked, 0 not answered); no significance asterisks
 【Next】This is stage 0 (mechanics). Fix every FAIL, then run the readiness scorecard and the simulated referee panel (rt-submission-readiness → rt-simulated-referee).

@@ -17,19 +17,23 @@ Two structural facts drive everything in this pack:
    into the main conference, **Findings of NAACL**, or rejection.
 2. **NAACL is not annual.** The chapter stands down when the ACL main
    meeting is hosted in the Americas — there was no NAACL 2023 and no
-   NAACL 2026 (ACL 2026 met in San Diego). As of this pack's verification
-   date the next edition is **NAACL 2027**, dates and venue unannounced.
-   Planning for NAACL therefore means planning ARR timing around a
-   conference that sometimes is not there, with explicit fallbacks.
+   NAACL 2026 (ACL 2026 met in San Diego). The next edition, **NAACL 2027**,
+   is now announced: **San Francisco, June 1-5, 2027**, fed by the ARR
+   October 2026 cycle (submission October 12, 2026) with commitment by
+   December 23, 2026 — a cycle it shares with COLING 2027, so commitment
+   now means naming a primary venue. Planning for NAACL therefore means
+   planning ARR timing around a conference that sometimes is not there,
+   with explicit fallbacks.
 
 Official basis checked on **2026-07-08**: naacl.org, the NAACL 2024/2025
 edition sites and calls, the renaming vote announcements, the 2027 edition
 placeholder site, the ARR CFP and dates pages, and the ACL Anthology's
-NAACL and Findings listings. The verification gateway blocked direct
-fetches of the official domains, so facts were confirmed through
+NAACL and Findings listings. At build time the verification gateway blocked
+direct fetches of the official domains, so facts were confirmed through
 web-search renderings of exact official URLs, cross-checked against ACL
-portal announcements — the full trail, access dates, and every item still
-marked 待核实 live in
+portal announcements. **Re-verified 2026-11-24** by direct fetch: the
+NAACL 2027 site, call for papers and FAQ, and the ARR CFP and dates pages.
+The full trail, access dates, and every item still marked 待核实 live in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What is distinctly NAACL here
@@ -71,7 +75,7 @@ marked 待核实 live in
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Twelve sources with URLs and access dates, the verified fact list, the access-method note, and the 待核实 register. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Fourteen sources with URLs and access dates, the verified fact list, the access-method note, and the 待核实 register. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces plus five ordered author-side verification passes. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five Anthology-verified NAACL papers (2013-2022) as writing models, with an anti-misattribution omissions list. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional code-switched-QA abstract/introduction rebuilt from unscoped to NAACL register. |
@@ -128,22 +132,22 @@ which routes across the family honestly rather than recruiting for NAACL.
 
 ## Honesty and maintenance rules
 
-This pack was built on 2026-07-08, between NAACL editions, and says so
-rather than pretending otherwise:
+This pack was built on 2026-07-08, between NAACL editions, and was moved
+to the published NAACL 2027 call on 2026-11-24:
 
-- NAACL 2024/2025 dates and mechanics are **historical anchors** that show
-  the machine's shape; they are never presented as the next edition's
-  rules.
-- Everything unpinned — NAACL 2027 dates, venue, feeding cycles,
-  commitment deadline, theme track, presentation policy — is marked
-  **待核实** in the source map, and skills route the reader to live pages
-  at every deadline-sensitive step.
+- NAACL 2027 dates, venue, feeding cycle, commitment deadline, theme track
+  ("Language as a Medium for Agentic Communication") and presentation
+  policy now come from the live call; NAACL 2024/2025 dates and mechanics
+  remain **historical anchors** that show the machine's shape.
+- Anything still unpinned is marked **待核实** in the source map, and
+  skills route the reader to live pages at every deadline-sensitive step.
 - ARR mechanics (page budgets, checklist enforcement, preprint policy,
   cycle cadence) change between cycles; the CFP and dates pages govern,
   and this pack defers to them by construction.
-- When NAACL 2027 publishes its call, update: the source map's 待核实
-  section, the workflow skill's calendar block, the submission skill's
-  check-zero example, and this README's second structural fact.
+- When the edition after NAACL 2027 publishes its call, update: the
+  source map's edition status and 待核实 section, the workflow skill's
+  calendar block, the submission skill's check-zero example, and this
+  README's second structural fact.
 
 ## License
 

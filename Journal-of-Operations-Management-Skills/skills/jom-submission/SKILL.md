@@ -35,7 +35,7 @@ Review is double-anonymous with an asymmetric rule: author identities are shared
 
 ## Format compliance
 
-Double-spaced, single-column, 12-point, one-inch margins, numbered pages, no running headers/footers; **~40-page** guidance (over-long manuscripts are returned for streamlining); **APA** style; Wiley **Data Availability Statement** required for research/synthesis articles; ORCID linked.
+Double-spaced, single-column, 11-point, one-inch margins, numbered pages, no running headers/footers; **~40-page** guidance (over-long manuscripts are returned for streamlining); **APA** style; Wiley **Data Availability Statement** required for research/synthesis articles; ORCID linked.
 
 ## Checklist
 
@@ -45,7 +45,7 @@ Double-spaced, single-column, 12-point, one-inch margins, numbered pages, no run
 - [ ] AI / dissertation / prior-data / prior reject-and-resubmit disclosures made
 - [ ] Manuscript fully anonymized (names, affiliations, metadata, self-cites)
 - [ ] Completed JOM submission checklist attached
-- [ ] ~40 pp, double-spaced 12-pt, one-inch margins, APA, no headers/footers
+- [ ] ~40 pp, double-spaced 11-pt, one-inch margins, APA, no headers/footers
 - [ ] Similarity: single-source <1%, overall <15% (or justified in cover letter)
 - [ ] Data Availability Statement included; ORCID linked
 

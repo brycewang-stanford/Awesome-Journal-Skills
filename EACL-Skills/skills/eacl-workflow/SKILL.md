@@ -20,8 +20,9 @@ is **no fallback**. That reshapes planning around a single hard gate:
 | Milestone | EACL 2027 anchor date | Owner |
 |---|---|---|
 | ARR submission (only cycle) | August 3, 2026 | ARR |
-| Rebuttal window | in-cycle (待核实 exact dates) | Authors |
-| Meta-review | in-cycle | Action editor |
+| Author response | September 14-19, 2026 (reviewers not engaged) | Authors |
+| Author-reviewer discussion | September 20-24, 2026 | Authors + reviewers |
+| Meta-review released | October 8, 2026 | Action editor |
 | Commitment to EACL | October 11, 2026 | Authors |
 | Notification | November 12, 2026 | EACL |
 | Camera-ready | November 26, 2026 | Authors |

@@ -14,11 +14,11 @@ description: Use when applying Journal of Monetary Economics (JME) house style �
 
 ## Implementing JME style (verified specifics)
 
-- **Abstract**: **no more than 100 words**, and it **must not start with "This paper" or "We."** Open with the finding or the question instead.
+- **Abstract**: **no more than 100 words**, and it **must not start with "This paper" or "We."** Open with the finding or the question instead. (Source status, 2026-11-24: this is the JME style checklist, whose jmeonline.org host is now offline; the current Elsevier Guide for Authors caps abstracts at 250 words. Writing to 100 satisfies both.)
 - **References**: **author-date** style ("Smith (1992) reported that..."; "(e.g., Smith et al., 1969)"). **Journal titles are spelled out in full — never abbreviated.** The **reference list appears after appendices but before tables and figures.**
 - **Formatting**: manuscripts **double-spaced, 12-point type, 1-inch margins**, with **line numbers** on both submissions and final manuscripts.
 - **Notes**: use **footnotes**, numbered consecutively with **superscript Arabic numerals — not endnotes.**
-- **Keywords / classification**: up to **five keywords** and **at least one JEL (Journal of Economic Literature) classification code** are required.
+- **Keywords / classification**: up to **five keywords** and **at least one JEL (Journal of Economic Literature) classification code** are required by the JME style checklist (the Elsevier Guide allows 1-7 keywords; five or fewer satisfies both).
 - **Tables and figures**: numbered consecutively with Arabic numerals.
 - **Length**: accepted papers must not exceed **40 pages** of text/references/footnotes, with no more than **10 tables and figures** combined (online supplements exempt) — write to that target.
 - **AI declaration**: include a declaration of any use of generative AI in manuscript preparation, per Elsevier policy.

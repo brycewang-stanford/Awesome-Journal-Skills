@@ -12,16 +12,23 @@ NAACL 2023, no NAACL 2026 — so a NAACL plan is really a plan for entering
 the *ACL Rolling Review machine at a moment that leaves a NAACL commitment
 open, with named fallbacks for when the calendar shifts under you.
 
-## The calendar reality (as of 2026-07-08)
+## The calendar reality (re-verified 2026-11-24)
 
 - Most recent editions: NAACL 2024 (Mexico City, June 16-21, 2024) and
   NAACL 2025 (Albuquerque, April 29 - May 4, 2025).
-- Next edition: NAACL 2027 — site registered, but dates, venue, feeding
-  cycles, and commitment deadline all 待核实 at planning time.
-- Reference shape from 2025: ARR upload mid-October, reviews mid-December,
-  commitment around the turn of the year, final versions early February,
-  conference late April. A spring NAACL implies an autumn ARR deadline —
-  plan provisionally on that shape, verify the moment the CFP lands.
+- Current edition: **NAACL 2027, San Francisco, June 1-5, 2027**. Its call
+  names the **ARR October 2026 cycle** (submission and all-author reviewer
+  registration October 12, 2026; meta-reviews December 18, 2026; NAACL
+  commitment **December 23, 2026**; notification February 10, 2027;
+  camera-ready March 3, 2027; all 11:59 pm UTC-12). Papers reviewed in
+  earlier ARR cycles may also commit.
+- **Shared cycle with COLING 2027.** At commitment authors must name one
+  primary conference (NAACL or COLING) and may opt in to consideration by
+  the other; the primary choice cannot be changed afterwards, and the
+  "preferred venue" on the ARR form is non-binding.
+- Reference shape from 2025 still holds: ARR upload mid-October, reviews
+  mid-December, commitment around the turn of the year — NAACL 2027 simply
+  meets later (June), so final versions are due in early March.
 
 ```text
 Provisional backward plan for a spring NAACL (verify every date):

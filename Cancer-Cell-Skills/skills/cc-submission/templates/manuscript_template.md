@@ -25,14 +25,14 @@
 > Lead with the discovery. No hype words. No clinical promises beyond the data.
 
 ## Highlights
-> Short declarative bullets, each a result (~85 characters; verify current count).
+> 3–4 declarative bullets, each a result, ≤85 characters including spaces.
 - Highlight 1 — key mechanism
 - Highlight 2 — validation
 - Highlight 3 — in vivo / human relevance
 - Highlight 4 — translational implication
 
 ## eTOC blurb
-> A few sentences for a broad cancer audience, present tense ("Author et al. show that ...").
+> ≤50 words for a broad cancer audience, third person ("[Corresponding author last name] and colleagues show that ...").
 
 ## Graphical abstract
 > One panel: input → node → output in the tumor context. Minimal text; matches the data.

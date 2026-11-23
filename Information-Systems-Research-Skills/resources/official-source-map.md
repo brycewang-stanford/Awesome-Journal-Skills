@@ -2,7 +2,13 @@
 
 Canonical sources for verifying every Information Systems Research (ISR)-specific claim made in this
 skill pack. All source entries were refreshed on **2026-06-20** from official INFORMS PubsOnline pages
-and related INFORMS author resources. Re-check volatile items on the live pages before submission.
+and related INFORMS author resources. Submission limits, review mode, contribution statement, keywords
+and Editor-in-Chief **re-verified 2026-11-24**. Access method: pubsonline.informs.org serves a Cloudflare
+challenge (HTTP 403) to automated clients, so on 2026-11-24 the submission-guidelines page was read in
+full from its latest Internet Archive snapshot (captured 2025-07-31) and every number used below was
+re-confirmed against a search-engine rendering restricted to pubsonline.informs.org the same day; the
+masthead was re-confirmed the same way. No fact changed except that the INFORMS Open Option fee could not
+be re-confirmed (see UNVERIFIED below). Re-check volatile items on the live pages before submission.
 
 ## Official journal, scope & masthead
 
@@ -60,6 +66,8 @@ and related INFORMS author resources. Re-check volatile items on the live pages 
     corporate permissions must be obtained before submission; violations can withdraw the manuscript even
     after acceptance.
   - **Abstract:** no more than **300 words**.
+  - **Keywords:** selected to describe the paper's theoretical and methodological orientation (list in
+    ScholarOne Step 2) and placed **beneath the abstract** in the manuscript file (re-confirmed 2026-11-24).
   - **References:** alphabetical by author; in-text citations use author name and year.
   - **Submission portal:** ScholarOne Manuscripts at **http://mc.manuscriptcentral.com/isr**.
   - **ScholarOne steps:** Step 1 includes manuscript type, title, abstract, and two preferred Senior
@@ -90,3 +98,88 @@ and related INFORMS author resources. Re-check volatile items on the live pages 
 - Do not describe ISR data policy as a replication deposit mandate. Active source-backed guidance is data
   provenance certification plus the practical reproducibility package expected for credible empirical,
   analytical, and design-science work.
+
+## UNVERIFIED / 待核实
+
+- **INFORMS Open Option fee (US$3,000).** Still stated as US$3,000 on the 2025-07-31 archived ISR
+  guidelines, but on 2026-11-24 a search-engine rendering of the INFORMS author portal said IOO fees "vary
+  by journal", and sibling INFORMS guideline pages now show US$3,150-3,450. No ISR-specific figure could
+  be read today; confirm the amount on the live guidelines page or the acceptance invoice.
+- **Live page not fetched directly.** pubsonline.informs.org refused every automated request on
+  2026-11-24 (Cloudflare 403; Internet Archive Save Page Now also failed). The newest archived copy of
+  the guidelines dates from 2025-07-31 and lists Step 4 as "5 preferred reviewers and 2 preferred
+  Associate Editors"; the search-engine rendering of the live page on 2026-11-24 shows the fuller rule
+  recorded above (5 reviewers incl. at least 2 ERB members, 2 AEs, 2 SEs). Re-open the live page in a
+  browser before filling ScholarOne.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Information Systems Research",
+  "verified": "2026-11-24",
+  "rules": {
+    "main_text_pages_max": {
+      "value": 32,
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines",
+      "note": "32 pages of text and no more than 38 pages including all material (references, appendixes, tables, figures); Research Commentaries and Research Notes no more than 20 pages plus up to 8 pages of figures and tables"
+    },
+    "page_limit_includes_references": {
+      "value": false,
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines",
+      "note": "the 32-page cap is text only; the 38-page all-material cap includes references"
+    },
+    "abstract_words_max": {
+      "value": 300,
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines"
+    },
+    "review_mode": {
+      "value": "double-blind",
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines",
+      "note": "remove names, institutions, acknowledgments and identifying self-references"
+    },
+    "keywords_required": {
+      "value": true,
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines",
+      "note": "keywords appear beneath the abstract in the manuscript file; no count is stated"
+    },
+    "required_statements": {
+      "value": ["keywords"],
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines",
+      "note": "the contribution statement goes in the cover letter, not the manuscript"
+    },
+    "cover_letter": {
+      "value": "required",
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines",
+      "note": "must contain a contribution statement of fewer than 500 words (since June 1, 2023); papers without it do not move forward"
+    },
+    "reference_style": {
+      "value": "author-year, alphabetical by author, e.g. (Norman 1977)",
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines"
+    },
+    "template": {
+      "value": "ISR template; double-spaced including abstract, references and footnotes; standard font of at least 11 points; one-inch margins",
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines"
+    },
+    "portal": {
+      "value": "ScholarOne Manuscripts (mc.manuscriptcentral.com/isr); submitting author ORCID required",
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines"
+    },
+    "data_code_policy": {
+      "value": "Data provenance certification: authors certify the right to use the data and publish the results; required corporate or legal permissions obtained before submission; violations lead to withdrawal even after acceptance",
+      "source": "https://pubsonline.informs.org/page/isre/submission-guidelines"
+    },
+    "submission_fee": {
+      "value": null,
+      "note": "no submission fee stated on the official guidelines as of 2026-11-24"
+    },
+    "apc": {
+      "value": null,
+      "note": "optional INFORMS Open Option fee after acceptance; US$3,000 on the archived page but not re-confirmed for ISR as of 2026-11-24"
+    }
+  }
+}
+```

@@ -46,6 +46,14 @@ a worked report:
 5. **Skill-mapped fix list** — each decisive issue → pack skill + concrete action (and the
    execution-bridge call when it needs a re-run).
 
+## Inline or multi-agent?
+
+Inline (one agent plays every role) is the quick pass. Multi-agent (independent referee
+subagents plus a separate verifier) is more exhaustive. On the repository's benchmark it
+caught the one planted flaw the inline panel downgraded, and it raised more defensible
+major concerns on a clean paper. Pick multi-agent before a flagship submission. Either
+way, label the configuration in the output.
+
 ## Worked vignette
 
 *Illustrative, from the repository's benchmark fixture `jf-corporate-did` (seeded copy).*

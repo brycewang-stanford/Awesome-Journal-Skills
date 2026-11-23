@@ -12,10 +12,10 @@ description: Use when anticipating referee objections or calibrating review expe
 - Choosing JEL codes / framing that route the paper to the right co-editor
 - Unsure what the AEJ: Micro review process looks like
 
-## The AEJ: Micro process (检索于 2026-06；以官网为准)
+## The AEJ: Micro process (re-verified 2026-11-24；以官网为准)
 
-- AEJ: Micro uses **single-blind** review via the AEA submission system: the referee sees the author, but referees are anonymous to authors. There is no anonymization burden — reputation is visible, so the paper must stand on rigor.
-- There is a **submission fee** (AEA member $200 high-income / $100 middle / $0 low; nonmember higher — 检索于 2026-06，volatile), and JEL classification per AEA practice helps route the paper to the right co-editor and expert referees.
+- AEJ: Micro reviews through the AEA ScholarOne system. Its editorial-policy page still describes **single-blind** review, but since fall 2026 the AEA is running a **three-year RCT of author-anonymized review**: every submission must be anonymized (title page separate), and papers in the treatment arm reach referees with no author-identifying information. Either way, the paper must stand on rigor, not reputation.
+- There is a **submission fee** (AEA member $200 high-income / $100 middle / $0 low; nonmember higher — 检索于 2026-11-24，volatile), and JEL classification (customary per AEA practice) helps route the paper to the right co-editor and expert referees.
 - Decisions run the usual ladder: desk reject → reject after review → R&R (minor/major) → accept. Theory referees verify proofs; a flawed or non-tight proof is a common reject reason.
 - Re-confirm fee, timelines, and co-editor list on the official AEA AEJ: Micro page (see `resources/official-source-map.md`).
 
@@ -39,7 +39,7 @@ description: Use when anticipating referee objections or calibrating review expe
 - [ ] The theorem-relative delta is crisp (one sentence)
 - [ ] The broad-interest message is explicit (not specialist-only)
 - [ ] Every proof step a referee will check is complete
-- [ ] JEL codes chosen to route to the right co-editor (single-blind: no anonymization needed)
+- [ ] JEL codes chosen to route to the right co-editor; manuscript anonymized, title page separate
 - [ ] Decided the venue is right (not actually an AEJ: Applied paper)
 
 ## Anti-patterns
@@ -48,7 +48,7 @@ description: Use when anticipating referee objections or calibrating review expe
 - Relying on generality to impress when the audience-fit objection is the real risk
 - Leaving a checkable proof gap for a referee to find
 - Mis-routing via vague JEL codes so a non-expert co-editor handles it
-- Assuming anonymity protects a thin result — single-blind means the referee knows whose work it is
+- Assuming reputation (or anonymity) carries a thin result — under the RCT some referees will know the authors and some will not; only rigor works in both arms
 
 ## Worked vignette (illustrative)
 
@@ -61,7 +61,7 @@ Before submitting a matching paper, the author lists likely objections: (1) "rid
 【Load-bearing assumption defended】[Y/N]
 【Delta crisp】[Y/N]   【Broad-interest message explicit】[Y/N]
 【Proof gaps closed】[Y/N]
-【Routing】JEL codes [...] (single-blind — no anonymization)
+【Routing】JEL codes [...] (anonymized manuscript + separate title page)
 【Venue confirmed】AEJ: Micro (not AEJ: Applied)? [Y/N]
 【Next step】aejmic-submission
 ```

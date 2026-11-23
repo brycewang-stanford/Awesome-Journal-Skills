@@ -16,7 +16,7 @@ distributional reading**.
 | [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) | The objections referees actually raise, by identification strategy (DiD / IV / RDD / DML / matching / mechanism), each with its preemption. Stress-test the design before drafting. |
 | [reporting-standards](shared/empirical-methods/reporting-standards.md) | Modern inference + reporting table stakes: SE clustering, weak-IV diagnostics, multiple-testing, DiD/RDD reporting, reproducibility. |
 | [execution-with-mcp](shared/empirical-methods/execution-with-mcp.md) | **Guidance → a fitted, audited result.** Maps each design family / reviewer objection to the concrete StatsPAI / Stata MCP tools in this environment, so this pack's identification / analysis skills *run* the modern DiD / weak-IV-robust CI / multiple-testing correction and report the number. |
-| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (AEA process, single-blind, JEL, Data Editor / openICPSR, disclosure) with sourcing discipline and honest 待核实 marks. |
+| [`official-source-map.md`](official-source-map.md) | Venue-specific facts (AEA process, author-anonymized submission, JEL, Data Editor / openICPSR, disclosure) with sourcing discipline and honest 待核实 marks. |
 | [`external_tools.md`](external_tools.md) | Data sources, software, welfare/cost-benefit tooling, and process notes for this venue. |
 
 ## How to use
@@ -29,8 +29,8 @@ distributional reading**.
    ledger** the policy reading needs (see [`../skills/aejpol-theory-model/SKILL.md`](../skills/aejpol-theory-model/SKILL.md)).
 3. **Before submission** — walk the
    [reporting-standards](shared/empirical-methods/reporting-standards.md) inference audit
-   and this pack's [`official-source-map.md`](official-source-map.md) for venue requirements (single-blind
-   front matter, JEL codes, the AEA Data Editor deposit).
+   and this pack's [`official-source-map.md`](official-source-map.md) for venue requirements (anonymized
+   manuscript + title page, JEL codes, the AEA Data Editor deposit).
 
 > Method guidance in the shared hub is venue-neutral; always defer to this pack's skills and
 > [`official-source-map.md`](official-source-map.md) for what AEJ: Policy specifically requires — above

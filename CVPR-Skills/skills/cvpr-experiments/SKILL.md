@@ -64,10 +64,11 @@ A stated rule converts pretty pictures into evidence.
 
 The 2026 cycle made compute visible venue-wide via the mandatory Compute Reporting Form
 (hardware + verification sections required; deeper compute sections optional but tied
-to recognition badges). Align the paper with the form: report params, FLOPs, latency
-(named hardware, batch size, resolution), and training GPU-hours for your method *and*
-re-run baselines where you can. "Real-time" with no hardware named contradicts your own
-CRF and reviewers can now check.
+to recognition badges). The CVPR 2027 guidelines do not mention the form, but the
+expectation it set remains: report params, FLOPs, latency (named hardware, batch size,
+resolution), and training GPU-hours for your method *and* re-run baselines where you
+can. "Real-time" with no hardware named is the first thing an efficiency-minded
+reviewer attacks.
 
 ## Generalization: the second-dataset rule
 
@@ -92,8 +93,8 @@ Plan the program backward from the paper's skeleton:
 4. Reserve 15–20% of budget for rebuttal week; the most common January request is a
    small matched-setting re-run, and having compute standing by converts a weakness
    into a mini-table.
-5. Log everything into the recipe ledger (`cvpr-reproducibility`) as it runs; the CRF
-   optional sections then fill themselves.
+5. Log everything into the recipe ledger (`cvpr-reproducibility`) as it runs; the compute
+   disclosure (and any cycle's compute form) then fills itself.
 
 ## Statistical care, vision edition
 
@@ -107,7 +108,8 @@ detection, fix and disclose the exact mAP implementation.
 
 - Standard splits and evaluation-server rules for your benchmarks (some test sets are
   withheld; see `cvpr-reproducibility` for submission-server discipline).
-- CRF structure and any new compute/efficiency reporting requirements.
+- Whether a compute-reporting form returns (2026 had the CRF; 2027 states none) and any
+  new efficiency reporting requirements.
 - Benchmark leaderboard state the month before the deadline.
 - Any dataset-ethics or human-data review requirements added to the form (待核实 each
   cycle).
@@ -119,6 +121,6 @@ detection, fix and disclose the exact mAP implementation.
 [Comparison risks] unmatched: <backbone/pretrain/resolution/schedule>
 [Ablation] rows isolating single factors: <n>; transplant + sensitivity present?
 [Qualitative] selection rule stated? failures taxonomized?
-[Efficiency] params/FLOPs/latency/GPU-hours vs CRF: consistent?
+[Efficiency] params/FLOPs/latency/GPU-hours vs reported hardware (CRF in 2026): consistent?
 [Priority additions] <ordered by review impact>
 ```

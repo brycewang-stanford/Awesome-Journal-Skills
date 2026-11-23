@@ -44,8 +44,10 @@ against that manifest.
   to spot. Real flaws are more diffuse. For a run on a real paper, see
   [`../presubmission-real-preprint/`](../presubmission-real-preprint/README.md).
 - **Six fixtures is a small sample.** The rates are indicative, with wide uncertainty.
-- **The panel runs were inline.** One agent played every referee, which is the cheaper
-  of the two configurations the protocol allows. The recommended multi-agent panel runs
-  independent referees and should do at least as well. That is untested here.
+- **The main panel runs were inline.** One agent played every referee, the cheaper of the
+  two configurations the protocol allows. Two targeted runs of the recommended
+  multi-agent configuration are reported separately in RESULTS.md. That configuration
+  caught the inline panel's one miss, but it raised more major concerns on a clean
+  paper.
 - **The maintainer agent did the grading.** The grading rules are in RESULTS.md and the
   raw panel outputs are committed, so anyone can re-grade.

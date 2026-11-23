@@ -16,7 +16,7 @@ description: Use when building or revising exhibits for an AEJ: Economic Policy 
 
 - **Report standard errors (or confidence intervals), not significance asterisks/boldface.** Put SEs in parentheses below estimates; the reader judges significance from the SE/CI. This is the house convention to follow.
 - **Self-contained.** Title and notes let an exhibit be read without the text: sample, units, estimator, clustering level, what is controlled, and what the number means in policy terms.
-- **Self-contained, not anonymized.** Review is single-blind, so exhibits need not hide authorship; keep notes clean and neutral (avoid stray local file paths) for readability, not for blinding.
+- **Self-contained and anonymized.** Submissions must now be author-anonymized (AEA RCT, fall 2026), so exhibit notes must not name the authors, their institutions, identifying study sites, or personal file paths/URLs.
 - **Figures** are the workhorse for policy communication: event-study plots with CIs, RDD plots with binned means and the fitted discontinuity, dose-response or cost-benefit curves with uncertainty bands. Vector output; ≥300 dpi raster only if unavoidable; readable greyscale.
 
 ### The headline exhibit (AEJ: Policy-specific)

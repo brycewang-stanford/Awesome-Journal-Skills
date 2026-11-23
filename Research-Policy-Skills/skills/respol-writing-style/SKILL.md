@@ -27,7 +27,7 @@ RP is not a place for either pure mathematical opacity or pure narrative hand-wa
 - Signpost the contribution explicitly ("This paper contributes to [innovation-studies conversation] by showing…").
 - Name the policy/managerial stakes early so policymaking readers stay engaged.
 
-### Abstract (verify the limit on the guide for authors; ~150–250 words typical for Elsevier journals, 待核实)
+### Abstract (≤ 250 words per the Guide for Authors, re-verified 2026-11-24)
 - State the question, data/method, the actual finding (with direction), and the implication. Avoid "this paper examines" with no result.
 
 ### Body

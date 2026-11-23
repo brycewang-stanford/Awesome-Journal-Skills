@@ -231,8 +231,14 @@ class TestVenueSpecificRules(unittest.TestCase):
         self.assertTrue(any("separate upload" in r for r in ck.reminders))
 
     def test_untested_rule_is_reported_not_passed(self):
-        ck = run(self.path, {"references_max": {"value": 40}})
-        self.assertTrue(any("references_max" in n for n in ck.not_checked))
+        ck = run(self.path, {"exhibits_per_page_max": {"value": 1}})
+        self.assertTrue(any("exhibits_per_page_max" in n for n in ck.not_checked))
+
+    def test_reference_cap(self):
+        self.assertIn("LEN-REFS", checks(run(self.path, {"references_max": {"value": 2}})))
+        self.assertNotIn("LEN-REFS", checks(run(self.path, {"references_max": {"value": 3}})))
+        soft = run(self.path, {"references_max": {"value": 2, "soft": True}})
+        self.assertEqual([f.severity for f in soft.findings if f.check == "LEN-REFS"], ["FLAG"])
 
     def test_grey_literature_is_not_a_crossref_miss(self):
         ck = run(self.path, {})
@@ -242,6 +248,36 @@ class TestVenueSpecificRules(unittest.TestCase):
         doc = load(self.path, None)
         grey = [r for r in preflight.reference_entries(doc, preflight.sections(doc)) if "Working Paper" in r.text]
         self.assertEqual(len(grey), 1)
+
+
+class TestRerunDiff(unittest.TestCase):
+    def test_resolved_open_and_new(self):
+        tmp = Path(tempfile.mkdtemp())
+        try:
+            block = tmp / "rules.json"
+            block.write_text(json.dumps({"schema": "ajs-preflight-rules/1", "venue": "T", "verified": "2026-01-01",
+                                         "rules": RULES}), encoding="utf-8")
+            v1 = tmp / "v1.md"
+            v1.write_text(CLEAN_MD.replace("studies credit supply.", "studies credit supply. TODO")
+                          .replace("Rajan (2005) argues otherwise.", "Rajan (2005) and Zingales (2015) disagree."),
+                          encoding="utf-8")
+            prev = tmp / "v1.json"
+            with redirect_stdout(io.StringIO()) as out:
+                preflight.main([str(v1), "--rules-block", str(block), "--json"])
+            prev.write_text(out.getvalue(), encoding="utf-8")
+            v2 = tmp / "v2.md"   # TODO fixed, Zingales still missing, a new uncited reference
+            v2.write_text(CLEAN_MD.replace("Rajan (2005) argues otherwise.", "Rajan (2005) and Zingales (2015) disagree.")
+                          .replace("Smith, J. and K. Jones (2019). Banks. Example Review 2, 3-4.",
+                                   "Smith, J. and K. Jones (2019). Banks. Example Review 2, 3-4.\n\nZed, Q. (2018). X. Y 1, 1."),
+                          encoding="utf-8")
+            with redirect_stdout(io.StringIO()) as out:
+                preflight.main([str(v2), "--rules-block", str(block), "--json", "--compare", str(prev)])
+            d = json.loads(out.getvalue())["diff"]
+            self.assertEqual([f["check"] for f in d["resolved"]], ["LEFTOVER-MARKER"])
+            self.assertEqual([f["check"] for f in d["still_open"]], ["REF-MISSING"])
+            self.assertEqual([f["check"] for f in d["new"]], ["REF-UNCITED"])
+        finally:
+            shutil.rmtree(tmp)
 
 
 class TestOtherFormats(unittest.TestCase):
@@ -305,6 +341,23 @@ Shift is common \citep{koh2021}. We gain 3.4 points (Table~\ref{tab:main}); see 
         self.assertIn("ANON-META", got)
         self.assertIn("ANON-AUTHOR", got)
         self.assertNotIn("NUM-MISMATCH", got)
+
+    def test_docx_heading_styles_resolved_through_styles_xml(self):
+        W = 'xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"'
+        styles = (f'<w:styles {W}><w:style w:styleId="1"><w:name w:val="Normal"/></w:style>'
+                  '<w:style w:styleId="2"><w:name w:val="heading 1"/></w:style></w:styles>')
+
+        def para(text, style=""):
+            ppr = f'<w:pPr><w:pStyle w:val="{style}"/></w:pPr>' if style else ""
+            return f"<w:p>{ppr}<w:r><w:t>{text}</w:t></w:r></w:p>"
+        body = "".join([para("摘要", "2"), para("本文发现提高了2.5个百分点。", "1"), para("一、引言", "2"),
+                        para("正文提高了2.5个百分点。", "1"), para("参考文献", "2"), para("张三，李四. 2019. 研究. 经济研究.", "1")])
+        p = self.tmp / "zh.docx"
+        with zipfile.ZipFile(p, "w") as z:
+            z.writestr("word/document.xml", f'<w:document {W}><w:body>{body}</w:body></w:document>')
+            z.writestr("word/styles.xml", styles)
+        doc = load(p, None)
+        self.assertEqual([ln.text for ln in doc.lines if ln.heading], ["摘要", "一、引言", "参考文献"])
 
     def test_plain_text_rebuilds_wrapped_paragraphs(self):
         txt = ("A Title\nAnonymous\n\nAbstract\nWe find 1.5 percent.\n\n1 Introduction\n"

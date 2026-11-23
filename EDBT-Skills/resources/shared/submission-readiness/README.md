@@ -24,7 +24,7 @@ submission-readiness  →  pass the bar             (this folder; entry skill: r
 | **2 · Referee panel** | AE desk-screen + 2–3 independent referees on the venue family's review form, adversarial verification, AE synthesis | judgement | [`simulated-referee.md`](simulated-referee.md) + [`review-forms.md`](review-forms.md) |
 | **3 · Polish** | Claim-to-evidence audit, first-page test, title/abstract house style, consistency | judgement | [`prose-polish.md`](prose-polish.md) |
 | **4 · Letter & statements** | Cover letter only where policy wants one; every required statement drafted from author facts | template | [`cover-letter-and-disclosures.md`](cover-letter-and-disclosures.md) |
-| **5 · Re-run & diff** | Preflight + scorecard again on the revised file; report resolved / remaining / new | yes + judgement | `rt-submission-readiness` |
+| **5 · Re-run & diff** | `preflight.py --compare <previous.json>` on the revised file (resolved / still open / new), then the scorecard dimensions the edits touched | yes + judgement | `rt-submission-readiness` |
 
 After a real decision: [`response-to-referees.md`](response-to-referees.md).
 

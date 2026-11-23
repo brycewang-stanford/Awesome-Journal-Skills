@@ -18,8 +18,10 @@ Since the 2024 renaming — an all-member vote (September 2024) changed
 "North American" to "Nations of the Americas" — the chapter's stated
 identity spans the hemisphere. That identity shows up materially, not just
 nominally: NAACL 2024 in Mexico City ran a "Languages of Latin America"
-theme track, NAACL 2025 ran "NLP in a Multicultural World," and workshops
-like AmericasNLP (Indigenous languages of the Americas) co-locate here.
+theme track, NAACL 2025 ran "NLP in a Multicultural World," NAACL 2027
+(San Francisco, June 1-5, 2027) runs "Language as a Medium for Agentic
+Communication," and workshops like AmericasNLP (Indigenous languages of the
+Americas) co-locate here.
 None of this narrows scope — general NLP work is the bulk of every program
 — but it defines what this venue's audience uniquely rewards:
 

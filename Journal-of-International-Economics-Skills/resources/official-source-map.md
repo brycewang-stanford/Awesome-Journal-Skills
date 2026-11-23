@@ -6,7 +6,12 @@ Primary and authoritative sources behind the Journal of International Economics
 Access date for all entries: **2026-06-20**; **editor roster and submission fee
 re-verified 2026-06-22** (Editors Martin Uribe (Columbia) and Costas Arkolakis
 (Yale) confirmed current; non-refundable submission fee USD 190 / EUR 169.20 /
-JPY 20,660 confirmed unchanged). Re-check fee amounts, editor roster, policy
+JPY 20,660 confirmed unchanged). Guide for Authors rules (fee, abstract, keywords, highlights,
+review model, Short Papers, Previously-Reviewed Papers, replication) and the Editors **re-verified
+2026-11-24**: ScienceDirect refuses automated fetches from this environment (HTTP 403 bot
+challenge to curl, WebFetch and the Internet Archive), so the Guide and Editorial Board pages
+were **read via search-engine rendering restricted to sciencedirect.com on 2026-11-24**; nothing
+had changed. Re-check fee amounts, editor roster, policy
 wording, and portal links on the live pages before submitting, because journal
 pages change.
 
@@ -19,6 +24,39 @@ pages change.
 - **https://data.mendeley.com/journal/00221996** — JIE on Mendeley Data. Verifies: ISSN **0022-1996**; datasets are associated with articles published in JIE; the page lists open-access JIE replication/data records, including files for recent JIE articles.
 - **https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees** — Elsevier submission-fees policy page. Verifies: Elsevier economics/finance/accounting submission fees are treated as journal community funds; examples include JIE summer schools and the JIE Bhagwati Award.
 
+## UNVERIFIED / 待核实 (as of 2026-11-24)
+
+- **EUR 169.20 / JPY 20,660 fee equivalents** — the USD 190 / USD 95 (all-PhD-student) amounts were
+  re-confirmed 2026-11-24, but the EUR and JPY equivalents did not surface in search-engine rendering
+  and are carried from the 2026-06-22 reading.
+- **Co-Editor roster** — only the two Editors (Uribe, Arkolakis) and the 69-member / 10-country board
+  count were re-confirmed 2026-11-24; the named Co-Editor list is carried from 2026-06-20.
+- **Generative-AI and declaration wording** in the Guide (competing interests, data statement) — not
+  read 2026-11-24 because the live page is blocked; JIE follows Elsevier's standard policies.
+
 ## Secondary context
 
 - **https://arkolakis.com/activities/journal-of-international-economics/** — Costas Arkolakis's professional activity page. Use only for context not stated in the Guide: historical regular-submission acceptance rate around **10-15%**, desk rejects around **25%**, and the advice to suggest a (Co-)Editor that fits the paper profile. The page says it was last updated February 18, 2025 and represents the author's views.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Journal of International Economics",
+  "verified": "2026-11-24",
+  "rules": {
+    "abstract_words_max": {"value": 150, "source": "https://www.sciencedirect.com/journal/journal-of-international-economics/publish/guide-for-authors"},
+    "keywords_min": {"value": 1, "source": "https://www.sciencedirect.com/journal/journal-of-international-economics/publish/guide-for-authors"},
+    "keywords_max": {"value": 7, "source": "https://www.sciencedirect.com/journal/journal-of-international-economics/publish/guide-for-authors"},
+    "review_mode": {"value": "single-blind", "source": "https://www.sciencedirect.com/journal/journal-of-international-economics/publish/guide-for-authors#peer-review", "note": "single anonymized; typically at least two reviewers"},
+    "main_text_words_max": {"value": null, "note": "no limit for regular submissions; Short Papers only: at most 6,000 words and 5 exhibits, with a separate word-count PDF"},
+    "submission_fee": {"value": "USD 190 non-refundable (USD 95 when all authors are PhD students); VAT for relevant European authors", "source": "https://www.sciencedirect.com/journal/journal-of-international-economics/publish/guide-for-authors"},
+    "data_code_policy": {"value": "all results replicable; programs and data sets needed for replication made available at the JIE secure repository", "source": "https://www.sciencedirect.com/journal/journal-of-international-economics/publish/guide-for-authors"},
+    "required_statements": {"value": [], "source": "https://www.sciencedirect.com/journal/journal-of-international-economics/publish/guide-for-authors", "note": "highlights and graphical abstract are encouraged, not required; Elsevier declaration wording not re-read 2026-11-24 (see UNVERIFIED)"},
+    "jel_codes_required": {"value": null, "note": "not stated on the official pages as of 2026-11-24"}
+  }
+}
+```

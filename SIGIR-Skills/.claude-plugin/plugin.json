@@ -1,6 +1,6 @@
 {
   "name": "sigir-skills",
-  "description": "A 12-skill depth pack for SIGIR, the ACM flagship information-retrieval conference: track and topic routing, dual full/short-paper submission audits, IR evaluation and significance-testing rigor, test-collection and artifact packaging, the separate Resources and Reproducibility tracks, review-phase strategy, and ACM TAPS camera-ready production. Grounded in the SIGIR 2026 (49th, Melbourne) cycle pages checked on 2026-07-08.",
+  "description": "A 12-skill depth pack for SIGIR, the ACM flagship information-retrieval conference: track and topic routing, dual full/short-paper submission audits, IR evaluation and significance-testing rigor, test-collection and artifact packaging, the separate Resources and Reproducibility tracks, review-phase strategy, and ACM TAPS camera-ready production. Grounded in the SIGIR 2027 (50th, San Jose) call pages checked on 2026-11-24.",
   "version": "1.2.0",
   "author": {
     "name": "Bryce Wang",

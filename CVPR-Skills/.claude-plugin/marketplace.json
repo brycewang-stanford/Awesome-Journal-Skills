@@ -15,7 +15,7 @@
       "name": "cvpr-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve CVPR-specific skills covering the full cycle of the largest computer-vision conference — submission, review at 16k-paper scale, rebuttal, artifacts, and publication — grounded in official CVPR 2026 author/reviewer pages checked 2026-07-08.",
+      "description": "Twelve CVPR-specific skills covering the full cycle of the largest computer-vision conference — submission, review at 16k-paper scale, rebuttal, artifacts, and publication — grounded in official CVPR 2027 author/reviewer pages re-checked 2026-11-24.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

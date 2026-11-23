@@ -6,9 +6,11 @@ description: Use when drafting an AAAI author response (rebuttal) under the sing
 # AAAI Author Response
 
 Use this after AAAI reviews are released. AAAI rebuttal space is scarce: the AAAI-26 FAQ allowed a
-single 2500-character response, disallowed URLs, and discouraged new results. **AAAI-27 has not yet
-published its own rebuttal FAQ** — its author feedback window is 2026-10-19 to 10-25 — so treat those
-limits as the prior cycle's shape and reopen the current FAQ before drafting.
+single 2500-character response, disallowed URLs, and discouraged new results. **AAAI-27 has not
+published its own rebuttal FAQ** (its path still 404s on 2026-11-24) — its author feedback window
+is 2026-10-19 to 10-25 per the review-process page, although the AAAI-27 timetable also prints
+October 24-31, 2026 — so treat those limits as the prior cycle's shape and reopen the current FAQ
+before drafting.
 
 ## Triage
 

@@ -9,8 +9,8 @@ community's standard.
 
 | Resource | Use it to... |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Confirm every SIGIR 2026 fact used in this pack — URL, access date, what was verified, what stayed 待核实 — before giving deadline- or policy-sensitive advice. |
-| [`external_tools.md`](external_tools.md) | Open the per-track pages, OpenReview groups, ACM authoring pipeline, and the IR tooling stack (trec_eval, ir_measures, ir_datasets, Anserini/PyTerrier). |
+| [`official-source-map.md`](official-source-map.md) | Confirm every SIGIR 2027 fact used in this pack (SIGIR 2026 kept as history) — URL, access date, what was verified, what stayed 待核实 — before giving deadline- or policy-sensitive advice. |
+| [`external_tools.md`](external_tools.md) | Open the per-track pages, submission systems (OpenReview / EasyChair), ACM authoring pipeline, and the IR tooling stack (trec_eval, ir_measures, ir_datasets, Anserini/PyTerrier). |
 | [`exemplars/library.md`](exemplars/library.md) | Position against DOI-verified SIGIR papers (Ponte & Croft → ColBERT → LightGCN) and dodge the venue-misattribution traps (DPR=EMNLP, ANCE=ICLR, NCF=WWW). |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a fictional before/after rewrite into the SIGIR first-page arc: task + regime → mechanism failure → move → calibrated evidence. |
 | [`code/README.md`](code/README.md) | Adapt the shared ML-conference reproducibility kit to IR: run-file coverage, one-command scoring, significance scripts, index-recipe pinning. |

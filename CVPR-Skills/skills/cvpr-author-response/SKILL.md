@@ -5,10 +5,11 @@ description: Use when planning or drafting the CVPR one-page rebuttal after revi
 
 # CVPR Author Response
 
-Use this when CVPR reviews land. In the 2026 cycle, reviews reached authors on
-January 22 and the rebuttal closed January 29, with reviewer–AC discussion running
-January 30 – February 5 and decisions on February 20. One week, one page — the format
-is the strategy.
+Use this when CVPR reviews land. For CVPR 2027, reviews reach authors on January 25,
+2027 and author rebuttals are due February 1, 2027, with reviewer responses and
+AC–reviewer discussion through February 5 and decisions on February 25 (in the 2026
+cycle: January 22, January 29 and February 20). One week, one page — the format is the
+strategy.
 
 ## What the one page legally is
 
@@ -22,6 +23,8 @@ the official author kit. Two rules from the Author Guidelines carry teeth:
   is explicitly *not* for new contributions or unrequested new experiments, reviewers are
   told not to demand significant new experiments, and it must stay anonymous with **no
   links to external material** (no anonymous repos, no video URLs, no project pages).
+  The prompt-injection ban applies to rebuttals too (CVPR 2027 Author Guidelines), and a
+  separate confidential comment to the AC is reserved for exceptional circumstances.
 
 That last clause surprises people arriving from venues with revision uploads: at CVPR
 you cannot attach anything. If a number matters, it goes in the page as a sentence or a
@@ -52,7 +55,7 @@ entirely reads as concession in the discussion phase.
 \section*{Shared concerns (R1, R3): fairness of the baseline comparison}
 % one paragraph + mini-table with matched-backbone numbers
 \section*{R1: reported speed}
-% cite Sec. 4.2 line refs; give ms/frame on the named GPU from the CRF hardware
+% cite Sec. 4.2 line refs; give ms/frame on the named GPU from the reported hardware
 \section*{R2: missing citation [Foo 2025]}
 % concede, state the delta in one sentence, promise camera-ready citation
 \section*{R3: qualitative failures}
@@ -115,7 +118,9 @@ requested numbers.
 - Rebuttal existence, length cap, and template — chairs have restructured response
   formats at CVF venues before.
 - Exact window dates and whether reviewer–author discussion (beyond one PDF) exists.
-- Whether revision uploads or supplement updates are permitted (they were not in 2026).
+- Whether revision uploads or supplement updates are permitted (they were not in 2026,
+  and the 2027 guidelines allow only the one-page PDF plus an exceptional confidential
+  AC comment).
 
 ## Output format
 

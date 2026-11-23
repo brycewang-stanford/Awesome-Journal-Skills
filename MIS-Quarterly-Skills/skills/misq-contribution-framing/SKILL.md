@@ -10,7 +10,7 @@ description: Use when turning results or a built artifact into an explicit contr
 - Results exist (or the artifact is evaluated) but the "so what for IS" is thin
 - A Senior Editor or reviewer calls the contribution "incremental" or "a technical exercise"
 - Your discussion lists findings without saying what changed in the IS knowledge base
-- You need a contribution statement strong enough to justify a 50–65 page slot
+- You need a contribution statement strong enough to justify a 55–65 page slot
 
 ## State the contribution in the currency of your tradition
 

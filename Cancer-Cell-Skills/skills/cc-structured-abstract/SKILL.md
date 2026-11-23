@@ -14,7 +14,7 @@ description: Use when writing the Cancer Cell (Cell Press) front matter — the 
 
 ## The Summary (abstract)
 
-Cell Press uses a single-paragraph **Summary** (verify the current word limit on the author page). Structure it as a tight mechanistic arc:
+Cell Press uses a single-paragraph **Summary** — **150 words or fewer** per the Cancer Cell Final File Requirements (re-verified 2026-11-24). Structure it as a tight mechanistic arc:
 
 1. **Context / gap** — the cancer problem and the unknown (1 sentence).
 2. **Approach** — the systems used (cells / in vivo / human), at a high level.
@@ -26,16 +26,16 @@ Lead with the discovery, not the background. Name the molecule/axis and the canc
 
 ## Highlights
 
-- Provide the required number of short bullets (commonly four; verify current count), each ~85 characters.
+- Provide **3–4** short bullets, each **no more than 85 characters including spaces** (Final File Requirements, re-verified 2026-11-24).
 - Each highlight is a **result**, not a method or aim.
 - Order them as a mini-story: key mechanism → validation → translational point.
 - Make them specific and declarative ("X drives Y via Z in pancreatic tumors"), not vague ("X plays a role").
 
 ## eTOC blurb
 
-- One short paragraph (a few sentences) written for a broad cancer audience.
+- One short paragraph of **no more than 50 words**, written for a broad cancer audience in plain language.
 - Third person, present tense; names the authors' key finding and why it matters.
-- Often written as "Author et al. show that ..." — confirm the current style.
+- The Final File Requirements ask it to refer to "[Corresponding Author Last Name] and colleagues".
 - No abbreviations that a non-specialist would not know.
 
 ## Graphical abstract

@@ -29,7 +29,7 @@ AEJ: Policy is an AEA journal and follows the **AEA Data and Code Availability P
 - Note any partial-reproducibility scope (e.g., one table from confidential data) in the README.
 
 ### Code posting during review
-Review is single-blind, so the submission need not be anonymized; the openICPSR deposit is prepared at acceptance. Posting a working-paper code repository earlier is fine and does not conflict with the review process.
+Submissions must now be author-anonymized (AEA RCT, fall 2026), so do not link a personal or institutional code repository from the manuscript; the openICPSR deposit is prepared at acceptance. The guidelines do not address posting working-paper code elsewhere — just keep links to it out of the anonymized submission.
 
 ## Checklist
 

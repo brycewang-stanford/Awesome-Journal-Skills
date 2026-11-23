@@ -32,15 +32,24 @@ seeded-defect benchmark and publishes the misses.
   numbers to the tables, and flags placeholders, tracked changes and Word comments.
   Every finding carries a location and the pack skill that owns the fix. Rules the
   venue does not state are reported as *not checked*, never passed.
+  - **Re-runs:** `--compare previous.json` turns a re-run into a diff of resolved,
+    still-open and new findings (stage 5).
+  - **Reference cap:** `references_max` is enforced.
+  - **Word:** heading styles are resolved through `styles.xml`, so Chinese-locale Word
+    files work.
+  - **PDF:** two-column papers are detected from their gutter and extracted in stream
+    order. The PDF reader also handles AMA/Vancouver and corporate-author references,
+    Chinese headings and references, URLs and table notes broken across lines, and a
+    missing citation rendered as "(?)".
 - **Machine-readable venue rules.** A `ajs-preflight-rules/1` JSON block at the end of
   each pack's `official-source-map.md` is compiled into
   `shared-resources/submission-readiness/venue-rules.json` by `tools/venue_rules.py`.
   `--check` fails when a block disagrees with its own prose: a number absent from the
-  prose, an uncited source, or a different verification date. 46 venue packs were
-  re-verified against their official pages on 2026-11-23 and received blocks, covering
-  the economics and finance flagships, management and marketing, the AI conferences
-  with the nearest deadlines, the science and medicine flagships, and five Chinese
-  top journals.
+  prose, an uncited source, or a different verification date. **94 venue packs** were
+  re-verified against their official pages and received blocks: 46 on 2026-11-23 and 48
+  on 2026-11-24. They cover economics and finance (flagships and field journals),
+  management, marketing, accounting, IS/OM, sociology and political science, the AI
+  conferences, the science and medicine flagships, and twelve Chinese journals.
 - **Pipeline documents:** `review-forms.md` gives the review form each venue family
   actually uses, read from the official NeurIPS and ARR pages and CONSORT 2025,
   SPIRIT 2025 and PRISMA 2020. `prose-polish.md` covers the claim-to-evidence audit,
@@ -51,6 +60,12 @@ seeded-defect benchmark and publishes the misses.
   each with 12 planted defects and a clean twin, in `tools/tests/fixtures/manuscripts/`.
   It is asserted in CI for preflight and measured by hand for the panel; results are in
   `showcase/presubmission-benchmark/`.
+  - **Formats:** preflight catches 45/47 with zero false alarms on clean controls as
+    source, as PDF (single- and two-column) and as Word.
+  - **Panel:** the inline panel keeps 23/24 planted substantive flaws as major. Two
+    targeted multi-agent runs caught its one miss, but raised more concerns on a clean
+    paper.
+  - **Fixture v2:** fixes the genuine errors the panel found in three "clean" fixtures.
 - **`tools/vendor_shared.py`:** every shared bundle a pack links to is copied into
   `<Pack>/resources/shared/`, byte-identical across packs and checked in CI. The
   Research Toolkit also carries `resources/preflight/`, with preflight and the compiled
@@ -89,8 +104,19 @@ seeded-defect benchmark and publishes the misses.
   - JPE portal: Editorial Manager.
   - RFS data-and-code policy and fees.
   - 《世界经济》 limits had been taken from a different journal's page.
-  - ICML, IJCAI, KDD, ACL, COLT, AISTATS, ICSME and IMC moved to their 2027 editions.
+  - ICML, IJCAI, KDD, ACL, COLT, AISTATS, ICSME, IMC, CVPR, NAACL, SIGIR and DAC
+    moved to their 2027 editions. DAC 2027 switched to IEEE templates, which settles
+    an ACM/IEEE conflict the map had flagged.
   - 9 dead citations repaired, plus IMC's dead link.
+  - Second-tranche corrections, for example:
+    - JAE's submission portal pointed at a different journal;
+    - 《经济学(季刊)》 does charge submission and review fees;
+    - 《南开管理评论》 keyword and length limits;
+    - MISQ page limits, and JOM's 11-point font rule;
+    - the PRL word-count scope and APC;
+    - three AEJs now require anonymized submissions;
+    - mastheads at Review of Finance, JFQA, JDE, Journal of Econometrics, M&SOM, JAR
+      and AMR.
 
 ### Earlier in this release (2026-08 → 2026-09)
 

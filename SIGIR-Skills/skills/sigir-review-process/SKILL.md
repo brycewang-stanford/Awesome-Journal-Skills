@@ -1,28 +1,30 @@
 ---
 name: sigir-review-process
-description: Use when reasoning about how SIGIR evaluates submissions — the per-track OpenReview machinery, double-blind full/short review versus single-anonymous Resources review, the PC-member nomination duty, what IR reviewers score (evaluation validity above novelty claims), the ACM Peer Review Policy layer, and how decisions land.
+description: Use when reasoning about how SIGIR evaluates submissions — the per-track OpenReview/EasyChair machinery, double-blind full-paper review versus single-anonymous Resource and Demonstration review, the author-as-reviewer duty, what IR reviewers score (evaluation validity above novelty claims), the ACM Peer Review Policy layer, and how decisions land.
 ---
 
 # SIGIR Review Process
 
-SIGIR review is track-partitioned: each track (full, short, resources,
-reproducibility, perspectives, industry, ...) runs its own OpenReview group with its
-own reviewer pool, anonymity regime, and calendar. Advice that treats "SIGIR review"
+SIGIR review is track-partitioned: each track (full, short, resource,
+reproducibility and replicability, perspectives, demonstrations, industry, ...) runs its
+own submission venue (SIGIR 2027: OpenReview for full papers, EasyChair for Resource,
+R&R and Perspectives) with its own reviewer pool, anonymity regime, and calendar. Advice that treats "SIGIR review"
 as one process misroutes authors. This skill models the machinery and the reviewer
 psychology; exact per-cycle mechanics (rebuttal windows, score scales, meta-review
-forms) were not publicly verifiable for 2026 and must be read off your own
+forms) are not stated in the SIGIR 2027 full-paper call and must be read off your own
 submission's OpenReview timeline (待核实).
 
 ## The machinery
 
-| Element | What was verified for 2026 | What to confirm per cycle |
+| Element | What was verified for SIGIR 2027 (2026-11-24) | What to confirm per cycle |
 |---|---|---|
-| Platform | OpenReview, per-track venue groups | Group id for your track |
-| Full/short anonymity | Double-blind, fully anonymized | Preprint policy details |
-| Resources anonymity | **Single-anonymous** (reviewers see authors) | — |
-| Reviewer sourcing | Full-paper teams nominate one author as PC member per submission | Whether shorts/other tracks share the duty |
-| Policy layer | ACM Peer Review Policy; automated compliance checks reserved | Cycle-specific screening tools |
-| Decision structure | Not extractable | Rebuttal? meta-reviews? conditional accepts? |
+| Platform | OpenReview (full papers); EasyChair (Resource, R&R, Perspectives) | Group/track id for your track |
+| Full-paper anonymity | Double-anonymous; anonymous code repositories only | Preprint policy (page TBA) |
+| Resource / Demo anonymity | **Single-anonymous** (reviewers see authors) | — |
+| Reviewer sourcing | One author per submission agrees to review (a different author per submission); Resource papers nominate a reviewer | Short-paper rules (call TBA) |
+| Review load | At least three PC members and a senior PC member per full paper | Score scale |
+| Policy layer | ACM Peer Review Policy; Chair for Integrity and Robustness runs automated checks; LLM-generated reviews flagged "highly irresponsible" | Cycle-specific screening tools |
+| Decision structure | Notification April 5, 2027; Resource track has no rebuttal | Full-paper rebuttal? meta-reviews? |
 
 The PC-nomination duty has a strategic edge authors miss: your nominated author will
 review *other* SIGIR submissions during your own paper's review window. Nominate

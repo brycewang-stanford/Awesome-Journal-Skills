@@ -16,7 +16,7 @@ description: Use when running the final pre-submission preflight for the Journal
 
 - JME is published by **Elsevier**; submission is through **Elsevier Editorial Manager** at `editorialmanager.com/monec/` (not a generic portal).
 - **Submission fee**: **US$350** for unsolicited new manuscripts; **US$200 for full-time PhD students.** Payment is **required at submission** — a manuscript is **only considered after payment.** **No fee** for revised/resubmitted manuscripts. If a paper is **desk-returned without full review** (≈ within 3 months), **half the fee is refunded.**
-- **Review**: **single anonymized** (single-blind) — do **not** anonymize the manuscript. Typically sent to **at least two reviewers**. The first revision is **"up or out."**
+- **Review**: **single anonymized** (single-blind) — do **not** anonymize the manuscript (re-confirmed 2026-11-24). Typically sent to **at least two reviewers** per the earlier Guide reading (not re-confirmed 2026-11-24; an EIC interview describes typically one referee). The first revision is **"up or out."**
 - **Length cap (accepted papers)**: **≤ 40 pages** of text/references/footnotes and **≤ 10 tables and figures combined**; online supplements are exempt — design for this now.
 - **Editors**: S. Borağan Aruoba (Maryland) and Eric Swanson (UC Irvine).
 
