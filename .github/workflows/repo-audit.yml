@@ -17,8 +17,12 @@ jobs:
   # Python is already there. 3.9 is the oldest version the whole suite passes on, and
   # it is in the matrix so that stays a fact rather than a hope: a 3.10+ syntax slipped
   # into a maintenance script would otherwise only surface on a contributor's machine.
+  #
+  # Pinned to ubuntu-24.04: ubuntu-latest moved to 26.04 in November 2026, for which
+  # actions/setup-python publishes no 3.9 build (the job failed in setup, before any
+  # check ran). Move the pin when 3.9 is dropped from the matrix.
   audit:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
