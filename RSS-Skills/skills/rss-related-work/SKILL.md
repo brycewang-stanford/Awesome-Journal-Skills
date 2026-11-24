@@ -37,7 +37,7 @@ not 30. Everything else earns at most a grouped citation.
 
 ## arXiv concurrency in a fast field
 
-Robot learning moves preprint-first, so the January deadline lands amid unrefereed
+Robot learning moves preprint-first, so the deadline (December 4 for the RSS 2027 Stage 1) lands amid unrefereed
 neighbors:
 
 - **Cite visible preprints neutrally.** A same-quarter arXiv paper with your idea is

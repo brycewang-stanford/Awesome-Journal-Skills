@@ -1,6 +1,6 @@
 ---
 name: sigmod-artifact-evaluation
-description: Use when preparing a SIGMOD paper's code and data for the Availability & Reproducibility Initiative (ARI), covering the post-acceptance opt-in, HotCRP artifact registration, the Artifacts Available / Artifacts Evaluated / Results Reproduced badges, evaluator criteria, and the Best Artifact award path.
+description: Use when preparing a SIGMOD paper's code and data for the Availability & Reproducibility Initiative (ARI), covering the post-acceptance opt-in, HotCRP artifact registration, the Artifacts Available / Artifacts Evaluated - Reusable / Results Reproduced badges, evaluator criteria, and the Best Artifact award path.
 ---
 
 # SIGMOD Artifact Evaluation
@@ -19,7 +19,7 @@ before promising a timeline.
 | Badge | What evaluators must confirm | Typical blocker |
 |---|---|---|
 | Artifacts Available | Code, data, scripts, notebooks reachable at a stable public location | Link rot; "email us for the dataset" |
-| Artifacts Evaluated | Package is exercisable and well documented | Undocumented cluster assumptions |
+| Artifacts Evaluated - Reusable | Package is exercisable and well documented | Undocumented cluster assumptions |
 | Results Reproduced | Key results of the paper independently regenerated | Figures that need hand-tuned steps |
 
 Aim explicitly at one rung. A package engineered for Results Reproduced looks
@@ -28,10 +28,12 @@ tables constitute the "key results" and drives each one end to end.
 
 ## What ARI evaluators grade
 
-The initiative's stated criteria are **coverage** (how much of the paper the
-artifact backs), **ease of reproducibility** (how little effort a rerun
-takes), **flexibility** (can parameters, workloads, and datasets be varied),
-and **portability** (does it run beyond the authors' exact machine). Database
+The Best Artifact criteria on `reproducibility.sigmod.org` (re-read
+2026-11-24) are **reproducibility** (ideally all results can be verified —
+read it as coverage of the paper's claims), **ease of reproducibility** (ideally
+it "just works"), **portability** (Linux, Mac, Windows), and **replicability**
+(change workloads, queries, and data and still see the published behaviour —
+the flexibility test). Database
 artifacts fail these in predictable ways:
 
 - Coverage: the artifact rebuilds microbenchmarks but not the headline

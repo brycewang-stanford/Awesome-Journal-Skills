@@ -8,29 +8,35 @@ description: Use when planning a EuroSys campaign end to end — choosing betwee
 Use this as the project plan around a EuroSys submission. The venue's calendar
 is its most distinctive constraint: one April conference fed by two
 submission gates roughly four months apart. Dates below are the EuroSys 2027
-cycle as rendered on 2026-07-08 (`2027.eurosys.org/cfp.html`); re-pull the live
+cycle as re-verified on 2026-11-24 (`2027.eurosys.org/cfp.html`); re-pull the live
 CFP before committing the team to any of them.
 
 ## The 2027 board
 
-| Milestone | Date | Status on 2026-07-08 |
+| Milestone | Date | Status on 2026-11-24 |
 |---|---|---|
 | Spring abstracts / papers | May 7 / May 14, 2026 | Closed |
-| Spring notification | August 21, 2026 | ~6 weeks away |
-| Fall abstracts / papers | September 17 / 24, 2026 | ~10 / 11 weeks away |
+| Spring reviews / responses / notification | July 29 / July 31 / August 21, 2026 | Done |
+| Spring artifacts / camera-ready | August 31 / September 25, 2026 | Done |
+| Fall abstracts / papers | September 17 / 24, 2026 | Closed |
+| Fall reviews / responses due | January 6 / January 8, 2027 | ~6 weeks away |
 | Fall notification | January 29, 2027 | — |
-| Camera-ready (both cohorts) | ~March 5, 2027 (third-party, 待核实) | — |
-| Conference, Rabat, Morocco | April 19–23/24, 2027 (end date 待核实) | — |
+| Fall artifacts / camera-ready | February 8 (to be confirmed) / March 5, 2027 | — |
+| Conference, Rabat, Morocco | April 2027 (official page: April 19—22 and "April 19 to 23"; end date 待核实) | — |
 
-So a team starting today has one live target: the fall gate. A team with a
-spring submission under review is in the quiet zone — the right use of that
-zone is artifact preparation and boundary experiments, both of which pay off
-regardless of the August outcome.
+So a team starting today has no open EuroSys 2027 gate: the next target is the
+**EuroSys 2028 spring round**, whose call was not published on 2026-11-24 (the 2028
+site did not serve a page). A team with a fall submission under review is in the
+quiet zone — pre-draft the two-day response, and use the rest for artifact
+preparation and boundary experiments, both of which pay off regardless of the
+January outcome.
 
-## Backward plan to the fall paper gate (Sep 24, 2026)
+## Backward plan to a paper gate (template: the fall 2027 gate, Sep 24, 2026)
+
+Shift these offsets onto the next gate once its date is published.
 
 ```text
-T-10w  now      System feature-frozen for the paper's claims; eval matrix written
+T-10w  mid Jul  System feature-frozen for the paper's claims; eval matrix written
 T-8w   late Jul Decomposition + cost experiments running nightly; plots automated
 T-6w   mid Aug  Full draft exists in acmart[sigplan] review mode; internal read #1
 T-4w   late Aug Boundary/worst-case runs done; related-work sweep incl. dblp pass
@@ -48,11 +54,11 @@ them for bidding, not as placeholders.
 
 - **Accept** → camera-ready lane (ACM forms, final build) plus the sysartifacts
   artifact lane in parallel; they contend for the same people, so name owners.
-- **One-shot revision** → the condition list becomes the plan of record; the
-  resubmission target is the next round's gate. Feasibility call within one
+- **Revise-and-resubmit** → the list of concerns becomes the plan of record; the
+  resubmission target is the following cycle's gate. Feasibility call within one
   week (see `eurosys-author-response`).
-- **Reject** → the same round next edition is the earliest legal EuroSys
-  return. Decide between a genuine year of strengthening or retargeting a
+- **Reject** → the paper is ineligible for the immediately following cycle, so the
+  same round next edition is the earliest legal EuroSys return. Decide between a genuine year of strengthening or retargeting a
   sibling venue whose next deadline fits the work's maturity
   (`eurosys-topic-selection` has the routing table).
 
@@ -75,8 +81,9 @@ notification is ~14 weeks). Teams that treat them as vacations pay later:
   AE and camera-ready will collide with each other after notification.
 - **Boundary experiments:** the worst-case runs cut on deadline week are
   exactly what a revision condition list will demand — run them anyway.
-- **Preprint and talk policy:** decide, against the round's anonymity
-  wording (待核实), what can be presented publicly while under review.
+- **Preprint and talk policy:** the 2027 CFP allows arXiv, talks and posts during
+  review only under a substantially different title and system name — decide the
+  public name before anything goes out.
 - **Next-gate insurance:** keep the evaluation harness runnable; if the
   outcome is a revision, the conditions arrive with a four-month fuse.
 

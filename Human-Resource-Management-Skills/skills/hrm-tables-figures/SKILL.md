@@ -39,7 +39,7 @@ HRM follows management/applied-psychology table norms (APA-aligned house style).
 - Self-contained titles and notes: a reader should understand each exhibit without the text (N, level, what significance markers mean, abbreviations defined).
 - Consistent decimals (typically two) and consistent variable names across all tables and the text.
 - Report **effect sizes and CIs**, not only stars; do not let asterisks substitute for interpretation.
-- Place exhibits per Wiley/ScholarOne submission conventions; keep figures legible in greyscale.
+- Place exhibits per Wiley Research Exchange submission conventions; keep figures legible in greyscale.
 
 ## Execution bridge (StatsPAI / Stata MCP)
 

@@ -8,8 +8,8 @@ description: Use when planning a MICRO campaign end to end — the April-to-Athe
 MICRO owns the **autumn slot** of computer architecture's four-venue year: an early
 April deadline feeding an end-of-October symposium. Because the four sibling venues
 interleave, a MICRO plan is really a lattice plan — every outcome has a next move
-within roughly four months. Dates below verified 2026-07-08; every one is a
-single-cycle snapshot.
+within roughly four months. MICRO dates below verified 2026-07-08 and
+re-verified 2026-11-24; every one is a single-cycle snapshot.
 
 ## The 2026 cycle clock (59th edition, Athens)
 
@@ -22,20 +22,26 @@ single-cycle snapshot.
 2026-10-31 → 11-04  symposium, Athens, Greece
 ```
 
-As of this pack's check date (2026-07-08), the 2026 cycle had **just issued
-decisions** — the live work is camera-ready + AE for accepts, and lattice routing
-for rejects. The next MICRO submission opportunity is the 2027 cycle, expected in
-the same early-April position (待核实 when `microarch.org` posts it).
+When this pack was first built (2026-07-08) the 2026 cycle had **just issued
+decisions**. As of the 2026-11-24 re-check, MICRO 2026 has met (Athens, Oct 31 –
+Nov 4). The next MICRO submission opportunity is MICRO 2027 (the 60th), which is
+**not yet announced** — `microarch.org` lists no MICRO-60 page, location, dates or
+call — so its deadline is assumed to sit in the same early-April position (待核实
+when `microarch.org` posts it).
 
 ## The four-venue calendar from MICRO's seat
 
 | Venue | Deadline (verified for cycle shown) | Conference | Use it when |
 |---|---|---|---|
-| **MICRO 2026** | Apr 7, 2026 (closed) | Oct 31–Nov 4, 2026, Athens | Mechanism-centric core work |
+| **MICRO 2026** | Apr 7, 2026 (closed; met) | Oct 31–Nov 4, 2026, Athens | Mechanism-centric core work |
 | HPCA 2027 | **July 24, 2026** | March 2027, Salt Lake City | Fastest next slot after a MICRO reject — 17 days after notification |
 | ASPLOS 2027 | Sept 9, 2026 (2nd of two; Apr 15 passed) | April 2027, Crete | Reviews said "the interesting part is the software interaction" |
 | ISCA 2027 | abstracts Nov 10 / papers **Nov 17, 2026** | June 2027, Atlanta | Four months of repair headroom; broadest architecture audience |
-| MICRO 2027 | ~April 2027, 待核实 | autumn 2027 | Full-year rework or a new project |
+| MICRO 2027 | ~April 2027, 待核实 (not announced as of 2026-11-24) | autumn 2027 | Full-year rework or a new project |
+
+The sibling rows are the 2026-07-08 snapshot: by 2026-11-24 the HPCA, ASPLOS and
+ISCA 2027 deadlines above have all passed, so re-open each venue's live page for its
+next cycle before routing a paper.
 
 The rhythm to internalize: **architecture deadlines cluster in April
 (MICRO, ASPLOS-1st), July (HPCA), September (ASPLOS-2nd), and November (ISCA)** —
@@ -84,8 +90,9 @@ Fri   risk register walk (table above) + one live-page re-verification
 ## Outcome branches (July 7 has happened)
 
 - **Accepted:** run `micro-camera-ready` and `micro-artifact-evaluation` as
-  parallel tracks converging on September 11; book Athens logistics once
-  attendance rules are confirmed (待核实 on `micro59/attend/`).
+  parallel tracks converging on September 11 (also the 2026 author-registration
+  deadline, AoE); book travel once the edition's attendance rule is confirmed —
+  the 2026 site stated none (待核实).
 - **Rejected, methodology wounds:** the HPCA July 24 window is realistically only
   for papers whose fixes are textual; simulation repairs point at ISCA Nov 17.
 - **Rejected, "not microarchitectural enough":** ASPLOS Sept 9 with a cross-layer

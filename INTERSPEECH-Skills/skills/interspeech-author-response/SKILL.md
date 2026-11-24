@@ -1,15 +1,16 @@
 ---
 name: interspeech-author-response
-description: Use when INTERSPEECH reviews arrive on CMT and a rebuttal is due — triaging three-or-more speech reviewers with mixed science/engineering instincts, answering WER/MOS evidence doubts with material already in the 4-page record, keeping replies anonymous, and writing for the meta-reviewer who decides in June.
+description: Use when INTERSPEECH reviews arrive and a rebuttal is due (13–20 April 2027; 24 April – 1 May in 2026) — triaging three-or-more speech reviewers with mixed science/engineering instincts, answering WER/MOS evidence doubts with material already in the 4-page record, keeping replies anonymous, and writing for the meta-reviewer who decides in June.
 ---
 
 # INTERSPEECH Author Response
 
 Interspeech added an author rebuttal to its historically response-free pipeline in
-recent cycles; for 2026 the response window was reported as 24 April – 1 May, ahead
-of the 5 June notification. Confirm the live mechanics (length cap, CMT form fields,
-whether replies go to reviewers or only the area chair) before writing a word —
-rebuttal formats at this venue are young and still moving.
+recent cycles. The official calls give the windows: **24 April – 1 May 2026** (ahead
+of the 5 June 2026 notification) and **13–20 April 2027** (ahead of the 2 June 2027
+notification). Confirm the live mechanics (length cap, portal form fields, whether
+replies go to reviewers or only the area chair) before writing a word — rebuttal
+formats at this venue are young and still moving.
 
 ## Know your audience mix
 
@@ -44,8 +45,8 @@ assume tables of new results are unwelcome and offer them as camera-ready additi
 
 ## Anonymity does not pause
 
-The response is part of the double-anonymous record and the anonymity period runs
-until decisions. No identity hints, no links to demo pages created after submission
+The response is part of the double-anonymous record, whatever the cycle's preprint
+rule (2025 had an anonymity period; 2026 did not). No identity hints, no links to demo pages created after submission
 under identifiable accounts, no "as our group showed at Interspeech 2024."
 
 ## Reply skeleton
@@ -70,8 +71,8 @@ Four to six lines each. The meta-reviewer will compress you anyway — pre-compr
 2. **Days 2–3**: draft the evidence answers first — they decide acceptance at a
    venue where "not convincing" is the modal reject phrase.
 3. **Day 4**: cross-reviewer consistency pass; contradictory replies to two
-   reviewers are visible to the area chair on CMT.
-4. **Day 5**: cut a third; verify the character/word cap; submit early. CMT under
+   reviewers are visible to the area chair in the review system (CMT in 2025–2026).
+4. **Day 5**: cut a third; verify the character/word cap; submit early. A review portal under
    deadline load is not where you want to be at 23:58 AoE.
 
 ## What to skip
@@ -92,7 +93,7 @@ Four to six lines each. The meta-reviewer will compress you anyway — pre-compr
 - [ ] Replies to different reviewers tell one consistent story.
 - [ ] Zero identity signals: no lab names, grant codes, fresh links, or
       "our Interspeech 2024 system" phrasing.
-- [ ] Word/character cap verified against the CMT form, not against habit.
+- [ ] Word/character cap verified against the live portal form, not against habit.
 - [ ] Someone outside the author list read it cold and could restate each
       objection from your answer alone.
 
@@ -121,8 +122,9 @@ for the triage lanes.
 [Anchors] <section/table/figure of the 4-page record answering each point>
 [Concessions] <honest gaps + camera-ready offers>
 [Rebuttal draft] <numbered blocks per skeleton, within the live cap>
-[Verify first] cap / new-results policy / who reads it — from the live CMT form
+[Verify first] cap / new-results policy / who reads it — from the live portal form
 ```
 
-The 2026 window dates above came from secondary renderings and are flagged 待核实 in
-`resources/official-source-map.md`; the official author pages control.
+The window dates above were read directly on the official 2026 and 2027 calls on
+2026-11-24 (`resources/official-source-map.md`); the 2027 length cap and form are
+still 待核实, and the official author pages control.

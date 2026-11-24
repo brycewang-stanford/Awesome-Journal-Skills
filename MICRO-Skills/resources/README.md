@@ -8,7 +8,7 @@ introduction style, and prepare a simulation artifact that survives evaluation.
 
 | Resource | Use it to... |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Trace every venue fact to its official URL and 2026-07-08 access date; see the 待核实 list and the gateway access-method note before trusting anything. |
+| [`official-source-map.md`](official-source-map.md) | Trace every venue fact to its official URL and its access date (2026-07-08, MICRO 2026 pages re-verified 2026-11-24); see the 待核实 list and the gateway access-method note before trusting anything. |
 | [`external_tools.md`](external_tools.md) | Open the live cycle surfaces (CFP, guidelines, HotCRP, AE, awards) and run the five author-side verification passes. |
 | [`exemplars/library.md`](exemplars/library.md) | Position against five award-validated, DOI-verified MICRO papers (1991–2014) and dodge the ISCA/ASPLOS misattribution traps. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Watch a fictional dead-block-reclamation abstract rebuilt through the four-beat MICRO argument, before → after. |

@@ -8,19 +8,21 @@
 rebuttal/revision 窗口用来跑实验而不是措辞，以及把录用转化为带 ACM badge、
 同时进入 ACM DL 与 IEEE Xplore 的正式出版记录。
 
-官方依据核验日期：**2026-07-08**。已核验 MICRO 2026（第 59 届）主页、Call for
-Papers 与 submission guidelines（`microarch.org/micro59/`）、`micro2026.hotcrp.com`
-投稿站点、首届 Industry Track CFP、MICRO 2025 artifact evaluation 页面、SIGMICRO
+官方依据核验日期：**2026-07-08**，并于 **2026-11-24 重新核验（re-verified
+2026-11-24）**。已核验 MICRO 2026（第 59 届）主页、Call for Papers 与 submission
+guidelines（`microarch.org/micro59/`）、`micro2026.hotcrp.com` 投稿站点、首届
+Industry Track CFP、MICRO 2026 artifact evaluation / 组委会 / 注册页面、SIGMICRO
 Test of Time 与 Hall of Fame 页面，以及 ACM DL / IEEE Xplore / dblp 的会议记录。
-验证环境中对 `microarch.org` 等站点的直接抓取返回 403，因此官方页面通过搜索引擎
-对精确 URL 的渲染读取，并与数字图书馆及 SIGARCH / TCCA 的 CFP 转载交叉核对；完整
-证据链与所有仍标注 待核实 的条目见
+2026-07-08 时 `microarch.org` 直接抓取返回 403，官方页面经搜索引擎渲染读取；
+2026-11-24 已可直接读取。MICRO 2026 已经举行，MICRO 2027 尚未公布（`microarch.org`
+上没有 MICRO-60 页面、日期或 CFP）。完整证据链与所有仍标注 待核实 的条目见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
-## 2026 周期此刻的位置（以核验日期为准）
+## 2026 周期当时的位置（以首次核验日期为准）
 
-MICRO 2026 的录用通知于 **2026 年 7 月 7 日**发出——正好在本包核验日期的前一天。
-本包落在的"实时"工作是：
+MICRO 2026 的录用通知于 **2026 年 7 月 7 日**发出——正好在本包首次核验日期的前一天
+（雅典会议此后已举行；截至 2026-11-24，下列兄弟会议截止均已过）。本包当时落在的
+"实时"工作是：
 
 - **录用论文**：9 月 11 日 camera-ready，artifact evaluation 并行推进，然后是
   雅典现场（10 月 31 日 – 11 月 4 日）。
@@ -121,10 +123,15 @@ MICRO-Skills/
   全文 ≥ 9pt；必须有页码；使用 MICRO 模板且不得压缩间距；目检 + 自动双重检查。
 - 评审：全程双盲；artifact 链接匿名化或删除；投稿阶段不得有致谢；行为规范覆盖
   rebuttal。
-- Artifact：录用后 AE + ACM badges（2025 页面已核验，2026 具体安排 待核实）；
+- Industry Track（首届）：与主赛道同一截止；**单盲**（披露全部单位）；第一作者及
+  多数作者须为业界在职人员；投稿时需附简短的赛道理由说明。
+- Artifact：录用后 AE + ACM badges，2026 年改为默认参加（如不参加须在 7 月 14 日
+  前退出；AE 结果 8 月 21 日）；通过 AE 可免费加两页 artifact appendix；
   Available 徽章需 Zenodo/FigShare/Dryad 级归档。
+- Camera-ready：论文集正文最多 13 页（不含参考文献与 AE 附录），注册时可再购买
+  最多两页非参考文献页（每页 €150）；作者注册截止 9 月 11 日（AoE）。
 - 社区坐标：MICRO Test of Time Award（2025 年授予 3D die-stacking 与 CACTI 6.0
-  两篇）、MICRO Hall of Fame（8 篇及以上）、IEEE Micro Top Picks 遴选资格。
+  两篇；2026 年授予 flattened butterfly 片上网络与 stall-time fair 内存调度两篇）、MICRO Hall of Fame（8 篇及以上）、IEEE Micro Top Picks 遴选资格。
 
 ## 事实纪律
 
@@ -134,8 +141,8 @@ MICRO-Skills/
    （11 页规则、EDT 截止、六月窗口）。
 2. **推导/二手事实**——就地标注（1968 谱系是由第 59 届序号做的算术推断；审稿
    侧重描述是社区规范的综合，不是引用的评审表）。
-3. **待核实条目**——只以待解问题的形式出现，绝不当作事实（2026 AE 日程、主席
-   名单、camera-ready 页数、参会要求、MICRO 2027 日期）。
+3. **待核实条目**——只以待解问题的形式出现，绝不当作事实（rebuttal 机制、参会
+   要求、camera-ready 页数的确切算法、AI 署名政策、MICRO 2027 日期）。
 
 若发现任何 skill 把第 2、3 类内容写成第 1 类，按 bug 处理：对照在线官方页面修
 正并更新 source map。
@@ -145,8 +152,8 @@ MICRO-Skills/
 - 本包所有数字都是 **2026 周期快照**。MICRO 每届重新决定版面、日期、track 与
   AE 安排——给下一周期建议前必须重开 `microarch.org/micro<NN>/`；注意 2026 年
   新设了 2025 年不存在的 Industry Track。
-- source map 中的 待核实 登记就是债务清单：组织者名单、AE 日历、Industry Track
-  截止、rebuttal 机制细节、camera-ready 页数、参会规则与 AI 署名政策。
+- source map 中的 待核实 登记就是债务清单：rebuttal 机制细节、camera-ready 页数
+  算法、参会规则、Industry Track 评审表、AI 署名政策与 MICRO 2027 日期。
 - 会议领导层逐届轮换，本包任何内容都不应被当作常设编辑政策来引用。
 - 新样板论文只能通过
   [`resources/exemplars/library.md`](resources/exemplars/library.md) 末尾的核验

@@ -22,7 +22,7 @@ description: Use when running the final pre-submission preflight for the Journal
 ## Preflight checklist
 
 - [ ] Single **PDF** uploaded to Editorial Express
-- [ ] Main article within **35 pages**; extended material in the **online appendix** (no cap)
+- [ ] Main article within **35 pages** (double-spaced, 12-point font); extended material in the **online appendix** (no cap); anything over **50 pages** is rejected automatically (Wiley guidelines, checked 2026-11-24)
 - [ ] **Summary ≤ 100 words**, self-contained, **no citations**; **≤ six keywords**; title without abbreviations
 - [ ] References in **one consistent style** (Free Format)
 - [ ] **Conflict-of-interest statement** present; acknowledgments do **not** thank reviewers

@@ -1,26 +1,29 @@
 ---
 name: hrm-submission
-description: Use when running the final pre-submission preflight for a Human Resource Management (Wiley "HRM") manuscript via Wiley ScholarOne — double-blind anonymization, the title-page split, APA style, the data-availability statement, ORCID, and the dual-contribution check the EIC screens on. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for a Human Resource Management (Wiley "HRM") manuscript via Wiley Research Exchange — double-blind anonymization, the title-page split, APA style, the data-availability statement, ORCID, and the dual-contribution check the EIC screens on. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (hrm-submission)
 
 ## When to trigger
 
-- "Submitting tomorrow" — last check before pressing submit on ScholarOne
+- "Submitting tomorrow" — last check before pressing submit on Wiley Research Exchange
 - Unsure how to anonymize for double-blind review and what goes on the separate title page
 - Confirming APA style, the data-availability statement, and ORCID are in order
 - Making sure the manuscript will clear the EIC's fit-and-relevance screen, not just the rules
 
-## Process facts (source map refreshed 2026-06; re-confirm on the official Wiley author page)
+## Process facts (source map re-verified 2026-11-24; re-confirm on the official Wiley author page)
 
-- *Human Resource Management* is a **Wiley** journal (Online ISSN 1099-050X; Print ISSN 0090-4848). Submission is via Wiley **ScholarOne / Manuscript Central** (检索于 2026-06；以官网为准).
+- *Human Resource Management* is a **Wiley** journal (Online ISSN 1099-050X; Print ISSN 0090-4848). Submission is via Wiley's **Research Exchange** portal (`authors.wiley.com/journal/HRM`), not ScholarOne (re-verified 2026-11-24；以官网为准).
 - **Double-blind review:** the manuscript must be **anonymized** (no author names, affiliations, self-identifying citations, or acknowledgments in the main file); author details go on a **separate title page** uploaded as a distinct file (检索于 2026-06；以官网为准).
 - **Editorial screen:** the **Editor-in-Chief determines whether a paper meets the quality and relevance bar before it is sent to review** — papers without a clear scholarly advance *and* a practical implication are desk-rejected.
 - **References: APA style** (检索于 2026-06；以官网为准).
 - **Data sharing:** Wiley's data-availability policy applies; include an appropriate **data-availability statement** (检索于 2026-06；以官网为准).
 - **Editorial team:** Co-Editors-in-Chief **Fang Lee Cooke** (Monash) and **Shaun Pichler** (Cal State Fullerton; co-EiC from Jan 2025) (verified 2026-06-22 via Wiley; re-verify before submission as the board rotates).
-- **Exact word/abstract limits, article-type list, ORCID requirement, and any APC / open-access options are 待核实** — confirm on the live author-guidelines page before submitting.
+- **Length:** Original Articles approximately **10,000–12,000 words, not including references, tables, figures, and appendices** (re-verified 2026-11-24；以官网为准).
+- **Abstract:** **unstructured, ≤200 words** (re-verified 2026-11-24；以官网为准).
+- **Required statements:** a **Data Availability Statement** and an **IRB statement** (ethical treatment and informed consent, as appropriate); a **data transparency table** as an additional file if the dataset appears in previous or under-review studies. **ORCID** is required. **AI** cannot be an author; describe any AI use in the Methods or Acknowledgements (re-verified 2026-11-24；以官网为准).
+- **Still 待核实:** the article-type list beyond Original Articles, keyword count, and the hybrid OA APC amount — confirm on the live author-guidelines page before submitting.
 
 ## Preflight checklist
 
@@ -28,14 +31,14 @@ description: Use when running the final pre-submission preflight for a Human Res
 - [ ] Main manuscript fully anonymized: no names, affiliations, funding/acknowledgments, or revealing self-citations ("as we showed (Author, 2021)")
 - [ ] Separate **title page** file with all authors, affiliations, ORCIDs, corresponding-author contact
 - [ ] File names and document properties do not leak author identity
-- [ ] Tables, figures, and any online supplement embedded/uploaded per ScholarOne rules
+- [ ] Tables, figures, and any online supplement uploaded per Research Exchange file designations
 
 ### Style & structure
 - [ ] **APA** references and in-text citations throughout; reference list complete and consistent
-- [ ] Abstract within the journal's limit (待核实) and stating the dual contribution
+- [ ] Unstructured abstract **≤200 words** stating the dual contribution
 - [ ] Theoretical-model figure matches the hypotheses; exhibits self-contained
 - [ ] Level of analysis and constructs labeled consistently
-- [ ] Word/page limit respected (待核实); heavy material moved to an online supplement if needed
+- [ ] Text within ~10,000–12,000 words (references, tables, figures, appendices excluded); heavy material moved to an online supplement if needed
 
 ### Declarations & policy
 - [ ] **Data-availability statement** prepared per Wiley policy
@@ -82,12 +85,12 @@ it lists as *not checked* still needs the manual items below.
 ```text
 【Anonymization】main file clean + separate title page? [Y/N]
 【Style】APA references + house style? [Y/N]
-【Abstract/limits】within limit (待核实) + dual contribution stated? [Y/N]
+【Abstract/limits】abstract ≤200 words; text ~10–12k words + dual contribution stated? [Y/N]
 【Data policy】availability statement prepared? [Y/N]
 【Declarations】ethics / COI / funding complete? [Y/N]
 【Screen check】scholarly advance AND practice payoff visible up front? [Y/N]
-【Portal】Wiley ScholarOne (not HRMJ)? [Y/N]
-【Next step】submit via ScholarOne → hrm-review-process for what to expect
+【Portal】Wiley Research Exchange, HRM (not HRMJ)? [Y/N]
+【Next step】submit via Research Exchange → hrm-review-process for what to expect
 ```
 
 ## Supplementary resources

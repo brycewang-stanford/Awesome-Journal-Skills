@@ -1,6 +1,6 @@
 ---
 name: icse-review-process
-description: Use when reasoning about how an ICSE research-track submission is evaluated, covering double-anonymous PC review, the four posted criteria, the Accept / Major Revision / Reject decision model, the revision-and-final-decision timeline, and what recent ICSE acceptance statistics imply for strategy.
+description: Use when reasoning about how an ICSE research-track submission is evaluated, covering double-anonymous PC review, the five posted criteria, early rejection, reciprocal reviewing, the Accept / Major Revision / Reject decision model, the revision-and-final-decision timeline, and what recent ICSE acceptance statistics imply for strategy.
 ---
 
 # ICSE Review Process
@@ -10,9 +10,9 @@ differs from most CS conferences in one structural way: **Major Revision is a
 real decision category**, not a euphemism for rejection, and a large share of
 accepted papers arrive through it.
 
-## The four scored criteria
+## The five scored criteria
 
-The ICSE 2027 call (read 2026-07-08) evaluates each paper on:
+The ICSE 2028 call (read 2026-11-24) evaluates each paper on:
 
 1. **Novelty** — originality of solutions, problem formulations, methodologies,
    theories, or evaluations relative to the state of the art.
@@ -22,27 +22,32 @@ The ICSE 2027 call (read 2026-07-08) evaluates each paper on:
 4. **Verifiability and Transparency** — whether the paper contains enough
    information to understand how the innovation works, how data was obtained
    and analyzed, and whether independent verification or replication is
-   supported.
+   supported. Any artifact attached to or linked from the paper is checked by
+   one reviewer.
+5. **Presentation** — the clarity of the exposition (new in 2028; ICSE 2027
+   listed only the first four).
 
 Read every review comment as an instance of one of these. "The benchmark seems
 small" is a Rigor objection; "practitioners would not use this" is Relevance;
 "the prompt templates are not shown" is Verifiability. Diagnosing the criterion
-tells you whether the cure is new evidence, new framing, or new packaging.
+tells you whether the cure is new evidence, new framing, or new packaging;
+"the running example is hard to follow" is now a Presentation objection.
 
-## Decision model and 2027 timeline
+## Decision model and 2028 timeline
 
-| Stage (2027 cycle) | Date | What happens |
+| Stage (2028 cycle) | Date | What happens |
 |---|---|---|
-| Submission closes | Jun 30, 2026 AoE | PC bidding and assignment follow |
-| Author response | Sep 2026 | Authors see reviews and reply (format 待核实) |
-| First decisions | Oct 20, 2026 | Accept / Major Revision / Reject |
-| Revision due | Nov 17, 2026 | Revised paper + response for MR papers |
-| Final MR decisions | Dec 18, 2026 | Accept or Reject, no second revision |
-| Conference | Apr 25 – May 1, 2027 | Dublin; core days Apr 28–30 |
+| Submission closes | Jul 1, 2027 AoE | Automatic assignment (no bidding), checked by the chairs |
+| Early rejection | Before the response | Papers with all-negative initial reviews are rejected |
+| Author response | Sep 24–26, 2027 | Three days; authors see reviews and reply (format 待核实) |
+| First decisions | Oct 21, 2027 | Accept / Major Revision / Reject |
+| Revision due | Nov 18, 2027 | Revised paper, latexdiff copy, and "Author Response" document |
+| Final MR decisions | Dec 19, 2027 | Accept or Reject, no second revision |
+| Conference | Apr 29 – May 7, 2028 | Waikoloa, Hawaii; main conference May 3–5 |
 
 Two consequences. First, a Major Revision gives you roughly **four weeks** to
-execute — reviewers expect the revision plan to be feasible in that window, so
-promising a new user study is self-defeating. Second, the December decision is
+execute, with one extra page — reviewers expect the revision plan to be
+feasible in that window, so promising a new user study is self-defeating. Second, the December decision is
 terminal for the cycle: there is no minor-revision escape hatch after it.
 
 ## What the recent numbers say
@@ -59,7 +64,11 @@ no baseline), because the process is built to reward repairable papers.
 ## Who reads you
 
 Reviews come from a large research-track Program Committee working
-double-anonymously; ICSE also runs a Shadow PC in some years (2027 posts one)
+double-anonymously, organized by area chairs across nine research areas. In
+2028 the PC is augmented by **reciprocal reviewers** — each submission
+nominates one qualified potential reviewer, and approved nominees may be
+assigned papers. ICSE also runs a Shadow PC in some years (2027 posted one;
+2028 待核实)
 where early-career researchers review in parallel for training — their reviews
 do not decide outcomes but signal how a non-expert reads your paper. Expect
 three reviews with SE-empiricist instincts: they will look for the threats-to-
@@ -69,7 +78,8 @@ replication package.
 ## Where author leverage exists
 
 ```text
-[Before submission]   topic tags -> reviewer pool     (largest lever)
+[Before submission]   area + topic tags -> automatic assignment (largest lever)
+[Initial reviews]     one positive review keeps you out of early rejection
 [Author response]     factual corrections, criterion-targeted evidence
 [Major Revision]      the strongest lever in the system: a tracked-change
                       revision + response letter reviewed by the same PC members
@@ -106,13 +116,15 @@ your likely advocate if the response holds up.
   the criteria, decides — one enthusiastic champion with answers to the other
   reviews can carry a paper.
 - **Projecting the two-cycle rhythm forward.** 2025 and 2026 ran two cycles;
-  2027 posts one. Never infer next year's calendar from last year's.
+  2027 and 2028 post one. Never infer next year's calendar from last year's.
+- **Assuming every paper reaches the response.** In 2028 a paper whose
+  initial reviews are all negative is rejected before the response phase.
 
 ## Output format
 
 ```text
 [Process stage] pre-submission / awaiting reviews / response / major revision / final
-[Criterion map] each review point -> novelty | rigor | relevance | verifiability
+[Criterion map] each review point -> novelty | rigor | relevance | verifiability | presentation
 [Decision forecast] direct accept / MR-likely / reject-risk, with reasons
 [Leverage plan] what to do at the next stage that can actually change the outcome
 ```

@@ -6,7 +6,7 @@ description: Use when deciding what belongs in the 10-page ASE (IEEE/ACM Automat
 # ASE Supplementary
 
 Split content by **decision-criticality**. ASE gives you **10 pages** of body (plus 2 for
-references), and reviewers judge the paper on those pages. The artifact and any supplementary
+references and the Data Availability section), and reviewers judge the paper on those pages. The artifact and any supplementary
 material *support* reproduction and reuse — they do not carry the argument. The failure mode is
 exiling a decision-critical result to the artifact and assuming reviewers will dig for it; they
 judge what is in the body.
@@ -28,7 +28,7 @@ If a result decides acceptance, it lives in the body even if space is tight; cut
 |---|---|---|
 | Task, technique, headline evaluation, closest-baseline comparison, key ablation | Body (≤10 pp) | Decision-critical; reviewers score these |
 | Central threats-to-validity argument | Body | Construct/oracle validity is judged, not reproduced |
-| Data Availability Statement | Body, after Conclusions, inside 10 pp | Mandatory and reviewed |
+| Data Availability section | After the Conclusion, in the 2 extra pages (ASE 2027) | Required and reviewed |
 | Full config files, seeds, environment | Artifact | Reproduction detail, not an argument |
 | Complete/extra result tables, extra subjects | Artifact / supplement | Support, not headline |
 | Proofs, derivations too long for the body | Artifact / supplement (if the venue permits) | Verification detail |
@@ -65,7 +65,7 @@ If a result decides acceptance, it lives in the body even if space is tight; cut
 
 ```text
 [Decision-critical in body?] task / technique / headline results / baseline / key ablation / threats — all present within 10pp?
-[Data Availability] in body, after Conclusions, inside 10pp?
+[Data Availability] present after the Conclusion?
 [Artifact-only] configs / extra tables / proofs / logs / cached outputs -> not decision-critical?
 [Self-contained] judgeable without opening the artifact? yes/no
 [Anonymity] supplement + artifact scrubbed of identity? yes/no

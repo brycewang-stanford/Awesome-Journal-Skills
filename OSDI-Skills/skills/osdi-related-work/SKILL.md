@@ -6,7 +6,7 @@ description: Use when positioning an OSDI submission against prior systems liter
 # OSDI Related Work
 
 Position the paper the way a systems PC checks it. The anonymity mechanics referenced
-here are OSDI '26 rules (verified 2026-07-08); the literature lanes are structural and
+here are OSDI '27 rules (re-verified 2026-11-24); the literature lanes are structural and
 change slowly, but the nearest-neighbor papers change every cycle.
 
 ## What related work does at OSDI
@@ -56,10 +56,10 @@ grep -nEi 'booktitle.*(OSDI|SOSP|NSDI|FAST|EuroSys|ATC|Annual Technical)' refs.b
 # actual venue (successor is stewarded by ACM SIGOPS).
 ```
 
-## Citing yourself under OSDI '26 anonymity
+## Citing yourself under OSDI '27 anonymity
 
-OSDI '26 allowed prior non-peer-reviewed exposure — arXiv, tech reports, talks, social
-media — but with a sharp condition: the **submission must use an anonymized system name
+OSDI '27 (like '26) allows prior or concurrent non-peer-reviewed exposure — arXiv, tech
+reports, talks, social media — but with a sharp condition: the **submission must use an anonymized system name
 different from any used in those contexts**. Operational rules:
 
 - Cite your precursor in the **third person**, as if it were someone else's system,

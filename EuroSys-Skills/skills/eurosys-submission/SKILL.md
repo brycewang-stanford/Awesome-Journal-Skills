@@ -1,12 +1,12 @@
 ---
 name: eurosys-submission
-description: Use when auditing a EuroSys submission before a HotCRP upload — abstract registration versus full-paper gates, the 12-page technical-content budget with free references, the acmart sigplan review/anonymous template and text block, double-blind hygiene, and the CFP warning that formatting or anonymization violations are not reviewed.
+description: Use when auditing a EuroSys submission before a HotCRP upload — abstract registration versus full-paper gates, the 12-page technical-content budget with free references, the SIGPLAN (acmart sigplan review/anonymous) template and text block, the three-papers-per-author-per-round cap, double-blind hygiene, the arXiv title/system-name rule, and the AI-use disclosure that ACM's authorship policy requires.
 ---
 
 # EuroSys Submission
 
 Run this audit before touching the round's HotCRP instance. Anchors below are the
-EuroSys 2027 cycle as rendered on 2026-07-08 from `2027.eurosys.org/cfp.html` and the
+EuroSys 2027 cycle as re-verified on 2026-11-24 from `2027.eurosys.org/cfp.html` and the
 `eurosys27-spring` / `eurosys27-fall` HotCRP sites. EuroSys reissues its CFP per
 edition and per round, so the live CFP always outranks this file.
 
@@ -17,15 +17,19 @@ deadline. Registration is where the title, abstract, author list, topics, and
 conflicts become fixed inputs to reviewer assignment; the paper upload a week later
 only swaps in the PDF.
 
-| 2027 fall round item | Value (verified 2026-07-08) |
+| 2027 fall round item | Value (re-verified 2026-11-24) |
 |---|---|
 | Abstract registration | September 17, 2026, AoE |
 | Full paper | September 24, 2026, AoE |
 | Portal | `eurosys27-fall.hotcrp.com` |
+| Reviews / author responses due | January 6 / January 8, 2027 |
 | Notification | January 29, 2027 |
+| Camera-ready | March 5, 2027 |
 
-The spring 2027 round (abstracts May 7, papers May 14, 2026) has already closed as
-of 2026-07-08, so a new submission today is a fall-round submission.
+Both EuroSys 2027 rounds have closed (spring: papers May 14, 2026; fall: papers
+September 24, 2026). As of 2026-11-24 no EuroSys 2028 call is published, so a new
+paper's next gate has no official date yet — re-open the EuroSys site rather than
+projecting the 2027 calendar forward.
 
 ## Length and layout rules
 
@@ -33,7 +37,10 @@ of 2026-07-08, so a new submission today is a fall-round submission.
   as needed. Do not starve the bibliography to rescue a figure.
 - Paper size A4 or US letter, with every character and figure inside a
   **178 x 229 mm (7 x 9 in) block**, two columns separated by at least 8 mm.
-- LaTeX authors are pointed at `acmart` with the `sigplan` option, in review mode:
+- Text, figures and captions at **≥10-point** font on **≥12-point** leading; figures
+  readable in grayscale; pages numbered.
+- The CFP encourages the **SIGPLAN** LaTeX or MS Word templates. In LaTeX that is
+  `acmart` with the `sigplan` option, in review mode:
 
 ```latex
 \documentclass[sigplan,twocolumn,review,anonymous]{acmart}
@@ -41,9 +48,10 @@ of 2026-07-08, so a new submission today is a fall-round submission.
 \acmSubmissionID{123}
 ```
 
-- The CFP states that submissions violating the formatting or anonymization rules
-  **will not be considered for review**. At EuroSys this is not an idle threat — it
-  is the cheapest filter the chairs have across two rounds of load.
+- **At most three submissions per author per round**; a paper that pushes an author
+  over the cap may be rejected without review.
+- **Supplementary material** (proofs, additional results) may be uploaded as a
+  separate file, but reading it is optional for reviewers — the paper must stand alone.
 
 ## Anonymity as EuroSys defines it
 
@@ -56,6 +64,12 @@ The standard asked for is a good-faith effort, judged by whether identity leaks
 - If the paper describes a deployment only your organization runs, abstract the
   operator without inventing data.
 - Linked repositories must be anonymized mirrors, not lab GitHub accounts.
+- Related work of yours that is **under review elsewhere** is cited anonymously, its
+  difference explained, and a copy emailed to the PC chairs.
+- An arXiv version, tech report, talk or social-media post is fine, but the submission
+  must use a **substantially different title and system/tool name**.
+- A prior or concurrent **workshop paper** on the topic is uploaded in the submission
+  form with a short explanation of the new material.
 
 ## Pre-upload checklist
 
@@ -67,18 +81,21 @@ The standard asked for is a good-faith effort, judged by whether identity leaks
 | Template mode | `review,anonymous` options active; paper ID on page 1 |
 | Identity sweep | Metadata, acknowledgments, self-citations, repo links clean |
 | Dual submission | Not concurrently under review at another archival venue |
-| Resubmission legality | Not a same-season EuroSys reject from the previous edition |
+| Resubmission legality | Not rejected at the immediately preceding EuroSys cycle |
+| Author cap | No author on more than three submissions this round |
+| AI disclosure | Any use of AI tools fully disclosed in the submission (ACM authorship policy) |
 | Topics and conflicts | Complete in HotCRP, since assignment runs off them |
 
-That resubmission row is EuroSys-specific: a paper rejected at a given round may
-not return until the same round of the next edition, so confirm the manuscript's
+That resubmission row is EuroSys-specific: a paper not accepted in one cycle is not
+eligible for the immediately following cycle — in practice it returns no earlier than
+the same round of the next edition, so confirm the manuscript's
 EuroSys history before registering it (see `eurosys-review-process`).
 
 ## Habits imported from other venues that break here
 
 - **From USENIX venues:** expecting a single-column submission format or an
-  appendix allowance — EuroSys reviews in the two-column ACM layout, and
-  anything beyond references needs the round's explicit permission (待核实).
+  appendix allowance — EuroSys reviews in the two-column ACM layout, and extra
+  material goes in a separate supplementary file that reviewers may skip.
 - **From NeurIPS-style venues:** expecting a checklist to carry the
   reproducibility story — EuroSys has no checklist ritual; the evidence
   discipline lives in the paper and the artifact instead.
@@ -101,9 +118,8 @@ The PDF is half the submission; the form is the other half.
   chairs audit both missing and padded conflict lists.
 - Author list completeness at registration matters even though reviewers
   never see it: it is the basis of conflict screening.
-- Any round-specific questions (artifact intent, ethics statements,
-  AI-use declarations — 待核实 per round) get real answers, not
-  placeholders.
+- Any round-specific questions (artifact intent, ethics statements, AI-use
+  disclosure, workshop-paper upload) get real answers, not placeholders.
 
 ## Last-72-hours order of operations
 
@@ -139,7 +155,7 @@ it lists as *not checked* still needs the manual items below.
 ## Output format
 
 ```text
-[EuroSys gate] fall 2027 round (or current round per live CFP)
+[EuroSys gate] next open round per the live CFP (both 2027 rounds closed as of 2026-11-24)
 [Readiness] upload-ready / fixable / blocked
 [Format findings] <page budget / text block / template / paper ID>
 [Anonymity findings] <leak locations or clean>

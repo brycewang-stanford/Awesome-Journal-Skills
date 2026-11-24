@@ -1,6 +1,6 @@
 ---
 name: cav-camera-ready
-description: Use when preparing an accepted CAV (Computer Aided Verification) paper for its Springer LNCS open-access camera-ready, covering de-anonymization for the previously double-blind categories, the LNCS llncs template and Springer metadata (ORCID, author order, running heads), the copyright/open-access forms, integrating reviewer-required changes without scope creep, permanentizing artifact links, and the AEC badge handoff.
+description: Use when preparing an accepted CAV (Computer Aided Verification) paper for its Springer LNCS open-access camera-ready, covering de-anonymization for Regular Papers (the double-blind category), the LNCS llncs template and Springer metadata (ORCID, author order, running heads), the copyright/open-access forms, integrating reviewer-required changes without scope creep, permanentizing artifact links, and the AEC badge handoff.
 ---
 
 # CAV Camera Ready
@@ -11,11 +11,14 @@ LNCS author instructions, the decision email, and the artifact-track page before
 
 ## Camera-ready audit
 
-- **De-anonymize (Regular and Application papers):** restore the author block, affiliations,
+- **De-anonymize (Regular Papers):** restore the author block, affiliations,
   acknowledgements, funding, and the real tool/solver and repository names that double-blind review
-  forced you to hide. (Tool and Industrial papers were never anonymized.)
-- **Apply the final LNCS format:** the `llncs` document class, within the category page allowance and
-  any camera-ready extension the acceptance letter grants, with correct running heads and the
+  forced you to hide. (In CAV 2027, Tool and Application/Industrial/Case Study papers were never
+  anonymized.)
+- **Apply the final LNCS format:** the `llncs` document class, within the camera-ready allowance
+  (CAV 2027: up to 20 pages for regular and tool papers, 12 for application papers, excluding
+  bibliography and data availability statement — each includes 2 extra pages for reviewer
+  feedback), due 18 May 2027, with correct running heads and the
   Springer copyright line.
 - **Complete Springer LNCS metadata:** title/abstract, author order and ORCIDs, corresponding author,
   affiliations, and keywords — entered in the Springer system and matching the PDF exactly. Metadata
@@ -27,7 +30,7 @@ LNCS author instructions, the decision email, and the artifact-track page before
 - **Complete the open-access / copyright forms:** CAV proceedings are open access, so confirm the
   correct license and the open-access consent/rights form for the volume.
 
-## De-anonymization sweep (anonymized categories)
+## De-anonymization sweep (Regular Papers)
 
 | Anonymized at submission | Restore at camera-ready | Watch for |
 |---|---|---|
@@ -61,8 +64,10 @@ accepted.
 
 ## Artifact-badge handoff
 
-The camera-ready and the AEC evaluation are separate deadlines, and the badge outcome may arrive
-after the camera-ready is due. Do not block the paper on the badge; but make the paper's availability
+For non-tool papers the camera-ready (18 May 2027) and the AEC evaluation (artifact notification
+28 May 2027) are separate deadlines, and the badge outcome arrives after the camera-ready is due.
+Do not block the paper on the badge; a Tool Paper already has its badge, since AE gated its
+acceptance. In either case, make the paper's availability
 statement consistent with the badges you are pursuing (Available at minimum; Functional/Reusable if
 granted), and add any badge acknowledgement only per the current LNCS/AEC instructions.
 
@@ -70,7 +75,8 @@ granted), and add any badge acknowledgement only per the current LNCS/AEC instru
 
 - Page allowances, metadata fields, the open-access rights mechanics, and exact camera-ready dates
   change each cycle; confirm against the decision email and current Springer LNCS instructions rather
-  than a prior year (camera-ready date for 2026 is **待核实**).
+  than a prior year (CAV 2027 camera-ready: 18 May 2027; the CAV 2027 LNCS volume and open-access
+  arrangement were not yet posted on 2026-11-24 — **待核实**).
 
 ## Output format
 

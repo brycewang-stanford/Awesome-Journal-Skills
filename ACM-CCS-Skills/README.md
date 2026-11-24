@@ -8,12 +8,12 @@ evidence, packaging the anonymized HotCRP submission, clearing the ethics and di
 surviving the two-cycle review and rebuttal, and delivering the ACM camera-ready plus optional
 artifact evaluation.
 
-Official basis checked on **2026-07-08**: the CCS 2026 Call for Papers, the call for artifacts,
-the Cycle A and Cycle B HotCRP sites, the CCS 2026 home and organization pages, the SIGSAC CCS
-Test-of-Time Award page, and the ACM Digital Library CCS proceedings. Direct fetches of
-`www.sigsac.org` returned HTTP 403 in the verification environment, so official pages were read
-via search-engine renderings of the exact URLs and cross-checked against the HotCRP cycle
-sites, the ACM DL, and dblp; the full trail, including everything still marked 待核实, is in
+Official basis first checked on 2026-07-08 and **re-verified 2026-11-24** by direct fetch of
+the CCS 2026 Call for Papers, the call for artifacts, the CCS 2026 home and organizing-committee
+pages, and the CCS 2027 placeholder and HotCRP site. CCS 2026 (The Hague, November 15-19, 2026)
+has met; CCS 2027 is announced for Atlanta, October 11-15, 2027, but its call is not out, so the
+pack keeps the CCS 2026 rules as its reference edition. The full trail, including everything
+still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What makes CCS different from its siblings
@@ -33,9 +33,15 @@ conferences:
   desk-reject trigger.
 - **Anonymized submission with third-person self-citation.** Papers not properly anonymized may
   be rejected without review.
-- **An ethics considerations section is required** for work touching human subjects, user data,
-  or real-world vulnerabilities — in 2026, a dedicated appendix after the body and
-  bibliography. IRB/ERB approval is neither necessary nor sufficient on its own.
+- **An "Open Science" appendix is mandatory** (2026): after the body and bibliography, list
+  where every artifact needed to evaluate the paper lives (anonymous URLs, also entered on
+  HotCRP, live within 3 days of submission) or state that there are none.
+- **An "Ethical Considerations" appendix is required** for work touching human subjects, user
+  data, or real-world vulnerabilities — in 2026, after the body and bibliography, outside the
+  page count. IRB/ERB approval is neither necessary nor sufficient on its own.
+- **Generative-AI use must be disclosed** (ACM authorship policy): minor editing in the
+  Acknowledgements, substantive use in a "Generative AI Usage" section. CCS 2026 did not
+  accept SoK or survey papers.
 - **Decisions are not binary.** Accept, minor revision (revise within the cycle), or reject.
 - **Optional post-acceptance artifact evaluation** awards ACM badges — Artifacts Available,
   Functional, Reusable, and Results Reproduced — printed on the paper's first page.
@@ -127,19 +133,23 @@ ACM-CCS-Skills/
 
 ## 2026 anchor facts (historical snapshot, not permanent rules)
 
-- CCS 2026: **The Hague, Netherlands, November 15-19, 2026**.
-- Cycle A: abstract registration **Jan 7**, full paper **Jan 14**, rebuttal **Mar 17-20**,
-  notification **Apr 9, 2026**.
-- Cycle B: abstract registration **Apr 22**, full paper **Apr 29**, rebuttal **Jun 29-Jul 1**,
-  notification **Jul 17, 2026**. Camera-ready reported **Aug 21, 2026**. All deadlines AoE.
+- CCS 2026: **The Hague, Netherlands, November 15-19, 2026** (has met).
+- Cycle A: abstract registration **Jan 7**, full paper **Jan 14**, early reject **Feb 20**,
+  rebuttal **Mar 17-20**, notification **Apr 9**, camera-ready **Aug 9, 2026**.
+- Cycle B: abstract registration **Apr 22**, full paper **Apr 29**, online artifacts **May 2**,
+  early reject **Jun 12**, rebuttal **Jun 29-Jul 1**, notification **Jul 17**, camera-ready
+  **Sep 13, 2026**. All deadlines AoE.
 - Format: unaltered ACM `sigconf` two-column template · **12-page** main body excluding
   bibliography, well-marked appendices, and supplementary material.
-- Anonymized submission · mandatory abstract registration · ethics considerations appendix ·
+- Anonymized submission · mandatory registration with track and track justification ·
+  Open Science appendix · ethics appendix when needed · ORCIDs for all authors ·
   up to **7 papers per author per cycle** · first-cycle rejects cannot return the same year.
 - Optional artifact evaluation with ACM badges; accepted papers publish in the ACM Digital
   Library.
-- **Both 2026 deadlines have passed** as of 2026-07-08; treat the calendar as a template and
-  read the CCS 2027 CFP when posted (host city was under steering-committee selection).
+- Accepted papers are open access in the ACM DL; authors outside ACM Open institutions paid
+  an APC (2026: USD 250 ACM/SIG members, 350 non-members).
+- **CCS 2027 is announced for Atlanta, USA, October 11-15, 2027**, but as of 2026-11-24 its
+  call is not out; treat the 2026 calendar as a template, not as 2027 dates.
 
 ## Fact discipline
 
@@ -147,11 +157,10 @@ This pack separates three classes of statement, and the skills keep them disting
 
 1. **Verified 2026-cycle facts** — carry dates/caps and trace to a numbered source in the
    source map (e.g., the 12-page body, the two-cycle structure, the ACM badge set).
-2. **Reported facts** — found only in secondary sources and labeled as such (e.g., the CCS 2026
-   Program Co-Chairs, from a rendering of the organization page).
+2. **Reported facts** — found only in secondary sources and labeled as such.
 3. **Unverifiable-at-check-time items** — explicitly marked 待核实 and phrased as questions to
-   resolve, never as facts (e.g., the AI/LLM policy, the camera-ready page allowance, the CCS
-   2027 host city).
+   resolve, never as facts (e.g., the camera-ready page allowance, the CCS 2027 call and
+   cycle dates).
 
 If you find any statement in the skills that presents class 2 or 3 material as class 1, treat
 it as a bug and fix it against the live official pages.
@@ -160,10 +169,9 @@ it as a bug and fix it against the live official pages.
 
 - Every date and cap above is a **2026-cycle snapshot**; reopen the current
   `sigsac.org/ccs/CCS<year>` CFP and the cycle's HotCRP site before deadline-sensitive advice.
-- Items that could not be verified live on 2026-07-08 are marked 待核实 in the source map —
-  notably the AI/LLM policy, the exact rebuttal format, the minor-revision mechanics, the
-  camera-ready page allowance, the 2026 General Chairs, and the CCS 2027 host city. Do not
-  state these as facts until confirmed.
+- Items that could not be verified live on 2026-11-24 are marked 待核实 in the source map —
+  notably every CCS 2027 rule and date, the exact rebuttal format, and the camera-ready page
+  allowance. Do not state these as facts until confirmed.
 - CCS chairs and policy re-set every edition and can differ between Cycle A and Cycle B; treat
   editor-style continuity assumptions (carried over from journal packs) as errors here.
 - When adding exemplar papers, follow the verification recipe at the end of

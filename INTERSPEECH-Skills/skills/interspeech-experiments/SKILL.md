@@ -131,4 +131,4 @@ the reviewer-trust equivalent of a failed significance test.
 
 Metric conventions are community law rather than CFP text and move slowly, but
 challenge editions and recipe baselines roll every year — re-anchor at design
-time (sources logged in `resources/official-source-map.md`, 2026-07-08).
+time (sources logged in `resources/official-source-map.md`, re-verified 2026-11-24).

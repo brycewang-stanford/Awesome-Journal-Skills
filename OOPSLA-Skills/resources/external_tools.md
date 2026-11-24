@@ -1,21 +1,22 @@
 # External Tools - OOPSLA
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (2027-volume links re-checked 2026-11-24)
 
 Links an agent should open (or ask the author to open) when working on an OOPSLA paper.
 OOPSLA's machinery is reset per yearly volume — a new HotCRP instance, a new SPLASH site,
 and a new pair of Review Committee chairs — so replace the year in each URL with the volume
 actually being targeted before trusting anything on the page.
 
-## Venue systems for the 2026 volume
+## Venue systems for the 2027 volume
 
 | System | URL | Role |
 | --- | --- | --- |
-| OOPSLA track page | https://2026.splashcon.org/track/oopsla-2026 | The controlling call: round deadlines, outcomes, format |
-| HotCRP | https://oopsla26.hotcrp.com/ | Submission, reviews, author response, revisions |
-| SPLASH 2026 site | https://2026.splashcon.org/ | Conference dates, Oakland venue, registration, co-located ISSTA |
-| SPLASH dates page | https://2026.splashcon.org/dates | Consolidated deadline calendar across all tracks |
-| Artifact evaluation | https://2026.splashcon.org/track/splash-2026-artifact-evaluation | Badge criteria, kick-the-tires schedule |
+| OOPSLA track page | https://2027.splashcon.org/track/splashoopsla2027 | The controlling call: round deadlines, outcomes, format, submission limits |
+| HotCRP | https://oopsla27.hotcrp.com/ | Submission, reviews, author response, revisions |
+| SPLASH 2027 site | https://2027.splashcon.org/ | Conference dates (Prague, October 10–15, 2027), venue, co-located MPLR and SAS |
+| SPLASH dates page | https://2027.splashcon.org/dates | Consolidated deadline calendar across all tracks |
+| Artifact evaluation | https://2027.splashcon.org/track/splash-2027-artifact-evaluation | Badge criteria, kick-the-tires schedule |
+| 2026 volume (history) | https://2026.splashcon.org/track/oopsla-2026 | Previous call, for comparing rule drift |
 | PACMPL on ACM DL | https://dl.acm.org/journal/pacmpl | Published OOPSLA1/OOPSLA2 issues, open-access terms |
 | SIGPLAN OOPSLA page | https://www.sigplan.org/Conferences/OOPSLA/ | Standing series description and objectives |
 | Empirical guidelines | https://www.sigplan.org/Resources/EmpiricalEvaluation/ | The evaluation checklist reviewers apply |
@@ -23,7 +24,8 @@ actually being targeted before trusting anything on the page.
 ## What to check in each, author-side
 
 - **Track page**: which round is currently open; the outcome definitions for this volume
-  (they moved between 2025 and 2026); the page caps for initial submissions vs revisions;
+  (they moved between 2025 and 2026, and 2027 added early/desk rejection and per-author
+  submission limits); the page caps for initial submissions vs revisions;
   the Data-Availability Statement requirement.
 - **HotCRP**: account, conflicts, topics, anonymous author list, abstract/PDF consistency,
   and — for Major-Revision resubmissions — that the paper is filed as a revision in the

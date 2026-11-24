@@ -31,9 +31,12 @@ placeholder.
 
 Continuing reviewers and readers hold you to the record. Before finalizing:
 
-- Fold in every change committed in the **rebuttal** and every required item from a **one-shot
-  revision** (`mobicom-author-response`); a promise that silently vanishes is a credibility
-  loss the community remembers.
+- Clear the **anonymous shepherding** first: MobiCom 2027 accepts are conditional until a TPC
+  shepherd, working with the reviewers, signs off a revision — a 4-6-week process that may
+  require new experiments or material.
+- Fold in every clarification made in the **rebuttal** and every required item from a
+  **one-shot revision** (`mobicom-author-response`); a commitment that silently vanishes is a
+  credibility loss the community remembers.
 - Re-check that headline numbers in the abstract and introduction still match the final
   experiments after any revision re-runs (`mobicom-experiments`).
 - Keep the strongest result in the body — camera-ready is not the moment to demote it to an
@@ -50,13 +53,19 @@ acknowledgments) silently push the body over.
 ## ACM rights, metadata, and badges
 
 ```text
-Publication checklist (dates on the acceptance instructions, 待核实 per cycle):
+Publication checklist (dates on the acceptance instructions; the 2027 camera-ready page was
+not yet published on 2026-11-24 — 待核实):
   [ ] ACM eRights form completed; correct copyright/licensing selected
   [ ] title, authors, affiliations, abstract entered to match the PDF exactly
   [ ] ACM classification / keywords set
   [ ] artifact badges coordinated: AEC outcome reflected on the paper (Available /
       Functional / Reproduced) per the artifact timeline (`mobicom-artifact-evaluation`)
   [ ] camera-ready PDF passes the publisher's format validation
+  [ ] every author has an ORCID iD
+  [ ] 90-second teaser video submitted with the camera-ready (posted up to two weeks
+      before the conference)
+  [ ] APC settled: ACM publishes open access; authors outside ACM Open institutions pay
+      an APC unless waived (2027 subsidized: $500 ACM/SIG members, $750 non-members)
 ```
 
 The artifact-badge timeline may run separately from the paper deadline; confirm both clocks
@@ -64,9 +73,10 @@ so a badge you earned actually appears on the published version.
 
 ## Plan the in-person talk
 
-MobiCom 2026 is in **Austin, October 26-30, 2026**; accepted papers are presented in person
-(exact presenter and registration requirements are 待核实 — read the author instructions).
-Plan early:
+MobiCom 2027 is in **Athens, Greece, October 18-22, 2027**. By submitting, the authors agreed
+that **at least one author registers and attends to present**. The TPC picks a subset of papers
+for full talks; the rest give shorter **lightning talks followed by posters** — all accepted
+papers are equal. Registration fees and remote options are 待核实. Plan early:
 
 - Designate the presenter and confirm travel and registration against the program dates.
 - Build the talk around the **mechanism and its measured evidence**, the same arc as the
@@ -78,7 +88,8 @@ Plan early:
 ## Final checklist
 
 - [ ] De-anonymized fully; reverse blindness sweep passed.
-- [ ] Every rebuttal/revision promise folded in and consistent.
+- [ ] Shepherd sign-off received; every rebuttal/revision commitment folded in and consistent.
+- [ ] 90-second teaser video ready.
 - [ ] Headline numbers match final experiments.
 - [ ] Double-column format holds; body within the page allowance.
 - [ ] ACM rights + metadata complete; badges coordinated.

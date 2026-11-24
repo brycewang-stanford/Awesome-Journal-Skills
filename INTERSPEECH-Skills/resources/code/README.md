@@ -41,5 +41,5 @@ The kit verifies package *structure*; an Interspeech reviewer verifies the
    method recorded alongside the scores they produced.
 
 Venue policy always comes from the live official pages
-([`../official-source-map.md`](../official-source-map.md) records the 2026 trail),
+([`../official-source-map.md`](../official-source-map.md) records the 2026 and 2027 trail),
 never from this adapter.

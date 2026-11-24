@@ -9,14 +9,13 @@ evidence, submitting into a journal-model pipeline, surviving Revise-and-Resubmi
 rounds with the same reviewers, and landing a PACMHCI article plus a conference
 talk.
 
-Official basis checked on **2026-07-08**: the CSCW 2026 site and Call for Papers,
-the rolling CFP for CSCW 2027 and beyond, the CSCW 2026 review-process FAQ and
-decision blog posts, the official ACM CSCW Medium announcements, the ACM Digital
-Library PACMHCI CSCW track, and dblp. Direct fetches of `cscw.acm.org` and
-`dl.acm.org` were blocked in the verification environment, so official pages were
-read via search-engine renderings of the exact URLs and cross-checked against the
-ACM DL, dblp, and SIGCHI event listings; the full trail, including every item
-marked 待核实, is in
+Official basis re-checked on **2026-11-24**: the CSCW 2027 site, Submit and
+organizing-committee pages, the rolling CFP and track guidelines for CSCW 2027 and
+beyond, the CSCW 2026 Call for Papers, review-process FAQ and decision blog posts,
+the ACM Digital Library PACMHCI CSCW track, and dblp. `cscw.acm.org` was read
+directly; `dl.acm.org`, Manuscript Central and the ACM CSCW Medium blog refused
+automated access, so the detailed July 2026 rolling CFP was read from an Internet
+Archive capture; the full trail, including every item marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What makes CSCW different from its siblings
@@ -33,9 +32,11 @@ to being one structurally. These verified mechanics drive the advice in the skil
   **same reviewers**. The response letter, not a rebuttal box, is the venue's
   persuasion instrument.
 - **The deadline is gone.** The May 14, 2025 deadline (PCS) was the last fixed
-  cutoff. CSCW 2027+ runs **rolling submissions via Manuscript Central**
-  (mc.manuscriptcentral.com/pacmhci) under an editorial board — EiCs Amy Bruckman
-  and Eric Gilbert — with decisions in roughly 3-4 months.
+  cutoff. CSCW 2027 (Philadelphia, October 16-20, 2027) and beyond run **rolling
+  submissions to PACM HCI/CSCW** (ToCHI acceptances in CSCW scope also earn a
+  slot) — via Manuscript Central (mc.manuscriptcentral.com/pacmhci) under an
+  editorial board with EiCs Amy Bruckman and Eric Gilbert and decisions in roughly
+  3-4 months, per the July 2026 rolling CFP.
 - **Length is a claim, not a limit.** No page cap; instead a scrutiny band
   (roughly 5,000-12,000 words) and an explicit desk-reject ground for length
   incommensurate with contribution.
@@ -130,21 +131,27 @@ CSCW-Skills/
 5. **After acceptance** — `cscw-camera-ready` for the two tracks, and
    `cscw-artifact-evaluation` for the public release.
 
-## 2026 anchor facts (historical snapshot, not permanent rules)
+## Anchor facts (snapshot of 2026-11-24, not permanent rules)
 
-- **CSCW 2026:** Salt Lake City, Utah, USA, **October 10-14, 2026** (Marriott City
-  Creek Center). CSCW 2025 was Bergen, Norway, October 18-22, 2025.
+- **CSCW 2027:** Philadelphia, PA, USA, **October 16-20, 2027** (Loews Philadelphia
+  Hotel); General Chairs Louise Barkhuus and Andrew Miller, Technical Program Chairs
+  Jed Brubaker and Elizabeth Churchill. No paper deadline: a paper accepted before
+  the program is set is invited to CSCW 2027; later acceptances go to the following
+  year.
+- **CSCW 2026:** Salt Lake City, Utah, USA, **October 10-14, 2026** (met).
+  CSCW 2025 was Bergen, Norway, October 18-22, 2025.
 - **Final fixed cycle (feeds CSCW 2026):** submissions May 14, 2025, 12:00 EDT on
-  PCS → Revise-for-External-Review resubmissions September 16, 2025 → first-round
-  decisions November 2025 (33.8% final, 66.2% R&R) → R&R due January 13, 2026 →
+  PCS → Revise-for-External-Review resubmissions September 16, 2025 → external-review
+  decisions November 11, 2025 (33.8% final, 66.2% R&R) → R&R due January 13, 2026 →
   final decisions late March 2026 (152 accepted, 44 rejected).
-- **Rolling model (CSCW 2027+):** no deadlines; Manuscript Central
-  (mc.manuscriptcentral.com/pacmhci); editorial board with EiCs Amy Bruckman and
-  Eric Gilbert; ~3-4 months to decision; publication in PACMHCI; presentation
-  invitation at the next conference.
-- **Format:** single-column ACM submission template; no length cap; 5,000-12,000
-  word scrutiny band; anonymous review with author names, affiliations, and
-  identifying grant details removed.
+- **Rolling model (CSCW 2027+):** no deadlines; five tracks (Design/Theory, Mixed
+  Methods, Qualitative, Quantitative, Systems); per the July 2026 rolling CFP,
+  Manuscript Central (mc.manuscriptcentral.com/pacmhci), EiCs Amy Bruckman and Eric
+  Gilbert, ~3-4 months to decision; publication in PACMHCI; presentation optional.
+- **Format:** single-column ACM Small (acmsmall) template; no length cap;
+  5,000-12,000 word scrutiny band; anonymous review with author names,
+  affiliations, and identifying grant details removed; LLM-generated text must be
+  clearly marked where used beyond editing.
 
 ## Fact discipline
 
@@ -154,8 +161,8 @@ Three classes of statement are kept distinguishable throughout the pack:
    map (e.g., the May 2025 cycle statistics, the rolling platform).
 2. **Reported facts** — found in secondary renderings and labeled as such.
 3. **Unverifiable-at-check-time items** — marked 待核实 and phrased as questions
-   to resolve (e.g., rolling track names, the conference-year assignment cutoff,
-   TAPS specifics, registration rules).
+   to resolve (e.g., the date the conference program is set, live confirmation of
+   the Manuscript Central portal and EiCs, TAPS specifics, registration rules).
 
 If any skill statement presents class 2 or 3 material as class 1, treat it as a
 bug and fix it against the live official pages.

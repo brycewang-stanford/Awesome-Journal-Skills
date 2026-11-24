@@ -10,10 +10,12 @@ camera-ready in IEEE Xplore.
 
 Official basis checked on **2026-07-09**: the IROS 2026 (Pittsburgh) call-for-papers and
 important-dates pages, the IEEE RAS co-sponsored-conference and RA-L pages, and
-PaperPlaza. Direct fetches of `2026.ieee-iros.org` returned HTTP 403 in the verification
-environment, so official pages were read via search-engine renderings of the exact URLs
-and cross-checked against IEEE RAS pages, PaperPlaza, and independent conference mirrors;
-the full trail — including everything still marked 待核实 — is in
+PaperPlaza. Direct fetches of `2026.ieee-iros.org` returned HTTP 403 on 2026-07-09, so
+official pages were first read via search-engine renderings of the exact URLs and
+cross-checked against IEEE RAS pages, PaperPlaza, and independent conference mirrors. On
+**2026-11-24** the CFP, important dates, organizing committee, registration and presenter
+pages were **re-verified by direct fetch** (correcting the page limit and two deadlines),
+and the IROS 2027 year-site was read; the full trail — including everything still marked 待核实 — is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What makes IROS different from its siblings
@@ -31,17 +33,22 @@ most of the mistakes made by authors arriving from ML conferences or from ICRA:
   a late-September/October conference.
 - **A tighter video envelope.** The optional video attachment is **60 seconds and 10 MB**
   in the 2026 cycle — half of ICRA's 180 s / 20 MB — with its **own deadline** a few days
-  after the paper. A video cut for ICRA must be re-edited, not just re-uploaded.
-- **References count inside the page budget, and there is no supplementary PDF.**
-  Everything load-bearing lives in the body; an argument that needs an appendix is
-  mis-sized for IROS.
+  after the paper (March 7, 2026 on the dates page; the CFP text says March 5). A video cut for ICRA must be re-edited, not just re-uploaded.
+- **Eight pages, references included, and no supplementary PDF.** IROS 2026 replaced the
+  old 6 + 2 model with **up to 8 pages including references and appendices**, with **no
+  option to pay for extra pages**. Everything load-bearing lives in the body; an argument
+  that needs an appendix is mis-sized for IROS.
 - **Double-anonymous in 2026.** IROS carried a long single-blind tradition, but the 2026
   cycle presents as double-anonymous — author names out of the PDF, full list in
   PaperPlaza metadata. Habits like "our prior rover [9]" and lab-branded video footage
   became review-time leaks.
 - **No rebuttal.** Reviews traditionally arrive *with* the decision. Objections must be
   pre-answered in the paper and the video; the video is the only asynchronous rebuttal a
-  reviewer gets.
+  reviewer gets. (The one exception in 2026: ICRA 2026 rejects resubmitted in the
+  "ICRA-IROS transfer" category attach an anonymous Author Response File.)
+- **AI disclosure lives in the acknowledgments.** IROS 2026 bars AI authorship and requires
+  any AI-generated content to be disclosed in the acknowledgments section, naming the
+  system and the sections it touched.
 - **The RA-L pathway changed.** IROS 2026 has **no combined RA-L+IROS submission option**;
   instead, already-published RA-L (and T-RO, T-ASE, RAM) papers are eligible for
   presentation via a transfer window. This is a departure from older cycles and from how
@@ -50,15 +57,15 @@ most of the mistakes made by authors arriving from ML conferences or from ICRA:
   counts, reset procedures, failure taxonomies, and sim-to-real deltas; a polished demo
   without them reads as an advertisement.
 
-## Live-cycle snapshot (2026-07-09)
+## Edition snapshot (2026-11-24)
 
-As of the access date, IROS 2026 is **past submission and mid-cycle**: the March 2 paper
-deadline and March 5 video deadline have closed, **notifications landed June 16, 2026**,
-and the **live obligation is the camera-ready and registration** — the final-paper
-deadline is **July 10, 2026**, the day after this pack's access date. IROS 2027 is
-reported (not first-party verified) for Florence, Italy in late September/early October
-2027. Plan accordingly: if you are reading this for a 2027 submission, you are on the
-*next* spring deadline, not this one.
+IROS 2026 (Pittsburgh, September 27 - October 1, 2026) has met: paper deadline March 2,
+video March 7 (March 5 in the CFP text), notification June 16, final paper and author
+registration July 16, 2026. **IROS 2027** is confirmed first-party for **September 27 -
+October 1, 2027 at the Fortezza da Basso, Florence, Italy** (theme "Human-Centric Robots for
+Sustainable Life"), but its call for papers, deadlines and page rules were **not yet
+published** on 2026-11-24. If you are reading this for a 2027 submission, plan on a
+spring deadline with the 2026 rules as a labelled prior, and reopen 2027.ieee-iros.org.
 
 ## Skills
 
@@ -148,12 +155,12 @@ IROS-Skills/
 The pack keeps three classes of statement distinguishable:
 
 1. **Verified 2026-cycle facts** — carry dates/caps and trace to a numbered row in the
-   source map (e.g., the 60 s / 10 MB video, the July 10 camera-ready).
+   source map (e.g., the 60 s / 10 MB video, the 8-page all-inclusive limit, the July 16
+   final paper, the June 16 notification, the IROS 2027 Florence venue).
 2. **Reported facts** — found only in secondary renderings or aggregators and labeled as
-   such (e.g., the June 16 notification and the IROS 2027 Florence venue).
-3. **Unverifiable-at-check-time items** — marked 待核实 and phrased as questions (e.g., the
-   exact 2026 page limit, whether double-anonymity persists, whether any rebuttal exists,
-   the general/program-chair roster, registration fees).
+   such (none currently load-bearing after the 2026-11-24 direct re-read).
+3. **Unverifiable-at-check-time items** — marked 待核实 and phrased as questions (e.g.,
+   whether double-anonymity persists in 2027, camera-ready page rules, the IROS 2027 call).
 
 If a skill ever presents class 2 or 3 material as class 1, treat it as a bug and fix it
 against the live official pages.
@@ -163,9 +170,10 @@ against the live official pages.
 - Every number above is a **2026-cycle snapshot**. IROS rules genuinely change between
   cycles — the single-blind-to-double-anonymous posture and the removal of the combined
   RA-L option are proof; reopen `<year>.ieee-iros.org` before deadline-sensitive advice.
-- IROS has no standing editor-in-chief; organizing committees and the PaperPlaza
-  Associate-Editor/Editor assignments rotate per edition, and co-sponsorship alternates
-  regions. Do not carry editor-continuity assumptions over from journal packs.
+- IROS review is headed by an **IROS Editor-in-Chief** (2026: Eiichi Yoshida) over the
+  PaperPlaza Associate-Editor/Editor structure, while general and program chairs rotate
+  per edition and co-sponsorship alternates regions. Do not carry journal-style
+  editor-continuity assumptions over, and reopen the committee page each year.
 - Do not conflate IROS with ICRA: they share PaperPlaza and IEEE Xplore, not their
   calendars, video specs, or per-cycle policies.
 - When adding exemplars, follow the verification recipe at the end of

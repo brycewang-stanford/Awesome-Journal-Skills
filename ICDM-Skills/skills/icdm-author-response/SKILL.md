@@ -6,10 +6,12 @@ description: Use when preparing for the review phase of an ICDM (IEEE Internatio
 # ICDM Author Response
 
 Prepare for the ICDM review phase under its defining reality: ICDM's tradition is **no author
-rebuttal**. Whether the current edition opens a response window is 待核实 (the ICDM 2025 call
-mentioned responses becoming part of the submission), so this skill has two modes — the default
-"there is no rebuttal" plan, and the contingency reply if a window exists. Confirm the current
-Research Track call before assuming either.
+rebuttal**, and the ICDM 2026 Research and Applied Track calls describe no response window (the
+"responses become part of each submission" wording in the 2025/2026 calls refers to the
+reproducibility-checklist answers, not to a rebuttal; re-verified 2026-11-24). This skill
+therefore has two modes — the default "there is no rebuttal" plan, and a contingency reply in
+case a future edition adds a window. Confirm the current Research Track call before assuming
+either.
 
 ## Default mode: pre-answer everything at submission
 

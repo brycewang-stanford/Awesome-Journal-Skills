@@ -1,23 +1,24 @@
 ---
 name: icde-author-response
-description: Use when responding to IEEE ICDE reviews, whether drafting a rebuttal to reviewer concerns or preparing a revise-and-resubmit change document for an invited ICDE revision under the 4-week window, coordinating with area chairs, addressing systems-reviewer pushback on baselines and cost, and deciding what is feasible before the revision deadline.
+description: Use when responding to IEEE ICDE reviews, whether drafting the rebuttal (the only response in ICDE 2027) or, in editions that offer one, a revise-and-resubmit change document (ICDE 2026's 4-week window), coordinating with area chairs, addressing systems-reviewer pushback on baselines and cost, and deciding what is feasible before the revision deadline.
 ---
 
 # ICDE Author Response
 
 Use this after ICDE reviews arrive. Reopen the current call's review-and-revision instructions
-before drafting, because ICDE's outcome model — and whether a Revise & Resubmit exists this
-edition — is edition-specific (待核实 for the current cycle).
+before drafting, because ICDE's outcome model is edition-specific: ICDE 2027 offers a rebuttal
+and then Accept/Reject with no revisions; ICDE 2026 offered Revise & Resubmit.
 
 ## Two response genres
 
 ICDE can hand you either of two response tasks; identify which one you have before writing.
 
-1. **A rebuttal** to initial reviews (where the process offers one) — a short, factual reply
-   that corrects errors and answers the decision-critical objection per reviewer.
-2. **A revise-and-resubmit change document** — when the first reviewing phase returns
-   **Revise & Resubmit** (ICDE 2026 model), you get roughly **four weeks** to make concrete
-   changes, re-reviewed by the same reviewers before a final Accept/Reject.
+1. **A rebuttal** to initial reviews — a short, factual reply that corrects errors and answers
+   the decision-critical objection per reviewer. ICDE 2027 rebuttal periods: August 8-15, 2026
+   (Round 1) and January 8-15, 2027 (Round 2).
+2. **A revise-and-resubmit change document** — only in editions whose first reviewing phase can
+   return **Revise & Resubmit** (ICDE 2026 model, not ICDE 2027): roughly **four weeks** to make
+   concrete changes, re-reviewed by the same reviewers before a final Accept/Reject.
 
 ## Triage (both genres)
 
@@ -70,5 +71,5 @@ line:
 [Decision dimension] correctness / novelty / evaluation / reproducibility
 [Draft response] <ICDE-ready text with evidence anchors>
 [Requirement ledger] <numbered change -> done/partial/infeasible, per reviewer>
-[Feasibility check] <fits the 4-week window? y/n + why>
+[Feasibility check] <rebuttal: answerable from evidence already in the paper? R&R editions: fits the revision window? y/n + why>
 ```

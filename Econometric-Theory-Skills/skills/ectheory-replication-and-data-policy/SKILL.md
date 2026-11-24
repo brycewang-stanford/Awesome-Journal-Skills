@@ -1,6 +1,6 @@
 ---
 name: ectheory-replication-and-data-policy
-description: Use to handle reproducibility and the supplementary-material file for an Econometric Theory (ET) paper — ET has no mandatory data/code archive (theory journal); the relevant policy is the voluntary online Supplementary Material for already-reviewed proofs, derivations, and simulation evidence.
+description: Use to handle reproducibility and the supplementary-material file for an Econometric Theory (ET) paper — ET runs no journal data archive (theory journal), but papers with simulations or empirical applications supply a URL to a replication website or public repository that the editorial board may make a condition of publication; overflow proofs and derivations go in reviewed online Supplementary Material.
 ---
 
 # Reproducibility & Supplementary Material (ectheory-replication-and-data-policy)
@@ -10,19 +10,25 @@ description: Use to handle reproducibility and the supplementary-material file f
 - Long proofs/derivations exceed the 50-page Article ceiling and need a home
 - You want your Monte Carlo results to be reproducible and your code clean
 - Preparing the final-manuscript files and unsure what ET requires vs forbids in the Supplement
-- Wondering whether ET has a formal data/code deposit requirement (it does not — see below)
+- Wondering whether ET has a formal data/code deposit requirement (no journal archive, but a replication URL is expected — see below)
 
-## ET's reality: no mandatory archive, a Supplementary-Material policy
+## ET's reality: no journal archive, a replication URL, and a Supplementary-Material policy
 
-Unlike empirical economics journals, ET is **theory-focused and states no mandatory formal
-data/code/replication archive** on its author-instructions pages (recorded as **ABSENT** as of
-2026-06-01; **待核实**). Note: the JAE Data Archive belongs to a *different* journal (*Journal of
-Applied Econometrics*) and **does not apply** to ET. What ET does operate is a **voluntary online
-Supplementary Material policy**:
+ET is **theory-focused and runs no journal data archive**. Its "Preparing your materials" page
+(re-read 2026-11-24) says simulation studies and empirical applications are encouraged but not
+required; **for manuscripts that include them, authors should provide, as supplementary material,
+a URL to a replication website hosted by their institution or to a public repository containing
+all simulation code, data and data-analysis programs**, and the editorial board may require that
+URL as a **condition for publication**. If legal, copyright or confidentiality restrictions block
+sharing a dataset, contact the journal manager (econometric.theory@cambridge.org) **before
+submission**. Note: the JAE Data Archive belongs to a *different* journal (*Journal of Applied
+Econometrics*) and **does not apply** to ET. ET's **online Supplementary Material policy**:
 
-- Only **critical, already-reviewed** material may be posted online with the article — long
-  mathematical derivations, supporting lemmas, and extra tables/figures.
-- It is submitted with the **final manuscript** as a **separate, clearly labeled file**.
+- Material not essential to understanding the paper — long mathematical derivations, supporting
+  lemmas, and extra tables/figures — may go online with the article; the main paper, including
+  all proofs, should be as self-contained as possible.
+- It is submitted **at the same time as the main article** so that it is reviewed with it, as a
+  **separate, clearly labeled file**.
 - It is **not copyedited or typeset**.
 - It **may not introduce new, unseen material** — everything in it must have gone through review.
 
@@ -37,7 +43,7 @@ in the main paper under the **50-page** ceiling.
   and tables, and robustness simulations — all already part of what referees saw.
 - Do **not** smuggle new theorems, new claims, or unreviewed results into the Supplement.
 
-## Reproducible computation (good practice, not a deposit mandate)
+## Reproducible computation (behind the replication URL)
 
 - Keep one runnable script per table/figure (or a master script) regenerating all simulation output.
 - Fix and report random seeds; record replication counts, sample sizes, and the full DGP.
@@ -46,7 +52,8 @@ in the main paper under the **50-page** ceiling.
 
 ## Checklist
 
-- [ ] Confirmed ET has no mandatory data/code archive; not budgeting for a deposit step (待核实)
+- [ ] Replication URL (institutional site or public repository) ready for any simulation or empirical
+      application; data-sharing restrictions raised with the journal manager before submission
 - [ ] Overflow proofs/derivations placed in a separate, clearly labeled Supplement file
 - [ ] Supplement contains only already-reviewed material; no new results introduced
 - [ ] Supplement is self-contained and shares main-paper notation/numbering
@@ -55,7 +62,7 @@ in the main paper under the **50-page** ceiling.
 
 ## Anti-patterns
 
-- Assuming an AEA/JAE-style mandatory archive applies to ET (it does not)
+- Assuming an AEA/JAE-style journal archive applies to ET (it does not), or skipping the replication URL
 - Introducing a new theorem or claim only in the non-reviewed Supplement
 - A Supplement that cannot be read without the main paper's lost context
 - Non-reproducible simulations (unreported seeds / replication counts)
@@ -63,8 +70,8 @@ in the main paper under the **50-page** ceiling.
 
 ## What belongs where: a theory-venue routing table
 
-With no mandatory data/code archive, the reproducibility decision is mostly *where each piece of technical
-content lives*.
+With no journal archive, the reproducibility decision is mostly *where each piece of technical
+content lives* and what sits behind the replication URL.
 
 | Content | Main Article | Online Supplement | Forbidden |
 | --- | --- | --- | --- |
@@ -74,8 +81,8 @@ content lives*.
 | A brand-new theorem not yet refereed | — | — | yes (no new results) |
 
 The hard rule: the Supplement carries only **already-reviewed** material and ships as a separate labeled
-file with the final manuscript. Confirm conventions against the author guidelines (mandatory archive
-recorded ABSENT as of 2026-06-01; 待核实).
+file submitted with the article for review. Confirm conventions against the author guidelines (replication
+URL expected for simulations/empirics, re-read 2026-11-24).
 
 ## Worked vignette and the reproducibility fixes
 
@@ -93,7 +100,8 @@ software    = R 4.4.x; packages: <list with versions>
 mapping     = each table -> the script block that produces it
 ```
 
-This builds referee trust, not a deposit mandate — there is no AEA/JAE-style archive obligation at ET. The
+This is what the replication URL should point to — there is no AEA/JAE-style journal archive at ET, but the
+editorial board may make the URL a condition of publication. The
 fixes: "the auxiliary proof is missing" → include it in the reviewed Supplement during the review round, not
 for the first time post-review; "simulations not reproducible" → add the manifest above and a
 table-to-script mapping; "Supplement unreadable on its own" → make it compile independently against the
@@ -102,7 +110,7 @@ numbered theorems.
 ## Output format
 
 ```
-【Archive requirement】none mandatory at ET (待核实)
+【Archive requirement】no journal archive; replication URL for simulations/empirics (may be required)
 【Supplement】separate labeled file, already-reviewed only? [Y/N]
 【Self-contained】shares notation/numbering? [Y/N]
 【No new material】confirmed? [Y/N]

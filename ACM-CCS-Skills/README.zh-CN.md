@@ -6,11 +6,10 @@ skills。CCS 是 SIGSAC 的旗舰会议，与 IEEE S&P、USENIX Security、NDSS 
 准备匿名的 HotCRP 投稿、通过 ethics 与 responsible disclosure 门槛、熬过双周期评审与 rebuttal，
 以及完成 ACM camera-ready 与可选的 artifact evaluation。
 
-官方依据核验日期：**2026-07-08**。已核验 CCS 2026 Call for Papers、call for artifacts、
-Cycle A 与 Cycle B 的 HotCRP 站点、CCS 2026 主页与组织页面、SIGSAC CCS Test-of-Time Award 页面，
-以及 ACM Digital Library 的 CCS proceedings。核验环境下直接抓取 `www.sigsac.org` 返回 HTTP 403，
-因此官方页面通过对精确 URL 的搜索引擎渲染阅读，并与 HotCRP 周期站点、ACM DL 和 dblp 交叉核对；
-完整追溯（含所有 待核实 项）见 [`resources/official-source-map.md`](resources/official-source-map.md)。
+官方依据首次核验于 2026-07-08，并于 **2026-11-24 直接抓取复核**：CCS 2026 Call for Papers、
+call for artifacts、CCS 2026 主页与组委会页面，以及 CCS 2027 占位页与 HotCRP 站点。CCS 2026
+（海牙，2026 年 11 月 15-19 日）已举行；CCS 2027 已宣布于 2027 年 10 月 11-15 日在亚特兰大举行，
+但 CFP 尚未发布，故本包仍以 CCS 2026 规则为参照届次。完整追溯（含所有 待核实 项）见 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## CCS 与同类会议的区别
 
@@ -22,8 +21,12 @@ Cycle A 与 Cycle B 的 HotCRP 站点、CCS 2026 主页与组织页面、SIGSAC 
 - **硬性 12 页 ACM `sigconf` 正文。** 未改动的双栏 ACM 模板下 12 页，不含参考文献与标注清楚的
   appendix。压缩空白或改边距会触发 desk-reject。
 - **匿名投稿，自引用第三人称。** 未正确匿名的论文可能不经评审直接拒。
-- **ethics considerations 章节为必需**（涉及人类被试、用户数据或真实漏洞的工作）——2026 年为正文与
-  参考文献之后的独立 appendix。IRB/ERB 批准既非必要也非充分。
+- **"Open Science" appendix 强制**（2026）：放在正文与参考文献之后，列出评审所需全部 artifact 的位置
+  （匿名 URL，同时填入 HotCRP，投稿后 3 天内必须可访问），没有 artifact 也须声明。
+- **"Ethical Considerations" appendix 为必需**（涉及人类被试、用户数据或真实漏洞的工作）——2026 年
+  放在正文与参考文献之后，不计页数。IRB/ERB 批准既非必要也非充分。
+- **生成式 AI 使用须披露**（ACM 作者政策）：轻度润色写在 Acknowledgements，实质性使用须单列
+  "Generative AI Usage" 章节。CCS 2026 不接收 SoK 或 survey 论文。
 - **决定不是二元的。** Accept、minor revision（本周期内修改）、reject。
 - **录用后可选 artifact evaluation**，授予 ACM badge——Available、Functional、Reusable、Results
   Reproduced，印在论文首页。
@@ -116,32 +119,36 @@ ACM-CCS-Skills/
 
 1. **已核验的 2026 周期事实**——带日期/上限，且追溯到 source map 中带编号的来源（如 12 页正文、双周期结构、
    ACM badge 集合）。
-2. **转述事实**——仅见于二手来源并如此标注（如 CCS 2026 Program Co-Chairs，来自组织页面渲染）。
-3. **核验时无法确认的项**——明确标 待核实 并以待解决问题呈现，绝不当作事实（如 AI/LLM 政策、camera-ready
-   页数、CCS 2027 主办城市）。
+2. **转述事实**——仅见于二手来源并如此标注。
+3. **核验时无法确认的项**——明确标 待核实 并以待解决问题呈现，绝不当作事实（如 camera-ready 页数、
+   CCS 2027 的 CFP 与周期日期）。
 
 若发现 skill 中把第 2、3 类材料当作第 1 类陈述，视为 bug，对照官方页面修正。
 
 ## 2026 锚点事实（历史快照，非永久规则）
 
-- CCS 2026：**荷兰海牙，2026 年 11 月 15-19 日**。
-- Cycle A：摘要注册 **1 月 7 日**，全文 **1 月 14 日**，rebuttal **3 月 17-20 日**，通知
-  **2026 年 4 月 9 日**。
-- Cycle B：摘要注册 **4 月 22 日**，全文 **4 月 29 日**，rebuttal **6 月 29 日-7 月 1 日**，通知
-  **2026 年 7 月 17 日**。camera-ready 据报 **2026 年 8 月 21 日**。所有截止均为 AoE。
+- CCS 2026：**荷兰海牙，2026 年 11 月 15-19 日**（已举行）。
+- Cycle A：摘要注册 **1 月 7 日**，全文 **1 月 14 日**，early reject **2 月 20 日**，rebuttal
+  **3 月 17-20 日**，通知 **4 月 9 日**，camera-ready **2026 年 8 月 9 日**。
+- Cycle B：摘要注册 **4 月 22 日**，全文 **4 月 29 日**，在线 artifact **5 月 2 日**，early reject
+  **6 月 12 日**，rebuttal **6 月 29 日-7 月 1 日**，通知 **7 月 17 日**，camera-ready
+  **2026 年 9 月 13 日**。所有截止均为 AoE。
 - 格式：未改动的 ACM `sigconf` 双栏模板 · 正文 **12 页**，不含参考文献、标注清楚的 appendix 与补充材料。
-- 匿名投稿 · 强制摘要注册 · ethics considerations appendix · 每作者每周期最多 **7 篇** ·
+- 匿名投稿 · 强制注册（含 track 与 track justification）· Open Science appendix · 需要时的 ethics
+  appendix · 全体作者 ORCID · 每作者每周期最多 **7 篇** ·
   第一周期被拒当年不得再投。
 - 可选 artifact evaluation 与 ACM badge；录用论文发表于 ACM Digital Library。
-- 截至 2026-07-08，**两个 2026 截止日期均已过**；把日历当模板，待 CCS 2027 CFP 发布后再读
-  （主办城市当时仍在 steering committee 选定中）。
+- 录用论文在 ACM DL 开放获取；非 ACM Open 机构的作者需付 APC（2026：ACM/SIG 会员 250 美元，
+  非会员 350 美元）。
+- **CCS 2027 已宣布在美国亚特兰大举行，2027 年 10 月 11-15 日**，但截至 2026-11-24 CFP 尚未发布；
+  2026 日历只能当模板，不能当 2027 日期。
 
 ## 维护说明
 
 - 上述每个日期与上限都是 **2026 周期快照**；涉及 deadline 的建议前，请重新打开当年
   `sigsac.org/ccs/CCS<year>` CFP 与该周期的 HotCRP 站点。
-- 2026-07-08 无法实时核验的项在 source map 中标为 待核实——尤其是 AI/LLM 政策、rebuttal 格式、
-  minor-revision 机制、camera-ready 页数、2026 General Chairs、CCS 2027 主办城市。确认前不得当作事实。
+- 2026-11-24 无法实时核验的项在 source map 中标为 待核实——尤其是 CCS 2027 的全部规则与日期、
+  rebuttal 格式、camera-ready 页数。确认前不得当作事实。
 - CCS 的 chairs 与政策每届重设，且 Cycle A 与 Cycle B 可能不同；把期刊包沿用的"编辑连续性"假设视为错误。
 - 新增 exemplar 论文时，遵循 [`resources/exemplars/library.md`](resources/exemplars/library.md)
   末尾的核验流程——著名的安全成果未必就是 CCS 论文。

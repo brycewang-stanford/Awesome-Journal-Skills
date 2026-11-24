@@ -1,6 +1,6 @@
 ---
 name: cikm-supplementary
-description: Use when deciding what supporting material accompanies a CIKM submission given budgets that count appendices inside the page limit, structuring the in-PDF appendix versus the anonymously cited artifact, keeping both double-blind, and handling the uncounted GenAI-disclosure and reference sections correctly.
+description: Use when deciding what supporting material accompanies a CIKM submission given budgets that count appendices inside the page limit, structuring the in-PDF appendix versus the cited artifact, keeping both double-blind on the Full/Short tracks (Applied/Resource/Demo are single-blind), and handling the uncounted GenAI-disclosure and reference sections correctly.
 ---
 
 # CIKM Supplementary

@@ -8,7 +8,7 @@ description: Use when auditing a PVLDB submission before a monthly deadline, cov
 Run this in the two weeks before a PVLDB monthly deadline. VLDB research papers
 enter through PVLDB (Proceedings of the VLDB Endowment), and the volume's own
 guidelines page — not the conference site's summary — is the governing document.
-Everything dated below was checked 2026-07-08; reopen the live volume page first.
+Everything dated below was checked 2026-07-08 and re-verified 2026-11-24; reopen the live volume page first.
 
 ## The three clocks of one deadline
 
@@ -34,23 +34,32 @@ Pick the category deliberately — reviewers calibrate expectations to it:
 | Vision | 6 pp + refs | Agenda-setting argument, less evidence |
 
 References are uncapped, but appendices and acknowledgements count inside the
-budget. Category continuation and budgets for the volume you target: confirm on
-the live page (待核实 for Vol 20 beyond the sources in the source map).
+budget. The four categories and budgets above are confirmed for Vol 20 (re-verified
+2026-11-24); non-regular categories also need the category tag as a title suffix
+(e.g. "[Vision]") in both the PDF and CMT. Reconfirm when Vol 21 is published.
 
 ## Identity and caps
 
 - PVLDB review is **single-blind**: author names and affiliations belong on the
   paper. Do not strip them the way SIGMOD or ML venues require — an anonymous
-  PVLDB submission is a formatting error, not a virtue. Reconfirm the wording
-  on the live guidelines before submission.
+  PVLDB submission is a formatting error, not a virtue. The Vol 20 wording:
+  "VLDB is a single-blind conference. Therefore, authors MUST include their
+  names and affiliations on the first page of the manuscript."
 - Count coauthor load before promising a submission: Vol 20 caps each author at
-  **two papers per month** and **twelve per year**.
+  **two papers per month** and **twelve per year**, tracked against one CMT
+  account per author; every submission also nominates a qualified author as a
+  possible Light Load Reviewer.
+- Submit supplemental code/data in a public archival repository (not a personal
+  page) or explain why not; EA&B papers must link the full reproducibility
+  package already at initial submission.
+- Declare related concurrent submissions by the same authors, cited as
+  "under submission".
 - Declare conflicts accurately in CMT; the review board assignment runs on them.
 
 ## Pre-deadline audit sequence
 
 ```text
-[ ] Live volume identified (Vol 20 on 2026-07-08) and its guidelines reopened
+[ ] Live volume identified (Vol 20 on 2026-11-24) and its guidelines reopened
 [ ] Abstract registered in CMT before the 25th, title/author list final
 [ ] Category chosen; page budget measured with appendix included
 [ ] Volume template applied unmodified; fonts legible at print size

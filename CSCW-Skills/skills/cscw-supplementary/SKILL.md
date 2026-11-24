@@ -80,5 +80,7 @@ often reintroduces metadata.
 [Round label] files named by round; prior rounds preserved? y/n
 ```
 
-Platform-specific size and format caps were not verifiable at 2026-07-08; check the
-live Manuscript Central instructions for the rolling pathway before packaging.
+Platform-specific size and format caps were not verifiable at 2026-11-24; check the
+live Manuscript Central instructions for the rolling pathway before packaging. The
+CSCW 2026 CFP applied anonymity to supplemental materials too, allowed appendices
+(reviewers not bound by them) and an optional video figure of up to three minutes.

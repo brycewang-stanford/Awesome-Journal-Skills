@@ -80,7 +80,8 @@ Pin these at collection time — they cannot be recovered at the deadline (see `
 - **Security/isolation claims:** state the threat model and what the measurement does and does not
   cover.
 - **Experience papers:** the "evaluation" is the deployment itself — scale, duration, incidents, and
-  transferable lessons; ATC's Deployed Systems lane values this even without a new mechanism.
+  transferable lessons; ATC's Operational Systems Track values this even without a new mechanism,
+  provided the lessons are new and deeply discussed.
 
 ## Output format
 

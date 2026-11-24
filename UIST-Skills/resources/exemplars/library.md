@@ -4,8 +4,8 @@
 > 2026-07-08.** Every paper below was confirmed to have appeared in the **ACM Symposium on
 > User Interface Software and Technology (UIST) main proceedings** — not CHI, not the UIST
 > adjunct proceedings, not a sibling venue. Where an award is noted, its source is given;
-> one award claim rests on secondary sources and is flagged. Six verified entries beat a
-> longer guessed list.
+> the Sikuli award, once flagged as CV-sourced, was confirmed on the official UIST archive
+> on 2026-11-24. Six verified entries beat a longer guessed list.
 >
 > **Sibling-confusion guard:** the HCI publication circuit (CHI, UIST, CSCW, TEI, IMWUT,
 > ISMAR) shares authors, topics, and even system names, and many famous interface papers
@@ -21,7 +21,7 @@
 
 ## How to use this library
 
-Four of the six entries carry the **UIST Lasting Impact Award** or a reported best-paper
+Four of the six entries carry the **UIST Lasting Impact Award** or a best-paper
 distinction — the community's own signal of what the venue's contribution bar looks like
 when it pays off over decades. Pick the row nearest your contribution type, then study how
 that paper (a) names an artifact on page one, (b) spends real pages on mechanism, and
@@ -70,9 +70,9 @@ and [`../../skills/uist-experiments/SKILL.md`](../../skills/uist-experiments/SKI
 ### Pixel-level UI automation (software system)
 
 - **Yeh, Chang & Miller, "Sikuli: Using GUI Screenshots for Search and Automation,"
-  UIST 2009, pp. 183-192.** Verified: `dl.acm.org/doi/10.1145/1622176.1622213`. Best
-  Student Paper Award **reported** on an author's CV — treat the award (not the paper) as
-  待核实.
+  UIST 2009, pp. 183-192.** Verified: `dl.acm.org/doi/10.1145/1622176.1622213`. **UIST 2009 Best
+  Student Paper** (official UIST archive, checked 2026-11-24) and the **UIST 2026 Lasting
+  Impact Award** (UIST 2026 awards page).
   - **Why it is an exemplar:** treats the screen's pixels as a universally available API,
     turning screenshots into a scripting primitive — a systems idea that spawned a tool
     ecosystem. A model for "make the impossible scriptable" toolkit framing.
@@ -111,7 +111,7 @@ and [`../../skills/uist-experiments/SKILL.md`](../../skills/uist-experiments/SKI
 | Sensing hardware → technique vocabulary | Sensing Techniques for Mobile Interaction | UIST 2000 | Lasting Impact 2011 |
 | Enabling device capability | DiamondTouch | UIST 2001 | Lasting Impact 2012 |
 | Input technique + recognizer | SHARK2 | UIST 2004 | Lasting Impact 2014 |
-| Software toolkit / automation | Sikuli | UIST 2009 | Best Student Paper (reported, 待核实) |
+| Software toolkit / automation | Sikuli | UIST 2009 | Best Student Paper 2009; Lasting Impact 2026 |
 | Actuated tangible hardware | inFORM | UIST 2013 | — |
 | LLM-based interactive architecture | Generative Agents | UIST 2023 | — |
 

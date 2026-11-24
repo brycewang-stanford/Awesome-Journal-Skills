@@ -22,7 +22,8 @@ should foreground change (age, trajectory, mechanism), not just a finding measur
 - **Length tiers** *(检索于 2026-06；以官网为准)*: roughly **~4,500 words** for a brief report,
   **~10,500 words** for a larger research report, and **~15,000 words** for a multi-study or comprehensive
   longitudinal report; total length counts the cover page, abstract, text, references, tables, and figures.
-- **Abstract**: an APA-style abstract on the abstract/keywords page (confirm the current word ceiling).
+- **Abstract**: **≤ 250 words** on its own page, reporting major sample demographics (age, gender,
+  race/ethnicity, SES); then **up to six keywords** (APA guidelines, re-verified 2026-11-24).
 - **Public Significance Statement**: **2–3 brief sentences (~30–70 words)** on the relevance/public-health
   significance of the study, in lay-accessible language, on the abstract/keywords page.
 - **Style**: **APA 7th edition**; **JARS** reporting (JARS-Quant / JARS-Qual / MARS) for the method used.

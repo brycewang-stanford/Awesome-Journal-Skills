@@ -20,7 +20,7 @@ description: Use when running the final pre-submission preflight for an Internat
 - **Length:** **not more than 50 pages**, single-sided, **double-spaced**. Manuscripts must conform to the style guidelines (available on request from the editorial office).
 - **Copyright:** assignment to the University of Pennsylvania and Osaka University is a publication condition.
 - **Data policy:** the **AER data availability policy (effective Jan 1, 2022)** applies; deposit is post-acceptance, but **proprietary or restricted data must be flagged to the Editor at the time of submission**.
-- **Peer review model, exact abstract limit, and reference style** are **待核实** — confirm in the style guidelines / official pages before relying on them.
+- **Abstract and style (re-verified 2026-11-24, Penn IER "Style Guidelines" page):** first page carries title, authors, affiliations and an **abstract of not more than 100 words**; acknowledgments go in Footnote 1; appendix before the references; author-date citations with page numbers where applicable; alphabetical, double-spaced reference list. The **peer review model** is still **待核实** (not stated on the official pages).
 - **Open Access** is optional at acceptance with an article processing charge (Wiley lists it around US$3,570 / £2,330 / €3,010; verify the current amount — 检索于 2026-06；以官网为准). This APC is *separate* from and additional to the US$150 submission fee; do not conflate them.
 
 ### The two-cost structure that trips up first-time submitters
@@ -31,9 +31,9 @@ IER has an unusual cost profile worth flagging to the user up front: a **submiss
 
 ### Format & length
 - [ ] Manuscript **≤50 pages**, **double-spaced**, single-sided
-- [ ] Conforms to the IER style guidelines (request from the editorial office if not held); reference style consistent (待核实 for exact format)
+- [ ] Conforms to the IER style guidelines (request from the editorial office if not held); references in IER style (author-date in text; alphabetical list per the Penn "Style Guidelines" page)
 - [ ] Figures and tables legible, self-contained notes, **no significance asterisks** (SEs/confidence sets instead)
-- [ ] Abstract present (exact word limit 待核实); title page with affiliations and JEL/keywords
+- [ ] Abstract **≤100 words** on the first page with title, authors and affiliations (JEL/keywords not required by the IER pages — add them only as a courtesy)
 - [ ] Online/supplemental appendix carries long proofs and secondary exhibits so the main text fits the ceiling
 
 ### Files & fee for Editorial Express

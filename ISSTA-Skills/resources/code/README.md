@@ -45,7 +45,7 @@ or *Results Reproduced* is decided by the evaluators actually running it, not by
 - **Result tables regenerate from logged data** — the numbers in the PDF trace to a script over
   stored outputs, so paper and artifact cannot drift apart.
 - **Availability is Zenodo-backed** — the *Artifacts Available* badge requires a DOI-issuing public
-  archive (Zenodo), and that deposit is a distinct step from the anonymous review upload
+  archive (Zenodo, FigShare, Dryad or similar), and that deposit is a distinct step from the anonymous review upload
   (`../../skills/issta-artifact-evaluation/SKILL.md`).
 - **The review-time copy is anonymized** — repository owners, commit authors, and container labels
   scrubbed, because artifact review at ISSTA is double-anonymous alongside the paper.

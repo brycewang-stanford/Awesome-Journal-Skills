@@ -1,6 +1,6 @@
 ---
 name: ase-review-process
-description: Use when reasoning about how an ASE (IEEE/ACM Automated Software Engineering) research submission is evaluated, covering double-anonymous review, the early-rejection stage before rebuttal, the Accept / Revision / Reject outcomes, the criteria-bound revision round, and how ASE's process differs from FSE's PACMSE Major Revision, ICSE's cycles, and ISSTA's rounds.
+description: Use when reasoning about how an ASE (IEEE/ACM Automated Software Engineering) research submission is evaluated, covering double-anonymous review, the early-rejection stage before rebuttal, the Accept / Major revision / Reject outcomes, the criteria-bound revision round, and how ASE's process differs from FSE's PACMSE Major Revision, ICSE's cycles, and ISSTA's rounds.
 ---
 
 # ASE Review Process
@@ -8,7 +8,8 @@ description: Use when reasoning about how an ASE (IEEE/ACM Automated Software En
 Model the pipeline before interpreting any single review. ASE's process has **two distinctive
 gates** that authors from a plain accept/reject conference miss: an **early-rejection stage** that
 ends the process *before* rebuttal for the weakest papers, and a first-class **Revision** outcome
-whose criteria are fixed in advance. Getting both wrong wastes the little leverage authors have.
+(named **Major revision** in the ASE 2027 call, "Revision" in 2026) whose criteria are fixed in
+advance. Getting both wrong wastes the little leverage authors have.
 
 ## Process model
 
@@ -21,13 +22,16 @@ whose criteria are fixed in advance. Getting both wrong wastes the little levera
   before the rebuttal period**. This is a mercy and a filter — it gives those authors a fast answer
   and concentrates rebuttal effort where it can change an outcome. If your paper survives to
   rebuttal, at least one reviewer saw something.
-- **Rebuttal**, then a final outcome of **Accept**, **Revision**, or **Reject**.
+- **Rebuttal**, then a final outcome of **Accept**, **Major revision** (2026: "Revision"), or **Reject**.
+- ASE 2027 scores five criteria: **Significance, Novelty, Soundness, Verifiability, Presentation**;
+  each paper is handled by an area chair, and any linked artifact may be checked by one reviewer.
 - **Revision** is criteria-bound: instead of rejecting, reviewers specify **concrete, actionable
-  revision criteria** and agree to **accept the paper in principle if those criteria are met**.
+  revision criteria** (work of up to four weeks) and agree to **accept the paper in principle if
+  those criteria are met**.
   Authors return a revised paper with a **point-by-point summary of changes**, re-checked (often by
   a discussion lead) against the stated criteria.
-- Accepted papers appear in the proceedings in **both IEEE Xplore and the ACM Digital Library**;
-  camera-ready compliance and artifact follow-through matter after the verdict.
+- Accepted papers appear in the dual-sponsored proceedings (the ASE 2027 publication of record is
+  the **IEEE Digital Library**; ASE 2026's was the ACM DL); camera-ready compliance and artifact follow-through matter after the verdict.
 
 ## Reading a decision against the categories
 

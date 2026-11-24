@@ -1,42 +1,50 @@
 ---
 name: ase-submission
-description: Use when auditing an ASE (IEEE/ACM Automated Software Engineering) research-track submission for HotCRP readiness, covering the ACM acmart sigconf template and the 10+2 page budget, double-anonymous review, the mandatory Data Availability Statement, the early-rejection stage before rebuttal, and desk-reject triage before the deadline.
+description: Use when auditing an ASE (IEEE/ACM Automated Software Engineering) research-track submission for HotCRP readiness, covering the IEEE IEEEtran conference template (ASE 2027) and the 10+2 page budget, double-anonymous review, the Data Availability section, the early-rejection stage before rebuttal, and desk-reject triage before the deadline.
 ---
 
 # ASE Submission
 
-Run this audit before uploading to `ase26.hotcrp.com`. ASE research papers are published in the
+Run this audit before uploading to `ase2027.hotcrp.com`. ASE research papers are published in the
 proceedings of the **IEEE/ACM International Conference on Automated Software Engineering**, indexed
-in **both IEEE Xplore and the ACM Digital Library**. Every number below was read from the ASE 2026
-research-track call on 2026-07-09 via search renderings of the `conf.researchr.org` URLs (see
+by IEEE and ACM SIGSOFT (the ASE 2027 publication of record is the IEEE Digital Library). Every
+number below was read directly from the ASE 2027 research-track call on 2026-11-24 (see
 `resources/official-source-map.md`); treat them as a one-cycle snapshot and reopen the live call
 first.
 
 ## Calendar and portal
 
-- **Portal:** HotCRP at `ase26.hotcrp.com`. NIER, Tools-and-Datasets, and Journal-First each have
+- **Portal:** HotCRP at `ase2027.hotcrp.com`. NIER, Tools-and-Datasets, and Journal-First each have
   their own site/track — do not upload a research paper to the wrong one.
-- **ASE 2026 research dates:** submission **26 March 2026**, notification **25 May 2026** (Munich,
-  Oct 12-16 2026). The exact abstract-registration deadline that precedes the full-paper deadline
-  is **待核实** — confirm it, because a missed abstract registration can forfeit the submission slot.
-- As of 2026-07-09 the ASE 2026 notification has passed; the next *submission* target is ASE 2027
-  (host/dates **待核实**). Reverify the whole calendar before acting.
+- **ASE 2027 research dates (AoE):** paper submission **10 March 2027**; early-rejection
+  notification **19 May 2027**; author response **19-24 May 2027**; initial notification **10 June
+  2027**; major-revision submission **8 July 2027**; final notification **27 July 2027**;
+  camera-ready **11 August 2027** (El Paso, Texas, Oct 24-28 2027). The call describes an abstract
+  stage (title, abstract, areas, conflicts — dummy placeholders are rejected), but the dates page
+  lists no separate abstract date — **待核实**; confirm it, because a missed abstract registration
+  can forfeit the submission slot.
 
 ## Format and page budget
 
-- **Template:** for ASE 2026, the ACM Primary Article (Proceedings) Template —
-  `\documentclass[sigconf,review,anonymous]{acmart}`. Note the ASE nuance: because the conference
-  is **dual IEEE/ACM sponsored**, the mandated template has varied across editions (an IEEE
-  two-column format in some years, ACM `acmart` sigconf for 2026). Confirm which the current call
-  requires before you format anything — carrying an old IEEEtran or acmart habit forward is a
-  classic ASE mistake.
-- **Page budget:** **10 pages** for all content — text, figures, tables, and appendices — **plus 2
-  pages** for references only. There is no unlimited appendix inside the paper; anything a reviewer
-  must read to judge the work lives inside the 10 pages.
-- **Mandatory Data Availability Statement:** placed **after the Conclusions** and **inside the
-  10-page limit**. It is not optional and it is not free space — budget for it.
-- Accepted papers are typically allowed **one additional content page** for revisions; do not
-  pre-spend it in the submission.
+- **Template:** for ASE 2027, the IEEE Conference Proceedings format — 24pt title, 10pt text,
+  `\documentclass[10pt,conference]{IEEEtran}` **without** the `compsoc` or `compsocconf` option.
+  Note the ASE nuance: because the conference is **dual IEEE/ACM sponsored**, the mandated template
+  flips between editions (ACM `acmart` sigconf for 2026, IEEEtran for 2027). Confirm which the
+  current call requires before you format anything — carrying last year's acmart habit forward is
+  a classic ASE mistake.
+- **Page budget:** **10 pages** of main text — text, figures, tables, and appendices — **plus up to
+  2 pages** containing references and the Data Availability statement. There is no unlimited
+  appendix inside the paper; anything a reviewer must read to judge the work lives inside the 10
+  pages. Over-length or misformatted papers are desk-rejected.
+- **Data Availability section:** a section named **Data Availability** after the Conclusion,
+  stating the availability of a replication package (or why there is none). For 2027 it does **not**
+  count toward the 10 pages (it shares the 2 extra pages with the references); keep it anonymous.
+- Accepted papers get **one additional content page** (11 + 2); do not pre-spend it in the
+  submission.
+- **Generative AI:** ASE 2027 follows the IEEE policy — disclose AI-generated content (text,
+  figures, images, code) in the **acknowledgments**, naming the system and the sections it produced;
+  editing/grammar help is exempt (disclosure recommended). Research with human subjects needs an
+  IRB/ethics and consent statement.
 
 ## Double-anonymous sweep
 
@@ -59,7 +67,7 @@ first person. Re-host the tool and dataset behind an anonymizing service *before
 
 ## Data Availability and open science at submission time
 
-- The **Data Availability Statement is required** and reviewed. State what exists (tool, dataset,
+- The **Data Availability section is required** and reviewed. State what exists (tool, dataset,
   scripts, logs), where it will live after acceptance, and provide an **anonymized** link or upload
   now.
 - "Available upon request" reads as a scored weakness, not a neutral choice. If you genuinely cannot
@@ -72,8 +80,8 @@ first person. Re-host the tool and dataset behind an anonymizing service *before
 | Finding at audit time | Severity | Real fix |
 |---|---|---|
 | Content over 10 pages (refs are separate) | Desk-reject-grade | Cut or move to the artifact; the 2 reference pages do not absorb body text |
-| Wrong template (IEEEtran when ACM `acmart` is required, or vice versa) | Named desk-reject ground | Recompile in the mandated template; recover space editorially |
-| No Data Availability Statement, or it sits outside the 10 pages | Policy violation | Add it after Conclusions, inside the budget |
+| Wrong template (ACM `acmart` when IEEEtran is required for 2027, or vice versa) | Named desk-reject ground | Recompile in the mandated template; recover space editorially |
+| No Data Availability section | Policy violation | Add it after the Conclusion (for 2027 it sits with the references, outside the 10 pages) |
 | Identity leak in PDF, artifact, or tool name | Anonymity violation | Re-anonymize and re-host; scrub PDF metadata |
 | Abstract not registered by the earlier date | No submission slot exists | Nothing fixes this post-deadline — calendar it now |
 | Same study under review elsewhere | Dual-submission exposure | Withdraw one venue; verify the current concurrent-submission wording |
@@ -124,7 +132,7 @@ it lists as *not checked* still needs the manual items below.
 ```text
 [ASE submission status] ready / blocked / needs work
 [Registration] abstract/authors/conflicts locked by the earlier deadline? yes/no
-[Format] template (acmart sigconf? IEEE?), pages used (content/refs), Data Availability present & inside 10pp?
+[Format] template (IEEEtran conference for 2027?), pages used (content/refs+DA), Data Availability present after Conclusion?
 [Anonymity] clean / leaks: <where, incl. tool name>
 [Open science] anonymized tool + dataset link present?
 [Fix queue] <ordered, with owners and dates before the deadline>

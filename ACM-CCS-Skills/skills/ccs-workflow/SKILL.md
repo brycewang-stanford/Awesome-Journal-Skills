@@ -6,9 +6,11 @@ description: Use when planning an ACM CCS project timeline across the two HotCRP
 # CCS Workflow
 
 Use this as the project-management skill for a CCS submission. CCS is a conference, not a
-journal: it has no editor-in-chief and no article-processing charge. The rotating leadership
-is the per-edition General Chairs and Program Co-Chairs (CCS 2026 Program Co-Chairs: Véronique
-Cortier and Zhiqiang Lin, reported 2026-07-08; verify against the organizing-committee page).
+journal: it has no editor-in-chief. Since 2026 ACM publishes the proceedings open access, so
+authors outside ACM Open institutions pay an APC (2026: USD 250 ACM/SIG members, 350
+non-members). The rotating leadership is the per-edition General Chairs and Program Chairs
+(CCS 2026: General Chairs Georgios Smaragdakis and Kaitai Liang; Program Chairs Véronique
+Cortier and Zhiqiang Lin, confirmed 2026-11-24 on the organizing-committee page).
 Replace every date below with the current cycle's HotCRP deadlines and work backward.
 
 ## The dual-deadline cycle
@@ -19,20 +21,25 @@ same year. Pick the cycle from readiness, not hope — a thin first-cycle submis
 year at this venue.
 
 - CCS 2026 (The Hague, Netherlands, Nov 15-19, 2026) Cycle A: abstract registration Jan 7,
-  full paper Jan 14, rebuttal Mar 17-20, notification Apr 9, 2026 (verify).
-- CCS 2026 Cycle B: abstract registration Apr 22, full paper Apr 29, rebuttal Jun 29-Jul 1,
-  notification Jul 17, 2026 (verify). Camera-ready reported Aug 21, 2026.
-- Both 2026 deadlines have passed as of 2026-07-08; treat them as a template and read the
-  CCS 2027 CFP when posted (CCS 2027 host city was still under steering-committee selection).
+  full paper Jan 14, early reject Feb 20, rebuttal Mar 17-20, notification Apr 9,
+  minor-revision approval Jun 5, camera-ready Aug 9, 2026.
+- CCS 2026 Cycle B: abstract registration Apr 22, full paper Apr 29, online artifacts May 2,
+  early reject Jun 12, rebuttal Jun 29-Jul 1, notification Jul 17, minor-revision approval
+  Sep 4, camera-ready Sep 13, 2026.
+- CCS 2026 has met. CCS 2027 is announced for Atlanta, USA, October 11-15, 2027, but its CFP
+  was not out on 2026-11-24; treat the 2026 dates as a template and read the 2027 CFP when
+  posted.
 
 ## Milestones
 
 - Venue fit: confirm the contribution is a broad security result for the SIGSAC PC.
 - Evidence lock: freeze threat model, attack/defense implementation, adaptive evaluation,
   measurement validation, and the ethics/disclosure posture.
-- Abstract registration: mandatory title, authors, abstract, and topics in HotCRP before the
-  registration deadline; no paper without a registered abstract.
-- Full-paper deadline: upload the anonymized 12-page ACM sigconf PDF plus appendices.
+- Abstract registration: mandatory definitive title, abstract, track, and track justification
+  in HotCRP before the registration deadline; no paper without a registered abstract.
+- Full-paper deadline: upload the anonymized 12-page ACM sigconf PDF plus appendices
+  (including the mandatory Open Science appendix), with every author's ORCID on HotCRP and
+  anonymous artifact URLs live within 3 days.
 - Rebuttal window: respond to reviews in the short author-response period.
 - Notification: accept, minor revision (revise within the cycle), or reject.
 - Artifact evaluation: submit artifacts after acceptance for ACM badges if you opt in.

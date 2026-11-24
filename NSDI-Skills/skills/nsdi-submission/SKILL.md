@@ -6,20 +6,23 @@ description: Use when running the final pre-upload audit of an NSDI submission �
 # NSDI Submission
 
 The audit below is ordered by irreversibility: calendar errors first, then format,
-then blindness, then policy. Numbers are the NSDI '27 cycle as rendered on
-2026-07-08; the fall HotCRP `/deadlines` page outranks everything here.
+then blindness, then policy. Numbers are the NSDI '27 cycle as re-verified on
+2026-11-24. Both '27 gates are now closed and the NSDI '28 CFP was not yet published on
+that date, so for the next gate the new CFP and its HotCRP `/deadlines` page outrank
+everything here.
 
 ## Gate 0: the right site, the right clock
 
 NSDI runs a **separate HotCRP instance per deadline**
 (`nsdi27spring.usenix.hotcrp.com`, `nsdi27fall...`). Uploading to a stale spring site
-bookmarked in March is a real failure mode. For the '27 fall gate:
+bookmarked in March is a real failure mode. The '27 fall gate (now closed) ran:
 
 - Abstracts (title, author list, track, conflicts): **September 10, 2026**.
 - Full papers: **September 17, 2026**.
-- Both **11:59 pm US EDT** — an Eastern-US midnight, not AoE and not the Pacific
-  cutoff NSDI '26 used. Same-named deadlines moved time zones between editions;
-  compute each coauthor's local equivalent from the HotCRP page, not from memory.
+- Both **11:59 pm US EDT** — an Eastern-US midnight (HotCRP showed 8:59 PM PDT), not
+  AoE and not the Pacific cutoff NSDI '26 used. Same-named deadlines moved time zones
+  between editions; compute each coauthor's local equivalent from the HotCRP page, not
+  from memory.
 
 The abstract gate is a prerequisite: no registered abstract, no paper upload a week
 later. Register even if 60% sure — withdrawing is free, materializing an unregistered
@@ -32,8 +35,15 @@ paper is impossible.
 | Body | ≤ 12 pages incl. footnotes, figures, tables | Count on the compiled PDF |
 | References | extra pages allowed | Nothing else hiding among them |
 | Appendices | extra pages allowed after references | Nothing load-bearing inside (`nsdi-supplementary`) |
-| Template/fonts | current USENIX template, unmodified | Diff class options against the distributed file |
-| Track | research / operational / frontiers | Matches the evidence actually in the paper |
+| Template/fonts | two-column, 10-pt Times-Roman on 12-pt leading, 7" x 9" text block, 8.5" x 11" paper, numbered pages | Non-conforming papers are rejected without review — diff against the USENIX template |
+| Track | research / operational / frontiers, stated on the title page and the form | Matches the evidence actually in the paper; no track changes after submission |
+| Introduction | no more than 3 pages (the prescreen reads only this) | Scope, generalist readability, and track-conforming claims all visible here |
+
+The '27 **prescreen** reads the Introduction alone and checks (a) scope against the
+topic list, (b) that an NSDI PC member outside your subfield can follow it, and (c) that
+it states the contribution the track expects — a novel idea plus some evaluation evidence
+(research), a novel idea a PhD student could not fully evaluate (frontiers), or the
+deployment setting, scale and lessons (operational).
 
 Page-cap pressure at NSDI is figure pressure — figures count. The fix is content
 triage, never `\vspace` surgery or font tricks; production chairs and reviewers both
@@ -48,7 +58,8 @@ submission. Details omitted for double-blind reviewing.").
 
 Then the fork:
 
-- **Research/frontiers:** deployment context must not identify the institution by
+- **Research/frontiers:** omit links to your own online content (use the form's
+  auxiliary material instead); deployment context must not identify the institution by
   implication. A trace "from our global CDN" plus a author-count and a topology
   detail can triangulate to one company; neutralize to scale-descriptive terms.
 - **Operational systems:** the CFP *relaxes* object anonymity — real system names,
@@ -82,11 +93,17 @@ non-author read the PDF asking one question: *who wrote this?*
   list is terminally rejected.
 - **Author cap:** at most **eight submissions per author across all '27 deadlines**
   — reconcile the group's ledger, counting spring entries.
-- **AI use:** grammar-and-clarity assistance on human-written text is endorsed;
-  anything more, ask the co-chairs before the deadline, not after.
-- **Ethics:** measurement of real users or third-party infrastructure needs its
-  handling addressed in the paper; the '27 CFP's exact ethics wording is 待核实 —
-  read that section live.
+- **AI use:** papers produced entirely or substantively by generative AI are barred —
+  an AI-written section (related work and conclusion included) is a violation — and the
+  HotCRP form requires an **attestation that all text is primarily human written**;
+  grammar-and-clarity assistance on human-written text is encouraged.
+- **Preprints:** a concurrent arXiv/technical report is allowed only if the submission
+  uses a **different title and system name**.
+- **Authorship:** from the '27 fall gate the USENIX Authorship Policy applies.
+- **Ethics:** authors **attest at submission** that the work complies with their
+  institutions' ethical standards; papers with user data (traffic, passwords, social
+  data) should include a subsection on the ethical issues, and the PC may examine
+  ethics as it examines technical soundness.
 
 ## HotCRP form fields deserve the same audit as the PDF
 

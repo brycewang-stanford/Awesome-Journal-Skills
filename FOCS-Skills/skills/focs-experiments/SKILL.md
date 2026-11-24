@@ -97,8 +97,11 @@ above extend cleanly: the found object is still judged on its own
 verification, and the finder is still reported honestly ("the candidate
 inequality was proposed by an LLM-assisted search and verified in Lemma
 5.2"). Two cautions specific to the current moment: check the live CFP for
-any AI-use disclosure policy before submission (none appeared in the FOCS
-2026 CFP at the 2026-07-08 check; future cycles 待核实), and never let
+its AI-use disclosure policy before submission (the FOCS 2026 CFP, re-read
+2026-11-24, requires an "AI Disclosure" statement at the end of the paper
+when LLMs or generative AI generated or materially affected substantive
+content, and asks that a material role in the methodology be described in
+the body; future cycles 待核实), and never let
 generated text stand in for a proof step — the verification obligations in
 the table above attach to the *claim*, not to the tool that produced it.
 

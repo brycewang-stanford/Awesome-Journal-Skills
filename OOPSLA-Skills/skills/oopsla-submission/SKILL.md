@@ -6,11 +6,13 @@ description: Use when preparing or auditing an OOPSLA submission — picking bet
 # OOPSLA Submission
 
 OOPSLA accepts new papers into either of two yearly rounds feeding the PACMPL
-OOPSLA volume; for the 2026 volume the rounds closed October 10, 2025 and
-March 17, 2026, both 11:59:59 PM AoE and explicitly firm, via
-`oopsla26.hotcrp.com`. Before running this audit, confirm which round is
-actually open on the current SPLASH track page — as of 2026-07-08 both 2026
-rounds had closed and the 2027 Round 1 call was not yet posted (待核实).
+OOPSLA volume; for the 2027 volume the rounds close October 14, 2026 and
+April 7, 2027, both AoE and explicitly firm, via `oopsla27.hotcrp.com`.
+Before running this audit, confirm which round is actually open on the
+current SPLASH track page — as of 2026-11-24 Round 1 had closed (HotCRP
+11:59:59 PM AoE, October 14, 2026) and **Round 2 (April 7, 2027)** is the
+next open door. A paper rejected in Round 1 may not be resubmitted to
+Round 2.
 
 ## The three questions that precede any checklist
 
@@ -27,7 +29,7 @@ rounds had closed and the 2027 Round 1 call was not yet posted (待核实).
    revision lever; an evaluation you plan to "complete during review" invites
    exactly that lever to be pulled against you.
 
-## Format contract (2026 volume)
+## Format contract (2027 volume)
 
 | Rule | Value | Consequence of violating |
 | --- | --- | --- |
@@ -35,7 +37,10 @@ rounds had closed and the 2027 Round 1 call was not yet posted (待核实).
 | Initial submission cap | 23 pages, excluding references, required statements, appendices | Over-cap papers risk rejection without review |
 | Invited-revision cap | 25 pages, same exclusions | Extra two pages exist to *answer reviewers* |
 | Data-Availability Statement | Required, placed before the references, not counted | Missing statement is an avoidable flag |
-| Anonymity | Double-anonymous, multi-stage | Identity leaks void the review contract |
+| Anonymity | Double-anonymous; supplementary material anonymized too | Identity leaks void the review contract |
+| Submission limits (new 2027) | At most 5 submissions per author per round, at most 2 with no senior author | Excess papers desk-rejected, most recent first |
+| Reserve reviewer | One senior author per paper registered on TPMS (exemptions apply) | Non-compliance may be desk-rejected |
+| References | Every citation must exist (ACM authorship / generative-AI policy) | Fabricated references or artifacts are grounds for desk rejection; references are checked automatically |
 
 ## Anonymity sweep beyond the obvious
 

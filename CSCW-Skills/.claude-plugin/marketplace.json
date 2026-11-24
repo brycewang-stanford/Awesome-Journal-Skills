@@ -15,7 +15,7 @@
       "name": "cscw-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve CSCW-specific skills covering the PACMHCI journal-model pipeline from topic routing through R&R response letters to journal-issue publication, grounded in cscw.acm.org CFP and rolling-model pages, ACM DL PACMHCI records, and dblp, checked 2026-07-08.",
+      "description": "Twelve CSCW-specific skills covering the PACMHCI journal-model pipeline from topic routing through R&R response letters to journal-issue publication, for the rolling route into CSCW 2027 (Philadelphia), grounded in cscw.acm.org CFP, CSCW 2027 and rolling-model pages, ACM DL PACMHCI records, and dblp, re-checked 2026-11-24.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

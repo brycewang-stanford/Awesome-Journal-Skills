@@ -1,28 +1,38 @@
 ---
 name: issta-submission
-description: Use when auditing an ISSTA submission for HotCRP readiness, the 18-page (excluding references) limit, ACM sigconf plus review and anonymous formatting, double-anonymous integrity, the January deadline, artifact intent, track choice among research/experience/replicability, and desk-reject triggers before the phase-one upload.
+description: Use when auditing an ISSTA submission for HotCRP readiness, the 18-page (excluding references and Data Availability) limit, ACM acmsmall plus screen, review and anonymous formatting, the required Data Availability section, double-anonymous integrity, the January abstract and paper deadlines, artifact intent, track choice among research/experience/replicability, and desk-reject triggers before the phase-one upload.
 ---
 
 # ISSTA Submission
 
 Use this for an ISSTA research-paper submission audit. Reopen the current Research Papers call,
-the important-dates page, the ACM `sigconf` template, and the HotCRP site before giving
+the important-dates page, the ACM `acmart` (`acmsmall`) template, and the HotCRP site before giving
 deadline-ready advice — ISSTA's submission model changes between editions and is the first thing
 to re-verify.
 
 ## Submission audit
 
 - Confirm the target is the ISSTA **research** track, not a co-located workshop, the Doctoral
-  Symposium, or a sibling venue. ISSTA 2026 also invited Experience Papers and Replicability
-  Studies — pick the track that matches the contribution's evidence, not its topic alone.
-- Build the HotCRP record early: title, abstract, authors, conflicts, and topic tags. Register the
-  paper before the deadline even if the PDF is still moving; a late HotCRP creation cannot be
-  undone.
-- Apply the ACM `sigconf` template with the `review` (line numbers) and `anonymous` options. Do not
-  shrink margins, fonts, or spacing to fit — format tampering is a named desk-reject trigger.
-- Fit the 18-page limit that excludes references only. In 2026 every section, figure, table, and
-  appendix counted against the 18; there is no separate unlimited appendix, so decision-critical
-  content lives in the body or in the artifact, not in overflow pages.
+  Symposium, or a sibling venue. ISSTA 2027 also invites Experience Papers and Replicability
+  Studies — pick the kind that matches the contribution's evidence, not its topic alone, and
+  mark it in the title ("(Experience Paper)", "(Replicability Study)"). Choose one primary
+  research area (optionally a secondary).
+- Build the HotCRP record early: title, abstract, authors, conflicts, and topic tags. ISSTA 2027
+  has a **mandatory abstract** deadline (January 8, 2027) three days before the paper (January 11,
+  2027, AoE); the author list and title cannot change after submission. Each author may be on at
+  most 7 submissions.
+- Use `\documentclass[acmsmall,screen,review,anonymous]{acmart}` (single-column; numeric or
+  author-year citations). Do not shrink margins, fonts, or spacing to fit — non-compliant
+  formatting may be desk-rejected without review.
+- Fit the 18-page limit that excludes only references and the Data Availability section. Every
+  section, figure, table, and appendix counts against the 18; there is no separate unlimited
+  appendix, so decision-critical content lives in the body or in the artifact, not in overflow
+  pages.
+- Add the required **Data Availability** section before the references (not counted): where the
+  code, data and evidence-generating tools are, or why they cannot be shared. Link an anonymous
+  artifact (anonymized repository or HotCRP supplemental upload); one reviewer checks it.
+- If AI tools were used in the research itself, describe that use in the methods section (ACM
+  Policy on Authorship); verify every reference — fabricated citations are desk-rejected.
 - Enforce double-anonymous review: no author names or affiliations, third-person self-citations,
   anonymized or withheld repository links, and no identifying PDF metadata.
 - Decide the artifact plan now. The artifact-evaluation track is separate and later, but the paper
@@ -31,7 +41,7 @@ to re-verify.
 ## Blocking risks
 
 - Late HotCRP registration or PDF upload against the phase-one deadline.
-- Over the 18-page limit, or `sigconf` format modified.
+- Over the 18-page limit, wrong template, or missing Data Availability section.
 - Identity leak in text, self-citation phrasing, repository link, or PDF metadata.
 - Wrong track (a replicability study filed as a research paper, or vice versa).
 - Evaluation too thin to survive the soundness and evaluation criteria — a review-stage loss even
@@ -42,7 +52,8 @@ to re-verify.
 | Trigger | Severity at ISSTA | Repair window |
 |---|---|---|
 | Over 18 pages (excluding references) | Desk reject | None after the deadline |
-| `sigconf` format tampering | Desk reject | None |
+| Template/format non-compliance | Desk reject possible | None |
+| Fabricated or unverifiable reference | Desk reject | None |
 | Author identity leak in PDF or metadata | Desk reject | None |
 | Missing `review`/`anonymous` options | Chair flag | Only before the deadline |
 | Evaluation without real subjects or a baseline | Review-stage loss | Fixable only before submission |
@@ -57,11 +68,12 @@ to re-verify.
 
 ## Format anchors
 
-- ISSTA uses ACM `sigconf`, a two-column layout; wide code listings, algorithm blocks, and
-  multi-column result tables overflow easily, so compress or use full-width spans early rather than
-  on deadline night.
-- The 18-page figure describes the 2026 cycle; older editions used 10 pages plus 2 for references.
-  Treat every number as provisional and reopen the current call before relying on it.
+- ISSTA uses ACM `acmsmall`, a single-column layout (the same format as PACMSE/FSE); code
+  listings fit more easily than in two-column `sigconf`, but wide result tables still need
+  planning, and 18 single-column pages hold less text than they sound.
+- The 18-page figure describes the 2026 and 2027 cycles; older editions used two-column `sigconf`
+  with 10 pages plus 2 for references. Treat every number as provisional and reopen the current
+  call before relying on it.
 
 ## Automated preflight (run this first)
 

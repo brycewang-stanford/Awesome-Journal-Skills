@@ -15,10 +15,12 @@ description: Use when running the final pre-submission preflight for Financial M
 ## Process facts (检索于 2026-06；以官网为准)
 
 - FM is the **FMA's flagship quarterly**, published by **Wiley** (Online ISSN 1755-053X). Submission begins on the **FMA submissions page**, where you complete a form and pay the fee, and are then **forwarded to ScholarOne** for the manuscript upload.
-- **Submission fee (per manuscript; re-verified 2026-06-22 on fma.org and the Wiley For Authors page, unchanged):** **$250** for professional or PhD **FMA members**; **$350** for professional **nonmembers**; **$280** for PhD **nonmembers**. The $350 and $280 nonmember fees **include a one-year FMA membership** for the submitting author. (Re-confirm amounts and tiers on the FMA submissions page before submitting.)
+- **Submission fee (per manuscript; re-verified 2026-11-24 on fma.org/financial-management-submissions — the PhD nonmember tier rose from $280 to $290):** **$250** for professional or PhD **FMA members**; **$350** for professional **nonmembers**; **$290** for PhD **nonmembers**. The $350 and $290 nonmember fees **include a one-year FMA membership** for the submitting author. On a desk rejection the journal **refunds all but $100** of the submission fee; the FMA membership fee is nonrefundable (FM Editorial Philosophy page). (Re-confirm amounts and tiers on the FMA submissions page before submitting.)
 - **Editorial criteria:** originality, rigor, timeliness, practical relevance, and quality; the editors target a **median 6–8 week turnaround** including desk rejections and commit to explanatory feedback on every submission.
 - **Originality declaration:** manuscripts are reviewed on the understanding they are **not under review elsewhere**, are the authors' **original work**, and have **not been previously published** in whole or in part.
-- **Co-Editors (verified 2026-06-22 on fma.org/Wiley):** Michael Goldstein (Babson College), Kathleen Kahle (University of Arizona), and Shawn Thomas (University of Pittsburgh). Re-verify the masthead before relying on it in a cover letter.
+- **Editors (re-verified 2026-11-24 on the fma.org editorial-board page):** Michael Goldstein (Babson College) and Kathleen Kahle (Wake Forest University). Shawn Thomas (University of Pittsburgh) is now listed among past editors (2022–2025). Re-verify the masthead before relying on it in a cover letter.
+- **Data and code (FM policy for initial submissions after 1 March 2023):** after acceptance, authors are *encouraged* to provide replication programs (and data, or pseudo-data if restricted) for the Financial Management Dataverse; nothing is required at initial submission.
+- **AI use:** authors follow Wiley's guidelines on generative-AI tools; manuscripts under review must not be uploaded to AI tools by reviewers or editors (FM Editorial Philosophy page, re-verified 2026-11-24).
 - **Review model / anonymization, abstract word limit, and exact manuscript length limit: 待核实** — these are not confirmed from the official pages in this pack and must be read off the Wiley author guidelines before submission.
 
 ## Preflight checklist
@@ -31,9 +33,9 @@ description: Use when running the final pre-submission preflight for Financial M
 - [ ] If review is anonymous, the manuscript is fully de-identified (no author names, acknowledgments, or self-citation tells) — **blinding model 待核实**
 
 ### Files & fees for the FMA→ScholarOne flow
-- [ ] Correct fee tier identified (member $250 / professional nonmember $350 / PhD nonmember $280; 检索于 2026-06)
+- [ ] Correct fee tier identified (member $250 / professional nonmember $350 / PhD nonmember $290; re-verified 2026-11-24)
 - [ ] Payment method ready on the FMA form; note nonmember fee bundles a one-year membership
-- [ ] Main manuscript + internet appendix + any data/code per Wiley policy (data/code policy 待核实)
+- [ ] Main manuscript + internet appendix; replication code/data are encouraged after acceptance for the FM Dataverse (not required at submission)
 - [ ] Cover letter framing the contribution and the general-interest fit
 
 ### Declarations
@@ -98,7 +100,7 @@ Do not submit if any of these is unresolved: the headline result is still moving
 
 ```
 【Route】FMA form + fee → ScholarOne upload confirmed? [Y/N]
-【Fee tier】member $250 / prof nonmember $350 / PhD nonmember $280 (检索于 2026-06) — chosen? [Y/N]
+【Fee tier】member $250 / prof nonmember $350 / PhD nonmember $290 (re-verified 2026-11-24) — chosen? [Y/N]
 【Format】Wiley format + abstract limit + citation style verified or 待核实
 【Anonymization】blinding model confirmed; manuscript de-identified if required (待核实)
 【Files】main + internet appendix + data/code per policy? [Y/N]

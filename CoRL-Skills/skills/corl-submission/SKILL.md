@@ -6,9 +6,10 @@ description: Use when preparing or auditing a CoRL OpenReview submission — the
 # CoRL Submission
 
 This is the pre-upload audit for a CoRL paper. The numbers below are the CoRL 2026
-requirements as read on 2026-07-08 from the official Instruction for Authors and
-Call for Papers (corl.org); the 2026 deadline has passed, so apply this skill to a
-2027-cycle draft after re-opening the new year's pages — CoRL re-issues its
+requirements as read on 2026-07-08 and re-verified on 2026-11-24 from the official
+Instruction for Authors and Call for Papers (corl.org); the 2026 cycle is over and
+CoRL 2027 was not yet announced on 2026-11-24, so apply this skill to a 2027-cycle
+draft after re-opening the new year's pages — CoRL re-issues its
 instructions annually and has changed page accounting between cycles.
 
 ## The 2026 package, itemized
@@ -16,13 +17,15 @@ instructions annually and has changed page accounting between cycles.
 | Element | 2026 rule | Notes |
 |---|---|---|
 | Platform | OpenReview, group `robot-learning.org/CoRL/2026/Conference` | Profile + conflicts needed for every author |
-| Abstract registration | May 26, 2026 | Separate, earlier than the paper |
-| Paper deadline | May 29, 2026 | Deadline clock/timezone wording 待核实 per cycle |
+| Abstract registration | May 25, 2026, 23:59 AoE | Separate, earlier than the paper; authors frozen after it |
+| Paper deadline | May 28, 2026, 23:59 AoE (a Thursday) | Supplementary zip due June 4, 2026 |
 | Main text | 8 pages, **including a mandatory Limitations section** | Limitations counts toward the limit — budget for it |
 | Not counted | Acknowledgments, references, optional appendix | Appendix rides in the same PDF |
 | Template | `corl_2026` LaTeX class | Camera-ready later flips to `[final]` mode |
 | Review model | Double-anonymous | Applies to paper, supplementary, and any linked site |
-| Supplementary | Encouraged; video ≤ 250 MB (strict), ~3 min suggested | See `corl-supplementary` for content strategy |
+| Supplementary | Encouraged; single zip; video ≤ 250 MB (strict), ~3 min suggested | See `corl-supplementary` for content strategy |
+| Reciprocal reviewing | At least one qualified author per paper; authors with 3+ submissions must review | Non-compliance can desk-reject |
+| Generative AI | Disclose use briefly in the submission form; no AI authors; nonexistent citations desk-rejected | GPTZero screening in 2026 |
 
 ## What makes the CoRL audit different
 
@@ -75,16 +78,23 @@ pdftotext main.pdf - | grep -ci 'limitation' # 0 hits => missing mandatory secti
 
 ## Form fields and policy checks
 
-- **Abstract registration first.** The 2026 cycle separated abstract (May 26) and
-  paper (May 29); a missed abstract registration forecloses the submission
-  entirely. Register with a stable title and author list.
+- **Abstract registration first.** The 2026 cycle separated abstract (May 25) and
+  paper (May 28); a missed abstract registration forecloses the submission
+  entirely, and authors cannot be added or removed after it. Register with a
+  stable title and author list.
 - **Dual submission**: the paper must not be under review elsewhere; the
   fast-moving robot-learning arXiv culture makes this an easy accident when a
   workshop version is circulating — check the current CFP's exact scope wording
   each cycle.
-- **GenAI policy**: the 2026 Instruction for Authors added a generative-AI policy
-  (announced April 2026); its exact disclosure requirements are 待核实 in this
-  pack — read that section verbatim before submitting.
+- **GenAI policy** (added April 17, 2026): LLMs cannot be authors; the submission
+  form asks for a brief disclosure of how generative AI was used for research and
+  writing; papers citing references that do not exist are desk-rejected (CoRL 2026
+  screened every submission with GPTZero, with chairs confirming flags); several
+  near-duplicate submissions by the same authors are all desk-rejected. Resolve
+  every reference against a real record before upload.
+- **Dual-submission exceptions**: for a venue whose decision overlaps the review
+  period (ICML decisions, for example), notify the Publication Chair before
+  submitting; undisclosed overlap may be reported to both venues.
 - Subject areas / keywords on the form drive reviewer assignment in a small,
   specialized pool; pick the subfield your harshest competent critic works in.
 

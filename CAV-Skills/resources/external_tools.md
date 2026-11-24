@@ -1,24 +1,27 @@
 # External Tools - CAV (Computer Aided Verification)
 
-Access date: 2026-07-09
+Access date: 2026-07-09; official links re-verified 2026-11-24 (CAV 2027 pages loaded directly).
 
-Use these surfaces after reopening the current CAV cycle pages. CAV mechanics — the four
-submission categories, per-category page limits, the anonymization matrix, two-stage reviewing,
-and artifact badges — are decided per edition, and the `i-cav.org` / `sigplan.org` gateway may
-block direct fetches (read via search renderings and cross-check dblp and Springer LNCS). Do not
+Use these surfaces after reopening the current CAV cycle pages. CAV mechanics — the submission
+categories (three in CAV 2027, four in 2026), per-category page limits, the anonymization matrix,
+two-stage reviewing, and artifact rules — are decided per edition. The `i-cav.org` pages loaded
+directly on 2026-11-24; if a gateway blocks them, read via search renderings and cross-check dblp
+and Springer LNCS. Do not
 confuse CAV (Computer Aided Verification) with unrelated "CAV" acronyms, and do not attribute
 TACAS, FMCAD, VMCAI, POPL, or PLDI papers to CAV.
 
 ## Official workflow
 
 - CAV conference series hub: https://i-cav.org/
-- CAV 2026 home (Lisbon, FLoC, Jul 26-29 2026): http://conferences.i-cav.org/2026/
-- CAV 2026 Call for Papers: http://conferences.i-cav.org/2026/cfp/
-- CAV 2026 Artifact Evaluation: http://conferences.i-cav.org/2026/artifacts/
-- CAV 2026 Organization (Program Chairs): https://conferences.i-cav.org/2026/organization/
-- CAV 2026 Program: https://conferences.i-cav.org/2026/program/
-- SIGPLAN announcement (38th CAV): https://www.sigplan.org/announce/2025-11-21-cav-2026/
-- FLoC 2026 (host federation): https://www.floc26.org/
+- CAV 2027 home (39th, Amsterdam, KIT, Jul 19-23 2027): https://conferences.i-cav.org/2027/
+- CAV 2027 Call for Papers: https://conferences.i-cav.org/2027/cfp/
+- CAV 2027 Artifact Evaluation: https://conferences.i-cav.org/2027/artifacts/
+- CAV 2027 Organizing Committee (chairs): https://conferences.i-cav.org/2027/organizing-committee/
+- CAV 2027 Registration / Proceedings (not yet populated on 2026-11-24):
+  https://conferences.i-cav.org/2027/registration/ and https://conferences.i-cav.org/2027/proceedings/
+- History — CAV 2026 (38th, Lisbon, FLoC 2026): http://conferences.i-cav.org/2026/ (CFP at
+  http://conferences.i-cav.org/2026/cfp/); SIGPLAN announcement:
+  https://www.sigplan.org/announce/2025-11-21-cav-2026/; FLoC 2026: https://www.floc26.org/
 - CAV Award: https://conferences.i-cav.org/2025/award/
 - Springer LNCS CAV proceedings: https://link.springer.com/conference/cav
 - LNCS author information / `llncs` template: https://www.springer.com/gp/computer-science/lncs
@@ -31,8 +34,8 @@ TACAS, FMCAD, VMCAI, POPL, or PLDI papers to CAV.
   access; confirm accepted counts and volume numbers).
 - WikiCFP CAV entry and the CAV Facebook / X (@confCAV) posts for the machine-readable deadline
   the CFP paraphrases.
-- The submission portal linked from the CFP: **verify whether 2026 uses EasyChair or HotCRP** —
-  CAV 2025 used `cav2025.hotcrp.com`; a 2026 rendering mentions EasyChair (**待核实**).
+- The submission portal linked from the CFP: CAV 2027 uses **HotCRP**, but the link had not yet
+  been posted on 2026-11-24 (**待核实**). CAV 2025 used `cav2025.hotcrp.com`.
 
 ## Verification-community reference surfaces (cite to their real origin)
 
@@ -48,24 +51,27 @@ TACAS, FMCAD, VMCAI, POPL, or PLDI papers to CAV.
 
 ## Author-side checks
 
-- Submission portal profile, co-authors, and the correct **category** (Regular / Short Tool /
-  Short Application / Industrial Experience & Case Studies) — the category sets the page limit and
-  the anonymization rule.
-- LNCS `llncs` class compliance, the current per-category page limit (Regular 18 / short 10,
-  excluding references and appendices), and a clearly-marked (optional-to-read) appendix.
-- Anonymization where required: Regular and Application papers are double-blind; Tool and
-  Industrial papers are not — verify the matrix on the current CFP.
-- **Artifact-intent declaration** at submission time (shared with reviewers), and the plan for the
-  post-notification AEC submission (Available / Functional / Reusable).
+- Submission portal profile, co-authors, and the correct **category** (CAV 2027: Regular / Tool /
+  Application-Industrial-Case Study) — the category sets the page limit, the anonymization rule,
+  and whether an artifact is mandatory. At most 5 submissions per author.
+- LNCS `llncs` class compliance, the current per-category page limit (CAV 2027: Regular and Tool
+  18 / Application 10, excluding references and appendices), and a clearly-marked
+  (optional-to-read) appendix.
+- Anonymization where required: in CAV 2027 only Regular Papers are double-blind; Tool and
+  Application/Industrial/Case Study papers are single-blind — verify the matrix on the current CFP.
+- **Artifact-intent declaration** at submission time (shared with reviewers); for Tool Papers the
+  mandatory March artifact round (or an exemption request filed at submission); for other papers
+  the plan for the post-notification AEC submission (Available / Functional / Reusable).
 - Benchmark provenance: SV-COMP/SMT-COMP set revision, solver versions, seeds, resource limits
   (time/memory), and proof witnesses / certificates where the claim is soundness.
 
 ## Do not infer
 
-- Do not assume a separate abstract deadline precedes the paper deadline — only the paper deadline
-  was confirmed for 2026; check the Important Dates.
+- Do not assume a separate abstract deadline precedes the paper deadline — the CAV 2027 CFP lists
+  only "Full papers due" (20 January 2027); check the Important Dates.
 - Do not assume the anonymization matrix, page limits, or badge set carry over between editions.
-- Do not assume artifact evaluation is mandatory or acceptance-conditional — at CAV it is invited
-  and non-conditional; confirm on the current Artifact Evaluation page.
+- Do not assume the artifact rule is the same for every category — in CAV 2027 it is mandatory and
+  acceptance-conditional for Tool Papers, invited and non-conditional for everything else; confirm
+  on the current Artifact Evaluation page.
 - If pages disagree, treat the newest CFP, the portal's deadline page, or a direct chair
   announcement as controlling, and record the conflict.

@@ -6,17 +6,16 @@ Security and Privacy**, held since 1980 and known across the field as
 full arc of an S&P cycle: deciding whether there is a real adversary,
 building adversary-grade evidence, packaging the anonymous HotCRP submission
 with its ethics record, surviving a round-based review with early rejects and
-a short rebuttal, handling the three-way **Accept / Revise / Reject**
-decision, and delivering a shepherded IEEE camera-ready plus artifact badges.
+a 750-word (sometimes interactive) rebuttal, handling the **Accept / Reject**
+decision, and delivering a shepherded IEEE camera-ready with its public
+meta-review plus artifact badges.
 
-Official basis checked on **2026-07-08**: the S&P 2027 Call for Papers and
-per-cycle deadline pages, the S&P 2026 CFP and artifact-evaluation pages, the
-IEEE Computer Society Technical Committee on Security and Privacy index, and
-dblp's `conf/sp` proceedings stream. Direct fetches of
-`sp<year>.ieee-security.org` were blocked in the verification environment, so
-official pages were read via search-engine renderings of the exact URLs and
-cross-checked against dblp and IEEE Xplore; the full trail, including
-everything still marked 待核实, is in
+Official basis first checked on 2026-07-08 and **re-verified 2026-11-24** by
+direct fetch of the S&P 2027 Call for Papers, both per-cycle deadline pages,
+the S&P 2027 home/organizer page and Call for Artifacts, and the S&P 2026 CFP.
+Both S&P 2027 cycles have now closed (papers were due June 11 and November 17,
+2026, AoE); S&P 2028 has no published call yet. The full trail, including what
+the 2026-11-24 re-read corrected and everything still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What makes IEEE S&P different from its siblings
@@ -32,15 +31,17 @@ USENIX Security, CCS, or NDSS, let alone from ML or systems venues:
   You choose a cycle, not "the deadline."
 - **A binding registration a week before the paper.** Title, full abstract,
   complete author list with **ORCIDs**, and conflicts freeze at registration;
-  ORCID name/email must match HotCRP or the paper is desk rejected.
+  ORCID name/email must match HotCRP or the paper is desk rejected. At most
+  **6 papers per author per cycle**, counted at registration.
 - **Rounds with an early reject and no rebuttal for the cut.** Weak papers
   exit in the first round without a chance to respond; survivors see reviews
-  and file a short (~5-day) rebuttal.
-- **A three-way decision, and the Revise pathway is the signature.**
-  **Accept** comes with a draft meta-review and a **shepherd**; **Revise** is
-  a structured major revision against a written expectations summary,
-  re-reviewed; **Reject** starts a one-year embargo (from the original
-  submission date), with ~40% overlap counting as a resubmission.
+  and file a **750-word rebuttal** — non-interactive, or interactive with
+  requested new results and a revised PDF, as the PC assigns.
+- **Accept or Reject — no revise-and-resubmit.** The 2026 and 2027 CFPs list
+  only these two outcomes, with no conditional acceptance. **Accept** comes
+  with a **public meta-review** (< 500 words) and a **shepherd**; **Reject**
+  starts a one-year embargo from the original submission date, and a paper
+  with a very similar intellectual contribution counts as a resubmission.
 - **Ethics is structural, not decorative.** An Ethics Considerations field at
   registration, a Research Ethics Committee that can reject on ethical
   grounds, the **Menlo Report** as the named baseline, IRB disclosure, and
@@ -57,7 +58,7 @@ USENIX Security, CCS, or NDSS, let alone from ML or systems venues:
 | Skill | What it does |
 | --- | --- |
 | [`ieeesp-topic-selection`](skills/ieeesp-topic-selection/SKILL.md) | Apply the real-adversary test, decide research vs SoK, and route among USENIX Security, CCS, NDSS, PETS, and CRYPTO under the one-year embargo. |
-| [`ieeesp-workflow`](skills/ieeesp-workflow/SKILL.md) | Run the multi-cycle year: pick a cycle, plan backward from its registration week, and branch for Accept / Revise / Reject with named owners. |
+| [`ieeesp-workflow`](skills/ieeesp-workflow/SKILL.md) | Run the multi-cycle year: pick a cycle, plan backward from its registration week, and branch for interactive rebuttal / Accept / Reject with named owners. |
 | [`ieeesp-writing-style`](skills/ieeesp-writing-style/SKILL.md) | Pass the first-round survival test — adversary, bounded claim, evidence map, why-now, ethics signal — and compress into 13 compsoc pages. |
 | [`ieeesp-related-work`](skills/ieeesp-related-work/SKILL.md) | Cover the four-flagship literature window, write security-delta sentences, verify dblp/Xplore attribution, and keep self-citation anonymous. |
 | [`ieeesp-experiments`](skills/ieeesp-experiments/SKILL.md) | Match evaluation to contribution type, evaluate defenses against adaptive adversaries, and report attack success with trials and dispersion. |
@@ -66,7 +67,7 @@ USENIX Security, CCS, or NDSS, let alone from ML or systems venues:
 | [`ieeesp-artifact-evaluation`](skills/ieeesp-artifact-evaluation/SKILL.md) | Choose Available / Functional / Reproduced badges, deposit with a DOI, and package exploits and malware-adjacent code responsibly. |
 | [`ieeesp-submission`](skills/ieeesp-submission/SKILL.md) | Final HotCRP audit: registration freeze, ORCID matching, compsoc format, anonymization with disclosure-trail sweeps, and desk-reject triage. |
 | [`ieeesp-review-process`](skills/ieeesp-review-process/SKILL.md) | Model the rounds, the early reject, the rebuttal, the REC track, the shepherd, and where author leverage actually exists. |
-| [`ieeesp-author-response`](skills/ieeesp-author-response/SKILL.md) | Triage reviews for the 5-day rebuttal, answer adaptive-attack and ethics objections, and treat a Revise summary as a contract. |
+| [`ieeesp-author-response`](skills/ieeesp-author-response/SKILL.md) | Triage reviews for the 750-word rebuttal, answer adaptive-attack and ethics objections, and treat interactive-rebuttal requests as a contract. |
 | [`ieeesp-camera-ready`](skills/ieeesp-camera-ready/SKILL.md) | Work the shepherd's concern ledger, add the ethics section, de-anonymize and restore disclosure specifics, and meet IEEE compsoc/Xplore requirements. |
 
 ## Resources
@@ -98,7 +99,7 @@ trigger it. Typical invocations:
 - "Which S&P 2027 cycle can I realistically hit?" → `ieeesp-workflow`
 - "Audit my draft against the S&P submission rules" → `ieeesp-submission`
 - "Reviews are in and I have five days — plan the rebuttal" → `ieeesp-author-response`
-- "We got a Revise — how do I handle it?" → `ieeesp-review-process` + `ieeesp-author-response`
+- "We were assigned an interactive rebuttal — what can we add?" → `ieeesp-review-process` + `ieeesp-author-response`
 
 ## Pack structure
 
@@ -140,7 +141,7 @@ IEEE-SP-Skills/
    deadline.
 6. **After submission** — `ieeesp-review-process` to time expectations,
    `ieeesp-author-response` when reviews land, then `ieeesp-camera-ready` (with
-   the shepherd) or the Revise / rejection branch depending on the decision.
+   the shepherd) or the rejection branch depending on the decision.
 
 ## Fact discipline
 
@@ -149,14 +150,13 @@ keep them distinguishable:
 
 1. **Verified cycle facts** — carry dates/caps and trace to a numbered source
    in the source map (e.g., the 13-page body limit, the November 17, 2026
-   Cycle 2 paper deadline, the Accept/Revise/Reject decision set).
+   Cycle 2 paper deadline, the Accept/Reject decision set).
 2. **Reported facts** — found only in secondary sources and labeled as such
    (e.g., S&P 2025 submission/acceptance counts from institutional award
    announcements).
 3. **Unverifiable-at-check-time items** — explicitly marked 待核实 and phrased
-   as questions to resolve, never as facts (e.g., 2027 Cycle 1's review
-   timetable, the Revise resubmission target cycle, the 2027 camera-ready and
-   artifact schedules).
+   as questions to resolve, never as facts (e.g., the S&P 2028 call and cycle
+   dates, possible Cycle 2 date shifts).
 
 If you find any statement in the skills that presents class 2 or 3 material as
 class 1, treat it as a bug and fix it against the live official pages.
@@ -166,13 +166,12 @@ class 1, treat it as a bug and fix it against the live official pages.
 - Every date and cap above is a **cycle snapshot**; reopen the current
   `sp<year>.ieee-security.org` CFP and the live per-cycle deadline pages before
   giving deadline-sensitive advice.
-- S&P deadlines are stated in a **fixed clock time** (e.g., 7:59:59 AM EDT),
-  not Anywhere-on-Earth — convert to your timezone rather than assuming AoE.
-- Items that could not be verified live on 2026-07-08 are marked 待核实 in the
-  source map — notably 2027 Cycle 1's review dates, the Revise resubmission
-  mechanics, the 2027 camera-ready and artifact-evaluation schedules, the PC
-  chairs and REC membership, and the exact wording of the generative-AI
-  policy. Do not state these as facts until confirmed.
+- S&P 2027 deadlines are **23:59:59 AoE**; the HotCRP pages show the same
+  instant in US Eastern time (7:59:59 AM EDT the next morning) — do not read
+  that display as a different deadline.
+- Items that could not be verified live on 2026-11-24 are marked 待核实 in the
+  source map — notably everything about S&P 2028 and whether the Cycle 2
+  timetable shifts. Do not state these as facts until confirmed.
 - PC chairs and the REC rotate per edition and policy is re-set annually;
   treat editor-style continuity assumptions (carried over from journal packs)
   as errors here.

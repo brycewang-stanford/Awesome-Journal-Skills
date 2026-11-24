@@ -1,6 +1,6 @@
 ---
 name: icde-review-process
-description: Use when explaining or planning around IEEE ICDE peer review: the two-round-per-edition structure, area-chair-coordinated assignment with at least three reviewers, two-phase reviewing with a possible Revise & Resubmit, single-blind dynamics, how a builder-heavy committee reads a systems paper, and how outcomes feed IEEE Xplore.
+description: Use when explaining or planning around IEEE ICDE peer review: the two-round-per-edition structure, area-chair-coordinated assignment with at least three reviewers, the rebuttal and binary Accept/Reject of ICDE 2027 (Revise & Resubmit in ICDE 2026), single-blind dynamics, how a builder-heavy committee reads a systems paper, and how outcomes feed IEEE Xplore.
 ---
 
 # ICDE Review Process
@@ -14,10 +14,11 @@ each edition.
 - ICDE takes research papers in **two rounds per edition** (ICDE 2027: ≈June and November).
   Each paper draws **at least three reviewers**, coordinated by an **area chair** who
   synthesizes the reviews into a recommendation.
-- The ICDE 2026 model ran **two reviewing phases** inside a round: the first phase returned
-  **Revise & Resubmit, Accept, or Reject**; invited revisions were re-reviewed (≈4-week window)
-  before a final **Accept/Reject**. Whether the current edition keeps the R&R phase is
-  edition-specific (待核实).
+- ICDE 2027 runs each round as reviews → **author rebuttal** (Round 1: August 8-15, 2026;
+  Round 2: January 8-15, 2027) → **Accept or Reject**, with a meta-review: "There will be no
+  revisions." The ICDE 2026 model had instead run **two reviewing phases** inside a round
+  (Revise & Resubmit, Accept, or Reject, then a ≈4-week revision and re-review). The review
+  model is re-declared each edition; read the live call.
 - Review is **single-blind**: reviewers see author identity; authors do not see reviewers. This
   changes the calculus — reputational priors exist, so the paper must earn belief on evidence,
   not on names.
@@ -49,10 +50,11 @@ each edition.
 
 ## Stage-by-stage realism
 
-- **Phase 1 reviews:** read them as the area chair will — is the central evaluation objection
-  answerable? A Revise & Resubmit is an opportunity, not a soft reject; treat the requirement
-  list as binding.
-- **Revision re-review:** the same reviewers check the list; unrequested scope changes hurt.
+- **Reviews + rebuttal:** read them as the area chair will — is the central evaluation objection
+  answerable in a one-week rebuttal from evidence already in the paper? In ICDE 2027 there is
+  no later revision, so the rebuttal is the only lever.
+- **Revision re-review (editions with R&R, e.g. ICDE 2026):** the same reviewers check the
+  list; unrequested scope changes hurt.
 - **Decision:** one unresolved fairness or cost objection outweighs several resolved clarity
   nits, because a builder-heavy committee anchors on the evaluation.
 - **Round choice as strategy:** since Round 1 rejects skip the edition, aiming an immature
@@ -61,7 +63,7 @@ each edition.
 ## Output format
 
 ```text
-[Current stage] submitted / phase-1 reviews / revision / decision / camera-ready
+[Current stage] submitted / reviews + rebuttal / revision (R&R editions only) / decision / camera-ready
 [Round] Round 1 or Round 2 (edition)
 [Decision actors] <reviewers / area chair / program chairs>
 [Likely leverage] <novelty / evaluation / soundness / reproducibility>

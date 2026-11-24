@@ -1,23 +1,26 @@
 ---
 name: sigcomm-submission
-description: Use when running the final pre-upload audit of an ACM SIGCOMM submission — the abstract-registration-then-paper sequence on the SIGCOMM HotCRP site, the AoE deadline clock, the 12 single-spaced pre-reference pages including figures and tables, double-blind anonymization, ACM acmart formatting, and the research-versus-experience track choice.
+description: Use when running the final pre-upload audit of an ACM SIGCOMM submission — the single February deadline on the SIGCOMM HotCRP site, the 12 single-spaced pre-reference pages including figures and tables, the 200-word abstract and author-block page counts, double-blind anonymization, ACM acmart formatting, the submission-form fields (track, ethics, reciprocal reviewer, ORCID), and the research-versus-experience track choice.
 ---
 
 # SIGCOMM Submission
 
 SIGCOMM gives you one main-track deadline a year, so this audit is unforgiving by design.
 Reopen the current CFP, submission page, and the HotCRP `/deadlines` clock before trusting
-any number below; the 2026 figures are a dated snapshot.
+any number below; the SIGCOMM 2027 figures are a dated snapshot (re-verified 2026-11-24).
 
-## Register the abstract, then upload the paper
+## One hard deadline — read the clock on HotCRP
 
-SIGCOMM 2026 opened abstract registration on **January 30, 2026** and full-paper upload on
-**February 6, 2026**, both **Anywhere on Earth**. The abstract step is a gate, not a
-courtesy: no registered abstract, no paper a week later. Register the title, author list,
-conflicts, and topics even at 60% confidence — a registered abstract can be abandoned, an
-unregistered one cannot be resurrected once the clock closes. Because there is no second
-gate this cycle, treat the AoE cutoff as the true horizon and convert each coauthor's local
-time from the HotCRP page rather than memory.
+SIGCOMM 2027 publishes **one** paper deadline, **February 2, 2027**, "a hard deadline and no
+extensions will be given". Unlike SIGCOMM 2026 (abstracts January 30, papers February 6, 2026,
+AoE), the 2027 pages announce no separate abstract-registration date and no time zone; the
+`sigcomm27.hotcrp.com` site was not yet open on 2026-11-24. When it opens, read its
+`/deadlines` page for the exact cutoff and any registration step, and convert each coauthor's
+local time from that page rather than memory. Start the HotCRP record early anyway: the form
+asks for the track, topics, an ethics description, PC conflicts, ORCIDs and a named
+**reciprocal reviewer** (an author, normally holding a PhD, who may be asked to review as many
+papers as they submitted). Each author may appear on at most **eight** submissions across both
+tracks; surplus papers are desk-rejected.
 
 ## Pick the track before you audit the format
 
@@ -25,17 +28,25 @@ The two lanes are judged by different contracts, and choosing wrong wastes the w
 
 - **Research track** — a networking-stack mechanism or architecture judged on novelty,
   design insight, and evaluation depth.
-- **Experience track** — an operational or deployment result judged on generalizable
-  lessons from real operation; a research-novelty rubric will undervalue it, and a product
-  narrative dressed as research will fail the novelty bar.
+- **Experience track** — insights from deploying or operating a design, judged in 2027 on the
+  **depth of the lessons learned**, not on the size or duration of the deployment; the title
+  must begin with **"Experience:"** and the track is declared on the form. A product narrative
+  without supported lessons fails this bar.
+
+Either way, SIGCOMM 2027 adds a **general-accessibility** test: the PC will reject a paper
+whose motivation or approach most networking researchers would not understand.
 
 ## Format audit
 
-| Item | SIGCOMM 2026 rule | Audit action on the compiled PDF |
+| Item | SIGCOMM 2027 rule | Audit action on the compiled PDF |
 |---|---|---|
 | Body | ≤ 12 single-spaced pages **before references**, including figures and tables | Count pages up to the references; over-length is not reviewed |
 | References | as many pages as needed, outside the cap | Confirm nothing load-bearing hides there |
-| Appendices | optional, after references, outside the cap | Body must stand without them (a shepherd later judges necessity) |
+| Appendices | optional, after references, outside the cap; reviewers need not read them | Body must stand without them; no main-body claim may depend on an appendix experiment |
+| Author block | "Paper #N, 12 pages body, 14 pages total"-style line under the title | Fill in the HotCRP number and the real counts |
+| Abstract | no more than 200 words | Count words; paste the same text into HotCRP |
+| Layout | Letter, two-column, 10-point or larger, at most 55 lines per column, numbered pages | Run Banal (the HotCRP checker) before upload |
+| File | PDF only, under 15 MB | Embed fonts; check legibility of plot labels |
 | Template | ACM `acmart.cls` (or ACM Word), unmodified | Diff class options against the distributed file |
 | Track | research / experience | Matches the evidence actually in the paper |
 
@@ -50,6 +61,8 @@ artifact or repository. Self-citations stay in the third person, and references 
 dropped to preserve anonymity. Measurement papers leak identity through the deployment more
 than the byline: a "our production backbone" trace plus a topology detail and an author
 count can triangulate to one operator, so neutralize to scale-descriptive language.
+The SIGCOMM 2027 instructions make one exception: an **experience-track** paper may name the
+company or system, but never the authors.
 
 ```text
 # Mechanical pass on the exact upload candidate (adapt tool names as available)
@@ -65,18 +78,23 @@ Mechanical passes catch strings; only a human catches implication.
 
 Title and abstract must match the PDF verbatim — drift confuses bidding and reads as
 carelessness. Topic selections steer the paper toward a sub-community; choose for the
-reviewer profile you want, not maximal coverage. Enter the full author list at abstract time
+reviewer profile you want, not maximal coverage. Enter the full author list at registration time
 for conflict computation even though the PDF stays blind, and declare conflicts by the
 site's definitions — completely and no wider than defined.
 
 ## Final sequence
 
-1. T-8 days: HotCRP account, abstract fields drafted, conflicts entered, track chosen.
-2. T-7 (Jan 30): abstract registered; topics and track locked deliberately.
-3. T-2: content freeze; format and blindness audits on the near-final PDF.
-4. T-1: coauthor sign-off; HotCRP title/abstract verbatim-match the PDF.
-5. T-0 (Feb 6, AoE): upload, mark the submission complete, then re-download and read the
-   uploaded bytes — the submitted file, not the local copy, is what reviewers see.
+1. T-8 days: HotCRP account and record started once the site opens; ORCIDs collected;
+   reciprocal reviewer named; conflicts entered; track chosen.
+2. T-7: any registration step HotCRP announces completed; topics, ethics text and track
+   locked deliberately.
+3. T-2: content freeze; format (Banal), abstract-length and blindness audits on the
+   near-final PDF.
+4. T-1: coauthor sign-off; HotCRP title/abstract verbatim-match the PDF; author-block page
+   counts correct.
+5. T-0 (February 2, 2027, at the cutoff HotCRP states): upload, mark the submission complete,
+   then re-download and read the uploaded bytes — the submitted file, not the local copy, is
+   what reviewers see.
 
 ## Automated preflight (run this first)
 
@@ -103,9 +121,10 @@ it lists as *not checked* still needs the manual items below.
 ## Output format
 
 ```text
-[Clock] HotCRP site + AoE cutoffs confirmed from /deadlines
+[Clock] HotCRP site + cutoff and time zone confirmed from /deadlines
 [Track] research / experience — matches the evidence
-[Format] 12-page pre-reference / template / references / appendix — pass or blocker
+[Format] 12-page pre-reference / 200-word abstract / author block / template / 15 MB — pass or blocker
+[Form] ORCIDs / reciprocal reviewer / ethics text / ≤8 papers per author — done or missing
 [Blindness] mechanical findings + human-pass verdict
 [HotCRP fields] title/abstract verbatim match, topics, conflicts — cleared or flagged
 [Blockers] ordered, with owner and time cost

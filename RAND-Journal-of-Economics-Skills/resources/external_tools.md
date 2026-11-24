@@ -78,7 +78,7 @@ before use, and confirm volatile process facts on rje.org.
 | Item | Note |
 |------|------|
 | Submission portal | **Wiley Research Exchange** — `wiley.atyponrex.com/journal/RAND` (mandatory since April 23, 2025; replaced Editorial Express / e-submit) |
-| Submission fee | **Per-article fee** (Wiley guidelines); **non-refundable as of January 1, 2026** — exact amount 待核实 (snippets disagree, $100 vs $200; Wiley page HTTP 402), verify in portal |
+| Submission fee | **US$200 per article** (Wiley "For Authors" guidelines: paid via the journal's PayPal link before submitting, proof uploaded as "Supplementary Material Not for Review"; read via search-engine rendering 2026-11-24 because the Wiley page refuses automated access); **non-refundable as of January 1, 2026** (rje.org) — re-confirm in the portal |
 | Page caps | Main text <=40 pp; appendices+refs <=10 pp; total <=50 pp; double-spaced |
 | Abstract | <=100 words |
 | Review | Editor screen → two anonymous referees → handling Editor |

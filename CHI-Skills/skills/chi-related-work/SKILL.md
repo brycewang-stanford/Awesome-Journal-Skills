@@ -8,15 +8,18 @@ description: Use when building the related-work section of an ACM CHI paper — 
 At CHI, related work is screened before it is reviewed: **ADR-Context — "grossly
 insufficient literature review to contextualize the contribution" — was the most
 frequently cited assisted desk-reject reason at CHI 2026**, applied jointly by
-subcommittee chairs and ACs before external review (chi2026.acm.org outcome posts,
-read 2026-07-08). A thin or misaimed section no longer just lowers scores; it can
-end the submission in October.
+subcommittee chairs and ACs before external review (chi2026.acm.org outcome posts).
+CHI 2027 keeps the screen — "lacking context in the HCI literature" is a posted
+desk-reject example, and the ADR rubric checks claims against the literature
+(chi2027.acm.org review process, re-read 2026-11-24). A thin or misaimed section no
+longer just lowers scores; it can end the submission in October (ADR notices go out
+around October 25).
 
 ## Five lanes, all checked
 
 | Lane | What belongs there | Who notices its absence |
 |---|---|---|
-| CHI itself, last ~3 cycles | The ongoing conversation your paper joins | 1AC/2AC — instantly |
+| CHI itself, last ~3 cycles | The ongoing conversation your paper joins | The AC — instantly |
 | The HCI family (CSCW, UIST, DIS, IUI, ASSETS, IMWUT, TOCHI, IJHCS) | The specialist thread of your topic | The external recruited from that thread |
 | Foundational HCI | The classic your framing stands on (or contradicts) | Senior reviewers |
 | Feeder disciplines | Psychology, sociology, design, communication, health, ML — wherever your constructs come from | The reviewer trained in that discipline |
@@ -25,7 +28,7 @@ end the submission in October.
 The feeder-discipline lane is CHI-distinctive and the most common hole: a paper
 measuring "trust" that cites no trust literature outside HCI, or one deploying
 thematic analysis citing only its HCI users, reads as unserious to exactly the
-reviewer the subcommittee recruited to check it.
+reviewer the descriptor matching recruited to check it.
 
 ## Position, don't inventory
 

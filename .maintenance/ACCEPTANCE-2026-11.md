@@ -91,3 +91,21 @@ Done after the owner said "continue". It is on the same branch and not pushed.
     nejm.org, science.org) were read through archives or search rendering. Each map says
     so; the weekly live-check on a GitHub runner should re-read them.
   - Several APC figures are left null where the sources disagree.
+
+## 6. Addendum (2026-11-24, later): third tranche and PR
+
+- **Pull request:** PR #24 is open, with CI green. One CI fix was needed:
+  `ubuntu-latest` became Ubuntu 26.04, which has no Python 3.9 build, so the audit job
+  is pinned to `ubuntu-24.04`. The suite passes on 3.9 locally.
+- **Rules coverage:** 94 → **163 venues (2086 rules).** This adds 37 conferences with
+  deadlines in the next five months, 8 finance, 8 econometrics/core-economics, 8
+  psychology and 8 management/IS journals. Median source-map age is now about one day.
+- **Known limit (cycle audit):** `cycle_audit.py` takes a pack's edition from the newest
+  year in the prose. A pack whose status paragraph names an announced next edition, while
+  its rules still describe the last call (FOCS, PODC, UIST, several conferences), reads
+  as "current" rather than "due". The weekly live-check covers these until the audit
+  reads the rules block's edition. The naive fix would mark biennial venues (ICCV) as
+  stale and fail CI.
+- **Remaining without rules blocks:** 136 packs (of 299 with a source map). Most are smaller
+  CS/theory/systems conferences, Chinese CS journals, and humanities and
+  natural-science field journals.

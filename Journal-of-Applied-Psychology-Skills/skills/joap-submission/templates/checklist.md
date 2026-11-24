@@ -7,9 +7,9 @@ APA page — they change (检索于 2026-06；以官网为准). See `../SKILL.md
 walkthrough and `../../joap-open-science-and-transparency/SKILL.md` for the data/materials/code deposit.
 
 ## Article type & length
-- [ ] Type chosen: Feature Article (length commensurate with contribution) / Research Report (tighter cap, 待核实) / theory-development / integrative review / qualitative / meta-analysis
+- [ ] Type chosen: Feature Article (length commensurate with contribution) / Research Report (≤ 19 manuscript pages excl. title page, abstract, references, tables, figures) / Integrative Conceptual Review (10-page prospectus first) / qualitative / meta-analysis
 - [ ] Length appropriate to the chosen type; reduction to a Research Report considered if asked
-- [ ] Structured abstract within the current limit (commonly ~250 words; 待核实)
+- [ ] Abstract ≤ 250 words on a separate page, then up to five keywords
 - [ ] Abstract states the theoretical contribution, design, samples (with levels and N), and key result
 
 ## Theory & contribution

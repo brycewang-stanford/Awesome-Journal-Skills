@@ -1,6 +1,6 @@
 ---
 name: icse-writing-style
-description: Use when writing or revising an ICSE research-track paper, covering empirical-SE paper anatomy, research questions as the load-bearing structure, the threats-to-validity section the community expects, practitioner-grounded motivation, calibrated claims, and fitting a complete study into ten IEEE pages.
+description: Use when writing or revising an ICSE research-track paper, covering empirical-SE paper anatomy, research questions as the load-bearing structure, the threats-to-validity section the community expects, practitioner-grounded motivation, calibrated claims, and fitting a complete study into ten ACM `sigconf` pages.
 ---
 
 # ICSE Writing Style
@@ -13,8 +13,8 @@ for that reading order, not for a general CS audience.
 
 ## The load-bearing skeleton
 
-A canonical ICSE technique-plus-evaluation paper spends its ten pages (2027
-format: 10 pages main text including all figures/tables/appendices, +2 pages
+A canonical ICSE technique-plus-evaluation paper spends its ten pages (2028
+format, as in 2027: 10 pages main text including all figures/tables/appendices, +2 pages
 references only) roughly like this:
 
 | Section | Pages | What reviewers extract from it |
@@ -101,7 +101,8 @@ that hides it reads as having something to hide.
 
 ## Ten-page compression without desk-reject risk
 
-The IEEE template's formatting rules are desk-reject-enforceable, so recover
+The template's formatting rules (ACM `sigconf` in 2028, IEEEtran in 2027) are
+desk-reject-enforceable, so recover
 space editorially: merge motivating example into the introduction; convert
 prose protocol descriptions into a design table; move non-decision-critical
 material to the replication package and cite it in the availability statement

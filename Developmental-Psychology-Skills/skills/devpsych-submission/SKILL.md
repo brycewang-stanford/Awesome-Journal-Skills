@@ -16,27 +16,31 @@ volatile specifics (length numbers, abstract ceiling, policy wording, editor) on
 - Unsure what the length tier, abstract, and transparency requirements demand
 - Confirming the Public Significance Statement, anonymization, and deposits are in order
 
-## Process facts (verify volatile items on the official page)
+## Process facts (re-verified 2026-11-24 on the APA submission-guidelines page)
 
 - **Publisher:** American Psychological Association (APA). **ISSN:** 0012-1649 (print); 1939-0599 (online).
-- **Editor:** Koraly Pérez-Edgar (Penn State; editorship since 2023-01-01) *(web-verified 2026-06-22; re-verify before submission)*.
+- **Editor:** Koraly Pérez-Edgar (Penn State; editorship since 2023-01-01) *(re-confirmed on the APA editorial-board page 2026-11-24)*.
 - **Portal:** **Editorial Manager**, `editorialmanager.com/dvl`.
-- **Review:** **masked peer review** available on request — keep author identity out of the manuscript and
-  out of shared links; submit a masked copy via a stable link or supplemental material.
-- **Length tiers** *(检索于 2026-06；以官网为准)*: ~4,500 words (brief report), ~10,500 (larger report),
-  ~15,000 (multi-study / comprehensive longitudinal); length counts cover page, abstract, text,
-  references, tables, and figures.
-- **Front matter:** APA-style abstract plus a **Public Significance Statement** (2–3 sentences, ~30–70
-  words) on the abstract/keywords page.
+- **Review:** **masked review for all submissions** (not on request) — names/affiliations go only in the
+  submission letter; the first page carries the title and date; keep identity out of shared links and
+  preregistrations (masked copy via a stable link or supplemental material).
+- **Length tiers** *(re-verified 2026-11-24)*: maximum **4,500 words** (brief report), **10,500** (larger
+  report), **15,000** (multi-study / comprehensive longitudinal); length counts cover page, abstract,
+  text, references, tables, and figures; editors may return over-long papers before review.
+- **Front matter:** abstract **≤ 250 words** that reports major sample demographics (age, gender,
+  race/ethnicity, SES), **up to six keywords**, and a **Public Significance Statement** (2–3 sentences,
+  ~30–70 words) on the abstract/keywords page.
 - **Style:** **APA 7th edition**; **JARS** reporting (JARS-Quant / JARS-Qual / MARS).
-- **Transparency:** **TOP** guidelines — data-availability statement, persistent identifiers (DOIs),
-  preregistration where applicable, sample-size justification.
+- **Transparency:** **TOP "requirement" level for all aspects** — a Method subsection titled
+  **"Transparency and Openness"** stating whether data, code and materials are in a trusted repository
+  (or the legal/ethical reason not) and whether any work was preregistered; sample-size justification.
+- **Fee:** submitting for peer review is free; an APC applies only to gold open access.
 
 ## Preflight checklist
 
 ### Format & front matter
 - [ ] Manuscript within the chosen **length tier** (total counts cover page, abstract, text, refs, exhibits)
-- [ ] APA-style **abstract** within the current ceiling; developmental change foregrounded
+- [ ] APA-style **abstract ≤ 250 words** with major sample demographics; up to six keywords; developmental change foregrounded
 - [ ] **Public Significance Statement** present: 2–3 plain sentences (~30–70 words)
 - [ ] **APA 7th edition** style; tables/figures and references formatted per APA
 
@@ -47,13 +51,13 @@ volatile specifics (length numbers, abstract ceiling, policy wording, editor) on
 - [ ] **Sample-size justification** for the change parameter (power/precision)
 - [ ] Effect sizes + confidence intervals for major results; full JARS disclosure
 
-### Masked review (if requested)
-- [ ] No author names/affiliations in the masked manuscript
+### Masked review (all submissions)
+- [ ] No author names/affiliations in the manuscript (they go in the submission letter)
 - [ ] Repository / preregistration links **anonymized** (e.g., OSF anonymized view; Databrary view link)
 - [ ] Identifying file metadata stripped
 
 ### Transparency (TOP)
-- [ ] **Data-availability statement** present (what is shared / restricted, why)
+- [ ] **"Transparency and Openness"** Method subsection present (data / code / materials availability, preregistration status)
 - [ ] **Data + scripts** deposited with DOIs (or a justified restricted-access archive); reproduce in a
       fresh session
 - [ ] Minors'/identifiable data handled per consent/IRB (e.g., permission-based archive)

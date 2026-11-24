@@ -234,7 +234,7 @@ not a measurement. See [`rt-ladder-ev`](https://github.com/brycewang-stanford/Aw
 *Runs on: [`tools/match_venues.py`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/tools/match_venues.py) (step 2) and
 [`tools/ladder_ev.py`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/tools/ladder_ev.py) (step 6).
 Stable index: [`venue-index.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/venue-index.tsv) (744 venues) and
-[`ladder.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/ladder.tsv) (1,515 adjacency edges) — both generated from the repository;
+[`ladder.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/ladder.tsv) (1,516 adjacency edges) — both generated from the repository;
 regenerate when packs are added. Retrieval quality is measured in
 [`eval/`](eval/README.md). Volatile facts: each pack's `resources/official-source-map.md`.
 Part of the cross-journal capability layer — the loop is **pick** (this file) → **execute**

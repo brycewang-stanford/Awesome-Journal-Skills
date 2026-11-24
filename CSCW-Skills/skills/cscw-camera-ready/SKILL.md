@@ -35,7 +35,9 @@ submission masked:
 forms, final source preparation through ACM's TAPS pipeline, ORCID for authors, CCS
 concepts, and accessibility requirements (alt text, tagged PDFs). The precise
 sequence, deadlines, and any open-access fee treatment for PACMHCI CSCW articles
-were 待核实 at the 2026-07-08 check — take them from the acceptance email and the
+were 待核实 at the 2026-11-24 check (the CSCW 2026 CFP stated ACM Open with a 2026
+APC subsidy of $250 members / $350 non-members for non-participating institutions;
+the 2027 level is not posted) — take them from the acceptance email and the
 live ACM author instructions, not from this file or from CHI-trained habits.
 
 **Issue assignment.** Historically CSCW papers appeared in paired annual issues
@@ -45,12 +47,14 @@ number when production tells you, then cite yourself accordingly.
 
 ## Track 2: the conference presentation
 
-- The rolling CFP's wording is an *invitation* to present at the next CSCW,
-  pending space — confirm which conference year your paper is assigned to before
-  booking anything. The next edition at check time: CSCW 2026, Salt Lake City,
-  Utah, October 10-14, 2026.
+- Acceptance brings an *invitation* to present, not an obligation: accepted
+  authors receive email instructions to request a slot, and an acceptance after the
+  year's program is set is offered the following year — confirm which conference
+  year your paper is assigned to before booking anything. The next edition at check
+  time (2026-11-24): CSCW 2027, Philadelphia, PA, USA, October 16-20, 2027 (Loews
+  Philadelphia Hotel).
 - Registration and attendance obligations (who must register, remote options) were
-  待核实; verify on the conference site early, because travel budgets and visas
+  待核实 (CSCW 2027 registration not yet posted on 2026-11-24); verify on the conference site early, because travel budgets and visas
   move slower than production deadlines.
 - Prepare the talk for CSCW's mixed audience: lead with the cooperative practice
   and the concept, not the pipeline; participant-voice slides need the same
@@ -79,6 +83,6 @@ number when production tells you, then cite yourself accordingly.
 [Two clocks]  production deadline and presentation logistics tracked separately
 ```
 
-The venue facts here (conference dates, issue anchors) were verified 2026-07-08;
+The venue facts here (conference dates, issue anchors) were verified 2026-11-24;
 production-mechanics items are flagged 待核实 above because ACM instructions
 arrive with the acceptance and override anything written down in advance.

@@ -49,7 +49,7 @@ The estimate is robust to [key check], supporting [mechanism].
 
 ## Abstract calibration for JBF
 
-A JBF-ready abstract typically runs four to six sentences: question, setting and data, design, headline magnitude in finance units, and one bounded implication. The current Guide caps the abstract at **250 words**.
+A JBF-ready abstract typically runs four to six sentences: question, setting and data, design, headline magnitude in finance units, and one bounded implication. The current Guide caps the abstract at **150 words** (re-checked 2026-11-24; the 2026-06 pack said 250 — see the source map).
 
 ```text
 [Question] Does X friction change Y bank/market outcome?

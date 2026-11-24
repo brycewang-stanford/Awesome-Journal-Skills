@@ -17,9 +17,9 @@ details) on the official Elsevier / ScienceDirect guide for authors —
 - [ ] Re-confirm any length/word guidance on the guide for authors (no single fixed cap verified — 待核实)
 
 ## 3. Front matter
-- [ ] Abstract present (re-confirm any word limit — 检索于 2026-06)
+- [ ] Abstract present, no more than 250 words (checked 2026-11-24)
 - [ ] JEL codes + keywords accurate (cross-field where the result travels)
-- [ ] Research highlights included (a few concise bullet findings — Elsevier requirement)
+- [ ] Research highlights (encouraged): 3–5 bullets, ≤85 characters each, separate file
 
 ## 4. Statistical presentation
 - [ ] Standard errors (and/or CIs) reported under every estimate

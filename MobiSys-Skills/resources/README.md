@@ -18,8 +18,8 @@ and prepare on-device reproducibility artifacts without importing the econometri
 
 This is a mobile-systems conference pack, not an empirical-economics journal pack. Do not copy
 the Stata/DiD/IV/RDD econometrics kit here. Use the shared ML-conference resource for
-experiment design, artifact packaging, seed/compute reporting, and anonymous-review package
-checks, then add the MobiSys-specific device, energy, latency, and thermal checks the generic
+experiment design, artifact packaging, and seed/compute reporting (skip its anonymous-review
+checks: MobiSys review is single-blind since 2026), then add the MobiSys-specific device, energy, latency, and thermal checks the generic
 tooling cannot make.
 
 ## Suggested workflow

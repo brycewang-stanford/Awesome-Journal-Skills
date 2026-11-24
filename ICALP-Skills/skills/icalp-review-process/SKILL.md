@@ -9,7 +9,8 @@ Model the pipeline before interpreting any single review. ICALP's process is **c
 correctness-centered**: a paper is accepted or rejected in one round (no journal-style major
 revision), and the reviewers' overriding job is to judge whether the **theorems are significant and
 the proofs are correct**. The most consequential thing to internalize is that the two tracks run
-**different processes** — Track B gives you a rebuttal, Track A generally does not.
+**different processes** — Track B gives you a rebuttal (and, since ICALP 2027, a choice of two
+submission rounds), Track A generally does not.
 
 ## Process model
 
@@ -19,13 +20,18 @@ the proofs are correct**. The most consequential thing to internalize is that th
 - Each paper is refereed by the track's **program committee** (often with sub-reviewers who are
   subject experts), who weigh the **significance** of the result, the **correctness and depth** of the
   proofs, the **improvement over prior bounds**, and clarity.
-- **Track A** (Algorithms, Complexity and Games): chairs for ICALP 2026 are **Sayan Bhattacharya** and
-  **Danupon Nanongkai** (reported). Authors are contacted **only if a correctness issue** must be
-  resolved — otherwise there is no interaction.
-- **Track B** (Automata, Logic, Semantics and Theory of Programming): chaired by **Michael Benedikt**
-  (reported). There is a **rebuttal period** (ICALP 2026: 21-24 March) where authors respond to
-  initial reviews.
-- Decisions are **accept / reject** in one round; accepted papers publish open-access in **LIPIcs**.
+- **Track A** (Algorithms, Complexity and Games): ICALP 2027 co-chairs **Saket Saurabh** and
+  **Jukka Suomela** (verified 2026-11-24; ICALP 2026: Sayan Bhattacharya and Danupon Nanongkai). In
+  ICALP 2026 authors were contacted **only if a correctness issue** had to be resolved — otherwise
+  there was no interaction; the ICALP 2027 Track A call is not yet posted.
+- **Track B** (Automata, Logic, Semantics and Theory of Programming): ICALP 2027 co-chairs **Manuel
+  Bodirsky** and **Ichiro Hasuo** (ICALP 2026: Michael Benedikt). There is a **rebuttal period** in
+  each round (ICALP 2027 round 1: 5-9 November 2026; ICALP 2026: 21-24 March) where authors respond
+  to initial reviews. Since ICALP 2027 Track B runs **two rounds**; a round-1 decision is final, with
+  no carry-over to round 2.
+- Decisions are **accept / reject**; accepted papers publish open-access in **LIPIcs**.
+- Reviewers are bound to confidentiality and, under the ICALP 2027 call, may not pass submissions to
+  external AI tools.
 
 ## Reading a decision against the criteria
 
@@ -82,8 +88,9 @@ proof can.
 ## Misreadings to avoid
 
 - **Expecting a revision round** — there is none; the submission is the artifact of record.
-- **Assuming a Track A rebuttal** — Track A contacts you only for correctness; do not bank on
-  responding.
+- **Assuming a Track A rebuttal** — in ICALP 2026 Track A contacted authors only for correctness; do
+  not bank on responding unless the ICALP 2027 Track A call says otherwise.
+- **Treating a Track B round-1 reject as a free practice run** — it cannot be resubmitted to round 2.
 - **Treating "details in the full version" as sufficient without the full version** — reviewers must
   be able to check the proof at submission time.
 - **Projecting a US-venue process onto ICALP** — the two-track split and the rebuttal asymmetry are

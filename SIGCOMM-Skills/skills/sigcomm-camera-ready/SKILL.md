@@ -6,9 +6,12 @@ description: Use when preparing an accepted ACM SIGCOMM paper for the TAPS proce
 # SIGCOMM Camera Ready
 
 Use this after acceptance. Reopen the current camera-ready instructions, the ACM TAPS
-requirements, and your shepherd's HotCRP thread before finalizing; the 2026 cycle set the
+requirements, and your shepherd's HotCRP thread before finalizing. The 2026 cycle set the
 camera-ready deadline at **July 3, 2026, 23:59 UTC**, with the final version approved by the
-shepherd via a HotCRP comment.
+shepherd via a HotCRP comment; as of 2026-11-24 the SIGCOMM 2027 camera-ready page still
+carries that 2026 text, so the 2027 deadline is 待核实. Fixed 2027 anchors: the official
+publication date is **July 18th, 2027**, and every accepted conference paper must also supply a
+**video** and an in-person presenter for a small-scale discussion session.
 
 ## Clear the shepherd first
 

@@ -8,17 +8,16 @@ ACM on Management of Data）的**每年四轮**投稿，评审结果包含真正
 **Availability & Reproducibility Initiative（ARI）**，其徽章会嵌入 ACM DL 上的
 正式 PDF。
 
-官方依据核验日期：**2026-07-08**。已核验 SIGMOD 2027 研究轨 Call for Papers 与
-important-dates 日历、PACMMOD 作者指南、`reproducibility.sigmod.org` 的 ARI 页面、
-SIGMOD 2026 会议站点，以及用于 exemplar 验证的 sigmod.org 奖项页面。精确 URL、
-已核验事实与"待核实"清单见
+官方依据核验日期：**2026-07-08**，并于 **2026-11-24 复核**。已核验 SIGMOD 2028
+研究轨 Call for Papers 与 important-dates 日历（2026 年 11 月 8 日发布）、SIGMOD 2027
+站点与工业轨征稿、PACMMOD 作者指南、`reproducibility.sigmod.org` 的 ARI 页面，以及
+用于 exemplar 验证的 sigmod.org 奖项页面。精确 URL、已核验事实与"待核实"清单见
 [`resources/official-source-map.md`](resources/official-source-map.md)。该文件同时
-记录了访问方式说明：部分官方站点拒绝自动化抓取，事实通过对确切 URL 的搜索引擎
-渲染读取，并在多个独立官方页面间交叉核对。
+记录了访问方式说明（ACM Digital Library 拒绝自动化抓取，经 Internet Archive 读取）。
 
 ## 为什么 SIGMOD 需要单独一个包
 
-- **"选轮次"取代了年度截稿。** SIGMOD 2027 的论文截稿为 2026 年 1 月 17 日 /
+- **"选轮次"取代了年度截稿。** SIGMOD 2028 的论文截稿为 2027 年 1 月 17 日 /
   4 月 17 日 / 7 月 17 日 / 10 月 17 日（摘要与利益冲突声明提前一周，均为
   11:59 PM AoE），每轮对应一期 PACMMOD。选哪一轮、以及输掉一轮的禁投代价，
   本身就是一项策略技能。
@@ -28,7 +27,7 @@ SIGMOD 2026 会议站点，以及用于 exemplar 验证的 sigmod.org 奖项页�
 - **双匿名贯穿数月**，覆盖 feedback 阶段与 revision，这改变了 artifact、预印本
   与代码仓库的处理方式。
 - **可复现性被制度化。** PACMMOD 期望论文尽可能公开代码、数据、脚本与 notebook；
-  ARI 在录用后按 Artifacts Available / Artifacts Evaluated / Results Reproduced
+  ARI 在录用后按 Artifacts Available / Artifacts Evaluated - Reusable / Results Reproduced
   三级徽章评估 artifact，并设 Best Artifact 奖。
 - **邻居密集。** PVLDB 按月滚动收稿，PODS 收理论，ICDE 收更宽的数据工程，
   KDD 收挖掘，TODS 收期刊化扩展。在它们之间路由是本包显式教授的常规决策。
@@ -85,20 +84,21 @@ SIGMOD 2026 会议站点，以及用于 exemplar 验证的 sigmod.org 奖项页�
   的venue对比表（PVLDB 月度入口、ICDE、TODS），配合 `sigmod-review-process`
   把评审意见转成返工计划。
 
-## 核验快照（2026-07-08）
+## 核验快照（2026-11-24 复核）
 
 | 事实 | 数值 | 来源 |
 | --- | --- | --- |
-| 发表载体 | PACMMOD，每轮一期 | 2027 CFP、PACMMOD 页面 |
-| SIGMOD 2027 各轮截稿 | 2026 年 1/17、4/17、7/17、10/17（AoE） | 2027 important dates |
-| 页数预算 | 12 页正文 + 参考文献不限页，ACM 模板 | 2027 CFP |
-| 平台 | Microsoft CMT | 2027 CFP |
-| Revision 条款 | 加 1 页正文、letter ≤4 页、按审稿人分色 | 2027 CFP |
-| 被拒禁投期 | 12 个月（逾期撤稿同罚） | 2027 CFP |
-| 作者上限 | 每周期 10 篇研究轨投稿 | 2027 CFP |
-| ARI 徽章 | Available / Evaluated / Results Reproduced | reproducibility.sigmod.org |
+| 发表载体 | PACMMOD，每轮一期 | 2028 CFP、PACMMOD 页面 |
+| SIGMOD 2028 各轮截稿 | 2027 年 1/17、4/17、7/17、10/17（AoE） | 2028 important dates |
+| 页数预算 | 12 页正文 + 参考文献不限页，ACM 模板；附录只能作为单独 PDF | 2028 CFP |
+| 平台 | Microsoft CMT（`cmt3.research.microsoft.com/SIGMOD2028`） | 2028 CFP |
+| Revision 条款 | 加 1 页正文、letter ≤4 页、按审稿人分色、一个月 | 2028 CFP |
+| 被拒禁投期 | 1 年（12 个月或 3 轮取其短；截稿一周后撤稿同罚） | 2028 CFP |
+| 作者上限 | 全部轮次合计 10 篇研究轨投稿，每轮最多 3 篇 | 2028 CFP |
+| ARI 徽章 | Available / Evaluated - Reusable / Results Reproduced | reproducibility.sigmod.org |
 | SIGMOD 2026 | 班加罗尔，2026-05-31 至 06-05 | 2026.sigmod.org |
-| SIGMOD 2027 | 亨廷顿海滩，2027-06-13 至 06-19 | 2027.sigmod.org |
+| SIGMOD 2027 | 亨廷顿海滩，2027-06-13 至 06-18 | 2027.sigmod.org |
+| SIGMOD 2028 | 首尔（COEX），2028-06-17 至 06-23 | 2028.sigmod.org |
 
 ## 安装
 
@@ -134,14 +134,14 @@ SIGMOD-Skills/
 
 ## 事实纪律
 
-本包中每条截止日期、页数与政策陈述只允许两种状态之一：在 2026-07-08 对照具名
-官方 URL 核验过，或明确标注"待核实"。构建时已知无法核验的事项——SIGMOD 2027
-工业轨日历、当轮 CMT 站点 URL、ARI 2027 后勤安排、PACMMOD 费用机制、正文外
-附录是否允许放入 PDF——均列入 source map 的待核实清单，而非猜测填充。
+本包中每条截止日期、页数与政策陈述只允许两种状态之一：对照具名官方 URL 核验过
+（最近一次复核 2026-11-24），或明确标注"待核实"。尚未发布或官方未说明的事项——
+SIGMOD 2028 工业轨日历、ARI 2027/2028 后勤安排、PACMMOD APC 金额——均列入
+source map 的待核实清单，而非猜测填充。
 
 ## 维护说明
 
-- 全包引用的 SIGMOD 2027 轮次日历是带日期的观测值；后续周期会重新发布日期，
+- 全包引用的 SIGMOD 2028 轮次日历是带日期的观测值；后续周期会重新发布日期，
   只有"每季一轮"的模式可视为相对稳定。
 - revision 机制（加页、letter 长度、分色标注规则）、作者投稿上限与禁投期措辞
   每周期重新声明——给出建议前必须重开当期 CFP。

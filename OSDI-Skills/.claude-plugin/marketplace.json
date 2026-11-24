@@ -15,7 +15,7 @@
       "name": "osdi-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '26 Call for Papers, Call for Artifacts, HotCRP site, and USENIX open-access policy pages.",
+      "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '27 (Baltimore, July 2027) Call for Papers, Requirements for Authors and HotCRP site, the latest (OSDI '26) Call for Artifacts, and USENIX open-access policy pages.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

@@ -6,10 +6,13 @@ description: Use when drafting an ICSE author response or executing a Major Revi
 # ICSE Author Response
 
 ICSE gives authors two distinct speaking turns, and they demand different
-documents. The **author response** (September in the 2027 cycle, checked
-2026-07-08) answers reviews before first decisions; the **Major Revision
-response letter** (revision due November 17, 2026; final decision December 18)
-accompanies a changed paper re-read by the same reviewers. Do not write the
+documents. The **author response** (three days, September 24–26, 2027 in the
+ICSE 2028 cycle, checked 2026-11-24) answers reviews before first decisions;
+the **Major Revision response letter** (revision due November 18, 2027; final
+decision December 19) accompanies a changed paper re-read by the same
+reviewers. In 2028, papers whose initial reviews are all negative are rejected
+before the response window, so getting a response turn already means at least
+one reviewer is positive. Do not write the
 first as if it were the second.
 
 ## Turn 1: the author response
@@ -28,7 +31,8 @@ earn their space:
    controlled experiment with professional developers" is not.
 
 Map every reply to the criterion it defends. ICSE reviews are structured around
-novelty, rigor, relevance, and verifiability/transparency — a response that
+novelty, rigor, relevance, verifiability/transparency, and (from 2028)
+presentation — a response that
 answers a rigor objection with a relevance argument reads as evasion.
 
 | Objection pattern | Criterion under attack | Response that works |
@@ -38,9 +42,11 @@ answers a rigor objection with a relevance argument reads as evasion.
 | "Why would practitioners care?" | Relevance | Concrete failure cost, practitioner quote, or deployment context from the paper |
 | "Cannot tell how the tool works" | Verifiability | Point to artifact + name the exact section/README that answers it |
 | "Threats section is boilerplate" | Rigor | Name the one threat that genuinely worries you and the mitigation you ran |
+| "Hard to follow the running example" | Presentation | Quote the one-sentence fix you will make and where |
 
 Response mechanics for the current cycle (length cap, structured forms, whether
-revised PDFs are allowed) were not published at check time — 待核实 on the
+revised PDFs are allowed) were not published at check time beyond the
+three-day window — 待核实 on the
 HotCRP site when the window opens. Draft to fit the tightest historical norm:
 short, numbered, no new-contribution smuggling.
 
@@ -48,8 +54,11 @@ short, numbered, no new-contribution smuggling.
 
 A Major Revision at ICSE is an itemized contract. The meta-review or reviews
 enumerate required changes; December's decision largely reduces to whether each
-item is verifiably addressed. The four-week window (Oct 20 notification →
-Nov 17 revision in 2027) sets the feasibility bar for what you promise.
+item is verifiably addressed. The four-week window (Oct 21 notification →
+Nov 18 revision in the 2028 cycle) sets the feasibility bar for what you
+promise. The call requires three files: the revised paper (one extra page
+allowed), the revised paper with changes marked in a different colour (e.g.
+latexdiff), and an "Author Response" document answering each comment.
 
 Structure the response letter as a ledger:
 
@@ -74,8 +83,8 @@ two large OSS systems (§5.1) and state the limit in Threats (§7).
 
 Rules of the ledger: every numbered reviewer point appears, including the ones
 you decline; every change names its section and page; declined items get a
-reason, never silence. Submit a diff-marked PDF if the instructions allow one
-— reviewers granted four weeks of their own time deserve not to hunt.
+reason, never silence. The diff-marked PDF is required, not optional —
+reviewers granted four weeks of their own time deserve not to hunt.
 
 ## Revision-sprint triage
 
@@ -123,6 +132,6 @@ push back on real errors respectfully (silence reads as agreement).
 ```text
 [Turn] author response / major revision
 [Ledger] N reviewer points -> addressed / declined-with-reason / needs decision
-[Feasibility] promised work vs days remaining to Nov 17
+[Feasibility] promised work vs days remaining to Nov 18
 [Risk items] points where the December decision could still go against you
 ```

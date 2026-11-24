@@ -13,14 +13,16 @@ followed, this skill is mostly packaging and paperwork.
 
 ## The badge system, as ICSE runs it
 
-Verified against the ICSE 2026 artifact-evaluation track (read 2026-07-08;
-ICSE follows the ACM artifact review and badging standard):
+Verified against the ICSE 2027 artifact-evaluation track, the latest published
+(read 2026-11-24; ICSE follows the ACM Artifact Review and Badging standard,
+version 1.1; 2027 labels the second badge "Artifacts Evaluated — Functional or
+Reusable" and adds SEET to the eligible tracks):
 
 | Badge | Who applies | What evaluators check |
 |---|---|---|
 | **Artifacts Available** | Authors of papers accepted to Research, SEIP, NIER, SEIS, Doctoral Symposium, Demonstrations | Artifact is permanently archived in a public, DOI-issuing repository — not a personal GitHub, which can be deleted or rewritten |
-| **Artifacts Reusable** (Evaluated) | Same tracks | Quality "significantly exceeds minimal functionality": careful documentation, structure that supports reuse and repurposing by others |
-| **Results Reproduced / Replicated** | Authors of *prior published* SE work | Independent obtainment of the paper's results, per the ACM definitions |
+| **Artifacts Evaluated** (Functional or Reusable) | Same tracks | Quality "significantly exceeds minimal functionality": careful documentation, structure that supports reuse and repurposing by others |
+| **Results Reproduced / Replicated** | Authors of *prior published* SE work (ICSE tracks above) | Independent obtainment of the paper's results, per the ACM definitions; a peer-reviewed paper reporting the replication must be submitted as evidence |
 
 Two structural notes. First, Available is about *archival*, Reusable about
 *quality* — a beautifully engineered artifact on a transient URL fails the
@@ -32,11 +34,15 @@ attempt exactly that next year.
 ## Timeline anchor
 
 ICSE 2026 ran artifact registration on January 8 and submission on
-January 15, 2026 — weeks after final paper decisions (December 18 in the
-2027-cycle calendar) and months before the conference. The 2027 dates were
-unposted at check time (待核实 at the ICSE 2027 artifact-evaluation page).
-Planning consequence: the artifact deadline lands in the first working days
-of January, so the package must be effectively done before the holidays.
+January 15, 2026. ICSE 2027 runs registration on January 22 and submission on
+January 29, 2027, a review/discussion period January 30 – February 19, and
+notification on February 26, 2027 (HotCRP `icse2027-artifact.hotcrp.com`, two
+Best Artifact Awards) — weeks after final paper decisions (December 18, 2026)
+and months before the conference. ICSE 2028 artifact dates are unposted at
+check time (2026-11-24, 待核实); with ICSE 2028 final decisions on December 19,
+2027 and the conference in late April/May 2028, expect a January 2028 window.
+Planning consequence: the artifact deadline lands in January, so the package
+must be effectively done before the holidays.
 
 ## From review package to badge submission
 
@@ -111,7 +117,7 @@ two is the first thing a careful evaluator diffs.
 ## Reverify each cycle
 
 Track list, badge set, deadlines, and submission form are set by each year's
-AE chairs; the ACM badging vocabulary is the stable layer. Confirm the 2027
+AE chairs; the ACM badging vocabulary is the stable layer. Confirm the 2028
 call before promising badge scope to coauthors — and note the badge is opt-in:
 absence of one on a published ICSE paper signals nothing about its authors,
 only about their January.

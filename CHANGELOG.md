@@ -45,11 +45,12 @@ seeded-defect benchmark and publishes the misses.
   each pack's `official-source-map.md` is compiled into
   `shared-resources/submission-readiness/venue-rules.json` by `tools/venue_rules.py`.
   `--check` fails when a block disagrees with its own prose: a number absent from the
-  prose, an uncited source, or a different verification date. **94 venue packs** were
-  re-verified against their official pages and received blocks: 46 on 2026-11-23 and 48
-  on 2026-11-24. They cover economics and finance (flagships and field journals),
-  management, marketing, accounting, IS/OM, sociology and political science, the AI
-  conferences, the science and medicine flagships, and twelve Chinese journals.
+  prose, an uncited source, or a different verification date. **163 venue packs** (2086
+  rules) were re-verified against their official pages and received blocks: 46 on
+  2026-11-23 and 117 on 2026-11-24. They cover economics, finance and econometrics
+  (flagships and field journals), management, marketing, accounting, IS/OM, psychology,
+  sociology and political science, 59 CS/AI conferences, the science and medicine
+  flagships, and twelve Chinese journals.
 - **Pipeline documents:** `review-forms.md` gives the review form each venue family
   actually uses, read from the official NeurIPS and ARR pages and CONSORT 2025,
   SPIRIT 2025 and PRISMA 2020. `prose-polish.md` covers the claim-to-evidence audit,
@@ -117,6 +118,19 @@ seeded-defect benchmark and publishes the misses.
     - three AEJs now require anonymized submissions;
     - mastheads at Review of Finance, JFQA, JDE, Journal of Econometrics, M&SOM, JAR
       and AMR.
+  - Third-tranche corrections, for example:
+    - MobiSys is single-blind (the pack told authors to anonymize);
+    - IEEE S&P has no Revise outcome; SIGCOMM 2027 drops rebuttals; ICDE has no
+      revisions; SIGGRAPH is double-blind;
+    - Journal of Management forbids significance stars and first-round supplements;
+    - Human Relations excludes exhibits from its word cap;
+    - Psychological Review is open review by default; Developmental Psychology and
+      JAP require masking;
+    - JFM's editors were wrong;
+    - USENIX ATC continues as the ACM SIGOPS ATC.
+    - 27 more conferences moved to their next edition, among them ICSE 2028, SIGMOD
+      2028, OSDI '27, RSS 2027 (extended abstracts due 2026-12-04), Interspeech 2027,
+      CSCW 2027 and FAccT 2027.
 
 ### Earlier in this release (2026-08 → 2026-09)
 

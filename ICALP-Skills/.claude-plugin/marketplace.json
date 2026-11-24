@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "icalp-skills",
   "version": "1.2.0",
-  "description": "Depth pack for ICALP (EATCS) Track A/B routing, the single annual February deadline, lightweight double-blind HotCRP submission, the 15-page extended abstract with full-version appendix, proof rigor, the Track B rebuttal, and the LIPIcs open-access camera-ready.",
+  "description": "Depth pack for ICALP (EATCS) Track A/B routing, the February deadline (plus Track B's new September round), lightweight double-blind HotCRP submission, the no-page-limit full version with its ten-page first-read window, AI-use disclosure, proof rigor, the Track B rebuttal, and the LIPIcs open-access camera-ready.",
   "owner": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
@@ -15,7 +15,7 @@
       "name": "icalp-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve ICALP-specific skills for the EATCS International Colloquium on Automata, Languages, and Programming, its Track A / Track B structure, and its LIPIcs open-access publication model, grounded in the ICALP 2026 (53rd, Royal Holloway) call, EATCS pages, LIPIcs/Dagstuhl, and dblp.",
+      "description": "Twelve ICALP-specific skills for the EATCS International Colloquium on Automata, Languages, and Programming, its Track A / Track B structure, and its LIPIcs open-access publication model, grounded in the ICALP 2027 (54th, Kraków) Track B call, EATCS pages, LIPIcs/Dagstuhl, and dblp.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

@@ -1,6 +1,6 @@
 ---
 name: jbf-submission
-description: Use when running the final pre-submission preflight for the Journal of Banking & Finance (JBF) via Elsevier Editorial Manager — the USD 350 submission fee, double-anonymized manuscript plus separate title page, 250-word abstract, keywords, Highlights, SSRN posting, data statement, and the generative-AI declaration. Final checks; it does not draft content.
+description: Use when running the final pre-submission preflight for the Journal of Banking & Finance (JBF) via Elsevier Editorial Manager — the USD 350 submission fee, double-anonymized manuscript plus separate title page, 150-word abstract, keywords, Highlights, SSRN posting, data statement, and the generative-AI declaration. Final checks; it does not draft content.
 ---
 
 # Submission Preflight (jbf-submission)
@@ -19,7 +19,7 @@ description: Use when running the final pre-submission preflight for the Journal
 - Provide editable Word/LaTeX source files; Editorial Manager converts uploaded article files into a single peer-review PDF.
 - First submission has no strict reference-format requirement if references are complete and consistent; JBF's proof-stage style is numbered Elsevier references.
 - Provide **1-7 English keywords**. Keep JEL codes if useful for finance discoverability, but do not treat them as a current JBF hard rule.
-- **Abstract:** concise/factual and **≤250 words**.
+- **Abstract:** concise/factual and **≤150 words** (re-checked 2026-11-24 via search-engine rendering of the Guide; the 2026-06 version of this pack said 250 — re-open the live Guide to confirm).
 - **Highlights:** encouraged, submitted as a separate editable file, **3-5 bullets**, each no more than **85 characters**.
 - **Data:** Elsevier Option C applies. Deposit/cite/link research data or state why data cannot be shared; a data statement is required at submission.
 - **Generative-AI use must be declared**. Free **SSRN** posting is offered (public once past initial desk review).
@@ -29,7 +29,7 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] Anonymized manuscript (no identity in body or PDF metadata; self-citations neutral)
 - [ ] Separate **title page** (authors, affiliations, corresponding author, acknowledgements, funding)
 - [ ] Consistent references; 1-7 English keywords; optional JEL codes; Highlights (3-5 bullets, <=85 characters each)
-- [ ] Abstract is concise/factual and <=250 words
+- [ ] Abstract is concise/factual and <=150 words
 - [ ] Fee path settled: pay **USD 350** or enter an approved waiver/discount code
 - [ ] Declared any **generative-AI** use; opted into **SSRN** posting if desired
 - [ ] Suggested/excluded reviewers; cover letter (question, design, headline result, JBF fit)

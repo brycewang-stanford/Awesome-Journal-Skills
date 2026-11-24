@@ -1,20 +1,22 @@
 ---
 name: usenixsec-camera-ready
-description: Use when preparing final papers for the USENIX Security Symposium after acceptance — de-anonymizing, keeping the Ethical Considerations and Open Science appendices current, clearing the mandatory Phase-1 artifact availability check before finals are due, and meeting USENIX's open-access publication and presentation obligations.
+description: Use when preparing final papers for the USENIX Security Symposium after acceptance — de-anonymizing, keeping the Open Science (and any Ethical Considerations) appendix current within the 20-page final limit, clearing the mandatory Phase-1 artifact availability check before finals are due, and meeting USENIX's open-access publication and presentation obligations.
 ---
 
 # USENIX Security Camera-Ready
 
-Acceptance at USENIX Security starts a short, condition-laden runway: in the '26
-cycles, final papers were due about six weeks after notification (Cycle 1: notified
-Dec 4, 2025, finals Jan 15, 2026; Cycle 2: notified May 14, 2026, finals Jun 11,
-2026), and during that same window the **mandatory artifact-availability check had
-to pass**. The camera-ready is therefore not a formatting chore — part of the
+Acceptance at USENIX Security starts a short, condition-laden runway: in the '27
+cycles, final papers are due about four to six weeks after notification (Cycle 1:
+notified Dec 3, 2026, artifacts for availability Dec 14, shepherded approval Dec 15,
+finals Jan 14, 2027; Cycle 2: notified May 6, 2027, artifacts May 17, shepherded
+approval May 18, finals Jun 3, 2027), and during that same window the **mandatory
+artifact-availability check has to pass**. The final paper must fit in **20 pages
+total**, appendices and bibliography included. The camera-ready is therefore not a formatting chore — part of the
 acceptance itself is still pending.
 
 ## What is actually conditional
 
-Under the '26 Open Science policy, acceptance is conditional on the artifact
+Under the '27 Open Science policy, acceptance is conditional on the artifact
 evaluation committee verifying, before finals are due, that the artifacts named in
 the paper's Open Science appendix are genuinely available — or that the appendix
 carries a justified explanation for withholding them. Plan the runway backwards
@@ -41,8 +43,8 @@ Restore identity everywhere it was stripped, and keep the pieces consistent:
   post-acceptance defect at this venue, because reviewers checked the anonymous one
   and nobody rechecks the swap.
 
-The two named appendices — "Ethical Considerations" and "Open Science" — remain in
-the final paper, updated: disclosure timelines that were "in progress" at submission
+The Open Science appendix — now with a non-anonymous, stable artifact link — and any
+Ethical Considerations appendix remain in the final paper, updated: disclosure timelines that were "in progress" at submission
 should state their current status (vendor response, CVE assignment, patch release).
 
 ## Mechanical pass before upload
@@ -63,15 +65,18 @@ requirements are set there, not in the CFP.
 ## Publication model: open access, no author fee
 
 USENIX publishes Security proceedings open access; papers (and later, talk
-recordings) are freely available on usenix.org. There is no article charge. The
-author-side obligations run through the conference instead: presentation at the
-symposium in Baltimore (Aug 12–14, 2026 for the '26 program) per the current
-presenter instructions. Registration mechanics, speaker-registration rules, and any
-remote-presentation allowance are per-year decisions — 待核实 against the
-instructions page for your cycle before booking anything.
+recordings) are freely available on usenix.org. There is no article charge, and
+authors keep their copyright (USENIX is first publisher). The author-side
+obligations run through the conference instead: per the '27 CFP, at least one author
+registers at **full (non-student) price for each accepted paper** and presents at the
+symposium in Denver (Aug 11–13, 2027). The '27 presentation format was "not decided"
+on 2026-11-24 — 待核实 before booking anything. Final versions must list all funding
+sources and relevant affiliations or interests.
 
-Cycle-1 authors get a bonus decision: finals are locked ~7 months before the
-symposium, so plan whether to post an extended version (arXiv or tech report) in
+Cycle-1 '27 papers go online after the Cycle-1 finals deadline and Cycle-2 papers on
+the first day of the symposium; an embargo to the symposium's first day (Aug 11, 2027)
+can be requested by Feb 11, 2027 (Cycle 1) or Jul 1, 2027 (Cycle 2). Cycle-1 authors
+get a bonus decision: finals are locked ~7 months before the symposium, so plan whether to post an extended version (arXiv or tech report) in
 the gap, and make the proceedings version state clearly which version is canonical.
 
 ## Badge and visibility follow-through
@@ -88,7 +93,7 @@ the gap, and make the proceedings version state clearly which version is canonic
 
 - Final-paper deadline for your cycle and the shepherd-approval interaction.
 - Whether Phase-1 availability verification remains a condition of acceptance.
-- Presenter/registration requirements and any remote option (待核实 for '27).
+- Presentation format for '27 (not decided on 2026-11-24) and any remote option.
 - Formatting and form requirements on the current instructions page.
 
 ## Output format

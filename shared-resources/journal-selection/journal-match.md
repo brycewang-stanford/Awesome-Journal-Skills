@@ -232,7 +232,7 @@ not a measurement. See [`rt-ladder-ev`](../../Research-Toolkit-Skills/skills/rt-
 *Runs on: [`tools/match_venues.py`](../../tools/match_venues.py) (step 2) and
 [`tools/ladder_ev.py`](../../tools/ladder_ev.py) (step 6).
 Stable index: [`venue-index.tsv`](venue-index.tsv) (744 venues) and
-[`ladder.tsv`](ladder.tsv) (1,515 adjacency edges) — both generated from the repository;
+[`ladder.tsv`](ladder.tsv) (1,516 adjacency edges) — both generated from the repository;
 regenerate when packs are added. Retrieval quality is measured in
 [`eval/`](eval/README.md). Volatile facts: each pack's `resources/official-source-map.md`.
 Part of the cross-journal capability layer — the loop is **pick** (this file) → **execute**

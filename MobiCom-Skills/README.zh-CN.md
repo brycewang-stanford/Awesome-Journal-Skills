@@ -9,30 +9,38 @@ MobiCom 投稿流程展开，而这套流程既不同于单一 deadline 的会�
 ACM 双栏排版，以及一条用物理层语言写成的证据线——over-the-air 测量、信道与移动性条件、
 真实硬件上的能耗。
 
-官方依据核验日期：**2026-07-09**。已核验 `sigmobile.org` 上的 MobiCom 2026 会议页与
-Call for Papers、`mobicom26.hotcrp.com` 的投稿与 deadlines 页、SIGMOBILE 的 MobiCom 落
-地页与 artifact evaluation 页、SIGMOBILE Test-of-Time 奖页面、用于 2027 周期日期的社区
-deadline 聚合站，以及用于 exemplar 核验的 dblp / ACM Digital Library。核验环境中对
-`sigmobile.org`、`hotcrp.com`、`dblp.org` 的直接抓取均返回 **HTTP 403**，因此所有事实
-均通过对确切官方 URL 的搜索引擎渲染读取并交叉核对；完整链路（含全部 待核实 项）见
+官方依据于 **2026-11-24 重新核验**（直接抓取）：`sigmobile.org` 上的 MobiCom 2027 主页、
+Call for Papers、Call for Artifacts 与委员会页，`mobicom27.hotcrp.com` 截止时钟，MobiCom
+2026 主页与 CFP（历史），SIGMOBILE MobiCom 落地页，以及 SIGMOBILE Test-of-Time 奖页面。最初
+2026-07-09 的核验（含用于 exemplar 核验的 dblp / ACM Digital Library）因 `sigmobile.org`、
+`hotcrp.com`、`dblp.org` 当时返回 **HTTP 403**，是通过搜索引擎对官方 URL 的渲染读取的。完整
+链路（含全部 待核实 项）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## MobiCom 与近邻会议的区别
 
 - **每年两次 rolling deadline，每次面向下一届。** MobiCom 自第 25 届（2019）起采用
-  multi-deadline 模式；冬/春轮与夏/秋轮各自开一次 PC meeting。2026 年夏季轮投的稿件竞争
-  的是 **MobiCom 2027**，而非已定档的 2026 program。
+  multi-deadline 模式；每轮各开一次 PC meeting。**MobiCom 2027**（第 33 届，**2027 年
+  10 月 18-22 日，希腊雅典**）的夏季轮已于 2026 年 8/9 月截稿（正文 2026-09-02 AoE，
+  2026-11-19 出结果），冬季轮日期官方仍标为 **“TBD”**。
 - **两轮审稿 + rebuttal，而非一锤定音。** 同一 deadline 内，第一轮未晋级的稿件会收到附带
-  reviews 的早拒通知；晋级稿件进入第二轮，reviews 在固定 **rebuttal 窗口**前释放。这与
+  reviews 的早拒通知；晋级稿件进入第二轮，reviews 在固定 **rebuttal 窗口**前释放——rebuttal 可选、
+  **不超过 500 词**，只能更正事实错误或回答问题，不得加入新实验、新数据或新图。这与
   完全没有 rebuttal 的 USENIX 会议是不同的响应面。
 - **在 rebuttal 之上仍保留 one-shot revision。** 除 accept/reject 外，MobiCom 保留 major
-  revision 通道，用以提升成果的时效与质量；修改稿按拿到的 issue list 返回审稿人。
+  revision 通道（最多 **三** 项必改，在下一个 deadline 重投）；修改稿按拿到的 issue list 返回
+  审稿人。录用先是 **有条件录用**，需经 4-6 周匿名 shepherding；普通拒稿 **11 个月** 内不得
+  再投 MobiCom。
+- **每篇投稿带来一位审稿人。** 2027 新增：每篇稿件指定一位资深作者，在同一轮审最多三篇稿件。
 - **双栏、12 页且图表计入。** 正文上限为 12 页单倍行距编号页，**含图表**，采用 ACM 双栏
-  几何；references（及其后可选 appendix）不计入上限。
+  几何；references（及其后从新页开始的可选 appendix）不计入上限；PDF 不得含嵌入超链接、
+  小于 15 MB，使用 `acmart` `sigconf,10pt`。
 - **HotCRP 上的 double-blind。** 稿件在每届 `mobicom<yy>.hotcrp.com` 站点匿名提交；
-  abstract/registration 步骤先于正文上传。
-- **ACM artifact badges，而非 USENIX 方案。** 录用论文可申请三种 ACM 徽章：*Artifacts
-  Available*、*Artifacts Evaluated — Functional*、*Results Reproduced*。
+  abstract/registration 步骤（摘要至少 100 词，不得写 “TBD”）先于正文上传。
+- **ACM artifact badges，而非 USENIX 方案。** 录用与有条件录用论文可申请三种 ACM 徽章：
+  *Artifacts Available*、*Artifacts Evaluated — Functional*、*Results Reproduced*。
+- **ACM 开放获取。** 所在机构未加入 ACM Open 的作者需付 APC（可申请减免；2027 补贴价：
+  ACM/SIG 会员 500 美元、非会员 750 美元）；每篇录用论文须交 90 秒预告视频并由作者到场报告。
 - **证据在空口上测量。** MobiCom 的审稿文化要求真实设备 testbed、RF/信道测量方法、移动性
   真实度与能耗核算；纯仿真或单次运行结果在这里会被视为评估不足。
 - **SIGMOBILE Test-of-Time 奖** 锚定了本领域经典，并在 MobiCom 上颁发。
@@ -120,34 +128,32 @@ MobiCom-Skills/
 全包始终区分三类陈述：
 
 1. **已核验的周期事实**——日期、上限与规则，均可溯源到 source map 中的编号来源（例如 12 页
-   双栏规则、两轮 + rebuttal 流程、2026-03-14 冬轮 deadline）。
-2. **据报事实**——仅由二手渲染承载并如实标注（例如 2026 年 6 月冬轮通知与 2026 年 9 月
-   2027 轮 deadline，来自社区聚合站；Best-Paper 与 Test-of-Time 结果来自作者机构与
-   SIGMOBILE 奖页）。
-3. **待核实 项**——明确标出并以问句表述（例如 2027 CFP 的确切日期、2026 chairs、rebuttal
-   窗口长度、当前 artifact deadline）。
+   双栏规则、两轮 + 500 词 rebuttal 流程、2026-09-02 夏季轮 deadline）。
+2. **据报事实**——仅由二手渲染承载并如实标注（例如经作者机构转述的 Best-Paper 结果）。
+3. **待核实 项**——明确标出并以问句表述（例如 2027 冬季轮日期、2027 camera-ready
+   截止、注册费）。
 
 任何把第 2 类或第 3 类当作第 1 类陈述的地方都是 bug；请对照实时页面修正。
 
-## 2026-27 锚点事实（带日期的快照，非永久规则）
+## MobiCom 2027 锚点事实（带日期的快照，非永久规则）
 
-- **MobiCom 2026** 为第 **32** 届：**2026 年 10 月 26-30 日，美国德州 Austin**；两轮已定，
-  program 已排定。
-- 2026 冬/春轮：abstract 注册 **2026-03-07**，正文 **2026-03-14**（11:59 pm AoE，页面显示为
-  7:59 am EDT），final notification 据报约 **2026-06-22**。
-- 截至 2026-07-09，**下一个开放的投稿口** 是 **MobiCom 2027 第一轮**，一个夏/秋 deadline，
-  据报约 **2026-09-03**，notification 约 **2026-11-24**——来自社区聚合站，在 2027 CFP 正式
-  发布前标记为 待核实。
-- 格式：**12 页双栏、含图表**，references 与可选 appendix 不计入；HotCRP 上 **double-blind**。
-- Artifact evaluation 提供三种 **ACM 徽章**；**SIGMOBILE Test-of-Time** 奖在 MobiCom 颁发。
+- **MobiCom 2027** 为第 **33** 届：**2027 年 10 月 18-22 日，希腊雅典**。General Co-Chairs
+  Dimitrios Koutsonikolas、Symeon Papavassiliou；TPC Co-Chairs Joerg Widmer、Nirupam Roy。
+- **夏季轮**（已出结果）：摘要 **2026-08-26**、正文 **2026-09-02**（23:59 AoE），早拒
+  2026-10-23，rebuttal 2026-11-03 至 11-06，录用通知 2026-11-19。**冬季轮：TBD**（2026-11-24）。
+- Artifact：夏季轮截止 2027-01-17（通知 2027-02-17）；冬季轮截止 2027-07-24（通知 2027-08-24）。
+- 格式：**12 页双栏、含图表**，references 与可选 appendix 不计入；HotCRP 上 **double-blind**；
+  rebuttal 不超过 500 词。
+- 历史：**MobiCom 2026**（第 32 届）于 2026 年 10 月 26-30 日在美国德州 Austin 举行；其冬季轮
+  摘要 2026-03-06、正文 2026-03-13（AoE）。
 
 ## 维护说明
 
-- 以上每个日期都是 **2026-27 快照**。MobiCom 每届重发规则、且每年两次 deadline——涉及
+- 以上每个日期都是 **MobiCom 2027 快照**（2026-11-24 重新核验）。MobiCom 每届重发规则、且每年两次 deadline——涉及
   deadline 时，务必重新打开当年 CFP 与对应的 HotCRP `/deadlines` 页。
 - deadline 是 **AoE** 截止，即便页面印的是美东时钟时间；切勿沿用上一周期的本地换算。
 - **某一轮面向哪一届** 每个周期都会移动——在实时 CFP 上确认你瞄准的轮次确实是你以为的那届。
-- Chairs 每届轮换，2026 委员会姓名未能取得——引用前请查委员会页。
+- Chairs 每届轮换——引用前请查委员会页（上面 2027 名单读取于 2026-11-24）。
 - 新增 exemplar 必须通过 [`resources/exemplars/library.md`](resources/exemplars/library.md)
   末尾的会议核验流程；无线领域最著名的论文恰恰最常被在 INFOCOM/SIGCOMM/NSDI 之间误标。
 

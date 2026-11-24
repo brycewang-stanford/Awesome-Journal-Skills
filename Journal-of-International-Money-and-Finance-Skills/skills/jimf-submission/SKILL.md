@@ -15,11 +15,11 @@ description: Use when running the final pre-submission preflight for a Journal o
 ## Process facts (检索于 2026-06；以官网为准 — re-confirm on the live Guide for Authors)
 
 - JIMF is an **Elsevier** journal (ISSN 0261-5606 print; 1873-0639 online; founded 1982), hosted on ScienceDirect. Submission is through **Elsevier Editorial Manager** (待核实 if the journal has moved to a newer Elsevier submission system).
-- **No society membership and no submission fee** for a standard paper; an open-access APC applies only if the author chooses gold OA (exact fee 待核实).
-- **Peer review:** single-anonymized is the Elsevier default; whether JIMF uses single- or double-anonymized review is 待核实 — confirm before deciding whether to anonymize the manuscript.
-- **Abstract ≤250 words**; **Highlights** (3–5 bullets) and **keywords** required; **JEL codes** expected (F3x / E4x / G15 territory).
+- **No society membership and no submission fee** for a standard paper; an open-access APC applies only if the author chooses gold OA (**USD 3,360** excluding taxes on the official journal home, re-checked 2026-11-24 via search-engine rendering；以官网为准). Some special-issue calls carry their own submission fee — read the call.
+- **Peer review:** JIMF follows a **single anonymized** review process (Guide for Authors, re-checked 2026-11-24 via search-engine rendering); suitable papers typically go to at least two reviewers. No blinded manuscript is needed.
+- **Abstract ≤250 words**; **Highlights** (3–5 bullets, ≤85 characters each, required at submission) and **keywords** required; **JEL codes** expected (F3x / E4x / G15 territory).
 - **Declarations** required by Elsevier: **Declaration of Competing Interest**, **CRediT** author-contribution statement, funding sources, and a **Data Availability Statement**.
-- **Editors (verified 2026-06-22): Joshua Aizenman, Menzie D. Chinn, John Beirne, and Donghyun Park.** Note that some aggregators (IDEAS-RePEc, older caches) still list the late James R. Lothian — that is stale; do not use it. The board is volatile, so re-verify the sitting editors on the live Elsevier board page before naming one in a cover letter.
+- **Editors: 待核实 (re-checked 2026-11-24).** The 2026-06-22 version of this pack listed Joshua Aizenman, Menzie D. Chinn, John Beirne, and Donghyun Park, but the newest readable copy of the official journal home (Internet Archive, 2025-08-25) names **K.G. Koedijk (Utrecht University) as Co-ordinating Editor**, and the editorial-board page could not be opened on 2026-11-24. Some aggregators (IDEAS-RePEc, older caches) still list the late James R. Lothian — that is stale. Re-verify the sitting editors on the live Elsevier board page before naming one in a cover letter.
 
 ## Preflight checklist
 
@@ -34,13 +34,13 @@ description: Use when running the final pre-submission preflight for a Journal o
 - [ ] References complete and consistent; in-text citations all resolve in the list
 
 ### Files & declarations for Editorial Manager
-- [ ] Main manuscript (and a blinded version if double-anonymized review is confirmed)
+- [ ] Main manuscript (single-anonymized review — no blinded version needed)
 - [ ] Highlights file, and any supplementary appendix file(s)
 - [ ] **Declaration of Competing Interest** statement
 - [ ] **CRediT** author-contribution statement; funding/grant acknowledgments
 - [ ] **Data Availability Statement**; data/code deposit (Mendeley Data or repository link) ready
 - [ ] Suggested reviewers if the journal requests them; cover letter naming the international contribution
-- [ ] Blinded manuscript prepared if double-anonymized review is confirmed (待核实)
+- [ ] Review model checked on the live Guide (single anonymized as of 2026-11-24)
 - [ ] OA choice decided; APC not confused with a submission fee
 
 ### Cover letter
@@ -52,7 +52,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 
 - **No transfer route** like the society journals: JIMF is a standalone Elsevier journal; there is no fee-waived transfer of reports from a sibling. A paper rejected elsewhere is a fresh submission here.
 - **Open access is a choice, not a requirement.** JIMF is a subscription journal with an optional gold-OA route at an APC (exact fee 待核实). Do not treat the APC as a submission fee; standard submission carries no fee.
-- **Anonymization** depends on the review model: if double-anonymized is confirmed, prepare a blinded manuscript (no author names, scrubbed acknowledgments, neutral self-citations) and a separate title page; if single-anonymized, the author-visible manuscript is fine. Confirm before deciding (待核实).
+- **Anonymization:** JIMF uses single-anonymized review (re-checked 2026-11-24), so the author-visible manuscript with a title page is fine; re-check the live Guide in case the model changes.
 - **Suggested/opposed reviewers**: if Editorial Manager requests them, suggest international-finance specialists in the paper's sub-program and avoid conflicts.
 
 ## Final-pass desk-reject screen
@@ -101,7 +101,7 @@ it lists as *not checked* still needs the manual items below.
 【Declarations】competing interest + CRediT + funding + data statement? [Y/N]
 【Files】manuscript (+ blinded if needed) + Highlights + appendix + deposit ready? [Y/N]
 【Cover letter】states the international contribution; no editor named from memory? [Y/N]
-【Review model】single/double-anonymized confirmed? [Y/N / 待核实]
+【Review model】single-anonymized (re-checked 2026-11-24) still current? [Y/N]
 【Source check】Elsevier process facts verified / 待核实 / 检索于 2026-06
 【Next step】submit via Editorial Manager → jimf-referee-strategy for what to expect
 ```

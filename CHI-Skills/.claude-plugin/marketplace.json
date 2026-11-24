@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "chi-skills",
   "version": "1.2.0",
-  "description": "Depth pack for ACM CHI paper planning, subcommittee selection, PCS submission, revise-and-resubmit, HCI study rigor, video supplements, and accessible TAPS camera-ready work.",
+  "description": "Depth pack for ACM CHI paper planning, reviewer-descriptor selection, PCS submission, revise-and-resubmit, HCI study rigor, video supplements, and accessible TAPS camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
@@ -27,7 +27,7 @@
         "chi",
         "hci",
         "pcs",
-        "subcommittee",
+        "reviewer-matching",
         "revise-and-resubmit",
         "accessibility",
         "academic-writing"

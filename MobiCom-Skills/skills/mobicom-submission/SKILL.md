@@ -7,7 +7,7 @@ description: Use when running the final pre-upload audit of a MobiCom submission
 
 Work this list from the mistakes you cannot take back toward the ones you can: pick the
 wrong round and the paper is simply gone; a format or blindness slip is recoverable only
-before upload. The numbers are the MobiCom 2026 cycle as rendered on 2026-07-09; whatever
+before upload. The numbers are the MobiCom 2027 CFP as re-verified on 2026-11-24; whatever
 the live HotCRP `/deadlines` page says for your round wins over anything printed here.
 
 ## Step 1: right site, right round, right clock
@@ -16,12 +16,18 @@ MobiCom runs a **per-edition HotCRP site** (`mobicom<yy>.hotcrp.com`) with **two
 year**, and the rounds feed different editions. Before anything, confirm three things on
 the `/deadlines` page:
 
-- **Which round** is open (winter/spring or summer/fall) and **which edition it feeds** —
-  the summer round after MobiCom 2026 competes for MobiCom 2027, not the 2026 program.
-- The **abstract-registration** date, which precedes the paper upload by about a week.
-- The **paper** cutoff and that it is **AoE**. MobiCom's winter round printed 7:59 am EDT
-  for an 11:59 pm AoE deadline — the clock on the page is not your local midnight. Compute
-  each coauthor's local time from the page.
+- **Which round** is open (winter or summer) and **which edition it feeds**. MobiCom 2027
+  (Athens, October 18-22, 2027) took its summer round on August 26 (abstracts) and
+  September 2, 2026 (papers); its **winter round dates were still "TBD"** on 2026-11-24.
+- The **abstract-registration** date, which precedes the paper upload by about a week. The
+  registration needs a meaningful title and an abstract of **at least 100 words**; "TBD"
+  placeholders are desk-rejected, and all authors must be declared at submission.
+- The **paper** cutoff and that it is **23:59 AoE**. HotCRP printed the 2027 summer cutoffs
+  as 7:59:59 AM EDT the next day — the clock on the page is not your local midnight. Compute
+  each coauthor's local time from the page. There are no extensions.
+- The **reviewing author**: MobiCom 2027 requires one senior author per submission to review
+  up to three papers in the same round; name them, with contact details and expertise, on
+  the form.
 
 The abstract step gates the paper step: miss the earlier date and HotCRP will not let you
 upload a week later. Register the abstract whenever the paper is plausible — a registered
@@ -35,7 +41,9 @@ abstract you later withdraw costs nothing, an unregistered one cannot be revived
 | Columns | double column, 9.25in x 3.33in, 0.33in gutter, ≤55 lines/col | Diff the template geometry; do not resize |
 | Font | ≥ 10 pt | Check the class option, not the eyeball |
 | References | outside the cap | Nothing else hiding among them |
-| Appendices | after references, outside the cap | Nothing load-bearing inside (`mobicom-supplementary`) |
+| Appendices | after references, outside the cap; start on a new page (`\clearpage` before `\appendix`) with lettered sections; reviewers need not read them | Otherwise the checker counts them against the 12 (`mobicom-supplementary`) |
+| File | PDF only, under 15 MB, no author names, **no embedded hyperlinks** | Strip `hyperref` links or use `hidelinks` plus a check |
+| Template | `\documentclass[sigconf,10pt]{acmart}` | Run the online format checker the submission system uses |
 
 Page pressure at MobiCom is figure pressure — plots and system diagrams count against the
 12. The fix is content triage, never `\vspace` surgery or shrinking a radio-testbed figure
@@ -67,17 +75,27 @@ non-author read the PDF asking one question: *whose testbed is this?*
   disqualifying; a same-title workshop or demo needs a delta the paper states.
 - **Which edition:** confirm the paper is entering the round you intend and is not a
   disallowed re-entry of a paper still under decision from the prior round.
-- **Ethics / measurement:** work that measures real users, spectrum, or third-party
-  infrastructure must address handling in the paper; the exact 2027 wording is 待核实 — read
-  that CFP section live.
-- **AI-use policy:** the current cycle's wording is 待核实; do not assume last year's rule.
+- **Ethics / measurement:** submitting binds the authors to all ACM Publications Policies,
+  including ACM's policy on **research involving human participants and subjects**; work that
+  measures real users, spectrum, or third-party infrastructure must address handling in the
+  paper.
+- **AI use:** MobiCom 2027 follows the **ACM Policy on Authorship**, including its guidance
+  on AI.
+- **Previous submissions:** a one-shot revision, or a paper MobiCom rejected within the last
+  12 months, must carry an anonymized summary of the prior reviewers' major concerns and how
+  they were addressed; for rejects elsewhere (MobiSys, SIGCOMM, NSDI, SenSys, UbiComp...) it is
+  encouraged. A plain MobiCom reject cannot return until **11 months** after the last MobiCom
+  deadline it was submitted to.
+- **Preprints:** arXiv is allowed, but the submission must not refer to it, and advertising it
+  on social media or in the press is strongly discouraged.
+- **ORCID:** every author needs an ORCID iD for ACM publishing.
 
 ## HotCRP form fields deserve the same audit as the PDF
 
 Reviewers meet the form before the paper: title and abstract must match the PDF verbatim;
 topic selections route the paper toward the wireless/mobile sub-community you want bidding
 on it — choose for the reviewer profile, not maximal coverage; the full author list is
-entered at abstract time for conflict computation even though the PDF hides it, and late
+entered at registration time for conflict computation even though the PDF hides it, and late
 author additions after assignment are a chairs-level incident. Declare conflicts by the
 site's definitions, completely and no wider.
 

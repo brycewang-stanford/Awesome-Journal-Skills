@@ -1,14 +1,15 @@
 ---
 name: rss-supplementary
-description: Use when assembling RSS (Robotics: Science and Systems) supplementary material under the separate one-week-later deadline — deciding what leaves the self-contained main PDF, cutting robot video that functions as evidence rather than promotion, anonymizing footage and archives, and packaging appendices and trial logs.
+description: Use when assembling RSS (Robotics: Science and Systems) supplementary material — in RSS 2027 accepted only at Stage 2 (zip, 100MB, three days after the final paper) — deciding what leaves the self-contained main PDF, cutting robot video that functions as evidence rather than promotion, anonymizing footage and archives, and packaging appendices and trial logs.
 ---
 
 # RSS Supplementary
 
-Assemble the supplement as the paper's evidence annex. RSS 2026 gave it its own
-deadline (February 6, one week after the paper, AoE — verified 2026-07-08) and its
-own constraint: the CFP requires the main PDF to be self-contained, so the supplement
-may deepen belief but must never be *required* for it.
+Assemble the supplement as the paper's evidence annex. In RSS 2027 there is **no
+supplement at Stage 1** — nothing beyond the 6-page Extended Abstract is reviewed —
+and at Stage 2 it is a **zip of at most 100MB due April 19, 2027**, three days after
+the final paper (AoE — verified 2026-11-24). Reviewers are not obliged to read it, so
+the supplement may deepen belief but must never be *required* for it.
 
 ## The division of labor
 
@@ -22,7 +23,7 @@ may deepen belief but must never be *required* for it.
 | Anything a reviewer needs to *believe* the claim | ✔ always | never alone |
 
 Litmus test per item: "if no reviewer opens the supplement, does the paper still
-stand?" The 2026 rules make opening it discretionary, so plan for the case where
+stand?" The 2027 rules make opening it discretionary, so plan for the case where
 nobody does.
 
 ## Robot video as evidence, not trailer
@@ -59,9 +60,9 @@ Footage leaks identity through channels prose never has:
   caches, checkpoints beyond the necessary, and any credential.
 - Test the archive on a machine that has never seen the project; broken relative
   paths are the most common silent failure.
-- Remember the ordering gift: the paper freezes first. The supplement week is for
-  packaging existing evidence — footage shot after January 30 supports nothing the
-  reviewers are judging.
+- Remember the ordering gift: the final paper freezes first (April 16, 2027). The
+  three supplement days are for packaging existing evidence — footage shot after the
+  paper deadline supports nothing the reviewers are judging.
 
 ## Video storyboard template
 
@@ -91,9 +92,9 @@ promotion and gets cut.
 
 ## Cycle-volatile parameters
 
-Size caps, allowed formats, and video length limits for 2026 were not publicly
-surfaced (待核实); read them off the OpenReview submission form itself rather than
-assuming any venue's conventions.
+RSS 2027 states a zip archive of at most 100MB at Stage 2; video length limits and
+inner-file formats are not stated (待核实) — read them off the OpenReview submission
+form itself rather than assuming any venue's conventions.
 
 ## Appendix craft
 

@@ -1,6 +1,6 @@
 ---
 name: ieeesp-related-work
-description: Use when positioning an IEEE S&P (Oakland) paper against prior literature, including coverage across the four security flagships, concurrent-work and arXiv norms, the 40% resubmission-overlap disclosure, verifying venue attribution via dblp and IEEE Xplore, and anonymity-safe self-citation.
+description: Use when positioning an IEEE S&P (Oakland) paper against prior literature, including coverage across the four security flagships, concurrent-work and arXiv norms, the resubmission and overlap-disclosure rules, verifying venue attribution via dblp and IEEE Xplore, and anonymity-safe self-citation.
 ---
 
 # IEEE S&P Related Work
@@ -52,14 +52,16 @@ these stable norms:
 - A vendor advisory or incident report covering "your" vulnerability is not
   a research paper, but reviewers expect it acknowledged and differenced.
 
-## The 40% rule creates a disclosure duty
+## The resubmission rule creates a disclosure duty
 
-S&P treats a submission overlapping a previously rejected S&P paper by
-roughly ≥40% as a resubmission bound by the one-year embargo (2027 CFP,
-checked 2026-07-08). When revising a previously rejected paper for a new
-cycle, the related-work pass must also cover *your own* prior submission:
-what changed, and does the current CFP require declaring the resubmission
-(待核实)? Silently resubmitting recognizable work is a chair-level problem.
+S&P treats a paper from the same or similar authors with a very similar
+intellectual contribution to a previously rejected S&P paper as a
+resubmission bound by the one-year embargo, however rewritten (2027 CFP,
+re-verified 2026-11-24). Separately, every submission must "clearly document
+any overlap with previously published or simultaneously submitted papers
+from any of the authors" — failure to point out and explain overlap is
+grounds for rejection. The related-work pass must therefore also cover
+*your own* prior and concurrent papers: what overlaps and what is new.
 
 ## Verify venue attribution before citing
 
@@ -93,6 +95,6 @@ together often do).
 [Lane coverage] family / target-domain / SoKs / bypassed-deployed / baselines: ✓/✗ each
 [Fresh sweep] last USENIX Sec + CCS + NDSS programs checked on <date>?
 [Delta audit] <n> neighbors with security-delta sentences; <n> missing>
-[Self-overlap] prior S&P rejection? overlap estimate <n>% vs 40% rule
+[Self-overlap] prior S&P rejection within a year? own overlapping papers documented?
 [Attribution] <n> citations dblp/Xplore-verified; suspicious: <list>
 ```

@@ -1,21 +1,23 @@
 # External Tools - USENIX Security
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (re-verified 2026-11-24 for USENIX Security '27)
 
 Use these tools after reopening the current USENIX Security cycle pages. The venue runs two
 submission cycles per year and re-sets rules per edition, so verify before acting. See the
-access-method note in [`official-source-map.md`](official-source-map.md): usenix.org and the
-HotCRP sites returned 403 to automated fetches on 2026-07-08 and were read via search renderings.
+access-method note in [`official-source-map.md`](official-source-map.md): usenix.org fetched
+directly on 2026-11-24 (it had returned 403 on 2026-07-08).
 
 ## Official workflow surfaces
 
-- USENIX Security '26 home: https://www.usenix.org/conference/usenixsecurity26
+- USENIX Security '27 home: https://www.usenix.org/conference/usenixsecurity27
+- USENIX Security '27 Call for Papers: https://www.usenix.org/conference/usenixsecurity27/call-for-papers
+- USENIX Security '27 Call for Artifacts: https://www.usenix.org/conference/usenixsecurity27/call-for-artifacts
+- USENIX Security '26 home (history): https://www.usenix.org/conference/usenixsecurity26
 - USENIX Security '26 Call for Papers: https://www.usenix.org/conference/usenixsecurity26/call-for-papers
 - USENIX Security '26 Call for Artifacts: https://www.usenix.org/conference/usenixsecurity26/call-for-artifacts
-- USENIX Security '27 home: https://www.usenix.org/conference/usenixsecurity27
-- Per-cycle HotCRP sites (pattern): https://sec26cycle1.usenix.hotcrp.com/ · https://sec26cycle2.usenix.hotcrp.com/
+- Per-cycle HotCRP sites (pattern): https://sec27cycle1.usenix.hotcrp.com/ (Cycle 2 site not yet linked on 2026-11-24)
 - Community artifact-evaluation instructions: https://secartifacts.github.io/usenixsec2026/instructions
-- Ethics guidelines (carry-forward baseline): https://www.usenix.org/conference/usenixsecurity25/ethics-guidelines
+- Ethics guidance the '27 CFP points to: https://www.usenix.org/conference/usenixsecurity26/call-for-papers#ethics
 - Proceedings / open-access papers: https://www.usenix.org/conferences/byname/108
 - Cross-check metadata via DBLP: https://dblp.org/db/conf/uss/index.html
 
@@ -41,9 +43,10 @@ Run each pass before the relevant deadline; do not infer any of it from a previo
 
 ## Do not infer
 
-- Do not infer future-cycle dates from '26; '27 review/notification/finals dates are 待核实.
+- Do not infer '28 dates from '27; '27 dates were re-verified on 2026-11-24.
 - Do not assume the same page limits, appendix rules, artifact phases, or decision categories
   without reopening the current CFP and Call for Artifacts.
 - Do not assume Major Revision still exists — it was retired for '26 in favor of shepherding.
+- Do not assume the Ethics appendix is mandatory — '27 made it strongly encouraged, not required.
 - If official pages disagree, use the newest CFP, HotCRP announcement, or direct chair
   communication as controlling, and record the conflict.

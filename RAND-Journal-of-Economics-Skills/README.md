@@ -26,7 +26,7 @@ RJE imposes constraints that differ materially from a general-interest top-5 (QJ
 | Scope                 | **Deliberately narrow** — applied micro with an **IO core**            | A general-micro or macro question is off-fit                     |
 | Length                | **Hard page caps**: main text <=40 pp, total <=50 pp, double-spaced     | You manage **pages**, not words; the cap is enforced at submission|
 | Abstract              | **<=100 words**                                                        | No 250-word abstract                                             |
-| Submission fee        | **$100 per article**, **non-refundable** as of January 1, 2026          | Budget for it; do not expect a refund (verify amount — 待核实)    |
+| Submission fee        | **US$200 per article**, **non-refundable** as of January 1, 2026        | Budget for it; do not expect a refund (re-confirm in the portal)  |
 | Portal                | **Wiley Research Exchange** (`wiley.atyponrex.com/journal/RAND`)        | Mandatory since April 23, 2025 (replaced Editorial Express)      |
 | Review                | Editor screen (possible desk reject) → **two anonymous referees**       | The IO hook must be legible on page one                         |
 | House style           | Author-date, **no page numbers**, **no issue numbers**, subsections unnumbered | Numbered/footnote cites read as off-template                |

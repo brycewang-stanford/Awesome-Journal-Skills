@@ -15,7 +15,7 @@ most preventable losses happen in the upload week, not in review.
 An S&P cycle has a **registration deadline** and a **paper deadline** about a
 week apart, and the registration is binding: title, full abstract, complete
 author list, ORCIDs, and conflicts are frozen when registration closes
-(cycle1.sp2027.ieee-security.org/deadlines, checked 2026-07-08). Audit
+(sp2027.ieee-security.org/cfpapers.html, re-verified 2026-11-24). Audit
 registration as its own deliverable:
 
 - Every author has an ORCID whose **email and name match the HotCRP record**
@@ -28,16 +28,21 @@ registration as its own deliverable:
   registration time (see `ieeesp-review-process` for how the REC uses it).
 - SoK papers have the `SoK:` title prefix **and** the SoK checkbox — one
   without the other misroutes reviewing.
+- No author is on more than **6 registrations in the cycle**: the cap is
+  counted at the registration deadline, and exceeding it desk-rejects every
+  registration that author made in the cycle.
+- If generative AI was used or studied, the **"Generative AI usage
+  considerations"** HotCRP field is completed at registration.
 
 ## Format gate
 
-| Rule (2027 CFP, checked 2026-07-08) | Enforcement |
+| Rule (2027 CFP, re-verified 2026-11-24) | Enforcement |
 |---|---|
 | ≤ 13 pages of body text | Over-length ⇒ rejected without review |
 | ≤ 5 further pages, references + appendices only | Same |
 | Hard ceiling 18 pages total | Same |
 | Everything past page 13 clearly marked as appendix | Reviewer-visible violation |
-| IEEE "compsoc" conference-proceedings LaTeX template | Tampering ⇒ desk-level flag |
+| IEEE "compsoc" template: IEEEtran.cls 1.8b, `conference,compsoc`, US letter | Wrong template or tampering ⇒ rejected without review |
 | Anonymized submission | Identity leak ⇒ desk reject |
 
 Two S&P-specific implications. Reviewers are **not required to read

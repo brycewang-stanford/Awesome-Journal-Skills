@@ -1,6 +1,6 @@
 ---
 name: cav-topic-selection
-description: Use when deciding whether a formal-methods project belongs at CAV (Computer Aided Verification) or should be routed to TACAS, FMCAD, VMCAI, LPAR/IJCAR, POPL/PLDI/OOPSLA, or a journal (FMSD/JAR/TOCL), and when choosing the right CAV category — Regular, Short Tool, Short Application, or Industrial Experience & Case Study.
+description: Use when deciding whether a formal-methods project belongs at CAV (Computer Aided Verification) or should be routed to TACAS, FMCAD, VMCAI, LPAR/IJCAR, POPL/PLDI/OOPSLA, or a journal (FMSD/JAR/TOCL), and when choosing the right CAV category — Regular, Tool, or Application / Industrial Experience / Case Study (the CAV 2027 set).
 ---
 
 # CAV Topic Selection
@@ -61,14 +61,19 @@ Two quick tests sharpen a borderline verdict:
 
 ```text
 [Regular]      a technique/algorithm + proof + benchmark evaluation           -> 18 pages, anonymized
-[Short Tool]   a downloadable tool; the contribution is the usable system     -> 10 pages, NOT anonymized
-[Short App]    verification applied to a specific problem, technique-light     -> 10 pages, anonymized
-[Industrial]   a real/industrial deployment experience or case study          -> 10 pages, NOT anonymized
+[Tool]         a new tool or tool version; the contribution is the usable     -> 18 pages, NOT anonymized,
+               system, backed by refereed work                                   artifact MANDATORY
+[Application]  verification applied/transferred to a real problem, industrial -> 10 pages, NOT anonymized
+               experience report, or case study
 ```
+
+(CAV 2027 categories, verified 2026-11-24. CAV 2026 had four categories, with 10-page Short Tool
+and Short Application papers and an anonymized application track — do not reuse those numbers.)
 
 If you have both a technique and a tool, the usual move is a Regular Paper that describes the
 technique with the tool as its evaluation vehicle — reserve the Tool Paper for when the *system
-itself* is the contribution.
+itself* is the contribution, and only if the artifact can pass AE (at least Functional) during the
+March artifact round.
 
 ## Cheap reconnaissance before committing
 

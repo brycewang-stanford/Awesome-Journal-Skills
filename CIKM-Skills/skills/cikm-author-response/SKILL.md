@@ -1,13 +1,14 @@
 ---
 name: cikm-author-response
-description: Use when preparing author-side communication around CIKM reviews — drafting for a response window if the cycle offers one (unconfirmed for 2026), writing camera-ready revision notes that answer reviewer concerns, handling post-decision chair correspondence, and converting rejection reviews into a resubmission brief.
+description: Use when preparing author-side communication around CIKM reviews — drafting for a response window if a cycle offers one (the 2026 review schedule had none), writing camera-ready revision notes that answer reviewer concerns, handling post-decision chair correspondence, and converting rejection reviews into a resubmission brief.
 ---
 
 # CIKM Author Response
 
-CIKM's response mechanics are genuinely cycle-dependent: no official statement
-confirming or denying a 2026 rebuttal phase could be retrieved (source map,
-2026-07-08, 待核实). This skill therefore covers all four author-side writing
+CIKM's response mechanics are genuinely cycle-dependent: the CIKM 2026 full-paper
+review schedule (bidding, primary review, reviewer discussion, SPC meta-review, PC
+chairs' decision meeting, notification) listed **no author-response step** (source
+map, re-verified 2026-11-24). This skill therefore covers all four author-side writing
 situations around CIKM reviews, with the no-window case treated as the default —
 because when there is no rebuttal, the reply to reviewers gets written anyway, just
 in different documents.
@@ -16,7 +17,7 @@ in different documents.
 
 | Situation | The document you actually write | Governing constraint |
 |---|---|---|
-| A response window opens | Anonymous reply inside EasyChair | Announced word/format rules; anonymity persists |
+| A response window opens (not in 2026) | Reply inside EasyChair | Announced word/format rules; anonymity persists on double-blind tracks |
 | No window, paper accepted | Camera-ready revision note | Address concerns without exceeding accepted scope |
 | No window, paper rejected | Resubmission brief for the next venue | Honest triage, no venue-blaming |
 | Factual process error | Confidential note to PC chairs | Facts only; never argue merit this way |
@@ -36,7 +37,8 @@ their own objection answered in their own vocabulary:
    streaming is future work") — the blended pool punishes evasion harder than
    limitation, because at least one reviewer is expert enough to see through it.
 4. Preserve anonymity end to end: no names, no identifying URLs, no "as our earlier
-   system at [company]" slips. The double-blind regime does not lapse at review.
+   system at [company]" slips. On the double-blind tracks (Full, Short) the regime does
+   not lapse at review; Applied, Resource and Demo were single-blind in 2026.
 
 ## Micro-example: the mining-lane scalability objection
 
@@ -51,7 +53,7 @@ no new experiments, no evasion.
 
 ## No window, accepted: the revision note
 
-The August 7 → August 20 camera-ready sprint (2026 dates) is where reviewer concerns
+The August 7 → August 23 camera-ready sprint (2026 dates) is where reviewer concerns
 get answered in practice. Build a concern → edit ledger: every substantive review
 point maps to a camera-ready change, a scoped-limitation sentence, or a reasoned
 no-change. Keep the ledger; if the proceedings process or a chair asks what changed,

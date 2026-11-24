@@ -23,7 +23,12 @@ advising.
   without strengthening claims beyond what was evaluated.
 - **Permanentize open science:** replace every anonymized artifact link with a public, licensed,
   DOI-issuing archive, and update the Data Availability statement to point at it.
-- **Confirm registration and presentation** obligations; at least one author presents.
+- **Settle open access:** if no author is at an ACM Open institution, arrange the APC or a waiver
+  (subsidized 2027 rates USD500 ACM/SIG members, USD750 non-members). The author list and title
+  cannot change from the submitted version without track-chair approval.
+- **Confirm registration and presentation:** authors are strongly encouraged to present, but the
+  FSE 2027 call says attendance is not mandatory for publication; non-presenting authors need not
+  register.
 
 ## De-anonymization sweep
 

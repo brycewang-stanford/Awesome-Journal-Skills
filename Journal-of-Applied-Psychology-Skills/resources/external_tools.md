@@ -66,11 +66,11 @@ Tools below support those norms. Verify any journal-specific policy in
 |------|------|
 | Submission portal | **Editorial Manager**, `editorialmanager.com/apl` |
 | Owner / publisher | **American Psychological Association (APA)** |
-| Review model | **Masked (anonymized)** peer review; action-editor model |
-| Main types | **Feature Article** (length commensurate with contribution); **Research Report** (tighter, 待核实) |
+| Review model | **Masked review only** (unmasked manuscripts returned); action-editor model |
+| Main types | **Feature Article** (length commensurate with contribution); **Research Report** (≤ 19 manuscript pages excl. title page, abstract, references, tables, figures); **Integrative Conceptual Review** (10-page prospectus first) |
 | Other types | Theory-development, integrative review, qualitative research, meta-analysis |
-| Style | **APA 7th edition**; structured abstract (limit 待核实) |
-| Open science | **TOP framework** (since 1 Nov 2021): data/materials/code availability + statement + preregistration weighed |
+| Style | **APA 7th edition**; abstract ≤ 250 words + up to five keywords |
+| Open science | **TOP**: Citation L2, Data/Code/Materials L1 (disclosure), Design & Analysis L2, preregistration L2; "Transparency and openness" Method subsection; data transparency appendix |
 
 ## 8. Cautions
 1. **Verify volatile specifics** (editor, length caps, abstract limit, exact TOP level, accepted types)

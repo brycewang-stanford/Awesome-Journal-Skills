@@ -39,10 +39,12 @@ sound, the paper is mis-partitioned — move that evidence into the body.
 ## The endmatter zone (FAccT-specific, easy to get wrong)
 
 ```text
-[Generative AI Usage]  REQUIRED for every submission: state whether/how generative AI was used;
-                       FAccT prohibits wholesale AI-generated manuscript text
-[Ethical Considerations] the concerns you faced and how you addressed them (safe to include anonymized)
-[Adverse Impacts]      foreseeable unintended harms once published/deployed, and mitigations
+[Generative AI Usage]  REQUIRED for every submission, even if no AI was used: tool, model version,
+                       tasks (incl. grammar/translation); undisclosed use is desk-reject grounds
+                       (FAccT 2027 permits disclosed AI-generated content; 2026 prohibited it)
+[Ethical Considerations] include at submission (anonymized): the concerns you faced and how you
+                       addressed them, plus foreseeable adverse impacts once published/deployed and
+                       their mitigations (2027 folds "adverse impacts" into this statement)
 [Positionality]        how the authors' background shapes the work — IDENTITY-REVEALING, so add ONLY
                        upon acceptance; keep it OUT of the anonymous submission
 [Author Contributions / Acknowledgements / Competing Interests] also identity-revealing -> acceptance only

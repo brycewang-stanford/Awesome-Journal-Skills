@@ -5,13 +5,20 @@ description: Use when packaging artifacts for USENIX Security Symposium evaluati
 
 # USENIX Security Artifact Evaluation
 
-USENIX Security '26 split artifact evaluation into two phases with different stakes:
-**Phase-1 (availability) is mandatory and paper acceptance is conditional on it**,
-running between acceptance and the final-paper deadline; **Phase-2 (functionality
-and reproducibility) is optional**, running after finals are due. The community
-process and submission mechanics live at `secartifacts.github.io/usenixsec2026/`;
-the venue framing is on the usenix.org Call for Artifacts page (both checked
-2026-07-08, via search renderings since usenix.org direct fetch returned 403).
+USENIX Security splits artifact evaluation into two phases with different stakes,
+and '27 keeps the '26 design: **Phase-1 (availability) is mandatory and paper
+acceptance — including Accepted-on-Shepherd-Approval papers — is conditional on
+it**, running between notification and the final-paper deadline; **Phase-2
+(functionality and reproducibility) is optional**, running after finals are due.
+The '27 Preliminary Call for Artifacts (usenix.org, read directly 2026-11-24) sets the
+dates: Cycle 1 availability artifacts due Dec 14, 2026, decision Jan 12, 2027,
+Phase-2 submission Jan 28, 2027; Cycle 2 availability artifacts due May 17, 2027,
+decision Jun 1, Phase-2 submission Jun 10, 2027. Phase-1 needs both the original
+anonymous link and the same deanonymized artifact on a permanent platform (Zenodo
+recommended; FigShare, Dryad, Software Heritage — not personal sites or GitHub);
+restricted access is allowed for sensitive artifacts. AE is single-blind, with at
+least two AEC members per artifact. The '26 community mechanics are documented at
+`secartifacts.github.io/usenixsec2026/`.
 
 ## The three badges
 
@@ -79,8 +86,9 @@ Write for an evaluator who reads the paper once and your README three times.
 
 ## Working the process
 
-- Register the artifact by the AE deadline for your cycle (dates on the
-  secartifacts instructions page — per-cycle, 待核实 each time).
+- Submit by the AE deadline for your cycle (the '27 dates are above; the Phase-1
+  deadline falls the day before the shepherding notification, so shepherded papers
+  must submit before they know the shepherd's verdict).
 - During evaluation, communication runs anonymously through the AE platform;
   respond fast, since the window is short and iterations are the norm.
 - Fix-and-rerun is expected: evaluators report blockers, authors patch. Budget

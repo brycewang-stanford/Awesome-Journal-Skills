@@ -7,8 +7,10 @@ description: Use when writing SIGMOD author feedback during a PACMMOD round or t
 
 SIGMOD gives authors two distinct speaking turns per round, and they play by
 different rules. The mid-round **author feedback phase** (about a week, two
-months after submission — e.g., Sep 10–17, 2026 for Round 3 of SIGMOD 2027) is
-a short clarification exchange before first verdicts. The **revision letter**
+months after submission — e.g., Sep 13–20, 2027 for Round 3 of SIGMOD 2028) is
+a short clarification exchange before first verdicts; from SIGMOD 2028 the CFP
+strongly recommends that it also carry an explicit, numbered revision plan,
+which becomes the basis of any revision. The **revision letter**
 accompanies a resubmission after a major or minor revision decision and is a
 full engineering document. Confirm the current round's mechanics in the live
 CFP before drafting either.
@@ -27,7 +29,7 @@ CFP before drafting either.
 
 ## Turn 2: the revision letter
 
-A revision verdict at SIGMOD is an offer with a contract. For SIGMOD 2027:
+A revision verdict at SIGMOD is an offer with a contract. For SIGMOD 2028:
 the revised paper may add **one extra content page**, the letter runs up to
 **four pages**, and every change must be highlighted in a **different color
 per reviewer**, cross-referenced by section and page (line numbers when
@@ -74,9 +76,9 @@ R3.1 (declined) "Port the engine to <other system>."
 
 ## Deadline geometry
 
-The revision window is one month (e.g., verdict Oct 19 → revised paper
-Nov 19 for Round 3 of SIGMOD 2027), with the final accept/reject about three
-weeks later. Reviewers evaluate only whether the stated requirements were
+The revision window is one month (e.g., verdict Oct 23 → revised paper
+Nov 22, 2027 for Round 3 of SIGMOD 2028), with the final accept/reject about
+three weeks later. Reviewers evaluate only whether the stated requirements were
 met — a revision is not an invitation to add a new contribution, and scope
 creep reads as instability. Withdrawing instead of revising counts as a
 rejection for the 12-month embargo, so price that before walking away.

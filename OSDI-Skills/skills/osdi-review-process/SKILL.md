@@ -1,38 +1,44 @@
 ---
 name: osdi-review-process
-description: Use when reasoning about how an OSDI paper is reviewed and decided — the double-blind HotCRP PC pipeline with no author-response period, the two tracks, conditional acceptance with heavyweight shepherding, co-chair recusal, notification timing, and the Jay Lepreau Best Paper lineage.
+description: Use when reasoning about how an OSDI paper is reviewed and decided — the double-blind HotCRP PC pipeline with no author-response period, OSDI '27's possible early review round and Volunteer Candidate Senior Reviewers, the two tracks, conditional acceptance with heavyweight shepherding, co-chair recusal, notification timing, and the Jay Lepreau Best Paper lineage.
 ---
 
 # OSDI Review Process
 
 Model the pipeline the paper enters at the December deadline. The process facts below
-are the OSDI '26 cycle (verified 2026-07-08); OSDI re-decides its process per edition —
-'26 itself removed the response period — so read the current CFP's process section
-before predicting anything.
+are the OSDI '27 cycle (CFP re-verified 2026-11-24, including its September and October
+2026 updates); OSDI re-decides its process per edition — '26 removed the response period,
+'27 added an optional early review round and a senior-reviewer nomination — so read the
+current CFP's process section before predicting anything.
 
 ## The pipeline, author's-eye view
 
 ```text
-Dec 11  submission complete on HotCRP (osdi26.usenix.hotcrp.com)
-   |    double-blind PC review, typically multi-round:
-   |      early round -> low-scoring papers exit with fewer reviews
-   |      later round(s) -> surviving papers gather more reviews
-   |    online discussion + PC meeting
-   |    (no author-response step existed in the '26 cycle)
-Mar 26  notification: accept | conditional accept | reject
+Dec 8   submission complete on HotCRP (osdi27.usenix.hotcrp.com), 5:59 pm EST
+   |    [if volume requires] early review round: reviewers read at least the
+   |      first two pages and vote on advancing; "no" votes come with feedback
+   |    double-blind full review, multi-round; selected Volunteer Candidate
+   |      Senior Reviewers may review up to four papers in the first full round
+   |    resubmission improvement summaries shown to reviewers after reviews
+   |    online discussion + PC meeting; no target acceptance rate
+   |    (no author-response step in the '26 cycle or the '27 CFP)
+Mar 16  notification: accept | conditional accept | reject (no revise-and-resubmit)
    |    conditional: shepherd assigned, mandated-change list issued
-Jun 9   shepherd-approved final paper due (or the acceptance lapses)
-Jul 13  open-access proceedings live as the event opens
+Jun 3   shepherd-approved final paper due (or the acceptance lapses)
+Jul 7   open-access proceedings live as the event opens (Baltimore)
 ```
 
 Round structure and reviewer counts are PC-internal and vary; what is stable is the
 consequence: **the first two or three pages decide whether the paper earns the later
-rounds**, because early-round reviewers triage a large pile (capped at eight
-submissions per author, but multiplied across a big community).
+rounds** — OSDI '27 makes this explicit: an early round, if run, reads at least the first
+two pages and asks whether the paper is in scope, understandable, and has a reasonable
+chance of a significant contribution. Early-round reviewers triage a large pile (capped
+at eight submissions per author, but multiplied across a big community). The PC states no
+target acceptance rate; it aims to fill a 3-day program with strong papers.
 
 ## What "no response period" changes about review
 
-OSDI '26 eliminated the author response. Reading the decision process correctly
+OSDI '26 eliminated the author response and the '27 CFP describes none. Reading the decision process correctly
 means internalizing three shifts:
 
 - **Reviewer misunderstandings are terminal.** A reviewer who misreads the threat
@@ -48,7 +54,8 @@ means internalizing three shifts:
 
 ## Conditional acceptance and heavyweight shepherding
 
-OSDI '26 stated the mechanism plainly: some papers are accepted conditionally, and
+OSDI '27 (continuing '26) states the mechanism plainly: some papers are accepted
+conditionally, there is no revise-and-resubmit, and conditional papers
 will be **rejected unless the authors make the changes the PC determined**, completed
 by the final-paper deadline and approved by the shepherd. Treat it as:
 
@@ -56,7 +63,7 @@ by the final-paper deadline and approved by the shepherd. Treat it as:
 |---|---|
 | The change list is a contract | Scope it line by line; ambiguities are resolved with the shepherd, in writing, early |
 | The shepherd is the gatekeeper | Their approval — not your opinion of completion — converts conditional to accepted |
-| June 9 is the enforcement date | New experiments mandated in April need the frozen testbed from the review window (`osdi-reproducibility`) |
+| June 3, 2027 is the enforcement date | New experiments mandated in April need the frozen testbed from the review window (`osdi-reproducibility`) |
 | It is not a negotiation to reopen | Relitigating the reviews with the shepherd burns the one relationship that can accept the paper |
 
 `osdi-author-response` covers how to run the exchange itself.
@@ -66,10 +73,10 @@ by the final-paper deadline and approved by the shepherd. Treat it as:
 - **Two tracks, one PC decision process:** Research and Operational Systems papers
   are reviewed against different evidence expectations (novel design vs deployed
   experience) — know which bar your reviewers were told to apply.
-- **Co-chair recusal:** OSDI '26 pre-committed that a submitting co-chair's papers
+- **Co-chair recusal:** OSDI '27 (as '26) pre-commits that a submitting co-chair's papers
   are handled exclusively by the other co-chair under the same double-blind
   procedure — an unusually explicit conflict rule worth citing if conflict questions
-  arise.
+  arise. The '27 co-chairs are Philip Levis and Junfeng Yang.
 - **Best-paper lineage:** the **Jay Lepreau Best Paper Award** (inaugurated at OSDI
   '08) is selected by the PC from the accepted program; strong artifacts and clean
   claims correlate with it, but it is not something authors apply for.

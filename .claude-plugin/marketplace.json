@@ -249,7 +249,7 @@
     {
       "name": "ase-skills",
       "source": "./ASE-Skills",
-      "description": "Twelve ASE-specific skills for the IEEE/ACM International Conference on Automated Software Engineering and its automated-SE research track, grounded in the ASE 2025/2026 researchr calls, the ase26.hotcrp.com submission site, IEEE Xplore, the ACM Digital Library, and dblp.",
+      "description": "Twelve ASE-specific skills for the IEEE/ACM International Conference on Automated Software Engineering and its automated-SE research track, grounded in the ASE 2027 researchr call, the ase2027.hotcrp.com submission site, the ASE 2025/2026 calls, IEEE Xplore, the ACM Digital Library, and dblp.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -263,7 +263,7 @@
     {
       "name": "atc-skills",
       "source": "./ATC-Skills",
-      "description": "Twelve ATC-specific skills for the ACM SIGOPS Annual Technical Conference (formerly the USENIX Annual Technical Conference), grounded in the ATC 2026 SIGOPS call for papers, the USENIX ATC '25 research and artifact pages, the USENIX to SIGOPS transition record, and dblp.",
+      "description": "Twelve ATC-specific skills for the ACM SIGOPS Annual Technical Conference (USENIX ATC retired after ATC '25), grounded in the ATC 2027 (Rennes, deadline 19 January 2027) SIGOPS call for papers, the ATC 2026 call, the USENIX sunset record, and dblp.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -284,7 +284,7 @@
     {
       "name": "cav-skills",
       "source": "./CAV-Skills",
-      "description": "Twelve CAV-specific skills for the International Conference on Computer Aided Verification and its Springer LNCS open-access proceedings, grounded in the CAV 2026 (FLoC, Lisbon) call, the LNCS proceedings, i-cav.org, and dblp.",
+      "description": "Twelve CAV-specific skills for the International Conference on Computer Aided Verification and its Springer LNCS proceedings, grounded in the CAV 2027 (Amsterdam) call, the LNCS proceedings, i-cav.org, and dblp.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -466,7 +466,7 @@
     {
       "name": "cscw-skills",
       "source": "./CSCW-Skills",
-      "description": "Twelve CSCW-specific skills covering the PACMHCI journal-model pipeline from topic routing through R&R response letters to journal-issue publication, grounded in cscw.acm.org CFP and rolling-model pages, ACM DL PACMHCI records, and dblp, checked 2026-07-08.",
+      "description": "Twelve CSCW-specific skills covering the PACMHCI journal-model pipeline from topic routing through R&R response letters to journal-issue publication, for the rolling route into CSCW 2027 (Philadelphia), grounded in cscw.acm.org CFP, CSCW 2027 and rolling-model pages, ACM DL PACMHCI records, and dblp, re-checked 2026-11-24.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -648,7 +648,7 @@
     {
       "name": "facct-skills",
       "source": "./FAccT-Skills",
-      "description": "Twelve FAccT-specific skills for the ACM Conference on Fairness, Accountability, and Transparency, spanning fairness/accountability/transparency as first-class contributions across CS, law, social science, humanities, and policy, grounded in the FAccT 2026 CFP and Author/Reviewer Guides, facctconference.org, the ACM Digital Library, and dblp.",
+      "description": "Twelve FAccT-specific skills for the ACM Conference on Fairness, Accountability, and Transparency, spanning fairness/accountability/transparency as first-class contributions across CS, law, social science, humanities, and policy, grounded in the FAccT 2027 CFP and Author/Reviewer Guides, facctconference.org, the ACM Digital Library, and dblp.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -760,7 +760,7 @@
     {
       "name": "icalp-skills",
       "source": "./ICALP-Skills",
-      "description": "Twelve ICALP-specific skills for the EATCS International Colloquium on Automata, Languages, and Programming, its Track A / Track B structure, and its LIPIcs open-access publication model, grounded in the ICALP 2026 (53rd, Royal Holloway) call, EATCS pages, LIPIcs/Dagstuhl, and dblp.",
+      "description": "Twelve ICALP-specific skills for the EATCS International Colloquium on Automata, Languages, and Programming, its Track A / Track B structure, and its LIPIcs open-access publication model, grounded in the ICALP 2027 (54th, Kraków) Track B call, EATCS pages, LIPIcs/Dagstuhl, and dblp.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -823,7 +823,7 @@
     {
       "name": "icse-skills",
       "source": "./ICSE-Skills",
-      "description": "Twelve ICSE-specific skills for software-engineering conference strategy, grounded in the official ICSE 2027 Research Track call for papers, important dates, artifact-evaluation track, and ICSE 2026 cycle records.",
+      "description": "Twelve ICSE-specific skills for software-engineering conference strategy, grounded in the official ICSE 2028 Research Track call for papers (re-verified 2026-11-24), the ICSE 2027 artifact-evaluation, NIER and journal-first tracks, and ICSE 2026 cycle records.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -900,7 +900,7 @@
     {
       "name": "interspeech-skills",
       "source": "./INTERSPEECH-Skills",
-      "description": "Twelve Interspeech-specific skills covering the full ISCA conference cycle — topic fit, submission, paper update, review and rebuttal, camera-ready, artifacts, reproducibility, and presentation — grounded in Interspeech 2026 (Sydney) official sources checked 2026-07-08.",
+      "description": "Twelve Interspeech-specific skills covering the full ISCA conference cycle — topic fit, submission, paper update, review and rebuttal, camera-ready, artifacts, reproducibility, and presentation — grounded in the Interspeech 2027 (São Paulo) call and Interspeech 2026 (Sydney) official sources, re-verified 2026-11-24.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -928,7 +928,7 @@
     {
       "name": "issta-skills",
       "source": "./ISSTA-Skills",
-      "description": "Twelve ISSTA-specific skills for the ACM SIGSOFT testing-and-analysis flagship, grounded in the official ISSTA 2026 Research Papers call, important-dates page, artifact-evaluation track, and ACM Digital Library proceedings.",
+      "description": "Twelve ISSTA-specific skills for the ACM SIGSOFT testing-and-analysis flagship, grounded in the official ISSTA 2027 Research Papers call, important-dates and organizing-committee pages, the ISSTA 2026 artifact-evaluation call, and the PACMSE publication model.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -1509,14 +1509,14 @@
     {
       "name": "mobicom-skills",
       "source": "./MobiCom-Skills",
-      "description": "Twelve MobiCom-specific skills for the ACM SIGMOBILE mobile-computing and wireless-networking flagship, grounded in the MobiCom 2026 and 2027-cycle official pages, HotCRP, and the SIGMOBILE artifact and Test-of-Time programs.",
+      "description": "Twelve MobiCom-specific skills for the ACM SIGMOBILE mobile-computing and wireless-networking flagship, grounded in the MobiCom 2027 (Athens, October 2027) official pages, HotCRP, and the SIGMOBILE artifact and Test-of-Time programs.",
       "version": "1.2.0",
       "category": "academic"
     },
     {
       "name": "mobisys-skills",
       "source": "./MobiSys-Skills",
-      "description": "Twelve MobiSys-specific skills for mobile systems, applications, and services submission strategy, grounded in the official MobiSys 2026 CFP, artifact-evaluation pages, mobisys26.hotcrp.com deadlines, ACM Digital Library, and dblp.",
+      "description": "Twelve MobiSys-specific skills for mobile systems, applications, and services submission strategy, grounded in the official MobiSys 2027 (Ho Chi Minh City, single-blind) CFP, organizing-committee and mobisys27.hotcrp.com deadline pages, the latest artifact-evaluation call, ACM Digital Library, and dblp.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -1586,7 +1586,7 @@
     {
       "name": "oopsla-skills",
       "source": "./OOPSLA-Skills",
-      "description": "Twelve OOPSLA-specific skills covering the two-round PACMPL review model, Minor/Major Revision handling, double-anonymous HotCRP submission, artifact evaluation, and the SPLASH conference calendar, grounded in official OOPSLA 2026 and PACMPL sources.",
+      "description": "Twelve OOPSLA-specific skills covering the two-round PACMPL review model, Minor/Major Revision handling, double-anonymous HotCRP submission, artifact evaluation, and the SPLASH conference calendar, grounded in official OOPSLA 2027 and PACMPL sources.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -1614,7 +1614,7 @@
     {
       "name": "osdi-skills",
       "source": "./OSDI-Skills",
-      "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '26 Call for Papers, Call for Artifacts, HotCRP site, and USENIX open-access policy pages.",
+      "description": "Twelve OSDI-specific skills for USENIX systems-conference submission strategy, grounded in the official OSDI '27 (Baltimore, July 2027) Call for Papers, Requirements for Authors and HotCRP site, the latest (OSDI '26) Call for Artifacts, and USENIX open-access policy pages.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -1845,7 +1845,7 @@
     {
       "name": "rss-skills",
       "source": "./RSS-Skills",
-      "description": "Twelve RSS-specific skills for the single-track robotics flagship: science-first framing, OpenReview mechanics, the two-stage review with invited rebuttals, and free open-access proceedings, grounded in the RSS 2026 Sydney cycle.",
+      "description": "Twelve RSS-specific skills for the single-track robotics flagship: science-first framing, OpenReview mechanics, the RSS 2027 two-stage shepherding review (Extended Abstract, invited rebuttal, Extension Charter), and free open-access proceedings, grounded in the RSS 2027 Athens cycle.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -1873,7 +1873,7 @@
     {
       "name": "sigcomm-skills",
       "source": "./SIGCOMM-Skills",
-      "description": "Twelve SIGCOMM-specific skills for the ACM networking flagship: single-deadline venue strategy, double-blind HotCRP submission, rebuttal and one-shot revision, measurement-grade evaluation, ACM artifact badges, and TAPS proceedings.",
+      "description": "Twelve SIGCOMM-specific skills for the ACM networking flagship: single-deadline venue strategy, double-blind HotCRP submission (SIGCOMM 2027, February 2, 2027 deadline), no-rebuttal collaborative review and the CCR-acceptance route, measurement-grade evaluation, ACM artifact badges, and TAPS proceedings.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -1901,7 +1901,7 @@
     {
       "name": "sigmod-skills",
       "source": "./SIGMOD-Skills",
-      "description": "Twelve SIGMOD-specific skills for database and data-management paper strategy under the PACMMOD multi-round journal model, grounded in the SIGMOD 2027 Call for Papers, PACMMOD author guidelines, and the Availability & Reproducibility Initiative pages.",
+      "description": "Twelve SIGMOD-specific skills for database and data-management paper strategy under the PACMMOD multi-round journal model, grounded in the SIGMOD 2028 Call for Papers (rounds January-October 2027), PACMMOD author guidelines, and the Availability & Reproducibility Initiative pages.",
       "version": "1.2.0",
       "category": "academic"
     },
@@ -2041,7 +2041,7 @@
     {
       "name": "usenix-security-skills",
       "source": "./USENIX-Security-Skills",
-      "description": "Twelve USENIX Security-specific skills for security conference submission strategy, grounded in the USENIX Security '26 Call for Papers, the '27 cycle calendar, the Call for Artifacts, and the ethics guidelines.",
+      "description": "Twelve USENIX Security-specific skills for security conference submission strategy, grounded in the USENIX Security '27 Call for Papers and cycle calendar, the '27 Call for Artifacts, and the ethics guidance.",
       "version": "1.2.0",
       "category": "academic"
     },

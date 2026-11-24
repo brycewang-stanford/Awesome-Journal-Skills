@@ -27,7 +27,7 @@ HRM is read by scholars **and** by reflective practitioners, and the journal dem
 
 ## The abstract that survives the screen
 
-Pack four things into ~150–200 words (confirm the current limit on the author page; 检索于 2026-06；以官网为准): the question, the design (sample, level, method), the key finding with a magnitude, and the dual contribution. An abstract that omits the practice payoff signals the wrong journal to the screening editor.
+Pack four things into an unstructured abstract of at most 200 words (author guidelines, re-verified 2026-11-24；以官网为准): the question, the design (sample, level, method), the key finding with a magnitude, and the dual contribution. An abstract that omits the practice payoff signals the wrong journal to the screening editor.
 
 ## Sentence-level craft for HRM
 

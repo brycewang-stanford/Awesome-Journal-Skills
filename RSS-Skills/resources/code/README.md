@@ -34,7 +34,8 @@ manifests). An RSS supplement carries evidence the script cannot see:
    colors, and file metadata that would break double-blind review
    (`rss-supplementary`).
 5. **Self-containment of the PDF** — nothing decision-critical may live only in the
-   archive; the 2026 CFP requires the main paper to stand alone.
+   archive; the RSS 2027 CFP reviews nothing beyond the 6-page Stage 1 PDF and does not
+   oblige reviewers to read the Stage 2 supplement, so the main paper must stand alone.
 
 Venue policy always comes from [`../official-source-map.md`](../official-source-map.md)
 and the live CFP, never from this adapter.

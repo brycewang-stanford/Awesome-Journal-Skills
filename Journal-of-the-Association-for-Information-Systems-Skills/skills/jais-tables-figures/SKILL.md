@@ -41,7 +41,7 @@ Tables and figures are a common place double-blind anonymity leaks: a screenshot
 
 ## Style and reporting norms
 
-- **APA 6th edition** governs table/figure formatting and notes (JAIS's required reference style) (检索于 2026-06；以官网为准).
+- **APA 7th edition** governs table/figure formatting and notes (JAIS's required reference style) (检索于 2026-06；以官网为准).
 - Report **effect sizes / magnitudes**, not significance stars alone; precision (SEs, CIs) belongs in the exhibit.
 - Keep figures legible in grayscale print; do not rely on color or interactivity to convey meaning.
 - Number and reference every exhibit in the text; an exhibit the prose never points to is noise.
@@ -74,7 +74,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 - [ ] SEM paper includes the required correlation/covariance matrix + descriptives (appendix)
 - [ ] Theory figure and propositions table agree with the prose
 - [ ] Magnitudes/effect sizes reported with precision, not stars alone
-- [ ] APA 6th formatting; legible in grayscale; every exhibit referenced in text
+- [ ] APA 7th formatting; legible in grayscale; every exhibit referenced in text
 - [ ] Exhibits trimmed so the manuscript stays within the length budget
 
 ## Worked vignette: the figure that breaks the standalone rule (illustrative)
@@ -97,7 +97,7 @@ A design-science team showcases its artifact with an interactive dashboard hoste
 【Exhibit inventory】measurement / results / event-study / artifact / framework / data-structure
 【SEM matrix】correlation/covariance + descriptives present: yes/fix
 【Reporting】effect sizes + precision (not stars only): yes/fix
-【Style】APA 6th; grayscale-legible; all referenced: pass/fix
+【Style】APA 7th; grayscale-legible; all referenced: pass/fix
 【Length impact】within ~15k words / 65pp: yes/trim
 【Next skill】jais-writing-style
 ```

@@ -15,7 +15,7 @@
       "name": "interspeech-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve Interspeech-specific skills covering the full ISCA conference cycle — topic fit, submission, paper update, review and rebuttal, camera-ready, artifacts, reproducibility, and presentation — grounded in Interspeech 2026 (Sydney) official sources checked 2026-07-08.",
+      "description": "Twelve Interspeech-specific skills covering the full ISCA conference cycle — topic fit, submission, paper update, review and rebuttal, camera-ready, artifacts, reproducibility, and presentation — grounded in the Interspeech 2027 (São Paulo) call and Interspeech 2026 (Sydney) official sources, re-verified 2026-11-24.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

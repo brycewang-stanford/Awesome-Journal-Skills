@@ -5,8 +5,8 @@ description: Use when deciding whether a systems project fits OSDI, choosing bet
 
 # OSDI Topic Selection
 
-Decide venue months before writing, not days. Everything below reflects the OSDI '26
-pages as read on 2026-07-08; the scope paragraph and track structure are re-issued in
+Decide venue months before writing, not days. Everything below reflects the OSDI '27
+pages as re-verified on 2026-11-24; the scope paragraph and track structure are re-issued in
 every CFP, so reopen `usenix.org/conference/osdi<yy>/call-for-papers` before committing
 a project to the December deadline.
 
@@ -32,11 +32,15 @@ months, not the two years it cost under the old alternation.
 
 ## Is it in scope?
 
-The OSDI '26 CFP takes a deliberately broad view of "systems": operating systems, file
+The OSDI '27 CFP takes a deliberately broad view of "systems": operating systems, file
 and storage systems, distributed systems, cloud computing, mobile systems, secure and
-reliable systems, systems aspects of big data, **machine-learning systems**, embedded
-systems, virtualization, networking as it relates to operating systems, and management
-and troubleshooting of complex systems. Two practical readings:
+reliable systems, formal verification of systems software, systems aspects of big data,
+**systems for machine learning**, embedded systems, virtualization, networking as it
+relates to operating systems, and management and troubleshooting of complex systems.
+It also asks that submissions "offer insights that intrigue a substantial portion of
+OSDI attendees," and that papers applying systems techniques to new domains (e.g., ML)
+engage the relevant systems prior work, baseline against known techniques, and spell out
+the new systems challenges. Two practical readings:
 
 - ML-systems work is squarely welcome **as systems work** — scheduling, serving,
   memory, parallelism — not as model-accuracy work (see TensorFlow and Orca in
@@ -47,8 +51,9 @@ and troubleshooting of complex systems. Two practical readings:
 
 ## Two tracks, one deadline
 
-OSDI '26 reviewed two tracks side by side, registered and submitted on the same
-December dates:
+OSDI '27 (as '26) reviews two tracks side by side, registered and submitted on the same
+December dates (December 1 / 8, 2026); Operational Systems titles end with
+"(Operational Systems)":
 
 | Track | The paper it wants | Choose it when |
 |---|---|---|
@@ -74,8 +79,8 @@ strong systems work, flagship bar uncertain    -> EuroSys / ACM SIGOPS ATC
 position paper, no artifact yet                -> HotOS-style workshop first
 ```
 
-Two cadence facts matter for routing. First, OSDI sits mid-year (OSDI '26: July 13–15,
-Seattle) with a December submission — a December miss can retarget to SOSP or NSDI
+Two cadence facts matter for routing. First, OSDI sits mid-year (OSDI '27: July 7–9,
+2027, Baltimore) with a December submission — a December miss can retarget to SOSP or NSDI
 within months. Second, USENIX ATC no longer exists as a USENIX venue; its successor is
 stewarded by ACM SIGOPS, so pre-2026 advice that treats ATC as OSDI's co-located
 little sibling is stale.
@@ -85,15 +90,16 @@ little sibling is stale.
 Anchor the decision to real dates, then re-verify them live:
 
 - **OSDI '26** (20th): July 13–15, 2026, Seattle; its submission gates were
-  December 4/11, 2025 — already history for new work.
-- **OSDI '27** (21st): official page exists; secondary sources report July 7–9,
-  2027, Baltimore, and by historical pattern its deadline lands around December
-  2026 — but the '27 CFP was unreadable at 2026-07-08, so both the deadline and any
-  policy carry-over (tracks, page budget, no-response process) are 待核实 until
-  `usenix.org/conference/osdi27` publishes them.
-- A project deciding venue in mid-2026 is therefore really choosing between an
-  expected December OSDI '27 deadline and whatever SOSP/NSDI gates fall earlier —
-  pull all three live pages before promising the team a date.
+  December 4/11, 2025 — history.
+- **OSDI '27** (21st): July 7–9, 2027, Hyatt Regency Baltimore Inner Harbor; abstract
+  registration **December 1, 2026**, complete papers **December 8, 2026** (5:59 pm EST);
+  notification March 16, 2027 (CFP re-verified 2026-11-24). Tracks, the 12-page budget,
+  the eight-paper cap and conditional acceptance carry over from '26.
+- A project deciding venue in late November 2026 has one week to the OSDI '27
+  registration gate; anything not near-final is really choosing between OSDI '28 and
+  whatever SOSP/NSDI gates fall in between — pull the live pages before promising the
+  team a date. Note the collision the '27 CFP calls out: a paper under NSDI '27 Fall
+  review cannot go to OSDI '27.
 
 ## Signals you are about to misfire
 
@@ -105,9 +111,9 @@ Anchor the decision to real dates, then re-verify them live:
 - The contribution is a measurement study of others' systems with no design lesson —
   possible at OSDI, but the bar is a lesson that changes how people build, not a
   benchmark report.
-- You cannot fit the idea into 12 reviewed pages without appendices — OSDI '26 allowed
-  none at submission, so a proof-heavy contribution may belong at a venue that reviews
-  supplements.
+- You cannot fit the idea into 12 reviewed pages without appendices — OSDI '27 allows a
+  separate supplementary file but PC members need not read it, so a proof-heavy
+  contribution may belong at a venue that reviews appendices.
 
 ## Output format
 

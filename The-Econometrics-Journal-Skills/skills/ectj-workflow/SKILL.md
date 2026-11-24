@@ -87,7 +87,8 @@ Keep these EctJ constants loaded while routing, reverifying volatile ones on liv
 - An empirical application is the norm even for theory-led methods papers, and simulation results
   are summarized within about a page of main text.
 - The replication package — README, software versions, documented data, seeded code — becomes
-  binding conditional on acceptance.
+  binding conditional on acceptance; the submissions page also encourages including it with the
+  initial submission, and editors may ask for it at any stage.
 - One-week screen, three-month decision target, one-month normal resubmission window.
 
 ## Output format

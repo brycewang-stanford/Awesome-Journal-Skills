@@ -10,7 +10,8 @@ self-contained, written in about a week (May 28 - June 5 in the verified 2026
 cycle), and explicitly listed among the inputs to the accept/reject recommendation.
 Its second life matters more than its first: because acceptances are conditional on
 "changes described in the rebuttal," this document becomes the **contract for your
-camera-ready**. Draft it as both an argument and a promise you must keep by July 24.
+camera-ready**. Draft it as both an argument and a promise you must keep by the camera-ready upload (July 31 in 2026, with the final
+acceptance decision on August 7).
 
 ## Budgeting 5,000 characters
 

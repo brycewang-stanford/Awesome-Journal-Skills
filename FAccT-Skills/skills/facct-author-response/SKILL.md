@@ -1,14 +1,16 @@
 ---
 name: facct-author-response
-description: Use when drafting ACM FAccT author responses — the short factual-correction rebuttal after preliminary reviews, and, distinctively for the 2026-new process, the Revise-and-resubmit round where you address Area-Chair-prioritized concerns from a mixed CS+law+social-science panel, map each to a concrete change, and survive a re-review while keeping mutual anonymity.
+description: Use when drafting ACM FAccT author responses — above all the Revise-round rebuttal that FAccT 2027 submits together with the revised paper, addressing Area-Chair-prioritized concerns from a mixed CS+law+social-science panel, mapping each to a concrete change, and surviving the re-review while keeping mutual anonymity (plus the short factual-correction rebuttal FAccT 2026 ran before its first decision).
 ---
 
 # FAccT Author Response
 
-Use this after FAccT reviews are released. FAccT has **two distinct speaking turns**, and conflating
-them is a common mistake: a **short rebuttal** for factual corrections, and — if you receive a
-**Revise** decision (new for the 2026 edition) — a full **revision plus response** that addresses
-Area-Chair-prioritized concerns and is **re-reviewed**. Both must respect mutual anonymity: nothing
+Use this after FAccT reviews are released. In **FAccT 2027** there is **one speaking turn**: if you
+receive a **Revise (major or minor)** decision on 22 December 2026, you submit the revised paper
+**together with a rebuttal** by 28 January 2027, and both are **re-reviewed**. An Accept needs no
+response; a Reject has no appeal. FAccT 2026 had **two** turns — a short pre-decision rebuttal for
+factual corrections, then the revision — and the 2027 blog post explains that merging them ties the
+response directly to the revised scholarship. Check which model the current cycle uses. Both must respect mutual anonymity: nothing
 you write may reveal authors, institutions, field sites, or a repository owner.
 
 ## Triage (both turns)
@@ -23,18 +25,20 @@ you write may reveal authors, institutions, field sites, or a repository owner.
 - Keep every word anonymous — do not name your system's real name, your institution, your field
   site, your IRB, or a private repository, even to strengthen a point.
 
-## Turn 1 — the short rebuttal
+## The short pre-decision rebuttal (FAccT 2026 only; not in FAccT 2027)
 
-Short and strictly for **factual corrections and misunderstandings**, plus signposting minor edits.
+If a cycle restores it: short and strictly for **factual corrections and misunderstandings**, plus signposting minor edits.
 It is **not** a venue to re-argue substantive disagreement or to promise a new study — that is the
 Revise round's job. Concede what is true, correct what is misread, and point to exactly where the
 answer already lives in the submitted paper or supplementary material. Do not paste new results the
 reviewers cannot verify in the current PDF.
 
-## Turn 2 — the Revise-and-resubmit response (the distinctive FAccT-2026 move)
+## The Revise-round rebuttal (the distinctive FAccT move)
 
-A Revise is a genuine revise-and-resubmit. The Area Chair **summarizes and prioritizes** the
-concerns; your job is to address that prioritized list. The response is a **change ledger**: for
+A Revise is a genuine revise-and-resubmit. The Area Chair's meta-review **summarizes and
+prioritizes** the concerns; your job is to address that prioritized list in a revised paper of up
+to **15 pages** (excluding references and endmatter) and a rebuttal explaining how. Final
+calibration also involves the Senior Area Chairs. The response is a **change ledger**: for
 every prioritized concern, either make the change and show it, or decline it with a reason.
 
 ```text
@@ -73,15 +77,16 @@ that is neither done nor explicitly and reasonably declined is what the re-revie
 ## Calibration
 
 - Respond to the criterion the reviewer actually raised, not the one you would rather defend.
-- The rebuttal is short and factual; the substantive work is the Revise round — do not burn the
-  rebuttal trying to do the revision's job.
-- Length and format norms for both turns, and the very existence of the Revise round, are
-  2026-new — confirm the current instructions before sending.
+- In 2027 the rebuttal *accompanies* the revision: let the changed paper carry the argument and
+  use the rebuttal to point to it, not to re-argue.
+- Length and format norms for the rebuttal are not published on the 2027 CFP or Author Guide, and
+  the process changed between 2026 and 2027 — confirm the current OpenReview instructions before
+  sending.
 
 ## Output format
 
 ```text
-[Turn] short rebuttal / revise-and-resubmit response
+[Turn] Revise-round rebuttal + revised paper / (2026-style) short rebuttal
 [Priority issue] <reviewer or AC concern>
 [Decision dimension] relevance / correctness / depth / strengths-and-limits / harm-and-ethics / discipline
 [Change ledger] <prioritized concern -> DONE/PARTIAL/DECLINED + where in paper/artifact>

@@ -15,7 +15,7 @@ MobiSys artifact reviewer actually runs.
 ## Typical use
 
 ```bash
-python3 ../../../shared-resources/ml-conference-methods/code/check_repro_package.py /path/to/anonymous-artifact
+python3 ../../../shared-resources/ml-conference-methods/code/check_repro_package.py /path/to/artifact
 ```
 
 ## MobiSys-only checks the generic script cannot make

@@ -11,14 +11,20 @@ single-round review with its **1000-word rebuttal**, Technical Papers Committee 
 **conditional-accept second stage**; and delivering the TOG camera-ready plus a runnable,
 replicability-stamp-ready code release.
 
-Official basis checked on **2026-07-09**: the SIGGRAPH 2026 and SIGGRAPH Asia 2026 technical-papers
-calls, submissions FAQs, and reviewer-instructions pages; the ACM SIGGRAPH author instructions; the
-ACM TOG journal and author guidelines; and the Graphics Replicability Stamp Initiative. Direct
-fetches of `s2026.siggraph.org`, `asia.siggraph.org`, and `dl.acm.org` returned 403/405 in the
-verification environment, so official pages were read via search-engine renderings of the exact
-URLs and cross-checked against the ACM Digital Library (TOG), dblp, and the ACM SIGGRAPH blog; the
-full trail, including everything still marked 待核实, is in
+Official basis first checked on 2026-07-09 and **re-verified on 2026-11-24**: the SIGGRAPH 2026 and
+SIGGRAPH Asia 2026 technical-papers calls, anonymity policy, submissions FAQs, and
+reviewer-instructions pages (fetched directly on 2026-11-24); the SIGGRAPH 2027 and SIGGRAPH Asia
+2027 announcement pages; the ACM SIGGRAPH author instructions; the ACM TOG journal and author
+guidelines (`dl.acm.org` still refuses automated fetches, so those rows rest on the earlier
+search-engine reading); and the Graphics Replicability Stamp Initiative. The full trail, including
+the edition status and everything still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
+
+**Edition status (2026-11-24):** SIGGRAPH 2026 has met and SIGGRAPH Asia 2026 (Kuala Lumpur, 1-4
+Dec 2026) is closed to submissions. **SIGGRAPH 2027** (Anaheim, 8-12 Aug 2027) has posted Technical
+Papers deadlines of **21 / 28 / 29 January 2027** (form / paper / upload, 22:00 UTC) and its
+Technical Papers Chair (Tamy Boubekeur), but not its full call — so the rules below are the
+SIGGRAPH 2026 call's until the 2027 call appears.
 
 ## What makes SIGGRAPH different from its siblings
 
@@ -36,6 +42,10 @@ venue (VIS), or a specialized graphics symposium:
 - **Two cycles a year.** SIGGRAPH North America (deadline ~January, summer conference) and SIGGRAPH
   Asia (deadline ~May, December conference) run the same model — a rejected paper is naturally
   revised for the next cycle.
+- **Double-blind review.** The call states it outright: reviewers do not know the authors, and
+  vice versa. Submissions use `\documentclass[acmtog,anonymous,review]{acmart}`, omit
+  acknowledgements, keep supplemental anonymous, and respect an **anonymity policy** that bans
+  publicity from two weeks before the deadline (arXiv preprints remain allowed).
 - **A short, text-only rebuttal.** After reviews, authors get **one turn of ≤ 1000 words, text
   only** (no images, video, or URLs) to correct factual errors — then a **Technical Papers Committee
   meeting** decides, and **conditionally accepted** papers pass a **second-stage** committee
@@ -137,13 +147,17 @@ SIGGRAPH-Skills/
 ## 2026-cycle anchor facts (historical snapshot, not permanent rules)
 
 - SIGGRAPH 2026 is the **53rd** ACM SIGGRAPH conference: **Los Angeles Convention Center, July
-  19-23, 2026**. Technical Papers submission form **15 Jan 2026** (22:00 UTC), complete submission
-  **23 Jan 2026** (22:00 UTC); rebuttal **5-12 Mar 2026**; **> 1,120** submissions; published as
+  19-23, 2026**. Technical Papers submission form **15 Jan 2026**, paper **22 Jan 2026**, upload and
+  conflicts **23 Jan 2026** (all 22:00 UTC); rebuttal **5-12 Mar 2026**; **> 1,120** submissions; published as
   **TOG Vol. 45, Issue 4**.
-- SIGGRAPH Asia 2026: **Kuala Lumpur, Malaysia, Dec 1-4, 2026**; Technical Papers Stage-2 full paper
-  **12 May 2026** (upload 13 May 2026); the next-cycle target after SIGGRAPH 2026.
+- SIGGRAPH Asia 2026: **Kuala Lumpur, Malaysia, Dec 1-4, 2026**; Technical Papers form **5 May
+  2026**, full paper **12 May 2026**, upload 13 May 2026 (23:59 AoE).
+- SIGGRAPH 2027: **Anaheim Convention Center, Aug 8-12, 2027**; Technical Papers deadlines posted as
+  **21 Jan 2027** (form & conflicts), **28 Jan 2027** (paper), **29 Jan 2027** (upload), 22:00 UTC —
+  the next submission target; full call pending as of 2026-11-24. SIGGRAPH Asia 2027: Tokyo, Nov 30 -
+  Dec 3, 2027.
 - Publication: **ACM Transactions on Graphics**, journal-integrated. Review: single-round,
-  historically **single-blind**, on a **6-point scale**, with a **≤ 1000-word text-only rebuttal**,
+  **double-blind** with four full reviews, on a **6-point scale**, with a **≤ 1000-word text-only rebuttal**,
   a **Technical Papers Committee meeting**, and **conditional acceptance + second-stage**
   verification. Format: **acmart ≥ 2.16**; Conference track **≤ 7 pages** + up to two figures-only
   pages. Portal: **Linklings**.
@@ -159,8 +173,7 @@ distinguishable:
 2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., the > 1,120
    submission count; the SIGGRAPH 2025 acceptance figures).
 3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the exact SIGGRAPH 2026
-   acceptance count, the full Technical Papers Committee/Chair roster, the precise 2026 blinding and
-   generative-AI disclosure wording).
+   acceptance count).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it
 against the live official pages.

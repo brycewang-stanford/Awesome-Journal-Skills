@@ -1,6 +1,6 @@
 ---
 name: psychrev-review-process
-description: Use when anticipating how a Psychological Review manuscript will be evaluated — masked peer review, the kinds of decisions, article types (full article vs. Theoretical Note), and what reviewers at a theory journal actually probe. Explains the process; it does NOT write the response document (that is psychrev-rebuttal) or run the submission preflight (psychrev-submission).
+description: Use when anticipating how a Psychological Review manuscript will be evaluated — open-by-default peer review (masked review on request), the kinds of decisions, article types (full article vs. Theoretical Note), and what reviewers at a theory journal actually probe. Explains the process; it does NOT write the response document (that is psychrev-rebuttal) or run the submission preflight (psychrev-submission).
 ---
 
 # Understanding the Review Process (psychrev-review-process)
@@ -14,9 +14,12 @@ description: Use when anticipating how a Psychological Review manuscript will be
 
 ## How Psychological Review is reviewed
 
-- **Masked (anonymous) peer review.** Manuscripts are fully anonymized so the body carries no
-  author-identifying content; the title page (authors, affiliations, ORCID, contact) is separate.
-  (Verify current masking policy on the author page; 检索于 2026-06；以官网为准.)
+- **Open (unmasked) review is the default; masked review is an author option.** The APA
+  submission guidelines state that open review is the default for this journal, "though masked
+  review is an option." If you choose masked review, put authors' names and affiliations only in
+  the cover letter and strip identifying clues (grant numbers, IRB institution names,
+  self-citations, repository links) from the manuscript. (Re-verified 2026-11-24 on the APA
+  submission-guidelines page; 以官网为准.)
 - Handled through **Editorial Manager** (editorialmanager.com/rev, 检索于 2026-06；以官网为准).
 - Reviewers are drawn from the **modeling/theory tradition** you enter — typically proponents or
   critics of the rival models you must beat. Positioning honestly (`psychrev-literature-positioning`)
@@ -59,7 +62,7 @@ strengthen the theory itself, not merely to answer comments.
 
 ## Checklist
 
-- [ ] Manuscript fully anonymized for masked review; separate title page prepared
+- [ ] Review mode chosen (open by default, or masked on request); if masked, manuscript fully anonymized and author details only in the cover letter
 - [ ] Correct article type chosen (full theoretical article vs. Theoretical Note)
 - [ ] Anticipated reviewer objections mapped to the skill that should have addressed them
 - [ ] If computational: model code prepared for sharing (see `psychrev-submission`)
@@ -76,7 +79,7 @@ strengthen the theory itself, not merely to answer comments.
 ## Output format
 
 ```
-【Review model】masked; Editorial Manager; reviewers from the rival tradition
+【Review model】open (unmasked) by default, masked on request; Editorial Manager; reviewers from the rival tradition
 【Article type】theoretical article | Theoretical Note (+ length justification if > limit)
 【Anticipated objections】[objection → skill that addresses it] (table)
 【Decision read】[if letter present: the theoretical asks beneath the comments]

@@ -11,7 +11,8 @@ and the supplement.**
 
 - **[`official-source-map.md`](official-source-map.md)** — the factual backbone. Read it first
   when a date or policy is load-bearing: it records what was verified, from which URL, on
-  2026-07-09, the access-method caveat, and the 待核实 items that were deliberately not guessed.
+  2026-07-09 (re-verified 2026-11-24), the access-method note, the edition status, and the 待核实
+  items that were deliberately not guessed.
 - **[`external_tools.md`](external_tools.md)** — the live surfaces (research call, important
   dates, submission guidelines, CMT, IEEE Xplore, TKDE) plus the author-side verification loop
   and the do-not-infer rules. Open these before any deadline-sensitive advice.

@@ -96,5 +96,5 @@ time — fix exactly what the screeners flagged and resist the urge to renovate.
 ```
 
 In the last verified cycle roughly four of five R&R papers that resubmitted were
-accepted (152 of 196; checked 2026-07-08) — the loop rewards teams that treat it
+accepted (152 of 196; re-checked 2026-11-24) — the loop rewards teams that treat it
 as the venue's main event rather than an appeal.

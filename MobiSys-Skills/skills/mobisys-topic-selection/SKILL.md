@@ -82,7 +82,9 @@ sensor.
 If the paper misses MobiSys's bar, do not force it into the December deadline — re-route by
 type and record why. A wireless mechanism goes to MobiCom, a sensing infrastructure to SenSys,
 a distributed-systems design to NSDI/OSDI, a ubicomp finding to IMWUT, an early idea to
-HotMobile. Because MobiSys runs one deadline a year, a misfit costs a full cycle, and the
+HotMobile — or, if it is a bold, conceptually new idea that is hard to validate fully, to
+MobiSys's own **Emerging Ideas** track (MobiSys 2027: "[Emerging Ideas]" title prefix, judged on
+originality and potential rather than completeness). Because MobiSys runs one deadline a year, a misfit costs a full cycle, and the
 two-round review often surfaces it as an early reject after round 1 rather than a rescue —
 re-routing early is by far the cheaper move.
 

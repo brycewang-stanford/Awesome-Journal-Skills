@@ -1,6 +1,6 @@
 {
   "name": "cscw-skills",
-  "description": "A 12-skill depth pack for CSCW submissions: venue fit and CHI/ICWSM routing, the PACMHCI journal model with Revise-and-Resubmit rounds, PCS and Manuscript Central submission, qualitative and quantitative methods rigor, sensitive community-data ethics, response letters, and PACMHCI camera-ready production. Grounded in cscw.acm.org CFP pages, the rolling-model announcement, ACM DL PACMHCI issues, and dblp, checked on 2026-07-08.",
+  "description": "A 12-skill depth pack for CSCW submissions: venue fit and CHI/ICWSM routing, the PACMHCI journal model with Revise-and-Resubmit rounds, PCS-to-rolling (PACM HCI/CSCW) submission for CSCW 2027, qualitative and quantitative methods rigor, sensitive community-data ethics, response letters, and PACMHCI camera-ready production. Grounded in cscw.acm.org CFP, CSCW 2027 and rolling-model pages, ACM DL PACMHCI issues, and dblp, re-checked on 2026-11-24.",
   "version": "1.2.0",
   "author": {
     "name": "Bryce Wang",

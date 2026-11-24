@@ -10,8 +10,8 @@ model is stricter than most: there is **no separate supplement upload** in
 the verified CFPs — everything is one PDF of at most 13 body pages plus at
 most 5 pages of references and appendices, 18 total, with all content past
 page 13 clearly marked as appendix and **reviewers explicitly not required
-to read appendices** (sp2027.ieee-security.org/cfpapers.html, checked
-2026-07-08).
+to read appendices** (sp2027.ieee-security.org/cfpapers.html, re-verified
+2026-11-24).
 
 ## The rule that decides every split
 
@@ -66,10 +66,11 @@ page check:               body ≤ 13 · refs+appendix ≤ 5 · total ≤ 18
                           · post-13 content labeled
 ```
 
-## Interplay with the Revise pathway
+## Interplay with the rebuttal and the meta-review
 
-A Revise expectations summary often asks for material authors originally
-appendixed ("bring the adaptive evaluation into the main text"). Cheapest
+Reviewers often ask for material authors originally appendixed ("bring the
+adaptive evaluation into the main text"), either in an interactive rebuttal
+or as a public meta-review concern the shepherd must see resolved. Cheapest
 prevention: at first submission, put the *summary statistics* of every
 appendix experiment in the body with a pointer down — reviewers who can see
 the number rarely demand the relocation.

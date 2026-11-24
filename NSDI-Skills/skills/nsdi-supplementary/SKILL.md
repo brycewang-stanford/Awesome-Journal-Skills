@@ -8,7 +8,7 @@ description: Use when splitting NSDI material across the 12-page body, the appen
 NSDI gives authors four containers with different review status. Misfiling content —
 a load-bearing baseline in an appendix, revision evidence missing from the auxiliary
 packet — costs more than any phrasing error. Rules below are the NSDI '27 CFP as
-rendered on 2026-07-08.
+re-verified on 2026-11-24.
 
 ## The four containers
 
@@ -16,7 +16,7 @@ rendered on 2026-07-08.
 |---|---|---|
 | Body | 12 pages incl. footnotes, figures, tables | The paper; judged in full |
 | References | extra pages, no stated cap | Checked, uncounted |
-| Appendices | extra pages after references permitted | Available context; assume optional reading (obligation 待核实) |
+| Appendices | extra pages after references permitted; paper must stand alone | Optional reading — the CFP says reviewers are not required to read them |
 | Auxiliary material (HotCRP form) | for online content critical to the paper; alternative is contacting the co-chairs | Consulted at reviewer discretion; mandatory vehicle for revision packets |
 
 Two contrasts worth internalizing. Against sibling venues that ban submission-time

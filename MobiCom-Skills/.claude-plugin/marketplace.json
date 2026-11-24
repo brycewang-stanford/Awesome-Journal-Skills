@@ -15,7 +15,7 @@
       "name": "mobicom-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve MobiCom-specific skills for the ACM SIGMOBILE mobile-computing and wireless-networking flagship, grounded in the MobiCom 2026 and 2027-cycle official pages, HotCRP, and the SIGMOBILE artifact and Test-of-Time programs.",
+      "description": "Twelve MobiCom-specific skills for the ACM SIGMOBILE mobile-computing and wireless-networking flagship, grounded in the MobiCom 2027 (Athens, October 2027) official pages, HotCRP, and the SIGMOBILE artifact and Test-of-Time programs.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

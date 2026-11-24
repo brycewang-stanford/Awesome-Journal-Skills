@@ -31,8 +31,8 @@ With USENIX Security itself, CCS, NDSS, and S&P all running multiple deadlines,
 the relevant literature refreshes roughly every quarter. Concretely:
 
 - Sweep the **accepted-papers pages of every Big-Four cycle that concluded after
-  your last literature pass** (e.g., a Sec '27 Cycle-1 submission in Aug 2026
-  should have digested Sec '26 Cycle-2 acceptances announced May 2026).
+  your last literature pass** (e.g., a Sec '27 Cycle-2 submission in Jan 2027
+  should have digested Sec '27 Cycle-1 acceptances announced Dec 2026).
 - USENIX helps you here: its proceedings are open access on usenix.org, so
   verification against the actual PDF costs nothing. Do the same via each venue's
   accepted-paper listings.
@@ -61,7 +61,13 @@ contribution framing should change before the related-work section does (see
 
 ## Double-blind citation mechanics
 
-Cite your own prior work in the third person as if written by strangers; the '26
+The '27 CFP requires relating the submission to **all** related work you know of,
+including your own papers under submission (at USENIX Security or elsewhere) or
+accepted but unpublished: cite them anonymized and email the non-anonymous versions to
+the program co-chairs. Failing to point out and explain overlap is grounds for
+rejection.
+
+Cite your own prior work in the third person as if written by strangers; the '27
 CFP names first-person self-reference as an anonymity violation. When a paper
 builds so directly on your unpublished or just-published system that third person
 fails, the mitigation hierarchy is: cite an anonymized tech report in the artifact
@@ -89,8 +95,7 @@ environment on 2026-07-08 — cross-check via search rendering if needed).
 Related work usually closes the body (≈1 page of the 13). Two exceptions worth
 making: an attack paper whose novelty hinges on a subtle difference from a known
 technique should differentiate **early**, in the introduction; SoK-style framing
-(if pursued at all — check the current CFP for whether the venue solicits it,
-待核实) makes the literature the paper's subject rather than its perimeter.
+('27 solicits SoK papers, titled "SoK: ") makes the literature the paper's subject rather than its perimeter.
 
 ## Reverify each cycle
 

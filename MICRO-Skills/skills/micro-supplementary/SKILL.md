@@ -18,7 +18,7 @@ pages, moves to an artifact repository, or gets cut. This skill is the triage.
 | 11 content pages | Reviewed, binding | Anything a reviewer needs to judge correctness or significance |
 | References (unlimited) | Reviewed | Full citation record — every entry with all authors named, no "et al." |
 | Anonymized artifact repo (linked) | **Not** owed a read | Configs, raw stats, extra sweeps, trace recipes, proofs of side claims |
-| Camera-ready artifact appendix (≤ 2 pages, post-AE, 2025 pattern) | Post-acceptance only | How to reproduce — hardware/software requirements, run steps |
+| Camera-ready artifact appendix (≤ 2 pages, post-AE, 2025 and 2026 pages) | Post-acceptance only | How to reproduce — hardware/software requirements, run steps |
 
 Two consequences follow immediately:
 
@@ -86,7 +86,7 @@ not.
 ## Camera-ready appendix (the one appendix MICRO permits)
 
 After acceptance and successful artifact evaluation, MICRO's recent cycles (2025
-verified; 2026 待核实) let authors add a **two-page artifact appendix, free of
+and 2026 verified) let authors add a **two-page artifact appendix, free of
 charge**, describing requirements and reproduction steps. Draft it from the repo
 README — it is the only place appendix-style material ever reaches the PDF, and it
 arrives at camera-ready, not submission.

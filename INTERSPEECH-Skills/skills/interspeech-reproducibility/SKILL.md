@@ -124,4 +124,4 @@ paragraph has done its rhetorical job as well as its scientific one.
 
 Cross-check any cycle-specific checklist or disclosure field on the live CFP —
 Interspeech has been adding evaluation-rigor language cycle by cycle (sources:
-`resources/official-source-map.md`, checked 2026-07-08).
+`resources/official-source-map.md`, re-verified 2026-11-24).

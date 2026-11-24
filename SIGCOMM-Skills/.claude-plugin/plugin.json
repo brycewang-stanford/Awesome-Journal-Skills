@@ -1,6 +1,6 @@
 {
   "name": "sigcomm-skills",
-  "description": "A 12-skill depth pack for ACM SIGCOMM submissions: the single-February-deadline flagship venue fit, HotCRP double-blind submission audits, the rebuttal + shepherd-run one-shot revision, deployment- and measurement-grade evaluation, ACM artifact badges and reproducible 'runnable papers', and TAPS camera-ready proceedings. Grounded in the ACM SIGCOMM 2026 CFP, submission and camera-ready pages, and sigcomm.org award pages checked on 2026-07-09.",
+  "description": "A 12-skill depth pack for ACM SIGCOMM submissions: the single-February-deadline flagship venue fit, HotCRP double-blind submission audits, SIGCOMM 2027's no-rebuttal collaborative review with conference/CCR/reject outcomes, deployment- and measurement-grade evaluation, ACM artifact badges and reproducible 'runnable papers', and TAPS camera-ready proceedings. Grounded in the ACM SIGCOMM 2027 CFP, submission instructions and organizing-committee pages and sigcomm.org award pages, re-verified on 2026-11-24.",
   "version": "1.2.0",
   "author": {
     "name": "Bryce Wang",

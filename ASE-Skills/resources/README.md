@@ -11,7 +11,7 @@ whose proceedings appear in both IEEE Xplore and the ACM Digital Library.
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before-to-after abstract/introduction rewrite for an automated-software-engineering paper (a new technique embodied in a tool, evaluated on real subjects). Illustrative fictional paper; no policy invented. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against real, verified ASE papers across contribution shapes, and avoid sibling-venue confusion with ICSE, FSE, ISSTA, and PLDI. |
-| [`official-source-map.md`](official-source-map.md) | Confirm the current-cycle ASE deadline, page budget, required template, Accept/Revision/Reject model, dual IEEE/ACM proceedings, and artifact policy before giving submission-ready advice. |
+| [`official-source-map.md`](official-source-map.md) | Confirm the current-cycle ASE deadline, page budget, required template, Accept/Major revision/Reject model, dual IEEE/ACM proceedings, and artifact policy before giving submission-ready advice. |
 | [`external_tools.md`](external_tools.md) | Open the official ASE, HotCRP, IEEE Xplore, ACM DL, and dblp surfaces, plus the cross-check sources for when the gateway blocks a direct fetch. |
 | [`code/README.md`](code/README.md) | Use the shared SE replication-package tooling: an evidence-to-claim matrix, an artifact-badge checklist, and a dependency-free smoke checker for anonymized artifacts. |
 

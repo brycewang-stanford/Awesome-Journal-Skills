@@ -15,19 +15,21 @@ Dates, Important Dates, Call for Technical Papers, Topics of Interest, Review Pr
 Guidelines, and the Reproducibility / Open Source / Dataset / Brave New Ideas / Grand
 Challenge track calls; the ACM MM 2026 OpenReview groups; the ACM Digital Library
 proceedings; dblp's `conf/mm` index; and `sigmm.org` (Test-of-Time award, hosting
-invitations). Direct fetches of `2026.acmmm.org` were blocked (HTTP 403) in the
-verification environment, so official pages were read through search-engine renderings of
-the exact URLs and cross-checked against OpenReview, the ACM DL, dblp, and SIGMM news; the
+invitations). Direct fetches of `2026.acmmm.org` were blocked (HTTP 403) on 2026-07-09,
+so official pages were first read through search-engine renderings of the exact URLs and
+cross-checked against OpenReview, the ACM DL, dblp, and SIGMM news. On **2026-11-24** the
+call, author instructions, important dates, track calls, open-access notice and committee
+were **re-verified by direct fetch**, and the ACM MM 2027 year-site was read; the
 full trail — including everything still marked 待核实 — is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
-**Cycle status (2026-07-09):** ACM MM 2026 (Rio de Janeiro, November 10–14, 2026) is the
-*live* cycle. The submission chain closed in April (abstract March 25, paper April 1,
-supplement April 8), the anonymous rebuttal window ran in early June, and **author
-notification lands right now in early July** — this pack is being written on the seam
-between decision and camera-ready. Accepted authors are entering the camera-ready run
-(reported August 6); rejected authors are re-routing. MM 2027 is slated for Asia/Oceania
-(Hong Kong reported); its CFP and dates were not yet published at check time.
+**Cycle status (2026-11-24):** ACM MM 2026 (Rio de Janeiro, November 10–14, 2026) — the
+latest published edition and this pack's rule anchor — has just met: abstract March 25,
+paper April 1, supplement April 8, rebuttal June 4, notification July 9 (July 7 on the CFP
+page), camera-ready August 6, 2026. **ACM MM 2027** is confirmed for **8–12 November 2027 at
+AsiaWorld-Expo, Hong Kong SAR, China** (2027.acmmm.org), with a call for Area Chairs and
+Reviewers out; its Call for Papers, deadlines and page rules were **not yet published** on
+2026-11-24, so plan with the 2026 rules as a labelled prior and reopen the 2027 site.
 
 ## What makes ACM MM unlike its siblings
 
@@ -38,12 +40,14 @@ Verified 2026-cycle mechanics that drive the advice in these skills:
   transport/delivery, art and culture. A pure object-detector belongs at CVPR/ICCV; a pure
   language model at ACL; ACM MM wants the seam between them.
 - **Sixteen thematic areas, one main track.** Submissions pick a thematic area (Multimodal
-  Fusion, Generative and Foundation Models, Search and Recommendation, Engagement/Emotion,
-  Art and Culture, Systems, Transport and Delivery, Responsible Multimedia, and more), and
+  Fusion, Generative and Foundation Models, Search and Recommendation, Emotional and Social
+  Signals, Art and Culture, Data Systems, Transport and Delivery, Responsible Multimedia,
+  and more), and
   the area shapes which reviewers see the paper.
 - **A short paper by ACM standards.** 6–8 pages of body in the **ACM `sigconf` template**,
   with references allowed up to two additional pages that must contain *only* references.
-  Overlength papers are desk-rejected without review.
+  Overlength papers are desk-rejected without review, and appendices may not follow the
+  paper in the main file — they go in the supplement (50Mb cap in 2026).
 - **Double-blind with named exceptions.** The main track and most tracks are double-blind;
   the **Reproducibility, Open Source Software, and Dataset** tracks are single-blind by
   design because the artifact *is* the paper and cannot be anonymized.
@@ -51,13 +55,17 @@ Verified 2026-cycle mechanics that drive the advice in these skills:
   the Multimedia Grand Challenge, an Open Source Software Competition, a Reproducibility
   track with ACM artifact badging, Interactive Art, Doctoral Symposium, and workshops —
   each with its own call and rules.
-- **OpenReview, but not NeurIPS-style openness.** ACM MM 2026 runs on OpenReview with an
-  optional anonymous rebuttal; reviews are not made public by default, and the community
-  norm is a closed, ACM-badged review rather than an open forum.
-- **Publication is ACM, not open-access-by-default.** Accepted papers appear in the **ACM
-  Digital Library**; there is no author-facing APC, but ACM's rights/OA options (including
-  ACM Open) and the sigconf rights block are settled at camera-ready. No standing
-  editor-in-chief — the rotating analogue is the per-edition Program and General Chairs.
+- **OpenReview, private during review, public afterwards.** ACM MM 2026 runs on OpenReview
+  with an optional anonymous rebuttal (no external links); submissions stay private during
+  review, and once the process concludes the final reviews and any author responses are
+  made public on OpenReview. Authors with more than 10 submissions lose the 11th onward,
+  and every author is enrolled as a reviewer.
+- **Publication is ACM Open Access — and may carry an APC.** From January 1, 2026 every ACM
+  paper, ACM MM included, is Open Access in the **ACM Digital Library**: authors at ACM Open
+  institutions pay nothing extra, others pay an APC (2026 transition rate $250 for ACM/SIG
+  members, $350 for non-members) unless waived. ACM MM 2026 was on-site only — papers not
+  presented in person are removed from the proceedings. No standing editor-in-chief — the
+  rotating analogue is the per-edition Program and General Chairs.
 
 ## Skills
 
@@ -131,7 +139,8 @@ ACM-MM-Skills/
   under ACM SIGMM.
 - Deadlines (AoE): abstract March 25, 2026 · paper April 1 · supplement April 8 · rebuttal
   June 4 · author notification early July (the CFP page listed July 7; the Important-Dates
-  and Dataset pages listed July 9) · camera-ready reported August 6, 2026.
+  and Dataset pages listed July 9) · camera-ready August 6, 2026 · author registration
+  August 31, 2026.
 - Format: 6–8 pages of body in the ACM `sigconf` template, references allowed on up to two
   additional references-only pages; overlength papers desk-rejected; submission via
   OpenReview.
@@ -140,8 +149,9 @@ ACM-MM-Skills/
   Doctoral Symposium, workshops, tutorials, panels, demos.
 - Review: double-blind main track; Reproducibility, Open Source Software, and Dataset
   tracks single-blind; optional anonymous rebuttal.
-- Publication: ACM Digital Library; no author-side APC; ACM rights/OA settled at
-  camera-ready; no standing editor — Program/General Chairs rotate each edition.
+- Publication: ACM Digital Library, Open Access since 2026 (no APC via ACM Open, otherwise
+  a $250/$350 APC in 2026 unless waived); on-site presentation required; no standing
+  editor — Program/General Chairs rotate each edition.
 
 ## Fact discipline
 
@@ -150,12 +160,12 @@ Three classes of statement are kept distinguishable throughout the pack:
 1. **Verified 2026-cycle facts** — trace to a numbered source in the source map (e.g., the
    Rio dates, the April 1 paper deadline, the 6–8-page sigconf budget, the named
    single-blind tracks).
-2. **Reported facts** — consistent secondary sources, labeled as such (e.g., the August 6
-   camera-ready date from deadline mirrors, MM 2027's Hong Kong host).
+2. **Reported facts** — consistent secondary sources, labeled as such (none currently
+   load-bearing: the August 6 camera-ready date and MM 2027's Hong Kong host were both
+   confirmed on official pages on 2026-11-24).
 3. **Unverifiable-at-check-time items** — explicitly 待核实 and phrased as questions (e.g.,
-   the exact notification date given the July 7 vs. July 9 conflict, supplement size caps,
-   the ACM rights/OA form specifics, per-track award structure, and everything about the
-   2027 cycle).
+   the exact notification date given the July 7 vs. July 9 conflict, supplement format
+   rules, the post-2026 APC amount, per-track award structure, and the 2027 call).
 
 If a skill states class-2/3 material as class 1, treat it as a bug and fix it against the
 live official pages.

@@ -5,15 +5,19 @@ description: Use when packaging an artifact for an accepted OOPSLA paper under t
 
 # OOPSLA Artifact Evaluation
 
-SPLASH runs a unified artifact-evaluation track for its research papers; the
-2026 edition used a **two-phase** process — an opening *kick-the-tires* pass
-where evaluators check the artifact builds and starts at all, then the full
-evaluation — awarding **Functional** (documented, complete enough to
-exercise), **Reusable** (Functional plus organization and documentation that
-support reuse by others), and **Available** (a snapshot deposited on Zenodo
-with a DOI), with Available strongly encouraged for every passing artifact
-absent licensing or privacy constraints. Per-cycle dates and submission
-mechanics live on the current track page (待核实 each cycle).
+SPLASH runs a unified artifact-evaluation track for its research papers,
+open only to **Accepted and Minor Revision** OOPSLA papers; the 2027 edition
+uses a **two-phase** process — an opening *kick-the-tires* pass where
+evaluators check the artifact builds and starts at all (Round 1: February
+1–7, 2027), then the full evaluation — awarding **Artifact Evaluated:
+Functional** (documented, consistent, complete, exercisable) or **Reusable**
+(Functional plus organization and documentation that support reuse),
+**Results Reproduced** (the AEC can replicate the paper's main claims), and
+**Available** (a DOI-archived snapshot, e.g. on Zenodo; publisher-controlled
+and strongly encouraged for every passing artifact absent licensing or
+privacy constraints). Artifacts are submitted as a stable DOI URL; review is
+single-blind. 2027 artifact deadlines: January 26, 2027 (Round 1) and August
+3, 2027 (Round 2); notifications March 9 and September 15, 2027.
 
 ## Design for the kick-the-tires failure mode
 

@@ -8,8 +8,10 @@ description: Use when preparing the accountability artifacts that accompany an A
 Use this for the material that backs a FAccT paper's transparency and accountability claims. Note
 the venue difference up front: FAccT does **not** run the SIGSOFT-style ACM Artifact Review and
 Badging track that software-engineering venues use, and it does not hand out Available/Functional/
-Reusable/Reproduced badges. **待核实**: confirm on the current Author Guide whether any optional
-artifact/reproducibility appendix or badge scheme has been added for your cycle. What FAccT *does*
+Reusable/Reproduced badges. The FAccT 2027 Author Guide (checked 2026-11-24) describes no artifact
+badge or reproducibility checklist; it allows appendices of any length in the same PDF, asks that
+links to code and online material be anonymized, and supports pre-registration (link an anonymous
+version only). Re-check each cycle. What FAccT *does*
 have is a strong norm of **accountability documentation** — datasheets, model cards, data
 statements, audit trails, and impact assessments — plus released code and data. Treat those genres
 as your artifact and make each one credible on its own.
@@ -80,7 +82,7 @@ tables.
 - FAccT's artifact expectations are **documentation- and release-centered**, not badge-centered; do
   not import a Docker-image/badge checklist as if it were the bar.
 - Whether any optional artifact appendix, reproducibility checklist, or badge exists is
-  cycle-volatile — confirm on the current Author Guide (**待核实**).
+  cycle-volatile — none in FAccT 2027 (checked 2026-11-24); confirm on the current Author Guide.
 
 ## Output format
 

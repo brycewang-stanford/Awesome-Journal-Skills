@@ -8,7 +8,7 @@ first page, and smoke-test an artifact package.
 
 | Resource | Purpose |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Eleven official sources with URLs and 2026-07-08 access dates, the verified 2027 cycle facts, the access-method note (direct fetches were blocked), and the explicit 待核实 list. |
+| [`official-source-map.md`](official-source-map.md) | Twelve official sources with URLs and access dates (re-verified 2026-11-24), the verified 2027 cycle facts, the access-method note, and the explicit 待核实 list. |
 | [`external_tools.md`](external_tools.md) | The live official surfaces plus six author-side verification passes (cycle, format, anonymity, ethics, cap, post-acceptance). |
 | [`exemplars/library.md`](exemplars/library.md) | Five verified NDSS papers spanning 2005-2018 — two of them Test of Time winners — with self-check questions and a checked misattribution list. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | A fictional stale-delegation DNS paper's abstract and introduction, rebuilt before → after around adversary model, measurement discipline, and disclosure posture. |

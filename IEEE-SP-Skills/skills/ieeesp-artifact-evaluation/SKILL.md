@@ -7,9 +7,11 @@ description: Use when preparing an IEEE S&P (Oakland) artifact-evaluation submis
 
 Use this once a paper is accepted and the team is deciding whether and how to
 enter artifact evaluation. At S&P, AE is a **post-acceptance opt-in** run by a
-separate committee against three badges (sp2026.ieee-security.org
-/cfartifacts.html, checked 2026-07-08); the 2027 schedule and any badge
-changes were unpublished at check time — 待核实 on the current AE pages.
+separate committee against three badges (sp2027.ieee-security.org
+/cfartifacts.html, re-verified 2026-11-24). S&P 2027 schedule: Cycle 1
+registration Sep 13, submission Sep 18, decisions Oct 13, final artifact
+Oct 14, 2026; Cycle 2 registration Mar 7, submission Mar 12, decisions Apr 5,
+final artifact Apr 6, 2027 — two days before the paper camera-ready.
 
 ## The three badges are three different projects
 
@@ -94,5 +96,5 @@ weakness.
 [Rerunnability audit] <what an outsider can actually regenerate>
 [Handling constraints] exploit gating / malware packaging / user data: <plan>
 [Hardware sensitivity] <exact platform + expected drift off-platform>
-[Schedule] AE registration <date 待核实> vs camera-ready <date> — conflict?
+[Schedule] AE registration <date> vs camera-ready <date> — conflict?
 ```

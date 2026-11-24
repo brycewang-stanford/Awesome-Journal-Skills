@@ -18,21 +18,25 @@ recycled SIGIR or KDD advice:
    first-class decision.
 3. **An EasyChair form with teeth.** Every track requires nominating an author as a
    reviewer (a stated desk reject if skipped), a declaration of any public
-   non-anonymized version (silent arXiv copies risk desk rejection), and a mandatory
+   non-anonymized version (silent arXiv copies — or ones sharing the submission's title
+   and abstract — risk desk rejection), and a mandatory
    **GenAI Usage Disclosure section** in the PDF covering research, code, data, and
    writing — with automated compliance checks reserved.
 4. **The fall slot in the information family's calendar.** May abstract/paper gates,
-   August 7 notification, August 20 camera-ready, November conference — which makes
-   CIKM the natural next stop for work maturing after SIGIR's January or KDD's
-   February gates, and gives accepted authors a thirteen-day ACM
-   e-rights/TAPS sprint.
+   August 7 notification, August 23 camera-ready (and author-registration) deadline,
+   November conference — which makes CIKM the natural next stop for work maturing
+   after SIGIR's January or KDD's February gates, and gives accepted authors a
+   sixteen-day ACM e-rights/TAPS sprint.
 
 Official basis checked on **2026-07-08**: the CIKM 2026 host site (35th edition,
 November 7-11, 2026, Rome, Italy — hosted under a Sapienza University of Rome
 domain), its five per-track calls, important-dates and submission-policies pages, the
 ACM DL proceedings record for CIKM '25 (DOI 10.1145/3746252), dblp's CIKM index, and
 the SIGIR/SIGWEB sponsorship pages. Several official domains were reachable only
-through search renderings (gateway-blocked direct fetches); the access-method note,
+through search renderings on 2026-07-08 (gateway-blocked direct fetches); on
+**2026-11-24** the CIKM 2026 dates, track calls, policies and chairs pages were
+**re-verified by direct fetch**, correcting the camera-ready date, the Applied track's
+deadlines and the per-track review mode; the access-method note,
 the full source list, and every fact left 待核实 are in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
@@ -42,21 +46,22 @@ the full source list, and every fact left 待核实 are in
 |---|---|---|
 | Edition | 35th CIKM, November 7-11, 2026, Rome, Italy | Per edition |
 | Full Research | ≤10 pages incl. figures/tables/**appendices** + ≤2 pages references; double-blind | Per cycle |
-| Short Research | ≤4 pages incl. appendix | Per cycle |
-| Applied Research | ≤7 pages; launch/data-release evidence required | Per cycle |
-| Resource / Demo | ≤4 pages each; demos enter main proceedings | Per cycle |
-| Dates | Full: abstract May 16, paper May 23; short/resource/demo: May 30 / June 6; notify Aug 7; camera-ready Aug 20 (all AoE) | Per cycle |
+| Short Research | ≤4 pages incl. appendix; double-blind; ACM CCS concepts + keywords required | Per cycle |
+| Applied Research | ≤7 pages; launch/data-release evidence required; **single-blind** | Per cycle |
+| Resource / Demo | ≤4 pages each; **single-blind**; demos need a 3-minute video URL and enter main proceedings | Per cycle |
+| Dates | Full + Applied: abstract May 16, paper May 23; short/resource/demo: May 30 / June 6; notify Aug 7; camera-ready + author registration Aug 23 (all AoE) | Per cycle |
 | Platform | EasyChair, one named track selection per paper | Per cycle |
-| Form obligations | Author-reviewer nomination (desk reject if missing); arXiv-version declaration | Per cycle |
+| Form obligations | Author-reviewer nomination (desk reject if missing); arXiv-version declaration, with a distinct title/abstract on the preprint | Per cycle |
 | GenAI policy | Mandatory uncounted "GenAI Usage Disclosure" section; ACM AI policy; no AI-written reviews | Per cycle |
 | Dual submission | Concurrent submission to any conference/journal prohibited; authorship frozen at abstract gate | Per cycle |
-| Publication | ACM Digital Library via e-rights + TAPS | Per year |
+| Review schedule | No author-response step in the published full-paper schedule; PC chairs' decision meeting July 20 - August 5 | Per cycle |
+| Attendance | In person, at least one author registered by Aug 23; proxy only in exceptional cases; no pre-recorded talks | Per cycle |
+| Publication | ACM Digital Library via e-rights + TAPS; Open Access since 2026 (APC unless ACM Open, 2026 subsidy USD 250/350) | Per year |
 
-As of the check date every 2026 submission gate has passed — the pack teaches the
-**live post-submission phases** (review wait, notification, the 13-day camera-ready
-window, Rome logistics) plus CIKM 2027 planning. A possible 2026 rebuttal phase,
-chair names, camera-ready page allowances, fees, and 2027 facts could not be
-verified and are flagged 待核实 rather than asserted.
+As of 2026-11-24 CIKM 2026 (Rome) has met. CIKM 2027 is announced for **Sydney,
+Australia** on the CIKM series page, but no dates, site or call were published; the
+pack's rules stay on the 2026 edition as a labelled prior. Camera-ready page
+allowances, fee amounts, and 2027 specifics remain 待核实 rather than asserted.
 
 ## Skills
 
@@ -104,7 +109,7 @@ Review to publication:
 - [`cikm-author-response`](skills/cikm-author-response/SKILL.md) — the four
   author-side writing situations (window/no-window × accept/reject), tri-lane reply
   structure, and the concern → edit ledger.
-- [`cikm-camera-ready`](skills/cikm-camera-ready/SKILL.md) — the thirteen-day
+- [`cikm-camera-ready`](skills/cikm-camera-ready/SKILL.md) — the sixteen-day
   sequence through e-rights and TAPS, de-anonymization beyond adding names, CCS/dblp
   metadata care, GenAI-section retention, and the parallel Rome logistics strand.
 

@@ -24,7 +24,7 @@ empirical, quantitative, and theory papers alike.
 - (Re-confirm any word limit — 检索于 2026-06)
 
 ## Keywords and JEL codes
-- Keywords: 4–6, cross-field where the result travels
+- Keywords: 1–7 (guide for authors), cross-field where the result travels
 - JEL codes: accurate primary + secondary
 
 ## 1. Introduction (the EER arc)

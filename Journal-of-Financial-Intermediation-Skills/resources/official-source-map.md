@@ -5,14 +5,35 @@ Primary and authoritative sources behind the **Journal of Financial Intermediati
 2026-06-22.** Re-check the live ScienceDirect pages before submission because
 fees, editors, and calls can change.
 
-**Live re-verification 2026-06-22 (WebSearch; ScienceDirect/Elsevier pages 403 to direct fetch):**
+**Live re-verification 2026-11-24.** Submission rules, fees, APC and masthead **re-verified 2026-11-24**.
+Access method: the live ScienceDirect pages return HTTP 403 (Cloudflare) to curl, WebFetch and a reader
+proxy on 2026-11-24, so they were read via **Internet Archive captures of the official pages** —
+journal home captured **2026-10-15**
+(https://web.archive.org/web/20261015173832/https://www.sciencedirect.com/journal/journal-of-financial-intermediation),
+Guide for Authors captured **2026-03-28**
+(https://web.archive.org/web/20260328023245/https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors),
+editorial board captured **2026-04-08**
+(https://web.archive.org/web/20260408190624/https://www.sciencedirect.com/journal/journal-of-financial-intermediation/about/editorial-board)
+— cross-checked against search-engine rendering restricted to sciencedirect.com on 2026-11-24 (US$500 fee
+and desk-rejection wording confirmed). The Editorial Manager entry https://www.editorialmanager.com/jfi/
+is reachable directly. Change found: the open-access **APC is now USD 3,820** excluding taxes (was USD
+3,760). Guide wording read in the 2026-03-28 capture: abstract "does not exceed **250** words"; "1 to
+**7** keywords" (required); highlights encouraged (3-5 bullets, max 85 characters); single anonymized
+review with a minimum of **one** reviewer; the declarations tool "should always be completed" and the
+resulting Word document uploaded at the attach-files step; funding sources must be disclosed; AI use is
+declared in a new section before the references only if AI tools were used; Option C research-data
+policy; a data statement is *encouraged* ("you are encouraged to state the availability of any data at
+submission"). Editors confirmed unchanged: Managing Editor **Murillo Campello**; Co-Editors **Elena
+Loutskina** and **Joao Santos** (Managing Editor also shown on the 2026-10-15 home capture).
+
+**Earlier live re-verification 2026-06-22 (WebSearch; ScienceDirect/Elsevier pages 403 to direct fetch):**
 
 - Editors **confirmed unchanged**: Managing Editor **Murillo Campello** (Univ. of Florida); Co-Editors
   **Elena Loutskina** (UVA Darden) and **Joao Santos** (FRB New York / Nova SBE), per the Elsevier
   editorial-board listing surfaced via search. Anjan Thakor / Paolo Fulghieri appear as guest/
   special-issue editors only, not the standing masthead.
 - Fees **confirmed unchanged**: **US$500** new-submission fee (paid before consideration, not refunded on
-  desk reject) and open-access **APC USD 3,760 excluding taxes**, both per the official Guide for Authors
+  desk reject) and open-access **APC USD 3,760 excluding taxes** (superseded: USD 3,820 on the 2026-10-15 home capture), both per the official Guide for Authors
   via search snippets (>=2 corroborating sources).
 - Access date: **2026-06-22**.
 
@@ -20,7 +41,7 @@ fees, editors, and calls can change.
 
 - **https://www.sciencedirect.com/journal/journal-of-financial-intermediation**
   — JFI homepage. Verifies: submission link points to **Editorial Manager**;
-  open-access APC is **USD 3,760 excluding taxes**; journal scope covers
+  open-access APC is **USD 3,820 excluding taxes** (2026-10-15 capture; was USD 3,760 in 2026-06); journal scope covers
   financial intermediation, investment banking, corporate finance, financial
   contracting, financial regulation, and credit markets; editorial philosophy
   includes active desk rejection, single-blind submission, and author choice of
@@ -66,7 +87,7 @@ fees, editors, and calls can change.
 | Active desk-rejection policy; author may choose Managing Editor within constraints | Homepage and Guide |
 | Managing Editor Murillo Campello; Co-Editors Elena Loutskina and Joao Santos | Editorial Board |
 | USD 500 new-submission fee; paid during submission; desk rejects not refunded; transfers not charged again | Guide for Authors |
-| Open-access APC USD 3,760 excluding taxes | Homepage |
+| Open-access APC USD 3,820 excluding taxes (re-verified 2026-11-24 via 2026-10-15 archive capture) | Homepage |
 | Single-anonymized review; editor screen; typically at least one independent reviewer; editors decide | Guide for Authors |
 | Elsevier appeal path exists; one appeal per submission; appeal decision final | Guide for Authors |
 | Editable Word/LaTeX source required; PDF is not a source file; system builds review PDF | Guide for Authors |
@@ -80,7 +101,7 @@ fees, editors, and calls can change.
 ## Operational notes
 
 - Treat **USD 500** as the current official new-submission fee and the **USD
-  3,760** figure as the optional OA APC, not the submission fee.
+  3,820** figure as the optional OA APC, not the submission fee.
 - Treat **Murillo Campello** as current Managing Editor and **Elena Loutskina /
   Joao Santos** as Co-Editors until the official editorial-board page changes.
 - Treat JFI as **single anonymized / single-blind**; do not anonymize the
@@ -88,3 +109,40 @@ fees, editors, and calls can change.
 - Treat data policy as **Option C deposit/cite/link-or-explain** when research
   data exist. Restricted bank or supervisory data should still have a clear data
   statement and shareable code/access path.
+
+## UNVERIFIED / verify-before-quoting
+
+- Guide for Authors text is from the **2026-03-28** Internet Archive capture (the newest available; live
+  page HTTP 403 on 2026-11-24). Only the US$500 fee, desk-rejection and transfer wording were re-confirmed
+  on 2026-11-24 via search-engine rendering; re-open the live Guide before relying on the abstract,
+  keyword, highlights or declaration wording.
+- Full Associate Editor roster (from the 2026-04-08 capture; not re-read live).
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Journal of Financial Intermediation",
+  "verified": "2026-11-24",
+  "rules": {
+    "review_mode": {"value": "single-blind", "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors", "note": "'single anonymized review'; author identity not hidden; read via Internet Archive capture of 2026-03-28"},
+    "abstract_words_max": {"value": 250, "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors"},
+    "keywords_required": {"value": true, "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors"},
+    "keywords_min": {"value": 1, "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors"},
+    "keywords_max": {"value": 7, "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors", "note": "English keywords; avoid multi-word keywords joined by 'and'/'of'"},
+    "required_statements": {"value": ["funding"], "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors", "note": "funding sources must be disclosed (state if none had involvement); highlights are encouraged, not required; data statement encouraged"},
+    "separate_upload_statements": {"value": ["conflict_of_interest"], "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors", "note": "declarations tool always completed; resulting Word document uploaded at the attach-files step"},
+    "conditional_statements": {"value": ["ai_use_disclosure"], "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors", "note": "only if generative-AI tools were used in manuscript preparation: new section before the references"},
+    "submission_fee": {"value": "USD 500 for all new submissions; not refunded on desk rejection; no second fee for article transfers", "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors"},
+    "apc": {"value": "optional open access: USD 3,820 excluding taxes", "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation", "note": "read via Internet Archive capture of 2026-10-15"},
+    "portal": {"value": "Elsevier Editorial Manager (https://www.editorialmanager.com/jfi/)", "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors"},
+    "data_code_policy": {"value": "Elsevier Option C: deposit research data in a repository and cite/link it, or state why it cannot be shared; data statement encouraged at submission", "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors"},
+    "preprint_policy": {"value": "optional free SSRN posting offered during submission; public once the paper passes initial desk review", "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors"},
+    "llm_policy": {"value": "declare generative-AI use in manuscript preparation in a section before the references at first submission; basic grammar/spelling tools exempt; no AI-generated or AI-altered images", "source": "https://www.sciencedirect.com/journal/journal-of-financial-intermediation/publish/guide-for-authors"},
+    "jel_codes_required": {"value": null, "note": "not stated on the official pages as of 2026-11-24"}
+  }
+}
+```

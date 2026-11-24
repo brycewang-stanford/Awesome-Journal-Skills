@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "cav-skills",
   "version": "1.2.0",
-  "description": "Depth pack for CAV (Computer Aided Verification): the four LNCS submission categories, two-stage reviewing with rebuttal, partial double-anonymity, AEC artifact badges, verification-tool reproducibility, and the LNCS open-access camera-ready.",
+  "description": "Depth pack for CAV (Computer Aided Verification): the three CAV 2027 LNCS submission categories, two-stage reviewing with rebuttal, partial double-anonymity, AEC artifact badges (mandatory for tool papers), verification-tool reproducibility, and the LNCS camera-ready.",
   "owner": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
@@ -15,7 +15,7 @@
       "name": "cav-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve CAV-specific skills for the International Conference on Computer Aided Verification and its Springer LNCS open-access proceedings, grounded in the CAV 2026 (FLoC, Lisbon) call, the LNCS proceedings, i-cav.org, and dblp.",
+      "description": "Twelve CAV-specific skills for the International Conference on Computer Aided Verification and its Springer LNCS proceedings, grounded in the CAV 2027 (Amsterdam) call, the LNCS proceedings, i-cav.org, and dblp.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

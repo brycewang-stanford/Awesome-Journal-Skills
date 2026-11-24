@@ -8,8 +8,8 @@ description: Use when preparing an accepted ACM CHI paper for publication — th
 Acceptance at CHI starts a production pipeline with more moving parts than most
 venues: ACM TAPS renders your paper from source, an accessibility pass is mandatory
 rather than aspirational, and the video preview and registration have their own
-deadlines. CHI 2027 dates (chi2027.acm.org, read 2026-07-08): TAPS source upload
-**January 14, 2027**; publication-ready package on PCS **February 18, 2027**;
+deadlines. CHI 2027 dates (chi2027.acm.org, re-read 2026-11-24): eRights completion
+**January 7, 2027**; TAPS source upload **January 14, 2027**; publication-ready package on PCS **February 18, 2027**;
 registration and presentation video **March 4, 2027**.
 
 ## TAPS is a compiler, not a dropbox
@@ -69,11 +69,14 @@ baseline to 6% with our technique, consistent across all three tasks" succeeds.
 ACM's publication model changed decisively for this generation of CHI: **from
 January 1, 2026 all ACM publications are open access** in the Digital Library. Costs
 are covered either by your institution's ACM Open agreement (over 2,600 institutions;
-the majority of ACM conference papers) or by an APC; ACM posted discounted transitional
-APC rates ($250 member / $350 non-member) for conferences during 2026 — the exact
-arrangements applying to CHI 2027 authors are cycle-specific (待核实 via the e-rights
-form and acm.org/publications/openaccess). Complete the ACM e-rights form as soon as
-it arrives; TAPS will not finalize without it. Fill CCS concepts and keywords
+the majority of ACM conference papers) or by an APC. ACM's discounted transitional
+rates for 2026 conferences were $250 member / $350 non-member; the CHI 2027 call states
+**all CHI 2027 papers are published under ACM Open and the 2027 APC is $500 for
+ACM/SIG members and $750 for non-members**, payable when the corresponding author's
+institutional email in the eRights form is not covered by ACM Open (waivers are rare;
+see the financial hardship waiver program). Complete the eRights form by the
+**January 7, 2027** eRights deadline — the TAPS link only arrives after it, and author
+order, title and affiliations are frozen from then on. Fill CCS concepts and keywords
 thoughtfully — they drive DL discovery permanently.
 
 ## The February and March deliverables
@@ -87,13 +90,15 @@ registration with the presentation video. Practical notes:
 - The video preview is optional but cheap leverage: it is often the only part of the
   paper a conference attendee sees before choosing sessions. One idea, one
   visual, spoken captions-checked audio — not a compressed talk.
-- Registration rules for publication (who must register, at what rate, in-person
-  versus remote presentation) are posted per cycle and were 待核实 at check time;
-  confirm before assuming a remote option exists.
+- Registration: the CHI 2027 call requires **at least one author of each accepted
+  paper to register by the March 4 deadline**, or the work is withdrawn from the ACM
+  Digital Library. Authors who do not attend in person may instead upload a
+  presentation video by the same date; registration rates are on the registration
+  page, not the call.
 
 ## Sequence for a calm January–March
 
-1. Week of acceptance: e-rights form, ORCID collection, owner per deliverable.
+1. Week of acceptance: eRights form (due Jan 7), ORCID collection, owner per deliverable.
 2. Early January: TAPS compile attempt #1; fix class errors; alt-text sweep done.
 3. Jan 14: TAPS source in. Respond to TAPS validation quickly — the queue slows near
    the deadline.
@@ -110,5 +115,5 @@ registration with the presentation video. Practical notes:
            supplements ✓/✗ · preview ✓/✗ · registered ✓/✗
 [Next deadline] <date> — <deliverable> — owner: <name>
 [Accessibility gaps] <figures/tables/math still failing>
-[OA route] ACM Open institution / APC (rate 待核实 for the cycle)
+[OA route] ACM Open institution / APC ($500 member / $750 non-member for 2027)
 ```

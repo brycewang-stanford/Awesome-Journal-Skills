@@ -11,42 +11,52 @@ one-shot revision** path on top of that, double-column ACM formatting, and an ev
 bar written in the language of the physical layer — over-the-air measurement, channel
 and mobility conditions, and energy on real hardware.
 
-Official basis checked on **2026-07-09**: the MobiCom 2026 conference and Call-for-Papers
-pages on `sigmobile.org`, the `mobicom26.hotcrp.com` submission and deadlines pages, the
-SIGMOBILE MobiCom landing and artifact-evaluation pages, the SIGMOBILE Test-of-Time award
-pages, a community deadline aggregator for the forthcoming 2027-cycle dates, and dblp /
-the ACM Digital Library for exemplar verification. Direct fetches of `sigmobile.org`,
-`hotcrp.com`, and `dblp.org` returned **HTTP 403** in the verification environment, so
-every fact below was read through search-engine renderings of the exact official URLs and
-cross-checked across independent renderings; the full trail — including everything still
-marked 待核实 — is in [`resources/official-source-map.md`](resources/official-source-map.md).
+Official basis **re-verified on 2026-11-24** by direct fetch: the MobiCom 2027 home page,
+Call for Papers, Call for Artifacts and committee pages on `sigmobile.org`, the
+`mobicom27.hotcrp.com` deadline clock, the MobiCom 2026 home page and CFP (history), the
+SIGMOBILE MobiCom landing page, and the SIGMOBILE Test-of-Time award page. The original
+2026-07-09 pass (including dblp / the ACM Digital Library for exemplar verification) was read
+through search-engine renderings because `sigmobile.org`, `hotcrp.com`, and `dblp.org` then
+returned **HTTP 403**. The full trail — including everything still marked 待核实 — is in
+[`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What makes MobiCom unlike its siblings
 
-Verified for the 2026 edition and the opening of the 2027 cycle; these mechanics drive
+Verified for MobiCom 2027 (re-verified 2026-11-24); these mechanics drive
 most of the advice in the skills and most of the missteps by authors arriving from a
 single-deadline venue or from a USENIX systems conference:
 
 - **Two rolling deadlines per year, each feeding the next edition.** MobiCom has run a
-  multi-deadline model since its 25th edition (2019). The winter/spring round and the
-  summer/fall round each hold their own PC meeting; a paper submitted to the summer 2026
-  round is competing for **MobiCom 2027**, not the 2026 program already set.
+  multi-deadline model since its 25th edition (2019). Each round holds its own PC meeting;
+  **MobiCom 2027** (33rd, **October 18-22, 2027, Athens, Greece**) took its summer round in
+  August/September 2026 (papers September 2, 2026 AoE, decisions November 19, 2026) and lists
+  its winter round as **"TBD"**.
 - **Two review rounds *plus* a rebuttal, not a single verdict.** Within one deadline,
   papers that do not advance past the first round get an early notification with reviews;
   survivors reach a second round whose reviews are released before a fixed **rebuttal
-  window**. This is a genuinely different response surface from a USENIX venue that offers
+  window** — optional, **500 words**, facts and answers only, no new experiments, data, or
+  figures. This is a genuinely different response surface from a USENIX venue that offers
   no rebuttal at all.
 - **The one-shot revision is retained on top of the rebuttal.** Beyond accept/reject,
-  MobiCom keeps a major-revision channel intended to raise the timeliness and quality of
-  results; a revised paper returns to reviewers against the issue list it was given.
+  MobiCom keeps a major-revision channel (at most **three** required changes, resubmitted at
+  the next deadline); a revised paper returns to reviewers against the issue list it was
+  given. Accepts are **conditional** until 4-6 weeks of anonymous shepherding, and a plain
+  reject cannot return to MobiCom for **11 months**.
+- **Every submission brings a reviewer.** New in 2027: one senior author per paper reviews up
+  to three submissions in the same round.
 - **Double-column, 12 pages that count figures.** The body is capped at 12 single-spaced
   numbered pages *including figures and tables*, in the ACM double-column geometry, with
-  references (and optional appendices after them) outside the cap.
+  references (and optional appendices after them, starting on a new page) outside the cap;
+  no embedded hyperlinks, PDF under 15 MB, `acmart` `sigconf,10pt`.
 - **Double-blind on HotCRP.** Submissions are anonymous on the per-edition
-  `mobicom<yy>.hotcrp.com` site; the abstract/registration step precedes the paper upload.
-- **ACM artifact badges, not a USENIX scheme.** Accepted papers may earn the three ACM
-  badges — *Artifacts Available*, *Artifacts Evaluated — Functional*, and *Results
-  Reproduced* — through a separate artifact-evaluation committee.
+  `mobicom<yy>.hotcrp.com` site; the abstract/registration step (at least 100 words, no
+  "TBD") precedes the paper upload.
+- **ACM artifact badges, not a USENIX scheme.** Accepted and conditionally accepted papers
+  may earn the three ACM badges — *Artifacts Available*, *Artifacts Evaluated — Functional*,
+  and *Results Reproduced* — through a separate artifact-evaluation committee.
+- **ACM open access.** Authors outside ACM Open institutions pay an APC unless waived
+  (2027 subsidized: $500 ACM/SIG members, $750 non-members); every accepted paper ships a
+  90-second teaser video and an in-person presenter.
 - **Evidence is measured over the air.** MobiCom's reviewer culture expects real-device
   testbeds, RF/channel measurement methodology, mobility realism, and energy accounting;
   a simulation-only or single-run result reads as under-evaluated here in a way it might
@@ -138,51 +148,47 @@ MobiCom-Skills/
    `mobicom-author-response` (rebuttal or revision), or `mobicom-artifact-evaluation` +
    `mobicom-camera-ready` (accept).
 
-## 2026-27 anchor facts (dated snapshot, not standing rules)
+## MobiCom 2027 anchor facts (dated snapshot, not standing rules)
 
-- **MobiCom 2026** is the **32nd** edition: **October 26-30, 2026, Austin, TX, USA**;
-  its two rounds are decided and the program is set.
-- MobiCom 2026's **winter/spring round** registered abstracts by **March 7, 2026** and
-  took papers by **March 14, 2026** (an 11:59 pm AoE cutoff shown as 7:59 am EDT), with
-  final notification reported around **June 22, 2026**.
-- The **next open gate** as of 2026-07-09 is the **MobiCom 2027 first round**, a
-  summer/fall deadline reported around **September 3, 2026** with notification around
-  **November 24, 2026** — dates from a community aggregator, marked 待核实 until the 2027
-  CFP is posted.
-- Format: **12 double-column pages including figures and tables**, references and
-  optional appendices outside the cap; **double-blind** on HotCRP.
-- Artifact evaluation offers the three **ACM badges**; the **SIGMOBILE Test-of-Time**
-  award is presented at MobiCom.
+- **MobiCom 2027** is the **33rd** edition: **October 18-22, 2027, Athens, Greece**. General
+  Co-Chairs Dimitrios Koutsonikolas and Symeon Papavassiliou; TPC Co-Chairs Joerg Widmer and
+  Nirupam Roy.
+- **Summer round** (decided): abstracts **August 26, 2026**, papers **September 2, 2026**
+  (23:59 AoE), early reject October 23, rebuttal November 3-6, acceptance November 19, 2026.
+  **Winter round: TBD** on 2026-11-24 — the next open gate has no published date.
+- Artifacts: summer round due January 17, 2027 (notification February 17, 2027); winter round
+  due July 24, 2027 (notification August 24, 2027).
+- Format: **12 double-column pages including figures and tables**, references and optional
+  appendices outside the cap; **double-blind** on HotCRP; rebuttal at most 500 words.
+- History: **MobiCom 2026** (32nd) met in Austin, TX, October 26-30, 2026; its winter round
+  took abstracts March 6 and papers March 13, 2026 (AoE).
 
 ## Fact discipline
 
 Three classes of statement are kept distinguishable throughout the pack:
 
 1. **Verified cycle facts** — dates, caps, and rules traced to a numbered source in the
-   source map (e.g., the 12-page double-column rule, the two-round + rebuttal process,
-   the March 14 2026 winter-round deadline).
+   source map (e.g., the 12-page double-column rule, the two-round + 500-word rebuttal
+   process, the September 2, 2026 summer-round deadline).
 2. **Reported facts** — carried only by secondary renderings and labeled as such (e.g.,
-   the June 2026 winter-round notification and the September 2026 2027-round deadline,
-   reported by a community aggregator; Best-Paper and Test-of-Time selections via author
-   institutions and SIGMOBILE award pages).
-3. **待核实 items** — explicitly marked and phrased as questions (e.g., the 2027 CFP's
-   exact dates, the 2026 chairs, the rebuttal window length, and the current artifact
-   deadlines).
+   Best-Paper selections via author institutions).
+3. **待核实 items** — explicitly marked and phrased as questions (e.g., the 2027 winter-round
+   dates, the 2027 camera-ready deadline, registration fees).
 
 A statement of class 2 or 3 presented as class 1 anywhere in the skills is a bug; fix it
 against the live pages.
 
 ## Maintenance notes
 
-- Every date above is a **2026-27 snapshot**. MobiCom reissues its rules per edition *and
+- Every date above is a **MobiCom 2027 snapshot** (re-verified 2026-11-24). MobiCom reissues its rules per edition *and
   runs two deadlines per year* — reopen the current CFP and the specific HotCRP
   `/deadlines` page before deadline-sensitive advice.
 - The deadline is an **AoE** cutoff even when the page prints a US-Eastern clock time;
   never reuse a previous cycle's local conversion.
 - Which **edition a round feeds** shifts every cycle — confirm on the live CFP that the
   round you are targeting is the one you think it is.
-- Chairs rotate per edition and the 2026 committee names were not retrievable — check the
-  committee page before naming anyone.
+- Chairs rotate per edition — check the committee page before naming anyone (the 2027 names
+  above were read on 2026-11-24).
 - New exemplars must pass the venue-verification recipe at the end of
   [`resources/exemplars/library.md`](resources/exemplars/library.md); the wireless canon's
   most famous papers are the most frequently misfiled across INFOCOM/SIGCOMM/NSDI.

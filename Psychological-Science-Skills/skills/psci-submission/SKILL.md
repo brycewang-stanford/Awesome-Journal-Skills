@@ -16,7 +16,7 @@ official page first.
 - Unsure what the format and open-science requirements demand
 - Confirming the abstract, anonymization, Transparency Statement, and deposits are in order
 
-## Process facts (verify volatile items on the official page)
+## Process facts (re-verified 2026-11-24 on the APS pages; still re-check before submitting)
 
 - **Owner / publisher:** Association for Psychological Science (APS) / SAGE.
 - **Portal:** **Manuscript Central**, `mc.manuscriptcentral.com/psci`.
@@ -24,19 +24,22 @@ official page first.
 - **Word format (Research Article):** **Introduction + Discussion + Footnotes + Acknowledgments +
   Appendices ≤ 2,000 words combined**; **Method + Results excluded** (typically ≤ ~2,500); ~**40
   references**.
-- **Abstract:** **150 words**, stating **sample sizes, participant populations, and design limitations**.
+- **Abstract:** **150 words**, stating **sample sizes, participant populations, and design limitations**;
+  **five to seven keywords** directly under it (APS Manuscript Structure page).
 - **Style:** **APA 7th edition**; **tables/figures embedded** in the text.
 - **Open science (since 1 Jan 2024):** **open data + materials required** (justified case-by-case
-  exemptions); **Research Transparency Statement** between Intro and Methods; **DOIs** for shared
-  content; preregistration reported and weighed.
-- **Types:** Research Article; Registered Reports (Stage 1/2); RR with Existing Data; Commentary (≤1,000).
+  exemptions); **Research Transparency Statement** between Intro and Methods, now also carrying
+  **conflicts of interest, funding, AI use and ethics**; **DOIs** for shared content; preregistration
+  reported and weighed; online samples need a bot/AI-response screening statement in the Method.
+- **Types:** Research Article; Registered Reports (Stage 1/2; intro and discussion ≤ 1,000 words
+  each); RR with Existing Data; Commentary / Reply (≤ 1,000 words, ~20 references, one figure or table).
 
 ## Preflight checklist
 
 ### Format & abstract
 - [ ] Intro + Discussion (+ footnotes/acks/appendices) **≤ 2,000 words combined**
 - [ ] Method + Results readable (≤ ~2,500 words)
-- [ ] Abstract **150 words**: sample sizes + populations + design limitations
+- [ ] Abstract **150 words**: sample sizes + populations + design limitations; 5–7 keywords below it
 - [ ] ~40 references; APA 7th edition; tables/figures **embedded** near discussion
 
 ### Anonymization (for review)
@@ -48,7 +51,8 @@ official page first.
 - [ ] **Open data** deposited + DOI + data dictionary (or justified exemption)
 - [ ] **Open materials** deposited + DOI
 - [ ] **Analysis scripts** deposited; reproduce in a fresh session
-- [ ] **Research Transparency Statement** placed between Intro and Methods
+- [ ] **Research Transparency Statement** placed between Intro and Methods (incl. COI, funding, AI, ethics)
+- [ ] Online samples: bot / AI-response screening statement in the Method
 - [ ] Preregistration linked; confirmatory/exploratory split consistent
 
 ### Stats & disclosure

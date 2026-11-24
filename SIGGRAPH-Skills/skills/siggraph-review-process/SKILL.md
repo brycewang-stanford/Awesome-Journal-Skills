@@ -9,8 +9,10 @@ Understanding the SIGGRAPH pipeline tells you where author leverage exists and w
 The process is a hybrid: a **conference clock** (one deadline, a short rebuttal, a committee
 meeting that decides in one round) wrapped around a **journal outcome** (an ACM Transactions on
 Graphics article, with a conditional-accept revision to reach the journal bar). Facts below trace
-to the SIGGRAPH 2026 reviewer-instructions/ethics page (`resources/official-source-map.md`);
-reconfirm per cycle.
+to the SIGGRAPH 2026 call and reviewer-instructions/ethics page (`resources/official-source-map.md`,
+re-verified 2026-11-24); reconfirm per cycle. Review is **double-blind**, and every paper that
+survives the sort gets **four full reviews** (secondary + three tertiary) with the primary
+moderating.
 
 ## The pipeline
 
@@ -18,7 +20,7 @@ reconfirm per cycle.
 Submission form (authors locked) -> full submission (PDF + supplemental video)
    -> assignment to a Technical Papers Committee member (primary) + secondary + external tertiary reviewers
    -> reviews written; authors see the full set
-   -> rebuttal window (<=1000 words, text only)
+   -> rebuttal window (<=1000 words, text only, anonymous)
    -> Technical Papers Committee meeting: conditional accept / reject, and track assignment
    -> [if conditional] second-stage review verifies the final version
    -> publication in the SIGGRAPH issue of ACM TOG (or the Conference Proceedings)

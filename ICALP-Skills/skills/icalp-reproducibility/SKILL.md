@@ -13,8 +13,9 @@ from the start, because a proof cannot be reconstructed after the fact any more 
 
 ## The full version is the reproducibility story
 
-- The 15-page body sketches; the **full version** (a clearly labelled appendix at submission, and an
-  **arXiv/ECCC/HAL** posting at/after notification) contains **every proof in full**. This is what
+- The first ten pages after the title page sketch; the **full version** (the submission itself —
+  ICALP has had no page limit since 2026 — and an **arXiv/ECCC/HAL** posting, which ICALP encourages)
+  contains **every proof in full**; the call requires proofs that allow the claims to be verified. This is what
   makes an ICALP result reproducible: an independent expert can verify it end to end.
 - Write proofs **self-contained**: state every lemma the argument uses, prove or cite each, and avoid
   "it is easy to see" for steps that are not. The test is whether a competent non-author can follow it

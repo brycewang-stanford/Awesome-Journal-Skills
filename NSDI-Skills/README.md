@@ -9,26 +9,30 @@ revise-and-resubmit** channel that spans those gates, a resubmission ban that ma
 speculative submissions expensive, three tracks with different evidence contracts,
 artifact badges, and a Community Award tied to public code and data.
 
-Official basis checked on **2026-07-08**: the NSDI '27 conference page and Call for
-Papers, the NSDI '26 conference page, CFP, multiple-deadlines process page, and Call
-for Artifacts, the per-deadline HotCRP sites, the USENIX Test of Time awards page,
-and dblp's NSDI stream for exemplar verification. Direct fetches of `usenix.org` and
-`dblp.org` returned HTTP 403 in the verification environment, so every source was
-read through search-engine renderings of the exact official URLs and cross-checked
-across independent renderings; the full trail — including everything still marked
-待核实 — is in [`resources/official-source-map.md`](resources/official-source-map.md).
+Official basis **re-verified on 2026-11-24** by direct fetch: the NSDI '27 conference page,
+Call for Papers, Call for Artifacts, Instructions for Presenters and Spring Accepted Papers;
+the NSDI '27 fall HotCRP deadline clock; the NSDI '26 conference page, CFP and
+multiple-deadlines process page; the empty NSDI '28 placeholder page; and the USENIX Test of
+Time awards page. The original 2026-07-08 pass (including dblp's NSDI stream for exemplar
+verification) was read through search-engine renderings because `usenix.org` and `dblp.org`
+then returned HTTP 403. The full trail — including everything still marked 待核实 — is in
+[`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## The mechanics that make NSDI unlike its siblings
 
-Verified for the 2026-27 cycle; these drive most of the advice in the skills and most
+Verified for the NSDI '27 cycle (re-verified 2026-11-24); these drive most of the advice in the skills and most
 of the mistakes made by authors arriving from single-deadline venues:
 
 - **Two deadlines feed one symposium.** NSDI '27 (May 11-13, 2027, Providence, RI)
-  accepted papers at a spring gate (papers April 23, 2026) and accepts them at a fall
-  gate (abstracts September 10, papers September 17, 2026, 11:59 pm US EDT). Each
-  gate is its own HotCRP site, its own review cohort, its own accepted-papers list.
-- **The one-shot revision is the author-response mechanism.** No rebuttal phase
-  appears in the rendered CFP. Instead, borderline papers receive a reviewer-written
+  accepted papers at a spring gate (papers April 23, 2026) and a fall gate (abstracts
+  September 10, papers September 17, 2026, 11:59 pm US EDT; notification December 8,
+  2026). Each gate is its own HotCRP site, its own review cohort, its own
+  accepted-papers list. Both '27 gates are now closed; NSDI '28's CFP is not yet out.
+- **A prescreen reads only your Introduction.** New in '27: before full review, reviewers
+  check the Introduction (no more than 3 pages) for scope, accessibility to a
+  non-specialist NSDI PC member, and claims that fit the chosen track.
+- **The one-shot revision is the author-response mechanism.** The '27 CFP describes no
+  rebuttal phase. Instead, borderline papers receive a reviewer-written
   list of required issues and one chance to resubmit at a later deadline — same
   reviewers where possible, mandatory change-highlighted diff and change memo, and
   terminal rejection if the list is dodged.
@@ -42,12 +46,15 @@ of the mistakes made by authors arriving from single-deadline venues:
 - **12 pages including footnotes, figures, and tables** — for submissions *and* final
   papers — with references and appendices allowed beyond the cap.
 - **Double-blind with a track-shaped exception**, an eight-submissions-per-author
-  cap across deadlines, and a fixed citation sentence for concurrent submissions.
+  cap across deadlines, a fixed citation sentence for concurrent submissions, arXiv
+  allowed only under a different title and system name, and a HotCRP attestation that
+  the text is primarily human written (substantively AI-generated papers are barred).
 - **USENIX open access**: every NSDI paper ever published is a free PDF, which raises
   the bar for related-work coverage and removes excuses for venue misattribution.
 - **Artifacts and openness are institutionalized**: post-acceptance badge evaluation
-  (Artifacts Available confirmed by name for '26) and a **Community Award** for the
-  best paper with public code/data by the final-papers deadline.
+  (NSDI '27: Artifacts Available, Artifacts Functional, Results Reproduced) and a
+  **Community Award** for the best paper with public code/data by the final-papers
+  deadline (October 20, 2026 spring / March 4, 2027 fall).
 
 ## Skills
 
@@ -70,7 +77,7 @@ of the mistakes made by authors arriving from single-deadline venues:
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Eleven official sources with URLs and access dates, the verified-fact list, the access-method note, and the explicit 待核实 register. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Twelve official sources with URLs and access dates, the verified-fact list, the access-method note, and the explicit 待核实 register. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces plus five author-side verification passes (clock, budget, blindness, status, revision). |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five venue-verified NSDI papers (2007-2020) across five system classes, each with a self-check, plus the Raft/B4/Chord/Spanner/Tor misattribution guard. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional RPC-retry system's abstract and introduction rebuilt into the NSDI operational-evidence arc, before → after. |
@@ -132,18 +139,23 @@ NSDI-Skills/
    `nsdi-author-response` (revision), or `nsdi-artifact-evaluation` +
    `nsdi-camera-ready` (accept).
 
-## 2026-27 anchor facts (dated snapshot, not standing rules)
+## NSDI '27 anchor facts (dated snapshot, not standing rules)
 
 - **NSDI '27** is the **24th** edition: **May 11-13, 2027, Omni Providence Hotel,
   Providence, RI, USA**.
 - '27 spring gate: abstracts April 16 / papers April 23, 2026; notification
   July 23, 2026. '27 fall gate: abstracts September 10 / papers September 17, 2026;
   notification December 8, 2026. All 11:59 pm **US EDT** (where '26 used PDT — the
-  convention itself moves).
+  convention itself moves). Final papers: October 20, 2026 (spring) / March 4, 2027
+  (fall).
+- Artifacts: spring due August 7, 2026 (decisions October 13, 2026); fall due
+  December 18, 2026 (decisions February 19, 2027).
 - Tracks: research, operational systems, frontiers. Cap: eight submissions per
   author across deadlines. Format: 12 pages + references + appendices, double-blind.
-- **NSDI '26** (23rd) ran May 4-6, 2026, Renton, WA; its artifact evaluation offered
-  three badges with artifacts due July 31, 2025.
+- Program Co-Chairs: Marcos K. Aguilera (NVIDIA) and Justine Sherry (Carnegie Mellon
+  University and Amazon Prime Video).
+- **NSDI '26** (23rd) ran May 4-6, 2026, Renton, WA. **NSDI '28**: placeholder page only
+  on 2026-11-24 — no dates.
 
 ## Fact discipline
 
@@ -153,25 +165,25 @@ Three classes of statement are kept distinguishable throughout the pack:
    the source map (e.g., the April 23 spring deadline, the 12-page rule, the
    one-shot-revision requirements).
 2. **Reported facts** — carried only by secondary renderings and labeled as such
-   (e.g., Test of Time selections reported via author institutions, the Spark Best
-   Paper via the Apache project).
+   (e.g., the Spark Best Paper via the Apache project).
 3. **待核实 items** — explicitly marked and phrased as questions (e.g., the '27
-   co-chairs, camera-ready dates, the full '26 badge names, any rebuttal phase).
+   '28 dates, registration rates, whether a rebuttal phase exists beyond the CFP's
+   silence).
 
 A statement of class 2 or 3 presented as class 1 anywhere in the skills is a bug;
 fix it against the live pages.
 
 ## Maintenance notes
 
-- Every date above is a **2026-27 snapshot**. NSDI reissues rules per edition *and
+- Every date above is an **NSDI '27 snapshot** (re-verified 2026-11-24). NSDI reissues rules per edition *and
   per deadline* — reopen the current CFP and the specific HotCRP `/deadlines` page
   before deadline-sensitive advice.
-- The **frontiers track appears in the rendered '27 CFP**; do not assume it exists
-  (or keeps its terms) in other editions.
+- The **frontiers track and the Introduction prescreen are new in the '27 CFP**; do not
+  assume they exist (or keep their terms) in other editions.
 - The deadline **time zone changed between '26 (PDT) and '27 (EDT)**; never reuse a
   previous cycle's time conversion.
-- Chairs rotate per edition and the '27 co-chairs were not retrievable — check the
-  organizers page before naming anyone.
+- Chairs rotate per edition — check the organizers page before naming anyone (the '27
+  co-chairs above were read on 2026-11-24).
 - New exemplars must pass the venue-verification recipe at the end of
   [`resources/exemplars/library.md`](resources/exemplars/library.md); the systems
   canon's most famous papers are the most frequently misfiled.

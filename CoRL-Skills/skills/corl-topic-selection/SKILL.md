@@ -54,24 +54,26 @@ project is a robotics-systems paper; a no-no project needs rethinking, not routi
   10th) and single-track in spirit: it publishes far fewer papers than ICRA/IROS,
   so incremental fits that would survive at a mega-conference get filtered here.
 
-## Timing reality for 2026-07-08
+## Timing reality for 2026-11-24
 
-The CoRL 2026 deadline (paper: May 29, 2026) has passed. Routing decisions made
-today are about the **next** deadlines, so build the comparison calendar forward:
+The CoRL 2026 cycle is over (paper deadline May 28, 2026; conference November
+9–12). Routing decisions made today are about the **next** deadlines, so build the
+comparison calendar forward:
 
 ```text
-Routing calendar as of 2026-07-08 (verify each venue's own pages):
-  CoRL 2027        — CFP not yet posted; recent cycles closed late May/early June  [待核实]
-  ICRA 2027        — direct-submission deadline historically mid-September
-  RSS 2027         — historically late January / early February
-  NeurIPS 2026     — main deadline has also passed for this year
-  ICLR 2027        — historically late September; nearest big ML deadline
+Routing calendar as of 2026-11-24 (verify each venue's own pages):
+  CoRL 2027        — not announced (no venue, dates or CFP); 2026 closed May 28  [待核实]
+  RSS 2027         — Stage 1 Extended Abstract due December 4, 2026 (Athens, July 2027)
+  ICRA 2027        — direct-submission deadline has passed (historically mid-September)
+  IROS 2027        — Florence, Sept 27 - Oct 1, 2027; call not yet published (historically ~March)
+  ICML 2027        — full papers January 22, 2027
   RA-L (journal)   — rolling; pairs with ICRA/IROS presentation options
 ```
 
-A learning-heavy project missing CoRL 2026 typically weighs ICLR 2027 (if the sim
-evidence stands alone) against ICRA 2027 (if the hardware story stands alone)
-against waiting for CoRL 2027 (if the paper genuinely needs both audiences).
+A learning-heavy project that is ready now typically weighs ICML 2027 (if the sim
+evidence stands alone) against the RSS 2027 two-stage track (if a hypothesis and
+method are ready but hardware results are still coming) against waiting for CoRL
+2027 (if the paper genuinely needs both audiences).
 
 ## Common misroutes seen in review
 

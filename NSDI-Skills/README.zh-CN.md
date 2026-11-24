@@ -8,24 +8,27 @@ fall）、跨截止日期的 **one-shot revise-and-resubmit** 机制、使投机
 的 resubmission ban、三条评审契约不同的 track、artifact badges，以及与公开代码/
 数据挂钩的 Community Award。
 
-官方依据核验日期：**2026-07-08**。已核验 NSDI '27 会议主页与 Call for Papers、
-NSDI '26 主页、CFP、multiple-deadlines process 页面与 Call for Artifacts、按截止
-日期划分的 HotCRP 站点、USENIX Test of Time awards 页面，以及用于 exemplar 核验的
-dblp NSDI 条目。核验环境中直接抓取 `usenix.org` 与 `dblp.org` 均返回 HTTP 403，
-因此所有事实均通过搜索引擎对官方 URL 的渲染读取，并经多个独立渲染交叉核对；完整
-链路（含全部 待核实 事项）见
+官方依据于 **2026-11-24 重新核验**（直接抓取）：NSDI '27 会议主页、Call for Papers、
+Call for Artifacts、Instructions for Presenters 与 Spring Accepted Papers；NSDI '27 fall
+HotCRP 截止时钟；NSDI '26 主页、CFP 与 multiple-deadlines process 页面；尚为空白的
+NSDI '28 占位页；以及 USENIX Test of Time awards 页面。最初 2026-07-08 的核验（含用于
+exemplar 核验的 dblp NSDI 条目）因 `usenix.org` 与 `dblp.org` 当时返回 HTTP 403，是通过
+搜索引擎对官方 URL 的渲染读取的。完整链路（含全部 待核实 事项）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## NSDI 区别于兄弟会议的机制
 
-以下机制均为 2026-27 周期核验结果，是本包大部分建议的出发点，也是从单截止日期
+以下机制均为 NSDI '27 周期核验结果（2026-11-24 重新核验），是本包大部分建议的出发点，也是从单截止日期
 会议转来的作者最常踩的坑：
 
 - **两个截止日期喂给同一届会议。** NSDI '27（2027 年 5 月 11-13 日，美国罗德岛
   Providence）设 spring gate（论文 2026-04-23）与 fall gate（摘要 2026-09-10、
-  论文 2026-09-17，11:59 pm US EDT）。每个 gate 有独立的 HotCRP 站点、独立评审
-  批次与独立的 accepted-papers 列表。
-- **One-shot revision 就是作者答辩渠道。** 渲染出的 CFP 中没有 rebuttal 阶段；
+  论文 2026-09-17，11:59 pm US EDT；通知 2026-12-08）。每个 gate 有独立的 HotCRP
+  站点、独立评审批次与独立的 accepted-papers 列表。'27 两个 gate 均已关闭；NSDI '28
+  的 CFP 尚未发布。
+- **预筛只读 Introduction。** '27 新增：正式评审前，审稿人只读 Introduction（不超过
+  3 页），检查是否在范围内、非本子领域的 NSDI PC 成员能否读懂、主张是否符合所选 track。
+- **One-shot revision 就是作者答辩渠道。** '27 CFP 未描述任何 rebuttal 阶段；
   边界论文会收到审稿人写明的 required issues 清单，并获得在后续截止日期重投一次
   的机会——尽可能由同一批审稿人复审，必须附高亮差异版与修改说明，回避清单则被
   终局拒稿。
@@ -37,12 +40,13 @@ dblp NSDI 条目。核验环境中直接抓取 `usenix.org` 与 `dblp.org` 均�
 - **12 页上限含脚注、图与表**——投稿与最终版同一上限；references 与 appendices
   可超出该页数。
 - **双盲但按 track 分叉**；每位作者跨截止日期最多 8 篇；引用同时在投的 NSDI
-  论文须使用 CFP 规定的固定句式。
+  论文须使用 CFP 规定的固定句式；arXiv 版本须换标题与系统名；须在 HotCRP 声明正文
+  主要由人撰写（实质由生成式 AI 写成的论文不予接受）。
 - **USENIX 开放获取**：历届 NSDI 论文全部免费下载，related work 覆盖不足或引用
   venue 张冠李戴都无从辩解。
-- **Artifact 与开放性制度化**：录用后 badge 评测（'26 确认的名称为 Artifacts
-  Available），并设 **Community Award**——授予在 final-papers 截止前公开代码/
-  数据的最佳论文。
+- **Artifact 与开放性制度化**：录用后 badge 评测（NSDI '27：Artifacts Available、
+  Artifacts Functional、Results Reproduced），并设 **Community Award**——授予在
+  final-papers 截止（spring 2026-10-20 / fall 2027-03-04）前公开代码/数据的最佳论文。
 
 ## Skills
 
@@ -65,7 +69,7 @@ dblp NSDI 条目。核验环境中直接抓取 `usenix.org` 与 `dblp.org` 均�
 
 | 路径 | 内容 |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | 11 个官方来源（URL + 核验日期）、已核验事实清单、访问方式说明与显式的 待核实 台账。 |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | 12 个官方来源（URL + 核验日期）、已核验事实清单、访问方式说明与显式的 待核实 台账。 |
 | [`resources/external_tools.md`](resources/external_tools.md) | 官方在线入口，外加上传前的五道作者侧核验（时钟、页数、匿名、状态、revision）。 |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | 5 篇 venue 已核验的 NSDI 论文（2007-2020，五类系统），各带自检问题，并附 Raft/B4/Chord/Spanner/Tor 张冠李戴防护表。 |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | 一篇虚构 RPC-retry 系统论文的摘要与引言按 NSDI 运维证据弧重写，before → after。 |
@@ -122,17 +126,22 @@ NSDI-Skills/
    `nsdi-author-response`（revision）或 `nsdi-artifact-evaluation` +
    `nsdi-camera-ready`（录用）。
 
-## 2026-27 锚点事实（带日期的快照，非长期规则）
+## NSDI '27 锚点事实（带日期的快照，非长期规则）
 
 - **NSDI '27** 为第 **24** 届：2027 年 5 月 11-13 日，美国罗德岛 Providence，
   Omni Providence Hotel。
 - '27 spring gate：摘要 2026-04-16 / 论文 2026-04-23，通知 2026-07-23；
   fall gate：摘要 2026-09-10 / 论文 2026-09-17，通知 2026-12-08。均为
-  11:59 pm **US EDT**（'26 用的是 PDT——时区约定本身会变）。
+  11:59 pm **US EDT**（'26 用的是 PDT——时区约定本身会变）。最终版截止：
+  2026-10-20（spring）/ 2027-03-04（fall）。
+- Artifact：spring 截止 2026-08-07（结果 2026-10-13）；fall 截止 2026-12-18（结果
+  2027-02-19）。
+- Program Co-Chairs：Marcos K. Aguilera（NVIDIA）、Justine Sherry（Carnegie Mellon
+  University 与 Amazon Prime Video）。
 - Track：research、operational systems、frontiers。上限：每位作者跨截止日期
   8 篇。格式：12 页 + references + appendices，双盲。
-- **NSDI '26**（第 23 届）已于 2026 年 5 月 4-6 日在华盛顿州 Renton 举行；其
-  artifact 评测设三枚 badge，artifact 提交截止 2025-07-31。
+- **NSDI '26**（第 23 届）已于 2026 年 5 月 4-6 日在华盛顿州 Renton 举行。
+  **NSDI '28**：2026-11-24 仅有空白占位页，无日期。
 
 ## 事实纪律
 
@@ -140,21 +149,21 @@ NSDI-Skills/
 
 1. **已核验的周期事实**——日期、上限与规则均可追溯到 source map 中带编号的来源
    （如 4 月 23 日 spring 截止、12 页规则、one-shot revision 的要求）。
-2. **转述事实**——仅见于二手渲染并如实标注（如经作者机构页面转述的 Test of
-   Time 名单、Apache 项目转述的 Spark Best Paper）。
-3. **待核实事项**——显式标记并以问题形式表述（如 '27 co-chairs、camera-ready
-   日期、'26 badge 全称、是否存在 rebuttal 阶段）。
+2. **转述事实**——仅见于二手渲染并如实标注（如 Apache 项目转述的 Spark Best
+   Paper）。
+3. **待核实事项**——显式标记并以问题形式表述（如 NSDI '28 日期、注册费、
+   CFP 未提及之外是否存在 rebuttal 阶段）。
 
 若 skills 中有第 2、3 类内容被当作第 1 类陈述，请视为 bug 并对照官方页面修正。
 
 ## 维护说明
 
-- 上述所有日期都是 **2026-27 快照**。NSDI 按届、且按截止日期重设规则——给出
+- 上述所有日期都是 **NSDI '27 快照**（2026-11-24 重新核验）。NSDI 按届、且按截止日期重设规则——给出
   deadline 相关建议前，务必重开当届 CFP 与对应 HotCRP `/deadlines` 页面。
-- **frontiers track 出现在渲染的 '27 CFP 中**；不要假设其他届也有或条款不变。
+- **frontiers track 与 Introduction 预筛是 '27 CFP 新增内容**；不要假设其他届也有或条款不变。
 - 截止时区在 **'26（PDT）与 '27（EDT）之间发生了变化**；不要沿用上一周期的
   时区换算表。
-- 会议主席逐届轮换，'27 co-chairs 未能核验——引用任何人名前先查当届组织页。
+- 会议主席逐届轮换——引用任何人名前先查当届组织页（上面 '27 co-chairs 读取于 2026-11-24）。
 - 新增 exemplar 必须走
   [`resources/exemplars/library.md`](resources/exemplars/library.md) 末尾的
   venue 核验流程；系统领域最著名的论文恰恰最常被记错会议。

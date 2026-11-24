@@ -25,8 +25,8 @@ JIMF prose is **empirical, direct, and policy-aware**. It is not the model-first
 5. **The contribution against the frontier** — one sentence locating you in the GFCy / DCP-ERPT / spillovers / sovereign program (see `jimf-literature-positioning`).
 
 ### Abstract & front matter (Elsevier mechanics)
-- **Abstract ≤250 words** (检索于 2026-06；以官网为准), factual, with the headline magnitude and the policy implication. No undefined acronyms.
-- **Highlights**: 3–5 short bullets (≤85 characters each is the Elsevier convention — 待核实), each a finding, not a topic.
+- **Abstract ≤250 words** (re-checked 2026-11-24；以官网为准), factual, with the headline magnitude and the policy implication. No undefined acronyms.
+- **Highlights**: 3–5 short bullets (≤85 characters each including spaces — JIMF Guide for Authors, re-checked 2026-11-24), each a finding, not a topic.
 - **Keywords** plus **JEL codes** (F31, F32, F36, E44, G15 and neighbors are the usual JIMF territory).
 - Define every acronym on first use (UIP, ERPT, GFCy, FXI, NEER) — a policy reader may not share the academic shorthand.
 

@@ -60,11 +60,12 @@ Committee may rerun it long after your cluster allocation expired.
 
 Acceptance into the volume earns presentation at the matching conference:
 Vol 19 papers accepted by June 15, 2026 present at VLDB 2026 in Boston
-(Aug 31 - Sep 4, 2026); Vol 20 feeds VLDB 2027 in Athens (Aug 23-27, 2027);
-late acceptances roll to the next conference. Registration and the exact
-presentation obligation are cycle-specific — 待核实 against the conference
-site, and budget travel early since the conference lands months after
-publication.
+(Aug 31 - Sep 4, 2026); Vol 20 papers accepted by July 1, 2027 present at
+VLDB 2027 in Athens (Aug 23-27, 2027), and later ones roll to VLDB 2028
+(Marrakech, Aug 28 - Sep 1, 2028). At least one author of each accepted paper
+must attend (VLDB 2027 call); registration pricing is 待核实 against the
+conference site, and budget travel early since the conference lands months
+after publication.
 
 ## What goes wrong here
 

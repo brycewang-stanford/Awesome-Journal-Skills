@@ -6,7 +6,7 @@ description: Use when judging whether a project belongs at NSDI, picking among i
 # NSDI Topic Selection
 
 Venue choice at NSDI is a scope question before it is a quality question. The notes
-below reflect the NSDI '27 Call for Papers as rendered on 2026-07-08; the scope
+below reflect the NSDI '27 Call for Papers as re-verified on 2026-11-24; the scope
 paragraph, track list, and exclusions are rewritten each edition, so reread
 `usenix.org/conference/nsdi27/call-for-papers` before committing a team to a deadline.
 
@@ -74,12 +74,14 @@ venue.
 ## Calendar as a routing input
 
 NSDI's two deadlines per edition change the routing calculus in ways single-deadline
-siblings cannot match. As of 2026-07-08:
+siblings cannot match. As of 2026-11-24:
 
-- NSDI '27 **spring** deadline (papers April 23, 2026) has passed; notification lands
-  July 23, 2026.
-- NSDI '27 **fall** deadline is open: abstracts September 10, papers September 17,
-  2026 (11:59 pm US EDT).
+- NSDI '27 **spring** deadline (papers April 23, 2026) has passed and notified
+  (July 23, 2026); its accepted-papers list is public.
+- NSDI '27 **fall** deadline (papers September 17, 2026, 11:59 pm US EDT) has passed;
+  notification lands December 8, 2026.
+- The next gate is the **NSDI '28 spring** deadline; its CFP and dates were not yet
+  published (the NSDI '28 page is an empty placeholder).
 
 Consequences worth planning around: a near-ready project can target September rather
 than waiting most of a year; a spring submission that draws a **one-shot revision**

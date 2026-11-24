@@ -1,17 +1,22 @@
 ---
 name: osdi-author-response
-description: Use when handling author-side dialogue in an OSDI cycle — which in 2026 means no rebuttal at all: pre-empting objections inside the submission, then treating the conditional-accept shepherd exchange as the real author response, with a protocol for mandated revisions and for cycles that reinstate a response phase.
+description: Use when handling author-side dialogue in an OSDI cycle — which since OSDI '26 (and in the OSDI '27 CFP) means no rebuttal at all: pre-empting objections inside the submission, then treating the conditional-accept shepherd exchange as the real author response, with a protocol for mandated revisions and for cycles that reinstate a response phase.
 ---
 
 # OSDI Author Response
 
-At most venues this skill would draft a rebuttal. At OSDI '26 there was **no
-author-response period** (verified 2026-07-08) — a deliberate removal, since earlier
-OSDI cycles had one. The author's voice therefore appears at exactly two points:
+At most venues this skill would draft a rebuttal. OSDI '26 removed the
+**author-response period** — a deliberate change, since earlier OSDI cycles had one — and
+the OSDI '27 CFP (re-verified 2026-11-24) describes none and offers **no
+revise-and-resubmit**. The author's voice therefore appears at exactly two points:
 **before submission**, inside the paper, and **after a conditional accept**, in the
 shepherding exchange. This skill covers both, plus the fallback if a future cycle
-reinstates a response phase (待核实 each year — check the current CFP's process
-section first, always).
+reinstates a response phase (check the current CFP's process section first, always).
+
+One indirect channel is new in '27: a paper previously rejected elsewhere uploads a
+summary of how it improved, which reviewers see after writing their reviews and before
+decisions. Write it like a response — concern, change, location — not like a cover
+letter.
 
 ## Phase 1: the rebuttal you write in advance
 
@@ -34,7 +39,8 @@ in discussion **by quoting your paper**. You will not be in the room; your text 
 ## Phase 2: shepherding is the author response
 
 A conditional accept arrives with a PC-mandated change list and a shepherd who must
-approve the final paper by June 9 — otherwise the paper is rejected from the program.
+approve the final paper by June 3, 2027 — otherwise the paper is rejected from the program.
+The mandated changes may go beyond traditional shepherding and require new technical work.
 This is a response process with enforcement, and it rewards the same discipline a
 rebuttal would:
 
@@ -44,31 +50,33 @@ rebuttal would:
 | Be concise and factual | Short status notes to the shepherd; diffs and section pointers over essays |
 | Don't relitigate scores | Don't relitigate the reviews — the decision is made; only the changes matter |
 | New results need care | Mandated experiments get full `osdi-experiments` rigor on the frozen testbed |
-| Deadline discipline | Front-load: first full revision to the shepherd weeks before June 9, not on it |
+| Deadline discipline | Front-load: first full revision to the shepherd weeks before June 3, not on it |
 
 ```text
 change-matrix.md (shared with coauthors; mirrored in notes to the shepherd)
 M1 "compare against X under skewed load"  -> new fig 9      -> §5.3 -> DONE
 M2 "state the consistency model precisely"-> new §3.1 defs  -> §3.1 -> DRAFT
 M3 "temper claims about portability"      -> rewrote claims -> §1,§7 -> DONE
-open question -> shepherd (2026-04-14): does M1 require both skew levels?
+open question -> shepherd (2027-04-05): does M1 require both skew levels?
 ```
 
 Two rules of tone: the shepherd is the paper's ally and its gate simultaneously —
 give them evidence to approve, never pressure to concede; and where a mandate seems
 infeasible (hardware gone, trace unlicensable), raise it immediately with an
-alternative, not in June with an apology.
+alternative, not in June with an apology. Authors unwilling or unable to meet the
+conditions may withdraw the paper for revision elsewhere.
 
-## The shepherding calendar (2026 spacing)
+## The shepherding calendar ('27 spacing)
 
-The '26 cycle allowed roughly ten weeks from notification (March 26) to the final
-paper (June 9), and the artifact deadline (May 8) lands in the middle of it. A
-workable split for a conditional accept:
+The '27 cycle allows roughly eleven weeks from notification (March 16, 2027) to the
+final paper (June 3, 2027); in the '26 cycle the artifact deadline landed in the middle
+of that window (the '27 artifact dates are 待核实). A workable split for a conditional
+accept:
 
 - **Week 1** — decode the mandate list with all coauthors; send the shepherd a scoped
   restatement of each mandate and get written confirmation of the interpretation.
 - **Weeks 2–5** — mandated experiments on the frozen testbed; writing fixes in
-  parallel; artifact packaging proceeds concurrently against the May deadline
+  parallel; artifact packaging proceeds concurrently against the artifact deadline
   (`osdi-artifact-evaluation`) — the same person cannot do both in the same week, so
   split ownership explicitly.
 - **Week 6** — full revised draft to the shepherd, change matrix attached; ask what

@@ -16,14 +16,14 @@ write tightly enough to fit ASC's 3,500-word or IRGP's 5,000-word intro+discussi
 - Writing the abstract (and any limitations statement)
 - Polishing for the APA Publication Manual (7th edition)
 
-## Section word rules (verify on the live per-section page — 待核实)
+## Section word rules (re-verified 2026-11-24 on the APA submission-guidelines page)
 
 | Section | Intro + discussion cap | Notes |
 |---------|------------------------|-------|
-| **ASC** | introduction + study intros + Discussion + General Discussion **≤ 3,500 words** | |
+| **ASC** | introduction + study intros + Discussion + General Discussion **≤ 3,500 words** ("strongly recommend") | table of limitations does not count |
 | **IRGP** | introduction + discussion **≤ 5,000 words total**; **≤ 5 studies** in main text | results accessible to general statistical readers |
-| **PPID** | "as succinctly as possible" — no fixed cap stated | 待核实 |
-| All | **abstract ≤ 250 words** | a ≤200-word limitations statement may follow the abstract (待核实) |
+| **PPID** | "as succinctly as possible" — journal states "no formal word limit" | cover letter required |
+| All | **abstract ≤ 250 words**, up to five keywords | ASC: a ≤200-word statement of limitations must follow the abstract |
 
 Tables/figures are embedded and **not counted** toward the word limit — use exhibits to carry detail.
 
@@ -37,8 +37,9 @@ Tables/figures are embedded and **not counted** toward the word limit — use ex
    notes, and supplements; spend capped words on theory and interpretation.
 4. **Abstract (≤250 words).** State the question, the approach (note it is multi-study), the key
    finding with direction, and the contribution.
-5. **Limitations statement (if required).** Cover internal, construct, statistical, and external
-   validity for nonspecialists, within the cap (待核实).
+5. **Limitations statement (ASC: required, ≤ 200 words after the abstract).** Cover internal,
+   construct, statistical, and external validity for nonspecialists; ASC also asks for a table of
+   limitations (not counted toward the 3,500 words). Other sections: optional but useful.
 6. **APA 7th throughout.** Bias-free language, author–date citations, headings, statistical notation;
    inclusive description of samples.
 
@@ -75,7 +76,7 @@ A four-sentence skeleton for the gratitude→construal package, fitting comforta
 ```
 【Section cap】ASC 3,500 / IRGP 5,000 / PPID succinct — intro+discussion within it? [Y/N]
 【Abstract】word count (≤250) — question + multi-study approach + finding + contribution
-【Limitations statement】present + within cap? (待核实)
+【Limitations statement】ASC: present after abstract + ≤ 200 words + table of limitations? [Y/N]
 【Through-line】studies read as one argument? [Y/N]
 【APA 7th】citations, headings, bias-free language? [Y/N]
 【Next】jpsp-open-science-and-transparency

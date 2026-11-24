@@ -14,8 +14,9 @@ four structural facts that make ICDM strategy different from its ACM and SIAM si
    the 10 pages, and over-length papers are **rejected without review**. There is no
    separate reference or appendix budget.
 3. **A regular-to-short acceptance mechanic.** Every paper is submitted in full-paper
-   format; based on quality and reviews, **some are accepted as short papers**.
-   Acceptance-as-short is a distinct outcome authors must plan a camera-ready for.
+   format; after acceptance it is **designated Regular or Short**. In 2026 both
+   designations kept a ten-page limit, so "short" was a designation rather than a forced
+   compression — but earlier editions shortened short papers, so check each cycle.
 4. **A new two-track split in 2026.** For the first time the edition runs an **Applied
    Track (single-blind)** and a CCC-sponsored **Blue Sky Track** alongside the
    triple-blind Research Track — so the anonymity regime now depends on the track.
@@ -23,9 +24,11 @@ four structural facts that make ICDM strategy different from its ACM and SIAM si
 Official basis checked on **2026-07-09**: the ICDM 2026 site (26th edition, Nov 12-15,
 2026, Northeastern University, Shenyang, China), the Research and Applied Track calls,
 the CCC Blue Sky Track call, the IEEE ICDM awards roster, IEEE Xplore proceedings, and
-dblp. The host domain returns 403 to automated fetches, so facts were verified through
-search renderings and cross-checked against dblp and the awards site. The exact source
-map, the access-method note, and every fact left 待核实, are in
+dblp. The host domain returned 403 to automated fetches on 2026-07-09, so facts were
+first verified through search renderings and cross-checked against dblp and the awards
+site; on **2026-11-24** the calls, important dates, author instructions and committee were
+**re-verified by direct fetch** (which removed a non-existent abstract deadline and
+confirmed the camera-ready date, chairs and checklist). The exact source map, the access-method note, and every fact left 待核实, are in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## Verified 2026-edition anchors
@@ -33,17 +36,20 @@ map, the access-method note, and every fact left 待核实, are in
 | Fact | 2026 value | Volatility |
 |---|---|---|
 | Edition | 26th IEEE ICDM, Nov 12-15 2026, NEU, Shenyang, China | Per edition |
-| Deadlines | Abstract 2026-05-30; full paper 2026-06-06 (AoE); notification 2026-08-16 | Per edition |
+| Deadlines | Full paper 2026-06-06 (AoE), **no separate abstract deadline**; notification 2026-08-16; camera-ready 2026-09-09 | Per edition |
 | Cycle model | **Single deadline** (no KDD-style cycles) | Stable-ish |
 | Format | IEEE two-column, **10 pages incl. references + appendices**; over-length = no-review reject | Per edition |
 | Research Track review | **Triple-blind** since 2011 (authors + referees hidden; PC Co-Chairs only) | Per edition |
 | Applied Track review | **Single-blind** (new track in 2026) | Per edition |
-| Short-paper mechanic | All submit as full papers; some accepted as **short papers** | Per edition |
-| Rebuttal | Historically **none**; any response window is 待核实 for 2026 | Per edition |
-| Publication | IEEE proceedings, indexed on IEEE Xplore and dblp; in-person presentation required | Per year |
+| Short-paper mechanic | All submit as full papers; designated **Regular or Short** after acceptance, both with a ten-page limit in 2026 | Per edition |
+| Submission extras | **Reproducibility checklist** at submission; no preprint posting/publicizing during review (earlier preprints may stay) | Per edition |
+| Rebuttal | **None** described in the 2026 calls | Per edition |
+| Publication | IEEE CS Press proceedings, indexed on IEEE Xplore and dblp; in-person presentation (online session with recorded backup only if unable to travel) plus a poster for every paper | Per year |
+| Chairs (2026) | General: Claudia Plant, Xiaochun Yang; PC: Danai Koutra, Xiaofeng Gao | Per edition |
 
-Camera-ready dates, chair names, fees, short-paper camera-ready length, and any rebuttal
-mechanics are flagged 待核实 in the source map rather than guessed.
+ICDM 2026 has met (November 12-15, Shenyang). No official ICDM 2027 site or call was found
+on 2026-11-24 (aggregators list Brisbane, unverified), so the 2026 rules stay the labelled
+prior; fees and any future rebuttal remain 待核实 in the source map.
 
 ## Skills
 
@@ -78,7 +84,8 @@ Packaging and submitting:
   and how the Applied Track's single-blind regime changes what may be revealed.
 - [`icdm-supplementary`](skills/icdm-supplementary/SKILL.md) — living within one
   10-page all-inclusive cap: what belongs in the body vs an in-cap appendix vs an
-  external anonymized repo, and the short-paper compression plan.
+  external anonymized repo, and a short-paper compression plan as insurance (not needed in
+  2026, when Short papers kept ten pages).
 - [`icdm-submission`](skills/icdm-submission/SKILL.md) — the pre-deadline audit: track
   and anonymity regime, the 10-page all-inclusive check, triple-blind sweep, and the
   final-week sequence against the AoE cutoff.
@@ -92,8 +99,8 @@ Review phase and after:
   venue that may offer no rebuttal at all, and how to answer tightly if a response
   window exists — without breaking anonymity.
 - [`icdm-camera-ready`](skills/icdm-camera-ready/SKILL.md) — IEEE camera-ready, eCopyright,
-  de-anonymization, in-person presentation, and the compression path if the paper was
-  accepted as a short paper.
+  de-anonymization, in-person presentation, and the Regular/Short designation (no forced
+  compression in 2026).
 
 ## Resources
 
@@ -142,8 +149,8 @@ structured output format so results compose across skills.
 - This pack advises on **strategy, structure, and evidence** for ICDM submissions. It is
   not the CFP: where any statement here conflicts with the current edition's official
   instructions, the official instructions win, always.
-- Facts are dated. Everything specific was checked on 2026-07-09 against the sources in
-  the source map; unstable items (deadlines, fees, chairs, rebuttal mechanics) are phrased
+- Facts are dated. Everything specific was checked on 2026-07-09 and re-verified on
+  2026-11-24 against the sources in the source map; unstable items (deadlines, fees, chairs, rebuttal mechanics) are phrased
   as edition-volatile or 待核实 rather than asserted.
 - No text here should be pasted into a paper. The worked example is fictional by design,
   and the exemplar library records positioning patterns, not reusable prose.
@@ -155,7 +162,8 @@ structured output format so results compose across skills.
   handling, short-paper mechanics, and any response policy between editions.
 - Before deadline-sensitive advice, reopen the **track-specific** call — Research and
   Applied now differ on anonymity, so "the ICDM CFP" is ambiguous at this venue.
-- Facts marked 待核实 (rebuttal window, short-paper camera-ready length, chairs, fees)
+- Facts marked 待核实 (a future rebuttal window, the Applied camera-ready date conflict,
+  fees, ICDM 2027)
   must be verified live before being stated to an author as fact.
 - If a call page and an IEEE Xplore or committee page disagree, prefer the newer official
   instruction and record the conflict.

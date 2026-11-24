@@ -1,18 +1,25 @@
 # Official Source Map - ACM PODC
 
 Access date: 2026-07-09 (whole call, committee, awards and next edition re-read **directly**
-2026-08-27, after the gateway block described below lifted)
+2026-08-27, after the gateway block described below lifted). PODC 2026 call, programme
+committee, DMANET call, front-page outcomes and the new PODC 2027 edition pages
+**re-verified 2026-11-24** against the live podc.org pages (direct fetch with `curl`).
 
-**Edition status, checked 2026-08-27.** `podc.org/podc2027/` still returns 404, so PODC has
-not opened a 2027 edition site and the PODC 2026 anchor below remains the newest published
-call. PODC 2026 has met (Egham, July 6-10, 2026): treat its dates as historical and its
-rules as the most recent stated ones.
-
-What the site *does* publish about the next edition is a tentative-information page,
-https://www.podc.org/podc2026/next-podc/, and it is worth exactly what it says it is:
-**PODC 2027 at Reykjavik University, Iceland**, local organisation **Magnús M. Halldórsson,
-Maxime Flin and Alexandre Nolin** — no dates, no chair, no call. Treat the venue as
-announced and everything an author needs to plan a submission as unpublished.
+**Edition status, checked 2026-11-24.** PODC has now opened its 2027 edition site,
+https://www.podc.org/podc2027/, and the podc.org front page leads with it: **PODC 2027, the
+46th ACM Symposium on Principles of Distributed Computing, June 21-25, 2027, Reykjavik
+University, Iceland**. The conference committee is published
+(https://www.podc.org/podc2027/conference-committee/): **General Chair Michal Dory**
+(University of Haifa), **Local Chair Magnús M. Halldórsson** (Reykjavik University),
+**Program Chair Seth Gilbert** (National University of Singapore). But the **PODC 2027 call for
+papers is not published**: https://www.podc.org/podc2027/call-for-papers/ and the 2027
+program-committee page both say only "Watch this space for more information." — no
+deadlines, no page budget, no review model, no HotCRP site. The only 2027 call that is out is
+the call for workshops and tutorials (first proposal deadline December 15, 2026; second
+February 28, 2027; workshop days June 21 and June 25, 2027). So the **latest published paper
+call is still PODC 2026** (Egham, July 6-10, 2026, now met), and the rules below and in the
+machine-readable block are the PODC 2026 rules, labelled as such. Do not project PODC 2026's
+February deadlines onto PODC 2027; re-read the 2027 call when it appears.
 
 This map records the official and cross-check sources used for PODC-specific facts in this pack.
 PODC is the **ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing**, the flagship
@@ -49,13 +56,18 @@ Two naming/attribution guards:
 | # | Source URL | What it verifies | Access date |
 |---|---|---|---|
 | 1 | https://www.podc.org/podc2026/call-for-papers/ | PODC 2026 call: scope, lightweight double-blind review, ACM Master template, 10-page-merits budget with unbounded full version, Brief Announcements track (≤5-page submission), arXiv freedom. Read directly 2026-08-27, which additionally pinned the **AI-tools disclosure rule**, the **typesetting alternative to `acmart`**, the **conflict-of-interest definition** and its ToC advocates, the **award-splitting clause**, the **full-version requirement**, and the **cite-all-authors practice** — every one of them previously unread or 待核实. | 2026-07-09; re-read 2026-08-27 (direct fetch) |
-| 2 | https://www.podc.org/podc2026/ | PODC 2026 (45th) home: Royal Holloway, University of London, Egham, England; July 6-10, 2026; co-located with SPAA 2026 | 2026-07-09 |
-| 3 | http://dmatheorynet.blogspot.com/2026/01/dmanet-podc-2026-second-call-for-papers.html | PODC 2026 second CFP (DMANET): abstract 11 Feb 2026, full paper 16 Feb 2026, notification 29 Apr 2026, camera-ready 20 May 2026 (all 23:59 AoE) | 2026-07-09 |
+| 1a | https://www.podc.org/podc2026/call-for-papers/ (re-read) | Re-read 2026-11-24 (direct fetch): calendar abstract February 11 / full paper February 16 / notification April 29, 2026 (23:59 AoE); regular papers no page limit, merits within the first 10 pages after the title page; Brief Announcements at most 5 pages; accepted regular papers up to 10 pages and brief announcements up to 3 pages in two-column ACM proceedings format (`\documentclass[sigconf]{acmart}`); lightweight double-blind; AI-use disclosure; conflict-of-interest list of **five** categories (family member or close friend; Ph.D. advisor/advisee or postdoc/undergraduate mentor/mentee within five years; same affiliation; alleged harassment; frequent or recent collaborators within two years); in-person presentation expected and a paid registration required; **ACM Open Access from January 1, 2026: no APC if the corresponding author's institution is in ACM Open, otherwise an APC of $250 (ACM/SIG members) or $350 (non-members)** unless waived. | 2026-11-24 (direct fetch) |
+| 2 | https://www.podc.org/podc2026/ | PODC 2026 (45th) home: Royal Holloway, University of London, Egham, England; July 6-10, 2026; co-located with SPAA 2026 | 2026-07-09; re-read 2026-11-24 |
+| 3 | http://dmatheorynet.blogspot.com/2026/01/dmanet-podc-2026-second-call-for-papers.html | PODC 2026 second CFP (DMANET): abstract 11 Feb 2026, full paper 16 Feb 2026, notification 29 Apr 2026 (all 23:59 AoE). The camera-ready date of 20 May 2026 recorded on 2026-07-09 does **not** appear in the post as re-read on 2026-11-24 (see 待核实). | 2026-07-09; re-read 2026-11-24 |
 | 4 | https://podc26.hotcrp.com/ | PODC 2026 submission site (HotCRP) | 2026-07-09 |
 | 5 | https://www.podc.org/podc2026/program-committee/ | PODC 2026 program committee: Chair **Eric Ruppert** (York University) plus 37 named members. Roster read in full 2026-08-27; the 待核实 on it is discharged. | 2026-07-09; read in full 2026-08-27 (direct fetch) |
 | 5a | https://www.podc.org/ | PODC 2026 outcomes announced on the front page: **Best Paper** to Kahbod Aeini, Dante Bencivenga, George Giakkoupis and Philipp Woelfel, "Simple and Efficient Randomized Wait-Free Locks"; **Best Student Paper** to Haoran Zhou for "Efficient Counting and Simulation in Content-Oblivious Rings" (with Jérémie Chalopin, Yi-Jun Chang, Giuseppe Antonio Di Luna); **2026 Dijkstra Prize** to Das Sarma, Holzer, Kor, Korman, Nanongkai, Pandurangan, Peleg and Wattenhofer for "Distributed Verification and Hardness of Distributed Approximation". | 2026-08-27 (direct fetch) |
-| 5b | https://www.podc.org/podc2026/next-podc/ | Tentative PODC 2027 information: Reykjavik University, Iceland; local organisation Magnús M. Halldórsson, Maxime Flin, Alexandre Nolin. No dates, chair or call. | 2026-08-27 (direct fetch) |
-| 6 | https://dl.acm.org/doi/proceedings/10.1145/3732772 | ACM DL PODC 2025 proceedings (used to confirm the ACM two-column proceedings publication model and the conference series) | 2026-07-09 |
+| 5b | https://www.podc.org/podc2026/next-podc/ | Tentative PODC 2027 information: Reykjavik University, Iceland; tentative dates June 21 to 25, 2027; local organisation Magnús M. Halldórsson, Maxime Flin, Alexandre Nolin. | 2026-08-27; re-read 2026-11-24 (direct fetch) |
+| 5c | https://www.podc.org/podc2027/ | PODC 2027 edition home: June 21-25, 2027 at Reykjavik University, Iceland; "Watch this page for more information." | 2026-11-24 (direct fetch) |
+| 5d | https://www.podc.org/podc2027/call-for-papers/ | PODC 2027 call page: "The 46th ACM Symposium on Principles of Distributed Computing, June 21-25, 2027, Reykjavik University, Iceland. Watch this space for more information." — no paper call yet. | 2026-11-24 (direct fetch) |
+| 5e | https://www.podc.org/podc2027/conference-committee/ | PODC 2027 committee: Michal Dory (General Chair), Magnús M. Halldórsson (Local Chair), Seth Gilbert (Program Chair), Naama Ben-David (Treasurer), Ajay Singh and Diana Ghinea (Publicity), Quanquan Liu and Alexandre Nolin (Workshops). The 2027 program-committee page is still a placeholder. | 2026-11-24 (direct fetch) |
+| 5f | https://www.podc.org/podc2027/call-for-workshops-and-tutorials/ | PODC 2027 workshops and tutorials: days Monday June 21 and Friday June 25, 2027; double deadline, first proposals December 15, 2026 (AoE), notification January 15, 2027; second proposals February 28, 2027 (AoE), final notification March 14, 2027. | 2026-11-24 (direct fetch) |
+| 6 | https://dl.acm.org/doi/proceedings/10.1145/3732772 | ACM DL PODC 2025 proceedings (used to confirm the ACM two-column proceedings publication model and the conference series). Still HTTP 403 to `curl` on 2026-11-24. | 2026-07-09 |
 | 7 | https://dblp.org/db/conf/podc/podc2026.html | dblp PODC 2026 record (accepted-paper cross-check) and the PODC proceedings series for exemplar verification | 2026-07-09 |
 | 8 | https://www.podc.org/dijkstra/ | Edsger W. Dijkstra Prize in Distributed Computing: joint PODC/DISC, decade-of-impact, presented alternately at PODC and DISC | 2026-07-09 |
 | 9 | https://www.podc.org/dissertation/ | Principles of Distributed Computing Doctoral Dissertation Award (created 2012; joint PODC/DISC) | 2026-07-09 |
@@ -91,11 +103,13 @@ Two naming/attribution guards:
 - **Program Chair: Eric Ruppert** (York University, Canada). The committee is **38 members
   including the chair** (source 5, read in full 2026-08-27) — small enough that conflict
   declarations matter, which is why the call defines them precisely (below).
-- **Conflicts of interest are defined, narrowly, in the call** (source 1, read 2026-08-27):
-  a Ph.D. advisor or advisee (**no time limit**); a postdoctoral or undergraduate mentor or
-  mentee **within the past five years**; a person involved in an alleged harassment incident
-  (**the incident need not have been reported**); and frequent collaborators or co-authors of
-  a joint publication **within the last two years**. Anything outside that list goes to the PC
+- **Conflicts of interest are defined, narrowly, in the call** (source 1, read 2026-08-27;
+  re-read 2026-11-24): a **family member or close friend**; a Ph.D. advisor or advisee (**no
+  time limit**), or a postdoctoral or undergraduate mentor or mentee **within the past five
+  years**; a **person with the same affiliation**; a person involved in an alleged harassment
+  incident (**the incident need not have been reported**); and frequent collaborators or
+  co-authors of a joint publication **within the last two years**. (The family/close-friend
+  and same-affiliation categories were omitted from this list before the 2026-11-24 re-read.) Anything outside that list goes to the PC
   chair or to the conference's **Theory of Computing Advocates, Faith Ellen and Idit Keidar**,
   who may be asked to verify a reason confidentially. Do not declare a conflict that is not on
   this list without raising it first — the list is exhaustive by design.
@@ -134,12 +148,18 @@ venue: tight/matching bounds, self-contained proof appendices, checkable assumpt
 where a paper includes them — transparent optional simulations. Do not import an ACM
 Available/Functional/Reusable/Reproduced badge workflow; it does not exist here.
 
-## No editor-in-chief; no APC
+## No editor-in-chief; ACM Open Access APC
 
 Like every conference in this collection, PODC has **no standing editor-in-chief**; the rotating
 analogue is the per-edition **Program Chair** and program committee, appointed under ACM
-SIGACT/SIGOPS. Proceedings are published by ACM; there is no APC, the cost model is conference
-registration, and at least one author must present each accepted paper in person.
+SIGACT/SIGOPS (PODC 2027: Program Chair **Seth Gilbert**, source 5e). Proceedings are published by
+ACM, and **since January 1, 2026 they are fully Open Access** (source 1a, re-read 2026-11-24):
+there is **no APC if the corresponding author's institution participates in ACM Open**; otherwise
+each paper owes an **APC of $250 for ACM/SIG members or $350 for non-members**, unless the authors
+qualify for an ACM waiver or geographic discount. (Before the 2026-11-24 re-read this map said
+"there is no APC"; that was wrong for the 2026 call.) A paid conference registration by one author
+is required in any case, and papers are expected to be presented in person (exceptions only in
+exceptional circumstances, approved by the PC chair).
 
 ## Still cycle-volatile (verify every year)
 
@@ -158,5 +178,42 @@ registration, and at least one author must present each accepted paper in person
 - **Best Presentation** award mechanics and eligibility. Best Paper and Best Student Paper are
   now pinned to the call's own wording and to the 2026 outcomes; the presentation award is
   named in historical calls but not in the 2026 one.
-- PODC 2027's dates, program chair, calendar and call. Only the venue and local organisers are
-  announced, on a page that labels itself tentative.
+- PODC 2027's paper call: dates (June 21-25, 2027), venue and Program Chair (Seth Gilbert) are
+  now published (sources 5c-5e, 2026-11-24), but deadlines, page budget, review model and
+  HotCRP site are not.
+
+## 待核实 (could not be confirmed on 2026-11-24)
+
+- **PODC 2026 camera-ready date of 20 May 2026.** Recorded from the DMANET post on 2026-07-09,
+  but neither the DMANET post (source 3) nor the PODC 2026 call (source 1) shows a camera-ready
+  date when re-read on 2026-11-24, and a web search found no official page stating it. Kept as
+  a historical figure; do not cite it as verified.
+- The ACM DL PODC proceedings record (source 6): `dl.acm.org` still refuses automated fetches
+  (HTTP 403) on 2026-11-24.
+- Every PODC 2027 paper-call rule (deadlines, page budget, review model, AI-use wording, APC
+  treatment) — the 2027 call page is a placeholder as of 2026-11-24.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and
+python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "ACM PODC 2026",
+  "verified": "2026-11-24",
+  "rules": {
+    "main_text_pages_max": {"value": null, "note": "PODC 2026 rules (latest published call; PODC 2027 call not yet out as of 2026-11-24): regular submissions have no page limit, but the merits must be presented within the first 10 pages after the title page and the rest is read at the committee's discretion; accepted regular papers up to 10 two-column proceedings pages"},
+    "review_mode": {"value": "double-blind", "source": "https://www.podc.org/podc2026/call-for-papers/", "note": "PODC 2026 lightweight double-blind: no author names, affiliations or emails anywhere in the submission"},
+    "template": {"value": "11-point or larger, single-column, single-spaced, 1-inch margins, letter paper; or acmart.cls version 1.80+ with \\documentclass[acmsmall,nonacm,anonymous]{acmart} (accepted papers: [sigconf])", "source": "https://www.podc.org/podc2026/call-for-papers/", "note": "PODC 2026 call"},
+    "portal": {"value": "HotCRP (podc26.hotcrp.com for PODC 2026; PODC 2027 site not yet announced)", "source": "https://www.podc.org/podc2026/call-for-papers/"},
+    "conditional_statements": {"value": ["ai_use_disclosure"], "source": "https://www.podc.org/podc2026/call-for-papers/", "note": "PODC 2026: if AI tools were used beyond copyediting or internet search, the nature of the usage must be disclosed in the submission"},
+    "llm_policy": {"value": "disclose any AI-tool use beyond copyediting or internet search in the submission; authors remain accountable for content, plagiarism and citations", "source": "https://www.podc.org/podc2026/call-for-papers/"},
+    "preprint_policy": {"value": "drafts may be posted on the web or arXiv and presented in talks; important references must not be omitted or anonymized", "source": "https://www.podc.org/podc2026/call-for-papers/"},
+    "supplement_policy": {"value": "no separate supplement: submit the full version (full proofs) as one submission; if an accepted paper exceeds 10 proceedings pages, a public full version (e.g. arXiv) is required by the proceedings due date", "source": "https://www.podc.org/podc2026/call-for-papers/"},
+    "apc": {"value": "ACM Open Access: none if the corresponding author's institution is in ACM Open; otherwise $250 (ACM/SIG members) or $350 (non-members), waivers possible", "source": "https://www.podc.org/podc2026/call-for-papers/"},
+    "abstract_words_max": {"value": null, "note": "not stated on the official pages as of 2026-11-24 (call asks only for a brief abstract on the title page)"}
+  }
+}
+```

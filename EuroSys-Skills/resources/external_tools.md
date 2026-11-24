@@ -1,6 +1,6 @@
 # External Tools - EuroSys
 
-Access date: 2026-07-08
+Access date: 2026-07-08; links re-checked by direct fetch 2026-11-24.
 
 Open these surfaces at the start of any EuroSys engagement. EuroSys policy is set per
 edition *and per round*, so a URL that was authoritative for the spring round may be
@@ -11,28 +11,35 @@ superseded by the fall round's HotCRP instructions.
 - EuroSys 2027 site and CFP: https://2027.eurosys.org/ and https://2027.eurosys.org/cfp.html
 - Round submission portals: https://eurosys27-spring.hotcrp.com/ · https://eurosys27-fall.hotcrp.com/
 - EuroSys chapter (ACM SIGOPS Europe), awards and governance: https://www.eurosys.org/
-- Artifact evaluation calls (sysartifacts): https://sysartifacts.github.io/ (per-edition
-  pages such as `eurosys2026/`)
+- Artifact evaluation calls (sysartifacts): https://sysartifacts.github.io/eurosys2027/
+  (index, badges, committee; per-edition pages)
+- EuroSys 2027 organizing committee: https://2027.eurosys.org/organization.html
+- Next edition: https://2028.eurosys.org/ did not serve a page on 2026-11-24 — watch for
+  the EuroSys 2028 call
 - Proceedings: https://dl.acm.org/conference/eurosys (ACM DL) · https://dblp.org/db/conf/eurosys/ (index)
 - Previous edition for policy diffing: https://2026.eurosys.org/ (CFP, artifact-evaluation,
   shadow-PC pages)
 
-Note: in some environments the `*.eurosys.org` pages refuse automated fetches; the
+Note: in some environments the `*.eurosys.org` pages refuse automated fetches (they did
+in July 2026; they answered directly on 2026-11-24); the
 fallback verification path (search renderings cross-checked against ACM DL, dblp, and
 HotCRP) is described in `official-source-map.md`.
 
 ## Five author-side passes before an upload
 
 1. **Gate pass** — confirm which round is live, its abstract and paper dates (AoE), and
-   that the paper's EuroSys history does not trigger the same-round resubmission ban.
+   that the paper was not rejected at the immediately preceding EuroSys cycle, and that no
+   author exceeds three submissions this round.
 2. **Format pass** — rebuild with `acmart[sigplan,twocolumn,review,anonymous]`, count
    technical pages against the 12-page budget, verify the 178 x 229 mm block and column
-   gap, and place the registration paper ID on page one.
+   gap, ≥10-point type on ≥12-point leading, numbered pages, and place the registration
+   paper ID on page one.
 3. **Identity pass** — sweep PDF metadata, acknowledgments, grant strings, self-citation
    voice, repository links, and any deployment description that names the operator.
-4. **Policy pass** — dual-submission status, topics and conflicts in HotCRP, and the
-   round's own instructions for rebuttal, appendices, or supplementary files (these vary;
-   never assume from a previous round).
+4. **Policy pass** — dual-submission status, arXiv title/system-name difference, AI-use
+   disclosure (ACM authorship policy), workshop-paper upload, topics and conflicts in
+   HotCRP, and the round's instructions for the author response and supplementary file
+   (re-read each round; never assume from a previous one).
 5. **Artifact-readiness pass** — even though AE runs post-acceptance, confirm the
    availability paragraph, the anonymized mirror, and the claims-to-commands map exist,
    so a notification does not start the artifact work from zero.

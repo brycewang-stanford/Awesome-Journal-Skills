@@ -11,7 +11,7 @@ This is the router for a manuscript aimed at the **Journal of Financial Markets 
 
 The single most useful thing this router does is keep you from mis-targeting. The fatal JFM error is submitting a paper whose mechanism is corporate finance, broad asset pricing, or banking with a thin "and we look at liquidity" wrapper. JFM referees are microstructure insiders; the mechanism, not the dataset, must be about market trading.
 
-Verify volatile process facts before relying on them: publisher **Elsevier**; submission via **Editorial Manager** (检索于 2026-06；以官网为准); review model double-blind 待核实; ISSN 1386-4181 (print) / 1878-576X (online). Editor names, abstract/length limits, APC: 待核实.
+Verify volatile process facts before relying on them: publisher **Elsevier**; submission via **Editorial Manager** (检索于 2026-06；以官网为准); review model double-blind 待核实; ISSN 1386-4181 (print) / 1878-576X (online). Managing Editor **Paolo Pasquariello** (Michigan) and OA APC **USD 3,230** re-verified 2026-11-24 (archived official home page); abstract/length limits and the submission-fee amount: 待核实.
 
 ## When to trigger
 

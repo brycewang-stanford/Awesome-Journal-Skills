@@ -38,7 +38,7 @@ acl	colm	COLM	4	yes	depth	field	international
 acm-asia-conference-on-computer-and-communications-security	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	3	yes	breadth	field	international
 acm-asia-conference-on-computer-and-communications-security	ndss	NDSS	3	no	depth	field	international
 acm-asia-conference-on-computer-and-communications-security	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	2	no	breadth	field	international
-acm-ccs	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	111	no	breadth	field	international
+acm-ccs	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	118	no	breadth	field	international
 acm-ccs	ndss	NDSS	11	yes	depth	field	international
 acm-ccs	usenix-security	USENIX Security	9	yes	depth	field	international
 acm-ccs	privacy-enhancing-technologies-symposium	Privacy Enhancing Technologies Symposium	7	no	breadth	field	international
@@ -82,9 +82,9 @@ acm-international-symposium-on-high-performance-parallel-and-distributed-computi
 acm-mm	cvpr	CVPR	15	yes	depth	field	international
 acm-mm	acm-international-conference-on-multimedia-retrieval	ACM International Conference on Multimedia Retrieval	14	no	breadth	field	international
 acm-mm	acl	ACL	10	yes	depth	field	international
+acm-mm	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	8	no	breadth	field	international
 acm-mm	iccv	ICCV	8	yes	depth	field	international
-acm-mm	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	7	no	breadth	field	international
-acm-mm	neurips	NeurIPS	5	yes	depth	field	international
+acm-mm	neurips	NeurIPS	4	yes	depth	field	international
 acm-mm	emnlp	EMNLP	3	yes	depth	field	international
 acm-mm	iclr	ICLR	3	yes	depth	field	international
 acm-mobicom	mobicom	MobiCom	21	no	depth	field	international
@@ -229,10 +229,10 @@ astrophysical-journal-letters	nature-astronomy	Nature Astronomy	2	yes	breadth	fi
 atc	osdi	OSDI	25	yes	depth	field	international
 atc	nsdi	NSDI	21	yes	depth	field	international
 atc	sosp	SOSP	17	yes	depth	field	international
-atc	eurosys	EuroSys	16	yes	depth	field	international
+atc	eurosys	EuroSys	15	yes	depth	field	international
 atc	fast	FAST	13	yes	depth	field	international
+atc	usenix-annual-technical-conference	USENIX Annual Technical Conference	3	no	breadth	field	international
 atc	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	2	no	breadth	field	international
-atc	usenix-annual-technical-conference	USENIX Annual Technical Conference	2	no	breadth	field	international
 auditing-and-economics-research	auditing-research	审计研究	2	yes	breadth	field	china
 auditing-research	auditing-and-economics-research	审计与经济研究	2	yes	breadth	field	china
 automatica	ieee-transactions-on-automatic-control	IEEE Transactions on Automatic Control	2	yes	breadth	field	international
@@ -298,8 +298,8 @@ chinese-review-of-financial-studies	journal-of-economic-literature	Journal of Ec
 chinese-review-of-financial-studies	review-of-financial-studies	Review of Financial Studies	2	yes	depth	top-3 finance	international
 cikm	sigir	SIGIR	16	yes	depth	field	international
 cikm	kdd	KDD	13	yes	depth	field	international
+cikm	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	7	no	breadth	field	international
 cikm	wsdm	WSDM	7	yes	depth	field	international
-cikm	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	5	no	breadth	field	international
 cikm	sigmod	SIGMOD	4	yes	depth	field	international
 cikm	international-semantic-web-conference	International Semantic Web Conference	3	yes	breadth	field	international
 cikm	vldb	VLDB	3	yes	depth	field	international
@@ -349,12 +349,12 @@ contemporary-accounting-research	accounting-research	Accounting Research	23	yes	
 contemporary-accounting-research	journal-of-accounting-research	Journal of Accounting Research	8	yes	depth	top-3 accounting	international
 contemporary-accounting-research	the-accounting-review	The Accounting Review	8	yes	depth	top-3 accounting	international
 contemporary-finance-and-economics	journal-of-jiangxi-university-of-finance-and-economics	江西财经大学学报	3	yes	breadth	field	china
-corl	icra	ICRA	10	yes	depth	field	international
-corl	iclr	ICLR	9	yes	depth	field	international
-corl	neurips	NeurIPS	9	yes	depth	field	international
-corl	rss	RSS	8	yes	depth	field	international
-corl	iros	IROS	7	yes	depth	field	international
-corl	icml	ICML	6	yes	depth	field	international
+corl	icml	ICML	9	yes	depth	field	international
+corl	icra	ICRA	9	yes	depth	field	international
+corl	rss	RSS	9	yes	depth	field	international
+corl	iros	IROS	8	yes	depth	field	international
+corl	neurips	NeurIPS	8	yes	depth	field	international
+corl	iclr	ICLR	7	yes	depth	field	international
 critical-care-medicine	the-lancet	The Lancet	2	no	breadth	field	international
 critical-inquiry	new-literary-history	New Literary History	10	no	breadth	field	international
 critical-inquiry	pmla	PMLA	10	no	depth	field	international
@@ -534,7 +534,7 @@ human-resource-management	journal-of-management	Journal of Management	3	yes	dept
 human-resource-management	human-relations	Human Relations	2	yes	depth	field	international
 icalp	focs	FOCS	18	yes	depth	field	international
 icalp	soda	SODA	18	yes	depth	field	international
-icalp	stoc	STOC	17	yes	depth	field	international
+icalp	stoc	STOC	18	yes	depth	field	international
 icalp	acm-ieee-symposium-on-logic-in-computer-science	ACM/IEEE Symposium on Logic in Computer Science	12	no	breadth	field	international
 icalp	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	6	no	breadth	field	international
 icassp	european-economic-review	European Economic Review	6	no	depth	field	international
@@ -550,7 +550,7 @@ iccv	eccv	ECCV	24	yes	depth	field	international
 iccv	wacv	WACV	5	yes	depth	field	international
 iccv	ieee-transactions-on-pattern-analysis-and-machine-intelligence	IEEE Transactions on Pattern Analysis and Machine Intelligence	3	no	breadth	field	international
 iccv	neurips	NeurIPS	3	yes	depth	field	international
-icde	sigmod	SIGMOD	20	yes	depth	field	international
+icde	sigmod	SIGMOD	21	yes	depth	field	international
 icde	vldb	VLDB	11	yes	depth	field	international
 icde	edbt	EDBT	8	yes	depth	field	international
 icdm	kdd	KDD	18	yes	depth	field	international
@@ -731,7 +731,7 @@ international-symposium-on-robotics-research	icra	ICRA	4	no	depth	field	internat
 international-symposium-on-robotics-research	international-symposium-on-experimental-robotics	International Symposium on Experimental Robotics	4	yes	breadth	field	international
 international-symposium-on-robotics-research	iros	IROS	4	no	depth	field	international
 international-symposium-on-robotics-research	rss	RSS	4	no	depth	field	international
-interspeech	isca	ISCA	41	yes	depth	field	international
+interspeech	isca	ISCA	40	yes	depth	field	international
 interspeech	icassp	ICASSP	15	yes	depth	field	international
 interspeech	american-sociological-review	American Sociological Review	13	no	depth	top-3 sociology	international
 interspeech	european-economic-review	European Economic Review	10	no	depth	field	international
@@ -747,7 +747,7 @@ ipsn	infocom	INFOCOM	10	yes	depth	field	international
 ipsn	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	5	no	breadth	field	international
 ipsn	nsdi	NSDI	3	yes	depth	field	international
 ipsn	icassp	ICASSP	2	yes	depth	field	international
-iros	icra	ICRA	31	yes	depth	field	international
+iros	icra	ICRA	33	yes	depth	field	international
 iros	corl	CoRL	17	yes	depth	field	international
 iros	rss	RSS	10	yes	depth	field	international
 iros	ieee-international-conference-on-automation-science-and-engineering	IEEE International Conference on Automation Science and Engineering	5	no	breadth	field	international
@@ -757,7 +757,7 @@ iros	cvpr	CVPR	2	yes	depth	field	international
 isca	micro	MICRO	17	yes	depth	field	international
 isca	hpca	HPCA	12	yes	depth	field	international
 isca	asplos	ASPLOS	11	yes	depth	field	international
-issta	fse	FSE	14	yes	depth	field	international
+issta	fse	FSE	15	yes	depth	field	international
 issta	icse	ICSE	13	yes	depth	field	international
 issta	cav	CAV	12	yes	depth	field	international
 issta	ase	ASE	11	yes	depth	field	international
@@ -1051,9 +1051,9 @@ marketing-science	journal-of-marketing	Journal of Marketing	10	yes	depth	FT50 / 
 mathematical-finance	journal-of-economic-literature	Journal of Economic Literature	2	no	depth	field	international
 matter	advanced-materials	Advanced Materials	2	no	depth	field	international
 matter	nature-materials	Nature Materials	2	yes	breadth	field	international
-micro	isca	ISCA	20	yes	depth	field	international
-micro	asplos	ASPLOS	18	yes	depth	field	international
-micro	hpca	HPCA	15	yes	depth	field	international
+micro	isca	ISCA	21	yes	depth	field	international
+micro	asplos	ASPLOS	19	yes	depth	field	international
+micro	hpca	HPCA	16	yes	depth	field	international
 micro	dac	DAC	3	yes	depth	field	international
 micro	mlsys	MLSys	3	yes	depth	field	international
 mining-software-repositories	icse	ICSE	3	no	depth	field	international
@@ -1073,11 +1073,11 @@ mlsys	atc	ATC	6	yes	depth	field	international
 mlsys	eurosys	EuroSys	5	yes	depth	field	international
 mlsys	neurips	NeurIPS	3	yes	depth	field	international
 mlsys	iclr	ICLR	2	yes	depth	field	international
-mobicom	sigcomm	SIGCOMM	12	yes	depth	field	international
-mobicom	nsdi	NSDI	11	yes	depth	field	international
-mobicom	mobisys	MobiSys	10	yes	depth	field	international
+mobicom	sigcomm	SIGCOMM	13	yes	depth	field	international
+mobicom	nsdi	NSDI	12	yes	depth	field	international
+mobicom	mobisys	MobiSys	11	yes	depth	field	international
 mobicom	infocom	INFOCOM	7	yes	depth	field	international
-mobicom	sensys	SenSys	5	yes	depth	field	international
+mobicom	sensys	SenSys	6	yes	depth	field	international
 mobicom	acm-sigcomm	ACM SIGCOMM	2	no	breadth	field	international
 mobisys	mobicom	MobiCom	21	yes	depth	field	international
 mobisys	sensys	SenSys	19	yes	depth	field	international
@@ -1167,9 +1167,9 @@ organization-studies	journal-of-management-studies	Journal of Management Studies
 organization-studies	organization-science	Organization Science	6	yes	depth	field	international
 organization-studies	academy-of-management-journal	Academy of Management Journal	3	yes	depth	FT50 / UTD24	international
 organization-studies	journal-of-management	Journal of Management	2	yes	depth	field	international
-osdi	sosp	SOSP	23	yes	depth	field	international
+osdi	nsdi	NSDI	24	yes	depth	field	international
+osdi	sosp	SOSP	24	yes	depth	field	international
 osdi	atc	ATC	22	yes	depth	field	international
-osdi	nsdi	NSDI	20	yes	depth	field	international
 osdi	eurosys	EuroSys	8	yes	depth	field	international
 osdi	fast	FAST	8	yes	depth	field	international
 pacific-graphics	siggraph	SIGGRAPH	4	no	depth	field	international
@@ -1292,6 +1292,7 @@ rss	icra	ICRA	18	yes	depth	field	international
 rss	iros	IROS	15	yes	depth	field	international
 rss	the-international-journal-of-robotics-research	The International Journal of Robotics Research	6	no	breadth	field	international
 rss	hri	HRI	4	yes	depth	field	international
+rss	iclr	ICLR	2	yes	depth	field	international
 rural-economy	journal-of-agrotechnical-economics	农业技术经济	2	no	breadth	field	china
 science	pnas	PNAS	15	yes	depth	field	international
 science	science-advances	Science Advances	9	yes	breadth	field	international
@@ -1326,12 +1327,12 @@ siam-international-conference-on-data-mining	kdd	KDD	5	no	depth	field	internatio
 siam-international-conference-on-data-mining	icdm	ICDM	4	no	depth	field	international
 siam-journal-on-computing	focs	FOCS	2	no	depth	field	international
 siam-journal-on-computing	stoc	STOC	2	no	depth	field	international
+sigcomm	coordination-chemistry-reviews	Coordination Chemistry Reviews	33	no	breadth	field	international
 sigcomm	nsdi	NSDI	18	yes	depth	field	international
 sigcomm	acm-sigcomm	ACM SIGCOMM	14	no	breadth	field	international
 sigcomm	imc	IMC	12	yes	depth	field	international
-sigcomm	mobicom	MobiCom	10	yes	depth	field	international
+sigcomm	mobicom	MobiCom	11	yes	depth	field	international
 sigcomm	conext	CoNEXT	9	yes	depth	field	international
-sigcomm	coordination-chemistry-reviews	Coordination Chemistry Reviews	8	no	breadth	field	international
 sigcomm	sigmetrics	SIGMETRICS	7	yes	depth	field	international
 sigcomm	review-of-economic-dynamics	Review of Economic Dynamics	2	no	depth	field	international
 sigdial-conference-on-discourse-and-dialogue	acl	ACL	5	no	depth	field	international
@@ -1339,9 +1340,9 @@ sigdial-conference-on-discourse-and-dialogue	international-natural-language-gene
 siggraph	acm-siggraph-eurographics-symposium-on-computer-animation	ACM SIGGRAPH/Eurographics Symposium on Computer Animation	12	no	breadth	field	international
 siggraph	cvpr	CVPR	10	yes	depth	field	international
 siggraph	iccv	ICCV	6	yes	depth	field	international
-siggraph	acm-siggraph	ACM SIGGRAPH	5	no	breadth	field	international
 siggraph	uist	UIST	5	yes	depth	field	international
 siggraph	acm-conference-on-computer-and-communications-security	ACM Conference on Computer and Communications Security	4	no	breadth	field	international
+siggraph	acm-siggraph	ACM SIGGRAPH	4	no	breadth	field	international
 siggraph	chi	CHI	4	yes	depth	field	international
 sigir	european-conference-on-information-retrieval	European Conference on Information Retrieval	13	no	breadth	field	international
 sigir	cikm	CIKM	12	yes	depth	field	international

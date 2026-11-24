@@ -8,25 +8,25 @@ computer scientists, lawyers, social scientists, humanists, and policy scholars.
 full arc of a FAccT campaign: deciding whether a project is FAccT-shaped or belongs at an ML/HCI/law
 venue; building evidence that satisfies a mixed panel (a rigorous CS audit *and* a critical or
 qualitative study are both in scope); packaging the mutually-anonymous OpenReview submission with its
-required endmatter statements; navigating the new **Accept / Revise / Reject** revise-and-resubmit
-cycle; and delivering the ACM `acmart` archival camera-ready with its accountability documentation.
+required endmatter statements; navigating the **Accept / Revise (major or minor) / Reject**
+revise-and-resubmit cycle; and delivering the ACM `acmart` archival camera-ready with its accountability documentation.
 
-Official basis checked on **2026-07-09**: the FAccT 2026 Call for Papers, Author Guide, Reviewer
-Guide, and CRAFT call; the FAccT Blog announcement posts; the OpenReview FAccT 2026 group; the ACM
-Digital Library FAccT proceedings; and dblp. Direct fetches of `facctconference.org` and `dl.acm.org`
-returned 403 in the verification environment, so official pages were read via search-engine
-renderings of the exact URLs and cross-checked against OpenReview, ACM DL, dblp, and PMLR (for the
-pre-2019 FAT\* editions); the full trail, including everything still marked 待核实, is in
-[`resources/official-source-map.md`](resources/official-source-map.md).
+Official basis **re-verified on 2026-11-24** for **FAccT 2027** (tenth edition, **Porto, Portugal,
+June 21-24, 2027**): the FAccT 2027 Call for Papers, Author Guide, and Reviewer Guide; the
+facctconference.org home page; the FAccT Blog posts on the 2027 timeline and process changes; and
+the OpenReview FAccT 2027 group, all read directly. FAccT 2026 pages (CFP, committees, CRAFT and
+Doctoral Colloquium calls) were re-read as history; the ACM DL still returned 403, so the FAccT '26
+proceedings DOI was confirmed through Crossref. The full trail, including everything still marked
+待核实, is in [`resources/official-source-map.md`](resources/official-source-map.md).
 
-> Lineage note: the venue was **FAT\*** in 2018-2019 (FAT\* 2018 published in **PMLR vol 81**; FAT\*
-> 2019 was the first ACM DL proceedings) and was renamed **FAccT** after 2020. The dblp key is still
+> Lineage note: the venue was **FAT\*** in 2018-2020 (FAT\* 2018 published in **PMLR vol 81**; FAT\*
+> 2019 was the first ACM DL proceedings) and has been **FAccT** since 2021. The dblp key is still
 > `db/conf/fat`. Do not confuse FAccT with the pre-conference **FAT/ML workshop** or the sibling
 > **AIES** conference.
 
 ## What makes FAccT different from its siblings
 
-These venue mechanics, verified for the 2026 cycle, drive most of the advice in the skills — and most
+These venue mechanics, verified for the 2027 cycle, drive most of the advice in the skills — and most
 of the mistakes made by authors arriving from a pure-ML, HCI, or law background:
 
 - **Fairness/accountability/transparency is the contribution, not a paragraph.** A paper whose equity
@@ -36,18 +36,24 @@ of the mistakes made by authors arriving from a pure-ML, HCI, or law background:
   the **focus areas** you select at registration, and a paper is typically read across disciplines —
   each expecting *its* lane's rigor (disaggregation and baselines for an audit; coding and reflexivity
   for a qualitative study; doctrinal precision for a legal paper).
-- **Accept / Revise / Reject — the Revise round is new for 2026.** A **Revise** decision is a genuine
-  revise-and-resubmit: you address Area-Chair-prioritized concerns and are re-reviewed. It is not a
-  soft reject.
-- **OpenReview, new for 2026.** Submission and review moved to OpenReview, with a hard
-  **abstract-registration gate** (with focus-area selection) about a week before the paper deadline.
+- **Accept / Revise (major or minor) / Reject, with no separate rebuttal.** A **Revise** decision
+  (introduced in 2026) is a genuine revise-and-resubmit: you address Area-Chair-prioritized concerns
+  and submit the revised paper **together with a rebuttal**, then are re-reviewed. FAccT 2027 dropped
+  the short pre-decision rebuttal of 2026 and added **Senior Area Chairs** for calibration.
+- **OpenReview, and an autumn deadline.** Submission and review run on OpenReview (since 2026), with
+  a hard **abstract-registration gate** (with focus-area selection) a week before the paper deadline.
+  From 2027 the deadlines moved to late October / early November of the preceding year.
+- **Every author must sign up to review.** FAccT 2027 requires all authors of every paper to fill in
+  the reviewer sign-up form; not following through can lead to (desk) rejection.
 - **Mutual anonymity, with special endmatter rules.** Authors and reviewers are hidden from each
   other. The **Positionality**, Acknowledgements, Author-Contributions, and Competing-Interests
   statements are **withheld** from the anonymous submission and added only upon acceptance.
-- **Required Generative AI Usage Statement, new for 2026.** Every submission must disclose whether and
-  how generative AI was used; FAccT prohibits wholesale AI-generated text. Optional **Ethical
-  Considerations** and **Adverse Impacts** statements sit on an extra endmatter page that does not
-  count against the limit.
+- **Required Generative AI Usage Statement.** Every submission must disclose whether and how
+  generative AI was used, even if it was not. FAccT 2026 prohibited LLM-generated manuscript text;
+  FAccT 2027 follows ACM's authorship policy instead: AI may create content if the use is disclosed
+  (tool, model version, task, human validation), and undisclosed use is grounds for desk rejection.
+  An **Ethical Considerations** statement (covering adverse impacts) is expected at submission; the
+  endmatter sits on an extra page that does not count against the limit.
 - **ACM `acmart`, archival, and now 100% Open Access.** Papers publish in the ACM DL proceedings (a
   **non-archival** option exists); since 1 January 2026 all ACM proceedings are Open Access via ACM
   Open or APCs.
@@ -62,17 +68,17 @@ of the mistakes made by authors arriving from a pure-ML, HCI, or law background:
 | Skill | What it does |
 | --- | --- |
 | [`facct-topic-selection`](skills/facct-topic-selection/SKILL.md) | Route between FAccT and its siblings (NeurIPS/ICML, CHI/CSCW, AIES, law/policy) using the delete-the-equity and mixed-reviewer tests, and paper vs CRAFT. |
-| [`facct-workflow`](skills/facct-workflow/SKILL.md) | Run the single-deadline year backward from the abstract-registration gate, through OpenReview, rebuttal, the Revise round, two-round camera-ready, and presentation. |
+| [`facct-workflow`](skills/facct-workflow/SKILL.md) | Run the single-deadline year backward from the abstract-registration gate, through OpenReview, the Revise round with its combined revision + rebuttal, camera-ready, and presentation. |
 | [`facct-writing-style`](skills/facct-writing-style/SKILL.md) | Make the FAccT contribution legible to a mixed panel: who is affected on page one, claims scoped to a population, harms argued not recited. |
 | [`facct-related-work`](skills/facct-related-work/SKILL.md) | Cover the disciplinary lanes (ML-fairness, HCI, law, STS), write delta-first cross-lane positioning, and cite borrowed constructs to their origin. |
 | [`facct-experiments`](skills/facct-experiments/SKILL.md) | Match evidence to the claim: disaggregated audits with fair baselines, qualitative rigor and reflexivity, proxy validity, consent and ethics. |
 | [`facct-reproducibility`](skills/facct-reproducibility/SKILL.md) | Build transparency: released code/data, datasheets/model cards/data statements, and auditable qualitative work without breaking confidentiality. |
 | [`facct-supplementary`](skills/facct-supplementary/SKILL.md) | Split content across body, the endmatter statement zone, and the artifact — and get the anonymity rules for each right. |
 | [`facct-submission`](skills/facct-submission/SKILL.md) | Final OpenReview audit: the abstract gate + focus areas, the acmart anonymous PDF, mutual anonymity, required/optional endmatter, archival choice. |
-| [`facct-review-process`](skills/facct-review-process/SKILL.md) | Model the pipeline — mutually anonymous, interdisciplinary, Area Chairs, short rebuttal, Accept/Revise/Reject — and where author leverage exists. |
-| [`facct-author-response`](skills/facct-author-response/SKILL.md) | Write both turns: the factual-correction rebuttal and the Revise-and-resubmit response mapping each prioritized concern to a change. |
+| [`facct-review-process`](skills/facct-review-process/SKILL.md) | Model the pipeline — mutually anonymous, interdisciplinary, Area Chairs and Senior Area Chairs, Accept/Revise/Reject, re-review — and where author leverage exists. |
+| [`facct-author-response`](skills/facct-author-response/SKILL.md) | Write the Revise-round rebuttal that ships with the revised paper, mapping each prioritized concern to a change (and the 2026-style short rebuttal if a cycle restores it). |
 | [`facct-artifact-evaluation`](skills/facct-artifact-evaluation/SKILL.md) | Prepare the accountability documentation (datasheets, model cards, impact assessments) and released code/data FAccT expects instead of badges. |
-| [`facct-camera-ready`](skills/facct-camera-ready/SKILL.md) | De-anonymize, add the withheld Positionality/Acks, switch to acmart sigconf, complete ACM metadata, handle the two-round OA camera-ready. |
+| [`facct-camera-ready`](skills/facct-camera-ready/SKILL.md) | De-anonymize, add the withheld Positionality/Acks, reformat in the ACM format, complete ACM metadata, handle the OA/APC question and the camera-ready deadline. |
 
 ## Resources
 
@@ -135,36 +141,43 @@ FAccT-Skills/
    positioning.
 4. **Deadline weeks** — register the abstract and focus areas before the earlier gate, then
    `facct-submission` end to end on the final PDF, endmatter, and artifact.
-5. **After submission** — `facct-review-process` to calibrate, `facct-author-response` for the
-   rebuttal and any Revise round, then `facct-artifact-evaluation` and `facct-camera-ready` — or the
+5. **After submission** — `facct-review-process` to calibrate, `facct-author-response` for any
+   Revise round and its rebuttal, then `facct-artifact-evaluation` and `facct-camera-ready` — or the
    routing table in `facct-topic-selection` if the decision goes the other way.
 
-## 2026-cycle anchor facts (historical snapshot, not permanent rules)
+## FAccT 2027 anchor facts (cycle snapshot, not permanent rules)
 
-- FAccT 2026 is the **9th** annual conference: **Montréal, Canada** (Le Centre Sheraton Montréal),
-  **June 25-28, 2026**. Abstract registration **8 Jan 2026**; paper **13 Jan 2026**; preliminary
-  reviews **20 Feb 2026**; first notification (Accept/Revise/Reject) **2 Mar 2026**; revision
-  **25 Mar 2026**; camera-ready **24 Apr** (Round 1) / **11 May 2026** (Revise). General Chairs Su Lin
-  Blodgett and Zeerak Talat; PC Chair Michael Madaio.
-- Platform: **OpenReview** (new). Review: **mutually anonymous**, interdisciplinary, focus-area
-  matched, with Area Chairs. Decisions: Accept / **Revise** / Reject (Revise new for 2026). Template:
-  **ACM `acmart`**; **14 content pages + 1 endmatter page**, references unlimited.
-- Required **Generative AI Usage Statement** (new); optional **Ethical Considerations**, **Adverse
-  Impacts**, and (upon acceptance) **Positionality** statements. Archival ACM proceedings (non-archival
-  option); **100% Open Access** since 1 Jan 2026.
+- FAccT 2027 is the **10th** annual conference: **Porto, Portugal**, **June 21-24, 2027**. Abstract
+  registration **27 Oct 2026**; paper **3 Nov 2026** (both passed as of 2026-11-24); first-round
+  decisions (Accept / Revise major or minor / Reject) **22 Dec 2026**; revision + rebuttal
+  **28 Jan 2027**; final notification **23 Mar 2027**; camera-ready **TBD**. Program Chairs per the
+  CFP: Remi Denton, David Leslie, Aurelia Tamò-Larrieux, Isabel Valera (a blog byline names a
+  different four — 待核实); General Chairs not yet announced.
+- Platform: **OpenReview**. Review: **mutually anonymous**, interdisciplinary, focus-area matched
+  (six focus areas), typically three reviewers + an Area Chair, with **Senior Area Chairs** (new).
+  Template: **ACM TAPS** (LaTeX `acmart` review/anonymous, or Word), single-column; **14 pages +
+  1 endmatter page**, references and appendices unlimited; **15** pages at Revision/acceptance.
+- Required **Generative AI Usage Statement** (disclosure-based policy in 2027); **Ethical
+  Considerations** statement at submission; Positionality, Acknowledgements, Author Contributions,
+  and Competing Interests only upon acceptance. Archival ACM proceedings (non-archival option);
+  **100% Open Access** since 1 Jan 2026 (2026 APC subsidy $250 members / $350 non-members).
+- History: FAccT 2026 (9th, Montréal, June 25-28, 2026) had deadlines of 8 / 13 Jan 2026, a short
+  rebuttal (due 24 Feb 2026), first notification 2 Mar, revision 25 Mar, final notification
+  15 Apr 2026.
 
 ## Fact discipline
 
 This pack separates three classes of statement, and the skills are written to keep them
 distinguishable:
 
-1. **Verified 2026 facts** — carry dates/budgets and trace to a numbered source in the source map
+1. **Verified 2027 facts** — carry dates/budgets and trace to a numbered source in the source map
    (e.g., the 14+1 page budget, mutual anonymity, the Revise round, the required Generative AI Usage
    Statement).
-2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., the exact
-   organizing-committee roster beyond the named General and PC Chairs).
-3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., FAccT 2027 dates, the exact
-   Revise final-notification date, the CRAFT/Doctoral-Colloquium deadlines, and APC/fee-waiver policy).
+2. **Reported facts** — read only via secondary surfaces and labeled as such (e.g., the FAccT '26
+   proceedings DOI, confirmed through Crossref because the ACM DL refuses automated access).
+3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the conflicting 2027
+   Program Chair lists, the 2027 camera-ready date, General Chairs, the 2027 CRAFT/Doctoral-Colloquium
+   calls, and any 2027 APC subsidy).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it against
 the live official pages.
@@ -172,8 +185,9 @@ the live official pages.
 ## Maintenance notes
 
 - Every date and budget above is a **cycle snapshot**. FAccT re-decides its structure per edition —
-  and 2026 introduced three firsts at once (OpenReview, the Revise round, the Generative AI Usage
-  Statement) — so verify whether each persists before advising.
+  2026 introduced OpenReview, the Revise round, and the Generative AI Usage Statement; 2027 moved the
+  deadline to the autumn, merged rebuttal into the revision, added Senior Area Chairs, and relaxed the
+  AI-writing prohibition into a disclosure rule — so verify whether each persists before advising.
 - FAccT has no standing editor-in-chief; General and PC Chairs rotate yearly. Treat continuity
   assumptions about people as errors.
 - When adding exemplar papers, follow the verification recipe at the end of

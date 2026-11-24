@@ -9,7 +9,7 @@ handle the computational slice of a paper without mishandling the human slice.
 
 | Resource | Use it to... |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Trace every venue fact in this pack to a URL and access date (2026-07-08), including the fixed-cycle → rolling transition, decision statistics, and the explicit 待核实 list. |
+| [`official-source-map.md`](official-source-map.md) | Trace every venue fact in this pack to a URL and access date (re-verified 2026-11-24), including the fixed-cycle → rolling transition, decision statistics, and the explicit 待核实 list. |
 | [`external_tools.md`](external_tools.md) | Open the live official surfaces (cscw.acm.org, PCS, Manuscript Central, PACMHCI track, dblp) and run five author-side passes before upload. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against five verified CSCW papers spanning the Lasting Impact lineage and the PACMHCI era, with era-correct citation forms. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a fictional abstract/introduction rebuilt from individual-user framing to group-level CSCW framing, with ethics on page one. |

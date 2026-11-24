@@ -23,8 +23,17 @@ possible without one.
 Pick badges honestly. *Available* is almost always worth claiming and is the lowest-friction.
 *Functional* requires a path that runs without your specific radios. *Results Reproduced* is
 hardest for a wireless paper because the channel is not portable — claim it only where a
-trace-replay or downscaled path can regenerate the numbers (`mobicom-reproducibility`). The
-exact 2027 badge deadlines and process are 待核实 — read the current artifact call.
+trace-replay or downscaled path can regenerate the numbers (`mobicom-reproducibility`).
+
+MobiCom 2027 artifact call (re-verified 2026-11-24): open to **accepted and conditionally
+accepted** papers from either round; the three badges are independent; submission on
+`mobicom27ae.hotcrp.com`; **summer round artifacts due January 17, 2027 (23:59 AoE),
+notification February 17, 2027; winter round due July 24, 2027, notification August 24,
+2027**. Review is **best-effort double-blind** (anonymize the package), the artifact
+description is at most **three pages**, software-only artifacts ship as a container, and
+hardware artifacts are evaluated through anonymous remote access. Statistical results that
+need many repeated runs may be shown with an agreed demo video or a reduced but representative
+scope.
 
 ## The hardware-optional path is the core deliverable
 

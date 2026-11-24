@@ -1,6 +1,6 @@
 ---
 name: issta-review-process
-description: Use when explaining or planning around ISSTA peer review, covering double-anonymous reviewing, at least three PC reviews, the Accept/Major-Revision/Reject outcome model, the phase-two major-revision resubmission, the named evaluation criteria, how the decision is actually synthesized, and how earlier editions ran multiple rolling deadlines.
+description: Use when explaining or planning around ISSTA peer review, covering double-anonymous reviewing, the two-phase review with early rejection (two or three PC reviews), the Accept/Major-Revision/Reject outcome model, the phase-two major-revision resubmission, the named evaluation criteria, how the decision is actually synthesized, and how earlier editions ran multiple rolling deadlines.
 ---
 
 # ISSTA Review Process
@@ -14,16 +14,23 @@ mechanics change between editions.
 
 - Reviewing is double-anonymous: reviewers do not see author identities and authors do not see
   reviewer identities.
-- Each paper receives at least three PC reviews; chairs solicit more when expertise is thin or
-  reviewers disagree sharply.
+- ISSTA 2027 runs a **two-phase review**: each paper is first read by two reviewers; if both are
+  negative it is rejected early (notified with the April 20, 2027 initial notification), otherwise
+  a third reviewer is added. Chairs solicit more reviews when expertise is thin or reviewers
+  disagree sharply, and an area chair handles each research area. (ISSTA 2026 promised at least
+  three reviews per paper.) Assignment uses TPMS.
+- At least one reviewer checks the linked artifact, so verifiability and transparency is judged on
+  evidence, not on promises.
 - First-round outcomes are **Accept**, **Major Revision**, or **Reject**. A Major-Revision paper
-  revises against a fixed later deadline and receives a terminal decision — it is a real second
+  receives revision items that "form a contract" between reviewers and authors, has four weeks to
+  revise against a fixed later deadline (May 20, 2027) and receives a terminal decision — it is a real second
   chance, not a soft reject, and reviewers expect the revision to address their points concretely.
 - Earlier editions (e.g. ISSTA 2023, 2024) ran **two rolling submission deadlines**, where a
   first-deadline paper could be sent a major revision to the second deadline while second-deadline
   papers got only accept/reject. The multi-round model is genuine ISSTA history; its exact shape is
   cycle-specific, so confirm the current one.
-- Accepted papers are published in the ACM Digital Library, so final metadata and camera-ready
+- Accepted papers are published as PACMSE journal articles (Issue ISSTA 2027) in the ACM Digital
+  Library, so final metadata and camera-ready
   compliance matter alongside the initial decision.
 
 ## The named evaluation criteria

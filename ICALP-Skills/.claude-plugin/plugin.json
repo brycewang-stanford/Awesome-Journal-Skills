@@ -1,6 +1,6 @@
 {
   "name": "icalp-skills",
-  "description": "A 12-skill depth pack for ICALP, the EATCS International Colloquium on Automata, Languages, and Programming: routing a theory result between Track A (algorithms, complexity, games) and Track B (automata, logic, semantics), the single annual February deadline, lightweight double-blind HotCRP submission, the 15-page extended abstract plus full-version/appendix norm, proof rigor in place of artifact evaluation, LIPIcs (Dagstuhl) open-access camera-ready, and the Track B rebuttal. Grounded in the ICALP 2026 (53rd, Royal Holloway) call, EATCS pages, LIPIcs/Dagstuhl, and dblp checked on 2026-07-09.",
+  "description": "A 12-skill depth pack for ICALP, the EATCS International Colloquium on Automata, Languages, and Programming: routing a theory result between Track A (algorithms, complexity, games) and Track B (automata, logic, semantics), the February deadline plus Track B's new September round, lightweight double-blind HotCRP submission, the no-page-limit full version whose first ten pages must carry the result, AI-use disclosure, proof rigor in place of artifact evaluation, LIPIcs (Dagstuhl) open-access camera-ready, and the Track B rebuttal. Grounded in the ICALP 2027 (54th, Kraków) Track B call and committees pages re-verified on 2026-11-24, the ICALP 2026 call, EATCS pages, LIPIcs/Dagstuhl, and dblp.",
   "version": "1.2.0",
   "author": {
     "name": "Bryce Wang",

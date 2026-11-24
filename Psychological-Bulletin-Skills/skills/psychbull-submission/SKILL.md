@@ -16,20 +16,29 @@ page before relying on them.
 - Unsure which files/metadata Editorial Manager expects
 - Confirming masking, the abstract cap, and the MARS/PRISMA checklist are satisfied
 
-## Process facts (verify volatile items on the official page)
+## Process facts (re-verified 2026-11-24 on the APA submission-guidelines page unless marked)
 
 - **Owner / publisher:** American Psychological Association (APA).
 - **Portal:** APA **Editorial Manager** (`editorialmanager.com/bul`).
-- **Review model:** **masked** — author identity withheld from reviewers; no author clues in the file.
+- **Review model:** **masked (double-masked)** — author names, affiliations and contact details go in the
+  portal's cover-letter box, not the file; no author clues in the file.
+- **Editor:** **Stefan G. Hofmann** (Philipps-Universität Marburg) handles **all new submissions in 2026**
+  as incoming (2027) editor; Blair T. Johnson is the outgoing editor.
 - **What it publishes:** research **syntheses** (systematic reviews, meta-analyses, meta-reviews,
   meta-synthesis, qualitative reviews) — **not** original primary studies; original theory →
   *Psychological Review*.
-- **Abstract:** **≤ 250 words**, on a separate page.
+- **Abstract:** **≤ 250 words**, on a separate page (stated on the 2025 guidelines; the March-2026 page
+  no longer restates a limit — 待核实, keep 250 as the safe default).
+- **Public Significance Statement:** **required** — 2–3 plain sentences on the abstract/keywords page,
+  not lifted from the manuscript.
 - **Style:** APA Publication Manual, **7th edition**.
-- **Reporting:** **MARS** (meta-analysis) · **PRISMA** (systematic review) · **JARS** (quant/mixed).
-- **Transparency:** state preregistration + where; supply **database, codebook, scripts** (TOP, since
-  Feb 1 2022 — 待核实 exact level).
-- **Fee:** no submission fee stated (待核实; confirm any post-acceptance OA APC).
+- **Reporting:** **JARS / MARS** required (TOP Level 2); **PRISMA 2020** is an acceptable replacement.
+- **Transparency (since Feb 1 2022):** **TOP Level 2** for citation, data, code, materials, reporting
+  standards, study and analysis-plan preregistration (replication: Level 1). A Method subsection
+  **"Transparency and openness"** states data/code/materials availability, preregistration (+ any
+  deviations), **generative-AI use (or none)**, and the reporting guideline followed; supply
+  **database, codebook, scripts** (anonymized links) for reviewers.
+- **Fee:** submitting for peer review is **free**; an APC applies only to gold open access.
 
 ## Preflight checklist
 
@@ -45,12 +54,14 @@ page before relying on them.
 
 ### Reporting & format
 - [ ] Abstract ≤ 250 words on a separate page
+- [ ] **Public Significance Statement** (2–3 plain sentences) on the abstract/keywords page
 - [ ] APA 7th-edition formatting throughout
 - [ ] **MARS / PRISMA / JARS** checklist completed for the synthesis type
 - [ ] PRISMA flow diagram + forest/funnel exhibits present (see `psychbull-tables-figures`)
 
 ### Transparency & compliance
-- [ ] Preregistration stated with access location
+- [ ] "Transparency and openness" Method subsection: availability, preregistration + deviations, AI use, PRISMA/MARS followed
+- [ ] Preregistration stated with access location (also in the author note on acceptance)
 - [ ] Database + codebook + scripts deposited with a DOI; availability statement drafted
 - [ ] Ethics/attribution compliant; original synthesis (no plagiarized text)
 
@@ -110,7 +121,7 @@ The recurring desk-reject patterns at the APA's flagship synthesis journal:
 - **Reporting**: the MARS and PRISMA checklists are complete and the PRISMA diagram plus forest/funnel
   exhibits are attached.
 - **Transparency**: the deposited database, codebook, and scripts carry a DOI and the availability
-  statement is drafted. (Confirm the current TOP level and any APC on the official APA page.)
+  statement is drafted. (TOP Level 2 re-verified 2026-11-24; submission is free.)
 
 ## Referee/editor pushback → venue-specific fix
 

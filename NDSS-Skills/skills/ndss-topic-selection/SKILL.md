@@ -43,8 +43,13 @@ deadline lands next — the workflow skill covers calendar strategy separately.
 ## NDSS-specific constraints that affect the decision
 
 - **Two cycles, no same-year retry.** A paper rejected in the 2027 summer cycle cannot
-  return with major overlap in the 2027 fall cycle. Choosing NDSS prematurely can burn the
-  whole edition, not one deadline (CFP, checked 2026-07-08).
+  return with major overlap in the 2027 fall cycle, and rejects may not be resubmitted to
+  NDSS 2027 at all. Choosing NDSS prematurely can burn the whole edition, not one deadline
+  (CFP, re-verified 2026-11-24).
+- **Topic-concerns pre-filter.** A sub-committee may desk reject papers without a clear
+  relation to real systems and networks — pure theory or proofs without implementation,
+  contributions mainly in ML/AI, or no security contribution. SoK-style papers are in scope
+  and need no "SoK:" prefix.
 - **Six submissions per author per cycle.** Large groups must ration slots; a marginal-fit
   paper spends a slot a strong-fit paper may need.
 - **Ethics gate at entry.** Projects built on live scanning, user data, or unpatched

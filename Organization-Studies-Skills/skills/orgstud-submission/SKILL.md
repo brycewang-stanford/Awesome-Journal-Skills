@@ -12,15 +12,15 @@ description: Use when running the final pre-submission preflight for Organizatio
 - Confirming the manuscript is properly anonymized for double-anonymized review
 - Checking length, abstract, and keyword rules against OS's actual limits
 
-## Process facts (source map refreshed 2026-06; re-confirm on the SAGE OS and EGOS pages)
+## Process facts (source map re-verified 2026-11-24; re-confirm on the SAGE OS and EGOS pages)
 
 - OS is published by **SAGE for EGOS** (founded 1980; ISSN 0170-8406 print / 1741-3044 online; monthly; FT50 generalist-management list). Submission is via **ScholarOne Manuscripts** at `mc.manuscriptcentral.com/orgstudies`.
 - **Review model: double-anonymized** — both author and reviewer identities are concealed. This drives the whole preflight: the manuscript must carry **no identifying information**, and author details go on a **separate title page** uploaded as a distinct file (检索于 2026-06；以官网为准).
 - **Length: ≤13,000 words including references and appendices** (检索于 2026-06；以官网为准). This is generous by US standards and signals OS's tolerance for discursive, theoretically-developed prose — but the cap is inclusive of references/appendices, which surprises authors.
 - **Abstract: unstructured, ≤300 words** (not a structured abstract) (检索于 2026-06；以官网为准).
 - **Keywords: 5–7**, with **four selected from the OS ScholarOne keyword list** and the remainder free (检索于 2026-06；以官网为准).
-- **Referencing: SAGE Harvard** (author–date) house style (检索于 2026-06；以官网为准).
-- Managing editor (EGOS office): Sophia Tzagaraki (osofficek@gmail.com); co-editors-in-chief Renate Meyer and Paolo Quattrone (re-verified 2026-06-22; note that older infobox listings naming Daniel Hjorth refer to a *former* co-EiC — confirm the live SAGE masthead before naming an editor).
+- **Referencing: APA 7th edition, without exceptions** — OS switched from its SAGE-Harvard-based house style on **14 August 2025** (OS Style and Reference Guide, August 2025 revision; re-verified 2026-11-24；以官网为准).
+- Managing editor (EGOS office): Sophia Tzagaraki (osofficek@gmail.com); Editors-in-Chief **John Amis and Tammar B. Zilber** (re-verified 2026-11-24 on the EGOS editors page; Renate Meyer, Paolo Quattrone and Daniel Hjorth are *former* co-EiCs, and EGOS is recruiting a new Co-EiC for a term from September 2027 — confirm the live masthead before naming an editor).
 - **No submission fee.** Open-access/APC exact terms are **待核实** — confirm the OA option and any charge on the SAGE OS page before relying on them (checked 2026-06-22).
 
 ## Preflight checklist
@@ -36,7 +36,7 @@ description: Use when running the final pre-submission preflight for Organizatio
 - [ ] Total **≤13,000 words including references and appendices**
 - [ ] **Unstructured abstract ≤300 words**
 - [ ] **5–7 keywords**, four from the OS ScholarOne list
-- [ ] **SAGE Harvard** referencing throughout
+- [ ] **APA 7th** referencing throughout (OS house rule since 14 Aug 2025)
 - [ ] Figures/tables prepared to SAGE artwork specs; legible in greyscale
 - [ ] Effect magnitudes/CIs interpreted (quant); data structure + process figures present (qual)
 
@@ -84,7 +84,7 @@ it lists as *not checked* still needs the manual items below.
 【Length】≤13,000 words incl. refs/appendices? [Y/N]
 【Abstract】unstructured ≤300 words? [Y/N]
 【Keywords】5–7, four from OS ScholarOne list? [Y/N]
-【Referencing】SAGE Harvard? [Y/N]
+【Referencing】APA 7th? [Y/N]
 【Declarations】ethics / data / COI / funding on title page? [Y/N]
 【Next step】submit via ScholarOne → orgstud-review-process for what to expect
 ```

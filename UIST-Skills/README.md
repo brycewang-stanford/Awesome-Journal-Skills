@@ -9,13 +9,15 @@ matches a systems claim, producing the video figure a demo-culture venue expects
 surviving the 5,000-character rebuttal, and landing the ACM TAPS camera-ready with its
 accessibility obligations.
 
-Official basis checked on **2026-07-08**: the UIST 2026 home, Call for Participation,
-Author Guide, and organizers pages, the ACM Digital Library main and adjunct proceedings
-records for UIST 2025, the dblp series index, and UIST awards/archive pages for the
-Lasting Impact lineage. Direct automated fetches of `uist.acm.org` returned 403 in the
-verification environment, so official pages were read via search-engine renderings of the
-exact URLs and cross-checked against the ACM DL, dblp, and SIGCHI; the complete trail —
-including everything still marked 待核实 — is in
+Official basis first checked on 2026-07-08 and **re-verified on 2026-11-24** by direct
+fetch of the UIST 2026 home, Call for Participation, Author Guide, organizers, awards,
+archive and attending pages and the UIST 2027 home and organizers pages, plus the ACM
+Digital Library / Crossref proceedings records for UIST 2025 and 2026 and the dblp
+series index. **Edition status:** UIST 2026 (Detroit, November 2-5, 2026) has met; UIST
+2027 is announced for **Vienna, Austria, October 26-29, 2027** (Papers abstract March 31,
+full paper April 7, supplementary April 9), but its CFP and Author Guide are not yet
+published, so the rules below remain the UIST 2026 ones. The complete trail — including
+everything still marked 待核实 — is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What makes UIST different from its siblings
@@ -24,13 +26,13 @@ including everything still marked 待核实 — is in
   novelty is a *capability*: something a user can now do that no published system
   enabled. Empirical insight about people, however rigorous, routes to CHI or CSCW; the
   routing test is taught explicitly in `uist-topic-selection`.
-- **Demo culture is review culture.** The video figure (≤ 3 minutes, 1080p/4K, MP4/H.264
+- **Demo culture is review culture.** The video figure (≤ 5 minutes, 1080p/4K, MP4/H.264
   in 2026) is formally optional and practically decisive — reviewers watch it to decide
   whether the system is real before they weigh the prose.
 - **Hard page limits, PCS mechanics.** 2026 reviewed two-column `acmart` submissions at
   10 pages (standard) or 5 pages (short), excluding references and appendices, with
   over-limit desk rejection — via PCS with an abstract deadline one week before the
-  paper deadline.
+  paper deadline and a materials deadline (video, supplement, alt text) nine days after.
 - **A rebuttal that becomes a contract.** The 5,000-character response is an input to
   the PC decision, and acceptances are conditional on delivering exactly the changes the
   rebuttal describes.
@@ -127,19 +129,25 @@ UIST-Skills/
 
 - UIST 2026 is the **39th** edition: **Detroit, Michigan, USA (GM Renaissance Center),
   November 2-5, 2026**; the Doctoral Symposium runs in person on November 2.
-- Papers timetable: abstracts **March 24**, papers **March 31** (11:59 pm AoE), rebuttal
-  **May 28 - June 5** (≤ 5,000 characters), notification **June 27**, camera-ready
-  **July 24**.
+- Papers timetable: abstracts **March 24**, papers **March 31**, materials **April 9**
+  (11:59 pm AoE), rebuttal **May 28 - June 5** (≤ 5,000 characters), notification
+  **June 27**, PCS/TAPS camera-ready upload **July 31**, final acceptance **August 7**,
+  mandatory 30-second video preview **August 14**.
 - Format: two-column `acmart` (`[sigconf,review,anonymous]` for review), **10-page
-  standard / 5-page short** body limits excluding references and appendices, desk reject
-  if exceeded, +10% growth at camera-ready.
-- Video figure: ≤ 3 minutes, 1080p or 4K, MP4/H.264, anonymous, optional but highly
-  encouraged.
+  standard / 5-page short** body limits excluding references and appendices
+  (acknowledgements count), desk reject if exceeded, +10% growth at camera-ready; paper
+  PDF < 20 MB, all files < 300 MB.
+- Video figure: ≤ 5 minutes, 1080p or 4K, MP4/H.264, < 250 MB, separate .srt/.sbv
+  subtitles, anonymous, optional but highly encouraged.
+- Generative AI: avoid generating content with LLMs/AI agents; editing and checking the
+  authors' own text is allowed. ACM open access: 2026 APC $250 (ACM/SIG members) / $350
+  (non-members) for authors outside ACM Open institutions.
 - Anonymization: third-person self-citation with full references; anonymized copy of
   heavily overlapping prior submissions attached as supplementary material.
 - Publication: ACM main proceedings via TAPS with APTARA accessible tagging; alt text
   required for every figure, subfigure, and table. UIST 2025 (38th) was Busan,
-  September 28 - October 1, 2025 — proceedings DOI 10.1145/3746059, adjunct 10.1145/3746058.
+  September 28 - October 1, 2025 — proceedings DOI 10.1145/3746059, adjunct 10.1145/3746058;
+  UIST 2026's are 10.1145/3830398 and 10.1145/3830397.
 
 ## Fact discipline
 
@@ -147,10 +155,12 @@ Three classes of statement are kept distinguishable throughout the pack:
 
 1. **Verified 2026-cycle facts** — carry dates/limits and trace to a numbered source in
    the source map (the March 31 deadline, the 10/5-page limits, the video spec).
-2. **Reported facts** — found only in secondary sources and labeled as such (e.g.
-   Sikuli's Best Student Paper award, sourced from an author CV).
-3. **Unverifiable-at-check-time items** — marked 待核实 and phrased as questions (adjunct
-   deadlines, registration rules, AI-use policy, PCS file caps, open-access terms).
+2. **Reported facts** — found only in secondary sources and labeled as such (none
+   currently: Sikuli's Best Student Paper award, once CV-sourced, was confirmed on the
+   official UIST archive on 2026-11-24).
+3. **Unverifiable-at-check-time items** — marked 待核实 and phrased as questions (any
+   remote-presentation option, 2026 acceptance statistics, every UIST 2027 rule not yet
+   published).
 
 Any statement presenting class 2 or 3 material as class 1 is a bug; fix it against the
 live official pages.
@@ -162,9 +172,9 @@ live official pages.
   reopen `uist.acm.org/<year>/` before deadline-sensitive advice.
 - Chairs rotate annually (the 2026 committee is recorded in the source map); do not
   carry names or track configurations forward.
-- The 待核实 list in the source map — adjunct-track deadlines, registration and
-  presentation requirements, AI-use policy, open-access terms, file-size caps, 2026
-  acceptance statistics — must be resolved against live pages before being stated.
+- The 待核实 list in the source map — remote-presentation options, 2026 acceptance
+  statistics, and the UIST 2027 rules beyond its announced dates — must be resolved
+  against live pages before being stated.
 - New exemplars require the DL/dblp verification recipe at the end of
   [`resources/exemplars/library.md`](resources/exemplars/library.md); note the main vs
   adjunct proceedings distinction, which sibling packs do not have to worry about.

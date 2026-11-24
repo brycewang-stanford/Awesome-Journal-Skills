@@ -4,9 +4,9 @@ Psychological Review is a **theory journal**: the contribution is a new theory, 
 computational model, or major synthesis — never an empirical report. Data appear only to
 **motivate or constrain** the theory. There is no experimental dataset or empirical
 replication package to deposit (for computational models, you share your **own model code**).
-Verify all volatile specifics (editor, exact length/abstract limits, portal URL, APA edition,
-fees/open-access, AI policy) on the official APA Psychological Review author page before
-submitting. 检索于 2026-06；以官网为准.
+Review mode, abstract/keyword limits, length rule, fees and AI policy were re-verified on the
+APA submission-guidelines page on 2026-11-24; still re-check the live page before submitting
+(以官网为准).
 
 ## 1. Scope & fit
 
@@ -18,14 +18,15 @@ submitting. 检索于 2026-06；以官网为准.
 
 ## 2. Format (APA)
 
-- [ ] APA 7th-edition formatting: double-spaced, 12-pt, 1-inch margins (verify current edition)
-- [ ] Separate title page (authors, affiliations, ORCID iDs, contact) kept out of the masked body
-- [ ] Abstract ≤ 250 words on a separate page (verify current limit)
-- [ ] No fixed upper length; texts > 15,000 words include a justification (verify)
+- [ ] APA 7th-edition formatting: double-spaced, 12-pt, 1-inch margins
+- [ ] Title page (authors, affiliations, ORCID iDs, contact); if you choose masked review, these go only in the cover letter
+- [ ] Abstract ≤ 250 words on a separate page, then up to five keywords
+- [ ] No fixed upper length; texts > 15,000 words include a justification
 - [ ] Equations numbered; notation defined at first use
-- [ ] Manuscript in Word / OpenOffice if the portal requires it (verify)
+- [ ] Manuscript in Word / Open Office (LaTeX: ZIP of .tex + .bib/.bbl, plus a PDF)
+- [ ] Any empirical work reported: "Transparency and openness" subsection at TOP disclosure level
 
-## 3. Masking (anonymous review)
+## 3. Masking (only if you choose masked review; open review is the default)
 
 - [ ] No author names, affiliations, or identifying phrases in the body
 - [ ] Self-citations neutral ("prior research (Author, 2019)"), never "our earlier study"
@@ -38,7 +39,7 @@ submitting. 检索于 2026-06；以官网为准.
 - [ ] Abstract states the problem, the theoretical move, and the contribution
 - [ ] No data/results language in the abstract (there is no experiment)
 - [ ] If a replication is included, it is mentioned in the abstract (per journal policy)
-- [ ] Keywords selected per APA conventions
+- [ ] Up to five keywords after the abstract
 
 ## 5. Theory quality
 
@@ -75,9 +76,9 @@ submitting. 检索于 2026-06；以官网为准.
 
 - [ ] Original, unpublished, not under review elsewhere (APA Ethics Code)
 - [ ] Authorship and order agreed by all authors; each made a genuine contribution
-- [ ] Prior conference/preprint version disclosed if required; AI-assistance disclosed per current policy
+- [ ] Prior conference/preprint version disclosed if required; generative-AI use disclosed in the method section and cited
 - [ ] Similarity check run; self-overlap disclosed
 - [ ] Registered in Editorial Manager (editorialmanager.com/rev — verify); correct article type (Theoretical article vs. Theoretical Note)
-- [ ] Fees / open-access (APA Open) policy checked on the author page (do not assume)
-- [ ] Files staged: masked manuscript + separate title page + model code/forms if applicable
+- [ ] Fees: submission is free; APC only if you choose gold open access
+- [ ] Files staged: manuscript (masked if chosen) + title page or cover letter + model code/forms if applicable
 - [ ] Within portal file-size and file-type limits

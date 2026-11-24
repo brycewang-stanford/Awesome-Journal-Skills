@@ -15,7 +15,7 @@
       "name": "usenix-security-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve USENIX Security-specific skills for security conference submission strategy, grounded in the USENIX Security '26 Call for Papers, the '27 cycle calendar, the Call for Artifacts, and the ethics guidelines.",
+      "description": "Twelve USENIX Security-specific skills for security conference submission strategy, grounded in the USENIX Security '27 Call for Papers and cycle calendar, the '27 Call for Artifacts, and the ethics guidance.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

@@ -13,7 +13,7 @@ description: Use when you need to understand or set expectations for the Journal
 - You are routing a review/meta-analysis and want to know how the Review Issue track works
 - You want to plan a revision strategy before drafting the response (then go to `jmgmt-rebuttal`)
 
-> Editorial structure, named editors, and timelines change. Verify the current team and turnaround on the SAGE JOM page; the norms below are durable. As of 2026-06: JOM uses **masked (double-blind) review** with an **anonymized data transparency table**, is **developmental and multi-round**, and the Editor-in-Chief is **Cynthia E. Devers (Virginia Tech)** (检索于 2026-06；以官网为准).
+> Editorial structure, named editors, and timelines change. Verify the current team and turnaround on the SAGE JOM page; the norms below are durable. As of 2026-11-24: JOM uses **masked (double-blind) review** with an **anonymized data transparency table**, is **developmental and multi-round**, and the Editor-in-Chief is **Christopher C. Rosen (University of Arkansas)**, who succeeded Cynthia E. Devers on 2026-07-01 (re-verified 2026-11-24；以官网为准).
 
 ## How JOM review works (durable norms)
 

@@ -6,25 +6,32 @@ description: Use when building the verifiability story of an ICSE research-track
 # ICSE Reproducibility
 
 At ICSE, reproducibility is not an optional badge chase bolted on after
-acceptance — it is one of the four scored review criteria. The 2027 call
-(read 2026-07-08) scores **Verifiability and Transparency**: whether the paper
+acceptance — it is one of the five scored review criteria. The ICSE 2028 call
+(read 2026-11-24) scores **Verifiability and Transparency**: whether the paper
 gives enough information to understand how the innovation works, how data was
 obtained, analyzed, and interpreted, and whether independent verification or
-replication is supported. Build for that score at review time; the
+replication is supported — and any artifact attached to or linked from the
+paper is checked by one reviewer. Build for that score at review time; the
 post-acceptance badge process (`icse-artifact-evaluation`) then becomes cheap.
 
 ## The open-science posture
 
 The research track is governed by the ICSE Open Science policy. Its verified
-2027 shape:
+shape (2028 call, with the 2027 policy page where the 2028 one is not yet
+posted):
 
 - Research results should be accessible to the public; empirical studies
   should be reproducible where possible.
 - **Sharing is the default; non-sharing is what requires justification.**
 - Authors provide anonymized links to data/repositories, or upload anonymized
-  material via HotCRP's supplementary option.
-- Authors who cannot share add a short statement of reasons in a **Data
-  Availability section placed after the Conclusion**.
+  material via HotCRP's supplementary option, with access instructions in the
+  paper.
+- Authors who cannot share state the reason in **both the submission form and
+  the paper** (2028 Q&A); the 2027 policy placed it in a **Data Availability
+  section after the Conclusion** — keep that placement until the 2028 policy
+  page says otherwise (待核实).
+- Authors who do not intend to make data public on acceptance must say so at
+  submission; the default understanding is public release on acceptance.
 - Sharing is not formally mandatory for acceptance — but it is scored terrain.
 
 ## Availability statements that read as honest
@@ -108,8 +115,8 @@ Any "no" maps to a specific review sentence you can predict — and preempt.
 The policy's mechanics (HotCRP supplementary option, statement placement,
 badge linkage) are cycle-set; the sharing-by-default principle has held across
 recent editions but its enforcement wording moves. Whether reviewers are
-*required* to examine supplementary material was not verifiable for 2027 —
-待核实 — so keep every decision-critical fact in the 10 pages and treat the
+*required* to examine supplementary material beyond the one-reviewer artifact
+check was not verifiable for 2028 — 待核实 — so keep every decision-critical fact in the 10 pages and treat the
 package as evidence, not overflow.
 
 ## Output format

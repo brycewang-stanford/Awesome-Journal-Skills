@@ -30,7 +30,7 @@ IER's audience is **broad and rigor-leaning** — a macro theorist, an econometr
 - **State results precisely.** "We show X under condition C" beats "we find evidence consistent with X." Precision is the house currency.
 - **Magnitudes, always.** "8% of the cross-country gap" not "a significant effect." Significance is shown in exhibits as SEs/CIs, not asserted in prose.
 - **Cut the throat-clearing.** With a ≤50-page ceiling (检索于 2026-06；以官网为准), every paragraph earns its place; the literature review is positioning, not catalog.
-- **Abstract: result-first.** Under the journal's short-abstract norm, lead with the contribution and the result, not the setting (exact word limit 待核实 — check the style guidelines, available on request from the editorial office).
+- **Abstract: result-first.** Under the journal's short-abstract norm, lead with the contribution and the result, not the setting (the Penn IER style guidelines cap it at **100 words**; checked 2026-11-24).
 
 ### Writing for three referees at once
 
@@ -56,7 +56,7 @@ The sentence-level signature of good IER writing is conditional precision. Compa
 - [ ] Every formal result has a plain-English intuition sentence before the math
 - [ ] Results are stated precisely ("under condition C"), not as vague "evidence consistent with"
 - [ ] Economic magnitudes are in the prose; significance lives in exhibits as SEs/CIs
-- [ ] The abstract is result-first and within the journal's limit (待核实)
+- [ ] The abstract is result-first and within the journal's 100-word limit
 - [ ] Total length respects the ≤50-page ceiling
 
 ## Anti-patterns
@@ -84,7 +84,7 @@ The sentence-level signature of good IER writing is conditional precision. Compa
 【Intro four moves】general question / frontier limit / result / mechanism — present? [Y/N]
 【Intuition-before-algebra】every formal result has plain-English first? [Y/N]
 【Precision】results stated as "under condition C", magnitudes in prose? [Y/N]
-【Abstract】result-first and within limit (待核实)? [Y/N]
+【Abstract】result-first and ≤100 words? [Y/N]
 【Length】within ≤50pp ceiling? [Y/N]
 【Verdict】lands / needs-work
 【Next skill】ier-replication-package

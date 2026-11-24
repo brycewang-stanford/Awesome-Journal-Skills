@@ -1,15 +1,16 @@
 ---
 name: atc-camera-ready
-description: Use when preparing the ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) camera-ready after a conditional accept — de-anonymizing systematically, folding in the shepherd's required revisions, permanentizing artifact links, completing ACM Open Access metadata and the transition APC, and passing production checks for the November Hong Kong proceedings.
+description: Use when preparing the ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) camera-ready after a conditional accept — de-anonymizing systematically, folding in the shepherd's required revisions, permanentizing artifact links, completing ACM Open Access metadata and any APC, and passing production checks by the 28 May 2027 camera-ready deadline for the Rennes proceedings.
 ---
 
 # ATC Camera-Ready
 
 Use this after a **conditional accept**. Final acceptance is gated by the **shepherd**, so the
 camera-ready is not just formatting — it must **fold in every required revision** and pass the
-shepherd's sign-off, then satisfy **ACM Open Access** production. ATC 2026 publishes in the **ACM
-Digital Library** (a change from the old USENIX proceedings model), so the metadata and cost steps
-are new relative to pre-2026 USENIX ATC.
+shepherd's sign-off, then satisfy **ACM Open Access** production. For ATC 2027 (call re-verified
+2026-11-24) notifications go out **27 April 2027** and camera-ready papers are due **28 May 2027**.
+The SIGOPS editions publish in the **ACM Digital Library** (a change from the retired USENIX ATC
+proceedings model), so the metadata and cost steps are new relative to USENIX ATC.
 
 ## Satisfy the shepherd first
 
@@ -38,32 +39,35 @@ URLs) — a stray one is the classic camera-ready miss.
 
 ## Format and production
 
-- Keep the **two-column** format (178 × 229 mm text block, 10pt) and the page budget; the
-  camera-ready may allow the same or a slightly extended limit — **confirm the exact camera-ready
-  page allowance on the call** (待核实).
-- Which template file the SIGOPS edition mandates (the USENIX template vs. ACM `acmart`/equivalent)
-  is **待核实** — verify before recompiling, since ACM production checks depend on it.
+- Keep the **two-column** format (178 × 229 mm text block, 10pt) built with the ACM SIGPLAN
+  template the call recommends (`\documentclass[sigplan,10pt]{acmart}`); switch off the
+  submission-time tweaks (suppressed copyright block, anonymous mode) as the ACM author kit directs.
+- The camera-ready page allowance is not stated on the 2027 call — **confirm it in the acceptance
+  instructions** (待核实). Remember the submission limit counted appendices.
 - Embed all fonts, check figure resolution and color-blind legibility, and confirm the PDF passes
   the venue's automated production/format checker.
 
 ## ACM Open Access metadata and cost
 
-ATC 2026 papers publish under **ACM Open Access**:
+ATC papers publish under **ACM Open Access** (ACM went fully open access on 1 January 2026):
 
 - Complete the **ACM rights/e-rights form**, author and affiliation metadata, ACM CCS concepts,
   keywords, and the abstract as it will index in the ACM DL.
-- Budget for the **transition APC** — subsidized for 2026 (reported around US$250 for ACM/SIG
-  members and US$350 for non-members); confirm the current figure, member split, and any waiver on
-  the ACM/SIGOPS terms.
+- Check whether an **APC** applies: none if your institution is in **ACM Open**, otherwise an APC
+  unless you qualify for a (rare) waiver. The ATC 2027 call quotes no rate; ACM's subsidized 2027
+  rates as stated on other ACM-sponsored 2027 calls are **$500** (ACM/SIG members) and **$750**
+  (non-members). (Figures of about US$250 / US$350 for 2026 circulated in secondary renderings and
+  were never confirmed on an official page — do not quote them.)
 - Ensure the **artifact links are permanent** (DOI-issuing archive), since the published paper cites
   them and the AEC badges attach to this version (see `atc-artifact-evaluation`).
 
 ## Presentation and legacy-media note
 
 USENIX ATC historically posted **free proceedings, slides, and talk videos**; under ACM Open Access
-the proceedings are openly available via the ACM DL, and the conference is in **Hong Kong, 15-18
-November 2026**. Confirm the current slides/video policy and the presenter requirement (at least one
-author presents) on the venue page.
+the proceedings are openly available via the ACM DL, all accepted papers go online before the
+conference, and ATC 2027 meets in **Rennes, France, 28 June – 1 July 2027**. Every accepted paper is
+presented **orally and/or as a poster** (not all get an oral slot), and **one author must attend**.
+Papers of particular merit are forwarded to **ACM TOCS** and **CACM Research Highlights**.
 
 ## Pre-submission checklist
 

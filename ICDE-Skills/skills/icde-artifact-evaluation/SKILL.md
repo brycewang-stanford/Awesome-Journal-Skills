@@ -7,9 +7,10 @@ description: Use when packaging IEEE ICDE code, data, workload generators, and l
 
 Use this for evidence packaging around ICDE. ICDE expects authors to submit supplemental
 material and **considers its availability in the evaluation**, so a strong artifact directly
-raises the paper's floor even where no separate badge process runs. Confirm whether the current
-edition also runs a post-acceptance reproducibility/badge track (待核实) before promising
-evaluators anything.
+raises the paper's floor even where no separate badge process runs; Experiment, Analysis, and
+Benchmark papers MUST provide all artifacts (ICDE 2027), via an openly accessible URL, not a
+personal page. Whether the edition also runs a post-acceptance reproducibility/badge track is
+not stated in the ICDE 2027 call (待核实) — check before promising evaluators anything.
 
 ## Artifact plan
 

@@ -21,15 +21,15 @@ This is a human-computer-interaction conference pack. Its evidence culture — p
 comparisons *and* auditable qualitative analysis, participants sections read as
 results, consent-bounded data sharing, captioned video as first-class evidence —
 differs from the ML-conference packs (no leaderboards, no OpenReview) and from the
-journal packs (one deadline a year, a five-week revision clock, and a production
+journal packs (one deadline a year, a four-week revision clock, and a production
 pipeline that includes mandatory accessibility work).
 
 ## Suggested route through the pack
 
 1. **Fit and framing first:**
    [`../skills/chi-topic-selection`](../skills/chi-topic-selection/SKILL.md) with
-   [`exemplars/library.md`](exemplars/library.md) open beside it — the subcommittee
-   decision shapes everything downstream.
+   [`exemplars/library.md`](exemplars/library.md) open beside it — the contribution
+   type and reviewer-matching descriptors shape everything downstream.
 2. **Build the evidence:**
    [`../skills/chi-experiments`](../skills/chi-experiments/SKILL.md) and
    [`../skills/chi-reproducibility`](../skills/chi-reproducibility/SKILL.md), packaging
@@ -45,7 +45,7 @@ pipeline that includes mandatory accessibility work).
 5. **Ride the two rounds:**
    [`../skills/chi-review-process`](../skills/chi-review-process/SKILL.md) to read the
    outcome, [`../skills/chi-author-response`](../skills/chi-author-response/SKILL.md)
-   for the five-week revision, and
+   for the four-week revision, and
    [`../skills/chi-camera-ready`](../skills/chi-camera-ready/SKILL.md) for the
    TAPS-to-Pittsburgh pipeline — with
    [`../skills/chi-workflow`](../skills/chi-workflow/SKILL.md) as the calendar spine

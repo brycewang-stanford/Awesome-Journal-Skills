@@ -1,6 +1,6 @@
 # External Tools - NSDI
 
-Access date: 2026-07-08
+Access date: 2026-07-08; links re-checked by direct fetch 2026-11-24.
 
 Open these surfaces at the start of every NSDI engagement. The venue reissues its rules
 per edition and runs two deadlines per edition, so a link that answered a spring
@@ -12,8 +12,12 @@ question can be superseded by the fall update of the same page.
 - NSDI '27 Call for Papers: https://www.usenix.org/conference/nsdi27/call-for-papers
 - NSDI '26 multiple-deadlines process (model for the revise/resubmit rules):
   https://www.usenix.org/conference/nsdi26/additional-info
-- NSDI '26 Call for Artifacts (model for badge mechanics):
-  https://www.usenix.org/conference/nsdi26/call-for-artifacts
+- NSDI '27 Call for Artifacts (badges and per-cycle artifact dates):
+  https://www.usenix.org/conference/nsdi27/call-for-artifacts
+- NSDI '27 Instructions for Presenters (final-paper dates and format):
+  https://www.usenix.org/conference/nsdi27/instructions-presenters
+- NSDI '28 page (empty placeholder on 2026-11-24 — watch for the CFP):
+  https://www.usenix.org/conference/nsdi28
 - Per-deadline HotCRP sites: `https://nsdi<yy>spring.usenix.hotcrp.com/` and
   `https://nsdi<yy>fall.usenix.hotcrp.com/` — the `/deadlines` page on each is the
   authoritative clock.
@@ -23,7 +27,7 @@ question can be superseded by the fall update of the same page.
 - dblp NSDI stream (venue verification for citations): https://dblp.org/db/conf/nsdi/
 
 If `usenix.org` or `dblp.org` refuses direct fetches (both returned HTTP 403 during
-this pack's verification), read the exact URLs through search-engine renderings and
+the July 2026 verification; `usenix.org` answered directly on 2026-11-24), read the exact URLs through search-engine renderings and
 cross-check at least two independent renderings before trusting a date.
 
 ## Author-side verification passes
@@ -50,7 +54,8 @@ grep -rnEi '/Users/|/home/|@(gmail|edu)' figures/ *.tex | head   # paths and ema
 
 4. **Status pass.** In HotCRP, "complete" is the only state that counts; abstract
    registered a week earlier, all authors and conflicts entered, track selected, and
-   the eight-submissions-per-author ledger reconciled across the group.
+   the eight-submissions-per-author ledger reconciled across the group, and the HotCRP
+   attestations made (text primarily human written; institutional ethics compliance).
 5. **Revision pass** (one-shot resubmissions only). Auxiliary material contains the
    change-highlighted PDF and the high-level change summary, and every item on the
    reviewers' required-issues list maps to a visible change.

@@ -1,32 +1,54 @@
 ---
 name: chi-submission
-description: Use when auditing an ACM CHI Papers submission for PCS readiness, covering the September full-paper deadline, the anonymized single-column template, word-count norms instead of page limits, subcommittee designation, supplementary and video upload, anonymization of external links, and CHI's desk-reject triage before upload.
+description: Use when auditing an ACM CHI Papers submission for PCS readiness, covering the September full-paper deadline, the anonymized single-column template, word-count norms instead of page limits, the 150-word abstract cap, reviewer-matching descriptors and Review Responsibility slots, supplementary and video upload, anonymization of external links, and CHI's desk-reject triage before upload.
 ---
 
 # CHI Submission
 
 Run this audit before uploading to PCS (Precision Conference Solutions) — CHI does not
-use OpenReview or CMT. Every date and cap below was read from the CHI 2027 Papers pages
-on 2026-07-08 through search-engine renderings (direct fetches of `chi2027.acm.org`
-were blocked in the verification environment); reopen the live pages before acting on
-any number.
+use OpenReview or CMT. Every date and cap below was re-read directly from the CHI 2027
+Papers pages on 2026-11-24; reopen the live pages before acting on any number.
 
 ## What the CHI 2027 cycle posted
 
 - Full Papers deadline: **Thursday, September 10, 2026**, on PCS, *including videos and
   supplementary materials* — CHI collects everything on one date, unlike venues with a
-  later supplement window. No separate abstract-registration deadline was found for
-  2027; confirm on the live page rather than assuming (待核实).
+  later supplement window. The submission site opened **August 13, 2026**, and the
+  call states there is **no abstract deadline**. All deadlines are AoE and carry a
+  24-hour grace period that is contingency only, not an extension.
 - Review format: the **single-column** ACM submission template (CHI has used
   single-column reviewing since 2021). The two-column look happens later, in TAPS.
-- Length is governed by words, not pages. The posted norm: roughly **5,000–8,000 words**
-  for a typical paper (excluding references), submissions at or above **12,000 words**
-  face extra scrutiny and desk rejection when the length is not justified, and papers of
-  about 5,000 words or fewer are welcomed as short papers reviewed with expectations
-  commensurate with their size. CHI's standing phrase is that a paper should be the
-  length appropriate to its contribution.
-- The submission form requires you to designate a reviewing **subcommittee** (up to two
-  choices) — a strategic decision, not paperwork; see `chi-topic-selection`.
+- Length is governed by words, not pages. The posted norm: **5,000–8,000 words**
+  encouraged (the average CHI paper is about 7,000–8,000 words excluding references,
+  captions and appendices), submissions above **12,000 words** are desk-rejected unless
+  strongly justified, and papers under 5,000 words are short papers reviewed with
+  expectations commensurate with their size. CHI's standing phrase is that a paper
+  should be the length appropriate to its contribution.
+- **Abstract: 150 words or fewer** on every submission.
+- **No more subcommittees.** For CHI 2027 authors no longer submit to a topical
+  subcommittee; the form instead asks for **descriptors** of the expertise needed to
+  review the paper (domain, method or approach, users/participants/communities,
+  primary contribution), which drive reviewer matching — a strategic decision, not
+  paperwork; see `chi-topic-selection`.
+- **Review Responsibility Policy:** by submitting, all authors agree to the RRP; each
+  submission must name authors in review-responsibility slots covering **four**
+  completed reviews, and a declared reviewer who fails to deliver gets their
+  submissions desk-rejected. Every author needs an **ORCID**, and the DBLP field in
+  PCS must hold a profile URL or "n/a".
+- The author list is frozen at the paper deadline (no additions during R&R or at
+  publication-ready); PCS affiliations are final.
+- Closely related concurrent submissions (same study, artifact or dataset) must be
+  uploaded, anonymized, in the concurrent-submissions field, or the paper is
+  desk-rejected.
+- Human-subjects research: include a short note to reviewers giving the ethics-review
+  context of your research environment.
+- Generative AI: the call defers to the ACM Policy on Authorship, and papers violating
+  that policy are listed desk-reject examples. The policy (updated May 14, 2026; read
+  via the Internet Archive because acm.org refuses automated fetches) requires AI use
+  *in the conduct of the research* — study design, data generation or collection,
+  coding, analysis, AI-built artifacts relied on for conclusions — to be described in
+  detail in the methods section, and no longer requires disclosure of AI used only to
+  assist with writing. CHI 2027 posts no separate AI-disclosure form.
 - Anonymization is mandatory and extends beyond the PDF: supplemental materials and
   **external links to datasets or code repositories** that reveal identity are posted
   desk-reject grounds.
@@ -54,29 +76,33 @@ institution names by design, so upload templated, de-identified versions.
 
 ## Desk-reject triage, CHI edition
 
-CHI 2026 formalized an *assisted desk reject* step run jointly by subcommittee chairs
-and ACs, with expanded criteria — desk screening is now a real stage, not a formality.
+CHI 2026 formalized an *assisted desk reject* step; CHI 2027 keeps it, now seeded by an
+automated rubric report that the AC reads and an SC and Papers Chair confirm — desk
+screening is a real stage, not a formality (`chi-review-process`).
 
 | Finding at audit time | CHI severity | Realistic fix |
 |---|---|---|
 | Wrong template or altered format | Desk reject | Recompile on the current ACM single-column class |
 | Identity leak in PDF, supplement, or link | Desk reject | De-identify; replace links with anonymized archives |
 | ~12,000+ words without justification | Desk reject risk | Cut or explicitly justify length in the submission |
-| No plausible HCI contribution for any subcommittee | Desk reject at SC/PC screening | Re-frame or re-route before the deadline |
+| No plausible HCI contribution / no HCI literature context | Desk reject or ADR | Re-frame or re-route before the deadline |
+| Abstract over 150 words | Compliance failure | Cut before upload |
+| RRP slots missing, invalid ORCID, thin descriptors | Flagged in completeness report | Fix in the post-deadline window, better before |
 | Video figure missing captions | Review-stage damage | Add a .srt/.sbv file (see `chi-supplementary`) |
-| Weak subcommittee match | Quiet mis-review | Change the designation, not the paper, if the work is sound |
+| Vague or scattershot descriptors | Quiet mis-review | Choose fewer, more specific descriptors, not the paper |
 
 ## Deadline-week order of operations
 
-1. Lock the subcommittee pair first; it determines who reads everything else.
+1. Lock the descriptors and RRP reviewer slots first; they determine who reads
+   everything else.
 2. Freeze the manuscript at a defensible word count and record the `texcount` output.
 3. Render and caption the video figure early — encoding and captioning always take
    longer than the writing team budgets.
 4. Assemble supplements from a clean export, then run the mechanical sweep above on the
    exact files going into PCS.
-5. Fill every PCS field (title, abstract, authors, subcommittees, contribution
-   statement fields if asked) a day before; PCS has no post-deadline mercy.
-6. Re-download the submitted package and open it cold, the way a 1AC will.
+5. Fill every PCS field (title, abstract, authors with ORCID/DBLP, descriptors, RRP
+   slots, concurrent submissions) a day before; PCS has no post-deadline mercy.
+6. Re-download the submitted package and open it cold, the way the AC will.
 
 ## Length is an argument, not a quota
 
@@ -89,9 +115,9 @@ longer.
 ## Cycle-volatile items — reverify every year
 
 - The September date, the no-abstract-deadline reading, and all word-count wording.
-- Subcommittee list and count for the live cycle (the 2026 list is posted on
-  chi2026.acm.org; the 2027 list was not yet published at check time — 待核实).
-- Desk-reject criteria wording, which changed as recently as August 2025.
+- The reviewer-matching descriptor vocabulary (new for CHI 2027, replacing the
+  subcommittee list) and the Subcommunity Chair roster on the Program Committee page.
+- Desk-reject criteria wording, which changed for CHI 2026 and again for CHI 2027.
 - Whether PCS asks new form questions (AI-use disclosure, data-availability fields).
 
 ## Automated preflight (run this first)
@@ -121,7 +147,9 @@ it lists as *not checked* still needs the manual items below.
 ```text
 [CHI submission status] ready / blocked / needs work
 [Word count] <n> words vs posted norms; justification needed? yes/no
-[Subcommittees] first: <name> / second: <name or none>
+[Abstract] <n> words vs 150 cap
+[Descriptors] domain: <..> · method: <..> · participants: <..> · contribution: <..>
+[RRP] <names in four review slots; ORCID + DBLP present? yes/no>
 [Anonymity sweep] clean / leaks: <pdf | supplement | links | video | forms>
 [Desk-reject exposure] <highest-risk item>
 [Fix queue] <ordered actions before September upload>

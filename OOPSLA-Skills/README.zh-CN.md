@@ -9,15 +9,14 @@ OOPSLA（而非 POPL / PLDI / ICFP / Onward!）、在每年两个投稿轮次之
 应对多阶段 double-anonymous 评审的四种结果、执行 Minor / Major Revision、
 拿 artifact 徽章，以及在 SPLASH 现场报告。
 
-官方依据核验日期：**2026-07-08**。核验来源包括 `2026.splashcon.org` /
-`conf.researchr.org` 上的 OOPSLA 2026 轨道页、`oopsla26.hotcrp.com` 的
-call 与 deadlines 页、TYPES/announce 上流通的 OOPSLA 2026 Round 1 CFP、
-SPLASH 2026 主站与日期页、SPLASH 2026 artifact-evaluation 轨道页、ACM
-Digital Library 上的 PACMPL 期刊页与 Vol. 10 Issue OOPSLA1 卷首材料、
-SIGPLAN 的 SPLASH/OOPSLA 系列页面，以及 SIGPLAN Empirical Evaluation
-Guidelines。核验环境的网关对上述站点直接抓取返回 HTTP 403，因此所有页面
-均通过搜索引擎对精确 URL 的渲染读取，并用相互独立的渲染、ACM DL 与 dblp
-交叉核对；完整证据链（含所有仍标注 待核实 的条目）见
+官方依据：本包现面向 **OOPSLA 2027** 卷。`2027.splashcon.org` 上的
+OOPSLA 2027 call、SPLASH 2027 主站/日期/组委会页、SPLASH 2027
+artifact-evaluation call，以及 `oopsla27.hotcrp.com` 首页与 deadlines 页
+已于 **2026-11-24 直接抓取重新核验**。2026 卷来源（OOPSLA 2026 轨道页、
+`oopsla26.hotcrp.com`、TYPES/announce CFP、SPLASH 2026 页面、PACMPL
+Vol. 10 Issue OOPSLA1 卷首材料、SIGPLAN 系列页面与 Empirical Evaluation
+Guidelines）核验于 2026-07-08，当时网关返回 HTTP 403，经搜索引擎渲染读取；
+完整证据链（含所有仍标注 待核实 的条目）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## OOPSLA 的结构性特点
@@ -25,27 +24,30 @@ Guidelines。核验环境的网关对上述站点直接抓取返回 HTTP 403，�
 以下六条经核验的机制贯穿全部 12 个 skills，也是 OOPSLA 区别于
 单一截稿日期的 SIGPLAN 兄弟会议之处：
 
-- **每年两个入口，汇入同一期刊卷。** OOPSLA 2026 的 Round 1 截稿
-  2025-10-10、Round 2 截稿 2026-03-17（均为 AoE、不延期），通过 HotCRP
-  提交。Round 1 录用进入 PACMPL Vol. 10 Issue **OOPSLA1**（2026-04-01 起
-  出版，227 篇投稿录 75 篇）；Round 2 录用进入 Issue **OOPSLA2**
-  （2026-10-01 起出版）。
+- **每年两个入口，汇入同一期刊卷。** OOPSLA 2027 的 Round 1 截稿
+  2026-10-14（已截止）、Round 2 截稿 2027-04-07（均为 AoE、不延期），通过
+  `oopsla27.hotcrp.com` 提交。Round 1 录用进入 Issue **OOPSLA1**（不早于
+  2027-04-01 出版）；Round 2 录用进入 Issue **OOPSLA2**（不早于
+  2027-10-01 出版）。作为参照，2026 卷 OOPSLA1 从 227 篇投稿中录用 75 篇。
 - **四种评审结果，而非二元录否。** 每轮结束时论文获得 Accept、Minor
-  Revision（本轮内完成修改；2026 年起并入了旧的 "Conditional Accept"）、
-  Major Revision 或 Reject 之一。
+  Revision（在本轮修改截止前提交修改稿，或等到下一轮；与 2026 年一样并入了
+  旧的 "Conditional Accept"）、Major Revision 或 Reject 之一。2027 年新增：
+  两位审稿人都明确低于标准时可不经 response 直接拒稿，主席可 desk-reject
+  明显低于标准的论文，且每人每轮至多署名 **5** 篇（其中无资深作者的至多 2 篇）。
 - **跨轮机制（round-hopping）是制度设计。** Major Revision 是受邀按明确
   修改清单在**下一轮**重投，并尽量保留原审稿人——十月投稿即使拿到 Major
-  Revision，仍可经三月轮次在同一年度卷发表。本包把这套日历算术讲透。
+  Revision，仍可经四月轮次在同一年度卷发表；Round 1 被拒的论文不得在
+  Round 2 重投。本包把这套日历算术讲透。
 - **期刊排版加修改稿加页。** 投稿使用单栏 `acmsmall`（`review,anonymous`
   选项），正文上限 **23 页**（参考文献、必需声明与附录不计入）；受邀修改稿
   上限 **25 页**。参考文献之前必须放置 **Data-Availability Statement**，
-  不占页数。
-- **SPLASH 保护伞与它的地理。** 录用论文在 SPLASH 现场报告——2026 年为
-  美国加州奥克兰，10 月 4–9 日，OOPSLA 报告排在 10 月 5–7 日，与
-  **ISSTA 2026** 同址联办，并与 **Onward!** Papers / Essays 轨道同场。
-  Artifact evaluation 作为 SPLASH 级轨道运行：两阶段（先 kick-the-tires
-  再全面评审），徽章为 Functional、Reusable，以及通过 Zenodo DOI 存档
-  获得的 Available。
+  不占页数。每篇论文还须有一位资深作者登记为 **reserve reviewer**（有豁免条件）。
+- **SPLASH 保护伞与它的地理。** 录用论文须在 SPLASH 现场报告（不可远程）——
+  2027 年为捷克布拉格，10 月 10–15 日，与 MPLR、SAS 同址。SPLASH 2026 在
+  美国加州奥克兰（2026 年 10 月 4–9 日），与 ISSTA 2026 及 Onward! 同场。
+  Artifact evaluation 作为 SPLASH 级轨道，面向 Accepted 与 Minor Revision
+  论文：先 kick-the-tires 再全面评审，徽章为 Available（DOI）、Functional
+  或 Reusable，以及 Results Reproduced。
 - **应用与广度并重的传统。** PACMPL 的范围表述——"from design to
   implementation and from mathematical formalisms to empirical studies"——
   就是 OOPSLA 的身份：经验报告、语料库研究、基准方法学、human-aspects
@@ -53,9 +55,10 @@ Guidelines。核验环境的网关对上述站点直接抓取返回 HTTP 403，�
   优先的 PLDI 的分工所在。
 
 评审为 double-anonymous、多阶段；Review Committee 两位主席兼任该卷的
-PACMPL Associate Editors，逐卷轮换（2026 年为 Anders Møller 与 Işıl
-Dillig）。截至核验日，2026 两轮均已截止，OOPSLA 2027 Round 1 的 CFP
-**尚未发布**——其截稿日期属于 待核实，不能当作"2026 年 10 月"来引用。
+PACMPL Associate Editors，逐卷轮换（2027 年为 Nadia Polikarpova 与 Ilya
+Sergey；2026 年为 Anders Møller 与 Işıl Dillig）。截至 2026-11-24，OOPSLA
+2027 Round 1 已截止（author response 为 2026 年 12 月 1–5 日），**下一个
+入口是 Round 2（2027-04-07）**。
 
 ## 12 个 Skills（按战役顺序）
 
@@ -63,7 +66,7 @@ Dillig）。截至核验日，2026 两轮均已截止，OOPSLA 2027 Round 1 的 
   重心测试与 SIGPLAN 家族路由——POPL、PLDI、ICFP、Onward!、ECOOP 或 SE
   会议。
 - [`oopsla-workflow`](skills/oopsla-workflow/SKILL.md)：两轮时钟——十月还是
-  三月进场、修改路径的资源预留、战役状态机、直到 SPLASH 报告的全程轨道。
+  四月进场、修改路径的资源预留、战役状态机、直到 SPLASH 报告的全程轨道。
 - [`oopsla-experiments`](skills/oopsla-experiments/SKILL.md)：把证据类型
   匹配到主张类型——基准、语料库研究、用户研究、案例研究、机械化证明；
   按轮次日历给实验排量。
@@ -83,7 +86,7 @@ Dillig）。截至核验日，2026 两轮均已截止，OOPSLA 2027 Round 1 的 
   匿名 `acmsmall` 格式契约、Data-Availability Statement、HotCRP 提交日
   流程。
 - [`oopsla-review-process`](skills/oopsla-review-process/SKILL.md)：四结果
-  流水线、审稿人连续性、跨轮重投机制，以 2026 卷为锚点讲解。
+  流水线、审稿人连续性、跨轮重投机制，以 2027 卷为锚点讲解。
 - [`oopsla-author-response`](skills/oopsla-author-response/SKILL.md)：把
   每轮的 response 窗口当成"归类之争"——把边缘论文推向修改类结果而非
   Reject。
@@ -115,7 +118,7 @@ Dillig）。截至核验日，2026 两轮均已截止，OOPSLA 2027 Round 1 的 
   `oopsla-review-process` 讲跨轮机制；若 response 窗口未关，配合
   `oopsla-author-response`；用 `oopsla-experiments` 的需求矩阵估算
   修改工作量。
-- *"十月截稿前帮我审一遍稿子。"* → `oopsla-submission`（格式/匿名/
+- *"四月截稿前帮我审一遍稿子。"* → `oopsla-submission`（格式/匿名/
   声明）、`oopsla-reproducibility`（四支柱清单）、`oopsla-supplementary`
   （分层检查）。
 - *"论文进了 OOPSLA2，去奥克兰之前要做什么？"* →
@@ -131,19 +134,20 @@ Dillig）。截至核验日，2026 两轮均已截止，OOPSLA 2027 Round 1 的 
 
 ## 使用注意
 
-- 本包不回答 Onward! Papers/Essays、poster、workshop 或同址 ISSTA 的
+- 本包不回答 Onward! Papers/Essays、poster、workshop 或同址会议（2026 年的 ISSTA、2027 年的 MPLR/SAS）的
   投稿问题；这些轨道有独立的 call 与标准，请经
   [`resources/external_tools.md`](resources/external_tools.md) 去官方页面。
-- 涉及金额（APC、注册费）与 2027 卷日期的问题，先查 source map 的
-  待核实 清单，再打开官方页面确认，不要凭本包内容直接作答。
+- 涉及金额（APC、注册费）与日期的问题，先查 source map（2027 年 ACM
+  补贴 APC 为会员 500 美元、非会员 750 美元；注册费仍 待核实），再打开官方
+  页面确认，不要凭本包内容直接作答。
 - 引用任何 OOPSLA 论文前，按 `oopsla-related-work` 的流程在 dblp 或
   ACM DL 上核对 venue 归属；本仓库的 exemplars 清单展示了误归属的典型。
 
 ## 维护说明
 
-- 本包所有日期均为 **2026 卷锚点**，不是常设规则。结果类别在 2025→2026
-  之间就发生过变动（Conditional Accept 并入 Minor Revision），应默认
-  每卷都可能漂移。
+- 本包所有日期均为 **2027 卷锚点**，不是常设规则。结果类别在 2025→2026
+  之间就发生过变动（Conditional Accept 并入 Minor Revision），2027 年又新增
+  投稿数量上限与提前/desk 拒稿，应默认每卷都可能漂移。
 - 给出任何截稿敏感建议之前：重新打开当前 OOPSLA 轨道页、HotCRP 实例与
   SPLASH 日期页；source map 里写明了构建时哪些可直接核验、哪些不可。
 - 轮次截稿、页数上限、response 窗口机制、artifact 轨道排期、APC 金额与

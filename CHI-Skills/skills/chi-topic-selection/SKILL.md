@@ -1,13 +1,13 @@
 ---
 name: chi-topic-selection
-description: Use when deciding whether a project belongs at ACM CHI, which of CHI's contribution types it makes, and which reviewing subcommittee should judge it — or whether the work is better routed to UIST, CSCW, DIS, IUI, ASSETS, IMWUT, or TOCHI before any drafting starts.
+description: Use when deciding whether a project belongs at ACM CHI, which of CHI's contribution types it makes, and which reviewer-matching descriptors should route it to the right experts — or whether the work is better routed to UIST, CSCW, DIS, IUI, ASSETS, IMWUT, or TOCHI before any drafting starts.
 ---
 
 # CHI Topic Selection
 
 CHI accepts almost every topic that touches people and computing, so "is this in
 scope?" is rarely the real question. The decisions that actually shape the outcome
-are: *which contribution type is this paper*, and *which subcommittee should read it*.
+are: *which contribution type is this paper*, and *which expertise should review it*.
 Both are declared at submission time in PCS, and both are strategy, not paperwork —
 CHI 2026 rejected roughly three quarters of 6,730 completed submissions, and a large
 share of early rejections trace to papers pitched at the wrong reviewer community
@@ -40,33 +40,44 @@ the project into exactly one primary type; hybrids are fine but one must lead:
 | Validation and replication | Careful reproduction of prior findings | Undervalued unless framed as such |
 
 Source: the "Contributions to CHI" pages carried across recent cycles
-(chi2026.acm.org/contributions-to-chi/, checked 2026-07-08).
+(chi2027.acm.org/contributions-to-chi/, re-checked 2026-11-24; same eight types as
+CHI 2026).
 
-## The subcommittee decision
+## The descriptor decision (replaces subcommittees from CHI 2027)
 
-PCS asks you to designate up to two subcommittees, and the official guidance
-recommends naming two. In the vast majority of cases one of your two choices reviews
-the paper; chairs may transfer it only when another subcommittee would clearly review
-it more thoroughly. Practical consequences:
+Through CHI 2026, PCS asked you to designate up to two topical subcommittees. **For
+CHI 2027 authors no longer submit to a subcommittee.** Instead you select descriptors
+naming the expertise needed to review the paper, and reviewers and ACs describe their
+own expertise with the same vocabulary; a matching system then proposes reviewers
+that the AC accepts or overrides (chi2027.acm.org "Identifying Reviewers for Your
+Paper", read 2026-11-24). The descriptors cover four facets:
 
-- The subcommittee determines your 1AC, 2AC, and reviewer pool — effectively your
-  jury. A quantitative-methods paper sent to a design-led subcommittee gets design
-  criticism, and vice versa.
-- Read the current cycle's "Selecting a Subcommittee" page and match against the
-  posted scope *sentences*, not the subcommittee titles. The CHI 2027 list was not yet
-  posted at check time (待核实); the CHI 2026 list is the working draft of what to
-  expect.
-- Pick the second subcommittee as a genuine alternative reading of the paper, not a
-  duplicate of the first.
+- **Domain** — the general area a reviewer must know.
+- **Method or approach** — the expertise needed to judge how the work produces
+  knowledge, including its methodological or epistemological tradition.
+- **Users, participants, or communities** — who the work is with, for, or about.
+- **Primary contribution** — the kind of contribution to be assessed (empirical
+  finding, system, theory, method, dataset, design artefact, infrastructure, critique).
+
+Practical consequences:
+
+- The descriptors now determine your reviewer pool — effectively your jury. A
+  quantitative-methods paper described only by its domain gets reviewers who may not
+  judge the statistics, and vice versa.
+- Choose the **most specific** descriptors that matter; the official guidance warns
+  that a small focused set is a stronger matching signal than many broad ones, and
+  that using an LLM inside a prototype does not by itself mean you need LLM reviewers.
+- Make the method and contribution facets agree with the contribution type you named
+  above; a mismatch invites reviewers who judge the paper against the wrong standard.
 
 ```text
-Subcommittee fit test (run per candidate subcommittee):
-1. Do ≥3 papers you cite belong to this community?        yes / no
-2. Would its typical reviewer accept your method as rigorous
-   *by that community's standards*?                        yes / no
-3. Does your contribution statement use that community's
-   vocabulary without translation?                         yes / no
-3× yes = designate. 2 = possible second choice. ≤1 = do not list it.
+Descriptor fit test (run per candidate descriptor):
+1. Do ≥3 papers you cite come from people who hold this expertise?   yes / no
+2. Would a reviewer chosen *only* for this descriptor accept your
+   method as rigorous by their community's standards?                 yes / no
+3. Is the descriptor needed to evaluate a central claim, not just
+   loosely related to the topic?                                      yes / no
+3× yes = select. 2 = select only if a facet is otherwise empty. ≤1 = drop it.
 ```
 
 ## When CHI is the wrong room
@@ -102,7 +113,7 @@ costs twelve months — the sibling venues above fill the gap between cycles.
 ```text
 [Human stake] who changes what: <one sentence>
 [Contribution type] primary: <type> / secondary: <type or none>
-[Subcommittee designations] 1st: <name + fit-test score> / 2nd: <name + score>
+[Descriptors] domain: <..> · method: <..> · participants: <..> · contribution: <..>
 [Venue verdict] CHI-first / CHI-viable / route to <UIST|CSCW|DIS|IUI|ASSETS|IMWUT|TOCHI>
 [Length plan] short (<5k words) / standard (5-8k) / justify-longer
 [Blocking gap] <the one thing to fix before drafting>

@@ -21,8 +21,9 @@ Routing to ICALP is genuinely two questions:
 2. **Which track** — **Track A (Algorithms, Complexity and Games)** or **Track B (Automata, Logic,
    Semantics and Theory of Programming)**?
 
-Both matter: the tracks have separate program committees and separate HotCRP servers, and Track B
-carries a rebuttal while Track A does not.
+Both matter: the tracks have separate program committees and separate HotCRP servers, Track B
+carries a rebuttal (Track A, in ICALP 2026, contacted authors only on correctness issues), and since
+ICALP 2027 Track B offers two submission rounds (September and February) while Track A has one.
 
 ## Track A vs Track B
 
@@ -88,7 +89,8 @@ calendars across.
            -> present in Track A/B recently = a reviewer pool exists; absent = opening or mismatch
 [Citations] is your bibliography majority TCS venues (ICALP/STOC/FOCS/SODA/LICS/CCC + TCS journals)?
            -> majority applied venues => reviewers read you as a visitor; reconsider the venue
-[Calendar] ICALP has ONE annual February deadline; compare with STOC/FOCS/SODA/LICS dates
+[Calendar] ICALP Track A has ONE annual February deadline; Track B (since ICALP 2027) also has a
+           September round; compare with STOC/FOCS/SODA/LICS dates
            -> route to the nearest honest fit rather than waiting a full year for a marginal preference
 ```
 

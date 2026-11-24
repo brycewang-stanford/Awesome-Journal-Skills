@@ -1,6 +1,6 @@
 ---
 name: psychrev-workflow
-description: Use when deciding which psychrev-* sub-skill to invoke next, or when sequencing a theory or formal-model manuscript from problem framing through masked-review revision for a Psychological Review submission. Routes — does not replace — the specialized skills.
+description: Use when deciding which psychrev-* sub-skill to invoke next, or when sequencing a theory or formal-model manuscript from problem framing through review and revision for a Psychological Review submission. Routes — does not replace — the specialized skills.
 ---
 
 # Psychological Review Theory Workflow (psychrev-workflow)
@@ -48,7 +48,7 @@ formal soundness plays the role statistics play at empirical journals. Second, t
 | Cannot articulate the advance over the prior model                    | `psychrev-contribution-framing`|
 | Prose reads like a literature review, not a theoretical argument      | `psychrev-writing-style`      |
 | Ready to submit; need the Editorial Manager preflight                 | `psychrev-submission`         |
-| Want to understand masked review and Theoretical Notes                 | `psychrev-review-process`     |
+| Want to understand the review mode and Theoretical Notes               | `psychrev-review-process`     |
 | Received a revise decision; need the response document                | `psychrev-rebuttal`           |
 
 ## Default order
@@ -62,7 +62,7 @@ formal soundness plays the role statistics play at empirical journals. Second, t
 7. `psychrev-contribution-framing` — differentiate the advance over prior models
 8. `psychrev-writing-style` — APA house style; mechanism-first prose (polish)
 9. `psychrev-submission` — Editorial Manager preflight (incl. author's own model code if computational)
-10. `psychrev-review-process` — understand masked review and the decision types
+10. `psychrev-review-process` — understand the review mode (open by default, masked on request) and the decision types
 11. `psychrev-rebuttal` — after a revise-and-resubmit
 
 > `psychrev-writing-style` is a **late-stage polish**. Do not polish prose before the
@@ -87,7 +87,7 @@ Manuscript: ____________________   Session date: __________
 [ ] G7  Advance over the prior model articulated .................... psychrev-contribution-framing
 [ ] G8  Prose is mechanism-first APA, not a review essay ............ psychrev-writing-style
 [ ] G9  Editorial Manager preflight passed (model code attached) .... psychrev-submission
-[ ] G10 Masked-review + Theoretical Notes expectations understood ... psychrev-review-process
+[ ] G10 Review-mode choice + Theoretical Notes expectations understood ... psychrev-review-process
 [ ] G11 Response document tracks the revised THEORY, not letters .... psychrev-rebuttal
 
 Hard rule: G6–G8 are polish gates — they stay closed until G4 holds.

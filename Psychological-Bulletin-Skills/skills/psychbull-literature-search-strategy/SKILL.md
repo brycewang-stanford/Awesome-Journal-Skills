@@ -6,7 +6,8 @@ description: Use when designing and documenting the systematic literature search
 # Systematic Search Strategy (psychbull-literature-search-strategy)
 
 A Psychological Bulletin synthesis stands or falls on its **search**: it must be **systematic,
-exhaustive, and reproducible**, and **all systematic reviews must conform to PRISMA**. The goal is
+exhaustive, and reproducible**, and reported to **JARS/MARS or PRISMA 2020** (the 2026 guidelines
+accept PRISMA 2020 as a replacement for JARS/MARS). The goal is
 that an independent team could re-run your search and recover the same pool. This skill designs and
 documents the search; eligibility decisions and coding live in `psychbull-inclusion-and-coding`.
 

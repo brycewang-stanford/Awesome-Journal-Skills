@@ -1,6 +1,6 @@
 ---
 name: jmgmt-writing-style
-description: Use when the prose, introduction, or abstract is the bottleneck for a Journal of Management (JOM) manuscript — the theory-forward intro, the 250-word abstract, the 15-word title, APA voice, and enforcing the 50-page (inclusive) limit. Polishes the writing; it does not build the contribution (jmgmt-contribution-framing) or fix exhibits (jmgmt-tables-figures).
+description: Use when the prose, introduction, or abstract is the bottleneck for a Journal of Management (JOM) manuscript — the theory-forward intro, the 250-word abstract, the 15-word title, JOM Style Guide conventions, and enforcing the 50-page (inclusive) limit. Polishes the writing; it does not build the contribution (jmgmt-contribution-framing) or fix exhibits (jmgmt-tables-figures).
 ---
 
 # Writing Style (jmgmt-writing-style)
@@ -30,16 +30,16 @@ Keep hypotheses out of the intro; they belong in the developed theory section. T
 - **Title ≤ 15 words** (检索于 2026-06；以官网为准): name the relationship/mechanism and ideally the theory; avoid cute colons that hide the content.
 - **Abstract ≤ 250 words** (检索于 2026-06；以官网为准): state the question, theory, design (sample/method), key result *with direction*, and the theoretical contribution. JOM does not mandate a labeled structured abstract for empirical papers, but the abstract should still move from question → method → finding → contribution. Write it **last**, after the contribution is fixed.
 
-## APA voice and house style
+## Voice and house style
 
-- **APA (7th)** throughout: author–date citations, reference list, headings, numerals, and bias-free language.
+- **JOM Style Guide** throughout: author–date citations with "&" and page numbers after a colon for quotations (Adams, 1974: 3); references in JOM's own format ("Barney, J. 1991. Title. *Journal of Management*, 17: 99-120.") — not APA 7th; centered bold all-caps main headings; no page-bottom footnotes (notes go in a FOOTNOTES section after the references). Bias-free language still applies.
 - Active voice and concrete subjects ("managers", "the model"), not nominalized abstractions.
 - Define each construct once, then use the term consistently — no synonym-drift that re-opens jangle/jingle worries.
 - Report magnitudes in prose ("a 0.18 SD increase," illustrative), not just "significant."
 
 ## Enforcing the 50-page guillotine
 
-The **50-page limit includes text, notes, references, tables, and figures**. When over: tighten the literature review (it is usually the longest and most cuttable section), move secondary analyses and full measures to the online supplement, merge exhibits (see `jmgmt-tables-figures`), and delete any sentence that the model figure or a table already conveys. Do not solve a length problem by shrinking the contribution paragraph — cut review and method redundancy first.
+The **50-page limit includes text, notes, references, tables, and figures**. When over: tighten the literature review (it is usually the longest and most cuttable section), cut secondary analyses and full measures to what the argument needs (a first submission may not include an online supplement; supplements come later, on request), merge exhibits (see `jmgmt-tables-figures`), and delete any sentence that the model figure or a table already conveys. Do not solve a length problem by shrinking the contribution paragraph — cut review and method redundancy first.
 
 ## Theory-section prose (the long middle)
 
@@ -59,10 +59,10 @@ Read the abstract and the first two pages aloud. If a non-specialist management 
 - [ ] Hypotheses are not in the intro
 - [ ] Title ≤ 15 words and names the relationship/mechanism
 - [ ] Abstract ≤ 250 words: question → method → finding (with direction) → contribution
-- [ ] APA 7th citations, references, headings, and bias-free language throughout
+- [ ] JOM Style Guide citations, references, headings; bias-free language throughout
 - [ ] Constructs named consistently; no synonym drift
 - [ ] Magnitudes stated in prose, not only significance
-- [ ] Manuscript within the 50-page inclusive limit; overflow in the supplement
+- [ ] Manuscript within the 50-page inclusive limit; no online supplement at first submission
 
 ## Anti-patterns
 
@@ -72,7 +72,7 @@ Read the abstract and the first two pages aloud. If a non-specialist management 
 - **Jargon and hedging** that hide the mechanism
 - **Synonym drift** for the focal construct, reviving discriminant-validity doubts
 - **Solving length by cutting the contribution** instead of the review/method redundancy
-- **Mixed citation styles** (not clean APA 7th)
+- **Mixed citation styles** (not clean JOM Style Guide format — APA 7th is *not* JOM's style)
 
 ## Output format
 
@@ -80,7 +80,7 @@ Read the abstract and the first two pages aloud. If a non-specialist management 
 【Intro arc】hook → gap → question → contribution (explicit?) [Y/N]
 【Title】≤15 words, names the relationship? [Y/N] — draft: "..."
 【Abstract】≤250 words, Q→method→finding→contribution? [Y/N]
-【APA 7th】citations/references/headings clean? [Y/N]
+【JOM Style Guide】citations/references/headings clean? [Y/N]
 【Construct consistency】no synonym drift? [Y/N]
 【Length】≤50 inclusive pages? if not, cut plan: ...
 【Next step】jmgmt-submission

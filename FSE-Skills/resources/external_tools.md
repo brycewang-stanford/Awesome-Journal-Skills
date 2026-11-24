@@ -1,21 +1,22 @@
 # External Tools - ESEC/FSE
 
-Access date: 2026-07-09
+Access date: 2026-07-09; links re-checked 2026-11-24 (FSE 2027 pages fetched directly).
 
 Use these surfaces after reopening the current FSE cycle pages. FSE mechanics — deadline count,
 page budget, artifact badges, Major Revision format — are decided per edition, and the
-`conf.researchr.org`/`dl.acm.org` gateway may block direct fetches (read via search renderings
-and cross-check ACM DL and dblp). Do not confuse this venue with `fse.iacr.org` (Fast Software
+`dl.acm.org` gateway blocks automated fetches (cross-check via dblp); `conf.researchr.org` was
+directly reachable on 2026-11-24. Do not confuse this venue with `fse.iacr.org` (Fast Software
 Encryption, a cryptography conference).
 
 ## Official workflow
 
 - FSE conference series hub: https://conf.researchr.org/series/fse
-- FSE 2026 home (Montreal, Jul 5-9, 2026): https://conf.researchr.org/home/fse-2026
-- FSE 2026 research papers call: https://conf.researchr.org/track/fse-2026/fse-2026-research-papers
-- FSE 2026 Important Dates: https://conf.researchr.org/dates/fse-2026
-- FSE 2026 research HotCRP: https://fse2026.hotcrp.com/
-- FSE 2027 research papers call (next live target): https://conf.researchr.org/track/fse-2027/fse-2027-papers
+- FSE 2027 home (Shenzhen, Jul 12-16, 2027): https://conf.researchr.org/home/fse-2027
+- FSE 2027 research papers call: https://conf.researchr.org/track/fse-2027/fse-2027-papers
+- FSE 2027 Important Dates: https://conf.researchr.org/dates/fse-2027
+- FSE 2027 organizing committee: https://conf.researchr.org/committee/fse-2027/fse-2027-organizing-committee
+- FSE 2027 research HotCRP: https://fse2027.hotcrp.com/
+- FSE 2026 research papers call (history; Montreal, Jul 5-9, 2026): https://conf.researchr.org/track/fse-2026/fse-2026-research-papers
 - PACMSE journal home: https://dl.acm.org/journal/pacmse
 - PACMSE how-to-submit: https://dl.acm.org/journal/pacmse/how-to-submit
 - ACM Artifact Review and Badging: https://www.acm.org/publications/policies/artifact-review-and-badging-current
@@ -32,11 +33,14 @@ Encryption, a cryptography conference).
 
 - HotCRP profile, conflicts, coauthor emails, topic tags, and the mandatory paper-registration
   step that precedes the full-paper deadline.
-- ACM Primary Article Template compliance, the current page budget (FSE 2027: 18+4), and PDF
-  export in the single-column review format.
+- ACM Primary Article Template compliance (`acmsmall,screen,review,anonymous`), the current page
+  budget (FSE 2027: 18+4; major revision 20+4), and PDF export in the single-column review format.
+- The APC route: ACM Open institution or an APC/waiver (FSE 2027 call: USD500 members / USD750
+  non-members, subsidized for 2027).
 - Double-anonymous "heavy" sweep: anonymize the PDF, the data-availability links, tool names,
   repository owners, and — critically — the Major Revision response letter itself.
-- Data-availability statement and an anonymized artifact link or archived supplement.
+- Data Availability section after the Conclusion (not counted) and an anonymized artifact link or
+  archived supplement.
 - Artifact-evaluation intent (Available / Functional / Reusable / Reproduced) and its separate
   post-acceptance deadline.
 

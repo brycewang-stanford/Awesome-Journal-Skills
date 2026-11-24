@@ -32,8 +32,8 @@ data infrastructure under ML. Two probes:
 | Scale-forward data-science pipeline, practice first | Scalable Data Science (8 pp) | Must still show the data-management lesson, not just an application win |
 | Argued agenda without a full system yet | Vision (6 pp) | Small budget; needs a genuinely new direction, not a survey |
 
-Category budgets and continuation for the live volume: verify on the
-guidelines page before committing (see the source map's 待核实 ledger).
+Category budgets above are confirmed for Vol 20 (re-verified 2026-11-24);
+re-check them on the guidelines page once Vol 21 is published.
 
 ## Neighborhood routing
 
@@ -49,7 +49,7 @@ guidelines page before committing (see the source map's 待核实 ledger).
 | Deployed production system, lessons-forward | VLDB industrial track (separate call) |
 
 The practical VLDB-vs-SIGMOD tiebreaker in this collection's experience:
-PVLDB's monthly gate and three-month revision suit projects whose evidence
+PVLDB's monthly gate and 2.5-month revision suit projects whose evidence
 matures unpredictably; SIGMOD's fixed rounds suit groups that plan in
 quarters. Scope overlap is nearly total.
 

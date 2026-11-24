@@ -11,7 +11,8 @@ This demonstrates the **OSDI design-narrative arc** from `osdi-writing-style`:
 **operational pain → why existing designs cannot fix it → the abstraction or mechanism →
 what was built → what the measurements show → what the design trades away.** Two OSDI
 pressures shape the rewrite: everything reviewers weigh must fit the **12-page reviewed
-body** (no appendices at submission in the 2026 cycle), and with **no author-response
+body** (no appendices in the PDF; OSDI '27's separate supplementary files are optional
+reading), and with **no author-response
 period**, the introduction must answer the skeptical reviewer pre-emptively — there is
 no second conversation.
 
@@ -126,8 +127,8 @@ crash recovery independent of cluster size.
   overhead all travel with the headline number; nothing "scales well."
 - **12-page discipline** — the introduction spends its length on argument, and the
   proof sketch and trace-reconstruction detail are flagged for the design/evaluation
-  sections, since the submitted PDF has no appendix to absorb them
-  (`osdi-supplementary`).
+  sections, since the submitted PDF has no appendix to absorb them and reviewers need
+  not open a supplementary file (`osdi-supplementary`).
 
 > Next: [`../exemplars/library.md`](../exemplars/library.md) shows real, verified OSDI
 > papers whose first pages execute this arc, and

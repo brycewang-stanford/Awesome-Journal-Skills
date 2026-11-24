@@ -21,6 +21,7 @@ live CFP before trusting any number here).
 | File | PDF **without security restrictions on copying or printing** |
 | Anonymity | Double-blind: no names/affiliations/emails, third-person self-references, acknowledgements omitted |
 | Publication policy | SIGACT rules: nothing published or scheduled before the conference month elsewhere; no simultaneous proceedings/journal submission |
+| AI use | Substantive LLM/generative-AI use disclosed in an "AI Disclosure" statement at the end of the paper; minor copy-editing exempt; only humans as authors |
 | Exceptions | Prior appearance in a venue with significantly different format/content/audience: contact the program chair **before** submitting |
 
 Note the guaranteed-read set: FOCS names the *references* as always-read

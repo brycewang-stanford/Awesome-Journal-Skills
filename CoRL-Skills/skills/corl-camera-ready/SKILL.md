@@ -83,16 +83,21 @@ pdftotext final.pdf - | grep -oE 'https?://[^ ]+' | sort -u # every URL: live, p
   (see `corl-related-work` on the year-offset trap) — your own paper may be
   cited with either year; you cannot control it, but your project page can
   display the canonical BibTeX.
-- The CoRL 2026 volume number was not yet assigned at verification time
-  (待核实); recent anchors are v270 (2024) and v305 (2025).
+- The CoRL 2026 volume number was not yet listed on proceedings.mlr.press on
+  2026-11-24 (待核实); recent anchors are v270 (2024) and v305 (2025).
+- The 2026 camera-ready also required the **signed PMLR permission form** (renamed
+  `<paperid_firstname_lastname>.pdf`), uploaded on OpenReview with the PDF, and the
+  first-page footer "10th Conference on Robot Learning (CoRL 2026), Austin, Texas,
+  USA."
 
 ## Registration, presentation, and the November venue
 
-- CoRL 2026 runs November 9–12 at the JW Marriott in Austin, Texas (workshop day
-  November 9). Registration and presentation obligations for accepted papers —
-  who must register, in-person requirements, poster/talk formats — were not
-  verified in this pack (待核实): read the acceptance email and the year-site's
-  attendance pages as controlling.
+- CoRL 2026 ran in Austin, Texas — main conference November 9–11, workshops
+  November 12, 2026 (JW Marriott, Hilton Austin, Bass Hall). All accepted papers
+  were presented in poster sessions, with selected papers given oral spotlights.
+  Author-registration requirements sat on the external registration site
+  (registration sold out in 2026) and were not verified in this pack (待核实):
+  read the acceptance email and the year-site's attendance pages as controlling.
 - Plan the presentation assets against the public record: your poster and talk
   will be delivered to an audience that can read your reviews.
 

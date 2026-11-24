@@ -54,9 +54,10 @@ If the contribution's strength is *that it runs in production* — scale,
 operational lessons, design retrospectives of a shipped engine — the
 industrial track evaluates it on those terms, while the research track would
 demand novelty the deployment story may not carry. Requirements differ
-(non-academic co-author, separate deadline calendar, own PC), and the SIGMOD
-2027 industrial CFP was not yet posted as of 2026-07-08 — verify before
-planning around it.
+(non-academic co-author, separate deadline calendar, own PC, no
+double-anonymity), and the SIGMOD 2028 industrial CFP was not yet posted as of
+2026-11-24 (the SIGMOD 2027 industrial deadline was November 24, 2026) — verify
+before planning around it.
 
 ## Fit-sharpening moves
 

@@ -11,9 +11,13 @@ threshold, or form; where the live pages disagree with this pack, the live pages
 - CHI 2027 conference site: https://chi2027.acm.org/
 - CHI 2027 Papers call: https://chi2027.acm.org/authors/papers/
 - CHI 2027 Papers review process: https://chi2027.acm.org/papers-review-process/
-- Previous cycle (anchor data, guides): https://chi2026.acm.org/ — notably the
-  Guide to a Successful Submission, Selecting a Subcommittee, Contributions to CHI,
-  and the publication-ready author instructions
+- CHI 2027 reviewer matching (descriptors replace subcommittees):
+  https://chi2027.acm.org/authors/papers/identifying-reviewers-for-your-paper/
+- CHI 2027 guides: Guide to a Successful Submission, Contributions to CHI, the
+  Anonymization Policy, CHI Publication Formats, and the publication-ready author
+  instructions (all under https://chi2027.acm.org/)
+- Previous cycle (anchor data and outcome reports): https://chi2026.acm.org/
+- Next cycle (announced, no call yet at the 2026-11-24 check): https://chi2028.acm.org/
 - CHI Steering Committee (standing policies, incl. the ADR rubric):
   https://chi.acm.org/
 - SIGCHI author guides (accessibility, videos):
@@ -34,8 +38,10 @@ Run in this order against the live pages before each milestone:
 2. **Length-and-format pass** — current word-count wording (encouraged range,
    short-paper line, desk-reject threshold), the single-column template version, and
    any new required sections or statements in the template.
-3. **Subcommittee pass** — the current cycle's subcommittee list and scope
-   descriptions; re-run the fit test in `chi-topic-selection` if the list changed.
+3. **Reviewer-matching pass** — the current cycle's descriptor vocabulary (CHI 2027
+   replaced subcommittees with descriptors) or, if a later cycle restores them, the
+   subcommittee list; re-run the fit test in `chi-topic-selection` if it changed.
+   Confirm the Review Responsibility Policy slots and ORCID/DBLP fields too.
 4. **Anonymity-and-policy pass** — anonymization wording (including supplemental
    materials and external links), dual-submission rules, and any AI-use disclosure
    fields added to PCS since this snapshot.
@@ -63,7 +69,8 @@ Run in this order against the live pages before each milestone:
   repeatedly in recent years.
 - Do not assume ML-conference conventions apply: CHI has no OpenReview, no separate
   supplement deadline, no short rebuttal text box, and no posted artifact badges.
-- Do not assume the previous cycle's subcommittee list survives into the current one.
+- Do not assume the previous cycle's reviewer-routing scheme survives into the current
+  one (CHI 2026 subcommittees → CHI 2027 descriptors).
 - If official surfaces disagree (conference site vs SIGCHI guide vs PCS form), treat
   the newest statement from that cycle's chairs as controlling, and record the
   conflict in your submission notes.

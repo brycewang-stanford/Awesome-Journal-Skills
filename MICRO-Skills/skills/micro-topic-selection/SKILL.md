@@ -25,7 +25,7 @@ Ask where the proposed mechanism physically lives and what evidence proves it wo
    and latency overheads next to the speedup. If the contribution has no hardware
    cost to account for, ask why it needs to be hardware at all.
 
-## Routing table (deadlines verified 2026-07-08; recheck live pages)
+## Routing table (deadlines verified 2026-07-08 and since passed as of 2026-11-24; recheck live pages)
 
 | Symptom of the project | Better home | Why |
 |---|---|---|
@@ -40,8 +40,10 @@ Ask where the proposed mechanism physically lives and what evidence proves it wo
 ## What MICRO itself rewards
 
 The Test of Time record is a usable fit oracle. Recent awardees (SIGMICRO ToT pages,
-verified 2026-07-08): utility-based cache partitioning (MICRO 2006), 3D die-stacking
-microarchitecture, and the CACTI 6.0 NUCA modeling work (both honored in 2025). The
+re-verified 2026-11-24): utility-based cache partitioning (MICRO 2006), 3D die-stacking
+microarchitecture, and the CACTI 6.0 NUCA modeling work (both honored in 2025), and
+the flattened-butterfly on-chip network and stall-time fair memory scheduling (both
+MICRO 2007, honored in 2026). The
 pattern: a **general mechanism or model that other groups can adopt**, not a
 point-solution tuned to one workload. Accelerator papers have the same shape —
 DaDianNao (MICRO 2014) won by making the *memory locality argument* for ML

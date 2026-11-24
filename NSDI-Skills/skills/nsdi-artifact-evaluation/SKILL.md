@@ -1,30 +1,39 @@
 ---
 name: nsdi-artifact-evaluation
-description: Use when preparing an accepted NSDI paper's artifact for badge evaluation — packaging code, traces, and testbed recipes for the AEC, choosing which badges to pursue, meeting Zenodo-style permanence expectations, and timing public release to stay eligible for the Community Award.
+description: Use when preparing an accepted NSDI paper's artifact for badge evaluation — packaging code, traces, and testbed recipes for the AEC, choosing which badges to pursue, choosing among Artifacts Available / Functional / Results Reproduced, meeting Zenodo-style permanence expectations, hitting the per-cycle artifact deadlines, and timing public release to stay eligible for the Community Award.
 ---
 
 # NSDI Artifact Evaluation
 
 Artifact evaluation at NSDI is post-acceptance and opt-in: accepted authors package
 what the paper is made of, an Artifact Evaluation Committee tries it, and earned
-badges travel with the paper. Mechanics below follow the NSDI '26 Call for Artifacts
-as rendered on 2026-07-08 — the '27 call was not yet retrievable (待核实), so treat
-'26 as the model and reread the live page after acceptance.
+badges travel with the paper. Mechanics below follow the NSDI '27 Call for Artifacts
+as re-verified on 2026-11-24; reread the live page after acceptance.
 
-## What the '26 cycle established
+## What the '27 call establishes
 
-- Evaluation was **open to all accepted papers**.
-- **Three separate badges**; a paper may earn one, two, or all three. The confirmed
-  name is **Artifacts Available** — awarded when artifacts are retrievable
-  **permanently and publicly**, with Zenodo encouraged (public funding, DOI
-  assignment). The other two badge names in the NSDI '26 wording were not fully
-  retrievable (待核实); USENIX's scheme at sibling venues pairs Available with
-  functionality and results-reproduction badges.
+- Evaluation is **open to all accepted papers**, optional, and starts only **after**
+  acceptance decisions — it does not influence acceptance (yet; the call says the AEC
+  may one day advise the PC).
+- **Three separate badges**; a paper may earn one, two, or all three:
+  **Artifacts Available** (permanently and publicly retrievable — Zenodo with a DOI
+  encouraged; institutional and third-party repositories also valid), **Artifacts
+  Functional** (documentation, completeness, exercisability), and **Results
+  Reproduced** (the AEC independently obtains the paper's main results within
+  tolerance).
 - **Authors choose** which badges the AEC should consider at artifact-submission
-  time — the evaluation is scoped to what you claim.
-- '26 timeline anchor: artifacts due **July 31, 2025**, decisions **October 14,
-  2025** — i.e., months after the first acceptance cohort, weeks-scale effort
-  windows. Expect cohort-specific dates in '27 (待核实).
+  time, and cannot change the URL/archive or badge selection after the deadline.
+- Two-step submission on per-cycle AE HotCRP sites (`nsdi27springae` /
+  `nsdi27fallae`): register the accepted paper's abstract, PDF, topics and conflicts,
+  then submit a stable URL or archive.
+- '27 timeline: spring cycle artifacts due **August 7, 2026** (11:59 PM US PDT),
+  decisions **October 13, 2026**, final papers October 20, 2026; fall cycle artifacts
+  due **December 18, 2026** (11:59 PM US PST), decisions **February 19, 2027**, final
+  papers March 4, 2027. The gap between a fall acceptance (December 8) and the artifact
+  deadline is ten days — start packaging while the paper is under review, as the call
+  itself advises.
+- Evaluation is **single-blind**: evaluators know the authors, not vice versa — keep
+  analytics and tracking off artifact sites during the window.
 
 ## Choose badges like claims
 
@@ -97,9 +106,9 @@ The single highest-yield hour: a lab member who did not build the artifact follo
   questions and budget author time during the window rather than vacationing through
   it.
 - Badges recognize the artifact; they change neither the paper's acceptance nor its
-  page budget. The two-page artifact-appendix conventions of some sibling venues are
-  **not** an NSDI '26 fact — final-paper packaging follows `nsdi-camera-ready` and
-  the live instructions.
+  12-page body. Badged papers are encouraged to add an **Artifact Appendix of up to two
+  pages** (NSDI '27 call); the badges themselves appear on the final paper —
+  final-paper packaging follows `nsdi-camera-ready` and the live instructions.
 
 ## Common failure modes at systems AECs
 

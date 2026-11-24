@@ -8,9 +8,9 @@ description: Use when auditing an ESEC/FSE research-track submission for HotCRP 
 Run this audit before uploading to the FSE HotCRP site. FSE research papers are published as
 **journal articles in PACMSE** (Proceedings of the ACM on Software Engineering), so the
 submission is judged like a journal manuscript that also earns a conference slot. Every number
-below was read from the FSE 2026/2027 research-papers calls on 2026-07-09 via search renderings
-of the `conf.researchr.org` URLs (see `resources/official-source-map.md`); treat them as a
-one-cycle snapshot and reopen the live call first.
+below was re-read from the FSE 2027 research-papers call on 2026-11-24 by direct fetch of the
+`conf.researchr.org` URL (see `resources/official-source-map.md`); treat them as a one-cycle
+snapshot and reopen the live call first.
 
 ## The two-step deadline
 
@@ -19,7 +19,9 @@ FSE separates **paper registration** from **paper submission**, and both are AoE
 - **Registration** locks in title, abstract, authors, and conflicts a week early (FSE 2026:
   4 September 2025). Miss it and the system will not accept the PDF later.
 - **Submission** uploads the anonymized PDF (FSE 2026: 11 September 2025). FSE 2027's single
-  research deadline is 2 October 2026.
+  research deadline was 2 October 2026, extended to 3 October 2026 AoE after a HotCRP outage; its
+  dates page lists only the full-paper deadline, so check whether a separate registration step
+  exists in the cycle you target.
 
 Register with the *real* title and abstract, not a placeholder — the abstract drives reviewer
 bidding, and a registered abstract that diverges from the final paper quietly worsens your PC
@@ -27,11 +29,17 @@ match.
 
 ## Format and page budget
 
-- **ACM Primary Article Template**, unmodified, in the single-column review format. This is the
-  ACM path, not IEEE — do not carry an IEEEtran habit over from a sibling venue.
+- **ACM Primary Article Template**, unmodified, in the single-column review format:
+  `\documentclass[acmsmall,screen,review,anonymous]{acmart}`, numeric or author-year citations.
+  Non-compliant papers are desk-rejected. This is the ACM path, not IEEE — do not carry an
+  IEEEtran habit over from a sibling venue.
 - **Page budget (verify per cycle):** FSE 2027 posts **≤18 pages** for all text and figures plus
-  **4 pages** for references only. There is no separate unlimited appendix; anything reviewers
-  must read to judge the paper lives inside the budget.
+  **4 pages** for references only (a major revision gets 20 + 4). The required **Data
+  Availability** section after the Conclusion does not count. There is no separate unlimited
+  appendix; anything reviewers must read to judge the paper lives inside the budget.
+- **Generative AI:** under the ACM authorship policy, AI used in the research must be described in
+  the methods section; writing assistance need not be disclosed. Fabricated or unverifiable
+  references are desk-rejected; hidden prompt-injection text is prohibited.
 - Margins, font size, and spacing are fixed by the template; editorial compression, not template
   tampering, is how you recover space.
 

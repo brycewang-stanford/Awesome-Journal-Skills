@@ -7,33 +7,45 @@ description: Use when preparing a EuroSys artifact for the sysartifacts-run eval
 
 Use this when an accepted (or optimistically, submitted) EuroSys paper has code,
 data, or hardware behind its claims. EuroSys artifact evaluation is organized
-with the **sysartifacts** community (`sysartifacts.github.io/eurosys2026/`,
-rendered 2026-07-08); it is optional, happens **after acceptance notification**,
-and awards up to three badges that appear on the published paper. The EuroSys
-2027 call for artifacts was not yet verifiable on 2026-07-08 — 待核实 before
-committing to dates or badge criteria.
+with the **sysartifacts** community (`sysartifacts.github.io/eurosys2027/`,
+re-verified 2026-11-24); it is optional, **single-blind** (evaluators know the authors),
+cooperative (authors may fix problems found during evaluation), happens **between
+acceptance notification and camera-ready**, and awards up to three badges that appear on
+the published paper.
+
+EuroSys 2027 AE dates (all AoE):
+
+| Cycle | Artifact due | Kick-the-tires ends | Functional/Reproduced decisions | Archival for Available | Camera-ready |
+|---|---|---|---|---|---|
+| Spring | August 31, 2026 | September 8, 2026 | September 21, 2026 | September 23, 2026 | September 25, 2026 |
+| Fall | February 8, 2027 | February 16, 2027 | March 1, 2027 | March 3, 2027 | March 5, 2027 |
+
+(The CFP marks the fall artifact dates "to be confirmed".) AE chairs: Redha Gouicem and
+Solal Pirelli.
 
 ## The three-badge menu
 
 Authors declare which badges they want; the AEC grants zero to three.
 
-| Badge | EuroSys 2026 criterion (rendered) | Typical blocker |
+| Badge | EuroSys criterion (sysartifacts checklist) | Typical blocker |
 |---|---|---|
 | Available | Artifact retrievable from a public, DOI-backed archive | "It's on our GitHub" — mutable, not archival |
 | Functional | Complete, documented, exercisable as described | Undocumented cluster assumptions; missing inputs |
 | Reproduced | Paper's main claims independently re-obtained | Experiments needing hardware the AEC cannot access |
 
-Sensible combinations tracked by the process: all three for ordinary software
-artifacts; Available + Functional for datasets or custom-environment systems;
-Functional + Reproduced when the artifact itself cannot be published. Pick the
+EuroSys 2027 allows exactly **three combinations**: all three for the vast majority of
+software artifacts (and hardware where possible); Available + Functional for datasets or
+custom-environment systems; Functional + Reproduced when the artifact itself cannot be
+published. A first-target artifact may be downgraded to one of the other two if the
+availability or reproducibility evaluation fails; other combinations cannot be requested. Pick the
 target set *before* packaging — each badge changes what you build.
 
 ## Design for the evaluator you will actually get
 
 The AEC member is a systems student on hardware you did not choose, with a fixed
-time budget and no context beyond your paper. EuroSys evaluations have run a
-kick-the-tires phase with author interaction in past cycles (待核实 for the
-current one), but the artifact should survive with zero interaction:
+time budget and no context beyond your paper. EuroSys 2027 runs a short
+**kick-the-tires** phase in which at least one author must be reachable by email and
+answer promptly, but the artifact should survive with zero interaction:
 
 - One top-level document mapping each paper claim to a command and an expected
   output range — claims first, directory tour second.
@@ -63,9 +75,11 @@ tag on a mutable host does not satisfy the badge's permanence requirement.
 
 ## Why aim above the minimum
 
-EuroSys names an artifact prize — the **Gilles Muller Best Artifact Award**
-(EuroSys 2023 awards page; the award honors the late Gilles Muller, whose
-EuroSys '08 Coccinelle work won a Test-of-Time award). Committees remember
+EuroSys names an artifact prize. EuroSys 2027's AE page offers a **Distinguished
+Artifact** award to artifacts that earn all available badges and best exemplify
+reusability and reproducibility; earlier editions gave it as the **Gilles Muller Best
+Artifact Award** (EuroSys 2023 awards page; the award honors the late Gilles Muller,
+whose EuroSys '08 Coccinelle work won the 2018 Test-of-Time award). Committees remember
 artifacts that reproduce headline numbers unattended; that reputation follows
 the system into follow-up papers and adoption.
 
@@ -74,10 +88,10 @@ the system into follow-up papers and adoption.
 - Start the artifact during review, not after notification: the gap between
   acceptance and artifact submission is weeks, and it overlaps camera-ready
   work that wants the same people.
-- Spring-cohort papers (notified in late August for 2027) have a long runway
-  to the April conference; fall-cohort papers (notified late January) run
-  artifact evaluation and camera-ready nearly concurrently — 待核实 the
-  edition's actual AE dates, and assign separate owners if in the fall cohort.
+- For EuroSys 2027 both cohorts run AE and camera-ready back to back: ten days from
+  notification to artifact submission, about five weeks to camera-ready (spring:
+  August 21 → August 31 → September 25, 2026; fall: January 29 → February 8 → March 5,
+  2027). Assign separate owners for the artifact and the camera-ready.
 - Freeze the artifact snapshot when the camera-ready evidence freezes;
   divergence between the published numbers and the archived artifact is the
   most embarrassing discrepancy the process can surface.
@@ -112,5 +126,5 @@ they needed emerges from the prose.
 [Claim coverage] <paper claim -> script -> expected output>
 [Hardware honesty] <what the AEC cannot reproduce, and the declared fallback>
 [Archival plan] <DOI host, snapshot timing relative to camera-ready>
-[待核实] <current call-for-artifacts dates, badge wording, kick-the-tires>
+[Dates] <artifact due / kick-the-tires / decisions / archival for this cohort>
 ```

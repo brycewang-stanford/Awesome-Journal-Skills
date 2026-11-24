@@ -7,8 +7,8 @@ description: Use when writing an NDSS rebuttal and working the interactive discu
 
 Reaching the rebuttal at NDSS already means something: the early reject did not take you,
 and the paper is in Round 2 with reviewers who will *talk back* — the 2027 process pairs
-the written response with an interactive discussion phase (fall window: October 8-10,
-2026). Plan for a conversation, not a single volley.
+the written response with an interactive discussion phase (2027 fall: rebuttal November
+19-21, discussion November 19-26, 2026; summer: rebuttal July 15-17, discussion July 15-22). Plan for a conversation, not a single volley.
 
 ## Triage first (day one of the window)
 

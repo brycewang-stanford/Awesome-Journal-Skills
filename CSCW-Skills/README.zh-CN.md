@@ -7,12 +7,12 @@ CSCW 论文的完整生命周期：判断"群体"是否真正是分析单位、�
 期刊化审稿管线、在同一批审稿人手中完成 Revise-and-Resubmit，最终拿到 PACMHCI 期刊
 文章加会议报告。
 
-官方依据核验日期：**2026-07-08**。已核验 CSCW 2026 官网与 Call for Papers、CSCW
-2027 起的 rolling CFP、CSCW 2026 审稿流程 FAQ 与各轮决定的官方 blog、ACM CSCW
-Medium 官方公告、ACM Digital Library 的 PACMHCI CSCW track，以及 dblp。核验环境中
-`cscw.acm.org` 与 `dl.acm.org` 的直接抓取被拦截（HTTP 403），因此官方页面内容通过
-搜索引擎对精确 URL 的渲染读取，并与 ACM DL、dblp、SIGCHI 活动页交叉核对；完整证据
-链与全部 待核实 条目见
+官方依据复核日期：**2026-11-24**。已核验 CSCW 2027 官网、Submit 与组委会页面，
+CSCW 2027 起的 rolling CFP 与 track 指南，CSCW 2026 Call for Papers、审稿流程 FAQ
+与各轮决定的官方 blog，ACM Digital Library 的 PACMHCI CSCW track，以及 dblp。
+`cscw.acm.org` 本次可直接读取；`dl.acm.org`、Manuscript Central 与 ACM CSCW Medium
+博客拒绝自动访问，因此 2026 年 7 月版的详细 rolling CFP 通过 Internet Archive 存档
+读取；完整证据链与全部 待核实 条目见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## CSCW 与兄弟 venue 的关键差异
@@ -27,9 +27,10 @@ CSCW 长着会议的外形，运转着期刊的内核 —— 而且正在结构�
   收到 R&R，且修改稿返回**同一批审稿人**。说服工具是 response letter，不是
   rebuttal 文本框。
 - **截稿日已经消失。** 2025 年 5 月 14 日（PCS 平台）是最后一个固定截稿；CSCW
-  2027 起采用 **rolling 投稿**，经 Manuscript Central
-  （mc.manuscriptcentral.com/pacmhci）提交，由编辑委员会运作 —— 主编为 Amy
-  Bruckman 与 Eric Gilbert —— 决定约在投稿后 3-4 个月返回。
+  2027（费城，2027 年 10 月 16-20 日）起采用 **rolling 投稿至 PACM HCI/CSCW**
+  （符合 CSCW 范围的 ToCHI 录用论文也可报告）。据 2026 年 7 月版 rolling CFP，经
+  Manuscript Central（mc.manuscriptcentral.com/pacmhci）提交，由编辑委员会运作 ——
+  主编为 Amy Bruckman 与 Eric Gilbert —— 决定约在投稿后 3-4 个月返回。
 - **篇幅是一种主张，不是上限。** 没有页数限制；取而代之的是审查带（约
   5,000-12,000 词），且"篇幅与贡献不相称"本身就是明确的 desk-reject 理由。
 - **方法多元是真实的。** 访谈、民族志、痕迹数据分析、问卷、部署实验与理论文章都
@@ -117,19 +118,25 @@ CSCW-Skills/
 5. **录用之后** —— `cscw-camera-ready` 处理双轨，`cscw-artifact-evaluation`
    处理公开发布。
 
-## 2026 年锚点事实（历史快照，不是永久规则）
+## 锚点事实（2026-11-24 快照，不是永久规则）
 
-- **CSCW 2026：** 美国犹他州盐湖城，**2026 年 10 月 10-14 日**（Marriott City
-  Creek Center）。CSCW 2025 在挪威卑尔根，2025 年 10 月 18-22 日。
+- **CSCW 2027：** 美国宾夕法尼亚州费城，**2027 年 10 月 16-20 日**（Loews
+  Philadelphia Hotel）；大会主席 Louise Barkhuus 与 Andrew Miller，技术程序主席
+  Jed Brubaker 与 Elizabeth Churchill。无论文截稿日：在程序确定前录用的论文受邀在
+  CSCW 2027 报告，之后录用的顺延至下一年。
+- **CSCW 2026：** 美国犹他州盐湖城，**2026 年 10 月 10-14 日**（已举行）。
+  CSCW 2025 在挪威卑尔根，2025 年 10 月 18-22 日。
 - **最后一个固定周期（对应 CSCW 2026）：** 2025 年 5 月 14 日 12:00 EDT 截稿
-  （PCS）→ Revise-for-External-Review 重投 2025 年 9 月 16 日 → 首轮决定 2025 年
-  11 月（33.8% 终局决定，66.2% R&R）→ R&R 重投 2026 年 1 月 13 日 → 最终决定
+  （PCS）→ Revise-for-External-Review 重投 2025 年 9 月 16 日 → 外审决定 2025 年
+  11 月 11 日（33.8% 终局决定，66.2% R&R）→ R&R 重投 2026 年 1 月 13 日 → 最终决定
   2026 年 3 月下旬（录用 152 篇，拒稿 44 篇）。
-- **Rolling 模式（CSCW 2027 起）：** 无截稿日；Manuscript Central
-  （mc.manuscriptcentral.com/pacmhci）；编辑委员会制，主编 Amy Bruckman 与 Eric
-  Gilbert；约 3-4 个月出决定；发表于 PACMHCI；受邀在下一届会议报告。
-- **格式：** 单栏 ACM 投稿模板；无页数上限；5,000-12,000 词审查带；匿名评审，
-  需删除作者姓名、机构与可识别的基金信息。
+- **Rolling 模式（CSCW 2027 起）：** 无截稿日；五个 track（Design/Theory、Mixed
+  Methods、Qualitative、Quantitative、Systems）；据 2026 年 7 月版 rolling CFP，经
+  Manuscript Central（mc.manuscriptcentral.com/pacmhci）提交，主编 Amy Bruckman 与
+  Eric Gilbert，约 3-4 个月出决定；发表于 PACMHCI；会议报告自愿。
+- **格式：** 单栏 ACM Small（acmsmall）模板；无页数上限；5,000-12,000 词审查带；
+  匿名评审，需删除作者姓名、机构与可识别的基金信息；超出润色范围使用 LLM 生成的
+  文字须明确标注。
 
 ## 事实纪律
 
@@ -139,7 +146,8 @@ CSCW-Skills/
    周期的统计、rolling 平台）。
 2. **转述事实** —— 仅见于二手渲染，均已标注。
 3. **核验时无法确认的条目** —— 标注 待核实，且写成待解决的问题而非事实（如
-   rolling 的 track 名单、会议年份分配的截止点、TAPS 细节、注册要求）。
+   会议程序确定的具体日期、Manuscript Central 与主编信息的在线确认、TAPS 细节、
+   注册要求）。
 
 若发现任何 skill 把第 2、3 类内容写成了第 1 类，请视为 bug，并对照官方页面修复。
 

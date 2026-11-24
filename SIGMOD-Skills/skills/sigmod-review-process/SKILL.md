@@ -12,15 +12,15 @@ verdict is three-valued — accept, reject, or revise. Understanding which
 lever moves which outcome is most of review-stage strategy. Mechanics shift
 by cycle; reconfirm against the live CFP before relying on any date.
 
-## Anatomy of a round (SIGMOD 2027 Round 3 as the concrete case)
+## Anatomy of a round (SIGMOD 2028 Round 3 as the concrete case)
 
 ```text
-Jul 10, 2026   Abstract + conflict declarations close
-Jul 17, 2026   Paper deadline (11:59 PM AoE)
-Sep 10-17      Author feedback phase: reviews visible, short reply window
-Oct 19, 2026   Verdict: accept / reject / major or minor revision
-Nov 19, 2026   Revised paper + 4-page letter due (revision cases)
-Dec 12, 2026   Final accept/reject on revisions
+Jul 10, 2027   Abstract + conflict declarations close
+Jul 17, 2027   Paper deadline (11:59 PM AoE)
+Sep 13-20      Author feedback phase: reviews visible, reply + revision plan
+Oct 23, 2027   Verdict: accept / reject / major or minor revision
+Nov 22, 2027   Revised paper + 4-page letter due (revision cases)
+Dec 16, 2027   Final accept/reject on revisions
 ```
 
 Roughly three months from PDF to first verdict, five to final — faster than

@@ -87,7 +87,8 @@ Fail two or more and either reshape the paper or route it elsewhere before writi
 
 - Topic scope statements in the current CFP; committees re-weight subareas yearly.
 - Sibling-venue deadlines when routing away (all four flagships run per cycle).
-- Whether the current CFP solicits SoK submissions and on what terms (待核实).
+- Whether the current CFP solicits SoK submissions ('27: yes, titled "SoK: "; Replication
+  submissions are not accepted in '27).
 
 ## Output format
 

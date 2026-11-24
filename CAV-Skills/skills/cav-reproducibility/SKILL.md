@@ -74,7 +74,7 @@ why.
 ## Consistency and camera-ready pass
 
 - Before submission: every benchmark number traces to a logged run in the artifact; every soundness
-  claim has a checkable witness; the artifact is anonymized for Regular/Application categories.
+  claim has a checkable witness; the review-time artifact is anonymized for Regular Papers (AE itself is single-blind).
 - Before camera-ready: swap anonymized links for a permanent, DOI-issuing archive, and align the
   artifact with the AEC badges you are pursuing (`cav-artifact-evaluation`).
 

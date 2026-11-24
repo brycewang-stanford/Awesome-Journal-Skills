@@ -11,7 +11,7 @@ deadline or an ARI submission.
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | You need to see the page-one contract and running-example device executed on a fictional storage-engine draft, before → after. |
 | [`exemplars/library.md`](exemplars/library.md) | You want real, verification-anchored SIGMOD papers (Test-of-Time lineage plus an industry-track case) as positioning references — with a list of famous near-misses that are *not* SIGMOD papers. |
-| [`official-source-map.md`](official-source-map.md) | You must confirm what was actually verified, from which URL, on 2026-07-08 — including the access-method caveat and the 待核实 ledger. |
+| [`official-source-map.md`](official-source-map.md) | You must confirm what was actually verified, from which URL, on 2026-07-08 (re-verified 2026-11-24 against the SIGMOD 2028 call) — including the access-method note, the edition status and the 待核实 ledger. |
 | [`external_tools.md`](external_tools.md) | You need the live official surfaces (CFP, important dates, PACMMOD guidelines, ARI, CMT pointer) and the do-not-infer rules. |
 | [`code/README.md`](code/README.md) | You want the shared artifact smoke-check kit, translated into data-systems terms for ARI-bound packages. |
 

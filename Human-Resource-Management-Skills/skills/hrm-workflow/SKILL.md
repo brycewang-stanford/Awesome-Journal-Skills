@@ -9,7 +9,7 @@ description: Use when deciding which hrm-* sub-skill to invoke next, or when seq
 
 This is the router for a manuscript aimed at *Human Resource Management* — the **Wiley** US-based "HRM" journal (Online ISSN 1099-050X; Print ISSN 0090-4848), a leading outlet for strategic HRM, HR systems and practices, the employment relationship, talent, performance, and well-being, and HR's link to firm and unit outcomes. Its defining feature is a **dual contribution bar**: a paper must advance the academic literature (theoretically, empirically, and/or methodologically) **and** carry practical significance — clear implications for workforce policy or HRM practice. A purely psychological micro-paper with no HR-system or practice angle, or a purely managerial think-piece with no scholarly advance, sits at the desk-reject boundary.
 
-Operational tells you are at HRM and not a sibling: HRM accepts the **full range** of designs (conceptual, empirical, meta-analytic, critical review; qualitative or quantitative; inductive, deductive, or abductive) and explicitly spans **micro, macro, and multi-level** phenomena; review is **double-blind** (anonymized manuscript + separate title page); the **Editor-in-Chief screens for fit and relevance before review**; references use **APA** style; Wiley's **data-availability** policy applies. Co-Editors-in-Chief: **Fang Lee Cooke; Shaun Pichler (Co-EIC from Jan 2025)** (检索于 2026-06；以官网为准). Submission via Wiley **ScholarOne / Manuscript Central** (检索于 2026-06；以官网为准).
+Operational tells you are at HRM and not a sibling: HRM accepts the **full range** of designs (conceptual, empirical, meta-analytic, critical review; qualitative or quantitative; inductive, deductive, or abductive) and explicitly spans **micro, macro, and multi-level** phenomena; review is **double-blind** (anonymized manuscript + separate title page); the **Editor-in-Chief screens for fit and relevance before review**; references use **APA** style; Wiley's **data-availability** policy applies. Co-Editors-in-Chief: **Fang Lee Cooke; Shaun Pichler (Co-EIC from Jan 2025)** (检索于 2026-06；以官网为准). Submission via Wiley's **Research Exchange** portal (`authors.wiley.com/journal/HRM`), not ScholarOne (re-verified 2026-11-24；以官网为准).
 
 ## Sibling guard (do not confuse)
 
@@ -36,7 +36,7 @@ Operational tells you are at HRM and not a sibling: HRM accepts the **full range
 | The dual "so what — theory AND practice" claim is not sharp | `hrm-contribution-framing` |
 | Exhibits dense; correlation table / interaction plots not reader-ready | `hrm-tables-figures` |
 | Intro/abstract bury the idea; practitioner takeaway invisible | `hrm-writing-style` |
-| Ready to submit; need ScholarOne preflight + anonymization check | `hrm-submission` |
+| Ready to submit; need Research Exchange preflight + anonymization check | `hrm-submission` |
 | Want the desk-screen / double-blind / R&R timeline expectations | `hrm-review-process` |
 | Received an R&R; need a response-letter strategy | `hrm-rebuttal` |
 
@@ -50,7 +50,7 @@ Operational tells you are at HRM and not a sibling: HRM accepts the **full range
 6. `hrm-contribution-framing` — sharpen the dual theory-AND-practice claim
 7. `hrm-tables-figures` — correlation table, model build-up, interaction plots
 8. `hrm-writing-style` — make the idea and the takeaway land (abstract + intro last)
-9. `hrm-submission` — ScholarOne preflight, anonymization, data statement
+9. `hrm-submission` — Research Exchange preflight, anonymization, data statement
 10. `hrm-review-process` — calibrate desk-screen and developmental R&R expectations
 11. `hrm-rebuttal` — after the R&R
 

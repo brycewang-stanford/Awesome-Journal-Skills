@@ -64,10 +64,12 @@ papers — the standard misattribution traps in this space.
 - **Your published prior mechanism** is cited in third person and, if it is the
   nearest neighbor, compared in the evaluation like anyone else's — reviewers
   notice a suspicious gap where the obvious predecessor comparison should be.
-- **Your own arXiv preprint of this submission:** current-cycle policy on
-  preprint coexistence with double-blind review is 待核实 on the live guidelines;
-  do not cite it, and do not structure the paper so that finding it is necessary
-  to evaluate the work.
+- **Your own arXiv preprint of this submission:** the 2026 guidelines allow the
+  authors' own prior versions in arXiv, IEEE CAL, or workshops without archived
+  proceedings; the manuscript may ignore them to preserve anonymity, but they must
+  be declared on the HotCRP submission form (re-verified 2026-11-24). Do not cite
+  it, and do not structure the paper so that finding it is necessary to evaluate
+  the work.
 - **Extended-abstract or workshop versions** (e.g., an IISWC characterization
   that seeded this mechanism): cite in third person, and be prepared to explain
   the delta in rebuttal if a reviewer connects them.
@@ -81,8 +83,10 @@ papers — the standard misattribution traps in this space.
   comparison genuine — an oddly gentle treatment of one citation is a de-anonymizing
   tell.
 - Concurrent-work etiquette for the overlapping April/June cycles (how to treat a
-  just-appeared ISCA paper): current-cycle policy 待核实; the safe default is to
-  cite and position, since reviewers sit on both PCs and will know it exists.
+  just-appeared ISCA paper): the guidelines forbid *your own* overlapping paper
+  being under review elsewhere, but say nothing about others' concurrent work; the
+  safe default is to cite and position, since reviewers sit on both PCs and will
+  know it exists.
 
 ## Timing the sweep
 

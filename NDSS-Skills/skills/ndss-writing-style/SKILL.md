@@ -43,7 +43,7 @@ contract: what they can call, what they cannot.
 NDSS expects ethics to be woven through, not appended: a signal on page one, method-level
 handling where the risky procedure is described, and the optional **Ethics Considerations
 section immediately before the references** (excluded from the 13-page count, per the 2027
-CFP, checked 2026-07-08) carrying the full protocol — disclosure timeline, harm analysis,
+CFP, re-verified 2026-11-24) carrying the full protocol — disclosure timeline, harm analysis,
 Menlo-style reasoning, review-board interaction. Prose that describes live scanning or user
 data with no ethical acknowledgment reads to reviewers as a paper that has not understood
 the venue.

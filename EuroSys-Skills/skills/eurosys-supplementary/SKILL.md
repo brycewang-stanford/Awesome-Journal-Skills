@@ -6,11 +6,10 @@ description: Use when deciding what lives outside a EuroSys paper's 12 technical
 # EuroSys Supplementary
 
 Use this when a EuroSys draft overflows its 12 pages of technical content. The
-governing fact (EuroSys 2027 CFP, rendered 2026-07-08): the budget is 12 pages
-of technical content **plus unlimited reference pages**. Whether the current
-round accepts appendices beyond the references, or a separate supplementary
-upload in HotCRP, is per-cycle policy that was not verifiable on 2026-07-08 —
-待核实 in the live CFP and the HotCRP submission form before relying on either.
+governing fact (EuroSys 2027 CFP, re-verified 2026-11-24): the budget is 12 pages
+of technical content **plus unlimited reference pages**, and **supplementary material,
+such as proofs or additional results, may be uploaded as a separate file** — but the
+paper must be self-contained and reading the supplement is optional for reviewers.
 
 ## The four shelves
 
@@ -19,7 +18,7 @@ upload in HotCRP, is per-cycle policy that was not verifiable on 2026-07-08 —
 | 12 technical pages | Fully reviewed, the paper | Design, key mechanisms, headline evaluation, honest limitations |
 | Reference pages | Free, always allowed | Bibliography only — never technical content disguised as notes |
 | Anonymized artifact repo | Reviewer-optional | Code, configs, full result sets, extra graphs, raw logs |
-| Extended tech report / appendix | Only if the round permits (待核实) | Proofs, protocol details, exhaustive parameter sweeps |
+| Separate supplementary file | Allowed (EuroSys 2027), reviewer-optional | Proofs, protocol details, exhaustive parameter sweeps |
 
 The iron rule across all shelves: **a reviewer who reads only the 12 pages must
 be able to accept the paper.** Anything reviewer-optional is corroboration, not
@@ -90,17 +89,18 @@ must pass.
 2. Merge figures that make one point; delete figures that make none.
 3. Move corroborating (not load-bearing) material to the artifact repo with a
    one-line pointer in the body.
-4. Only then consider an appendix or tech report, after confirming the round's
-   policy (待核实) and remembering reviewers owe it nothing.
+4. Only then move material to the separate supplementary file, remembering reviewers
+   owe it nothing. (A public tech report must carry a substantially different title
+   and system name from the submission.)
 
 ## Coordination with the review timeline
 
 - Whatever optional material accompanies the submission must be final at
   the paper gate; there is no mid-review update channel, and a stale repo
   contradicting the PDF is worse than no repo.
-- If a rebuttal phase exists, it cannot introduce a new supplement —
-  externalized material must already be in place to be pointed at.
-- A one-shot revision, by contrast, is a full resubmission: the revised
+- The two-day author response cannot introduce new experiments, data, or a new
+  supplement — externalized material must already be in place to be pointed at.
+- A revise-and-resubmit, by contrast, is a full resubmission: the revised
   round is the moment to promote material inward (e.g., a boundary
   experiment the conditions demanded) rather than to grow the repo.
 
@@ -108,8 +108,8 @@ must pass.
 
 ```text
 [Page pressure] <current overflow in pages>
-[Shelf plan] <item -> body / references / artifact repo / appendix-if-allowed>
+[Shelf plan] <item -> body / references / artifact repo / supplementary file>
 [Decision-critical check] <claims whose evidence would leave the body: none / list>
 [Anonymity status of repo] <clean / leaks found>
-[待核实] <does this round allow appendices or supplementary uploads?>
+[Supplement file] <contents; self-contained body confirmed>
 ```

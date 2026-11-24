@@ -12,7 +12,8 @@ co-sponsoring IEEE/RSJ committee.
 ## Process model
 
 - Submission and review run on **PaperPlaza**. Papers are handled by an **Associate Editor** under an
-  **Editor**, who assign and synthesize reviews; there is no standing editor-in-chief for the conference.
+  **Editor**, who assign and synthesize reviews, under the **IROS Editor-in-Chief** (2026: Eiichi Yoshida);
+  the Senior Program Committee renders the acceptance decisions.
 - Reviewers are **embodied-systems researchers**. They weigh hardware, task distributions, trial counts,
   failure analysis, and sim-to-real honesty at least as much as a clean plot.
 - The **video is read as evidence**: many reviewers watch it before the text, so a weak or misleading

@@ -12,9 +12,9 @@
 The exercise: take a first-draft opening for a technique-plus-evaluation paper
 and rebuild it to the ICSE bar — an evidenced engineering problem, research
 questions visible from page 1, claims scoped to the study, and the
-verifiability story started in the abstract. The research track's four
-criteria (novelty, rigor, relevance, verifiability and transparency) are the
-grading rubric throughout.
+verifiability story started in the abstract. The research track's
+criteria (novelty, rigor, relevance, verifiability and transparency, plus
+presentation from ICSE 2028) are the grading rubric throughout.
 
 **Fictional paper:** *"FlakeShield: Quarantining Flaky Tests by Learning
 Failure Provenance from CI Histories."* Invented tool: classifies test
@@ -58,7 +58,7 @@ flakes.
   flaky-test detectors is exactly what the novelty criterion scores, and it
   is absent (`icse-related-work`).
 - **Verifiability invisible.** No mention of dataset scale, availability, or
-  artifact — the fourth criterion is unaddressed until (maybe) the last page.
+  artifact — the verifiability criterion is unaddressed until (maybe) the last page.
 - **Genre tell:** "AI-powered framework" markets the model; ICSE evaluates
   the engineering question. If the classifier were swapped, what remains?
 

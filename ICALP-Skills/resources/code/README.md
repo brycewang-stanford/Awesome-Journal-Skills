@@ -1,8 +1,9 @@
 # ICALP Submission-Readiness Code Adapter
 
 This directory routes ICALP authors to the repository-level shared tooling. It stays deliberately
-thin: ICALP-specific *policy* (the two-track structure, the single February deadline, lightweight
-double-blind review, the 15-page + full-version norm, LIPIcs open access) lives in the skills and in
+thin: ICALP-specific *policy* (the two-track structure, the February deadline and the new Track B
+September round, lightweight double-blind review, the no-page-limit full version whose first ten pages
+must carry the paper, LIPIcs open access) lives in the skills and in
 [`../official-source-map.md`](../official-source-map.md); reusable *tooling* lives in the shared kits
 so packs do not carry diverging copies.
 
@@ -29,7 +30,9 @@ format, page budget) and a discipline for mapping every claim to a complete proo
 pdfinfo paper.pdf | grep -Ei 'author|creator|producer'          # scrub identifying metadata
 pdftotext paper.pdf - | grep -nEi 'acknowledg|thanks|grant|@[a-z0-9.]+\.(edu|ac\.[a-z]+)' | head
 pdftotext paper.pdf - | grep -nEi 'in our (previous|earlier) (work|paper)|we .* \[[0-9]+\]' | head
-# page budget: main text (excluding references + clearly labelled appendix) must be <= 15 pages
+# no page limit (since ICALP 2026), but check the merits land within the first ten pages after the title page
+pdftotext -f 2 -l 11 paper.pdf - | grep -nEi '^(theorem|main result)|we (prove|show|give)' | head
+pdftotext paper.pdf - | grep -nEi 'ChatGPT|LLM|large language model|AI tool|Copilot' | head   # AI-use disclosure present if used?
 ```
 
 Treat these as mechanical smoke tests only. Venue policy still comes from the current ICALP call and
@@ -37,18 +40,20 @@ the ICALP skills for submission, supplementary split, and camera-ready.
 
 ## ICALP-specific checks the generic tooling cannot make
 
-- **Every theorem maps to a complete proof.** The 15-page body may sketch, but each headline claim
-  must have a full, checkable proof somewhere the PC can read it — the labelled appendix and/or an
-  arXiv/ECCC full version (`../../skills/icalp-reproducibility/SKILL.md`).
+- **Every theorem maps to a complete proof.** The first ten pages may sketch, but each headline
+  claim must have a full, checkable proof somewhere the PC can read it — later in the submission
+  (there is no page limit) and/or an arXiv/ECCC full version (`../../skills/icalp-reproducibility/SKILL.md`).
 - **Self-reference is third-person under double-blind.** Not "in our previous work [12]" but "in the
   work of [12]"; acknowledgements and grant numbers are removed until camera-ready
   (`../../skills/icalp-submission/SKILL.md`).
-- **The appendix is decision-support, not decision-critical.** Reviewers judge on the 15 body pages;
-  proofs banished entirely to an unread appendix are a scored risk, not a safe overflow
+- **Everything after page ten is decision-support, not decision-critical.** Only the abstract,
+  references and the first ten pages after the title page are guaranteed a read; proofs banished
+  entirely past that window are a scored risk, not a safe overflow
   (`../../skills/icalp-supplementary/SKILL.md`).
 - **The right track.** An algorithms/complexity result goes to **Track A**; an automata/logic/
-  semantics result goes to **Track B**, which alone carries a rebuttal — misrouting wastes a full
-  annual cycle (`../../skills/icalp-topic-selection/SKILL.md`).
+  semantics result goes to **Track B**, which carries a rebuttal (and, since ICALP 2027, a September
+  round as well as the February one); Track A contacted authors only on correctness issues in ICALP
+  2026 — misrouting wastes a cycle (`../../skills/icalp-topic-selection/SKILL.md`).
 
 This is not an ML-artifact or econometrics kit, and ICALP evidence is not a leaderboard score or a
 regression table: do not import Docker reproducibility harnesses or DiD notebooks here.

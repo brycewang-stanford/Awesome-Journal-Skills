@@ -9,7 +9,7 @@ and the reproducibility tooling adapter.
 
 | Resource | Purpose |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Ten verified official sources with URLs and access dates, the 2026 (Sydney) fact base, the reported-only list, and everything marked 待核实 — plus the gateway access-method note. |
+| [`official-source-map.md`](official-source-map.md) | Thirteen official sources with URLs and access dates, the Interspeech 2027 (São Paulo) fact base, the 2026 history, everything marked 待核实, the access-method note, and the machine-readable rules block. |
 | [`external_tools.md`](external_tools.md) | Live official surfaces (conference site, ISCA, Archive, portal) and five author-side verification passes. |
 | [`exemplars/library.md`](exemplars/library.md) | Five Interspeech papers verified against the ISCA Archive (title, pages, DOI), one per task lane, with self-check questions and a venue-misattribution guard. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | A fictional streaming-ASR abstract and introduction rewritten from NLP-flavored draft into the Interspeech one-pass shape. |
@@ -34,4 +34,4 @@ here — Interspeech's 4-page format and ISCA Archive pipeline are their own wor
    against the before/after in [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md).
 4. **Verify the cycle** — [`official-source-map.md`](official-source-map.md) and
    [`external_tools.md`](external_tools.md) before anything deadline-shaped, since
-   every date in this pack is a 2026 snapshot.
+   every date in this pack is an Interspeech 2027 snapshot (2026 kept as history).

@@ -10,10 +10,12 @@ current official timetable and work backwards from the HotCRP registration cutof
 the paper deadline. FSE publishes in **PACMSE**, so plan for a possible **Major Revision** round
 inside the review year, not just an accept/reject.
 
-FSE is a conference whose papers are journal articles: it has **no standing editor-in-chief** and
-**no article-processing charge**. Rotating leadership is the per-edition General and Program/Review
-Co-Chairs (FSE 2026 General Chairs: Shin Hwei Tan and Foutse Khomh, verified 2026-07-09), and the
-cost model is registration, not APCs — PACMSE is open access. Chairs rotate yearly; re-check the
+FSE is a conference whose papers are journal articles: it has **no standing editor-in-chief**.
+Rotating leadership is the per-edition General and PC Chairs (FSE 2027: General Co-Chairs Zhi Jin
+and Xiaoxing Ma, PC Chairs Michael Pradel and Baishakhi Ray, verified 2026-11-24). PACMSE is open
+access: authors with an ACM Open institution pay nothing, others owe an **APC** unless waived
+(subsidized 2027 rates USD500 ACM/SIG members, USD750 non-members); registration is needed only
+to present, since attendance is not mandatory for publication. Chairs rotate yearly; re-check the
 organizing-committee page rather than carrying a name forward.
 
 ## Milestones
@@ -24,15 +26,18 @@ organizing-committee page rather than carrying a name forward.
   and the artifact contents.
 - **Registration:** submit real title, abstract, authors, topics, and conflicts by the earlier
   registration deadline (FSE 2026: 4 Sep 2025).
-- **Submission:** upload the anonymized PDF and Data Availability statement (FSE 2026: 11 Sep 2025;
-  FSE 2027: 2 Oct 2026).
+- **Submission:** upload the anonymized PDF with its Data Availability section (FSE 2026: 11 Sep
+  2025; FSE 2027: 2 Oct 2026, extended to 3 Oct 2026 after a HotCRP outage).
+- **Author response:** FSE 2027: 14-18 Dec 2026; initial notification 22 Jan 2027 (early
+  rejection possible for consistently negative papers).
 - **Reviews:** triage each comment by criterion (significance, soundness, evidence, threats,
   clarity, open-science).
-- **Major Revision (if issued):** execute a tracked-change revision plus an anonymous, point-by-
-  point response, re-read by the original reviewers.
+- **Major Revision (if issued):** execute a tracked-change revision (≤20 + 4 pages) plus an
+  anonymous, point-by-point response, re-read by the original reviewers (FSE 2027: due 5 Mar 2027;
+  final notification 31 Mar 2027).
 - **Decision:** archive reviews, response, and every submitted version.
-- **Acceptance:** prepare the PACMSE camera-ready, pursue ACM artifact badges on the artifact
-  track's own deadline, register, and present.
+- **Acceptance:** prepare the PACMSE camera-ready (settle ACM Open or the APC), pursue ACM artifact
+  badges on the artifact track's own deadline, and register if presenting.
 
 ## Backward plan from the submission deadline
 
@@ -52,9 +57,10 @@ never to a previous cycle's calendar.
 
 ## Cycle-hopping: the honest calendar reality
 
-FSE runs (currently) a single annual research deadline. As of 2026-07-09, FSE 2026 is in progress
-in Montreal, so the live next target is **FSE 2027** (Shenzhen; deadline 2 Oct 2026). Two planning
-consequences:
+FSE runs (currently) a single annual research deadline. As of 2026-11-24, FSE 2026 (Montreal) has
+met and the **FSE 2027** deadline (Shenzhen; 3 Oct 2026 after the one-day extension) has passed,
+so a paper not yet submitted targets **FSE 2028**, whose page, dates and call were not yet
+published on 2026-11-24 — do not guess its deadline. Two planning consequences:
 
 - **A Major Revision that cannot be finished in the window** may, depending on the year's rules,
   be resubmittable to the next FSE cycle rather than lost — but this is exactly the kind of policy

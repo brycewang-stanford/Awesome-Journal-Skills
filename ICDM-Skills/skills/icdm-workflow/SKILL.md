@@ -20,11 +20,14 @@ for the paper to appear in the IEEE proceedings.
 
 - Venue + track fit: confirm Research vs Applied vs Blue Sky (see `icdm-topic-selection`).
 - Evidence lock: freeze the mining task, mechanism, baselines, ablations, and scaling runs.
-- Abstract deadline (2026-05-30): register real title, abstract, authors, topics.
-- Full-paper deadline (2026-06-06, AoE): upload the anonymized 10-page PDF (Research).
-- The summer wait: reviews proceed triple-blind with, traditionally, **no rebuttal**.
-- Notification (2026-08-16): Accept / Accept-as-Short / Reject.
-- Camera-ready: IEEE eCopyright, de-anonymization, in-person registration.
+- No abstract gate in 2026: title, abstract, authors and topics go in with the paper.
+- Full-paper deadline (2026-06-06, AoE): upload the anonymized 10-page PDF (Research) and
+  complete the reproducibility checklist in the submission system.
+- The summer wait: reviews proceed triple-blind with **no rebuttal** (none in the 2026 calls);
+  do not post or publicize a new preprint during review.
+- Notification (2026-08-16): Accept (designated Regular or Short) / Reject.
+- Camera-ready (2026-09-09; the Applied call says 2026-09-16): IEEE PDF eXpress and copyright,
+  de-anonymization, in-person registration, and an e-poster (due 2026-10-12).
 - Conference (Nov 12-15, Shenyang): present; the paper enters IEEE Xplore.
 
 ## Backward plan from the June paper deadline
@@ -48,9 +51,9 @@ prior edition's calendar.
   means the submitted PDF and its cited anonymized repository must pre-answer the obvious
   reviewer questions. If the current edition *does* open a response window, treat it as a
   bonus, not the plan (see `icdm-author-response`).
-- **Short-paper branch.** Acceptance may arrive as "accepted as a short paper." Keep a
-  compression plan ready: which sections collapse, which results move to the repository,
-  and how the contribution survives at short-paper length (see `icdm-camera-ready`).
+- **Short-paper branch.** Acceptance may arrive designated "Short." In 2026 Short papers kept
+  the ten-page limit, so no compression was forced; keep a light compression plan only as
+  insurance against a cycle that shortens them (see `icdm-camera-ready`).
 
 ## Failure modes by stage
 

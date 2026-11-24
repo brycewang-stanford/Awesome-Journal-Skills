@@ -123,6 +123,6 @@ their status precisely by changing what practitioners or researchers do.
 2. Cross-check the dblp entry; quote title/authors/year from it.
 3. For award claims, require a second source: the SIGSOFT/ICSE award pages or
    an institutional announcement naming paper, authors, and award year.
-4. Record the edition number (ICSE 2027 = 49th) to catch year-arithmetic
+4. Record the edition number (ICSE 2027 = 49th, ICSE 2028 = 50th) to catch year-arithmetic
    errors.
 5. If any step fails, omit the row or mark it 待核实 with no attribution.

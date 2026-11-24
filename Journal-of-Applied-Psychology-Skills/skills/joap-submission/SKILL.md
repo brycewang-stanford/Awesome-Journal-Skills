@@ -16,28 +16,37 @@ abstract limit, checklist contents, current editor) on the official APA page fir
 - Unsure what the masking and open-science requirements demand
 - Confirming the abstract, anonymization, data-availability statement, and deposits are in order
 
-## Process facts (verify volatile items on the official page)
+## Process facts (re-verified 2026-11-24 on the APA submission-guidelines page)
 
 - **Owner / publisher:** American Psychological Association (APA). ISSN 0021-9010 / e-ISSN 1939-1854.
 - **Portal:** **Editorial Manager**, `editorialmanager.com/apl`.
-- **Review:** **masked (anonymized)** — keep author identity out of the manuscript and repository links.
+- **Review:** **masked review only** — "The journal will accept submissions in masked review format only";
+  names and affiliations go in the cover letter, and unmasked manuscripts are returned before review.
 - **Submission checklist:** completing the **APA-published submission/masking checklist** is required at
   upload and signifies you have read and will follow the guidelines.
 - **Style:** **APA 7th edition** throughout.
-- **Article types:** Feature Article (length commensurate with contribution); Research Report (tighter;
-  confirm current page cap, 待核实); theory-development / integrative review; qualitative; meta-analysis.
-- **Abstract:** structured, content-bearing; confirm the **current word limit** (commonly ~250 words; 待核实).
-- **Open science (TOP):** empirical work (including meta-analyses) held to the **TOP framework** —
-  data/materials/code availability with DOIs, a **data-availability statement**, and preregistration
-  weighed (effective for empirical submissions; confirm current TOP level, 待核实).
-- **Current Editor:** Mo Wang (University of Florida), Editor-in-Chief from January 2026, succeeding Lillian T. Eby (web-verified 2026-06-22; re-verify the live masthead before submission).
+- **Article types:** Feature Article (length commensurate with contribution); **Research Report ≤ 19
+  manuscript pages** excluding title page, abstract, references, tables and figures (25 lines of 12-pt
+  text, 1-inch margins = one page; request it in the cover letter); **Integrative Conceptual Review**
+  (starts with a 10-page prospectus); occasional Monographs and Commentaries; replications.
+- **Abstract:** **≤ 250 words** on a separate page, then **up to five keywords**; content-bearing.
+- **Open science (TOP):** a one-paragraph Method subsection titled **"Transparency and openness"**.
+  Levels: Citation **L2**; Data, Code, Materials transparency **L1 (disclosure)**; Design & Analysis
+  **L2** (follow the JAP methods checklist + JARS); Study and Analysis-plan preregistration **L2**
+  (state whether preregistered; masked copy available at submission). Non-empirical papers state why
+  TOP data/code/preregistration items do not apply.
+- **Data transparency appendix:** last page of the manuscript, detailing every prior, concurrent or
+  planned use of the data (original-use policy); identifying details go in the cover letter.
+- **Files:** Word (.docx) or a LaTeX ZIP with a PDF; the APA submission checklist is completed at upload.
+- **Fee:** submission is free; an APC applies only to gold open access.
+- **Current Editor:** Mo Wang (University of Florida) — listed as "Incoming (2027) editor (handling all new submissions in 2026)"; Lillian T. Eby is outgoing editor handling invited revisions only in 2026 (APA editorial-board page, re-verified 2026-11-24).
 
 ## Preflight checklist
 
 ### Style & format
 - [ ] APA 7th edition throughout (headings, statistics with ES + CI, references)
-- [ ] Article type chosen; length appropriate (Feature Article vs Research Report cap, 待核实)
-- [ ] Structured abstract within the current limit (待核实); states contribution, design, samples, result
+- [ ] Article type chosen; length appropriate (Research Report ≤ 19 manuscript pages excl. title page, abstract, refs, tables, figures)
+- [ ] Abstract ≤ 250 words + up to five keywords; states contribution, design, samples, result
 - [ ] Tables/figures APA 7th; Table 1 has reliabilities; path tables/figures carry CIs and fit indices
 
 ### Masking (for anonymized review)
@@ -51,8 +60,8 @@ abstract limit, checklist contents, current editor) on the official APA page fir
 - [ ] **Data** deposited + DOI + codebook (or justified exemption)
 - [ ] **Materials** (scales, manipulations, instructions) deposited + DOI
 - [ ] **Analysis code** deposited; reproduces results in a fresh session
-- [ ] **Data-availability / transparency statement** drafted per current TOP wording
-- [ ] **Prior-use disclosure** if the dataset overlaps another paper
+- [ ] **"Transparency and openness"** Method subsection drafted (data / code / materials availability, preregistration status, JAP methods checklist followed)
+- [ ] **Data transparency appendix** as the last manuscript page (prior/concurrent/planned uses of the data)
 - [ ] Preregistration linked (anonymized); confirmatory/exploratory split consistent
 
 ### Stats & rigor
@@ -66,7 +75,7 @@ abstract limit, checklist contents, current editor) on the official APA page fir
 Running the servant-leadership package through the gate the night before upload:
 
 ```
-Style:      APA 7th throughout; structured abstract drafted (confirm limit) → PASS*
+Style:      APA 7th throughout; abstract 241/250 words + 5 keywords → PASS*
 Contribution: cross-level mechanism + boundary stated by p.3 → PASS
 Masking:    no names; self-cites neutralized; OSF anonymized-view links;
             PDF metadata stripped; separate title page → PASS
@@ -75,7 +84,7 @@ Open sci:   data + materials + code each have a DOI; data-availability
 Stats:      CFA fit + reliabilities reported; indirect = .13, 95% CI [.05, .23];
             multilevel model + ICC/r_wg; CMV remedies declared → PASS
 Verdict:    ready to upload to Editorial Manager.
-*Re-confirm the current abstract limit and Research Report cap on the APA page.
+*Abstract limit (250) and Research Report cap (19 pages) re-verified 2026-11-24; re-check before upload.
 ```
 
 ## Last-mile failure modes that trigger a return
@@ -125,7 +134,7 @@ it lists as *not checked* still needs the manual items below.
 ## Output format
 
 ```
-【Style】APA 7th + article type + abstract within limit (待核实)? [Y/N]
+【Style】APA 7th + article type + abstract ≤ 250 + ≤ 5 keywords? [Y/N]
 【Contribution legible early?】[Y/N]
 【Masking】manuscript + self-cites + repo links + metadata + title page? [Y/N]
 【Open science】data + materials + code + DOIs + availability statement? [Y/N]

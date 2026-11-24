@@ -72,7 +72,7 @@ overhead (faults, recalibration, re-runs): x1.5 -> ~38 robot-hours
 robot access: 4 h/day           -> ~10 working days, before any surprise
 ```
 
-If the arithmetic says the matrix cannot finish before the January freeze, shrink
+If the arithmetic says the matrix cannot finish before the paper freezes (the Stage 1 hypothesis on December 4, the Charter-driven final paper on April 16 in RSS 2027), shrink
 the *matrix*, not the per-condition counts — fewer conditions with auditable n beat
 a full grid of anecdotes. Reserve the final week for zero data collection.
 

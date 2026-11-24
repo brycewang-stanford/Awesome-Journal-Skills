@@ -8,9 +8,10 @@ Japan）共同主办。本包覆盖完整链路：判断项目是否适合 IROS�
 IEEE Xplore 完成 camera-ready。
 
 官方依据核验日期：**2026-07-09**。已核验 IROS 2026（Pittsburgh）的 call for papers 与
-important dates 页面、IEEE RAS 联合主办会议页与 RA-L 页面，以及 PaperPlaza。核验环境直接抓取
-`2026.ieee-iros.org` 返回 HTTP 403，故通过搜索引擎对精确 URL 的渲染阅读官方内容，并与 IEEE RAS
-页面、PaperPlaza 及独立会议镜像交叉核对；完整证据链（含所有仍标注 待核实 的条目）见
+important dates 页面、IEEE RAS 联合主办会议页与 RA-L 页面，以及 PaperPlaza。2026-07-09 直接抓取
+`2026.ieee-iros.org` 返回 HTTP 403，故当时通过搜索引擎对精确 URL 的渲染阅读官方内容，并与 IEEE RAS
+页面、PaperPlaza 及独立会议镜像交叉核对。**2026-11-24** 已通过直接抓取**重新核验** CFP、important
+dates、组委会、注册与报告说明页面（据此更正了页数上限与两个截止日期），并阅读了 IROS 2027 官网；完整证据链（含所有仍标注 待核实 的条目）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## IROS 与兄弟会议的区别
@@ -23,27 +24,31 @@ important dates 页面、IEEE RAS 联合主办会议页与 RA-L 页面，以及 
 - **秋季档期。** IROS 是**秋季** IEEE-RAS 旗舰，与 ICRA 的春季档互为季节对应。从 IROS 的视角看机器人
   日历：春季投稿截止、夏季评审静默、六月中旬通知、七月 camera-ready、九月末/十月开会。
 - **更紧的视频规格。** 2026 cycle 的可选视频附件为 **60 秒、10 MB**——只有 ICRA（180 秒 / 20 MB）的
-  一半，且有**独立的截止日期**，在论文截止后几天。为 ICRA 剪的视频必须重剪，而非直接重传。
-- **参考文献计入页数，且没有 supplementary PDF。** 所有关键内容都必须写进正文；需要 appendix 才能
-  讲清的论证，对 IROS 而言就是篇幅错配。
+  一半，且有**独立的截止日期**，在论文截止后几天（dates 页写 2026 年 3 月 7 日，CFP 正文写 3 月 5 日）。为 ICRA 剪的视频必须重剪，而非直接重传。
+- **8 页、含参考文献，且没有 supplementary PDF。** IROS 2026 以**最多 8 页（含参考文献与附录）**取代
+  旧的 6 + 2 模式，且**不能付费加页**。所有关键内容都必须写进正文；需要 appendix 才能讲清的论证，对
+  IROS 而言就是篇幅错配。
 - **2026 双盲。** IROS 长期是 single-blind 传统，但 2026 cycle 呈现为 double-anonymous——PDF 中不出现
   作者名，完整名单只放在 PaperPlaza metadata。"our prior rover [9]" 这类写法与带实验室标识的视频画面
   都会在评审阶段泄露身份。
 - **没有 rebuttal。** 评审意见传统上**与决定一同**送达。所有可预见的异议都必须在论文与视频里预先回应；
-  视频是评审能看到的唯一异步 "rebuttal"。
+  视频是评审能看到的唯一异步 "rebuttal"。（2026 年唯一例外：以 "ICRA-IROS transfer" 类别重投的
+  ICRA 2026 被拒论文须附匿名 Author Response File。）
+- **AI 使用在致谢中披露。** IROS 2026 禁止 AI 署名；使用 AI 生成内容须在致谢（acknowledgments）
+  部分披露，注明 AI 系统及涉及的章节。
 - **RA-L 路径已变。** IROS 2026 **不再提供 RA-L+IROS 联合投稿选项**；改为已发表的 RA-L（及 T-RO、
   T-ASE、RAM）论文经 transfer window 获得在 IROS presentation 的资格。这既不同于旧 cycle，也不同于
   常见的 ICRA 说法。
 - **具身证据文化。** 评审者对硬件清单、试验次数、reset 流程、失败分类与 sim-to-real 差距高度敏感；
   缺了这些，再精致的 demo 也像广告。
 
-## 当前 cycle 快照（2026-07-09）
+## 届次快照（2026-11-24）
 
-截至核验日期，IROS 2026 **已过投稿、处于 cycle 中段**：3 月 2 日论文截止与 3 月 5 日视频截止均已
-关闭，**通知已于 2026 年 6 月 16 日送达**，**当前义务是 camera-ready 与注册**——final paper 截止为
-**2026 年 7 月 10 日**，即本包核验日期的次日。IROS 2027 据报道（非一手核验）为 2027 年 9 月末/
-10 月初在意大利 Florence 举办。据此规划：若你为 2027 投稿而读本包，你面对的是**下一个**春季截止，
-而非本次。
+IROS 2026（Pittsburgh，2026 年 9 月 27 日 - 10 月 1 日）已闭幕：论文截止 3 月 2 日、视频 3 月 7 日
+（CFP 正文写 3 月 5 日）、通知 6 月 16 日、final paper 与作者注册均为 7 月 16 日。**IROS 2027** 已由
+官网一手确认于 **2027 年 9 月 27 日 - 10 月 1 日在意大利 Florence 的 Fortezza da Basso** 举办（主题
+"Human-Centric Robots for Sustainable Life"），但截至 2026-11-24 其 CFP、截止日期与页数规则**尚未公布**。
+若你为 2027 投稿而读本包，请按春季截止规划、把 2026 规则作为标注清楚的先验，并重开 2027.ieee-iros.org。
 
 ## Skills
 
@@ -128,10 +133,10 @@ IROS-Skills/
 本包区分三类陈述：
 
 1. **已核验的 2026 cycle 事实** —— 带日期/上限，且可追溯到 source map 中的编号行（如 60 秒/10 MB
-   视频、7 月 10 日 camera-ready）。
-2. **转述事实** —— 仅见于二手渲染或聚合站并如实标注（如 6 月 16 日通知、IROS 2027 Florence 会址）。
-3. **核验时不可确证条目** —— 标 待核实 并以问句表述（如 2026 确切页数上限、双盲是否延续、是否存在
-   rebuttal、general/program chair 名单、注册费）。
+   视频、8 页含参考文献上限、7 月 16 日 final paper、6 月 16 日通知、IROS 2027 Florence 会址）。
+2. **转述事实** —— 仅见于二手渲染或聚合站并如实标注（2026-11-24 直接重读后，目前无承重条目）。
+3. **核验时不可确证条目** —— 标 待核实 并以问句表述（如 2027 年双盲是否延续、camera-ready 页数规则、
+   IROS 2027 CFP）。
 
 若某个 skill 把第 2、3 类当作第 1 类呈现，视为 bug，请对照当前官方页面修正。
 
@@ -139,8 +144,9 @@ IROS-Skills/
 
 - 以上每个数字都是 **2026 cycle 快照**。IROS 规则确实会逐届变化——single-blind 转 double-anonymous
   的姿态与联合 RA-L 选项的取消即为明证；涉及 deadline 的建议前请重开 `<year>.ieee-iros.org`。
-- IROS 没有常任 editor-in-chief；组委会与 PaperPlaza 的 Associate Editor/Editor 分派逐届轮换，
-  联合主办地区交替。请勿把期刊包里的 editor 连续性假设搬过来。
+- IROS 评审由 **IROS Editor-in-Chief**（2026：Eiichi Yoshida）统领 PaperPlaza 的 Associate
+  Editor/Editor 结构；general/program chair 逐届轮换，联合主办地区交替。请勿套用期刊式的 editor
+  连续性假设，每年重开组委会页面核对。
 - 不要把 IROS 与 ICRA 混同：二者共享 PaperPlaza 与 IEEE Xplore，但日历、视频规格与逐届政策各不相同。
 - 新增 exemplar 时，遵循 [`resources/exemplars/library.md`](resources/exemplars/library.md)
   末尾的核验流程——DOI 必须解析到 IROS proceedings 条目；`10.1109/ICRA.*` 的 DOI 不是 IROS。

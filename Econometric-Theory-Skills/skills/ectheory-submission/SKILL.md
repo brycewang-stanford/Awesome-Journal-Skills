@@ -21,8 +21,12 @@ description: Use when running the final pre-submission preflight for Econometric
 - Submission is via **ScholarOne / Manuscript Central** at `https://mc.manuscriptcentral.com/econ-theory`,
   effective **28 January 2026**, replacing the previous Editorial Express system.
 - Manuscripts are submitted as a **single PDF** with all fonts, tables, and graphics embedded.
-- **No submission fee or APC is stated** on the author-instructions pages (none mentioned; **待核实** —
-  not a confirmed zero-fee policy). OA may be available via Cambridge read-and-publish agreements.
+- **No submission fee** appears on the Cambridge "Fees and pricing" page (re-read 2026-11-24), which
+  lists only the optional Gold OA APC (**£2,610 / US$3,655**, taxes may apply); OA costs are often
+  covered by Cambridge institutional agreements.
+- The manuscript carries a **competing-interest statement** and a **funding statement** before the
+  references ("The author(s) declare none" / "no specific funding" are acceptable). Declare any
+  generative-AI use for text, images or data analysis (Cambridge AI policy); AI is never an author.
 - **Single-anonymous** review — do **not** strip your identity as for a double-blind journal.
 - **Cover letter required only** when you must convey review-relevant information (e.g., to share
   prior reviews from another journal); otherwise it is **optional**.
@@ -52,6 +56,8 @@ description: Use when running the final pre-submission preflight for Econometric
 - [ ] Supplementary Material as a **separate clearly labeled file** (already-reviewed only; no new results)
 - [ ] Cover letter only if conveying review-relevant info (otherwise optional)
 - [ ] Confirmation the work is not under review/published elsewhere
+- [ ] Competing-interest and funding statements placed before the references
+- [ ] Keywords listed on the title page; replication URL ready if there are simulations or an application
 
 ### Final content sanity
 - [ ] Main theorem stated early with its scope (see ectheory-contribution-framing)
@@ -106,8 +112,8 @@ each spec maps to its failure mode on this single-PDF, single-anonymous, APA-sty
 
 A nonstationary-estimator paper assembles into a single embedded-font PDF and gets under the page ceiling by
 moving the auxiliary lemma's proof and extra tables into a labeled Supplement reusing the paper's numbering.
-A cover letter is included only because prior reviews from another journal are shared; no APC question
-stalls it, since none is stated (待核实). Submission goes through ScholarOne / Manuscript Central, in
+A cover letter is included only because prior reviews from another journal are shared; no fee question
+stalls it, since ET charges no submission fee and the APC applies only to optional Gold OA. Submission goes through ScholarOne / Manuscript Central, in
 effect since 28 January 2026 replacing Editorial Express. The fixes: incorrect anonymization → restore
 identity, as ET is single-anonymous; over the ceiling → relocate overflow to the Supplement. Confirm the
 ScholarOne URL and any fee policy against the live instructions.

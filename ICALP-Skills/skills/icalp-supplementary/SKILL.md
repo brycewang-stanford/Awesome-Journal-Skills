@@ -1,15 +1,19 @@
 ---
 name: icalp-supplementary
-description: Use when splitting an ICALP (EATCS) theory paper between the 15-page main body and the clearly labelled appendix / full version — deciding what a referee must see in the body versus what may be deferred, ensuring every deferred proof is actually present and findable, and keeping the split consistent with lightweight double-blind review.
+description: Use when splitting an ICALP (EATCS) theory paper between the first ten pages after the title page (which every referee reads) and the rest of the full-version submission (read at the committee's discretion; there is no page limit) — deciding what a referee must see early versus what may be deferred, ensuring every deferred proof is actually present and findable, and keeping the split consistent with lightweight double-blind review.
 ---
 
 # ICALP Supplementary (the body / appendix / full-version split)
 
-ICALP gives you a **15-page body** (excluding references and a clearly labelled appendix) plus an
-appendix that may hold omitted proofs or a **full version**, read **at the program committee's
-discretion**. The whole game is deciding **what goes where**: the body must let a referee *judge and
-follow* the paper; the appendix must let them *verify* it. Getting this split wrong — either cramming
-proofs into the body or hiding the substance in an unread appendix — is a common, avoidable weakness.
+Since ICALP 2026 there is **no page limit**: authors are encouraged to submit the **full version**,
+but the **first ten pages after the title page** must clearly present the merits, main contributions,
+and key concepts and technical ideas, and material beyond the abstract, references and those ten
+pages is read **at the committee's discretion** (ICALP 2027 Track B call, verified 2026-11-24; the
+15-page extended-abstract-plus-appendix rule was ICALP 2025's). In this skill, the "body" means those
+first ten pages and the "appendix / full version" means everything after them. The whole game is
+deciding **what goes where**: the first ten pages must let a referee *judge and follow* the paper; the
+rest must let them *verify* it. Getting this split wrong — either cramming every proof into the first
+ten pages or hiding the substance after them — is a common, avoidable weakness.
 
 ## The governing principle
 
@@ -41,8 +45,8 @@ proofs into the body or hiding the substance in an unread appendix — is a comm
 
 | Failure | Symptom | Fix |
 |---|---|---|
-| **Over-stuffed body** | Every proof crammed into 15 pages; unreadable, over-budget | Move complete proofs to the appendix, keep sketches + key lemmas in the body |
-| **Hollow body** | Body states theorems, all proofs (incl. the key idea) dumped in an unread appendix | Bring the central technique and the main lemma's proof idea into the body |
+| **Over-stuffed body** | Every proof crammed into the first ten pages; unreadable, the merits buried | Move complete proofs after page ten, keep sketches + key lemmas up front |
+| **Hollow body** | The first ten pages state theorems, all proofs (incl. the key idea) come later and may go unread | Bring the central technique and the main lemma's proof idea into the body |
 
 The hollow body is the more dangerous: referees judge on the body, and a paper whose substance they
 cannot see reads as either thin or evasive, even if the appendix is perfect.
@@ -74,7 +78,7 @@ follow both ideas from the body, then verify every detail in the appendix.
 ## Output format
 
 ```text
-[Body budget] <=15pp excl. refs + appendix; over/under
+[First ten pages] merits + contributions + key ideas all within ten pages after the title page? yes/no
 [In body] model / theorem statements / key technique / main-lemma idea: all present? gaps
 [Deferred] complete proofs, routine cases, computation — each with a body pointer? yes/no
 [Hollow-body check] is the central idea visible in the body (not only the appendix)? yes/no

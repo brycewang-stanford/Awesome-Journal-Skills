@@ -76,7 +76,7 @@ seeded-defect benchmark:
 - **Measured, not asserted.** Venue shortlisting runs `tools/match_venues.py` over a
   generated index of 744 venues with an adjacency graph for the resubmission ladder, and
   **the evaluation scores that same code path** against a gold set split into a tuning
-  half and a held-out half — on the held-out half, R@10 = 65.4% from a bare title, 77.6%
+  half and a held-out half — on the held-out half, R@10 = 65.7% from a bare title, 77.7%
   with the discipline supplied (2026-11-23)
   ([`shared-resources/journal-selection/eval/`](resources/shared/journal-selection/eval/README.md)).
   Retrieval produces a reading list; the recommendation still comes from the venue's own pack.

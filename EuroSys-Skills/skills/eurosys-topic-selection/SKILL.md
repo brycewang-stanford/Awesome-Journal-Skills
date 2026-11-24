@@ -6,10 +6,12 @@ description: Use when deciding whether a systems project belongs at EuroSys — 
 # EuroSys Topic Selection
 
 Use this before serious writing begins. EuroSys is the flagship conference of
-the European Chapter of ACM SIGOPS (`eurosys.org`, rendered 2026-07-08),
+the European Chapter of ACM SIGOPS (`eurosys.org`, re-verified 2026-11-24),
 running annually since 2006 and seeking papers on **all areas of computer
 systems** — it is a broad-church systems venue, not a niche. The 2026 edition
-(the 21st) met in Edinburgh in April; 2027 meets in Rabat. The right question
+(the 21st) met in Edinburgh in April; 2027 meets in Rabat, and its CFP explicitly
+welcomes experience papers whose deployment lessons are general and quantitatively
+supported. The right question
 is rarely "is this systems?" but "is this *conference-grade* systems, and is
 EuroSys the best-positioned jury and calendar slot for it?"
 

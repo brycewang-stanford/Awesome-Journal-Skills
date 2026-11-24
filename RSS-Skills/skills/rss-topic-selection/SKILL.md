@@ -21,8 +21,10 @@ distinctive question, and this skill applies it.
 - "We integrated known components and the system works well" is a legitimate result,
   but it is a *systems demonstration*, and at RSS it must still carry an insight: what
   does the integration reveal that component papers could not?
-- The 2026 CFP welcomes both Science and Systems contributions; the shared requirement
-  is a contribution statement a skeptic could test, not a capabilities inventory.
+- The RSS 2027 CFP welcomes both Science and Systems papers and now asks for an
+  explicit, testable **hypothesis** at Stage 1 — a contribution statement a skeptic
+  could test, not a capabilities inventory. Well-tested negative results are
+  acceptable.
 
 ## Routing table (from RSS's seat)
 
@@ -33,7 +35,7 @@ distinctive question, and this skill applies it.
 | Learning-centric, benchmark-driven, embodiment secondary | CoRL | Robot-learning community is the right jury |
 | Human-subject study as the main evidence | HRI | Study-design reviewing lives there |
 | Pure algorithmic-foundations result, no experiment planned | WAFR or a theory venue | RSS still expects an empirical anchor |
-| Needs 15+ pages of proofs or longitudinal experiments | T-RO / IJRR | Journal length; RSS caps at 8 pages excl. references (2026) |
+| Needs 15+ pages of proofs or longitudinal experiments | T-RO / IJRR | Journal length; RSS 2027 caps Stage 1 at 5 + 1 pages and the final paper at 8 excl. references |
 
 ## Three-part fit probe
 
@@ -45,8 +47,8 @@ Run these in order; failing any one is a re-route signal, not a death sentence:
 2. **Audience probe** — RSS attendees span planning, perception, learning, control,
    and design. Would a session chair from a *different* subfield still care? If the
    result matters only inside one benchmark community, CoRL or a workshop is kinder.
-3. **Compression probe** — the 2026 format is 8 pages excluding references, a ceiling
-   the CFP explicitly frames as not a target. If the argument cannot be made crisply,
+3. **Compression probe** — RSS 2027 needs the hypothesis and method to fit 5 pages at
+   Stage 1 and the full paper 8 pages excluding references at Stage 2. If the argument cannot be made crisply,
    the project may be a journal paper wearing conference formatting.
 
 ## Worked micro-decision
@@ -77,7 +79,7 @@ system-name-free:
 If none of these templates fits even loosely, the project is probably a systems
 report or an application study — respectable, but routed elsewhere.
 
-## Signals to weigh before committing the January slot
+## Signals to weigh before committing the December Stage 1 slot
 
 | Signal | Reading |
 |---|---|
@@ -92,11 +94,11 @@ report or an application study — respectable, but routed elsewhere.
 
 - Scope emphasis and paper-type wording shift per edition; reread the current CFP
   (roboticsconference.org/information/cfp/) before the final call.
-- Deadline geometry matters for routing: RSS 2026 closed in late January for a July
-  conference; ICRA and CoRL sit elsewhere in the year — see `rss-workflow` for the
-  full calendar argument.
-- The Science/Systems paper-type wording was specific to the 2026 CFP; confirm the
-  current cycle's categories before framing the contribution statement around them.
+- Deadline geometry matters for routing: RSS 2027 takes Extended Abstracts on
+  December 4, 2026 (RSS 2026 closed in late January) for a July conference; ICRA and
+  CoRL sit elsewhere in the year — see `rss-workflow` for the full calendar argument.
+- The Science/Systems wording and the hypothesis-first Stage 1 are the 2027 CFP's;
+  confirm the current cycle's categories before framing the contribution around them.
 
 ## When RSS is the wrong home for excellent work
 

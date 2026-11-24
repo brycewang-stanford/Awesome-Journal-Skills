@@ -15,7 +15,7 @@
       "name": "rss-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve RSS-specific skills for the single-track robotics flagship: science-first framing, OpenReview mechanics, the two-stage review with invited rebuttals, and free open-access proceedings, grounded in the RSS 2026 Sydney cycle.",
+      "description": "Twelve RSS-specific skills for the single-track robotics flagship: science-first framing, OpenReview mechanics, the RSS 2027 two-stage shepherding review (Extended Abstract, invited rebuttal, Extension Charter), and free open-access proceedings, grounded in the RSS 2027 Athens cycle.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

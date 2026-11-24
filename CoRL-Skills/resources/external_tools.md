@@ -36,14 +36,16 @@ Run these five passes against the live pages before deadline-sensitive action:
 
 1. **Calendar pass** — abstract vs paper deadline spacing, rebuttal date,
    discussion window, decision date, camera-ready date, and the clock convention
-   for each (do not assume AoE everywhere; 2026 renderings disagreed on the May
-   deadline clock).
+   for each (the 2026 key-dates table, read 2026-11-24, put every date in AoE,
+   and the paper deadline fell on a Thursday — May 28 — not the Friday some
+   trackers listed).
 2. **Format pass** — current page accounting (2026: 8-page body *including* the
    mandatory Limitations section; 9 pages at camera-ready), the year's template
    name, and appendix placement rules.
 3. **Anonymity pass** — the double-anonymous wording, what counts as an
    identifying link (project sites, repos, video hosting), and any new
-   disclosure fields (the GenAI policy appeared mid-cycle in 2026).
+   disclosure fields (the GenAI policy appeared mid-cycle in 2026, on April 17,
+   and added a generative-AI disclosure to the submission form).
 4. **Supplementary pass** — video size/length caps, allowed file types, and the
    PMLR no-video rule that shapes camera-ready hosting plans.
 5. **Process pass** — the first-round rejection wording, rebuttal format, who

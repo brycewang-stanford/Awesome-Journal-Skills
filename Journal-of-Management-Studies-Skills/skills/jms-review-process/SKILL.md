@@ -12,7 +12,7 @@ description: Use when you need to understand or set expectations for the Journal
 - You are unsure how much weight reviewers vs. the handling editor carry
 - You want to plan a revision strategy before drafting the response (then go to `jms-rebuttal`)
 
-> Editorial structure, named editors, and exact turnaround change; verify the current team and policies on the official Wiley/SAMS pages. As of `检索于 2026-06；以官网为准`: JMS uses **double-blind** review; the editorial office is at **Durham University**; the General Editors/Editor-in-Chief and exact timelines are **待核实** unless quoted from an official page at submission time. The norms below are durable.
+> Editorial structure, named editors, and exact turnaround change; verify the current team and policies on the official Wiley/SAMS pages. As of `检索于 2026-06；以官网为准`: JMS uses **double-blind** review; the editorial office is at **Durham University**; the journal is led by three General Editors — **Mirko Benischke, Johann Fortwengel, and Kristina Potočnik** — and the Editors aim to return a first decision within three months, with desk-screened papers going to three reviewers (re-verified 2026-11-24 on journalofmanagementstudies.ac.uk；以官网为准). The norms below are durable.
 
 ## How JMS review works (durable norms)
 

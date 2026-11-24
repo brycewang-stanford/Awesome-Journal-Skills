@@ -80,8 +80,8 @@ Run this before committing to the venue:
                    Still interesting? → CSCW-shaped.
 [Nearest neighbor] Name the ONE venue you'd choose if CSCW rejected the framing,
                    and why its reviewers differ.
-[Regime check]     Confirm the current submission pathway (rolling via
-                   Manuscript Central as of 2026-07-08) before planning dates.
+[Regime check]     Confirm the current submission pathway (rolling into
+                   PACM HCI/CSCW, or ToCHI, as of 2026-11-24) before planning dates.
 ```
 
 ## Fit verdict format
@@ -95,6 +95,6 @@ Run this before committing to the venue:
 [Framing repair] <the single change that would most improve CSCW fit>
 ```
 
-Facts here reflect cscw.acm.org and the rolling CFP as checked on 2026-07-08; the
+Facts here reflect cscw.acm.org and the rolling CFP as checked on 2026-11-24; the
 venue is mid-transition, so re-verify submission mechanics whenever routing advice
 turns into a plan.

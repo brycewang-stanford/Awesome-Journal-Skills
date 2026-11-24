@@ -87,7 +87,7 @@ JOM's masked review and its data transparency table mean the analysis must be *d
 - **Mediation by two significant paths** or a bare Sobel test, no bootstrap CI
 - **Unprobed interactions** — a significant product term with no simple slopes or plot
 - **OLS on nested data**, ignoring non-independence
-- **p-stars without effect sizes** — JOM wants the magnitude, not just the verdict
+- **p-stars at all** — JOM's quantitative reporting requirements ask for SEs, test statistics and exact p values (no stars or cutoff bands), and the magnitude, not just the verdict
 - **Meta-analysis with no artifact corrections, no credibility interval, no bias check**
 
 ## Output format

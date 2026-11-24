@@ -8,8 +8,10 @@ description: Use when drafting the CoRL rebuttal — a single-page PDF due days 
 CoRL's rebuttal is a **one-page PDF**, not a text box — a format that rewards
 preparation and layout discipline over volume. In the 2026 cycle it was due
 August 11, 11:59 PM AoE, with reviewer–AC discussion following August 12–19
-(corl.org rebuttal instructions, read 2026-07-08). The window between reviews
-arriving and the deadline is measured in days; the winning move is to have
+(corl.org rebuttal instructions, read 2026-07-08, re-verified 2026-11-24). Reviews
+were released August 4, so the window was one week; in 2026 the rebuttal had to use
+the official one-page template — references included, font and spacing untouched,
+or it is desk-rejected — with no external links and no per-reviewer replies; the winning move is to have
 experiments and a compiled skeleton ready before reviews exist (see
 `corl-workflow`).
 

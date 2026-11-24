@@ -41,7 +41,7 @@ HR prose is **scholarly, theoretically engaged, and socially aware** — closer 
 ## The intro, abstract, and the word budget
 
 - Write the **introduction and abstract last**, once the contribution is fixed. The abstract is **100–200 words** (检索于 2026-06) and must state, without jargon, the topic/question, approach, and theoretical contribution; supply **keywords as key phrases** (e.g. "identity work," not "identity").
-- The **13,000-word total cap** includes references and appendices — cut the literature tour, not the argument. If you are over, trim positioning and redundant robustness prose before cutting analytic depth.
+- The **13,000-word total cap** includes the abstract, endnotes, references and appendices (tables and figures are excluded) — cut the literature tour, not the argument. If you are over, trim positioning and redundant robustness prose before cutting analytic depth.
 - Keep the manuscript **anonymized**: no first-person self-citation that reveals authorship, no live URLs, no identifying acknowledgements (double-anonymous review).
 
 ## Checklist

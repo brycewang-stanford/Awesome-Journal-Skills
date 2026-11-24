@@ -7,19 +7,23 @@ description: Use when converting an NSDI acceptance into a published, presented 
 
 Acceptance starts a production pipeline with several deliverables owned by different
 people — the final PDF, the public artifact, the presenter designation, and the trip
-to the symposium. Facts below reflect the NSDI '26/'27 pages rendered on 2026-07-08;
-the '27 final-paper dates were not yet posted (待核实), so anchor every date to the
-notification email and the authors' instructions it links.
+to the symposium. Facts below reflect the NSDI '27 Call for Papers, Call for Artifacts
+and Instructions for Presenters re-verified on 2026-11-24: final papers are due
+**October 20, 2026** (spring cycle) and **March 4, 2027** (fall cycle), uploaded to the
+cycle's HotCRP site. Confirm against the notification email and the instructions it
+links.
 
 ## Deliverables and owners
 
 | Deliverable | Owner to assign | Hard constraint |
 |---|---|---|
-| Final PDF | writing lead | same 12-page cap as submission |
+| Shepherd's editorial revision | writing lead | every accepted paper is shepherded by a PC member before the final file |
+| Final PDF | writing lead | same 12-page cap as submission; page numbers suppressed, fonts embedded, OCR applied |
 | Public artifact release | artifact lead | before final-papers date for award eligibility |
-| Production/copyright forms | corresponding author | per the authors' instructions |
+| Consent-to-publish forms | every author | each author signs USENIX's form (paper, slides, audio, video) |
+| HotCRP metadata | corresponding author | title, authors (order, affiliations) and abstract must exactly match the final PDF |
 | Presenter designation | presenting co-author | via the co-chairs' Presenter Information form |
-| Travel, visa, registration | presenter | May 11-13, 2027, Providence, RI |
+| Travel, visa, registration | presenter | May 11-13, 2027, Providence, RI; at least one author per paper registers at full price (not the student rate) |
 
 Assign these on notification day. Cohort timing matters here: a spring acceptance
 (notified July) has months of runway before the May symposium, while a fall
@@ -67,9 +71,13 @@ best paper whose code and/or dataset is public by that date. Sequence accordingl
   Information form the program co-chairs distribute. Decide early — visa timelines
   for a US venue (Providence, RI for May 11-13, 2027) run months, and the presenter
   should ideally be the person who can answer testbed questions.
-- Registration requirements, speaker discounts, and remote-presentation options for
-  '27 are 待核实 — read the instructions-for-presenters page of the current edition
-  rather than assuming either flexibility or rigidity.
+- Registration: by submitting, the authors agreed that **at least one author registers
+  at full price** (not the student rate) and presents; a presenter with several papers
+  still needs one full-price registration per paper. Only **one** presenter is allowed
+  per paper. Rates and remote-presentation options remain 待核实 — read the
+  instructions-for-presenters page rather than assuming flexibility.
+- **Embargo:** papers are online to registered attendees before the symposium and public
+  from its first day; request an embargo from USENIX Production if needed.
 - Spring-cohort papers surface on the public accepted-papers list well before the
   event; coordinate any press/blog timing with your institution against the venue's
   publication schedule, not against the symposium date alone.
@@ -98,7 +106,8 @@ free. Practical consequences:
 [ ] Revision-memo promises intact in final text
 [ ] Artifact public with license + DOI before final-papers date (award clock)
 [ ] All URLs in the PDF resolve and are permanent
-[ ] Copyright/production forms submitted per authors' instructions
+[ ] Consent-to-publish form signed by every author
+[ ] Page numbers suppressed, fonts embedded, OCR applied
 [ ] Presenter designated via the form; travel/visa started
 [ ] Metadata (title/abstract) identical across HotCRP, PDF, and artifact README
 ```

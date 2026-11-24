@@ -8,9 +8,9 @@ description: Use when deciding whether a software-engineering project belongs in
 Decide venue before writing a single section. ICSE — the IEEE/ACM International
 Conference on Software Engineering — is the flagship of the SE research community,
 which means its reviewer pool expects a contribution *to software engineering
-knowledge*, evaluated against the four posted criteria of the research track:
-novelty, rigor, relevance, and verifiability/transparency (ICSE 2027 CFP wording,
-checked 2026-07-08). A technically excellent paper whose lesson is about databases,
+knowledge*, evaluated against the five posted criteria of the research track:
+novelty, rigor, relevance, verifiability/transparency, and presentation (ICSE
+2028 CFP wording, checked 2026-11-24; 2027 listed the first four). A technically excellent paper whose lesson is about databases,
 PL semantics, or pure ML will be respected and then rejected as out of scope.
 
 ## The two-question fit test
@@ -44,7 +44,7 @@ PL semantics, or pure ML will be respected and then rejected as out of scope.
 
 | Signal in your project | Better home | Why |
 |---|---|---|
-| Idea is promising but evaluation is preliminary | ICSE NIER (4 pages + 1 ref page, requires a "Future Plans" section per the 2027 call) | NIER reviews vision, not completed evidence |
+| Idea is promising but evaluation is preliminary | ICSE NIER (4 pages + 1 ref page, requires a "Future Plans" section per the 2027 call, the latest NIER call posted) | NIER reviews vision, not completed evidence |
 | Contribution is a deployed industrial experience | ICSE SEIP | Reviewed on relevance to practice, not research novelty |
 | Contribution is the tool packaging or a reusable dataset | ICSE Demonstrations / Data Showcase | Purpose-built venue with interactive review |
 | Societal impact of software is the point | ICSE SEIS | Dedicated reviewer pool |
@@ -53,17 +53,19 @@ PL semantics, or pure ML will be respected and then rejected as out of scope.
 | Repository mining is the whole method | MSR | Purpose-built co-located conference |
 | Maintenance/evolution focus | ICSME | Scope match |
 | Study too long or too nuanced for 10 pages | EMSE, TSE, TOSEM | No page ceiling, journal-first return path to ICSE |
-| Already published at TSE/TOSEM/EMSE | ICSE Journal-first (2027 window: journal acceptance between Oct 11, 2025 and Oct 10, 2026) | Presentation slot without re-review; secondary studies excluded |
+| Already published at TSE/TOSEM/EMSE | ICSE Journal-first (2027 window, the latest posted: journal acceptance between Oct 11, 2025 and Oct 10, 2026) | Presentation slot without re-review; secondary studies excluded |
 
 ## Timing reality for the current cycle
 
-The ICSE 2027 research-track deadline (abstract June 23, submission June 30, 2026,
-AoE) has already passed as of 2026-07-08, and the 2027 call posts a **single
-submission cycle** — a departure from the two-cycle model ICSE ran in 2025 and
-2026. So "just aim for the next ICSE window" now means roughly a year of waiting.
-That makes routing honesty cheaper than it used to be: FSE, ASE, ISSTA, and the
-journals all have nearer deadlines, and a journal-first acceptance can still put
-you on the Dublin stage.
+The ICSE 2027 research-track deadline (June 30, 2026) has passed, and the
+ICSE 2028 call (checked 2026-11-24) again posts a **single submission cycle** —
+abstract June 24, submission July 1, 2027, AoE — after the two-cycle model ICSE
+ran in 2025 and 2026. So "just aim for the next ICSE window" means a fixed
+once-a-year date. That makes routing honesty cheaper than it used to be: FSE,
+ASE, ISSTA, and the journals may have nearer deadlines, and a journal-first
+acceptance can still put you on the ICSE stage. ICSE 2028 also adds early
+rejection of papers with all-negative initial reviews, so a premature
+submission now costs the cycle faster, not just later.
 
 ## Evidence-maturity ladder
 
@@ -74,7 +76,7 @@ doors depending on how far the evidence has come. Grade honestly:
 |---|---|---|
 | Insight | An observation and an argument, no system or study yet | Workshop or NIER; write the "Future Plans" section the NIER call requires |
 | Prototype | A working technique, evaluated on examples you chose | NIER, or hold one cycle and build the real evaluation |
-| Evidence | Real subjects, credible baselines, statistics, threats analysis, artifact | Research track — the four criteria are all satisfiable |
+| Evidence | Real subjects, credible baselines, statistics, threats analysis, artifact | Research track — the five criteria are all satisfiable |
 | Deployment | Adoption data from practice, weaker research novelty | SEIP, whose reviewers weigh practice lessons over novelty |
 | Archive-grade depth | More study than 10 pages can hold | TSE/TOSEM/EMSE first, then journal-first back to the ICSE stage |
 

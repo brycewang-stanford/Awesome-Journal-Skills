@@ -9,7 +9,7 @@ Use this on the manuscript itself. A EuroSys paper succeeds when a broad
 systems PC — kernel people, distributed-systems people, cloud and security
 people — can each extract the same mechanism and believe the same numbers
 within one reading. The two-column `acmart[sigplan]` format and the 12-page
-technical budget (EuroSys 2027 CFP, rendered 2026-07-08) reward density that
+technical budget (EuroSys 2027 CFP, re-verified 2026-11-24) reward density that
 stays legible, not compression that hides.
 
 ## The load order of a EuroSys introduction

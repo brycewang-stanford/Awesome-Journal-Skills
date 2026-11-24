@@ -26,6 +26,12 @@ correctness without the appendix.** An appendix strengthens; it must not be load
 Reviewers are not obligated to read appendices, so the strongest result cannot live only
 there (`mobicom-writing-style`).
 
+Mechanics from the MobiCom 2027 CFP: appendices must **start on a new page** (`\clearpage`
+before `\appendix` in LaTeX) and use **lettered section numbers** — otherwise the format
+checker counts them against the 12 pages. Anonymized links to code or other supplementary
+material are allowed, but reviewers need not follow them and they must not carry text that
+did not fit in the 12 pages.
+
 ## What must stay in the body
 
 - The mechanism, stated with its operating regime.
@@ -44,8 +50,9 @@ The form is not an afterthought; reviewers meet it first:
 HotCRP submission fields to treat as content:
   title/abstract  -> verbatim-match the PDF (drift reads as sloppiness)
   topics          -> chosen for the reviewer sub-community you want (routing)
-  authors/conflicts -> full list at abstract time for conflict computation
-  optional fields -> artifact/ethics declarations per the current CFP (待核实 wording)
+  authors/conflicts -> full list at registration (author list frozen after submission)
+  reviewing author -> the senior author who reviews up to three papers this round (2027)
+  prior-submission summary -> required for one-shot revisions and recent MobiCom rejects
 ```
 
 ## Anonymity crosses the body/appendix line
@@ -59,8 +66,9 @@ over the appendices too (`mobicom-submission`).
 
 Do not confuse post-review material with submission supplementary material:
 
-- The **rebuttal** is a bounded response entered after stage-2 reviews; it is not extra
-  paper pages and has its own length limit (`mobicom-author-response`).
+- The **rebuttal** is a bounded response (at most 500 words in MobiCom 2027, no new
+  experiments, data, or figures) entered after stage-2 reviews; it is not extra paper pages
+  (`mobicom-author-response`).
 - A **one-shot revision** returns with a change-highlighted PDF and a change summary as
   auxiliary material — again outside the 12-page count and governed by the revision
   instructions, not the original CFP page rules (`mobicom-review-process`).

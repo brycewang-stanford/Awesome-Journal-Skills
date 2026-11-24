@@ -1,14 +1,15 @@
 ---
 name: osdi-artifact-evaluation
-description: Use when preparing an OSDI artifact for sysartifacts-run evaluation — the post-acceptance timeline, the 2026 narrowing to a single Artifacts Available badge, Zenodo-grade permanent archiving, the AE-committee runbook, and the two-page Artifact Appendix that documents the result.
+description: Use when preparing an OSDI artifact for sysartifacts-run evaluation — the post-acceptance timeline, the OSDI '26 narrowing to a single Artifacts Available badge (the latest published call; OSDI '27's call is not yet out), Zenodo-grade permanent archiving, the AE-committee runbook, and the Artifact Appendix that documents the result.
 ---
 
 # OSDI Artifact Evaluation
 
-Package the system for the artifact evaluation committee (AEC). Everything
-cycle-specific below is OSDI '26 as verified 2026-07-08 — and 2026 changed the rules,
-so check the live Call for Artifacts (`usenix.org/conference/osdi26/call-for-artifacts`
-pattern) before optimizing for the wrong target.
+Package the system for the artifact evaluation committee (AEC). The OSDI '27 Call for
+Artifacts was not published on 2026-11-24 (`usenix.org/conference/osdi27/call-for-artifacts`
+returned 404), so everything cycle-specific below is the **latest published call, OSDI
+'26** (re-read 2026-11-24) — and 2026 changed the rules, so check the live '27 call
+before optimizing for the wrong target. OSDI '27 badges and dates are 待核实.
 
 ## How OSDI AE is wired
 
@@ -18,19 +19,21 @@ pattern) before optimizing for the wrong target.
   not yours.
 - **When:** artifacts are submitted **after the paper is (conditionally) accepted** —
   the '26 deadline was **May 8, 2026, 8:59 pm PDT**, about six weeks after the
-  March 26 notification. The chairs explicitly encouraged preparing the artifact
+  March 26 notification. OSDI '27 notifies on March 16, 2027; expect a similar spacing
+  but take the date from the '27 call. The chairs explicitly encouraged preparing the artifact
   while the paper was still under review; teams that ignored this spent April in a
   panic.
 - **Stakes:** badges appear on the published paper. AE is optional but has become an
-  expectation for systems papers claiming practical relevance — and it is the
-  prerequisite for the final paper's two-page Artifact Appendix.
+  expectation for systems papers claiming practical relevance — and under the '26
+  rules it was the prerequisite for the final paper's two-page Artifact Appendix.
 
-## The 2026 badge narrowing
+## The OSDI '26 badge narrowing
 
 | Cycle | Badges evaluated |
 |---|---|
 | OSDI '21–'25 (sysartifacts calls) | Artifacts Available, Artifacts Functional, Results Reproduced |
 | **OSDI '26** | **Artifacts Available only** |
+| OSDI '27 | 待核实 — call not yet published (2026-11-24) |
 
 This is the pack's sharpest example of cycle volatility. In 2026 the AEC judged one
 thing: that the artifacts have been **made available for retrieval, permanently and
@@ -50,7 +53,7 @@ Two disciplined responses:
 ## Artifact anatomy
 
 ```text
-osdi26-artifact/                    # archived as one versioned unit (e.g. Zenodo)
+osdi27-artifact/                    # archived as one versioned unit (e.g. Zenodo)
 ├── README.md                       # THE document: claims map + kick-the-tires + full runs
 ├── LICENSE                         # explicit; AEC members must be allowed to run it
 ├── system/                         # source at the paper's commit, build instructions
@@ -79,7 +82,7 @@ minutes on commodity hardware, even if headline experiments need a testbed.
   include the generator plus provenance documentation, and say so plainly rather
   than shipping a mystery synthetic substitute.
 - **De-anonymization timing:** AE runs post-acceptance, so the artifact need not be
-  anonymous in 2026's flow — but verify this against the current call rather than
+  anonymous in the '26 flow — but verify this against the current call rather than
   assuming it, since submission-time AE exists at other systems venues.
 
 ## Working with the AEC
@@ -99,16 +102,17 @@ what a good artifact looks like:
 - Provide **fallbacks per failure point**: a prebuilt container beside the
   build-from-source path, a small dataset beside the trace generator, expected logs
   beside every driver so a partial failure is diagnosable from output alone.
-- If the badge set is availability-only (as in 2026), evaluators still need to
+- If the badge set is availability-only (as in OSDI '26), evaluators still need to
   *retrieve and inspect* the archive — a 40 GB tarball with no manifest can fail
   even that bar in practice. Ship a top-level manifest with sizes and checksums.
 
 ## From badge to Artifact Appendix
 
-Papers passing evaluation may add up to **two pages** of Artifact Appendix to the
-final paper (June 9 deadline, `osdi-camera-ready`): a standard-format description of
+Under the OSDI '26 rules, papers passing evaluation could add up to **two pages** of
+Artifact Appendix to the final paper (`osdi-camera-ready`; whether OSDI '27 keeps it,
+with final papers due June 3, 2027, is 待核实): a standard-format description of
 scope, requirements, and reproduction steps. Write it by condensing the README the
-AEC just validated — it is the only reviewed-adjacent supplement OSDI has, and it
+AEC just validated — it is the only reviewed-adjacent appendix OSDI has had, and it
 outlives the conference as the artifact's citable front door.
 
 ## Output format

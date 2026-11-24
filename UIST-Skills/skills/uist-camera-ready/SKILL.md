@@ -1,15 +1,18 @@
 ---
 name: uist-camera-ready
-description: Use when converting a conditional UIST acceptance into a published paper — delivering the rebuttal-promised changes by the July deadline, working the ACM TAPS pipeline with alt text for every figure and table, de-anonymizing correctly, finalizing the video figure, and preparing the Detroit talk and demo.
+description: Use when converting a conditional UIST acceptance into a published paper — delivering the rebuttal-promised changes by the end-of-July PCS/TAPS upload, working the ACM TAPS pipeline with alt text for every figure and table, de-anonymizing correctly, finalizing the video figure and the mandatory 30-second video preview, and preparing the talk and demo.
 ---
 
 # UIST Camera-Ready
 
-A UIST acceptance is conditional: the June 27 notification (2026 cycle, verified
-2026-07-08) accepts the paper *as amended by your rebuttal*, and the July 24
-camera-ready is where those amendments come due. This phase has three workstreams —
-the contractual edits, the ACM production pipeline with its accessibility
-requirements, and conference logistics — and they share four weeks.
+A UIST acceptance is conditional: the June 27 notification (2026 cycle, re-verified
+2026-11-24 against the UIST 2026 CFP) accepts the paper *as amended by your rebuttal*,
+final reviews follow on July 3, and the July 31 upload to PCS and TAPS is where those
+amendments come due; the 1AC then checks them before the August 7 final acceptance
+decision, and the mandatory 30-second video preview is due August 14. This phase has
+three workstreams — the contractual edits, the ACM production pipeline with its
+accessibility requirements, and conference logistics — and they share about five weeks.
+(UIST 2027's camera-ready calendar is not yet published; do not project these dates.)
 
 ## Workstream 1: deliver the contract
 
@@ -64,10 +67,12 @@ Alt-text pass over the figure inventory:
   proceedings do (see `uist-artifact-evaluation` for what should be at the other
   end).
 - Produce the final video figure: captioned, de-anonymized, credits added; check
-  the current guide for any preview-video obligation (待核实 for 2026).
-- Complete ACM e-rights before TAPS will process; the open-access terms applying to
-  UIST 2026 authors were not verifiable at check time (待核实) — read the e-rights
-  form, not folklore.
+  the current CFP for the preview-video obligation (2026: a mandatory 30-second
+  preview, 1080p/4K MP4 H.264, < 150 MB, separate .srt/.sbv subtitles, due August 14).
+- Complete ACM e-rights before TAPS will process. ACM is fully open access from
+  January 1, 2026: authors outside ACM Open institutions pay an APC unless waived,
+  subsidised for 2026 conferences at $250 (ACM/SIG members) / $350 (non-members) —
+  check your institution against the ACM Open participant list, not folklore.
 
 ## TAPS realities
 
@@ -88,20 +93,24 @@ whose submission compiled through local hacks:
   divergence point; the "which version did we promise that in" question recurs
   for years.
 
-## Four-week schedule (notification June 27 → deadline July 24, 2026)
+## Five-week schedule (notification June 27 → PCS/TAPS upload July 31, 2026)
 
 | Week | Deliverable |
 |---|---|
 | 1 | Promise ledger reconstructed; edits assigned; e-rights initiated; registration/visa checks started |
 | 2 | All contractual edits merged; +10% budget reconciled; figure originals collected |
 | 3 | Alt-text pass; TAPS candidate upload; validation errors cleared |
-| 4 | Final video captioned and uploaded; last TAPS build verified; buffer only |
+| 4 | Final video captioned and uploaded; last TAPS build verified |
+| 5 | Upload to PCS and TAPS by July 31; buffer only; then the 30-second video preview (< 150 MB, .srt/.sbv subtitles) by August 14 |
 
 ## Conference logistics start now
 
-- Registration and the presenting author: confirm the current in-person requirement
-  wording (待核实 for 2026) as soon as notification lands — visas for a US venue
-  (Detroit, November 2-5, 2026) can take longer than the camera-ready window.
+- Registration and the presenting author: the 2026 CFP says only that the talk is
+  "delivered by one or more authors of the paper" (any remote option 待核实); 2026
+  full-conference registration ran $900-$1,250 for ACM/SIGCHI members and non-members
+  depending on date. Start visa paperwork as soon as notification lands — for UIST 2026
+  (Detroit, November 2-5) or UIST 2027 (Vienna, October 26-29, 2027) it can take longer
+  than the camera-ready window.
 - UIST talks are short and demo-culture shaped: build the talk around the live or
   recorded demonstration, not around related-work slides.
 - Plan the hallway demo: papers whose systems can be demonstrated at the conference

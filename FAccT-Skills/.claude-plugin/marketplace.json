@@ -15,7 +15,7 @@
       "name": "facct-skills",
       "version": "1.2.0",
       "source": "./",
-      "description": "Twelve FAccT-specific skills for the ACM Conference on Fairness, Accountability, and Transparency, spanning fairness/accountability/transparency as first-class contributions across CS, law, social science, humanities, and policy, grounded in the FAccT 2026 CFP and Author/Reviewer Guides, facctconference.org, the ACM Digital Library, and dblp.",
+      "description": "Twelve FAccT-specific skills for the ACM Conference on Fairness, Accountability, and Transparency, spanning fairness/accountability/transparency as first-class contributions across CS, law, social science, humanities, and policy, grounded in the FAccT 2027 CFP and Author/Reviewer Guides, facctconference.org, the ACM Digital Library, and dblp.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

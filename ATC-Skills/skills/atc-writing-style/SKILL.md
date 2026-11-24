@@ -1,18 +1,23 @@
 ---
 name: atc-writing-style
-description: Use when drafting or revising an ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) systems paper — writing a self-standing two-page extended abstract for the round-one gate, structuring the implementation-and-measurement narrative, reporting costs beside gains, and holding the two-column 12-page budget.
+description: Use when drafting or revising an ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) systems paper — writing first two pages that survive the round-one read on their own, structuring the implementation-and-measurement narrative, reporting costs beside gains, and holding the two-column 12-page budget that now includes appendices.
 ---
 
 # ATC Writing Style
 
-Write for two audiences in two rounds. In round one, two reviewers read only your **two-page
-extended abstract**; in round two, 3-4 reviewers read the full paper. The abstract is **review-only,
-not published, and must stand alone**. So ATC writing has a demand no single-round venue makes: the
-paper's core argument must fit, self-contained, into two pages *and* expand faithfully into twelve.
+Write for two audiences in two rounds. In ATC 2027 (call re-verified 2026-11-24) the first round
+is **based on the first two pages** of the paper — reviewers may read on but are not obliged to; in
+round two, papers that advance get additional, full reviews. So ATC writing has a demand no
+single-round venue makes: the paper's core argument must land, self-contained, in its first two
+pages *and* expand faithfully into twelve. (ATC 2026 asked for a separate two-page extended abstract
+for the same purpose; 2027 drops it, so the burden moves onto your own abstract and introduction.)
 
-## The self-standing extended abstract (round-one surface)
+## Self-standing first two pages (round-one surface)
 
-A round-one reviewer who reads only the abstract should finish knowing:
+The call lists six round-one reject reasons: out of scope (not systems), unclear motivation, a main
+idea that is hard to understand, a too-small or incremental contribution, poor placement against
+related work, and a non-rigorous evaluation. A round-one reviewer who reads only pages 1-2 should
+therefore finish knowing:
 
 1. **The systems problem** — a pain a builder or operator recognizes, in the first breath.
 2. **Why the current design is inadequate** — the specific limitation your work removes.
@@ -20,11 +25,12 @@ A round-one reviewer who reads only the abstract should finish knowing:
 4. **The evidence** — the real testbed and the headline result (with the metric that matters, e.g.,
    tail latency, throughput at matched cost).
 5. **The honest cost** — what the design trades away, named not hidden.
+6. **The delta and placement** — the closest prior systems and what this paper adds beyond them,
+   stated in a sentence or two (the full related work can come later).
 
-Test it: hand the two pages to a systems colleague *without* the paper and ask them to state the
-problem, contribution, testbed, and result. If they cannot, the abstract will lose round one no
-matter how strong the paper is. A trimmed introduction can work only if it already reads
-self-contained.
+Test it: hand pages 1-2 to a systems colleague and ask them to state the problem, idea, delta,
+testbed, and result. If they cannot, the paper will lose round one no matter how strong pages 3-12
+are. The call itself "strongly encourage[s] authors to make the introduction self-contained."
 
 ## The full-paper arc
 
@@ -50,12 +56,14 @@ cost is the fastest way to lose it.
 
 ## Page-budget discipline (two columns, 12 pages)
 
-- **≤ 12 pages** full / **≤ 6** short, excluding references and appendices, in **two-column** 10pt.
+- **≤ 12 pages** long / **≤ 6** short, excluding references but **including appendices**, in
+  **two-column** 10pt (`\documentclass[sigplan,10pt]{acmart}` recommended).
   The two-column format is denser than single-column ACM layouts — a figure-heavy systems paper
   fills it fast.
 - Recover space **editorially**, never by shrinking the font or margins (a desk-reject ground): cut
-  redundant background, merge overlapping figures, and move non-decision-critical detail to an
-  appendix (reviewers are not required to read appendices — see `atc-supplementary`).
+  redundant background, merge overlapping figures, and move non-decision-critical detail to the
+  artifact — an appendix no longer buys pages, because it counts toward the limit (see
+  `atc-supplementary`).
 - Keep every claim that decides acceptance inside the body; the appendix and artifact hold support,
   not load-bearing evidence.
 
@@ -71,8 +79,7 @@ cost is the fastest way to lose it.
 
 ## Anti-patterns (ATC-specific)
 
-- **A dependent extended abstract** that only makes sense after reading the paper — a round-one
-  loss.
+- **A back-loaded opening** whose idea or evidence first appears on page 4 — a round-one loss.
 - **Average-only evaluation** with no tail or variance — reads as hiding the interesting cases.
 - **Novelty-as-argument** — asserting "novel" instead of motivating the design from the problem.
 - **Costs quarantined** in a late limitations paragraph instead of reported with the gains.
@@ -81,9 +88,9 @@ cost is the fastest way to lose it.
 ## Output format
 
 ```text
-[Extended abstract] self-standing? problem/contribution/testbed/result/cost all present in 2 pages? yes/no
+[First two pages] self-standing? problem/idea/delta/testbed/result/cost all present by page 2? yes/no
 [Arc] problem -> inadequacy -> contribution -> real-testbed evidence -> what changes: complete? gaps?
 [Evidence shape] end-to-end + microbenchmarks? tails + variance? fair baselines? costs beside gains?
-[Budget] pages used (body/refs), two-column compliance, editorial cuts available
-[Rewrite queue] <ordered edits, highest-leverage first — usually the abstract>
+[Budget] pages used (body+appendix / refs), two-column compliance, editorial cuts available
+[Rewrite queue] <ordered edits, highest-leverage first — usually the first two pages>
 ```

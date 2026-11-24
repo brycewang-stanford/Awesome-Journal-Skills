@@ -71,8 +71,8 @@ verify any JPSP-specific policy in [`official-source-map.md`](official-source-ma
   (7th edition)**; the `apa7` LaTeX class or `papaja` produce APA-compliant manuscripts
 - Prepare a **masked manuscript** (no author-identifying information in text, properties, or
   acknowledgments) plus a separate title page — JPSP uses masked review for all submissions
-- Keep the **abstract ≤ 250 words**; if a section requires a post-abstract limitations statement,
-  keep it within its cap (see 待核实 in the source map)
+- Keep the **abstract ≤ 250 words** (up to five keywords); ASC requires a **≤ 200-word statement of
+  limitations** after the abstract and a table of limitations
 
 ## 6. Process & per-section portals
 | Item | Note |
@@ -82,9 +82,9 @@ verify any JPSP-specific policy in [`official-source-map.md`](official-source-ma
 | Submission portals (Editorial Manager) | ASC `editorialmanager.com/asc` · IRGP `editorialmanager.com/irg` · PPID `editorialmanager.com/pid` |
 | Review model | **Masked review** for all submissions (authors and reviewers mutually masked) |
 | Format | Long-format, **multi-study** packages; APA 7th; **JARS** required; tables/figures embedded |
-| Length | ASC intro + discussion **≤ 3,500 words**; IRGP intro + discussion **≤ 5,000 words**, **≤ 5 studies** in main text; PPID "as succinctly as possible" (待核实); abstract **≤ 250 words** |
+| Length | ASC intro + discussion **≤ 3,500 words**; IRGP intro + discussion **≤ 5,000 words**, **≤ 5 studies** in main text; PPID "as succinctly as possible" (no formal word limit); abstract **≤ 250 words**, up to five keywords |
 | Transparency | **TOP Level 2 (Requirement)**; state data/code/materials repository + preregistration; Registered Reports accepted; **badges not offered** |
-| Submission fee | None stated (verify); any open-access APC handled by APA after acceptance |
+| Submission fee | None — submitting for peer review is free of charge; APC only for gold open access |
 
 ## 7. Cautions
 1. **Pick the right section first.** ASC, IRGP, and PPID are independently edited with their own

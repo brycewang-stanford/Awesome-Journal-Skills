@@ -18,12 +18,12 @@ This is a retrieval floor, not a ceiling on the capability: an agent reads each 
 
 | Configuration | n | R@1 | R@5 | R@10 | R@20 | MRR | any-rank | wrong-lane@10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| `title` | 861 | 24.5% | 53.4% | 65.4% | 76.2% | 0.375 | 96.2% | 4.2% |
-| `title (scope only)` | 861 | 18.1% | 36.0% | 46.6% | 54.0% | 0.270 | 85.1% | 6.7% |
-| `title+abstract` | 409 | 31.8% | 59.7% | 71.9% | 82.2% | 0.446 | 100.0% | 3.7% |
-| `title+context` | 861 | 42.2% | 72.1% | 81.9% | 87.2% | 0.550 | 97.8% | 4.3% |
-| `title+discipline` | 861 | 36.8% | 69.1% | 77.6% | 83.4% | 0.509 | 96.2% | 3.9% |
-| `oracle-discipline` | 861 | 44.8% | 77.2% | 84.2% | 89.3% | 0.584 | 96.2% | 3.9% |
+| `title` | 861 | 24.5% | 53.5% | 65.7% | 76.2% | 0.375 | 96.2% | 4.2% |
+| `title (scope only)` | 861 | 18.2% | 36.1% | 46.3% | 54.4% | 0.271 | 84.8% | 6.7% |
+| `title+abstract` | 409 | 31.1% | 59.9% | 71.9% | 81.7% | 0.442 | 100.0% | 3.7% |
+| `title+context` | 861 | 42.0% | 71.7% | 81.6% | 87.2% | 0.548 | 97.8% | 4.4% |
+| `title+discipline` | 861 | 36.6% | 69.0% | 77.7% | 83.4% | 0.508 | 96.2% | 3.9% |
+| `oracle-discipline` | 861 | 44.6% | 77.1% | 84.2% | 89.5% | 0.584 | 96.2% | 3.9% |
 | _random baseline_ | — | 0.1% | 0.7% | 1.3% | 2.7% | — | — | — |
 
 `any-rank` = the true venue was retrieved at all, at any depth (it shares at least one index term with the query, in either vocabulary) — the ceiling every cutoff above is working against. It stops bounding anything once the query is long: `title+abstract` sends a median of 130 terms against a 900-deep index, so *some* term reaches the true venue essentially always, and its 100% is a property of the query length rather than a solved problem. Read it on the title rows. `wrong-lane@10` = share of top-10 slots given to a venue that publishes no empirical work, for a paper whose true venue does — the cheapest kind of obviously wrong suggestion, and the one an author notices first.
@@ -34,8 +34,8 @@ The matcher has five weighting constants (`RANK_DECAY`, `PHRASE_BONUS`, `PART_DI
 
 | Half | n | R@10 | MRR |
 |---|---:|---:|---:|
-| `dev` (tuned on) | 877 | 66.7% | 0.388 |
-| `test` (reported) | 861 | 65.4% | 0.375 |
+| `dev` (tuned on) | 877 | 66.6% | 0.388 |
+| `test` (reported) | 861 | 65.7% | 0.375 |
 
 A large gap between the two rows would mean the constants had been fitted to noise; they track each other closely, which is the point of publishing both.
 
@@ -54,13 +54,13 @@ A large gap between the two rows would mean the constants had been fitted to noi
 
 | Discipline | R@10 | n |
 |---|---:|---:|
-| cs-ai (conference) | 64.0% | 261 |
+| cs-ai (conference) | 64.4% | 261 |
 | economics | 35.2% | 54 |
 | finance | 80.0% | 40 |
 | accounting | 86.1% | 36 |
 | psychology | 63.6% | 33 |
 | sociology | 53.1% | 32 |
-| econometrics/methods | 68.0% | 25 |
+| econometrics/methods | 72.0% | 25 |
 | political-science | 68.0% | 25 |
 | management | 57.9% | 19 |
 | marketing | 66.7% | 18 |
@@ -72,7 +72,7 @@ A large gap between the two rows would mean the constants had been fitted to noi
 | communication | 83.3% | 12 |
 | economics/labor | 75.0% | 12 |
 | agriculture | 100.0% | 11 |
-| environment/ecology | 90.0% | 10 |
+| environment/ecology | 100.0% | 10 |
 | life-sciences | 70.0% | 10 |
 
 ## Limitations

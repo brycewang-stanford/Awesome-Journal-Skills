@@ -18,7 +18,9 @@ Reopen the RES replication policy before final delivery.
   supplementary results; set random seeds.
 - Explain usage restrictions, confidential data, or exemption requests at first submission if
   current policy requires early disclosure.
-- Expect accepted packages to appear as OUP Supporting Information when permitted.
+- Expect accepted packages to appear as OUP Supporting Information when permitted; the Data
+  Editor (Damian Clarke per the RES editors page, checked 2026-11-24) runs the reproducibility
+  check. Including the package with the initial submission is encouraged but not required.
 - Treat non-compliance as publication risk; the RES policy says the board may refuse
   publication for non-compliance.
 

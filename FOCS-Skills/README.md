@@ -26,8 +26,9 @@ FOCS 2026 (67th edition, New York, November 8–11, 2026) closed submissions on
 **April 1, 2026, 5 PM EDT** — so this pack teaches the *live* post-submission
 phases of the current cycle (the summer review wait, the July 31 workshop-
 proposal deadline, camera-ready preparation once dates publish) alongside
-backward planning for a FOCS 2027 attempt, whose CFP did not yet exist at the
-check date. Every 2026 fact is labeled a cycle snapshot, not a permanent rule.
+backward planning for a FOCS 2027 attempt. Re-checked 2026-11-24: FOCS 2026 has
+met; FOCS 2027 is announced for San Diego, November 8–11, 2027 (PC chair Yuval
+Rabani), but its CFP is not yet published. Every 2026 fact is labeled a cycle snapshot, not a permanent rule.
 
 ## The venue mechanics that drive this pack
 
@@ -128,15 +129,19 @@ FOCS-Skills/
 - FOCS 2026 is the **67th** edition: New York, NY, USA, **November 8–11,
   2026**, sponsored by the IEEE Computer Society TCMF.
 - Submissions were due **April 1, 2026, 5:00 PM EDT (21:00 UTC)** on HotCRP
-  (`focs26.hotcrp.com`); notification and camera-ready dates were unpublished
-  at the check date (待核实).
+  (`focs26.hotcrp.com`); notification July 3, 2026; camera-ready October 1,
+  2026. 174 of 673 submissions (after 13 withdrawals) were accepted, 25.85%.
 - Format: no length bound; full version encouraged; abstract + references +
   first **ten pages** guaranteed reading; 11-point-plus single-column,
   1-inch margins, letter paper; PDF free of copy/print security restrictions.
 - **Double-blind** reviewing (FOCS practice since at least 2023); SIGACT
   prior/simultaneous-publication policy; full papers with proofs expected
   public (arXiv/ECCC) by camera-ready.
-- PC chair: Sanjeev Khanna (one-cycle fact). Workshops Sunday November 8;
+- **AI policy:** substantive LLM/generative-AI use must be disclosed in an "AI
+  Disclosure" statement at the end of the paper; minor copy-editing exempt;
+  only humans may be authors.
+- PC chair: Sanjeev Khanna (New York University), co-chair Sepehr Assadi
+  (one-cycle facts). Workshops Sunday November 8;
   proposals due July 31, 2026 AoE to workshop chairs Dakshita Khurana and
   Sam Hopkins; decisions August 14, 2026.
 - Sibling beat: STOC 2026 was due November 4, 2025 and met June 22–26, 2026.
@@ -150,8 +155,8 @@ The pack keeps three kinds of statement separable:
 2. **Community customs** — how the venue is observed to behave (subreferee
    delegation, arXiv-first posting norms), labeled as customs.
 3. **待核实 items** — explicitly listed in the source map and phrased as
-   questions in the skills (notification date, camera-ready format,
-   attendance duties, everything about FOCS 2027).
+   questions in the skills (camera-ready format, attendance duties, the
+   FOCS 2027 CFP).
 
 A statement presenting class 2 or 3 as class 1 is a bug; fix it against the
 live pages.
@@ -161,8 +166,11 @@ live pages.
 - Every number above is a **2026-cycle snapshot**. Deadlines, the window
   size, anonymity wording, and award mechanics can all move; reopen
   `focs.computer.org/<year>/` before advising on a live deadline.
-- **FOCS 2027 was entirely 待核实 at 2026-07-08**: no CFP, venue, or dates.
-  The April-deadline/autumn-conference rhythm is a pattern, not a promise.
+- **FOCS 2027 (checked 2026-11-24):** San Diego, November 8–11, 2027;
+  General Chairs Russell Impagliazzo and Shachar Lovett; PC chair Yuval
+  Rabani (FOCS 2026 business meeting). No CFP, deadline or format yet
+  (`focs.computer.org/2027/` returns 404). The April-deadline rhythm is a
+  pattern, not a promise.
 - PC chairs and committees are per-edition appointments; every personal name
   in this pack expires with its cycle.
 - When adding exemplars, use the award-anchored recipe at the end of

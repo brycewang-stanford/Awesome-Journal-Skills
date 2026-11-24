@@ -10,7 +10,7 @@ package-checking tooling.
 | Resource | Use it to... |
 | --- | --- |
 | [`official-source-map.md`](official-source-map.md) | Trace every 2026-cycle fact (the single January deadline, the 18-page box, the Major-Revision phase, the ACM badge set) to its official URL and access date, and see what remains 待核实. |
-| [`external_tools.md`](external_tools.md) | Open the live conf.researchr.org / HotCRP / ACM DL / Zenodo surfaces and run the author-side verification passes, starting with the submission-model check. |
+| [`external_tools.md`](external_tools.md) | Open the live conf.researchr.org / HotCRP / ACM DL / artifact-archive surfaces and run the author-side verification passes, starting with the submission-model check. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against archival-verified ISSTA papers — Impact-Paper-Award winners across several contribution shapes — and avoid mistaking a sibling-venue paper for an ISSTA one. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Watch a fictional flaky-test-detection paper's opening get rebuilt against the ISSTA evaluation criteria, move by move. |
 | [`code/README.md`](code/README.md) | Reach the shared replication-package tooling plus the ISSTA-specific checks (badge readiness, benchmark provenance, non-determinism disclosure) the generic kit cannot make. |

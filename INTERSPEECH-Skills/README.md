@@ -10,13 +10,13 @@ walks the full annual arc — venue fit, the brutal 4-page format, CMT submissio
 the post-deadline paper-update window, rebuttal, ISCA Archive camera-ready, audio
 artifacts, and the conference itself.
 
-Official basis checked on **2026-07-08**: the Interspeech 2026 (Sydney) site — call
-for papers, submission policy, registration — plus the Interspeech 2025 policy
-pages as immediate precedent, the ISCA Archive, ISCA's upcoming-conference and
-awards pages, and the ASSTA mirror of the 2026 CFP. Direct fetches of the ISCA and
-conference domains were blocked by the verification environment's gateway, so
-official pages were read via search-engine renderings of exact URLs and
-cross-checked against one another; the complete trail, including every item still
+Official basis first checked on **2026-07-08** (the Interspeech 2026 Sydney site,
+read via search-engine renderings because the gateway blocked direct fetches) and
+**re-verified and moved to Interspeech 2027 on 2026-11-24** by direct fetch of the
+Interspeech 2027 (São Paulo) home page, Call for Papers, committees and theme pages,
+plus the Interspeech 2026 call, author instructions and submission policy; the ISCA
+Archive and ISCA's upcoming-conference and awards pages complete the basis. The
+complete trail, including every item still
 marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
@@ -25,21 +25,28 @@ marked 待核实, is in
 These mechanics drive the advice in the skills — and the mistakes made by authors
 arriving from NLP or big-ML venues:
 
-- **Four pages, no appendix.** A regular paper is 4 content pages plus one page for
-  references and acknowledgments *only*. There is no reviewed supplement; whatever
-  decides acceptance must live on the four pages. A **Long Paper track** debuted in
-  2026 (reported: 8 pages + 2 reference pages, target acceptance below 30%).
+- **Four pages, no appendix.** A regular Interspeech 2027 paper is 4 content pages
+  plus 2 pages for references and acknowledgments *only* (2026 also allowed the
+  AI-use disclosure there; 2025 allowed just one extra page). There is no reviewed
+  supplement; whatever decides acceptance must live on the four pages. The **Long
+  Paper track** (introduced 2026) continues in 2027: 8 pages + 2, targeted acceptance
+  below 30%, and the same work cannot go to both tracks.
 - **The paper-update window.** Uniquely among the majors, Interspeech lets authors
-  revise the PDF for about a week after the deadline (25 Feb → 4 Mar in 2026) while
-  metadata stays frozen — a sanctioned proofread pass, not an extension.
+  revise the PDF for about a week after the deadline (9 Feb → 16 Feb in 2027; 25 Feb →
+  4 Mar in 2026) while metadata stays frozen — a sanctioned proofread pass, not an
+  extension.
+- **Hard caps on volume and AI.** Interspeech 2027 allows at most two papers per
+  author as first author, and desk-rejects papers entirely developed or written by AI
+  and papers citing non-existing references.
 - **Reviewers listen.** Audio sample pages are consumed as evidence for synthesis,
   conversion, and enhancement papers — and are also the most common anonymity leak.
-- **Double-anonymous with an anonymity period.** Since 2025, non-anonymized
-  postings (arXiv included) are forbidden from one month before the deadline until
-  decisions.
+- **Double-anonymous, but no preprint embargo (2026).** The 2025 anonymity period
+  (no non-anonymized posting from one month before the deadline until decisions) was
+  dropped in 2026: preprints were allowed as long as the submission itself revealed
+  nothing. The 2027 preprint rule is not yet published — reopen the submission policy.
 - **Open-access proceedings, no author fee.** Every paper enters the ISCA Archive
-  (isca-archive.org) with a `10.21437` DOI; the cost model is registration — and at
-  least one author must register for the paper to appear at all.
+  (isca-archive.org) with a `10.21437` DOI; the cost model is registration — at least
+  one author must register for the paper to appear, and present it in person.
 - **A mixed jury.** Phoneticians and engineers review in adjacent areas; papers
   must survive both the "where is the significance test?" reader and the "where is
   the error analysis?" reader.
@@ -56,7 +63,7 @@ arriving from NLP or big-ML venues:
 | [`interspeech-reproducibility`](skills/interspeech-reproducibility/SKILL.md) | Pin the five decay channels: corpus versions, text normalization, trial lists, subjective protocols, and seeds — and ship the scoring ruler, not just the model. |
 | [`interspeech-supplementary`](skills/interspeech-supplementary/SKILL.md) | Manage the three shelves — 4 pages, references page, optional accompaniment — and curate audio sample pages reviewers actually open. |
 | [`interspeech-artifact-evaluation`](skills/interspeech-artifact-evaluation/SKILL.md) | Package audio demos, recipes, and checkpoints: anonymous during review, permanent after, with corpus-license chains and speaker-consent hygiene. |
-| [`interspeech-submission`](skills/interspeech-submission/SKILL.md) | Final CMT audit: 4+1 format and PDF checker, anonymity sweep including demo pages, area and metadata strategy, and the update-window plan. |
+| [`interspeech-submission`](skills/interspeech-submission/SKILL.md) | Final submission audit (CMT in 2025–2026; 2027 portal pending): 4 + 2 format and PDF checker, first-author cap, anonymity sweep including demo pages, area and metadata strategy, and the update-window plan. |
 | [`interspeech-review-process`](skills/interspeech-review-process/SKILL.md) | Model the area-based pipeline, what the young rebuttal can move, oral/poster allocation, awards, and how to decode a decision letter. |
 | [`interspeech-author-response`](skills/interspeech-author-response/SKILL.md) | Answer a mixed science/engineering review set from the 4-page record, in dialect, within the cap, for the meta-reviewer. |
 | [`interspeech-camera-ready`](skills/interspeech-camera-ready/SKILL.md) | Convert acceptance into a correct ISCA Archive entry: de-anonymization order, registration coupling, DOI metadata, and presentation with audio fallbacks. |
@@ -65,7 +72,7 @@ arriving from NLP or big-ML venues:
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Ten sources with URLs and access dates; the verified 2026 fact base; reported-only items; the 待核实 list; the gateway access-method note. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Thirteen sources with URLs and access dates; the verified Interspeech 2027 fact base; the 2026 history; the 待核实 list; the access-method note; the machine-readable rules block. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces plus five author-side verification passes and a conflict rule. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five ISCA-Archive-verified exemplars (Conformer, SpecAugment, ECAPA-TDNN, Tacotron, SUPERB) with DOIs, self-checks, and a misattribution guard. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional streaming-ASR first page rewritten from NLP-flavored draft into the Interspeech one-pass shape. |
@@ -111,42 +118,49 @@ INTERSPEECH-Skills/
     └── code/README.md              # shared repro-kit adapter
 ```
 
-## 2026 anchor facts (snapshot, not permanent rules)
+## Interspeech 2027 anchor facts (edition snapshot, not permanent rules)
 
-- Interspeech 2026: **Sydney, Australia, 27 September – 1 October 2026**, hosted
-  with ASSTA; theme **"Speaking Together"**.
-- 2026 pipeline: portal open 17 Jan · paper deadline **25 Feb** · paper-update
-  close **4 Mar** · rebuttal reported 24 Apr – 1 May (待核实) · notification
-  **5 Jun** · camera-ready **19 Jun** · early-bird registration closes **15 Jul** ·
-  standard closes 16 Aug.
-- Format: regular papers 4 content pages + 1 references/acknowledgments page;
-  Long Paper track new in 2026 (parameters reported, 待核实).
+- Interspeech 2027: **São Paulo, Brazil, 29 August – 2 September 2027** — the first
+  South American edition; theme **"Speech, Society, and Minorities"**; General Chairs
+  Plinio A. Barbosa, Sandra Madureira, Christopher Shulby; Technical Program Chairs
+  Khiet Truong, António Teixeira, Theodora Chaspari, Florian Metze.
+- 2027 pipeline: portal opens **19 Jan 2027** · paper deadline **9 Feb** · paper-update
+  close **16 Feb** · rebuttal **13–20 Apr** · notification **2 Jun** · camera-ready
+  **9 Jun 2027**.
+- Format: regular papers 4 content pages + 2 pages for references/acknowledgments;
+  Long Papers 8 + 2 (targeted acceptance below 30%); double-blind; English; in-person
+  presentation; at most two first-author papers per author; AI-written papers and
+  non-existing references desk-rejected. Paper kit and portal "available soon"
+  (待核实; CMT in 2025 and 2026).
 - Proceedings: ISCA Archive, open access, DOI prefix 10.21437, no author fee.
-- Next editions: **Interspeech 2027, São Paulo, Brazil, 29 Aug – 2 Sep 2027**
-  (first South American edition); Interspeech 2028, San Antonio, USA.
+- History — Interspeech 2026: Sydney, 27 September – 1 October 2026, theme
+  "Speaking Together"; portal 17 Jan · deadline 25 Feb · update 4 Mar · rebuttal
+  24 Apr – 1 May · notification 5 Jun · camera-ready 19 Jun 2026; 4 + up to 2 pages;
+  1,000-character abstract; AI-use disclosure section before the references.
+- Next edition after 2027: Interspeech 2028, San Antonio, USA.
 
 ## Fact discipline
 
 Three statement classes are kept distinguishable throughout the pack:
 
-1. **Verified 2026-cycle facts** — traceable to a numbered source in the source
-   map (the 25 Feb deadline, the 19 Jun camera-ready, the Sydney dates).
+1. **Verified Interspeech 2027 facts** — traceable to a numbered source in the
+   source map (the 9 Feb deadline, the 13–20 Apr rebuttal, the 4 + 2 format).
 2. **Reported facts** — found only in secondary renderings and labeled as such
-   (the rebuttal window, Long Paper parameters, the 2026 committee names).
+   (none currently load-bearing after the 2026-11-24 direct re-read).
 3. **待核实 items** — unresolved at check time and phrased as questions, never as
-   facts (attachment caps, review-form wording, any AI-use policy, all 2027 rules).
+   facts (the 2027 paper kit and portal, abstract length, preprint rule, attachment
+   caps, review-form wording).
 
 If a skill states class-2/3 material as class 1, treat it as a bug and repair it
 against the live official pages.
 
 ## Maintenance notes
 
-- Every date above is a **Sydney-cycle snapshot**. ISCA editions are run by
-  rotating local committees and Technical Program Chairs; nothing carries to
-  São Paulo 2027 automatically — not the tracks, not the rebuttal, not the portal.
-- The pack was verified through gateway-limited access (renderings, not direct
-  fetches); the first maintenance task each cycle is to re-open the primary URLs
-  directly and refresh
+- Every date above is a **São Paulo-cycle snapshot**. ISCA editions are run by
+  rotating local committees and Technical Program Chairs; nothing carries to San
+  Antonio 2028 automatically — not the tracks, not the rebuttal, not the portal.
+- The first maintenance task each cycle is to re-open the primary URLs directly
+  (both conference sites answered direct fetches on 2026-11-24) and refresh
   [`resources/official-source-map.md`](resources/official-source-map.md).
 - New exemplars must be verified against the ISCA Archive per the recipe at the
   end of [`resources/exemplars/library.md`](resources/exemplars/library.md) —

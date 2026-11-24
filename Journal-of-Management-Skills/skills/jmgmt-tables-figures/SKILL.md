@@ -1,6 +1,6 @@
 ---
 name: jmgmt-tables-figures
-description: Use when exhibits are the bottleneck for a Journal of Management (JOM) manuscript — the means/SD/correlation table, CFA/SEM and HLM result tables, the theoretical-model figure, interaction plots, and meta-analytic forest/funnel plots, all in APA style and under the 50-page guillotine. Builds exhibits; it does not run the analysis (jmgmt-data-analysis).
+description: Use when exhibits are the bottleneck for a Journal of Management (JOM) manuscript — the means/SD/correlation table, CFA/SEM and HLM result tables, the theoretical-model figure, interaction plots, and meta-analytic forest/funnel plots, all in JOM Style Guide format with exact p values (no stars) and under the 50-page guillotine. Builds exhibits; it does not run the analysis (jmgmt-data-analysis).
 ---
 
 # Tables & Figures (jmgmt-tables-figures)
@@ -15,24 +15,24 @@ description: Use when exhibits are the bottleneck for a Journal of Management (J
 
 ## The exhibits a JOM paper is expected to carry
 
-JOM follows **APA (7th)** style, and reviewers (many of them methodologists) expect a conventional, scannable exhibit set:
+JOM follows its own **JOM Style Guide** (tables and figures each on a separate page at the end, double-spaced, "Insert Table 2 about here" markers) plus the **Reporting Requirements for Quantitative Submissions**, and reviewers (many of them methodologists) expect a conventional, scannable exhibit set:
 
-1. **Table 1 — Means, SDs, reliabilities, and correlations.** Variables in a sensible order; reliabilities (α/ω) on the diagonal; significance shown but always paired with the values; full Ns and a clear note. This is the most-read table; errors here cost credibility.
+1. **Table 1 — Means, SDs, reliabilities, and correlations.** Variables in a sensible order; reliabilities (α/ω) on the diagonal; exact p values rather than stars; full Ns and a clear note. This is the most-read table; errors here cost credibility.
 2. **Measurement-model table (CFA).** Standardized loadings, CR/ω, AVE, and a discriminant-validity panel (AVE vs. squared correlations or HTMT).
-3. **Hypothesis-test table (SEM/HLM/regression).** Steps/models in columns; the *focal* coefficients visually findable; effect sizes (ΔR²/f²) and CIs reported, not just stars.
+3. **Hypothesis-test table (SEM/HLM/regression).** Steps/models in columns; the *focal* coefficients visually findable; standard errors, test statistics, exact p values, and effect sizes (ΔR²/f²) with CIs — no stars.
 4. **Theoretical-model figure.** Boxes and arrows mapping **one-to-one** to the hypotheses, with hypothesis labels (H1, H2…) on the paths — it should be readable without the text.
 5. **Interaction plot(s).** Simple slopes at ±1 SD with axes labeled in construct terms; a region-of-significance band where useful.
 6. **(Meta-analysis) forest plot + funnel/PET-PEESE plot** and a moderator table reporting k, N, corrected effects, CIs, and credibility intervals.
 
 ## House-style and significance conventions
 
-- APA significance notation is permitted (* p<.05, ** p<.01, *** p<.001), but **always report the coefficient/effect size and ideally a CI** — stars alone are not evidence of magnitude, and JOM methods reviewers say so.
+- **No significance stars.** JOM's Reporting Requirements for Quantitative Submissions require every estimate to carry its standard error and test statistic (t, z, or F) with a **precise p value** (e.g., p = .072, three decimals) rather than star notation (*) or cutoff bands (p < .05); authors attest to this at submission (re-verified 2026-11-24). Report the coefficient/effect size and ideally a CI as well.
 - Each table is self-contained: full variable names (no undefined abbreviations), Ns, the estimator, and what the cells are (b, β, OR, r).
 - Figures must be legible in grayscale and at print size; do not encode meaning in color alone.
 
 ## Working under the 50-page guillotine
 
-Because the **50-page limit counts tables and figures** (检索于 2026-06；以官网为准), every exhibit competes with text. Tactics: merge the descriptives and correlations into one Table 1; move secondary robustness tables and the full CFA item list to the **online supplement**; keep only exhibits that carry a hypothesis test or the model itself in the main paper. Cut any table the text fully narrates.
+Because the **50-page limit counts tables and figures** (re-verified 2026-11-24；以官网为准), every exhibit competes with text — and **a first submission may not include an online supplement**, so overflow cannot be parked there. Tactics: merge the descriptives and correlations into one Table 1; cut or fold secondary robustness tables into prose (they can become a supplement later, when reviewers ask); keep only exhibits that carry a hypothesis test or the model itself in the main paper. Cut any table the text fully narrates.
 
 ## Reading exhibits the way a JOM methods reviewer does
 
@@ -63,12 +63,12 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 
 - [ ] Table 1 has means, SDs, reliabilities on the diagonal, correlations, Ns, and a clean note
 - [ ] CFA table reports loadings, CR/ω, AVE, and discriminant validity
-- [ ] Hypothesis table makes focal effects findable; effect sizes/CIs present, not stars alone
+- [ ] Hypothesis table makes focal effects findable; SEs, exact p values, effect sizes/CIs present; no stars
 - [ ] Theoretical-model figure maps one-to-one to hypotheses, labeled H1…Hk
 - [ ] Every claimed interaction has a simple-slopes plot
 - [ ] (Meta) forest + funnel/bias plot + moderator table present
-- [ ] APA 7th formatting; exhibits legible in grayscale; no color-only encoding
-- [ ] Exhibit set fits the 50-page budget; secondary tables in the supplement
+- [ ] JOM Style Guide formatting; exhibits legible in grayscale; no color-only encoding
+- [ ] Exhibit set fits the 50-page budget (no online supplement at first submission)
 
 ## Anti-patterns
 
@@ -78,7 +78,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 - **A model figure that does not match the hypotheses** (extra/missing paths)
 - **An interaction asserted but never plotted**
 - **Color-dependent figures** that vanish in grayscale
-- **Exhibit bloat** that pushes the paper over 50 pages instead of using the supplement
+- **Exhibit bloat** that pushes the paper over 50 pages (a first submission cannot offload it to a supplement)
 
 ## Output format
 
@@ -89,6 +89,6 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 【Model figure】one-to-one with H1…Hk, labeled? [Y/N]
 【Interaction plots】every interaction plotted? [Y/N]
 【Meta exhibits】forest + funnel + moderator table? [Y/N/NA]
-【APA + grayscale + 50pp budget】compliant? [Y/N]
+【JOM style + no stars + grayscale + 50pp budget】compliant? [Y/N]
 【Next step】jmgmt-writing-style
 ```

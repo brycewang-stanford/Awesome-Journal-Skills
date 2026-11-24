@@ -85,7 +85,7 @@ extra days for the confirmatory extras, not the core evidence.
 - The index maps each file to a specific figure, table, or claim.
 - No author identity in any filename, metadata, watermark, or link (double-blind tracks).
 - The body still stands alone if the supplement were removed.
-- Total size is within the current cycle's stated cap (待核实 each year).
+- Total size is within the current cycle's stated cap (50Mb in 2026; recheck each year).
 
 ## Output format
 

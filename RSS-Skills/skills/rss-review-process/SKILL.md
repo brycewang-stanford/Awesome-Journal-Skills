@@ -1,38 +1,50 @@
 ---
 name: rss-review-process
-description: Use when explaining or strategizing around RSS (Robotics: Science and Systems) peer review — the double-blind OpenReview pipeline, the two-stage design where only above-threshold papers earn a one-page rebuttal, the Area Chair meeting that sets decisions, and what single-track selectivity does to reviewer expectations.
+description: Use when explaining or strategizing around RSS (Robotics: Science and Systems) peer review — the double-blind OpenReview pipeline, the RSS 2027 two-stage shepherding design (Extended Abstract, invited rebuttal, Extension Charter, final paper), signed reviews for accepted papers, and what single-track selectivity does to reviewer expectations.
 ---
 
 # RSS Review Process
 
 Model how an RSS decision actually gets made. The mechanics below are the verified
-2026 design (roboticsconference.org/2026/reviewps/, checked 2026-07-08); the two-stage
-structure itself is cycle policy, so confirm it survives before relying on it.
+RSS 2027 design (Call for Papers, Author FAQ and Reviewer Guidelines at
+roboticsconference.org, read directly on 2026-11-24); the two-stage shepherding
+structure is new in 2027 and is cycle policy, so confirm it survives before relying on
+it in a later edition.
 
-## The 2026 pipeline
+## The RSS 2027 pipeline
 
 ```text
-OpenReview submission (double-blind)
+Stage 1: Extended Abstract on OpenReview (double-blind), due 2026-12-04 AoE
+        │   (5 pages content + 1 page references; nothing beyond is reviewed)
+   reviewers score Value of Hypothesis (1-4) + Feasibility of Conclusion (1-4)
         │
-   first review round
+   Stage 1 decision 2027-02-05 ── reject (cascading filter)
+        │ invited
+   Metareview: required clarifications, evaluations, extensions
         │
-   threshold gate ── below ──▶ reject (no rebuttal opportunity)
-        │ above
-   invited one-page rebuttal (due 2026-04-03 AoE)
+   rebuttal (due 2027-02-12 AoE)
         │
-   Area Chair reads rebuttal
-        │  (forwards to reviewers only if extra feedback is needed)
-   Area Chair meeting ──▶ decisions (2026-04-27 AoE)
+   Stage 2 decision 2027-02-26 ── reject
+        │ invited
+   Extension Charter (AC-finalized roadmap)
+        │
+   final paper, 8 pages excl. references (2027-04-16) + supplement (2027-04-19)
+        │
+   Program Committee checks the Charter was followed ──▶ notification 2027-04-30
 ```
 
-Two properties distinguish this from ML-conference discussion phases:
+Three properties distinguish this from ML-conference discussion phases:
 
-- **The rebuttal is earned, not granted.** Papers below the first-round threshold are
-  decided without author input. Consequence: the submission itself must pre-answer
-  foreseeable objections; there may be no second chance (`rss-writing-style`).
-- **The audience of the rebuttal is the AC.** Reviewers may never see it. Write for
-  the person running the meeting, not for a back-and-forth thread
-  (`rss-author-response`).
+- **Stage 1 judges the hypothesis, not the results table.** Experiments may be
+  preliminary; the problem, hypotheses and methodology must be complete. Weak
+  hypotheses are filtered out early so ACs can spend effort on the rest.
+- **The rebuttal is earned, and it shapes a contract.** Only invited papers respond to
+  the Metareview, and the AC turns the response into the Extension Charter. Write it
+  for the AC who will draft that Charter (`rss-author-response`).
+- **Final acceptance asks "was the Charter executed?"** Negative results are not
+  grounds for rejection if the hypothesis was rigorously tested and insights drawn.
+- **Signed reviews.** Reviews of accepted papers are published with the reviewers' and
+  chairs' names — expect careful, accountable reviewing.
 
 ## What single-track selectivity does to reviewing
 
@@ -45,51 +57,48 @@ sound?" Soundness is necessary, not sufficient. Practical consequences:
 | High bar for "so what" | One program, finite slots | Lead with the claim's consequence for other subfields |
 | Deep methodological reads | Specialized, smaller reviewer pool | State assumptions and protocol precisely; vagueness gets caught |
 | Skepticism toward demo-style evidence | Science-first venue identity | Attribute failures, isolate mechanisms, report all trials |
-| Low tolerance for padding | 8-page ceiling framed as ceiling | Cut aggressively; length is not a proxy for rigor here |
+| Low tolerance for padding | 5 + 1 Stage 1 limit, 8-page final ceiling | Cut aggressively; length is not a proxy for rigor here |
 
 ## Reading a borderline packet
 
 - Separate *correctness* objections (a flaw in the claim or protocol) from *scope*
   objections (the claim is narrower than sold) from *significance* doubts (sound but
-  not slot-worthy). Only the first two are rebuttal-addressable with existing
-  evidence; the third is won or lost in the submission's framing.
+  not slot-worthy). The first two can be answered in the rebuttal or absorbed into the
+  Extension Charter; the third is won or lost in the hypothesis framing.
 - A lone enthusiastic review does not carry a paper through an AC meeting; a lone
   unanswered correctness objection can sink one. Triage accordingly.
-- Decisions emerge from a synchronous meeting, so the AC's summary understanding is
-  the decision artifact. Everything you write should compress well into two sentences
-  an AC might say aloud.
+- The AC's Metareview and Charter are the decision artifacts. Everything you write
+  should compress well into two sentences an AC might put in them.
 
-## Timeline anatomy (2026 verified dates)
+## Timeline anatomy (RSS 2027 verified dates)
 
 | Date (AoE) | Event | Author-side implication |
 |---|---|---|
-| Jan 30 | Papers in | Last word for below-threshold papers |
-| Feb-Mar | First round (release date 待核实) | Do not plan around an assumed date |
-| Apr 3 | Invited rebuttals due | Short notice — pre-draft objection answers |
-| Apr 3-27 | AC digestion + meeting | No author-visible activity; silence is normal |
-| Apr 27 | Decisions | ~11 weeks before the July conference |
+| Dec 4, 2026 | Extended Abstract in | Last word for papers filtered at Stage 1 |
+| Feb 5, 2027 | Stage 1 decision + Metareview | One week to respond |
+| Feb 12, 2027 | Rebuttal due | Pre-draft answers to likely objections |
+| Feb 26, 2027 | Stage 2 decision / Extension Charter | Seven weeks of execution begin |
+| Apr 16 / Apr 19, 2027 | Final paper / supplement | Charter delivered, 8 pages + references |
+| Apr 30, 2027 | Notification | ~10 weeks before the July 6–11 conference |
 
-The compressed April-to-July runway is a distinctive RSS pressure: camera-ready,
-travel authorization, and artifact release all share eleven weeks.
+The compressed April-to-July runway is a distinctive RSS pressure: camera-ready (May 14,
+2027), travel authorization, and artifact release all share it.
 
 ## Calibrating expectations by venue contrast
 
-- Unlike venues with universal author-response phases, RSS's threshold gate means
-  a silent April is itself information — but never certain information, since
-  invitation lists are confidential.
-- Unlike rolling-review journals, there is no revise-and-resubmit: the meeting
-  outputs accept or reject, and the improvement loop runs through the next venue
-  slot (`rss-workflow`).
-- Scores, forms, and thresholds are internal; public acceptance statistics were
-  not verified for 2026 (待核实) — do not quote community folklore rates as fact.
+- Unlike venues with universal author-response phases, only papers invited at Stage 1
+  rebut; a Stage 1 rejection on February 5 is final for the cycle.
+- Unlike rolling-review journals, the revise step is bounded: one Charter, one final
+  submission, then accept or reject.
+- Scores and thresholds are internal; public acceptance statistics were not verified
+  (待核实) — do not quote community folklore rates as fact.
 
 ## Confidentiality and conduct
 
-- Reviewer identities, scores, and thresholds are confidential; do not attempt
-  identification or out-of-band contact.
-- Notification wording in 2026 covered "paper and demo acceptance" even though the
-  CFP had no demo-paper category — treat demo mechanics as 待核实 rather than
-  inferring a track.
+- Reviewer identities stay confidential during review (they are published only with
+  accepted papers' reviews); do not attempt identification or out-of-band contact.
+- Reviewers are asked to flag hallucinated references and rule violations (such as
+  anonymity breaches) to the AC; both lead to desk rejection.
 
 ## Who sits in the reviewer pool
 
@@ -106,9 +115,9 @@ travel authorization, and artifact release all share eleven weeks.
 ## Output format
 
 ```text
-[Stage] under review / rebuttal invited / no rebuttal / AC meeting pending / decided
+[Stage] stage 1 review / rebuttal invited / stage 1 reject / charter execution / final review / decided
 [Objection triage] correctness: <...> | scope: <...> | significance: <...>
 [AC-compressible summary] <two sentences the AC could say in the meeting>
-[Rebuttal leverage] high / low / none (below threshold)
+[Rebuttal leverage] high / low / none (not invited)
 [Next move] <one action>
 ```

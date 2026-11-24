@@ -12,15 +12,17 @@ description: Use when running the final pre-submission preflight for an Academy 
 - Confirming format, CV, and anonymity requirements for the right route
 - Unsure which files the portal expects for a proposal vs. a full review
 
-## Process facts (检索于 2026-06；以官网为准 — re-confirm on the AOM/Annals pages)
+## Process facts (source map re-verified 2026-11-24；以官网为准 — re-confirm on the AOM/Annals pages)
 
-- **Publisher / venue.** Annals is the Academy of Management's review-of-the-field journal, published with **Taylor & Francis**. It is distinct from AMR (original theory) and AMJ (empirical). Submission is via **Manuscript Central**: `https://mc.manuscriptcentral.com/aomannals`.
+- **Publisher / venue.** Annals is the Academy of Management's review-of-the-field journal, published by the **Academy of Management** on its own platform (journals.aom.org) — the official AOM pages re-read 2026-11-24 make no mention of Taylor & Francis. It is distinct from AMR (original theory) and AMJ (empirical). Submission is via **Manuscript Central**: `https://mc.manuscriptcentral.com/aomannals`.
 - **Two routes, in order.** (1) **Proposal** — the mandatory gate: **≤5 pages, single-spaced, 1-inch margins, 12pt**, with the four headings (Focus of the review / Related reviews / Review scope and process / New insights); references and visuals do not count. (2) **Invited full review** — submitted only after a proposal is accepted; typically **~50 pages** of text plus tables/figures/refs.
 - **Deadlines.** Proposals are on a twice-yearly cycle — **April 1 and October 1**; not reviewed until the deadline passes; decisions **~6 weeks after** the deadline. Two issues publish per year (January and July).
 - **Anonymity.** **Proposals are double-blind** (reviewed by the Associate Editors) — anonymize the proposal. The **invited full review forgoes double-blind** (read by the Associate Editor and Editor), so anonymity requirements differ between the two routes — confirm current rules on the portal.
 - **CV.** A current CV may be required for the **editors' eyes only** (not seen by reviewers) — confirm at submission (待核实).
-- **Style / format.** Follow the current Annals/Taylor & Francis author guidelines for manuscript format and references (house style 待核实 — confirm APA vs. other on the live page). Length, abstract, and exact formatting specifics are volatile.
-- **Fees / APC.** Any submission fee or APC is **volatile — re-confirm on the official pages**; do not assert an amount.
+- **Style / format.** Follow the **AOM Editorial Style Guide** (Word file, Times New Roman 12 pt, double-spaced body; abstract **≤200 words** with the title on page 2; footnotes, not endnotes; three levels of bold headings; title page only for accepted papers) — re-verified 2026-11-24 on aom.org. The proposal itself follows the proposal rules above (single-spaced).
+- **AI policy.** Work must be the authors' own; disclose any AI use **in the cover letter and in the article acknowledgements**, and confirm you have read AOM's AI policy (re-verified 2026-11-24).
+- **Cover letter.** Not required, but recommended (Manuscript Central directions, re-verified 2026-11-24).
+- **Fees / APC.** **AOM does not charge any fees for author submissions** (re-verified 2026-11-24; beware predatory sites claiming to act for Annals — submit only via `mc.manuscriptcentral.com/aomannals`). Any OA charge for an accepted article is 待核实; do not assert an amount.
 
 ## Preflight checklist
 
@@ -37,10 +39,10 @@ description: Use when running the final pre-submission preflight for an Academy 
 ### Anonymity & declarations
 - [ ] Proposal anonymized for double-blind review (proposal route)
 - [ ] Full-review anonymity handled per current rules (it forgoes double-blind)
-- [ ] Confirmed not under review elsewhere; AI not listed as an author
+- [ ] Confirmed not under review elsewhere (and no earlier Annals proposal on the same literature); AI not listed as an author; any AI use disclosed in cover letter + acknowledgements
 
 ### Volatile re-confirms
-- [ ] Portal specifics, fee/APC, CV requirement, house style, anonymity — re-checked on AOM/Annals pages (检索于 2026-06)
+- [ ] Portal specifics, CV requirement, OA charge — re-checked on AOM/Annals pages (portal, no-fee rule, house style and anonymity re-verified 2026-11-24)
 
 ## Automated preflight (run this first)
 

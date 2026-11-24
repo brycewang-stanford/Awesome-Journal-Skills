@@ -12,32 +12,32 @@ description: Use when running the final pre-submission preflight for Human Relat
 - Confirming the manuscript is fully anonymized for double-anonymous review
 - Checking length, abstract, keywords, and SAGE Harvard compliance
 
-## Process facts (source map refreshed 2026-06; re-confirm on the official pages)
+## Process facts (source map re-verified 2026-11-24; re-confirm on the official pages)
 
 - HR is published by **SAGE for the Tavistock Institute of Human Relations** (founded 1947, monthly). Submission is through **ScholarOne / ManuscriptCentral** (mc.manuscriptcentral.com/hr).
 - **Review model: double-anonymous.** The manuscript must contain no author names or identifying details and no links to external websites that could reveal authorship.
-- **Length: 13,000 words total**, including references and appendices (检索于 2026-06；以官网为准).
-- **Abstract: 100–200 words**, jargon-free, stating the topic/question, approach, and theoretical contribution; **keywords** as searchable key phrases.
+- **Length: 13,000 words total**, including the abstract, text, endnotes, references and appendices but **excluding tables and figures**; over-length or mis-formatted manuscripts are sent back (re-verified 2026-11-24 against the Jan 2026 "How to prepare your submission" PDF；以官网为准).
+- **Abstract: 100–200 words**, jargon-free, stating the topic/question, approach, and theoretical contribution; **keywords**: your main 3 or 4 key phrases plus at least 3 or 4 additional key words.
 - **Referencing: SAGE Harvard** (author-date) (检索于 2026-06；以官网为准).
 - **Editorial scoping screen before full review:** "suitable data are a necessary but not sufficient feature to get to full peer review" — the theoretical contribution and HR fit must be legible up front. Article types: original empirical, theory-development, and intervention pieces; **critical/analytical reviews are accepted only through the annual special-issue call**.
-- **AI policy:** any AI use must be **declared at submission and detailed in the cover letter**; AI is permitted only for copy-editing/proofing — using it otherwise, or undisclosed, is grounds for rejection/retraction.
+- **AI policy:** any AI use must be **declared at submission and detailed in the cover letter** — the manuscript itself must **not** contain the AI declaration (an AI statement is requested only at acceptance); AI is permitted only for copy-editing/proofing — using it otherwise, or undisclosed, is grounds for rejection/retraction.
 - **Data transparency matrix:** if multiple papers draw on the same dataset, declare them and supply a matrix of which variables/quotations each uses; violation is grounds for rejection.
 - Manuscripts are checked with **iThenticate/CrossCheck** for prior publication; HR follows **COPE** standards.
-- Co-Editors-in-Chief: **Smriti Anand and Penny Dick** (verified 2026-06-22 via the journal editorial-team page; re-verify before submission) — address the cover letter to the editors, not a named individual unless verified.
+- Co-Editors-in-Chief: **Smriti Anand and Penny Dick** (re-verified 2026-11-24 via the journal editorial-team page; re-verify before submission) — address the cover letter to the editors, not a named individual unless verified.
 
 ## Preflight checklist
 
 ### Anonymization (double-anonymous)
-- [ ] No author names, affiliations, or identifying acknowledgements anywhere in the manuscript
+- [ ] No author names, affiliations, or acknowledgements anywhere in the manuscript (acknowledgements are added only after acceptance)
 - [ ] Self-citations phrased neutrally (no "in our earlier work")
 - [ ] No live URLs, no identifying field-site/organization names, no grant numbers that reveal authorship
 - [ ] A separate (non-anonymized) title page uploaded as its own file, per portal fields
 
 ### Format & style
-- [ ] Total length **≤13,000 words** including references and appendices
+- [ ] Total length **≤13,000 words** including abstract, endnotes, references and appendices (tables and figures excluded)
 - [ ] **Abstract 100–200 words**, jargon-free, naming the theoretical contribution; key-phrase keywords supplied
 - [ ] References in **SAGE Harvard** (author-date), consistent in-text and in the list
-- [ ] Exhibits legible, anonymized, and within the word budget
+- [ ] Exhibits legible and anonymized; Word-made tables/figures placed after the references, one per page
 
 ### Declarations & files (ScholarOne)
 - [ ] Cover letter to the editors: the contribution, HR fit, and **AI-use declaration** (if any)

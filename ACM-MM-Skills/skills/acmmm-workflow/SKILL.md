@@ -19,12 +19,14 @@ the July decision, so the work clusters at the front and the back.
 | Paper | Apr 1 | 6–8 sigconf pages, anonymous, final PDF | `acmmm-submission` |
 | Supplement | Apr 8 | Media/appendix package, anonymous, plays | `acmmm-supplementary` |
 | Rebuttal | ~Jun 4 | Anonymous response, small confirmatory results | `acmmm-author-response` |
-| Notification | ~early Jul | Decision + tier | `acmmm-review-process` |
-| Camera-ready | ~Aug 6 | De-anonymized ACM version, artifact released | `acmmm-camera-ready` |
+| Notification | Jul 9 (Jul 7 on CFP) | Decision + tier | `acmmm-review-process` |
+| Camera-ready | Aug 6 | De-anonymized ACM version, artifact released | `acmmm-camera-ready` |
 | Conference | Nov 10–14 | Registered; media-ready talk/poster | `acmmm-camera-ready` |
 
 Treat these dates as the 2026 snapshot; reopen the current site each cycle. Note the 2026
-notification date was listed inconsistently (July 7 on the CFP vs. July 9 elsewhere).
+notification date was listed inconsistently (July 7 on the CFP vs. July 9 elsewhere). ACM MM
+2027 meets 8–12 November 2027 in Hong Kong; its call and deadlines were not yet published on
+2026-11-24.
 
 ## Front-loaded work (before April)
 

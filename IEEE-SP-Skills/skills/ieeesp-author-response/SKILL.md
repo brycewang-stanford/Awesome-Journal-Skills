@@ -1,16 +1,20 @@
 ---
 name: ieeesp-author-response
-description: Use when drafting the IEEE S&P (Oakland) rebuttal for second-round papers or the response plan for a Revise decision, including triaging reviews under the ~5-day window, answering adaptive-attack and threat-model objections, handling ethics questions with documentation, and writing against the Revise expectations summary.
+description: Use when drafting the IEEE S&P (Oakland) rebuttal for second-round papers — the 750-word non-interactive rebuttal or the interactive rebuttal with requested results and a revised PDF — including triaging reviews under the ~5-day window, answering adaptive-attack and threat-model objections, handling ethics questions with documentation, and the optional response to an accepted paper's public meta-review.
 ---
 
 # IEEE S&P Author Response
 
-Use this in two situations that S&P runs differently from most venues: the
-short **rebuttal** offered only to papers that survive the first round, and
-the **Revise response**, a full re-submission against a written expectations
-summary. The 2027 Cycle 2 rebuttal window was five days — reviews out
-Feb 11, rebuttal due Feb 16, 2027 (checked 2026-07-08) — so the work is
-mostly done before reviews arrive or it does not get done.
+Use this for the **rebuttal** S&P offers only to papers that survive the
+first round. The PC assigns each paper one of two modes (2027 CFP,
+re-verified 2026-11-24): a **non-interactive rebuttal** of 750 words limited
+to factual errors and reviewers' concrete questions, with no new results; or
+an **interactive rebuttal** — the same 750-word text, then a HotCRP comment
+with new results or material the reviewers explicitly requested, plus a
+revised manuscript PDF. There is no later revision round. The 2027 Cycle 2
+text window was five days — reviews out Feb 11, rebuttal due Feb 16, 2027,
+interactive period Feb 17-26 — so the work is mostly done before reviews
+arrive or it does not get done.
 
 ## Pre-draft before reviews land
 
@@ -41,9 +45,10 @@ post-rebuttal discussion is a vote you conceded.
 ## Rules of engagement in the rebuttal
 
 - Answer the objection actually written, not the friendlier one nearby.
-- New experimental results: follow the current cycle's instructions on
-  whether new numbers are allowed (待核实 each cycle); when unclear, phrase
-  as verification of existing claims rather than new contributions.
+- New experimental results: **none** in a non-interactive rebuttal; in an
+  interactive one, only what reviewers explicitly requested, delivered in the
+  follow-up comment with a revised PDF. Over-length text or unrequested new
+  material means immediate rejection.
 - Never argue that a security concern "is out of scope" without saying whose
   scope — restate the threat model's boundary and why it is the right one.
 - Keep the anonymous voice; disclosure specifics stay venue-neutral.
@@ -64,40 +69,47 @@ Reviewer A:
 Reviewer B:
   B1 [concession] Correct: we do not evaluate <adversary class>. Our claims
       are scoped to <boundary> (§2); extending is future work.
-→ ≤ <current cycle's length cap 待核实>; every point ends at a §/Table/date.
+→ ≤ 750 words; every point ends at a §/Table/date.
 ```
 
-## Responding to a Revise decision
+## Working an interactive rebuttal
 
-The Revise summary of expectations is a **contract, not a suggestion list**:
+The reviewers' explicit requests are a **contract, not a suggestion list**,
+and the window is about a week (Feb 17-26, 2027 for Cycle 2):
 
-1. Extract each expectation into a numbered ledger; get co-author agreement
-   on the interpretation of each *before* doing work.
-2. Deliver every item or explicitly negotiate the ones you contest — silence
-   on an expectation reads as failure to meet it.
-3. Write a change document mapping expectation → change → location, so the
-   returning reviewers can verify in minutes.
-4. Do not add major unrequested material; new claims reopen review scope.
-5. Confirm on the live cycle pages which cycle receives the revision and its
-   deadline (待核实 — the 2027 mechanics were not published at check time).
+1. Extract each explicit request into a numbered ledger; get co-author
+   agreement on the interpretation of each *before* doing work.
+2. Deliver every requested item or say plainly, in the 750-word text, which
+   you cannot and why — silence on a request reads as failure to meet it.
+3. Post the follow-up HotCRP comment mapping request → result → location in
+   the revised PDF, so reviewers can verify in minutes.
+4. Add nothing unrequested; the CFP treats that as grounds for immediate
+   rejection.
+
+## After acceptance: the public meta-review
+
+Accepted papers publish a meta-review (< 500 words) listing the PC's reasons
+and concerns; authors may add a response (< 500 words) that is published with
+it. Write it as a factual record of what the camera-ready changed, not a
+second rebuttal (`ieeesp-camera-ready`).
 
 ## Failure modes seen at this venue
 
 - Spending the five days on the novelty dispute instead of the fixable
   evidence objections.
 - Answering an ethics question with philosophy instead of a timeline.
-- Treating Revise as "minor revisions plus a cover letter" — it is re-reviewed
-  as a major revision against the written expectations.
+- Using an interactive rebuttal to add a favourite unrequested experiment —
+  it is grounds for immediate rejection.
 - Missing that the rebuttal's real audience is the reviewer **discussion**
   that follows it: write lines a sympathetic reviewer can quote.
 
 ## Output format
 
 ```text
-[Mode] rebuttal (5-day) / revise response
+[Mode] non-interactive rebuttal (750 words) / interactive rebuttal (+ requested results, revised PDF) / meta-review response
 [Ledger] <n> objections: misreading <n> · evidence <n> · taste <n> · ethics <n>
 [Concessions] <what is honestly out of evaluated scope>
 [Documentation block] disclosure dates ✓/✗ · IRB id ✓/✗ · artifact refs ✓/✗
 [Word budget plan] <allocation across reviewers>
-[Open 待核实] new-results policy / length cap / revise target cycle
+[Requested items] <n> explicit reviewer requests · delivered <n>
 ```

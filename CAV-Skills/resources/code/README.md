@@ -43,10 +43,11 @@ artifact evaluation.
   proof certificate / unsat proof / verification witness (e.g., an SV-COMP-style witness, a DRAT
   proof, or an Isabelle/Coq proof script) and an independent checker, not just a "verified" verdict
   (`../../skills/cav-reproducibility/SKILL.md`).
-- **The anonymity rule depends on category.** Regular and Application artifacts submitted for the
-  double-blind paper review must be anonymized; Tool and Industrial papers are not double-blind.
-  The **AEC** artifact (post-notification) is separate from any review-time artifact — do not
-  conflate them (`../../skills/cav-artifact-evaluation/SKILL.md`).
+- **The anonymity rule depends on category.** In CAV 2027 only Regular Papers are double-blind, so
+  only their review-time artifacts must be anonymized; Tool and Application/Industrial/Case Study
+  papers are single-blind. The **AEC** artifact is separate from any review-time artifact and AE is
+  single-blind — for Tool Papers it is mandatory and submitted in March, during paper review; for
+  everything else it is post-notification and optional — do not conflate them (`../../skills/cav-artifact-evaluation/SKILL.md`).
 - **Badges are the AEC's, on its own timeline.** Available (public DOI archive), Functional, and
   Reusable are earned by AEC members running your package across a smoke-test and a full-review
   phase, after notification and independent of camera-ready

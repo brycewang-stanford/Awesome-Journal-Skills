@@ -10,19 +10,27 @@ committee of people who build interactive systems, supported by external reviewe
 drawn from the same community, converging in discussion and a PC meeting. The venue
 is single-track and relatively intimate — the person reviewing your haptics paper
 probably built a haptics device. The pipeline facts below are the 2026 cycle's
-(verified 2026-07-08); exact committee mechanics beyond the published dates are
-待核实 each year.
+(re-verified 2026-11-24 against the UIST 2026 CFP and Author Guide); UIST 2027 has not
+yet published its own, so re-read them each year.
+
+Who reads: at least four people per paper — two PC members (1AC, 2AC) and two
+external reviewers. The **1AC knows the authors' identities**; the 2AC and the
+externals do not. The 2AC writes a full independent review, the 1AC a meta-review.
+ACs may also **assisted-desk-reject** papers whose contribution is clearly
+incommensurate with their length, that lack HCI context or methodological detail.
 
 ## The 2026 pipeline
 
 | Stage | 2026 timing | What happens to your paper |
 |---|---|---|
-| Submission closes | Mar 31 | PDF + video + supplement enter PCS |
-| Review period | April-May | PC members and externals review paper *and* video |
+| Submission closes | Mar 31 / Apr 9 | Paper PDF enters PCS; video, supplement, alt text and subtitles follow by the materials deadline |
+| Review period | April-May (initial reviews May 28) | PC members and externals review paper *and* video |
 | Rebuttal | May 28 - Jun 5 | Authors respond in ≤ 5,000 characters |
 | Discussion + PC meeting | June | Recommendations formed from submission, rebuttal, reviews, and reviewer/PC discussion |
 | Notification | Jun 27 | Accept (conditional), or reject |
-| Camera-ready | Jul 24 | Conditions from the rebuttal must be delivered |
+| Final reviews | Jul 3 | Full reviews, possibly revised after discussion, sent to authors |
+| Camera-ready | Jul 31 (PCS + TAPS) | Conditions from the rebuttal must be delivered; 1AC checks them |
+| Final acceptance | Aug 7 | Paper accepted for publication only if the conditions are met |
 
 Two structural notes: the decision explicitly weighs the rebuttal and the
 inter-reviewer discussion, so the rebuttal is a real instrument (see

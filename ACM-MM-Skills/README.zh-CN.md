@@ -12,15 +12,18 @@ Dates、Important Dates、Call for Technical Papers、Topics of Interest、Revie
 Guidelines，以及 Reproducibility / Open Source / Dataset / Brave New Ideas / Grand
 Challenge 各 track 的 call；ACM MM 2026 的 OpenReview groups；ACM Digital Library 会议
 论文集；dblp 的 `conf/mm` 索引；以及 `sigmm.org`（Test-of-Time 奖、主办邀请）。核验环境中
-对 `2026.acmmm.org` 的直接抓取被拦截（HTTP 403），因此官方页面通过搜索引擎对精确 URL 的
-渲染阅读，并与 OpenReview、ACM DL、dblp、SIGMM news 交叉核对；完整链路（含所有仍标注
+对 `2026.acmmm.org` 的直接抓取在 2026-07-09 被拦截（HTTP 403），因此官方页面当时通过搜索引擎
+对精确 URL 的渲染阅读，并与 OpenReview、ACM DL、dblp、SIGMM news 交叉核对。**2026-11-24** 已通过
+直接抓取**重新核验** CFP、Author Instructions、Important Dates、各 track call、Open Access 通知与
+组委会页面，并阅读了 ACM MM 2027 官网；完整链路（含所有仍标注
 待核实 的条目）见 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
-**周期状态（2026-07-09）：** ACM MM 2026（里约热内卢，2026 年 11 月 10–14 日）是*当前进行中*
-的周期。投稿链条已于 4 月结束（摘要 3 月 25 日、正文 4 月 1 日、补充材料 4 月 8 日），匿名
-rebuttal 窗口在 6 月初，而**作者通知恰在 7 月初送达**——本包正是在 decision 与 camera-ready
-的交界处撰写。录用作者进入 camera-ready 阶段（据报为 8 月 6 日）；被拒作者正在改投。MM 2027
-计划落在亚洲/大洋洲（据报为香港），核验时其 CFP 与日期尚未公布。
+**周期状态（2026-11-24）：** ACM MM 2026（里约热内卢，2026 年 11 月 10–14 日）是最新已公布的一届，
+也是本包规则的锚点，现已闭幕：摘要 3 月 25 日、正文 4 月 1 日、补充材料 4 月 8 日、rebuttal
+6 月 4 日、通知 7 月 9 日（CFP 页写 7 月 7 日）、camera-ready 8 月 6 日。**ACM MM 2027** 已确定于
+**2027 年 11 月 8–12 日在中国香港特别行政区 AsiaWorld-Expo（亚洲国际博览馆）** 举办
+（2027.acmmm.org），并已发布 Area Chair 与 Reviewer 招募；截至 2026-11-24 其 CFP、截止日期与
+页数规则**尚未公布**，请以 2026 规则作为标注清楚的先验，并重新打开 2027 官网核对。
 
 ## ACM MM 与兄弟会议的不同
 
@@ -30,20 +33,25 @@ rebuttal 窗口在 6 月初，而**作者通知恰在 7 月初送达**——本�
   体验质量（QoE）、传输/分发、艺术与文化。纯目标检测应投 CVPR/ICCV，纯语言模型应投 ACL；
   ACM MM 要的是它们之间的接缝。
 - **16 个 thematic area，一个主 track。** 投稿需选定一个 thematic area（Multimodal Fusion、
-  Generative and Foundation Models、Search and Recommendation、情感/参与、艺术与文化、
-  系统、Transport and Delivery、Responsible Multimedia 等），该领域决定哪些 reviewer 看到论文。
+  Generative and Foundation Models、Search and Recommendation、Emotional and Social
+  Signals、艺术与文化、Data Systems、Transport and Delivery、Responsible Multimedia 等），该领域决定哪些 reviewer 看到论文。
 - **以 ACM 标准论属于短文。** 正文 6–8 页，使用 **ACM `sigconf` 模板**，参考文献可额外占用最多
-  两页、且这两页只能放参考文献。超页论文不经评审直接 desk-reject。
+  两页、且这两页只能放参考文献。超页论文不经评审直接 desk-reject；主文件中正文之后不得附
+  appendix——附录放入补充材料（2026 年上限 50Mb）。
 - **双盲，但有明确例外。** 主 track 与多数 track 双盲；**Reproducibility、Open Source
   Software、Dataset** 三个 track 单盲，因为其 artifact 本身就是论文、无法匿名。
 - **专门的 track 生态。** 主 track 之外还有 Brave New Ideas（愿景论文）、Multimedia Grand
   Challenge、Open Source Software Competition、带 ACM artifact badging 的 Reproducibility
   track、Interactive Art、Doctoral Symposium 与 workshops——各有独立 call 与规则。
-- **用 OpenReview，但非 NeurIPS 式开放。** ACM MM 2026 在 OpenReview 上运行、含可选的匿名
-  rebuttal；评审默认不公开，社区惯例是封闭的、带 ACM badge 的评审，而非公开论坛。
-- **发表走 ACM，而非默认开放获取。** 录用论文进入 **ACM Digital Library**；无面向作者的 APC，
-  但 ACM 的版权/OA 选项（含 ACM Open）与 sigconf 版权块在 camera-ready 时确定。无常设主编——
-  轮换的对应角色是每届的 Program Chairs 与 General Chairs。
+- **OpenReview：评审期间不公开，结束后公开。** ACM MM 2026 在 OpenReview 上运行、含可选的
+  匿名 rebuttal（不得含外部链接）；评审期间投稿不公开，流程结束后最终评审意见与作者回复在
+  OpenReview 上公开。每位作者投稿超过 10 篇时，第 11 篇起被 desk-reject；所有作者自动成为
+  reviewer。
+- **发表走 ACM 开放获取——可能产生 APC。** 自 2026 年 1 月 1 日起 ACM 全面开放获取，ACM MM 论文
+  进入 **ACM Digital Library** 并开放获取：ACM Open 成员机构作者无需付费，其他作者须付 APC
+  （2026 年过渡价：ACM/SIG 会员 250 美元、非会员 350 美元），符合条件者可申请减免。ACM MM 2026
+  仅限现场报告——未现场报告的论文将从论文集中移除。无常设主编——轮换的对应角色是每届的
+  Program Chairs 与 General Chairs。
 
 ## Skills
 
@@ -103,14 +111,15 @@ claude plugin install acm-mm-skills
 - ACM MM 2026：2026 年 11 月 10–14 日，巴西里约热内卢；第 34 届；由 ACM SIGMM 组织。
 - 截止日期（AoE）：摘要 3 月 25 日 · 正文 4 月 1 日 · 补充材料 4 月 8 日 · rebuttal 6 月 4 日 ·
   作者通知 7 月初（CFP 页写 7 月 7 日；Important Dates 与 Dataset 页写 7 月 9 日）· camera-ready
-  据报 8 月 6 日。
+  8 月 6 日 · 作者注册 8 月 31 日。
 - 版式：正文 6–8 页、ACM `sigconf` 模板，参考文献最多额外两页且只放参考文献；超页 desk-reject；
   经 OpenReview 投稿。
 - Track：主 track（16 个 thematic area）、Dataset、Brave New Ideas、Multimedia Grand
   Challenge、Open Source Software Competition、Reproducibility（ACM badging）、Interactive
   Art、Doctoral Symposium、workshops、tutorials、panels、demos。
 - 评审：主 track 双盲；Reproducibility、Open Source Software、Dataset 单盲；含可选匿名 rebuttal。
-- 发表：ACM Digital Library；无作者侧 APC；ACM 版权/OA 在 camera-ready 确定；无常设主编——
+- 发表：ACM Digital Library，自 2026 年起开放获取（ACM Open 机构免 APC，否则 2026 年 APC 为
+  250/350 美元，可申请减免）；须现场报告；无常设主编——
   Program/General Chairs 每届轮换。
 
 ## 事实纪律
@@ -119,11 +128,10 @@ claude plugin install acm-mm-skills
 
 1. **已核验的 2026 周期事实**——可追溯到 source map 中带编号的来源（如里约日期、4 月 1 日正文
    截止、6–8 页 sigconf 预算、具名单盲 track）。
-2. **据报事实**——有一致的二手来源并如实标注（如来自 deadline 镜像的 8 月 6 日 camera-ready、
-   MM 2027 的香港主办）。
+2. **据报事实**——有一致的二手来源并如实标注（目前无承重条目：8 月 6 日 camera-ready 与
+   MM 2027 香港主办均已于 2026-11-24 在官方页面确认）。
 3. **核验时无法确证的条目**——明确标注 待核实 并以问题形式表述（如 7 月 7 日 vs. 7 月 9 日的
-   通知日期冲突、补充材料大小上限、ACM 版权/OA 表单细节、各 track 奖项结构，以及 2027 周期的
-   一切）。
+   通知日期冲突、补充材料格式规则、2026 年之后的 APC 金额、各 track 奖项结构，以及 2027 年 CFP）。
 
 若某个 skill 把第 2/3 类材料当作第 1 类陈述，应视为 bug，并对照官方在线页面修正。
 

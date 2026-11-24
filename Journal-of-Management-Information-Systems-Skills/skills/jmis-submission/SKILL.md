@@ -12,7 +12,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Confirming the paper is double-blind-ready and inside the page/abstract limits
 - The team assumed a ScholarOne/T&F portal and needs the actual intake route
 
-## Process facts (source map refreshed 2026-06; re-confirm on jmis-web.org / tandfonline)
+## Process facts (source map re-verified 2026-11-24 on jmis-web.org; re-confirm on jmis-web.org / tandfonline)
 
 - JMIS is the Taylor & Francis (Routledge) quarterly founded in 1984 and edited by **Vladimir Zwass** (Fairleigh Dickinson University); Online ISSN 1557-928X.
 - **Intake is by email, not a portal.** Manuscripts are submitted to the EIC at **jmis@fdu.edu** with the subject line **"JMIS Submission"**, as MS Word or PDF attachments. There is no ScholarOne/T&F submission system at the intake stage. (检索于 2026-06；以官网为准.)
@@ -20,7 +20,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Length:** the complete manuscript should **not exceed 50 pages**; text in **12-point, double-spaced, left-justified**, pages numbered.
 - **Abstract:** **up to 150 words**, with **no citations**; include a set of **keywords/phrases**.
 - **References:** numbered in brackets (e.g., **[9]**) with an **alphabetized reference list** — an IEEE-like numbered style, not author-date.
-- **Attachments:** a cover letter (author affiliations, contact info, brief biographies) sent separately from the anonymized paper; **online appendixes** may be submitted separately; **survey instruments** must be provided as separate anonymized attachments if not in the paper.
+- **Attachments:** a cover letter (author affiliations, postal/email addresses and phone numbers, corresponding author, brief biographies, and the paper's title page with all author names and **funding sources**) sent separately from the anonymized paper; **online appendixes** may be submitted separately; **survey instruments** must be provided as separate anonymized attachments if not in the paper.
 - No submission fee is stated in the author guidelines. **待核实** if a fee or APC appears at acceptance.
 
 ## Preflight checklist

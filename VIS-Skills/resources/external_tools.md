@@ -22,7 +22,7 @@ its sibling VGTC conferences **IEEE VR** or **ISMAR** — separate calls on the 
 - VIS 2026 Short Papers call: https://ieeevis.org/year/2026/info/call-participation/shortpapers/
 - VIS 2026 Open Practices: https://ieeevis.org/year/2026/info/open-practices/open-practices/
 - Submission portal — PCS (Precision Conference System): https://new.precisionconference.com/ (society VGTC → VIS 2026 → VIS 2026 Full Papers)
-- IEEE VGTC / TVCG-conference LaTeX template: https://github.com/ieee-vgtc/vis-latex-submission-template
+- IEEE VGTC TVCG-journal templates for VIS full papers (LaTeX `github.com/ieeevgtc/tvcg-journal-latex`, Word, Typst): https://tc.computer.org/vgtc/publications/journal/ — the older `github.com/ieee-vgtc/vis-latex-submission-template` repo was archived on 3 March 2026 and points here; short papers use https://tc.computer.org/vgtc/publications/conference/
 - Graphics Replicability Stamp Initiative (GRSI): https://www.replicabilitystamp.org/
 - IEEE TVCG (publication venue): https://www.computer.org/csdl/journal/tg
 
@@ -49,7 +49,9 @@ its sibling VGTC conferences **IEEE VR** or **ISMAR** — separate calls on the 
 - Do not infer the exact dates, the second-round timeline, or whether double-blind is mandatory this
   year: confirm on the current call and review instructions.
 - Do not assume the page budget, template revision, area boundaries, reviewer-count rule
-  (primary/secondary/external/student), or Open-Practices wording carry over between editions.
-- Do not assume short papers publish in TVCG or share the full-paper cycle — verify (**待核实**).
+  (primary/secondary/external/junior), or Open-Practices wording carry over between editions.
+- Do not assume short papers publish in TVCG or share the full-paper cycle: in VIS 2026 they were
+  4+1 pages in the VGTC conference format, due 30 April 2026, and published in IEEE Xplore
+  conference proceedings, not TVCG (re-verified 2026-11-24) — re-check for VIS 2027.
 - If pages disagree, treat the newest Call for Full Papers, Review Instructions, or a direct chair
   announcement as controlling, and record the conflict.

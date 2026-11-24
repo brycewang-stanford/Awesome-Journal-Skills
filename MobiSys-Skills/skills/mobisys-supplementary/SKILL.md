@@ -1,12 +1,15 @@
 ---
 name: mobisys-supplementary
-description: Use when preparing MobiSys supplementary material — appendices, extra device sweeps, protocol details, demo video and media, and anonymized artifacts under the 12-page-body, double-blind, and reviewer-discretion constraints, including how to split a mobile-systems paper between body, references-and-appendix overflow, and HotCRP fields.
+description: Use when preparing MobiSys supplementary material — appendices, extra device sweeps, protocol details, demo video and media, and artifacts under the 12-page-body, single-blind, and reviewer-discretion constraints, including how to split a mobile-systems paper between body, references-and-appendix overflow, and HotCRP fields.
 ---
 
 # MobiSys Supplementary
 
 Use this when assembling MobiSys supplementary material. The supplement can support the paper,
-but the 12-page double-column body must stand on its own — a reviewer may never open it.
+but the 12-page double-column body must stand on its own — a reviewer may never open it. The
+MobiSys 2027 CFP (re-verified 2026-11-24) allows appendix and reference sections without page
+limits, but reviewers are not required to read the appendix, and main content over 12 pages is
+not reviewed regardless of appendix length.
 
 ## Supplement structure
 
@@ -17,9 +20,9 @@ but the 12-page double-column body must stand on its own — a reviewer may neve
   demo.
 - Put executable assets in the artifact package rather than the appendix when the current
   HotCRP form separates them (`mobisys-artifact-evaluation`).
-- Keep all supplementary files **double-blind**: no author names, institutions,
-  acknowledgements, device serial numbers, account handles in screenshots, internal codenames,
-  or repository owners in trace paths.
+- Review is **single-blind** (since 2026), so supplementary files need not hide the authors —
+  but still strip credentials, personal account data, device serials of study participants,
+  and anything that would breach human-subject privacy commitments.
 - Do not use the supplement to hide essential motivation, the core system description, the
   headline device results, or the key design decisions.
 - Verify archives and media open on a clean machine, render without your account, and contain
@@ -59,6 +62,6 @@ because both are discretionary.
 [Supplement status] Ready / Needs fixes / Not ready
 [Body/appendix/media split] <what sits where, gaps flagged>
 [Files] <appendix / demo video / traces / artifact>
-[Anonymity checks] <passed / issues incl. screenshots and trace paths>
+[Privacy checks] <credentials, participant data, account details removed>
 [Main-paper dependency] <what breaks if the supplement is ignored>
 ```

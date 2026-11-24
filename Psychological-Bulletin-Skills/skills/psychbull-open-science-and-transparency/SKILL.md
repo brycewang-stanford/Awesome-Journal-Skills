@@ -9,7 +9,10 @@ Effective **February 1, 2022**, Psychological Bulletin requires **transparent re
 work, including meta-analyses**, aligned with the **TOP Guidelines**. Authors who submit quantitative
 analyses must **supply their database, codebook, and relevant scripts**, and must **state whether the
 design/hypotheses were preregistered and where to access them**. Build this as you go — it is not a
-last-minute add-on. (Verify the exact TOP level wording on the live page; see 待核实 in the source map.)
+last-minute add-on. The live guidelines (re-verified 2026-11-24) set **TOP Level 2 (Requirement)** for
+citation, data, code, materials, reporting standards (JARS/MARS, or PRISMA 2020), and study and
+analysis-plan preregistration (replication: Level 1), reported in a Method subsection titled
+**"Transparency and openness"** that also states whether generative AI was used.
 
 ## When to trigger
 
@@ -82,7 +85,7 @@ this skill's rules:
 - *"'Data available on request' is insufficient."* → Deposit the database, codebook, and scripts to a
   trusted repository with a persistent DOI and complete the availability statement.
 - *"Confirmatory and exploratory analyses are blurred."* → Separate them in both the manuscript and the
-  deposited scripts so the distinction is auditable. (Confirm the exact TOP level on the live page.)
+  deposited scripts so the distinction is auditable. (TOP Level 2 for analysis-plan preregistration.)
 
 ## Output format
 

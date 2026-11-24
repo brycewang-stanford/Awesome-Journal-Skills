@@ -4,46 +4,49 @@
 Special Interest Group on Data Communication）的旗舰会议**，是计算机网络与通信系统设计、
 测量、分析领域的顶级年度会场。本包围绕 SIGCOMM 投稿的真实节奏组织，而这一节奏与它的网络类
 兄弟会场差别很大——从 USENIX 或 SIGMOBILE 转来的作者常常低估这一点：**每年只有一个正会
-截稿**，喂给 **一场** 8 月的会议；评审流水线叠加了 **early-reject 早退**、**rebuttal**
-与 **由 shepherd 主持的 one-shot revision**；录用后论文继续由 **shepherd** 陪跑到
+截稿**，喂给 **一场** 8 月的会议；**SIGCOMM 2027** 起评审改为 **协作式评审、只给一份共识
+评审意见，不再有 rebuttal 与 one-shot revision**，并新增第三种结果（**录用到 CCR**）；录用后
+论文继续由 **shepherd** 陪跑到
 camera-ready；采用 ACM 双栏排版并经 **TAPS** 出版；证据门槛用 **真实流量、真实拓扑、
 尾延迟与可复现的“runnable”artifact** 的语言书写。
 
-官方依据核验日期：**2026-07-09**。已核验 `conferences.sigcomm.org` 上的 ACM SIGCOMM 2026
-会议页、Call for Papers、submission 与 camera-ready 页；`sigcomm26.hotcrp.com` 的截稿时
-钟；SIGCOMM Call for Artifacts 与 `sigcomm.org` 的 Test-of-Time、Best-Paper 奖项页；以及
-dblp / ACM Digital Library 用于范例核验。核验环境中直接抓取
-`conferences.sigcomm.org`、`sigcomm.org`、`hotcrp.com`、`dblp.org` 均返回 **HTTP 403**，
-因此以下每条事实都是通过搜索引擎对精确官方 URL 的渲染读取并交叉核对得到；完整轨迹（含所有
-仍标注 待核实 的条目）见
+官方依据于 **2026-11-24 重新核验**（直接抓取）：`conferences.sigcomm.org` 上的 ACM SIGCOMM
+2027 主页、Call for Papers、Submission Instructions、Organizing Committee 与 camera-ready 页；
+SIGCOMM 2025 Call for Artifacts（最新已发布的一版）；`sigcomm.org` 的 Test-of-Time、
+Best-Paper 奖项页。最初 2026-07-09 的核验（SIGCOMM 2026 各页、`sigcomm26.hotcrp.com` 截稿
+时钟、dblp / ACM DL 范例）因上述站点当时返回 **HTTP 403**，是通过搜索引擎对精确官方 URL 的
+渲染读取的。完整轨迹（含所有仍标注 待核实 的条目）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## SIGCOMM 与兄弟会场的不同
 
-以下机制按 2026 版核验，驱动着 skills 中的大部分建议，也是双截稿会场作者最常踩的坑：
+以下机制按 2027 版核验（2026-11-24 重新核验），驱动着 skills 中的大部分建议，也是双截稿会场作者最常踩的坑：
 
-- **一个截稿、一场会议、一年一次机会。** SIGCOMM 2026（**第 40 届**，2026 年 8 月 17-21 日，
-  Colorado Convention Center，丹佛）摘要注册 **2026-01-30**、全文 **2026-02-06**（AoE；
-  HotCRP 页面渲染为次日 6:59:59 AM EST）。没有 fall 补投口——被拒的论文要等整整一年，
-  这让单次投稿的赌注远高于 spring/fall 会场。
-- **一个截稿、两条赛道。** 投稿在 **research** 与 **experience**（运营与部署经验）两条赛道
-  中择一；experience 赛道看的是真实运营中可推广的经验教训，而非单纯的新颖性。
-- **面向作者的三层评审流水线。** 共识拒稿会给 **early notification** 以便及早转投；进入
-  discussion 阶段的论文会有 **rebuttal**；少数论文会拿到 **one-shot revision**——附带亮点
-  小结与必须修改清单，约一个月后重投，**由 PC shepherd 主持**，尽量由原审稿人复审，最终
-  只能是 **accept 或 reject**。
-- **Shepherding 不止于录用。** PC shepherd 陪跑录用论文到 camera-ready，确认审稿意见已被
-  回应，并 **必须批准任何 appendix 的必要性**，在 HotCRP 上签署最终版。
+- **一个截稿、一场会议、一年一次机会。** SIGCOMM 2027（**第 41 届**，2027 年 8 月 8-12 日，
+  泰国曼谷 Queen Sirikit National Convention Center）论文截稿 **2027-02-02**——硬截稿、
+  不延期。没有 fall 补投口——被拒的论文要等整整一年，这让单次投稿的赌注远高于 spring/fall 会场。
+- **一个截稿、两条赛道。** 投稿在 **research** 与 **experience** 两条赛道中择一；2027 年
+  experience 赛道按部署/运营中 **经验教训的深度** 评判，而非部署规模，标题须以
+  “Experience:” 开头。
+- **2027 年没有回复窗口。** 审稿人从一开始就共同讨论，决定后只返回 **一份简短的共识评审**；
+  **不再有 rebuttal 或 one-shot revision**（SIGCOMM 2026 曾有 early-reject、rebuttal 与
+  shepherd 主持的 one-shot revision）。论文必须自己预先回答所有可预见的质疑，并通过新的
+  **general accessibility（普遍可读性）** 标准。
+- **三种结果。** 录用到会议、**录用为 CCR 研究论文**（作者可拒绝）、或拒稿。会议论文须提交
+  **视频**，并由作者在现场小规模讨论环节汇报；其中一部分另有 plenary 报告。
+- **Shepherding 不止于录用。** 每篇录用的会议论文都有 shepherd，确认审稿意见已被回应，并
+  **必须批准任何 appendix 的必要性**，在 HotCRP 上签署最终版。
 - **12 个单倍行距页、含图表。** 正文（references 之前的全部内容）上限为 **12 个单倍行距页，
   含图与表**；references 与可选 appendix 不计入上限；references 之前超过 12 页的稿件
-  **不予评审**。
-- **HotCRP 双盲、全程 ACM 模板。** 投稿在 `sigcomm26.hotcrp.com` 上匿名；摘要注册先于全文
-  上传；投稿与终稿都用 ACM `acmart.cls`（或 ACM Word 模板）。
+  **不予评审**；审稿人不必阅读 appendix；摘要不超过 **200 词**。
+- **HotCRP 双盲、全程 ACM 模板。** 投稿在 `sigcomm27.hotcrp.com`（2026-11-24 尚未开放）上
+  匿名；表单需填 ORCID、伦理说明与一名 reciprocal reviewer；每位作者最多 8 篇投稿；投稿与终稿
+  都用 ACM `acmart.cls`（或 ACM Word 模板）。
 - **TAPS camera-ready。** 终稿把 **PDF 加源文件** 上传到 HotCRP，经 **ACM Publishing
   System（TAPS）** 处理，进入 ACM Digital Library 与 Computer Communication Review。
 - **可复现文化，而不只是一个 badge。** SIGCOMM 是网络领域 artifact evaluation 的先行者；
-  录用论文可通过独立委员会获得 **ACM badges**（Artifacts Available、Evaluated、Results
-  Reproduced），“runnable papers”的传统对公开代码、trace、拓扑设了很高的门槛。
+  录用论文可通过独立委员会获得 **ACM badges**（最新已发布的 SIGCOMM 2025 征集只设
+  Artifacts Available 与 Artifacts Evaluated - Functional 两枚），“runnable papers”的传统对公开代码、trace、拓扑设了很高的门槛。
 - **Test-of-Time 与 Best-Paper 谱系锚定经典**——Chord、DCTCP、pFabric、VL2 等 SIGCOMM
   经典——也提醒作者：本领域最被引用的成果，也最常被误挂到 NSDI、MobiCom、CoNEXT、IMC。
 
@@ -59,16 +62,16 @@ dblp / ACM Digital Library 用于范例核验。核验环境中直接抓取
 | [`sigcomm-reproducibility`](skills/sigcomm-reproducibility/SKILL.md) | 维护拓扑、流量、配置与运行台账；刻画方差；尽早决定哪些数据与代码可合法发布。 |
 | [`sigcomm-supplementary`](skills/sigcomm-supplementary/SKILL.md) | 在正文、references 与经 shepherd 批准的 appendix 之间安排内容，在 12 页上限下保持正文自足。 |
 | [`sigcomm-artifact-evaluation`](skills/sigcomm-artifact-evaluation/SKILL.md) | 为 AEC 打包：把 ACM badge 选择当作声明校准，缩比拓扑、trace 替身与快速 smoke 路径。 |
-| [`sigcomm-submission`](skills/sigcomm-submission/SKILL.md) | 终审：正确的 HotCRP 注册、AoE 时钟、references 前 12 页检查、双盲扫查与赛道选择。 |
-| [`sigcomm-review-process`](skills/sigcomm-review-process/SKILL.md) | 读懂结果空间（accept / one-shot revision / early 或 formal reject）以及塑造策略的 shepherd 与审稿连续性规则。 |
-| [`sigcomm-author-response`](skills/sigcomm-author-response/SKILL.md) | 分别执行 rebuttal 与 one-shot revision（作为 shepherd 主持的契约）：问题分诊、change memo、标注 diff。 |
+| [`sigcomm-submission`](skills/sigcomm-submission/SKILL.md) | 终审：HotCRP 时钟与表单字段、references 前 12 页与 200 词摘要检查、双盲扫查与赛道选择。 |
+| [`sigcomm-review-process`](skills/sigcomm-review-process/SKILL.md) | 读懂 2027 协作式评审与结果空间（会议录用 / CCR 录用 / 拒稿），以及与 2026 early-reject/rebuttal/one-shot 流程的差别。 |
+| [`sigcomm-author-response`](skills/sigcomm-author-response/SKILL.md) | 2027 年无 rebuttal：在论文中预先回应质疑、决定是否接受 CCR、执行 shepherd 修改；保留 2026 的 rebuttal/one-shot 打法。 |
 | [`sigcomm-camera-ready`](skills/sigcomm-camera-ready/SKILL.md) | 交付 TAPS 终稿于 12 页内，取得 shepherd 签署、去匿名，并在 badge 截止前发布公开 artifact。 |
 
 ## Resources
 
 | 路径 | 内容 |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | 11 个官方来源（URL 与访问日期）、已核验事实清单、访问方法说明与显式的 待核实 登记。 |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | 11 个现行官方来源加 5 行 SIGCOMM 2026 历史来源（URL 与访问日期）、已核验事实清单、访问方法说明与显式的 待核实 登记。 |
 | [`resources/external_tools.md`](resources/external_tools.md) | 官方现场入口，加上五道作者侧核验（时钟、格式、双盲、赛道、状态）。 |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | 6 篇经会场核实的 SIGCOMM 论文（2001-2015），覆盖六个系统类别，每篇附自检，并有 OpenFlow-CCR / Hedera-NSDI / RED-期刊 / BBR-CACM 误挂防护。 |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | 一个虚构的 flowlet-steering 系统的摘要与引言，按 SIGCOMM 已测量证据弧线重写，before → after。 |
@@ -89,8 +92,8 @@ claude plugin install sigcomm-skills
 
 - “这个拥塞控制结果是 SIGCOMM 还是 NSDI 的料？” → `sigcomm-topic-selection`
 - “我们 2 月只有一个截稿——给出倒排计划” → `sigcomm-workflow`
-- “我们拿到了带 shepherd 的 one-shot revision——制定方案” → `sigcomm-author-response`
-- “在摘要注册关闭前审一遍 PDF” → `sigcomm-submission`
+- “我们被录用到 CCR 而不是会议——接受还是改投？” → `sigcomm-author-response`
+- “在 2 月 2 日截稿前审一遍 PDF” → `sigcomm-submission`
 
 ## 目录结构
 
@@ -123,40 +126,42 @@ SIGCOMM-Skills/
    核实会场归属。
 4. **截稿周** —— 对确切的上传候选稿端到端跑一遍 `sigcomm-submission`。
 5. **收到结果后** —— 用 `sigcomm-review-process` 判定结果类型，然后
-   `sigcomm-author-response`（rebuttal 或 revision），或
+   `sigcomm-author-response`（CCR 决定或 shepherd 修改），或
    `sigcomm-artifact-evaluation` + `sigcomm-camera-ready`（录用）。
 
-## 2026 锚点事实（带日期的快照，不是永久规则）
+## 2027 锚点事实（带日期的快照，不是永久规则）
 
-- **SIGCOMM 2026** 为 **第 40 届**：**2026 年 8 月 17-21 日，Colorado Convention
-  Center，丹佛，美国**。
-- 单一正会截稿：摘要 **2026-01-30**、全文 **2026-02-06**（AoE）。Camera-ready
-  **2026-07-03 23:59 UTC** 经 ACM TAPS。截至 2026-07-09，截稿已过、结果已发，当前活跃阶段
-  是 camera-ready 定稿、shepherd 签署、artifact evaluation 与 8 月现场汇报——同时下一届的
-  前向规划已经可以启动。
+- **SIGCOMM 2027** 为 **第 41 届**：**2027 年 8 月 8-12 日，泰国曼谷 Queen Sirikit National
+  Convention Center**。CFP 于 2026-10-19 发布。
+- 单一正会截稿：论文 **2027-02-02**（硬截稿、不延期；`sigcomm27.hotcrp.com` 开放前时区与
+  时钟 待核实）。正式出版日 **2027-07-18**。2027 camera-ready 截止日尚未公布。
 - 赛道：research 与 experience。格式：references 前 12 个单倍行距页（含图表），references
-  与可选 appendix 另计，双盲，ACM `acmart.cls`。
-- 评审流水线：early reject、rebuttal、以及 shepherd 主持的 one-shot revision（只 accept 或
-  reject）；录用论文由 shepherd 陪跑到 camera-ready。
+  与可选 appendix 另计，摘要 200 词以内，双盲，ACM `acmart.cls`，PDF 小于 15 MB。
+- 评审：协作式评审、一份共识评审意见，**无 rebuttal、无 one-shot revision**；结果为会议录用
+  （有 shepherd，须交视频并现场汇报）、CCR 录用或拒稿。
+- Chairs：General Chairs Kanchana Kanchanasut、Jim Kurose；Program Chairs Ranjita Bhagwan、
+  Nate Foster、Aurojit Panda、Scott Shenker。
+- 历史：SIGCOMM 2026（第 40 届，丹佛，2026 年 8 月 17-21 日）摘要 2026-01-30、全文
+  2026-02-06（AoE），采用 early-reject / rebuttal / one-shot revision 流程。
 
 ## 事实纪律
 
 全包中三类陈述始终可区分：
 
-1. **已核验的周期事实** —— 追溯到 source map 编号来源的日期、上限与规则（如 2 月 6 日截稿、
-   references 前 12 页规则、one-shot revision 机制）。
+1. **已核验的周期事实** —— 追溯到 source map 编号来源的日期、上限与规则（如 2027 年 2 月 2 日截稿、
+   references 前 12 页规则、无 rebuttal 的评审模式）。
 2. **转述事实** —— 仅由二手渲染承载并如实标注（如经奖项页与作者机构确认的 Test-of-Time 选择）。
-3. **待核实 条目** —— 显式标注并以开放形式陈述（如 2026 年 chairs、确切 notification 日期、
-   2026 完整 artifact-badge 集合）。
+3. **待核实 条目** —— 显式标注并以开放形式陈述（如 2027 HotCRP 时钟、2027 notification 与
+   camera-ready 日期、2027 artifact-badge 集合）。
 
 任何在 skills 中把第 2、3 类当作第 1 类陈述的地方都是 bug，须对照官方现场页修正。
 
 ## 维护说明
 
-- 上面每个日期都是 **2026 快照**。SIGCOMM 每届重发规则——涉及截稿敏感建议时先打开当年 CFP 与
+- 上面每个日期都是 **2027 快照**。SIGCOMM 每届重发规则——涉及截稿敏感建议时先打开当年 CFP 与
   HotCRP 截稿页。
 - **单截稿** 模型是本会场的核心约束；不要把 NSDI 或 MobiCom 的双截稿/滚动截稿推理搬进来。
-- Chairs 每届轮换、2026 名单未能取回——命名任何人前先查 organization 页。
+- Chairs 每届轮换——命名任何人前先查 organization 页（上面 2027 名单读取于 2026-11-24）。
 - 新范例必须通过 [`resources/exemplars/library.md`](resources/exemplars/library.md) 末尾的
   会场核验流程；网络经典中最有名的论文最常被误挂，且 CCR editorial note 不是正会论文。
 

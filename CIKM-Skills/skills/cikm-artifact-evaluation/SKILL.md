@@ -88,7 +88,7 @@ artifact links have visibly failed to.
 ```text
 Review stage:  anonymized hosting, no author-resolving URLs/metadata,
                referenced from the PDF where each claim needs it
-Acceptance:    real repository public by camera-ready (13-day window in 2026 —
+Acceptance:    real repository public by camera-ready (16-day window in 2026 —
                prepare during the review wait)
 Public stage:  license chosen; versioned release tagged to the proceedings
                numbers; archival DOI (e.g., a Zenodo-class deposit) so citation

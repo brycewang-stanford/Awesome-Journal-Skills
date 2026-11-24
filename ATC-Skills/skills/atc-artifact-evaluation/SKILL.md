@@ -14,6 +14,17 @@ deliverable as the badge artifact (de-anonymized, permanently archived). ATC's a
 strong and high-participation — for USENIX ATC '25, most evaluated artifacts earned Functional and a
 large majority earned Reproduced.
 
+**Current status (re-verified 2026-11-24):** the ATC 2027 call for papers encourages accepted papers
+to supply source code and raw data "as part of an artifact evaluation process", but the **ATC 2027
+call for artifacts is not yet published** — its badge set and dates are 待核实. The latest published
+process is **ATC 2026's**, run with the sysartifacts community
+(`https://sysartifacts.github.io/atc2026/`): single-blind, cooperative (authors may fix problems
+during evaluation), registration then submission on `atc26ae.hotcrp.com`, a short "kick the tires"
+phase, permanent archival (e.g. Zenodo) with a DOI, and badges added to the camera-ready; for ATC
+2026 the artifact deadline (September 22, 2026) fell four days after paper notification. With ATC
+2027 notifying on 27 April and the camera-ready due 28 May 2027, expect a similarly tight window —
+start the package before notification.
+
 ## The three badges (verify the current set and names)
 
 | Badge | What it certifies | What earns it |
@@ -75,7 +86,8 @@ full-scale-only.
 - The AEC deadline is **after acceptance** and **independent** of the camera-ready — do not conflate
   them (plan both in `atc-workflow`).
 - Badge names, the exact set offered, and whether evaluation is single- or double-anonymous can vary
-  by cycle and moved in the SIGOPS transition — confirm on the current call for artifacts.
+  by cycle (ATC 2026's sysartifacts process was single-blind) — confirm on the ATC 2027 call for
+  artifacts once it is published.
 
 ## Output format
 
