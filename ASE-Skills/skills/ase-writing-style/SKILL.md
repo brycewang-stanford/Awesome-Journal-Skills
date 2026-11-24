@@ -1,6 +1,6 @@
 ---
 name: ase-writing-style
-description: Use when shaping the prose and structure of an ASE (IEEE/ACM Automated Software Engineering) research paper, covering the automation-first first-page arc, stating the automated task precisely, keeping the tool runnable and the model-swap test in mind, threats-as-argument, and the 10+2 page discipline on the ACM acmart template.
+description: Use when shaping the prose and structure of an ASE (IEEE/ACM Automated Software Engineering) research paper, covering the automation-first first-page arc, stating the automated task precisely, keeping the tool runnable and the model-swap test in mind, threats-as-argument, and the 10+2 page discipline on the IEEE IEEEtran conference template (ASE 2027).
 ---
 
 # ASE Writing Style
@@ -65,9 +65,9 @@ subsample, a held-out subject set) rather than reciting a checklist.
 
 ## Page-budget discipline (10 + 2)
 
-- **10 pages** for everything readable — text, figures, tables, appendices — **plus 2** for
-  references only. The mandatory **Data Availability Statement** after Conclusions counts inside the
-  10 pages.
+- **10 pages** for everything readable — text, figures, tables, appendices — **plus up to 2** for
+  references and the **Data Availability** section (ASE 2027; in 2026 the statement counted inside
+  the 10 pages).
 - Recover space **editorially**, not by shrinking the template. Move reproducible detail (full
   configs, extra tables, proofs) to the artifact, but nothing that *decides acceptance* may live
   outside the body (see `ase-supplementary`).
@@ -99,5 +99,5 @@ subsample, a held-out subject set) rather than reciting a checklist.
 [Automation-first arc] task / inadequacy / technique+tool / real-subject evidence / payoff+threats — all present?
 [Model-swap] ablation isolating the learned component present? lesson survives a model swap?
 [Evidence-claim pairing] each abstract claim -> a table/figure with a matching metric
-[Budget] content pages / reference pages / Data Availability inside 10pp?
+[Budget] content pages / reference + Data Availability pages?
 ```

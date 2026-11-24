@@ -21,7 +21,7 @@ Front-load the contribution. The opening should make the consumer-behavior quest
 ## House style: Chicago, Word, and the abstract
 
 - JCR follows its **style guide**, and for anything not covered, the **Chicago Manual of Style** — including **title capitalization** and **author-date referencing** (note: Chicago, **not APA**, which is unusual among behavioral/marketing journals). Configure your reference manager to a Chicago author-date style and reconcile against the JCR style guide.
-- The manuscript is prepared in **Microsoft Word**; the final accepted version must also be supplied in Word.
+- The manuscript is uploaded in **Word, Rich Text, or PDF** (LaTeX users upload a PDF).
 - The **abstract is ≤200 words** — separate from the ≤300-word Consumer Relevance and Contribution Statement. Keep the abstract a tight summary of question, approach, and contribution.
 
 ## Anonymization in the prose (double-anonymized review)
@@ -49,7 +49,7 @@ For the abstract, use a four-sentence skeleton: consumer problem; theoretical ga
 - [ ] Prose legible across disciplines; field jargon defined
 - [ ] Chicago title capitalization and author-date references; reconciled with the JCR style guide
 - [ ] Abstract ≤200 words; distinct from the ≤300-word Consumer Relevance Statement
-- [ ] Manuscript in Word
+- [ ] Manuscript in Word, RTF, or PDF
 - [ ] Anonymization complete: no affiliations, acknowledgments, identifying URLs; generic site phrasing
 - [ ] Self-citations neutral and anonymization-safe
 - [ ] Paragraph polish pass completed: phenomenon, theory move, evidence bridge, boundary

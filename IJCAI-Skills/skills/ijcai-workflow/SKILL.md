@@ -6,11 +6,16 @@ description: Use when planning an IJCAI or IJCAI-ECAI project timeline from venu
 # IJCAI Workflow
 
 Use this as the project-management skill for an IJCAI submission. Replace all dates with the
-current official timetable and work backwards from Chairing Tool cutoffs.
+current official timetable and work backwards from the submission-site cutoffs.
+
+IJCAI 2027 (Kyoto, August 7-13, 2027; Hengqin satellite August 15-17) runs: abstract January 4,
+author information and full paper January 11, non-primary payment January 18, summary-reject
+notification February 25, author response March 30 - April 2, notification April 21,
+camera-ready May 7, 2027 (all 23:59 AoE; verified 2026-11-23).
 
 IJCAI is a conference, not a journal: it has no standing editor-in-chief and no article-processing
-charge. The rotating leadership is the per-edition Conference Chair and Program Chair (IJCAI-ECAI
-2026: Conference Chair Francesca Toni; Program Chair Diego Calvanese, verified 2026-06-22), and the
+charge. The rotating leadership is the per-edition Conference Chair and Program Chair (IJCAI 2027:
+Conference Chair Sarit Kraus; PC Chair Bo An, verified 2026-11-23), and the
 cost model is registration fees, not APCs. The Primary Paper Initiative fee below applies only to an
 author's non-primary (extra) submissions and is a submission-volume disincentive, not a per-article
 publication charge. Conference organizers rotate yearly, so re-check the current CFP and
@@ -25,8 +30,8 @@ conference-committee page rather than carrying a name forward.
   keywords. Placeholder abstracts are unsafe.
 - Author-information deadline: ensure every coauthor has confirmed authorship, ORCID status,
   and required profile fields.
-- Full-paper deadline: upload anonymous PDF, supplementary material, resubmission files, and
-  Chairing Tool fields.
+- Full-paper deadline: upload anonymous PDF, supplementary material, any resubmission files
+  the current rules require, the reciprocal-reviewer designation, and submission-site fields.
 - Payment checkpoint: handle any non-primary paper fee by the current deadline.
 - Phase 1: plan for summary-reject risk by making the contribution obvious within two reads.
 - Response period: answer only pressing questions, factual errors, or unethical-review issues.
@@ -50,7 +55,7 @@ deadline. Track what each milestone blocks.
 
 ## Worked vignette: a planning team's backward plan
 
-A four-author planning team targets the main track. Work backward from Chairing Tool cutoffs:
+A four-author planning team targets the main track. Work backward from the submission-site cutoffs:
 freeze the contribution and benchmark suite two weeks before full-paper upload; collect all
 ORCID confirmations before the author-information close because no author can be added after;
 register a real abstract early since the abstract deadline precedes the paper; and budget for

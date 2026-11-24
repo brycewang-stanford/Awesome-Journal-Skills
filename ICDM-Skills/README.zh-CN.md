@@ -11,15 +11,18 @@ anomaly detection 与 applied analytics。本包围绕四条使 ICDM 策略区�
 2. **单一、全包含的页数上限。** 采用 IEEE two-column 格式，**最多 10 页，包含参考文献与所有
    附录**——一切都算进这 10 页内，超长论文**不经评审直接拒稿**。没有单独的参考文献或附录页数
    预算。
-3. **regular 转 short 的录用机制。** 所有论文都按 full paper 格式投稿；根据质量与评审意见，
-   **部分被录用为 short paper**。“录为 short” 是作者必须为之准备 camera-ready 的独立结果。
+3. **regular 转 short 的录用机制。** 所有论文都按 full paper 格式投稿；录用后被**指定为 Regular
+   或 Short**。2026 年两种指定都保持 10 页上限，因此 "short" 只是指定而非强制压缩——但往届曾
+   缩短 short paper，每届都要核对。
 4. **2026 年新增的双轨划分。** 该届首次在 triple-blind Research Track 之外，运行
    **Applied Track（single-blind）** 与 CCC 赞助的 **Blue Sky Track**——因此匿名规则现在取决
    于所投 track。
 
 官方依据核验日期 **2026-07-09**：ICDM 2026 官网（第 26 届，2026-11-12 至 15，东北大学，
 中国沈阳）、Research 与 Applied Track 征稿、CCC Blue Sky Track 征稿、IEEE ICDM 获奖名录、
-IEEE Xplore proceedings 与 dblp。主办域名对自动抓取返回 403，故事实通过搜索渲染核验，并与
+IEEE Xplore proceedings 与 dblp。主办域名在 2026-07-09 对自动抓取返回 403，故事实当时通过搜索
+渲染核验（**2026-11-24** 已直接抓取**重新核验**征稿、重要日期、作者须知与委员会页面，删除了一个
+并不存在的摘要截止日，并确认了 camera-ready 日期、chair 与复现清单），并与
 dblp、获奖页交叉核对。精确来源、访问方式说明与所有 **待核实** 项见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
@@ -28,17 +31,20 @@ dblp、获奖页交叉核对。精确来源、访问方式说明与所有 **待�
 | 事实 | 2026 取值 | 波动性 |
 |---|---|---|
 | 届次 | 第 26 届 IEEE ICDM，2026-11-12 至 15，东北大学，沈阳 | 每届变 |
-| 截止 | 摘要 2026-05-30；全文 2026-06-06（AoE）；通知 2026-08-16 | 每届变 |
+| 截止 | 全文 2026-06-06（AoE），**无单独摘要截止**；通知 2026-08-16；camera-ready 2026-09-09 | 每届变 |
 | 周期模型 | **单一截止**（无 KDD 式多 cycle） | 相对稳定 |
 | 格式 | IEEE two-column，**含参考文献与附录共 10 页**；超长即不评审拒稿 | 每届变 |
 | Research Track 审稿 | 自 2011 **triple-blind**（作者+审稿人皆隐藏，仅 PC Co-Chairs 可见） | 每届变 |
 | Applied Track 审稿 | **single-blind**（2026 新增 track） | 每届变 |
-| short-paper 机制 | 全部按 full paper 投；部分录为 **short paper** | 每届变 |
-| Rebuttal | 历史上**无**；2026 是否有 response 窗口为待核实 | 每届变 |
-| 出版 | IEEE proceedings，收录于 IEEE Xplore 与 dblp；需现场报告 | 每年变 |
+| short-paper 机制 | 全部按 full paper 投；录用后指定为 **Regular 或 Short**，2026 年均为 10 页上限 | 每届变 |
+| 投稿附加项 | 投稿时须填**复现清单**；审稿期间勿发布/宣传预印本（投稿前已发的可保留） | 每届变 |
+| Rebuttal | 2026 征稿中**未描述**任何 rebuttal | 每届变 |
+| 出版 | IEEE CS Press proceedings，收录于 IEEE Xplore 与 dblp；需现场报告（无法到场者参加指定线上 session 并提供录像备份），每篇论文都须做海报 | 每年变 |
+| 主席（2026） | General：Claudia Plant、Xiaochun Yang；PC：Danai Koutra、Xiaofeng Gao | 每届变 |
 
-camera-ready 日期、chair 姓名、费用、short-paper 的 camera-ready 页数、rebuttal 机制均在
-source map 中标注 **待核实**，而非臆测。
+ICDM 2026（2026-11-12 至 15，沈阳）已闭幕。截至 2026-11-24 未找到 ICDM 2027 官方网站或征稿
+（聚合站称在 Brisbane，未核实），因此仍以 2026 规则作为标注清楚的先验；费用与未来可能的
+rebuttal 仍在 source map 中标注 **待核实**。
 
 ## Skills
 
@@ -127,7 +133,7 @@ description 中声明范围，并以结构化输出格式收尾，便于跨 skil
 
 - 本包就 ICDM 投稿的**策略、结构与证据**给出建议，不是 CFP 本身：任何与当届官方指示冲突之处，
   以官方为准。
-- 事实带日期。所有具体项均于 2026-07-09 依据 source map 核验；不稳定项（截止、费用、chair、
+- 事实带日期。所有具体项均于 2026-07-09 依据 source map 核验，并于 2026-11-24 重新核验；不稳定项（截止、费用、chair、
   rebuttal 机制）以“每届变”或“待核实”表述，而非断言。
 - 请勿将此处文字粘入论文。worked example 系刻意虚构，exemplar library 记录的是定位模式，而非
   可复用文句。
@@ -138,6 +144,6 @@ description 中声明范围，并以结构化输出格式收尾，便于跨 skil
   Sky 是 2026 新增）、各 track 审稿模型、页数处理、short-paper 机制与任何 response 政策。
 - 涉及 deadline 的建议前，务必重开**对应 track** 的征稿——Research 与 Applied 现在匿名规则不同，
   “ICDM CFP” 在本会已属歧义。
-- 标注 **待核实** 的事实（rebuttal 窗口、short-paper camera-ready 页数、chair、费用）在作为
+- 标注 **待核实** 的事实（未来的 rebuttal 窗口、Applied camera-ready 日期冲突、费用、ICDM 2027）在作为
   事实告知作者前必须实时核验。
 - 若征稿页与 IEEE Xplore 或委员会页冲突，以更新的官方指示为准并记录冲突。

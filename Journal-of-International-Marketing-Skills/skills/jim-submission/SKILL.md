@@ -47,6 +47,28 @@ description: Use when running the final preflight for a Journal of International
 
 Create/verify the ScholarOne account with ORCID linked before submission day; the form asks for manuscript type (regular vs. Insight vs. special issue), keywords, and suggested/opposed reviewers. Paste the abstract as plain text and check that symbols survived. Build the proof PDF and read it once fully — exhibit rendering, no orphaned identity strings, reference list intact. Only then approve. Save the manuscript ID; `jim-review-process` tracks it from here.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jim-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - One merged file with the author block on page 1 — instant administrative bounce

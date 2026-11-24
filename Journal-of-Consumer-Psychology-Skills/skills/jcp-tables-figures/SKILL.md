@@ -40,7 +40,7 @@ A path diagram for the focal study and an interaction plot for the key moderatio
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCP is experimental consumer psychology; randomization inference, mediation done right (`mediate`, not naive controlling-away), and family-wise corrections matter most.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JCP is experimental consumer psychology; randomization inference, mediation done right (`mediate`, not naive controlling-away), and family-wise corrections matter most.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

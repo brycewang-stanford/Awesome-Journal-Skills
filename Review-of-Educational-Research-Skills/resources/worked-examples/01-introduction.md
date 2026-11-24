@@ -130,6 +130,6 @@ Mapped to this pack's skill checklists:
 > [`../../skills/revedres-organizing-framework/SKILL.md`](../../skills/revedres-organizing-framework/SKILL.md)
 > for choosing the spine. To set the **risk-of-bias / credibility tier** of each primary study a review weighs —
 > the appraisal an RER author owes the reader — use the venue-neutral
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > and
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

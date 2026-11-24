@@ -6,8 +6,8 @@ description: Use when packaging the artifacts behind an RSS (Robotics: Science a
 # RSS Artifact Evaluation
 
 Package the artifacts as if a skeptical peer lab will pick them up — because at RSS,
-that is the actual evaluation mechanism. No badge track or artifact committee was
-verified for the 2026 cycle (待核实 each edition); the discipline is therefore
+that is the actual evaluation mechanism. No badge track or artifact committee appears
+in the RSS 2027 call (checked 2026-11-24; reverify each edition); the discipline is therefore
 self-imposed, and the reward is post-publication: RSS papers are free to every reader
 at roboticsproceedings.org, so strong artifacts get found and reused quickly.
 
@@ -30,9 +30,9 @@ needs one honest sentence in the paper.
 
 ## Review-time state (anonymous)
 
-- Everything ships through the supplementary channel by its own deadline
-  (`rss-supplementary`); no external links — the 2026 CFP admits links only in the
-  camera-ready.
+- Everything ships through the Stage 2 supplementary channel (zip, 100MB, due April
+  19, 2027; nothing is accepted at Stage 1) (`rss-supplementary`); no external links —
+  the 2027 CFP admits links only in the camera-ready.
 - Scrub authorship trails ML packaging misses: ROS package names carrying lab
   acronyms, URDF files naming custom rigs after people, commit history, notebook
   metadata, cluster paths.

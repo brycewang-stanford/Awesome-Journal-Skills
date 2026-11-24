@@ -4,15 +4,16 @@
 国际会议）** 论文的 12 个 agent skills。ASE 是研究"如何**自动化**软件工程任务"的顶级会议：分析、
 测试、综合、修复、理解，以及 AI4SE 与 SE4AI 的双向融合。本包覆盖一次 ASE 投稿的完整流程：判断项目
 是否是 ASE 形态（一个"自动化"）还是应投 ICSE、FSE、ISSTA、PL 会议或 SE 期刊；构建能经受自动化 SE
-审稿人审视的评估；准备 double-anonymous 的 HotCRP 投稿及其**强制 Data Availability 声明**；应对
-**early-rejection 门槛**、rebuttal 与**准则约束的 Revision 轮**；直到完成 camera-ready 与获得 ACM
-artifact 徽章，并被 IEEE Xplore 与 ACM Digital Library **双重收录**。
+审稿人审视的评估；准备 double-anonymous 的 HotCRP 投稿及其**必需的 Data Availability 小节**；应对
+**early-rejection 门槛**、rebuttal 与**准则约束的 Major revision 轮**；直到完成 camera-ready 与获得
+ACM artifact 徽章，进入 IEEE/ACM 双主办的论文集。
 
-官方依据核验日期：**2026-07-09**。已核验 ASE 2026（慕尼黑）与 ASE 2025（首尔）research track 的 call
-与 Important Dates 页面、ASE HotCRP 站点、ACM Artifact Review and Badging 政策，以及 ASE Most
-Influential Paper 奖项页面。核验环境中直接抓取 `conf.researchr.org` 返回 403，因此通过搜索引擎对精确
-URL 的渲染阅读官方页面，并与 dblp（ASE 论文集在历史系列键 `conf/kbse` 下）、ACM Digital Library、
-IEEE Xplore 及 ASE HotCRP 交叉核对；完整记录（含所有 待核实 项）见
+官方依据：本包现面向 **ASE 2027**（第 42 届，美国得克萨斯州埃尔帕索，2027 年 10 月 24-28 日），其
+research track call、Important Dates 与组委会页面于 **2026-11-24 直接抓取 `conf.researchr.org` 重新
+核验**。ASE 2026（慕尼黑）与 ASE 2025（首尔）页面、ASE HotCRP 站点、ACM Artifact Review and Badging
+政策及 ASE Most Influential Paper 奖项页面核验于 2026-07-09（当时 `conf.researchr.org` 返回 403，经
+搜索引擎渲染阅读），并与 dblp（ASE 论文集在历史系列键 `conf/kbse` 下）、ACM Digital Library 与 IEEE
+Xplore 交叉核对；完整记录（含所有 待核实 项）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 > 缩写冲突提醒："ASE" 也指 *Association for Science Education* 与 *Association for Surgical
@@ -21,22 +22,23 @@ IEEE Xplore 及 ASE HotCRP 交叉核对；完整记录（含所有 待核实 项
 
 ## ASE 与同类会议的区别
 
-以下会议机制（按 2025/2026 cycle 核验）驱动了 skills 中的大部分建议，也对应了从 ICSE、FSE、ISSTA
+以下会议机制（按 2026/2027 cycle 核验）驱动了 skills 中的大部分建议，也对应了从 ICSE、FSE、ISSTA
 或 ML 会议转投作者最常犯的错误：
 
 - **贡献必须是一个"自动化"。** ASE 奖励在真实 subject 上评估的、自动化某个 SE 任务的技术或工具 ——
   而非宽泛的实证发现（偏 FSE）、测试理论结果（ISSTA）或模型进展（ML 会议）。model-swap 测试决定边界
   情形。
-- **IEEE/ACM 双主办，双论文集。** ASE 由 IEEE 与 ACM SIGSOFT 共同主办，录用论文被 **IEEE Xplore 与
-  ACM Digital Library 双重收录** —— 不同于仅 ACM 的 FSE/PACMSE。
-- **模板随主办方而变。** 由于双主办，各届要求的格式有所不同（IEEE 双栏 vs. ACM `acmart`）。ASE 2026
-  要求 ACM Primary Article Template —— `\documentclass[sigconf,review,anonymous]{acmart}`。每届先
-  核验，不要沿用旧习惯。
-- **10+2 篇幅与强制 Data Availability 声明。** 正文含图表 10 页 + 仅参考文献 2 页；Data Availability
-  声明置于 Conclusions 之后并计入 10 页之内。录用论文加 1 页正文。
+- **IEEE/ACM 双主办。** ASE 由 IEEE 与 ACM SIGSOFT 共同主办（不同于仅 ACM 的 FSE/PACMSE），出版方
+  轮换：ASE 2026 以 ACM Digital Library 为准，ASE 2027 以 **IEEE Digital Library** 为准。
+- **模板随主办方而变。** ASE 2027 要求 IEEE 会议格式 —— `\documentclass[10pt,conference]{IEEEtran}`
+  （不加 compsoc；标题 24pt、正文 10pt）；ASE 2026 用 ACM `acmart` sigconf。每届先核验，不要沿用旧习惯。
+- **10+2 篇幅与 Data Availability 小节。** 正文含图表 10 页 + 至多 2 页用于参考文献与 Data
+  Availability 小节（置于 Conclusion 之后；ASE 2027 起不计入 10 页，2026 年计入）。录用论文加 1 页
+  正文（11 + 2）。
 - **rebuttal 前的 early-rejection 门槛。** 初评分数一致为负的论文在 rebuttal 期前被拒 —— 快速回复，
   并把 rebuttal 精力集中到能改变结果的论文上。
-- **准则约束的 Revision 轮。** 首轮结果为 Accept、**Revision** 或 Reject。Revision 会预先固定具体、
+- **准则约束的 Major revision 轮。** 结果为 Accept、**Major revision**（2026 年称 "Revision"）或
+  Reject。Major revision 会预先固定具体、
   可操作的准则；若满足，审稿人原则上接受，作者提交修订稿并附逐条 summary-of-changes。
 - **同址 track：NIER、Tools-and-Datasets、Journal-First。** New Ideas and Emerging Results（4 页）、
   工具演示（≤4 页），以及面向 TSE/TOSEM/EMSE 工作的 Journal-First 通道。
@@ -53,7 +55,7 @@ IEEE Xplore 及 ASE HotCRP 交叉核对；完整记录（含所有 待核实 项
 | [`ase-reproducibility`](skills/ase-reproducibility/SKILL.md) | 构建 open-science 证据：强制 Data Availability 声明、匿名可运行工具、钉死 provenance、缓存 LLM 输出。 |
 | [`ase-supplementary`](skills/ase-supplementary/SKILL.md) | 按决策重要性划分 10 页正文与 artifact —— 决定录用的证据不得置于正文之外。 |
 | [`ase-submission`](skills/ase-submission/SKILL.md) | HotCRP 终审：模板与 10+2 篇幅、double-anonymous 清扫（含工具名）、Data Availability 声明、desk-reject 分诊。 |
-| [`ase-review-process`](skills/ase-review-process/SKILL.md) | 建模流程 —— double-anonymous 评审、early-rejection 门槛、Accept/Revision/Reject、准则约束的 Revision —— 及作者杠杆点。 |
+| [`ase-review-process`](skills/ase-review-process/SKILL.md) | 建模流程 —— double-anonymous 评审、early-rejection 门槛、Accept/Major revision/Reject、准则约束的修订 —— 及作者杠杆点。 |
 | [`ase-author-response`](skills/ase-author-response/SKILL.md) | 撰写两轮：先要越过 early-rejection 门槛的 rebuttal，与把每条准则映射到修改的 revision summary-of-changes。 |
 | [`ase-artifact-evaluation`](skills/ase-artifact-evaluation/SKILL.md) | 在 artifact track 自身截止日，把录用论文的工具转化为 ACM Artifacts Available / Reusable 徽章。 |
 | [`ase-camera-ready`](skills/ase-camera-ready/SKILL.md) | 系统去匿名、用加页承载评审反馈、永久化 Data Availability 链接、通过 IEEE-Xplore/ACM-DL 双重生产检查。 |
@@ -62,7 +64,7 @@ IEEE Xplore 及 ASE HotCRP 交叉核对；完整记录（含所有 待核实 项
 
 | 路径 | 内容 |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | 十个带 URL 与访问日期的来源；已核验 2025/2026 事实；访问方式说明；明确的 待核实 清单。 |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | 十四个带 URL 与访问日期的来源；已核验 ASE 2027 事实；访问方式说明；明确的 待核实 清单。 |
 | [`resources/external_tools.md`](resources/external_tools.md) | 官方入口与网关阻断时的交叉核对来源，以及作者端核查清单。 |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | 五篇经存档核验的 ASE 论文，覆盖五种贡献形态（含 Most Influential Paper 得主），附自检问题。 |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | 虚构 flaky-test 修复工具的摘要与引言按 ASE 弧线重写，before → after。 |
@@ -120,26 +122,29 @@ ASE-Skills/
    Revision 轮，随后 `ase-artifact-evaluation` 与 `ase-camera-ready` —— 若结果不利，则用
    `ase-topic-selection` 的路由表改投。
 
-## 2025/2026 周期锚点事实（历史快照，非永久规则）
+## ASE 2027 周期锚点事实（周期快照，非永久规则）
 
-- ASE 2026 为**第 41 届**：德国慕尼黑，**2026 年 10 月 12-16 日**。research 投稿 **2026-03-26**；
-  通知 **2026-05-25**；入口 `ase26.hotcrp.com`。截至 2026-07-09 通知已发出，故 ASE 2027 是下一个投稿
-  目标（主办地/日期 待核实）。
-- ASE 2025 为**第 40 届**：韩国首尔，**2025 年 11 月 16-20 日**。
-- 格式：**ACM Primary Article Template**（2026 用 `\documentclass[sigconf,review,anonymous]{acmart}`）；
-  正文 **10 页 + 2** 页参考文献；**强制 Data Availability 声明**置于 Conclusions 之后。评审：
-  **double-anonymous**，rebuttal 前有 **early-rejection 门槛**，结果为 **Accept / Revision /
-  Reject**。论文集：**IEEE Xplore 与 ACM Digital Library**。
+- ASE 2027 为**第 42 届**：美国得克萨斯州埃尔帕索，**2027 年 10 月 24-28 日**。论文投稿
+  **2027-03-10**；early rejection 通知 **2027-05-19**；作者回复 **2027-05-19 至 05-24**；初步通知
+  **2027-06-10**；major revision 提交 **2027-07-08**；最终通知 **2027-07-27**；camera-ready
+  **2027-08-11**（均为 AoE）；入口 `ase2027.hotcrp.com`。Program Co-Chairs：Jie M. Zhang 与 Aldeida
+  Aleti；General Chair：Marcelo F. Frias。
+- 格式：**IEEE 会议模板**（`\documentclass[10pt,conference]{IEEEtran}`）；正文 **10 页 + 2** 页
+  参考文献与 **Data Availability** 小节（置于 Conclusion 之后）。评审：**double-anonymous**，rebuttal
+  前有 **early-rejection 门槛**，结果为 **Accept / Major revision / Reject**。生成式 AI：遵循 IEEE
+  政策（在 acknowledgments 中披露 AI 生成内容）。出版以 **IEEE Digital Library** 为准。
+- 历史：ASE 2026 为**第 41 届**，德国慕尼黑，**2026 年 10 月 12-16 日**（ACM `acmart` 模板，
+  `ase26.hotcrp.com`）；ASE 2025 为**第 40 届**，韩国首尔，**2025 年 11 月 16-20 日**。
 
 ## 事实纪律
 
 本包区分三类陈述，skills 的写法保持其可区分：
 
-1. **已核验 2025/2026 事实** —— 带日期/篇幅并追溯到 source map 中的编号来源（如 10+2 篇幅、ACM
-   `acmart` 要求、early-rejection 门槛、Available/Reusable 徽章）。
+1. **已核验 2026/2027 事实** —— 带日期/篇幅并追溯到 source map 中的编号来源（如 10+2 篇幅、2027 年的
+   IEEEtran 要求、early-rejection 门槛、Available/Reusable 徽章）。
 2. **转述事实** —— 仅经二手渲染读到并如实标注（如社区 tracker 报告的 ASE 2025 录用率）。
-3. **核验期不可确定项** —— 明确标为 待核实（如 ASE 2026 abstract 截止日、完整 Program Co-Chair 名单、
-   ASE 2027 主办地/日期、是否提供 Functional/Reproduced 徽章、任何 AI 使用披露政策）。
+3. **核验期不可确定项** —— 明确标为 待核实（如 ASE 2027 abstract 截止日、2027 年 NIER/Tools/
+   Journal-First/artifact call、2027 论文是否同时收录于 ACM DL、是否提供 Functional/Reproduced 徽章）。
 
 若任何陈述以第 1 类口吻呈现第 2/3 类内容，视为 bug，对照官方页面修正。
 

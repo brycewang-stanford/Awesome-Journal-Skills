@@ -10,11 +10,11 @@ description: Use when anticipating the objections a sophisticated American Econo
 - The paper is near submission and you want to stress-test it against the referees it will draw
 - You need to decide which robustness checks to run *before* submitting vs. hold in reserve
 - An R&R arrived and you must map referee concerns to concrete responses
-- You want to understand how AEJ: Applied's single-blind peer-review process shapes strategy
+- You want to understand how AEJ: Applied's peer-review process (author-anonymized submission; RCT of anonymized vs. single-blind review) shapes strategy
 
 ## How AEJ: Applied review works (plan around it)
 
-AEJ: Applied uses **single-blind review** through the AEA ScholarOne system: author identities are visible to referees, while referee identities remain anonymous to authors. An editor assigns the paper to a coeditor or handles it directly, and before a first R&R the handling coeditor consults a second coeditor. Referees here are **identification-literate applied microeconomists**; the modal report attacks the *credibility of the design* first, then magnitude/mechanism, then external validity. The editor weighs whether the contribution is novel *and* the design clears the bar. Plan to **pre-empt the predictable objections in the paper itself**, leaving the response letter for genuinely new asks.
+AEJ: Applied reviews through the AEA ScholarOne system. Its editorial-policy page describes **single-blind review** (author identities visible to referees, referees anonymous to authors), but since fall 2026 the AEA is running a **three-year RCT of author-anonymized review**: every submission must be anonymized, and papers in the treatment arm reach referees without author identities. Do not rely on reputation signals in the manuscript. An editor assigns the paper to a coeditor or handles it directly, and before a first R&R the handling coeditor consults a second coeditor. Referees here are **identification-literate applied microeconomists**; the modal report attacks the *credibility of the design* first, then magnitude/mechanism, then external validity. The editor weighs whether the contribution is novel *and* the design clears the bar. Plan to **pre-empt the predictable objections in the paper itself**, leaving the response letter for genuinely new asks.
 
 ## The objection map (pre-empt in the paper)
 
@@ -42,7 +42,7 @@ AEJ: Applied uses **single-blind review** through the AEA ScholarOne system: aut
 
 ## Checklist
 
-- [ ] Title/byline/front matter align with AEJ: Applied's single-blind process
+- [ ] Manuscript anonymized per the current submission guidelines (title page separate)
 - [ ] Each identifying assumption has a written hostile-referee sentence and a one-paragraph+one-exhibit answer
 - [ ] The paper's biggest weakness is addressed in the text, not hidden
 - [ ] Decisive robustness in the main paper; secondary checks in the appendix
@@ -61,7 +61,7 @@ AEJ: Applied uses **single-blind review** through the AEA ScholarOne system: aut
 ## Output format
 
 ```
-【Front matter】single-blind title/byline and disclosures ready? [Y/N]
+【Front matter】anonymized manuscript + separate title page and disclosures ready? [Y/N]
 【Objection map】per assumption: [objection → pre-emption in paper]
 【Biggest weakness】addressed in text? [Y/N] — how: ___
 【Robustness placement】main vs appendix split: ___

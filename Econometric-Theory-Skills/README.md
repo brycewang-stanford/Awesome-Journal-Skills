@@ -39,7 +39,7 @@ applied econometrics outlet:
 | Contribution type     | A **general theory result** (asymptotics, proofs, theorems)          | An applied estimate with a thin theory wrapper is off-fit         |
 | House style           | **Theorem-proof**, with supporting lemmas and derivations            | Prose-only "results" without rigorous proof do not clear the bar  |
 | "Identification"      | Defensible **assumptions** + correct **limit theory**, not causal design | An unstated regularity condition is the classic referee objection |
-| Data/code             | **No mandatory archive** (theory journal); voluntary Supplement only | Do not assume an AEA/JAE-style deposit applies                    |
+| Data/code             | **No journal archive** (theory journal); replication URL for simulations/applications | Do not assume an AEA/JAE-style deposit applies                    |
 | Length                | Regular Articles **<=50 pages**; overflow → online Supplement         | Pad past 50pp and it reads as undisciplined                       |
 | Short-paper venue     | **Miscellanea** — one or two innovations, ~15 pages                   | A single sharp theorem has a dedicated home                       |
 | Review                | **Single-anonymous** (referees see the author)                       | Do **not** double-blind-anonymize the manuscript                  |
@@ -148,9 +148,13 @@ ectheory-rebuttal
 - **Length:** Regular Articles <=50 pages (incl. everything); Miscellanea typically <20pp, ~15pp.
 - **Abstract / specs:** <=200 words; 11pt min; >=1.5 spacing; >=1.25in margins; running head <=40 chars.
 - **References:** APA author-date.
-- **Supplementary Material:** voluntary, already-reviewed only, separate labeled file, not copyedited,
-  no new material; the standard home for overflow proofs/derivations.
-- **Fee / data archive:** no fee/APC stated and no mandatory data/code archive (**待核实** / ABSENT).
+- **Supplementary Material:** submitted with the article so it is reviewed, separate labeled file, not
+  copyedited, no new material; the standard home for overflow proofs/derivations.
+- **Statements:** competing-interest and funding statements before the references; declare generative-AI
+  use where it was used (Cambridge AI policy).
+- **Fee / data:** no submission fee on the Cambridge fees page; optional Gold OA APC **£2,610 / US$3,655**
+  (re-read 2026-11-24). No journal data archive, but simulation/empirical papers supply a replication URL
+  that may be made a condition of publication.
 - **Signature genres:** the invited **ET Interview** (since 1985); the biennial **Peter C. B. Phillips
   Award**.
 
@@ -162,7 +166,7 @@ ectheory-rebuttal
 |-----------------|------------------------------------------|------------------------------------|------------------------------------|
 | Lead with       | A general theorem / limit result         | A method or theorem                | A big empirical question           |
 | Core test       | Assumptions + correct asymptotics        | Estimator properties + economics   | Credible causal identification     |
-| Data/code       | No mandatory archive; voluntary Supplement | Mandatory replication              | Mandatory replication / Dataverse  |
+| Data/code       | Replication URL (no journal archive)     | Mandatory replication              | Mandatory replication / Dataverse  |
 | Review          | Single-anonymous                         | Varies                             | Often double-blind                 |
 | References      | APA author-date                          | Author-date                        | Author-date                        |
 
@@ -172,7 +176,7 @@ ectheory-rebuttal
 
 - It does not write or check your proofs for you — it structures the manuscript and process
 - It does not simulate any specific editor's or referee's taste
-- It does not assert volatile metadata (exact fee, OA APC) — unverified items are marked **待核实**
+- It does not assert volatile metadata it has not re-checked — unverified items are marked **待核实**
 - It does not judge whether your result is genuinely general — that is the researcher's call
 
 ---

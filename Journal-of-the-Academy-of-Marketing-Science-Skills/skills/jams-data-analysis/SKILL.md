@@ -51,7 +51,7 @@ If the managerial-magnitude column is empty, the result is not yet ready for a J
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JAMS is empirical marketing with much survey-based SEM; the chain below serves causal / quasi-experimental designs and many-outcome corrections.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JAMS is empirical marketing with much survey-based SEM; the chain below serves causal / quasi-experimental designs and many-outcome corrections.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

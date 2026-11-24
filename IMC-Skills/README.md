@@ -10,13 +10,12 @@ responsible-disclosure** bar; packaging the double-blind `acmart` HotCRP submiss
 **One-Shot-Revision** round; and — if the work releases a dataset, tool, or platform — competing
 for the **Community Contribution Award**.
 
-Official basis checked on **2026-07-09**: the IMC 2026 call for papers, submission instructions,
-and committees page; the IMC 2025 call (page limits); the IMC HotCRP sites; the SIGCOMM IMC
-event pages; and the ACM Digital Library IMC proceedings. Direct fetches of
-`conferences.sigcomm.org` and `dl.acm.org` returned 403 in the verification environment, so
-official pages were read via search-engine renderings of the exact URLs and cross-checked against
-the IMC HotCRP sites, the ACM DL proceedings, dblp, and the SIGCOMM pages; the full trail,
-including everything still marked 待核实, is in
+Official basis first checked on **2026-07-09** and **re-verified 2026-11-23** by direct page loads:
+the IMC 2027 home, call for papers, submission instructions, and committees page (the pack now
+targets **IMC 2027**, Atlanta, Georgia, USA, October 25-29, 2027); the IMC 2026 pages as the
+previous cycle; the IMC 2025 call; the IMC HotCRP sites; the SIGCOMM IMC event page; and the ACM
+Digital Library IMC proceedings (`dl.acm.org` still returns 403 from the verification
+environment). The full trail, including everything still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 > Name-collision warning: "IMC" is also the Leeds *International Medieval Congress* and an *Indian
@@ -25,7 +24,7 @@ including everything still marked 待核实, is in
 
 ## What makes IMC different from its siblings
 
-These venue mechanics, verified for the 2026 cycle, drive most of the advice in the skills — and
+These venue mechanics, verified for the IMC 2027 cycle, drive most of the advice in the skills — and
 most of the mistakes made by authors arriving from SIGCOMM, NSDI, a security venue, or an ML
 conference:
 
@@ -34,17 +33,18 @@ conference:
   new system or protocol. A brilliant system with a thin measurement is a SIGCOMM/NSDI paper; a
   modest technique that reveals something real about the network is IMC-shaped.
 - **Two deadlines a year, with a One-Shot-Revision round.** IMC runs two submission deadlines
-  (cycle 1 ~20 Nov 2025, cycle 2 ~29 Apr 2026). First decisions are Accept, **One-Shot-Revision**,
-  or Reject. A One-Shot-Revision is a *tightly bounded* revise-and-resubmit — a few concrete
+  (IMC 2027: cycle 1 17 Nov 2026, cycle 2 7 Apr 2027), and IMC 2027 adds a **short rebuttal
+  phase**. Decisions are Accept, **One-Shot-Revision**, or Reject. A One-Shot-Revision is a *tightly bounded* revise-and-resubmit — a few concrete
   action points, a required reviewer champion, re-judged by the same reviewers at the next
   deadline — not an open-ended major revision.
-- **Ethics is a gate, not a footnote.** A **mandatory Ethics section/appendix** is required;
-  papers without one may be rejected. Measurement that touches human subjects, user data, or
+- **Ethics is a gate, not a footnote.** A **mandatory Ethics appendix section** is required;
+  papers without one may be rejected. IMC 2027 adds two more mandatory appendix sections,
+  **Open Science** and **Generative AI**. Measurement that touches human subjects, user data, or
   live networks is judged against **Belmont Report** principles (respect for persons, beneficence,
   justice), with **IRB** review and **responsible disclosure** expectations that most systems
   venues do not enforce as hard.
 - **Datasets and artifacts are first-class.** Every submission carries an **artifact-availability
-  declaration** (full / partial / none); accepted papers are **shepherded** to make promised
+  declaration** (full / partial / none) and, in IMC 2027, an **Open Science** appendix; accepted papers are **shepherded** to make promised
   artifacts available; and the **Community Contribution Award** exists specifically to honor a
   released dataset, tool, or platform (public by camera-ready).
 - **A Replicability Track.** IMC runs a dedicated track — screened by an **Expression of
@@ -52,8 +52,9 @@ conference:
   to replicability. Measurement's dependence on a moving Internet makes this a venue-defining
   feature.
 - **The ACM path, double-blind, generous body.** IMC uses the **ACM `acmart` template**,
-  **double-blind** review, and a comparatively generous budget (IMC 2025: **up to 13 pages** of
-  text and figures + unlimited references/appendix). Do not carry an IEEE two-column habit across.
+  **double-blind** review, a **BBL upload** of the references, and a comparatively generous
+  budget (IMC 2027: **up to 13 pages** of technical content + unlimited references/appendices;
+  short papers up to 6). Do not carry an IEEE two-column habit across.
 
 ## Skills
 
@@ -137,15 +138,23 @@ IMC-Skills/
    rebuttal and any One-Shot-Revision, then `imc-artifact-evaluation` and `imc-camera-ready` — or
    the routing table in `imc-topic-selection` if the decision goes the other way.
 
-## 2026-cycle anchor facts (historical snapshot, not permanent rules)
+## IMC 2027 anchor facts (cycle snapshot, not permanent rules; re-verified 2026-11-23)
 
-- IMC 2026: **Karlsruhe, Germany, October 12-16, 2026.** General Chairs Christian Wressnegger
-  (KIT) and Nurullah Demir (Stanford); Program Chairs Alan Mislove (Northeastern) and Italo Cunha
-  (UFMG).
-- **Two deadlines:** cycle 1 submission ~20 Nov 2025 (register ~13 Nov 2025); cycle 2 submission
-  ~29 Apr 2026. One-Shot-Revision resubmits to the next deadline, judged by the same reviewers.
-- Format: **`acmart`, double-blind, BBL upload**; full papers **up to 13 pages** text+figures +
-  unlimited references/appendix (IMC 2025 basis; confirm 2026). Mandatory **Ethics** section.
+- IMC 2027: **Atlanta, Georgia, USA, October 25-29, 2027** (the 27th IMC). General Chairs Alberto
+  Dainotti and Mike Bailey (Georgia Tech); Program Chairs Romain Fontugne (Internet Initiative
+  Japan) and Narseo Vallina-Rodriguez (IMDEA Networks Institute).
+- **Two deadlines (AoE):** cycle 1 register 10 Nov 2026, submit 17 Nov 2026 (One-Shot-Revision
+  papers from IMC 2026: 2 Dec 2026), early reject 5 Jan 2027, **new rebuttal period 26 Jan - 2 Feb
+  2027**, notification 25 Feb 2027, camera-ready 14 Apr 2027; cycle 2 register 31 Mar 2027, submit
+  7 Apr 2027, notification 22 Jul 2027, camera-ready 2 Sep 2027. One-Shot-Revision resubmits to
+  the next deadline, judged by the same reviewers.
+- Format: **`acmart`, double-blind, BBL upload**; full papers **up to 13 pages** of technical
+  content, short papers **up to 6**, + unlimited references/appendices. Three mandatory appendix
+  sections: **Ethics**, **Open Science**, **Generative AI**.
+- Submission sites: cycle-specific HotCRP instances (`imc2027-cycle1.hotcrp.com`, then
+  `imc2027-cycle2` and `imc2027-repro` for the Replicability EoI).
+- Previous cycle (history): IMC 2026 was held in Karlsruhe, Germany, October 12-16, 2026, with the
+  same 13/6-page budget.
 - Datasets/artifacts: **availability declaration** at submission, **shepherding** after
   acceptance, **Community Contribution Award** for public releases; a **Replicability Track** with
   an EoI screen.
@@ -155,13 +164,14 @@ IMC-Skills/
 This pack separates three classes of statement, and the skills are written to keep them
 distinguishable:
 
-1. **Verified 2026 facts** — carry dates/limits and trace to a numbered source in the source map
+1. **Verified IMC 2027 facts** — carry dates/limits and trace to a numbered source in the source map
    (e.g., the two-deadline cadence, One-Shot-Revision, the mandatory Ethics section, the artifact
    declaration, the Community Contribution Award).
-2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., the exact
-   cycle-1 registration date and the camera-ready dates).
-3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the exact 2026 body page
-   number, whether formal ACM reproducibility badges are awarded, the public-review tradition's
+2. **Reported facts** — read only via secondary renderings and labeled as such (since the
+   2026-11-23 direct re-read, the IMC 2027 registration and camera-ready dates are verified, not
+   reported).
+3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., whether formal ACM
+   reproducibility badges are awarded, the public-review tradition's
    current status, acceptance rate, and the full PC roster).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it

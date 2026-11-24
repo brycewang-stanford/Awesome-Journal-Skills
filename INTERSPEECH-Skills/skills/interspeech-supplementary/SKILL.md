@@ -6,11 +6,11 @@ description: Use when deciding what accompanies an INTERSPEECH paper beyond its 
 # INTERSPEECH Supplementary Material
 
 Interspeech's supplement story is inverted from big-ML venues: there is **no
-reviewed appendix**. A regular paper is 4 pages of content plus one page for
-references and acknowledgments only — everything else is optional accompaniment
+reviewed appendix**. A regular paper is 4 pages of content plus 2 pages for
+references and acknowledgments only (Interspeech 2027; one extra page in 2025) — everything else is optional accompaniment
 that reviewers may open but never owe you. Design the paper to stand alone, then
-design the accompaniment to be irresistible. (Long Papers, new in 2026, follow
-their own reported 8+2 contract — verify before assuming appendix room.)
+design the accompaniment to be irresistible. (Long Papers, since 2026, follow
+their own 8 + 2 contract — verify before assuming appendix room.)
 
 ## The three shelves
 
@@ -44,7 +44,7 @@ effectively part of the evidence:
 
 ## Attachments vs links
 
-Cycles differ on whether media files may be attached in CMT and what the size cap
+Cycles differ on whether media files may be attached in the submission portal (2026 allowed media-file updates in the update window) and what the size cap
 is — check the current author instructions rather than assuming. Attached media is
 frozen and safely anonymous; linked pages are richer but riskier (identity,
 mutability). When policy is unclear: attach the minimum decisive audio, link the
@@ -56,8 +56,9 @@ Where an AISTATS or NeurIPS author would write "App. C", an Interspeech author
 chooses:
 
 1. **Compress into the body** — one row, one sentence, one footnote-density claim.
-2. **Cite the arXiv extended version** — but only outside the anonymity period and
-   per the current preprint policy; during review this is usually unavailable.
+2. **Cite the arXiv extended version** — only per the current preprint policy (2025
+   had an anonymity period; 2026 did not; 2027 not yet stated), and never in a way
+   that identifies the authors to reviewers.
 3. **Repo `RESULTS.md`** — full sweeps, per-language tables, negative results;
    discoverable post-acceptance, invisible to review.
 4. **Save it for the Long Paper track or a journal extension** (TASLP, CSL, Speech
@@ -115,6 +116,7 @@ realistically have.
 [Risk] <the unreviewed item most likely to be assumed reviewed>
 ```
 
-Current-cycle attachment and preprint rules were checked 2026-07-08 against the
-Interspeech 2026 author pages via renderings (`resources/official-source-map.md`);
-the anonymity-period wording there governs anything you host.
+Preprint rules were re-read on the Interspeech 2026 pages on 2026-11-24 (no anonymity
+period); the 2027 submission policy and paper kit were not yet published
+(`resources/official-source-map.md`). The current cycle's wording governs anything
+you host.

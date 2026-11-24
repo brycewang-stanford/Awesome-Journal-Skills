@@ -65,11 +65,13 @@ Do not claim bit-exact reproduction you cannot deliver:
 
 ## Reproducibility vs. anonymity
 
-SIGGRAPH Technical Papers review has historically been **single-blind** (reviewers see authors),
-so the anonymization tax that ML/SE venues pay at review time is usually lighter here — **but
-confirm the current cycle's blinding policy** (**待核实** for exact 2026 wording). If a cycle does
-require anonymized review, strip owner strings, lab names, and identifying URLs from the code and
-supplemental before upload, and swap in a de-anonymized permanent archive at camera-ready.
+SIGGRAPH Technical Papers review is **double-blind** (2026 call, re-verified 2026-11-24): code,
+data and every supplemental file must be anonymized. Prefer uploading code/data inside the
+supplemental; link an external repository only if it is fully anonymous and carries a verifiable
+pre-deadline timestamp (e.g., a branch frozen at the deadline). Strip owner strings, usernames, lab
+names, and identifying URLs before upload — a public repo that reveals the authors breaches the
+anonymity policy, and a direct break is desk-rejected — then swap in a de-anonymized permanent
+archive at camera-ready.
 
 ## Anti-patterns
 
@@ -86,6 +88,6 @@ supplemental before upload, and swap in a de-anonymized permanent archive at cam
 [Provenance] scenes+assets pinned? seeds+configs logged? hardware stack recorded? yes/no
 [Determinism] tolerance stated + reference outputs bundled? yes/no
 [Release] build + repro scripts + figure->script mapping present? yes/no
-[Blinding] cycle policy confirmed (single-blind vs anonymized)? action if anonymized
+[Blinding] code/data/supplemental anonymized (double-blind)? repo link timestamped + anonymous?
 [Gaps] <ordered, with what must be pinned before it is lost>
 ```

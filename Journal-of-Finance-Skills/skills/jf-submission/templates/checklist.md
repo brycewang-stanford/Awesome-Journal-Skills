@@ -50,13 +50,13 @@
 
 - [ ] References in the journal's style; in-text ↔ list consistency checked
 - [ ] Foundational and recent JF/JFE/RFS references on the topic are present
-- [ ] Conflict-of-interest / disclosure statement prepared
+- [ ] Disclosure statement for each author, on the page after the title page (submissions without it are returned)
 - [ ] Data-availability / replication statement prepared; package ready for acceptance
-- [ ] If blinding is required: body, self-citations, acknowledgments, and file metadata scrubbed
+- [ ] JF refereeing is single-blind: author names stay on the title page (no anonymization needed)
 
 ## 8. Portal
 
-- [ ] Manuscript Central / ScholarOne account active
+- [ ] Editorial Express account active (via the "Submit a Paper" link on afajof.org/submissions)
 - [ ] Current submission fee / AFA-membership requirement verified and handled
 - [ ] File formats and size limits meet current portal requirements
 - [ ] Suggested / opposed reviewers prepared if requested

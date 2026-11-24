@@ -153,7 +153,7 @@ Computing*; if it is managerial operations, consider *M&SOM* or *Management Scie
 
 ## Key OR Facts (verify before relying)
 
-- **Publisher / sponsor:** INFORMS. **Editor-in-Chief:** Amy R. Ward (Chicago Booth), term began 1 January 2024.
+- **Publisher / sponsor:** INFORMS. **Editor-in-Chief:** Amy R. Ward (Chicago Booth), term began 1 January 2024; reappointed for a second term from 1 January 2027.
 - **Review:** soft double-anonymous; authors see the Area Editor's name, reviewers do not see authors.
 - **Submission:** ScholarOne via the INFORMS Author Portal; select an editorial area; recommend 3 Associate Editors and suggest 5 reviewers.
 - **Contribution statement:** mandatory since 1 June 2023, <500 words, in the cover letter.

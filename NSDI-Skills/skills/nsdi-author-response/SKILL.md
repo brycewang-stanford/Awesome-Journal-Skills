@@ -7,8 +7,8 @@ description: Use when answering NSDI reviewers through the channel the venue act
 
 At NSDI the author's voice reaches reviewers at two moments only: inside the original
 submission, and — if granted — inside a one-shot revision packet read by the same
-people who wrote the demands. There is no rendered rebuttal phase in the '27 CFP
-(absence 待核实; verify each cycle). This skill covers both moments; the second is
+people who wrote the demands. The '27 CFP, re-read in full on 2026-11-24, describes no
+rebuttal phase (verify each cycle). This skill covers both moments; the second is
 the venue's signature mechanism and the reason this skill is not a rebuttal-writing
 guide.
 
@@ -24,6 +24,9 @@ Without a mid-review channel, anticipated objections must be answered in the PDF
   (`nsdi-experiments`).
 - Pre-empt the scope attack with an explicit sentence locating the contribution in
   the networking stack or distributed design (`nsdi-topic-selection`).
+- Put all of this where the '27 **prescreen** will see it: the Introduction (no more
+  than 3 pages) is read alone first, so scope, a generalist-readable motivation, and
+  track-conforming claims must be visible there.
 
 ## Moment two: the one-shot revision, treated as a contract
 

@@ -13,12 +13,20 @@ before trusting any number below.
 
 ## Two-step reality check
 
-- Confirm which ARR cycles feed your target ACL edition. ACL 2026 accepted work
-  from the October 2025 and January 2026 cycles; committing requires a complete
-  review package, so the last eligible cycle is earlier than the conference date
-  suggests.
+- Confirm which ARR cycles feed your target ACL edition. ACL 2027 (Kyoto,
+  August 17-22, 2027) accepts packages from the ARR January 2027 cycle
+  (submission January 4, 2027) or any earlier cycle; ACL 2026 drew on the
+  October 2025 and January 2026 cycles. Committing requires a complete review
+  package, so the last eligible cycle is earlier than the conference date suggests.
 - The ARR deadline is the hard one. Commitment is a separate, later form with its
-  own deadline (March 14, 2026 for ACL 2026) — see `acl-workflow` for the calendar.
+  own deadline (TBA for ACL 2027 as of 2026-11-23; March 14, 2026 for ACL 2026) —
+  see `acl-workflow` for the calendar.
+- From the October 2026 cycle, review is guaranteed only if the submission names a
+  qualified **service contributor** (max 2 submissions each), who must register
+  within 48 hours after the deadline; otherwise the paper enters a lottery and is
+  desk rejected if not drawn. Per cycle an author may be on at most 20 submissions
+  (5 as first or joint-first author), and every co-author needs a full OpenReview
+  profile with ORCID within 1 week of the deadline.
 - All ARR deadlines run 11:59 pm UTC-12 (anywhere on Earth).
 
 ## Format gate
@@ -53,7 +61,9 @@ before trusting any number below.
 | Resubmission link | Prior ARR submission ID + change summary | Unacknowledged resubmission → desk reject |
 | Preprint declaration | Matches what is actually on arXiv | Broken "no preprint" pledge → desk reject |
 | Dual submission | Not under review anywhere archival | Violation → reject at ARR or venue |
-| AI assistance disclosure | Checklist item E answered honestly | Undisclosed generative-AI use → policy breach |
+| AI assistance disclosure | Checklist item E answered honestly; details in Acknowledgements | Undisclosed generative-AI use → policy breach |
+| Service contributor | Qualified contributor named and registered within 48 h | None → review lottery, desk reject if not drawn |
+| Concurrent submissions | Related concurrent papers cited and uploaded anonymized | Thin-sliced overlap → desk reject |
 
 ## Resubmission discipline
 
@@ -109,6 +119,28 @@ in an earlier cycle:
 - **Same work at a non-archival workshop**: usually permitted, but most
   \*ACL workshop proceedings ARE archival — verify the workshop's archival
   status in writing before assuming.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue acl-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

@@ -41,7 +41,7 @@ A wall of starred alternative specifications persuades no one. JHE referees want
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JHE is health economics — insurance/program reforms and selection; foreground DiD/IV/RDD and selection corrections.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JHE is health economics — insurance/program reforms and selection; foreground DiD/IV/RDD and selection corrections.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

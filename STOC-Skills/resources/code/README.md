@@ -8,9 +8,9 @@ cases below, and use the STOC-native checks for everything else.
 
 ## Shared kit (use selectively)
 
-- [`../../../shared-resources/ml-conference-methods/README.md`](../../../shared-resources/ml-conference-methods/README.md)
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/README.md`](../shared/ml-conference-methods/README.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
 
 Legitimate uses for a STOC paper: sanity-checking a post-acceptance public
 repository of illustration scripts, or packaging the checker for a

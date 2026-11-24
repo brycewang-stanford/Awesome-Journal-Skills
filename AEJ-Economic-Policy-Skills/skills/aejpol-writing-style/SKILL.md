@@ -33,7 +33,7 @@ The distinctive moves vs. a general applied-micro intro:
 - Separate what the data show (the causal estimate) from what the framework adds (the welfare reading) so a referee can grant one without the other.
 
 ## AEA house style
-- Author–year citations; SEs/CIs not asterisks (mirror `aejpol-tables-figures`); active voice; abstract that states question, design, headline estimate, and policy lesson. Online appendix carries the long material; the main text stays self-contained and readable. Review is single-blind, so the front matter names the authors — no need to anonymize the prose.
+- Author–year citations; SEs/CIs not asterisks (mirror `aejpol-tables-figures`); active voice; abstract that states question, design, headline estimate, and policy lesson. Online appendix carries the long material; the main text stays self-contained and readable. Submissions must now be author-anonymized (AEA RCT, fall 2026): names and acknowledgements go in a separate title page, and the prose cites the authors' own work by name in the third person.
 
 ## Checklist
 
@@ -43,7 +43,7 @@ The distinctive moves vs. a general applied-micro intro:
 - [ ] The claim is calibrated: population, horizon, and assumptions named
 - [ ] Causal estimate and welfare reading are separable in the prose
 - [ ] No significance asterisks; author–year citations; abstract carries the policy lesson
-- [ ] Self-citations cited normally (single-blind — no anonymization needed)
+- [ ] Self-citations by name in the third person, never "my/our previous work" (anonymized submission)
 
 ## Anti-patterns
 

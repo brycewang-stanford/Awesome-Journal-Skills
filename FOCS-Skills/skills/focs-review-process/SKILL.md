@@ -7,7 +7,7 @@ description: Use when reasoning about how a FOCS (IEEE Symposium on Foundations 
 
 FOCS reviewing is run by a program committee assembled per edition under IEEE
 Computer Society TCMF sponsorship — for FOCS 2026, chaired by Sanjeev Khanna
-(CFP checked 2026-07-08). There is no standing editorial board and no
+with co-chair Sepehr Assadi (CFP checked 2026-07-08, re-read 2026-11-24). There is no standing editorial board and no
 multi-year continuity of policy: each cycle's CFP is the constitution, and
 each PC interprets it once. This skill models the pipeline so authors can
 predict it rather than be surprised by it.
@@ -20,7 +20,7 @@ predict it rather than be surprised by it.
 | Expert consultation | PC members → subreferees | A PC member covering a distant subarea recruits the specialist your paper needs; assume at least one reader knows the area's folklore |
 | Reading under the window rule | Everyone | Breadth readers judge from abstract + references + ten pages; depth readers verify targeted proofs (`focs-supplementary`) |
 | Committee discussion | Full PC (online and/or meeting) | Papers argued comparatively across all of TCS; the champion model dominates — someone must *want* your paper in |
-| Decision | PC | Notification date for 2026: 待核实 (not published at check time; historically midsummer) |
+| Decision | PC | Notification for 2026: July 3, 2026 (offline discussion May 21 – June 16, Zoom meetings June 17–19, per the PC chairs' report) |
 
 No author-response round appears in the FOCS 2026 CFP, and none is
 traditional at this venue (whether any PC-initiated clarification contact
@@ -108,8 +108,10 @@ rather than by score:
 
 ## Calibration notes
 
-- Acceptance statistics vary by cycle and are not published in the CFP; do
-  not quote a rate without a per-year source (待核实).
+- Acceptance statistics vary by cycle and are not published in the CFP. For
+  FOCS 2026 the PC chairs' business-meeting report gives 174 accepted of 673
+  (686 received, 13 withdrawn), 25.85%; do not quote a rate for any other
+  year without a per-year source.
 - Award decisions (Best Paper, Machtey Award for best student paper) are made
   by the PC from the accepted pool; nothing in the submission process asks
   you to apply — eligibility hygiene is covered in `focs-camera-ready`.

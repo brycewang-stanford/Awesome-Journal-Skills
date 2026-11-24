@@ -7,7 +7,10 @@ description: Use when packaging a MobiSys artifact for the Artifact Evaluation C
 
 Use this for the MobiSys artifact submission. MobiSys has a strong, **script-first** artifact
 culture: the single-blind AEC runs the authors' workflow scripts on the reviewers' own
-systems, so an artifact that only works on your bench is not an artifact.
+systems, so an artifact that only works on your bench is not an artifact. The MobiSys 2027
+CFP (re-verified 2026-11-24) confirms artifact evaluation is optional and runs after acceptance
+decisions; the 2027 Artifact Evaluation call (badges, dates) was not yet published, so the
+mechanics below follow the latest published call, MobiSys 2026 (2027 details 待核实).
 
 ## The three ACM badges
 
@@ -31,8 +34,9 @@ on machines you do not control — the hardest badge for on-device work.
 - Provide a **top-level workflow script** and a README that orients an evaluator in one minute:
   environment, dependencies, one command to smoke-test, one to reproduce a headline figure,
   expected outputs, and runtime.
-- Anonymize repository history, paths, screenshots, notebook metadata, license headers, and
-  device serial numbers for the review round; de-anonymize only at camera-ready.
+- Paper review and artifact evaluation are both single-blind toward the authors (evaluators
+  know who you are), so no anonymization is needed — but strip credentials, personal accounts,
+  and any human-subject data you are not cleared to share.
 - Pin framework, runtime, and model checkpoint hashes; on-device results drift across
   framework minor versions.
 
@@ -75,7 +79,7 @@ package.
 [Badges sought] Available / Functional / Results Reproduced
 [Package contents] <source/scripts/models/traces/plotting>
 [Hardware-optional path] present? which claims it cannot reproduce
-[Anonymity risks] <paths/screenshots/serials/repo owners>
+[Privacy risks] <credentials/participant data/personal accounts>
 [Reproduction level] turnkey / scripted / descriptive / weak
 [Fixes before upload] <ordered list>
 ```

@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ijcai-skills",
-  "version": "1.1.0",
-  "description": "Depth pack for IJCAI manuscript planning, Chairing Tool submission, two-phase review, author response, reproducibility, artifacts, and camera-ready work.",
+  "version": "1.2.0",
+  "description": "Depth pack for IJCAI manuscript planning, submission readiness, two-phase review, author response, reproducibility, artifacts, and camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
@@ -13,9 +13,9 @@
   "plugins": [
     {
       "name": "ijcai-skills",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "source": "./",
-      "description": "Twelve IJCAI-specific skills for AI conference submission strategy, grounded in official IJCAI-ECAI 2026 CFP, submissions FAQ, author response FAQ, reproducibility guidelines, author kit, important dates, peer-review principles, and conflict policy.",
+      "description": "Twelve IJCAI-specific skills for AI conference submission strategy, grounded in the official IJCAI 2027 CFP, submission process, Primary Paper Initiative, reciprocal-review policy, reproducibility guidelines, author kit, generative AI policy, peer-review principles, and conflict policy.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

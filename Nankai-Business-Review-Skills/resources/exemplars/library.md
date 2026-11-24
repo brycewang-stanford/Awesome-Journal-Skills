@@ -35,7 +35,7 @@
   `../../skills/nbr-experiment/SKILL.md`；测量与本土化/CMV 见 `../../skills/nbr-measurement/SKILL.md`。
 - **案例研究"求实还要求真"。** 单/多案例与扎根理论要做到证据链与理论饱和，见
   `../../skills/nbr-qualitative-case/SKILL.md` 与白长虹主编寄语；规范底线另见
-  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)。
+  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)。
 - **引用前核对刊名。** 凡记不清是 NBR 还是《管理世界》/《管理科学学报》/《管理学报》/《中国工业经济》
   的篇目，先回官网（`nbr.nankai.edu.cn`）或 CSSCI/CNKI 核对，再写进参考文献。
 

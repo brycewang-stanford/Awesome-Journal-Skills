@@ -13,7 +13,7 @@ English | [简体中文](README.zh-CN.md)
 
 Agent skill stack for manuscripts targeted at **Science** (AAAS) — the flagship multidisciplinary research journal.
 
-This pack is opinionated. It is **not** a generic "scientific writing" toolbox. It is a **Science-specific** stack that encodes the journal's editorial bar — **broad significance and general interest** — and the concrete conventions that follow from it: the Report vs Research Article split, the one-sentence summary and ≤125-word abstract, display-item budgets, statistics and reproducibility reporting, mandatory data/code/materials deposition, Science numbered-reference style, and a significance-forward cover letter.
+This pack is opinionated. It is **not** a generic "scientific writing" toolbox. It is a **Science-specific** stack that encodes the journal's editorial bar — **broad significance and general interest** — and the concrete conventions that follow from it: the standard vs extended Research Article budgets, the one-sentence summary and ≤125-word abstract, display-item budgets, statistics and reproducibility reporting, mandatory data/code/materials deposition, Science numbered-reference style, and a significance-forward cover letter.
 
 ---
 
@@ -24,10 +24,10 @@ Science imposes constraints that differ materially from field journals — and f
 | Constraint                | Science                                                       | Implication                                                  |
 |---------------------------|--------------------------------------------------------------|-------------------------------------------------------------|
 | Editorial bar             | Broad significance + general interest across disciplines      | Most papers are **desk-rejected without review** if specialist |
-| Formats                   | Report (~2,500 w, ≤4 items) / Research Article (~4,500 w, ≤6) | Wrong format or over length signals inexperience             |
+| Formats                   | Research Article ≤3,000 w, 3–5 items (extended online ≤6,000 w, ≤6) | Wrong format or over length signals inexperience             |
 | One-sentence summary      | Required, ≤ ~125 characters, not the title                    | A missing/weak summary hurts at triage                       |
 | Abstract                  | ≤ ~125 words, single paragraph, no subheadings, quantified    | Long structured abstracts are off-style                     |
-| Methods location          | In **Supplementary Materials** for Reports                    | Methods in the body bloats the main text                    |
+| Methods location          | In **Supplementary Materials** for Research Articles          | Methods in the body bloats the main text                    |
 | References                | Numbered, in order of appearance, **one continuous list (incl. SM)**, full author lists | Author–date / Nature style must be converted        |
 | Data & code               | Deposited with accession/DOI; "on request" not acceptable     | No accession numbers = not submission-ready                 |
 | Over-claiming             | A top rejection reason post-review                            | Conclusions must not outrun the evidence                    |
@@ -72,7 +72,7 @@ sci-fit            (clear the broad-significance bar first)
         ▼
 sci-framing        (lock the advance + why-now)
         ▼
-sci-writing        (Report vs Research Article; hold length)
+sci-writing        (standard vs extended Research Article; hold length)
         ▼
 sci-figures        (display items within budget)
         ▼
@@ -103,7 +103,7 @@ sci-rebuttal       (after review)
 | `sci-fit`          | Desk-reject filter: broad significance / general interest; venue routing |
 | `sci-framing`      | Lock the one-sentence advance, the "why now", and a declarative title    |
 | `sci-abstract`     | One-sentence summary (≤125 chars) + ≤125-word abstract                   |
-| `sci-writing`      | Report vs Research Article; length budgets; Methods → Supplementary       |
+| `sci-writing`      | Standard vs extended Research Article; length budgets; Methods → Supplementary |
 | `sci-figures`      | Item budget, column sizing, ≥6 pt fonts, show-the-data, colorblind-safe   |
 | `sci-statistics`   | Effect size + CI + n + test; replication; randomization; reproducibility  |
 | `sci-data`         | Repository deposition, accession/DOI, availability statement, materials   |
@@ -127,7 +127,7 @@ sci-rebuttal       (after review)
 | Bar                | Top-1% broad significance        | Top-1% broad significance         | Broad but more accepting           |
 | Signature artifact | One-sentence summary             | Summary paragraph                 | PNAS: 120-word significance statement |
 | References         | Numbered, order of appearance    | Different numbered convention     | Own styles                          |
-| Methods            | Supplementary (Reports)          | Methods section conventions       | Varies                              |
+| Methods            | Supplementary (Research Articles) | Methods section conventions       | Varies                              |
 | When to switch     | —                                | Re-style before transfer          | If not top-1% general interest      |
 
 For Nature, see the curated [nature-skills](https://github.com/Yuan1z0825/nature-skills). For PNAS, NEJM, Lancet, and Cell, see the sibling packs in [awesome-journal-skills](https://github.com/brycewang-stanford/awesome-journal-skills).

@@ -19,11 +19,11 @@ Twelve agent skills for manuscripts targeted at the **American Economic Journal:
 **both** quantitative-theoretical work (DSGE, heterogeneous-agent / HANK, structural estimation) **and**
 identified-empirical work (SVAR, local projections, narrative and high-frequency identification) — judged
 on **quantitative discipline and policy relevance**. It encodes the AEA submission process: the
-membership-scaled submission fee, single-blind review, JEL codes, the ≤100-word abstract, the ~40-page
+membership-scaled submission fee, author-anonymized submission (the AEA's 2026 review RCT), JEL codes, the ≤100-word abstract, the ~40-page
 length guidance, per-coauthor disclosure, and the AEA Data Editor's pre-publication reproducibility check
 (covering simulation and model-solution code) deposited at the AEA Data and Code Repository on openICPSR.
 
-**Official basis checked 2026-06:** AEJ: Macro submission guidelines, editorial policy, and editors pages;
+**Official basis checked 2026-06; re-verified 2026-11-24:** AEJ: Macro submission guidelines, editorial policy, and editors pages;
 the AEA Data and Code Availability Policy and Office of the AEA Data Editor; the AEA disclosure policy. See
 [`resources/official-source-map.md`](resources/official-source-map.md). Volatile facts (fees, page charge,
 editors, length guidance, policy dates) are marked "检索于 2026-06；以官网为准" — verify on the official AEA
@@ -40,7 +40,8 @@ traps a generic econ stack misses:
 | Broad-interest bar | Decisions weigh breadth of topic + interest to the AEJ: Macro audience | Field-depth framing reads as JME/RED, not AEJ: Macro |
 | Abstract length | ≤100 words (hard) | Most stacks assume 150–250 words |
 | Length guidance | ~40pp (11pt) / ~45pp (12pt), incl. figures/tables/refs/appendices | Generic stacks ignore the page budget and the online-appendix split |
-| Review model | Single-blind (author known to referee) | Stacks that assume double-blind anonymization mislead |
+| Review model | Author-anonymized submission (AEA RCT, launched fall 2026): names, affiliations and acknowledgements go in a separate title page | Stacks that assume the old single-blind first page (title, byline, affiliations) mislead |
+| Table style | No significance asterisks; standard errors in parentheses | Generic stacks add stars by default |
 | Reproducibility | AEA Data Editor checks **before** publication; **simulation/solver code** required | Stacks that package only regression scripts fail the macro check |
 | Disclosure | Separate statement **per coauthor**; $10,000 threshold | One-statement assumptions miss a hard requirement |
 
@@ -113,7 +114,7 @@ topic-selection → literature-positioning → identification ─┐
 ## Related
 
 - Reference pack: `../Quantitative-Economics-Skills/` (Econometric Society, structurally identical).
-- Shared method hub: [`../shared-resources/empirical-methods/`](../shared-resources/empirical-methods/).
+- Shared method hub: [`../shared-resources/empirical-methods/`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/tree/main/shared-resources/empirical-methods).
 
 ## License
 

@@ -6,14 +6,16 @@ description: Use when performing the final pre-upload audit of an NDSS submissio
 # NDSS Submission
 
 This is the deadline-week skill: the paper exists, the cycle is chosen, and the job is to
-get it into HotCRP without handing the PC a reason to discard it unread. NDSS 2027's summer
-cycle ran through `ndss27-summer.hotcrp.com`; confirm the fall cycle's own site rather than
-assuming the URL pattern (待核实 in this pack's source map).
+get it into HotCRP without handing the PC a reason to discard it unread. NDSS 2027 ran one
+HotCRP site per cycle (`ndss27-summer.hotcrp.com`, `ndss27-fall.hotcrp.com`); confirm the
+next cycle's own site on its call rather than assuming the URL pattern.
 
 ## The clock
 
 Deadlines are **11:59 PM Anywhere-on-Earth (UTC-12)** — the most forgiving timezone, which
-is exactly why missing it is unforgivable. Fall 2027 cycle: papers due **August 19, 2026**.
+is exactly why missing it is unforgivable. NDSS 2027 papers were due **May 6, 2026**
+(summer) and **August 19, 2026** (fall); both cycles have closed and the NDSS 2028 call was
+not yet published on 2026-11-24.
 Upload a complete candidate PDF a day early; HotCRP allows revision until the deadline, and
 a placeholder in the system beats a perfect PDF stuck in a build error at 11:58.
 
@@ -22,7 +24,14 @@ a placeholder in the system beats a perfect PDF stuck in a build error at 11:58.
 - **Template**: current NDSS template, unmodified — no geometry, spacing, or font surgery.
 - **Length**: ≤13 pages of body; Ethics Considerations, references, and appendices sit
   outside the count and *behind* the body/ethics/references order the CFP prescribes.
+- **Geometry**: US letter (not A4), two columns no more than 9.25 in. high and 3.5 in. wide,
+  Times 10-point or larger on 11-point or larger line spacing; renders in black and white.
 - **Language**: English; PDF compiles on someone else's machine, fonts embedded.
+- **Authors and caps**: no author may be added after the deadline; nobody on more than six
+  submissions in the cycle (twelve per year).
+- **Generative AI**: disclose use in proportion to what was generated (sections and tool
+  versions for whole sections; a footnote plus an Acknowledgements disclaimer for a few
+  sentences); grammar-only editing needs no disclosure.
 - **Anonymity** (double-blind, per the 2027 CFP):
   - no author names/affiliations anywhere, including headers and the PDF's metadata
     (`pdfinfo`; check Author, Creator, and attached-file fields);
@@ -74,11 +83,34 @@ T-2h   final re-upload if needed; screenshot the confirmation
 
 ## After the button
 
-Nothing more is owed until the early-reject notification (fall: September 25, 2026). Use
+Nothing more is owed until the early notification with Round-1 reviews (2027: June 18,
+2026 for summer; Round 1 ran September 18 - October 13 for fall). Use
 the gap to pre-draft rebuttal scaffolding (`ndss-author-response`) and to keep the
 disclosure process moving — the interactive discussion phase will ask what happened since
 submission, and "the vendor patched in October" is a good answer only if you kept the
 process alive.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue ndss-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

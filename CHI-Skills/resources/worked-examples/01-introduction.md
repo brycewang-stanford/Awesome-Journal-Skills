@@ -49,8 +49,8 @@ prototype in 14 multigenerational homes, with interviews and interaction logs.
   evidence is invisible on page 1. (`chi-experiments`)
 - **Untyped contributions.** "A novel system; a user study; design implications"
   names no contribution type doing the work — is this an artifact paper validated
-  by a deployment, or an empirical paper with a probe? The subcommittee cannot even
-  be chosen from this. (`chi-topic-selection`)
+  by a deployment, or an empirical paper with a probe? The reviewer-matching
+  descriptors cannot even be chosen from this. (`chi-topic-selection`)
 - **Unscoped claims.** "Improves the user experience" is a universal claim; the
   study can at most support a claim about these households, this task family, this
   four-week window. (`chi-writing-style`)
@@ -98,7 +98,7 @@ prototype in 14 multigenerational homes, with interviews and interaction logs.
    households developed brokerage routines; repair increased with the probe — each
    is scoped to the deployment and owns a results section.
 5. **Contributions are typed** (empirical account / artifact-as-probe / design
-   implications), which also settles the subcommittee conversation and the
+   implications), which also settles the descriptor choice and the
    supplement plan (logs schema, interview guide, probe firmware —
    `chi-supplementary`).
 

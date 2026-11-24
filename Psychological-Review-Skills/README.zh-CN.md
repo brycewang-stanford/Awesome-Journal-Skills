@@ -34,7 +34,7 @@
 | 图                  | 模型图 + 模型行为模拟图                                 | 没有实验图——每个方框是构念，每条曲线是模拟          |
 | 贡献                | 相对前作的差异化"之前 → 之后"                           | 换标签或仅拟合更好都是拒稿信号                      |
 | 计算模型            | 共享作者**自己的模型代码**                              | 不是共享的实证分析工具包；没有数据集可存放          |
-| 评审                | 盲审、多轮（Editorial Manager）                         | 评审人通常正是竞争模型的作者                        |
+| 评审                | 默认公开（不盲审），作者可申请盲审；多轮（Editorial Manager） | 评审人通常正是竞争模型的作者                        |
 
 通用的"科研写作"或实证心理学技能包都无法处理这些约束。
 
@@ -114,13 +114,13 @@ psychrev-rebuttal
 | `psychrev-conceptual-exhibits`  | 模型／架构图 + 模型行为模拟图                                            |
 | `psychrev-writing-style`        | APA 体例；以机制为先、用模型词汇的文风（润色）                            |
 | `psychrev-contribution-framing` | 相对具名前作的差异化（"之前 → 之后"）                                     |
-| `psychrev-review-process`       | 盲审、Theoretical Notes，以及理论期刊特有的质疑                          |
-| `psychrev-submission`           | Editorial Manager 投稿前检查 + 清单（格式、盲审、模型代码）              |
+| `psychrev-review-process`       | 评审模式（默认公开、可选盲审）、Theoretical Notes，以及理论期刊特有的质疑 |
+| `psychrev-submission`           | Editorial Manager 投稿前检查 + 清单（格式、可选盲审、模型代码）              |
 | `psychrev-rebuttal`             | 修订 + 回复文档，证明理论本身确实被加强                                  |
 
 ### 资源
 
-- [`skills/psychrev-submission/templates/checklist.md`](skills/psychrev-submission/templates/checklist.md) —— 8 节投稿前自查（范围／格式／盲审／摘要／理论／图与代码／参考文献／伦理与门户）
+- [`skills/psychrev-submission/templates/checklist.md`](skills/psychrev-submission/templates/checklist.md) —— 8 节投稿前自查（范围／格式／可选盲审／摘要／理论／图与代码／参考文献／伦理与门户）
 - [`resources/external_tools.md`](resources/external_tools.md) —— 理论／建模工具（建模环境、可识别性／恢复分析、绘图软件、论证逻辑辅助）
 - [`resources/official-source-map.md`](resources/official-source-map.md) —— APA Psychological Review 的官方范围、格式与门户事实（附核实日期）
 - [`resources/exemplars/library.md`](resources/exemplars/library.md) —— 六篇经网络核实的 Psychological Review 理论／模型论文，按形式分类，附姊妹刊辨别防护

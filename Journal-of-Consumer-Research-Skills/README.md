@@ -30,8 +30,8 @@ JCR imposes constraints that differ materially from other marketing/behavioral j
 | Two genres              | Multi-study **experiments** *and* interpretive **CCT** work       | Ethnography and lab experiments compete on equal footing         |
 | Required gate           | 300-word **Consumer Relevance and Contribution Statement**        | A JCR-specific statement, distinct from the 200-word abstract    |
 | Length                  | **60 double-spaced pages**, tables/figures **embedded and counted** | A page cap, not a word cap; a 40 MB web appendix holds overflow |
-| Transparency            | Step-6 **Data Collection Statement**, approved repositories, code  | Required at invited revision; 7-year data retention              |
-| Style                   | **Chicago Manual of Style** (not APA); Word                       | Configure references to Chicago, not APA                         |
+| Transparency            | Step-6 **Data Collection Statement** + in-manuscript **Data and Materials Availability Statement** | Anonymized data to reviewers by default (policy rev. 2026-09-24); 7-year retention |
+| Style                   | **Chicago Manual of Style** (not APA); Word/RTF/PDF upload        | Configure references to Chicago, not APA                         |
 | Review                  | **Double-anonymized**; ScholarOne; developmental, multi-round     | First-round accepts are essentially unheard of                   |
 | Fees                    | **No** submission or publication fee (subscription under OUP)     | Only optional open-access and color-print charges                |
 

@@ -22,8 +22,8 @@ PACMPL/OpenReview machinery, the IEEEtran double-column habit, or the empirical-
 statistics kit. CAV evidence is verification evidence: soundness and completeness arguments,
 standard benchmarks (SV-COMP, SMT-COMP, HWMCC, VNN-COMP), fair solver comparisons with pinned
 versions and resource limits, and — where the claim is correctness — checkable proof
-witnesses/certificates, all carried through a two-stage review and an optional AEC artifact
-badge.
+witnesses/certificates, all carried through a two-stage review and an AEC artifact badge (mandatory for
+Tool Papers since CAV 2027, optional otherwise).
 
 ## Suggested Workflow
 

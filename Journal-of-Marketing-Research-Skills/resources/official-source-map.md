@@ -2,6 +2,22 @@
 
 Canonical sources for verifying every JMR-specific claim made in this skill pack.
 Sources were searched and corroborated on **2026-06-01** and re-verified on **2026-06-21**.
+AMA guidelines, editorial policies, transparency policy, journal page, and masthead were
+**re-verified 2026-11-23** against the live AMA pages (#2, #4, #5, #6, #7, #8; read
+directly with curl). Access-method note: on 2026-11-23 journals.sagepub.com and
+sagepub.com returned HTTP 403 to curl and WebFetch, so the SAGE MRJ instructions (#1) were
+re-read from Sage's own hosted copy at
+https://sage.cnpereading.com/storage/ext/submission-guidelines/page/author-instructions_MRJ.html
+(undated scrape served by Sage's China reading platform), and the SAGE price-list workbook
+(#9) was not re-read. Changes found on 2026-11-23: the AMA editors page now lists **Raphael
+Thomadsen as Editor in Chief** with five Coeditors (the Hamilton team is no longer the
+masthead of record), and lists Elea McDonnell Feit at **Ohio State University** (the October
+2025 announcement had Drexel); the AMA journal landing page now displays **2-Year Impact
+Factor 6.3 / 5-Year Impact Factor 8.5**, matching SAGE, so the earlier 5.0 discrepancy is
+gone. Rules (50 pages, 200-word abstract, title of no more than 25 words, up to 8 keywords,
+double-anonymized review, no-fee route) are unchanged. The Sage-hosted copy states a
+minimum of 3 keywords; it does not carry the "two independent reviews" sentence read on
+2026-06-21, which is kept but marked as not re-read.
 On **2026-06-21** the SAGE MRJ submission-guidelines page
 (journals.sagepub.com/author-instructions/MRJ) was read directly again. It confirmed
 the no-fee statement, optional Sage Choice open access, double-anonymized identity
@@ -21,9 +37,9 @@ price-list workbook.
 | 2 | https://www.ama.org/submission-guidelines-american-marketing-association-journals/ | AMA cross-journal submission guidelines: ScholarOne at mc.manuscriptcentral.com/ama_jmr; jmr@ama.org; abstract limited to 200 words; 50-page inclusive limit with Web Appendix excluded; title <= 25 words; up to 8 primary keywords; Web Appendix as single PDF with 'W'-prefixed labels; AMA reference style (full first name); AI-content disclosure in main doc + Acknowledgments; iThenticate; Data Availability Statement on title page (directly read 2026-06-21) | 2026-06-21 |
 | 3 | https://mc.manuscriptcentral.com/ama_jmr | Live ScholarOne / Manuscript Central submission portal for JMR | 2026-06-01 |
 | 4 | https://www.ama.org/ama-journals-editorial-policies-procedures/ | AMA editorial policies (directly read 2026-06-21): "All reviews will use a double-anonymous review process"; "The editor has the final authority for the acceptance or rejection of any article"; replication-enabling disclosure (in-text, Web Appendix, or online supplements) so a reasonably trained researcher can replicate; report actual p-values (three digits) and effect sizes; data availability statement in final manuscript | 2026-06-21 |
-| 5 | https://www.ama.org/2025/10/28/journal-of-marketing-research-welcomes-new-editorial-team-for-2026-2029/ | Incoming editorial team 2026-2029 (directly read 2026-06-21): Raphael Thomadsen (Olin Business School, Washington University in St. Louis) as EIC from 1 July 2026 to 30 June 2029, with five Coeditors -- Simon Blanchard (Georgetown McDonough), Bryan Bollinger (Dartmouth Tuck), Elea McDonnell Feit (Drexel LeBow), Katrijn Gielens (Tilburg), Manoj Thomas (Cornell SC Johnson); new team began processing new manuscripts 1 April 2026 while the Hamilton team continues revisions | 2026-06-21 |
-| 6 | https://www.ama.org/journal-of-marketing-research-editors/ | Current masthead (directly read 2026-06-21): EIC Rebecca Hamilton (Georgetown McDonough) plus four Coeditors (Brett R. Gordon, Northwestern Kellogg; Raghuram Iyengar, Wharton; Kapil Tuli, Singapore Management University; Karen Page Winterich, Penn State Smeal), with Associate Editors and an Editorial Review Board -- the EIC + Coeditor/area-handling routing model | 2026-06-21 |
-| 7 | https://www.ama.org/journal-of-marketing-research/ | JMR official journal page: scope (latest thinking in marketing research concepts, methods, applications); FT50 list; UT Dallas research rankings list; AMA landing-page metric display | 2026-06-21 |
+| 5 | https://www.ama.org/2025/10/28/journal-of-marketing-research-welcomes-new-editorial-team-for-2026-2029/ | Incoming editorial team 2026-2029 (directly read 2026-06-21; re-read 2026-11-23, unchanged): Raphael Thomadsen (Olin Business School, Washington University in St. Louis) as EIC from 1 July 2026 to 30 June 2029, with five Coeditors -- Simon Blanchard (Georgetown McDonough), Bryan Bollinger (Dartmouth Tuck), Elea McDonnell Feit (Drexel LeBow), Katrijn Gielens (Tilburg), Manoj Thomas (Cornell SC Johnson); new team began processing new manuscripts 1 April 2026 while the Hamilton team continues revisions | 2026-11-23 |
+| 6 | https://www.ama.org/journal-of-marketing-research-editors/ | Current masthead (directly read 2026-11-23): **Raphael Thomadsen** (Washington University in St. Louis), Editor in Chief; Coeditors Simon Blanchard (Georgetown), Bryan Bollinger (Dartmouth), Elea McDonnell Feit (Ohio State University), Katrijn Gielens (Tilburg), Manoj Thomas (Cornell); Associate Editors and an Editorial Review Board | 2026-11-23 |
+| 7 | https://www.ama.org/journal-of-marketing-research/ | JMR official journal page (re-read 2026-11-23): scope (latest thinking in marketing research concepts, methods, applications); FT50 list; UT Dallas research rankings list; displays 2-Year Impact Factor 6.3 and 5-Year Impact Factor 8.5 | 2026-11-23 |
 | 8 | https://www.ama.org/journal-of-marketing-research-policy-for-research-transparency/ | JMR Policy for Research Transparency (directly read 2026-06-21): effective 1 July 2023, updated 1 August 2025 when all AMA journals adopted the AMA Journals Policy for Research Transparency; preregistration strongly encouraged (not required); prior to final acceptance authors provide replication materials, code/scripts when used, raw data for quantitative results where feasible, README instructions, and a data availability statement consistent with Sage Research Data Sharing Policy | 2026-06-21 |
 | 9 | https://www.sagepub.com/docs/default-source/rp-pages/info-for-authors/hybrid-oa-sage-choice/sage-choice-price-list-2026---external.xlsx?sfvrsn=4e6e819b_4 | Official SAGE 2026 Choice price-list workbook: Journal of Marketing Research row (J884, ISSN 0022-2437, EISSN 1547-7193, HSS) lists 2026 OA APC as USD 5,780 / GBP 4,238.474 for optional open access | 2026-06-21 |
 
@@ -32,7 +48,7 @@ price-list workbook.
 - **Publisher / sponsor:** published by SAGE Publishing on behalf of the American Marketing Association (AMA). (#1, #7)
 - **Scope:** the full spectrum of marketing topics with an emphasis on methodological rigor; welcomes a wide variety of data and methodological approaches — behavioral experiments, econometric/quantitative modeling, and methods contributions. (#1, #7)
 - **Publishing fees:** **"There are no fees payable to submit or publish in this journal. Open access options are available"** — directly read on the SAGE MRJ submission-guidelines page on 2026-06-21. (#1)
-- **Reported metrics:** the SAGE MRJ submission-guidelines page currently reports **Impact Factor 6.3** and **5-Year Impact Factor 8.5** (directly read 2026-06-21), while the AMA journal landing page still displays **Impact factor 5.0**. Treat metrics as volatile display data and verify live before manuscript-facing claims. (#1, #7)
+- **Reported metrics:** the SAGE MRJ page reported **Impact Factor 6.3** and **5-Year Impact Factor 8.5** (read 2026-06-21), and the AMA journal landing page now displays the same **6.3 / 8.5** (re-read 2026-11-23; it showed 5.0 in June). Treat metrics as volatile display data. (#1, #7)
 - **Submission system:** ScholarOne / Manuscript Central at **mc.manuscriptcentral.com/ama_jmr**; questions to jmr@ama.org. (#2, #3)
 - **Length:** **50-page maximum**, properly formatted and inclusive of title, abstract, keywords, text, footnotes, references, tables, figures, and print appendices; the **Web Appendix does NOT count** toward the 50 pages. JMR uses a **page limit, not a word limit**. (#2)
 - **Formatting:** 12-point Times New Roman (or 12-point LaTeX font), double-spaced (tables/references may be single-spaced), 1-inch margins, no page/line numbers, no headers/footers. (#1, #2)
@@ -44,8 +60,9 @@ price-list workbook.
 - **Reference style:** **AMA author-year** style (e.g., "Thorelli (1960)" / "(Thorelli 1960)"; list all authors up to three, "et al." for four or more). (#1, #2)
 - **AI disclosure:** any AI-generated content must be identified in the main document (e.g., Methods) and noted in Acknowledgments. (#2)
 - **Integrity:** every submission screened with **iThenticate**. (#2)
-- **Editorial structure / routing:** a single EIC plus a panel of Coeditors (currently 4; incoming team has 5) who handle manuscripts by methodological/substantive domain, alongside Associate Editors and an Editorial Review Board. (#6, #5)
-- **Editor transition:** **Rebecca Hamilton (Georgetown McDonough)** is EIC of record through **30 June 2026** (directly read on AMA editors page 2026-06-21); **Raphael Thomadsen (Olin Business School, Washington University in St. Louis)** is incoming EIC for **1 July 2026 - 30 June 2029**, assisted by five Coeditors -- Simon Blanchard (Georgetown McDonough), Bryan Bollinger (Dartmouth Tuck), Elea McDonnell Feit (Drexel LeBow), Katrijn Gielens (Tilburg), Manoj Thomas (Cornell SC Johnson) -- and the incoming team began processing new manuscripts on **1 April 2026** (so authors submitting now are effectively handled by the incoming team). (#5, #6)
+- **Editorial structure / routing:** a single EIC plus five Coeditors who handle manuscripts by methodological/substantive domain, alongside Associate Editors and an Editorial Review Board. (#6, #5)
+- **Editor (re-verified 2026-11-23):** **Raphael Thomadsen (Olin Business School, Washington University in St. Louis)** is Editor in Chief for **1 July 2026 - 30 June 2029**, with Coeditors Simon Blanchard (Georgetown McDonough), Bryan Bollinger (Dartmouth Tuck), Elea McDonnell Feit (Ohio State Fisher, per the current editors page), Katrijn Gielens (Tilburg), and Manoj Thomas (Cornell SC Johnson). The new team began processing new manuscripts on **1 April 2026**; the previous team (Rebecca Hamilton, Gordon, Iyengar, Tuli, Winterich) continues handling revisions of its papers to completion. (#5, #6)
+- **Keywords (SAGE):** minimum of 3 keywords listed after the abstract (Sage-hosted copy of #1, read 2026-11-23); AMA allows up to 8 primary keywords (#2).
 - **Optional open access APC:** there are no fees to submit or publish in the subscription route; optional Sage Choice open access is available, and the SAGE 2026 Choice price-list workbook lists JMR's 2026 OA APC as **USD 5,780 / GBP 4,238.474**. (#1, #9)
 - **Indexing/reputation:** listed on the Financial Times (FT50) and UT Dallas research-rankings lists. (#7)
 
@@ -56,4 +73,36 @@ price-list workbook.
 - **By-domain Coeditor routing chart — not a published JMR artifact.** The masthead lists EIC + Coeditors + Associate Editors + Editorial Review Board, but no official by-domain routing chart is published. Keep the skill-pack language as an inference from masthead structure, not as a claimed AMA rule.
 - **AMA / JMR Research Transparency Policy effective dates — RESOLVED 2026-06-20.** The dedicated JMR Policy for Research Transparency page (#8) was fetched and directly confirms: effective **1 July 2023**, updated **1 August 2025** when all AMA journals adopted the AMA Journals Policy for Research Transparency; preregistration strongly encouraged (not required).
 - **SAGE author-instructions live re-verification — done 2026-06-21.** The SAGE MRJ page directly confirms no-fee, double-anonymized identity transparency, subscription access, preprint acceptance, 200-word abstract, fully anonymized manuscript requirements, two independent reviews for Revise/Accept decisions, and current SAGE-displayed metrics.
-- **Metrics and acceptance rates.** SAGE and AMA currently display different impact-factor values on different official pages; this source map records both rather than smoothing the discrepancy. Do not add acceptance-rate claims unless AMA/SAGE publish a current official figure.
+- **Metrics and acceptance rates.** As of 2026-11-23 the AMA landing page shows the same 6.3 / 8.5 that SAGE showed in June; the earlier discrepancy is resolved. Do not add acceptance-rate claims unless AMA/SAGE publish a current official figure.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Journal of Marketing Research",
+  "verified": "2026-11-23",
+  "rules": {
+    "main_text_pages_max": {"value": 50, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/", "note": "applies at all review stages; inclusive of title, abstract, keywords, text, footnotes, references, tables, figures, print appendices; Web Appendix excluded"},
+    "page_limit_includes_references": {"value": true, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "abstract_words_max": {"value": 200, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/", "note": "written in third person"},
+    "abstract_format": {"value": "unstructured", "source": "https://journals.sagepub.com/author-instructions/mrj", "note": "re-read 2026-11-23 via the Sage-hosted copy"},
+    "title_words_max": {"value": 25, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "keywords_min": {"value": 3, "source": "https://journals.sagepub.com/author-instructions/mrj", "note": "re-read 2026-11-23 via the Sage-hosted copy"},
+    "keywords_max": {"value": 8, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/", "note": "up to 8 primary keywords"},
+    "keywords_required": {"value": true, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "review_mode": {"value": "double-blind", "source": "https://www.ama.org/ama-journals-editorial-policies-procedures/", "note": "AMA: 'All reviews use a double-anonymous review process'"},
+    "required_statements": {"value": ["conflict_of_interest", "funding", "ethics_approval", "informed_consent", "data_availability"], "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/", "note": "on the separate title page under Statements and Declarations; AI-generated content must be identified in the main document and in Acknowledgments if used"},
+    "submission_fee": {"value": "none; no fees to submit or publish (optional Sage Choice OA)", "source": "https://journals.sagepub.com/author-instructions/mrj"},
+    "portal": {"value": "ScholarOne (mc.manuscriptcentral.com/ama_jmr)", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "file_format": {"value": "Word (PDF if LaTeX); 12-pt Times New Roman, double-spaced, 1-inch margins, no page numbers, line numbers, headers or footers", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "reference_style": {"value": "AMA author-date (full first names; et al. for four or more authors)", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "supplement_policy": {"value": "at most one Web Appendix, single PDF, anonymized, W-prefixed tables/figures, excluded from the 50 pages", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "preprint_policy": {"value": "preprints accepted; enter the preprint DOI; do not post updated versions during review", "source": "https://journals.sagepub.com/author-instructions/mrj"},
+    "data_code_policy": {"value": "JMR Research Transparency Policy (effective 2023-07-01, updated 2025-08-01): alternative disclosure plan proposed at initial submission; replication materials to JMR Dataverse at conditional acceptance, verified by a Data Editor; Data Availability Statement in the final manuscript", "source": "https://www.ama.org/journal-of-marketing-research-policy-for-research-transparency/"},
+    "llm_policy": {"value": "AI-generated content identified in the main document (e.g., Methods) and in Acknowledgments; AI cannot be an author", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"}
+  }
+}
+```

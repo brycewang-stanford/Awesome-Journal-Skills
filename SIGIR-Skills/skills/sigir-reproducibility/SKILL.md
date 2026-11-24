@@ -6,9 +6,11 @@ description: Use when strengthening the reproducibility of a SIGIR paper or prep
 # SIGIR Reproducibility
 
 Reproducibility is unusually load-bearing at SIGIR for two reasons. First, the venue
-runs a dedicated **Reproducibility track** (its own track in 2026, split out of the
-former combined Resource & Reproducibility track — budget and dates 待核实 on the
-current page), so reproduction studies are publishable first-class work. Second, the
+runs a dedicated track — split out of the former combined Resource & Reproducibility
+track in 2026 and renamed the **Reproducibility and Replicability Track** for SIGIR 2027
+(9 pages + references, double-anonymous, abstract February 4 / paper February 11, 2027;
+checked 2026-11-24) — so reproduction and replication studies are publishable
+first-class work. Second, the
 field's own literature documents how often reported IR gains fail to replicate under
 matched tuning — reviewers of *regular* papers therefore read reproducibility signals
 as a proxy for whether the gains are real.

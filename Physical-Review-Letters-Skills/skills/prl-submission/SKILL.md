@@ -16,7 +16,7 @@ description: Use when running the final pre-submission preflight for a Physical 
 
 ### Length and format
 
-- [ ] Manuscript passes the current APS automated **length check** (body + figures + equations + references; verify the limit)
+- [ ] Letter core ≤ **3750 words** by the APS Length Guide (body text + captions + figure/table/display-math word equivalents; abstract, references and acknowledgments excluded); End Matter ≤ 2 pages
 - [ ] Prepared in REVTeX (the APS LaTeX class) or an accepted format
 - [ ] Submitted in the **Letter** article type, not a regular article
 - [ ] Abstract within the current length limit and self-contained
@@ -29,6 +29,7 @@ description: Use when running the final pre-submission preflight for a Physical 
 - [ ] All figure files at production resolution (vector for line art)
 - [ ] **Supplemental Material** as a separate file, clearly labeled
 - [ ] Cover letter (see `prl-cover-letter`)
+- [ ] **100-word justification paragraph** for the submission form (why the paper meets PRL's criteria)
 - [ ] Bibliography / .bib file as required
 
 ### Classification and metadata
@@ -37,7 +38,8 @@ description: Use when running the final pre-submission preflight for a Physical 
 - [ ] Current APS subject classification applied (verify the scheme in use)
 - [ ] Title, abstract, and author list entered consistently with the manuscript
 - [ ] Funding / acknowledgments handled per APS instructions
-- [ ] Any required statements (data availability, ethics if applicable) present
+- [ ] **Data Availability Statement** ready to enter during submission (required for every PRL article)
+- [ ] **AI Use Disclosure** section (below the Conflicts of Interest statement) if AI was used substantively
 
 ### Authors and integrity
 
@@ -65,15 +67,15 @@ description: Use when running the final pre-submission preflight for a Physical 
 - Submit through the APS editorial system; verify the current portal URL and account requirements on the PRL author page.
 - The automated length check runs at submission — fix overages *before* uploading (use `prl-length-management`).
 - Keep the SM as a distinct upload, not appended to the Letter PDF.
-- Review is single-blind with subject-area / divisional editor tracks; the classification you pick steers which desk triages the Letter.
-- Fees are no blocker under the subscription route: the page charge is optional, CC-BY open access carries an APC (~$2,700 — confirm live), and SCOAP3 covers eligible high-energy-physics Letters.
+- Review is single-anonymized (all APS journals) with subject-area / divisional editor tracks; the classification you pick steers which desk triages the Letter.
+- Fees are no blocker under the subscription route: the page charge is optional, CC-BY open access carries an APC (USD 4,140 in 2026 — confirm live), and SCOAP3 covers eligible high-energy-physics Letters.
 
 ## Night-before dry run
 
 Run this sequence the evening before, not at the upload screen:
 
 1. **Clean compile.** Build the REVTeX source from scratch in a fresh directory to catch machine-local dependencies.
-2. **Length estimate.** Apply the current APS formula — body, figures by printed area, equations, references — and leave a margin below the limit.
+2. **Length estimate.** Apply the APS Length Guide formula — body, captions, figures by aspect ratio, tables by lines, displayed equations by rows (references and abstract excluded) — and leave a margin below 3750 words.
 3. **Pointer audit.** Confirm every "Supplemental Material" mention maps to real SM content, and no S-prefixed item goes uncited.
 4. **Metadata dry-fill.** Draft the portal fields in a text file so the live session is transcription, not composition.
 5. **Freeze.** No content edits after the dry run; any change reopens the length check and pointer audit.
@@ -86,6 +88,28 @@ Run this sequence the evening before, not at the upload screen:
 | Wrong article type (regular article)       | Routed off the Letter track entirely |
 | Abstract in portal differs from manuscript | Ambiguous record of submission       |
 | SM appended inside the Letter PDF          | Breaks separate-SM production        |
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue prl-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

@@ -8,11 +8,12 @@ description: Use when planning an IROS project timeline from venue fit through t
 Use this as the project-management skill for an IROS submission. Replace every date with the current
 official timetable and work backward from PaperPlaza cutoffs.
 
-IROS is a conference, not a journal: it has no standing editor-in-chief and no article-processing charge.
+IROS is a conference, not a journal: there is no article-processing charge, and review runs under an
+IROS Editor-in-Chief (2026: Eiichi Yoshida) rather than a journal masthead.
 It is **co-sponsored by IEEE RAS and the Robotics Society of Japan (RSJ)** — hence "IEEE/RSJ" — and the
 organizing committee rotates yearly between regions, so re-check the current CFP and committee page
-rather than carrying names or rules forward. The cost model is registration plus any per-page charge,
-and proceedings go to IEEE Xplore.
+rather than carrying names or rules forward. The cost model is registration (IROS 2026 dropped paid
+extra pages), and proceedings go to IEEE Xplore.
 
 ## The fall-venue rhythm (2026 shape)
 
@@ -20,10 +21,12 @@ IROS is the **fall** IEEE-RAS mega-venue, the seasonal counterpart to ICRA's spr
 edition ran a spring submission into an autumn conference:
 
 - Paper deadline in **early spring** (2026: March 2).
-- Video attachment a few days later (2026: March 5) — a distinct cutoff, not tied to the paper.
+- Video attachment a few days later (2026: March 7 on the dates page, March 5 in the CFP text) — a
+  distinct cutoff, not tied to the paper.
 - A long **summer review silence**, then notification in **mid-June** (2026: June 16).
-- **Camera-ready in July** (2026: July 10), then the conference in **late September/October** (2026:
-  Sept 27 - Oct 1, Pittsburgh).
+- **Camera-ready in July** (2026: July 16, also the author-registration deadline), then the conference
+  in **late September/October** (2026: Sept 27 - Oct 1, Pittsburgh; 2027: Sept 27 - Oct 1, Florence —
+  call not yet published on 2026-11-24).
 
 Knowing you are on the fall calendar changes routing: a project that misses IROS's spring deadline has
 CoRL and the next ICRA as nearer alternatives than waiting a full IROS year.

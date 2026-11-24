@@ -73,7 +73,7 @@ description: Use when the empirical identification strategy is the bottleneck fo
 ## 执行桥（StatsPAI / Stata MCP）
 
 把设计**跑出来并审计**，而不是只做描述。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国农村经济》是三农实证刊，政策评估与微观面板为主；突出识别与选择性偏误处理。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《中国农村经济》是三农实证刊，政策评估与微观面板为主；突出识别与选择性偏误处理。
 
 - `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
 - **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +

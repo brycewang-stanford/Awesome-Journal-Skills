@@ -48,7 +48,7 @@ the set tight: every exhibit must earn its place and the prose should not need i
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). PDR is population studies blending quantitative and policy work; apply the chain to its empirical-causal papers.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). PDR is population studies blending quantitative and policy work; apply the chain to its empirical-causal papers.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

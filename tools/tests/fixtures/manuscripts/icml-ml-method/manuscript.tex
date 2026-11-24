@@ -1,0 +1,323 @@
+% SYNTHETIC BENCHMARK FIXTURE: fictional paper, data and authors.
+\documentclass{article}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{natbib}
+
+\title{Group-Spectrum Alignment: Suppressing Group-Specific Feature Directions for Robustness to Subpopulation Shift}
+\author{Anonymous Authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Classifiers trained by empirical risk minimization (ERM) often rely on spurious features that hold for majority groups and fail on minority groups, so their worst-group accuracy collapses under subpopulation shift. Most remedies either require group labels on the training set or reweight examples without changing what the representation encodes. We propose Group-Spectrum Alignment (GSA), a regularizer that penalizes the Ky Fan $k$-norm of the difference between normalized feature covariances of inferred pseudo-groups, suppressing the few directions whose variance is specific to one group. GSA needs group labels only on the validation split, adds one hyperparameter beyond its strength, and costs about 1.3$\times$ ERM training time. Across Waterbirds, CelebA, MultiNLI and CivilComments, GSA raises mean worst-group accuracy from 61.5\% under ERM to 82.8\%, exceeds the strongest baseline that also avoids training group labels (DFR) by 1.9 points, and is competitive with GroupDRO (81.7\%), which uses training group labels. Ablations show that both error-based pseudo-groups and the restriction to the top-$k$ directions are necessary. Code is available at an anonymous repository.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+A model that classifies bird species by the background behind the bird will look accurate on a test set drawn from the training distribution and fail on the minority of images where waterbirds appear over land. This failure mode, often called shortcut learning \citep{geirhos2020shortcut}, is measured by worst-group accuracy: the accuracy on the hardest group defined by the combination of label and spurious attribute \citep{sagawa2020groupdro}. ERM tends to maximize average accuracy at the expense of these groups, and the gap can exceed thirty points on standard benchmarks.
+
+Existing remedies fall into two families. Methods such as GroupDRO \citep{sagawa2020groupdro} and group-balanced subsampling \citep{idrissi2022simple} use group annotations on every training example, which are expensive and often unavailable. Methods that avoid training group labels, such as Learning from Failure \citep{nam2020lff} and Just Train Twice \citep{liu2021jtt}, infer which examples are hard for a biased model and upweight them, while Deep Feature Reweighting (DFR) \citep{kirichenko2023dfr} retrains only the last layer on a small group-balanced set. Reweighting changes which examples the model attends to but places no direct constraint on what the representation encodes; last-layer retraining leaves the representation fixed. Recent analyses suggest that ERM representations often already contain the core feature and that robustness failures come from how the spurious and core directions are weighted \citep{kirichenko2023dfr,izmailov2022feature}.
+
+We take a complementary approach and regularize the representation itself. Our starting observation is simple: when a model relies on a spurious attribute, the examples it gets wrong and the examples it gets right have feature covariances that differ along a small number of directions, and those directions encode the spurious attribute. Penalizing exactly those directions, rather than all second-order statistics, removes the shortcut while leaving the rest of the representation free to fit the label.
+
+Our contributions are:
+\begin{itemize}
+\item We introduce Group-Spectrum Alignment (GSA), a regularizer that penalizes the Ky Fan $k$-norm of the difference between each pseudo-group's normalized feature covariance and the pooled covariance. GSA uses group labels only on the validation split for model selection.
+\item We evaluate GSA on four standard subpopulation-shift benchmarks against five baselines under an identical tuning budget and validation-only model selection, with five seeds per configuration. GSA raises mean worst-group accuracy from 61.5\% (ERM) to 82.8\%, improves on DFR by 1.9 points on average, and is competitive with GroupDRO, which uses training group labels.
+\item We show through ablations that restricting the penalty to the top-$k$ directions matters: aligning all covariance entries, as in CORAL-style alignment \citep{sun2016coral}, recovers almost none of the gain that the penalty adds over pseudo-group-balanced sampling alone.
+\end{itemize}
+
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Subpopulation shift with group labels.}
+GroupDRO \citep{sagawa2020groupdro} minimizes the worst-group training loss and showed that strong regularization is necessary for the worst-group gains to transfer from training to test. \citet{idrissi2022simple} found that simple subsampling or reweighting by group is competitive when training group labels are available. These methods serve as a reference point in our experiments, but they solve an easier problem than the one we target.
+
+\paragraph{Subpopulation shift without training group labels.}
+Learning from Failure \citep{nam2020lff} trains a deliberately biased model and upweights examples it finds hard. Just Train Twice \citep{liu2021jtt} trains an ERM model for a few epochs, forms an error set, and retrains with the error set upweighted. DFR \citep{kirichenko2023dfr} retrains the last layer of an ERM model on a group-balanced held-out set and is among the strongest methods in this setting. Our group-inference step follows JTT, but the inferred groups are used to define a regularizer rather than sample weights.
+
+\paragraph{Invariance and distribution alignment.}
+Invariant risk minimization \citep{arjovsky2019irm} seeks representations whose optimal classifier is shared across environments, and Deep CORAL \citep{sun2016coral} aligns second-order statistics between source and target domains by matching full covariance matrices. GSA also compares covariances, but across inferred groups within the training set and only along the directions where they differ most. Gradient starvation \citep{pezeshki2021gradient} offers a mechanism for why dominant features crowd out others during training; our penalty can be read as targeting the directions that win this competition for the wrong reason.
+
+\paragraph{Evaluation practice.}
+\citet{gulrajani2021search} showed that much of the reported progress in domain generalization disappears under a fixed model-selection protocol and an equal tuning budget. We adopt their recommendations: all methods share the same search budget, and selection uses only a validation split.
+
+\section{Method}
+\label{sec:method}
+
+\subsection{Setup}
+We observe training examples $(x_i, y_i)$ drawn from a mixture of groups $g \in \mathcal{G}$, where each group is a combination of a class label and an unobserved spurious attribute. A model consists of a feature extractor $f_\theta: \mathcal{X} \to \mathbb{R}^d$ and a linear head $h_w$. Our goal is high worst-group accuracy on a test distribution in which group proportions differ from those in training. Group labels are not observed in training; as in JTT and DFR, they are observed on a validation split, which we use only for model selection and, for DFR, for its last-layer retraining.
+
+\subsection{Pseudo-group inference}
+Following \citet{liu2021jtt}, we first train an ERM model for $T_{\mathrm{id}}$ epochs and record, for each training example, whether it is misclassified. Crossing the error indicator with the class label gives $2C$ pseudo-groups for a $C$-class problem. The identification model is discarded; the main model is trained from the same pretrained initialization. Because misclassified examples under a briefly trained ERM model are disproportionately minority-group examples, the pseudo-groups correlate with the true groups without requiring their labels.
+
+\subsection{The spectral alignment penalty}
+For each pseudo-group $\hat g$ we maintain an estimate $\Sigma_{\hat g}$ of the covariance of projected features $P f_\theta(x)$, where $P \in \mathbb{R}^{r \times d}$ is a fixed random Gaussian projection with $r = 256$, resampled at the start of each epoch. Estimates are updated from each mini-batch with an exponential moving average (momentum $0.9$), with gradients flowing through the current mini-batch term only. We normalize by the trace, $C_{\hat g} = \Sigma_{\hat g} / \mathrm{tr}(\Sigma_{\hat g})$, so that the penalty is insensitive to the overall feature scale, and define the pooled matrix $\bar C$ as the average of the $C_{\hat g}$ with equal weight per pseudo-group.
+
+The GSA penalty is
+\begin{equation}
+R_k(\theta) = \sum_{\hat g} \big\| C_{\hat g} - \bar C \big\|_{(k)},
+\end{equation}
+where $\|A\|_{(k)}$ is the Ky Fan $k$-norm, the sum of the $k$ largest singular values of $A$. Because $C_{\hat g} - \bar C$ is symmetric, its singular values are the absolute values of its eigenvalues, and the gradient is obtained from a single symmetric eigendecomposition of an $r \times r$ matrix. The training objective is
+\begin{equation}
+\min_{\theta, w} \; \frac{1}{n} \sum_{i} \ell\big(h_w(f_\theta(x_i)), y_i\big) + \lambda R_k(\theta),
+\end{equation}
+with mini-batches sampled so that each pseudo-group is equally represented.
+
+\paragraph{Why the top-$k$ directions.}
+The Frobenius norm of $C_{\hat g} - \bar C$, which a CORAL-style objective would penalize, spreads its gradient over all $r^2$ entries. Most of those entries differ across pseudo-groups for benign reasons, for example because minority-group images are rarer and visually more varied. When a model relies on a spurious attribute, the difference between the error-set and correct-set covariances is instead dominated by a handful of directions aligned with that attribute. The Ky Fan norm concentrates the penalty on these directions and leaves the remaining spectrum unconstrained. Section~\ref{sec:ablation} tests this reasoning directly.
+
+\subsection{Relation to existing objectives}
+Two special cases clarify what GSA does and does not do. If $k$ equals the projection dimension $r$, the Ky Fan norm becomes the nuclear norm of the covariance difference, which, like the Frobenius norm used by Deep CORAL, penalizes every direction in which the pseudo-groups differ; our ablations show that this is too blunt. If the pseudo-groups are replaced by the true groups, GSA becomes a representation-level analogue of group-balanced training that constrains features rather than reweighting the loss. GSA differs from JTT in that the error set defines a constraint on the representation rather than an upweighting factor; the two are complementary, and our implementation keeps JTT-style group-balanced sampling, so that the comparison with the penalty-off variant in Section~\ref{sec:ablation} isolates the contribution of the penalty. GSA differs from DFR in that it changes the backbone rather than only the classifier head, which matters when the spurious attribute is entangled with the core feature in the same directions and cannot be separated by reweighting a fixed representation.
+
+\subsection{Cost}
+The eigendecomposition of a $256 \times 256$ matrix per pseudo-group per step adds about 11\% to the wall-clock time of a training step on our hardware. Including the short identification run, GSA costs about 1.3$\times$ ERM training time on all four benchmarks, comparable to JTT, which also trains twice.
+
+\section{Experimental Setup}
+\label{sec:setup}
+
+\paragraph{Datasets.}
+We use four standard benchmarks. Waterbirds \citep{sagawa2020groupdro} pairs bird type with background type. CelebA \citep{liu2015celeba} uses hair color as the label and gender as the spurious attribute, following \citet{sagawa2020groupdro}. MultiNLI \citep{williams2018mnli} uses the entailment label with the presence of negation words as the spurious attribute. CivilComments \citep{borkan2019nuanced}, in the WILDS release \citep{koh2021wilds}, labels comment toxicity with identity mentions as the spurious attribute. We use the standard train, validation and test splits for each.
+
+\paragraph{Models.}
+For the image datasets we fine-tune an ImageNet-pretrained ResNet-50 \citep{he2016resnet}; for the text datasets we fine-tune BERT-base \citep{devlin2019bert}. Every method uses the same backbone, pretrained weights, data augmentation and number of training epochs per dataset.
+
+\paragraph{Baselines.}
+We compare against ERM; Learning from Failure (LfF) \citep{nam2020lff}; Just Train Twice (JTT) \citep{liu2021jtt}; and Deep Feature Reweighting (DFR) \citep{kirichenko2023dfr}, using the variant that retrains the last layer on half of the validation split and selects its regularization strength on the other half. We also report GroupDRO \citep{sagawa2020groupdro} trained with true group labels as a reference that uses strictly more information than the other methods.
+
+\paragraph{Hyperparameter search.}
+Every method, including all baselines, receives the same budget: a random search of 24 configurations per dataset over learning rate, weight decay and the method's own hyperparameters (for GSA, $\lambda \in [0.01, 3]$ on a log scale, $k \in \{1, 2, 4, 8, 16\}$ and $T_{\mathrm{id}} \in \{1, 2, 5\}$ epochs; for baselines, the ranges recommended in their original papers). Search ranges for all methods are listed in the released configuration files.
+
+\paragraph{Model selection.}
+Following the recommendations of \citet{gulrajani2021search}, we select the configuration and the early-stopping epoch for every method by worst-group accuracy on the validation split, which carries group labels. The test split is evaluated once per seed, after selection, with the chosen configuration; no test-set quantity influences any choice.
+
+\paragraph{Implementation details.}
+Image models are trained with SGD with momentum 0.9 for 100 epochs on Waterbirds and 50 epochs on CelebA, at batch size 64; text models are trained with AdamW for 5 epochs on MultiNLI and CivilComments, at batch size 32, with linear learning-rate decay. Projected features are taken from the penultimate layer (the global-pooled ResNet output and the BERT [CLS] representation). The penalty is switched on after one warm-up epoch, during which the moving-average covariances are initialized. For DFR we use the ERM checkpoint selected under the same protocol as the ERM row of the tables, so that DFR and ERM share a backbone. All runs use a single 40GB accelerator; the full experimental grid, including the tuning budget for every baseline, took about 2,900 accelerator-hours.
+
+\paragraph{Statistical reporting.}
+After selection, each method is retrained with five seeds. We report the mean and standard deviation over seeds, and for the main comparison with DFR we use a two-sided paired $t$-test across seeds, pairing runs by seed.
+
+\paragraph{Code.}
+Code, configuration files and per-seed results are available at \url{https://anonymous.4open.science/r/gsa-subpop-3F7C}.
+
+\section{Results}
+\label{sec:results}
+
+\begin{table*}[t]
+\centering
+\caption{Worst-group (WGA) and average (Avg) test accuracy (\%). Mean $\pm$ standard deviation over five seeds. The last column is the mean WGA across the four datasets. GroupDRO uses training group labels and is shown as a reference.}
+\label{tab:main}
+\small
+\begin{tabular}{lccccccccc}
+\toprule
+ & \multicolumn{2}{c}{Waterbirds} & \multicolumn{2}{c}{CelebA} & \multicolumn{2}{c}{MultiNLI} & \multicolumn{2}{c}{CivilComments} & Mean \\
+Method & WGA & Avg & WGA & Avg & WGA & Avg & WGA & Avg & WGA \\
+\midrule
+ERM & 72.4$\pm$1.1 & 97.1$\pm$0.2 & 46.8$\pm$2.0 & 95.6$\pm$0.1 & 67.5$\pm$1.3 & 82.4$\pm$0.2 & 59.2$\pm$1.6 & 92.1$\pm$0.1 & 61.5 \\
+LfF & 77.9$\pm$1.8 & 91.0$\pm$0.6 & 77.2$\pm$1.5 & 86.1$\pm$0.4 & 70.1$\pm$1.4 & 80.8$\pm$0.3 & 58.7$\pm$1.9 & 92.4$\pm$0.2 & 71.0 \\
+JTT & 85.6$\pm$1.0 & 93.3$\pm$0.3 & 81.1$\pm$1.2 & 88.0$\pm$0.3 & 72.6$\pm$0.9 & 78.6$\pm$0.4 & 69.4$\pm$1.1 & 91.1$\pm$0.2 & 77.2 \\
+DFR & 91.8$\pm$0.7 & 93.9$\pm$0.4 & 87.9$\pm$0.9 & 90.6$\pm$0.3 & 73.4$\pm$0.8 & 81.6$\pm$0.2 & 70.5$\pm$0.9 & 87.5$\pm$0.3 & 80.9 \\
+GSA (ours) & \textbf{92.4}$\pm$0.6 & 94.6$\pm$0.3 & \textbf{89.2}$\pm$0.8 & 91.8$\pm$0.3 & 76.3$\pm$0.7 & 81.0$\pm$0.3 & \textbf{73.2}$\pm$0.8 & 89.9$\pm$0.2 & \textbf{82.8} \\
+\midrule
+GroupDRO (group labels) & 91.0$\pm$0.6 & 93.2$\pm$0.3 & 88.6$\pm$1.0 & 92.7$\pm$0.2 & 77.1$\pm$0.6 & 81.3$\pm$0.2 & 70.0$\pm$1.2 & 88.6$\pm$0.3 & 81.7 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\paragraph{Main comparison.}
+Table~\ref{tab:main} reports worst-group and average accuracy for all methods. Averaged over the four datasets, GSA reaches a mean worst-group accuracy of 82.8, compared with 61.5 for ERM, 77.2 for JTT and 80.9 for DFR, the strongest baseline that does not use training group labels. The 1.9-point margin over DFR is not uniform across datasets.
+
+On Waterbirds, the difference from DFR is 0.6 points, which is within one standard deviation of either method, so we do not claim an improvement there. On CelebA the margin is 1.3 points. The gains are clearest on MultiNLI (2.9 points) and CivilComments (2.7 points), where the paired $t$-test across seeds gives $p < 0.01$ in both cases. These are the two text datasets, where the spurious attribute (negation words, identity mentions) is a lexical feature that a fine-tuned encoder represents in a small number of directions, which is the situation the Ky Fan penalty is designed for.
+
+\paragraph{Comparison with group-label methods.}
+GroupDRO, which observes true group labels for every training example, reaches a mean worst-group accuracy of 81.7. GSA is competitive with it on average and on three of the four datasets individually, but GroupDRO remains better on MultiNLI (77.1 versus 76.3). We read this as evidence that error-based pseudo-groups recover most, though not all, of the information carried by true group labels on these benchmarks.
+
+\paragraph{Where the gains come from.}
+On every dataset, the group that limits worst-group accuracy under ERM is the minority group in which the spurious attribute disagrees with the label: waterbirds on land backgrounds, blond-haired men, contradiction pairs without negation words, and non-toxic comments mentioning an identity. GSA leaves the identity of the worst group unchanged on Waterbirds and CelebA but raises its accuracy; on MultiNLI and CivilComments, the worst group under GSA is a different, larger group, and the accuracy spread across groups shrinks from 26.3 points under ERM to 9.8 points under GSA on MultiNLI. We also examined whether GSA simply trades accuracy from the majority groups for the minority ones. On all four datasets, the majority-group accuracy loss under GSA is no larger than under JTT, which upweights the same error set without the penalty.
+
+\paragraph{Combining GSA with last-layer retraining.}
+Because DFR changes only the classifier head and GSA changes the representation, the two can be combined by applying DFR's last-layer retraining to a GSA backbone. This reaches 92.9 on Waterbirds and 76.8 on MultiNLI, small improvements over GSA alone that are within one standard deviation. We report GSA without DFR in Table~\ref{tab:main} to keep the comparison to each baseline one-to-one.
+
+\paragraph{Average accuracy.}
+Like every method that improves worst-group accuracy, GSA gives up some average accuracy relative to ERM: 2.5 points on Waterbirds and 3.8 points on CelebA. Its average accuracy is higher than that of JTT and LfF on all four datasets except CivilComments, where both retain more average accuracy (91.1 and 92.4) at a cost in worst-group accuracy.
+
+\begin{figure}[t]
+\centering
+\fbox{\parbox{0.9\linewidth}{\centering\small [Plot placeholder: top-16 eigenvalues of $C_{\hat g} - \bar C$ for the error and correct pseudo-groups, ERM versus GSA, Waterbirds.]}}
+\caption{Spectrum of the difference between pseudo-group and pooled normalized covariances on Waterbirds, for ERM and GSA features. Under ERM, the first two eigenvalues dominate; GSA flattens them while leaving the tail essentially unchanged.}
+\label{fig:spectrum}
+\end{figure}
+
+\paragraph{What the penalty changes.}
+Figure~\ref{fig:spectrum} plots the leading eigenvalues of $C_{\hat g} - \bar C$ for the error pseudo-group on Waterbirds. Under ERM the Ky Fan 4-norm of this difference is 0.41, and the first two directions account for most of it. Under GSA it falls to 0.07. A linear probe trained on ERM features to predict the background attribute reaches 94.0\% accuracy from the projection onto those two directions alone; on GSA features the same probe reaches 61.2\%, close to the 50\% chance rate for this balanced probe set. The penalty thus removes linearly decodable background information concentrated in a few directions, consistent with the motivation in Section~\ref{sec:method}.
+
+\section{Ablations and Sensitivity}
+\label{sec:ablation}
+
+\begin{table}[t]
+\centering
+\caption{Ablations of GSA. Worst-group test accuracy (\%), mean $\pm$ standard deviation over five seeds. Each variant is tuned with the same 24-configuration budget and selected on validation worst-group accuracy.}
+\label{tab:ablation}
+\small
+\begin{tabular}{lcc}
+\toprule
+Variant & Waterbirds & MultiNLI \\
+\midrule
+GSA (full, Ky Fan $k$-norm) & 92.4$\pm$0.6 & 76.3$\pm$0.7 \\
+Random pseudo-groups & 78.9$\pm$1.9 & 69.0$\pm$1.2 \\
+Frobenius alignment (all directions) & 86.7$\pm$1.1 & 72.8$\pm$0.9 \\
+Eigenvalues only (no eigenvectors) & 81.5$\pm$1.4 & 70.2$\pm$1.0 \\
+Mini-batch covariance (no EMA) & 89.8$\pm$1.0 & 74.9$\pm$0.9 \\
+Penalty off ($\lambda = 0$), balanced sampling & 86.1$\pm$1.2 & 72.9$\pm$0.9 \\
+\midrule
+True training group labels (oracle) & 93.0$\pm$0.5 & 77.4$\pm$0.6 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:ablation} isolates the components of GSA on one image and one text dataset.
+
+\paragraph{Pseudo-groups.}
+Replacing error-based pseudo-groups with a random partition of the same sizes reduces worst-group accuracy to 78.9 on Waterbirds and 69.0 on MultiNLI, close to or below JTT. The penalty is only useful when the groups it compares differ in the spurious attribute. Supplying the true training group labels instead raises accuracy only slightly (93.0 and 77.4), so the pseudo-groups are a good substitute on these datasets.
+
+\paragraph{Which directions to align.}
+Penalizing the Frobenius norm of the same covariance differences, which corresponds to aligning all directions as in Deep CORAL, reaches 86.7 and 72.8: better than ERM but well short of the full method, and on Waterbirds barely above the variant with the penalty switched off (86.1), which keeps only the pseudo-group-balanced sampling. Matching only eigenvalues while ignoring eigenvectors performs worse still (81.5 and 70.2), because two groups can have the same spectrum with the dominant variance pointing in different directions.
+
+\paragraph{Covariance estimation.}
+Using the current mini-batch covariance instead of the moving average costs 2.6 points on Waterbirds, where minority-group examples are rare and a single mini-batch gives a noisy estimate of the error-group covariance.
+
+\begin{table}[t]
+\centering
+\caption{Sensitivity of GSA to the number of aligned directions $k$ and the penalty strength $\lambda$ on Waterbirds. Worst-group test accuracy (\%), mean over five seeds. The configuration chosen by validation worst-group accuracy is $k = 4$, $\lambda = 0.3$.}
+\label{tab:sensitivity}
+\small
+\begin{tabular}{lccc}
+\toprule
+ & $\lambda = 0.1$ & $\lambda = 0.3$ & $\lambda = 1.0$ \\
+\midrule
+$k = 1$ & 88.1 & 89.6 & 87.4 \\
+$k = 2$ & 90.3 & 91.5 & 89.9 \\
+$k = 4$ & 91.2 & 92.4 & 91.0 \\
+$k = 8$ & 90.8 & 91.9 & 90.6 \\
+$k = 16$ & 89.0 & 90.2 & 88.3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Sensitivity.}
+Table~\ref{tab:sensitivity} reports test worst-group accuracy over a grid of $k$ and $\lambda$ on Waterbirds; these numbers are reported for analysis only and were not used for selection. All fifteen settings exceed JTT (85.6), and every setting with $k$ between 2 and 8 exceeds 89.8. Performance degrades gracefully at both ends: $k = 1$ misses part of the spurious subspace, while $k = 16$ begins to penalize benign differences between groups. The validation-selected setting coincides with the best test setting on this dataset, which we do not expect in general.
+
+\section{Limitations}
+\label{sec:limitations}
+
+GSA inherits the main weakness of error-based group inference: if a briefly trained ERM model does not make its errors on the minority groups, the pseudo-groups carry little information, as the random-partition ablation shows. This is likely on datasets where the spurious attribute is harder to learn than the core feature. GSA also depends on a validation split with group labels for model selection, as do JTT and DFR; without one, worst-group accuracy cannot be estimated, and selecting on average validation accuracy is known to favor ERM-like configurations. Our experiments cover two backbones and four benchmarks with binary or ternary labels; the cost of one eigendecomposition per pseudo-group grows with the number of classes, and we have not tested problems with hundreds of classes. Finally, all four benchmarks define groups by a single known spurious attribute; shifts with several interacting attributes are not covered.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+We introduced Group-Spectrum Alignment, a representation-level regularizer for subpopulation shift that aligns the leading directions of pseudo-group feature covariances. Under a shared tuning budget and validation-only model selection, it improves mean worst-group accuracy over the strongest group-label-free baseline and is competitive with a method that uses training group labels. Our evidence is limited to subpopulation shift defined by a single spurious attribute; whether the same penalty helps under domain shift or covariate shift without group structure is an open question that our experiments do not address.
+
+\section*{Impact Statement}
+
+This work aims to make classifiers less dependent on spurious correlations, which can improve performance for under-represented groups. Two of our benchmarks define groups by demographic attributes (gender in CelebA and identity mentions in CivilComments). Higher worst-group accuracy on these benchmarks does not establish fairness in deployment: real populations contain groups not annotated in any benchmark, and a method that improves the worst annotated group can still fail on unannotated ones. Practitioners should evaluate on the groups relevant to their own application. We do not foresee direct negative uses specific to this method beyond those of classification models in general.
+
+\section*{AI Disclosure Statement}
+
+We used a general-purpose large language model to copy-edit the related-work and limitations sections and to suggest wording for table captions. All edits were reviewed by the authors. No language model was used to design the method, run experiments, analyse results, or generate figures, and the authors take full responsibility for the content.
+
+\begin{thebibliography}{99}
+
+\bibitem[Arjovsky et~al.(2019)]{arjovsky2019irm}
+Arjovsky, M., Bottou, L., Gulrajani, I., and Lopez-Paz, D. (2019).
+Invariant risk minimization.
+\textit{arXiv preprint arXiv:1907.02893}.
+
+\bibitem[Borkan et~al.(2019)]{borkan2019nuanced}
+Borkan, D., Dixon, L., Sorensen, J., Thain, N., and Vasserman, L. (2019).
+Nuanced metrics for measuring unintended bias with real data for text classification.
+In \textit{Companion Proceedings of the 2019 World Wide Web Conference}.
+
+\bibitem[Devlin et~al.(2019)]{devlin2019bert}
+Devlin, J., Chang, M.-W., Lee, K., and Toutanova, K. (2019).
+BERT: Pre-training of deep bidirectional transformers for language understanding.
+In \textit{Proceedings of NAACL-HLT}.
+
+\bibitem[Geirhos et~al.(2020)]{geirhos2020shortcut}
+Geirhos, R., Jacobsen, J.-H., Michaelis, C., Zemel, R., Brendel, W., Bethge, M., and Wichmann, F.~A. (2020).
+Shortcut learning in deep neural networks.
+\textit{Nature Machine Intelligence}, 2:665--673.
+
+\bibitem[Gulrajani and Lopez-Paz(2021)]{gulrajani2021search}
+Gulrajani, I. and Lopez-Paz, D. (2021).
+In search of lost domain generalization.
+In \textit{International Conference on Learning Representations}.
+
+\bibitem[He et~al.(2016)]{he2016resnet}
+He, K., Zhang, X., Ren, S., and Sun, J. (2016).
+Deep residual learning for image recognition.
+In \textit{Proceedings of CVPR}.
+
+\bibitem[Idrissi et~al.(2022)]{idrissi2022simple}
+Idrissi, B.~Y., Arjovsky, M., Pezeshki, M., and Lopez-Paz, D. (2022).
+Simple data balancing achieves competitive worst-group-accuracy.
+In \textit{Conference on Causal Learning and Reasoning}.
+
+\bibitem[Izmailov et~al.(2022)]{izmailov2022feature}
+Izmailov, P., Kirichenko, P., Gruver, N., and Wilson, A.~G. (2022).
+On feature learning in the presence of spurious correlations.
+In \textit{Advances in Neural Information Processing Systems}.
+
+\bibitem[Kirichenko et~al.(2023)]{kirichenko2023dfr}
+Kirichenko, P., Izmailov, P., and Wilson, A.~G. (2023).
+Last layer re-training is sufficient for robustness to spurious correlations.
+In \textit{International Conference on Learning Representations}.
+
+\bibitem[Koh et~al.(2021)]{koh2021wilds}
+Koh, P.~W., Sagawa, S., Marklund, H., Xie, S.~M., Zhang, M., Balsubramani, A., Hu, W., Yasunaga, M., Phillips, R.~L., Gao, I., et~al. (2021).
+WILDS: A benchmark of in-the-wild distribution shifts.
+In \textit{International Conference on Machine Learning}.
+
+\bibitem[Liu et~al.(2021)]{liu2021jtt}
+Liu, E.~Z., Haghgoo, B., Chen, A.~S., Raghunathan, A., Koh, P.~W., Sagawa, S., Liang, P., and Finn, C. (2021).
+Just train twice: Improving group robustness without training group information.
+In \textit{International Conference on Machine Learning}.
+
+\bibitem[Liu et~al.(2015)]{liu2015celeba}
+Liu, Z., Luo, P., Wang, X., and Tang, X. (2015).
+Deep learning face attributes in the wild.
+In \textit{Proceedings of ICCV}.
+
+\bibitem[Nam et~al.(2020)]{nam2020lff}
+Nam, J., Cha, H., Ahn, S., Lee, J., and Shin, J. (2020).
+Learning from failure: Training debiased classifier from biased classifier.
+In \textit{Advances in Neural Information Processing Systems}.
+
+\bibitem[Pezeshki et~al.(2021)]{pezeshki2021gradient}
+Pezeshki, M., Kaba, S.-O., Bengio, Y., Courville, A., Precup, D., and Lajoie, G. (2021).
+Gradient starvation: A learning proclivity in neural networks.
+In \textit{Advances in Neural Information Processing Systems}.
+
+\bibitem[Sagawa et~al.(2020)]{sagawa2020groupdro}
+Sagawa, S., Koh, P.~W., Hashimoto, T.~B., and Liang, P. (2020).
+Distributionally robust neural networks for group shifts: On the importance of regularization for worst-case generalization.
+In \textit{International Conference on Learning Representations}.
+
+\bibitem[Sun and Saenko(2016)]{sun2016coral}
+Sun, B. and Saenko, K. (2016).
+Deep CORAL: Correlation alignment for deep domain adaptation.
+In \textit{ECCV 2016 Workshops}.
+
+\bibitem[Williams et~al.(2018)]{williams2018mnli}
+Williams, A., Nangia, N., and Bowman, S.~R. (2018).
+A broad-coverage challenge corpus for sentence understanding through inference.
+In \textit{Proceedings of NAACL-HLT}.
+
+\end{thebibliography}
+
+\end{document}

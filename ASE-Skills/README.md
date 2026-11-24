@@ -6,16 +6,17 @@ analysis, testing, synthesis, repair, comprehension, and the two-way street of A
 pack covers the full arc of an ASE campaign: deciding whether a project is ASE-shaped (an
 automation) or belongs at ICSE, FSE, ISSTA, a PL venue, or an SE journal; building an evaluation
 that survives an automated-SE reviewer's audit; packaging the double-anonymous HotCRP submission
-with its mandatory Data Availability Statement; navigating the **early-rejection gate**, the
-rebuttal, and the criteria-bound **Revision** round; and delivering a camera-ready plus an
-ACM-badged artifact indexed in both IEEE Xplore and the ACM Digital Library.
+with its required Data Availability section; navigating the **early-rejection gate**, the
+rebuttal, and the criteria-bound **Major revision** round; and delivering a camera-ready plus an
+ACM-badged artifact in the dual IEEE/ACM-sponsored proceedings.
 
-Official basis checked on **2026-07-09**: the ASE 2026 (Munich) and ASE 2025 (Seoul) research-track
-calls and Important Dates pages, the ASE HotCRP sites, the ACM Artifact Review and Badging policy,
-and the ASE Most Influential Paper award pages. Direct fetches of `conf.researchr.org` returned 403
-in the verification environment, so official pages were read via search-engine renderings of the
-exact URLs and cross-checked against dblp (ASE proceedings under the historical series key
-`conf/kbse`), the ACM Digital Library, IEEE Xplore, and the ASE HotCRP sites; the full trail,
+Official basis: the pack now targets **ASE 2027** (42nd edition, El Paso, Texas, October 24-28,
+2027), whose research-track call, Important Dates and organizing committee were **re-verified on
+2026-11-24** by direct fetch of `conf.researchr.org`. The ASE 2026 (Munich) and ASE 2025 (Seoul)
+pages, the ASE HotCRP sites, the ACM Artifact Review and Badging policy, and the ASE Most
+Influential Paper award pages were checked on 2026-07-09 (then via search-engine renderings,
+because `conf.researchr.org` returned 403) and cross-checked against dblp (ASE proceedings under
+the historical series key `conf/kbse`), the ACM Digital Library and IEEE Xplore; the full trail,
 including everything still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
@@ -25,26 +26,26 @@ including everything still marked 待核实, is in
 
 ## What makes ASE different from its siblings
 
-These venue mechanics, verified for the 2025/2026 cycles, drive most of the advice in the skills —
+These venue mechanics, verified for the 2026/2027 cycles, drive most of the advice in the skills —
 and most of the mistakes made by authors arriving from ICSE, FSE, ISSTA, or an ML venue:
 
 - **The contribution is an *automation*.** ASE rewards a technique or tool that automates an SE task,
   evaluated on real subjects — not a broad empirical finding (which leans FSE), a testing-theory
   result (ISSTA), or a model advance (an ML venue). The model-swap test decides borderline cases.
-- **Dual IEEE/ACM sponsorship, dual proceedings.** ASE is jointly sponsored by IEEE and ACM SIGSOFT,
-  and accepted papers are indexed in **both IEEE Xplore and the ACM Digital Library** — unlike
-  ACM-only FSE/PACMSE.
+- **Dual IEEE/ACM sponsorship.** ASE is jointly sponsored by IEEE and ACM SIGSOFT — unlike ACM-only
+  FSE/PACMSE — and the publisher of record alternates: the ACM Digital Library for ASE 2026, the
+  **IEEE Digital Library** for ASE 2027.
 - **A template that follows the sponsorship.** Because of the dual sponsorship, the mandated format
-  has varied by edition (IEEE two-column vs. ACM `acmart`). ASE 2026 requires the ACM Primary
-  Article Template — `\documentclass[sigconf,review,anonymous]{acmart}`. Confirm per cycle; do not
-  carry an old habit over.
-- **A 10+2 page budget with a mandatory Data Availability Statement.** 10 pages for all content plus
-  2 for references only; the Data Availability Statement sits after the Conclusions and counts
-  inside the 10 pages. Accepted papers get one extra content page.
+  flips by edition. ASE 2027 requires the IEEE conference format —
+  `\documentclass[10pt,conference]{IEEEtran}` without compsoc (24pt title, 10pt text); ASE 2026 used
+  ACM `acmart` sigconf. Confirm per cycle; do not carry last year's habit over.
+- **A 10+2 page budget with a Data Availability section.** 10 pages for all content plus up to 2
+  for references and the Data Availability section, which sits after the Conclusion (ASE 2027; in
+  2026 it counted inside the 10 pages). Accepted papers get one extra content page (11 + 2).
 - **An early-rejection gate before rebuttal.** Papers with uniformly negative initial scores are
   rejected before the rebuttal period — a fast answer and a filter that concentrates rebuttal effort.
-- **A criteria-bound Revision round.** First outcomes are Accept, **Revision**, or Reject. A Revision
-  fixes concrete, actionable criteria in advance; reviewers accept in principle if they are met, and
+- **A criteria-bound Major revision round.** Outcomes are Accept, **Major revision** (called
+  "Revision" in 2026), or Reject. A Major revision fixes concrete, actionable criteria in advance; reviewers accept in principle if they are met, and
   authors return a revised paper with a point-by-point summary of changes.
 - **Co-located tracks: NIER, Tools-and-Datasets, Journal-First.** New Ideas and Emerging Results (4
   pages), tool demonstrations (≤4 pages), and a Journal-First path for TSE/TOSEM/EMSE work.
@@ -61,7 +62,7 @@ and most of the mistakes made by authors arriving from ICSE, FSE, ISSTA, or an M
 | [`ase-reproducibility`](skills/ase-reproducibility/SKILL.md) | Build the open-science story: the mandatory Data Availability Statement, anonymized-but-runnable tools, pinned provenance, cached LLM outputs. |
 | [`ase-supplementary`](skills/ase-supplementary/SKILL.md) | Split content between the 10 reviewed pages and the artifact by decision-criticality — nothing that decides acceptance lives outside the body. |
 | [`ase-submission`](skills/ase-submission/SKILL.md) | Final HotCRP audit: template and 10+2 budget, the double-anonymous sweep (incl. tool names), the Data Availability Statement, desk-risk triage. |
-| [`ase-review-process`](skills/ase-review-process/SKILL.md) | Model the pipeline — double-anonymous review, the early-rejection gate, Accept/Revision/Reject, the criteria-bound revision — and where author leverage exists. |
+| [`ase-review-process`](skills/ase-review-process/SKILL.md) | Model the pipeline — double-anonymous review, the early-rejection gate, Accept/Major revision/Reject, the criteria-bound revision — and where author leverage exists. |
 | [`ase-author-response`](skills/ase-author-response/SKILL.md) | Write both turns: the rebuttal that first survives the early-rejection gate and the revision summary-of-changes that maps every criterion to a change. |
 | [`ase-artifact-evaluation`](skills/ase-artifact-evaluation/SKILL.md) | Convert the accepted paper's tool into ACM Artifacts Available / Reusable badges on the artifact track's own deadline. |
 | [`ase-camera-ready`](skills/ase-camera-ready/SKILL.md) | De-anonymize systematically, spend the extra page on feedback, permanentize the Data Availability link, and pass dual IEEE-Xplore/ACM-DL production checks. |
@@ -70,7 +71,7 @@ and most of the mistakes made by authors arriving from ICSE, FSE, ISSTA, or an M
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Ten sources with URLs and access dates; verified 2025/2026 facts; the access-method note; the explicit 待核实 list. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Fourteen sources with URLs and access dates; verified ASE 2027 facts; the access-method note; the explicit 待核实 list. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces plus cross-check sources for when the gateway blocks a direct fetch, and author-side verification passes. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five archival-verified ASE papers across five contribution shapes — Most Influential Paper honorees — with self-check questions. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional flaky-test-repair tool's abstract and introduction rebuilt to the ASE arc, before → after. |
@@ -130,30 +131,34 @@ ASE-Skills/
    and any Revision round, then `ase-artifact-evaluation` and `ase-camera-ready` — or the routing
    table in `ase-topic-selection` if the decision goes the other way.
 
-## 2025/2026-cycle anchor facts (historical snapshot, not permanent rules)
+## ASE 2027 anchor facts (cycle snapshot, not permanent rules)
 
-- ASE 2026 is the **41st** edition: Munich, Germany, **October 12-16, 2026**. Research submission
-  **26 March 2026**; notification **25 May 2026**; portal `ase26.hotcrp.com`. As of 2026-07-09 the
-  notification has passed, so ASE 2027 is the next submission target (host/dates 待核实).
-- ASE 2025 was the **40th** edition: Seoul, Republic of Korea, **November 16-20, 2025**.
-- Format: **ACM Primary Article Template** (`\documentclass[sigconf,review,anonymous]{acmart}` for
-  2026); **10 pages** content **+ 2** reference pages; **mandatory Data Availability Statement** after
-  Conclusions. Review: **double-anonymous**, with an **early-rejection gate** before rebuttal and
-  **Accept / Revision / Reject** outcomes. Proceedings: **IEEE Xplore and the ACM Digital Library**.
+- ASE 2027 is the **42nd** edition: El Paso, Texas, USA, **October 24-28, 2027**. Paper submission
+  **10 March 2027**; early-rejection notification **19 May 2027**; author response **19-24 May
+  2027**; initial notification **10 June 2027**; major-revision submission **8 July 2027**; final
+  notification **27 July 2027**; camera-ready **11 August 2027** (AoE); portal `ase2027.hotcrp.com`.
+  Program Co-Chairs Jie M. Zhang and Aldeida Aleti; General Chair Marcelo F. Frias.
+- Format: **IEEE conference template** (`\documentclass[10pt,conference]{IEEEtran}`); **10 pages**
+  content **+ 2** pages of references and the **Data Availability** section (after the Conclusion).
+  Review: **double-anonymous**, with an **early-rejection gate** before rebuttal and
+  **Accept / Major revision / Reject** outcomes. Generative AI: IEEE policy (disclose AI-generated
+  content in the acknowledgments). Publication of record: **IEEE Digital Library**.
+- History: ASE 2026 was the **41st** edition, Munich, Germany, **October 12-16, 2026** (ACM `acmart`
+  template, `ase26.hotcrp.com`); ASE 2025 was the **40th**, Seoul, **November 16-20, 2025**.
 
 ## Fact discipline
 
 This pack separates three classes of statement, and the skills are written to keep them
 distinguishable:
 
-1. **Verified 2025/2026 facts** — carry dates/budgets and trace to a numbered source in the source
-   map (e.g., the 10+2 budget, the ACM `acmart` requirement, the early-rejection gate, the
+1. **Verified 2026/2027 facts** — carry dates/budgets and trace to a numbered source in the source
+   map (e.g., the 10+2 budget, the IEEEtran requirement for 2027, the early-rejection gate, the
    Available/Reusable badges).
 2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., the ASE 2025
    acceptance rate reported by a community tracker).
-3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the ASE 2026 abstract
-   deadline, the full Program Co-Chair roster, ASE 2027 host/dates, whether Functional/Reproduced
-   badges are offered, any AI-use disclosure policy).
+3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the ASE 2027 abstract
+   deadline, the 2027 NIER/Tools/Journal-First/artifact calls, whether 2027 papers are also indexed
+   in the ACM DL, whether Functional/Reproduced badges are offered).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it
 against the live official pages.

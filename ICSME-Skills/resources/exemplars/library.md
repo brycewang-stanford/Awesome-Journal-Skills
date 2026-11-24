@@ -79,7 +79,8 @@ the self-check question before claiming your paper is "ICSME-shaped."
   belief that duplicate bug reports are purely wasteful.
   - **Why it is an exemplar:** it **interrogates an assumption the maintenance community relied on**
     and reports a counter-intuitive, evidence-backed answer — the ICSME mode of honest re-examination
-    that the modern **RENE** track institutionalizes.
+    that the **RENE** track institutionalized (through 2026; ICSME 2027 lists no RENE track and
+    evaluates replicability inside the research track).
   - **Self-check:** does your paper strengthen or overturn a widely held maintenance belief, with an
     analysis whose data and confounds are laid out explicitly?
 
@@ -108,7 +109,7 @@ the self-check question before claiming your paper is "ICSME-shaped."
 
 > Five verified papers across five contribution shapes. Four carry ICSME Most Influential Paper
 > recognition, and the Bettenburg row also models the venue's prized "question the assumption" mode
-> that the RENE track now rewards directly.
+> that the RENE track rewarded directly through 2026.
 
 ---
 

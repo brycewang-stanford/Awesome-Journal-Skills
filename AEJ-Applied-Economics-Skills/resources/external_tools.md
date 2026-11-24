@@ -61,8 +61,8 @@ pages before use.
 | IV / shift-share | first-stage strength, exclusion, exposure design | `ivreg2`, `weakivtest`, shift-share diagnostics |
 
 ## 4. Figures & tables (AEA house rules)
-- AEA permits **significance stars** but **expects standard errors** in
-  parentheses; report the dependent-variable mean and the clustering level in
+- The AEJ: Applied style guide says **do not use asterisks** for significance;
+  report **standard errors** in parentheses; report the dependent-variable mean and the clustering level in
   self-contained notes.
 - Lead with the design's signature figure (event-study with CIs, RD with density,
   balance with joint test); avoid chartjunk; vector output preferred for finals.
@@ -78,8 +78,8 @@ pages before use.
 | Item | Note |
 |------|------|
 | Submission portal | AEA ScholarOne system; main PDF + supplemental appendix as needed |
-| Review | Single-blind; author identities are visible to referees |
-| Front matter | Title/byline/affiliations on first page; JEL codes; abstract of 100 or fewer words |
+| Review | Submissions must be author-anonymized (AEA three-year RCT of author-anonymized review, launched fall 2026); the editorial-policy page still describes single-blind review |
+| Front matter | Title + abstract on the first page of the anonymized PDF; names/affiliations/acknowledgement footnote in a separate "title page" PDF; abstract of 100 or fewer words; JEL codes customary |
 | Submission fee | AEA member/nonmember and country-income fee tiers; rejected-without-review papers receive a 50 percent refund |
 | Publication fee | USD 15 per typeset page for accepted papers first submitted on or after 1 February 2024 |
 | Replication deposit | AEA Data and Code Repository on openICPSR; Data Editor reproducibility check **before** publication |

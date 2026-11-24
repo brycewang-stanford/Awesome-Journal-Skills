@@ -16,11 +16,11 @@ description: Use as the final preflight before submitting to Science (AAAS) — 
 ### Significance & framing
 - [ ] Clears the broad-significance / general-interest bar (`sci-fit` rung ≥ 3).
 - [ ] One-sentence advance present and demonstrated (not asserted).
-- [ ] Title is declarative, specific, < ~90 characters.
+- [ ] Title is declarative, specific, ≤96 characters including spaces (official maximum; shorter is better).
 
 ### Format & length
-- [ ] Format chosen (Report ~2,500 w / ≤4 items, or Research Article ~4,500 w / ≤6 items).
-- [ ] Main-text word count within budget; Methods in Supplementary (for Reports).
+- [ ] Format chosen (Research Article standard ≤3,000 w / 3–5 items / ~50 refs, or extended online format ≤6,000 w / ≤6 items / ≤100 refs, justified in the cover letter).
+- [ ] Main-text word count within budget; Materials and Methods in Supplementary Materials.
 - [ ] Results ordered by argument, claim-first paragraphs.
 
 ### Abstract & summary
@@ -87,6 +87,28 @@ Use this as a second-pass capability check. First lock the broad discovery claim
 【Verdict】 GO / NO-GO + the top 3 fixes
 【Next】 submit | sci-rebuttal (after decision)
 ```
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue science-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

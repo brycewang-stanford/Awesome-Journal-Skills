@@ -10,10 +10,10 @@ referenced here - wrong toolchain for log-driven mining work.)
 
 | Piece | Path |
 | --- | --- |
-| Kit overview | [`../../../shared-resources/ml-conference-methods/README.md`](../../../shared-resources/ml-conference-methods/README.md) |
-| Experiment matrix template | [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../../../shared-resources/ml-conference-methods/experiment-matrix.md) |
-| Artifact checklist | [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md) |
-| Package smoke checker | [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py) |
+| Kit overview | [`../../../shared-resources/ml-conference-methods/README.md`](../shared/ml-conference-methods/README.md) |
+| Experiment matrix template | [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../shared/ml-conference-methods/experiment-matrix.md) |
+| Artifact checklist | [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md) |
+| Package smoke checker | [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py) |
 
 ```bash
 # run the structural smoke check on the anonymous repo before the PDF cites it

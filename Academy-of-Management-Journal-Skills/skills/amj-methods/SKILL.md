@@ -41,7 +41,7 @@ State the level for theory, measurement, and analysis, and keep them aligned. If
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full
-map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AMJ is empirical management — panel, multilevel, DiD, IV, and field/lab experiments; the chain below serves that lane, while grounded-theory / qualitative work uses its own standards.
+map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AMJ is empirical management — panel, multilevel, DiD, IV, and field/lab experiments; the chain below serves that lane, while grounded-theory / qualitative work uses its own standards.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

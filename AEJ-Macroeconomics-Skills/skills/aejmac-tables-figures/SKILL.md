@@ -28,20 +28,20 @@ AEJ: Macro follows **AEA house style** (applied by the AEA at copyediting; the s
 ## Table conventions
 
 - Report the **economic quantity**, not just raw coefficients — e.g., the multiplier, the elasticity, the implied share — with its SE/band.
-- AEA tables conventionally use **significance stars**; AEJ: Macro accepts them, but the **standard error / band must be present** and must carry the inference (do not let stars substitute for a reported SE). Note significance levels in the table note.
+- **No significance stars.** The AEJ: Macro style guide says "Do not use asterisks to denote significance of estimation results. Report the standard errors in parentheses" (re-verified 2026-11-24). The **standard error / band** carries the inference; tables are at most 9 columns wide including row headings.
 - One decisive number per row; align decimals; units in the column header or note.
 - Targeted-vs-untargeted-moment tables: clearly flag which moments were matched.
-- Notes carry: sample, frequency, estimator, inference (HAC/cluster), and what an asterisk means.
+- Notes carry: sample, frequency, estimator, and inference (HAC/cluster) — what the parentheses and bands report.
 
 ## Main text vs. online appendix
 
-- Main text: the **decisive** IRFs, the headline table, the model-fit figure. AEJ: Macro articles run ~40 pages including exhibits (检索于 2026-06；以官网为准), so exhibits compete for space.
+- Main text: the **decisive** IRFs, the headline table, the model-fit figure. AEJ: Macro's recommended maximum is 40 pages at 11-point (45 at 12-point) including exhibits, references, and appendices (检索于 2026-11-24；以官网为准), so exhibits compete for space.
 - Online appendix: full robustness IRFs, additional moments, alternative specifications, derivations.
 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id` — one variable definition, one set of numbers, body and appendix in sync.
@@ -57,7 +57,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 - [ ] Sign-restricted responses shown as a set/median-target, not a fake point estimate
 - [ ] Model-fit figure (data vs. model, targeted + untargeted) present for quantitative papers
 - [ ] Tables report the macro quantity with its SE/band; notes give sample/estimator/inference
-- [ ] Significance stars (if used) accompany, not replace, reported SEs
+- [ ] No significance asterisks; standard errors in parentheses (AEA style guide)
 - [ ] Each exhibit is self-contained (decodable without the body text)
 - [ ] Decisive exhibits in main text; the rest in the online appendix; figures vector + grayscale-legible
 
@@ -66,7 +66,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 - IRFs with no confidence bands, or bands whose level is never stated
 - Sign-restricted IRFs drawn as a single line, hiding set-identification
 - Tables of raw VAR coefficients with no impulse responses or implied quantity
-- Stars reported but standard errors omitted
+- Significance stars in tables (the AEA style guide prohibits them), or stars with standard errors omitted
 - A model "matches the data" claimed in prose with no overlay figure
 - Exhibits readable only with a magnifying glass after the AEA's two-column typesetting
 
@@ -76,7 +76,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 【Exhibit inventory】IRFs / fan charts / model-fit / counterfactual / tables
 【IRF compliance】bands+level / horizon axis / zero line / set-vs-point? [Y/N]
 【Quantity legibility】headline number readable off each exhibit? [Y/N]
-【Table compliance】SE/band present; notes complete; stars don't replace SEs? [Y/N]
+【Table compliance】SE/band present; notes complete; no significance stars? [Y/N]
 【Main vs. appendix split】decisive in text, rest in online appendix? [Y/N]
 【Next step】aejmac-writing-style
 ```

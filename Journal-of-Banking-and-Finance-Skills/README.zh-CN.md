@@ -6,7 +6,7 @@ Elsevier 旗下金融期刊，重点覆盖银行、金融中介、资本市场�
 本包适合处理实证银行与金融论文，也兼容有扎实理论基础的金融研究。它覆盖从选题适配、
 文献定位、识别策略、数据分析、表格图形，到 Editorial Manager 投稿和 R&R 回复的完整流程。
 核心政策事实已于 2026-06-20 以 ScienceDirect / Elsevier 官方页面刷新：Editorial Manager
-投稿、350 美元 unsolicited-manuscript 投稿费、双匿名审稿、250 词摘要、必需的数据声明 /
+投稿、350 美元 unsolicited-manuscript 投稿费、双匿名审稿、150 词摘要、必需的数据声明 /
 Option C data deposit-or-explain 政策，以及现任 Managing Editor Christa Bouwman。
 
 ## 技能列表

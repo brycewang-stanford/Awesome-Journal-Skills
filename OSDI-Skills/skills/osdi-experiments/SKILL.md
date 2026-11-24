@@ -6,8 +6,9 @@ description: Use when designing or auditing the evaluation of an OSDI submission
 # OSDI Experiments
 
 Design the evaluation as the paper's proof obligation. The page constraints referenced
-here are OSDI '26 rules (12 reviewed pages, no appendices at submission — verified
-2026-07-08); the evidence standards are the durable expectations of systems PCs.
+here are OSDI '27 rules (12 reviewed pages, no appendices in the PDF, optional
+supplementary files reviewers need not read — re-verified 2026-11-24); the evidence
+standards are the durable expectations of systems PCs.
 
 ## Research questions first
 
@@ -25,7 +26,7 @@ experiment set from them. Every OSDI evaluation ultimately answers versions of:
 
 An evaluation organized as RQ1–RQ4 with one experiment cluster each reads as an
 argument; a tour of every benchmark you happened to run reads as padding, which the
-OSDI '26 CFP explicitly invites reviewers to down-rank.
+OSDI '26 CFP explicitly invited reviewers to down-rank.
 
 ## Baselines that fight back
 
@@ -40,7 +41,8 @@ The baseline question decides more OSDI reviews than any other. Standards:
   system plus more hardware is the real alternative, and the paper is stronger for
   pricing it.
 - Version, configuration, and tuning of every baseline belong in the paper. Under the
-  no-appendix rule this is body text — budget for it.
+  no-appendix rule this is body text — budget for it (the full tuning log can also go in
+  a supplementary file, but reviewers need not open it).
 
 ## Workload realism
 
@@ -78,11 +80,12 @@ redefinition under pressure is how flattering choices happen.
 
 ## Fitting evidence into 12 pages
 
-With no appendix at submission, the evaluation must be self-sufficient and compact:
+With no appendix in the PDF, the evaluation must be self-sufficient and compact:
 
 - One figure or table per research question, each with a caption stating its takeaway.
 - Cut experiments that do not serve an RQ, even if they took weeks — the accepted-paper
-  14-page budget (plus appendices) can resurrect them later (`osdi-camera-ready`).
+  14-page budget (plus references) can resurrect them later, and an extended sweep can
+  sit in the optional supplementary file meanwhile (`osdi-camera-ready`).
 - Keep the setup paragraph brutal: hardware, topology, versions, workloads, runs — in
   one place, once (`osdi-reproducibility` owns the full ledger).
 
@@ -104,7 +107,7 @@ without consulting legends.
 
 ## Review-time exposure
 
-The evaluation objections you cannot rebut (no response period in 2026) are the
+The evaluation objections you cannot rebut (no response period in '26 or '27) are the
 predictable ones: weak baseline, unrealistic workload, missing cost measurement, and
 average-only latency. Audit for exactly these four before submission; each unaddressed
 one is a review point conceded silently.

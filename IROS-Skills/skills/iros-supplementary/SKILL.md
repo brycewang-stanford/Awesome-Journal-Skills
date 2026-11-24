@@ -15,7 +15,9 @@ piece of evidence a reviewer watches *before* reading, not as a highlight reel.
   not merely re-uploaded.
 - **Size:** up to 10 MB. Encode for clarity within the cap rather than shipping a soft 60 MB export.
 - **Format:** mpg / mpeg / mp4.
-- **Deadline:** its own date (2026: March 5), a few days after the paper — plan for it separately.
+- **Deadline:** its own date, a few days after the paper — plan for it separately. In 2026 the official
+  pages disagreed (March 7 on the Important Dates page, "no later than March 5, 2026 (23:59 PST)" in the
+  CFP text); plan to the earlier one.
 
 ## What earns its 60 seconds
 

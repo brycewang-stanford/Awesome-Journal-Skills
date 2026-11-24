@@ -39,7 +39,7 @@ FM is an applied-finance journal that prizes **practical relevance**, but practi
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

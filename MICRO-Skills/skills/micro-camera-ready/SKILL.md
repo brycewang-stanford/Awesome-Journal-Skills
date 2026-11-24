@@ -51,10 +51,15 @@ the final version. New references added at camera-ready must follow it too.
 
 ## Page arithmetic changes
 
-Camera-ready page allowances (and whether the artifact appendix rides free) are set
-by the publisher instructions that arrive with acceptance — the 2025 cycle granted
-a **two-page artifact appendix at no charge** for papers passing AE; assume the
-same shape for 2026 but treat exact numbers as 待核实 until the author kit lands.
+Camera-ready page allowances are set per edition. For 2026 the registration page
+(`micro59/attend/register.php`, re-verified 2026-11-24) says authors are allowed
+**up to 13 body pages in the proceedings, excluding references and an artifact
+evaluation appendix**, and may buy **up to two additional non-reference pages at
+€150 per page** during registration; whether the 13 already counts those purchased
+pages is not stated (待核实). The 2026 AE page confirms the **two-page-max artifact
+appendix at no charge** for papers passing AE. The `micro59/submit/cameraready.php`
+link still served the 2025 text on 2026-11-24 (12 pages + 2 purchasable, ACM TAPS,
+`acmart` `sigconf`) — use it only as the earlier pattern.
 Budget the appendix content early from the AE package README rather than writing
 it fresh in week 8.
 
@@ -64,12 +69,14 @@ it fresh in week 8.
   (the symposium is IEEE/ACM; e.g., the 58th's proceedings are in the ACM DL, the
   40th's in Xplore). Your DOI will be the citable anchor — put it in the artifact
   README when the publisher assigns it.
-- AE badges (Available / Functional / Reproducible, per the 2025 AE pages) are
+- AE badges (Artifacts Available / Evaluated — Functional / Results Reproduced, per
+  the 2026 AE page) are
   printed on the paper and attached as ACM DL metadata — the camera-ready and the
   AE outcome must land together.
-- Attendance/registration obligations for publication (who must register, whether
-  presentation is in-person-only for Athens): 待核实 on `micro59/attend/` — verify
-  before booking nothing or everything.
+- Registration for publication: the 2026 site set an **Author Registration
+  Deadline of September 11, 2026 (AoE)**, the same day as camera-ready. Whether
+  presentation had to be in person in Athens is not stated (待核实) — verify on
+  the next edition's attend pages before booking nothing or everything.
 
 ## Presentation pipeline (the deadline after the deadline)
 

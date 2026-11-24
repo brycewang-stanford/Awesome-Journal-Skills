@@ -34,7 +34,7 @@ Inference must match the design: **HAC / Newey–West** or clustered standard er
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JME is monetary macro — SVAR, local projections, high-frequency identification; `local_projections`/`irf` are in StatsPAI, DSGE/calibration is outside this toolchain.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JME is monetary macro — SVAR, local projections, high-frequency identification; `local_projections`/`irf` are in StatsPAI, DSGE/calibration is outside this toolchain.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

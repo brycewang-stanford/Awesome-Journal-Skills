@@ -75,7 +75,8 @@ specifics on the official AEA pages.
 - Reference managers: Zotero, BibTeX/BibLaTeX. AEA house (author-date) style; the
   reference list is excluded from the word count, but keep it tight and complete.
 - Typesetting: LaTeX (TeX Live / MacTeX / Overleaf). Follow AEA first-page metadata
-  rules for single-blind review.
+  rules for the anonymized submission (author details in a separate "title page" PDF
+  under the AEA author-anonymization RCT).
 
 ## 6. Process & portal (verify on the official AEA pages)
 | Item | Note |
@@ -86,7 +87,7 @@ specifics on the official AEA pages.
 | Review model | Conditional accept or reject; **no traditional R&R**; ~8-week conditional window, usually no second referee round |
 | Fees | Submission fee by membership × income band; publication fee ~US$15/typeset page (re-confirm) |
 | Replication | AEA Data and Code Availability Policy; AEA Data Editor pre-publication check; openICPSR deposit |
-| Editor | Matthew Gentzkow (since Jan 2024); founding editor Amy Finkelstein |
+| Editor | Larry Samuelson (since Sept 2026; succeeded Matthew Gentzkow, 2024–2026); founding editor Amy Finkelstein |
 
 ## 7. Cautions
 1. **The cap is a gate, not a guideline** — reconcile words and exhibits before

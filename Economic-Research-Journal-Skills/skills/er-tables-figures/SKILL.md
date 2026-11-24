@@ -94,7 +94,7 @@ R²               0.213    0.247    0.251
 ## 执行桥（StatsPAI / Stata MCP）
 
 表格图形**从拟合结果生成**，不要手抄数字。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《经济研究》是中文经济学顶刊，识别可信度通常是约束；交错 DID、弱工具稳健 IV、RDD 与机制检验。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《经济研究》是中文经济学顶刊，识别可信度通常是约束；交错 DID、弱工具稳健 IV、RDD 与机制检验。
 
 - **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
 - **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与

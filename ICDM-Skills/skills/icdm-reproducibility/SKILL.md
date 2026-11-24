@@ -8,8 +8,10 @@ description: Use when strengthening reproducibility for an ICDM (IEEE Internatio
 Make the mining result reproducible as *science*, under two ICDM-specific pressures: the
 Research Track is **triple-blind**, so the reproduction package cannot reveal identity, and
 the reporting all competes for space inside the **10-page all-inclusive cap**. Reproducibility
-at ICDM is not a separate checklist form (verify per edition); it is evidence that the
-discovery is real rather than a lucky configuration.
+at ICDM 2026 also had a form: authors **completed a reproducibility checklist at submission**,
+its answers became part of the submission, and reviewers weighed reproducibility in the
+decision. Treat the checklist as the floor; the real goal is evidence that the discovery is real
+rather than a lucky configuration.
 
 ## What must be reproducible
 

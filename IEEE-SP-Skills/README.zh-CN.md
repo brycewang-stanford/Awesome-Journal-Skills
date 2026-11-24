@@ -4,15 +4,14 @@
 投稿的 12 个 agent skills。S&P 自 1980 年起举办，因最初在 Oakland 山区办会而在
 安全领域被通称为"**Oakland**"，是安全与隐私方向的旗舰会议之一。本包覆盖一个完整
 S&P 周期：判断"是否存在真实攻击者"、构建对抗级别的实验证据、组装带 ethics 记录的
-匿名 HotCRP 投稿、应对带 early-reject 与短 rebuttal 的分轮评审、处理
-**Accept / Revise / Reject** 三向决定，直至由 shepherd 把关的 IEEE camera-ready
-与 artifact badges。
+匿名 HotCRP 投稿、应对带 early-reject 与 750 词 rebuttal（可能为 interactive）的
+分轮评审、处理 **Accept / Reject** 决定，直至由 shepherd 把关、附公开 meta-review
+的 IEEE camera-ready 与 artifact badges。
 
-官方依据核验日期：**2026-07-08**。已核验 S&P 2027 Call for Papers 与各 cycle
-deadline 页面、S&P 2026 CFP 与 artifact-evaluation 页面、IEEE Computer Society
-安全与隐私技术委员会（TC）索引，以及 dblp 的 `conf/sp` proceedings 流。核验环境
-无法直接抓取 `sp<年份>.ieee-security.org`，故官方页面内容经由搜索引擎对原始 URL
-的渲染读取，并与 dblp、IEEE Xplore 交叉验证；完整来源链与所有"待核实"条目见
+官方依据首次核验于 2026-07-08，并于 **2026-11-24 直接抓取复核**：S&P 2027 Call for
+Papers、两个 cycle 的 deadline 页面、S&P 2027 主页/组委会页面与 Call for Artifacts，以及
+S&P 2026 CFP。S&P 2027 的两个 cycle 均已截稿（2026 年 6 月 11 日与 11 月 17 日，AoE）；
+S&P 2028 尚未发布 CFP。完整来源链、本次复核纠正的条目与所有"待核实"条目见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## S&P 与相邻会议的关键差异
@@ -26,13 +25,14 @@ Security、CCS、NDSS——更不用说从 ML 或系统会议——转投 S&P �
   日期"。
 - **paper 截止前一周有具约束力的 registration。** 标题、完整摘要、含 **ORCID**
   的完整作者列表与 conflicts 在 registration 时冻结；ORCID 的姓名/邮箱必须与
-  HotCRP 一致，否则 desk reject。
+  HotCRP 一致，否则 desk reject。每位作者每个 cycle 最多 **6 篇**，按 registration 计。
 - **分轮评审，被淘汰者无 rebuttal。** 弱稿在第一轮直接被拒、没有申辩机会；
-  存活论文看到评审并撰写约 5 天的 rebuttal。
-- **三向决定，Revise 是标志性机制。** **Accept** 附带 draft meta-review 与
-  **shepherd**；**Revise** 是针对一份书面 expectations summary 的结构化大修，
-  需重新评审；**Reject** 触发一年 embargo（自原始投稿日起算），约 40% 重叠即
-  视为 resubmission。
+  存活论文看到评审并撰写 **750 词 rebuttal**——由 PC 指定为 non-interactive，或
+  interactive（可补充评审要求的新结果并提交修订版 PDF）。
+- **只有 Accept 或 Reject，没有 revise-and-resubmit。** 2026 与 2027 CFP 只列这两种
+  结果，也没有 conditional acceptance。**Accept** 附带**公开 meta-review**（< 500 词）
+  与 **shepherd**；**Reject** 触发一年 embargo（自原始投稿日起算），知识贡献高度相似
+  的论文即视为 resubmission。
 - **ethics 是结构性要求，不是点缀。** registration 时填写 Ethics
   Considerations 字段，Research Ethics Committee 可基于伦理理由拒稿，
   **Menlo Report** 为指定基线，需披露 IRB，涉及 PII 需说明 harm mitigation。
@@ -46,7 +46,7 @@ Security、CCS、NDSS——更不用说从 ML 或系统会议——转投 S&P �
 | Skill | 作用 |
 | --- | --- |
 | [`ieeesp-topic-selection`](skills/ieeesp-topic-selection/SKILL.md) | 用"真实攻击者测试"判断适配，决定 research 还是 SoK，并在 embargo 约束下于 USENIX Security、CCS、NDSS、PETS、CRYPTO 之间路由。 |
-| [`ieeesp-workflow`](skills/ieeesp-workflow/SKILL.md) | 管理多 cycle 的一年：选 cycle、从 registration 周倒排，并为 Accept / Revise / Reject 各设专人。 |
+| [`ieeesp-workflow`](skills/ieeesp-workflow/SKILL.md) | 管理多 cycle 的一年：选 cycle、从 registration 周倒排，并为 interactive rebuttal / Accept / Reject 各设专人。 |
 | [`ieeesp-writing-style`](skills/ieeesp-writing-style/SKILL.md) | 通过第一轮存活测试——攻击者、有界主张、证据地图、why-now、ethics 信号——并压进 13 页 compsoc。 |
 | [`ieeesp-related-work`](skills/ieeesp-related-work/SKILL.md) | 覆盖四大旗舰的文献窗口，写出 security-delta 句式，核验 dblp/Xplore 归属，保持自引匿名。 |
 | [`ieeesp-experiments`](skills/ieeesp-experiments/SKILL.md) | 让评估匹配贡献类型，用 adaptive adversary 评估 defense，并以 trials 与离散度汇报攻击成功率。 |
@@ -55,7 +55,7 @@ Security、CCS、NDSS——更不用说从 ML 或系统会议——转投 S&P �
 | [`ieeesp-artifact-evaluation`](skills/ieeesp-artifact-evaluation/SKILL.md) | 选择 Available / Functional / Reproduced badge，用 DOI 存档，并负责任地打包 exploit 与近似 malware 的代码。 |
 | [`ieeesp-submission`](skills/ieeesp-submission/SKILL.md) | 最终 HotCRP 审计：registration 冻结、ORCID 匹配、compsoc 格式、含 disclosure 痕迹清扫的匿名化，以及 desk-reject 分级。 |
 | [`ieeesp-review-process`](skills/ieeesp-review-process/SKILL.md) | 建模分轮、early reject、rebuttal、REC track、shepherd，以及作者真正有杠杆的位置。 |
-| [`ieeesp-author-response`](skills/ieeesp-author-response/SKILL.md) | 为 5 天 rebuttal 分诊评审、回应 adaptive-attack 与 ethics 质疑，并把 Revise summary 当作合同。 |
+| [`ieeesp-author-response`](skills/ieeesp-author-response/SKILL.md) | 为 750 词 rebuttal 分诊评审、回应 adaptive-attack 与 ethics 质疑，并把 interactive rebuttal 中评审的明确要求当作合同。 |
 | [`ieeesp-camera-ready`](skills/ieeesp-camera-ready/SKILL.md) | 处理 shepherd 的 concern ledger、加写 ethics section、去匿名并恢复 disclosure 细节，满足 IEEE compsoc/Xplore 要求。 |
 
 ## Resources 一览
@@ -85,7 +85,7 @@ claude plugin install ieee-sp-skills
 - "S&P 2027 我现实上能赶上哪个 cycle？" → `ieeesp-workflow`
 - "按 S&P 投稿规则审计我的稿子" → `ieeesp-submission`
 - "评审到了、我只有五天——规划 rebuttal" → `ieeesp-author-response`
-- "我们拿到了 Revise，怎么处理？" → `ieeesp-review-process` + `ieeesp-author-response`
+- "我们被分到 interactive rebuttal，可以补什么？" → `ieeesp-review-process` + `ieeesp-author-response`
 
 ## 目录结构
 
@@ -123,20 +123,18 @@ IEEE-SP-Skills/
    的匿名检查，并把 registration 周当作独立的截止日。
 6. **投稿之后**：用 `ieeesp-review-process` 校准预期；评审出来后用
    `ieeesp-author-response`；随后按决定进入 `ieeesp-camera-ready`（与 shepherd
-   配合）或 Revise / rejection 分支。
+   配合）或 rejection 分支。
 
 ## 事实纪律
 
 本包区分三类陈述，skills 的写法保证三类可辨：
 
 1. **已核验的周期事实**——带日期/上限，且能在 source map 中追溯到编号来源（如
-   13 页正文上限、2026 年 11 月 17 日的 Cycle 2 截稿、Accept/Revise/Reject
-   决定集）。
+   13 页正文上限、2026 年 11 月 17 日的 Cycle 2 截稿、Accept/Reject 决定集）。
 2. **转述事实**——只见于二手来源并明确标注（如 S&P 2025 的投稿/录用数量，来自
    机构获奖公告）。
 3. **核验时无法确认的条目**——明确标注 **待核实**，以"待解决问题"而非事实的
-   口吻表述（如 2027 Cycle 1 的评审时间表、Revise 的 resubmission 目标 cycle、
-   2027 camera-ready 与 artifact 时间表）。
+   口吻表述（如 S&P 2028 的 CFP 与 cycle 日期、Cycle 2 日期是否调整）。
 
 若发现任何 skill 把第 2、3 类内容写成了第 1 类的口吻，请视为 bug，对照官方页面
 修正。
@@ -145,12 +143,10 @@ IEEE-SP-Skills/
 
 - 上述日期与上限均为 **周期快照**；给出任何与截止日期相关的建议前，必须重新
   打开当年 `sp<年份>.ieee-security.org` CFP 与各 cycle deadline 页面。
-- S&P 的截止时间以**固定时钟**（如 7:59:59 AM EDT）表述，而非 Anywhere-on-Earth
-  ——请换算到你所在时区，不要默认 AoE。
-- 2026-07-08 无法在线核验的条目已在 source map 中标注 **待核实**——尤其是 2027
-  Cycle 1 的评审日期、Revise 的 resubmission 机制、2027 camera-ready 与
-  artifact-evaluation 时间表、PC chairs 与 REC 名单，以及 generative-AI 政策的
-  确切措辞。确认之前不得当作事实陈述。
+- S&P 2027 的截止时间为 **23:59:59 AoE**；HotCRP 页面以美东时间显示同一时刻（次日
+  7:59:59 AM EDT），不要把它当作另一个截止时间。
+- 2026-11-24 无法在线核验的条目已在 source map 中标注 **待核实**——尤其是 S&P 2028
+  的一切信息，以及 Cycle 2 时间表是否调整。确认之前不得当作事实陈述。
 - PC chairs 与 REC 每届轮换、政策逐年重设；不要把期刊包里"常任主编"式的连续性
   假设带到这里。
 - 新增范文请遵循 [`resources/exemplars/library.md`](resources/exemplars/library.md)

@@ -35,7 +35,7 @@ description: Use when analyzing the material of an Accounting, Organizations and
 
 For the **quantitative lane** of an AOS paper — experiments, surveys, and archival-with-theory
 designs — execute and audit rather than only specify. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 AOS is mixed-methods: route only the statistical strand through this bridge, and let the
 qualitative strand keep its own audit trail (codebook, evidence register) outside it.
 

@@ -63,8 +63,8 @@ the evidence ladder.
 
 - **Fonseca, Porter, Katz, Shenker, Stoica, "X-Trace: A Pervasive Network Tracing
   Framework," NSDI 2007 (4th edition, Cambridge, MA).** Confirmed via the ACM DL
-  record of the NSDI '07 proceedings and Brown CS's report of its NSDI Test of Time
-  award (2017, reported fact). Page range 待核实.
+  record of the NSDI '07 proceedings; USENIX Test of Time Award at NSDI '17 (confirmed
+  on the official USENIX Test of Time Awards page, 2026-11-24). Page range 待核实.
 - **Why it is an exemplar:** instrumentation *is* the system — a tracing metadata
   design that crosses layers and administrative domains, validated by deploying it in
   concrete scenarios rather than by microbenchmarks.
@@ -75,8 +75,8 @@ the evidence ladder.
 
 - **Roesner, Kohno, Wetherall, "Detecting and Defending Against Third-Party Tracking
   on the Web," NSDI 2012 (9th edition, San Jose, CA), pp. 155-168.** Confirmed via the
-  ACM DL record of the NSDI '12 proceedings; NSDI Test of Time honoree at NSDI '23 as
-  reported by UW Allen School and USENIX loginonline (reported fact).
+  ACM DL record of the NSDI '12 proceedings; USENIX Test of Time Award at NSDI '23
+  (confirmed on the official USENIX Test of Time Awards page, 2026-11-24).
 - **Why it is an exemplar:** a measurement paper that earned a systems slot by pairing
   a client-side taxonomy of tracker behavior with a deployed defense — evidence of the
   venue's taste for measurement that changes what gets built.

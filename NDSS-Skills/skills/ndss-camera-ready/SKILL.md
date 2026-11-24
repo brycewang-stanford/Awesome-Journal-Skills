@@ -8,8 +8,9 @@ description: Use when converting an accepted NDSS paper into the final open-acce
 Acceptance at NDSS produces a paper the *whole world* reads for free: proceedings and talk
 videos are open access under the Internet Society, with no reader paywall and authors free
 to self-post. The camera-ready is therefore a public artifact, not an archival formality —
-and for many papers it must first discharge a revision condition. The 2027 camera-ready
-deadline is January 6, 2027 (CFP, checked 2026-07-08).
+and for many papers it must first discharge a revision condition. The NDSS 2027 camera-ready
+deadlines are September 30, 2026 (summer cycle) and February 7, 2027 (fall cycle) (CFP,
+re-verified 2026-11-24).
 
 ## First, clear the decision's conditions
 

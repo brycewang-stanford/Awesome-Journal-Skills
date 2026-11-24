@@ -14,14 +14,14 @@ description: Use when choosing a submission route or understanding how peer revi
 
 ## How JDE review works
 
-JDE is the **leading field journal in development economics** (Elsevier), edited by Editors-in-Chief
-**A. Foster** and **K. Macours**, with **Dean Karlan** among the Co-Editors. Review is
+JDE is the **leading field journal in development economics** (Elsevier), edited by Editor-in-Chief
+**K. Macours**, with a team of Co-Editors (e.g., Siwan Anderson, Samuel Bazzi, Craig McIntosh, Mauricio Romero) listed on the ScienceDirect masthead (re-verified 2026-11-24). Review is
 **single-anonymized** — referees know the author's identity; the author does not know the referees. It
 is highly selective: ~**1,300 submissions a year**, only about **a quarter sent for review**, and roughly
 **6-8% published**. Submission is via **Editorial Manager**.
 
 There is a **USD 50 non-refundable submission fee** for original manuscripts. Open access is optional;
-the current APC is **USD 4,760** excluding taxes.
+the current APC is **USD 4,400** excluding taxes (ScienceDirect, as captured 2026-10-17).
 
 **Submission cap:** under normal circumstances an author may **not submit more than three papers within any 12-month period**. Plan submissions accordingly.
 

@@ -60,7 +60,7 @@ not yet identify the contribution.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Politics spans observational and experimental political science; report the identifying assumption and the magnitude, not just stars.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Journal of Politics spans observational and experimental political science; report the identifying assumption and the magnitude, not just stars.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

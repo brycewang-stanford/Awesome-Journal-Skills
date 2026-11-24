@@ -8,7 +8,7 @@ description: Use when reasoning about how PVLDB reviewing actually works, coveri
 Use this to set expectations after (or before) a PVLDB submission. The process
 is a journal pipeline wearing a conference badge: a standing review board for
 the volume, decisions on a monthly cadence, and a revision outcome with teeth.
-Details below were verified 2026-07-08 for Vols 19/20; the live guidelines page
+Details below were verified 2026-07-08 for Vols 19/20 (re-verified 2026-11-24); the live guidelines page
 governs.
 
 ## The pipeline at a glance
@@ -20,7 +20,7 @@ governs.
                                                     |
                                             revise (one-shot)
                                                     |
-                              up to 3 months -> revised paper -> same reviewers
+                              up to 2.5 months -> revised paper -> same reviewers
                                                     |
                                              accept or reject
 ```
@@ -34,8 +34,8 @@ no rebuttal stage: your first chance to talk back is the revision, if offered.
 | Outcome | Practical meaning | Your move |
 |---|---|---|
 | Accept | Publication in an upcoming monthly issue; conference slot at the matching VLDB | Camera-ready discipline (`vldb-camera-ready`) |
-| Revise | Reviewers believe a specific, listed set of fixes could flip them | Requirement ledger + three-month plan (`vldb-author-response`) |
-| Reject | The paper as framed did not convince this panel | Rework before any re-entry; check current re-submission rules (待核实 whether an embargo applies) |
+| Revise | Reviewers believe a specific, listed set of fixes could flip them | Requirement ledger + 2.5-month plan (`vldb-author-response`) |
+| Reject | The paper as framed did not convince this panel | Rework before any re-entry; Vol 20 bars resubmitting rejected work to the research track for 12 months |
 
 A revise verdict is genuinely positive signal — the board spends its future
 reviewing time only on papers it considers rescuable.
@@ -43,7 +43,7 @@ reviewing time only on papers it considers rescuable.
 ## Who is reading
 
 - The volume operates with Editors-in-Chief (who double as the conference PC
-  chairs — Vol 20: Boehm and Hose per secondary sources) atop a standing
+  chairs — Vol 20: Katja Hose and Matthias Boehm, per the VLDB 2027 officers page) atop a standing
   review board assembled for the volume.
 - Expect builder-reviewers: people who wrote storage engines, optimizers, and
   the baselines you measured. Implementation hand-waving and untuned

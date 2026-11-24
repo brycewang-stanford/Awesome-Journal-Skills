@@ -8,15 +8,15 @@ description: Use to plan a SIGGRAPH or SIGGRAPH Asia Technical Papers campaign b
 SIGGRAPH runs on **two cycles a year** and a compressed single-round calendar with a journal-grade
 tail. Planning backward from the right deadline — and knowing which of the two conferences you are
 targeting — is the highest-leverage move. Dates below are the SIGGRAPH 2026 / SIGGRAPH Asia 2026
-snapshots from `resources/official-source-map.md`; reopen the live Important Dates page for your
-cycle first.
+snapshots plus the SIGGRAPH 2027 deadlines posted as of 2026-11-24 (full 2027 call still pending),
+from `resources/official-source-map.md`; reopen the live Important Dates page for your cycle first.
 
 ## The two cycles
 
-| Cycle | Deadline (approx.) | Conference | 2026 instance |
+| Cycle | Deadline (approx.) | Conference | Latest instance |
 |---|---|---|---|
-| SIGGRAPH (North America) | ~January | Summer | SIGGRAPH 2026, Los Angeles, 19-23 Jul 2026; form 15 Jan, upload 23 Jan 2026 (22:00 UTC) |
-| SIGGRAPH Asia | ~May | December | SIGGRAPH Asia 2026, Kuala Lumpur, 1-4 Dec 2026; Stage-2 paper 12 May, upload 13 May 2026 |
+| SIGGRAPH (North America) | ~January | Summer | SIGGRAPH 2026, Los Angeles, 19-23 Jul 2026 (met): form 15 Jan, paper 22 Jan, upload 23 Jan 2026 (22:00 UTC). **Next: SIGGRAPH 2027, Anaheim, 8-12 Aug 2027** — form & conflicts 21 Jan, paper 28 Jan, upload 29 Jan 2027 (22:00 UTC; full call pending) |
+| SIGGRAPH Asia | ~May | December | SIGGRAPH Asia 2026, Kuala Lumpur, 1-4 Dec 2026: form 5 May, paper 12 May, upload 13 May 2026 (23:59 AoE). Next: SIGGRAPH Asia 2027, Tokyo, 30 Nov-3 Dec 2027 (no call yet) |
 | TOG direct | rolling | (no conference talk) | ScholarOne, outside the conference cycle — less common |
 
 A rejected paper is typically revised against the reviews and resubmitted to the *next* cycle, so
@@ -27,8 +27,10 @@ next.
 ## Backward plan from the upload deadline
 
 ```text
-T-0     Complete submission: PDF (or MD5) + supplemental video + representative image on Linklings
+T+1d    Upload deadline: files matching MD5 checksums; every co-author's conflicts entered
+T-0     Paper deadline: PDF (or MD5) + supplemental video + representative image on Linklings
 T-1wk   Submission form locks title/abstract/topics/ALL co-authors (earlier hard deadline)
+T-2wk+  Anonymity-policy embargo starts: no project page, PR or social posts (arXiv allowed)
 T-2wk   Freeze results; render the final results video; clear rights on every frame/figure
 T-4wk   Final comparisons + timings on stated hardware; ablations complete
 T-8wk   Draft complete in acmart (>=2.16); teaser figure locked; internal reviews
@@ -43,7 +45,7 @@ compresses well in the last week.
 
 ```text
 Reviews released -> you see the full set
-Rebuttal window (~6 weeks post-deadline): <=1000 words, text only, address factual errors
+Rebuttal window (~6 weeks post-deadline): <=1000 words, text only, anonymous, address factual errors
 Technical Papers Committee meeting: conditional accept / reject + track (Journal vs Conference)
 [If conditional] make every required change -> second-stage committee verification
 Camera-ready: TOG metadata, rights/DOI, final video, permanent code archive
@@ -66,7 +68,7 @@ Presentation: at least one author presents in person at the conference
 
 - Both conferences' exact dates and UTC cutoffs, and whether the year runs the usual two editions.
 - The rebuttal window and length, the acmart revision, and the Conference-track page budget.
-- Whether review is single-blind or anonymized this cycle (**待核实** for 2026 wording).
+- The anonymity policy and its embargo window (2026: double-blind, embargo from two weeks before the deadline).
 
 ## Output format
 

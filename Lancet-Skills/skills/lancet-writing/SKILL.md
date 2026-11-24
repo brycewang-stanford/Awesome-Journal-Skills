@@ -1,6 +1,6 @@
 ---
 name: lancet-writing
-description: Use to structure and hold the length of a Lancet Article main text — Introduction, Methods, Results, Discussion (~3000–3500 words), the Research in context panel, a limited reference list (~30), and a cautious, globally minded Discussion that does not overstate.
+description: Use to structure and hold the length of a Lancet Article main text — Introduction, Methods, Results, Discussion (up to 3500 words; 4500 for RCTs), the Research in context panel, a limited reference list (30), and a cautious, globally minded Discussion that does not overstate.
 ---
 
 # Main-Text Writing & Structure (lancet-writing)
@@ -26,8 +26,8 @@ The Lancet original-research **Article** uses standard **IMRaD** with the Resear
 
 ## Length and reference budget
 
-- **Main text ~3000–3500 words** (Articles; confirm the current cap — formats and limits change).
-- **References limited (~30)** for an Article — cite the key and the systematic-search-anchored literature, not everything.
+- **Main text up to 3500 words (4500 for randomised controlled trials)** for Articles, manuscript text only (Information for Authors, re-verified 2026-11-23; confirm the current cap — formats and limits change).
+- **References limited (30)** for an Article — cite the key and the systematic-search-anchored literature, not everything.
 - Tables/figures within the journal's display-item allowance (see `lancet-figures-tables`); extended methods/results → appendix.
 - An **appendix / supplementary material** carries the protocol summary, additional analyses, full subgroup tables, and the reporting checklist.
 
@@ -58,8 +58,8 @@ A hypothetical Lancet Article on a multi-country observational cohort.
 
 ```
 Length audit (illustrative):
-  Main text 3 980 words -> over ~3 500 by ~480; trim Introduction and Discussion
-  References 47 -> over ~30; keep the load-bearing 30
+  Main text 3 980 words -> over 3 500 by ~480; trim Introduction and Discussion
+  References 47 -> over 30; keep the load-bearing 30
 Claim calibration:
   DRAFT: "This proves the exposure causes the outcome."
   FIX:   "The exposure was associated with the outcome (adjusted HR 1.34,
@@ -72,15 +72,15 @@ The fix trims to budget and recasts the overstatement as a calibrated associatio
 
 - *"The Introduction reads as a literature review."* → Cut it to problem-gap-objective; move synthesis to the panel.
 - *"The conclusions overstate the design."* → Replace "proves"/causal language with "associated with"/"supports"; remove superiority framing from a non-inferiority trial.
-- *"The paper is over length / reference budget."* → Trim to load-bearing claims and ~30 citations; push extended analyses to the appendix.
+- *"The paper is over length / reference budget."* → Trim to load-bearing claims and 30 citations; push extended analyses to the appendix.
 
 ## Output format
 
 ```
 【Sections present】 Introduction / Methods / Results / Discussion / Research-in-context panel — all? yes/no
 【Methods in main text?】 yes (good) / pushed to appendix (FIX)
-【Main-text word count】 N → over/under ~3000–3500 by M
-【Reference count】 N → vs ~30 budget
+【Main-text word count】 N → over/under 3500 (4500 for RCTs) by M
+【Reference count】 N → vs 30 budget
 【Discussion four moves】 principal findings / comparison / strengths-limitations / implications — all? yes/no
 【Overstatement check】 causal language calibrated to design? yes/no
 【Next】 lancet-ethics

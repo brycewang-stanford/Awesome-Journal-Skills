@@ -58,7 +58,7 @@ Every JCF design with treated firms needs one explicit paragraph: who became tre
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCF is corporate finance — endogeneity of corporate policies is the central threat; foreground IV/DiD identification.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JCF is corporate finance — endogeneity of corporate policies is the central threat; foreground IV/DiD identification.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

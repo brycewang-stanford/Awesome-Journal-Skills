@@ -34,7 +34,9 @@ and reconciliation early.
 
 ## Abstract compression
 
-Use a five-sentence abstract unless the journal's live limit forces something tighter:
+JHR's Manuscript Preparation page lists an "Abstract of 100 words or fewer" among the
+required title-page elements (the page is written for accepted papers, but draft to it from
+the start). Use a five-sentence abstract that fits inside 100 words:
 
 1. Policy-relevant question.
 2. Data and identifying variation.

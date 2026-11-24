@@ -49,7 +49,7 @@ OS's interpretive, European tradition makes **analytic transparency** a first-cl
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Organization Studies is largely qualitative/theoretical; use the chain below only for its quantitative-empirical papers, and say so when a study is interpretive.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Organization Studies is largely qualitative/theoretical; use the chain below only for its quantitative-empirical papers, and say so when a study is interpretive.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

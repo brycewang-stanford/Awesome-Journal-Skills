@@ -1,6 +1,6 @@
 ---
 name: colm-camera-ready
-description: Use when converting a COLM acceptance into the final paper — the August 7 camera-ready deadline in 2026, de-anonymization and the one-page acknowledgments allowance, folding rebuttal commitments into the text, publishing on OpenReview, releasing artifacts publicly, and planning the October conference in San Francisco.
+description: Use when converting a COLM acceptance into the final paper — the August 7 camera-ready deadline in 2026, de-anonymization, the one extra camera-ready page and the one-page acknowledgments allowance, folding rebuttal commitments into the text, publishing on OpenReview, releasing artifacts publicly, and planning the October conference in San Francisco.
 ---
 
 # COLM Camera-Ready
@@ -61,10 +61,13 @@ is still queryable (`colm-reproducibility`).
   exactly — this metadata is what indexers and citation managers scrape.
 - The LLM-usage disclosure travels with the paper; if camera-ready edits changed
   what should be disclosed, update it.
+- Page budget: the 2026 FAQ lets accepted papers add **one extra page** for content
+  responding to reviewer and AC feedback (9 + 1), and authors cannot be added or
+  removed at camera-ready (order may change). Re-check the FAQ for the next edition.
 - 待核实 items this cycle (verify on the current author guide before upload):
-  whether camera-ready grants extra content pages beyond 9, the exact license
-  terms of the OpenReview publication, and any required funding/COI statement
-  format. None was verifiable on 2026-07-08.
+  the exact license terms of the OpenReview publication and any required
+  funding/COI statement format — neither was stated on the official pages as of
+  2026-11-23.
 
 ## Artifact release and the arXiv decision
 
@@ -94,10 +97,13 @@ consequences worth acting on during camera-ready week:
 ## October logistics
 
 COLM 2026 runs October 6-9 at the Hilton Union Square, San Francisco (main
-conference October 6-8, workshop day October 9). Presentation format assignments,
-registration requirements for accepted papers, poster specs, and any remote-
-participation option were not verifiable at pack-build time — all 待核实 via the
-conference's announcements before booking. What is safely plannable now: at least
+conference October 6-8, workshop day October 9). The 2026 FAQ requires at least one
+author of each accepted paper to register for the main conference (workshop
+registration does not count; one registration covers several papers) and states
+that COLM is **in-person only** — no remote presentation; a colleague may present
+only as a last resort after contacting the PCs. Presentation format assignments
+and poster specs remain 待核实 via the conference's announcements. What is safely
+plannable: at least
 one author available in San Francisco that week, a poster-design slot in late
 September, and visa timelines for authors who need them, which in a July-to-October
 gap are the item most often fumbled.
@@ -120,6 +126,6 @@ last hour that matters.
 [Rebuttal ledger] commitments folded in: <k>/<total> — outstanding: <items>
 [De-anon sweep] identity restored ▢  workarounds reversed ▢  fossils: <hits>
 [Links] all resolve to public artifacts ▢
-[待核实 checked live] extra-pages? license? attendance rules?
+[待核实 checked live] license? funding/COI format? (extra page and in-person rule: see FAQ)
 [October] presenter ▢  visa ▢  poster slot ▢
 ```

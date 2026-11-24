@@ -10,10 +10,10 @@ kits.
 
 ## Shared kits (adapt, do not import wholesale)
 
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
   — generic pre-submission checks; keep the format/anonymity/deadline items, drop anything that
   assumes a code artifact or benchmark run.
-- [`../../../shared-resources/submission-readiness/response-to-referees.md`](../../../shared-resources/submission-readiness/response-to-referees.md)
+- [`../../../shared-resources/submission-readiness/response-to-referees.md`](../shared/submission-readiness/response-to-referees.md)
   — response scaffolding; adapt it to the PODS 48-hour rebuttal and the revision cover letter in
   [`../../skills/pods-author-response/SKILL.md`](../../skills/pods-author-response/SKILL.md).
 

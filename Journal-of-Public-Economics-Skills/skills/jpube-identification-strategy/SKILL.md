@@ -49,7 +49,7 @@ JPubE's comparative advantage is the **policy-induced discontinuity** — a tax 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPubE is public economics — tax/transfer/program designs; DiD/IV/RDD and bunching are central, magnitudes in policy units.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPubE is public economics — tax/transfer/program designs; DiD/IV/RDD and bunching are central, magnitudes in policy units.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

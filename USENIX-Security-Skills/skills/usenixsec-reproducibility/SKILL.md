@@ -5,7 +5,7 @@ description: Use when strengthening reproducibility for a USENIX Security Sympos
 
 # USENIX Security Reproducibility
 
-Since the '26 cycle, USENIX Security has made openness a structural requirement:
+Since the '26 cycle (and again in '27), USENIX Security has made openness a structural requirement:
 every submission carries an **Open Science appendix** stating where the artifacts
 behind the paper live, and acceptance is later conditioned on that availability
 verifying (Phase-1 AE). This skill covers the appendix itself and the underlying
@@ -87,7 +87,8 @@ timestamp what you cannot:
 ## Reverify each cycle
 
 - Exact Open Science appendix requirements and page allowance in the current CFP.
-- Whether availability verification remains acceptance-conditional ('27 待核实).
+- Whether availability verification remains acceptance-conditional (confirmed for '27 on
+  2026-11-24).
 - Current AEC guidance on acceptable archives and anonymized hosting.
 
 ## Output format

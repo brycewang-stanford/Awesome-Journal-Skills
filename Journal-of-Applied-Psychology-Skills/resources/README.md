@@ -21,12 +21,12 @@ This is an **I-O / applied-psychology** venue whose methods center on **construc
 off-discipline for JAP. Use the domain-appropriate tools in [`external_tools.md`](external_tools.md)
 instead. For cross-cutting inference discipline, two shared references are useful **as background**:
 
-- [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+- [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md)
   — generic objections by identification strategy; read it for the *habit* of pre-empting objections,
   then translate to JAP's actual objections (CMV, level of analysis, measurement invariance, alternative
   models) via [`../skills/joap-study-design/SKILL.md`](../skills/joap-study-design/SKILL.md) and
   [`../skills/joap-data-analysis/SKILL.md`](../skills/joap-data-analysis/SKILL.md).
-- [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) — general
+- [reporting-standards](shared/empirical-methods/reporting-standards.md) — general
   reporting/reproducibility table stakes; for JAP, defer to the effect-size/CI, SEM-fit, indirect-effect-CI,
   and TOP requirements in this pack's skills.
 

@@ -68,7 +68,7 @@ A user says: "My quantitative trade model fits the moments, but a referee says t
 
 ## How IER differs from its siblings (use this to route a mis-targeted paper)
 
-- **Econometrica / Quantitative Economics** are Econometric Society journals: method-first, membership-gated, no flat per-paper submission fee, ScholarOne-style portals. IER is Penn–Osaka-owned, broad/theory-leaning, flat US$150 fee, Editorial Express portal.
+- **Econometrica / Quantitative Economics** are Econometric Society journals: method-first, membership-gated, with membership-tiered submission fees (QE: US$100 regular / US$50 student member, checked 2026-11-24) through the Econometric Society's own online system. IER is Penn–Osaka-owned, broad/theory-leaning, flat US$150 fee, Editorial Express portal.
 - **Top-5 (AER/QJE/JPE/REStud/Eca)** demand topical importance on top of rigor; IER rewards rigor and generality without requiring the "splash."
 - **Field journals (JIE, J. of Econometrics, etc.)** want depth in one field; IER wants the result to travel beyond it. If a draft fits a sibling better, route the user to `ier-topic-selection` to reframe or to retarget before going further down the chain.
 

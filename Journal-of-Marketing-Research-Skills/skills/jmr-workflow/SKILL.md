@@ -13,7 +13,7 @@ Default assumption: unless the user says otherwise, treat the target as JMR — 
 
 First routing question: **which genre is this paper?** Behavioral (experiments + process), modeling/econometric (causal identification or structural estimation), or a methods paper (a new estimator/measure). The genre determines how `jmr-theory-development`, `jmr-methods`, and `jmr-data-analysis` are applied.
 
-> Editor transition: Rebecca Hamilton (Georgetown) is EIC through 30 June 2026; Raphael Thomadsen's incoming team (Washington University in St. Louis, 2026–2029) has processed new manuscripts since 1 April 2026 — authors submitting now are effectively handled by the incoming team. Verify the masthead at ama.org.
+> Editor: Raphael Thomadsen (Washington University in St. Louis) is Editor in Chief (1 July 2026 – 30 June 2029) with five Coeditors — Simon Blanchard, Bryan Bollinger, Elea McDonnell Feit, Katrijn Gielens, Manoj Thomas; his team has handled new manuscripts since 1 April 2026, while Rebecca Hamilton's team finishes revisions of papers it already had (masthead re-verified 2026-11-23). Verify the masthead at ama.org.
 
 ## When to trigger
 

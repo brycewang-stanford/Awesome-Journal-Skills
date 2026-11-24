@@ -26,7 +26,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Transparency**: AMA Research Transparency Policy; a **Data Availability Statement is required on the title page**; be ready to share code, instruments, and materials on request and to provide data/materials before final acceptance.
 - **Integrity & AI**: every submission is screened with **iThenticate**; any **AI-generated content must be disclosed** in the main document and Acknowledgments.
 - **Fees**: the SAGE MRJ page states **"There are no fees payable to submit or publish in this journal"** for the standard route; optional Sage Choice open access is available, and the SAGE 2026 Choice price list records JMR's 2026 OA APC as **USD 5,780 / GBP 4,238.474**. Recheck the annual SAGE price list before quoting fees.
-- **Editor transition**: Rebecca Hamilton (Georgetown) is EIC through 30 June 2026; Raphael Thomadsen's incoming team (WashU, 2026–2029) has processed new manuscripts since 1 April 2026.
+- **Editor**: Raphael Thomadsen (Washington University in St. Louis) is Editor in Chief (1 July 2026 – 30 June 2029) with five Coeditors — Simon Blanchard, Bryan Bollinger, Elea McDonnell Feit, Katrijn Gielens, Manoj Thomas; his team has handled new manuscripts since 1 April 2026, while Rebecca Hamilton's team finishes revisions of papers it already had (masthead re-verified 2026-11-23).
 
 ## Pre-submission checklist (summary; full version in templates/checklist.md)
 
@@ -57,6 +57,28 @@ description: Use when running the final pre-submission preflight for a Journal o
 
 - Create/keep your author account and ORCID current; select the article type and the keywords/domain so the manuscript routes to an appropriate **Coeditor / Associate Editor** by domain.
 - Upload the anonymized main document, the title page, and the Web Appendix PDF in the designated slots; preview the built PDF before final submission.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jmr-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

@@ -77,5 +77,5 @@ generality is as damaging as undersized contribution.
 【Contribution type】mechanism | unification | adjudication | formalization | generalization
 【Not a relabel/refit】evidence: tied to diagnostic phenomena + novel prediction [...]
 【Generality】[reach beyond originating paradigm, within stated scope]
-【Next step】psychrev-review-process (understand masked review) → psychrev-submission
+【Next step】psychrev-review-process (understand the review mode) → psychrev-submission
 ```

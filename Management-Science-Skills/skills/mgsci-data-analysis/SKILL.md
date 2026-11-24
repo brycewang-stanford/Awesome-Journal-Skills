@@ -44,7 +44,7 @@ Management Science enforces a **Code and Data Disclosure Policy** (effective Jun
 
 Run the analysis, audit it, and keep the scripts — the same scripts satisfy the
 AsCollected disclosure above. Full map:
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - Fit with `as_handle=true`, then `audit_result(result_id)` to get the missing-checks
   checklist with the exact `suggest_function` for each.

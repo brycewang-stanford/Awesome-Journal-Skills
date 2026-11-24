@@ -40,7 +40,7 @@ JCR caps the manuscript at **60 double-spaced pages**, and crucially **tables an
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCR is predominantly lab experiments; randomization-based inference and the many-outcome family-wise correction (`romano_wolf`) are the decisive tools.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JCR is predominantly lab experiments; randomization-based inference and the many-outcome family-wise correction (`romano_wolf`) are the decisive tools.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

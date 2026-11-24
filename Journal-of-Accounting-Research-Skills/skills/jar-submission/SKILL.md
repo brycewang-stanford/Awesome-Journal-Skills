@@ -22,7 +22,8 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Submission cap:** at most **four NEW papers per author over a rolling two-year period** (R&R resubmissions excluded).
 - **Review:** **double-anonymized** for regular manuscripts (authors anonymize the manuscript).
 - **Style:** custom JAR **author-date** house style; match recent JAR articles (not APA-numeric).
-- **Data and code:** JAR **requires and hosts** datasheets/code on acceptance; prepare the package now.
+- **Data and code:** under the JAR Data and Code Sharing Policy (updated April 2024; re-read 2026-11-24) a separate **data description sheet** (who handled the data, how/when raw data were obtained, proprietary-provider contact) is due **at initial submission**, and any exception must be requested then; the code, a full log file, and sample identifiers are due on acceptance and are posted with the online appendix. Prepare the package now.
+- **Pre-registration (new, 2026):** for studies that generate their own data, pre-registration before data collection is strongly encouraged for data collection starting after **July 1, 2026** and **mandatory** for data collection starting after **January 1, 2027** — JAR will not consider primary-data manuscripts without a valid pre-registration from then on.
 - **AI:** AI/AIGC tools **cannot be authors**.
 - **Length / abstract limit:** **待核实** — no official JAR word/page or abstract limit was confirmable on 2026-06-01 (the Wiley `forauthors.html` page returned HTTP 402 to direct fetch). Confirm on the live page before submitting.
 
@@ -45,6 +46,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - [ ] Cover letter (fit, contribution, not under review elsewhere)
 - [ ] Correct **article type** selected (Regular / Survey / Registered Report)
 - [ ] Online appendix / supplementary files if applicable
+- [ ] Separate **data description sheet** (data handlers, raw-data sources and download dates, proprietary-provider contact) for empirical papers
 
 ### Data-and-code package (JAR policy)
 - [ ] Top-to-bottom runnable code regenerating every table/figure from raw extracts
@@ -59,6 +61,28 @@ description: Use when running the final pre-submission preflight for a Journal o
 ## Research Exchange operation notes
 
 Create/keep your account and ORCID current; select the article type that routes the paper to the appropriate Senior/Associate Editor; upload anonymized files and the title page in the designated slots; preview the built PDF before final submission. Remember the **fee clock starts at submission**.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jar-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

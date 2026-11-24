@@ -2,7 +2,12 @@
 
 Primary sources behind the *Mathematical Finance*-specific facts injected into this skill pack.
 Access date for all entries: **2026-06-20**. Live-check volatile facts before submission because
-Wiley journal, editorial-board, fee, and author-rule pages can change.
+Wiley journal, editorial-board, fee, and author-rule pages can change. Author guidelines (review model,
+abstract length, LaTeX designation, Data Availability Statement), open-access APC and editor **re-verified
+2026-11-24**. Access method: every onlinelibrary.wiley.com page returned HTTP 403 to curl and WebFetch on
+2026-11-24, so the pages were read via search-engine rendering restricted to onlinelibrary.wiley.com /
+wiley.com (several independent queries per fact). Change found on 2026-11-24: the optional OA APC is now
+**USD 4,230 / GBP 2,850 / EUR 3,520** (was USD 3,840 / GBP 2,590 / EUR 3,190).
 
 ## Wiley journal, author, and submission pages
 
@@ -18,16 +23,24 @@ Wiley journal, editorial-board, fee, and author-rule pages can change.
   guidelines / For Authors pages. The pack uses these as the live source for the theorem-first fit rule,
   mathematically rigorous style, numerical-experiments-only-when-theory-supported rule, single-blind
   review path, self-contained proofs, appendix-for-detailed-mathematics convention, and Research
-  Exchange LaTeX upload designations.
+  Exchange LaTeX upload designations. **Re-checked 2026-11-24 (search-engine rendering):** manuscripts
+  are single-blind peer reviewed; papers go to review only if the Editor-in-Chief judges they meet the
+  quality and relevance requirements; "A 100–200 word abstract" is required (minimum **100**, maximum
+  **200** words; structured or unstructured), written so that appropriate referees can be matched;
+  LaTeX uploads use the designation "Main Document – LaTeX .tex File"; all accepted manuscripts must
+  publish a Data Availability Statement.
 - **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/editorialboard.html** — Wiley
   editorial-board page. Use this page for the current editor and board roster before naming any editor
-  in live advice.
+  in live advice. Re-checked 2026-11-24 (search-engine rendering): Editor-in-Chief **Rama Cont,
+  Mathematical Institute, University of Oxford**.
 - **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/oa-advantages** and
   **https://onlinelibrary.wiley.com/page/journal/14679965/homepage/fundedaccess.html** — Wiley open-access
   / hybrid-options pages. *Mathematical Finance* is a **hybrid (subscription) journal**: there is **no
-  submission fee**; open access is optional. **OA APC re-verified 2026-06-22: USD 3,840 / GBP 2,590 /
-  EUR 3,190** (excl. tax; may be covered by a Wiley Read & Publish / institutional agreement). Re-verify
-  the current charge on Wiley's Article Publication Charges page before relying on it.
+  submission fee**; open access is optional. **OA APC re-verified 2026-11-24: USD 4,230 / GBP 2,850 /
+  EUR 3,520** (excl. tax; was USD 3,840 / GBP 2,590 / EUR 3,190 on 2026-06-22; may be covered by a Wiley
+  Open Access Account / institutional agreement). Read via search-engine rendering of the fundedaccess
+  page (live page HTTP 403). Re-verify the current charge on Wiley's Article Publication Charges page
+  before relying on it.
 - **https://submission.wiley.com/** — Wiley Research Exchange / Wiley submission entry point. Use for
   manuscript submission and status tracking; LaTeX source, compiled PDF, and supplementary files should
   be prepared for upload.
@@ -63,7 +76,7 @@ Wiley journal, editorial-board, fee, and author-rule pages can change.
 |------|------------|
 | Publisher and journal platform are Wiley / Wiley Online Library | Wiley journal home; Wiley product pages |
 | Print ISSN 0960-1627; Online ISSN 1467-9965 | Wiley product pages; ISSN Portal; RePEc |
-| Editor Rama Cont (re-verified 2026-06-22 on Wiley product/editorial-board pages) | Wiley product pages; Wiley editorial-board page |
+| Editor-in-Chief Rama Cont, University of Oxford (re-verified 2026-11-24 on the Wiley editorial-board page via search-engine rendering) | Wiley product pages; Wiley editorial-board page |
 | BFS affiliation and BFS member online access | Bachelier Finance Society journals page |
 | Journal scope: novel mathematical and statistical methods for financial problems | Wiley journal home / product snippets |
 | Theorem-first fit: mathematically rigorous financial-mathematics contribution, not routine empirical finance | Wiley author guidelines |
@@ -73,7 +86,8 @@ Wiley journal, editorial-board, fee, and author-rule pages can change.
 | Data Availability Statement required for research and synthesis articles; data/code sharing encouraged | Wiley data policy |
 | No-data statement available for purely theoretical papers | Wiley data policy |
 | Data citation format when linked data are used | Wiley data policy |
-| Hybrid journal, no submission fee; optional OA APC USD 3,840 / GBP 2,590 / EUR 3,190 (re-verified 2026-06-22) | Wiley OA / funded-access page |
+| Hybrid journal, no submission fee; optional OA APC USD 4,230 / GBP 2,850 / EUR 3,520 (re-verified 2026-11-24) | Wiley OA / funded-access page |
+| Abstract of 100–200 words, structured or unstructured (re-verified 2026-11-24) | Wiley author guidelines |
 
 ## Live-check items before upload
 
@@ -82,3 +96,32 @@ Wiley journal, editorial-board, fee, and author-rule pages can change.
   wording.
 - Re-open the Wiley product/editorial-board pages before naming the editor or editorial-board members.
 - Re-open Wiley open-access/APC pages before quoting any fee or open-access charge.
+
+## UNVERIFIED / verify-before-quoting
+
+- **Keywords and JEL / AMS-MSC classification requirements:** not surfaced in the search-engine rendering
+  of the Wiley author guidelines on 2026-11-24 (live page HTTP 403); keep as "where requested".
+- **"No submission fee":** carried from the 2026-06-20 read; not separately re-confirmed on 2026-11-24.
+- Bachelier Finance Society affiliation and member-access wording: not re-read on 2026-11-24.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Mathematical Finance",
+  "verified": "2026-11-24",
+  "rules": {
+    "review_mode": {"value": "single-blind", "source": "https://onlinelibrary.wiley.com/page/journal/14679965/homepage/forauthors.html", "note": "identifying information is acceptable; Editor-in-Chief screens before review"},
+    "abstract_words_max": {"value": 200, "source": "https://onlinelibrary.wiley.com/page/journal/14679965/homepage/forauthors.html", "note": "a 100-200 word abstract is required; read via search-engine rendering (live page HTTP 403)"},
+    "abstract_format": {"value": "either", "source": "https://onlinelibrary.wiley.com/page/journal/14679965/homepage/forauthors.html"},
+    "portal": {"value": "Wiley Research Exchange (LaTeX uploads designated 'Main Document - LaTeX .tex File')", "source": "https://onlinelibrary.wiley.com/page/journal/14679965/homepage/forauthors.html"},
+    "data_code_policy": {"value": "all accepted manuscripts publish a Data Availability Statement (theory papers use the 'no datasets generated or analysed' template); data/code sharing encouraged", "source": "https://onlinelibrary.wiley.com/page/journal/14679965/homepage/forauthors.html", "note": "the statement is required at publication; not listed in required_statements because the initial-submission requirement is not stated"},
+    "apc": {"value": "optional open access: USD 4,230 / GBP 2,850 / EUR 3,520 (excl. tax)", "source": "https://onlinelibrary.wiley.com/page/journal/14679965/homepage/fundedaccess.html"},
+    "jel_codes_required": {"value": null, "note": "not stated on the official pages read as of 2026-11-24"},
+    "keywords_required": {"value": null, "note": "not stated on the official pages read as of 2026-11-24"}
+  }
+}
+```

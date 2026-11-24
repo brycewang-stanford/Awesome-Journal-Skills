@@ -90,9 +90,9 @@ single-source reachability under edge insertions and deletions on graphs of boun
 >
 > *(¶5 — matching necessity and where the proof lives.)* We complement the algorithm with **Theorem 2**,
 > showing the genus dependence cannot be removed under the same fine-grained assumption, so the result
-> is tight in its parameter. Because the 15-page body sketches the two most technical invariants, the
-> **complete proofs are in the clearly labelled appendix and the arXiv full version**; every lemma the
-> body uses is proved there. Section 2 fixes notation; Sections 3-4 give the algorithm; Section 5 the
+> is tight in its parameter. The first ten pages sketch the two most technical invariants; the
+> **complete proofs follow in the later sections and appendix of this full version** (also on arXiv);
+> every lemma the first ten pages use is proved there. Section 2 fixes notation; Sections 3-4 give the algorithm; Section 5 the
 > lower bound. *(brief roadmap, no over-signposting.)*
 
 ---

@@ -15,7 +15,7 @@ resubmission flow still reference **Editorial Express**), a **USD $75 nonrefunda
 submissions and resubmissions over one year, a **250-word** abstract, **single-anonymized** review
 by a minimum of two referees after editor screening, Elsevier source-file rules plus Editorial
 Express resubmission PDF norms, and three tracks: **Regular, Annals, and Themed Issues**.
-Co-Editors-in-Chief: **Michael Jansson (UC Berkeley)** and **Aureo de Paula (UCL)**. Re-verify
+Managing Editor **Michael Jansson (UC Berkeley)** with Co-Editors **Giuseppe Cavaliere, Yanqin Fan, Bo Honoré, and Viktor Todorov** (ScienceDirect masthead, Internet Archive capture of 2026-10-17; Aureo de Paula is now listed as a former editor). Re-verify
 volatile specifics (portal routing, editors, open themed calls) on the official pages.
 
 ## When to trigger

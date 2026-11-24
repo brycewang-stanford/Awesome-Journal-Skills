@@ -1,6 +1,6 @@
 ---
 name: mobisys-review-process
-description: Use when explaining or planning around MobiSys peer review — the two-round process with an early-reject cut after round 1, the round-2 rebuttal window, double-blind HotCRP mechanics, the systems-and-services reviewer pool, and decision criteria for on-device claims, so response strategy fits how MobiSys decides.
+description: Use when explaining or planning around MobiSys peer review — the two-round process with an early-reject cut after round 1, the round-2 rebuttal window (500 words), single-blind HotCRP mechanics (since 2026), conditional acceptance with anonymous shepherding and a one-page public review, the systems-and-services reviewer pool, and decision criteria for on-device claims, so response strategy fits how MobiSys decides.
 ---
 
 # MobiSys Review Process
@@ -10,16 +10,25 @@ the organizing-committee page before making process claims — the mechanics are
 
 ## Process model
 
-- MobiSys uses HotCRP for submission and review, with a paper-registration step preceding the
-  paper upload and **double-blind** review (author identities hidden since 2017).
+- MobiSys uses HotCRP for submission and review, with an abstract-registration step preceding
+  the paper upload. Review is **single-blind** since 2026: reviewers see the authors' names,
+  affiliations and contact information, which the CFP says helps catch conflicts and compare
+  the paper with the authors' prior work (2017–2025 was double-blind).
+- MobiSys 2027 dates (re-verified 2026-11-24): paper December 4, 2026 (AoE); early rejection
+  January 26, 2027; rebuttal February 8–12, 2027; final decisions March 6, 2027.
 - Review runs in **two rounds**. Papers that do not advance past round 1 receive an **early
   rejection with reviews**, so authors can re-plan before the process ends. Round-2 survivors
-  reach reviews and a **rebuttal window**.
+  reach reviews and a **rebuttal window** limited to **500 words**.
 - The rebuttal is **scope-limited**: correct factual errors and answer specific reviewer
   questions; new results are admissible only when directly responsive, or may be promised for
   camera-ready (`mobisys-author-response`).
-- Unlike MobiCom and NSDI, the rendered 2026 CFP describes accept/reject through the rebuttal,
-  **not** a separate one-shot revision channel; treat any revision path as 待核实 per cycle.
+- Unlike MobiCom and NSDI, the MobiSys 2027 CFP has **no** separate one-shot revision
+  channel. Every accepted paper is **conditionally accepted** and becomes final only after an
+  **anonymous shepherding** process in which the shepherd may request additional evaluation
+  results, not just editorial changes.
+- Each accepted paper gets a **one-page public review** written by a TPC member, published on
+  the website and in the proceedings — the PC's view of strengths and weaknesses travels with
+  the paper.
 - Accepted papers are published in the ACM Digital Library, so camera-ready compliance and
   artifact badges matter as much as the initial accept.
 

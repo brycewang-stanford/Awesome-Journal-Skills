@@ -39,7 +39,7 @@ authors know the field *as of this cycle*, not as of the project's start.
 | Resource | Existing datasets' coverage gaps: languages, domains, phenomena, license |
 | Analysis / evaluation | What prior evaluations measured incorrectly or could not see |
 | Metric | Failure cases of the incumbent metric, with correlation evidence |
-| Theme-track paper | How the work answers the year's theme question (ACL 2026: explainability) |
+| Theme-track paper | How the work answers the year's theme question (ACL 2027: homogenization and knowledge collapse in LLMs) |
 
 One paragraph of typed contrast per lane beats an undifferentiated citation
 inventory; ACL's compressed format cannot afford taxonomy for its own sake.

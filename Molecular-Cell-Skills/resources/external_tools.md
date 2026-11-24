@@ -40,7 +40,7 @@ the [STAR Methods guidelines](https://www.cell.com/star-methods).
 
 - **Highlights** — 3–4 bullets, each ≤ 85 characters; see the author guidelines for exact formatting.
 - **eTOC / In Brief blurb** — ~50 words, third-person, for readers outside the exact subfield.
-- **Graphical Abstract** — single-panel visual summary of the mechanism; see the [Cell Press Graphical Abstract guidelines](https://www.cell.com/pb-assets/journals/research/cellpress/graphical_abstract_guidelines.pdf) for size and design rules.
+- **Graphical Abstract** — single-panel visual summary of the mechanism; see the [Cell Press Graphical Abstract guidelines](https://www.cell.com/pb/assets/raw/shared/figureguidelines/GA_guide.pdf) for size and design rules.
 
 ## 4. Molecular-biology stack (sequence, structure, imaging)
 
@@ -71,7 +71,7 @@ the [STAR Methods guidelines](https://www.cell.com/star-methods).
 | Molecular Cell — article types | https://www.cell.com/molecular-cell/article-types |
 | Cell Press STAR Methods | https://www.cell.com/star-methods |
 | Cell Press numbered referencing style | https://www.cell.com/news-do/cell-press-referencing-style |
-| Graphical Abstract guidelines | https://www.cell.com/pb-assets/journals/research/cellpress/graphical_abstract_guidelines.pdf |
+| Graphical Abstract guidelines | https://www.cell.com/pb/assets/raw/shared/figureguidelines/GA_guide.pdf |
 | Editorial Manager (submission) | https://www.editorialmanager.com/molecular-cell |
 
 ## 8. Notes

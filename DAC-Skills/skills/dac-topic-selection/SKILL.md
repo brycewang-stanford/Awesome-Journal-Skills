@@ -28,11 +28,11 @@ wrong conference.
 
 | Signal in your project | Track | Why |
 |---|---|---|
-| Novel algorithm/technique with QoR gains vs prior art, generalizable | **Research Manuscript** | Double-blind, archival on ACM DL; judged on novelty + evidence |
+| Novel algorithm/technique with QoR gains vs prior art, generalizable | **Research Manuscript** | Double-blind, archival in IEEE Xplore + ACM DL; judged on novelty + evidence |
 | An empirical or ML-for-EDA study that changes what the field believes | **Research Manuscript** | Archival research contribution |
-| A real tapeout/flow experience, tool-deployment lesson, or methodology from industry | **Engineering Track** | Practitioner audience; separate committee; presentation-first |
+| A real tapeout/flow experience, tool-deployment lesson, or methodology from industry | **Engineering Track** | Practitioner audience; separate Engineering Track Committee; no manuscript, no publication |
 | Front-end design, back-end design, IP, or embedded SW/HW practice you want peers to learn from | **Engineering Track** | Its named scope; not required to out-QoR a baseline |
-| Result too early/small for archival novelty but timely | **Late Breaking Results** | Short poster-style track, later deadline |
+| Result too early/small for archival novelty but timely | **Late Breaking Results** (if the cycle runs one) | Short poster-style track DAC 2026 ran; DAC 2027 lists none as of 2026-11-24 (待核实) |
 
 The trap for academics: submitting a solid-but-incremental flow improvement to the Research track
 where it dies on novelty, when the Engineering Track would have welcomed it as a practice lesson.
@@ -85,7 +85,7 @@ the archival citation record.
            -> 3+ recent papers = a reviewer pool exists; 0 = mismatch or ICCAD/DATE fit
 [Benchmarks] does a standard suite exist for your problem (ISPD, EPFL, ISCAS/ITC, TAU, CircuitNet)?
            -> reviewers expect it; a private-benchmark-only evaluation is a scored weakness
-[Calendar] DAC manuscript deadline is ~November; ICCAD is later, ASP-DAC is January, DATE differs
+[Calendar] DAC manuscript deadline is mid-November (DAC 2027: Nov 18, 2026); ICCAD is later, ASP-DAC is January, DATE differs
            -> route to the nearest honest fit rather than idling a cycle
 ```
 
@@ -95,7 +95,7 @@ the archival citation record.
 [Is it EDA/chip-design?] automation/verification/security/methodology contribution? -> DAC candidate
 [Track fork] novel + archival + baselined -> Research Manuscript
              industrial practice/deployment lesson -> Engineering Track
-             timely but early -> Late Breaking Results
+             timely but early -> Late Breaking Results if the cycle runs one, else a workshop
 [Sibling check] CAD-algorithm depth & fall timing -> ICCAD; architecture core -> ISCA/MICRO/HPCA;
                 circuits core -> ISSCC/CICC
 [Verdict] DAC Research / DAC Engineering / sibling venue, with a one-line QoR-framed reason

@@ -29,7 +29,7 @@ Science rejects **most submissions without external review**. The editorial bar 
 | Not sure the result is broad/general-interest enough        | `sci-fit`           |
 | Result is significant but the "why it matters" is buried    | `sci-framing`       |
 | No one-sentence summary; abstract reads narrow/jargon-heavy  | `sci-abstract`      |
-| Unsure whether this is a Research Article or a Report; over length | `sci-writing` |
+| Unsure whether this fits the standard or extended Research Article format; over length | `sci-writing` |
 | Figures over panel/word budget; fonts/colors non-compliant  | `sci-figures`       |
 | Stats under-reported; n/error bars/tests unclear; not reproducible | `sci-statistics` |
 | No data/code/materials availability plan                    | `sci-data`          |
@@ -42,7 +42,7 @@ Science rejects **most submissions without external review**. The editorial bar 
 
 1. `sci-fit` — clear the broad-significance / general-interest bar first
 2. `sci-framing` — lock the conceptual advance and the "why now"
-3. `sci-writing` — choose format (Research Article vs Report) and hold length
+3. `sci-writing` — choose format (standard vs extended Research Article) and hold length
 4. `sci-figures` — finalize display items within budget
 5. `sci-statistics` — rigor & reproducibility reporting
 6. `sci-data` — data / code / materials availability
@@ -58,15 +58,15 @@ Science rejects **most submissions without external review**. The editorial bar 
 
 - "A specialist would care, but would a geneticist *and* a physicist?" → `sci-fit`
 - "My intro starts with background, not with the advance" → `sci-framing`
-- "My Report main text is 4,000 words" → `sci-writing` (Reports target ~2,500)
-- "Methods are in the main text" → `sci-writing` (Reports push Methods to Supplementary)
+- "My main text is 4,000 words" → `sci-writing` (standard Research Articles cap at 3,000; extended online format up to 6,000 with justification)
+- "Methods are in the main text" → `sci-writing` (Materials and Methods go to Supplementary Materials)
 - "Bar chart with no individual data points / no n" → `sci-statistics` + `sci-figures`
 - "No accession numbers / no code repo" → `sci-data`
 - "Editor needs to see the hook in 3 sentences" → `sci-cover-letter`
 
 ## How Science differs from its siblings and from Nature
 
-- **Science (Reports / Research Articles)** vs **Science Advances** (open-access, broader acceptance, longer): if the work is solid but not top-1% general interest, Advances may be the realistic target — say so.
+- **Science (Research Articles)** vs **Science Advances** (open-access, broader acceptance, longer): if the work is solid but not top-1% general interest, Advances may be the realistic target — say so.
 - **Science vs Nature**: both gate on broad significance, but Science requires a **one-sentence summary** and uses a **single numbered reference list with full author names**; Nature uses a different reference and summary-paragraph convention. Do not copy a Nature-formatted manuscript over without a style pass (`sci-citation`, `sci-abstract`).
 
 ## Stage ledger (copy into the conversation and keep it updated)
@@ -77,7 +77,7 @@ Track the manuscript's position in the pipeline with this ledger so every routin
 SCIENCE (AAAS) MANUSCRIPT STAGE LEDGER
 ======================================
 Target venue      : Science | Science Advances | reroute → ______
-Format            : Report | Research Article | undecided
+Format            : Research Article (standard) | Research Article (extended online) | undecided
 Stage gates (mark ✓ / ✗ / n/a, with date):
   [ ] sci-fit          significance rung ≥3, general-interest test passed
   [ ] sci-framing      one-sentence advance locked; why-now named

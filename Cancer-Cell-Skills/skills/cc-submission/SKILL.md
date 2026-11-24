@@ -50,7 +50,9 @@ description: Use when running the final pre-submission preflight for Cancer Cell
 
 ### Front matter & consistency
 
-- [ ] Summary within word limit; Highlights within count/length
+- [ ] Summary ≤150 words; Highlights 3–4 bullets ≤85 characters; eTOC blurb ≤50 words; title ≤145 characters
+- [ ] Main text ≤7,000 words (Article) / ≤4,000 (Report), excluding STAR Methods and References; ≤8 main figures/tables (final-file limits; initial submission is format-free)
+- [ ] Declaration of Interests form uploaded (required at initial submission); AI-use declaration section if generative AI was used in writing
 - [ ] Gene/protein nomenclature consistent across text, figures, front matter
 - [ ] Every in-text figure/table/reference citation resolves; reference style correct
 - [ ] Claims match evidence (no therapeutic claim without in vivo/human support)
@@ -61,6 +63,28 @@ description: Use when running the final pre-submission preflight for Cancer Cell
 - Have suggested/excluded reviewers ready; complete all required metadata fields.
 - Confirm corresponding author and all co-author details/affiliations.
 - Verify volatile items (word/figure limits, fees, required statements) on the live author page — they change.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue cancer-cell-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

@@ -15,12 +15,14 @@ description: Use when running the final pre-submission preflight for the Journal
 ## Process facts (verified 2026-06-20; editors + fees re-verified 2026-06-22; re-confirm volatile items on the official page)
 
 - JDE is published by **Elsevier** and submitted through **Editorial Manager**. It is the **leading field
-  journal in development economics**, edited by Editors-in-Chief **A. Foster** (Brown) and **K. Macours**
-  (Paris School of Economics) — re-verified 2026-06-22; re-confirm on the ScienceDirect editorial-board page before naming them in a cover letter.
+  journal in development economics**, edited by Editor-in-Chief **K. Macours**
+  (Paris School of Economics) — re-verified 2026-11-24 (A. Foster is no longer listed as Editor-in-Chief); re-confirm on the ScienceDirect editorial-board page before naming them in a cover letter.
 - Review is **single-anonymized** (referees know the author; the author does not know referees).
   **Do not anonymize** the manuscript as if it were double-blind unless the current guidance changes.
-- A **USD 50 non-refundable submission fee** applies to original manuscripts. Open access is optional and
-  charged only after acceptance; the current APC is **USD 4,760** excluding taxes.
+- A **USD 50 non-refundable submission fee** applies to original manuscripts (**USD 25** for full-time students;
+  waived for corresponding authors in low- and middle-income economies per the AEA country designation, via a
+  discount code from Elsevier support). Open access is optional and charged only after acceptance; the current
+  APC is **USD 4,400** excluding taxes (as captured 2026-10-17).
 - **Submission cap:** no more than **three papers per author within any 12-month period**.
 - **Replication readiness:** data, programs, and computational details can be requested **at the review
   stage**, so the package must be ready at submission (see jde-replication-and-data-policy).
@@ -76,6 +78,28 @@ Hypothetical: a cluster-randomized health-information experiment, sharp single r
 - **Route:** fits the **short-paper** track — under both the 6,000-word and 5-exhibit caps, self-contained, online appendix at ~14 pages (under the 20-page cap, *illustrative*).
 - **Preflight hits:** the manuscript was anonymized as if double-blind — un-anonymize, since review is single-anonymized; the cover letter omitted the USD 50 fee budget — add it before filing.
 - **Go/no-go:** replication package regenerates all 4 exhibits from `run_all`; COI/IRB disclosures attached; within the 3-per-12-months cap → cleared to submit.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jde-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

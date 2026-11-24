@@ -16,7 +16,8 @@
 Responsible NLP checklist、ARR 的 OpenReview groups、ACL Anthology 的 EACL 与
 Findings 卷，以及 ACL Member Portal 公告。核验网关屏蔽了对 `2027.eacl.org`、
 `aclrollingreview.org` 与 `dblp.org` 的直接抓取，故这些页面通过搜索引擎对精确
-官方 URL 的渲染读取，并与 ACL Anthology、ACL Member Portal 交叉核对。完整来源、
+官方 URL 的渲染读取，并与 ACL Anthology、ACL Member Portal 交叉核对；2026-11-24
+已直接抓取并复核 EACL 2027 与 ARR 页面。完整来源、
 访问方式与全部 待核实 项见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 

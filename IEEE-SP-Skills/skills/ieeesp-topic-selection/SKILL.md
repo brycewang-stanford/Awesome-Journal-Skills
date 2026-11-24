@@ -1,6 +1,6 @@
 ---
 name: ieeesp-topic-selection
-description: Use when deciding whether a security or privacy project belongs at IEEE S&P (Oakland), including the threat-model test, SoK fit, routing among USENIX Security, CCS, NDSS, PETS, and CRYPTO, and whether the one-year resubmission embargo or the 40% overlap rule constrains the plan.
+description: Use when deciding whether a security or privacy project belongs at IEEE S&P (Oakland), including the threat-model test, SoK fit, routing among USENIX Security, CCS, NDSS, PETS, and CRYPTO, and whether the one-year resubmission embargo or the similar-contribution resubmission rule constrains the plan.
 ---
 
 # IEEE S&P Topic Selection
@@ -28,7 +28,7 @@ and its reviewer pool reads for adversarial rigor above topical fashion.
 
 Both the 2026 and 2027 CFPs solicit Systematization of Knowledge papers,
 marked with the `SoK:` title prefix and a submission-form checkbox
-(sp2027.ieee-security.org/cfpapers.html, checked 2026-07-08). An SoK is judged
+(sp2027.ieee-security.org/cfpapers.html, re-verified 2026-11-24). An SoK is judged
 on its treatment of existing work — a new viewpoint on a major area, evidence
 that challenges a long-held belief, or a genuinely new taxonomy — not on new
 results. If your "survey" cannot name the belief it overturns or the structure
@@ -38,7 +38,7 @@ it reveals, it is a literature review, and S&P rejects those.
 
 | Signal in your project | Better-fit venue | Why |
 |---|---|---|
-| Adversarial rigor + broad security relevance | **IEEE S&P** | Flagship generalist bar; SoK lane; Revise pathway rewards deep-but-fixable work |
+| Adversarial rigor + broad security relevance | **IEEE S&P** | Flagship generalist bar; SoK lane; interactive rebuttals can absorb requested evidence |
 | Deployable systems artifact, engineering depth | USENIX Security | Artifact-forward culture, open-access proceedings |
 | Applied crypto protocols, broad ACM community | ACM CCS | Larger program, more topical tracks |
 | Network/protocol attacks needing fast turnaround | NDSS | February conference, distinct cycle timing |
@@ -51,13 +51,14 @@ November for the 2027 symposium) may simply not be the next open door.
 
 ## Embargo math changes the answer
 
-Two S&P-specific rules constrain venue strategy (2027 CFP, checked 2026-07-08):
+Two S&P-specific rules constrain venue strategy (2027 CFP, re-verified 2026-11-24):
 
 - A rejected paper may not return to S&P for **one year from the original
   submission date** — so a weak submission burns the venue, not just the cycle.
-- A new submission counts as a resubmission when roughly **40% or more
-  overlaps** a previously rejected one; splitting a rejected paper into two
-  does not reset the clock.
+- A new submission counts as a resubmission when it comes from the same or
+  similar authors with a **very similar intellectual contribution** — if a
+  reviewer could write a substantially similar summary. Rewriting, small
+  extensions, or a new angle do not reset the clock.
 
 If the evidence will not be ready, targeting a sibling venue first and S&P
 with the mature version is often the higher-expected-value order.
@@ -70,8 +71,8 @@ Oakland fit worksheet (answer in one line each):
 2. Evidence type that closes the loop (exploit / adaptive eval /
    measurement + ethics / systematization): ..................
 3. If SoK: which belief or structure does it change? .........
-4. Embargo status: any ≥40%-overlap rejection at S&P in the
-   last 12 months? ...........................................
+4. Embargo status: any S&P rejection of a very similar contribution
+   in the last 12 months? ....................................
 5. Which cycle is realistically reachable with finished
    evidence (not finished writing)? ..........................
 → Any blank line = not ready to pick S&P yet.
@@ -84,8 +85,8 @@ Oakland fit worksheet (answer in one line each):
 - The threat model was written after the experiments, to justify them.
 - The contribution is a faster/cheaper version of a published system with the
   same security argument — reviewers will ask what the *security* delta is.
-- The plan depends on the Revise outcome as a safety net; Revise is offered to
-  a limited set of papers reviewers already believe in, not to drafts.
+- The plan depends on a revision round as a safety net; the 2026 and 2027 CFPs
+  have none — the decision is Accept or Reject on the submitted paper.
 
 ## Output format
 
@@ -94,6 +95,6 @@ Oakland fit worksheet (answer in one line each):
 [Paper type] research / SoK
 [Threat-model status] stated & realistic / stated but strained / missing
 [Evidence gap] <the one experiment or analysis that closes the loop>
-[Embargo check] clear / blocked until <date> / 40%-overlap risk
+[Embargo check] clear / blocked until <date> / similar-contribution risk
 [Alternative order] <e.g., USENIX Sec first, S&P with mature version>
 ```

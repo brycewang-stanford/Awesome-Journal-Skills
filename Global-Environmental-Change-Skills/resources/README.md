@@ -27,7 +27,7 @@ staggered-adoption difference-in-differences, IV, RDD, matching on human-dimensi
 subset, the venue-neutral standard referee objections apply. That prose is shared across journal packs
 and lives in the repo's shared hub:
 
-- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md)
   — the standard referee objections (identification, inference, robustness, mechanism) and how to
   pre-empt them. **Apply this to a GEC paper's quasi-experimental / observational claims**; it does not
   apply to qualitative, conceptual, or purely descriptive work.
@@ -47,7 +47,7 @@ copy here.
    polishing prose with [`../skills/gec-writing-style`](../skills/gec-writing-style/SKILL.md).
 3. Defend the design with [`../skills/gec-research-design`](../skills/gec-research-design/SKILL.md); if
    the work is quasi-experimental or observational, pre-empt referees with the shared
-   [`reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+   [`reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md).
 4. Sharpen the "so what" with
    [`../skills/gec-policy-relevance-and-implications`](../skills/gec-policy-relevance-and-implications/SKILL.md);
    benchmark against verified GEC papers in [`exemplars/library.md`](exemplars/library.md); confirm

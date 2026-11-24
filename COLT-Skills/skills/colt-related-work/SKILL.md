@@ -62,8 +62,8 @@ The theory community posts to arXiv aggressively, so collisions are routine:
   will find it anyway; silence looks worse.
 - Your own prior arXiv version of this paper is not prior work; do not cite it in a
   way that de-anonymizes (see `colt-submission` for the anonymity sweep).
-- The 2026 CFP barred parallel submission to journals and to proceedings venues of
-  substantially similar work (verified 2026-07-08); the related-work section is where
+- The COLT 2027 CFP, like 2026's, bars parallel submission to journals and to
+  proceedings venues of substantially similar work (verified 2026-11-23); the related-work section is where
   such overlap becomes visible, so audit your own citations for it.
 
 ## Citation mechanics
@@ -114,7 +114,7 @@ Thm 3.2]" is house style and lets referees check your usage in seconds.
 ## Cycle-volatility warnings
 
 - Overlap and dual-submission wording is re-issued each cycle; the rules summarized
-  here are the 2026 text (待核实 in later cycles).
+  here are the COLT 2027 text (待核实 in later cycles).
 - Whether an Open Problems track runs in the current cycle must be checked in the
   live CFP.
 

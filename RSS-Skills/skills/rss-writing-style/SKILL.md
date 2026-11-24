@@ -37,7 +37,8 @@ narrow trials. Enforce the match at sentence level:
 
 ## Pre-answering, because there may be no rebuttal
 
-Only above-threshold papers got a 2026 rebuttal; write as if you will not. For each
+Only papers invited past Stage 1 get a rebuttal (RSS 2027; in 2026, only
+above-threshold papers); write as if you will not. For each
 major claim, plant the defense where the objection arises:
 
 - The obvious confound → name it and point at the ablation that kills it, in the same
@@ -49,8 +50,10 @@ major claim, plant the defense where the objection arises:
 
 ## Brevity as a scored trait
 
-The 8-page limit (excluding references, 2026) is a ceiling the CFP pointedly frames
-as not a floor. Compression tactics that preserve rigor:
+RSS 2027 compresses twice: the Stage 1 Extended Abstract is **5 pages of content + 1
+page of references** (any appendix inside the 5), and the final paper is at most **8
+pages excluding references** — ceilings, not floors. Compression tactics that
+preserve rigor:
 
 1. Merge related-work prose into contrastive sentences attached to your claims rather
    than a stand-alone tour.
@@ -73,7 +76,7 @@ p.3-4      method: the mechanism, then the system carrying it
 p.5-6.5    experiments: protocol, results, ablations, failure table
 p.6.5-7.5  analysis: what the failures say about the claim
 p.7.5-8    limitations with scope sentences; conclusion in 4 lines
-refs       excluded from the count (2026 rule)
+refs       excluded from the count (Stage 2 rule; Stage 1 allows exactly 1 page)
 ```
 
 Two structural rules the budget encodes: analysis gets real space (RSS reviewers

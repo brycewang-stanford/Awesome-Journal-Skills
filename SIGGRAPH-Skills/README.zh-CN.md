@@ -8,12 +8,17 @@ Eurographics/EGSR、SGP、SCA 或视觉会议；构建能经受领域专家审�
 应对单轮评审中的 **1000 词 rebuttal**、Technical Papers Committee 会议与**条件录用后的第二阶段核验**；
 直到完成 TOG camera-ready 并交付可运行、可申请 replicability stamp 的代码。
 
-官方依据核验日期：**2026-07-09**。已核验 SIGGRAPH 2026 与 SIGGRAPH Asia 2026 技术论文的 call、
-submissions FAQ 与 reviewer-instructions 页面、ACM SIGGRAPH 作者须知、ACM TOG 期刊与作者指南，以及
-Graphics Replicability Stamp Initiative。核验环境中直接抓取 `s2026.siggraph.org`、
-`asia.siggraph.org` 与 `dl.acm.org` 返回 403/405，因此通过搜索引擎对精确 URL 的渲染阅读官方页面，
-并与 ACM Digital Library（TOG）、dblp 及 ACM SIGGRAPH 博客交叉核对；完整记录（含所有 待核实 项）见
+官方依据首次核验于 2026-07-09，并于 **2026-11-24 重新核验**：SIGGRAPH 2026 与 SIGGRAPH Asia 2026
+技术论文的 call、匿名政策、submissions FAQ 与 reviewer-instructions 页面（2026-11-24 直接抓取）、
+SIGGRAPH 2027 与 SIGGRAPH Asia 2027 公告页、ACM SIGGRAPH 作者须知、ACM TOG 期刊与作者指南
+（`dl.acm.org` 仍拒绝自动抓取，沿用此前的搜索引擎渲染读数），以及 Graphics Replicability Stamp
+Initiative。完整记录（含届次状态与所有 待核实 项）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
+
+**届次状态（2026-11-24）：** SIGGRAPH 2026 已举办，SIGGRAPH Asia 2026（吉隆坡，2026 年 12 月 1-4 日）
+投稿早已截止。**SIGGRAPH 2027**（阿纳海姆，2027 年 8 月 8-12 日）已公布技术论文截止日
+**2027-01-21 / 01-28 / 01-29**（form / 论文 / 上传，22:00 UTC）及 Technical Papers Chair（Tamy
+Boubekeur），但完整 call 尚未发布——在其发布前，下文规则以 SIGGRAPH 2026 call 为准。
 
 ## SIGGRAPH 与同类会议的区别
 
@@ -28,6 +33,9 @@ Graphics Replicability Stamp Initiative。核验环境中直接抓取 `s2026.sig
   的工作。
 - **每年两个周期。** SIGGRAPH 北美（约 1 月截止，夏季办会）与 SIGGRAPH Asia（约 5 月截止，12 月办会）
   采用同一模型——被拒论文自然改投下一周期。
+- **双盲评审。** call 明确写明：审稿人不知作者身份，反之亦然。投稿使用
+  `\documentclass[acmtog,anonymous,review]{acmart}`，删去致谢，补充材料保持匿名，并遵守**匿名政策**
+  ——自截止日前两周起禁止宣传（arXiv 预印本仍允许）。
 - **简短、纯文本 rebuttal。** 收到评审后，作者仅有**一轮 ≤1000 词、纯文本**（无图、无视频、无 URL）
   用于纠正事实错误——随后 **Technical Papers Committee 会议**决定，**条件录用**论文还须通过**第二
   阶段**委员核验。
@@ -121,11 +129,14 @@ SIGGRAPH-Skills/
 ## 2026 周期锚点事实（历史快照，非永久规则）
 
 - SIGGRAPH 2026 为**第 53 届** ACM SIGGRAPH：**洛杉矶会议中心，2026 年 7 月 19-23 日**。技术论文
-  submission form **2026-01-15**（22:00 UTC），完整投稿 **2026-01-23**（22:00 UTC）；rebuttal
+  submission form **2026-01-15**，论文 **2026-01-22**，上传与利益冲突 **2026-01-23**（均 22:00 UTC）；rebuttal
   **2026-03-05 至 03-12**；**>1,120** 篇投稿；发表为 **TOG 第 45 卷第 4 期**。
-- SIGGRAPH Asia 2026：**马来西亚吉隆坡，2026 年 12 月 1-4 日**；技术论文 Stage-2 全文
-  **2026-05-12**（上传 05-13）；SIGGRAPH 2026 之后的下一个周期目标。
-- 出版：**ACM Transactions on Graphics**，期刊整合。评审：单轮，历史上为 **single-blind**，用
+- SIGGRAPH Asia 2026：**马来西亚吉隆坡，2026 年 12 月 1-4 日**；技术论文 form **2026-05-05**，全文
+  **2026-05-12**（上传 05-13，23:59 AoE）。
+- SIGGRAPH 2027：**阿纳海姆会议中心，2027 年 8 月 8-12 日**；技术论文截止日公布为 **2027-01-21**
+  （form 与利益冲突）、**2027-01-28**（论文）、**2027-01-29**（上传），22:00 UTC——下一个投稿目标；
+  截至 2026-11-24 完整 call 未发布。SIGGRAPH Asia 2027：东京，2027 年 11 月 30 日至 12 月 3 日。
+- 出版：**ACM Transactions on Graphics**，期刊整合。评审：单轮，**双盲（double-blind）**、每篇四份完整审稿，用
   **6 级尺度**，含 **≤1000 词纯文本 rebuttal**、**Technical Papers Committee 会议**，以及**条件
   录用+第二阶段**核验。格式：**acmart ≥ 2.16**；Conference track **≤7 页** + 至多两页纯图页。
   投稿系统：**Linklings**。
@@ -137,8 +148,7 @@ SIGGRAPH-Skills/
 1. **已核验 2026 事实** —— 带日期/篇幅并追溯到 source map 中的编号来源（如 TOG 第 45 卷第 4 期出版、
    Conference track 7 页篇幅、1000 词 rebuttal、acmart ≥ 2.16 要求）。
 2. **转述事实** —— 仅经二手渲染读到并如实标注（如 >1,120 投稿数；SIGGRAPH 2025 录用数据）。
-3. **核验期不可确定项** —— 明确标为 待核实（如 SIGGRAPH 2026 确切录用数、完整 Technical Papers
-   Committee/Chair 名单、2026 精确的匿名与生成式 AI 披露措辞）。
+3. **核验期不可确定项** —— 明确标为 待核实（如 SIGGRAPH 2026 确切录用数）。
 
 若任何陈述以第 1 类口吻呈现第 2/3 类内容，视为 bug，对照官方页面修正。
 

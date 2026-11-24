@@ -9,7 +9,7 @@ description: Use when deciding which aeja-* sub-skill to invoke next, or when se
 
 This is the router. It tells you **which aeja-* skill to use at the current stage** of a manuscript aimed at the *American Economic Journal: Applied Economics* (AEJ: Applied) — the **American Economic Association's** quarterly journal for **empirical applied microeconomics with credible causal identification**: labor, development, health, education, public, urban, environmental, and household finance. AEJ: Applied is **empirical-first**: a clean research design carrying a substantive economic question, with theory used to *interpret and structure* rather than to lead.
 
-Default assumption: unless the user says otherwise, treat the target as AEJ: Applied. Operational tells that you are at AEJ: Applied and not a sibling: review is **single-blind** (author identities are visible to referees); submission is via the **AEA ScholarOne system** with fee tiers by AEA membership and country-income status; **JEL codes and a 100-word abstract** are required; and the signature stable differentiator is the **AEA Data and Code Availability Policy** — administered by the **AEA Data Editor (Lars Vilhuber)**, accepted papers deposit data + code to the **AEA Data and Code Repository on openICPSR**, and the package is checked for reproducibility before publication. On 2026-06-20 the editor page listed **Raymond Fisman** (Boston University) as Editor, with coeditors Leah Boustan, Marika Cabral, Peter Hull, Xavier Jaravel, and Nicholas Ryan. Check live AEA pages for fees and editors before submission-week advice.
+Default assumption: unless the user says otherwise, treat the target as AEJ: Applied. Operational tells that you are at AEJ: Applied and not a sibling: submissions must be **author-anonymized** (the AEA's three-year RCT of author-anonymized review launched in fall 2026; the editorial-policy page still describes single-blind review for the control arm); submission is via the **AEA ScholarOne system** with fee tiers by AEA membership and country-income status; a **100-word abstract** is required and JEL codes are customary; and the signature stable differentiator is the **AEA Data and Code Availability Policy** — administered by the **AEA Data Editor (Lars Vilhuber)**, accepted papers deposit data + code to the **AEA Data and Code Repository on openICPSR**, and the package is checked for reproducibility before publication. On 2026-11-23 the editor page listed **Raymond Fisman** (Boston University) as Editor, with coeditors Marika Cabral, Richard Hornbeck, Peter Hull, Xavier Jaravel, and Namrata Kala. Check live AEA pages for fees and editors before submission-week advice.
 
 ## When to trigger
 
@@ -45,7 +45,7 @@ Default assumption: unless the user says otherwise, treat the target as AEJ: App
 7. `aeja-writing-style` — make the design and estimate land (abstract + intro last)
 8. `aeja-replication-package` — assemble the openICPSR package for the AEA Data Editor
 9. `aeja-referee-strategy` — pre-empt the objections this design invites
-10. `aeja-submission` — AEA portal preflight (single-blind front matter, JEL, fee)
+10. `aeja-submission` — AEA portal preflight (anonymized manuscript + title page, JEL, fee)
 11. `aeja-rebuttal` — after the R&R
 
 > `aeja-writing-style` is a late-stage polish; do not rewrite the intro before identification and robustness settle.

@@ -85,7 +85,7 @@ Run these before the manuscript claims JPART-level causal or theoretical leverag
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPART is public management — observational and experimental designs on public organizations; identification + clustered/multilevel inference.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPART is public management — observational and experimental designs on public organizations; identification + clustered/multilevel inference.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

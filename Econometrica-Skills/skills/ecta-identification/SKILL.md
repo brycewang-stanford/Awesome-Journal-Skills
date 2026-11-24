@@ -84,7 +84,7 @@ dynamic discrete-choice model (Rust 1987), selection-model identification (Heckm
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Econometrica publishes econometric theory and applied micro; the chain below serves its applied/empirical papers (weak-IV-robust and modern-DiD reporting expected) — pure theory uses its own apparatus.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Econometrica publishes econometric theory and applied micro; the chain below serves its applied/empirical papers (weak-IV-robust and modern-DiD reporting expected) — pure theory uses its own apparatus.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

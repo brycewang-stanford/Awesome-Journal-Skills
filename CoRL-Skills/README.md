@@ -11,25 +11,26 @@ small and selective compared with the robotics mega-conferences.
 Official basis checked on **2026-07-08**: the CoRL 2026 year-site (Austin),
 Call for Papers, Instruction for Authors, rebuttal and reviewer instructions,
 the CoRL 2026 OpenReview group, and PMLR volumes v78–v305. Direct fetches of
-`corl.org` returned 403 in the verification environment, so official pages were
-read via search-engine renderings of the exact URLs and cross-checked against
-OpenReview, PMLR volume pages, and organizer statements; the full trail —
+`corl.org` returned 403 on 2026-07-08, so official pages were first read via
+search-engine renderings of the exact URLs and cross-checked against OpenReview,
+PMLR volume pages, and organizer statements. On **2026-11-24** the author,
+rebuttal, registration, committee and home pages were **re-verified by direct
+fetch**, correcting the deadlines and the conference day split; the full trail —
 including everything still marked 待核实 — lives in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
-## Where the 2026 cycle stands right now
+## Where the cycle stands (as of 2026-11-24)
 
-The pack is tuned to the live state of the calendar as of 2026-07-08:
-
-- The CoRL 2026 deadlines have **passed** (abstract May 26, paper May 29, 2026).
-- Submitted papers are **in review**; reviews land in early August, the
-  **one-page PDF rebuttal** is due **August 11, 2026 (AoE)**, and reviewer–AC
-  discussion runs **August 12–19**.
-- Decisions follow in September (exact date 待核实), camera-ready is due
-  **October 12**, and the conference meets in **Austin, Texas, November 9–12**
-  (workshops November 9) — the 10th edition of the series.
-- Teams starting fresh are planning for **CoRL 2027** (no year-site verified
-  yet); the routing and workflow skills cover that branch explicitly.
+- **CoRL 2026 has run its full course.** Abstract May 25 and paper May 28, 2026
+  (supplementary June 4); reviews and early rejections August 4; the **one-page
+  PDF rebuttal** August 11; reviewer–AC discussion August 12–19; acceptance
+  notification **September 4**; camera-ready **October 12**; and the 10th
+  edition met in **Austin, Texas — main conference November 9–11, workshops
+  November 12, 2026** (all deadlines AoE).
+- **CoRL 2027 is not announced yet**: no location, dates or call on corl.org as
+  of 2026-11-24. Teams starting fresh should plan with the 2026 rules as a
+  labelled prior (a late-May deadline has been the recent pattern); the routing
+  and workflow skills cover that branch explicitly.
 
 ## What makes CoRL unlike its neighbors
 
@@ -44,8 +45,13 @@ The pack is tuned to the live state of the calendar as of 2026-07-08:
   weak-accept-or-above score from any reviewer or the AC can be rejected in the
   first round *without* rebuttal; for everyone else, one page, days after
   reviews, is the whole author voice.
-- **Public reviews for accepted papers.** The rebuttal exchange becomes part of
-  the paper's permanent public record.
+- **Public reviews for accepted papers.** Accepted papers and their reviews are
+  made public and de-anonymized after decisions; the rebuttal exchange becomes
+  part of the paper's permanent public record.
+- **Generative-AI guardrails.** CoRL 2026 asked authors to disclose generative-AI
+  use in the submission form, desk-rejected papers citing nonexistent references
+  (GPTZero screening, confirmed by chairs), and required reciprocal reviewing
+  from qualified authors.
 - **Video as evidence, then a PMLR pivot.** Review-time supplementary video is
   strongly encouraged (≤ 250 MB, ~3 min), but PMLR accepts no video — so every
   accepted paper ships an external artifact surface at camera-ready.
@@ -123,20 +129,26 @@ CoRL-Skills/
 
 ## 2026 anchor facts (one cycle's snapshot, not permanent rules)
 
-- CoRL 2026: 10th edition, JW Marriott, Austin, Texas, **November 9–12, 2026**.
-- Deadlines: abstract **May 26**, paper **May 29, 2026**, on OpenReview
-  (`robot-learning.org/CoRL/2026/Conference`), double-anonymous.
+- CoRL 2026: 10th edition, Austin, Texas (JW Marriott, Hilton Austin, Bass
+  Hall): main conference **November 9–11**, workshops **November 12, 2026**.
+- Deadlines (AoE): abstract **May 25**, paper **May 28**, supplementary
+  **June 4, 2026**, on OpenReview (`robot-learning.org/CoRL/2026/Conference`),
+  double-anonymous.
 - Format: 8-page main text **including a mandatory Limitations section**;
   acknowledgments/references/appendix uncounted; supplementary video ≤ 250 MB.
-- Process: first-round rejection possible without rebuttal; one-page PDF
-  rebuttal due **Aug 11**; discussion **Aug 12–19**; decisions September
-  (待核实); reviews of accepted papers made public.
+- Process: reviews and early rejections **Aug 4**; first-round rejection
+  possible without rebuttal; one-page PDF rebuttal (official template) due
+  **Aug 11**; discussion **Aug 12–19**; notification **Sep 4**; reviews of
+  accepted papers made public.
+- Policies: generative-AI use disclosed in the submission form; nonexistent
+  citations desk-rejected; reciprocal reviewing for qualified authors.
 - Camera-ready: 9-page main text, `\usepackage[final]{corl_2026}`, due
   **Oct 12, 23:59 AoE**; videos hosted externally (PMLR takes none).
 - Proceedings: PMLR, open access. Verified anchors: v78 = 2017, v164 = 2021,
   v205 = 2022, v229 = 2023, v270 = 2024, v305 = 2025.
-- 2026 organizers (reported): General Chairs Yuke Zhu and Peter Stone; Program
-  Chairs Ani Majumdar, Dieter Fox, Georgia Chalvatzaki. Roles rotate annually.
+- 2026 organizers (verified on the committee page): General Chairs Yuke Zhu and
+  Peter Stone; Program Chairs Ani Majumdar, Dieter Fox, Georgia Chalvatzaki.
+  Roles rotate annually.
 
 ## Fact discipline
 
@@ -144,12 +156,12 @@ Statements in this pack fall into three classes, kept distinguishable on
 purpose:
 
 1. **Verified 2026-cycle facts** — carry a date or cap and trace to a numbered
-   source in the source map (the May 29 deadline, the 250 MB video cap).
+   source in the source map (the May 28 deadline, the September 4 notification,
+   the 250 MB video cap).
 2. **Reported facts** — read only through secondary or rendering-level
-   provenance and labeled as such (the numeric score scale, the chair list).
+   provenance and labeled as such (the numeric score scale).
 3. **待核实 items** — unresolved at check time and phrased as questions, never
-   as facts (decision date, GenAI policy text, 2026 PMLR volume number,
-   registration rules).
+   as facts (2026 PMLR volume number, registration rules, CoRL 2027 dates).
 
 If any skill statement presents class 2 or 3 material as class 1, treat it as a
 bug and fix it against the live pages.

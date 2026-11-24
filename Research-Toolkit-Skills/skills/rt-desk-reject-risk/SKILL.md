@@ -25,7 +25,7 @@ triggers, what will get this desk-rejected, and what is the cheapest fix?"**
 ## Method
 
 **Step 1 — locate the venue's triggers.** From
-[`venue-index.tsv`](../../../shared-resources/journal-selection/venue-index.tsv), take
+[`venue-index.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/venue-index.tsv), take
 the row's `pack_dir` (depth) or `profile_path` (breadth) and read:
 
 - the `## Common desk-reject triggers` section (or the pack's `Desk-reject and triage`
@@ -33,7 +33,10 @@ the row's `pack_dir` (depth) or `profile_path` (breadth) and read:
   `*-topic-selection` skills;
 - the scope and format constraints in `resources/official-source-map.md`, **read live** —
   length caps, abstract style, anonymity rules and fee/policy gates are volatile and
-  are a large share of real desk rejects.
+  are a large share of real desk rejects. Do not score these by eye: run the
+  deterministic preflight (`preflight.py <file> --venue <venue>`, stage 0 of
+  `rt-submission-readiness`) and take its FAILs as the evidence for the format triggers —
+  over-length, broken anonymity and a missing required statement each map to a Fatal.
 
 If the venue publishes no explicit trigger list (about 4 in 10), say so, and fall back
 to the venue's fit and house-style skills plus the generic gate in Step 3 — do **not**

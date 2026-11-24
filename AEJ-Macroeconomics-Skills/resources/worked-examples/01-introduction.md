@@ -145,4 +145,4 @@ Mapped to this pack's skill checklists:
 > [`../../skills/aejmac-replication-package/SKILL.md`](../../skills/aejmac-replication-package/SKILL.md)
 > for assembling the package (incl. simulation/solver code) that clears the AEA Data Editor check. For the
 > venue-neutral referee objections an empirical macro claim must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

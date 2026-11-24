@@ -29,7 +29,7 @@ description: Use when deciding which ssc-* sub-skill to invoke next, or when seq
 | 论证跳跃 / 思辨不严谨 / 概念界定含糊 | `ssc-argumentation` |
 | 经验材料（定量/定性/历史）与论题脱节 | `ssc-evidence` |
 | 通篇政策汇报腔 / 口号化 / 炫技 | `ssc-style` |
-| 摘要写成套话 / 不合 200–300 字规范 | `ssc-abstract-keywords` |
+| 摘要写成套话 / 超出 300 字上限 | `ssc-abstract-keywords` |
 | 准备投稿，需要体例与系统 checklist | `ssc-submission` |
 | 收到外审意见，需要写回复 | `ssc-rebuttal` |
 
@@ -42,7 +42,7 @@ description: Use when deciding which ssc-* sub-skill to invoke next, or when seq
 5. `ssc-argumentation` — 论证链与思辨规范
 6. `ssc-evidence` — 经验证据服务论题（方法多元）
 7. `ssc-style` — 学理文风，去口号化
-8. `ssc-abstract-keywords` — 摘要 200–300 字 + 3–5 关键词
+8. `ssc-abstract-keywords` — 摘要 300 字以内 + 3–5 关键词
 9. `ssc-submission` — 投稿前 preflight（页下注、投稿系统）
 10. `ssc-rebuttal` — 外审后
 
@@ -72,7 +72,7 @@ description: Use when deciding which ssc-* sub-skill to invoke next, or when seq
 
 - 命题提炼超过两轮仍立不住：多半是选题层级问题，回退 `ssc-topic-problematic`，而非继续打磨命题措辞
 - 文风改了又改仍像汇报：病根常在论证缺层级，先回 `ssc-argumentation` 再谈句子
-- 摘要写不进 200–300 字：通常是命题不清的下游症状，回 `ssc-theory-contribution`
+- 摘要压不进 300 字：通常是命题不清的下游症状，回 `ssc-theory-contribution`
 - 各环节都过了仍心虚：用"五年后是否有人引用此命题"做终检，答不上来回到第 2 步
 
 ## 反模式

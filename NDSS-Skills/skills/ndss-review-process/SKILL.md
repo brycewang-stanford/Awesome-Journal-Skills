@@ -9,7 +9,7 @@ Each NDSS cycle is a funnel with one public narrowing: Round 1 reads everything 
 the bottom; Round 2 argues about the rest. Knowing which stage you are in — and what each
 stage can still change — prevents both wasted effort and missed leverage.
 
-## The pipeline (2027 cycle structure, verified 2026-07-08)
+## The pipeline (2027 cycle structure, re-verified 2026-11-24)
 
 ```text
 submit ──▶ ROUND 1 (breadth read)
@@ -24,18 +24,19 @@ submit ──▶ ROUND 1 (breadth read)
                     Accept │ Minor Revision │ Major Revision │ Reject
 ```
 
-Dates for the fall cycle: early notification September 25, rebuttal and discussion
-October 8-10, final decision November 4, 2026. The summer cycle followed the same shape
-(June 12 / June 24-28 / July 22).
+Dates for the 2027 fall cycle: Round 1 reviews September 18 - October 13, rebuttal
+November 19-21, interactive discussion November 19-26, final notification December 2, 2026.
+The summer cycle followed the same shape (early notification June 18 / rebuttal July 15-17 /
+notification July 29, 2026). A paper can be withdrawn only until reviews are sent.
 
 ## What each outcome means
 
 | Outcome | Substance | Author obligation |
 | --- | --- | --- |
-| Accept | Paper in, Seoul slot earned | Camera-ready by Jan 6, 2027; consider artifact evaluation |
-| Minor Revision | Accepted contingent on a bounded fix-up judged satisfactory | Execute exactly the requested changes, promptly |
+| Accept | Paper in, Seoul slot earned | Camera-ready (2027: Sep 30, 2026 summer / Feb 7, 2027 fall); consider artifact evaluation |
+| Minor Revision | Accepted if the shepherd judges the bounded fix-up satisfactory | Execute exactly the requested changes by the shepherd-approval date (2027: Aug 19, 2026 / Jan 5, 2027) |
 | Major Revision | Promising but incomplete — new experiments, implementations, or proofs required | Resubmit within the stated window against a written list of **revision tasks**; re-review checks task fulfillment; at most one major revision per paper |
-| Early reject / Reject | Out for this edition | Fold reviews in; retarget (see `ndss-workflow`) |
+| Early reject / Reject | Out for this edition — rejects may not be resubmitted to NDSS 2027 | Fold reviews in; retarget (see `ndss-workflow`) |
 
 The Major Revision list is the closest thing conference review offers to a contract: the
 original reviewers wrote the tasks, and the resubmission is judged against them — not

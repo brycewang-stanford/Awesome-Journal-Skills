@@ -15,8 +15,12 @@ acceptance. Confirm all current rules on jfinec.com before submitting.
 > Authors, affiliations, contact email (corresponding author marked)
 > Acknowledgments
 > Funding / grant disclosures
-> Conflict-of-interest disclosure
 > Prior-presentation note (conferences / seminars / working-paper series)
+
+## Conflict-of-interest disclosure statements (SEPARATE single PDF)
+
+> One statement per author, all gathered in one PDF and uploaded separately; state
+> "nothing to disclose" explicitly where that applies. Required again at resubmission.
 
 ## Anonymized manuscript
 

@@ -9,32 +9,34 @@ machine-learning inference, sensing pipelines and services, computation offload,
 energy, latency, and memory budgets that decide whether any of it ships. The pack tracks the
 way a MobiSys campaign actually runs — a **single annual deadline** in early December that
 feeds the following June conference, a **two-round review with an early-reject cut and a
-rebuttal**, double-blind HotCRP submission, a 12-page ACM double-column body, and an
+rebuttal**, **single-blind** HotCRP submission (author names on the paper since 2026), a
+12-page ACM double-column body, and an
 evidence bar written in milliseconds, millijoules, and megabytes measured on real hardware.
 
-Official basis checked on **2026-07-09**: the MobiSys 2026 Call for Papers, Artifact
-Evaluation, Awards, and Organizing-Committee pages on `sigmobile.org`, the
-`mobisys26.hotcrp.com` deadlines and program-committee pages, the official `@ACMMobiSys`
-announcement of the CFP, the ACM Digital Library MobiSys proceedings, dblp's `conf/mobisys`
-stream for exemplar verification, and the SIGMOBILE Test-of-Time award pages. Direct fetches
-of `sigmobile.org` and `hotcrp.com` returned **HTTP 403** in the verification environment,
-so every fact below was read through search-engine renderings of the exact official URLs and
-cross-checked against the ACM DL, dblp, and the SIGMOBILE news feed; the full trail —
-including everything still marked 待核实 — is in
-[`resources/official-source-map.md`](resources/official-source-map.md).
+Official basis **re-verified on 2026-11-24** by direct fetch: the MobiSys 2027 home page,
+Call for Papers and Organizing Committee on `sigmobile.org`, the `mobisys27.hotcrp.com`
+deadline clock, the MobiSys 2026 Call for Papers (history), and the SIGMOBILE Test-of-Time
+award page. The original 2026-07-09 pass (MobiSys 2026 Artifact Evaluation and committee
+pages, the ACM Digital Library proceedings, dblp's `conf/mobisys` stream for exemplar
+verification) was read through search-engine renderings because `sigmobile.org` and
+`hotcrp.com` then returned **HTTP 403**. The full trail — including everything still marked
+待核实 — is in [`resources/official-source-map.md`](resources/official-source-map.md).
 
-**Cycle status (2026-07-09):** **MobiSys 2026** (the 24th edition, Cambridge, UK, June 21–25,
-2026) *just concluded* — the paper deadline was **December 5, 2025**, notifications and
-rebuttals ran across the spring, and the conference wrapped in late June, so this pack is
-being written days after the event. The **next open gate** is **MobiSys 2027**: a community
-aggregator and the venue's own cadence put its paper deadline near **December 5, 2026** with
-notification near **March 2027**, but the 2027 CFP was not confirmed posted at check time, so
-those dates are 待核实 until the official page appears. Everything about the 2027 host,
-chairs, and exact clock is unverified.
+**Cycle status (2026-11-24):** the live edition is **MobiSys 2027** (the 25th edition,
+**June 21–25, 2027, Ho Chi Minh City, Vietnam**). Its gate is **open**: abstract registration
+**November 27, 2026** and paper submission **December 4, 2026** (both 23:59 AoE); early
+rejection January 26, 2027; rebuttal February 8–12, 2027; final decisions March 6, 2027;
+camera-ready April 14, 2027. MobiSys 2026 (24th, Cambridge, UK, June 21–25, 2026) has met and
+is kept only as history.
+
+**Correction (2026-11-24): MobiSys is single-blind.** Since 2026 MobiSys has reverted to
+single-blind review — the submitted manuscript carries the authors' names, affiliations and
+contact information. Earlier versions of this pack described double-blind review (the
+2017–2025 policy); every skill now reflects single-blind review.
 
 ## What makes MobiSys unlike its siblings
 
-Verified 2026-cycle mechanics that drive the advice in these skills, and the missteps they
+Verified MobiSys 2027 mechanics (re-verified 2026-11-24) that drive the advice in these skills, and the missteps they
 prevent for authors arriving from a wireless-networking venue or a two-deadline systems
 conference:
 
@@ -44,23 +46,33 @@ conference:
   scheduler. A pure PHY/MAC or protocol result belongs at MobiCom; a sensor-network
   infrastructure result at SenSys; a data-center or distributed-systems result at NSDI.
 - **One deadline a year, not a rolling pair.** MobiSys runs a single early-December paper
-  deadline feeding the next June's conference. This is the opposite of MobiCom's and NSDI's
+  deadline (December 4, 2026 for MobiSys 2027) feeding the next June's conference. This is the opposite of MobiCom's and NSDI's
   two-deadlines-per-year model, and it changes the whole calculus: a miss costs a full year,
   so the workflow skill plans backward from one hard date.
 - **Two review rounds, an early-reject cut, then a rebuttal.** Papers that do not advance
   past the first round receive an early rejection with reviews so the authors can re-plan;
-  survivors reach a second round and then a **rebuttal window** limited to correcting factual
-  errors and answering specific reviewer questions. New results are admissible only if they
-  directly address feedback, or may be *promised* for camera-ready.
-- **No standing one-shot revision channel.** Unlike MobiCom and NSDI, the rendered 2026 CFP
-  describes accept/reject through the rebuttal, not a separate major-revision resubmission
-  path; treat any revision mechanism as 待核实 for the cycle you target.
+  survivors reach a second round and then a **rebuttal window** (at most **500 words**) limited
+  to correcting factual errors and answering specific reviewer questions. New results are
+  admissible only if they directly address feedback, or may be *promised* for camera-ready.
+  Accepted papers are conditional until an **anonymous shepherd** signs off, and each ships
+  with a **one-page public review**.
+- **No standing one-shot revision channel.** Unlike MobiCom and NSDI, the MobiSys 2027 CFP
+  describes early rejection, rebuttal, and conditional acceptance with shepherding — no
+  separate major-revision resubmission path.
+- **An Emerging Ideas track.** Bold, early-stage ideas go in with an "[Emerging Ideas]" title
+  prefix and are judged on originality and potential rather than completeness.
 - **12 double-column pages that count figures.** The main body is capped at **12
-  single-spaced numbered pages including figures and tables** in the ACM template;
-  references and appendices sit outside the cap.
-- **Double-blind on HotCRP.** Author identities have been hidden from reviewers since 2017;
-  submission and rebuttal run on the per-edition `mobisys<yy>.hotcrp.com` site, with a paper
-  registration step preceding the upload.
+  single-spaced numbered pages including figures and tables** in the ACM template
+  (`acmart`, `sigconf,10pt`); references and appendices sit outside the cap, and reviewers need
+  not read the appendix.
+- **Single-blind on HotCRP.** Since 2026 reviewers see the authors' names, affiliations and
+  contact information (MobiSys was double-blind from 2017 to 2025); submission and rebuttal run
+  on the per-edition `mobisys<yy>.hotcrp.com` site, with an abstract registration (at least
+  100 words) preceding the upload and the author list frozen at the deadline.
+- **Disclose LLM text; certify ethics; budget an APC.** LLM-generated text must be identified
+  in the paper, human-subject work needs an ethics-review certification at submission, and
+  authors outside ACM Open institutions pay an APC ($500 ACM/SIG members, $750 non-members in
+  2027).
 - **Three independent ACM artifact badges.** A single-blind Artifact Evaluation Committee
   awards *Artifacts Available*, *Artifacts Evaluated — Functional*, and *Results Reproduced*;
   authors may seek one, two, or all three, and passing badges are printed on the paper and in
@@ -87,16 +99,16 @@ conference:
 | [`mobisys-reproducibility`](skills/mobisys-reproducibility/SKILL.md) | Keep device, OS, SoC, model-version, and power-instrument provenance so results survive a different phone, and decide early what data and firmware can legally ship. |
 | [`mobisys-supplementary`](skills/mobisys-supplementary/SKILL.md) | Place content across the 12-page body, references, optional appendices, demo video/media, and HotCRP fields — keeping the paper self-contained under reviewer discretion. |
 | [`mobisys-artifact-evaluation`](skills/mobisys-artifact-evaluation/SKILL.md) | Package for the AEC: which of the three ACM badges to claim, a hardware-optional path for evaluators without the exact device, and the workflow script that proves functionality. |
-| [`mobisys-submission`](skills/mobisys-submission/SKILL.md) | Final HotCRP audit: right site, UTC cutoff, 12-page double-column check, double-blind sweep including device/trace giveaways, registration prerequisite, and desk-reject triage. |
+| [`mobisys-submission`](skills/mobisys-submission/SKILL.md) | Final HotCRP audit: right site, AoE cutoff, 12-page double-column check, complete single-blind author block and conflicts, 100-word registration abstract, LLM/ethics declarations, and desk-reject triage. |
 | [`mobisys-review-process`](skills/mobisys-review-process/SKILL.md) | Model the outcome space of the two-round process — early reject, rebuttal, accept — the reviewer pool, and how a systems-and-services reviewer scores an on-device claim. |
 | [`mobisys-author-response`](skills/mobisys-author-response/SKILL.md) | Execute the rebuttal under its scope limit: correct factual errors first, answer specific questions, add only directly-responsive results, and promise camera-ready work honestly. |
-| [`mobisys-camera-ready`](skills/mobisys-camera-ready/SKILL.md) | Deliver the de-anonymized double-column final paper, complete ACM rights and metadata, coordinate artifact badges, and plan the Cambridge in-person talk and demo. |
+| [`mobisys-camera-ready`](skills/mobisys-camera-ready/SKILL.md) | Clear the anonymous shepherd, finalize author metadata in the double-column final paper, complete ACM rights, APC and metadata, coordinate artifact badges, and plan the Ho Chi Minh City in-person talk. |
 
 ## Resources
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | The official MobiSys 2026 sources with URLs and access dates, the verified-fact list, the access-method note (sigmobile.org / hotcrp.com both 403'd direct fetches), and the explicit 待核实 register. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | The official MobiSys 2027 (and 2026 history) sources with URLs and access dates, the verified-fact list, the access-method note (sigmobile.org / hotcrp.com both 403'd direct fetches), and the explicit 待核实 register. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces (site, HotCRP, ACM DL, dblp, SIGMOBILE) plus the author-side verification passes to run each cycle. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five metadata-verified MobiSys papers (2009–2017) across mobile-systems classes — offload/energy, on-phone sensing, perception offload, on-device DNN serving, mobile-GPU inference — each with a self-check, plus a do-not-misattribute guard. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional on-device inference paper's first page rebuilt to lead with the mobile-system contribution and on-device evidence, before → after. |
@@ -157,51 +169,50 @@ MobiSys-Skills/
    `mobisys-author-response` (rebuttal), or `mobisys-artifact-evaluation` +
    `mobisys-camera-ready` (accept).
 
-## 2026-27 anchor facts (dated snapshot, not standing rules)
+## MobiSys 2027 anchor facts (dated snapshot, not standing rules)
 
-- **MobiSys 2026** is the **24th** edition: **June 21–25, 2026, Cambridge, UK**, hosted with
-  the University of Cambridge under ACM SIGMOBILE; General Chairs **Fahim Kawsar** and
-  **Cecilia Mascolo** (program chairs 待核实).
-- MobiSys 2026 timeline (AoE/UTC as posted): **paper registration November 28, 2025**,
-  **paper submission December 5, 2025**; two-round review with early reject and a rebuttal;
-  the conference just concluded in late June 2026.
+- **MobiSys 2027** is the **25th** edition: **June 21–25, 2027, Ho Chi Minh City, Vietnam**,
+  under ACM SIGMOBILE; General Chairs **VP Nguyen** and **Anh Nguyen**; PC Chairs **Jun Han**
+  and **Falko Dressler**.
+- Timeline (23:59 AoE): abstract registration **November 27, 2026**, paper submission
+  **December 4, 2026**; early rejection **January 26, 2027**; rebuttal **February 8–12,
+  2027**; final decisions **March 6, 2027**; camera-ready **April 14, 2027**.
 - Format: **12 single-spaced double-column pages including figures and tables**; references
-  and appendices outside the cap; **double-blind** on `mobisys26.hotcrp.com`.
-- Artifact evaluation offers the three independent **ACM badges** (Available, Functional,
-  Results Reproduced), single-blind, script-first; proceedings appear in the **ACM Digital
-  Library**.
-- **MobiSys 2027** (25th edition): paper deadline reported near **December 5, 2026**,
-  notification near **March 2027** — 待核实 until the official CFP is posted; host and chairs
-  unverified.
+  and appendices outside the cap; **single-blind** on `mobisys27.hotcrp.com`.
+- Artifact evaluation: optional, after acceptance; the latest published call (MobiSys 2026)
+  offers the three independent **ACM badges** (Available, Functional, Results Reproduced),
+  single-blind, script-first; the 2027 call is 待核实. Proceedings appear open access in the
+  **ACM Digital Library**.
+- History: **MobiSys 2026** (24th) met in Cambridge, UK, June 21–25, 2026 (General Chairs Fahim
+  Kawsar and Cecilia Mascolo; paper deadline December 5, 2025).
 
 ## Fact discipline
 
 Three classes of statement are kept distinguishable throughout the pack:
 
-1. **Verified 2026-cycle facts** — trace to a numbered source in the source map (e.g., the
-   Cambridge dates, the December 5 2025 paper deadline, the 12-page double-column budget, the
-   three ACM badge names, the two-round + rebuttal process).
-2. **Reported facts** — consistent secondary sources, labeled as such (e.g., the MobiSys 2027
-   December deadline and March notification from a community aggregator; Test-of-Time and
+1. **Verified MobiSys 2027 facts** — trace to a numbered source in the source map (e.g., the
+   Ho Chi Minh City dates, the December 4, 2026 paper deadline, the 12-page double-column
+   budget, single-blind review, the 500-word rebuttal).
+2. **Reported facts** — consistent secondary sources, labeled as such (e.g., Test-of-Time and
    Best-Paper selections via SIGMOBILE award pages and author institutions).
-3. **待核实 items** — explicitly marked and phrased as questions (e.g., the program chairs,
-   the exact rebuttal-window length, whether any revision channel exists this cycle, and
-   everything about the 2027 host, chairs, and dates).
+3. **待核实 items** — explicitly marked and phrased as questions (e.g., the 2027 artifact
+   call, pitch-video requirements, registration fees).
 
 A statement of class 2 or 3 presented as class 1 anywhere in the skills is a bug; fix it
 against the live pages.
 
 ## Maintenance notes
 
-- Every date, cap, and rule here is a **2026-cycle snapshot**. MobiSys reissues its rules per
+- Every date, cap, and rule here is a **MobiSys 2027 snapshot** (re-verified 2026-11-24). MobiSys reissues its rules per
   edition — reopen the current `sigmobile.org/mobisys/<year>` CFP and the specific
   `mobisys<yy>.hotcrp.com/deadlines` page before deadline-sensitive advice.
-- The deadline is a single hard **December** cutoff printed in UTC/AoE; a miss costs a year,
+- The deadline is a single hard **December** cutoff printed in AoE; a miss costs a year,
   and the clock convention can move — never reuse a previous cycle's local conversion.
-- Page cap, double-blind exceptions, rebuttal scope, and whether a revision path exists can
+- Page cap, the review-blinding mode (single-blind since 2026), rebuttal scope, and whether a
+  revision path exists can
   change between editions; confirm on the live CFP rather than carrying a rule forward.
-- Chairs rotate per edition; confirm the organizing-committee page before naming anyone, and
-  treat the 2027 committee as entirely unverified.
+- Chairs rotate per edition; confirm the organizing-committee page before naming anyone (the
+  2027 names above were read on 2026-11-24).
 - New exemplars must pass the venue-verification recipe at the end of
   [`resources/exemplars/library.md`](resources/exemplars/library.md); the mobile-systems
   canon's most famous papers are frequently misfiled across MobiCom, SenSys, OSDI, and NSDI.

@@ -1,6 +1,6 @@
 ---
 name: usenixsec-supplementary
-description: Use when deciding what goes where in a USENIX Security Symposium paper — the 13-page body, the two mandatory one-page appendices (Ethical Considerations, Open Science), optional appendices after the references, and external artifacts — so nothing decision-critical lands where reviewers won't look.
+description: Use when deciding what goes where in a USENIX Security Symposium paper — the 13-page body, the mandatory Open Science appendix and the strongly encouraged Ethics appendix, optional appendices after the references, and external artifacts — so nothing decision-critical lands where reviewers won't look.
 ---
 
 # USENIX Security Supplementary Material
@@ -9,20 +9,21 @@ USENIX Security does not collect a separate supplement upload; everything textua
 travels in one PDF with a fixed geography, and everything executable lives at the
 locations named in the Open Science appendix. Placement is therefore a reviewing
 decision: material outside the 13-page body has no guarantee of being read. The
-layout below is the '26 rule set (checked 2026-07-08); confirm against the current
-CFP before restructuring a draft.
+layout below is the '27 rule set (re-read from the live CFP on 2026-11-24); confirm
+against the current CFP before restructuring a draft.
 
 ## The four tiers and their reading guarantees
 
-| Tier | Cap ('26) | Who reads it |
+| Tier | Status ('27) | Who reads it |
 |---|---|---|
-| Main body | 13 pages | Reviewers, fully — the only tier with a guarantee |
-| Ethical Considerations appendix | ~1 page, mandatory | Reviewers and (when flagged) ethics scrutiny — read carefully |
-| Open Science appendix | ~1 page, mandatory | Reviewers + AEC after acceptance — enforced, not just read |
-| References + optional appendices | uncapped | Discretionary; assume skimmed at best |
+| Main body | 13 pages, hard cap | Reviewers, fully — the only tier with a guarantee |
+| Open Science appendix | mandatory | Reviewers + AEC after acceptance — enforced, not just read |
+| Ethics / Ethical Considerations appendix | strongly encouraged (mandatory in '26) | Reviewers and the ethics committee — read carefully |
+| References + optional appendices | uncapped at submission | Discretionary; assume skimmed at best |
 
-The two named appendices sit **between the body and the references** — an ordering
-unique enough that template mistakes are common. They are not overflow space: their
+At camera-ready everything — body, both named appendices, bibliography, optional
+appendices — must fit in **20 pages**, so uncapped submission appendices still have to
+shrink later. The named appendices are not overflow space: their
 job is compliance content (see `usenixsec-reproducibility` and the ethics coverage
 in `usenixsec-topic-selection` / `usenixsec-experiments`), and stuffing evaluation
 material into them reads as a page-limit dodge.
@@ -66,11 +67,11 @@ Never solve overflow with template surgery; the CFP forbids whitespace tampering
 and desk-level format checks are mechanical.
 
 ```latex
-% Correct skeleton ('26 geometry) — verify against the current template
+% Skeleton ('27 rules) — verify against the current template
 \end{document-body}            % ≤ 13 pages ends here
-\section*{Ethical Considerations}   % mandatory, ≤ ~1 page
+\section*{Ethical Considerations}   % strongly encouraged in '27
 ...
-\section*{Open Science}             % mandatory, ≤ ~1 page
+\section*{Open Science}             % mandatory
 ...
 \bibliographystyle{plain}
 \bibliography{refs}                 % uncapped
@@ -92,7 +93,8 @@ locations, not in the PDF. Two placement rules connect the tiers:
 
 ## Reverify each cycle
 
-- Page caps and the mandatory-appendix allowances in the current CFP ('27 待核实).
+- Page caps and which appendices are mandatory in the current CFP ('27: 13-page body,
+  Open Science mandatory, Ethics encouraged, 20 pages total at camera-ready).
 - Appendix ordering relative to references (this changed style between recent
   cycles at peer venues; don't assume).
 - Whether any separate supplemental upload channel has been introduced.

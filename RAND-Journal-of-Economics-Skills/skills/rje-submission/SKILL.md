@@ -17,7 +17,7 @@ description: Use when running the final pre-submission preflight for The RAND Jo
 - **Hard page caps, enforced at submission**: main text **<=40 pages** (exclusive of appendices and references); appendices + references **<=10 pages**; **total <=50 pages**. Manuscripts must be **double-spaced**; footnotes kept to ~50 words / 3 typeset lines. Most general-econ journals use word counts — RJE does not.
 - **Abstract <=100 words.**
 - Files in **Word or LaTeX**.
-- **A per-article submission fee of US$200** applies (rje.org / Wiley "For Authors" guidelines; re-verified 2026-06-22); as of **January 1, 2026** this fee is **explicitly non-refundable** (rje.org). Re-confirm the exact amount and payment method in the live submission portal before paying — the figure can change.
+- **A per-article submission fee of US$200** applies (Wiley "For Authors" guidelines, re-verified 2026-11-24 via search-engine rendering: paid through the journal's PayPal link before submitting, with proof uploaded as "Supplementary Material Not for Review"); as of **January 1, 2026** this fee is **explicitly non-refundable** (rje.org). Re-confirm the exact amount and payment method in the live submission portal before paying — the figure can change.
 - **Supporting information is discouraged "as a general rule,"** is posted online without editing/typesetting, may be assessed critically by reviewers, and may be declined.
 
 ## Preflight checklist
@@ -41,7 +41,7 @@ description: Use when running the final pre-submission preflight for The RAND Jo
 - [ ] Supporting information kept minimal (discouraged) — justify anything included
 
 ### Declarations & fee
-- [ ] **Submission fee** ready (**US$200**, re-verified 2026-06-22 — re-confirm in the portal); understand it is **non-refundable** (as of 2026-01-01)
+- [ ] **Submission fee** ready (**US$200**, re-verified 2026-11-24 — re-confirm in the portal); understand it is **non-refundable** (as of 2026-01-01)
 - [ ] Conflict-of-interest / funding disclosures prepared
 - [ ] Confirmed not under review elsewhere
 
@@ -73,6 +73,28 @@ Suppose a structural demand-and-merger article sits at 43 main-text pages the ni
 - **Off-style citations read as careless.** Fix: confirm author-date with no page numbers and references with no issue numbers before upload.
 - **Supporting information may be declined.** Fix: keep decisive results in the article and appendix; justify anything attached and confirm hosting against the journal's current author guidelines.
 - **Fee specifics drift.** Fix: re-confirm the exact fee amount and refund terms on the current Wiley "For Authors" page before paying.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue rje-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

@@ -61,8 +61,12 @@ the appendix — without strengthening any claim the reviewers did not see.
 
 ## Hedged logistics
 
-- Registration pricing, the exact camera-ready and rights-form deadlines, and badge-placement
-  mechanics change every cycle; confirm against the notification email and current instructions.
+- CCS 2026 camera-ready deadlines were August 9, 2026 (Cycle A) and September 13, 2026
+  (Cycle B); at least one author must register and present in person.
+- Open access: authors outside ACM Open institutions pay an APC (2026 subsidized rate: USD 250
+  ACM/SIG members, 350 non-members).
+- Registration pricing, the rights-form deadlines, and badge-placement mechanics change every
+  cycle; confirm against the notification email and current instructions.
 
 ## Output format
 

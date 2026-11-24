@@ -1,17 +1,22 @@
 # External Tools - CSCW
 
-Access date: 2026-07-08
+Access date: 2026-11-24
 
 CSCW is in the middle of a platform migration — fixed cycles ran on PCS, the rolling
-model runs on Manuscript Central — so the first tool check is always "which regime is
-this paper in?" Reopen the live pages before every deadline-adjacent action.
+model runs through the PACMHCI CSCW track (Manuscript Central per the July 2026 rolling
+CFP; the live CSCW 2027 Submit page now just links to the PACMHCI track page) — so the
+first tool check is always "which regime is this paper in?" Reopen the live pages
+before every deadline-adjacent action.
 
 ## Official surfaces
 
-- CSCW 2026 conference site: https://cscw.acm.org/2026/
+- CSCW 2027 conference site (Philadelphia, October 16-20, 2027): https://cscw.acm.org/2027/
+- CSCW 2027 Submit page (PACM HCI/CSCW or ToCHI route, no deadline): https://cscw.acm.org/2027/submit/
+- CSCW 2026 conference site (met October 10-14, 2026): https://cscw.acm.org/2026/
 - CSCW 2026 Call for Papers (May 2025 cycle, historical): https://cscw.acm.org/2026/papers.html
-- Rolling CFP for CSCW 2027 and beyond: https://cscw.acm.org/rolling.html
-- Rolling submission portal (Manuscript Central): https://mc.manuscriptcentral.com/pacmhci
+- Rolling CFP for CSCW 2027 and beyond: https://cscw.acm.org/rolling.html (now a short notice; the detailed July 2026 text survives in the Internet Archive)
+- Rolling track guidelines (Design/Theory, Mixed Methods, Qualitative, Quantitative, Systems): https://cscw.acm.org/2026/tracks.html
+- Rolling submission portal (Manuscript Central, per the July 2026 rolling CFP; 待核实 live): https://mc.manuscriptcentral.com/pacmhci
 - PCS 2.0 (fixed-cycle submissions and any residual revisions): https://new.precisionconference.com/
 - PACMHCI CSCW track in the ACM Digital Library: https://dl.acm.org/journal/pacmhci/tracks/cscw
 - CSCW 2026 review-process FAQ: https://cscw.acm.org/2026/blog/reviewprocess.html
@@ -45,7 +50,8 @@ this paper in?" Reopen the live pages before every deadline-adjacent action.
 - Do not project the May 2025 cycle's dates onto any future submission; that cycle
   was explicitly the last of its kind.
 - Do not assume rolling decisions arrive faster than the advertised 3-4 months, or
-  that an acceptance guarantees a slot at the very next conference.
+  that an acceptance guarantees a slot at the very next conference: an acceptance
+  after that year's program is set is offered the following year's conference.
 - Do not carry PCS habits (cycle picking, subcommittee selection) into Manuscript
   Central, or vice versa.
 - If the rolling CFP, the conference site, and the blog disagree, treat the most

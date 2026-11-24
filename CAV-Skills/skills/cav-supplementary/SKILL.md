@@ -1,6 +1,6 @@
 ---
 name: cav-supplementary
-description: Use when deciding what belongs in a CAV (Computer Aided Verification) paper body versus its optional appendix and artifact, covering the LNCS page limits, the rule that reviewers are not obliged to read the appendix so decision-critical content stays in the body, where full proofs and benchmark tables live, and double-anonymous supplementary material for the anonymized categories.
+description: Use when deciding what belongs in a CAV (Computer Aided Verification) paper body versus its optional appendix and artifact, covering the LNCS page limits, the rule that reviewers are not obliged to read the appendix so decision-critical content stays in the body, where full proofs and benchmark tables live, and double-anonymous supplementary material for Regular Papers (the only double-blind CAV 2027 category).
 ---
 
 # CAV Supplementary
@@ -28,8 +28,8 @@ comparison is fair, the paper is mis-partitioned — move that content into the 
 
 ## The page-limit discipline
 
-CAV's LNCS limits (Regular 18 pages; Short Tool / Application / Industrial 10 pages) **exclude
-references and appendices**, but the appendix is optional-to-read. Consequences:
+CAV's LNCS limits (CAV 2027: Regular and Tool 18 pages; Application/Industrial/Case Study 10 pages)
+**exclude references and appendices**, but the appendix is optional-to-read. Consequences:
 
 - Keep the **main theorem's proof idea** and the **headline benchmark result with its resource
   limits** in the body — they are decision-critical.
@@ -38,7 +38,7 @@ references and appendices**, but the appendix is optional-to-read. Consequences:
 - Do **not** use the appendix to smuggle in a result that would not fit — an argument that only
   closes with unread material reads as unreviewable, and the stage-1 filter is unforgiving.
 
-## Double-anonymous supplementary rules (Regular and Application papers)
+## Double-anonymous supplementary rules (Regular Papers)
 
 ```text
 [No identity]   no authors, affiliations, acknowledgements, grants, cluster paths, or repo owners in
@@ -49,8 +49,10 @@ references and appendices**, but the appendix is optional-to-read. Consequences:
                 machine (the AEC smoke test mirrors this)
 ```
 
-Tool and Industrial papers are not anonymized, so their supplementary material may name the tool —
-but should still be clean and self-orienting.
+Tool and Application/Industrial/Case Study papers are single-blind in CAV 2027, so their
+supplementary material may name the tool — but should still be clean and self-orienting. A Tool
+Paper's artifact is not optional supplementary material: it goes to the AEC in the March round and
+gates acceptance (`cav-artifact-evaluation`).
 
 ## Appendix architecture
 
@@ -76,6 +78,6 @@ lives only in unread material, because the stage-1 reviewers judge from the body
 [Supplement status] ready / needs fixes / not ready
 [Partition check] anything decision-critical outside the body? <none / move: what>
 [Page limit] body within the category limit? appendix marked and referenced? yes/no
-[Anonymity] appendix + review artifact clean of identity (Regular/Application)? passed/issues
+[Anonymity] appendix + review artifact clean of identity (Regular)? passed/issues
 [Body dependency] <what a reviewer can decide without opening the appendix/artifact>
 ```

@@ -69,13 +69,11 @@
 - [ ] Foundational and contemporaneous work cited fairly
 - [ ] Reference style matches the journal's current requirement
 
-## 8. Anonymization (verify — UNVERIFIED whether currently required)
+## 8. Title page and author identity (single-anonymous — no de-identification)
 
-- [ ] If a de-identified PDF is required: no author-identifying content in the body
-- [ ] Self-citation in the third person
-- [ ] Acknowledgments / funding removed from the anonymized version
-- [ ] File metadata scrubbed of author names
-- [ ] Current blinding policy confirmed on the Instructions / Editorial Procedures pages
+- [ ] Title page carries abstract, keywords, and full author affiliations (official instructions, re-checked 2026-11-23)
+- [ ] Self-citation in the third person (style, not a blinding rule)
+- [ ] Current policy re-confirmed on the Instructions / Editorial Procedures pages
 
 ## 9. Supplemental Material
 
@@ -105,4 +103,4 @@
 - [ ] Abstract (≤150 words), keywords, JEL codes (optional) entered accurately
 - [ ] Correct field / classification chosen for co-editor routing
 - [ ] Qualified, conflict-free referee suggestions provided
-- [ ] Submission fee handled — **US$125 regular / US$50 student** member (verify amounts; fee-exempt if invited resubmission / ES-journal transfer)
+- [ ] Submission fee handled — **US$125 regular / US$50 student** member (non-refundable; invited resubmissions need only membership; exempt if all authors reside in World Bank low-income countries)

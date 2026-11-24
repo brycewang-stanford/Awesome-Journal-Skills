@@ -19,10 +19,15 @@ official page before relying on them.
 ## Process facts (verify volatile items on the official page)
 
 - **Publisher:** American Chemical Society (ACS).
-- **Portal:** **ACS Publishing Center** / **ACS Paragon Plus** (confirm current entry URL — 待核实).
-- **Article types & caps (待核实 on exact numbers):** Research Article ~7,000; Feature ~5,000; Review
-  (Critical Review) ~10,000; Perspective ~4,000; Policy Analysis ~7,000; Viewpoint ~1,000 (+≤5 refs);
-  Letter to the Editor ~500. **Figures/tables may count as word-equivalents** (~300/600 — 待核实).
+- **Portal:** **ACS Publishing Center** (ACS ID required; peer-review environment ACS Paragon Plus).
+- **Article types & caps (re-verified 2026-11-24):** Research Article 7,000; Feature 5,000; Review
+  10,000; Perspective 4,000; Policy Analysis 7,000; Viewpoint 1,000 (+5 refs); Spotlight 800;
+  Letter to the Editor 500 (+250 words of refs); Correspondence/Rebuttal 1,000. **What counts:**
+  abstract + main text + figure/table titles, captions and footnotes. **Not counted:** references,
+  title/authors/affiliations, TOC graphic, the graphics and tables themselves, SI list,
+  acknowledgments. Over-length papers are un-submitted or rejected.
+- **Front matter:** abstract **150–200 words** (Research Article, Review, Policy Analysis,
+  Perspective); **5–8 keywords**; a **cover letter with every submission**.
 - **TOC graphic:** **required** for Research Articles, Critical Reviews, Features, Perspectives, and
   Policy Analysis; not for Viewpoints/Spotlights/Letters.
 - **Supporting Information:** submitted simultaneously as separate file(s), with an SI paragraph
@@ -36,8 +41,8 @@ official page before relying on them.
 ## Preflight checklist
 
 ### Type & length
-- [ ] Article type chosen; word count within its cap (counting figure/table word-equivalents)
-- [ ] Abstract present and within type norms
+- [ ] Article type chosen; word count (abstract + text + captions; references excluded) within its cap
+- [ ] Abstract 150–200 words, one paragraph, no references; 5–8 keywords
 - [ ] **TOC graphic** prepared (required for this type) and meeting ACS size/format specs
 
 ### Files & content
@@ -63,7 +68,7 @@ Each line is a hard gate; confirm the volatile specifics on the live ACS page (�
 | Gate | Pass condition | Where it is fixed |
 |------|----------------|-------------------|
 | TOC graphic | present + spec-compliant for this article type | `est-figures-and-tables` |
-| Word count | within cap incl. figure/table word-equivalents | `est-writing-style` |
+| Word count | abstract + text + captions within cap (refs, tables, graphics excluded) | `est-writing-style` |
 | Supporting Information | separate file(s) + SI paragraph | `est-reporting-and-reproducibility` |
 | Data-availability statement | present with accession/DOI | `est-reporting-and-reproducibility` |
 | Citation style | ACS numbered throughout | `est-writing-style` |
@@ -73,21 +78,43 @@ Each line is a hard gate; confirm the volatile specifics on the live ACS page (�
 
 A Research Article on basin methane attribution, the night before upload (illustrative):
 
-- **Type & length:** Research Article; body 6,200 words + two figures counted as word-equivalents
-  (~600 illustrative) → ~6,800, under the ~7,000 cap. Pass.
+- **Type & length:** Research Article; abstract 190 + body 6,200 + figure captions 450 words →
+  ~6,840, under the 7,000 cap (references and the figures themselves are not counted). Pass.
 - **TOC graphic:** a basin schematic with super-emitter sites highlighted — a concept, not a clone of
   the flux map. Pass.
 - **SI + data:** aircraft flux retrievals, the inversion configuration, and uncertainty budget in the
   SI; processed fluxes and inversion code on Zenodo with a DOI; data-availability statement written.
 - **Declarations:** COI none; all coauthors consented; no human/animal subjects; AI-use disclosed in
   Acknowledgments; corresponding-author ORCID linked (待核实 on exact requirement).
-- **The one easy miss:** the two figures' word-equivalents were nearly forgotten — counting them is
-  what keeps the paper under cap. This is the single most common avoidable over-limit failure.
+- **The one easy miss:** long figure captions were nearly left out of the count — captions count
+  toward the cap even though the figures do not. Trimming them is what keeps the paper under cap.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue est-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 
 - Submitting without the required TOC graphic
-- Over the word cap because exhibits' word-equivalents were not counted
+- Over the word cap because the abstract and figure/table captions were left out of the count
 - No data-availability statement or undeposited data
 - SI uploaded with no SI paragraph describing its contents
 - Non-ACS citation style; missing COI/coauthor-consent declarations

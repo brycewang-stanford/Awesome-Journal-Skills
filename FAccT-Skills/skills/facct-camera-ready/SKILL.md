@@ -1,15 +1,17 @@
 ---
 name: facct-camera-ready
-description: Use when preparing an accepted ACM FAccT paper for camera-ready — de-anonymizing and adding the withheld Positionality/Acknowledgements statements, switching to the acmart sigconf proceedings format, ACM metadata (DOI, ORCID, CCS concepts, rights), the two-round camera-ready calendar for Accept vs Revise papers, ACM Open Access, finalizing datasheets/model cards, and integrating required changes without scope creep.
+description: Use when preparing an accepted ACM FAccT paper for camera-ready — de-anonymizing and adding the withheld Positionality/Acknowledgements statements, reformatting in the ACM (acmart sigconf) proceedings format, ACM metadata (DOI, ORCID, CCS concepts, rights), the camera-ready calendar for Accept vs Revise papers, ACM Open Access, finalizing datasheets/model cards, and integrating required changes without scope creep.
 ---
 
 # FAccT Camera Ready
 
 Use this after acceptance. FAccT papers are **archival ACM proceedings** (unless you chose
 non-archival), so the camera-ready is an ACM production step. Reopen the current camera-ready
-instructions, the decision email, and the rights/Open-Access pages before advising — and note the
-**two-round calendar**: Round-1 accepts and Revise-and-resubmit accepts have **different**
-camera-ready deadlines (FAccT 2026: **24 April** and **11 May** respectively).
+instructions, the decision email, and the rights/Open-Access pages before advising — and check the
+calendar: the FAccT 2027 camera-ready deadline is still **TBD** on the CFP (checked 2026-11-24).
+FAccT 2026 gave Round-1 accepts and Revise-and-resubmit accepts **different** camera-ready deadlines
+(**24 April** and **11 May 2026**); final 2027 notifications arrive **23 March 2027**. Accepted papers
+also prepare a poster.
 
 ## Camera-ready audit
 
@@ -17,9 +19,10 @@ camera-ready deadlines (FAccT 2026: **24 April** and **11 May** respectively).
   affiliations, and now add the **Positionality**, **Acknowledgements**, **Author Contributions**,
   and **Competing Interests** statements that mutual anonymity required you to hold back. The
   Positionality statement in particular exists only from this point on.
-- **Switch to the proceedings format:** move from the anonymous `review` build to the acmart
-  **`sigconf`** camera-ready, within the current page budget (Revised/accepted papers may use 15
-  content pages; confirm).
+- **Switch to the proceedings format:** the Author Guide says accepted papers must be reformatted in
+  the ACM format via TAPS — move from the anonymous single-column `review` build to the acmart
+  **`sigconf`** camera-ready, within the page budget (accepted papers may use **15** content pages,
+  excluding references and endmatter).
 - **Keep the required Generative AI Usage Statement** accurate for the final manuscript.
 - **Complete ACM metadata:** title/abstract, author order, **ORCIDs**, **ACM CCS concepts** and
   keywords, and the DOI-bearing citation once assigned.
@@ -28,7 +31,8 @@ camera-ready deadlines (FAccT 2026: **24 April** and **11 May** respectively).
 - **Finalize accountability documentation:** replace anonymized artifact links with permanent,
   licensed ones, and align the **datasheet / model card / impact assessment** with the released
   version and the paper's tables.
-- **Confirm presentation:** at least one author presents in person (archival or non-archival).
+- **Confirm presentation:** at least one author registers, attends, and presents (archival or
+  non-archival) — in person expected, virtual option for those who cannot travel.
 
 ## De-anonymization + endmatter sweep
 
@@ -48,7 +52,8 @@ camera-ready deadlines (FAccT 2026: **24 April** and **11 May** respectively).
 [Metadata]   title, abstract, authors+ORCID, CCS concepts, keywords entered and matching the PDF
 [Rights]     ACM e-rights form completed; correct rights/Open-Access statement on the first page
 [Open Access] since 1 Jan 2026 ACM proceedings are 100% OA — confirm ACM Open coverage or the APC
-             path (fee-waiver policy 待核实) well before the deadline, not at the last minute
+             path (2026 subsidy $250 ACM/SIG members / $350 non-members; 2027 subsidy not yet
+             announced; waivers rare, per ACM's discretionary waiver policy) well before the deadline
 [Endmatter]  Generative AI Usage kept; Positionality/Acks/Contributions added; ethics/adverse-impacts final
 [References] complete, consistent; DOIs where available (references are unlimited)
 [Links]      every artifact / data-availability link resolves from a logged-out browser
@@ -65,15 +70,16 @@ the harm claim the reviewers accepted.
 
 ## Hedged logistics
 
-- The two camera-ready dates, page allowances, metadata fields, rights mechanics, and the ACM Open /
-  APC specifics change each cycle and differ by round; confirm against the decision email and current
-  instructions rather than a prior year. APC/fee-waiver details are **待核实**.
+- The camera-ready date(s), page allowances, metadata fields, rights mechanics, and the ACM Open /
+  APC specifics change each cycle and may differ by round; confirm against the decision email and
+  current instructions rather than a prior year. The 2027 camera-ready date and any 2027 APC subsidy
+  are **待核实** (not yet published on 2026-11-24).
 
 ## Output format
 
 ```text
 [Camera-ready status] ready / needs fixes / blocked
-[Round] round-1 accept / revise-and-resubmit accept (deadline differs)
+[Round] round-1 accept / revise-and-resubmit accept (deadline may differ)
 [De-anonymization] author block / system name / links restored? yes/no
 [Endmatter added] Positionality / Acknowledgements / Contributions present now? yes/no
 [ACM metadata] ORCID / CCS / keywords / rights + Open-Access path complete? yes/no

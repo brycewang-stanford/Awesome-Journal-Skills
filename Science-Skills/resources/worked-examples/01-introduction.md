@@ -8,13 +8,13 @@
 
 This demonstrates the **Science arc** drawn from this pack's own skills: lead with the broad **advance**,
 not the background (`sci-framing`); pass the **general-interest / significance** bar (`sci-fit`); hold the
-short **Report** format with a **claim-first** opening (`sci-writing`); and deliver the two artifacts
+short **Research Article** format with a **claim-first** opening (`sci-writing`); and deliver the two artifacts
 *Science* requires — the **one-sentence summary** (≤ ~125 characters) and the **≤ ~125-word abstract**
 (`sci-abstract`).
 
 **Illustrative paper (fictional):** *"A single ion channel sets the cold-tolerance limit of pond
 insects."* Fictional setting: a freshwater midge whose larvae survive sub-zero winters; a fictional
-channel gene we call *ColdGate*. Treat it as a **Report** (`sci-writing`: ~2,500 words, ≤4 display items,
+channel gene we call *ColdGate*. Treat it as a standard **Research Article** (`sci-writing`: ≤3,000 words, 3–5 display items,
 Methods in Supplementary Materials).
 
 ---
@@ -71,7 +71,7 @@ Methods in Supplementary Materials).
 > quantified headline effect with CI, n, and exact P; ~112 words, within the ≤ ~125-word cap; no
 > subheadings, no citations.)*
 >
-> **Opening (Report; claim-first, ≈3 short paragraphs).**
+> **Opening (Research Article; claim-first, ≈3 short paragraphs).**
 >
 > Whether an animal lives or dies through a hard freeze is one of the oldest questions in physiology, and
 > it is becoming urgent: as winters shift, which species hold their cold limits and which fail is now a
@@ -110,8 +110,8 @@ Mapped to this pack's skill checklists:
 - **One quantified headline result** carries magnitude + unit + uncertainty + *n* + exact *P*
   (6.2°C; 95% CI 5.1–7.3; *n* = 40; *P* = 0.0007) — `sci-abstract` quantification check and
   `sci-statistics` reporting backbone.
-- **Format discipline** — a Report opening with claim-first paragraphs and Methods deferred to
-  Supplementary Materials (`sci-writing`: Methods are not in a Report's main text; structure as argument,
+- **Format discipline** — a Research Article opening with claim-first paragraphs and Methods deferred to
+  Supplementary Materials (`sci-writing`: Methods are not in the main text; structure as argument,
   not chronology).
 - **Jargon and anti-frames removed** — no "Herein," "Importantly," "elucidate," "Little is known about,"
   "we applied M to S," and the abstract ends on the **implication**, not "further work is needed"

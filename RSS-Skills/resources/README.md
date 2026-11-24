@@ -28,7 +28,7 @@ and [`../skills/rss-workflow`](../skills/rss-workflow/SKILL.md).
 1. **Frame** — `rss-topic-selection` for the fit verdict, then the worked example to
    see what "science-first" means on the page.
 2. **Build evidence** — `rss-experiments` and `rss-reproducibility` while the robot is
-   still available; regret about missing trials is unfixable in January.
+   still available; regret about missing trials is unfixable once the Extension Charter clock is running.
 3. **Benchmark** — compare your first page against the exemplars library; every PDF is
    free at roboticsproceedings.org.
 4. **Verify** — reopen [`official-source-map.md`](official-source-map.md) and

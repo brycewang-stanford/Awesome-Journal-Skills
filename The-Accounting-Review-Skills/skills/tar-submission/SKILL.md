@@ -19,8 +19,8 @@ description: Use when running the final pre-submission preflight for a The Accou
 ## Verified TAR/AAA specs (confirm current values)
 
 - **Submission portal:** **Editorial Manager** at **editorialmanager.com/accr**.
-- **Length:** initial submissions **should not exceed 55 pages**, *including* references, figures,
-  tables, and appendices.
+- **Length:** initial submissions **and revisions** should not exceed **55 pages**, *including*
+  references, figures, tables, and appendices (re-verified 2026-11-24).
 - **Format:** 12-pt Times New Roman, double-spaced, 1-inch margins, serially numbered pages.
 - **Abstract:** **no more than 150 words**, beginning the article file.
 - **AI disclosure statement:** required — tools used, extent, and reasons — placed **immediately
@@ -31,15 +31,22 @@ description: Use when running the final pre-submission preflight for a The Accou
   and reviewers is a critical goal (among AAA journals, only the Journal of Financial Reporting is
   single-blind).
 - **ORCID:** required for **all** authors.
-- **Conflict of Interest form:** completed COI form (each author) at submission.
+- **Conflict of Interest:** completed Author Editorial COI form (each author) at submission; the
+  Editorial Policy also asks authors to state in the cover letter whether conflicts exist and to put a
+  definitive financial-COI disclosure for each author on the separate title page (even if "none").
 - **Plagiarism screening:** applied to all manuscripts.
 - **Submission caps:** an individual author is limited to **eight (8) first-round submissions** over a
   rolling 24-month period (R&R papers do not count); **no more than 10 authors** on the byline.
 - **Fee (verified 2026-06-22):** non-refundable submission fee of **$285 AAA members / $680 non-members**
   per the current Guide for Authors, paid via the AAA portal at submission (this is separate from the
   optional open-access Article Publishing Charge) — re-confirm the current amount before submitting.
-- **IRB:** human-subjects documentation required for experimental/survey work.
-- **Data authenticity:** code/data package per data type (see below) is part of submission.
+- **IRB:** human-subjects documentation required for experimental/survey work — approval/exemption
+  noted in a manuscript footnote and a copy of the IRB approval/exemption uploaded at initial submission.
+- **Data authenticity (re-verified 2026-11-24):** for TAR manuscripts **conditionally accepted on or
+  after July 1, 2026**, authors must submit a separate, editors-only **Data Description Disclosures**
+  list and **all computer code** (extraction, cleaning, construction, analysis) documented well enough
+  to reproduce the results; final datasets are archived for at least 7 years (public posting
+  encouraged, not required). Prepare the package per data type (see below) before you submit.
 
 ## Pre-submission checklist
 
@@ -57,6 +64,8 @@ description: Use when running the final pre-submission preflight for a The Accou
 - [ ] Chicago (16th ed.) citations and reference list; spelling per Webster's
 - [ ] 12-pt Times New Roman, double-spaced, 1-inch margins, serially numbered pages
 - [ ] Initial submission **≤ 55 pages** including references, tables, figures, appendices
+- [ ] Separate title page (Word, not PDF) with authors, affiliations, acknowledgments, and a financial
+      COI disclosure for every author
 
 ### Data authenticity & code access (by data type)
 
@@ -64,6 +73,8 @@ description: Use when running the final pre-submission preflight for a The Accou
 - [ ] **Abstracted public data:** abstraction methodology **+** code prepared
 - [ ] **Privately collected data:** sufficient detail / corroborating third parties documented
 - [ ] Variable-definitions appendix and reproducible sample-selection steps included
+- [ ] Download/collection dates recorded for the Data Description Disclosures list and fully documented
+      code ready for conditional acceptance (TAR, from July 1, 2026)
 
 ### Forms, ethics & caps
 
@@ -87,6 +98,28 @@ description: Use when running the final pre-submission preflight for a The Accou
   Senior Editor oversees the process, with Lead Editors assigning editors and handling desk
   rejections; Ad hoc Editors cover specialized topics/methods).
 - Pay the submission fee through the AAA portal at submission.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue tar-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

@@ -7,7 +7,8 @@ description: Use when auditing a MICRO submission before HotCRP upload — the 1
 
 Run this audit against the exact PDF headed to HotCRP. Anchors below are the MICRO
 2026 (59th) cycle — CFP and submission guidelines at `microarch.org/micro59/submit/`,
-checked 2026-07-08. Every number is a snapshot; reopen the current cycle's pages.
+checked 2026-07-08 and re-verified 2026-11-24 (MICRO 2027 not yet announced). Every
+number is a snapshot; reopen the current cycle's pages.
 
 ## Three traps that are specifically MICRO's
 
@@ -100,7 +101,11 @@ MICRO 2026 opened an inaugural **Industry Track** with its own CFP and a review
 process tailored to production constraints (`micro59/submit/industrial.php`). If the
 paper's value is deployment evidence rather than a new general mechanism, route it
 there deliberately — do not let a production paper be judged by main-track novelty
-rules. Track-specific deadlines and rules: 待核实 against the live page.
+rules. Verified 2026-11-24: same deadlines as the main track; **single-blind** (all
+affiliations disclosed); first author and a majority of authors must be current
+industry employees; internship projects go to the main track; a brief statement
+justifying the Industry Track is required at submission; general MICRO formatting
+rules and page limits apply. Its review-form details remain 待核实.
 
 ## If something goes wrong at the wire
 
@@ -114,6 +119,28 @@ rules. Track-specific deadlines and rules: 待核实 against the live page.
   survivable, discovery is not.
 - **Missed the abstract gate entirely:** there is no paper this cycle. Move
   straight to the lattice in `micro-workflow` and book the next venue's window.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue micro-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

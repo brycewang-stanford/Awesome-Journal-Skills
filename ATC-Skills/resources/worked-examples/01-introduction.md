@@ -5,12 +5,13 @@
 > [`atc-topic-selection`](../../skills/atc-topic-selection/SKILL.md), and
 > [`atc-experiments`](../../skills/atc-experiments/SKILL.md).
 
-# Worked Example: An ATC-Style Extended Abstract + Introduction (before → after)
+# Worked Example: ATC-Style First Two Pages — Abstract + Introduction (before → after)
 
-ATC 2026 reviews in **two rounds**: a two-page **extended abstract** is read first by two reviewers
-who cut below-bar papers, and only survivors get a full read by 3-4 reviewers. The extended abstract
-is **review-only, not published, and must stand alone** — a reviewer may see it *instead of* the
-paper. So the ATC first-page arc must live in the abstract itself:
+ATC 2027 reviews in **two rounds**, and the **first round is based on the paper's first two pages**:
+reviewers may read further but are not obliged to, and they cut papers whose opening shows weak
+scope, motivation, clarity, novelty, positioning, or evaluation; only survivors get more reviews.
+(ATC 2026 did the same job with a separate, unpublished two-page extended abstract.) So the
+opening two pages must stand alone, and the ATC arc must live in the abstract and introduction:
 **systems problem practitioners recognize → why the current design is inadequate → the system/technique →
 measured evidence on a real testbed → what changes in practice** — with ATC's expectations that the
 contribution is a *built and measured* systems contribution, evidence is **end-to-end plus
@@ -28,9 +29,9 @@ storage server, evaluated on a real multi-tenant testbed under production-derive
 
 ---
 
-## Before (buries the systems contribution — typical first-draft extended abstract + intro)
+## Before (buries the systems contribution — typical first-draft abstract + intro)
 
-> **Extended Abstract.** Caching is important for storage systems. We present Tiered-TTL, a novel
+> **Abstract.** Caching is important for storage systems. We present Tiered-TTL, a novel
 > caching system that uses a new machine-learning-inspired admission policy. Our system is
 > implemented and achieves high hit rates and outperforms existing baselines on a large dataset,
 > demonstrating the promise of intelligent caching for modern storage.
@@ -42,8 +43,8 @@ storage server, evaluated on a real multi-tenant testbed under production-derive
 
 **What's wrong (against `atc-writing-style` / `atc-topic-selection` / `atc-experiments`):**
 
-- **No self-standing problem in the extended abstract.** A round-one reviewer reading only these two
-  paragraphs cannot tell what deployment pain this solves or why existing admission policies fall
+- **No self-standing problem in the first two pages.** A round-one reviewer reading only this
+  opening cannot tell what deployment pain this solves or why existing admission policies fall
   short — so the paper risks an early cut before anyone reads the full PDF.
 - **Wrong evidence shape.** "High hit rate" on "a large dataset" is not a systems result: no
   end-to-end latency, no tail behavior, no comparison at matched cost, no statement of the testbed.
@@ -59,7 +60,7 @@ storage server, evaluated on a real multi-tenant testbed under production-derive
 
 ## After (ATC arc — problem → inadequacy → system → real-testbed evidence → what changes)
 
-> **Extended Abstract.** Flash read caches in multi-tenant storage servers must decide *what to
+> **Abstract.** Flash read caches in multi-tenant storage servers must decide *what to
 > admit*, and the common size- or frequency-based admission policies waste flash write budget on
 > one-hit objects while evicting the reused ones — inflating tail read latency exactly when a tenant
 > is busiest. We present **Tiered-TTL**, an admission policy that assigns each object a short
@@ -110,9 +111,9 @@ storage server, evaluated on a real multi-tenant testbed under production-derive
 
 Mapped to the skill checklists:
 
-- **The extended abstract stands alone** — a round-one reviewer gets the problem, the design, the
-  testbed, and the honest cost without the full paper (`atc-writing-style`: "the extended abstract
-  is a self-contained argument, because a reviewer may read only it").
+- **The first two pages stand alone** — a round-one reviewer gets the problem, the design, the
+  testbed, and the honest cost without the rest of the paper (`atc-writing-style`: "the first two
+  pages are a self-contained argument, because a round-one reviewer may read only them").
 - **Evidence proportional to a systems claim** — the claim is about tail latency at matched cost, so
   the evidence is p99 on a real testbed at matched flash-write budget with variance, not average hit
   rate on "a dataset" (`atc-experiments`: match evidence to the claim, report tails and variance).

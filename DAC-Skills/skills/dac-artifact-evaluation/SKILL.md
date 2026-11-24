@@ -1,14 +1,14 @@
 ---
 name: dac-artifact-evaluation
-description: Use when packaging the code, benchmarks, and flows behind an ACM/IEEE Design Automation Conference (DAC) Research Manuscript into a credible, reusable artifact — given that DAC has historically run no formal artifact-evaluation or badge-issuing track (verify per cycle), so the goal is reviewer credibility and community reuse via open EDA flows and DOI-archived releases, not an ACM badge.
+description: Use when packaging the code, benchmarks, and flows behind an ACM/IEEE Design Automation Conference (DAC) Research Manuscript into a credible, reusable artifact — given that DAC runs no formal artifact-evaluation or badge-issuing track (none in the DAC 2027 call; verify per cycle), so the goal is reviewer credibility and community reuse via open EDA flows and DOI-archived releases, not an ACM badge.
 ---
 
 # DAC Artifact Evaluation
 
 Read the venue reality first. Unlike the software-engineering venues (FSE/ICSE/ISSTA) and the
-computer-architecture venues (MICRO/ISCA/HPCA), **DAC has historically not operated a standing,
-badge-issuing artifact-evaluation track** for research manuscripts; whether the current cycle adds
-one is **待核实** (`resources/official-source-map.md`). So do not build for an ACM badge that DAC
+computer-architecture venues (MICRO/ISCA/HPCA), **DAC does not operate a badge-issuing
+artifact-evaluation track** for research manuscripts — the DAC 2027 Call for Contributions and
+Research Manuscript page list none (`resources/official-source-map.md`). So do not build for an ACM badge that DAC
 does not award. Build instead for the two things that actually matter at DAC: **making a skeptical
 reviewer trust your QoR numbers** and **making the community able to reuse and cite your work**.
 
@@ -86,5 +86,5 @@ slow full-suite run on a large machine.
 [Ten-minute test] does install + small demo succeed on a clean machine? yes/no
 [Claim mapping]   claim -> script -> benchmark -> expected QoR present? yes/no
 [Anon vs public]  anonymized review artifact / DOI-archived public release planned? yes/no
-[Badge check]     does this cycle actually run an artifact track? verify -> yes/no/待核实
+[Badge check]     does this cycle actually run an artifact track? (DAC 2027: no) verify -> yes/no
 ```

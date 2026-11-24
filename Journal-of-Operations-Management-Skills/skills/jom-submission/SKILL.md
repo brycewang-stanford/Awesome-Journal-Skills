@@ -35,7 +35,7 @@ Review is double-anonymous with an asymmetric rule: author identities are shared
 
 ## Format compliance
 
-Double-spaced, single-column, 12-point, one-inch margins, numbered pages, no running headers/footers; **~40-page** guidance (over-long manuscripts are returned for streamlining); **APA** style; Wiley **Data Availability Statement** required for research/synthesis articles; ORCID linked.
+Double-spaced, single-column, 11-point, one-inch margins, numbered pages, no running headers/footers; **~40-page** guidance (over-long manuscripts are returned for streamlining); **APA** style; Wiley **Data Availability Statement** required for research/synthesis articles; ORCID linked.
 
 ## Checklist
 
@@ -45,7 +45,7 @@ Double-spaced, single-column, 12-point, one-inch margins, numbered pages, no run
 - [ ] AI / dissertation / prior-data / prior reject-and-resubmit disclosures made
 - [ ] Manuscript fully anonymized (names, affiliations, metadata, self-cites)
 - [ ] Completed JOM submission checklist attached
-- [ ] ~40 pp, double-spaced 12-pt, one-inch margins, APA, no headers/footers
+- [ ] ~40 pp, double-spaced 11-pt, one-inch margins, APA, no headers/footers
 - [ ] Similarity: single-source <1%, overall <15% (or justified in cover letter)
 - [ ] Data Availability Statement included; ORCID linked
 
@@ -77,6 +77,28 @@ A team submitting an archival operations study marks Inter-organizational Operat
 
 - *"Routing is unclear"* — state the preferred Department and why the phenomenon fits its mission.
 - *"Prior use not disclosed"* — disclose dissertation, conference, and prior-data use proactively; surprises erode editor trust.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jom-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

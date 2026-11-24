@@ -31,7 +31,7 @@ This repository is opinionated. It is **not** a generic Chinese-economics writin
 | Mechanism / Heterogeneity    | Near-mandatory for empirical papers                    | Empirical papers without mechanism tests rarely accepted     |
 | Policy implications          | Mandatory closing section, actionable                  | Pure-academic contributions need explicit policy hooks       |
 | Length                       | ~15–25k Chinese characters incl. exhibits              | Substantially longer than AER; full structure expected       |
-| Abstract                     | 300–500 Chinese characters                             | "What we do + what we find" first, then significance         |
+| Abstract                     | ≤300 Chinese characters, 3–5 keywords (official)       | "What we do + what we find" first, then significance         |
 
 Generic "scientific writing" or "economics writing" skill packs do not address these constraints.
 

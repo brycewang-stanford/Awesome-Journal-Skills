@@ -7,7 +7,7 @@ description: Use when assembling supplementary materials for an ACM CHI submissi
 
 CHI collects the paper, the video figure, and every supplementary file **together on
 the one submission deadline** (September 10, 2026 for CHI 2027, per chi2027.acm.org,
-read 2026-07-08). There is no later supplement slot, so supplement production is
+re-read 2026-11-24). There is no later supplement slot, so supplement production is
 deadline-week work that must be scheduled like writing. Everything uploaded is part
 of the anonymous review record; everything accepted ships to the ACM Digital Library
 beside the paper, permanently.
@@ -16,9 +16,9 @@ beside the paper, permanently.
 
 | Material | Phase | Governing rule |
 |---|---|---|
-| Video figure (≤ ~5 min, illustrates the work) | With submission | Anonymized; closed captions required |
+| Video figure (no hard limit at submission; ≤ 5 min recommended, 5 min max at publication-ready) | With submission | Anonymized; closed captions required |
 | Appendices (instruments, extra tables, prompts) | With submission | Reviewed at reviewer discretion; paper must stand alone |
-| Code / data archive | With submission | De-identified, anonymous, no `.git` history |
+| Code / data archive | With submission | All non-video material as **one .zip with a README**; de-identified, anonymous, no `.git` history |
 | Consent/IRB templates | With submission | Templated versions only — these files name institutions by design |
 | Video preview (~30 s pitch) | Camera-ready (publication-ready deadline) | Accepted papers only; captioned; goes to DL and program |
 | Final supplements | Publication-ready deadline | De-anonymized, captioned, archival quality |
@@ -32,7 +32,9 @@ result.
 SIGCHI's video guide (sigchi.org/resources/guides-for-authors/videos/) sets the
 expectations this pack verifies: video figures illustrate key aspects of the work,
 run up to about five minutes, are archived in the DL, and **every video needs a
-closed-caption file** (SRT, SBV, or VTT). Craft rules that survive review:
+closed-caption file** (SRT, SBV, or VTT). The CHI 2027 call sets no duration limit
+for submission video figures but recommends staying within 5 minutes; the
+publication-ready instructions cap the final video figure at 5 minutes. Craft rules that survive review:
 
 - Show the interaction, not slides. Thirty seconds of real use beats two minutes of
   bullet points read aloud.
@@ -82,10 +84,12 @@ camera-ready is stable — not in deadline-week September (`chi-camera-ready`).
 
 ## Cycle-volatile items
 
-File-size caps and accepted formats for PCS uploads, whether the current cycle asks
-for specific supplement manifests, and any per-subcommittee expectations were 待核实
-at check time — read the live "Guide to a Successful Submission" and video pages for
-the cycle before finalizing the package.
+File-size caps and accepted formats for PCS uploads were not stated on the CHI 2027
+call or publication-ready pages at the 2026-11-24 check (待核实). The CHI 2027 call
+does fix the packaging: non-video supplements go in a single .zip with a README
+describing the materials, and non-anonymized supplements desk-reject the whole
+submission. Read the live "Guide to Submitting a Video" page for the cycle before
+finalizing the package.
 
 ## Output format
 

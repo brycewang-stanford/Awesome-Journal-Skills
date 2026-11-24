@@ -10,10 +10,10 @@ Asteroid, or PyTorch project, not here.
 
 ## Repository-wide kit (reused, not duplicated)
 
-- [`../../../shared-resources/ml-conference-methods/README.md`](../../../shared-resources/ml-conference-methods/README.md)
-- [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../../../shared-resources/ml-conference-methods/experiment-matrix.md)
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/README.md`](../shared/ml-conference-methods/README.md)
+- [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../shared/ml-conference-methods/experiment-matrix.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
 
 Run the structural checker on a package that, under ICASSP's single-blind policy, can already
 carry your name:

@@ -57,7 +57,7 @@ For *whether/how much/under what conditions* across many cases.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full
-map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Human Relations blends critical/qualitative and quantitative work; apply the chain below to its survey / experimental quantitative papers.
+map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Human Relations blends critical/qualitative and quantitative work; apply the chain below to its survey / experimental quantitative papers.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

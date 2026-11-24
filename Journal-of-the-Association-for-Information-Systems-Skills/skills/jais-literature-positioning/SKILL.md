@@ -53,7 +53,7 @@ JAIS's Literature Review category (SE Gregory Vial, 待核实) recognizes two ge
 - [ ] The "why JAIS, not MISQ/ISR/JMIS" answer is implicit in the positioning and explicit in the cover letter
 - [ ] Self-citations are worded neutrally for double-blind review
 - [ ] For a Literature Review: scope, search/coding method, and theoretical payoff are stated
-- [ ] Citations are real and verifiable (no invented exemplars); APA 6th style
+- [ ] Citations are real and verifiable (no invented exemplars); APA 7th style
 - [ ] The front end alone makes a pluralistic editor feel the paper belongs in JAIS's project
 - [ ] Process facts quoted are from the source map or marked 待核实
 

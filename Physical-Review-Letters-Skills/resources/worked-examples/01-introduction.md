@@ -100,9 +100,9 @@ Mapped to the skill checklists:
 - **Out-of-subfield readable** — "topological pump" is glossed in one clause before any subfield notation
   appears, meeting the `prl-writing-style` broad-readability requirement.
 - **Length-aware** — no literature tour, no apparatus dump, no over-signposted roadmap; that reclaimed
-  budget is what `prl-length-management` says you need for the figures, equations, and references that
-  also count against the ~3750-word / ~4-page deductible (**verify the current limit on the APS author
-  page**). Fabrication and the full disorder sweep would go to Supplemental Material per `prl-methods`.
+  budget is what `prl-length-management` says you need for the figures, tables, and displayed equations
+  that count as word equivalents against the 3750-word core limit (abstract and references are not
+  counted; **verify the current limit on the APS author page**). Fabrication and the full disorder sweep would go to Supplemental Material per `prl-methods`.
 
 > Next: see [`../exemplars/library.md`](../exemplars/library.md) for **real, web-verified** PRL Letters
 > whose abstracts and openings execute this arc, and confirm the live length/abstract limits and

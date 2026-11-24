@@ -8,7 +8,7 @@ to do; these files hold the evidence and the checkable references.
 
 | Resource | Use it to... |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Trace every venue fact in the pack to a dated official URL, see the access-method note (usenix.org and dblp.org 403'd direct fetches), and read the explicit 待核实 list. |
+| [`official-source-map.md`](official-source-map.md) | Trace every venue fact in the pack to a dated official URL, see the access-method note (usenix.org and dblp.org 403'd direct fetches in July 2026; usenix.org re-read directly on 2026-11-24), and read the explicit 待核实 list. |
 | [`external_tools.md`](external_tools.md) | Open the live NSDI surfaces (CFP, HotCRP `/deadlines`, artifact call) and run the five author-side verification passes. |
 | [`exemplars/library.md`](exemplars/library.md) | Position against five venue-verified NSDI papers (2007-2020) and dodge the Raft/B4/Chord/Spanner/Tor misattribution traps. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Watch a fictional RPC-retry paper's abstract and introduction get rebuilt into the NSDI operational-evidence arc. |

@@ -17,9 +17,9 @@
 
 本刊样本同时包含优化算法、复杂网络仿真、金融预测和空间计量，不能把单一因果推断
 代码套在所有稿件上。涉及实证推断时，读取仓库共享的
-[execution-with-mcp](../../shared-resources/empirical-methods/execution-with-mcp.md)、
-[reporting standards](../../shared-resources/empirical-methods/reporting-standards.md) 与
-[reviewer objection checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)；
+[execution-with-mcp](shared/empirical-methods/execution-with-mcp.md)、
+[reporting standards](shared/empirical-methods/reporting-standards.md) 与
+[reviewer objection checklist](shared/empirical-methods/reviewer-objection-checklist.md)；
 优化与仿真稿则按本包的 `algorithm-computation`、`validation` 和
 `robustness-reproducibility` skills 建立问题专属实验。
 

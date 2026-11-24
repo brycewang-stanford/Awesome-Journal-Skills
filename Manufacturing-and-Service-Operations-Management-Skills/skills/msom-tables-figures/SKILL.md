@@ -35,7 +35,7 @@ Use **INFORMS author-year** citations in captions and notes; keep every exhibit 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). M&SOM mixes analytical and empirical OM; the chain below serves the empirical-OM lane, while analytical / queueing / optimization work is outside it.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). M&SOM mixes analytical and empirical OM; the chain below serves the empirical-OM lane, while analytical / queueing / optimization work is outside it.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

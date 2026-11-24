@@ -1,6 +1,6 @@
 ---
 name: sigcomm-artifact-evaluation
-description: Use when packaging an ACM SIGCOMM paper's code, traces, topologies, and configuration for the artifact-evaluation committee — choosing ACM badges (Artifacts Available, Evaluated, Results Reproduced) as claim calibration, building downscaled topologies and trace substitutes, and making a networking testbed result rebuildable by a reviewer.
+description: Use when packaging an ACM SIGCOMM paper's code, traces, topologies, and configuration for the artifact-evaluation committee — choosing ACM badges (Artifacts Available and Evaluated - Functional in the latest published call; Results Reproduced only where an edition offers it) as claim calibration, building downscaled topologies and trace substitutes, and making a networking testbed result rebuildable by a reviewer.
 ---
 
 # SIGCOMM Artifact Evaluation
@@ -8,8 +8,11 @@ description: Use when packaging an ACM SIGCOMM paper's code, traces, topologies,
 Use this for the post-acceptance artifact submission. SIGCOMM helped establish artifact
 evaluation in networking, and the venue's "runnable papers" culture sets a high bar: a
 committee attempts to build and, where a badge requires it, reproduce your headline result.
-Reopen the current Call for Artifacts for this edition's exact badge set and dates (待核实 for
-2026).
+Reopen the current Call for Artifacts for this edition's exact badge set and dates. As of
+2026-11-24 the latest published call is SIGCOMM 2025's, which awarded **two** badges —
+Artifacts Available and Artifacts Evaluated - Functional — with no Results Reproduced badge;
+the SIGCOMM 2027 call is 待核实. The 2027 CFP confirms the process is voluntary, for accepted
+papers only, and has no influence on acceptance.
 
 ## Badge selection is claim calibration
 
@@ -20,7 +23,7 @@ verify, not a participation ribbon.
 |---|---|---|
 | Artifacts Available | Permanent public retrieval via an archival DOI | Confirm the archive resolves and is complete |
 | Artifacts Evaluated (Functional) | The artifact builds and runs as documented | Follow your README end to end on their setup |
-| Results Reproduced | The paper's main results follow from the artifact | Re-run to obtain the headline numbers within tolerance |
+| Results Reproduced (not offered in the SIGCOMM 2025 call) | The paper's main results follow from the artifact | Re-run to obtain the headline numbers within tolerance |
 
 Aim the highest badge at the result you most want believed, and be candid where hardware or
 scale makes full reproduction infeasible.

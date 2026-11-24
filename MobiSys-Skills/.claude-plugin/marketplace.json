@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "mobisys-skills",
-  "version": "1.1.0",
-  "description": "Depth pack for ACM MobiSys mobile-systems planning, HotCRP submission, the two-round rebuttal, ACM artifact badges, on-device reproducibility, and ACM Digital Library camera-ready work.",
+  "version": "1.2.0",
+  "description": "Depth pack for ACM MobiSys mobile-systems planning, single-blind HotCRP submission, the two-round rebuttal and shepherded conditional acceptance, ACM artifact badges, on-device reproducibility, and ACM Digital Library camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
@@ -13,9 +13,9 @@
   "plugins": [
     {
       "name": "mobisys-skills",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "source": "./",
-      "description": "Twelve MobiSys-specific skills for mobile systems, applications, and services submission strategy, grounded in the official MobiSys 2026 CFP, artifact-evaluation pages, mobisys26.hotcrp.com deadlines, ACM Digital Library, and dblp.",
+      "description": "Twelve MobiSys-specific skills for mobile systems, applications, and services submission strategy, grounded in the official MobiSys 2027 (Ho Chi Minh City, single-blind) CFP, organizing-committee and mobisys27.hotcrp.com deadline pages, the latest artifact-evaluation call, ACM Digital Library, and dblp.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

@@ -82,7 +82,7 @@ lancet-research-in-context （标志性三段式面板 + 系统检索）
         ▼
 lancet-abstract            （结构化摘要：Findings / Interpretation / Funding ≤300 词）
         ▼
-lancet-writing             （IMRaD 结构；审慎的讨论；约 3000–3500 词）
+lancet-writing             （IMRaD 结构；审慎的讨论；≤3500 词，RCT 为 4500 词）
         ▼
 lancet-ethics              （利益声明、资助来源作用、数据共享、SAGER）
         ▼
@@ -105,7 +105,7 @@ lancet-rebuttal            （送审之后——含统计审稿人）
 | `lancet-reporting`           | EQUATOR 规范（CONSORT/STROBE/PRISMA）+ 强制流程图 + 清单            |
 | `lancet-research-in-context` | 标志性面板：Evidence before / Added value / Implications + 系统检索 |
 | `lancet-abstract`            | 结构化摘要 ≤300 词：Background / Methods / **Findings** / **Interpretation** / Funding |
-| `lancet-writing`             | IMRaD 结构、约 3000–3500 词、约 30 条参考、审慎且具全球视野的讨论       |
+| `lancet-writing`             | IMRaD 结构、≤3500 词（RCT 4500 词）、30 条参考、审慎且具全球视野的讨论       |
 | `lancet-statistics`          | 置信区间优先于裸 P、ITT + 符合方案、多重性、预设亚组 + 交互检验、绝对+相对效应 |
 | `lancet-figures-tables`      | Table 1、带风险人数的 Kaplan–Meier、森林图、CONSORT/研究流程图、地图     |
 | `lancet-ethics`              | 利益声明、资助来源作用、数据共享、ICMJE 署名、SAGER 与公平性           |

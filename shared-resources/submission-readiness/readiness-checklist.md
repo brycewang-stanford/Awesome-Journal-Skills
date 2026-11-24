@@ -11,6 +11,13 @@ where that scores packs, this scores a manuscript against a target venue's bar.
 
 ## How to run
 
+0. **Run the deterministic preflight first** and keep its JSON:
+   `python3 tools/preflight.py <manuscript> --venue "<venue>" --json > preflight.json`
+   (from an installed Research Toolkit: `resources/preflight/preflight.py` next to the
+   skills). Every FAIL it reports is a dimension-7 FAIL (or dimension 8 for missing data/
+   code statements) with its location already attached; do not re-derive mechanics by
+   reading. Anything it lists under `not_checked` stays `UNKNOWN` unless you verify it
+   yourself (e.g. compile to PDF for the exact page count).
 1. **Name the venue** (or get it from `journal-match`). Load the pack's skills and
    `resources/official-source-map.md`.
 2. **Inspect the actual manuscript** — read the intro, the design section, the main
@@ -31,7 +38,7 @@ where that scores packs, this scores a manuscript against a target venue's bar.
 | 4 | **Robustness & inference** | The decisive checks are in the body; SE/clustering correct; multiple-testing addressed if many specs were mined; the search is disclosed | pack `*-robustness` / `*-data-analysis` + [`reporting-standards`](../empirical-methods/reporting-standards.md) |
 | 5 | **Exhibits self-contained** | Each table/figure readable without the text; estimator + clustering in the note; **economic magnitude** in interpretable units, not just stars | pack `*-tables-figures` |
 | 6 | **Exposition** | Question, answer, magnitude, and why-credible land in the first ~3 pages; no method-first opening; no buried headline | pack `*-writing-style` |
-| 7 | **Venue mechanics** | Within page/word limit; spacing/font/anonymization correct; cover letter per policy; fee/APC known and budgeted | pack `resources/official-source-map.md` + `*-submission` |
+| 7 | **Venue mechanics** | Within page/word limit; spacing/font/anonymization correct; required statements present; citations, exhibits and abstract numbers consistent; no placeholders; cover letter per policy; fee/APC known and budgeted | **preflight report (stage 0)** + pack `resources/official-source-map.md` + `*-submission` |
 | 8 | **Data & code / reproducibility** | The venue's data-and-code policy is satisfiable (master script, environment, README, disclosure plan for restricted data); replication package assembled | source-map data policy + the empirical-methods `code/` skeleton |
 | 9 | **Pre-empted referee objections** | The 2–3 objections a referee will raise first each have a one-paragraph + one-exhibit answer ready | pack `*-referee-strategy` + the objection checklist |
 

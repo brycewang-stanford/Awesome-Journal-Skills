@@ -4,7 +4,8 @@ A skeleton for a *Journal of Financial and Quantitative Analysis* (JFQA) empiric
 manuscript. Adapt freely; for theory papers, replace the data/identification sections with
 model setup, propositions, proofs, and numerical examples. Format for submission:
 **8.5 × 11, 1-inch margins, 12-pt Times New Roman, double-spaced**, single **text-searchable
-PDF**, **anonymized** for double-anonymous review.
+PDF**, **anonymized** for double-anonymous review; author names, affiliations and
+acknowledgments go only in the separate title-page file.
 
 ---
 

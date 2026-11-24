@@ -43,7 +43,7 @@ CAR's policy (effective May 1, 2020) governs all empirical submissions — archi
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). CAR is archival/empirical accounting; the DiD / IV / RDD chain serves its causal designs around reporting and regulation.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). CAR is archival/empirical accounting; the DiD / IV / RDD chain serves its causal designs around reporting and regulation.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

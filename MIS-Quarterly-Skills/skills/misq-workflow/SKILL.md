@@ -70,8 +70,8 @@ MISQ is pluralistic across four traditions and enforces a page limit that counts
 MIS QUARTERLY MANUSCRIPT STAGE LEDGER
 =====================================
 Tradition (primary): behavioral | design science | economics | organizational   Blend: ______
-Category           : Research Article (50pp) | Research Notes | Theory Development (55pp)
-                     | Theory-Generative Synthesis (65pp) | Design Science | Issues & Opinions
+Category           : Research Article (55pp) | Research Note (30pp) | Methods Article (55pp)
+                     | Theory Development (55pp) | Theory-Generative Synthesis (65pp) | Issues & Opinions (30pp)
 IT artifact central: yes | no (FIX — likely wrong venue)
 Stage gates (✓ / ✗ / n/a):
   [ ] misq-topic-selection        IS question; tradition named; category chosen

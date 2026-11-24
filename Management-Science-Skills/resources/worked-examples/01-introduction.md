@@ -130,6 +130,6 @@ Mapped to the skill checklists:
 > [`../code/`](../code/) for the empirical-lane command chain (the analytical lane above is illustrated in
 > prose; for analytical tooling see [`../external_tools.md`](../external_tools.md)). The cross-cutting
 > design and reporting guidance lives once in the shared hub:
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > and
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

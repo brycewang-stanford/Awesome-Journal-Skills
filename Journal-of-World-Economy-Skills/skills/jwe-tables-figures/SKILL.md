@@ -37,7 +37,7 @@ description: Use when finalizing the main tables and figures of a 《世界经�
 ## 执行桥（StatsPAI / Stata MCP）
 
 表格图形**从拟合结果生成**，不要手抄数字。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《世界经济》是国际经济实证刊，跨国/企业面板；强调识别与聚类。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《世界经济》是国际经济实证刊，跨国/企业面板；强调识别与聚类。
 
 - **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
 - **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与

@@ -39,7 +39,12 @@ release, or equivalent — as part of the claim, not as decoration.
 - **arXiv declaration.** If a non-anonymized version is online, or will go online
   before notification, that must be declared on the form. Not disclosing an existing
   public version is itself a desk-reject trigger — the risk is the silence, not the
-  preprint.
+  preprint. CIKM 2026 also required the preprint's **title and abstract to be
+  sufficiently distinct** from the submission (submit under an alternative title and
+  restore it after acceptance) — identical metadata is a desk reject.
+- **Review mode by track.** Full and Short Research are double-blind; Applied
+  Research, Resource and Demo were **single-blind** in 2026 — names and affiliations go
+  in those manuscripts. Short papers must carry ACM CCS concepts and keywords.
 
 ## GenAI Usage Disclosure section
 
@@ -51,14 +56,13 @@ scripts; no generated text in the manuscript" beats boilerplate), because the
 conference reserves the right to run automated compliance checks against the ACM AI
 policy. A missing section is a compliance failure on an explicitly stated rule.
 
-## Anonymity sweep
+## Anonymity sweep (Full and Short tracks)
 
 Third-person self-citations; no author names, affiliations, acknowledgments, or
 grant numbers; no identifying repository URLs, dataset host paths, or PDF metadata;
-screenshots and demo figures scrubbed of usernames and org names. For Applied
-Research papers this is the hard case — "deployed at our company" phrasing must
-stay, but the company must not be inferable from logos, product names, or traffic
-numbers only one operator could have.
+screenshots and demo figures scrubbed of usernames and org names. Applied Research
+papers, by contrast, were single-blind in 2026: name the company and the deployment
+openly — anonymizing them only weakens the deployment evidence the track asks for.
 
 ## Abstract-gate week (the underestimated deadline)
 
@@ -106,11 +110,33 @@ May 23 in 2026) and does more than reserve a slot:
 | Trigger | Why it fires at CIKM |
 |---|---|
 | Missing reviewer nomination | Explicitly stated 2026 consequence |
-| Undeclared public non-anonymized version | Explicitly stated 2026 consequence |
+| Undeclared public non-anonymized version, or one sharing the submission's title/abstract | Explicitly stated 2026 consequence |
 | Over budget once appendices are counted | Budget includes appendices by rule |
-| Identity leakage in PDF or metadata | Double-blind policy |
+| Identity leakage in PDF or metadata (Full/Short) | Double-blind policy |
 | Concurrent submission elsewhere | Originality policy, no exceptions |
 | Missing/hollow GenAI disclosure section | ACM AI-policy compliance, automated checks reserved |
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue cikm-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

@@ -1,6 +1,6 @@
 ---
 name: uist-workflow
-description: Use when planning a UIST cycle end to end — the late-March abstract and paper deadlines, the ten-week build-freeze before video production, the rebuttal window, conditional acceptance, the July camera-ready, adjunct-track parallel lanes, and the November conference — with owners and risk buffers.
+description: Use when planning a UIST cycle end to end — the spring abstract, paper and materials deadlines, the ten-week build-freeze before video production, the rebuttal window, conditional acceptance, the end-of-July camera-ready, adjunct-track parallel lanes, and the November conference — with owners and risk buffers.
 ---
 
 # UIST Workflow
@@ -8,24 +8,33 @@ description: Use when planning a UIST cycle end to end — the late-March abstra
 A UIST year is engineered backwards from two fixed points: the paper deadline in late
 March and the conference in the fall. Between them sits a pipeline with almost no
 slack for hardware failures, video production, or study scheduling. This skill turns
-the cycle into a managed project. All dates below are the verified 2026 numbers
-(checked 2026-07-08); reopen `uist.acm.org/<year>/cfp/` before committing a calendar.
+the cycle into a managed project. All dates below are the UIST 2026 numbers
+(re-verified 2026-11-24 against the live CFP); reopen `uist.acm.org/<year>/cfp/` before
+committing a calendar.
 
 ## The 2026 reference calendar
 
 | Date (2026) | Event | Author obligation |
 |---|---|---|
 | Mar 24 | Abstract deadline (AoE) | Title, abstract, authors, track metadata in PCS |
-| Mar 31 | Paper deadline (AoE) | PDF + video figure + supplementary, all anonymous |
-| May 28 - Jun 5 | Rebuttal window | 5,000-character self-contained response |
+| Mar 31 | Paper deadline (AoE) | Anonymous paper PDF (< 20 MB) |
+| Apr 9 | Materials deadline (AoE) | Video figure, supplementary files, alt text, video subtitles (< 300 MB total) |
+| May 28 - Jun 5 | Reviews out → rebuttal due | 5,000-character self-contained response |
 | Jun 27 | Notification | Decisions are conditional on rebuttal-promised changes |
-| Jul 24 | Camera-ready | TAPS source, alt text, final video, +10% page allowance |
-| Nov 2 | Doctoral Symposium (in person) | Separate track, separate deadline |
+| Jul 3 | Final reviews | Full reviews, possibly revised after the PC meeting |
+| Jul 10 | Adjunct deadlines | Demos, Posters, Doctoral Symposium, Workshops, Visions |
+| Jul 31 | Camera-ready upload (PCS + TAPS) | TAPS source, alt text, final video, +10% page allowance |
+| Aug 7 | Final acceptance decision | 1AC has checked the promised changes |
+| Aug 14 | Video preview | Mandatory 30-second preview |
+| Nov 2 | Workshops + Doctoral Symposium (in person) | Separate tracks, separate deadlines |
 | Nov 2-5 | Conference, Detroit | Talk + (typically) live demo of the system |
 
-As of 2026-07-08 the live obligations are the camera-ready chain for accepted papers
-and the adjunct tracks (Demos, Posters — deadlines 待核实, read the CFP) for everyone
-else; new submissions target the 2027 cycle.
+As of 2026-11-24 the whole 2026 cycle is closed (the conference met November 2-5).
+New submissions target **UIST 2027 — Vienna, Austria, October 26-29, 2027** — whose
+home page announces Papers deadlines of abstract **March 31**, full paper **April 7**
+and supplementary materials **April 9** (2027). The UIST 2027 CFP and Author Guide are
+not yet published, so page limits, adjunct-track dates and the review calendar are
+still unknown.
 
 ## Backwards plan for a systems paper
 
@@ -70,16 +79,17 @@ UIST is one conference with two archival containers, and a healthy group uses bo
   drops the poster). Decide the fallback lane on notification day, not after the
   adjunct deadlines pass.
 
-## Planning UIST 2027 from a mid-2026 vantage
+## Planning UIST 2027 from a late-2026 vantage
 
-For teams reading this in the live window (post-notification 2026), the next Papers
-deadline is roughly nine months out and the calendar is not yet published (待核实 —
-watch the 2027 site from its first announcement). Provisional planning rules that
-survive cycle drift:
+For teams reading this after UIST 2026, the next Papers deadline is about four and a
+half months out: the UIST 2027 home page (checked 2026-11-24) lists abstract March 31,
+full paper April 7 and supplementary materials April 9, with the conference in Vienna,
+October 26-29, 2027. The full CFP is not yet out. Planning rules that survive cycle
+drift:
 
-- Assume the abstract/paper pair lands in **late March ± a few weeks** and the
-  conference in the fall; anchor the feature-freeze ten weeks before the assumed
-  deadline and adjust when the real dates post.
+- Anchor the feature-freeze ten weeks before **April 7, 2027** (late January) and the
+  abstract a week earlier; the 2027 deadlines sit a week later than 2026's, but do not
+  assume the rest of the 2026 calendar shifts with them.
 - Anything involving **human subjects** needs ethics approval filed by roughly
   December; anything involving **custom hardware** needs its final revision ordered
   by January (fab and shipping queues do not respect AoE).

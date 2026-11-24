@@ -46,7 +46,7 @@ execution and reporting norms; design decisions live in `joc-research-design`.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Communication spans experiments, surveys, and content analysis; randomization inference for experiments, DiD/IV for observational media-effects claims.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Journal of Communication spans experiments, surveys, and content analysis; randomization inference for experiments, DiD/IV for observational media-effects claims.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

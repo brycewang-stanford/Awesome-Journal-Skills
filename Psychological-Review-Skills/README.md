@@ -34,7 +34,7 @@ Psychological Review imposes constraints that differ materially from empirical p
 | Figures                   | Model diagrams + simulation-of-model-behavior plots            | No experiment figures — every box a construct, every curve a simulation |
 | Contribution              | Differentiated "before → after" over a prior model            | A relabel or a better fit is a desk-reject signal            |
 | Computational models      | Share the author's **own model code**                          | Not a shared empirical-analysis kit; there is no dataset to deposit |
-| Review                    | Masked, multi-round (Editorial Manager)                        | Reviewers are usually the rival modelers themselves          |
+| Review                    | Open (unmasked) by default, masked on request; multi-round (Editorial Manager) | Reviewers are usually the rival modelers themselves          |
 
 Generic "scientific writing" or empirical-psychology skill packs do not address these constraints.
 
@@ -114,8 +114,8 @@ psychrev-rebuttal
 | `psychrev-conceptual-exhibits` | Model/architecture diagrams + simulation-of-model-behavior figures       |
 | `psychrev-writing-style`       | APA house style; mechanism-first, model-vocabulary prose (polish)        |
 | `psychrev-contribution-framing`| Differentiate the advance over a named prior model ("before → after")    |
-| `psychrev-review-process`      | Masked review, Theoretical Notes, and the theory-specific objections     |
-| `psychrev-submission`          | Editorial Manager preflight + checklist (format, masking, model code)    |
+| `psychrev-review-process`      | Open-by-default / optional masked review, Theoretical Notes, objections  |
+| `psychrev-submission`          | Editorial Manager preflight + checklist (format, optional masking, model code)    |
 | `psychrev-rebuttal`            | Revision + response document that shows the theory was genuinely strengthened |
 
 ### Resources

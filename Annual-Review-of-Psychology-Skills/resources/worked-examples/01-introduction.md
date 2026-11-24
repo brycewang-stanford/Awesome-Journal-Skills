@@ -44,4 +44,4 @@ real paper, author, or finding. It shows how an invited review's opening should 
 - [`../../skills/arpsych-topic-selection/SKILL.md`](../../skills/arpsych-topic-selection/SKILL.md)
 - [`../../skills/arpsych-organizing-framework/SKILL.md`](../../skills/arpsych-organizing-framework/SKILL.md)
 - [`../../skills/arpsych-writing-style/SKILL.md`](../../skills/arpsych-writing-style/SKILL.md)
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)

@@ -1,6 +1,6 @@
 ---
 name: icalp-writing-style
-description: Use when shaping the exposition of an ICALP (EATCS) theory paper — stating the model before the theorem, putting a legible theorem statement and its improvement over prior bounds on the first page, structuring the 15-page body around the argument while full proofs live in the appendix/full version, and meeting the correctness-and-clarity bar of Track A and Track B referees.
+description: Use when shaping the exposition of an ICALP (EATCS) theory paper — stating the model before the theorem, putting a legible theorem statement and its improvement over prior bounds on the first page, making the first ten pages after the title page carry the argument while full proofs follow in the full-version submission (no page limit since ICALP 2026), and meeting the correctness-and-clarity bar of Track A and Track B referees.
 ---
 
 # ICALP Writing Style
@@ -8,8 +8,9 @@ description: Use when shaping the exposition of an ICALP (EATCS) theory paper �
 Build the ICALP skeleton: **model → theorem → improvement → technique → complete proof**. ICALP
 referees are subject experts who will *check* the mathematics, so the writing has two jobs at once —
 make the contribution **legible on the first page**, and make the proofs **verifiable** in the body,
-appendix, and full version. The 15-page body is a hard budget; exposition, not omission, is how you
-fit.
+appendix, and full version. There is no page limit, but only the abstract, references and the first
+ten pages after the title page are guaranteed a read — that ten-page window is the real budget, and
+exposition, not omission, is how you fit.
 
 ## The first-page arc
 
@@ -34,15 +35,16 @@ fit.
   fragment of logic, the class of automata, the calculus — and the **decidability/complexity/
   characterization** you establish. Definitional precision is itself part of the contribution.
 
-## The 15-page discipline
+## The ten-page discipline
 
-- The body **sketches proofs and proves the key lemmas**; routine or long proofs go to the labelled
-  appendix / full version. But the body must contain **enough that a referee can follow the argument**
+- The first ten pages **sketch proofs and prove the key lemmas**; routine or long proofs follow
+  later in the same submission (the full version). But the body must contain **enough that a referee can follow the argument**
   and locate every deferred step (`icalp-supplementary`).
 - Recover space by **compression, not omission**: fold repetitive case analysis, state a general lemma
-  once, cite standard tools rather than re-deriving them. Do not shrink margins or fonts — the LIPIcs
-  style is fixed.
-- A body padded to 15 pages with all proofs banished to an unread appendix is a **scored risk**:
+  once, cite standard tools rather than re-deriving them. Do not shrink margins or fonts — the call
+  asks for readable fonts (e.g. 11-point), single column and ample spacing, and recommends the LIPIcs
+  class.
+- Ten pages of setup with every proof banished past page ten is a **scored risk**:
   reviewers judge on the body and distrust a paper whose substance they cannot see.
 
 ## Theorems, definitions, and the proof contract
@@ -89,7 +91,7 @@ referee's "is this tight?" question.
 ```text
 [Track] A / B — and the corresponding lead (bound vs model+question)
 [First-page arc] model -> theorem -> improvement -> technique -> proof-location: all present? gaps?
-[Page budget] body <=15pp excl. refs+appendix; compression targets
+[Ten-page window] merits, theorem, improvement and key idea within the first ten pages after the title page? compression targets
 [Proof contract] theorems lacking a complete proof somewhere: <list>
 [Tightness] matching lower bound present / justified absent
 [Rewrite queue] <ordered edits to reach the ICALP bar>

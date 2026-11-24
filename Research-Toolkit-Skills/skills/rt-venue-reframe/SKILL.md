@@ -25,9 +25,9 @@ source venue's pack and the target venue's pack.
 ## Inputs
 
 1. **From venue** and **to venue** — as `venue_id`s in
-   [`venue-index.tsv`](../../../shared-resources/journal-selection/venue-index.tsv).
+   [`venue-index.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/venue-index.tsv).
    If the author only names a rejection, take the next rung from
-   [`ladder.tsv`](../../../shared-resources/journal-selection/ladder.tsv) — filter to
+   [`ladder.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/ladder.tsv) — filter to
    `same_discipline = yes` and prefer high `mentions`, then sanity-check against
    `rt-journal-match`.
 2. **The manuscript** — at minimum the title, abstract, intro, and the main table.

@@ -150,6 +150,9 @@ PODC-Skills/
   submission **≤5 pages**, published **≤3 pages**.
 - **Review:** **lightweight double-blind** (no author names/affiliations/emails in the submission).
   Decisions are accept/reject; there is **no journal-style revision round**.
+- **Next edition (checked 2026-11-24):** PODC 2027, the 46th, runs **June 21-25, 2027** at
+  Reykjavik University, Iceland; General Chair Michal Dory, Program Chair Seth Gilbert. Its paper
+  call is **not yet published**, so the 2026 rules above remain the latest stated ones.
 - **Norms:** arXiv full version encouraged; selected papers invited to **JACM** and a special issue
   of **Distributed Computing**. Awards: **Best Paper**, **Best Student Paper**, **Best
   Presentation**; **Dijkstra Prize** and the **Doctoral Dissertation Award** are held jointly with
@@ -166,8 +169,8 @@ distinguishable:
 2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., the exact
    organizing-committee roster beyond the named Program Chair).
 3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., whether the 2026 cycle
-   runs an author-response/rebuttal phase, the exact best-paper/award mechanics for 2026, and any
-   generative-AI-use disclosure policy).
+   runs an author-response/rebuttal phase, and every PODC 2027 paper-call rule). The 2026 call's
+   AI-tool disclosure rule is now verified (disclose any use beyond copyediting or search).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it
 against the live official pages.
@@ -178,7 +181,9 @@ against the live official pages.
   including whether the year runs a rebuttal phase and the exact double-blind wording — so verify
   the current call before anything else each year.
 - PODC has no standing editor-in-chief; the rotating analogue is the per-edition Program Chair and
-  committee, appointed under ACM SIGACT/SIGOPS. There is no APC; the cost model is registration, and
+  committee, appointed under ACM SIGACT/SIGOPS. Since January 1, 2026 ACM proceedings are fully Open
+  Access: no APC if the corresponding author's institution is in ACM Open, otherwise $250 (ACM/SIG
+  members) or $350 (non-members) unless waived (PODC 2026 call). A paid registration is required and
   at least one author presents each accepted paper in person.
 - When adding exemplar papers, follow the verification recipe at the end of
   [`resources/exemplars/library.md`](resources/exemplars/library.md) — a famous distributed-computing

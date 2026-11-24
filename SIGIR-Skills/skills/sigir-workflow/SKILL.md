@@ -7,9 +7,10 @@ description: Use when planning a SIGIR project calendar — backward-planning fr
 
 SIGIR is an annual single-cycle venue with a distinctive rhythm: recent editions
 put the full-paper deadline in mid-January (2025: abstract Jan 16, paper Jan 23;
-2026 trackers reported Jan 15/22 — exact dates 待核实 on the current Key Dates page),
-notification in early spring, camera-ready in late April (Apr 29, 2026 verified for
-Resources/LRE), and the conference in July (2026: July 20-24, Melbourne). Secondary
+**SIGIR 2027: abstract January 14, paper January 21, 2027 AoE**, verified on
+sigir2027.org 2026-11-24), notification in early spring (April 5, 2027), camera-ready
+and author registration in late April (April 30, 2027), and the conference in July
+(SIGIR 2027: July 19-24, San Jose, California; 2026: July 20-24, Melbourne). Secondary
 tracks stagger a few weeks behind the full-paper dates. Plan backward from the dates
 you verify, and treat every date in this file as a pattern anchor, not a promise.
 
@@ -56,8 +57,8 @@ planning problem, not just an ethics one:
 - Assign each *contribution* to exactly one track before the abstract deadline.
 - Stagger risk: if the full paper is rejected, which parts return as a short paper
   or resource paper next cycle? Write the modular repo accordingly.
-- The Resources track's own calendar (2026: abstract Feb 5, notify Apr 2, camera
-  Apr 29) runs weeks behind full papers — a rejected-dataset-chapter salvage plan
+- The Resource track's own calendar (SIGIR 2027: abstract Feb 4, paper Feb 11,
+  notify Apr 5, camera Apr 30; Perspectives Jan 28 / Feb 4) runs weeks behind full papers — a rejected-dataset-chapter salvage plan
   is sometimes executable *in the same year*. Verify each cycle.
 
 ## The fallback calendar
@@ -89,7 +90,7 @@ Assign by name, once, in the scoping phase:
 | Run files + significance script | One person regenerates every table end-to-end |
 | Baseline tuning log | Proves symmetry claims during review |
 | Anonymization sweep | Names, logs, leaderboards, metadata, repo history |
-| OpenReview metadata + PC nominee | Abstract-deadline gate; nominee agreed in advance |
+| OpenReview profiles (all authors, DBLP linked) + reviewer nominee | Abstract-deadline gate: author list frozen, profiles complete, nominee agreed in advance |
 | Camera-ready/TAPS | Starts the week of notification, not the week of the deadline |
 
 Shared ownership of the anonymization sweep is the classic failure: everyone

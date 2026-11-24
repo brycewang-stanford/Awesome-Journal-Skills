@@ -26,11 +26,11 @@ QJE is read across all of economics, and its papers are characteristically **lon
 6. **Contribution & broad lesson** — placement in the literature + "beyond this setting."
 7. **Roadmap** — brief; do not over-signpost.
 
-## Abstract: state the finding (keep it ~150 words)
+## Abstract: state the finding (hard cap 250 words; aim shorter)
 
 - Open with the question and the design in one breath, then **state the result with a number**.
 - Close with the broad lesson. No throat-clearing, no "this paper studies the important issue of."
-- Keep it to roughly the QJE abstract length (~150 words); a general-interest reader should know what you found from the abstract alone.
+- QJE's official cap is **no more than 250 words**, with no reference citations and the JEL codes at the end of the abstract; a tight ~150-word abstract usually reads best. A general-interest reader should know what you found from the abstract alone.
 
 ## Sentence-level craft
 
@@ -42,7 +42,7 @@ QJE is read across all of economics, and its papers are characteristically **lon
 
 ## Checklist
 
-- [ ] Abstract states the actual finding with a number, not just the topic, and is ~150 words
+- [ ] Abstract states the actual finding with a number, not just the topic, is ≤250 words (ideally ~150), and cites no references
 - [ ] The question is on page one in plain language
 - [ ] The headline result appears early in the introduction, with units
 - [ ] The broad lesson ("beyond this setting") is explicit
@@ -52,7 +52,7 @@ QJE is read across all of economics, and its papers are characteristically **lon
 
 ## Anti-patterns
 
-- An abstract that describes the topic but never states the result (or runs well past ~150 words)
+- An abstract that describes the topic but never states the result (or runs past the 250-word cap)
 - Leading the intro with method ("We use a Sun–Abraham estimator ...") instead of the question
 - "This paper is the first to study the important question of ..." throat-clearing
 - Using QJE's no-page-limit freedom to ramble instead of relocating detail to the appendix
@@ -62,7 +62,7 @@ QJE is read across all of economics, and its papers are characteristically **lon
 ## Output format
 
 ```
-【Abstract verdict】states finding+number, ~150 words? [Y/N] — fix: ...
+【Abstract verdict】states finding+number, ≤250 words (ideally ~150)? [Y/N] — fix: ...
 【Intro arc】question / hardness / variation / result / interpretation / contribution present? [Y/N each]
 【Headline number in intro】present + units? [Y/N]
 【Broad lesson stated】[Y/N]

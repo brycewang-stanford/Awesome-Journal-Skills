@@ -18,7 +18,7 @@ badge.
 - Deciding what to preregister or whether to pursue a Registered Report
 - Writing the data-availability / preregistration statements
 
-## What JPSP requires (verify on the live page — 待核实 on exact wording)
+## What JPSP requires (re-verified 2026-11-24 on the APA submission-guidelines page)
 
 1. **TOP Level 2 (Requirement).** For data, code, and materials: **state whether** they are posted to
    a **trusted repository**, and post them (with a persistent identifier) unless a justified exemption
@@ -26,8 +26,10 @@ badge.
 2. **JARS reporting.** Follow the matching APA Journal Article Reporting Standards table (JARS-Quant,
    JARS-Qual, or JARS-Mixed) for your design; report participant flow, exclusions, all manipulations
    and measures, and effect sizes with intervals.
-3. **Preregistration disclosure.** **State whether or not** any analyses were preregistered; mark
+3. **Preregistration disclosure.** **State whether or not** any work was preregistered; mark
    registered vs. exploratory analyses; share the (masked) preregistration link.
+   Put the TOP disclosures in a Method subsection titled **"Transparency and Openness"** (links also
+   go in the author note), and disclose any prior uses of the data in the cover letter.
 4. **Registered Reports.** JPSP publishes Registered Reports — if your design is prospective, consider
    the Stage-1 protocol route (reviewed before data collection); see `jpsp-review-process`.
 5. **Data availability.** APA expects data to remain available **throughout review** and for **at

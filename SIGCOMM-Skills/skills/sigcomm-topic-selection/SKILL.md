@@ -21,7 +21,11 @@ routing — emphasis drifts between editions.
   with no generalizable mechanism reads as under-contribution here even if the numbers are
   good.
 - Both tracks live under this bar: **research** wants design novelty and depth; **experience**
-  wants lessons only real operation at scale can teach.
+  wants lessons only real deployment or operation can teach — judged in SIGCOMM 2027 on the
+  depth of those lessons rather than the size or duration of the deployment.
+- SIGCOMM 2027 adds a **general-accessibility** criterion: if the motivation and the gist of the
+  approach cannot be made clear to most networking researchers, the PC will reject — a reason
+  to route a narrowly specialist result to a specialist venue.
 
 ## Where else the work might belong
 

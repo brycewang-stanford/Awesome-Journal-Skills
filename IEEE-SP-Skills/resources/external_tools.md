@@ -1,14 +1,14 @@
 # External Tools - IEEE S&P
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (re-verified 2026-11-24)
 
 Use these after reopening the current S&P cycle pages. S&P re-issues its CFP
 every year and runs multiple cycles per symposium; dates, caps, HotCRP URLs,
 and policy wording change every cycle.
 
 **Access-method note:** direct fetches of `sp<year>.ieee-security.org` and the
-per-cycle sites returned HTTP 403 in the verification environment. Read the
-official pages through search-engine renderings of the exact URLs and
+per-cycle sites returned HTTP 403 on 2026-07-08 but worked on 2026-11-24. If
+blocked, read the official pages through search-engine renderings of the exact URLs and
 cross-check against dblp (`conf/sp`), IEEE Xplore, and the IEEE TC on Security
 and Privacy index. Open the primary URL yourself before acting on any
 deadline, cap, or policy.

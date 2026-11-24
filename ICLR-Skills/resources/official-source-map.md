@@ -1,6 +1,19 @@
 # Official Source Map - ICLR
 
-Access date: 2026-08-26 (re-anchored from the ICLR 2026 cycle to ICLR 2027)
+Access date: 2026-08-26 (re-anchored from the ICLR 2026 cycle to ICLR 2027). Call for papers,
+Author Guidelines (page limits, required AI use statement, quotas, reciprocal reviewing), AI
+Policy for Authors, Dates page, home page, Board page and Future Meetings **re-verified
+2026-11-24** against the live iclr.cc pages (direct fetch; the first attempt returned HTTP 500,
+a retry minutes later served every page).
+
+**Edition status, checked 2026-11-24.** ICLR 2027 is still the live edition and has not met:
+its submission window closed on September 25, 2026, reviews were released on November 5, 2026,
+the author-reviewer discussion ran November 5-18, 2026, and final decisions are due December 16,
+2026; the conference runs April 26-30, 2027 (home page: "California"; the Dates page still says
+"location and dates to be announced" above the April 26-28 / 29-30 split). Registration opens
+December 23, 2026. No following edition is published: `iclr.cc/Conferences/2028` returns 404 and
+the Future Meetings page lists only the 2027 meeting ("West Coast North America"). The rules
+below are therefore ICLR 2027's, and they remain the baseline until the next call appears.
 
 This map records the official sources used for ICLR-specific facts in this pack. ICLR policies are
 cycle-specific; reopen the current CFP, Author Guidelines, Reviewer Guidelines, AI policy, Code of
@@ -28,8 +41,11 @@ recorded in full below.
 | 9 | https://blog.iclr.cc/2025/08/26/policies-on-large-language-model-usage-at-iclr-2026/ | ICLR 2026 LLM-use principles: disclose LLM use, authors and reviewers remain responsible, LLM falsehoods or plagiarism can be Code-of-Ethics violations, LLMs cannot substitute for accountable human authorship, and hidden prompt injection is treated as attempted collusion. **ICLR 2026 source, retained deliberately** — the prompt-injection ruling has no ICLR 2027 restatement, and source 4 is the controlling document for everything it does cover. | 2026-08-26 |
 | 10 | https://blog.iclr.cc/2025/11/19/iclr-2026-response-to-llm-generated-papers-and-reviews/ | Enforcement precedent for undisclosed extensive LLM use, hallucinated content, dual-submission variants, low-quality LLM-generated reviews, and confidential author escalation to AC/SAC over a poor review. **ICLR 2026 source**: precedent for how the policy has been enforced, not a standing ICLR 2027 rule. | 2026-08-26 |
 | 11 | https://blog.iclr.cc/2025/12/03/iclr-2026-response-to-security-incident/ | The 2026 security-incident response, including review/discussion disruption, AC reassignment, review reversion, and anti-collusion action. Context for interpreting ICLR 2026 history, not a standing author rule. | 2026-08-26 |
+| 12 | https://iclr.cc/Conferences/2027 | ICLR 2027 home page: the Fifteenth conference, "California", April 26-30, 2027, five-day event with workshops on days four and five; registration starts December 23, 2026; CFP posted July 28, 2026; important dates repeated (abstract September 18, paper September 25, reviews November 5, final decisions December 16, 2026). | 2026-11-24 |
+| 13 | https://iclr.cc/Conferences/2027/Board | ICLR 2027 Board: President Yann LeCun, Secretary Katja Hofmann, Treasurer Been Kim, members Yan Liu, Yisong Yue, Colin Raffel, Bharath Hariharan, Alice Oh, Carl Vondrick. This is the standing board, not the per-edition program committee; the site menu for 2027 lists no Committees/Organizers page. | 2026-11-24 |
+| 14 | https://iclr.cc/Conferences/FutureMeetings | Lists only `ICLR 2027: West Coast North America`; no 2028 meeting announced. | 2026-11-24 |
 
-## Verified ICLR 2027 facts used in skills
+## Verified ICLR 2027 facts used in skills (re-verified 2026-11-24)
 
 - Submissions use OpenReview (`ICLR.cc/2027/Conference`) with double-blind review and public review
   and discussion. Any author identity revealed in the main text **or the supplementary material** is
@@ -93,7 +109,9 @@ recorded in full below.
   CS/AI conference in this collection, it has NO standing editor-in-chief; the rotating analogue is
   the per-edition General Chair, Senior Program Chair, and Program Chairs.
 - **No ICLR 2027 committee roster is recorded here.** 待核实 — `iclr.cc/Conferences/2027/Committees`
-  returns 404 at this access date, so no official page names them. The ICLR 2026 committee was
+  returned 404 on 2026-08-26 and again on 2026-11-24, and the 2027 site menu offers only a Board
+  page (source 13, the standing ICLR board, not the program committee), so no official page names
+  the 2027 General or Program Chairs. The ICLR 2026 committee was
   General Chair Carl Vondrick (Columbia), Senior Program Chair Bharath Hariharan (Cornell), and
   Program Chairs Colin Raffel, Lerrel Pinto, Diyi Yang and Aleksandra Faust; those appointments rotate
   every cycle and must not be carried forward. Program chairs are reachable at program-chairs@iclr.cc.
@@ -101,9 +119,45 @@ recorded in full below.
   at least one author must register to present. Accepted papers are published open-access on
   OpenReview.
 
+## 待核实 / UNVERIFIED (as of 2026-11-24)
+
+- **ICLR 2027 General/Program Chairs**: no Committees page (see Organizers above).
+- **ICLR 2027 venue city**: the home page says "California"; the Dates page still says location to
+  be announced. No convention centre named.
+- **Camera-ready deadline and registration fees** for ICLR 2027: not yet on the Dates page
+  (registration opens December 23, 2026).
+- **Abstract word limit**: none stated in the Author Guidelines.
+- **The next edition**: no 2028 page or Future Meetings entry.
+
 ## Still cycle-volatile
 
 - Next-cycle abstract/full-paper deadlines, review-release date, discussion window, final-decision
   date, exact OpenReview form, quota thresholds, the reciprocal-reviewing qualifying-venue list,
   page limits, template URL, AI-disclosure form and task lists, discussion revision permissions,
   camera-ready instructions, poster/video logistics, and registration rules.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and
+python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "ICLR 2027",
+  "verified": "2026-11-24",
+  "rules": {
+    "main_text_pages_max": {"value": 9, "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines", "note": "ICLR 2027 main text at submission, strictly enforced (desk rejection); rises to 10 pages for the discussion phase and camera-ready; references, appendices, the AI use statement and optional ethics/reproducibility statements are outside the limit"},
+    "page_limit_includes_references": {"value": false, "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines"},
+    "review_mode": {"value": "double-blind", "source": "https://iclr.cc/Conferences/2027/CallForPapers", "note": "reviews and discussion are public on OpenReview; all submissions de-anonymized after decisions"},
+    "anonymized_supplement_required": {"value": true, "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines"},
+    "required_statements": {"value": ["ai_use_disclosure"], "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines", "note": "mandatory AI use statement in the paper (not counted), also solicited on the submission form; ethics statement (at most 1 page) and reproducibility statement are recommended, not required"},
+    "template": {"value": "ICLR 2027 LaTeX style files (iclr-2027-style-files.zip)", "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines"},
+    "portal": {"value": "OpenReview (ICLR.cc/2027/Conference)", "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines"},
+    "supplement_policy": {"value": "appendices after the references in the same PDF (reviewers need not read them); code as anonymized supplementary ZIP or anonymous repository", "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines"},
+    "preprint_policy": {"value": "arXiv preprints allowed, including during review; cite own arXiv papers in the third person", "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines"},
+    "llm_policy": {"value": "disclose LLM use in a mandatory paper section and on the submission form; listed research tasks require disclosure, others recommended; LLM-produced falsehood or plagiarism is a Code of Ethics violation by the authors and may lead to desk rejection", "source": "https://iclr.cc/Conferences/2027/AIPolicyForAuthors"},
+    "abstract_words_max": {"value": null, "note": "not stated on the official pages as of 2026-11-24"}
+  }
+}
+```

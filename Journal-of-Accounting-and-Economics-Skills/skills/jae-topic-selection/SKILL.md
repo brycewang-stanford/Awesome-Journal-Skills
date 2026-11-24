@@ -37,7 +37,7 @@ The rewrite pattern generalizes: replace "does X affect Y" with "which economic 
 
 ## The desk-screen stress test
 
-Submission is fee-bearing (USD 650 for a new manuscript) and the editor's suitability screen can end the paper without review, so pressure-test the topic before spending the fee:
+Submission is fee-bearing (USD 650 last confirmed; the 2027 JAE Conference call lists USD 750 — check the live Guide) and the editor's suitability screen can end the paper without review, so pressure-test the topic before spending the fee:
 
 1. **One-sentence economics test** — state the question as "friction F gives actor A an incentive to make accounting choice C, with consequence Q." If the sentence needs no accounting term, it is a finance paper; if it needs no economics term, it is not a JAE paper.
 2. **Watts-Zimmerman generator** — run the idea through the classic determinants (bonus incentives, debt-covenant tightness, political costs) and their modern extensions (proprietary costs, career concerns, monitoring demand). If none generates the question, the economics is decorative.

@@ -74,4 +74,4 @@
 
 > 投稿前请将字数、摘要 / 关键词、脚注与参考文献体例、匿名处理、数据与代码附件等格式要求，
 > 对照本包 [`official-source-map.md`](../official-source-map.md) 回到官网投稿系统复核；
-> 横切方法规范见 [shared-resources](../../../shared-resources/empirical-methods/reporting-standards.md)。
+> 横切方法规范见 [shared-resources](../shared/empirical-methods/reporting-standards.md)。

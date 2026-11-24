@@ -1,24 +1,56 @@
 ---
 name: sigcomm-author-response
-description: Use when drafting an ACM SIGCOMM rebuttal or executing a shepherd-run one-shot revision — triaging reviewer issues, writing a decision-focused anonymous rebuttal for the discussion phase, and building the revision packet (point-by-point response, change-marked manuscript, and list of changes) against the required-changes contract.
+description: Use when deciding how an ACM SIGCOMM author can respond to reviewers — in SIGCOMM 2027 there is no rebuttal and no one-shot revision, so the replies are the submission itself, the CCR-acceptance choice, and the shepherd's camera-ready revision; also use the retained SIGCOMM 2026-style rebuttal and one-shot-revision playbook if a later edition restores them.
 ---
 
 # SIGCOMM Author Response
 
-SIGCOMM has two distinct author-facing replies, and conflating them is a strategic error.
-The **rebuttal** is a short argument during the discussion phase; the **one-shot revision** is
-a month-long, shepherd-managed contract. Reopen the current CFP to confirm the mechanics
-before drafting.
+**SIGCOMM 2027 has no rebuttals and no one-shot revisions** (CFP, re-verified 2026-11-24).
+Reviewers discuss each paper "collaboratively" from the start and return **one relatively
+short consensus review** after the decision. The author's voice therefore lives in three
+places, and this skill covers each; the rebuttal and one-shot sections further down are the
+SIGCOMM 2026 mechanics, kept for editions that restore them. Reopen the current CFP before
+drafting anything.
 
 ## First, know which reply you are writing
 
 | Signal in the letter | You are in | The move |
 |---|---|---|
-| Reviews plus an invitation to respond, no verdict | Rebuttal / discussion phase | Answer the decision-critical objection concisely |
-| A merits summary and a list of required changes | One-shot revision | Treat the list as a binding contract; resubmit with a packet |
-| An early notification of rejection | Early reject | No reply reopens it; redirect the work |
+| Nothing yet — paper still being written | Pre-submission (2027) | Pre-empt the objections in the paper: there is no later chance to answer them |
+| "Accepted into the SIGCOMM conference" plus a shepherd | Accept (2027) | Map the consensus review to edits and agree them with the shepherd |
+| "Accepted into CCR" | CCR offer (2027) | Decide: take the CCR research article, or decline and resubmit elsewhere |
+| Rejected from both | Reject (2027) | No reply reopens it; use the consensus review to redirect the work |
+| Reviews plus an invitation to respond, no verdict | Rebuttal (2026 model) | Answer the decision-critical objection concisely |
+| A merits summary and a list of required changes | One-shot revision (2026 model) | Treat the list as a binding contract; resubmit with a packet |
 
-## Writing the rebuttal
+## SIGCOMM 2027: answer the reviewers before they ask
+
+With no rebuttal, the paper must carry its own answers:
+
+- Put the decision-critical evidence (realistic evaluation, the strongest baseline, the tail
+  numbers) in the **12-page body**; reviewers need not read appendices and body claims cannot
+  depend on appendix experiments.
+- Write for the **general-accessibility** test: a networking generalist must grasp why the
+  problem matters and the gist of the approach, or the PC will reject.
+- Anticipate the obvious "does it generalize?" and "why not X?" questions with a sentence and a
+  pointer each — a consensus review will not ask twice.
+
+## SIGCOMM 2027: the CCR offer
+
+A paper rejected from the conference may instead be **accepted into CCR** as a regular research
+article. Authors may decline and resubmit elsewhere. Decide on the merits of the consensus
+review: if it names fixable gaps that another venue would weigh differently, declining can be
+right; if the work is complete and the gap is fit or breadth, a CCR article is a real
+publication. Record the decision and its reason with the coauthors before replying.
+
+## SIGCOMM 2027: shepherd-led revision of accepted papers
+
+Every conference paper gets a **shepherd**. Map each point in the consensus review to a
+concrete edit, agree the map with the shepherd early through HotCRP, and expect the shepherd to
+judge whether each appendix is necessary. Accepted papers also owe a **video** and an
+in-person presenter at a small-scale discussion session (details 待核实).
+
+## Writing the rebuttal (SIGCOMM 2026 model — not offered in 2027)
 
 - Answer the concern that decides the paper first: evaluation realism, a missing baseline, a
   correctness question, or a generalization doubt. Style complaints wait.
@@ -30,7 +62,7 @@ before drafting.
 - One precise, decision-focused reply per reviewer beats an exhaustive point-by-point that
   buries the objection that actually matters to the discussion.
 
-## Executing the one-shot revision
+## Executing the one-shot revision (SIGCOMM 2026 model — not offered in 2027)
 
 The revised paper can only be accepted or rejected, so the required-changes list is the
 grading rubric. Build the packet the CFP expects:
@@ -67,10 +99,11 @@ state-of-the-art baseline X at matched throughput (Table 2)." No unlisted claims
 ## Output format
 
 ```text
-[Reply type] rebuttal / one-shot revision / n-a (early reject)
+[Reply type] pre-submission pre-emption / CCR decision / shepherd revision / n-a (reject) — or, where an edition restores them, rebuttal / one-shot revision
 [Priority issue] <the objection that decides the outcome>
 [Evidence anchor] <table / figure / appendix / new run>
 [Revision packet] response / marked diff / change list — status
 [Shepherd touchpoint] <what to confirm before building>
+[CCR decision] accept / decline (+ reason) / n-a
 [Forbidden content removed] <identity leaks, unlisted new claims>
 ```

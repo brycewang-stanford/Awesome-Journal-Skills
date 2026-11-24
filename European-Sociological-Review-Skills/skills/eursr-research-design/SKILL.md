@@ -94,7 +94,7 @@ The country set is design-driven, the measures are comparable, and the design sp
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ESR is comparative quantitative sociology; cross-country panels with confounded institutions — foreground fixed effects and clustering.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). ESR is comparative quantitative sociology; cross-country panels with confounded institutions — foreground fixed effects and clustering.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

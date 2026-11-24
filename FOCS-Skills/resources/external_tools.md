@@ -51,7 +51,8 @@ see the access-method note in `official-source-map.md`.)
 - Do not project FOCS 2026 dates onto FOCS 2027; the next cycle's CFP is the
   only source for its deadline, venue, and policies.
 - Do not assume notification or camera-ready dates from history; the 2026
-  ones were unpublished at the access date (待核实).
+  ones (July 3 / October 1, 2026) were only published on the FOCS 2026 home
+  page, not in the original CFP, and the 2027 ones are not yet published.
 - Do not carry STOC's format numbers (twelve-page window, ToC rule) into
   FOCS advice: the FOCS 2026 guaranteed set is abstract + references + ten
   pages, and the two venues' CFPs differ in exactly such details.

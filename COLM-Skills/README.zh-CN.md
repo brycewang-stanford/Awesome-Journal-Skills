@@ -6,27 +6,27 @@ skills。COLM 是一个年轻的会议（2023 年 10 月公布，2024 年首届�
 周期——判断项目是否是 COLM 形状、构建抗污染且版本锁定的实验证据、打赢 OpenReview
 rebuttal、把 7 月的录用变成 8 月的 camera-ready 和 10 月的现场报告。
 
-官方依据核验日期：**2026-07-08**。已核验 COLM 2026 官网首页、key dates 页、Call for
-Papers、submission instructions、author guide、FAQ、COLM 2026 OpenReview group、
-2024/2025 两届 accepted papers 列表，以及 Outstanding Paper Awards 的独立机构报道。
-核验环境无法直接抓取 `colmweb.org`（网关返回 403），因此官方页面内容通过搜索引擎对
-准确 URL 的渲染读取，并与 OpenReview 和机构页面交叉核对；完整来源链与所有仍标注
+官方依据首次核验于 **2026-07-08**，并于 **2026-11-23 直接抓取复核**：COLM 官网已迁至
+**`colm.cc`**（`colmweb.org` 现仅显示迁址提示）。已核验 COLM 2026 的 Call for Papers、
+Dates、submission instructions、author guide、FAQ、Organizers 页面与
+`proceedings.colm.cc`，以及 COLM 2026 OpenReview group、2024/2025 两届 accepted
+papers 列表和 Outstanding Paper Awards 的独立机构报道。完整来源链与所有仍标注
 **待核实** 的条目见 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
-## 2026 周期当前所处阶段（截至 2026-07-08）
+## 当前周期状态（截至 2026-11-23）
 
-本包构建于 **COLM 2026 放榜日当天**。3 月的两个截止（摘要 3 月 26 日、全文 3 月 31
-日）与 rebuttal 窗口（5 月 22 日 - 6 月 8 日）均已结束；**录用通知 7 月 8 日发出**；
-camera-ready 截止 **8 月 7 日**；会议 **10 月 6-9 日在旧金山 Hilton Union Square**
-举行（主会 10 月 6-8 日，workshop 日 10 月 9 日）。据此：
+**COLM 2026 已举办**（10 月 6-9 日，旧金山 Hilton Union Square；主会 10 月 6-8 日，
+workshop 日 10 月 9 日），预论文集已发布于 `proceedings.colm.cc`。它仍是 COLM 已公布的
+最新一届：官方页面上**尚无下一届（2027 年）的征稿、日期或地点**。据此：
 
-- **今天收到录用？** 直接进入
-  [`colm-camera-ready`](skills/colm-camera-ready/SKILL.md)——只有一个月，artifact
-  公开发布应与终稿同批完成。
-- **今天被拒？** 走 [`colm-review-process`](skills/colm-review-process/SKILL.md)
-  的被拒分支：ICLR / NeurIPS / COLM 2027 的转投日历。
-- **规划新工作？** 你面向的是 **COLM 2027**——日期未公布（待核实；合理工作假设是
-  3 月下旬），规划类 skills 以已核验的 2026 日历为模板教学周期形状。
+- **规划新工作？** 你面向的是下一届 COLM——日期未公布（待核实；2026 年的截止在 3 月
+  下旬，只是工作假设，不是已公布日期），规划类 skills 以已核验的 2026 日历为模板教学
+  周期形状。
+- **2026 年被拒？** 走 [`colm-review-process`](skills/colm-review-process/SKILL.md)
+  的被拒分支：ICLR / NeurIPS / 下一届 COLM 的转投日历。
+- **还在完善 2026 论文的公开版本？**
+  [`colm-camera-ready`](skills/colm-camera-ready/SKILL.md) 仍覆盖去匿名、终稿额外 1 页
+  与 artifact 发布。
 
 ## COLM 与相邻会议的差别
 
@@ -68,7 +68,7 @@ camera-ready 截止 **8 月 7 日**；会议 **10 月 6-9 日在旧金山 Hilton
 
 | 路径 | 内容 |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | 12 条带日期的官方来源、访问方式说明、已核验 2026 事实、仅有二手报道的条目与明确的待核实清单。 |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | 21 条带日期的官方来源、届次状态、访问方式说明、已核验 2026 事实、仅有二手报道的条目与明确的待核实清单。 |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | COLM 2024-2025 全部 8 篇 Outstanding Paper 的定位笔记、自检问题与"防止张冠李戴"守则。 |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | 一个虚构的"刷榜式"首页如何重建为 COLM 形状：现象先行、污染上首页、模型锁定、结论限定。 |
 | [`resources/external_tools.md`](resources/external_tools.md) | 官方在线入口与上传前的五道作者侧核验。 |
@@ -116,12 +116,15 @@ claude plugin install colm-skills
 - 时间线：摘要 **3 月 26 日** · 全文 **3 月 31 日** · 审稿意见 **5 月 22 日** ·
   rebuttal **5 月 22 日 - 6 月 8 日** · 放榜 **7 月 8 日** · camera-ready
   **8 月 7 日**。
-- 格式：正文**严格 9 页**，引用页数不限；可选致谢 ≤ 1 页不计入页数（仅限终稿——
-  投稿版双盲，禁止致谢与暴露身份的链接）。
+- 格式：正文**严格 9 页**，引用与附录页数不限；可选的 ethics statement、
+  reproducibility statement 与致谢各 ≤ 1 页，均不计入页数（致谢仅限终稿——投稿版双盲，
+  禁止致谢与暴露身份的链接）。终稿可**额外增加 1 页**用于回应审稿意见。
 - 平台：OpenReview（`colmweb.org/COLM/2026/Conference`），2026 年 2 月开放；论文在
   OpenReview 公开出版。
 - 政策：全体作者确认 Code of Ethics；按 2026 政策披露 LLM 使用；互惠审稿含
-  per-submission 与 per-reviewer 两层要求，4 篇及以上投稿自动入池。
+  per-submission 与 per-reviewer 两层要求，4 篇及以上投稿自动入池；每位作者最多
+  25 篇投稿。
+- 到场：每篇录用论文至少一位作者注册主会；COLM 仅限线下，不支持远程报告。
 - 历届：2024 费城（UPenn）· 2025 蒙特利尔 · 2026 旧金山；前两届各评出 4 篇
   Outstanding Paper。
 
@@ -131,16 +134,17 @@ claude plugin install colm-skills
 
 1. **已核验的 2026 事实**——有日期、可追溯到来源表编号（9 页上限、3/26-3/31-5/22-
    6/8-7/8-8/7 日期链、LLM 政策）。
-2. **仅有报道的事实**——只见于二手渲染并如实标注（2026 委员会名单、2025 会场建筑）。
-3. **待核实条目**——终稿是否加页、注册与到场要求、录用率、是否有 artifact track、
-   2027 全部日期——一律写成"待解决的问题"，绝不写成事实。
+2. **仅有报道的事实**——只见于二手渲染并如实标注（COLM 2024 首届截止日期；2026
+   camera-ready 日期——现行 Dates 页已不再显示）。
+3. **待核实条目**——注册费金额、rebuttal 期间能否改 PDF、录用率、是否有 artifact
+   track、2027 全部日期——一律写成"待解决的问题"，绝不写成事实。
 
 若发现任何 skill 把第 2、3 类当第 1 类陈述，视为 bug，对照官方页面修正。
 
 ## 维护说明
 
 - COLM 年轻到**以上一切都逐年可变**——三届之内两次跨国换城市、政策每届微调。给出
-  任何与截止相关的建议前，先重开 `colmweb.org` 与当届 OpenReview group。
+  任何与截止相关的建议前，先重开 `colm.cc` 与当届 OpenReview group。
 - 构建时 dblp 无法直接访问；补充文献指引时请核对 `dblp.org/db/conf/colm/`。
 - 新增范文请遵循 [`resources/exemplars/library.md`](resources/exemplars/library.md)
   末尾的核验流程——arXiv 页面上的 "Published at COLM" 横幅只是声明，不是证明。

@@ -26,7 +26,8 @@ robotics source — or an explicit reason why a lane is genuinely empty.
 
 ## Handling velocity: the field moves during your review
 
-Between the late-May CoRL deadline and September decisions, the arXiv state of
+Between the late-May CoRL deadline and the early-September decisions (September 4
+in 2026), the arXiv state of
 your subfield will change. Norms to apply:
 
 - Work that appeared publicly *after* your submission cannot be held against

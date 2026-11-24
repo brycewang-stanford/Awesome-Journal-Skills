@@ -71,7 +71,7 @@ illustration, not evidence of generality (the proof carries generality).
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Econometrica publishes econometric theory and applied micro; the chain below serves its applied/empirical papers (weak-IV-robust and modern-DiD reporting expected) — pure theory uses its own apparatus.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Econometrica publishes econometric theory and applied micro; the chain below serves its applied/empirical papers (weak-IV-robust and modern-DiD reporting expected) — pure theory uses its own apparatus.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

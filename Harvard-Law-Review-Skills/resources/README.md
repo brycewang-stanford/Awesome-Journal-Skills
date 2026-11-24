@@ -19,8 +19,8 @@ material in the shared hub is referenced below only as **background** for the ra
 Most HLR pieces are doctrinal and normative and need none of this. If a piece runs original empirical
 analysis (an empirical-legal-studies article), the shared hub offers venue-neutral background:
 
-- [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — objections an empirical design must preempt, by identification strategy.
-- [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) — modern inference + reporting table stakes for empirical work.
+- [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) — objections an empirical design must preempt, by identification strategy.
+- [reporting-standards](shared/empirical-methods/reporting-standards.md) — modern inference + reporting table stakes for empirical work.
 
 > This is background only. HLR is generalist and student-edited; its scholarship is overwhelmingly
 > doctrinal/normative, and the skills + `official-source-map.md` govern what *this* venue requires.

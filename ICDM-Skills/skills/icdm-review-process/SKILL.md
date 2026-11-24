@@ -1,13 +1,13 @@
 ---
 name: icdm-review-process
-description: Use when reasoning about the ICDM (IEEE International Conference on Data Mining) review machinery - the triple-blind mechanics, the Accept / Accept-as-Short / Reject outcome space, the mixed data-mining reviewer pool, PC Co-Chair decision-making, the traditional no-rebuttal posture, and how to read an ICDM decision packet.
+description: Use when reasoning about the ICDM (IEEE International Conference on Data Mining) review machinery - the triple-blind mechanics, the Accept (Regular or Short) / Reject outcome space, the mixed data-mining reviewer pool, PC Co-Chair decision-making, the traditional no-rebuttal posture, and how to read an ICDM decision packet.
 ---
 
 # ICDM Review Process
 
 Understand how ICDM decisions are actually made, so you can write for the process and read the
 outcome correctly. ICDM's Research Track runs a **triple-blind** review, has a distinctive
-**short-paper** outcome, and traditionally offers **no author rebuttal** — a very different shape
+**Regular/Short** designation, and offers **no author rebuttal** (none in the 2026 calls) — a very different shape
 from OpenReview venues with public discussion.
 
 ## Triple-blind mechanics
@@ -24,12 +24,13 @@ from OpenReview venues with public discussion.
 | Outcome | What it means | Your move |
 |---|---|---|
 | Accept (regular) | In as a full paper | Camera-ready at full length |
-| **Accept as Short** | Contribution valued, but scoped/evidenced for short length | Compress to the short camera-ready (see `icdm-camera-ready`) |
+| **Accept as Short** | Contribution valued, designated Short | 2026: same ten-page camera-ready; compress only if the current call shortens Short papers (see `icdm-camera-ready`) |
 | Reject | Not accepted this edition | Revise and route (SDM/CIKM/KDD next window) |
 
-The Accept-as-Short outcome is ICDM's signature: a full submission can be offered acceptance at
-short length rather than rejected outright. Plan for it (see `icdm-workflow`), because it arrives
-with the notification and a compressed camera-ready deadline.
+The Regular/Short designation is ICDM's signature: a full submission can be accepted with a Short
+designation rather than rejected outright. In 2026 it did not change the ten-page limit; plan for
+it anyway (see `icdm-workflow`), because it arrives with the notification and a tight camera-ready
+deadline (August 16 → September 9 in 2026).
 
 ## The reviewer pool
 

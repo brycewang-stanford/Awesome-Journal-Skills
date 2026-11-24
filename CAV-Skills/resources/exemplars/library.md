@@ -30,9 +30,10 @@ scope and limits explicit — the CAV bar (see
 [`../../skills/cav-experiments/SKILL.md`](../../skills/cav-experiments/SKILL.md)). For each, ask the
 self-check question before claiming your paper is "CAV-shaped."
 
-CAV's four submission categories map onto these shapes: a new **technique/algorithm** is a Regular
-Paper; a **usable tool** on standard benchmarks is a Short Tool Paper; a verification **applied to
-a real system** is a Short Application Paper or an Industrial Experience Report.
+CAV's submission categories map onto these shapes (CAV 2027 has three): a new
+**technique/algorithm** is a Regular Paper; a **usable tool** on standard benchmarks is a Tool
+Paper (a "Short Tool Paper" in CAV 2026 and earlier); a verification **applied to a real system**
+is an Application / Industrial Experience / Case Study Paper.
 
 ---
 

@@ -1,7 +1,7 @@
 # Physical Review Letters — Manuscript Skeleton
 
 > A Letter is SHORT and makes ONE central claim. Everything below is budgeted against
-> the deductible length limit (text + figures + equations + references). Verify the
+> the deductible length limit (text + figures + tables + displayed equations; references excluded). Verify the
 > current limit and length formula on the official APS / PRL author page. The canonical
 > source format is REVTeX; this Markdown skeleton mirrors that structure.
 
@@ -28,7 +28,8 @@
 
 ## Body
 
-> Target ~3750 words / ~4 journal pages INCLUDING figures and references (verify).
+> Target ≤3750 words for the core (abstract to Acknowledgments), counting figure/table/equation word equivalents;
+> abstract, references and acknowledgments are excluded; up to 2 pages of End Matter may follow the references.
 > No section headings are typically used in a Letter; the flow below is logical, not literal.
 
 ### Opening (the gate paragraph)
@@ -79,7 +80,7 @@
 
 ## References
 
-> APS reference style. Count against the length budget — keep to importance + trust essentials.
+> APS reference style. References do not count against the length budget, but keep to importance + trust essentials.
 [1] ...
 [2] ...
 

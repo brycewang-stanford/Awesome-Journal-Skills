@@ -54,7 +54,7 @@ standard-error and clustering choice produced the reported inference.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). TAR is archival accounting — DiD around regulation / standard changes, IV, and earnings-based designs; the corporate-causal chain fits directly.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). TAR is archival accounting — DiD around regulation / standard changes, IV, and earnings-based designs; the corporate-causal chain fits directly.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

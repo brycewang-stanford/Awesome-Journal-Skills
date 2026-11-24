@@ -7,9 +7,11 @@ description: Use when writing an ICALP (EATCS) Track B rebuttal in response to i
 
 Two very different situations live here, because the tracks differ:
 
-- **Track B** gives you a **rebuttal window** (ICALP 2026: 21-24 March) to respond to initial reviews.
-- **Track A** has **no general rebuttal**; authors are contacted **only** if the PC needs to resolve a
-  **correctness issue**. If that happens, answer narrowly and precisely.
+- **Track B** gives you a **rebuttal window** in each submission round (ICALP 2027 round 1: 5-9
+  November 2026; ICALP 2026: 21-24 March) to respond to initial reviews.
+- **Track A** had **no general rebuttal** in ICALP 2026; authors were contacted **only** if the PC
+  needed to resolve a **correctness issue** (the ICALP 2027 Track A call is not yet posted). If that
+  happens, answer narrowly and precisely.
 
 There is **no revision round** at ICALP (unlike a journal), so the response is your one and only chance
 to speak — and it can only move a paper by fixing **misreadings and correctness doubts**, never by

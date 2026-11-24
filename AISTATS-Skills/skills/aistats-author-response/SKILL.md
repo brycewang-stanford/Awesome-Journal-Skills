@@ -18,8 +18,14 @@ author-discussion policy before drafting because response mechanics are cycle-sp
   repository ownership.
 - Treat discussion as clarification, not revision. Do not depend on uploading a revised paper
   or new supplement unless current instructions explicitly allow it.
-- If current rules prohibit links, do not use URLs in the discussion. AISTATS 2026
-  author-reviewer discussion was text-only and links were not allowed.
+- If current rules prohibit links, do not use URLs in the discussion. AISTATS 2027 allows
+  one response per review of at most 5,000 characters, plus one 2,500-character answer to
+  the preliminary meta-review, and external links are not allowed (Rebuttal Guidelines,
+  checked 2026-11-23).
+- AISTATS 2027 also releases an AI factual-correctness review with the human reviews.
+  Reply to it like any review where it flags a real error; reviewers see it, with your
+  reply, once the discussion opens. Use the preliminary meta-review to decide which
+  concerns matter most.
 - Correct factual errors first, then address requests for missing comparisons, uncertainty
   estimates, proofs, or hyperparameters.
 

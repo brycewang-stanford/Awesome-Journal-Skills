@@ -109,3 +109,25 @@ description: Use when running the final pre-submission preflight for 《财经�
 - **决策账本**：返回“主张 / 证据 / 阻断点 / 下一处改稿”四列，避免只给笼统建议。
 - **改投比较**：对照《经济研究》用于更强理论/全国性贡献，《管理世界》用于管理实践与政策治理，《金融研究》用于金融专门议题；若相邻刊物拥有更强读者匹配，先建议改投而不是继续润色。
 - **核验底线**：给投稿就绪判断前，必须重开 `resources/official-source-map.md`，列出仍可能改变建议的一个未核实事实。
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue journal-of-finance-and-economics-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

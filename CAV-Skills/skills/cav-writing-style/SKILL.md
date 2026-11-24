@@ -1,6 +1,6 @@
 ---
 name: cav-writing-style
-description: Use when revising a CAV (Computer Aided Verification) paper for a precise verification contribution on the first page, an explicit soundness/completeness statement, theorem-and-proof discipline in the LNCS page budget, fair benchmark claims, honest scope and limits, and double-blind wording for the anonymized categories.
+description: Use when revising a CAV (Computer Aided Verification) paper for a precise verification contribution on the first page, an explicit soundness/completeness statement, theorem-and-proof discipline in the LNCS page budget, fair benchmark claims, honest scope and limits, and double-blind wording for Regular Papers (the only double-blind CAV 2027 category).
 ---
 
 # CAV Writing Style
@@ -28,9 +28,9 @@ paper that reads like a systems demo or a heuristic with a benchmark table but n
 - **State scope and limits as your own, not as a closing apology.** Say which logics, system sizes,
   or property classes the method covers and where it stops. Over-claimed generality is the fastest
   way to lose a verification reviewer's trust.
-- **Maintain double-blind wording** for Regular and Application papers: anonymize self-citations,
-  the tool/solver name, benchmark paths, acknowledgements, and repository links. (Tool and
-  Industrial papers are not anonymized.)
+- **Maintain double-blind wording** for Regular Papers: anonymize self-citations,
+  the tool/solver name, benchmark paths, acknowledgements, and repository links. (In CAV 2027, Tool
+  and Application/Industrial/Case Study papers are single-blind and not anonymized.)
 
 ## Verification-paper skeleton
 

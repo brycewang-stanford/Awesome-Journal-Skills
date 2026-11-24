@@ -1,9 +1,16 @@
 # JAE Official Source Map
 
 Canonical sources for every Journal of Accounting and Economics (JAE) claim made in this skill
-pack. Sources were refreshed on **2026-06-20**. Live-check the current ScienceDirect Guide for
-Authors, editorial-board page, open-access page, and Elsevier submission-fee page before upload,
-because fee amounts, mastheads, file labels, and policy wording can change.
+pack. Sources were refreshed on **2026-06-20**. Portal, conference call and fee signals
+**re-verified 2026-11-24**: the Editorial Manager sites and the 2027 JAE Conference call (EAA/ARC,
+read through the site's WordPress JSON endpoint) were fetched live, and the Elsevier submission-fees
+page was fetched live. Access note: every ScienceDirect page (Guide for Authors, editorial board,
+open-access page) returned an HTTP 403 captcha ("Are you a robot?") to curl, WebFetch and a reader
+proxy on 2026-11-24, and the newest Internet Archive capture of the Guide is from 2024-02-20, so the
+Guide's rules could not be re-read today; the Wharton JAE payment page now returns HTTP 404. Facts
+that depend on the live Guide are listed under UNVERIFIED below. Live-check the current ScienceDirect
+Guide for Authors, editorial-board page, open-access page, and Elsevier submission-fee page before
+upload, because fee amounts, mastheads, file labels, and policy wording can change.
 
 ## Official JAE / Elsevier sources
 
@@ -27,23 +34,37 @@ because fee amounts, mastheads, file labels, and policy wording can change.
 - **https://www.sciencedirect.com/journal/journal-of-accounting-and-economics/publish/open-access-options** —
   ScienceDirect open-access options page. Use before quoting open-access route, APC, subscription
   route, license, embargo, or author-rights details.
-- **https://www.editorialmanager.com/jae/** — Editorial Manager portal. Use for live submission and
-  status tracking.
+- **https://www.editorialmanager.com/jacec/** — Editorial Manager portal (fetched live 2026-11-24;
+  the login page is titled "Journal of Accounting and Economics"; the 2027 JAE Conference call links
+  submissions here). Use for live submission and status tracking. **Correction:** the
+  `editorialmanager.com/jae/` address this pack used before 2026-11-24 is the Editorial Manager site of
+  *The Journal of Adventist Education*, not JAE.
 
 ## Official partner / policy sources
 
-- **https://accounting.wharton.upenn.edu/jae-payment/** — Wharton Accounting JAE payment page.
-  Confirms that JAE submission fees are paid through Elsevier's Submission Start flow and that EU
-  authors add applicable VAT. The page may lag the ScienceDirect guide on fee amount, so use it for
-  payment routing rather than the current fee figure.
+- **https://accounting.wharton.upenn.edu/jae-payment/** — Wharton Accounting JAE payment page
+  (2026-06-20 reading: fees paid through Elsevier's Submission Start flow; EU authors add applicable
+  VAT). Returns **HTTP 404** on 2026-11-24; keep only as a historical pointer.
+- **https://eaa-online.org/arc/events/2027-jae-call-for-papers** (also listed as
+  https://eaa-online.org/arc/events/2027-journal-of-accounting-and-economics-jae-conference) — 2027 JAE
+  Conference call for papers (fetched live 2026-11-24). Confirms: submission deadline **February 26,
+  2027**; submission fee **$750**, credit card only; submissions via
+  https://www.editorialmanager.com/JACEC/; all conference submissions are formal JAE submissions, R&R
+  papers not selected continue in the regular process, and rejected conference papers may not be
+  resubmitted; accepted conference papers appear in a special conference issue; **$5,000** attendee-voted
+  Best Paper award; attendance by invitation only; sponsored by the **University of Rochester Simon
+  Business School**, Charles River Associates, and Cambridge Business Publishers; conference
+  October 15-16, 2027 at Simon Business School, Rochester NY.
 - **https://eaa-online.org/arc/events/2025-journal-of-accounting-and-economics-conference-call-for-papers/** —
   EAA / ARC 2025 JAE Conference call for papers. Confirms the annual JAE Conference route,
   Wharton / Charles River Associates / Cambridge Business Publishers sponsorship, economics-based
   research framing, dedicated special conference issue, invitation-only attendance, **USD 650**
   submission fee by credit card, and **USD 5,000** attendee-voted Best Paper award.
 - **https://www.elsevier.com/researcher/author/policies-and-guidelines/submission-fees** —
-  Elsevier submission-fees policy. Confirms that Elsevier economics, finance, and accounting journals
-  may levy submission fees and that those fees are shown in the journal guide and during submission.
+  Elsevier submission-fees policy (fetched live 2026-11-24). Confirms that around 50 Elsevier
+  economics, finance, and accounting journals levy submission fees, that a journal's fee is flagged in
+  its guide for authors and during submission, and that the monies are reinvested as journal community
+  funds.
 - **https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-guidelines** and
   **https://www.elsevier.com/about/policies-and-standards/research-data** — Elsevier research-data
   guidance and policy. Confirms Elsevier's encouragement of data sharing, dataset citation, data
@@ -61,9 +82,9 @@ because fee amounts, mastheads, file labels, and policy wording can change.
 | Submission fee verified current at **USD 650** for unsolicited new manuscripts, no fee for resubmissions (re-confirmed 2026-06-22 against the live ScienceDirect Guide for Authors) | ScienceDirect Guide for Authors |
 | JAE's durable identity is positive / economics-based accounting research in the Watts-Zimmerman tradition | ScienceDirect journal home; archived Guide for Authors; JAE Conference call |
 | Scope includes accounting within firms, capital-market information content, financial contracting, monitoring agency relationships, accounting standards, disclosure regulation, and theory of the accounting firm | archived Guide for Authors |
-| Submission route is Elsevier Editorial Manager | Guide for Authors; Editorial Manager portal |
+| Submission route is Elsevier Editorial Manager at www.editorialmanager.com/jacec/ (verified live 2026-11-24) | Editorial Manager portal; 2027 JAE Conference call |
 | Fee default for unsolicited new manuscripts is USD 650, with no fee for resubmissions; check current ScienceDirect amount before payment | archived Guide for Authors; JAE Conference call; Elsevier submission-fees policy |
-| Fee payment uses Elsevier Submission Start; EU authors add applicable VAT | Wharton JAE payment page |
+| Fee payment uses Elsevier Submission Start; EU authors add applicable VAT (2026-06-20 reading; page now 404) | Wharton JAE payment page |
 | Review is double-anonymized; suitable manuscripts go to at least two independent reviewers; editor makes the final decision | archived Guide for Authors |
 | Upload requires anonymized manuscript and separate title page with author details | archived Guide for Authors |
 | Highlights are required, 2 to 5 bullets, max 125 characters each | archived Guide for Authors |
@@ -71,7 +92,7 @@ because fee amounts, mastheads, file labels, and policy wording can change.
 | Abstract should be concise and factual, stand alone, and avoid references and nonstandard abbreviations; no local numeric cap is used without live Guide confirmation | archived Guide for Authors |
 | Elsevier author-date / Harvard references, numbered sections, and elsarticle.cls / BibTeX support | archived Guide for Authors |
 | Research data sharing is encouraged under Elsevier policy; this pack treats JAE data sharing as voluntary unless the current Guide states otherwise | archived Guide for Authors; Elsevier research-data policy |
-| JAE Conference is an invitation-only annual route with selected papers printed in a dedicated special issue; 2025 call lists USD 650 fee and USD 5,000 Best Paper award | EAA / ARC JAE Conference call |
+| JAE Conference is an invitation-only annual route with selected papers printed in a dedicated special issue; 2025 call listed a USD 650 fee; the **2027** call (deadline February 26, 2027; sponsor University of Rochester Simon Business School) lists a **USD 750** fee and the USD 5,000 Best Paper award | EAA / ARC JAE Conference calls (2025; 2027 re-verified 2026-11-24) |
 | Article Transfer Service / journal transfer can apply to unsuitable submissions | Guide for Authors; Elsevier policy pages |
 
 ## Live-check items before upload
@@ -87,3 +108,42 @@ because fee amounts, mastheads, file labels, and policy wording can change.
   data availability statements, dataset citations, or AI / declaration wording.
 - Do not state acceptance rates, fixed review timelines, current editorial roster, or a numeric main-text
   length cap unless the current official page provides the value.
+
+## UNVERIFIED / 待核实 (as of 2026-11-24)
+
+- **Regular submission fee.** Last confirmed at **USD 650** on 2026-06-22. On 2026-11-24 the ScienceDirect
+  Guide was blocked (captcha); search-engine snippets of the Guide and of third-party fee lists show
+  **USD 750**, and the 2027 JAE Conference call (formal JAE submissions) charges $750. Not changed in the
+  facts table until the Guide itself can be read; skills tell authors to expect USD 750 and confirm.
+- **Highlights / keywords format.** The 2024 archived Guide says 2-5 Highlights of at most 125
+  characters and up to six keywords; search-engine snippets of the current Guide (2026-11-24) describe
+  3-5 Highlights of at most 85 characters and 1-7 keywords (Elsevier's newer guide template). Not
+  confirmed on the live page; kept at the archived values with a caution in `jae-submission`.
+- **Editors.** The pack names John Core, Ed deHaan and Wayne R. Guay (2026-06-22). Search-engine
+  rendering of the ScienceDirect editorial-board page on 2026-11-24 suggests Elizabeth Blankespoor is
+  an editor and that Core is listed with a 2009-2024 tenure; the page itself could not be loaded
+  (captcha), and the 2027 conference's move to Rochester Simon sponsorship may also signal an editorial
+  change. Re-verify the masthead before naming editors.
+- **Review mode, JEL-code requirement, declarations, data policy, open-access APC** — only the 2024
+  archived Guide was available; not re-read on 2026-11-24.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Journal of Accounting and Economics",
+  "verified": "2026-11-24",
+  "rules": {
+    "portal": {"value": "Elsevier Editorial Manager (www.editorialmanager.com/jacec/)", "source": "https://www.editorialmanager.com/jacec/"},
+    "submission_fee": {"value": "USD 750 on the 2027 JAE Conference call (conference papers are formal JAE submissions); regular-submission amount not re-readable on the live Guide on 2026-11-24 (last confirmed USD 650, 2026-06-22)", "source": "https://eaa-online.org/arc/events/2027-jae-call-for-papers"},
+    "review_mode": {"value": null, "note": "double-anonymized per the 2024 archived Guide; live Guide blocked on 2026-11-24"},
+    "keywords_max": {"value": null, "note": "up to six per the 2024 archived Guide; live Guide blocked on 2026-11-24 and snippets suggest a change"},
+    "jel_codes_required": {"value": null, "note": "required (up to six) per the 2024 archived Guide; not re-read on 2026-11-24"},
+    "abstract_words_max": {"value": null, "note": "not stated on the official pages as of 2026-11-24"},
+    "main_text_pages_max": {"value": null, "note": "not stated on the official pages as of 2026-11-24"}
+  }
+}
+```

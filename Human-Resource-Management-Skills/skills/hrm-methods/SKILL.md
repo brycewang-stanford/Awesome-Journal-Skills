@@ -42,7 +42,7 @@ State the level for theory, measurement, and analysis, and keep them aligned. If
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full
-map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). HRM is empirical HR — multilevel survey data, field experiments, and panels; multilevel inference and many-outcome corrections matter most.
+map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). HRM is empirical HR — multilevel survey data, field experiments, and panels; multilevel inference and many-outcome corrections matter most.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

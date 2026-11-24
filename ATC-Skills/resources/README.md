@@ -8,7 +8,7 @@ runnable artifact for the double-blind, two-round, shepherded ACM SIGOPS process
 
 | Resource | Use it to... |
 | --- | --- |
-| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before-to-after extended-abstract + introduction rewrite for a systems paper. Illustrative fictional paper; no policy invented. |
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before-to-after rewrite of a systems paper's first two pages (abstract + introduction). Illustrative fictional paper; no policy invented. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against real, verified USENIX ATC papers across contribution shapes, and avoid sibling-venue confusion with OSDI, SOSP, NSDI, EuroSys, and FAST. |
 | [`official-source-map.md`](official-source-map.md) | Confirm the current-cycle ATC deadline, two-round review model, page budget, artifact badges, and the USENIX-to-SIGOPS transition status before giving submission-ready advice. |
 | [`external_tools.md`](external_tools.md) | Open the SIGOPS ATC, HotCRP, USENIX-legacy, and ACM surfaces, plus the cross-check sources for when the gateway blocks a direct fetch. |
@@ -20,16 +20,17 @@ This is a computer-**systems** conference pack: real implementations, measured p
 runnable artifacts. Do not import the OpenReview/PMLR machinery from the ML packs or the
 Stata/DiD/IV econometrics kit from the journal packs. ATC evidence is systems evidence — testbeds,
 end-to-end and microbenchmark measurements, tail-latency and variance reporting, and an inspectable
-artifact — carried through a **two-round, extended-abstract, double-blind** review and a
-**shepherded conditional acceptance**. And remember the venue moved: ATC 2026 is the first ACM
-SIGOPS edition of what was USENIX ATC, so verify every mechanic against the current SIGOPS call.
+artifact — carried through a **two-round, double-blind** review whose first round reads the first
+two pages, a 72-hour author response, and a **shepherded conditional acceptance**. And remember the
+venue moved: USENIX ATC ended with ATC '25, ATC 2026 was the first ACM SIGOPS edition, and ATC 2027
+changed the mechanics again, so verify every mechanic against the current SIGOPS call.
 
 ## Suggested workflow
 
 1. Route and frame with
    [`../skills/atc-topic-selection`](../skills/atc-topic-selection/SKILL.md) and
    [`../skills/atc-writing-style`](../skills/atc-writing-style/SKILL.md) — deciding ATC vs.
-   OSDI/NSDI/EuroSys/FAST before writing, and making the extended abstract self-standing, are the
+   OSDI/NSDI/EuroSys/FAST before writing, and making the first two pages self-standing, are the
    highest-leverage moves.
 2. Build evidence with [`../skills/atc-experiments`](../skills/atc-experiments/SKILL.md),
    [`../skills/atc-reproducibility`](../skills/atc-reproducibility/SKILL.md), and

@@ -12,10 +12,11 @@ ACL 或拒稿。因此本包中所有与时间相关的 skill（submission、aut
 review process、workflow）都按 cycle 与 commitment 窗口推理，而不是倒数一个
 CFP 截止日。
 
-官方依据核验日期：2026-07-08。已核验 ACL 2026 官方 calls（第 64 届年会，
-San Diego，2026 年 7 月 2-7 日）、aclrollingreview.org 的 CFP、cycle 日历、
-作者指南与 Responsible NLP checklist（域名被网关拦截时改读其公开 GitHub 源码
-仓库）、OpenReview 的 ARR cycle groups、\*ACL camera-ready FAQ，以及 ACL
+官方依据复核日期：2026-11-23。已直接重读 ACL 2027 主会 call（第 65 届年会，
+日本京都，2027 年 8 月 17-22 日）、aclrollingreview.org 的 CFP、cycle 日历、
+sustainable reviewing 政策与 Responsible NLP checklist。此前（2026-07-08）
+核验过 ACL 2026 官方 calls（第 64 届年会，San Diego，2026 年 7 月 2-7 日）、
+作者指南、OpenReview 的 ARR cycle groups、\*ACL camera-ready FAQ，以及 ACL
 Anthology 政策页。完整来源清单、访问方式说明与仍标注 待核实 的条目见
 `resources/official-source-map.md`。
 
@@ -23,8 +24,13 @@ Anthology 政策页。完整来源清单、访问方式说明与仍标注 待核
 
 - **按 cycle 投稿，不是按截止日。** 2026 年 ARR 以 10 周为一个 cycle（提交日
   分别为 1 月 5 日、3 月 16 日、5 月 25 日、8 月 3 日、10 月 12 日）；每个会议
-  自行公布接受哪些 cycle。ACL 2026 接受 2025 年 10 月与 2026 年 1 月两个
-  cycle，commitment 截止 2026 年 3 月 14 日。
+  自行公布接受哪些 cycle。ACL 2027 接受 ARR 2027 年 1 月 cycle（提交截止
+  2027 年 1 月 4 日）及更早 cycle 的审稿包，commitment 日期尚未公布（TBA）；
+  ACL 2026 接受 2025 年 10 月与 2026 年 1 月两个 cycle，commitment 截止
+  2026 年 3 月 14 日。
+- **每篇投稿要自带审稿人。** 自 2026 年 10 月 cycle 起，只有指定了合格
+  service contributor（每人最多担保 2 篇）的投稿才保证送审，其余进入抽签；
+  每位作者每个 cycle 最多 20 篇投稿，以第一或共同第一作者身份最多 5 篇。
 - **修改重投是制度设计的一部分。** 修改稿在后续 cycle 重投时必须链接前一次
   提交，并附修改摘要与逐条回应；隐瞒重投历史会被直接 desk reject。
 - **Limitations 章节是硬性要求**，与不限页数的参考文献一样位于正文页数
@@ -90,27 +96,29 @@ commitment 决策阶段用 `acl-review-process` + `acl-workflow` → 录用后
 可以从本目录作为 Claude Code plugin 安装（manifest 位于 `.claude-plugin/`），
 也可以按需单独加载 `skills/*/SKILL.md`。
 
-## 已核验事实速览（访问日期 2026-07-08）
+## 已核验事实速览（复核日期 2026-11-23）
 
 | 事实 | 内容 | 来源 |
 | --- | --- | --- |
-| 锚定届次 | ACL 2026，第 64 届年会 | 2026.aclweb.org |
-| 时间 / 地点 | 2026 年 7 月 2-7 日，San Diego（hybrid） | 2026.aclweb.org |
-| 审稿机制 | ARR（OpenReview）审稿，会议端做最终决定 | ACL 2026 CFP + aclrollingreview.org |
-| ACL 2026 可用 cycle | ARR 2025 年 10 月、2026 年 1 月 | ACL 2026 CFP |
-| 1 月 cycle 截稿 | 2026 年 1 月 5 日（AoE） | aclrollingreview.org/dates |
-| Commitment / 通知 / camera-ready | 2026 年 3 月 14 日 / 4 月 4 日 / 4 月 19 日 | ACL 2026 CFP |
-| 页数 | 长文 8 页、短文 4 页；camera-ready +1 页；参考文献不限 | ARR CFP + \*ACL camera-ready FAQ |
+| 锚定届次 | ACL 2027，第 65 届年会 | 2027.aclweb.org |
+| 时间 / 地点 | 2027 年 8 月 17-22 日，日本京都 | 2027.aclweb.org |
+| 审稿机制 | ARR（OpenReview）审稿，会议端做最终决定 | ACL 2027 call + aclrollingreview.org |
+| ACL 2027 可用 cycle | ARR 2027 年 1 月及更早 cycle | ACL 2027 call |
+| 1 月 cycle 截稿 | 2027 年 1 月 4 日（AoE） | ACL 2027 call |
+| Commitment / 通知 / camera-ready | 尚未公布（截至 2026-11-23 为 TBA） | ACL 2027 call |
+| 上一届 | ACL 2026，San Diego，2026 年 7 月 2-7 日；commitment 3 月 14 日、通知 4 月 4 日、camera-ready 4 月 19 日 | ACL 2026 CFP |
+| 页数 | 长文 8 页、短文 4 页；camera-ready +1 页；参考文献不限 | ARR CFP + ACL 2027 call |
+| 审稿义务 | 每篇投稿须指定合格 service contributor，否则抽签；作者上限 20 / 5 篇 | aclrollingreview.org/sustainable-reviewing-2026 |
 | 硬性章节 | Limitations（缺失即 desk reject） | ARR CFP |
 | Checklist | Responsible NLP checklist（A-E 节） | aclrollingreview.org/responsibleNLPresearch |
 | 匿名规则 | 投稿匿名；2024-01-12 起无匿名期 | ARR anonymity update |
 | 录用层级 | 主会；Findings of ACL（存档） | Anthology venues/findings |
 | 论文集 | ACL Anthology，开放获取，CC BY 4.0（2016 后） | aclanthology.org/faq/copyright |
-| 2026 主题 | Explainability（可解释性），设 Thematic Paper Award | ACL 2026 CFP |
+| 2027 主题 | Homogenization and knowledge collapse in LLMs（LLM 同质化与知识坍缩），拟设 Thematic Paper Award（2026 年为 Explainability） | ACL 2027 call |
 
 ## 常见问题
 
-**这个包能替代官方 call 吗？** 不能。它固化的是经核验的 2026 年状态与相对
+**这个包能替代官方 call 吗？** 不能。它固化的是经核验的 ACL 2027 call 状态与相对
 稳定的机制；一切涉及截止时间的事实都必须重开 ARR 与会议官网核对，冲突时
 以官方为准。
 
@@ -131,7 +139,8 @@ venue 自己的方式把两段分开处理。
 - ARR 的 cycle 结构已多次变动（每月 → 双月 → 10 周制），不要把 2026 年日历
   外推到未来；先重开 aclrollingreview.org/dates 与目标届会议官网。
 - 本包中的 ACL 2026 事实（日期、theme、commitment 窗口）来自一场已于
-  2026-07-07 闭幕的会议，是历史锚点而非长期规则。
+  2026-07-07 闭幕的会议，是历史锚点而非长期规则。ACL 2027 的 commitment、
+  通知与 camera-ready 日期截至 2026-11-23 仍为 TBA，官方公布后再补入。
 - checklist 措辞、preprint 激励、页数政策、审稿表单与 Findings 的报告形式
   都按届变化；与本包冲突时一律以官方页面为准。
 - 新增范文时务必确认 Anthology 页面的 venue 行写的是 ACL 年会主会论文集——
@@ -141,7 +150,7 @@ venue 自己的方式把两段分开处理。
 
 - 广度层：`Computer-Science-Conference-Skills` 中的 ACL 条目提供跨会议的
   选会与路由基线；本包是它的深度扩展，二者结论冲突时以本包更新的
-  2026 核验事实为准（但仍以官方页面为最终权威）。
+  2026-11-23 复核事实为准（但仍以官方页面为最终权威）。
 - 共享工具：可复现性冒烟检查复用仓库级 `shared-resources/
   ml-conference-methods` 工具包，入口见 `resources/code/README.md`。
 - 兄弟会议：EMNLP、NAACL、EACL 等共享 ARR 机制但各有届次政策；不要把

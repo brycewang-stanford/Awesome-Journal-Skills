@@ -44,7 +44,7 @@ Follow the journal's formatting (待核实; 检索于 2026-06；以官网为准)
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). RAST is empirical accounting; emphasize identification of disclosure / governance effects and the multiple-testing haircut for mined associations.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). RAST is empirical accounting; emphasize identification of disclosure / governance effects and the multiple-testing haircut for mined associations.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

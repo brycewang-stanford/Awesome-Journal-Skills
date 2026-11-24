@@ -12,7 +12,7 @@ description: Use when you need to understand or set expectations for the Academy
 - You are unsure how much weight reviewers vs. the action editor carry
 - You want to plan a revision strategy before drafting the response (then go to `amj-rebuttal`)
 
-> Editorial structure, named editors, and exact timelines change. Verify the current editorial team, policies, and turnaround on the official AMJ site; the norms below are durable. As of 2026-05-30: AMJ uses **blind review**, targets constructive **developmental feedback to authors within ~60 days**, and the incoming Editor-in-Chief is **Gary A. Ballinger (University of Virginia)**, whose team began receiving submissions on 1 July 2025.
+> Editorial structure, named editors, and exact timelines change. Verify the current editorial team, policies, and turnaround on the official AMJ site; the norms below are durable. As of 2026-11-23: AMJ uses **blind review**, targets constructive **developmental feedback to authors within ~60 days**, and the Editor is **Quinetta M. Roberson (Michigan State University)** (AOM editorial-team page, re-verified 2026-11-23). After a desk screen, the editor assigns an action editor and **three reviewers**.
 
 ## How AMJ review works (durable norms)
 

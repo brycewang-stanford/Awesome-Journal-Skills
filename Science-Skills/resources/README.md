@@ -33,7 +33,7 @@ figures, statistics, reproducibility) lives in [`external_tools.md`](external_to
 1. Gate the work with [`../skills/sci-fit`](../skills/sci-fit/SKILL.md) (broad-significance / general
    interest), then lock the advance with [`../skills/sci-framing`](../skills/sci-framing/SKILL.md).
 2. Model the abstract + opening on
-   [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md), holding the Report/Research
+   [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md), holding the Research
    Article format with [`../skills/sci-writing`](../skills/sci-writing/SKILL.md) and the two abstract
    artifacts with [`../skills/sci-abstract`](../skills/sci-abstract/SKILL.md).
 3. Benchmark your field × method against verified papers in

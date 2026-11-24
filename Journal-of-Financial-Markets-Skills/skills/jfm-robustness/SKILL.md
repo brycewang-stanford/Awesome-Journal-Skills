@@ -51,7 +51,7 @@ JFM does not reward a 20-table robustness appendix; it rewards the *right* check
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JFM is market microstructure and asset pricing — liquidity, price discovery, and cross-sectional return tests where the factor-zoo multiple-testing haircut is salient.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JFM is market microstructure and asset pricing — liquidity, price discovery, and cross-sectional return tests where the factor-zoo multiple-testing haircut is salient.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

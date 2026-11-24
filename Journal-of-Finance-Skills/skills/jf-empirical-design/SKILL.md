@@ -62,7 +62,7 @@ The full grid — all factor models, subperiods, cost nets — goes to the **Int
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the asset-pricing battery, don't just specify it. Full map:
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JF asset-pricing instantiation:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md). JF asset-pricing instantiation:
 
 - **Factor regressions / time-series alphas:** `feols` with the right SEs
   (`vcov="HC3"` or Newey–West / clustered) — read the alpha and t off the return, not

@@ -52,7 +52,7 @@ Cluster standard errors to the sampling/nesting structure (e.g., by cohort, regi
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JBV studies founders and ventures where selection / survivorship threatens every claim; lead with identification and selection-correction tooling.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JBV studies founders and ventures where selection / survivorship threatens every claim; lead with identification and selection-correction tooling.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

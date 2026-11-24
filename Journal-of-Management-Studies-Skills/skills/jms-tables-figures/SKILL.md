@@ -41,7 +41,7 @@ JMS exhibits must **make the argument legible**, in whichever idiom. Two house f
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMS mixes qualitative and quantitative management research; the chain below is for the quantitative-empirical lane.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JMS mixes qualitative and quantitative management research; the chain below is for the quantitative-empirical lane.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

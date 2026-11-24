@@ -45,7 +45,7 @@ Use for *whether/how much/under what conditions* across many cases — welcome a
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full
-map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Organization Studies is largely qualitative/theoretical; use the chain below only for its quantitative-empirical papers, and say so when a study is interpretive.
+map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Organization Studies is largely qualitative/theoretical; use the chain below only for its quantitative-empirical papers, and say so when a study is interpretive.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

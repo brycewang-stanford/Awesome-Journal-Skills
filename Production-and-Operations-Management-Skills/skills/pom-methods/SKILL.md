@@ -40,7 +40,7 @@ A method exists to serve an **OM contribution** judged interesting to practicing
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full
-map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). POM spans analytical and empirical OM; apply the chain below to its empirical-OM papers, and note when a contribution is analytical / optimization.
+map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). POM spans analytical and empirical OM; apply the chain below to its empirical-OM papers, and note when a contribution is analytical / optimization.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

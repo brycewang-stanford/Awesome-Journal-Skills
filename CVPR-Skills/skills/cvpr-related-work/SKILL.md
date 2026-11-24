@@ -30,8 +30,11 @@ stated in mechanisms survives review; a delta stated in adjectives does not.
 With a November deadline and instant preprinting, collisions are routine. The working
 etiquette: preprints appearing close to or after the deadline are *concurrent* — cite
 them once you know of them, in a short "concurrent work" note, without being obligated
-to outperform them. Two cautions. First, do not use concurrency as a shield for work
-that predates your submission by months. Second, during the rebuttal you may be pointed
+to outperform them. CVPR 2027 makes the line explicit: work first public on or after
+September 15, 2026 is generally contemporaneous — not grounds for rejection, though you
+are still expected to cite, discuss and compare where feasible — while anything that
+influenced the submission counts as prior work regardless of date. Two cautions. First,
+do not use concurrency as a shield for work that predates your submission by months. Second, during the rebuttal you may be pointed
 at a "missing comparison" that is actually concurrent — answer with dates, calmly, not
 with indignation.
 

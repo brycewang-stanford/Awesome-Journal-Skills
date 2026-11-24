@@ -51,7 +51,7 @@ Hypothetical: a cluster-randomized health-extension experiment, 80 villages, ~30
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Development economics leans on RCTs and observational designs alike; field experiments demand the many-outcome family-wise correction (`romano_wolf`).
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Development economics leans on RCTs and observational designs alike; field experiments demand the many-outcome family-wise correction (`romano_wolf`).
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

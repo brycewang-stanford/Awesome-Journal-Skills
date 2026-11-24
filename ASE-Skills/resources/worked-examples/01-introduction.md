@@ -127,10 +127,10 @@ Mapped to the skill checklists:
 - **Threats engaged where they live** — the rerun-as-proxy-for-determinism threat is named in ¶5
   and bounded with an audited subsample, reported *with* results rather than quarantined.
 - **Open science by default** — the tool, dataset, and *cached* model outputs are in an anonymized
-  artifact, matching ASE's double-anonymous review and its mandatory Data Availability Statement
+  artifact, matching ASE's double-anonymous review and its required Data Availability section
   (`ase-reproducibility`, `ase-artifact-evaluation`).
 
 > Next: see [`../exemplars/library.md`](../exemplars/library.md) for **real, web-verified ASE
 > papers** whose first pages execute this arc, and
 > [`../official-source-map.md`](../official-source-map.md) for ASE-specific submission policy and
-> the Accept/Revision/Reject review model.
+> the Accept/Major revision/Reject review model.

@@ -15,7 +15,7 @@ description: Use when the empirical identification of a macro shock or dynamic c
 
 ## The AEJ: Macro identification bar
 
-AEJ: Macro publishes identified-empirical macro, so the **mapping from data to the dynamic causal object** (an impulse response, a multiplier, a pass-through) must be explicit and defended. The aggregate, time-series setting makes identification harder than in micro: few effective observations, anticipation, simultaneity, and structural breaks. State the **shock you claim to identify**, the **assumption that delivers it**, and the **horizon and object** you report. Report **standard errors / confidence bands** (the AEA house style; significance asterisks are conventional in AEA tables but the band/SE must carry the inference, not the stars).
+AEJ: Macro publishes identified-empirical macro, so the **mapping from data to the dynamic causal object** (an impulse response, a multiplier, a pass-through) must be explicit and defended. The aggregate, time-series setting makes identification harder than in micro: few effective observations, anticipation, simultaneity, and structural breaks. State the **shock you claim to identify**, the **assumption that delivers it**, and the **horizon and object** you report. Report **standard errors / confidence bands** (the AEA house style; the AEJ style guide says not to use significance asterisks, so the band/SE carries the inference).
 
 ## Branch paths
 
@@ -42,7 +42,7 @@ AEJ: Macro publishes identified-empirical macro, so the **mapping from data to t
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the identification claim, don't only argue it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Macro mixes empirical and structural work — local projections (`local_projections` / `irf`) are in StatsPAI, but DSGE / calibration estimation is outside this causal-inference toolchain.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AEJ: Macro mixes empirical and structural work — local projections (`local_projections` / `irf`) are in StatsPAI, but DSGE / calibration estimation is outside this causal-inference toolchain.
 
 1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
    the checks the design still owes.

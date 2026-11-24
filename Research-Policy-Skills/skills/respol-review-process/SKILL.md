@@ -15,7 +15,7 @@ description: Use when calibrating expectations and choreography for the Research
 
 ## How Research Policy review actually works
 
-RP runs a **double-blind** process (检索于 2026-06；以官网为准): the Editor-in-Chief routes a submission to a **Handling Editor** matched to its area (innovation systems, science/technology policy, entrepreneurship and innovation, university-industry interactions, R&D management, or innovation methodology), who manages the referees and the decision. Before referees, there is a **desk screen** that tests two things: whether the paper is genuinely innovation studies (the out-of-scope filter for econ/management-only papers) and whether the substantive contribution is plausible. Surviving that, expect a small number of expert referees and the standard reject / major-revision / minor-revision / accept ladder. Treat all timeline numbers as volatile and verify on the live journal pages (待核实).
+RP runs a **double-blind** process (re-verified 2026-11-24): with no single Editor-in-Chief, each submission goes to a **Handling Editor** matched to its area (innovation systems, science/technology policy, entrepreneurship and innovation, university-industry interactions, R&D management, or innovation methodology), who manages the referees and the decision. Before referees, there is a **desk screen** that tests two things: whether the paper is genuinely innovation studies (the out-of-scope filter for econ/management-only papers) and whether the substantive contribution is plausible. Surviving that, expect a small number of expert referees and the standard reject / major-revision / minor-revision / accept ladder. Treat all timeline numbers as volatile and verify on the live journal pages (待核实).
 
 ## What RP referees reward vs. punish
 

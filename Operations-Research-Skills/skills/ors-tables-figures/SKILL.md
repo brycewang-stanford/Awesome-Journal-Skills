@@ -83,7 +83,7 @@ table corroborates the theorem's bound; the plot shows it holds as size grows.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Operations Research is predominantly analytical / optimization / stochastic modeling; use the chain below only for its empirical/causal papers — modeling, optimization, and simulation are outside this causal-inference toolchain.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Operations Research is predominantly analytical / optimization / stochastic modeling; use the chain below only for its empirical/causal papers — modeling, optimization, and simulation are outside this causal-inference toolchain.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

@@ -116,14 +116,16 @@ FOCS-Skills/
 - FOCS 2026 为**第 67 届**：美国纽约，**2026 年 11 月 8–11 日**，IEEE
   Computer Society TCMF 主办。
 - 截稿：**2026 年 4 月 1 日 17:00 EDT（21:00 UTC）**，HotCRP
-  （`focs26.hotcrp.com`）；notification 与 camera-ready 日期在核验时尚未
-  公布（待核实）。
+  （`focs26.hotcrp.com`）；2026-11-24 复核：notification 为 2026 年 7 月 3 日，camera-ready 为
+  2026 年 10 月 1 日；录用 174/673（撤稿 13 篇后），25.85%。
 - 格式：无长度上限；鼓励提交完整版；保证阅读范围为摘要 + 参考文献 +
   前**十页**；11 磅以上单栏、1 英寸页边距、letter 纸型；PDF 不得带有
   复制/打印安全限制。
 - **双盲评审**（FOCS 至少自 2023 年起实行）；SIGACT 先行发表/一稿多投政策；
   预期在 camera-ready 前把含全部证明的完整版公开（arXiv/ECCC）。
-- PC 主席：Sanjeev Khanna（单周期事实）。Workshop 定于 11 月 8 日周日；
+- **AI 政策：** 实质性使用 LLM/生成式 AI 须在文末 "AI Disclosure" 声明中披露；
+  轻度文字润色免披露；作者只能是人。
+- PC 主席：Sanjeev Khanna（纽约大学），联席主席 Sepehr Assadi（单周期事实）。Workshop 定于 11 月 8 日周日；
   提案 2026 年 7 月 31 日 AoE 前发给 workshop 主席 Dakshita Khurana 与
   Sam Hopkins；8 月 14 日出结果。
 - 姊妹节拍：STOC 2026 于 2025 年 11 月 4 日截稿、2026 年 6 月 22–26 日举行。
@@ -146,7 +148,9 @@ FOCS-Skills/
 
 - 上述所有数字均为 **2026 周期快照**。截稿日、窗口页数、匿名措辞与奖项
   机制都可能变化；给出临期建议前务必重开 `focs.computer.org/<year>/`。
-- **FOCS 2027 在 2026-07-08 时完全待核实**：无 CFP、无地点、无日期。
+- **FOCS 2027（2026-11-24 核对）**：圣地亚哥，2027 年 11 月 8–11 日；大会主席
+  Russell Impagliazzo 与 Shachar Lovett；PC 主席 Yuval Rabani（FOCS 2026 business
+  meeting 公布）。CFP、截稿日与格式尚未发布（`focs.computer.org/2027/` 返回 404）。
   "四月截稿、秋季开会"是历史规律，不是承诺。
 - PC 主席与委员会按届任命；本包中出现的人名随其周期过期。
 - 新增范文时使用 [`resources/exemplars/library.md`](resources/exemplars/library.md)

@@ -8,8 +8,8 @@ description: Use when preparing an NDSS artifact for evaluation after conditiona
 NDSS added artifact evaluation to the symposium in recent editions (running on the
 community `secartifacts` platform, verified for 2024-2026), and it is **opt-in after
 conditional acceptance** — a separate track, not a submission requirement. Papers that pass
-carry badges on the first page and add a 2-page artifact appendix (Call for Artifacts,
-checked 2026-07-08). Decide early whether you are engineering for it, because the packaging
+carry badges on the first page and add a 2-page artifact appendix (NDSS 2027 Call for
+Artifacts, re-verified 2026-11-24). Decide early whether you are engineering for it, because the packaging
 choices are cheap during the project and expensive afterward.
 
 ## The three badges
@@ -78,10 +78,14 @@ future readers of the open-access paper, not a second results section.
 
 ## Timing
 
-The opt-in comes shortly after (conditional) acceptance and runs on its own schedule
-(2027 dates 待核实 — confirm on the Call for Artifacts). It overlaps the camera-ready
-window (Jan 6, 2027), so a team that starts packaging at acceptance, not at the AE
-deadline, avoids a two-front crunch.
+The opt-in comes shortly after (conditional) acceptance and runs on its own schedule. NDSS
+2027: summer registration August 5 and submission August 10, 2026 (major revisions:
+September 18 / 20), decisions October 9, 2026; fall registration December 9 and submission
+December 13, 2026, decisions February 1, 2027 — via `ndss27ae-summer` / `ndss27ae-fall` on
+HotCRP. In the fall cycle papers under revision register right after the first
+notification, so AE runs in parallel with the revision. It overlaps the camera-ready window
+(September 30, 2026 / February 7, 2027), so a team that starts packaging at acceptance, not
+at the AE deadline, avoids a two-front crunch.
 
 ## Output format
 

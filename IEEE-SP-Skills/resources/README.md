@@ -27,17 +27,18 @@ Do not import the economics code library.
 ## What makes S&P mechanically different
 
 These are the venue facts that drive most of the advice, and most of the
-mistakes made by authors arriving from other conferences (all checked
-2026-07-08; reopen the live pages before acting):
+mistakes made by authors arriving from other conferences (all re-verified
+2026-11-24; reopen the live pages before acting):
 
 - **Multiple submission cycles per symposium**, each a self-contained
   mini-conference with its own HotCRP site, binding registration freeze,
   review rounds, and decision date — you choose a cycle, not "the deadline."
 - **A round structure inside each cycle**: weak papers get an early reject
   **without a rebuttal**; survivors see reviews and file a short rebuttal.
-- **A three-way decision — Accept / Revise / Reject** — where **Revise** is a
-  structured major revision against a written expectations summary, and
-  Accept comes with a shepherd who checks off meta-review concerns.
+- **Two outcomes — Accept or Reject**, with no conditional acceptance;
+  Accept comes with a public meta-review and a shepherd who checks off its
+  concerns, and second-round papers get a 750-word rebuttal (non-interactive
+  or interactive with a revised PDF).
 - **Ethics is structural**: an Ethics Considerations field at registration, a
   Research Ethics Committee that can reject on ethical grounds, the Menlo
   Report as the named baseline, IRB disclosure, and harm mitigation for PII.

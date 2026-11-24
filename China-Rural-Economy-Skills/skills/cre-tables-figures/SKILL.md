@@ -94,7 +94,7 @@ R²               0.184     0.226     0.231
 ## 执行桥（StatsPAI / Stata MCP）
 
 表格图形**从拟合结果生成**，不要手抄数字。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国农村经济》是三农实证刊，政策评估与微观面板为主；突出识别与选择性偏误处理。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《中国农村经济》是三农实证刊，政策评估与微观面板为主；突出识别与选择性偏误处理。
 
 - **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
 - **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与

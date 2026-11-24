@@ -8,8 +8,9 @@ description: Use when writing the SIGGRAPH / SIGGRAPH Asia Technical Papers rebu
 SIGGRAPH gives you exactly one written turn before the decision — the **rebuttal** — and, if the
 paper is conditionally accepted, a second-stage revision handled through the camera-ready. These
 are different instruments; do not treat the rebuttal like a journal response letter. Facts below
-were read from the SIGGRAPH 2026 reviewer-instructions/ethics page on 2026-07-09
-(`resources/official-source-map.md`); reconfirm the length and window on the live call.
+were read from the SIGGRAPH 2026 call and reviewer-instructions/ethics page (first 2026-07-09,
+re-verified 2026-11-24; `resources/official-source-map.md`); reconfirm the length and window on the
+live call. Review is double-blind, so the rebuttal must not reveal who you are.
 
 ## The rebuttal: a hard 1000-word, text-only turn
 

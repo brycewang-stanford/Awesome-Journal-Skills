@@ -109,8 +109,9 @@ end.
 - Submission portal: **Editorial Express** (editorialexpress.com, `dbase=econometrica`;
   verify current URL via the journal site).
 - At least one author must be an **Econometric Society** member; submission fee
-  **US$125 regular / US$50 student** member (from 2025; invited resubmissions and ES-journal
-  transfers are fee-exempt — verify current amounts).
+  **US$125 regular / US$50 student** member (from 2025; non-refundable; invited resubmissions
+  need only membership; World Bank low-income-country authors exempt; publication page fee
+  50% of production cost — verify current amounts).
 - Main text **≤45 pages incl. references and appendices**; **Supplemental Appendix ≤25 pages**;
   abstract **≤150 words**; JEL codes optional.
 - **Supplemental Material** is a first-class component: full proofs, Monte Carlo, and

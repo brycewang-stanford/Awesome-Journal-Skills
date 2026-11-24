@@ -1,52 +1,60 @@
 ---
 name: mobisys-camera-ready
-description: Use when preparing an accepted MobiSys paper for the ACM Digital Library camera-ready — de-anonymization, the ACM double-column final layout and 12-page budget, ACM rights and CCS metadata, delivering any results promised in the rebuttal, coordinating the three artifact badges, registration, and the June in-person talk and demo in Cambridge.
+description: Use when preparing an accepted MobiSys paper for the ACM Digital Library camera-ready — clearing the anonymous shepherd, finalizing author metadata, the ACM double-column final layout and 12-page budget, ACM rights and CCS metadata, delivering any results promised in the rebuttal, coordinating the three artifact badges, registration, the ACM Open/APC step, the one-page public review, and the June in-person talk in Ho Chi Minh City.
 ---
 
 # MobiSys Camera Ready
 
 Use this after acceptance. Reopen the current camera-ready instructions, the ACM rights form,
 the registration page, and the decision email before advising authors — dates and forms are
-cycle-specific.
+cycle-specific. MobiSys 2027 (re-verified 2026-11-24): camera-ready due **April 14, 2027**;
+conference **June 21–25, 2027, Ho Chi Minh City, Vietnam**.
 
 ## Camera-ready audit
 
-- Convert the anonymous submission to the public ACM version: author names, affiliations,
-  acknowledgements, funding, and de-anonymized code/data links.
-- Apply the current ACM double-column template and page budget. MobiSys 2026 kept a **12-page
-  body including figures and tables**; references and appendices sit outside the cap — confirm
-  the final-version rule against the current instructions.
+- Clear the **anonymous shepherd** first: every MobiSys 2027 acceptance is conditional, and the
+  shepherd may request additional evaluation results, not only editorial changes.
+- Finalize author metadata: the submission already carried names and affiliations (review is
+  single-blind since 2026), so check spelling, order, ORCID and affiliations against HotCRP and
+  the ACM rights form, and add acknowledgements, funding, and public code/data links.
+- Apply the ACM double-column template and page budget. MobiSys 2027 caps submissions at a
+  **12-page body including figures and tables**; references and appendices sit outside the cap
+  — the final-version page allowance is 待核实, confirm it against the camera-ready instructions.
 - Deliver every result **promised in the rebuttal**; a promised camera-ready experiment that
   never appears is a credibility failure the AC may notice.
 - Complete ACM rights, the CCS concepts/keywords metadata, title/abstract/author-order
   metadata, and the bibliography.
 - Coordinate the three artifact badges so passing badges are printed on the paper and recorded
   in the ACM DL (`mobisys-artifact-evaluation`).
-- Confirm registration and the June in-person obligation; MobiSys expects at least one author
-  to present.
+- Settle the **APC**: authors whose institutions are not in ACM Open pay $500 (ACM/SIG members)
+  or $750 (non-members) in 2027.
+- Expect a **one-page public review** of the paper, written by a TPC member, to appear on the
+  website and in the proceedings; pitch-video requirements are still to be announced.
+- Confirm registration and the June in-person obligation: at least one author registers at a
+  **non-student rate** and presents in person.
 
 ## What changes between the reviewed and final version
 
-| Element | Reviewed (anonymous) | Camera-ready (ACM) |
+| Element | Reviewed (single-blind) | Camera-ready (ACM) |
 |---|---|---|
-| Author block | Stripped | Restored with affiliations |
-| Repository links | Anonymized placeholder | Public, licensed, archival |
-| Screenshots / demo media | Blurred / de-identified | Restored, subject to vendor NDA |
-| Rebuttal promises | Pending | Delivered in body/appendix |
+| Author block | Present | Verified against HotCRP and ACM rights metadata |
+| Acknowledgements / funding | Optional at review | Complete |
+| Repository links | Review-time links | Public, licensed, archival (DOI) |
+| Rebuttal promises / shepherd requests | Pending | Delivered in body/appendix |
 | Metadata | Minimal | ACM rights + CCS concepts |
 
-## De-anonymization sweep
+## Author-metadata sweep
 
-- Restore the author block, acknowledgements, grants, and any contribution statements the
-  anonymous version stripped.
-- Replace anonymized repository placeholders with the public, licensed, archival artifact and
-  test every link from a logged-out browser.
-- Un-blur screenshots and demo media, and restore device/vendor names where they were hidden
-  for review — while respecting any vendor NDA on hardware details.
+- Verify the author block, acknowledgements, grants, and any contribution statements; the
+  author list itself was frozen at the submission deadline.
+- Replace review-time repository links with the public, licensed, archival artifact and test
+  every link from a logged-out browser.
+- Check screenshots and demo media for participant privacy and any vendor NDA on hardware
+  details.
 
 ## ACM double-column reflow
 
-- Switching the template from anonymous to final mode changes spacing; recheck every page
+- Switching the template from review to final mode changes spacing; recheck every page
   break, figure placement, and wide device-table width after the flip.
 - Adding the author block, acknowledgements, and funding lines can push the body over budget;
   confirm the 12 pages still hold rather than assuming.
@@ -67,7 +75,8 @@ Final-package checklist:
   PDF: ACM double-column, 12-page body confirmed, numbering unchanged
   metadata: ACM rights, CCS concepts, author order, abstract
   promises: every rebuttal-promised result delivered
-  artifacts: badges coordinated, repo de-anonymized and archival
+  artifacts: badges coordinated, repo public and archival
+  shepherd: sign-off received; APC settled or ACM Open confirmed
   logistics: registration done, June presenter and demo assigned
 ```
 

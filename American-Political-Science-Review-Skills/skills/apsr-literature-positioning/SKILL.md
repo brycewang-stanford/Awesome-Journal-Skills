@@ -87,8 +87,8 @@ electoral rule"). The bibliography barely grows, but the contribution now reads 
 
 - *"The contribution is subfield-bound, not general political science."* → Recast the gap as a live
   disagreement the whole discipline recognizes, and add the 3–6 cross-subfield works that define it.
-- *"You missed obvious work / don't engage the debate."* → This is an explicit desk-reject ground at
-  APSR; map the live disagreement, then cite the works that *constitute* it, not a citation pile.
+- *"You missed obvious work / don't engage the debate."* → This was listed as a desk-reject ground in
+  APSR's former peer-review policy (not restated on the live pages as of 2026-11-24); map the live disagreement, then cite the works that *constitute* it, not a citation pile.
 - *"Closest competitor is hidden."* → Name the nearest prior paper and state precisely what your move
   changes (mechanism fails / is conditional / is better explained).
 - *"Self-citation breaks anonymity."* → Neutralize first-person self-references; APSR is
@@ -100,8 +100,9 @@ electoral rule"). The bibliography barely grows, but the contribution now reads 
   subfield's frontier is structurally weak even when the within-subfield contribution is real.
 - Methodological pluralism extends to literatures: a normative argument may legitimately engage
   empirical work, and vice versa — the bridge across traditions is itself a positioning asset.
-- "Failure to engage the relevant literature(s)" remains a desk-reject category; confirm the exact
-  current wording against the journal's submission and peer-review guidelines before relying on it.
+- "Failure to engage the relevant literature(s)" was a desk-reject category in APSR's former policy
+  text; the current Cambridge guidelines instead stress that the contribution relative to existing
+  work "must be accurately represented" and clear. Confirm current wording before relying on it.
 
 ## Supplementary resources
 

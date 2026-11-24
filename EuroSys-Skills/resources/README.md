@@ -17,7 +17,7 @@ papers, a style demonstration, and tooling adapters.
 ## Scope note
 
 This is a systems-conference pack: the deliverables are a HotCRP submission, possibly a
-one-shot revision, an ACM camera-ready, and a sysartifacts artifact. Do not import the
+revise-and-resubmit (the former "one-shot revision"), an ACM camera-ready, and a sysartifacts artifact. Do not import the
 econometrics or journal-submission kits from elsewhere in the repository; the only shared
 dependency is the generic experiment/artifact scaffolding referenced from `code/README.md`.
 

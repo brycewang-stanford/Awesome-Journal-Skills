@@ -1,24 +1,38 @@
 ---
 name: rss-author-response
-description: Use when drafting the RSS (Robotics: Science and Systems) invited one-page rebuttal — the above-threshold-only response read primarily by the Area Chair before the decision meeting — including triage, page-budget allocation, anonymity, and what to do when no rebuttal invitation arrives.
+description: Use when drafting the RSS (Robotics: Science and Systems) invited rebuttal — in RSS 2027 the response to the Stage 1 Metareview that the Area Chair turns into the Extension Charter — including triage, length budgeting, anonymity, and what to do when no rebuttal invitation arrives.
 ---
 
 # RSS Author Response
 
-Draft the one-page rebuttal RSS grants to papers that cleared the first-round
-threshold (2026 deadline: April 3, AoE; verified 2026-07-08). The format is unusual
-and the drafting strategy should be too: this is a memo to the Area Chair who will
-represent your paper in a decision meeting, not a reply thread.
+Draft the rebuttal RSS grants to papers invited past Stage 1. In RSS 2027 invited
+papers receive a Metareview on February 5, 2027 listing required clarifications,
+evaluations and methodological extensions; the rebuttal is due **February 12, 2027**
+(AoE), and the AC revises the Metareview into the **Extension Charter** sent on
+February 26 (verified 2026-11-24). RSS 2026 used a one-page rebuttal (April 3, 2026)
+for papers above a first-round threshold. Either way this is a memo to the Area Chair,
+not a reply thread — and in 2027 it negotiates the work you will be held to.
 
 ## First, establish which situation you are in
 
 | Situation | Meaning | Move |
 |---|---|---|
-| Rebuttal invited | Paper is above threshold; decision genuinely open | Full drafting protocol below |
-| No invitation | Below threshold; decided without author input | Skip to resubmission triage (bottom) |
-| Reviews arrived, rules unclear | Cycle may have changed the design | Reread roboticsconference.org/2026/reviewps/ before writing a word |
+| Rebuttal invited (Stage 1 passed) | Metareview proposes Charter items | Full drafting protocol below |
+| Stage 1 reject | Decided without author input | Skip to resubmission triage (bottom) |
+| Reviews arrived, rules unclear | Cycle may have changed the design | Reread roboticsconference.org/information/cfp/ before writing a word |
 
-## Drafting protocol for the single page
+## Drafting protocol
+
+The 2027 rebuttal template had not been published on 2026-11-24 ("will be made
+available in due course" — 待核实); obey its length rule when it appears. The 2026
+format was one page.
+
+### Negotiating the Extension Charter
+
+Each Metareview item will become an obligation. For each one: accept it, propose a
+feasible scoped variant (with the reason the variant still tests the hypothesis), or
+argue it is out of scope. A Charter you cannot execute by April 16 is a rejection
+deferred.
 
 **Budget the page like the scarce resource it is.** A workable split: 60% on the one
 or two objections that could flip the meeting, 25% on factual corrections, 15% on a
@@ -41,9 +55,8 @@ scope concession that shows calibration. Zero on thanking reviewers at length.
 
 ## Writing for the AC, not the reviewers
 
-The 2026 process sends rebuttals to reviewers only when the AC wants extra feedback.
-So the realistic reader model is one busy expert deciding what to say about your
-paper in a synchronous meeting:
+The AC revises the Metareview into the Charter based on your response, so the
+realistic reader model is one busy expert deciding what your final paper must contain:
 
 - Give the AC quotable material: short, declarative, coordinate-anchored sentences.
 - Resolve reviewer disagreements explicitly ("R2 and R3 read the trial protocol
@@ -90,26 +103,27 @@ work, and any sentence the AC could not lift directly into the meeting.
 The decision is effectively made; spend the energy forward. Map each objection to the
 next calendar slot: protocol gaps → fix before IROS (~March deadline has passed;
 next: CoRL ~June or ICRA ~September patterns, verify live); framing objections →
-rerun `rss-topic-selection` honestly before re-targeting RSS 2027.
+rerun `rss-topic-selection` honestly before re-targeting RSS 2028.
 
 ## Window logistics
 
-- The 2026 invitation-to-deadline window was short and its opening date was never
-  publicly posted; pre-draft answers to the three most likely objections during the
-  February-March silence so the invitation triggers assembly, not composition.
+- The 2027 window is one week (February 5 → 12); pre-draft answers to the three most
+  likely objections and a feasibility estimate for plausible extra experiments during
+  the December-January silence, so the invitation triggers assembly, not composition.
 - One author owns the page; committee-written rebuttals converge to mush. Others
   supply evidence coordinates and red-team the draft.
-- Verify the submission channel and length rule on the form itself when the
-  invitation arrives — "one page" needs the form's own definition of a page.
+- Verify the submission channel and length rule on the form or template itself when
+  the invitation arrives.
 - Freeze the text several hours before the AoE cutoff; a rebuttal that arrives late
   is a rebuttal that does not exist, and there is no grace channel.
-- Archive what you sent; if accepted, the camera-ready must actually deliver every
-  edit the page promised (`rss-camera-ready`).
+- Archive what you sent; the final paper must deliver every Charter item, and the
+  camera-ready every edit the rebuttal promised (`rss-camera-ready`).
 
 ## Output format
 
 ```text
-[Invitation status] invited / not invited / unclear (reread reviewps)
+[Invitation status] invited / stage 1 reject / unclear (reread the CFP)
+[Charter stance] <per Metareview item: accept / scoped variant / out of scope>
 [Meeting-flippable objections] <1-2, each with evidence coordinates>
 [Corrections] <error -> paper location>
 [Concession] <scoped sentence + camera-ready edit>

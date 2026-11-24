@@ -16,7 +16,7 @@ description: Use when understanding how the Journal of Marketing Research (JMR) 
 
 JMR uses an **EIC + Coeditor** model. A single **Editor-in-Chief** oversees a panel of **Coeditors** (currently four; the incoming 2026–2029 team has five) who handle manuscripts by **methodological/substantive domain**, alongside **Associate Editors** and an **Editorial Review Board**. This is analogous to INFORMS-style departmental routing, but organized around methodological/substantive domains rather than fixed departments. Practical implication: your domain keywords and article type at submission influence which Coeditor/AE your paper reaches, so choose them to land with an expert in your area. JMR does **not** publish a by-domain routing chart, so treat this routing guidance as a masthead-based inference rather than an official AMA rule.
 
-> Transition note: Rebecca Hamilton (Georgetown) is EIC of record through 30 June 2026; Raphael Thomadsen's incoming team (WashU) has handled **new** submissions since 1 April 2026. Authors submitting now are effectively reviewed by the incoming team.
+> Masthead note: Raphael Thomadsen (Washington University in St. Louis) is Editor in Chief (1 July 2026 – 30 June 2029) with five Coeditors — Simon Blanchard, Bryan Bollinger, Elea McDonnell Feit, Katrijn Gielens, Manoj Thomas; his team has handled new manuscripts since 1 April 2026, while Rebecca Hamilton's team finishes revisions of papers it already had (masthead re-verified 2026-11-23). New submissions go to the Thomadsen team.
 
 ## The stages
 

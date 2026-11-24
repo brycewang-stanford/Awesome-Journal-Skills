@@ -9,10 +9,10 @@ first-page rewrite, and pointers to reusable package-checking tooling.
 
 | Resource | Use it to... |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Trace every 2027-cycle fact (the single cycle, 10+2 pages, the four criteria, the October–December Major Revision pipeline) to its official URL and access date, and see exactly what remains 待核实. |
+| [`official-source-map.md`](official-source-map.md) | Trace every 2028-cycle fact (the single cycle, 10+2 ACM pages, the five criteria, reciprocal reviewing and early rejection, the October–December Major Revision pipeline) to its official URL and access date, and see exactly what remains 待核实. |
 | [`external_tools.md`](external_tools.md) | Open the live conf.researchr.org/HotCRP/ACM/IEEE surfaces and run the five author-side verification passes — starting with the cycle-count check — before committing to a plan. |
 | [`exemplars/library.md`](exemplars/library.md) | Position against archival-verified ICSE papers across five contribution shapes, three of them Most Influential Paper winners, without confusing companion-volume papers for research-track ones. |
-| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Watch a fictional flaky-test paper's opening get rebuilt against the four review criteria, move by move. |
+| [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Watch a fictional flaky-test paper's opening get rebuilt against the review criteria, move by move. |
 | [`code/README.md`](code/README.md) | Reach the shared replication-package tooling plus the ICSE-specific checks (availability statement, mining provenance, badge readiness) the generic kit cannot make. |
 
 ## Scope note
@@ -40,6 +40,6 @@ rules, including its cycle count, every edition).
    [`../skills/icse-submission`](../skills/icse-submission/SKILL.md) for the
    HotCRP audit.
 4. **Verify last:** reopen everything in
-   [`official-source-map.md`](official-source-map.md) — the 2027 snapshot in
-   this pack ages by design, and the cycle structure is the first thing to
-   re-check.
+   [`official-source-map.md`](official-source-map.md) — the 2028 snapshot in
+   this pack ages by design, and the cycle structure and template are the
+   first things to re-check.

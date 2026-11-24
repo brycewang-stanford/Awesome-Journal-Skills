@@ -6,43 +6,44 @@ description: Use when reasoning about how a USENIX Security Symposium cycle actu
 # USENIX Security Review Process
 
 USENIX Security reviews in two annual cycles, each a self-contained pipeline from
-registration to notification. The '26 cycle mechanics below were read from
-usenix.org pages on 2026-07-08 (via search renderings; direct fetch 403'd), with
-the '25 reviewing-model page as documented history. The '27 mechanics under chairs
-Adam Doupé (Arizona State) and Andrei Sabelfeld (Chalmers) are only partially
-posted — treat everything here as one venue-generation's snapshot.
+registration to notification. The mechanics below are USENIX Security '27's, read
+directly from the live '27 Call for Papers on 2026-11-24 (program co-chairs Adam
+Doupé, Arizona State, and Andrei Sabelfeld, Chalmers), with the '25 reviewing-model
+page as documented history — treat everything here as one venue-generation's
+snapshot.
 
-## The cycle pipeline, with '26 dates as the worked example
+## The '27 cycle pipeline
 
-| Stage | Cycle 1 ('26) | Cycle 2 ('26) | What is happening |
+| Stage | Cycle 1 ('27) | Cycle 2 ('27) | What is happening |
 |---|---|---|---|
-| Registration | Aug 19, 2025 | Jan 29, 2026 | HotCRP record frozen; bidding data set |
-| Submission | Aug 26, 2025 | Feb 5, 2026 | Format/policy screening begins |
-| Early reject | Oct 7, 2025 | Mar 17, 2026 | Bottom of the pool exits after first-round reads |
-| Final notification | Dec 4, 2025 | May 14, 2026 | Accept / shepherd-approval / reject |
-| Finals due | Jan 15, 2026 | Jun 11, 2026 | Shepherding + Phase-1 AE complete |
+| Registration | Aug 18, 2026 | Jan 19, 2027 | Title, authors+ORCIDs, topics fixed; bidding data set |
+| Submission | Aug 25, 2026 | Jan 26, 2027 | Format/policy screening begins |
+| Artifacts final | Aug 28, 2026 | Jan 29, 2027 | 3-day grace ends; artifacts frozen |
+| Early reject | Oct 6, 2026 | Mar 9, 2027 | Bottom of the pool exits after first-round reads |
+| Rebuttal | Nov 5–12, 2026 | Apr 8–15, 2027 | Surviving papers answer reviews |
+| Notification | Dec 3, 2026 | May 6, 2027 | Accept / shepherd-approval / reject |
+| Shepherded approval | Dec 15, 2026 | May 18, 2027 | Shepherd signs off the agreed changes |
+| Finals due | Jan 14, 2027 | Jun 3, 2027 | Camera-ready + Phase-1 AE availability verified |
 
-The '25 model (last fully published) shows the shape inside those windows: two
-first-round reviews; online discussion; survivors gain two more reviews in round
-two; authors respond; the committee discusses to a decision. Expect roughly that
-structure until the current cycle's reviewing-model page says otherwise (待核实
-for '27).
+The '25 model shows the shape inside those windows: two first-round reviews;
+online discussion; survivors gain two more reviews in round two; authors respond;
+the committee discusses to a decision. The '27 call confirms the rebuttal window but
+does not restate the round structure.
 
 ## The decision vocabulary changed — don't plan on 2025 rules
 
 Through '25, USENIX Security ran an Accept / **Invited Major Revision** / Reject
 scheme, where a major revision returned to the same reviewers in a later cycle.
-**The '26 CFP retired major revisions.** The current outcomes:
+**The '26 CFP retired major revisions, and '27 keeps them retired.** The '27 outcomes:
 
 - **Accept** — proceed to camera-ready and mandatory artifact-availability check.
 - **Accepted on Shepherd Approval** — the committee wants the paper conditional on
-  changes a two-week shepherding pass can hold: clarifications, explicit
-  limitations, calibrated claims. Not a lane for new experiments.
-- **Early reject / reject** — out of the cycle. Whether and when the work may
-  return is governed by per-year resubmission restrictions; the '26 CFP delegated
-  restrictions on its Cycle-2 rejects to the '27 chairs. **Always check the
-  current restriction text before queuing a resubmission** — this is the venue's
-  most frequently misremembered rule.
+  changes a short shepherding pass (about 12 days in '27) can hold: text changes,
+  clarifications, explicit limitations. Not a lane for new experiments.
+- **Early reject / reject** — out of the cycle. In '27, papers rejected from either
+  '26 cycle may be submitted, but **a '27 Cycle-1 reject may not be submitted to '27
+  Cycle 2**. Always check the current restriction text before queuing a
+  resubmission — this is the venue's most frequently misremembered rule.
 
 Strategic consequence: the paper must be finished at submission. The old
 major-revision safety net — submit at 85% and repair through revision — no longer
@@ -53,9 +54,10 @@ exists; its replacement (shepherding) fixes prose, not evidence.
 Beyond ordinary top-venue novelty/rigor screens, this committee applies filters
 that surprise authors from adjacent fields:
 
-1. **Ethics adequacy is a gate, not a score.** Weak Ethical Considerations content
-   can trigger required revisions mid-review or sink the paper regardless of
-   technique (the ethics guidelines page is explicit that expectations bind).
+1. **Ethics adequacy is a gate, not a score.** In '27 the Ethics appendix is no
+   longer mandatory but is strongly encouraged; reviewers evaluate every paper's
+   ethics, may ask authors for more during review, and papers may be rejected on
+   ethical grounds regardless of technique.
 2. **Threat-model realism.** An attack needing implausible attacker position, or a
    defense evaluated only against non-adaptive adversaries, loses reviewers who
    ask "who does this actually affect?"
@@ -88,7 +90,7 @@ skeptical expert is chair-level misconduct at USENIX as elsewhere.
 ## Reverify each cycle
 
 - The current reviewing-model description, response phase, and round structure.
-- Decision categories and shepherding window ('27 待核实).
+- Decision categories and shepherding window (confirmed for '27 on 2026-11-24).
 - Resubmission restrictions between cycles and across years.
 - Early-reject and notification dates for the live cycle.
 

@@ -71,7 +71,7 @@ fragile claim into a credible, bounded one.
 
 *Language* asks for a **properly specified model**, which is a claim about a fitted object,
 not about a paragraph. Fit it and report from it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - **Mixed-effects:** `mixed` (continuous responses) and `melogit` / `meglm` (binary and
   categorical ones) carry the crossed by-subject and by-item structure the design justifies;

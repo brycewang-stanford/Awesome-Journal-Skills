@@ -41,7 +41,7 @@ quality, limits current systems.
   hypothesized, isolated, or explained — the single most common RSS mismatch.
 - **"Extensive experiments" is unaccountable.** No trial counts, no task distribution,
   no failure story; "a variety of garments" and "high success rate" cannot be audited.
-- **The video does the arguing.** Links belong in the camera-ready at RSS 2026, not in
+- **The video does the arguing.** Links belong in the camera-ready at RSS (2026 and 2027 alike), not in
   the anonymous submission — and evidence reviewers can't inspect in the PDF is
   evidence they discount.
 - **Superlatives without a comparator.** "State-of-the-art," "novel," and "impressive"

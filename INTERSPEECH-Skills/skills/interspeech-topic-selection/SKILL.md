@@ -10,8 +10,10 @@ Communication Association**, not to be confused with the computer-architecture
 symposium that shares the acronym. It is the broadest speech venue in existence:
 phoneticians, hearing scientists, ASR engineers, and voice-cloning teams review in
 adjacent areas of the same program. Fit means convincing *speech* reviewers, and the
-2026 theme in Sydney was "Speaking Together" — inclusion across languages, cultures,
-and modalities. Reconfirm scope at https://interspeech2026.org before routing.
+2027 theme in São Paulo is "Speech, Society, and Minorities" — minority, heritage and
+under-resourced languages and communities (2026 in Sydney: "Speaking Together").
+The 2027 call lists eighteen scientific areas, including Generative AI for Speech and
+Language Processing. Reconfirm scope at https://interspeech2027.org before routing.
 
 ## The modality test
 
@@ -52,14 +54,15 @@ time. Misfiled papers draw reviewers with the wrong evaluation instincts:
 A phonetics claim reviewed by ASR engineers (or vice versa) is the most common
 self-inflicted rejection at this venue; pick the area for the *claim*, not the tools.
 
-## Track choice inside Interspeech (new in 2026)
+## Track choice inside Interspeech (since 2026)
 
-Interspeech 2026 introduced a **Long Paper track** (reported: up to 8 pages plus 2
-reference pages, targeted acceptance below 30%) alongside the classic 4-page regular
-paper. Choose long only when the contribution genuinely cannot be stated in four
+Interspeech 2026 introduced a **Long Paper track** (up to 8 pages plus 2 pages for
+references and acknowledgments, targeted acceptance below 30%), and Interspeech 2027
+keeps it alongside the classic 4-page regular paper; the same work may not go to
+both. Choose long only when the contribution genuinely cannot be stated in four
 pages — a benchmark with extensive analysis, a theory-plus-system arc. A padded
 4-page idea in the long track competes against a stricter bar. Verify the current
-track rules; this split is one cycle old.
+track rules; this split is two cycles old.
 
 ## Signals the project is Interspeech-shaped
 
@@ -112,10 +115,10 @@ track rules; this split is one cycle old.
 [Cycle reality] next deadline and source URL, or 待核实
 ```
 
-## Cycle anchor (checked 2026-07-08)
+## Cycle anchor (re-verified 2026-11-24)
 
-Interspeech 2026: Sydney, Australia, 27 September – 1 October 2026, hosted with
-ASSTA; submissions closed 25 February 2026. Interspeech 2027 is announced for São
-Paulo, Brazil (29 August – 2 September 2027) — the first South American edition —
-so a project failing today's fit test has a concrete next target. Treat every date
+Interspeech 2027: São Paulo, Brazil, 29 August – 2 September 2027 — the first South
+American edition — with papers due **9 February 2027**. Interspeech 2026 (Sydney, 27
+September – 1 October 2026) has met. Interspeech 2028 is announced for San Antonio,
+USA, so a project failing today's fit test has a concrete next target. Treat every date
 here as a snapshot; reopen the official site before planning.

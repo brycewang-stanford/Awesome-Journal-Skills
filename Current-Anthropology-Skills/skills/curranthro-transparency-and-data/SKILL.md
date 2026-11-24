@@ -85,4 +85,4 @@ commentaries — factor that into any data/material reuse plan.
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — CA ethics expectations, Wenner-Gren copyright assignment, data-availability prompts
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md) — background reporting hygiene for quantitative (biological/archaeological) subfields only
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../resources/shared/empirical-methods/reporting-standards.md) — background reporting hygiene for quantitative (biological/archaeological) subfields only

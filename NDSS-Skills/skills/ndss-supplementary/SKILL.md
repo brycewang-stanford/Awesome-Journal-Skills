@@ -6,8 +6,8 @@ description: Use when dividing an NDSS paper between the 13-page body, the Ethic
 # NDSS Supplementary Material
 
 NDSS 2027's limit is 13 pages — but the boundary is unusual: the **Ethics Considerations
-section, references, and appendices are all excluded** from the count (CFP, checked
-2026-07-08). That exclusion is an invitation to structure, not a loophole to exploit. The
+section, references, and appendices are all excluded** from the count (CFP, re-verified
+2026-11-24). That exclusion is an invitation to structure, not a loophole to exploit. The
 governing rule: the 13 pages must contain everything the accept/reject decision rests on,
 because nothing obliges a reviewer to read past them.
 

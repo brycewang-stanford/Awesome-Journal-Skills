@@ -41,6 +41,32 @@
   </table>
 </div>
 
+## ✅ 投稿前打磨：先跑一遍机检，再让"审稿人"挑刺
+
+把**真实稿件文件**（`.tex` / `.md` / `.docx` / `.pdf`）交给它，它会按目标刊**已对照官网核实**的规则逐项检查，再走完整的投稿前流程：
+
+```bash
+/plugin marketplace add https://github.com/brycewang-stanford/awesome-journal-skills
+/plugin install research-toolkit-skills      # 投稿前全流程（自带预检脚本与已核实的各刊机读规则，`--list-venues` 可查）
+/plugin install jf-skills                    # 目标刊的深度包（以 JF 为例，提供该刊的审稿标准）
+```
+
+```text
+用 rt-submission-readiness 检查 paper.pdf，下周投 Journal of Finance。
+```
+
+第 0 步是**确定性预检**（也可以直接在仓库里运行：`python3 tools/preflight.py paper.pdf --venue "Journal of Finance"`），检查以下几类问题，每条结论都附位置与负责修复的 skill：
+
+- **篇幅**：摘要、字数、页数上限。
+- **匿名**：双盲稿中的作者信息、自我引用、致谢与基金号、非匿名代码链接、文件元数据。
+- **声明**：目标刊要求的全部声明。
+- **引用**：正文引用与参考文献一一对应（可加 `--online` 在 Crossref 上核验文献真实存在）。
+- **图表**：编号、交叉引用与标准误注释。
+- **数字**：摘要和引言里的数字能否在表格中找到。
+- **残留**：TODO 与修订痕迹。
+
+之后依次是九维打分卡、按该刊**真实审稿表**的独立审稿模拟（含专门剔除不公平意见的核验人）、论断—证据润色、按政策生成投稿信与声明，作者改完后**复检并给出差异**。效果用**植入缺陷基准**实测，并公开漏检项：[showcase/presubmission-benchmark](showcase/presubmission-benchmark/README.md)。
+
 <p align="center"><b>按 11 个主流学科板块覆盖</b></p>
 
 <ul>
@@ -362,7 +388,7 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
         --discipline economics/labor --lane empirical --top 15
 ```
 
-评测打的就是这条命令走的同一段代码——1738 篇论文的 gold set 切成调参一半、报数一半，**只给标题**这种最苛刻的问法，留出集 recall@10 = 65.3%；贴上摘要（作者真正会做的事）是 71.9%，给对学科是 77.7%（[`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)）。每本刊/会有**两套词表**：一套来自这个仓库自己写的流程散文，一套来自它实际发表过的文章标题——后者是 2026-08 新增的，只它一项就把标题检索从 46.7% 抬到 65.3%，并把「真实 venue 在任何深度都检索不到」的比例从 15% 压到 3.8%。检索只负责**给出该读哪几本**，投不投仍要打开每本刊自己的 pack 和 source-map 来判断。
+评测打的就是这条命令走的同一段代码——1738 篇论文的 gold set 切成调参一半、报数一半，**只给标题**这种最苛刻的问法，留出集 recall@10 = 65.7%；贴上摘要（作者真正会做的事）是 71.9%，给对学科是 77.7%（[`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)）。每本刊/会有**两套词表**：一套来自这个仓库自己写的流程散文，一套来自它实际发表过的文章标题——后者是 2026-08 新增的，只它一项就把标题检索从 46.3% 抬到 65.7%，并把「真实 venue 在任何深度都检索不到」的比例从 15% 压到 3.8%。检索只负责**给出该读哪几本**，投不投仍要打开每本刊自己的 pack 和 source-map 来判断。
 
 定了阶梯还可以算账：`rt-ladder-ev` 把「先冲顶刊再降级」和「直接从第二档起投」换算成月数与最终发出去的概率——真正吃掉一年的是**顺序**，不是某一本刊。
 
@@ -1592,6 +1618,10 @@ cd awesome-journal-skills
 | 工具变量 (IV) | [Card 1995 大学距离与教育回报](showcase/iv-card-college-proximity/README.md) | 0.132，附 AR/CLR/tF 弱 IV 面板 |
 | 断点回归 (RDD) | [差额胜选与议员投票行为](showcase/rdd-close-elections/README.md) | RD 效应 43.85 ADA 分（密度检验 p=0.72） |
 | 双重机器学习 (DML) | [教育回报的 DML 估计](showcase/dml-returns-to-schooling/README.md) | 0.074（灵活控制基准） |
+
+**投稿前打磨也有证据层**（2026-11-23）：
+- [植入缺陷基准](showcase/presubmission-benchmark/RESULTS.md)：在 6 个 venue 家族中，确定性预检抓到 45/47 处机械缺陷，干净对照零误报；审稿模拟以"主要意见"抓到 23/24 处实质缺陷，预检的 2 处已知盲区也全部补上。
+- [真实预印本全流程](showcase/presubmission-real-preprint/README.md)：对 arXiv:2611.21070 按 AER: Insights 跑完整流程，并把这次运行暴露的预检问题逐条修复。
 
 ---
 

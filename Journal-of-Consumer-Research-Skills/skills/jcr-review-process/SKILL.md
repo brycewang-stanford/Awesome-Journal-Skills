@@ -30,7 +30,7 @@ JCR's identity as a **multi-disciplinary** journal shapes the review: you may dr
 - **Reject / desk reject:** usually a fit or contribution problem — return to `jcr-topic-selection` / `jcr-contribution-framing`.
 - **Revise & resubmit (R&R):** developmental; the editor's letter prioritizes which concerns are decisive. First-round accepts are essentially unheard of — an R&R is a strong signal.
 - Map each reviewer point to a stage (theory / methods / analysis / framing / exhibits) and to the relevant jcr-* skill before drafting a response.
-- Note any **transparency conditions** (post data/materials, supply code) that become required at invited revision.
+- Note any **transparency conditions** (data/materials/code availability, the Data and Materials Availability Statement) the decision letter attaches to the invited revision.
 
 ## Expectations & norms
 

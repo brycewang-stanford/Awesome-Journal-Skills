@@ -1,6 +1,6 @@
 ---
 name: interspeech-review-process
-description: Use when reasoning about how INTERSPEECH review actually works — area-based assignment inside ISCA's scientific program, multi-reviewer scoring and meta-review on CMT, what the rebuttal can and cannot move, oral/poster allocation, ISCA best student paper selection, and reading a decision letter for next-cycle strategy.
+description: Use when reasoning about how INTERSPEECH review actually works — area-based assignment inside ISCA's scientific program, multi-reviewer scoring and meta-review in the review portal, what the rebuttal can and cannot move, oral/poster allocation, ISCA best student paper selection, and reading a decision letter for next-cycle strategy.
 ---
 
 # INTERSPEECH Review Process
@@ -9,20 +9,23 @@ Interspeech reviews several thousand submissions a year through an area-structur
 technical program committee, on a compressed spring schedule, with a single
 decision date. Understanding the machine explains both the review you got and the
 leverage you have. Mechanics are re-tuned annually by that year's Technical
-Program Chairs — the 2026 shape below is a snapshot, not a constitution.
+Program Chairs — the 2027 shape below is a snapshot, not a constitution.
 
-## The pipeline, 2026 shape
+## The pipeline, 2027 shape
 
-| Stage | 2026 anchor | Author-visible? |
+| Stage | 2027 anchor (2026 in brackets) | Author-visible? |
 |---|---|---|
-| Submission + update window | 25 Feb / update to 4 Mar | yes |
-| Area chairs assign reviewers within the chosen scientific area | Mar–Apr | no |
-| Independent reviews written (typically 3+) | Apr | at release |
-| Author rebuttal window | reported 24 Apr – 1 May (待核实) | yes |
-| Meta-review / area consolidation | May | in decision |
+| Submission + update window | 9 Feb / update to 16 Feb [25 Feb / 4 Mar] | yes |
+| Area chairs assign reviewers within the chosen scientific area | Feb–Mar | no |
+| Independent reviews written (typically 3+) | Mar–Apr | at release |
+| Author rebuttal window | 13–20 Apr [24 Apr – 1 May] | yes |
+| Meta-review / area consolidation | late Apr–May | in decision |
 | TPC acceptance meeting; program packing (oral vs poster) | May | no |
-| Notification | 5 Jun | yes |
-| Camera-ready | 19 Jun | yes |
+| Notification | 2 Jun [5 Jun] | yes |
+| Camera-ready | 9 Jun [19 Jun] | yes |
+
+Desk rejection happens before any of this for format violations, papers entirely
+developed or written by AI, and non-existing references (2027 call).
 
 The **area** is the unit of everything: your reviewers, your meta-reviewer, and
 your competition for slots all come from the scientific area you selected at
@@ -72,7 +75,7 @@ the conference. Award papers are useful exemplars of the venue's taste — see
 
 ## Confidentiality and conduct
 
-Reviews, scores, and CMT discussion are confidential; quoting them publicly
+Reviews, scores, and portal discussion are confidential; quoting them publicly
 violates community norms. Reviewer duty flows the other way too — Interspeech
 recruits heavily from the author pool, and reviewing a few papers well is how the
 4-page machine stays alive.
@@ -95,7 +98,7 @@ recruits heavily from the author pool, and reviewing a few papers well is how th
 - **March–April (silence)**: normal. Reviewer assignment and writing are
   underway; there is nothing to check and nobody to email.
 - **Late April (reviews/rebuttal, if run)**: the one author-input point of the
-  spring. Missing a one-week window because nobody watched CMT is a wholly
+  spring. Missing a one-week window because nobody watched the portal is a wholly
   preventable failure — name the watcher at submission time.
 - **May (silence again)**: meta-review and TPC consolidation; score changes here
   are invisible to you.
@@ -119,8 +122,8 @@ February version of the paper is the paper.
 [Review map] per-reviewer objection tags
 [Meta-review prediction] <the consolidated one-liner you must change>
 [Leverage] rebuttal-movable vs immovable points
-[If rejected] revise-for-2027 / Long Paper / journal / reroute + rationale
+[If rejected] revise-for-next-cycle / Long Paper / journal / reroute + rationale
 ```
 
-2026 anchors were checked 2026-07-08 (rebuttal dates from secondary sources —
-待核实); see `resources/official-source-map.md` for the trail.
+The 2027 and 2026 anchors were read directly on the official calls on 2026-11-24;
+see `resources/official-source-map.md` for the trail.

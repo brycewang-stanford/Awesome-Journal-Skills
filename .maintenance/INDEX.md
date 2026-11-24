@@ -17,6 +17,7 @@ Before editing any pack, the two files that actually gate work are
 | `ROADMAP-2026-08.md` | Current-month plan (window 2026-07-08 → 08-08): quality-saturation finish, measured expansion, fact-debt paydown, governance de-burden. |
 | `ACCEPTANCE-2026-08.md` | Current-month acceptance report (numbers re-verified against the working tree). |
 | `QUALITY-LANE-2026-09.md` | Forward quality-traction plan after the static scorecard saturated, **plus the 2026-08-23 revision** that retired its "no new scorecard dimensions" rule and split the tool into a pass/fail conformance gate and a ranking-only backlog score. The constraints that still bind — no auto-committing self-measuring apparatus, no behavioural eval in CI, the backlog score is not a target — are restated there. Read before touching `tools/quality_scorecard.py`. |
+| `ACCEPTANCE-2026-11.md` | Pre-submission polishing week (v1.2.0): plan vs delivered, facts corrected, what is carried forward. |
 | `CLAIMS.md` | Active multi-agent claims board. Claim a lane here before editing; commit with targeted `git add <path>`. |
 | `RELEASE-NOTES-v1.1.0.md` | Bilingual draft release notes awaiting an owner-run tag. |
 
@@ -39,7 +40,7 @@ Before editing any pack, the two files that actually gate work are
 | `FRESHNESS.md` | **Generated.** Per-pack `last_verified` dates parsed from each source map's own prose — the backlog for the live-check campaign. Rebuild with `python3 tools/freshness_audit.py --write`; never hand-edit. |
 | `DEAD-LINKS.md` | **Generated.** The actionable half of the external-link audit — dead citations and cross-host redirects, each with the files that cite it. Rebuild with `python3 tools/external_link_audit.py --write` (network); never hand-edit. Repairing a row means reading the replacement page and confirming it carries the fact the citation asserts, not finding a URL that returns 200. |
 | `LIVE-CHECK-URLS.txt` | URL list consumed by the live-check tooling. |
-| `live-check.workflow.yml` | Live-check workflow snippet. |
+| ~~`live-check.workflow.yml`~~ | Moved to `.github/workflows/live-check.yml` and activated 2026-11-23 (weekly; targets the pages behind the machine-readable rules blocks). |
 
 ## Historical archive — dated / completed logs
 

@@ -40,7 +40,7 @@ At EP, robustness has a specific purpose: the paper will be debated live by **tw
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Economic Policy is policy-facing applied economics; foreground a credible design and a policy-relevant magnitude.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Economic Policy is policy-facing applied economics; foreground a credible design and a policy-relevant magnitude.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

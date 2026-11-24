@@ -72,7 +72,7 @@ description: Use when the research design is the bottleneck for a 《中国行�
 ## 执行桥（StatsPAI / Stata MCP）
 
 把设计**跑出来并审计**，而不是只做描述。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《中国行政管理》是公共管理刊，实证用观察性与(准)实验设计；识别 + 聚类/多层推断，定性工作另循其标准。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《中国行政管理》是公共管理刊，实证用观察性与(准)实验设计；识别 + 聚类/多层推断，定性工作另循其标准。
 
 - `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
 - **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +

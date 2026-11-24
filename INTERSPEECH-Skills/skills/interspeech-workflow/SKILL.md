@@ -1,38 +1,40 @@
 ---
 name: interspeech-workflow
-description: Use when managing an INTERSPEECH project across the annual ISCA cycle — backward-planning from the late-February deadline through the update window, spring review, June notification, camera-ready and registration coupling, and the September–October conference, including what to do in the current post-decision phase and 2027 planning.
+description: Use when managing an INTERSPEECH project across the annual ISCA cycle — backward-planning from the February deadline (9 February 2027) through the update window, April rebuttal, June notification, camera-ready and registration coupling, and the late-summer conference (São Paulo, 29 August – 2 September 2027).
 ---
 
 # INTERSPEECH Workflow
 
 Interspeech runs one cycle per year with an unforgiving rhythm: a winter deadline,
 a silent spring, a June verdict, and a Northern-autumn conference. This skill is
-the project-management layer; every date below is the verified 2026 (Sydney)
-calendar and must be swapped for the live one each cycle.
+the project-management layer; every date below is the Interspeech 2027 (São Paulo)
+calendar read on the official call on 2026-11-24, and must be swapped for the live
+one each cycle.
 
-## The 2026 reference clock
+## The 2027 reference clock
 
-| Date (2026) | Event | Owner's job |
+| Date (2027) | Event | Owner's job |
 |---|---|---|
-| 17 Jan | CMT portal opens | metadata drafted, area chosen |
-| 25 Feb | Paper deadline | PDF + frozen metadata in |
-| 4 Mar | Paper-update close | sanctioned typo/figure pass done |
-| ~24 Apr – 1 May | Rebuttal window (reported, 待核实) | response team on call |
-| 5 Jun | Notification | triage meeting same week |
-| 19 Jun | Camera-ready close | de-anonymized PDF + metadata |
-| 15 Jul | Early-bird registration closes | author registration secured |
-| 16 Aug | Standard registration closes | stragglers covered |
-| 27 Sep – 1 Oct | Conference, Sydney | talk/poster + audio fallback ready |
+| 19 Jan | Submission portal opens | metadata drafted, area chosen |
+| 9 Feb | Paper deadline | PDF + frozen metadata in |
+| 16 Feb | Paper-update close | sanctioned typo/figure pass done |
+| 13–20 Apr | Rebuttal period | response team on call |
+| 2 Jun | Notification | triage meeting same week |
+| 9 Jun | Camera-ready close | de-anonymized PDF + metadata |
+| (待核实) | Registration tiers | author registration secured |
+| 29 Aug – 2 Sep | Conference, São Paulo | talk/poster + audio fallback ready |
 
-## Where the cycle stands today (2026-07-08)
+The 2026 (Sydney) clock for comparison: portal 17 Jan, deadline 25 Feb, update 4 Mar,
+rebuttal 24 Apr – 1 May, notification 5 Jun, camera-ready 19 Jun, early-bird
+registration 15 Jul, conference 27 Sep – 1 Oct 2026.
 
-Mid-cycle, post-decision. Accepted teams: camera-ready is behind you; **early-bird
-registration closes in one week** — that is the live deadline — then presentation
-prep, artifact publication (`interspeech-camera-ready`,
-`interspeech-artifact-evaluation`), and travel/visa for Sydney. Rejected or
-unsubmitted teams: the 2027 cycle (São Paulo, 29 Aug – 2 Sep 2027) is the target;
-expect a deadline in the same late-winter region but **treat the 2027 dates as
-unpublished until the São Paulo site posts them**.
+## Where the cycle stands today (2026-11-24)
+
+Between cycles. Interspeech 2026 (Sydney) has met. The Interspeech 2027 call is
+published: **the paper deadline is 9 February 2027, about eleven weeks away**, and
+the deadline is two weeks earlier than 2026's. The paper kit and submission page were
+still "available soon" — watch interspeech2027.org for them, and plan for an
+August–September conference in Brazil (visa lead times).
 
 ## Backward plan from any Interspeech deadline
 
@@ -47,7 +49,7 @@ Offsets that have survived contact with real teams; anchor them to live dates:
   mirroring the reviewer mix; significance tests run.
 - **T−1 week**: compression pass (`interspeech-writing-style`), anonymity sweep,
   demo page frozen.
-- **T**: submit half a day early; CMT queues at AoE cutoffs.
+- **T**: submit half a day early; submission portals queue at AoE cutoffs.
 - **T+1 week**: proofread the submitted PDF; use the update window for repairs
   only.
 
@@ -86,7 +88,7 @@ Assign at kickoff, not at crisis:
 - **Evidence owner** — experiment matrix, seeds, significance, scoring scripts.
 - **Compliance owner** — anonymity sweep (PDF + demo page + repo), license
   chain, policy checkboxes.
-- **Rebuttal watcher** — has CMT credentials, watches the reported window, owns
+- **Rebuttal watcher** — has portal credentials, watches the 13–20 April window, owns
   the response draft calendar.
 - **Logistics owner** — registration before the tier cutoffs, visa timelines,
   AV rehearsal for the talk or poster QR codes.
@@ -120,6 +122,6 @@ pattern above maps to exactly one vacant hat.
 ```
 
 Verified anchors and the 待核实 list live in
-`resources/official-source-map.md` (checked 2026-07-08). ISCA rotates organizing
+`resources/official-source-map.md` (re-verified 2026-11-24). ISCA rotates organizing
 committees per edition — the Sydney team's choices (tracks, rebuttal shape,
-attachment rules) do not bind São Paulo.
+attachment rules) did not bind São Paulo, and São Paulo's will not bind San Antonio.

@@ -13,7 +13,7 @@ English | [简体中文](README.zh-CN.md)
 
 Agent skill stack for manuscripts targeted at **The Journal of Finance (JF)** — the American Finance Association's (AFA) flagship **general-interest** finance journal, published by Wiley.
 
-This repository is opinionated. It is **not** a generic finance-writing toolbox. It is a **JF-specific** stack covering general-interest topic selection, literature positioning, causal identification (corporate/empirical) and asset-pricing test design, robustness with multiple-testing discipline, the journal-hosted Internet Appendix, accessible exposition, submission via Manuscript Central / ScholarOne, the demanding multi-round referee process, and R&R rebuttals.
+This repository is opinionated. It is **not** a generic finance-writing toolbox. It is a **JF-specific** stack covering general-interest topic selection, literature positioning, causal identification (corporate/empirical) and asset-pricing test design, robustness with multiple-testing discipline, the journal-hosted Internet Appendix, accessible exposition, submission via the AFA's Editorial Express portal, the demanding multi-round referee process, and R&R rebuttals.
 
 > Accuracy note: this pack describes **durable norms**, not volatile specifics. Always verify the current submission fee, AFA-membership rule, editor masthead, and formatting limits on the official JF / AFA author pages.
 
@@ -32,7 +32,7 @@ JF imposes constraints that differ materially from JFE, RFS, and field journals:
 | Test design (asset pr.) | Factor models, Fama–MacBeth/panel, correct SEs, multiple-testing   | Naive t > 2 from a signal search is treated as data mining    |
 | Length & style          | Somewhat shorter, accessible; depth moves to the Internet Appendix | Long, technical papers that bury the result draw complaints   |
 | Internet Appendix       | Journal-hosted; proofs and extra tables live online                | The main text stays focused; appendix items must be cited     |
-| Process                 | Manuscript Central / ScholarOne; fee + AFA-membership norms        | Verify current fee/membership; expect multi-round review      |
+| Process                 | AFA Editorial Express portal; tiered fee + AFA-membership norms    | Verify current fee/membership; expect multi-round review      |
 
 Generic "scientific writing" or "economics writing" packs do not address these constraints.
 

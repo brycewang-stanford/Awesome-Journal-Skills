@@ -8,15 +8,15 @@ shared kits so packs do not carry diverging copies.
 
 ## Shared kits
 
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
   — anonymous-review and public-release checks that transfer to any code/data artifact.
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
   — dependency-free smoke checker for package layout.
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
-  and [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)
+  and [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
   — reporting and objection scaffolding for human-subjects statistics; pair with
   [`../../skills/hri-experiments/SKILL.md`](../../skills/hri-experiments/SKILL.md).
-- [`../../../shared-resources/submission-readiness/response-to-referees.md`](../../../shared-resources/submission-readiness/response-to-referees.md)
+- [`../../../shared-resources/submission-readiness/response-to-referees.md`](../shared/submission-readiness/response-to-referees.md)
   — generic response scaffolding; adapt it to the single HRI **rebuttal** in
   [`../../skills/hri-author-response/SKILL.md`](../../skills/hri-author-response/SKILL.md).
 

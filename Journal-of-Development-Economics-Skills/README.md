@@ -11,7 +11,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-Agent skill stack for manuscripts targeted at the **Journal of Development Economics (JDE)** — the **leading field journal in development economics**, published by **Elsevier** and edited by Editors-in-Chief **A. Foster** and **K. Macours**. JDE publishes theoretical and empirical research on the economics of developing countries and the process of economic development.
+Agent skill stack for manuscripts targeted at the **Journal of Development Economics (JDE)** — the **leading field journal in development economics**, published by **Elsevier** and edited by Editor-in-Chief **K. Macours** (ScienceDirect masthead, re-verified 2026-11-24). JDE publishes theoretical and empirical research on the economics of developing countries and the process of economic development.
 
 This repository is opinionated. It is **not** a generic economics-writing toolbox. It is a **JDE-specific** stack for development economics: a first-order question about low- and middle-income economies, credible identification in messy field settings (RCT / DID / IV / RDD), welfare-relevant magnitudes, an extensive online appendix, and a **mandatory, review-stage-ready replication package** deposited to Mendeley Data.
 
@@ -28,7 +28,7 @@ JDE imposes constraints that differ from a top-5 general-interest journal or a m
 | Identification        | RCT/field experiment, DID, IV, RDD — defended for field settings             | OLS + controls is not enough                                     |
 | Publisher / portal    | **Elsevier**, via **Editorial Manager**                                      | Not OUP/Editorial Express; single-anonymized review              |
 | Review model          | **Single-anonymized** (referees know the author)                             | Do not anonymize as double-blind                                 |
-| Fee                   | **USD 50 non-refundable submission fee** for original manuscripts; optional OA APC after acceptance | Budget before filing; re-check the live payment screen           |
+| Fee                   | **USD 50 non-refundable submission fee** for original manuscripts (USD 25 students; waived for low- and middle-income economies); optional OA APC after acceptance | Budget before filing; re-check the live payment screen           |
 | Selectivity           | ~1,300 submissions/yr, ~1/4 reviewed, **~6-8% published**                    | A clean, complete, well-framed submission matters                |
 | Replication           | Mandatory replication policy + Elsevier **Option C** data policy            | Build the package before you submit                              |
 | Submission cap        | **≤ 3 papers per author per 12 months**                                      | Plan your submissions                                            |

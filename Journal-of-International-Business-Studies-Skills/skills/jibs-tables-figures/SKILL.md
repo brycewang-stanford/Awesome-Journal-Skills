@@ -14,7 +14,7 @@ description: Use when finalizing the tables and figures for a Journal of Interna
 
 ## Remember: exhibits count toward the JIBS word limit
 
-JIBS articles are ~10,000 words (strong/broad) or ~7,000 (narrower), and the word count is **inclusive of tables, figures, and appendices**. Every exhibit you add competes with text. Keep only exhibits that carry the cross-border argument; push full invariance and robustness output to an online appendix (which is also counted, so be disciplined).
+JIBS articles are ~10,000 words (strong/broad) or ~7,000 (narrower); the word count covers abstract, text, endnotes, and references, while tables, figures, and online supplemental appendices can follow (Research Notes of 4,000-6,000 words count everything). Exhibits still compete for reviewer attention and the contribution-to-length ratio: keep only exhibits that carry the cross-border argument, and push full invariance and robustness output to an online appendix.
 
 ## The exhibits a JIBS empirical paper usually needs
 
@@ -27,7 +27,7 @@ JIBS articles are ~10,000 words (strong/broad) or ~7,000 (narrower), and the wor
 
 ## JIBS Style Guide formatting
 
-Follow the **JIBS Style Guide**: 11-point Times New Roman, double-spaced, with author-date (name, year) citations in notes. Each table/figure must be **self-contained** — a title, defined variables and units, sample size, the estimator, what the SEs cluster on, and significance conventions stated in the note. Spell out country/region groupings. Keep decimals consistent.
+Follow the **JIBS Style Guide**: 11-point Times New Roman, double-spaced, with APA-style author-date (name, year) citations in notes. Each table/figure must be **self-contained** — a title, defined variables and units, sample size, the estimator, what the SEs cluster on, and significance conventions stated in the note. Spell out country/region groupings. Keep decimals consistent.
 
 
 ## Exhibit pass for Journal of International Business Studies
@@ -42,7 +42,7 @@ Use this as a second-pass capability check. First lock the cross-border mechanis
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JIBS is international business — cross-country panels with confounded institutions; emphasize fixed effects, clustering, and endogeneity of location / entry choices.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JIBS is international business — cross-country panels with confounded institutions; emphasize fixed effects, clustering, and endogeneity of location / entry choices.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

@@ -107,7 +107,7 @@ rddensity  X, c(0)                                             // CJM 操纵检�
 ## 执行桥（StatsPAI / Stata MCP）
 
 把设计**跑出来并审计**，而不是只做描述。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《经济研究》是中文经济学顶刊，识别可信度通常是约束；交错 DID、弱工具稳健 IV、RDD 与机制检验。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《经济研究》是中文经济学顶刊，识别可信度通常是约束；交错 DID、弱工具稳健 IV、RDD 与机制检验。
 
 - `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
 - **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +

@@ -49,7 +49,7 @@ JEBO's distinctive robustness demand is **mechanism robustness**: even a real, r
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEBO spans behavioral/experimental and applied micro; randomization inference for experiments, DiD/IV for observational claims.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JEBO spans behavioral/experimental and applied micro; randomization inference for experiments, DiD/IV for observational claims.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

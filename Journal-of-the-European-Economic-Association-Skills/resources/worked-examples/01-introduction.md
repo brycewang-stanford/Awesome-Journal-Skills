@@ -131,4 +131,4 @@ Mapped to this pack's skill checklists:
 > across fields, [`../../skills/jeea-replication-package/SKILL.md`](../../skills/jeea-replication-package/SKILL.md)
 > for building the package so it clears the JEEA Data Editor check, and [`../code/`](../code/) for a runnable
 > empirical command chain. For the venue-neutral referee objections a staggered-DiD claim must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

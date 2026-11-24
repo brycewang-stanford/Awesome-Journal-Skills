@@ -12,18 +12,21 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Need to confirm double-blind anonymization is complete
 - Verifying the manuscript matches the JIBS Style Guide and the inclusive word limit
 
-> Current limits, platform, fees, and policy wording below were refreshed from official JIBS/Springer/AIB pages on 2026-06-20. Re-verify the live submission-guidelines page and JIBS Style Guide before submitting.
+> Current limits, platform, fees, and policy wording below were refreshed from official JIBS/Springer/AIB pages on 2026-06-20 and re-verified 2026-11-24. Re-verify the live submission-guidelines page and JIBS Style Guide before submitting.
 
 ## Verified JIBS specs (confirm current values)
 
-- **Length:** Articles ~**10,000 words** for strong/broad contributions or ~**7,000 words** for narrower contributions; word count includes abstract, text, endnotes, and references, while tables, figures, and online supplemental appendices can follow. Research Notes should be **4,000-6,000 words including everything**.
-- **Abstract:** up to **200 words** (raised from the historical 100-word limit).
-- **Formatting:** **JIBS Style Guide** — **11-point Times New Roman, double-spaced**; **author-date (name, year)** in-text citation style.
-- **Submission portal:** JIBS online submission tool at **mc.manuscriptcentral.com**, reached from the Springer/AIB JIBS pages.
+- **Length:** Articles ~**10,000 words** for strong/broad contributions or ~**7,000 words** for narrower contributions; word count includes abstract, text, endnotes, and references, while tables, figures, and online supplemental appendices can follow. Research Notes should be **4,000-6,000 words including everything**. Manuscripts considerably longer than these guidelines are returned immediately without review.
+- **Abstract:** up to **200 words** (raised from the historical 100-word limit), on an anonymized Abstract Page with no reference citations.
+- **Keywords:** **three to six**; the first three must come from the JIBS Keywords list, up to three more may be custom.
+- **Formatting:** **JIBS Style Guide** — **11-point Times New Roman, double-spaced**, one-inch margins, pages numbered from the Abstract Page; **APA reference style** (author-date in-text citations, alphabetized and separated by semicolons; "et al." for three or more authors).
+- **Submission portal:** JIBS ScholarOne site at **mc.manuscriptcentral.com/jibs**, reached from the Springer/AIB JIBS pages.
 - **Review:** **double-blind** (authors and reviewers mutually anonymous), preceded by an editorial desk-screen for fit and contribution.
 - **Integrity:** manuscripts are screened with **iThenticate/CrossCheck**; format-compliance checks run on the platform.
 - **Data transparency (DART):** the **JIBS Data Access and Research Transparency (DART)** policy applies; on acceptance, authors provide a **Data Accessibility Statement (DAS)**; data made available should be deposited in a reputable repository with a **DOI**.
-- **Ethics:** read the **JIBS Code of Ethics** before submitting.
+- **Ethics:** read the **JIBS Code of Ethics** before submitting; if you have published from the same dataset or have closely related projects, upload an **originality matrix** with the cover letter.
+- **AI use:** follow the **AIB Guidelines for the Use of Generative AI** — the submission system requires an **AI use disclosure with every submission** (a brief statement for proofreading; a substantive description of tool, timing and validation for analysis, coding, screening or translation); AI may not be used for idea generation, and hallucinated references or undisclosed AI use are grounds for rejection.
+- **Data sharing at submission:** a DART **"comply or explain" data-sharing statement** is filed with the submission (share on acceptance, share after an embargo of up to five years, or explain why not).
 - **Fees:** subscription-route publication has **no APC charges**; optional gold open access after acceptance currently lists **GBP 3,090 / USD 4,990 / EUR 3,990**.
 
 ## Pre-submission checklist
@@ -38,9 +41,10 @@ description: Use when running the final pre-submission preflight for a Journal o
 ### Format (verify against the JIBS Style Guide)
 
 - [ ] Abstract ≤ **200 words**
-- [ ] **Author-date** citations and a matching reference list, alphabetized and complete
+- [ ] **APA-style** author-date citations and a matching reference list, alphabetized and complete
 - [ ] **11-pt Times New Roman, double-spaced** throughout
-- [ ] Total length within the **inclusive** ~10,000 / ~7,000 word budget (tables, figures, references, appendices counted)
+- [ ] Total length within the ~10,000 / ~7,000 word budget (abstract, text, endnotes, and references counted; tables, figures, and online supplemental appendices can follow) — Research Notes 4,000-6,000 words including everything
+- [ ] Three to six keywords, the first three from the JIBS Keywords list
 - [ ] Tables/figures self-contained; country groupings spelled out; acronyms (MNE, FDI, OLI) defined
 
 ### Cross-country specifics
@@ -53,7 +57,9 @@ description: Use when running the final pre-submission preflight for a Journal o
 
 - [ ] Anonymized main document (as the portal specifies)
 - [ ] Separate title page with all identifying information
-- [ ] Cover letter (fit, IB contribution, not under review elsewhere)
+- [ ] Cover letter (fit, IB contribution, not under review elsewhere; prior use of the data disclosed) and, where relevant, an **originality matrix**
+- [ ] **AI use disclosure** completed in the submission system
+- [ ] DART **"comply or explain"** data-sharing statement filed
 - [ ] Online appendix / supplementary files if any
 - [ ] **Data Accessibility Statement (DAS)** drafted per the DART policy (repository DOI, or a justified explanation of limited availability)
 - [ ] **JIBS Code of Ethics** read and complied with; human-subjects/IRB stated where applicable
@@ -78,11 +84,33 @@ description: Use when running the final pre-submission preflight for a Journal o
 【Next step】await decision → jibs-review-process; on R&R → jibs-rebuttal
 ```
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jibs-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Self-identifying language ("in our 2019 study") left in the anonymized file.
 - Acknowledgments/funding inside the anonymized manuscript.
-- Forgetting that references, tables, figures, and appendices count toward the word limit.
+- Forgetting that the abstract, endnotes, and references count toward the article word limit (tables, figures, and online supplemental appendices can follow), and that Research Notes count everything.
 - No Data Accessibility Statement, or not having read the JIBS Code of Ethics.
 - A non-author-date reference style straight from the reference manager.
 

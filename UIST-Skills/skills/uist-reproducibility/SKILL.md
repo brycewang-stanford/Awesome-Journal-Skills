@@ -9,8 +9,10 @@ Reproducibility at UIST means something different from rerunning a training scri
 the question is whether a competent lab could **rebuild the artifact and reproduce
 its measured behavior**. That decomposes into three ledgers — build, measurement,
 and study — and most UIST papers under-specify a different one than they think.
-UIST posts no reproducibility checklist (none found for 2026 — 待核实), so this
-discipline is self-imposed and reviewer-enforced.
+UIST posts no reproducibility checklist (none in the 2026 CFP or Author Guide,
+re-checked 2026-11-24 — the CFP only encourages supplementary material that supports
+reproducibility while requiring the paper to stand alone), so this discipline is
+self-imposed and reviewer-enforced.
 
 ## The build ledger: could they make one?
 

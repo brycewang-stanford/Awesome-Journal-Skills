@@ -59,7 +59,7 @@ The right design is dictated by the economics, not by fashion. As a rough orderi
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPE is top-5 general-interest economics; a credible design is the entry ticket — modern DiD/IV/RDD and the magnitude for a broad readership.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPE is top-5 general-interest economics; a credible design is the entry ticket — modern DiD/IV/RDD and the magnitude for a broad readership.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

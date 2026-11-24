@@ -8,8 +8,8 @@ description: Use when interpreting where a CSCW paper stands in review — the P
 CSCW reviews papers the way a journal does, wearing a conference's name. Decisions
 come in revision vocabulary, revised papers return to the **same reviewers**, and —
 under the rolling model launched for CSCW 2027+ — the process is run by an
-**editorial board** (Editors-in-Chief Amy Bruckman and Eric Gilbert, with handling
-editors per methodological track) rather than a per-year program committee. Reading
+**editorial board** (Editors-in-Chief Amy Bruckman and Eric Gilbert per the July 2026
+rolling CFP, with handling editors per methodological track) rather than a per-year program committee. Reading
 the process correctly changes how you write, revise, and wait.
 
 ## The decision ladder (2026-cycle vocabulary)
@@ -47,8 +47,13 @@ remember the first version. Consequences:
 ## The rolling editorial board (CSCW 2027+)
 
 - Submissions go to an EiC or Associate Editor matched to the paper's
-  **methodological track** (track boundaries were 待核实 at the 2026-07-08 check);
-  the editor recruits expert reviewers and owns the decision.
+  **methodological track** — Design/Theory, Mixed Methods, Qualitative,
+  Quantitative, or Systems (https://cscw.acm.org/2026/tracks.html, checked
+  2026-11-24); a paper may be moved between tracks for staffing. The editor
+  recruits expert reviewers and owns the decision.
+- R&R can run more than one round with the same editorial team; a rejected paper
+  must wait at least four months before a substantially revised resubmission
+  (July 2026 rolling CFP).
 - Advertised pace: decisions roughly **3-4 months** from submission, continuous
   rather than batched.
 - Practical shifts for authors: no bidding lottery — editor matching makes the
@@ -77,6 +82,7 @@ remember the first version. Consequences:
 [Next move] <the single action that advances the paper now>
 ```
 
-All statistics and names verified 2026-07-08 against cscw.acm.org blog posts and
-the rolling CFP; the rolling model is explicitly a soft launch, so expect its
+Statistics re-verified 2026-11-24 against the live cscw.acm.org decision blog posts;
+EiC names and the 3-4-month pace come from the July 2026 rolling CFP (Internet
+Archive capture — the live page no longer restates them); the rolling model is explicitly a soft launch, so expect its
 mechanics to be tuned — re-verify before relying on any number here.

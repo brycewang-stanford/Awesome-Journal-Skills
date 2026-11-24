@@ -18,11 +18,11 @@ description: Use when running the final pre-submission preflight for 《经济�
 
 ## 刊物与投稿基本事实 [官]
 
-- 主办：中国社会科学院经济研究所；主管：中国社会科学院；月刊；1955 年创刊；ISSN 0577-9154；CN 11-1081/F；主编**黄群慧**（中国社会科学院经济研究所；2026-06-22 联网复核仍为现任，投前建议以当期版权页 masthead 复核）。
+- 主办：中国社会科学院经济研究所；主管：中国社会科学院；月刊；1955 年创刊；ISSN 0577-9154；CN 11-1081/F；主编**李雪松**，副主编龚云、邓曲恒（2026-11-23 据官网编委会页核实；此前记为黄群慧，已更替；投前建议以当期版权页 masthead 复核）。
 - 收录：CSSCI、北大中文核心、AMI 顶级（社科类，**无** CSCD——那是科技类索引）。
-- 投审稿系统：<https://erj.ajcass.com/Admin/user/login>（官文镜像 jjyj.ajcass.org）；**2018-10-01 起仅线上投稿**，不收纸质稿。
-- **不收审稿费、不收版面费**（¥0；多源一致，符合社科院系刊政策；自托管费用声明以官网为准）。
-- 实行**匿名审稿**：作者姓名/排序/单位/资助等信息须置于**独立页**，正文匿名化。
+- 投审稿系统：<https://erj.ajcass.com/Admin/user/login>（官网称「唯一网址」，其他网址均与本系统无关）；**2018-10-01 起仅线上投稿**，不收纸质稿；稿件须是 **DOC 或 DOCX** 格式。
+- **不收审稿费、不收版面费**（¥0；多源一致，符合社科院系刊政策；官网各栏目未见收费/免费声明，以编辑部为准）。
+- 实行**匿名审稿**：作者姓名/排序/单位/资助等信息须置于**独立页**；稿件各处（含电子版文件属性）须完全匿名化，否则编辑部可直接退稿。
 
 ## 投稿前 Checklist
 
@@ -44,7 +44,7 @@ description: Use when running the final pre-submission preflight for 《经济�
 ### 摘要与关键词
 
 - [ ] 中文内容提要约 **300 字** [官]
-- [ ] 英文梗概（Summary）覆盖**五要素**（背景与意义 / 主题与思路 / 方法·理论·数据及来源 / 主要结论及政策建议 / 创新与贡献）[官]
+- [ ] 英文梗概（Summary）覆盖**五要素**（背景与意义 / 主题与思路 / 方法·理论·数据及来源 / 主要结论及政策建议 / 创新与贡献），篇幅约 **4400 字符（含空格）** [官]
 - [ ] 已另附英文梗概的**中文对照**（仅供编校、不刊出）[官]；官方未规定其字数 [经验值：因梗概是浓缩全文的长摘要，对照通常明显长于约 300 字提要]
 - [ ] 中文关键词 3–5 个 + 对应英文 Key Words [经验值]
 - [ ] JEL 分类号已标注 [经验值，强烈建议——已刊文章普遍带 JEL，但官方投稿须知未见明确强制]
@@ -66,7 +66,7 @@ description: Use when running the final pre-submission preflight for 《经济�
 
 ### 学术规范 [官]
 
-- [ ] 中文原创、本人独立完成；**无一稿多投**（官方处罚：故意抄袭/造假/一稿多投 → 10 年内不予发表）
+- [ ] 中文原创、本人独立完成；**无一稿多发**（官方处理：故意抄袭或造假 → 已发表的声明撤消、未发表的中止评审；「拟一稿多发」→ 十年内不发表其作品）
 - [ ] 已做学术不端检测，查重比例符合要求 [经验值：社区经验 < 10%，官方未发布数字阈值，以官网为准]
 - [ ] 工作论文 / 会议论文版本是否已声明？
 
@@ -108,3 +108,25 @@ description: Use when running the final pre-submission preflight for 《经济�
 - [`templates/checklist.md`](templates/checklist.md) — 投稿前自检清单（[官]/[经验值] 分层标注）
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — 官方事实核查表（VERIFIED / 待核实 分层 + 出处）
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — 数据资源与统计软件包速查
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue economic-research-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

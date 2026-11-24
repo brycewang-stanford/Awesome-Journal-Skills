@@ -14,8 +14,8 @@ description: Use when running the final pre-submission preflight for the Journal
 
 ## Process facts (live-check operational fields on the official Guide for Authors)
 
-- **Publisher Elsevier;** submission through Elsevier's **Editorial Manager** online system. Founded 1972 by Tony Atkinson; current Editors **Nathaniel Hendren (MIT)** and **Wojciech Kopczuk (Columbia)** (re-verified 2026-06-22; re-confirm the masthead on the ScienceDirect editorial-board page before naming an editor).
-- **Submission fee: US$165** per unsolicited manuscript. A reduced **US$82.50** fee applies to **full-time students** via a student discount code (obtained by contacting the journal, entered during submission). The fee is **waived** when the manuscript is **transferred into the journal via Elsevier's article transfer service**. Unlike many top economics journals that are free or charge only a handling fee, JPubE charges this fee — budget for it unless you are transferring.
+- **Publisher Elsevier;** submission through Elsevier's **Editorial Manager** online system. Founded 1972 by Tony Atkinson; current Editors **Nathaniel Hendren (MIT)** and **Wojciech Kopczuk (Columbia)** (re-verified 2026-11-24 from an Internet Archive capture of the ScienceDirect page; re-confirm the masthead on the ScienceDirect editorial-board page before naming an editor).
+- **Submission fee: US$165** per unsolicited manuscript (could not be re-confirmed on 2026-11-24 — some renderings of the official Guide show USD 250; check the live fee screen before paying, see the source map's UNVERIFIED list). A reduced **US$82.50** fee applies to **full-time students** via a student discount code (obtained by contacting the journal, entered during submission). The fee is **waived** when the manuscript is **transferred into the journal via Elsevier's article transfer service**. Unlike many top economics journals that are free or charge only a handling fee, JPubE charges this fee — budget for it unless you are transferring.
 - **Single anonymized review;** suitable submissions go to a minimum of two reviewers (author identity is known to reviewers — see `jpube-review-process`).
 - **Short Paper track:** no more than 6,000 words, up to five exhibits, main text and exhibits standing on their own; the journal aims for 4-6 week decisions on refereed short papers.
 - **Abstract: 250 words maximum**, concise and factual (purpose, principal results, major conclusion).
@@ -53,6 +53,28 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] Abstract states the policy finding with a number (see jpube-writing-style)
 - [ ] Identification + welfare mapping complete (see jpube-identification-strategy, jpube-data-analysis)
 - [ ] No over-claiming beyond what the design supports
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jpube-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

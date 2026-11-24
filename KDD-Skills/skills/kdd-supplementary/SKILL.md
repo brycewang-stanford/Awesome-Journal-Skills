@@ -8,7 +8,8 @@ description: Use when splitting a KDD paper across its 8 content pages, the opti
 Use this when distributing material across the three containers a KDD submission
 actually has: the 8 content pages, the optional appendix after the references, and the
 repository cited in the PDF. KDD has no separate supplement upload deadline in the
-2026 pattern — the appendix travels inside the submission PDF — which makes the split
+2026-2027 pattern — the appendix travels inside the submission PDF, with no page limit,
+and reviewers need not read past page 8 — which makes the split
 decision a writing-time decision, not a deadline-week one.
 
 ## The container model
@@ -115,7 +116,7 @@ question a reviewer might ask. That is the target state.
 - Whether reviewers are instructed that appendix reading is optional — assume yes
   and write the body accordingly.
 - The exact camera-ready arithmetic: the 9-content/3-refs+appendix/12-total split is
-  the 2026 rule; later cycles may rebalance it.
+  the 2026 rule, unchanged for KDD 2027 in all four tracks; later cycles may rebalance it.
 
 ## Output format
 

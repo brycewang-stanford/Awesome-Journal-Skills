@@ -36,18 +36,24 @@ RecSys 既不是通用机器学习会议，也不是信息检索会议。它的�
 渲染结果核验，并与 ACM DL、dblp 以及逐字镜像 CFP 的邮件列表 Call 交叉核对。在依赖任何具体
 deadline、页数或费用之前，请直接重新打开主 URL。
 
-## 当前周期状态（截至 2026-07-09）
+## 当前周期状态（2026-11-23 复核）
 
-- RecSys 2026 是**第 20 届** ACM 推荐系统会议，地点 **美国明尼苏达州 Minneapolis**，主会期
-  **2026 年 9 月 28 日至 10 月 2 日**（Doctoral Symposium 9 月 27 日，暂定）。
-- 主 track 的摘要（4 月 14 日）、论文（4 月 21 日）与 rebuttal（6 月 4–9 日）截止日期均已**过期**。
-  **主 track 通知日期为 2026 年 7 月 9 日——即今天**——因此对许多作者而言，当前阶段是 decision 与
-  camera-ready，而不是投稿。
-- Reproducibility 与 Industry track 同样在 7 月 9 日通知，camera-ready 为 2026 年 7 月 27 日。
-- **R&P Notes 与 Demos**（截止 2026 年 7 月 15 日）仍开放。RecSys 2026 **取消了 Late-Breaking
+- **下一届：** **RecSys 2027**，第 21 届 ACM 推荐系统会议，**美国夏威夷檀香山（O‘ahu），
+  2027 年 8 月 23–27 日**（General Co-Chairs：Christine Bauer、Joeran Beel、Bamshad Mobasher）。
+  **RecSys 2027 征稿尚未发布**——截稿日期、程序主席、track 与页数预算均未知；会期比 2026 年早约一个月。
+- RecSys 2026 为**第 20 届**，在**美国明尼苏达州 Minneapolis** 举行，2026 年 9 月 28 日至 10 月 2 日
+  （Doctoral Symposium 9 月 27 日；主会 9 月 29 日至 10 月 1 日）。其征稿是目前最新的已发布版本，
+  本包规则以其为锚。
+- 2026 主 track 时间线（历史）：摘要 4 月 14 日、论文 4 月 21 日、rebuttal 6 月 4–9 日（仅限
+  **500 字符**、只用于指出事实错误）、通知 7 月 9 日、camera-ready 7 月 27 日（严格），camera-ready
+  后一周内提交录制视频。
+- **APC：** ACM 自 2026 年 1 月 1 日起全面开放获取，作者所在机构未加入 ACM Open 的，主 track、
+  Reproducibility 与 Industry 论文需付 APC——2026 年补贴价 ACM/SIG 会员 250 美元、非会员 350 美元。
+- **R&P Notes 与 Demos** 截止于 2026 年 7 月 15 日。RecSys 2026 **取消了 Late-Breaking
   Results（LBR）track**，新增以 poster 形式呈现的 **Research & Practice（R&P）Notes**，并在主
   track 新增 **「Past, Present and Future」论文**类型。
-- 前瞻规划：把每条 2026 事实都当作历史锚点，RecSys 2027 站点开放后再重新核验。
+- 前瞻规划：把每条 2026 事实都当作历史锚点，待 `recsys.acm.org/recsys27/call/` 的占位页被正式
+  RecSys 2027 征稿取代后再重新核验。
 
 ## Skills
 

@@ -67,7 +67,7 @@ The reader now understands the magnitude, the inference, and where to find more 
 
 Generate the exhibit from the fitted result, don't transcribe numbers by hand (the
 most common source of body-vs-IA inconsistency). Full map:
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - **Regression tables:** `etable` (multi-model columns) or `did_summary_to_latex` /
   `did_summary_to_markdown` straight from the `result_id` — one variable definition,

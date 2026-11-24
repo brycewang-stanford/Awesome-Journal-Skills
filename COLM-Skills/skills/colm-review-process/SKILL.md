@@ -23,10 +23,11 @@ is what lets authors time their effort correctly.
 | Camera-ready | August 7 | Accepted papers finalize |
 | Conference | October 6-9, San Francisco | Main program Oct 6-8, workshops Oct 9 |
 
-On this pack's access date — July 8, 2026 — the pipeline is at its decision moment:
-rebuttals are closed and notifications land today. If you are triaging an outcome,
-go directly to `colm-camera-ready` (accept) or the resubmission logic below
-(reject).
+The pack was built on July 8, 2026 — COLM 2026's decision day. As of the
+2026-11-23 re-check the 2026 cycle is complete (the conference met October 6-9) and
+no 2027 calendar has been published, so the table above is the latest verified
+cycle shape, not a schedule. Outcome triage still routes to `colm-camera-ready`
+(accept) or the resubmission logic below (reject).
 
 ## Who reviews you, and why it feels different
 
@@ -115,7 +116,7 @@ moving every score by one point.
 ## Output format
 
 ```text
-[Phase today] <where the current cycle actually is — verify against colmweb.org/dates.html>
+[Phase today] <where the current cycle actually is — verify against colm.cc (Dates page of the current edition)>
 [Packet triage] A: <n> misreadings / B: <n> evidence gaps / C: <n> scope fights / D: <n> hits
 [AC-facing issue] <the one point the meta-review will turn on>
 [Deadline math] <days left in the relevant window>

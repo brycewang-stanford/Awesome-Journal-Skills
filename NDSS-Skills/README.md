@@ -9,14 +9,11 @@ review with an early reject and an interactive rebuttal, handling the **Accept /
 Revision / Major Revision** decision set, and delivering an open-access Internet Society
 camera-ready plus optional artifact badges.
 
-Official basis checked on **2026-07-08**: the NDSS 2027 Call for Papers and Call for
-Artifacts, the live `ndss27-summer.hotcrp.com` cycle site, the Internet Society's June 2026
-announcement of the move to Seoul, the NDSS 2026 co-located-events and open-publication
-pages, the Test of Time award page, and dblp's `conf/ndss` stream. Direct fetches of
-`ndss-symposium.org` and `dblp.org` returned HTTP 403 in the verification environment, so
-official pages were read through search-engine renderings of the exact URLs and
-cross-checked against HotCRP, Internet Society pages, and dblp records; the full trail,
-including everything still marked 待核实, is in
+Official basis first checked on 2026-07-08 and **re-verified 2026-11-24** by direct fetch of
+the NDSS 2027 Call for Papers, Call for Artifacts, home page and organizing committee. Both
+NDSS 2027 cycles have closed (papers were due May 6 and August 19, 2026); NDSS 2028 has no
+published call yet. The re-read corrected most of the 2027 review-calendar dates. The full
+trail, including everything still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What makes NDSS different from its siblings
@@ -29,9 +26,10 @@ and systems conferences:
   2027 edition deliberately breaks that pattern: **Seoul, Republic of Korea, 22-26 March
   2027**, to grow Asia-Pacific participation. Treat even the host city as a per-edition fact.
 - **Two submission cycles into one symposium.** A summer cycle (2027 papers due May 6, 2026)
-  and a **fall cycle (papers due August 19, 2026)**, each a complete pipeline. A paper
-  rejected in one cycle cannot return with major overlap in the same symposium's other cycle
-  — cycle choice is strategic, and a fall deadline may be imminent as you read this.
+  and a fall cycle (papers due August 19, 2026), each a complete pipeline. A rejected paper
+  may not be resubmitted to the same edition, and a summer reject cannot return with major
+  overlap in the fall cycle — cycle choice is strategic. Each author may be on at most six
+  submissions per cycle.
 - **Two-round review with an early reject.** Round 1 filters on a fast read and ejects the
   bottom with no rebuttal; survivors reach Round 2, see reviews, and file a rebuttal into an
   **interactive discussion phase** with the reviewers.
@@ -42,6 +40,8 @@ and systems conferences:
   page count), an **Ethics Review Board** of TPC members that can reject on ethical grounds,
   the **Menlo Report** as the named baseline, and disclosure expectations for high-impact
   vulnerabilities — IRB sign-off alone is not treated as sufficient.
+- **Generative AI must be disclosed.** Use is permitted, but disclosure at submission scales
+  with how much was generated; grammar-only editing is exempt.
 - **13 pages, generous exclusions.** Thirteen body pages in the NDSS template, with the
   ethics section, references, and appendices *outside* the count — but reviewers need not
   read appendices, so the acceptance case must live in the body.
@@ -72,7 +72,7 @@ and systems conferences:
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Eleven official sources with URLs and access dates; the access-method note; verified 2027 cycle facts; reported facts; the explicit 待核实 list. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Twelve official sources with URLs and access dates; the access-method note; verified 2027 cycle facts; reported facts; the explicit 待核实 list. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces plus six author-side verification passes for cycle, format, anonymity, ethics, cap, and post-acceptance. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five metadata-verified NDSS papers (two Test of Time winners) across contribution types, with self-checks and a checked misattribution list. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional stale-delegation DNS abstract and introduction rebuilt around adversary model, measurement discipline, and disclosure, before → after. |
@@ -124,12 +124,11 @@ The skills keep three classes of statement distinguishable:
 
 1. **Verified cycle facts** — carry dates/caps and trace to a numbered source in the source
    map (the August 19, 2026 fall deadline, the 13-page limit, the Accept/Minor/Major decision
-   set, the Seoul move).
-2. **Reported facts** — found only in secondary sources and labeled as such (e.g., a named
-   Publication Chair found on a personal page).
+   set, the Seoul move, the 2027 chairs).
+2. **Reported facts** — found only in secondary sources and labeled as such.
 3. **Unverifiable-at-check-time items** — marked 待核实 and written as questions to resolve,
-   never as facts (the fall HotCRP URL, the Major-Revision resubmission window, 2027 chairs,
-   any generative-AI policy, the 2027 co-located workshop list, 2027 artifact deadlines).
+   never as facts (everything about NDSS 2028, the 2027 co-located workshop list, the
+   attendance policy).
 
 If any skill presents class 2 or 3 material as class 1, treat it as a bug and fix it against
 the live official pages.

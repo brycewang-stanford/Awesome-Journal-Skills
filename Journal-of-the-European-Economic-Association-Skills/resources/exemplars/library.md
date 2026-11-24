@@ -122,5 +122,5 @@ Wiley-Blackwell page for pre-OUP articles) with volume/issue/pages **and** that 
 `10.1093/jeea` or `10.1111/j.1542-4774`, then update the access-date header. When in doubt, omit.
 
 > For the venue-neutral objections each design must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
-> and [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
+> and [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

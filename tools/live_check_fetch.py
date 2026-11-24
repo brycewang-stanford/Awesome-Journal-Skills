@@ -61,15 +61,30 @@ def main() -> int:
     ap.add_argument("--list", default=str(DEFAULT_LIST), help="target list file")
     ap.add_argument("--timeout", type=int, default=30)
     ap.add_argument("--max-chars", type=int, default=6000, help="text budget per page")
+    ap.add_argument("--from-rules", action="store_true",
+                    help="target the official pages behind every machine-readable rules block "
+                         "(shared-resources/submission-readiness/venue-rules.json) instead of --list; "
+                         "these are the facts preflight enforces, so they are re-read first")
     args = ap.parse_args()
 
     targets: list[tuple[str, str]] = []
-    for line in Path(args.list).read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        url, _, hint = (part.strip() for part in line.partition("|"))
-        targets.append((url, hint))
+    if args.from_rules:
+        import json
+        rules = json.loads((ROOT / "shared-resources" / "submission-readiness" / "venue-rules.json")
+                           .read_text(encoding="utf-8"))["venues"]
+        by_url: dict[str, list[str]] = {}
+        for pack, entry in sorted(rules.items()):
+            for key, rule in entry["rules"].items():
+                if isinstance(rule, dict) and rule.get("value") is not None and rule.get("source"):
+                    by_url.setdefault(rule["source"], []).append(f"{pack}:{key}={rule['value']}")
+        targets = [(url, "; ".join(facts)[:400]) for url, facts in sorted(by_url.items())]
+    else:
+        for line in Path(args.list).read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#"):
+                continue
+            url, _, hint = (part.strip() for part in line.partition("|"))
+            targets.append((url, hint))
 
     blocked = 0
     for url, hint in targets:

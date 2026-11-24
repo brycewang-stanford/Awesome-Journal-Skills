@@ -6,11 +6,12 @@ description: Use when performing the final pre-upload audit of a UIST paper in P
 # UIST Submission
 
 This is the audit to run in the final week before the Papers deadline. Numbers below
-are the verified 2026 cycle (checked 2026-07-08 via search renderings of
-`uist.acm.org/2026/`, direct fetch blocked): abstracts March 24, papers March 31,
-both 11:59 pm AoE. The 2026 deadline has passed — apply this skill to a 2027
-submission only after re-reading that year's Author Guide, and expect the numbers to
-move.
+are the UIST 2026 rules, the latest published (re-verified 2026-11-24 against the live
+`uist.acm.org/2026/cfp/`): abstracts March 24, paper PDF March 31, materials April 9, all
+11:59 pm AoE. UIST 2027 (Vienna, October 26-29, 2027) has announced abstract March 31,
+full paper April 7 and supplementary materials April 9 deadlines, but its CFP and
+Author Guide are not yet published — apply this skill to a 2027 submission only after
+re-reading that year's Author Guide, and expect the numbers to move.
 
 ## What PCS collects, and when
 
@@ -18,21 +19,25 @@ UIST runs on PCS (Precision Conference Solutions): in the submission form, choos
 society "SIGCHI", conference "UIST 2026", track "UIST 2026 Papers". Two deadlines
 structure the week:
 
-1. **Abstract deadline (one week out).** Title, abstract, author list, and metadata
-   must exist in PCS. This gates reviewer assignment — a placeholder abstract that
+1. **Abstract deadline (one week out).** Title, abstract, the complete author list
+   (late additions or reordering need program-chair approval), and metadata must exist
+   in PCS. This gates reviewer assignment — a placeholder abstract that
    drifts from the final paper lands you with mismatched reviewers, the least
    fixable submission error.
-2. **Paper deadline.** The PDF, the video figure, and all supplementary files.
-   Everything reviewed arrives now; there is no later supplement slot.
+2. **Paper deadline.** The paper PDF (< 20 MB). The body is frozen now.
+3. **Materials deadline (nine days later in 2026).** Video figure, supplementary
+   files, alt text for every figure/subfigure/table, and video subtitles; all files
+   together < 300 MB. This slot is for the materials only, not for paper edits.
 
 ## Format gate
 
 | Check | 2026 rule | Enforcement |
 |---|---|---|
 | Template | Two-column `acmart`, `\documentclass[sigconf,review,anonymous]{acmart}` | Manual + visual |
-| Body length | 10 pages (standard) or 5 pages (short), excluding references and appendices | **Desk reject if exceeded** |
+| Body length | 10 pages (standard) or 5 pages (short), excluding references and appendices; acknowledgements count | **Desk reject if exceeded** |
 | Appendices | Inside the same PDF, after references; body must stand alone | Review-stage damage |
-| Video figure | Optional, strongly encouraged: ≤ 3 min, 1080p/4K, MP4 H.264 | Reviewer-side (see `uist-supplementary`) |
+| Video figure | Optional, strongly encouraged: ≤ 5 min, 1080p/4K, MP4 H.264, < 250 MB, separate .srt/.sbv subtitles | Reviewer-side (see `uist-supplementary`) |
+| Generative AI | Avoid generating content with LLMs/AI agents; editing and checking your own text is allowed | Policy (CFP + Author Guide) |
 | Anonymity | Paper, video, and supplement all purged of identity | Desk reject |
 
 A short paper is a distinct category (smaller complete contribution), not a truncated
@@ -65,8 +70,9 @@ unzip -l supplement.zip | grep -Ei '\.git|DS_Store|/Users/|/home/' | head
 1. **T-7d:** abstract deadline — final title/abstract in PCS, authors and conflicts
    complete, subject metadata chosen for reviewer routing.
 2. **T-5d:** body frozen at the page limit; appendix absorbs the overflow.
-3. **T-4d:** video locked (edits, captions, anonymization) and compressed to spec;
-   verify PCS accepts the file size early, since caps were not published (待核实).
+3. **T-4d:** video cut planned (edits, captions, anonymization) — it ships with the
+   later materials deadline, but compress a test file to spec now (< 250 MB video,
+   < 300 MB for all files in 2026).
 4. **T-2d:** full anonymity sweep on the merged PDF, video, and archive; run the
    mechanical checks above on the exact files to be uploaded.
 5. **T-1d:** upload everything, then re-download from PCS and open cold — the
@@ -82,7 +88,7 @@ ahead rather than composing in the upload session:
 - **Title and abstract** — identical to the PDF, since the abstract drives
   reviewer matching from the abstract deadline onward.
 - **Author list and conflicts** — complete at abstract time; adding authors later
-  in the process is at minimum awkward and possibly restricted (待核实 per cycle).
+  in the process needs program-chair approval and may be declined (2026 CFP).
 - **Subject/topic descriptors** — choose for the reviewer pool you want; a
   fabrication paper tagged only "AI" gets AI reviewers.
 - **Prior-submission declarations** — where the form asks about overlapping or
@@ -103,11 +109,35 @@ ahead rather than composing in the upload session:
 
 ## Dual-track and dual-venue rules
 
-- Papers under review elsewhere may not be under review at UIST at the same time.
+- Papers under review elsewhere may not be under review at UIST at the same time,
+  and closely related concurrent submissions (same study, artifact or dataset) must
+  be declared and explained in PCS — failure is a desk reject (2026 CFP).
 - Within UIST 2026, the same work sent to both Demos and Posters is treated as a
   demo submission and rejected from Posters — pick one adjunct lane deliberately.
 - A prior adjunct publication (demo/poster abstract) of the same system does not
   anonymize away: cite it in the third person and state the delta.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue uist-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

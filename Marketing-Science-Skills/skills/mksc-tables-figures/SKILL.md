@@ -33,7 +33,7 @@ A Marketing Science paper is read through its model and its counterfactuals, so 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Marketing Science is heavily structural/analytical; the chain below serves its reduced-form / field-experiment lane — structural demand and analytical modeling are outside this causal-inference toolchain.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Marketing Science is heavily structural/analytical; the chain below serves its reduced-form / field-experiment lane — structural demand and analytical modeling are outside this causal-inference toolchain.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

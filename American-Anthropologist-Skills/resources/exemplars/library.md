@@ -123,4 +123,4 @@ Before adding any new paper to this library, confirm it on AnthroSource / Wiley
 (`anthrosource.onlinelibrary.wiley.com`) with volume/issue/pages and the `10.1525/aa.*` or `10.1111/aman.*`
 DOI, and update the access-date header. When in doubt, omit. For background reporting hygiene on the
 *quantitative* (biological/archaeological) subfields only, see
-[`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+[`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

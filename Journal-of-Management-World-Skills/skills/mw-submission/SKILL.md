@@ -23,18 +23,18 @@ description: 用于《管理世界》投稿前的最终 preflight 检查，规�
 
 ### 字数
 
-- [ ] 正文字数 1.5–2.5 万（含图表）
-- [ ] 中文摘要 300–500 字
-- [ ] 英文摘要 200–300 词
-- [ ] 关键词中文 3–5 个 + 英文对应
+- [ ] 正文字数 1.5–2.5 万（含图表）[经验值；官网只说「篇幅应与其贡献相匹配」，未给上限]
+- [ ] 中文摘要 **300 字以内** [官网投稿须知，2026-11-23 核实]
+- [ ] 英文摘要 200–300 词 [经验值；官网只要求中英文标题，未提英文摘要字数]
+- [ ] 关键词 **3～5 个** [官] + 英文对应
 
 ### 双盲
 
-- [ ] 正文中**任何能识别作者身份**的内容已去除
+- [ ] 首页之外**任何能识别作者身份**的内容已去除（官网：首页提供中英文标题、摘要、关键词、作者姓名/单位/联系方式与致谢；「除首页之外的其他地方，请勿出现有可能泄露作者身份的任何信息」）
   - 自引使用"已有研究（XX，2020）"，不要写"作者前期研究"
-  - 致谢页**单独**提交，不在正文中
-  - 项目基金信息**单独**提交
-  - 作者联系方式只在投稿系统中填，不写在正文
+  - 致谢只放首页（或按系统要求单独提交），不在正文中
+  - 项目基金信息只放首页 / 单独提交
+  - 作者联系方式只在首页与投稿系统中填，不写在正文
 - [ ] 文件名不包含作者姓名 / 单位
 
 ### 参考文献
@@ -62,7 +62,7 @@ description: 用于《管理世界》投稿前的最终 preflight 检查，规�
 ## 投稿系统操作要点
 
 - 《管理世界》在线投稿系统：勤刷新，单次上传 ≤ 20MB
-- **收费**：本刊特别声明**不收审稿费、不收版面费**（2026-06-22 复核 CNKI 出版平台及多家投稿信息页一致；务必经官方系统投稿，谨防代投/收费陷阱，**以编辑部最新声明为准**）
+- **收费**：官网声明**本刊不收取审稿费**、未委托任何单位或个人组稿（2026-11-23 官网投稿指南直读）；「不收版面费」见于多家投稿信息页，官网未单独写明；2007 年起不再支付稿费。务必经官方系统投稿，谨防代投/收费陷阱，**以编辑部最新声明为准**
 - 推荐审稿人 3 名（建议同领域、有相关发表、不与作者有合作）
 - 不推荐审稿人 0–2 名
 - 选择"研究类型"务必准确（实证 / 理论 / 综述 / 案例）
@@ -123,3 +123,25 @@ description: 用于《管理世界》投稿前的最终 preflight 检查，规�
 【附件齐全】是 / 否
 【下一步】等待外审 / 收到 R&R → mw-rebuttal
 ```
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue management-world-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

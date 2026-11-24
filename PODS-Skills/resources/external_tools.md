@@ -14,7 +14,7 @@ venue with **PODC** (Principles of *Distributed* Computing), a different ACM sym
 - PODS 2026 (Bengaluru, 31 May - 5 Jun 2026) research call: https://2026.sigmod.org/calls_papers_pods_research.shtml
 - PODS 2026 Important Dates: https://2026.sigmod.org/calls_papers_important_dates.shtml
 - PODS 2026 PODS Program Committee: https://2026.sigmod.org/org_pods_pc.shtml
-- PODS 2026 submission portal (EasyChair): https://www.easychair.org/my/conference?conf=pods2026
+- PODS 2026 submission portal (EasyChair, `pods2026`; sign-in required): https://easychair.org/conferences/?conf=pods2026 — public CFP listing: https://easychair.org/cfp/PODS2026
 - PODS 2027 (Huntington Beach, 13-19 Jun 2027) Important Dates (next live target):
   https://2027.sigmod.org/calls_papers_important_dates.shtml
 - PACMMOD PODS track: https://dl.acm.org/journal/pacmmod/pods

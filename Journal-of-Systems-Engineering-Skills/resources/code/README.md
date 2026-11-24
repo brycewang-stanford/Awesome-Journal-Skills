@@ -26,5 +26,5 @@ project/
 - MBSE：需求—架构—仿真追溯矩阵与接口一致性。
 
 因果实证支线可复用仓库
-[`shared-resources/empirical-methods/`](../../../shared-resources/empirical-methods/)；
+[`shared-resources/empirical-methods/`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/tree/main/shared-resources/empirical-methods)；
 其他支线按稿件问题建立最小项目，不为了目录形式生成空壳代码。

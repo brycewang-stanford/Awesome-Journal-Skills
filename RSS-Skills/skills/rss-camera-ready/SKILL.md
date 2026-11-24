@@ -5,9 +5,9 @@ description: Use when converting an accepted RSS (Robotics: Science and Systems)
 
 # RSS Camera Ready
 
-Turn the anonymous accepted version into the archival one. The 2026 camera-ready
-deadline was never publicly surfaced (待核实 — take it from the acceptance email);
-everything else below is verified venue mechanics as of 2026-07-08.
+Turn the anonymous accepted version into the archival one. The RSS 2027 camera-ready
+is due **May 14, 2027** (11:59pm AoE), two weeks after the April 30 notification;
+everything below is verified venue mechanics as of 2026-11-24.
 
 ## What changes at this stage, specifically at RSS
 
@@ -19,7 +19,7 @@ everything else below is verified venue mechanics as of 2026-07-08.
 | Anonymized supplement archive | Public artifact release (`rss-artifact-evaluation`) |
 | Reviewed claims | Same claims + accepted clarifications only |
 
-The links row is the venue-specific one: RSS 2026 explicitly deferred all external
+The links row is the venue-specific one: RSS 2027 (like 2026) defers all external
 linking to the camera-ready, so this is the moment the project page, code repository,
 and hosted video enter the paper. Test every link logged-out before submitting the
 final PDF.
@@ -27,9 +27,11 @@ final PDF.
 ## Edits that are — and are not — in scope
 
 - **In scope:** corrections promised in the rebuttal, scope-sentence adjustments the
-  AC asked for, fixed typos, restored acknowledgements, added links.
+  AC asked for, fixed typos, restored acknowledgements, added links. Reviews of
+  accepted papers are published with reviewer names, so the final text should visibly
+  deliver what the Extension Charter and rebuttal promised.
 - **Out of scope:** new experiments upgrading the claims, retitled contributions, or
-  quietly strengthened numbers. The accepted paper is what the AC meeting endorsed;
+  quietly strengthened numbers. The accepted paper is the Charter-executing version the Program Committee endorsed;
   divergence beyond clarification is an integrity problem, not a formatting one.
 - Keep section, table, and figure numbering stable where possible so the review
   record still maps onto the final text.
@@ -42,7 +44,7 @@ final PDF.
   it should be archived; the volume page is what dblp and citation indices ingest.
 - There is no APC anywhere in this pipeline; the cost model is conference
   registration. Whether at least one author must register/present in person was not
-  publicly verified for 2026 (待核实 against the acceptance email).
+  stated on the RSS 2027 pages as of 2026-11-24 (待核实 against the acceptance email).
 
 ## The single-track presentation
 
@@ -72,15 +74,15 @@ citation managers will ingest — proof it like a legal document:
   citation file — point the repository's citation entry at the proceedings page,
   not at the arXiv mirror.
 
-## Between acceptance and Sydney: an ordered runway
+## Between acceptance and Athens: an ordered runway
 
-Eleven weeks separated the 2026 decision (April 27) from conference week (July
-13-17). A workable ordering:
+About ten weeks separate the RSS 2027 notification (April 30) from conference week
+(July 6–11, 2027), with the camera-ready due May 14. A workable ordering:
 
 | Weeks after decision | Action |
 |---|---|
 | 0-1 | Extract acceptance-email requirements; calendar the camera-ready date |
-| 1-3 | Final PDF edits (clarifications only) + de-anonymization sweep |
+| 0-2 | Final PDF edits (clarifications only) + de-anonymization sweep — camera-ready due May 14 |
 | 1-4 | Visa and travel booking — the long pole for many teams |
 | 3-6 | Public artifact release built and tested (`rss-artifact-evaluation`) |
 | 6-9 | Talk drafted and rehearsed against the whole-audience test |

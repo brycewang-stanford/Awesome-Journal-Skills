@@ -14,18 +14,20 @@ management/databases 三个社区共用一个会场的 ACM 会议。本包围绕
    证据）、Resource（≤4 页）、Demonstration（≤4 页）——"挪到附录"省不了任何空间，
    track 路由是第一级决策。
 3. **有后果的 EasyChair 表单。** 每个 track 都要求提名一位作者担任审稿人（漏填即
-   明文 desk reject）、要求申报任何公开的非匿名版本（arXiv 版本瞒报有 desk reject
-   风险），并且 PDF 中必须包含 **GenAI Usage Disclosure** 一节，覆盖研究、代码、
+   明文 desk reject）、要求申报任何公开的非匿名版本（arXiv 版本瞒报、或与投稿标题/摘要
+   相同，都有 desk reject 风险），并且 PDF 中必须包含 **GenAI Usage Disclosure** 一节，覆盖研究、代码、
    数据与写作全流程——会方保留自动合规检查的权利。
-4. **信息家族日历里的秋季档。** 5 月摘要/全文关口、8 月 7 日通知、8 月 20 日
-   camera-ready、11 月开会——这让 CIKM 成为 SIGIR 一月关口或 KDD 二月关口之后
-   工作成熟时的自然下一站，也给录用作者留下 13 天的 ACM e-rights/TAPS 冲刺。
+4. **信息家族日历里的秋季档。** 5 月摘要/全文关口、8 月 7 日通知、8 月 23 日
+   camera-ready（同日为作者注册截止）、11 月开会——这让 CIKM 成为 SIGIR 一月关口或
+   KDD 二月关口之后工作成熟时的自然下一站，也给录用作者留下 16 天的 ACM e-rights/TAPS 冲刺。
 
 官方依据核验日期：**2026-07-08**。已核验：CIKM 2026 主站（第 35 届，2026 年 11 月
 7-11 日，意大利罗马，站点位于罗马 Sapienza 大学域名下）、五个 track 的征稿页、
 important-dates 与 submission-policies 页、CIKM '25 的 ACM DL 论文集记录（DOI
 10.1145/3746252）、dblp 的 CIKM 索引，以及 SIGIR/SIGWEB 主办方页面。若干官方域名
-只能通过搜索渲染读取（网关拦截了直接抓取）；访问方式说明、完整来源清单与所有
+在 2026-07-08 只能通过搜索渲染读取（网关拦截了直接抓取）；**2026-11-24** 已通过直接抓取
+**重新核验** CIKM 2026 的日程、各 track 征稿页、政策页与主席页，并据此更正了 camera-ready
+日期、Applied track 截止日期与各 track 的评审方式；访问方式说明、完整来源清单与所有
 待核实条目见 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## 已核验的 2026 周期锚点
@@ -34,20 +36,21 @@ important-dates 与 submission-policies 页、CIKM '25 的 ACM DL 论文集记�
 |---|---|---|
 | 届次 | 第 35 届 CIKM，2026-11-07 至 11，罗马 | 每届变化 |
 | Full Research | ≤10 页（图表、**附录**计入）+ ≤2 页参考文献；双盲 | 每周期 |
-| Short Research | ≤4 页（含附录） | 每周期 |
-| Applied Research | ≤7 页；需要上线/数据发布等实证 | 每周期 |
-| Resource / Demo | 各 ≤4 页；demo 论文进主论文集 | 每周期 |
-| 日程 | Full：摘要 5-16、全文 5-23；short/resource/demo：5-30 / 6-6；通知 8-7；camera-ready 8-20（均 AoE） | 每周期 |
+| Short Research | ≤4 页（含附录）；双盲；须含 ACM CCS concepts 与关键词 | 每周期 |
+| Applied Research | ≤7 页；需要上线/数据发布等实证；**单盲** | 每周期 |
+| Resource / Demo | 各 ≤4 页；**单盲**；demo 须附 3 分钟视频链接，进主论文集 | 每周期 |
+| 日程 | Full 与 Applied：摘要 5-16、全文 5-23；short/resource/demo：5-30 / 6-6；通知 8-7；camera-ready 与作者注册 8-23（均 AoE） | 每周期 |
 | 平台 | EasyChair，每篇选定对应 track | 每周期 |
-| 表单义务 | 作者-审稿人提名（漏填 desk reject）；arXiv 版本申报 | 每周期 |
+| 表单义务 | 作者-审稿人提名（漏填 desk reject）；arXiv 版本申报，且预印本标题/摘要须与投稿明显不同 | 每周期 |
 | GenAI 政策 | 必须含不计页的 "GenAI Usage Disclosure" 节；遵守 ACM AI 政策；禁止 AI 代写审稿 | 每周期 |
 | 一稿多投 | 禁止与任何会议/期刊并行投稿；作者名单在摘要关口冻结 | 每周期 |
-| 出版 | ACM Digital Library（e-rights + TAPS） | 每年 |
+| 审稿日程 | 公布的 full paper 审稿日程中没有作者回复环节；PC chairs 决策会 7-20 至 8-5 | 每周期 |
+| 参会 | 线下参会，至少一位作者 8-23 前注册；仅特殊情况可由代讲人报告；不接受预录视频 | 每周期 |
+| 出版 | ACM Digital Library（e-rights + TAPS）；2026 起开放获取（非 ACM Open 机构需付 APC，2026 补贴价 250/350 美元） | 每年 |
 
-截至核验日，2026 所有投稿关口均已关闭——本包教的是**当前进行中的投稿后阶段**
-（审稿等待、通知、13 天 camera-ready 窗口、罗马行程），以及 CIKM 2027 的规划。
-2026 是否设 rebuttal、主席名单、camera-ready 页数放宽、注册费用与 2027 各项事实
-均无法核验，一律标注待核实而非断言。
+截至 2026-11-24，CIKM 2026（罗马）已闭幕。CIKM 系列主页已宣布 **CIKM 2027 在澳大利亚悉尼**
+举办，但日期、官网与 CFP 均未公布；本包规则仍以 2026 届为标注清楚的先验。camera-ready
+页数放宽、费用金额与 2027 细节仍标注待核实而非断言。
 
 ## Skills
 
@@ -92,7 +95,7 @@ important-dates 与 submission-policies 页、CIKM '25 的 ACM DL 论文集记�
 - [`cikm-author-response`](skills/cikm-author-response/SKILL.md)——四种作者侧写作
   情形（有无窗口 × 录用与否）、三车道回复结构与 concern → edit 台账。
 - [`cikm-camera-ready`](skills/cikm-camera-ready/SKILL.md)——穿过 e-rights 与 TAPS
-  的 13 天序列、超越"加名字"的去匿名化、CCS/dblp 元数据、GenAI 节保留与并行的
+  的 16 天序列、超越"加名字"的去匿名化、CCS/dblp 元数据、GenAI 节保留与并行的
   罗马行程线。
 
 ## Resources

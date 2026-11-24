@@ -48,7 +48,7 @@ letter exists to settle each one in the first read. Treat the table as the edito
 | Is this *environmentally* significant? | "We characterized sorption of compound X" | "X is a high-production-volume replacement detected in drinking-water sources; its mobility governs human exposure" |
 | Is it novel or incremental occurrence? | "We add new monitoring data" | "First mechanistic link between [process] and observed field concentrations, resolving a contradiction in prior ES&T work" |
 | Does it fit ES&T vs. a specialist title? | scope unstated | one sentence tying to fate/transport, treatment, tox, or policy interface |
-| Right article type and within caps? | type unnamed | "Research Article, ~6,400 words incl. figure word-equivalents" |
+| Right article type and within caps? | type unnamed | "Research Article, ~6,400 words (abstract + text + captions)" |
 | Can I find clean reviewers? | 2 close collaborators | ≥4 non-conflicted experts spanning the sub-areas |
 
 ## Worked micro-example (illustrative — a PFAS occurrence-and-fate study)

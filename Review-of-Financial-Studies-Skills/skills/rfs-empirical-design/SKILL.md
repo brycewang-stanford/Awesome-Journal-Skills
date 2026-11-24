@@ -48,7 +48,7 @@ RFS publishes design-defining empirical templates referees will hold you to — 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the asset-pricing battery, don't just specify it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). RFS is finance top-3 (with JF, JFE) — corporate-causal chain for corporate papers, factor-zoo haircut for asset pricing.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). RFS is finance top-3 (with JF, JFE) — corporate-causal chain for corporate papers, factor-zoo haircut for asset pricing.
 
 - **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
   clustered) — read the alpha and t off the return.

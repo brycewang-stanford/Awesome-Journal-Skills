@@ -46,7 +46,7 @@ AEJ: Micro is the AEA's quarterly journal for **microeconomic theory and its app
 - [ ] The result is interesting to a **broad** micro audience, statable in one sentence
 - [ ] Checked the four sibling boundaries (JET/GEB, TE/Econometrica, AEJ: Applied, metrics) and can say why AEJ: Micro
 - [ ] The question motivates the model (not a model in search of a question)
-- [ ] JEL codes that match the contribution are identifiable (required at submission)
+- [ ] JEL codes that match the contribution are identifiable (customary at submission)
 
 ## Anti-patterns
 

@@ -1,13 +1,14 @@
 ---
 name: cvpr-review-process
-description: Use when reasoning about how CVPR review actually works at 16,000-submission scale, covering the OpenReview pipeline and timeline, reviewer-duty enforcement and desk rejects, the reviewer LLM ban, AC and discussion dynamics, oral/highlight/poster decision tiers, and calibrating expectations to a ~25% acceptance rate.
+description: Use when reasoning about how CVPR review actually works at 16,000-submission scale, covering the OpenReview pipeline and timeline, reviewer-duty enforcement and desk rejects, conference-approved LLM tools and the external-LLM ban, AC and discussion dynamics, oral/highlight/poster decision tiers, and calibrating expectations to a ~25% acceptance rate.
 ---
 
 # CVPR Review Process
 
 Use this to model what happens to a CVPR paper between upload and decision, and where
-author leverage exists. Every mechanism below is the 2026 cycle as verified 2026-07-08;
-scale numbers come from official CVPR program announcements.
+author leverage exists. Mechanisms and dates are the CVPR 2027 cycle as re-verified
+2026-11-24 (2026 values marked as history); scale numbers come from official CVPR 2026
+program announcements.
 
 ## The machine, by the numbers
 
@@ -23,18 +24,18 @@ area chairs. Two consequences follow for authors:
   AC's job easy — clear claims, clean rebuttal, consistent reviews — get the benefit of
   scarce attention.
 
-## Timeline anatomy (2026 cycle)
+## Timeline anatomy (CVPR 2027)
 
-| Phase | 2026 dates | What authors can do |
+| Phase | CVPR 2027 dates (2026 cycle) | What authors can do |
 |---|---|---|
-| Profile/abstract registration | Nov 6, 2025 | Fix profiles, finalize author list |
-| Paper + CRF deadline | Nov 13, 2025 | Submit; after this, nothing |
-| Supplement deadline | Nov 20, 2025 | Upload depth material |
-| Reviewing | Dec – Jan 12, 2026 | Serve your own reviewer duties well |
-| Reviews released | Jan 22, 2026 | Read cold, then triage |
-| Rebuttal | → Jan 29, 2026 | One page (see `cvpr-author-response`) |
-| Reviewer–AC discussion | Jan 30 – Feb 5, 2026 | Nothing — your rebuttal speaks |
-| Decisions | Feb 20, 2026 | Plan camera-ready or resubmission |
+| Profile/enrollment + paper registration | Nov 10, 2026 (Nov 6, 2025) | Fix profiles, finalize author list |
+| Paper deadline | Nov 16, 2026 (Nov 13, 2025) | Submit; after this, nothing |
+| Supplement deadline | Nov 23, 2026 (Nov 20, 2025) | Upload depth material |
+| Reviewing | Dec 14, 2026 – Jan 8, 2027 (to Jan 12, 2026) | Serve your own reviewer duties well |
+| Reviews released | Jan 25, 2027 (Jan 22, 2026) | Read cold, then triage |
+| Rebuttal | Jan 25 – Feb 1, 2027 (→ Jan 29, 2026) | One page (see `cvpr-author-response`) |
+| Reviewer–AC discussion | Jan 25 – Feb 5, 2027; AC triplets Feb 11–19 | Nothing — your rebuttal speaks |
+| Decisions | Feb 25, 2027 (Feb 20, 2026) | Plan camera-ready or resubmission |
 
 ## Enforcement culture: the distinctive part
 
@@ -44,19 +45,25 @@ teeth that surprised people in recent cycles:
 - **Enrollment**: submitting authors are expected to review and are added to the pool
   unless exempted; complete OpenReview profiles are mandatory for everyone.
 - **The nuclear clause**: papers authored by a reviewer who fails to deliver assigned
-  reviews on time, or delivers highly irresponsible ones, can be desk-rejected — *all*
-  of that person's submissions — at PC discretion. A coauthor's negligence in January
-  can kill your November submission.
-- **Reviewer LLM ban**: reviews and meta-reviews may not be written by LLMs (local or
-  API), and sharing substantial paper content with an LLM is prohibited; grammar
-  checkers and background research are the carve-outs. As an author, this means a
-  suspiciously LLM-flavored review is reportable to the AC, not just annoying.
+  reviews on time, delivers highly irresponsible ones, or uploads submissions to an
+  external LLM can be desk-rejected — *all* of that person's CVPR 2027 submissions. A
+  coauthor's negligence in January can kill your November submission.
+- **LLM rules (rewritten for 2027)**: CVPR 2027 runs conference-approved LLM tools inside
+  OpenReview at several stages of review; reviewers, ACs and SACs may process
+  confidential submission content *only* through them, and LLMs make no decisions and
+  assign no scores. Authors consent by submitting — there is no paper-level opt-out. (In
+  2026 the rule was a flat ban on LLM-written reviews.) As an author, a review that
+  shows signs of an external LLM, or of an LLM substituting for judgment, is reportable
+  to the AC, not just annoying.
+- **Findings Track**: ACs may recommend technically sound papers with more incremental
+  novelty to the Findings Track (separate proceedings); its organizers then invite the
+  authors to submit.
 
 ```text
 # Confidential-channel escalation, in order
 1. Rebuttal PDF        → factual corrections all reviewers see
 2. Confidential comment to AC (where the form allows)
-   → reviewer misconduct: LLM-written review, review of the wrong paper,
+   → reviewer misconduct: external-LLM use or LLM-substituted review, review of the wrong paper,
      demonstrably unread paper. Cite evidence, stay unemotional.
 3. Never              → contacting reviewers or ACs outside OpenReview; that
                         is an integrity violation on YOUR side.
@@ -110,7 +117,8 @@ of the process, not an aftermath:
 ## Reverify each cycle
 
 - Whether decisions remain single-round (no conditional-accept revision cycle existed
-  in 2026).
+  in 2026 or 2027).
+- Findings Track mechanics ("detailed guidelines will follow" for 2027).
 - Reviewer-duty enforcement wording, LLM-policy scope, and review-form structure.
 - Tier definitions (highlight/oral percentages shift with program capacity).
 

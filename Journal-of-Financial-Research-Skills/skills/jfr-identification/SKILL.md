@@ -51,7 +51,7 @@ description: Use when the identification strategy is the bottleneck for a 《金
 ## 执行桥（StatsPAI / Stata MCP）
 
 把设计**跑出来并审计**，而不是只做描述。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《金融研究》是中文金融顶刊，企业金融因果链 + 资产定价的多重检验(factor-zoo)。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《金融研究》是中文金融顶刊，企业金融因果链 + 资产定价的多重检验(factor-zoo)。
 
 - `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出尚欠的检查。
 - **观察性因果：**交错 DID（`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +

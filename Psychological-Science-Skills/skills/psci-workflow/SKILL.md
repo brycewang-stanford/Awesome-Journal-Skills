@@ -66,7 +66,7 @@ Route:   data-analysis (effect sizes + CIs + disclosure)
          → writing-style (fit Intro+Discussion ≤ 2,000)
          → open-science-and-transparency (DOIs + Transparency Statement)
          → submission (preflight) ; on R&R → rebuttal.
-Flag:    Transparency Statement must sit between Intro and Methods — verify
+Flag:    Transparency Statement must sit between Intro and Methods (submission guidelines, 2026-11-24)
          current placement against the journal's submission guidelines.
 ```
 

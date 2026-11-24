@@ -5,8 +5,9 @@ description: Use when an INTERSPEECH paper is accepted and the camera-ready, reg
 
 # INTERSPEECH Camera-Ready
 
-Acceptance at Interspeech starts a tight administrative chain: in the 2026 (Sydney)
-cycle, notification landed 5 June and camera-ready closed **19 June** — two weeks.
+Acceptance at Interspeech starts a tight administrative chain: in the 2027 (São Paulo)
+cycle, notification lands 2 June and camera-ready closes **9 June 2027** — one week
+(2026, Sydney: 5 June → 19 June, two weeks).
 The paper then enters the **ISCA Archive** (www.isca-archive.org), the open-access
 proceedings library of the International Speech Communication Association, where
 every Interspeech paper since 1987's Eurospeech lineage lives with a
@@ -15,7 +16,8 @@ author pages; the steps below are the recurring shape.
 
 ## De-anonymization, done in the right order
 
-1. Restore author names, affiliations, and emails exactly as registered in CMT —
+1. Restore author names, affiliations, and emails exactly as registered in the
+   submission portal (CMT in 2025–2026) —
    the metadata feeds the Archive entry and the DOI record.
 2. Reinstate acknowledgments and funding on the references/acknowledgments page —
    that is the only page that may hold them, and it still may hold nothing else.
@@ -32,15 +34,16 @@ author pages; the steps below are the recurring shape.
 | Typos, figure quality, reference completeness | Welcome |
 | Title or author list | Restricted; usually requires chair approval |
 | New experiments that alter claims | Not sanctioned — the accepted content was reviewed |
-| Page count | Same 4+1 contract (Long Papers per their own rules) |
+| Page count | Same 4 + 2 contract in 2027 (Long Papers 8 + 2) |
 
 ## The registration coupling
 
 Interspeech ties proceedings inclusion to registration: **at least one author must
 register (author registration) for the paper to appear in the proceedings and be
-scheduled**. For 2026, early-bird pricing closed 15 July and standard registration
-16 August. On today's calendar (2026-07-08) that makes registration, not the PDF,
-the live deadline for accepted authors. Budget note: Interspeech has no
+scheduled**, and an author must present it in person (2027 call). For 2026,
+early-bird pricing closed 15 July and standard registration 16 August, and one full
+registration covered up to four papers; the 2027 tiers were not yet published on
+2026-11-24 (待核实). Budget note: Interspeech has no
 article-processing charge — the ISCA Archive is open access — so registration and
 travel are the real costs.
 
@@ -56,16 +59,16 @@ travel are the real costs.
 ## Presentation planning (the part teams forget)
 
 Accepted papers are scheduled as **oral or poster**; at Interspeech the mode is a
-program-committee packing decision, not a quality verdict. For Sydney week
-(27 September – 1 October 2026):
+program-committee packing decision, not a quality verdict (Long Papers are explicitly
+labelled as such in 2027). For São Paulo week (29 August – 2 September 2027):
 
 - Oral: speech slots are short (historically ~15 minutes with questions — confirm
   the program instructions); rehearse audio playback *through the room's chain*,
   and always carry a no-audio fallback slide with spectrograms.
 - Poster: print audio QR codes linking to your (now public) sample page; a speech
   poster without listenable audio wastes the medium.
-- Check visa lead times for the host country immediately at acceptance — Australia
-  in 2026, Brazil in 2027.
+- Check visa lead times for the host country immediately at acceptance — Brazil in
+  2027 (Australia in 2026).
 
 ## Release checklist tied to this milestone
 
@@ -73,7 +76,7 @@ program-committee packing decision, not a quality verdict. For Sydney week
 [ ] Camera-ready PDF uploaded, checker-clean, metadata matched
 [ ] Author registration completed before the early-bird cutoff
 [ ] Demo page and repository made public and linked in the paper
-[ ] Preprint updated/de-anonymized now that the anonymity period ended
+[ ] Preprint updated/de-anonymized (no anonymity period in 2026; check the 2027 policy)
     (cite the Interspeech version with its 10.21437 DOI once assigned)
 [ ] Presentation mode confirmed; audio fallback prepared
 [ ] Travel/visa started; presenting author named
@@ -113,6 +116,6 @@ program-committee packing decision, not a quality verdict. For Sydney week
 [Next hard date] <date + what it gates>
 ```
 
-The dates in this skill are the verified 2026 chain (see
-`resources/official-source-map.md`, checked 2026-07-08); the São Paulo 2027 cycle
-will replace all of them.
+The dates in this skill are the Interspeech 2027 chain read on the official call
+(see `resources/official-source-map.md`, re-verified 2026-11-24), with 2026 kept for
+comparison; registration tiers for 2027 are still to be published.

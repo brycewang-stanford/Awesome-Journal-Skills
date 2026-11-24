@@ -54,7 +54,7 @@ A completed checklist is a screening gate at The Lancet, not a formality. Editor
 A hypothetical multi-country, individually randomised trial of an oral therapy versus placebo across 14 sites in 5 low- and middle-income countries.
 
 ```
-Guideline: CONSORT 2010 + CONSORT-Harms; checklist page/line-mapped as a supplement.
+Guideline: CONSORT 2025 + CONSORT-Harms; checklist page/line-mapped as a supplement.
 CONSORT flow diagram (illustrative):
   Assessed 5 312 -> Excluded 1 108 (ineligible 842; declined 201; other 65)
   Randomised 4 204 -> intervention 2 102 / placebo 2 102

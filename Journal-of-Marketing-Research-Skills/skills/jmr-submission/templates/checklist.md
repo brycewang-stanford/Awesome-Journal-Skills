@@ -3,7 +3,7 @@
 A self-check before submitting to the **Journal of Marketing Research (JMR)** via
 ScholarOne at **mc.manuscriptcentral.com/ama_jmr**. Re-verify every specific against the
 current SAGE author instructions and AMA submission-guidelines page — limits, fees, the
-masthead (mid-2026 Hamilton → Thomadsen handover), and the transparency policy change.
+masthead (Thomadsen EIC since 1 July 2026), and the transparency policy change.
 
 ## 1. Anonymization (double-anonymized review)
 

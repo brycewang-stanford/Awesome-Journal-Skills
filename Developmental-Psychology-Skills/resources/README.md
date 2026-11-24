@@ -29,10 +29,10 @@ on cross-cutting inference and reviewer objections, two shared references are us
 context** (venue-neutral; always defer to this pack's skills and `official-source-map.md` for what
 *Developmental Psychology* specifically requires):
 
-- [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+- [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md)
   — common identification/inference objections and their preemptions (read as background, not as this
   journal's checklist).
-- [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) — modern
+- [reporting-standards](shared/empirical-methods/reporting-standards.md) — modern
   inference and reporting table stakes (SE clustering, multiple testing, reproducibility) — background to
   complement, not replace, **JARS**.
 

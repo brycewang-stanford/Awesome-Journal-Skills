@@ -52,7 +52,7 @@ Table and figure notes are not decoration at JMCB — given the journal's replic
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMCB is monetary/banking — macro time series + bank panels; local projections for the macro lane, DiD/IV for the bank lane.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JMCB is monetary/banking — macro time series + bank panels; local projections for the macro lane, DiD/IV for the bank lane.
 
 - **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
 - **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —

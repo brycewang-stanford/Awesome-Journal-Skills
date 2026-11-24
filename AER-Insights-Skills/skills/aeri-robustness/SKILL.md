@@ -46,7 +46,7 @@ Use **one sentence** to point to the appendix: "The result is robust to [list] (
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AER: Insights is a short format built around one decisive result, so the body/appendix split is even tighter — run the design cleanly the first time.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AER: Insights is a short format built around one decisive result, so the body/appendix split is even tighter — run the design cleanly the first time.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

@@ -40,7 +40,7 @@ The AEJ: Micro bar is that the reader sees **exactly which assumption is load-be
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the identification claim, don't only argue it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Micro spans applied and structural micro; the chain below is for the reduced-form / causal lane — structural estimation uses the field's own solvers.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AEJ: Micro spans applied and structural micro; the chain below is for the reduced-form / causal lane — structural estimation uses the field's own solvers.
 
 1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
    the checks the design still owes.

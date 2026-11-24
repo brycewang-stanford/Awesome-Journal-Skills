@@ -39,7 +39,7 @@ Respectful, specific, evidence-led. Every "we agree" is followed by a concrete c
 - [ ] Identification / robustness additions placed in the main text, not buried
 - [ ] Welfare/policy reading strengthened, not just caveated
 - [ ] Reproducibility package and restricted-data path confirmed ready
-- [ ] A comment→revision map included; revised manuscript carries the front matter (single-blind)
+- [ ] A comment→revision map included; revised manuscript and response letter anonymized (title page separate)
 
 ## Anti-patterns
 

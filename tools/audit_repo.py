@@ -25,10 +25,11 @@ EXPECTED_SKILL_COUNT = 4166
 EXPECTED_PACK_COUNT = 300
 EXPECTED_ROOT_JOURNAL_ENTRIES = 201
 EXPECTED_VENUE_COUNT = 744
-# Executed empirical evidence cases under showcase/. Each is a real MCP tool
-# run committed as documentation; removing one silently would weaken the
-# repo's central "automated empirical research" claim.
-EXPECTED_SHOWCASE_CASES = 5
+# Executed evidence cases under showcase/: five real MCP empirical runs plus, since
+# 2026-11-23, the pre-submission benchmark and a real-preprint pipeline run. Each is
+# committed documentation of something that was actually run; removing one silently
+# would weaken the claim it supports.
+EXPECTED_SHOWCASE_CASES = 7
 
 IMPORTED_ROOTS = {
     "AER-Skills",

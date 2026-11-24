@@ -42,7 +42,7 @@ Invited revisions must fit within **47 pages double-spaced (25 lines/page)** or 
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
 main-text-vs-online-appendix drift). Full map:
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the
   `result_id`; **figures:** `plot_from_result` / `enhanced_event_study_plot` with axis

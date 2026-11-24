@@ -33,7 +33,7 @@ JPE sits among the top-five but has a distinct house taste that differs material
 | Equilibrium reasoning    | General-equilibrium / incentive considerations scrutinized           | Partial-equilibrium stories that ignore GE are vulnerable       |
 | References               | Author-date (Chicago/UChicago Press)                                 | Numbered/bracket citations are wrong house style                |
 | Format                   | Theory + empirics integrated; proofs/robustness in appendices        | Online appendix carries the heavy material                      |
-| Process                  | Editorial Express; submission fee applies (verify)                   | Selective and demanding; fee step gates review                  |
+| Process                  | Editorial Manager; submission fee applies (verify)                   | Selective and demanding; fee step gates review                  |
 | Replication              | Data/code required for accepted papers (AEA standard; verify)        | Reproducible master script + README expected                    |
 
 Generic "scientific writing" or "economics writing" packs do not address these constraints.
@@ -113,7 +113,7 @@ jpe-rebuttal
 | `jpe-writing-style`            | Spare, economics-first prose + author-date house conventions                  |
 | `jpe-replication-package`      | AEA Data Editor–standard data/code package and README                         |
 | `jpe-referee-strategy`         | Pre-mortem: price-theory / GE / identification objections                     |
-| `jpe-submission`               | Editorial Express preflight (format, references, fee, anonymity)              |
+| `jpe-submission`               | Editorial Manager preflight (format, references, fee, anonymity)              |
 | `jpe-rebuttal`                 | R&R response-letter structure and revision plan                               |
 
 ### Resources

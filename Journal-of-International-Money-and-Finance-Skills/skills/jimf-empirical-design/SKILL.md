@@ -37,7 +37,7 @@ International-finance referees scrutinize **measurement and comparability** as h
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the asset-pricing battery, don't just specify it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JIMF is international macro-finance; cross-country panels + asset pricing — identification plus factor/Newey-West inference.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JIMF is international macro-finance; cross-country panels + asset pricing — identification plus factor/Newey-West inference.
 
 - **Factor regressions / time-series alphas:** `feols` with the right SEs (Newey–West /
   clustered) — read the alpha and t off the return.

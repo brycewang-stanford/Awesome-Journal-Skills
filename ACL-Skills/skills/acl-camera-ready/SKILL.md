@@ -8,13 +8,13 @@ description: Use when preparing an accepted ACL main-conference or Findings pape
 Use this after ACL (or Findings of ACL) acceptance. Camera-ready quality
 controls how the paper looks forever in the ACL Anthology, which is the
 permanent open-access record. For ACL 2026 the camera-ready deadline was
-April 19, 2026 — confirm the current edition's date in the acceptance email
-before planning anything.
+April 19, 2026; for ACL 2027 it is still TBA (checked 2026-11-23) — confirm
+the current edition's date in the acceptance email before planning anything.
 
 ## The extra page and what it is for
 
-- Accepted \*ACL papers traditionally receive one additional content page:
-  long papers up to 9 pages, short papers up to 5. The page exists to address
+- Accepted \*ACL papers receive one additional content page — the ACL 2027
+  call states it explicitly: long papers up to 9 pages, short papers up to 5. The page exists to address
   reviewer and meta-review comments, not to smuggle in a new contribution.
 - Spend it in priority order: fixes the meta-review asked for, clarifications
   reviewers requested, then de-anonymization overhead (author block,
@@ -65,7 +65,10 @@ Work from the meta-review, not memory:
   typically not part of the main oral program; presentation options (Findings
   poster sessions, workshop presentation slots, videos) vary per edition —
   check the current conference's Findings instructions rather than assuming.
-- Registration and presentation expectations differ by track and edition; ACL
+- Registration and presentation expectations differ by track and edition. ACL
+  2027 (Kyoto, August 17-22, 2027) requires every accepted paper to be
+  presented, in person or virtually, and may reject papers without at least
+  one registered presenting author by the early-registration deadline; ACL
   2026 ran as a hybrid conference in San Diego (July 2-7, 2026). Verify the
   current attendance requirement before booking or skipping travel.
 

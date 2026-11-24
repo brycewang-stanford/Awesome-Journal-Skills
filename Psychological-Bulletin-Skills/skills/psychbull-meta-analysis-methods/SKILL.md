@@ -46,7 +46,7 @@ covers estimation; moderators and publication-bias diagnostics live in `psychbul
 
 Meta-analysis itself is largely **outside** this causal-inference toolchain — use
 dedicated tools (e.g. metafor) for pooled effects and meta-regression. Full map (for
-primary-study reanalysis): [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Psychological Bulletin is a meta-analytic review venue.
+primary-study reanalysis): [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Psychological Bulletin is a meta-analytic review venue.
 
 - **Moderator / meta-regression tests:** apply the multiple-testing haircut
   (`romano_wolf` / `benjamini_hochberg`) — many moderators inflate false positives.

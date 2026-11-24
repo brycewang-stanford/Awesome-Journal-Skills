@@ -74,7 +74,7 @@ model (see `interspeech-reproducibility`).
 
 - **Before submission**: anonymous demo page frozen; repo anonymized if linked.
 - **During review**: touch nothing linked from the paper.
-- **At camera-ready** (19 June in the 2026 cycle): flip links to permanent public
+- **At camera-ready** (9 June in the 2027 cycle; 19 June in 2026): flip links to permanent public
   homes; tag the repo; add the paper's ISCA Archive DOI to the README.
 - **Conference week**: QR to samples on the poster; the demo page is your talk's
   safety net when room audio fails.
@@ -117,5 +117,5 @@ Concrete ways speech artifacts have deanonymized their authors — sweep for eac
 ```
 
 Attachment size limits, link policies, and any new artifact requirements are
-cycle-volatile — verify on the current author pages (2026 sources logged in
-`resources/official-source-map.md`, checked 2026-07-08).
+cycle-volatile — verify on the current author pages (sources logged in
+`resources/official-source-map.md`, re-verified 2026-11-24).

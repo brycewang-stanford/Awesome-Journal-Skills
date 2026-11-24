@@ -39,7 +39,7 @@
   `../../skills/cpa-style/SKILL.md` 与 `../../skills/cpa-mechanism/SKILL.md`。
 - **识别按本刊红线做满。** 若用定量政策评估，交错 DID 必上事件研究图 + 安慰剂 + 异质性稳健估计
   （Bacon 分解 / CS / SA），见 `../../skills/cpa-identification/SKILL.md`；方法规范底线另见
-  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)。
+  [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)。
 - **引用前核对刊名。** 凡记不清是《中国行政管理》还是《公共管理学报》/《公共行政评论》/
   《政治学研究》/《管理世界》的篇目，先回 CNKI 或官网（`cpaj.com.cn`）核对，再写进参考文献。
 

@@ -41,6 +41,32 @@ English | [简体中文](README.md)
   </table>
 </div>
 
+## ✅ Pre-submission polishing: a mechanical preflight first, then the referees
+
+Give it the **real manuscript file** (`.tex` / `.md` / `.docx` / `.pdf`). It checks the file against the target venue's rules, **re-verified against the official pages**, and then runs the full pre-submission pipeline:
+
+```bash
+/plugin marketplace add https://github.com/brycewang-stanford/awesome-journal-skills
+/plugin install research-toolkit-skills      # the pipeline, with the preflight engine and the verified venue rules (see --list-venues)
+/plugin install jf-skills                    # the target venue's depth pack (JF here) for its review bar
+```
+
+```text
+Use rt-submission-readiness on paper.pdf — we submit to the Journal of Finance next week.
+```
+
+Stage 0 is a **deterministic preflight**. You can also run it from the repo with `python3 tools/preflight.py paper.pdf --venue "Journal of Finance"`. Every finding comes with a location and the skill that owns the fix. It checks:
+
+- **Length:** abstract, word and page limits.
+- **Anonymization (double-blind):** author block, self-citations, acknowledgments and grant numbers, non-anonymous code links, file metadata.
+- **Statements:** every statement the venue requires.
+- **References:** citations ↔ reference list (`--online` also confirms each reference exists on Crossref).
+- **Exhibits:** numbering, cross-references and standard-error notes.
+- **Numbers:** abstract and introduction numbers traced to the tables.
+- **Leftovers:** placeholders and tracked changes.
+
+Next come the nine-dimension scorecard and independent referees writing on the venue family's **actual review form**, with a verifier that drops unfair concerns. Then a claim-to-evidence polish, the cover letter and statements the venue's policy calls for, and a **re-run that shows what changed**. Measured on a **seeded-defect benchmark**, misses included: [showcase/presubmission-benchmark](showcase/presubmission-benchmark/README.md).
+
 <p align="center"><b>Coverage by 11 mainstream discipline areas</b></p>
 
 <ul>
@@ -362,7 +388,7 @@ python3 tools/match_venues.py --title "..." --abstract "..." \
         --discipline economics/labor --lane empirical --top 15
 ```
 
-The evaluation scores that same code path. On a 1,738-paper gold set split into a tuning half and a held-out half, a **bare title** — the most pessimistic way to ask — puts the true venue in the top 10 for **65.3%** of papers. Pasting the abstract, which is what an author actually does, gives **71.9%**, and supplying the discipline **77.7%** ([`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)). Every venue carries **two vocabularies**: one from the prose this repository wrote about it, one from the titles of the articles it actually published. The second was added in August 2026 and moves the bare-title figure on its own from 46.7% to 65.3%, cutting the share of papers whose true venue is unreachable at any depth from 15% to 3.8%. Retrieval only says *which packs to read*; the recommendation still comes from opening each venue's own pack and source-map.
+The evaluation scores that same code path. On a 1,738-paper gold set split into a tuning half and a held-out half, a **bare title** — the most pessimistic way to ask — puts the true venue in the top 10 for **65.7%** of papers. Pasting the abstract, which is what an author actually does, gives **71.9%**, and supplying the discipline **77.7%** ([`eval/RESULTS.md`](shared-resources/journal-selection/eval/RESULTS.md)). Every venue carries **two vocabularies**: one from the prose this repository wrote about it, one from the titles of the articles it actually published. The second was added in August 2026 and moves the bare-title figure on its own from 46.3% to 65.7%, cutting the share of papers whose true venue is unreachable at any depth from 15% to 3.8%. Retrieval only says *which packs to read*; the recommendation still comes from opening each venue's own pack and source-map.
 
 Once there is a ladder, `rt-ladder-ev` prices it: "top journal first, then descend" versus "start one rung down" becomes a difference in expected months and in the probability of ever placing. The **sequence** is what costs a year, not any single venue.
 
@@ -1592,6 +1618,10 @@ The "automated empirical research" claim in this repository has a verifiable evi
 | Instrumental variables (IV) | [Card 1995 college proximity & returns to schooling](showcase/iv-card-college-proximity/README.md) | 0.132, with AR/CLR/tF weak-IV panel |
 | Regression discontinuity (RDD) | [Close elections & legislator voting](showcase/rdd-close-elections/README.md) | RD effect 43.85 ADA points (density test p=0.72) |
 | Double machine learning (DML) | [DML returns to schooling](showcase/dml-returns-to-schooling/README.md) | 0.074 (flexible-controls benchmark) |
+
+**Pre-submission polishing has an evidence layer too** (2026-11-23):
+- [Seeded-defect benchmark](showcase/presubmission-benchmark/RESULTS.md): across six venue families, the deterministic preflight catches 45/47 mechanical defects with zero false alarms on clean controls. The referee panel keeps 23/24 planted substantive flaws as major concerns and catches both of preflight's known blind spots.
+- [Real-preprint end-to-end run](showcase/presubmission-real-preprint/README.md): arXiv:2611.21070 run through the full pipeline against AER: Insights, with every preflight problem the run exposed fixed in this release.
 
 ---
 

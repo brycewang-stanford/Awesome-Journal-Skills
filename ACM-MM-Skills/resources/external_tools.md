@@ -39,7 +39,8 @@ check time — read via search renderings and cross-check ACM DL / OpenReview / 
 
 ## Do not infer
 
-- Do not infer future-cycle dates or the MM 2027 venue details from ACM MM 2026.
+- Do not infer future-cycle dates or rules for MM 2027 (Hong Kong, 8–12 November 2027) from
+  ACM MM 2026.
 - Do not assume the same thematic-area list, active track set, page budget, double-blind
   exceptions, rebuttal mechanics, badge tiers, or camera-ready forms without reopening the
   current official pages and each track's own call.

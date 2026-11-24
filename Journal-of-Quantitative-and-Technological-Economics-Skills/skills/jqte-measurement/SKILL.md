@@ -45,7 +45,7 @@ description: Use when the contribution of a 《数量经济技术经济研究》
 ## 执行桥（StatsPAI / Stata MCP）
 
 把稳健性 battery **跑出来**，而不是只罗列。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《数量经济技术经济研究》偏计量方法与应用；估计量有效性 + 诊断，必要时附模拟证据。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《数量经济技术经济研究》偏计量方法与应用；估计量有效性 + 诊断，必要时附模拟证据。
 
 - **多结果 / 多设定：**`romano_wolf`（逐步 FWER）或 `benjamini_hochberg`，报告校正后阈值。
 - **遗漏变量敏感性：**`oster_delta` / `sensemakr`。

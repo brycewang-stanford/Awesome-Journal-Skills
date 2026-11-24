@@ -24,7 +24,7 @@ JAE referees are economics-trained and will press hardest on **identification** 
 
 ## The JAE Conference pipeline
 
-JAE runs an **invitation-only annual conference** (sponsored by The Wharton School, Charles River Associates, and Cambridge Business Publishers; 2025 hosted at the University of Pennsylvania). Selected papers are printed in a **dedicated special conference issue** the following year; non-selected papers may go to a regular issue. The conference carries the **same USD 650 submission fee** and a **USD 5,000 attendee-voted Best Paper award**. This is a structural feeder unique among accounting journals — consider it a route for strongly economics-based work.
+JAE runs an **invitation-only annual conference**. The 2027 JAE Conference (call checked 2026-11-24) is sponsored by the University of Rochester Simon Business School, Charles River Associates, and Cambridge Business Publishers and meets October 15-16, 2027 at Simon Business School; submissions are due **February 26, 2027** via Editorial Manager (editorialmanager.com/jacec), cost **USD 750** (credit card only), and are formal JAE submissions (rejected conference papers may not be resubmitted). Selected and accepted papers are printed in a **dedicated special conference issue**; papers that get an R&R but are not selected continue through the regular process. There is a **USD 5,000 attendee-voted Best Paper award**. (Earlier editions were sponsored by The Wharton School and charged USD 650.) This is a structural feeder unique among accounting journals — consider it a route for strongly economics-based work.
 
 ## Reading a decision letter
 

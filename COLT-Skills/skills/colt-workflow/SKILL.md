@@ -6,10 +6,12 @@ description: Use when planning a COLT (Conference on Learning Theory) submission
 # COLT Workflow
 
 Use this as the project-management layer for a COLT paper. Anchor everything to the
-live timetable: for the 39th edition the CFP (checked 2026-07-08) set one submission
-deadline — February 4, 2026, Anywhere on Earth, via CMT — for a conference running
-June 29 to July 3, 2026 in San Diego. Notification and camera-ready dates were not on
-the checked pages (待核实); take them from the CFP and acceptance email of your cycle.
+live timetable: for COLT 2027, the 40th edition, the CFP (checked 2026-11-23) sets one
+submission deadline — January 29, 2027, Anywhere on Earth — for a conference running
+June 28 to July 2, 2027 in Tokyo, with an expected rebuttal period March 29 to April 2
+and author notification on or before May 3, 2027. The 2027 portal (CMT in 2025-2026)
+and camera-ready date are not yet published (待核实); take them from the CFP and
+acceptance email of your cycle.
 
 ## Stage map
 
@@ -26,10 +28,10 @@ the checked pages (待核实); take them from the CFP and acceptance email of yo
 - **Writing**: body-first is a mistake here; write the appendix proofs first, then
   distill overviews into the body, so the body never promises what the appendix
   cannot deliver.
-- **Submission week**: CMT record early, anonymity sweep, single-PDF assembly
+- **Submission week**: portal record (CMT in recent cycles) early, anonymity sweep, single-PDF assembly
   (`colt-submission`).
-- **Rebuttal**: reviews arrive before decisions; block calendar capacity for the
-  window even before you know its dates (`colt-author-response`).
+- **Rebuttal**: reviews arrive before decisions; for COLT 2027 block March 29 to
+  April 2, 2027 now (`colt-author-response`).
 - **Aftermath**: acceptance → PMLR camera-ready and talk prep (`colt-camera-ready`);
   rejection → triage between fix-and-resubmit (next COLT / ALT) and re-routing.
 
@@ -46,7 +48,7 @@ the checked pages (待核实); take them from the CFP and acceptance email of yo
 | 1 | Anonymity sweep, notation audit, cross-reference check | Renumbering theorems this late |
 | 0 | Upload, re-download, verify the stored PDF; stop editing | Compiling at the AoE boundary |
 
-Weeks are heuristics; the deadline is not. AoE means when it is February 4 anywhere
+Weeks are heuristics; the deadline is not. AoE means when it is January 29 anywhere
 on Earth — compute your local cutoff and subtract a safety day.
 
 ## Verification is the critical path
@@ -66,15 +68,15 @@ that Lemma 6 is false. Mitigations:
 
 ```text
 # colt-plan.txt
-DEADLINE (AoE):        2026-02-04  -> local cutoff 2026-02-05 11:59 UTC-12
-RESULT FREEZE:         2025-12-10  owner: all
-PROOF APPENDIX DRAFT:  2025-12-22  owner: A (Thm 1), B (Thm 2, lower bound)
-VERIFICATION PASS:     2026-01-09  owner: swap (B checks Thm 1, A checks Thm 2)
-BODY + OVERVIEWS:      2026-01-16  owner: A
-MOCK REVIEW:           2026-01-21  reader: C (not a coauthor)
-ANONYMITY + PDF QA:    2026-01-28  owner: B
-UPLOAD TARGET:         2026-02-02  (two days of slack, CMT record made 01-25)
-REBUTTAL WINDOW:       dates TBA with reviews -> block capacity on release
+DEADLINE (AoE):        2027-01-29  -> local cutoff 2027-01-30 11:59 UTC-12
+RESULT FREEZE:         2026-12-04  owner: all
+PROOF APPENDIX DRAFT:  2026-12-16  owner: A (Thm 1), B (Thm 2, lower bound)
+VERIFICATION PASS:     2027-01-04  owner: swap (B checks Thm 1, A checks Thm 2)
+BODY + OVERVIEWS:      2027-01-11  owner: A
+MOCK REVIEW:           2027-01-16  reader: C (not a coauthor)
+ANONYMITY + PDF QA:    2027-01-23  owner: B
+UPLOAD TARGET:         2027-01-27  (two days of slack; portal record made 01-20)
+REBUTTAL WINDOW:       2027-03-29 .. 2027-04-02 (expected) -> block capacity now
 ```
 
 ## Workflow failure modes specific to theory papers
@@ -94,8 +96,8 @@ REBUTTAL WINDOW:       dates TBA with reviews -> block capacity on release
 
 ## After the decision
 
-- Accepted: camera-ready per instructions; book San Diego-style summer logistics
-  early (single-track conference, one venue hotel); decide who talks.
+- Accepted: camera-ready per instructions; book Tokyo travel and visas early (at
+  least one author must attend in person under the COLT 2027 call); decide who talks.
 - Rejected with deep reviews: the reviews are a free verification report — patch and
   target the next cycle or ALT (deadline typically in autumn; verify).
 - Rejected for significance: the mathematics may be sound but mis-framed; rework the
@@ -107,11 +109,12 @@ REBUTTAL WINDOW:       dates TBA with reviews -> block capacity on release
 
 ## Cycle-volatility warnings
 
-- Every date above except the verified 2026 deadline and conference dates is
-  cycle-specific; notification, rebuttal window, camera-ready, and registration
-  timing are 待核实 until announced.
+- Every date above except the verified COLT 2027 deadline, rebuttal period,
+  notification and conference dates is a planning heuristic; camera-ready and
+  registration timing are 待核实 until announced.
 - Whether an Open Problems track (with its own deadline) runs in your cycle: check
-  the CFP; the 2025 edition ran one with a later, non-anonymous, 4-page format.
+  the CFP; the 2025 and 2026 editions ran one with a later, non-anonymous, 4-page
+  format (2026: due May 25), and no COLT 2027 call existed on 2026-11-23.
 
 ## Output format
 

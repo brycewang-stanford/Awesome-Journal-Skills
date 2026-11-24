@@ -15,7 +15,7 @@ description: Use for the pre-submission preflight to 《金融研究》 (Journal
 - 投稿系统：**http://www.jryj.org.cn/** 在线办公系统"作者在线投稿"（HTTPS 证书可能告警，以官方入口为准）
 - 篇幅：**论文以 2 万字左右为宜**（含图表、注释）
 - 摘要 **二百字左右**；中文关键词 **3–5 个**；须给 **3 个 JEL 分类号**
-- 注释：能随文括号说明的尽量随文；不随文者用 **①②③……** 标号、文后依次列出；标题/表/图/等式/脚注**分别连续编号**
+- 脚注：用 **①②③……** 编号、**每页单独编号**（不全文编号）；英文标题/拼音署名/单位英文名 + **两百词左右**英文摘要 + 英文关键词；正文行距 20 磅、宋体小 4 号；标题/表/图/等式/脚注**分别连续编号**
 - 标题编号：一级"一、二、三"，二级"（一）（二）（三）"，三级"1. 2. 3."，四级"(1)(2)(3)"
 - 主管：中国人民银行；主办：中国金融学会；月刊
 
@@ -25,7 +25,7 @@ description: Use for the pre-submission preflight to 《金融研究》 (Journal
 
 - [ ] 全文约 2 万字，篇幅与版面相称
 - [ ] 中文摘要约 200 字、关键词 3–5 个、JEL 分类号 3 个
-- [ ] 注释①②③规范、文后依次列出；能随文者已随文
+- [ ] 脚注①②③规范、每页单独编号；英文标题、英文摘要（约 200 词）、英文关键词齐备
 - [ ] 标题/表/图/等式/脚注分别连续编号，层级编号合规
 - [ ] 参考文献体例统一、可核查；直接引用标页码
 - [ ] 图表规范、编号连续、单位口径一致、有出处
@@ -51,7 +51,7 @@ description: Use for the pre-submission preflight to 《金融研究》 (Journal
 
 - **字数**：正文约 2.1 万字（含图表注释），落在"2 万字左右"区间 → 通过。
 - **摘要/关键词/JEL**：摘要 198 字、关键词 4 个（资管新规、表外扩张、影子银行、银行风险）、JEL=G21/G28/E58 三个 → 通过。
-- **注释与编号**：随文能说清的已随文，余者①②③文后列示；表、图、等式、脚注分别连续编号，无跳号 → 通过。
+- **注释与编号**：脚注①②③每页单独编号；表、图、等式、脚注分别连续编号，无跳号 → 通过。
 - **匿名**：正文删去作者单位与基金号，自引改第三人称，清除文件属性作者名 → 通过。
 - **内容复核**：线别（宏观）一致、识别（连续 DID + 事件研究）齐、机制落表外风险渠道、制度（五部委发布口径）准、政策对接宏观审慎 → 通过。
 
@@ -73,14 +73,14 @@ description: Use for the pre-submission preflight to 《金融研究》 (Journal
 | 追问 | 背后判断 | 修法 |
 |------|----------|------|
 | "JEL 给了几个、关键词超数没？" | 形式不合 | 严格 3 个 JEL、3–5 关键词 |
-| "注释编号和文后对得上吗？" | 体例混乱 | ①②③ 与文后列示一一核对 |
+| "脚注编号规范吗？" | 体例混乱 | ①②③ 每页单独编号、不全文连编 |
 | "上传稿里还有作者痕迹吗？" | 双盲风险 | 清正文/注释/致谢/属性 |
 
 ## 反模式
 
 - 凭记忆套体例，不查最新《来稿须知》
 - 忘给 JEL 分类号 / 关键词超 5 个
-- 注释编号与文后列示不一致、编号跳号
+- 脚注①②③全文连编（应每页单独编号）、编号跳号
 - 忘隐去作者信息就投双盲
 - 内容未过线别/识别/机制复核就先抠格式
 
@@ -95,3 +95,25 @@ description: Use for the pre-submission preflight to 《金融研究》 (Journal
 【内容复核】线别□ 识别□ 机制□ 制度□ 政策□
 【结论】可投 / 待修 <清单>
 ```
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue journal-of-financial-research-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

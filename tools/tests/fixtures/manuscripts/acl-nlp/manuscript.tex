@@ -1,0 +1,331 @@
+% SYNTHETIC BENCHMARK FIXTURE: fictional paper, data and authors.
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{natbib}
+
+\title{Keep the Consistent Ones: Cross-Lingual Quality Filtering for Multilingual Instruction Tuning}
+\author{Anonymous Authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Multilingual instruction-tuning data is dominated by machine translations of English collections, and a sizable share of it is garbled, partially untranslated, or answered in the wrong language. Quality filters developed for English instruction data transfer poorly: they score text in the original language with models that are weakest exactly where translation errors concentrate, and a single global threshold removes low-resource languages almost entirely. We propose Cross-Lingual Quality Filtering (XQF), which scores each example by round-trip translation consistency and by the quality of its English pivot, normalizes both scores within each language, and retains a fixed fraction per language. Applied to a 412K-example pool covering 18 languages and retaining 30\% of it, XQF improves the average held-out score of Llama 2 7B from 45.2 to 47.5 relative to training on the full pool, and of Llama 2 13B from 50.4 to 52.6, outperforming four filtering baselines at the same budget. Gains are largest for low-resource languages (+3.5 points) and survive correction for multiple comparisons in 13 of 18 languages. All evaluation sets were deduplicated against the training pool before filtering.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+Instruction tuning turns a pretrained language model into an assistant by fine-tuning it on instruction-response pairs. For English, a consistent finding is that a small, carefully selected subset of instruction data can match or exceed training on everything available \citep{zhou2023lima,chen2024alpagasus,li2024ifd}. For other languages, the data situation is different. Human-written multilingual instruction collections such as the Aya Dataset \citep{singh2024aya} are valuable but small for most languages, so practitioners combine them with machine translations of English collections such as Bactrian-X \citep{li2023bactrianx}. Translated data inherit the strengths of their English sources but add failure modes of their own: responses that drift into English, numbers and code mangled by the translation system, and instructions whose meaning changes in translation so that the response no longer answers them.
+
+Selecting from such a pool is harder than selecting English data. Most English selection methods score an example with a language model, either by asking a strong model to rate it \citep{chen2024alpagasus} or by measuring how much the instruction helps the model predict the response \citep{li2024ifd}. Applied in the original language, these scores are least reliable in exactly the languages where translation errors are most common. Applied with a single threshold across the whole pool, they remove low-resource languages almost entirely, because those languages receive systematically lower scores regardless of example quality.
+
+We propose Cross-Lingual Quality Filtering (XQF), a selection method built around two ideas. First, an example whose instruction and response survive a round trip through English with their meaning intact is unlikely to contain the translation failures above; we measure this with a multilingual sentence encoder. Second, the quality of an example can be judged more reliably on its English pivot than in the original language, provided the scores are compared only within a language. XQF combines the two scores after normalizing each within its language and retains the same fraction of every language.
+
+Our contributions are:
+\begin{itemize}
+\item We introduce XQF, a filter for multilingual instruction data that combines round-trip consistency and pivot-language quality with per-language normalization and quotas.
+\item On a 412K-example pool in 18 languages, retaining 30\% with XQF improves Llama 2 7B from 45.2 to 47.5 and Llama 2 13B from 50.4 to 52.6 on four held-out multilingual benchmarks, relative to the full pool, and outperforms random, perplexity, LLM-rating and instruction-following-difficulty filters at the same budget.
+\item We show that the gains concentrate in low-resource languages, where XQF improves the tier average by 3.5 points, and that the per-language quota is necessary for this: a global threshold removes most low-resource data and erases the gain.
+\end{itemize}
+
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Instruction data selection.}
+LIMA \citep{zhou2023lima} showed that 1,000 carefully curated examples can yield a strong English assistant, motivating work on automatic selection. AlpaGasus \citep{chen2024alpagasus} asks a strong proprietary model to rate each example and keeps the highest-rated ones. Instruction-following difficulty (IFD) \citep{li2024ifd} compares the model's loss on a response with and without its instruction and keeps examples where the instruction matters most. Both were developed and evaluated on English data. Self-Instruct \citep{wang2023selfinstruct} generates instruction data rather than selecting it, and its filtering heuristics are likewise English-centric.
+
+\paragraph{Multilingual instruction tuning.}
+Multitask fine-tuning on crosslingual prompts improves zero-shot generalization across languages \citep{muennighoff2023crosslingual}. The Aya Dataset \citep{singh2024aya} collects human-written instructions in many languages, and Bactrian-X \citep{li2023bactrianx} translates English instruction collections into 52 languages. Our work takes such resources as given and asks which subset to train on. Applied to such a pool, a single global quality threshold removes low-resource languages disproportionately (Section~\ref{sec:results}); we therefore introduce per-language quotas for instruction data and test this choice directly in our ablations.
+
+\paragraph{Translation quality estimation.}
+Round-trip translation and multilingual sentence embeddings are established tools for estimating translation quality without references. We use LaBSE \citep{feng2022labse} to compare an example with its round-trip version and NLLB \citep{nllb2022} as the translation system. Unlike reference-free quality estimation for machine translation, our goal is not to score the translation system but to decide whether an instruction-response pair is still coherent after translation.
+
+\paragraph{Evaluation contamination.}
+Overlap between training data and evaluation benchmarks can inflate reported gains, and the problem is acute for instruction data assembled from many public sources \citep{sainz2023contamination}. Following \citet{brown2020gpt3}, we measure n-gram overlap between the training pool and every evaluation set and remove overlapping examples before any filtering is applied.
+
+\section{Method}
+\label{sec:method}
+
+XQF assigns every example in the pool a score from two components and then keeps the highest-scoring fraction of each language.
+
+\subsection{Round-trip consistency}
+For an example $(u, v)$ in language $\ell \neq$ English, with instruction $u$ and response $v$, we translate both into English with NLLB-200 (3.3B) and then back into $\ell$, obtaining $\tilde u$ and $\tilde v$. The consistency score is
+\begin{equation}
+c(u, v) = \min\big(\cos(e(u), e(\tilde u)),\; \cos(e(v), e(\tilde v))\big),
+\end{equation}
+where $e(\cdot)$ is the LaBSE embedding. Taking the minimum ensures that an example is penalized when either side is damaged. Low consistency flags responses partly in another language, untranslatable fragments, and text that the translation system cannot preserve; such text is also likely to be damaged in the original translation. For English examples, which make up 9\% of the pool, we set $c$ to the language mean, so that they are ranked by quality alone.
+
+\subsection{Pivot quality}
+We score the English pivot $(u^{\mathrm{en}}, v^{\mathrm{en}})$ with a 1.3B-parameter reward model trained on public English helpfulness preference data \citep{bai2022hhrlhf}, obtaining $q(u, v)$. Scoring the pivot rather than the original lets a single English reward model rank examples in every language, at the cost of judging the translated rather than the original text; the consistency score limits this cost by flagging examples whose pivot misrepresents the original.
+
+\subsection{Per-language normalization and quotas}
+Raw consistency and quality scores differ systematically across languages: the translation system is better for Spanish than for Burmese, so even perfect Burmese examples receive lower consistency. We therefore z-score both components within each language and define the final score as $s = z_\ell(c) + z_\ell(q)$. XQF then retains the top $\rho$ fraction of each language by $s$, with $\rho = 0.3$ in our main experiments. The quota ensures that every language keeps the same share of its data, so no language can be filtered out by a global threshold.
+
+\section{Experimental Setup}
+\label{sec:setup}
+
+\paragraph{Instruction pool.}
+We build a pool covering 18 languages: six high-resource (English, Chinese, Spanish, French, German, Russian), six mid-resource (Arabic, Hindi, Indonesian, Turkish, Vietnamese, Japanese) and six low-resource (Swahili, Burmese, Telugu, Haitian Creole, Quechua, Tamil). It combines the portion of the Aya Dataset in these languages with a per-language sample of Bactrian-X, deduplicated by exact match after Unicode normalization.
+
+\paragraph{Contamination check.}
+Before any filtering, we removed every pool example that shares a 13-gram with any validation or test item of the four evaluation benchmarks, after lowercasing, NFKC normalization and whitespace collapsing, following \citet{brown2020gpt3}. For Chinese and Japanese, which are not whitespace-tokenized, we use character 25-grams instead. This removed 1,647 examples (0.4\% of the pool), most of them translated reasoning questions overlapping with MGSM, leaving 412K examples (131K human-written, 281K machine-translated). We further confirmed that none of the evaluation benchmarks' training splits, which we do not use, were among the pool's sources, and that the reward model's preference data contain no items from the evaluation benchmarks. The base model's pretraining data cannot be audited, but every condition shares the same base model, so pretraining contamination cannot favor one filter over another.
+
+\paragraph{Models and training.}
+We fine-tune Llama 2 7B and 13B \citep{touvron2023llama2} with full-parameter training for three epochs, learning rate $2 \times 10^{-5}$ with cosine decay, batch size 128 and maximum sequence length 2,048. These hyperparameters were chosen once, on the full-pool condition, using a held-out set of 2,000 pool instructions, and are shared by every data condition. Each condition is trained with three seeds.
+
+\paragraph{Baselines.}
+Every filter retains 30\% of each language, so that all conditions see the same language mix and the same number of examples. \emph{Random} samples uniformly within each language. \emph{Perplexity} keeps the examples with the lowest response perplexity under the base model. \emph{AlpaGasus-style} asks an open 70B chat model to rate each example from 1 to 5 in its original language, following the prompt of \citet{chen2024alpagasus}, and keeps the highest-rated examples, breaking ties at random. \emph{IFD} keeps the examples with the highest instruction-following difficulty under the base model \citep{li2024ifd}. We also report the \emph{full pool} without filtering.
+
+\paragraph{Evaluation.}
+We evaluate on four multilingual benchmarks that are held out from the pool: XCOPA \citep{ponti2020xcopa} for causal commonsense reasoning, XStoryCloze \citep{lin2022xglm} for story completion, XNLI \citep{conneau2018xnli} for natural language inference, and MGSM \citep{shi2023mgsm} for grade-school mathematics. Classification benchmarks are scored by accuracy under a fixed zero-shot instruction template; MGSM is scored by exact match of the final answer with zero-shot chain-of-thought prompting. Each of our 18 languages is covered by at least one benchmark. Coverage is uneven: Chinese and Swahili appear in all four benchmarks, whereas Japanese is covered only by MGSM, Burmese only by XStoryCloze, and Haitian Creole, Quechua and Tamil only by XCOPA, so per-language scores for these five languages rest on a single benchmark. We report each benchmark's average over those of our 18 languages that it covers and the unweighted average over benchmarks.
+
+\paragraph{Statistical testing.}
+For per-language comparisons we use a paired bootstrap test over evaluation items with 10,000 resamples \citep{koehn2004significance,dror2018hitchhiker}, pooling items across the benchmarks that cover the language and averaging predictions over seeds. Because each comparison is run in 18 languages, we control the family-wise error rate with the Holm--Bonferroni procedure \citep{holm1979simple} at $\alpha = 0.05$ and report the number of languages with a significant difference after correction.
+
+\paragraph{Human evaluation.}
+For six languages (Spanish, Hindi, Indonesian, Arabic, Swahili and Burmese), native-speaker annotators compared responses of the 7B models trained on XQF data and on the full pool for 150 open-ended prompts per language. Prompts were written for this study by the annotators' team leads and do not occur in the pool. Annotators saw the two responses in random order without knowing which system produced which and chose the better one or a tie. A random 20\% of items were annotated twice to measure agreement.
+
+\paragraph{Code and data.}
+Filtering code, selected example identifiers and evaluation scripts are available at \url{https://anonymous.4open.science/r/xqf-multi-8B21}.
+
+\section{Results}
+\label{sec:results}
+
+\begin{table*}[t]
+\centering
+\caption{Held-out multilingual benchmark scores (\%) after instruction tuning on different subsets of the 412K pool. All filters retain 30\% of each language. Mean $\pm$ standard deviation over three fine-tuning seeds; Avg is the unweighted mean over the four benchmarks.}
+\label{tab:main}
+\small
+\begin{tabular}{llccccc}
+\toprule
+Model & Data & XCOPA & XStoryCloze & XNLI & MGSM & Avg \\
+\midrule
+7B & Full pool & 58.2$\pm$0.4 & 61.7$\pm$0.3 & 45.9$\pm$0.5 & 15.0$\pm$0.6 & 45.2 \\
+ & Random & 57.6$\pm$0.5 & 61.0$\pm$0.4 & 45.1$\pm$0.6 & 13.9$\pm$0.7 & 44.4 \\
+ & Perplexity & 58.0$\pm$0.4 & 61.5$\pm$0.3 & 45.4$\pm$0.5 & 14.3$\pm$0.6 & 44.8 \\
+ & AlpaGasus-style & 58.9$\pm$0.4 & 62.4$\pm$0.3 & 46.3$\pm$0.4 & 16.0$\pm$0.5 & 45.9 \\
+ & IFD & 59.1$\pm$0.3 & 62.2$\pm$0.4 & 46.6$\pm$0.4 & 16.5$\pm$0.6 & 46.1 \\
+ & XQF (ours) & \textbf{60.4}$\pm$0.3 & \textbf{63.5}$\pm$0.3 & \textbf{47.8}$\pm$0.4 & \textbf{18.3}$\pm$0.5 & \textbf{47.5} \\
+\midrule
+13B & Full pool & 63.1$\pm$0.3 & 66.0$\pm$0.3 & 49.2$\pm$0.4 & 23.3$\pm$0.6 & 50.4 \\
+ & Random & 62.5$\pm$0.4 & 65.4$\pm$0.3 & 48.6$\pm$0.5 & 22.3$\pm$0.7 & 49.7 \\
+ & Perplexity & 62.8$\pm$0.3 & 65.9$\pm$0.3 & 48.9$\pm$0.4 & 22.8$\pm$0.6 & 50.1 \\
+ & AlpaGasus-style & 63.6$\pm$0.3 & 66.5$\pm$0.3 & 49.7$\pm$0.4 & 24.6$\pm$0.5 & 51.1 \\
+ & IFD & 63.9$\pm$0.3 & 66.4$\pm$0.2 & 49.9$\pm$0.4 & 25.0$\pm$0.6 & 51.3 \\
+ & XQF (ours) & \textbf{65.0}$\pm$0.3 & \textbf{67.6}$\pm$0.3 & \textbf{50.9}$\pm$0.3 & \textbf{26.9}$\pm$0.5 & \textbf{52.6} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\paragraph{Main results.}
+Table~\ref{tab:main} compares all data conditions. With the 7B model, XQF reaches an average of 47.5, compared with 45.2 for the full pool and 46.1 for IFD, the strongest baseline. With the 13B model, XQF reaches 52.6, compared with 50.4 for the full pool and 51.3 for IFD. The pattern is the same at both scales and on every benchmark: XQF is best, IFD and AlpaGasus-style rating follow in either order, and perplexity filtering and random selection fall below the full pool. That random selection falls below the full pool confirms that the comparison is not simply rewarding smaller training sets; the gain comes from which examples are kept. The largest benchmark-level gain is on MGSM (from 15.0 to 18.3 at 7B), consistent with the observation that translation systems often corrupt numbers and equations, which the consistency score detects.
+
+\paragraph{Significance.}
+Applying paired bootstrap tests per language with Holm--Bonferroni correction across the 18 languages, XQF significantly improves on the full pool with the 7B model in 13 of 18 languages and is never significantly worse. The five languages without a significant difference are all high-resource. Against IFD, the strongest baseline, the 7B difference of 1.4 points on average is significant after correction in 4 of 18 languages, all of them low-resource; we therefore describe XQF's advantage over IFD as concentrated in low-resource languages rather than uniform across languages.
+
+\begin{table}[t]
+\centering
+\caption{Llama 2 7B scores (\%) by language resource tier. Each language's score is the mean over the benchmarks covering it; tiers average six languages each. Mean over three seeds; standard deviations are at most 0.6 for every cell.}
+\label{tab:tiers}
+\small
+\begin{tabular}{lccc}
+\toprule
+Data & High & Mid & Low \\
+\midrule
+Full pool & 52.3 & 46.0 & 38.6 \\
+IFD & 53.6 & 46.9 & 38.9 \\
+XQF (ours) & 53.9 & 47.6 & 42.1 \\
+XQF without quota & 54.2 & 46.8 & 37.4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Gains by resource tier.}
+Table~\ref{tab:tiers} breaks the 7B results down by language resource tier. In high-resource languages XQF and IFD perform similarly (53.9 and 53.6), both about 1.5 points above the full pool. In low-resource languages, XQF improves the tier average by 3.5 points over the full pool (from 38.6 to 42.1), while IFD barely moves it (38.9). Removing the per-language quota and applying a single global threshold instead slightly helps high-resource languages (54.2) but drops the low-resource tier to 37.4, below the full pool. This is the failure mode that motivated the quota.
+
+\begin{figure}[t]
+\centering
+\fbox{\parbox{0.9\linewidth}{\centering\small [Bar chart placeholder: share of each language's examples retained by a single global XQF threshold, 18 languages ordered by resource tier.]}}
+\caption{Share of each language retained when XQF scores are thresholded globally instead of per language, at the same overall retention of 30\%. Low-resource languages keep between 3\% and 11\% of their data.}
+\label{fig:retention}
+\end{figure}
+
+\paragraph{Why a quota is needed.}
+Figure~\ref{fig:retention} shows what a global threshold does. At the same overall retention of 30\%, high-resource languages keep between 38\% and 47\% of their examples, while low-resource languages keep between 3\% and 11\%. The low-resource examples removed this way are not worse by any measure that we can check: their within-language score distribution matches that of the retained high-resource examples once normalized. They are removed because raw consistency and quality scores are lower for every example in those languages, a property of the translation system and the reward model rather than of the data.
+
+\paragraph{Human evaluation.}
+In the pairwise human evaluation across six languages, annotators preferred the response from the XQF-trained 7B model in 46.2\% of comparisons and the full-pool model in 32.3\%, with 21.5\% ties. The XQF model was preferred in each of the six languages, with the largest margins in Swahili and Burmese. Agreement on the double-annotated items was moderate, with Krippendorff's $\alpha$ \citep{krippendorff2004content} of 0.61, typical of pairwise preference judgments on open-ended responses.
+
+\section{Analysis}
+\label{sec:analysis}
+
+\begin{table}[t]
+\centering
+\caption{Ablations of XQF with Llama 2 7B. Avg is the unweighted mean over the four benchmarks (\%), mean over three seeds; all variants retain 30\% of the pool.}
+\label{tab:ablation}
+\small
+\begin{tabular}{lc}
+\toprule
+Variant & Avg \\
+\midrule
+XQF (full) & 47.5 \\
+Quality score only (no consistency) & 46.4 \\
+Consistency score only (no quality) & 46.6 \\
+No per-language z-normalization & 46.9 \\
+No per-language quota (global top 30\%) & 46.3 \\
+\midrule
+Full pool (no filtering) & 45.2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Ablations.}
+Table~\ref{tab:ablation} removes one component of XQF at a time. Each score on its own improves on the full pool, and they are complementary: quality alone reaches 46.4 and consistency alone 46.6, against 47.5 for the combination. The consistency score is the more useful of the two for low-resource languages, where it removes responses that drifted into English, while the quality score matters more for high-resource languages, where translations are usually intact and the remaining differences are in content. Dropping per-language normalization while keeping the quota costs 0.6 points; dropping the quota costs 1.2 points, almost entirely in the low-resource tier.
+
+\begin{figure}[t]
+\centering
+\fbox{\parbox{0.9\linewidth}{\centering\small [Line plot placeholder: 7B average held-out score versus retention rate $\rho$, from 10\% to 100\%.]}}
+\caption{Average held-out score of Llama 2 7B as a function of the XQF retention rate $\rho$. Retaining 100\% is the full pool.}
+\label{fig:rate}
+\end{figure}
+
+\paragraph{How much to keep.}
+Figure~\ref{fig:rate} varies the retention rate. The 7B average rises from 45.8 at 10\% retention to a peak of 47.5 at 30\%, then declines to 47.0 at 50\%, 46.2 at 70\% and 45.2 for the full pool. Keeping too little hurts low-resource languages first, because 10\% of a small language leaves only a few hundred examples. The optimum was chosen on the held-out pool instructions, not on the benchmarks, and the curve is flat enough between 20\% and 50\% that the choice is not delicate.
+
+\paragraph{What XQF removes.}
+We manually inspected 300 examples from the bottom decile of XQF scores, 50 from each of the six human-evaluation languages. The most common problems were responses partly or wholly in English (34\%), corrupted numbers, units or code (22\%), responses that answer a different question than the translated instruction asks (19\%) and truncated responses (11\%); 14\% had no visible problem. In the top decile, 4\% of a matched sample showed any of these problems. These rates indicate that the score tracks real defects rather than surface features such as length; the correlation between XQF score and response length is 0.08.
+
+\paragraph{Human-written versus translated data.}
+Human-written examples make up 32\% of the pool but 41\% of the XQF selection, so XQF shifts the training mix toward native data without being told which examples are translated. Restricting training to all human-written examples alone, a 131K subset, gives a 7B average of 46.0: better than the full pool but below XQF, which suggests that well-preserved translated examples remain valuable.
+
+\paragraph{Cost of filtering.}
+Scoring is a one-time cost per pool. Round-trip translation of the pool with NLLB-200 and LaBSE embedding took about 410 accelerator-hours, and reward-model scoring of the English pivots a further 35. For comparison, the AlpaGasus-style baseline, which runs a 70B rater over every example, took about 620 accelerator-hours, and IFD, which needs two forward passes of the base model per example, about 90. Because every filter retains 30\% of the pool, each fine-tuning run on filtered data costs roughly 30\% of a full-pool run, which for the 7B model takes about 320 accelerator-hours, so for the 7B model the scoring cost of XQF is recovered after about two training runs. The translation step dominates and can be reused: the pivots and round-trip translations do not depend on the base model, so changing the model or the retention rate requires no new translation.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Selecting multilingual instruction data requires methods that respect differences between languages. XQF judges each example by whether it survives translation and by the quality of its English pivot, compares examples only within their language, and keeps the same share of every language. At a 30\% retention rate it improves held-out multilingual performance over both the full pool and English-centric filters, with the largest gains in low-resource languages. Our experiments cover one model family at two scales, 18 languages and four benchmarks; whether the same retention rate is optimal for other model families or for generation-heavy tasks remains open.
+
+\section*{Limitations}
+
+XQF depends on a translation system and a multilingual encoder, and it inherits their coverage. For languages that NLLB or LaBSE handle poorly, round-trip consistency is low for every example and, after normalization, ranks examples by noise; Quechua, our weakest language, shows the smallest gain in the low-resource tier. Scoring quality on the English pivot means that culturally specific content that does not translate well may be removed even when it is valuable, and a filter that rewards translatability may push the data toward content that resembles English sources. Our evaluation relies on classification and short-answer benchmarks plus a six-language human evaluation; we do not measure long-form generation quality or safety behavior in most languages. All models come from one family, Llama 2, at 7B and 13B parameters, and we did not test larger models or other architectures. Finally, the reward model is trained on English preference data, so its notion of a good response reflects the annotators of that data.
+
+\section*{Ethics Statement}
+
+The human evaluation was conducted with professional annotators recruited through a translation vendor, all native speakers of the language they judged. Annotators were paid USD 18 per hour, above the local minimum wage in every country involved, were informed of the purpose of the study, and could stop at any time. The study protocol was reviewed by our institution's ethics board and judged exempt. Before release, we removed email addresses, phone numbers and personal names detected by a pattern-and-NER pass from the selected examples; source datasets are redistributed only as example identifiers under their original licenses. Filtering decisions that remove whole classes of content, such as culturally specific material, can reduce the diversity of what a model learns; we report what XQF removes in Section~\ref{sec:analysis} so that users can judge whether this matters for their application.
+
+\begin{thebibliography}{99}
+
+\bibitem[Bai et~al.(2022)]{bai2022hhrlhf}
+Bai, Y., Jones, A., Ndousse, K., Askell, A., Chen, A., DasSarma, N., Drain, D., Fort, S., Ganguli, D., Henighan, T., et~al. (2022).
+Training a helpful and harmless assistant with reinforcement learning from human feedback.
+\textit{arXiv preprint arXiv:2204.05862}.
+
+\bibitem[Brown et~al.(2020)]{brown2020gpt3}
+Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J.~D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et~al. (2020).
+Language models are few-shot learners.
+In \textit{Advances in Neural Information Processing Systems}.
+
+\bibitem[Chen et~al.(2024)]{chen2024alpagasus}
+Chen, L., Li, S., Yan, J., Wang, H., Gunaratna, K., Yadav, V., Tang, Z., Srinivasan, V., Zhou, T., Huang, H., and Jin, H. (2024).
+AlpaGasus: Training a better Alpaca with fewer data.
+In \textit{International Conference on Learning Representations}.
+
+\bibitem[Conneau et~al.(2018)]{conneau2018xnli}
+Conneau, A., Rinott, R., Lample, G., Williams, A., Bowman, S., Schwenk, H., and Stoyanov, V. (2018).
+XNLI: Evaluating cross-lingual sentence representations.
+In \textit{Proceedings of EMNLP}.
+
+\bibitem[Dror et~al.(2018)]{dror2018hitchhiker}
+Dror, R., Baumer, G., Shlomov, S., and Reichart, R. (2018).
+The hitchhiker's guide to testing statistical significance in natural language processing.
+In \textit{Proceedings of ACL}.
+
+\bibitem[Feng et~al.(2022)]{feng2022labse}
+Feng, F., Yang, Y., Cer, D., Arivazhagan, N., and Wang, W. (2022).
+Language-agnostic BERT sentence embedding.
+In \textit{Proceedings of ACL}.
+
+\bibitem[Holm(1979)]{holm1979simple}
+Holm, S. (1979).
+A simple sequentially rejective multiple test procedure.
+\textit{Scandinavian Journal of Statistics}, 6(2):65--70.
+
+\bibitem[Koehn(2004)]{koehn2004significance}
+Koehn, P. (2004).
+Statistical significance tests for machine translation evaluation.
+In \textit{Proceedings of EMNLP}.
+
+\bibitem[Krippendorff(2004)]{krippendorff2004content}
+Krippendorff, K. (2004).
+\textit{Content Analysis: An Introduction to Its Methodology}.
+Sage, 2nd edition.
+
+\bibitem[Li et~al.(2023)]{li2023bactrianx}
+Li, H., Koto, F., Wu, M., Aji, A.~F., and Baldwin, T. (2023).
+Bactrian-X: Multilingual replicable instruction-following models with low-rank adaptation.
+\textit{arXiv preprint arXiv:2305.15011}.
+
+\bibitem[Li et~al.(2024)]{li2024ifd}
+Li, M., Zhang, Y., Li, Z., Chen, J., Chen, L., Cheng, N., Wang, J., Zhou, T., and Xiao, J. (2024).
+From quantity to quality: Boosting LLM performance with self-guided data selection for instruction tuning.
+In \textit{Proceedings of NAACL}.
+
+\bibitem[Lin et~al.(2022)]{lin2022xglm}
+Lin, X.~V., Mihaylov, T., Artetxe, M., Wang, T., Chen, S., Simig, D., Ott, M., Goyal, N., Bhosale, S., Du, J., et~al. (2022).
+Few-shot learning with multilingual generative language models.
+In \textit{Proceedings of EMNLP}.
+
+\bibitem[Muennighoff et~al.(2023)]{muennighoff2023crosslingual}
+Muennighoff, N., Wang, T., Sutawika, L., Roberts, A., Biderman, S., Le Scao, T., Bari, M.~S., Shen, S., Yong, Z.-X., Schoelkopf, H., et~al. (2023).
+Crosslingual generalization through multitask finetuning.
+In \textit{Proceedings of ACL}.
+
+\bibitem[NLLB Team(2022)]{nllb2022}
+NLLB Team, Costa-juss\`a, M.~R., Cross, J., \c{C}elebi, O., Elbayad, M., Heafield, K., Heffernan, K., Kalbassi, E., Lam, J., Licht, D., Maillard, J., et~al. (2022).
+No language left behind: Scaling human-centered machine translation.
+\textit{arXiv preprint arXiv:2207.04672}.
+
+\bibitem[Ponti et~al.(2020)]{ponti2020xcopa}
+Ponti, E.~M., Glava\v{s}, G., Majewska, O., Liu, Q., Vuli\'{c}, I., and Korhonen, A. (2020).
+XCOPA: A multilingual dataset for causal commonsense reasoning.
+In \textit{Proceedings of EMNLP}.
+
+\bibitem[Sainz et~al.(2023)]{sainz2023contamination}
+Sainz, O., Campos, J.~A., Garc\'{i}a-Ferrero, I., Etxaniz, J., Lopez de Lacalle, O., and Agirre, E. (2023).
+NLP evaluation in trouble: On the need to measure LLM data contamination for each benchmark.
+In \textit{Findings of EMNLP}.
+
+\bibitem[Shi et~al.(2023)]{shi2023mgsm}
+Shi, F., Suzgun, M., Freitag, M., Wang, X., Srivats, S., Vosoughi, S., Chung, H.~W., Tay, Y., Ruder, S., Zhou, D., Das, D., and Wei, J. (2023).
+Language models are multilingual chain-of-thought reasoners.
+In \textit{International Conference on Learning Representations}.
+
+\bibitem[Singh et~al.(2024)]{singh2024aya}
+Singh, S., Vargus, F., D'souza, D., Karlsson, B.~F., Mahendiran, A., Ko, W.-Y., Shandilya, H., Patel, J., Mataciunas, D., O'Mahony, L., et~al. (2024).
+Aya Dataset: An open-access collection for multilingual instruction tuning.
+In \textit{Proceedings of ACL}.
+
+\bibitem[Touvron et~al.(2023)]{touvron2023llama2}
+Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., et~al. (2023).
+Llama 2: Open foundation and fine-tuned chat models.
+\textit{arXiv preprint arXiv:2307.09288}.
+
+\bibitem[Wang et~al.(2023)]{wang2023selfinstruct}
+Wang, Y., Kordi, Y., Mishra, S., Liu, A., Smith, N.~A., Khashabi, D., and Hajishirzi, H. (2023).
+Self-Instruct: Aligning language models with self-generated instructions.
+In \textit{Proceedings of ACL}.
+
+\bibitem[Zhou et~al.(2023)]{zhou2023lima}
+Zhou, C., Liu, P., Xu, P., Iyer, S., Sun, J., Mao, Y., Ma, X., Efrat, A., Yu, P., Yu, L., et~al. (2023).
+LIMA: Less is more for alignment.
+In \textit{Advances in Neural Information Processing Systems}.
+
+\end{thebibliography}
+
+\end{document}

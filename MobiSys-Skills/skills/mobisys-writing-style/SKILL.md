@@ -1,6 +1,6 @@
 ---
 name: mobisys-writing-style
-description: Use when revising a MobiSys paper for a mobile-systems first page, the pain → system-design → on-device-evidence arc, 12-page double-column compression, double-blind wording, and claims disciplined by measured latency, energy, memory, and thermal budgets rather than superlatives, so the draft survives systems-and-services reviewers.
+description: Use when revising a MobiSys paper for a mobile-systems first page, the pain → system-design → on-device-evidence arc, 12-page double-column compression, single-blind conventions (named authors, natural self-citation, LLM-text disclosure), and claims disciplined by measured latency, energy, memory, and thermal budgets rather than superlatives, so the draft survives systems-and-services reviewers.
 ---
 
 # MobiSys Writing Style
@@ -21,8 +21,9 @@ on-device problem, the system that solves it, and the measurements that prove it
   extended ablations to the appendix without making the main paper unintelligible.
 - Avoid overclaiming wins when the distribution is unreported or the gain is inside run-to-run
   spread.
-- Maintain double-blind style in self-citations, prior-system references, acknowledgements,
-  funding, screenshots, and artifact descriptions.
+- MobiSys is **single-blind** (since 2026): cite your own prior systems naturally ("our
+  earlier system X [12]") and state clearly what is new relative to it — reviewers see the
+  author list and will compare. Any LLM-generated text must be identified in the paper.
 
 ## System-presentation discipline
 
@@ -62,5 +63,5 @@ reconstruct the whole system and its evidence without opening the supplement.
 [First-page fix] <new mobile-system framing>
 [Claim discipline] <claim -> measurement/design/limitation>
 [Compression cuts] <move/delete/merge>
-[Anonymity edits] <phrases, screenshots, or repo strings to rewrite>
+[Self-citation and disclosure] <delta vs own prior work stated? LLM text marked?>
 ```

@@ -152,8 +152,8 @@ hard gate is **fit**: a method contribution, not an application.
 
 This is a **methods journal** pack: it does **not** vendor the venue-neutral applied causal-inference
 code kit. SMR papers ship their own software (`smr-software-and-reproducibility`); the shared
-[`reviewer-objection-checklist`](../shared-resources/empirical-methods/reviewer-objection-checklist.md)
-and [`reporting-standards`](../shared-resources/empirical-methods/reporting-standards.md) are linked
+[`reviewer-objection-checklist`](resources/shared/empirical-methods/reviewer-objection-checklist.md)
+and [`reporting-standards`](resources/shared/empirical-methods/reporting-standards.md) are linked
 only as **background** for stress-testing the empirical illustration.
 
 ---

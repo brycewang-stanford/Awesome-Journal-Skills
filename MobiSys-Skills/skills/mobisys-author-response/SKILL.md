@@ -1,12 +1,13 @@
 ---
 name: mobisys-author-response
-description: Use when drafting a MobiSys rebuttal after round-2 reviews — working within the scope limit (correct factual errors, answer specific reviewer questions), adding only directly-responsive new results, promising camera-ready work honestly, staying double-blind, and giving the area chair a clean rationale for a mobile-systems accept decision.
+description: Use when drafting a MobiSys rebuttal after round-2 reviews — working within the scope limit (correct factual errors, answer specific reviewer questions), adding only directly-responsive new results, promising camera-ready work honestly, staying within 500 words, and giving the area chair a clean rationale for a mobile-systems accept decision.
 ---
 
 # MobiSys Author Response
 
 Use this after MobiSys round-2 reviews are released. Reopen the current rebuttal instructions
-and length limit before drafting, because scope and mechanics are cycle-specific. The MobiSys
+and length limit before drafting, because scope and mechanics are cycle-specific (MobiSys
+2027: rebuttal February 8–12, 2027, at most **500 words**; CFP re-verified 2026-11-24). The MobiSys
 rebuttal is **narrow by design**: it is not a revision and not a place to reargue the paper.
 
 ## Scope discipline
@@ -16,8 +17,10 @@ rebuttal is **narrow by design**: it is not a revision and not a place to reargu
 - New experiments are admissible **only if they directly address reviewer feedback**;
   alternatively, you may **promise** results expected by the camera-ready deadline — but only
   ones you can actually deliver.
-- Keep the reply **double-blind**: no institution, authorship, private repository, or
-  identity-revealing device/account detail.
+- Review is **single-blind**, so there is nothing to anonymize — but keep the reply about the
+  paper: no appeals to the authors' reputation, and no private links reviewers cannot open.
+- Accepted papers are conditional: promised results become the anonymous shepherd's checklist
+  and can decide final acceptance.
 - Use existing submitted evidence first: figures, appendix tables, device provenance, and the
   artifact — point to them precisely rather than restating them.
 
@@ -62,7 +65,7 @@ Reviewer objection: the latency win might vanish once the device throttles. Repl
 ```text
 [Priority issue] <reviewer concern>
 [Decision dimension] contribution / on-device evidence / energy-latency rigor / clarity
-[Draft response] <MobiSys-ready anonymous text within scope>
+[Draft response] <MobiSys-ready text within scope, ≤ 500 words>
 [Evidence anchor] <figure/table/appendix/artifact item>
-[Out-of-scope content removed] <reargument, identity leaks, undeliverable promises>
+[Out-of-scope content removed] <reargument, reputation appeals, undeliverable promises>
 ```

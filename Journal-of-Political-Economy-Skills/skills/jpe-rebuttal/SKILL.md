@@ -71,5 +71,5 @@ Tone: respectful, concise, confident. Every response is either "done, here it is
 【Revisions complete before letter】[y/n]
 【Summary-of-changes table】drafted? [y/n]
 【Replication readiness】code ready for JPE Data Editor on accept? [y/n]
-【Next】resubmit via Editorial Express (jpe-submission for format re-check)
+【Next】resubmit via Editorial Manager (jpe-submission for format re-check)
 ```

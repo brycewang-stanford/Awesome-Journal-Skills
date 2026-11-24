@@ -1,6 +1,6 @@
 ---
 name: jais-writing-style
-description: Use when polishing the prose of a Journal of the Association for Information Systems (JAIS) manuscript — the abstract, introduction, theory narrative, and APA-6 mechanics — so a pluralistic, theory-forward reviewer pool can follow the argument. A late-stage polish; it does not build the contribution (jais-contribution-framing) or check submission mechanics (jais-submission).
+description: Use when polishing the prose of a Journal of the Association for Information Systems (JAIS) manuscript — the abstract, introduction, theory narrative, and APA-7 mechanics — so a pluralistic, theory-forward reviewer pool can follow the argument. A late-stage polish; it does not build the contribution (jais-contribution-framing) or check submission mechanics (jais-submission).
 ---
 
 # Writing Style (jais-writing-style)
@@ -10,7 +10,7 @@ description: Use when polishing the prose of a Journal of the Association for In
 - The theory, evidence, and contribution are settled and the prose now needs to carry them
 - The introduction reads as a literature dump and the contribution does not land in the first pages
 - Your sub-field's shorthand makes the paper opaque to reviewers from other IS traditions
-- References and in-text citations are not in APA 6th edition
+- References and in-text citations are not in APA 7th edition
 - A reviewer says the writing is "dense," "jargon-heavy," or "the argument is hard to follow"
 
 ## Write for a pluralistic, theory-forward reader
@@ -35,7 +35,7 @@ The abstract is the first and sometimes only thing an editor reads before decidi
 
 ## Prose mechanics JAIS reviewers notice
 
-- **APA 6th edition** references and in-text citation; lead with the idea, not a parenthetical pile-up.
+- **APA 7th edition** references and in-text citation; lead with the idea, not a parenthetical pile-up.
 - Prefer active voice and concrete subjects; cut nominalizations ("the operationalization of" → "we measured").
 - One idea per paragraph, with a topic sentence that states the claim.
 - Define every construct on first use; do not assume cross-tradition familiarity.
@@ -59,7 +59,7 @@ Tightening prose is also length management: JAIS flags manuscripts over **~15,00
 - [ ] The theoretical argument is the narrative spine; methods/results serve it
 - [ ] Every construct is defined on first use; cross-tradition jargon is unpacked
 - [ ] Active voice, concrete subjects, one idea per paragraph
-- [ ] APA 6th references and in-text citation throughout
+- [ ] APA 7th references and in-text citation throughout
 - [ ] Abstract is a faithful, standalone summary (phenomenon → theory → method → contribution)
 - [ ] Self-citations neutral; no identifying info in the body (double-blind)
 - [ ] Prose tightened so the manuscript stays within the length budget
@@ -83,7 +83,7 @@ A draft opens: "Information systems research has long studied technology adoptio
 【Contribution by page 2?】yes/fix
 【Theory-first narrative】theory is the spine, methods serve it: yes/fix
 【Cross-tradition legibility】jargon defined: yes/fix
-【APA 6th + active voice】pass/fix
+【APA 7th + active voice】pass/fix
 【Abstract】standalone phenomenon→theory→method→contribution: yes/fix
 【Anonymity in prose】no identifying info; neutral self-cites: pass/fix
 【Length】within ~15k words / 65pp: yes/trim

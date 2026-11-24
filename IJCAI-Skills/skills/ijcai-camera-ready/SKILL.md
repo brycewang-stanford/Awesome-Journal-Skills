@@ -19,8 +19,10 @@ registration page, copyright instructions, and presentation rules before advisin
   promised at submission and in the response.
 - Prepare source files, figures, bibliography, metadata, copyright forms, and any open-access
   proceedings forms required by current instructions.
-- Arrange registration and in-person presentation. IJCAI-ECAI 2026 required at least one
-  accepted-paper author to attend in Bremen and present unless an exception was approved.
+- Arrange registration and in-person presentation. IJCAI 2027 requires at least one
+  accepted-paper author to attend in Kyoto or Hengqin and present orally and as a poster;
+  papers not presented are excluded from the proceedings unless an exception is approved.
+  Camera-ready is due May 7, 2027.
 - Release code/data only after checking anonymity no longer matters, licenses are valid, and
   promised artifacts are ready.
 

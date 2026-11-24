@@ -8,8 +8,8 @@ description: Use when interpreting where an NSDI submission stands — the per-d
 NSDI's review machinery differs from single-deadline conferences in one structural
 way: decisions are moves in a multi-deadline game, not endpoints. Reading a decision
 letter correctly requires knowing which moves it opens and which it closes. Mechanics
-below are the NSDI '27 CFP and the NSDI '26 multiple-deadlines page as rendered on
-2026-07-08.
+below are the NSDI '27 CFP and the NSDI '26 multiple-deadlines page as re-verified on
+2026-11-24.
 
 ## Pipeline shape
 
@@ -17,10 +17,14 @@ Each deadline (spring, fall) runs its own double-blind PC review on its own HotC
 site, producing its own decision cohort — NSDI even publishes per-cohort
 accepted-paper lists before the symposium. Within a cohort:
 
-- Reviews are written against the paper as submitted; the rendered '27 CFP describes
-  **no author-response phase** between reviews and decisions (absence 待核实 — check
-  the current cycle's pages before relying on it). Plan as if the submission must
-  argue for itself (`nsdi-author-response`).
+- **Prescreen first (new in '27).** Reviewers read only the Introduction (no more
+  than 3 pages) and check scope, readability by an NSDI PC member outside the
+  subfield, and whether the stated contribution fits the chosen track. A paper that
+  fails here never reaches full review.
+- Reviews are written against the paper as submitted; the '27 CFP, re-read in full on
+  2026-11-24, describes **no author-response phase** between reviews and decisions
+  (an inference from its silence — check the current cycle's pages). Plan as if the
+  submission must argue for itself (`nsdi-author-response`).
 - Review loads are bounded upstream by the **eight-submissions-per-author cap**,
   which exists to protect PC bandwidth — expect enforcement, not flexibility.
 - Notifications land on published dates: July 23, 2026 for '27 spring;
@@ -30,7 +34,7 @@ accepted-paper lists before the symposium. Within a cohort:
 
 | Decision | What it means | What it opens / closes |
 |---|---|---|
-| Accept | into the cohort's program | final paper, artifact evaluation, presenter duties |
+| Accept | into the cohort's program | PC-shepherded editorial revision, final paper (October 20, 2026 spring / March 4, 2027 fall), artifact evaluation, full-price registration and presenter duties |
 | One-shot revision | conditional path: reviewers issue a list of required issues | resubmit at a subsequent deadline (possibly next year's NSDI); same reviewers where possible; **one** attempt |
 | Reject | out, with a ban attached | cannot enter the **next** deadline; spring reject skips same-edition fall, fall reject skips next edition's spring |
 
@@ -40,7 +44,10 @@ on whether those issues are fixed; a revision that dodges them is rejected **wit
 another revision option**. Institutional continuity is built in — the same reviewers
 re-review where possible, and PC members who issue one-shot revisions at a fall
 deadline are required to serve as external reviewers the following year, so the
-issue list is written by people expecting to check it.
+issue list is written by people expecting to check it. During the revision period the paper
+**counts as under review at NSDI**: it cannot go to another venue unless the authors
+first withdraw it, and a one-shot paper sent to the immediately next deadline may only
+come as a revision with its auxiliary material.
 
 ## What reviewers reward and punish
 
@@ -106,7 +113,7 @@ extracting systematically:
 Reviews and PC deliberations are confidential; submissions are read under
 double-blind rules with declared conflicts recused via HotCRP. Do not contact PC
 members about a pending paper; process questions go to the program co-chairs
-(named on the current conference page; the '27 pair 待核实). Decisions are not
+(named on the current conference page; for '27, Marcos K. Aguilera and Justine Sherry). Decisions are not
 relitigated by email — the sanctioned channel for disagreement is the revision or
 the next eligible submission.
 

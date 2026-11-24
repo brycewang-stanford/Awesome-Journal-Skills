@@ -61,8 +61,9 @@ abstract before anyone reads the methods section.
 
 ## Format to APSA style
 
-- **Citations**: author-date per the APSA Style Manual; keep one consistent style (manage with
-  Zotero/BibTeX). References excluded from the word count.
+- **Citations**: author-date — the Cambridge guidelines specify the Chicago Manual of Style 17th ed.
+  author-date system with full first and last names (the APSA Style Manual is also referenced); keep
+  one consistent style (manage with Zotero/BibTeX). References excluded from the word count.
 - **Front page**: include the **word count**; corresponding author has an **ORCID iD**.
 - **Anonymize**: APSR is **double-anonymous** — no author names/affiliations/acknowledgments in the
   manuscript, no obvious self-references ("as we showed in…"), strip identifying file metadata.

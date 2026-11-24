@@ -1,16 +1,18 @@
 ---
 name: cikm-review-process
-description: Use when reasoning about CIKM peer review — the EasyChair double-blind pipeline, the mixed IR/data-mining/knowledge-management reviewer pool, per-track evaluation criteria, the ACM Peer Review Policy including the no-AI-written-reviews rule, notification timing, and what actually moves borderline decisions.
+description: Use when reasoning about CIKM peer review — the EasyChair pipeline (double-blind for Full/Short, single-blind for Applied/Resource/Demo), the mixed IR/data-mining/knowledge-management reviewer pool, per-track evaluation criteria, the ACM Peer Review Policy including the no-AI-written-reviews rule, notification timing, and what actually moves borderline decisions.
 ---
 
 # CIKM Review Process
 
-CIKM review runs on EasyChair under double-blind rules, inside the ACM Peer Review
+CIKM review runs on EasyChair — double-blind for the Full and Short Research tracks,
+single-blind for Applied Research, Resource and Demo — inside the ACM Peer Review
 Policy, and — its defining feature — in front of a reviewer pool drawn from three
-communities at once. Verified 2026 mechanics (source map, 2026-07-08): submissions
-closed in May/June, notification lands August 7, and referees are explicitly barred
-from using AI systems to write reviews. Whether 2026 includes an author response
-window is unconfirmed in either direction (待核实); plan without assuming one.
+communities at once. Verified 2026 mechanics (source map, re-verified 2026-11-24):
+bidding May 26 - June 2, primary review June 2 - 30, reviewer discussion June 30 -
+July 10, SPC meta-reviews July 10 - 20, PC chairs' decision meeting July 20 - August 5,
+notification August 7; referees are explicitly barred from using AI systems to write
+reviews; and the published schedule has **no author-response step** — plan without one.
 
 ## The blended-pool effect
 
@@ -94,8 +96,9 @@ around a defective review; they cannot around an author who breached process.
 
 ## After the decision
 
-Accepted papers move to `cikm-camera-ready` with an August 20 camera-ready gate —
-thirteen days after notification, one of the tightest turnarounds in the family.
+Accepted papers move to `cikm-camera-ready` with an August 23 camera-ready gate —
+sixteen days after notification, one of the tightest turnarounds in the family, and
+the same day as the author-registration deadline.
 Rejected papers should mine the tri-lane reviews for routing information: lane-
 specific objections point to the venue whose community wrote them, which is exactly
 the input `cikm-workflow`'s fallback ring consumes.

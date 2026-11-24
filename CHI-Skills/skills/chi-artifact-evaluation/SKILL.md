@@ -6,7 +6,10 @@ description: Use when packaging the artifacts behind an ACM CHI paper — protot
 # CHI Artifact Evaluation
 
 CHI's Papers track posted no separate artifact-evaluation committee or badge track
-for the cycles checked (2026, 2027; confirm each year — 待核实 as a standing item).
+for the cycles checked (2026, 2027; re-checked 2026-11-24 — confirm each year). The
+CHI 2027 publication-ready instructions do say final supplementary material "will be
+used to determine ACM Artifact Review and Badging", without describing any committee
+or badge process for the Papers track.
 That absence cuts both ways: nobody certifies your artifacts, and nobody but you
 ensures a skeptical reviewer can inspect them. At CHI the "artifact" is rarely just
 code — it is the prototype, the study instruments, the codebook, the dataset, and

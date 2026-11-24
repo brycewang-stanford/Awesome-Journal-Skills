@@ -71,7 +71,7 @@ result from +0.4 for free.
 
 ## ADS-track measurement design
 
-Post-launch quantification is a desk-check item on the 2026 ADS CFP, so design the
+Post-launch quantification is a desk-check item on the KDD 2027 ADS CFP, so design the
 measurement, don't just harvest it:
 
 - Prefer a controlled rollout (A/B or interleaving) with stated traffic share and

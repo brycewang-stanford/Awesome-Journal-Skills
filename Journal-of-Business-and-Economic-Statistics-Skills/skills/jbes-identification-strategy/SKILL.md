@@ -32,7 +32,7 @@ At JBES the load-bearing question is usually not a causal-design story but **whe
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the identification claim, don't only argue it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JBES is a business / economic-statistics venue — reviewers weigh estimator validity and simulation evidence, so pair every estimate with its diagnostics and, where relevant, a Monte-Carlo check.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JBES is a business / economic-statistics venue — reviewers weigh estimator validity and simulation evidence, so pair every estimate with its diagnostics and, where relevant, a Monte-Carlo check.
 
 1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
    the checks the design still owes.

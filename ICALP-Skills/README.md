@@ -6,40 +6,49 @@ meeting of the European Association for Theoretical Computer Science. The pack c
 an ICALP campaign: deciding whether a result is ICALP-shaped and whether it is a **Track A**
 (algorithms, complexity, games) or **Track B** (automata, logic, semantics) paper; writing a theorem
 paper that a subject-expert referee will *check*; packaging the lightweight double-blind HotCRP
-submission with its 15-page body and full-version appendix; handling the Track B rebuttal; and
+submission (no page limit, but the first ten pages must carry the result); handling the Track B
+rebuttal; and
 delivering the open-access **LIPIcs** camera-ready.
 
-Official basis checked on **2026-07-09**: the ICALP 2026 (53rd, Royal Holloway) Call for Papers and
-Important Dates, the Track A / Track B HotCRP sites, the EATCS series and awards pages, and the
-LIPIcs/Dagstuhl author instructions. Several official hosts (the Royal Holloway site, the CFP PDF
-host, the mailing-list archives, WikiCFP) returned 403 in the verification environment, so pages were
-read via search-engine renderings of the exact URLs and cross-checked against **dblp** and the
-**DROPS/LIPIcs** ICALP volumes; the full trail, including everything still marked 待核实, is in
+Official basis **re-verified 2026-11-24** by direct fetch: the ICALP 2027 (54th, Kraków) home,
+Track B call and committees pages, both ICALP 2027 HotCRP sites, the ICALP 2026 call and site, and
+the EATCS series page. The pack now describes **ICALP 2027**; its Track A call and the February-round
+dates were not yet posted. That re-check also **corrected a long-standing error**: the "15-page
+extended abstract" rule belonged to ICALP 2025 — ICALP 2026 and the ICALP 2027 Track B call have **no
+page limit**. The original 2026-07-09 pass read several hosts via search-engine renderings when they
+returned 403; the full trail, including everything still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 > Sibling-venue warning: ICALP is **not** STOC, FOCS, or SODA (the US ACM/SIAM theory venues), and not
-> LICS. It is EATCS's European flagship, published open-access in LIPIcs, single-deadline, two-track.
+> LICS. It is EATCS's European flagship, published open-access in LIPIcs, two-track.
 > No fact in this pack is carried over from those venues.
 
 ## What makes ICALP different from its siblings
 
-These venue mechanics, verified for the 2026 cycle, drive most of the advice in the skills — and most
+These venue mechanics, verified for the ICALP 2027 cycle (Track B call) and ICALP 2026, drive most of the advice in the skills — and most
 of the mistakes made by authors arriving from a US theory venue, a systems/ML venue, or a journal:
 
 - **Two tracks, two committees, two HotCRP servers.** **Track A — Algorithms, Complexity and Games**
   and **Track B — Automata, Logic, Semantics and Theory of Programming**. Choosing the track is a real
-  decision with real consequences (Track B has a rebuttal; Track A does not).
-- **One annual deadline.** ICALP posts a **single February deadline** (ICALP 2026: abstract 3 Feb,
-  submission 6 Feb, AoE). A miss costs a full year — there is no second cycle.
-- **A 15-page extended abstract + full version.** The body is **≤15 pages** excluding references and a
-  **clearly labelled appendix**; the appendix holds omitted proofs or a full version, read at the PC's
-  discretion. The camera-ready is **LIPIcs `lipics-v2021`**.
+  decision with real consequences (Track B has a rebuttal; in ICALP 2026 Track A did not).
+- **February deadline — and, for Track B, a September round.** Track A has one February deadline
+  (ICALP 2026: abstract 3 Feb, submission 6 Feb, AoE); a miss costs a full year. From **ICALP 2027**,
+  Track B runs **two rounds** — round 1 closed 15 Sep 2026 (notification 8 Dec 2026), round 2 in
+  February 2027 (dates TBA) — and a paper may enter only one.
+- **No page limit, but a ten-page window.** Authors are encouraged to submit the **full version**;
+  the first **ten pages** after the title page must present the merits, contributions and key ideas,
+  and the rest is read at the PC's discretion. Single column, readable fonts (e.g. 11-point); the
+  LIPIcs class is recommended, and the camera-ready is **LIPIcs `lipics-v2021`**. (The 15-page cap
+  was ICALP 2025's rule.)
+- **AI-use disclosure.** The ICALP 2027 call requires AI use in conducting the research to be
+  disclosed in the paper, with specific uses described.
 - **Lightweight double-blind.** Submissions are anonymous with third-person self-citation, but the
   regime is deliberately lightweight — an unbiased first read, not undiscoverable authorship.
   (Historically ICALP was single-blind; recent cycles adopted lightweight double-blind — verify per
   cycle.)
-- **Asymmetric author interaction.** **Track B** has a rebuttal window (2026: 21-24 March); **Track A**
-  contacts authors only about **correctness**. There is **no revision round** — the submission must be
+- **Asymmetric author interaction.** **Track B** has a rebuttal window in each round (2027 round 1:
+  5-9 November 2026; 2026: 21-24 March); in ICALP 2026 **Track A** contacted authors only about
+  **correctness**. There is **no revision round** — the submission must be
   correct at the deadline.
 - **No artifact evaluation.** ICALP is pure theory: the contribution is a **theorem**, and the analogue
   of an "artifact" is the **full version with complete proofs** (plus optional formalization). This
@@ -51,14 +60,14 @@ of the mistakes made by authors arriving from a US theory venue, a systems/ML ve
 
 | Skill | What it does |
 | --- | --- |
-| [`icalp-topic-selection`](skills/icalp-topic-selection/SKILL.md) | Decide ICALP vs STOC/FOCS/SODA/LICS or a journal, and Track A vs Track B, by contribution shape, referee community, and the single February calendar. |
-| [`icalp-workflow`](skills/icalp-workflow/SKILL.md) | Run the one-cycle year backward from the February deadline, through abstract registration, the Track B rebuttal, the April notification, and the LIPIcs camera-ready. |
-| [`icalp-writing-style`](skills/icalp-writing-style/SKILL.md) | Build the theory skeleton: model before theorem, a legible statement and its improvement on page one, proofs the referee can check within the 15-page budget. |
+| [`icalp-topic-selection`](skills/icalp-topic-selection/SKILL.md) | Decide ICALP vs STOC/FOCS/SODA/LICS or a journal, and Track A vs Track B, by contribution shape, referee community, and the calendar (February; Track B also September). |
+| [`icalp-workflow`](skills/icalp-workflow/SKILL.md) | Run the year backward from the February deadline (or Track B's September round), through abstract registration, the Track B rebuttal, notification, and the LIPIcs camera-ready. |
+| [`icalp-writing-style`](skills/icalp-writing-style/SKILL.md) | Build the theory skeleton: model before theorem, a legible statement and its improvement on page one, proofs the referee can check, with the case made in the first ten pages. |
 | [`icalp-related-work`](skills/icalp-related-work/SKILL.md) | Position against the best known bounds, credit the right TCS venues and journal versions, and keep self-citations third-person under double-blind. |
 | [`icalp-experiments`](skills/icalp-experiments/SKILL.md) | Match the proof strategy to the claim shape and handle computation that legitimately supports a theorem (SAT/SMT certificates, exhaustive base cases) without becoming an experimental paper. |
 | [`icalp-reproducibility`](skills/icalp-reproducibility/SKILL.md) | Make the result checkable: complete, self-contained proofs, a full version, reproducible certificates, and optional Coq/Lean/Isabelle formalization. |
-| [`icalp-supplementary`](skills/icalp-supplementary/SKILL.md) | Split the paper by decision-criticality: the body earns belief, the appendix earns verification, and nothing that decides acceptance hides in an unread appendix. |
-| [`icalp-submission`](skills/icalp-submission/SKILL.md) | Final HotCRP audit: correct track server, abstract registration, the 15-page budget, the double-blind sweep, the no-simultaneous-submission rule, format-reject triage. |
+| [`icalp-supplementary`](skills/icalp-supplementary/SKILL.md) | Split the paper by decision-criticality: the first ten pages earn belief, the rest of the full version earns verification, and nothing that decides acceptance hides past page ten. |
+| [`icalp-submission`](skills/icalp-submission/SKILL.md) | Final HotCRP audit: correct track server, the Track B round, the ten-page window, the AI-use disclosure, the double-blind sweep, the no-simultaneous-submission rule, format-reject triage. |
 | [`icalp-review-process`](skills/icalp-review-process/SKILL.md) | Model the pipeline — two committees, correctness-centered refereeing, the Track B rebuttal vs Track A correctness contact, single accept/reject — and where author leverage exists. |
 | [`icalp-author-response`](skills/icalp-author-response/SKILL.md) | Write the Track B rebuttal (or answer a Track A correctness query): fix misreadings, point to the exact lemma, concede real gaps, stay anonymous. |
 | [`icalp-artifact-evaluation`](skills/icalp-artifact-evaluation/SKILL.md) | Understand why ICALP has no artifact track and what replaces it — so authors from a systems/ML venue do not build a package no one evaluates. |
@@ -68,7 +77,7 @@ of the mistakes made by authors arriving from a US theory venue, a systems/ML ve
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Ten sources with URLs and access dates; verified 2026 facts; the access-method note; the explicit 待核实 list. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Fourteen sources with URLs and access dates; verified ICALP 2027 facts and ICALP 2026 history; the page-limit correction; the access-method note; the explicit 待核实 list; the machine-readable rules block. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces (ICALP, EATCS, HotCRP, LIPIcs/DROPS) plus cross-check sources when the gateway blocks a direct fetch, and author-side checks. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Seven web-verified ICALP papers across both tracks and seven contribution shapes — Best Paper and Best Student Paper honorees — with self-check questions. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional dynamic-graph result's abstract and introduction rebuilt to the ICALP arc, before → after. |
@@ -122,38 +131,44 @@ ICALP-Skills/
    checkable.
 3. **While writing** — `icalp-writing-style` for the body against the worked example,
    `icalp-supplementary` for the body/appendix split, `icalp-related-work` for delta-first positioning.
-4. **Deadline weeks** — register the abstract before the earlier February cutoff, then `icalp-submission`
+4. **Deadline weeks** — register the abstract before any earlier registration cutoff, then `icalp-submission`
    end to end on the final PDF, on the correct track server.
 5. **After submission** — `icalp-review-process` to calibrate, `icalp-author-response` for the Track B
    rebuttal (or a Track A correctness query), then `icalp-camera-ready` — or the routing table in
    `icalp-topic-selection` if the decision goes the other way.
 
-## 2026-cycle anchor facts (historical snapshot, not permanent rules)
+## 2027-cycle anchor facts (snapshot, not permanent rules)
 
-- ICALP 2026 is the **53rd** edition: **Royal Holloway, University of London** (Egham, UK),
-  colloquium **July 7-10, 2026** (workshops July 6), co-located with **PODC** and **SPAA**.
-- **Calendar (AoE):** abstract registration **3 Feb 2026**, submission **6 Feb 2026**; **Track B
-  rebuttal 21-24 Mar 2026**; notification **20 Apr 2026**.
-- **Format:** extended abstract **≤15 pages** excluding references + a clearly labelled appendix
-  (omitted proofs or full version); **LIPIcs `lipics-v2021`** for the camera-ready.
+- ICALP 2027 is the **54th** edition: **Kraków, Poland**, **July 5-9, 2027**, hosted by
+  Jagiellonian University and PTM, in person.
+- **Calendar (AoE):** Track B round 1 — submission **15 Sep 2026**, rebuttal **5-9 Nov 2026**,
+  notification **8 Dec 2026**; Track B round 2 and Track A — **TBA** (announced as early-mid
+  February 2027).
+- **Format:** no page limit; title page (title, abstract, no authors); merits within the first
+  **ten** pages; single column, e.g. 11-point; LIPIcs class recommended; **LIPIcs `lipics-v2021`**
+  for the camera-ready. AI use in the research disclosed in the paper.
 - **Review:** lightweight **double-blind**; **Track A** algorithms/complexity/games, **Track B**
-  automata/logic/semantics; single **accept/reject**. Publication: **LIPIcs**, open access.
+  automata/logic/semantics with rebuttal; **accept/reject**. Publication: **LIPIcs**, open access.
+- **Chairs:** Track A **Saket Saurabh**, **Jukka Suomela**; Track B **Manuel Bodirsky**, **Ichiro
+  Hasuo**; Proceedings Chair **Gabriele Puppis**.
 - **Awards:** best paper and best student paper for each track; the colloquium also hosts the **EATCS
-  Award**, **Presburger Award**, **EATCS Distinguished Dissertation Award**, and the **Gödel Prize**
-  (EATCS/ACM SIGACT, presented at ICALP in even years). PC chairs (reported): Track A **Sayan
-  Bhattacharya**, **Danupon Nanongkai**; Track B **Michael Benedikt**.
+  Award**, **Presburger Award**, **EATCS Distinguished Dissertation Award**, and — alternately with
+  STOC — the **Gödel Prize** (EATCS/ACM SIGACT).
+- History: ICALP 2026 (53rd) was at Royal Holloway, July 7-10, 2026, co-located with PODC and SPAA
+  (submission 6 Feb 2026, notification 20 Apr 2026, camera-ready 11 May 2026).
 
 ## Fact discipline
 
 This pack separates three classes of statement, and the skills are written to keep them
 distinguishable:
 
-1. **Verified 2026 facts** — carry dates/limits and trace to a numbered source in the source map (the
-   two-track structure, the 15-page format, the February dates, LIPIcs publication).
-2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., the exact
-   PC-chair roster and Gabriele Puppis's precise Track B role).
-3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the 2026 acceptance rate and
-   accepted-paper count, the camera-ready deadline, ICALP 2027's host, any AI-disclosure policy).
+1. **Verified 2027 facts** — carry dates/limits and trace to a numbered source in the source map (the
+   two-track structure, the Track B two-round process, the no-page-limit format, the AI-disclosure
+   rule, LIPIcs publication).
+2. **Reported facts** — read only via secondary sources and labeled as such (e.g., the DMANET
+   "early-mid February 2027" estimate for round 2).
+3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the ICALP 2027 Track A call
+   and round-2 dates, whether Track A gains a rebuttal, the 2026 acceptance rate).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it against
 the live official pages.
@@ -161,7 +176,8 @@ the live official pages.
 ## Maintenance notes
 
 - Every date and limit above is a **cycle snapshot**. ICALP re-decides details per edition — verify
-  the dates, the page rule, and the blinding regime on the current call before advising.
+  the dates, the page rule, the round structure, and the blinding regime on the current call before
+  advising.
 - ICALP has no standing editor-in-chief and no reader paywall; the PC chairs and local organizers
   rotate per edition under EATCS and the ICALP steering committee.
 - When adding exemplar papers, follow the verification recipe at the end of

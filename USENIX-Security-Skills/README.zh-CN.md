@@ -7,33 +7,35 @@ USENIX 的旗舰夏季会议。本包覆盖一个 USENIX Security 周期的完�
 HotCRP 评审与 shepherding 流程中存活，以及交付开放获取的 camera-ready 与两阶段
 artifact evaluation。
 
-官方依据核验日期：**2026-07-08**。已核验 USENIX Security '26 Call for Papers 与 Call for
-Artifacts、各周期 HotCRP deadline 页面、社区 artifact-evaluation 说明、USENIX Security
-ethics guidelines、'25 reviewing-model 页面（作为有据可查的历史），以及 '27 会议页面。
-在核验环境中，直接抓取 `usenix.org`、`*.usenix.hotcrp.com` 与 `dblp.org` 均返回 HTTP 403，
-因此官方页面通过搜索引擎对确切 URL 的渲染来阅读，并与多份渲染、USENIX 录用论文列表和
-第二方 deadline 追踪站交叉核对；完整记录（含所有仍标注 待核实 的条目）见
+官方依据首次核验于 2026-07-08，并于 **2026-11-24 直接抓取复核**：USENIX Security '27
+Call for Papers、'27 Preliminary Call for Artifacts、'27 会议页面与 '26 Call for Papers。
+本包现描述 **USENIX Security '27**（Denver，2027 年 8 月 11–13 日）；当前可投的是 Cycle 2
+（registration 2027-01-19，论文 2027-01-26，AoE）。完整记录（含所有仍标注 待核实 的条目）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## USENIX Security 与兄弟会议的不同
 
-以下会议机制针对 '26 周期核验，决定了 skills 中的大部分建议，也是从其他会议转来的作者
+以下会议机制针对 '27 周期核验，决定了 skills 中的大部分建议，也是从其他会议转来的作者
 最常犯错的地方：
 
 - **每年两个投稿周期，各自是一条完整 HotCRP 流水线。** 每个周期都以一次强制的论文
-  **registration** 开始，约在论文截止前一周；未注册的论文无法上传。"何时投稿"是一个
-  策略选择，而非固定日期。
-- **Major Revision 已取消。** 自 '26 起，本会取消 Invited-Major-Revision。现在的结果是
-  Accept、**Accepted on Shepherd Approval**（最多两周 shepherding —— 只改文字，不加实验），
+  **registration** 开始，在论文截止前一周（固定标题、含 ORCID 的作者列表与 topics）；未注册
+  的论文无法上传。每位作者每周期最多 **7 篇**；'27 Cycle 1 被拒的论文不得投 '27 Cycle 2。
+  "何时投稿"是一个策略选择，而非固定日期。
+- **Major Revision 已取消。** 自 '26 起取消 Invited-Major-Revision，'27 维持。现在的结果是
+  Accept、**Accepted on Shepherd Approval**（短暂 shepherding，'27 约 12 天 —— 只改文字，不加实验），
   或 reject。旧的"85% 完成度投稿再靠 revision 补救"的安全网不复存在。
 - **Open Science 强制且与录用挂钩。** 每篇投稿都带一个 **Open Science 附录**，说明其
-  artifacts 所在；论文录用以 finals 之前通过 **Phase-1 artifact 可用性检查** 为条件。
-- **Ethics 是门槛，不是评分项。** 强制的 **Ethical Considerations 附录**、漏洞披露预期，
-  以及针对 live-system 研究的 IRB/人类被试文档，可以单独让一篇技术过硬的论文被拒。
+  artifacts 所在（匿名链接，3 天上传宽限期后冻结）；论文录用以 finals 之前通过 **Phase-1
+  artifact 可用性检查** 为条件。
+- **Ethics 是门槛，不是评分项。** '27 起 **Ethical Considerations 附录** 不再强制但强烈建议；
+  评审会评估每篇论文的伦理并可据此拒稿，漏洞披露预期与 live-system 研究的 IRB/人类被试文档
+  仍可单独让一篇技术过硬的论文被拒。
+- **允许使用 AI，造假即学术不端。** '27 CFP 允许 AI 辅助，但虚构参考文献或结果可被 desk reject。
 - **两阶段 artifact evaluation，三枚可独立授予的徽章** —— Artifacts Available（强制）、
   Artifacts Functional、Results Reproduced（两者可选，在 finals 之后）。
 - **开放获取、作者不付费。** USENIX 在 usenix.org 上免费发布论文与报告录像；作者义务是
-  在研讨会现场做报告。
+  每篇论文一个全价注册并在研讨会现场做报告。
 - **可审计的证据是本会风格。** 评审群体看重可复现的攻击、标明观测点（vantage）的测量，
   以及对自适应攻击者做过评估的防御。
 
@@ -58,7 +60,7 @@ ethics guidelines、'25 reviewing-model 页面（作为有据可查的历史）�
 
 | 路径 | 内容 |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | 十个官方来源（URL 与访问日期）、访问方式说明、已核验的 '26/'27 事实、明确的 待核实 清单。 |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | 十个官方来源（URL 与访问日期）、访问方式说明、已核验的 '27 事实与 '26 历史、明确的 待核实 清单。 |
 | [`resources/external_tools.md`](resources/external_tools.md) | 官方界面（HotCRP、CFP、Call for Artifacts、ethics、proceedings）与上传前的作者端核验步骤。 |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | 五篇已核验的 USENIX Security '24 Distinguished Paper Award 论文，覆盖五个 主题 × 证据形态 车道，附自检问题与防误标指南。 |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | 一个虚构的证书 pinning 测量论文摘要与引言，按 USENIX Security 标准 before → after 重建。 |
@@ -117,32 +119,35 @@ USENIX-Security-Skills/
    `usenixsec-author-response`，随后按 notification 邮件走 `usenixsec-camera-ready`
    （含 Phase-1 artifact 时钟）或拒稿分诊。
 
-## 2026/2027 锚点事实（历史快照，非永久规则）
+## USENIX Security '27 锚点事实（周期快照，非永久规则）
 
-- **USENIX Security '26** 为第 35 届：**Baltimore Marriott Waterfront，2026 年 8 月 12–14 日**。
-  Program co-chairs：Elissa Redmiles（Georgetown）与 Ben Stock（CISPA）。
-- **Sec '26 Cycle 1**：registration 2025-08-19 · submission 2025-08-26 · early reject
-  2025-10-07 · notification 2025-12-04 · finals 2026-01-15。
-- **Sec '26 Cycle 2**：registration 2026-01-29 · submission 2026-02-05 · early reject
-  2026-03-17 · notification 2026-05-14 · finals 2026-06-11。所有截止均为 11:59 pm AoE。
-- **版式**：未改动的 USENIX Security LaTeX 模板 · 正文 ≤ 13 页 · references 前有强制的
-  "Ethical Considerations" 与 "Open Science" 附录（各 ≤ 1 页）。
-- **USENIX Security '27** 为第 36 届：**Denver，2027 年 8 月 11–13 日**，chairs 为
-  Adam Doupé（Arizona State）与 Andrei Sabelfeld（Chalmers）；Cycle 1 registration
-  2026-08-18 / submission 2026-08-25；Cycle 2 registration 2027-01-19 / submission
-  2027-01-26。
+- **USENIX Security '27** 为第 36 届：**Hyatt Regency Denver at Colorado Convention Center，
+  2027 年 8 月 11–13 日**。Program co-chairs：Adam Doupé（Arizona State）与 Andrei Sabelfeld
+  （Chalmers）。
+- **Sec '27 Cycle 1**：registration 2026-08-18 · submission 2026-08-25 · artifacts 2026-08-28 ·
+  early reject 2026-10-06 · rebuttal 2026-11-05–12 · notification 2026-12-03 · shepherded
+  approval 2026-12-15 · finals 2027-01-14。
+- **Sec '27 Cycle 2**：registration 2027-01-19 · submission 2027-01-26 · artifacts 2027-01-29 ·
+  early reject 2027-03-09 · rebuttal 2027-04-08–15 · notification 2027-05-06 · shepherded
+  approval 2027-05-18 · finals 2027-06-03。所有截止均为 AoE。
+- **版式**：未改动的 USENIX Security LaTeX 模板 · 正文 ≤ 13 页（不含参考文献与附录）· 强制
+  "Open Science" 附录 · 强烈建议 "Ethical Considerations" 附录 · 投稿时附录不限 · camera-ready
+  总计 **20 页**。
+- **政策**：每作者每周期最多 7 篇 · 接收 SoK（标题前缀 "SoK: "），'27 不接收 Replication 投稿 ·
+  允许 AI 工具，造假即学术不端。
+- **历史**：USENIX Security '26（第 35 届）于 2026 年 8 月 12–14 日在 Baltimore Marriott
+  Waterfront 举行，chairs 为 Elissa Redmiles 与 Ben Stock；当年 Ethics 附录为强制。
 - **Proceedings**：USENIX 开放获取，作者不付费。
 
 ## 事实纪律
 
 本包区分三类陈述，skills 的写法保持它们可区分：
 
-1. **已核验的 2026/2027 周期事实** —— 带日期/上限，可追溯到 source map 中编号来源
-   （如 13 页正文、Cycle 2 的 2 月 5 日截止）。
-2. **转述事实** —— 仅见于第二方来源并如实标注（如 '27 program co-chairs，来自会议追踪站
-   渲染）。
+1. **已核验的 '27 周期事实** —— 带日期/上限，可追溯到 source map 中编号来源
+   （如 13 页正文、Cycle 2 的 2027 年 1 月 26 日截止）。
+2. **转述事实** —— 仅见于第二方来源并如实标注。
 3. **核验时无法确证的条目** —— 明确标注 待核实，以待解决的问题形式呈现，绝不当作事实
-   （如 '27 notification 日期、resubmission 限制、任何 AI 使用政策）。
+   （如 '27 rebuttal 格式、'27 报告形式、'27 Cycle 2 HotCRP 网址）。
 
 若发现 skills 中把第 2 或第 3 类材料当作第 1 类呈现，视为 bug，对照官方页面修正。
 
@@ -150,13 +155,13 @@ USENIX-Security-Skills/
 
 - 上述每个日期与上限都是 **周期快照**；涉及 deadline 的建议前，请重开当年的
   `usenix.org/conference/usenixsecurity<NN>` 页面与当周期 HotCRP 站点。
-- 2026-07-08 无法在线核验的条目在 source map 中标为 待核实 —— 尤其是 '27 的
-  early-reject/notification/finals 日期、'27 的 AoE 约定、周期间 resubmission 限制，以及
-  任何 AI 辅助政策。确证前不要当作事实陈述。
+- 2026-11-24 无法在线核验的条目在 source map 中标为 待核实 —— 尤其是 '27 rebuttal 格式、
+  '27 报告形式与 '27 Cycle 2 HotCRP 网址。确证前不要当作事实陈述。
 - USENIX Security 的 chairs 每届轮换、政策逐年重置；把期刊包里带来的"主编连续性"假设
   用在这里都是错误。
-- **Major Revision 已在 '26 取消** —— 若某个 skill 或记忆有相反说法，即为过时。当前的
-  中间结果是 shepherd approval。
+- **Major Revision 已在 '26 取消、'27 维持** —— 若某个 skill 或记忆有相反说法，即为过时。
+  当前的中间结果是 shepherd approval。
+- **Ethics 附录在 '27 改为强烈建议（非强制）** —— 称其强制的说法描述的是 '26。
 - 新增 exemplar 论文时，遵循
   [`resources/exemplars/library.md`](resources/exemplars/library.md) 末尾的核验流程 ——
   CVE 或某场演讲中出现同名，并不能证明学术论文或其发表会议。

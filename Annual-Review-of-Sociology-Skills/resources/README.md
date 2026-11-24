@@ -19,5 +19,5 @@ account** and on **any meta-analysis the review itself computes** — see
 
 Shared-method references (background only — a review appraises others' designs, it runs none of its own):
 
-- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — to *appraise* the credibility of the primary studies the review synthesizes
-- [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md) — the standards by which to weigh whether a reviewed study is well-reported
+- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md) — to *appraise* the credibility of the primary studies the review synthesizes
+- [`../../shared-resources/empirical-methods/reporting-standards.md`](shared/empirical-methods/reporting-standards.md) — the standards by which to weigh whether a reviewed study is well-reported

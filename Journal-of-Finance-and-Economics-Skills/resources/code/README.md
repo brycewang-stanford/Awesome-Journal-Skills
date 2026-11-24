@@ -66,5 +66,5 @@ project/
 
 > 安装统一用 `ssc install <pkg>, replace`。各方法的报告口径与反模式见对应 `er-*` 技能。
 >
-> 命令的**出处、引文与"审稿一句话检查"**见姊妹文件 [共享报告规范](../../../shared-resources/empirical-methods/reporting-standards.md)：
+> 命令的**出处、引文与"审稿一句话检查"**见姊妹文件 [共享报告规范](../shared/empirical-methods/reporting-standards.md)：
 > 本目录给可运行的端到端 `.do` 流程，`code-templates.md` 给每个命令的来源与权威引用。

@@ -45,7 +45,7 @@ Macro inference is fragile in characteristic ways: **short effective samples**, 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Macro mixes empirical and structural work — local projections (`local_projections` / `irf`) are in StatsPAI, but DSGE / calibration estimation is outside this causal-inference toolchain.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AEJ: Macro mixes empirical and structural work — local projections (`local_projections` / `irf`) are in StatsPAI, but DSGE / calibration estimation is outside this causal-inference toolchain.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

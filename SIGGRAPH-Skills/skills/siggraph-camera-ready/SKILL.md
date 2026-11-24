@@ -40,10 +40,18 @@ Because the paper publishes as a TOG article, complete the journal apparatus:
 
 - Recompile against the **current `acmart` (>= 2.16)** class in the journal (`acmtog`) format the
   final version requires; do not modify the class file.
-- The single-column journal layout differs from the review PDF — reflow figures and the teaser,
-  check that no figure crosses the margin, and confirm all fonts embed.
-- Journal-track final versions may relax the review page cap; confirm the current-cycle length
-  policy and the figures-only-page rules before adding material.
+- The final PDF drops the `anonymous,review` options, adds names, affiliations and the
+  acknowledgements you omitted for review, and is unnumbered — reflow figures and the teaser in the
+  double-column `acmtog` layout, check that no figure crosses the margin, and confirm all fonts embed.
+- Length at final (SIGGRAPH 2026 call): **Conference** papers may fold the two figures-only pages
+  into the body for **at most 10 pages plus references**, plus one extra page only for author list,
+  affiliations, copyright and acknowledgements; **Journal** papers may change length only with the
+  referee's approval, and extensions beyond one page are unlikely. Confirm the current cycle.
+- Delivery differs by track: Conference papers go through ACM's TAPS (LaTeX or Word source);
+  Journal papers go to the Publication Chair for ACM. Neither goes back through Linklings.
+- Open access: since 1 January 2026 ACM publishes everything open access. No APC if the
+  corresponding author's institution is in ACM Open (use the institutional e-mail); otherwise the
+  2026 subsidised APC was USD 250 (ACM/SIG member) / 350 (non-member) — check the 2027 rate.
 
 ## The final media are part of the publication
 

@@ -54,7 +54,7 @@ If any answer takes more than three sentences, redesign before drafting.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full
-map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JAE is empirical accounting with an economics lens; treat identification and weak-IV-robust inference as the binding constraints.
+map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JAE is empirical accounting with an economics lens; treat identification and weak-IV-robust inference as the binding constraints.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

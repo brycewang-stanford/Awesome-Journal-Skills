@@ -1,7 +1,18 @@
 # Journal of Marketing — Official Source Map
 
 Canonical sources for verifying every JM-specific claim made in this skill pack.
-Sources were rendered and checked on **2026-06-20**. Use this map as a provenance
+Sources were rendered and checked on **2026-06-20**. Submission guidelines, editorial
+policies, transparency policies, editorial guidelines, and leadership were
+**re-verified 2026-11-23** against the live AMA pages (#1, #4, #5, #6, #7, #8; read directly with curl).
+Access-method note: on 2026-11-23 journals.sagepub.com returned HTTP 403 to curl and
+WebFetch, so the SAGE author instructions (#2) were re-read from Sage's own hosted copy of
+the same page, https://sage.cnpereading.com/storage/ext/submission-guidelines/page/author-instructions_JMX.html
+(undated scrape served by Sage's China reading platform), cross-checked with search-engine
+rendering of #2; the SAGE journal home (#3, metrics) was not re-read. No rule changes were
+found: the 50-page limit, 200-word abstract, minimum 3 / up to 8 keywords, title of no more
+than 25 words, double-anonymized review, title-page Statements and Declarations, no-fee
+subscription route, preprint policy, AI disclosure, transparency workflow, and the
+Steenkamp-led masthead all match. Use this map as a provenance
 ledger; before upload, reopen the current SAGE/AMA submission pages because portal
 prompts, fee language, editor rosters, and transparency workflows can change.
 
@@ -30,12 +41,12 @@ prompts, fee language, editor rosters, and transparency workflows can change.
 | Submission portal: ScholarOne / Sage Track at `mc.manuscriptcentral.com/ama_jm`; online submission only | AMA submission guidelines / SAGE author instructions |
 | Review model: double-anonymized; main document and web appendix must omit identifying information; separate title page contains author information | AMA submission guidelines / AMA editorial policies / SAGE author instructions |
 | Length: 50-page maximum at all review stages; includes title, abstract, keywords, text, footnotes, references, tables, figures, and print appendices; web appendices excluded | AMA submission guidelines |
-| Abstract: unstructured, 200 words | SAGE author instructions / AMA submission guidelines |
+| Abstract: unstructured, 200 words; title no more than 25 words | SAGE author instructions / AMA submission guidelines |
 | Keywords: minimum 3; AMA page also allows up to 8 primary keywords | SAGE author instructions / AMA submission guidelines |
 | Formatting: Word or PDF-if-LaTeX; 12-point Times New Roman or 12-point LaTeX font; double-spaced text; 1-inch margins; no page numbers, line numbers, headers, or footers | AMA submission guidelines / SAGE author instructions |
 | Statistical reporting: exact p-values, no threshold-only reporting or asterisks, standard errors, and effect sizes | AMA submission guidelines / SAGE author instructions |
 | Citations: AMA author-date; full author names up to three authors; first author plus et al. for four or more; reference list alphabetical and includes only cited works | AMA submission guidelines |
-| Title page: declarations, funding, conflicts, ethics/consent statements, and Data Availability Statement | AMA submission guidelines / SAGE author instructions |
+| Title page: Statements and Declarations (ethical considerations, consent to participate, declaration of conflicting interest, funding statement, data availability statement); a heading marked 'Not applicable' is still required when a declaration does not apply | AMA submission guidelines / SAGE author instructions |
 | Fees: no fees payable to submit or publish in the subscription route; optional Sage Choice/Open Access can require a fee; OA fees do not include page/color charges | SAGE author instructions |
 | Preprints: accepted; authors should enter preprint DOI and not post updated versions during review | SAGE author instructions |
 | ORCID: authors/coauthors encouraged to link ORCID IDs before acceptance because they cannot be added after acceptance/publication | SAGE author instructions |
@@ -53,3 +64,35 @@ prompts, fee language, editor rosters, and transparency workflows can change.
 - Confirm current optional OA, page, color, or production-charge prompts if choosing open access or color print.
 - Confirm the live editorial roster and conflicts before naming a Coeditor or suggesting opposed reviewers.
 - Confirm the current transparency workflow if data are proprietary, sensitive, embargoed, or covered by a third-party license.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Journal of Marketing",
+  "verified": "2026-11-23",
+  "rules": {
+    "main_text_pages_max": {"value": 50, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/", "note": "applies at all review stages; inclusive of title, abstract, keywords, text, footnotes, references, tables, figures, print appendices; web appendix excluded"},
+    "page_limit_includes_references": {"value": true, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "abstract_words_max": {"value": 200, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/", "note": "third person; SAGE: unstructured"},
+    "abstract_format": {"value": "unstructured", "source": "https://journals.sagepub.com/author-instructions/JMX", "note": "re-read 2026-11-23 via the Sage-hosted copy"},
+    "title_words_max": {"value": 25, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "keywords_min": {"value": 3, "source": "https://journals.sagepub.com/author-instructions/JMX", "note": "re-read 2026-11-23 via the Sage-hosted copy"},
+    "keywords_max": {"value": 8, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/", "note": "up to 8 primary keywords"},
+    "keywords_required": {"value": true, "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "review_mode": {"value": "double-blind", "source": "https://www.ama.org/ama-journals-editorial-policies-procedures/", "note": "AMA: double-anonymous; separate title page and main document, web appendix also anonymized"},
+    "required_statements": {"value": ["conflict_of_interest", "funding", "ethics_approval", "informed_consent", "data_availability"], "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/", "note": "on the separate title page under Statements and Declarations; write 'Not applicable' rather than omitting a heading. AI-generated content must be identified in the main document and in Acknowledgments if used"},
+    "submission_fee": {"value": "none; no fees to submit or publish (optional Sage Choice OA fee; color print charged separately)", "source": "https://journals.sagepub.com/author-instructions/JMX"},
+    "portal": {"value": "ScholarOne (mc.manuscriptcentral.com/ama_jm)", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "file_format": {"value": "Word (PDF if LaTeX); 12-pt Times New Roman, double-spaced, 1-inch margins, no page numbers, line numbers, headers or footers", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "reference_style": {"value": "AMA author-date (full first names; et al. for four or more authors)", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "supplement_policy": {"value": "at most one Web Appendix, single PDF, anonymized, W-prefixed tables/figures, excluded from the 50 pages", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"},
+    "preprint_policy": {"value": "preprints accepted; enter the preprint DOI; do not post updated versions during review", "source": "https://journals.sagepub.com/author-instructions/JMX"},
+    "data_code_policy": {"value": "JM Research Transparency Policy: replication packet to JM Dataverse at conditional acceptance; alternative disclosure plan proposed at initial submission; Data Availability Statement in the final manuscript", "source": "https://www.ama.org/journal-of-marketing-policy-for-research-transparency/"},
+    "llm_policy": {"value": "AI-generated content identified in the main document (e.g., Methods) and in Acknowledgments; AI cannot be an author", "source": "https://www.ama.org/submission-guidelines-american-marketing-association-journals/"}
+  }
+}
+```

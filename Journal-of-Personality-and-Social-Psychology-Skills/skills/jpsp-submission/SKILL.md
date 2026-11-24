@@ -15,29 +15,38 @@ common avoidable failures at JPSP are (1) submitting to the **wrong section** an
 - Confirming the section, its portal, and its caps
 - Confirming the manuscript is properly masked and JARS/TOP disclosures are present
 
-## Process facts (verify volatile items on the official page — 待核实)
+## Process facts (re-verified 2026-11-24 on the APA submission-guidelines page; editors and APC remain volatile)
 
 - **Publisher:** American Psychological Association (APA).
 - **Section + portal (pick one):** ASC → `editorialmanager.com/asc` · IRGP → `editorialmanager.com/irg`
   · PPID → `editorialmanager.com/pid`. Each section is edited independently.
-- **Review model:** **masked review** for all submissions — mask the manuscript; provide a separate
-  title page.
-- **Abstract:** **≤ 250 words.** A limitations statement (≤ 200 words) may be required after the
-  abstract (待核实).
-- **Length / studies:** ASC intro + discussion **≤ 3,500 words**; IRGP intro + discussion **≤ 5,000
-  words** and **≤ 5 studies** in the main text (extras → supplement); PPID "as succinctly as possible"
-  (待核实). Tables/figures embedded; table content not counted toward the word limit.
+- **Review model:** **masked review** for all submissions — authors' names and affiliations go in the
+  cover letter; the first page carries only the title and submission date.
+- **Abstract:** **≤ 250 words**, then **up to five keywords**. **ASC only:** a **statement of
+  limitations (≤ 200 words)** must follow the abstract, plus a **table of limitations** (not counted
+  toward the word limit) and a statement of each author's contributions.
+- **Length / studies:** ASC intro + discussion — the section "strongly recommend[s]" **≤ 3,500 words**;
+  IRGP intro + discussion **≤ 5,000 words** (count noted on the title page) and **≤ 5 studies** in the
+  main text (extras → supplement); PPID and the journal overall: "no formal word limit", write "as
+  succinctly as possible". Tables/figures embedded; table content not counted toward the word limit.
+- **Line numbers:** cumulative line numbers on all submissions.
+- **Cover letter:** **required for PPID** (contact details, originality, any prior JPSP rejection,
+  ethical data collection, overlapping publications, supplemental material); all sections: disclose
+  prior uses of the data in the cover letter.
 - **Style:** **APA Publication Manual (7th edition)**; **JARS** required.
-- **Transparency:** **TOP Level 2** — state data/code/materials repository + preregistration status.
-- **Fee:** no submission fee stated (待核实; confirm any post-acceptance open-access APC).
+- **Transparency:** **TOP Level 2** — a **"Transparency and Openness"** subsection in the Method states
+  data/code/materials repository + preregistration status (links also in the author note).
+- **Fee:** submitting for peer review is **free of charge**; an APC applies only to the gold
+  open-access option (amount not stated on the guidelines page).
 
 ## Preflight checklist
 
 ### Section & length
 - [ ] Correct section chosen; uploading to that section's Editorial Manager portal
-- [ ] Section word cap met (ASC ≤ 3,500 / IRGP ≤ 5,000 intro+discussion)
+- [ ] Section word cap met (ASC ≤ 3,500 recommended / IRGP ≤ 5,000 intro+discussion, count on title page)
 - [ ] Study count within the section cap (IRGP ≤ 5 in main text; extras in supplement)
-- [ ] Abstract ≤ 250 words; limitations statement within cap if required (待核实)
+- [ ] Abstract ≤ 250 words + up to five keywords; ASC: ≤ 200-word limitations statement after the abstract + table of limitations
+- [ ] Cumulative line numbers on throughout the manuscript
 
 ### Masking (masked review)
 - [ ] No author names, affiliations, or acknowledgments in the manuscript
@@ -55,7 +64,30 @@ common avoidable failures at JPSP are (1) submitting to the **wrong section** an
 ### Compliance & files
 - [ ] Ethical treatment of human subjects stated; IRB as applicable
 - [ ] Disclosure of any prior JPSP rejection (any section) and any published work using the same data
-- [ ] File format per section (e.g., IRGP: .docx or .tex zip + PDF; ASC/PPID: .doc) — verify
+- [ ] File format per section (IRGP: .docx or .tex zip + PDF; ASC/PPID: Word .doc)
+- [ ] PPID: cover letter uploaded (required for all new PPID submissions)
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jpsp-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 
@@ -64,7 +96,7 @@ common avoidable failures at JPSP are (1) submitting to the **wrong section** an
 - Abstract over 250 words; intro+discussion over the section cap
 - More than the section's study cap in the main text
 - Missing JARS or TOP Level 2 disclosures
-- Budgeting for a submission fee that is not charged (verify)
+- Budgeting for a submission fee that is not charged (submission is free)
 
 ## Avoidable desk-return triggers, ranked by frequency
 
@@ -86,7 +118,7 @@ A clean submission clears all six in one pass; any single miss can cost a review
 ```
 【Section + portal】ASC/IRGP/PPID → correct Editorial Manager URL? [Y/N]
 【Caps met】intro+discussion words + study count within section limits? [Y/N]
-【Abstract】word count (≤250) + limitations statement if required
+【Abstract】word count (≤250) + ≤5 keywords + ASC limitations statement (≤200)
 【Masked】text + self-refs + metadata + repo links clean? [Y/N]
 【APA 7th + JARS + TOP L2】all present? [Y/N]
 【Files】per-section format + title page + supplement ToC? [Y/N]

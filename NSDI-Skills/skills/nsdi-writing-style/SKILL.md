@@ -7,7 +7,7 @@ description: Use when drafting or revising NSDI prose — building the operation
 
 An NSDI paper argues that a nameable design idea, embodied in a working networked
 system, holds up under realistic traffic. The prose exists to make that chain
-checkable. Format facts below are the NSDI '27 CFP as rendered on 2026-07-08.
+checkable. Format facts below are the NSDI '27 CFP as re-verified on 2026-11-24.
 
 ## The opening arc
 
@@ -79,8 +79,15 @@ neutralize identifying deployment details ("a large provider's fleet"), while
 **operational-track papers may keep real system and company names** with author names
 still withheld. Write self-citations in the third person; never delete a reference to
 hide identity; cite a concurrent NSDI submission as "Under submission. Details omitted
-for double-blind reviewing." The CFP endorses AI tools for grammar and clarity of
-human-written text — the ideas, and the responsibility, stay human.
+for double-blind reviewing." The CFP encourages AI tools for grammar and clarity of
+human-written text but bars papers produced entirely or substantively by generative AI
+(an AI-written section, related work included, is a violation), and authors attest in
+HotCRP that the text is primarily human written — the ideas, the prose, and the
+responsibility stay human.
+
+The '27 **prescreen** reads only the Introduction (no more than 3 pages), so write it to
+stand alone: scope, a motivation a non-specialist NSDI PC member can follow, and the
+contribution claim the chosen track expects.
 
 ## Revision-letter prose (one-shot resubmissions)
 

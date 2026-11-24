@@ -17,11 +17,11 @@
 十二个智能体技能。AEJ: Macro 是美国经济学会（AEA）旗下季刊、面向广义宏观读者的期刊（创刊于 2009 年，
 四本 AEJ 之一）。本技能包紧扣 AEJ: Macro 的核心特征——它**同时**欢迎定量理论研究（DSGE、异质主体/HANK、
 结构估计）**与**有识别的实证研究（SVAR、局部投影、叙事识别与高频识别），评判标准是**定量上的严谨性与
-政策相关性**。它内化了 AEA 的投稿流程：按会员资格与国家收入分级的投稿费、单盲评审、JEL 代码、≤100 词
+政策相关性**。它内化了 AEA 的投稿流程：按会员资格与国家收入分级的投稿费、作者匿名投稿（AEA 2026 年评审随机对照试验）、JEL 代码、≤100 词
 摘要、约 40 页的篇幅指引、每位合作者单独的利益披露，以及由 AEA 数据主编在**发表前**完成的可复现性
 检查（涵盖模拟与模型求解代码），最终材料存放于 openICPSR 上的 AEA Data and Code Repository。
 
-**官方依据核对于 2026-06：** AEJ: Macro 的投稿指南、编辑政策与编辑名单页；AEA 数据与代码可得性政策及
+**官方依据核对于 2026-06，2026-11-24 复核：** AEJ: Macro 的投稿指南、编辑政策与编辑名单页；AEA 数据与代码可得性政策及
 AEA 数据主编办公室页；AEA 利益披露政策。详见
 [`resources/official-source-map.md`](resources/official-source-map.md)。易变事实（费用、版面费、编辑、
 篇幅指引、政策生效日期）均标注「检索于 2026-06；以官网为准」——在依赖具体数字前请到 AEA 官网核实。
@@ -36,7 +36,8 @@ AEJ: Macro 既非综合性旗舰，也非细分领域刊物，其流程含有通
 | 广义读者门槛 | 决策权衡选题广度 + 对 AEJ: Macro 读者的吸引力 | 细分领域式框定会读起来像 JME/RED |
 | 摘要长度 | ≤100 词（硬性） | 多数技能包假设 150–250 词 |
 | 篇幅指引 | 约 40 页（11pt）/ 45 页（12pt），含图表、参考文献与附录 | 通用技能包忽略版面预算与在线附录分流 |
-| 评审模式 | 单盲（作者对审稿人可见） | 假设双盲匿名的技能包会误导 |
+| 评审模式 | 作者匿名投稿（AEA 随机对照试验，2026 年秋启动）：姓名、单位与致谢放在单独的 title page | 沿用旧单盲首页（标题、署名、单位）的技能包会误导 |
+| 表格样式 | 不用显著性星号；标准误置于括号内 | 通用技能包默认加星号 |
 | 可复现性 | AEA 数据主编在**发表前**检查；需提供**模拟/求解代码** | 仅打包回归脚本的技能包通不过宏观检查 |
 | 利益披露 | **每位合作者**单独声明；1 万美元门槛 | 单一声明的假设会漏掉硬性要求 |
 
@@ -108,7 +109,7 @@ topic-selection → literature-positioning → identification ─┐
 ## 相关链接
 
 - 参考技能包：`../Quantitative-Economics-Skills/`（计量经济学会，结构完全一致）。
-- 共享方法中枢：[`../shared-resources/empirical-methods/`](../shared-resources/empirical-methods/)。
+- 共享方法中枢：[`../shared-resources/empirical-methods/`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/tree/main/shared-resources/empirical-methods)。
 
 ## 许可证
 

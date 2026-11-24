@@ -5,10 +5,10 @@ communication	cs-ai	3	16.7
 cs-ai	cs-ai (conference)	159	74.0
 cs-ai (CN journal)	cs-ai (conference)	5	50.0
 cs-ai (conference)	cs-ai	51	9.5
-cs-ai (conference)	communication	30	5.6
-econometrics/methods	economics	7	41.2
-economics	social-science	11	22.0
-economics	econometrics/methods	6	12.0
+cs-ai (conference)	communication	29	5.4
+econometrics/methods	economics	8	44.4
+economics	social-science	11	21.2
+economics	econometrics/methods	6	11.5
 economics/agricultural	social-science	4	57.1
 economics/international	economics	6	35.3
 economics/international	social-science	4	23.5
@@ -21,7 +21,7 @@ information-systems	operations	4	22.2
 information-systems	management	3	16.7
 international-business	management	3	100.0
 life-sciences	natural-science	3	30.0
-management	operations	4	8.0
+management	operations	4	7.8
 management/OR	operations	5	41.7
 management/OR	management	4	33.3
 management/OR	social-science	3	25.0

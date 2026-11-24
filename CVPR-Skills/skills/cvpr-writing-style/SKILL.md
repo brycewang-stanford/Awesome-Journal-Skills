@@ -6,7 +6,8 @@ description: Use when writing or revising a CVPR paper's prose and figures, cove
 # CVPR Writing Style
 
 CVPR is a visual venue with a brutal budget: eight pages **including figures and
-tables** (references overflow free — verified 2026 rule). The papers that survive
+tables** (only references and the mandatory LLM Usage Statement overflow — verified for
+2026 and, with the statement added, for CVPR 2027). The papers that survive
 triage by an overloaded reviewer pool are the ones a reader can evaluate in two passes:
 a 90-second flip through figures and tables, then a real read. Write both passes on
 purpose.
@@ -63,7 +64,7 @@ Weak claim, strong paper:
 Strong claim, dead paper:
   "Ours solves X"  /  "generalizes to real-world scenes"   (shown on 2 curated clips)
   "state-of-the-art"                      (on one dataset, vs. year-old baselines)
-  "real-time"                             (no hardware named — CRF row contradicts you)
+  "real-time"                             (no hardware named — your own compute disclosure contradicts you)
 ```
 
 Every superlative must name its scope: dataset, protocol, compute class. If a
@@ -72,9 +73,13 @@ paragraph first — reviewers reward the paper that scoops its own weaknesses.
 
 ## Tool-assisted text is your text
 
-The verified 2026 author-side rule: use whatever tools you like, but fabricated
-citations and factual inaccuracies are rejection grounds — possibly without review —
-and "an LLM did it" is explicitly no defense. Operational habit: any machine-drafted
+The verified author-side rule (2026, restated for 2027): use whatever tools you like,
+but fabricated citations and factual inaccuracies are rejection grounds — possibly
+without review — and "an LLM did it" is explicitly no defense. CVPR 2027 adds a
+**mandatory LLM Usage Statement** after the main text (before the references, not
+counted): name the tools, the parts of the paper or research they touched and the extent
+— editing and grammar included — or state that none were used; a missing statement is a
+desk reject (details in `cvpr-submission`). Operational habit: any machine-drafted
 paragraph gets a human pass for (a) citations that exist and say what's claimed,
 (b) numbers matching your own tables, (c) generic filler that flip-readers instantly
 recognize as padding.
@@ -111,8 +116,8 @@ report; the diff between the two is your overclaiming audit.
 
 - Page cap and the references-only overflow rule.
 - Template/author-kit version (build from the current `cvpr-org/author-kit`).
-- Any new writing-adjacent form fields (limitations sections, AI-use disclosures —
-  none verified for 2026, 待核实 for later cycles).
+- Any new writing-adjacent requirements (the LLM Usage Statement is new for 2027; no
+  mandatory limitations section is stated).
 
 ## Output format
 

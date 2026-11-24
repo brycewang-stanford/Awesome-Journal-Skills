@@ -12,12 +12,18 @@ Press. Re-verify volatile figures on the official pages before paying or submitt
 ## Preflight
 
 - Choose the track and verify the current fee and tiered refund schedule (re-verified
-  2026-06-22 on revfin.org; re-verify before paying). Regular submission is EUR 350 (EUR 300
+  2026-11-24 on revfin.org; re-verify before paying). Regular submission is EUR 350 (EUR 300
   for EFA members); Fast-Track first submission is EUR 900 (resubmission EUR 500) and targets
-  an editorial decision within 14 days of valid payment. Refund amounts depend on decision
-  type/timing: regular desk rejection EUR 150 / EUR 100 for members, EUR 175 / EUR 150
-  (members) if a decision takes over 120 days; Fast-Track refunds EUR 600 (desk rejection),
-  EUR 550 (decision > 14 days), EUR 725 (decision > 120 days).
+  an editorial decision within 14 days of the later of editor assignment and confirmed payment.
+  Since 1 November 2026 a desk rejection is either *with comment* (no refund) or *without
+  comment* (RoF keeps EUR 100 and refunds the rest): regular EUR 250 / EUR 200 for members,
+  Fast-Track EUR 800 (Fast-Track resubmission EUR 400). Slow-decision refunds: regular EUR 175
+  / EUR 150 (members) if a decision takes over 120 days; Fast-Track EUR 550 (decision > 14
+  days) or EUR 725 (decision > 120 days).
+- Disclose any AI-tool use in the cover letter and acknowledge it in the manuscript (RoF LLM
+  policy, updated 30 October 2026); papers whose methods use LLM/agent outputs must also report
+  the model name, version, and access dates. Never leave hidden text or embedded instructions
+  in the PDF — that is rejection without refund plus a one-year submission suspension.
 - Confirm the manuscript stays within the hard 60-page total cap, including appendices,
   bibliography, figures, and tables.
 - Keep the abstract within 150 words (count it).
@@ -37,8 +43,8 @@ See `templates/cover_letter.md` and `templates/checklist.md` for skeletons.
 ## Track-choice arithmetic — worked example
 
 Illustrative, using the published schedule (re-verify before paying). An EFA member
-submits regular at EUR 300; a desk rejection refunds EUR 100, so being screened out costs
-EUR 200. Fast-Track costs EUR 900 against a 14-day target — the premium buys several
+submits regular at EUR 300; a desk rejection without comment refunds EUR 200, so being
+screened out costs EUR 100 (a desk rejection with comment refunds nothing). Fast-Track costs EUR 900 against a 14-day target — the premium buys several
 months of expected calendar on a finished paper. Worth paying when a rival team is
 circulating the same natural experiment or a deadline (tenure file, job market) needs the
 decision; wasted when gate-level problems — page cap, soft identification, missing
@@ -52,6 +58,7 @@ disclosures — make a desk screen the likely outcome.
 | Abstract | <=150 words with the finding stated | counting keywords or JEL line by mistake |
 | Anonymity | no names, grants, repos; metadata scrubbed | acknowledgement footnote surviving from the working-paper version |
 | Disclosure | prior-RoF-rejection and no-parallel-submission statements present | omission triggers desk rejection plus the two-year ban |
+| AI use | any AI-tool use disclosed in the cover letter and acknowledged in the manuscript; no hidden text | LLM-generated data or prompts used in the method but not reported with model/version/dates |
 | Code policy | proprietary-data exception requested in this cover letter | exception deferred to later (the policy expects it at initial submission) |
 | Format | 12-pt minimum, 1.5 spacing, required margins, PDF starting at page 1 | LaTeX class silently compiling at 11-pt |
 
@@ -70,7 +77,7 @@ disclosures — make a desk screen the likely outcome.
 
 - Anonymized manuscript PDF: the only file referees see — title page without names,
   first page numbered 1, internet-appendix material clearly separated if included.
-- Cover letter to the editor: disclosures, any code-sharing exception, optional context
+- Cover letter to the editor: disclosures (including any AI-tool use), any code-sharing exception, optional context
   on closely related own work (kept non-identifying in the manuscript itself).
 - Supplementary files where applicable: internet appendix and any pre-staged replication
   material, packaged for OUP hosting rather than an external archive link (which would
@@ -78,6 +85,28 @@ disclosures — make a desk screen the likely outcome.
 - Fee payment confirmation on the chosen track; for Fast-Track the 14-day clock runs from
   valid payment, so pay and upload the same day. Confirm the exact upload slots on
   Editorial Express and the journal's current author guidelines — interfaces change.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue rof-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

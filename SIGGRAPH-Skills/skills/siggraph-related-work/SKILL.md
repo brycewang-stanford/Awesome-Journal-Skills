@@ -60,10 +60,12 @@ Graphics ideas migrate across venues; attribute precisely:
 
 ## Self-positioning and blinding
 
-SIGGRAPH review has historically been **single-blind** (authors visible), so citing your own prior
-work in the natural voice is usually fine — **but confirm the current cycle's policy** (**待核实**
-for 2026). If a cycle requires anonymized review, cite your prior work in the third person and
-avoid "our previous system X."
+SIGGRAPH Technical Papers review is **double-blind** (2026 call, re-verified 2026-11-24). Cite your
+own published work in the third person, never "our previous system X". Overlapping work of yours
+that is under review elsewhere is cited anonymously and uploaded as anonymous supplemental; a public
+arXiv version of *this* paper is not cited at all but listed in the form's hidden "Prepublication"
+field. You need not compare against recent non-peer-reviewed preprints, but must cite those that
+inspired you.
 
 ## Anti-patterns
 

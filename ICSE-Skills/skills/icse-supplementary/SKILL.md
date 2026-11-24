@@ -6,8 +6,8 @@ description: Use when deciding what goes into the 10-page body versus the replic
 # ICSE Supplementary Material
 
 ICSE's page model is stricter than most authors coming from ML venues expect,
-and it inverts their packing instincts. The 2027 research-track format (read
-2026-07-08): main text ≤ 10 pages **inclusive of all figures, tables, and
+and it inverts their packing instincts. The ICSE 2028 research-track format (read
+2026-11-24, unchanged from 2027): main text ≤ 10 pages **inclusive of all figures, tables, and
 appendices**, plus up to 2 pages of references only. There is no unlimited
 in-PDF appendix. Everything else travels as supplementary material — an
 anonymized link in the paper or an upload via HotCRP — and must be assumed
@@ -89,7 +89,7 @@ harder to retract than a sentence.
 
 ## Size and dependency realism
 
-No supplement size cap was verifiable for 2027 (待核实 on the live HotCRP
+No supplement size cap was verifiable for 2028 (待核实 on the live HotCRP
 form), so engineer for reviewer patience instead: keep the download small
 (fetch-scripts for large corpora, with checksums), keep the smoke test under
 minutes on a laptop, and never require credentials, cluster schedulers, or
@@ -100,7 +100,7 @@ without the compute.
 ## Reverify each cycle
 
 The 10+2 model, the HotCRP supplementary option, and the availability-
-statement placement are 2027-cycle facts; page models have changed across
+statement placement are 2027/2028-cycle facts; page models have changed across
 ICSE editions before. Confirm the current call before deciding any placement
 that would be expensive to reverse in deadline week.
 

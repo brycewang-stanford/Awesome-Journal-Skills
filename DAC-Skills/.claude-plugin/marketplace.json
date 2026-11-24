@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "dac-skills",
-  "version": "1.1.0",
-  "description": "Depth pack for the ACM/IEEE Design Automation Conference: Research-Manuscript vs Engineering-Track routing, two-stage Softconf submission, the 6+1 ACM double-column budget, double-blind review, QoR/PPA evidence on EDA benchmarks, ML-for-EDA and hardware-security lanes, and ACM Digital Library camera-ready work.",
+  "version": "1.2.0",
+  "description": "Depth pack for the ACM/IEEE Design Automation Conference: Research-Manuscript vs Engineering-Track routing, two-stage Softconf submission, the 6+1 double-column budget (IEEE template for DAC 2027), double-blind review, QoR/PPA evidence on EDA benchmarks, ML-for-EDA and hardware-security lanes, and IEEE Xplore / ACM Digital Library camera-ready work.",
   "owner": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
@@ -13,9 +13,9 @@
   "plugins": [
     {
       "name": "dac-skills",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "source": "./",
-      "description": "Twelve DAC-specific skills for the ACM/IEEE Design Automation Conference (the Chips to Systems Conference) and its double-blind Research Manuscript track, grounded in the DAC 2026 (63rd) call, dac.com, IEEE CEDA, ACM SIGDA, the ACM Digital Library, and dblp.",
+      "description": "Twelve DAC-specific skills for the ACM/IEEE Design Automation Conference (the Chips to Systems Conference) and its double-blind Research Manuscript track, grounded in the DAC 2027 (64th) call, dac.com, IEEE CEDA, ACM SIGDA, IEEE Xplore, the ACM Digital Library, and dblp.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

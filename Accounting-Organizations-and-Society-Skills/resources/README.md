@@ -13,8 +13,8 @@ this pack's skills themselves.
 | Resource | What it gives an agent |
 |---|---|
 | [`code/`](code/) | Reproducible Stata + Python causal-inference skeleton (clean → descriptive → DiD/IV/RDD/DML → mechanism → robustness → tables). Vendored from the verified Economic-Research-Journal-Skills library (Stata 18 MP, 2026-06). Relevant to AOS's archival-with-theory and experimental strands only; copy-and-adapt, change no command blindly. |
-| [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | Referee objections by identification strategy, each with its preemption — for the pack's quantitative strand. |
-| [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Modern inference and reporting table stakes (clustering, multiple testing, DiD/RDD reporting, reproducibility). |
+| [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) | Referee objections by identification strategy, each with its preemption — for the pack's quantitative strand. |
+| [reporting-standards](shared/empirical-methods/reporting-standards.md) | Modern inference and reporting table stakes (clustering, multiple testing, DiD/RDD reporting, reproducibility). |
 | [`official-source-map.md`](official-source-map.md) | Official Elsevier/ScienceDirect URLs behind every verified AOS fact in this pack (checked 2026-07-16), with re-check flags for volatile items. |
 | [`external_tools.md`](external_tools.md) | Tradition-by-tradition toolkit: qualitative coding software and evidence registers; experiment platforms and pools; survey psychometrics; archival stacks. |
 | [`worked-examples/`](worked-examples/) | Before → after rewrite in AOS house style. `01-introduction.md` shows the theory-first, conversation-entering introduction of a qualitative field paper. Fictional teaching paper; invents no journal policy. |

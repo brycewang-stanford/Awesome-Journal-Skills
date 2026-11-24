@@ -90,7 +90,7 @@ calibration curves with reported R², LOD/LOQ, and recovery ranges — reviewers
 
 ## 8. Cautions
 
-1. **Verify volatile specifics** (exact word limits, figure word-equivalents, submission-system name,
+1. **Verify volatile specifics** (exact word limits and counting rules, submission-system name,
    blinding model, editor, metrics, APC) on the official ACS/ES&T pages — they change; unverified
    items are marked 待核实.
 2. **QA/QC is non-negotiable** — blanks, spikes, recoveries, LOD/LOQ, replicates, and CRMs make or

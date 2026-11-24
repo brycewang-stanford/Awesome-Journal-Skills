@@ -1,15 +1,16 @@
 ---
 name: ieeesp-review-process
-description: Use when reasoning about IEEE S&P (Oakland) peer review, including the rounds inside each cycle, early-reject notices, the rebuttal for second-round papers, the Accept/Revise/Reject decision set, the Research Ethics Committee, shepherding of accepted papers, and the one-year resubmission embargo.
+description: Use when reasoning about IEEE S&P (Oakland) peer review, including the rounds inside each cycle, early-reject notices, the non-interactive or interactive rebuttal for second-round papers, the Accept/Reject decision set, the Research Ethics Committee, public meta-reviews and shepherding of accepted papers, and the one-year resubmission embargo.
 ---
 
 # IEEE S&P Review Process
 
 Use this to model what happens to an S&P submission after upload and where
 author effort still moves the outcome. The structural constant across recent
-cycles is a **round structure inside each cycle** ending in a three-way
-decision; the dates below are the verified Cycle 2 timetable for S&P 2027
-(sp2027.ieee-security.org/cfpapers.html, checked 2026-07-08).
+cycles is a **round structure inside each cycle** ending in an Accept or
+Reject decision; the dates below are the verified Cycle 2 timetable for
+S&P 2027 (sp2027.ieee-security.org/cfpapers.html, re-verified 2026-11-24; the
+CFP warns Cycle 2 dates may shift if submissions exceed plan).
 
 ## Rounds inside a cycle
 
@@ -19,36 +20,43 @@ decision; the dates below are the verified Cycle 2 timetable for S&P 2027
 | First round | — | A subset of the PC reads; weakest papers cut |
 | Early-reject notice | Jan 18, 2027 | Cut papers exit **without rebuttal** |
 | Reviews released | Feb 11, 2027 | Surviving papers see full reviews |
-| Rebuttal due | Feb 16, 2027 | ~5 days; second-round papers only |
-| Decision | Mar 5, 2027 | Accept / Revise / Reject |
+| Rebuttal due | Feb 16, 2027 | 750 words; second-round papers only |
+| Interactive period | Feb 17-26, 2027 | Only papers assigned an interactive rebuttal: requested results + revised PDF |
+| Decision | Mar 5, 2027 | Accept / Reject |
+| Shepherd submission | Mar 26, 2027 | Accepted papers address meta-review concerns |
+| Camera-ready | Apr 8, 2027 | Final PDF with ethics section and meta-review |
 
 The asymmetry to plan around: **first-round papers never get to answer their
 reviewers.** The introduction, threat model, and evaluation summary must
 survive a skeptical first read on their own — that is why `ieeesp-writing-style`
 front-loads the adversary and the evidence map.
 
-## The three-way decision, and why Revise is the signature
+## Two outcomes, and where the "revision" now lives
 
-- **Accept** comes with a draft meta-review listing remaining concerns and a
-  **shepherd** who strikes each concern once the camera-ready resolves it —
-  acceptance at S&P is conditional in substance even when not in name.
-- **Revise** invites a limited set of papers to submit a structured major
-  revision against a written summary of expectations, re-reviewed (ideally by
-  the same reviewers). It is the venue's mechanism for "the contribution is
-  real, the evidence is not finished." Which later cycle a Revise resubmits
-  into is cycle-specific — 待核实 on the live pages every time.
+- **Accept** comes with a draft **public meta-review** (< 500 words: why the
+  PC accepted, and its remaining concerns) and a **shepherd** who strikes each
+  concern once the camera-ready resolves it. Authors may publish a response of
+  < 500 words alongside it.
 - **Reject** starts the one-year embargo from the original submission date;
-  a future submission with roughly ≥40% overlap counts as a resubmission.
+  a paper from the same or similar authors with a very similar intellectual
+  contribution counts as a resubmission, however rewritten.
+- There is **no Revise / major-revision outcome and no conditional
+  acceptance** in the 2026 or 2027 CFPs. Papers are judged on the submitted
+  version plus whatever reviewers explicitly requested during an
+  **interactive rebuttal** — the one place to show new results, together
+  with a revised manuscript PDF, because there is no later revision round.
 
-Treat a Revise as the best non-accept outcome in security publishing: the
-expectations document is a contract. Deliver exactly what it lists, map each
-expectation to a change, and do not use the revision to add unrequested new
-material that reopens settled questions.
+Treat an interactive-rebuttal assignment as the venue's only second chance:
+deliver exactly the requested material, in a revised PDF, inside the window,
+and add nothing unrequested — unrequested new material means immediate
+rejection.
 
 ## The Research Ethics Committee is a separate track
 
 S&P registers an **Ethics Considerations** entry for every paper at
-submission time, and papers raising concerns are routed to a Research Ethics
+registration time ("None" plus reasoning if none; the section itself is added
+at camera-ready, outside the page limit), and papers raising concerns are
+routed to a Research Ethics
 Committee that can recommend rejection on ethical grounds regardless of
 technical merit. The named baseline is the **Menlo Report**. Reviewers also
 expect IRB approval/waiver status disclosed where human subjects or user data
@@ -64,10 +72,10 @@ Leverage map (S&P cycle):
   Before registration   ████████ abstract routes reviewers; ethics record set
   First round           ─ none: paper speaks alone; no rebuttal if cut
   Rebuttal window       ████ high on misreadings, moderate on evidence gaps
-                             (5 days: pre-draft the likely objections)
+                             (750 words, ~5 days: pre-draft the objections)
+  Interactive period    ██████ only if assigned: requested results + revised PDF
   Reviewer discussion   ─ only via the rebuttal already filed
-  Revise window         ██████ a written contract you can fully satisfy
-  Camera-ready          ███ shepherd negotiation over concrete concerns
+  Camera-ready          ███ shepherd negotiation over meta-review concerns
 ```
 
 ## Reading reviews from this PC
@@ -93,9 +101,9 @@ this." Classify each review point by whether it disputes the **claim**, the
 ## Output format
 
 ```text
-[Stage] pre-submission / round 1 / rebuttal / decision wait / revise / shepherding
+[Stage] pre-submission / round 1 / rebuttal / interactive period / decision wait / shepherding
 [Next transition] <date from current cycle pages> (待核实 if unverified)
 [Survival read] early-reject risk: low / med / high (why)
 [Objection forecast] claim: <..> · evidence: <..> · ethics: <..>
-[If Revise] expectations doc summarized? resubmission cycle confirmed?
+[Rebuttal mode] non-interactive / interactive (requested items listed?)
 ```

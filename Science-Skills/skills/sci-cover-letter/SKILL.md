@@ -20,7 +20,7 @@ Science editors triage fast. The letter must let an editor decide, in **under tw
 1. **Opening claim (2–3 sentences).** The one-sentence advance (`sci-framing`) plus why it matters to a broad audience. Lead with the result, not the background.
 2. **Why Science specifically (2–3 sentences).** Why this is general-interest, not specialist — what communities beyond your own will care and why now (`sci-framing` why-now trigger).
 3. **What's new vs. prior work (2–3 sentences).** The decisive distinction from the closest prior papers, including any concurrent work. Pre-empt "isn't this known?".
-4. **Format & logistics (short).** "We submit this as a Report/Research Article. The work has not been published and is not under consideration elsewhere."
+4. **Format & logistics (short).** "We submit this as a Research Article. The work has not been published and is not under consideration elsewhere." If requesting the extended online format, say why the additional length is merited.
 5. **Optional: suggested/excluded reviewers**, competing interests, related submissions, and any embargo/press considerations.
 
 ## The significance paragraph test
@@ -30,7 +30,7 @@ The editor should be able to copy your second paragraph into a referee-invitatio
 ## Logistics to include
 
 - [ ] Statement of originality and exclusivity (not published / not under review elsewhere).
-- [ ] Manuscript type (Report vs Research Article) and rough length.
+- [ ] Manuscript type (Research Article; standard vs extended online format) and rough length.
 - [ ] Competing interests declaration (or "none").
 - [ ] Related manuscripts (yours) in press/under review, if any.
 - [ ] Suggested reviewers (a few) and opposed reviewers with brief reason, if applicable.

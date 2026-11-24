@@ -30,7 +30,7 @@ Verified journal facts live in [`resources/journal-profile.md`](resources/journa
 | Contribution | Original concept / proposition / framework | "We find X affects Y" is not enough |
 | Knowledge system | 中国自主知识体系; theory dialogue | Verifying imported theory ≠ contribution |
 | Method | Pluralist; method serves the thesis | Technique cannot replace theoretical argument |
-| Abstract | 200–300 characters, 3–5 keywords | Lead with the proposition, not background |
+| Abstract | ≤300 characters (official), 3–5 keywords | Lead with the proposition, not background |
 | Notes | Footnotes (页下注) | Endnotes / in-text citations off-style |
 
 ---
@@ -47,7 +47,7 @@ Verified journal facts live in [`resources/journal-profile.md`](resources/journa
 | `ssc-argumentation` | Concept rigor + argument chain |
 | `ssc-evidence` | Quantitative / qualitative / historical — method serves the thesis |
 | `ssc-style` | Scholarly register; kill policy-report tone |
-| `ssc-abstract-keywords` | 200–300-char abstract + 3–5 keywords |
+| `ssc-abstract-keywords` | ≤300-char abstract + 3–5 keywords |
 | `ssc-submission` | Preflight: footnotes, online system, anonymity |
 | `ssc-rebuttal` | External-review response letter |
 

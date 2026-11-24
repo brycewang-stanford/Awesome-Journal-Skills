@@ -3,12 +3,13 @@
 A skeleton for an Academy of Management Review theory-building article. AMR publishes
 **conceptual articles only** — there is **no methods, data, results, or analysis section**.
 Replace bracketed prompts with your content. Verify exact length/abstract limits and
-formatting on the current AOM author page. The 2026-06-21 AOM style-guide check verifies
-the 200-word abstract limit; manuscript length remains a live portal/journal-page check.
+formatting on the current AOM author page. The 2026-11-23 re-check verifies the 200-word
+abstract limit (AOM Style Guide) and AMR's length guide: initial submissions no more than 30
+double-spaced pages, excluding references, tables, and figures ("Submitting to AMR" page).
 
 ---
 
-## Title page (SEPARATE file — keep out of the anonymized manuscript)
+## Title page (accepted version only — keep out of the file submitted for review)
 
 > [Title]
 > [Author name(s), affiliation(s)]
@@ -121,4 +122,4 @@ contribution bar — What/How/Why/Who-Where-When (Whetten, AMR 1989, DOI
 
 - No methods/data/results/analysis section — AMR is theory-only.
 - No tables of statistics or data plots; figures are conceptual.
-- Keep the manuscript anonymized; put author info only on the separate title page.
+- Keep the manuscript anonymized; author info goes in the ScholarOne fields and acknowledgments in the cover letter.

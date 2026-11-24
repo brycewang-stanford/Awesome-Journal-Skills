@@ -1,6 +1,6 @@
 ---
 name: vis-review-process
-description: Use when reasoning about how an IEEE VIS full-paper submission is evaluated, covering the two-phase review that mirrors IEEE TVCG, the primary/secondary/external (and 2026 student) reviewer roles, the six-area routing through Area Paper Chairs, the conditional-accept second round, and how VIS's journal-integrated process differs from a single accept/reject conference and from CHI/CVPR.
+description: Use when reasoning about how an IEEE VIS full-paper submission is evaluated, covering the two-phase review that mirrors IEEE TVCG, the primary/secondary/external (and optional junior) reviewer roles, the six-area routing through Area Paper Chairs, the conditional-accept second round, and how VIS's journal-integrated process differs from a single accept/reject conference and from CHI/CVPR.
 ---
 
 # VIS Review Process
@@ -18,8 +18,10 @@ is that VIS gives repairable papers a genuine revise-and-review cycle within the
 - Each paper is routed by its **primary area** to one of the six areas and handled by that area's
   **Area Paper Chairs**; **Overall Paper Chairs** keep decisions consistent across areas.
 - Each paper gets **at least three reviewers**: a **primary** and a **secondary** (both program
-  committee members) plus at least one **external** expert. VIS 2026 adds an optional
-  **student reviewer** the primary may invite — a fourth, developmental voice, not a replacement.
+  committee members) plus **one external** expert invited by the secondary. Since VIS 2025 the
+  primary may also invite an optional **junior reviewer** (renamed from "student reviewer" in 2026)
+  — a fourth, advisory voice, not a replacement. In 2026 authors may suggest 1-3 external
+  reviewers, which the secondary may consider but is not bound by.
 - Reviewers weigh scientific quality and novelty, potential impact, whether the evidence supports
   the claims, appropriateness of methodology, and the soundness of the research process. Approved
   reviews are published only if **the authors opt in at camera-ready and every reviewer on the
@@ -39,7 +41,9 @@ Phase 2 (only for Conditional Accept): revised paper + summary of changes ->
 
 A **conditional accept** is not a soft accept — the second round is real, and only papers that
 actually make the required changes are accepted. Treat it like a journal major-revision with a hard
-window.
+window: in VIS 2026 the first-round notification came on **6 June 2026**, the second-round paper was
+due **1 July 2026**, and final notification followed on **15 July 2026** — under four weeks to
+revise. Double-blind applies only to the first cycle; the second-round version is single-blind.
 
 ## Reading a first-round decision
 
@@ -71,7 +75,7 @@ rewards papers whose gaps are fixable.
 ## Who reads you
 
 Expect a primary, a secondary, and an external reviewer matched to your area, possibly plus a
-student reviewer. Visualization reviewers check whether the **visual encoding and interaction are
+junior reviewer. Visualization reviewers check whether the **visual encoding and interaction are
 justified by task**, whether the **evaluation matches the contribution type** (a technique needs
 different evidence than a design study or a perceptual experiment), and often open the **supplemental
 video and code**. Vague design rationale or an evaluation mismatched to the claim gets caught, not
@@ -116,7 +120,7 @@ changes as the scored contract for phase two.
 ```text
 [Process stage] pre-submission / awaiting reviews / conditional accept / second round / accepted
 [Decision category] accept / conditional accept / reject, with the criterion driving it
-[Area routing] primary area + Area Chair; reviewer roles (primary/secondary/external/student)
+[Area routing] primary area + Area Chair; reviewer roles (primary/secondary/external/junior)
 [Criterion map] each review point -> novelty | impact | evidence | methodology | encoding rationale | reproducibility
 [Leverage plan] the next-stage action that can actually change the outcome
 [Forbidden moves] identity leak (if double-blind) / unsupported new claims

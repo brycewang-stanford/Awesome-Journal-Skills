@@ -16,7 +16,7 @@ description: Use when running the final pre-submission preflight for the Journal
 
 - JME is published by **Elsevier**; submission is through **Elsevier Editorial Manager** at `editorialmanager.com/monec/` (not a generic portal).
 - **Submission fee**: **US$350** for unsolicited new manuscripts; **US$200 for full-time PhD students.** Payment is **required at submission** — a manuscript is **only considered after payment.** **No fee** for revised/resubmitted manuscripts. If a paper is **desk-returned without full review** (≈ within 3 months), **half the fee is refunded.**
-- **Review**: **single anonymized** (single-blind) — do **not** anonymize the manuscript. Typically sent to **at least two reviewers**. The first revision is **"up or out."**
+- **Review**: **single anonymized** (single-blind) — do **not** anonymize the manuscript (re-confirmed 2026-11-24). Typically sent to **at least two reviewers** per the earlier Guide reading (not re-confirmed 2026-11-24; an EIC interview describes typically one referee). The first revision is **"up or out."**
 - **Length cap (accepted papers)**: **≤ 40 pages** of text/references/footnotes and **≤ 10 tables and figures combined**; online supplements are exempt — design for this now.
 - **Editors**: S. Borağan Aruoba (Maryland) and Eric Swanson (UC Irvine).
 
@@ -46,6 +46,28 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] Contribution stated sharply enough to clear the editor's ~50% R&R bar (see jme-contribution-framing)
 - [ ] Shock/mechanism identification complete (see jme-identification-strategy)
 - [ ] No over-claiming beyond what the design/model supports
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jme-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

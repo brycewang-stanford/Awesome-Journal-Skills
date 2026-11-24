@@ -10,16 +10,16 @@ style on the journal's official author guidelines page.
 ## Title page
 
 > [Title]
-> [Authors and affiliations — remove for anonymized review]
-> [Acknowledgements / funding — separate file for anonymized review]
+> [Authors: first name, initial(s), surname, each followed by department and institution]
+> [Corresponding author contact; acknowledgements / funding]
 
 ## Abstract
 
-> One short paragraph (within the current word limit). Lead with the **result**, not
+> One short paragraph (no more than 150 words). Lead with the **result**, not
 > the motivation: question → contribution (new model / design / fact) → headline
 > finding (with magnitude) → why it matters.
 
-> JEL: [codes]    Keywords: [3–5]
+> JEL: [codes]    Keywords: [required]
 
 ## 1. Introduction (no separate "motivation" preamble — start with the question)
 

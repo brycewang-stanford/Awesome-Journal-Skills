@@ -42,7 +42,7 @@ JAR's **data-and-code sharing policy requires and hosts** the materials. Keep to
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JAR is archival/empirical accounting; foreground identification around disclosure and regulation shocks, with modern DiD where adoption is staggered.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JAR is archival/empirical accounting; foreground identification around disclosure and regulation shocks, with modern DiD where adoption is staggered.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

@@ -80,7 +80,7 @@ Figure 1. Attentional-capture cost by condition, Studies 1–2.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Psychological Science is short-format experimental psychology with strong open-science norms; preregister, run randomization inference, and report effect sizes with family-wise corrections.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Psychological Science is short-format experimental psychology with strong open-science norms; preregister, run randomization inference, and report effect sizes with family-wise corrections.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

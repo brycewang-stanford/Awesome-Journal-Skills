@@ -3,9 +3,17 @@
 Primary and authoritative sources behind AJPS-specific facts used in this skill
 pack. **Access date for all entries: 2026-06-20.** Current factual baseline comes
 from the AJPS editorial site, MPSA pages, Harvard Dataverse, and current AJPS PDF
-verification guidance. Live-check volatile details such as Editorial Manager
-prompts, Wiley production/license options, and any later policy revisions before
-submission.
+verification guidance. Submission rules, AI policy, fees and masthead
+**re-verified 2026-11-24** against the live ajps.org pages (home, Guidelines for
+Manuscripts "Updated November 2026", Manuscript Preparation, Submit Manuscript,
+Guidelines for Accepted Articles, Verification Policy, AI Policy "Updated August
+11, 2026", editorial board), all read directly; the Wiley Funded Access page
+refuses automated access (HTTP 403) and was read via search-engine rendering
+restricted to onlinelibrary.wiley.com. Changes found on 2026-11-24: a new
+**Submission Cap Policy** (effective 2026-11-04), a new **appeals policy**, a
+**rewritten AI policy** (2026-08-11), and a higher **OnlineOpen APC** (see below).
+Live-check volatile details such as Editorial Manager prompts, Wiley
+production/license options, and any later policy revisions before submission.
 
 ## Official Journal, Submission, and Author Pages
 
@@ -17,7 +25,7 @@ submission.
   reporting, AI policy, Correspondence, conflict of interest, Research Notes,
   and editorial principles.
 - **https://ajps.org/guidelines-for-manuscripts/** — Guidelines for Manuscripts,
-  updated March 2026. Verifies: AJPS seeks outstanding theoretical, empirical,
+  **"Updated November 2026"** (re-read 2026-11-24). Verifies: AJPS seeks outstanding theoretical, empirical,
   or methodological contributions in any political-science subfield; non-review
   conditions such as missing IRB approval, concurrent review, prior AJPS review,
   publication elsewhere, or anonymity failure; submission types and limits:
@@ -26,8 +34,17 @@ submission.
   challenges to central claims in recently published AJPS work; original author
   response to Correspondence capped at 2,000 words; double-blind review; advisory
   reviews with publication decisions made by coeditors; appeal route.
+  **New on 2026-11-24:** the **AJPS Submission Cap Policy** — no individual may
+  author or co-author more than **three** submissions (Articles, Correspondence
+  and Research Notes together) in any rolling twelve-month period, effective
+  **November 4, 2026** (earlier submissions are not counted in the first year);
+  one waiver for a fourth manuscript per calendar year; at submission the team
+  declares in Editorial Manager that no coauthor has submitted more than two
+  manuscripts in the previous 12 months. **AJPS Appeals Policy:** appeals go to
+  ajps@ajps.org no sooner than 24 hours after the decision and are judged by the
+  editors-in-chief, whose decision is final.
 - **https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/** —
-  Manuscript Preparation, revised 2025-12-12. Verifies: manuscripts that fail
+  Manuscript Preparation, revised 2025-12-12 (re-read 2026-11-24, unchanged). Verifies: manuscripts that fail
   formatting/submission guidelines are not sent for review; Article and Research
   Note word caps; title page must include an abstract of no more than 150 words
   and manuscript word count; verification materials for tentatively accepted
@@ -48,7 +65,7 @@ submission.
   limit is 25 pages; anonymized PAPs may be submitted separately with no length
   limit and do not count against SI pages.
 - **https://ajps.org/guidelines-for-manuscripts/submit-manuscript/** — Submit
-  Manuscript, updated 2022-02-24. Verifies: submission via Editorial Manager;
+  Manuscript, updated 2022-02-24 (re-read 2026-11-24, unchanged). Verifies: submission via Editorial Manager;
   corresponding-author role; required author names/emails, dissertation-committee
   and five-year coauthor conflict information, abstract text, opposed reviewers,
   research subfield, keywords, and original manuscript number for revisions;
@@ -98,17 +115,29 @@ submission.
   checklist for AJPS Dataverse submissions before production; README, procedure
   documentation, data-collection context, instruments, transparency material, and
   analytic-process documentation.
-- **https://ajps.org/ajps-ai-policy/** — AJPS AI Policy, updated 2026-04-10.
-  Verifies: authors must disclose AI use in manuscript text or footnotes and in
-  the Author Questionnaire; disclosure should identify tasks, tools, provider,
-  version or dates, and human oversight; authors should avoid using AI to draft
-  the manuscript or substantial elements such as literature review, theory, or
-  interpretation; authors remain responsible for accuracy; reviewers may use AI
-  only for normal workflow support and may not use AI to evaluate a paper or
-  write any part of a report.
+- **https://ajps.org/ajps-ai-policy/** — AJPS AI Policy, **"Updated August 11,
+  2026"** (re-read 2026-11-24; this replaces the 2026-04-10 version). Verifies:
+  authors may use AI "only as a companion" and keep full responsibility for all
+  content, citations and analyses; AI cannot be an author; authors must declare
+  any AI use that shaped the research or manuscript (text, images/figures, data
+  collection or management, code, analysis, research design) in **a single
+  consolidated statement in a manuscript footnote that mirrors the Author
+  Questionnaire statement** in Editorial Manager, naming every tool (and provider),
+  and — for uses that shaped content — the tasks, degree of human oversight, and
+  version/dates when available; minimal non-generative uses (spelling, grammar,
+  minor formatting) need no declaration; **failure to disclose is itself grounds
+  for decline**; authors must also comply with Wiley's AI guidelines. Reviewers
+  must not upload manuscripts to AI tools, may use AI to organize thoughts,
+  improve clarity/tone or translate their own review, and must disclose AI
+  drafting assistance. (The earlier text discouraging AI drafting of substantial
+  manuscript elements and barring reviewers from any AI help with reports is no
+  longer on the page.)
 - **https://ajps.org/editorial-board/** — AJPS Editorial Board. Verifies current
   lead editors, associate editors, editorial board, managing editor, contact, and
   current online ISSN / Clarivate ranking.
+  Re-checked 2026-11-24 (ajps.org sidebar and editorial board): lead editors Adam
+  Berinsky (MIT) and Dan Reiter (Emory), managing editor Julia Salvatore —
+  unchanged.
 - **https://dataverse.harvard.edu/dataverse/ajps** — AJPS Dataverse on Harvard
   Dataverse. Verifies the repository location for AJPS verification datasets.
 
@@ -148,6 +177,7 @@ submission.
 | Quantitative README/codebook/software-version/seed/command-file requirements | Verification Guidelines / Quantitative Checklist |
 | Qualitative transparency materials and checklist | Verification Guidelines / Qualitative Checklist |
 | AI disclosure requirements for authors and AI limits for reviewers | AJPS AI Policy |
+| Submission cap: at most three submissions per author per rolling twelve months (from 2026-11-04); appeals to editors-in-chief after a 24-hour wait | Guidelines for Manuscripts |
 
 ## Live-Check Items Before Submission
 
@@ -157,11 +187,45 @@ submission.
   choice after acceptance. Verified 2026-06-22 (Wiley OnlineOpen, AJPS Funded
   Access page, **https://onlinelibrary.wiley.com/page/journal/15405907/homepage/fundedaccess.html**):
   there is **no submission fee**; OnlineOpen (Gold OA) is optional after
-  acceptance with an APC of **US $4,300 / £2,860 / €3,600** (re-verify the current
-  figure before submission, as Wiley updates rates annually). Lead editors Adam
+  acceptance with an APC of **US $4,510 / £3,000 / €3,780** plus applicable tax
+  (re-verified 2026-11-24 via search-engine rendering of the same Wiley page, which
+  refuses automated access; previously US $4,300 / £2,860 / €3,600; a Wiley Open
+  Access Account at the corresponding author's institution may cover it). The
+  no-submission-fee statement could not be re-read on the Wiley page today; no
+  AJPS submission page mentions a fee as of 2026-11-24. Lead editors Adam
   Berinsky (MIT) and Dan Reiter (Emory) re-confirmed current as of 2026-06-22
   (ajps.org editorial board; MPSA announcement).
 - Confirm any new AJPS verification-document updates, because the verification
   policy page notes that policy-document updates are expected.
 - Confirm editor/coeditor conflict information using the live editorial-board and
   conflict-policy pages immediately before submitting.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "American Journal of Political Science",
+  "verified": "2026-11-24",
+  "rules": {
+    "main_text_words_max": {"value": 10000, "source": "https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/", "note": "Articles; Research Notes and Correspondence 4,000. Counts main text, notes, parenthetical references, print appendices and table/figure headers and notes; excludes title page, abstract, reference list, online SI and mathematical notation. Over-length submissions are not reviewed"},
+    "abstract_words_max": {"value": 150, "source": "https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/", "note": "on the title page, followed by the manuscript word count"},
+    "review_mode": {"value": "double-blind", "source": "https://ajps.org/guidelines-for-manuscripts/", "note": "no author-identifying information, acknowledgments, funding or conference mentions; third-person self-citation; no 'AUTHOR CITATION' placeholders in most cases"},
+    "cover_letter": {"value": "optional", "source": "https://ajps.org/guidelines-for-manuscripts/submit-manuscript/", "note": "comments to the editor, acknowledgments and presentation history go only in the Editorial Manager 'Author Comments' field"},
+    "required_statements": {"value": [], "source": "https://ajps.org/guidelines-for-manuscripts/submit-manuscript/", "note": "no statement must appear in the anonymous manuscript for every paper; see conditional and separate-upload lists"},
+    "conditional_statements": {"value": ["ai_use_disclosure", "ethics_approval"], "source": "https://ajps.org/ajps-ai-policy/", "note": "AI: one consolidated manuscript footnote if AI shaped the research or manuscript (failure to disclose is grounds for decline). Human subjects: IRB approval/exemption documentation uploaded with the manuscript, or, if no author has IRB access, a human-subjects appendix (Submit Manuscript page)"},
+    "separate_upload_statements": {"value": ["keywords", "conflict_of_interest"], "source": "https://ajps.org/guidelines-for-manuscripts/submit-manuscript/", "note": "entered in Editorial Manager: subfield and keywords, dissertation-committee and five-year coauthor lists, conflicts with the editorial team; AI statement also mirrored in the Author Questionnaire"},
+    "supplement_policy": {"value": "Supporting Information up to 25 pages for original submissions, with title page and table of contents, uploaded as 'Appendix' and cited in the main text; anonymized pre-analysis plans as a separate Appendix file with no length limit", "source": "https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/"},
+    "reference_style": {"value": "APSA Style Manual for Political Science (2018, updated 2023) or Chicago Manual of Style 18th ed.; full first and last names in references", "source": "https://ajps.org/guidelines-for-manuscripts/manuscript-preparation/"},
+    "file_format": {"value": "one anonymous, printable PDF, Word or LaTeX file; double-spaced 12-point text, one-inch margins", "source": "https://ajps.org/guidelines-for-manuscripts/submit-manuscript/"},
+    "portal": {"value": "Editorial Manager", "source": "https://ajps.org/guidelines-for-manuscripts/submit-manuscript/"},
+    "data_code_policy": {"value": "after acceptance, all data and code to reproduce every analytic result are deposited in the AJPS Dataverse and verified by a third party (Cornell Center for Social Sciences) before publication; data-access limits must be raised with the editorial office before submission", "source": "https://ajps.org/ajps-verification-policy/"},
+    "llm_policy": {"value": "AI only as a companion, authors fully accountable, AI cannot be an author; declare any AI use that shaped research or manuscript in one footnote mirroring the Author Questionnaire (tools, provider, tasks, human oversight); undisclosed use is grounds for decline", "source": "https://ajps.org/ajps-ai-policy/"},
+    "submission_fee": {"value": "none stated on the AJPS submission pages", "source": "https://ajps.org/guidelines-for-manuscripts/submit-manuscript/", "note": "submission cap instead: at most three submissions per author per rolling twelve months from 2026-11-04"},
+    "apc": {"value": "optional Wiley OnlineOpen after acceptance: USD 4,510 / GBP 3,000 / EUR 3,780 plus tax", "source": "https://onlinelibrary.wiley.com/page/journal/15405907/homepage/fundedaccess.html", "note": "read via search-engine rendering (Wiley returns HTTP 403 to automated clients)"},
+    "jel_codes_required": {"value": null, "note": "not stated on the official pages as of 2026-11-24"}
+  }
+}
+```

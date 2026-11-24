@@ -1,6 +1,6 @@
 ---
 name: icsme-topic-selection
-description: Use when deciding whether a software-engineering project belongs at IEEE ICSME (maintenance, evolution, reverse engineering, program comprehension, technical debt, refactoring, mining software repositories) or should be routed to ICSE, FSE, ASE, ISSTA, MSR, SANER, SCAM, or an SE journal (TSE/EMSE), and when to use ICSME's Journal-First, Registered Reports, or RENE tracks instead of the research track.
+description: Use when deciding whether a software-engineering project belongs at IEEE ICSME (maintenance, evolution, reverse engineering, program comprehension, technical debt, refactoring, mining software repositories) or should be routed to ICSE, FSE, ASE, ISSTA, MSR, SANER, SCAM, or an SE journal (TSE/EMSE), and when to use ICSME's Journal-First, Registered Reports, Benchmark & Dataset, or (through 2026) RENE tracks instead of the research track.
 ---
 
 # ICSME Topic Selection
@@ -43,8 +43,10 @@ software as a substrate for a general technique usually belongs elsewhere.
   history to characterize maintenance practice, defect survival, debt accumulation, or evolution.
 - **Reverse engineering / program comprehension** — recovering architecture, models, or intent
   from existing code, with evidence it helps a maintainer.
-- **Replication or negative result** (the RENE track's home turf) — re-running prior maintenance
-  research on new data and reporting honestly what did and did not reproduce.
+- **Replication or negative result** (the RENE track's home turf through 2026; in ICSME 2027, which
+  lists no RENE track, a research-track paper where replicability is an explicit criterion) —
+  re-running prior maintenance research on new data and reporting honestly what did and did not
+  reproduce.
 - **Technical-debt and refactoring economics** — measuring, predicting, or repaying debt, or
   demonstrating that a refactoring preserves behaviour and pays off.
 
@@ -65,9 +67,11 @@ ICSME is unusual in how many doors it opens — pick the one that fits the work'
 
 ```text
 [Research track]      a complete maintenance/evolution technique or study, ready now
-[Journal-First (J1C2)] a TSE/EMSE paper already accepted (2025-2026 window) not yet conf-presented
+[Journal-First (J1C2)] a partner-journal paper accepted 1 Jan 2025 - 30 May 2027, not yet conf-presented
 [Registered Reports]  a strong protocol whose result is not yet in -> lock the method, review-first
-[RENE]                a replication/reproduction on new data, or an honest negative result
+[Benchmark & Dataset] a dataset or benchmark as the contribution (new in 2027; OpenReview, 4 or 6-8 pp)
+[RENE, through 2026]  a replication/reproduction or negative result; not in the 2027 track list ->
+                      research track framed as replication, or Registered Reports
 [NIER / Visions]      an early idea with an argument but not a full study
 [Tool Demo / Data]    a usable tool or a released dataset as the contribution
 [Industry]            a practitioner-driven maintenance experience report
@@ -91,7 +95,7 @@ ICSME is unusual in how many doors it opens — pick the one that fits the work'
 [Claim type] technique / empirical / comprehension / replication / debt-economics
 [Lifecycle check] does it depend on software already existing and changing? -> yes = ICSME-shaped
 [Sibling check] mining-only -> MSR; source transformation -> SCAM; general SE -> ICSE/FSE
-[Track choice] research / journal-first / registered report / RENE / NIER / tool-demo / industry
+[Track choice] research / journal-first / registered report / benchmark-dataset / NIER / tool-demo / industry
 [Verdict] ICSME <track> / sibling venue / journal-first, with a one-line reason
 ```
 

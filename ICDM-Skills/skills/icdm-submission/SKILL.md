@@ -5,8 +5,8 @@ description: Use when auditing an ICDM (IEEE International Conference on Data Mi
 
 # ICDM Submission
 
-Run this audit twice: once when the abstract is registered and once before the full-paper
-deadline about a week later (2026: abstract May 30, paper June 6, AoE). ICDM runs a
+Run this audit twice: once a week before and once the day before the full-paper deadline
+(2026: June 6, AoE — there was **no separate abstract deadline**). ICDM runs a
 **single deadline**, not KDD-style cycles, so there is no next window this year — the
 paper you upload in June is the paper that gets reviewed. Reopen the current **track**
 call first; Research and Applied now differ on anonymity.
@@ -34,6 +34,16 @@ revealed only after acceptance is finalized. Your obligation is to conceal ident
 - No identifying system names, internal dataset names, institutional URLs, or repository
   links that resolve to a named account.
 - Scrub figures, plots, PDF metadata, and any embedded file paths.
+- Preprints (ICDM 2026): do not upload or publicize the submission on arXiv or other platforms
+  during review; a preprint posted before submission may stay up, but the PDF must not cite
+  it in a way that reveals authorship.
+
+## Submission-form extras
+
+- Complete the **reproducibility checklist** in the submission system (required in 2026; the
+  answers become part of the submission and reviewers weigh them).
+- Select the track in the submission form (Research or Applied); there is no abstract-only
+  registration step in 2026.
 
 ## The 10-page all-inclusive cap
 
@@ -88,6 +98,28 @@ cosmetic: they promote one proof sketch to the body, move the full proof and ext
 to the cited anonymized repository, and trim the related-work prose. The lesson: at ICDM,
 budget the appendix and references *against the body* from the first outline, because
 there is no separate allowance to grow into.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue icdm-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

@@ -10,9 +10,8 @@ truth: a proceedings version, produced to IEEE specifications and published
 via IEEE Xplore and the IEEE Computer Society Digital Library, and a public
 full version with complete proofs that the CFP expects on arXiv, ECCC, or an
 equivalent open host by the camera-ready deadline (2026 CFP, checked
-2026-07-08; the 2026 camera-ready date and format instructions were not
-public at check time — the acceptance packet is the controlling source,
-待核实). This skill sequences both.
+2026-07-08; the 2026 camera-ready date was October 1, 2026, confirmed
+2026-11-24; format instructions come from the acceptance packet, 待核实). This skill sequences both.
 
 ## The two deliverables
 
@@ -22,7 +21,7 @@ public at check time — the acceptance packet is the controlling source,
 | Role | Citable record of the FOCS acceptance | Record of correctness — the document experts actually read |
 | Length | Per acceptance packet (待核实) | Unlimited; all proofs |
 | Rights | IEEE copyright/publication form (electronic; exact form 待核实) | You retain arXiv license choice |
-| Deadline | Camera-ready date (待核实) | CFP expectation: same date |
+| Deadline | Camera-ready date (2026: October 1) | CFP expectation: same date |
 | Failure cost | Paper dropped from proceedings | Community reads a proofless announcement; reputational, and real |
 
 Treat the full version as the primary deliverable and the proceedings file as

@@ -71,8 +71,9 @@ the complement. Three such sentences outperform a half-page related-work section
 - Third person, always: "extending the system of [7]" even when [7] is yours.
 - If your prior system is unmistakably identifiable, cite it anyway — omitting the
   obvious predecessor is worse — but do not claim ownership.
-- The anonymity period (from one month pre-deadline to decisions, per the 2025/2026
-  policy) also constrains *when* your own extended preprint may appear.
+- The preprint rule of the cycle constrains *when* your own extended preprint may
+  appear: 2025 had an anonymity period (one month pre-deadline to decisions), 2026
+  dropped it, and the 2027 rule was not yet published on 2026-11-24.
 
 ## Corpus and tool citation etiquette
 
@@ -101,7 +102,7 @@ the complement. Three such sentences outperform a half-page related-work section
 - Keep the DOI field — it is how readers reach the Archive from the PDF.
 - Purge arXiv `eprint` entries for papers that have archival versions; mixed
   duplicate entries (same paper cited twice via different keys) are a classic
-  reference-page space leak under the 4+1 format.
+  reference-page space leak under the 4 + 2 format.
 - The references page is capacity-limited too: with roughly 20–30 entries
   fitting comfortably, every citation must be load-bearing. Cut courtesy
   citations before cutting positioning ones.
@@ -117,6 +118,6 @@ the complement. Three such sentences outperform a half-page related-work section
 [Fix list] <ordered>
 ```
 
-Archive URLs and the anonymity-period wording were checked 2026-07-08
+Archive URLs were checked 2026-07-08 and the preprint wording re-read 2026-11-24
 (`resources/official-source-map.md`); challenge editions roll annually — re-sweep
 at writing time, not at submission time.

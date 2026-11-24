@@ -12,6 +12,8 @@ PAIS is available:
 
 - **Standalone ECAI** (e.g. 2024): EurAI + a host society; FAIA/`ecai.cls`; PAIS co-located.
 - **IJCAI-ECAI 2026**: joint with IJCAI in Bremen (15-21 Aug 2026); IJCAI process/template/proceedings.
+- **ECAI 2027** (next, standalone): Athens, 2-7 Oct 2027, with PAIS; main-track call "Coming soon"
+  as of 2026-11-23.
 
 ## The IJCAI-ECAI 2026 calendar (verify on the live page)
 
@@ -27,7 +29,16 @@ Conference ..................... 15-21 August 2026, Bremen
 
 For a standalone ECAI the shape is the same (registration ~1 week before the PDF; double-blind
 review with a rebuttal; open-access FAIA proceedings) but the dates and organizer differ — read the
-current call.
+current call. The dates ECAI 2027 has posted so far (ecai2027.org, checked 2026-11-23):
+
+```text
+Abstract deadline .............. not yet posted (ECAI 2025 required one ~1 week before the PDF)
+Full paper deadline ............ 14 April 2027
+Phase 1 notification ........... 15 May 2027             <- early filter, the summary-reject analogue
+Rebuttal ....................... 15-18 June 2027
+Author notification ............ 15 July 2027
+Conference ..................... 2-7 October 2027, Athens (main conference 4-7 Oct)
+```
 
 ## Backward plan from the paper deadline
 

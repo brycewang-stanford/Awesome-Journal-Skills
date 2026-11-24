@@ -36,7 +36,7 @@ description: Use when designing the real-data validation of a 《中国管理科
 ## 执行桥（StatsPAI / Stata MCP）
 
 四道硬门里有三道是**算出来**的，不是写出来的。工具全表见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。
 
 - **改进显著性**：`bootstrap` 给误差差值的区间；预测线的 DM/MCS 若无现成实现，
   至少用 `bootstrap` + `romano_wolf` 把"赢了几个基准"的多重比较校正掉——基准电池

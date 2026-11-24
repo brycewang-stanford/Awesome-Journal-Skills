@@ -23,7 +23,7 @@ orientation. This pack is tuned to that nature, not to generic finance writing.
 7. `jbf-writing-style` — concise, results-forward prose plus numbered-reference readiness.
 8. `jbf-replication-and-data-policy` — Elsevier Option C data statement plus deposit/link-or-explain package.
 9. `jbf-review-process` — what double-anonymized review and the desk screen involve.
-10. `jbf-submission` — Editorial Manager preflight: USD 350 fee, anonymized manuscript + title page, 250-word abstract, keywords, Highlights, AI declaration, data statement.
+10. `jbf-submission` — Editorial Manager preflight: USD 350 fee, anonymized manuscript + title page, 150-word abstract, keywords, Highlights, AI declaration, data statement.
 11. `jbf-rebuttal` — response-letter strategy for an R&R.
 
 ## Quick routing

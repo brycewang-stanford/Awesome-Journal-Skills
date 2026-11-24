@@ -55,8 +55,9 @@ Monthly deadlines mean near-neighbors surface *during* your review window.
 ## Extended versions and overlap
 
 - Prior *workshop or demo* versions: declare them and state the delta; a PVLDB
-  research paper must carry substantial new content over them (exact overlap
-  thresholds: 待核实 on the live volume guidelines).
+  research paper must present work not described in any prior publication
+  longer than 4 double-column VLDB-style pages, and must cite overlapping prior
+  work even at or below that threshold (Vol 20 guidelines).
 - Do not hold the same work under review at PVLDB and another venue
   simultaneously; rolling cadence makes "just try both" tempting and
   detectable — the communities share a review pool.

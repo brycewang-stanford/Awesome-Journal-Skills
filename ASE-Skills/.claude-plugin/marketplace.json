@@ -1,8 +1,8 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "ase-skills",
-  "version": "1.1.0",
-  "description": "Depth pack for the IEEE/ACM Automated Software Engineering conference: automated-SE venue routing, the Accept/Revision/Reject research-track model with early rejection and a criteria-bound revision round, double-anonymous HotCRP submission on the ACM acmart template, ACM artifact badging, dual IEEE-Xplore/ACM-DL proceedings, and the NIER, Tools-and-Datasets, and Journal-First tracks.",
+  "version": "1.2.0",
+  "description": "Depth pack for the IEEE/ACM Automated Software Engineering conference: automated-SE venue routing, the Accept/Major revision/Reject research-track model with early rejection and a criteria-bound revision round, double-anonymous HotCRP submission on the IEEE IEEEtran template (ASE 2027), ACM artifact badging, dual IEEE-Xplore/ACM-DL proceedings, and the NIER, Tools-and-Datasets, and Journal-First tracks.",
   "owner": {
     "name": "Bryce Wang",
     "email": "brycew6m@stanford.edu"
@@ -13,9 +13,9 @@
   "plugins": [
     {
       "name": "ase-skills",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "source": "./",
-      "description": "Twelve ASE-specific skills for the IEEE/ACM International Conference on Automated Software Engineering and its automated-SE research track, grounded in the ASE 2025/2026 researchr calls, the ase26.hotcrp.com submission site, IEEE Xplore, the ACM Digital Library, and dblp.",
+      "description": "Twelve ASE-specific skills for the IEEE/ACM International Conference on Automated Software Engineering and its automated-SE research track, grounded in the ASE 2027 researchr call, the ase2027.hotcrp.com submission site, the ASE 2025/2026 calls, IEEE Xplore, the ACM Digital Library, and dblp.",
       "author": {
         "name": "Bryce Wang",
         "email": "brycew6m@stanford.edu"

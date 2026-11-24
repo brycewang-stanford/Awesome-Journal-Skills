@@ -43,7 +43,7 @@ to the regime where both theory and experiments agree, rather than overclaim a u
 ## Rebuttal-ready result
 
 During response, prefer a small decisive table, corrected baseline, missing ablation, or concise
-error analysis over a broad new experimental section. ICML gives one discussion round, so a single
+error analysis over a broad new experimental section. ICML discussion rounds are short and character-capped, so a single
 tuned-baseline row or in-regime variance plot moves a reviewer more than a sprawling new study.
 
 ## Output format

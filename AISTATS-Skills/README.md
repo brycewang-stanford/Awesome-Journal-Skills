@@ -5,14 +5,24 @@ interface. The pack focuses on OpenReview submission readiness, statistical evid
 double-blind supplementary material, reproducibility checklists, text-only author-reviewer
 discussion, PMLR camera-ready publication, and in-person presentation planning.
 
-Official basis checked on 2026-06-01: AISTATS 2026 Call for Papers, OpenReview conference
-group, PMLR proceedings pages, AISTATS Code of Conduct, and AISTATS / PMLR author
-publication conventions. See `resources/official-source-map.md` for the exact source map.
+Official basis re-verified on 2026-11-23: the AISTATS 2027 Call for Papers, Submission FAQ,
+Dates, Rebuttal Guidelines and Organizing Committee pages, the AISTATS 2027 paper pack and
+OpenReview group, PMLR proceedings pages, and the AISTATS Code of Conduct. See
+`resources/official-source-map.md` for the exact source map.
+
+**Edition:** AISTATS 2027 — the 30th conference, in person in Montréal, Canada, May 3–6, 2027.
+Its submission deadlines have passed (abstract September 29, full paper October 6, 2026);
+on 2026-11-23 the cycle is in the rebuttal phase (author–reviewer discussion November 24 –
+December 3, 2026; decisions January 20, 2027). New in 2027: a mandatory AI Use Statement
+(desk rejection without it), an AI factual-correctness review of every submission,
+submission quotas (12 per author, 3 for authors without a prior ICLR/ICML/NeurIPS/AISTATS
+paper), authorship frozen at the abstract deadline, no separate supplement deadline,
+reciprocal reviewer nomination, and 5,000-character rebuttals with no external links.
 
 ## Skills
 
-- `aistats-submission` - audit OpenReview, page limits, anonymity, supplement, checklist,
-  dual submission, and reviewer-volunteer requirements.
+- `aistats-submission` - audit OpenReview, page limits, anonymity, AI Use Statement,
+  supplement, checklist, quotas, dual submission, and reviewer-nomination requirements.
 - `aistats-author-response` - draft concise, anonymous, text-only author-reviewer discussion
   replies without forbidden links or unsupported new claims.
 - `aistats-camera-ready` - prepare PMLR camera-ready files, de-anonymization, metadata,
@@ -39,6 +49,6 @@ publication conventions. See `resources/official-source-map.md` for the exact so
 ## Maintenance notes
 
 - Reopen current-cycle official sources before deadline-sensitive advice.
-- Treat AISTATS 2026 facts as historical anchors, not permanent rules.
-- Page limits, supplementary deadlines, discussion rules, PMLR forms, registration, and
-  presentation obligations can change by cycle.
+- The pack describes AISTATS 2027; AISTATS 2026 facts are kept only as labelled history.
+- Page limits, supplementary deadlines, AI-use rules, quotas, discussion rules, PMLR forms,
+  registration, and presentation obligations can change by cycle.

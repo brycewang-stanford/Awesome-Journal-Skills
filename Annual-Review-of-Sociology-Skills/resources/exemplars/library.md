@@ -32,4 +32,4 @@ Verify each against the official archive or DOI page before citing as a real ARS
 | A review that itself runs a meta-analysis/bibliometrics | Add a verified ARSoc review | 待核实 — confirm it deposits data/code |
 
 Shared reviewer-objection reference (background — to *appraise* the primary studies a review synthesizes):
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

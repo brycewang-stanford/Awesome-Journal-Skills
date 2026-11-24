@@ -1,0 +1,12 @@
+{
+ "paperX.tex": {
+  "fixture": "acl-nlp",
+  "state": "seeded",
+  "pack": "ACL-Skills"
+ },
+ "paperY.md": {
+  "fixture": "jf-corporate-did",
+  "state": "clean",
+  "pack": "Journal-of-Finance-Skills"
+ }
+}

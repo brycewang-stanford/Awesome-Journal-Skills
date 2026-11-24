@@ -9,7 +9,7 @@ artifact package before sysartifacts evaluation.
 
 | Resource | Use it to... |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Trace every 2026-cycle fact to an official USENIX/HotCRP source, see the 403/search-rendering access note, and read the explicit 待核实 list before giving deadline-sensitive advice. |
+| [`official-source-map.md`](official-source-map.md) | Trace every OSDI '27 fact (with OSDI '26 history) to an official USENIX/HotCRP source, see the access note (403 in July 2026, direct fetch on 2026-11-24), and read the explicit 待核实 list before giving deadline-sensitive advice. |
 | [`external_tools.md`](external_tools.md) | Open the live official surfaces (USENIX pages, HotCRP, sysartifacts, dblp) and run the five author-side verification passes. |
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against five verified OSDI papers spanning 2004–2022, and avoid the OSDI/SOSP/NSDI/ATC misattribution traps. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | See a before → after rewrite of a fictional storage-system abstract and introduction into the OSDI design-narrative arc. |

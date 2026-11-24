@@ -1,9 +1,9 @@
 # AEJ: Macro Pre-Submission Self-Check (8 sections)
 
 A last-pass checklist for an *American Economic Journal: Macroeconomics* (AEJ: Macro)
-manuscript before submitting via the AEA submission system. Verify volatile
+manuscript before submitting via the AEA ScholarOne system. Verify volatile
 specifics (fees, page charge, editors, length guidance, policy dates) on the
-official AEA pages — they change (检索于 2026-06；以官网为准).
+official AEA pages — they change (检索于 2026-11-24；以官网为准).
 
 ## 1. Venue fit & contribution
 - [ ] Broad-interest macro question with a headline quantity (units), not a field-specialist paper
@@ -16,9 +16,10 @@ official AEA pages — they change (检索于 2026-06；以官网为准).
 - [ ] AI is not listed as an author; paper is original and not under review elsewhere
 
 ## 3. Format
-- [ ] Single PDF; first page has title, byline, and complete affiliations
+- [ ] Anonymized PDF (under 10 MB): title + abstract on page 1; no names, affiliations, or acknowledgement footnote; self-citations by name, never "my/our"; no identifying sites, IRB approvals, or personal links
+- [ ] Separate "title page" PDF: authors, affiliations, contact information, acknowledgement footnote
 - [ ] Abstract ≤100 words
-- [ ] JEL codes and keywords included
+- [ ] JEL codes and keywords included (customary)
 - [ ] Within length guidance (~40pp at 11pt / ~45pp at 12pt, 1.5 spacing, incl. figures/tables/refs/appendices); overflow moved to an online appendix
 
 ## 4. Exhibits (AEA house + macro conventions)
@@ -26,6 +27,7 @@ official AEA pages — they change (检索于 2026-06；以官网为准).
 - [ ] Sign-restricted responses shown as a set / median-target, not a fake point
 - [ ] Model-fit figure (data vs. model; targeted + untargeted moments) present for quantitative papers
 - [ ] Tables report the macro quantity with its SE/band; notes give sample/estimator/inference
+- [ ] No significance asterisks; standard errors in parentheses; tables at most 9 columns (AEA style guide)
 
 ## 5. Identification & robustness
 - [ ] Identifying assumption (ordering / sign set / exogeneity / GE mapping) defended, not defaulted
@@ -33,7 +35,7 @@ official AEA pages — they change (检索于 2026-06；以官网为准).
 - [ ] Where the result weakens is stated honestly
 
 ## 6. Disclosure (AEA policy)
-- [ ] Separate disclosure statement from each coauthor
+- [ ] Separate disclosure statement PDF from each coauthor (submissions without them are not reviewed)
 - [ ] US$10,000 interested-party threshold checked; all funding, in-kind support, and relevant positions disclosed
 
 ## 7. Data, code & reproducibility (AEA Data Editor checks before publication)
@@ -44,6 +46,6 @@ official AEA pages — they change (检索于 2026-06；以官网为准).
 - [ ] Field experiments registered in the AEA RCT Registry
 
 ## 8. Final posting & review expectations
-- [ ] Online appendix file ready to upload
-- [ ] Understood: single-blind review (author known to referee); editor/coeditor-managed; desk rejection possible
+- [ ] Online appendix file ready to upload (anonymized)
+- [ ] Understood: author-anonymized submission under the AEA RCT (some papers still reviewed single-blind); editor/coeditor-managed; desk rejection possible
 - [ ] Publication fee (US$15/typeset page at proofs) noted for budgeting

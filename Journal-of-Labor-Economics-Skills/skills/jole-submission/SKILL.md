@@ -21,6 +21,9 @@ description: Use when running the final pre-submission preflight for the Journal
 - JOLE does **not normally publish articles exceeding 20,000 words**, counting a **full-page table or figure as 500 words** toward that total.
 - References use **University of Chicago Press author-date (Chicago)** style; in-text citations are ordered **chronologically, then alphabetically within the same year** (a, b disambiguation), with **"et al." for three or more authors**. LaTeX is accepted (`.bib`/`.bst` rules; Biblatex/Biber supported with a required directive line).
 - Text and figures are preferred as **separate files** (or a single combined file). Operates under UChicago Press / **COPE** ethics guidelines.
+- **LLM disclosure (manuscripts submitted after October 1, 2024):** if an LLM was used to write or substantially rewrite the manuscript, say so in the **acknowledgment footnote** and give details in the **online appendix**; other substantial uses (e.g., generating hypotheses or data) must be **cited in the text**, with the exact prompts in the text or, if numerous, in the online appendix. Grammar/typo fixes and routine code generation need no disclosure.
+- **Prior Review Process:** a paper reviewed previously at one or more Top-5 journals (Econometrica, AER, QJE, JPE, REStud) **and no other journals** can request expedited review by uploading all prior correspondence (referee reports and decision letters) — see the official prior-review page.
+- Authors must attach a statement disclosing any **direct funding** that contributed to the research (published with the article if accepted) and declare any conflicts of interest.
 - The direct Editorial Manager shell can display portal-status banners; enter through the live official instructions route and follow the prompts shown in that session.
 
 ## Preflight checklist
@@ -52,7 +55,9 @@ description: Use when running the final pre-submission preflight for the Journal
 ### Declarations & fee
 
 - [ ] **Submission fee ready** ($100 SOLE / $175 non-member) — decision is withheld until paid
-- [ ] Conflict-of-interest / disclosure consistent with AEA Disclosure Policy
+- [ ] Conflict-of-interest / disclosure consistent with AEA Disclosure Policy; **direct-funding statement** attached
+- [ ] **LLM use** disclosed per the post-October-2024 policy (acknowledgment footnote + online appendix; in-text citation and prompts for substantive uses), or none to disclose
+- [ ] If eligible and wanted: **Prior Review Process** requested in the cover letter with all Top-5 correspondence in one PDF
 - [ ] **Editor notified at submission if data are proprietary** or replication cannot be met
 - [ ] Confirmed the paper is not under review elsewhere; human-subjects/confidential-data handling noted
 
@@ -61,6 +66,28 @@ description: Use when running the final pre-submission preflight for the Journal
 - [ ] 100-word abstract states the finding with a number (see jole-writing-style)
 - [ ] Identification diagnostics complete (see jole-identification-strategy, jole-data-analysis)
 - [ ] No over-claiming beyond what the labor design supports
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jole-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

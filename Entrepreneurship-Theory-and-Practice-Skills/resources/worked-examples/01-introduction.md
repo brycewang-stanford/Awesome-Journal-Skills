@@ -20,4 +20,4 @@ This is a fictional example. It does not describe a real paper.
 
 - [`../../skills/etp-topic-selection/SKILL.md`](../../skills/etp-topic-selection/SKILL.md)
 - [`../../skills/etp-writing-style/SKILL.md`](../../skills/etp-writing-style/SKILL.md)
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)

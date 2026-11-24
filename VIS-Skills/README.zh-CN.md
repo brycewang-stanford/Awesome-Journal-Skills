@@ -8,11 +8,11 @@
 带有**条件接收（conditional accept）第二轮**的**两阶段评审**；并完成 TVCG 终稿与图形可复现性印章
 （Graphics Replicability Stamp）。
 
-**核查日期 2026-07-09**：依据 IEEE VIS 2026 完整论文征稿、投稿格式指南、评审说明、领域模型（Area Model）
-与开放实践页面；VIS 2026 评审流程变更博客；IEEE VGTC/TVCG 模板；以及图形可复现性印章计划。核查环境中直接
-访问 `ieeevis.org`、`ieeexplore.ieee.org`、`precisionconference.com` 均返回 403，因此官方页面通过精确
-URL 的搜索引擎快照阅读，并与官方 `@ieeevis` 公告、IEEE Xplore/TVCG、IEEE VIS 维基条目和 dblp 交叉核对；
-完整追溯（含所有仍标注 **待核实** 的条目）见
+**2026-11-24 复核**：IEEE VIS 2026 完整论文征稿、投稿格式指南、评审说明、领域模型（Area Model）、短论文与
+开放实践页面，以及 VIS 2026 欢迎页与 OPC 博客，均已在 ieeevis.org 上直接重读（7 月构建环境中这些页面返回
+403，当时经搜索引擎快照阅读）；另以 IEEE VGTC/TVCG 模板与图形可复现性印章计划为依据。IEEE VIS 2026（波士顿，
+2026 年 11 月 9–13 日）已举行；**IEEE VIS 2027** 已公布在芝加哥举办，但征稿尚未发布，故仍以 2026 规则为最新
+已发布版本。完整追溯（含所有仍标注 **待核实** 的条目）见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 > 范围混淆提醒：IEEE VIS **不是** IEEE VR，也**不是** ISMAR——它们是同属 PCS/VGTC 的姊妹会议但各自征稿。
@@ -49,7 +49,7 @@ URL 的搜索引擎快照阅读，并与官方 `@ieeevis` 公告、IEEE Xplore/T
 | [`vis-reproducibility`](skills/vis-reproducibility/SKILL.md) | 构建开放实践叙事：诚实的开放材料声明、研究预注册、来源追溯、可运行归档。 |
 | [`vis-supplementary`](skills/vis-supplementary/SKILL.md) | 按“决定性证据”原则在受评的 9 页正文与补充材料（含一等公民地位的视频）之间划分内容。 |
 | [`vis-submission`](skills/vis-submission/SKILL.md) | PCS 终审：摘要—论文两段截止、VGTC 模板与 9+2 预算、可选双盲排查、开放材料、拒稿风险分诊。 |
-| [`vis-review-process`](skills/vis-review-process/SKILL.md) | 建模评审流程——六领域分派、主审/副审/外审/学生审、两阶段条件接收第二轮——并指出作者可发力之处。 |
+| [`vis-review-process`](skills/vis-review-process/SKILL.md) | 建模评审流程——六领域分派、主审/副审/外审/junior 审稿人、两阶段条件接收第二轮——并指出作者可发力之处。 |
 | [`vis-author-response`](skills/vis-author-response/SKILL.md) | 撰写两轮回应：首轮沟通，以及条件接收的“修改摘要”，将每项必需修改映射到具体改动。 |
 | [`vis-artifact-evaluation`](skills/vis-artifact-evaluation/SKILL.md) | 通过独立志愿者复现，将已接收论文的材料包转化为图形可复现性印章，并完成开放实践披露。 |
 | [`vis-camera-ready`](skills/vis-camera-ready/SKILL.md) | 去匿名、补全 TVCG 期刊元数据、将开放材料链接永久化、通过 IEEE 制作核查。 |
@@ -58,7 +58,7 @@ URL 的搜索引擎快照阅读，并与官方 `@ieeevis` 公告、IEEE Xplore/T
 
 | 路径 | 内容 |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | 十一个来源（含 URL 与访问日期）、已核实的 2026 事实、访问方法说明、以及明确的 待核实 清单。 |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | 十五个来源（含 URL 与访问日期）、届次状态说明、已核实的 2026 事实、访问方法说明、明确的 待核实 清单以及机器可读规则块。 |
 | [`resources/external_tools.md`](resources/external_tools.md) | 官方页面与交叉核对来源（供网关阻断时使用），以及作者侧核查步骤。 |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | 五篇经存档核实、跨五种贡献类型的 IEEE VIS/TVCG 论文（含 Test-of-Time 获奖者）及自检问题。 |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | 一个虚构的“不确定性编码”研究的摘要与引言，按 VIS 结构改写的前后对照。 |
@@ -84,12 +84,13 @@ claude plugin install vis-skills
 
 ## 2026 周期锚定事实（历史快照，非永久规则）
 
-- IEEE VIS 2026 于 **美国马萨诸塞州波士顿**、**2026 年 11 月**举行（多方记为 11 月 9–13 日；确切日期跨度
-  待核实）。摘要截止 **2026-03-21**，完整论文 **2026-03-31**，补充材料 **2026-04-07**，首轮通知
-  **2026-07-15**（均为 23:59 AoE）。
+- IEEE VIS 2026 已于 **美国马萨诸塞州波士顿**、**2026 年 11 月 9–13 日**举行（官方欢迎页）。摘要截止
+  **2026-03-21**，完整论文 **2026-03-31**，补充材料 **2026-04-07**，首轮通知 **2026-06-06**，第二轮稿件
+  **2026-07-01**，最终通知 **2026-07-15**，终稿 **2026-08-08**（均为 23:59 AoE）。IEEE VIS 2027 已公布在
+  **美国伊利诺伊州芝加哥**举办，征稿尚未发布（2026-11-24 核查）。
 - 发表：**IEEE TVCG**，期刊一体化。投稿：**PCS**（VGTC 学会）。评审：**两阶段、作者可选双盲**，含
-  **条件接收第二轮**。评审人：**主审 + 副审 + 外审**（2026 新增可选学生审）。模板：**IEEE VGTC/TVCG**，
-  **9+2** 页。
+  **条件接收第二轮**。评审人：**主审 + 副审 + 一名外审**（主审可另邀一名可选的 **junior** 审稿人）。
+  模板：**IEEE VGTC/TVCG**，**9+2** 页。短论文：**4+1** 页，VGTC 会议格式，收录于 IEEE Xplore 会议论文集（非 TVCG）。
 
 ## 事实纪律
 
@@ -97,9 +98,8 @@ claude plugin install vis-skills
 
 1. **已核实的 2026 事实**——附带日期/预算并可追溯到来源表中的编号来源（如 TVCG 发表、9+2 预算、两阶段评审、
    六领域模型）。
-2. **转述事实**——仅通过二手快照读到并如实标注（如确切会议日期跨度、完整领域主席名单）。
-3. **核查时不可确证项**——明确标注 **待核实**（如 VIS 2026 确切日期跨度、短论文篇幅与周期、任何生成式 AI
-   披露政策）。
+2. **转述事实**——仅通过二手快照读到并如实标注（如完整领域主席名单）。
+3. **核查时不可确证项**——明确标注 **待核实**（如 IEEE VIS 2027 的日期、篇幅与 AI 使用指南，均尚未发布）。
 
 若任何陈述以第 1 类口吻呈现第 2/3 类内容，视为缺陷，应对照官方页面修正。
 

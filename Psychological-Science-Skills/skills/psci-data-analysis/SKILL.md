@@ -81,7 +81,7 @@ after preregistration in Study 2; the sensitivity line pre-empts the "fragile-to
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Psychological Science is short-format experimental psychology with strong open-science norms; preregister, run randomization inference, and report effect sizes with family-wise corrections.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Psychological Science is short-format experimental psychology with strong open-science norms; preregister, run randomization inference, and report effect sizes with family-wise corrections.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

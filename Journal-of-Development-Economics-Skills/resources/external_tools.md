@@ -92,7 +92,7 @@ deposited to Mendeley Data. Check licenses and current access terms before use.
 | Item | Note |
 |------|------|
 | Submission portal | Editorial Manager (Elsevier) — confirm current URL in the Guide for Authors |
-| Submission fee | None for standard subscription publication; optional open-access APC applies only after acceptance (verify current figure) |
+| Submission fee | USD 50 non-refundable for original manuscripts (USD 25 students; waived for low- and middle-income economies); optional open-access APC (USD 4,400 as captured 2026-10-17) applies only after acceptance (verify current figure) |
 | Review model | Single anonymized (referees know author identity; author does not know referees) |
 | Pre-results review | Permanent Registered Reports track (Stage 1 proposal → in-principle acceptance → Stage 2), run with BITSS |
 | Short-paper track | AER: Insights-style limited-revision track (≤6,000 words, ≤5 exhibits, ≤20-page appendix) |

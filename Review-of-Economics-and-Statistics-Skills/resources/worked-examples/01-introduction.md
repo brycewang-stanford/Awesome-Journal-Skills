@@ -127,4 +127,4 @@ Mapped to this pack's skill checklists:
 > building the analysis so it clears the Harvard Dataverse data/code deposit, and
 > [`../code/`](../code/) for a runnable empirical command chain. For the venue-neutral referee objections a
 > staggered-DID claim must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

@@ -129,4 +129,4 @@ Mapped to the pack's skill checklists:
 > papers** whose introductions execute this arc across methods, and [`../code/`](../code/) for the
 > multilevel / cross-level estimation skeleton referenced above. Method craft that is venue-neutral lives
 > in the shared hub, e.g.
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

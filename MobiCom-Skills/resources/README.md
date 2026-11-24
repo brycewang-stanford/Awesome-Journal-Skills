@@ -9,7 +9,7 @@ networking submission.
 
 | Resource | Use it to... |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Trace every venue fact in the pack to a dated official URL, read the access-method note (sigmobile.org, hotcrp.com, and dblp.org all 403'd direct fetches), and see the explicit 待核实 list. |
+| [`official-source-map.md`](official-source-map.md) | Trace every venue fact in the pack to a dated official URL, read the access-method note (sigmobile.org, hotcrp.com, and dblp.org all 403'd direct fetches in July 2026; the first two were re-read directly on 2026-11-24), and see the explicit 待核实 list. |
 | [`external_tools.md`](external_tools.md) | Open the live MobiCom surfaces (CFP, HotCRP `/deadlines`, artifact call) and run the five author-side verification passes. |
 | [`exemplars/library.md`](exemplars/library.md) | Position against five venue-verified MobiCom papers (2000-2013) and dodge the RADAR/XORs/WiSee-demo misattribution traps across INFOCOM, SIGCOMM, and NSDI. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Watch a fictional backscatter-link paper's abstract and introduction get rebuilt into the MobiCom measured-evidence arc. |

@@ -3,8 +3,10 @@
 A structural template for a *Review of Financial Studies* submission (OUP for the SFS; SFS
 Editorial Express portal; double-blind). RFS norms: abstract **≤ 100 words**, **Chicago
 Manual of Style author-date** references, double-spaced (≤ 28 lines/page, font ≥ 11), fee
-$260 member / $320 non-member (confirm on sfs.org/submission-fees). RFS requires **public
-release of all code** as a condition of publication, and offers two routes JF/JFE do not:
+(high-income) $400 member / $460 non-member, middle-income $260 / $320 (confirm on
+sfs.org/review-of-financial-studies/submit-a-paper). RFS requires **public release of all
+code** — and, under the Code and Data Sharing Policy, a verified data-and-code package — as a
+condition of publication, and offers two routes JF/JFE do not:
 **Registered Reports** (Stage 1 design review) and **SFS Cavalcade dual submission**. This is
 a structure guide, not a style manual.
 
@@ -68,7 +70,7 @@ a structure guide, not a style manual.
 - Every in-text citation appears here and vice versa.
 - Cite recent RFS/JF/JFE work and canonical theory; use **Chicago Manual of Style author-date** references.
 
-## Internet Appendix (separate file)
+## Internet Appendix (at the end of the manuscript PDF — not a separate upload; no author names)
 - IA.A Proofs / full derivations
 - IA.B Data construction and variable definitions
 - IA.C Full robustness battery (cross-referenced from the main text by IA number)

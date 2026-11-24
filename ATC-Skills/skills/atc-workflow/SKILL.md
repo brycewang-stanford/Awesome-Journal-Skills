@@ -1,90 +1,94 @@
 ---
 name: atc-workflow
-description: Use when planning an ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) campaign end to end — running the year backward from the early-June deadline through the two review rounds, the rebuttal, conditional-acceptance shepherding, the post-acceptance artifact evaluation, and the ACM Open Access camera-ready for the November Hong Kong conference.
+description: Use when planning an ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) campaign end to end — running the year backward from the 19 January 2027 deadline through the two review rounds, the 72-hour author response, conditional-acceptance shepherding, the post-acceptance artifact evaluation, and the ACM Open Access camera-ready for the June–July 2027 Rennes conference.
 ---
 
 # ATC Workflow
 
-Plan the campaign backward from the deadline. ATC 2026 — the first **ACM SIGOPS** edition of the
-former **USENIX ATC** — runs on a calendar and a review structure that both changed in the
-transition: an **early-June 2026** submission deadline (AoE; 1 vs. 10 June unresolved across
-renderings — 待核实), a **two-round, extended-abstract** review, **conditional acceptance with
-shepherding**, a separate **artifact-evaluation** track, and the conference in **Hong Kong, 15-18
-November 2026**. Reopen the SIGOPS call for the exact dates before committing to any of the offsets
-below.
+Plan the campaign backward from the deadline. ATC — the **ACM SIGOPS** continuation of the retired
+**USENIX ATC** — has changed its calendar twice in two years: ATC 2026 took papers on **10 June
+2026** for a **November** meeting in Hong Kong, and **ATC 2027** takes them on **19 January 2027
+(AoE, no extensions)** for **28 June – 1 July 2027 in Rennes, France**. The 2027 cycle (call
+re-verified 2026-11-24) has **two review rounds** (the first reads the first two pages), a
+**72-hour author response**, **conditional acceptance with shepherding**, a separate
+**artifact-evaluation** track, and a **two-submissions-per-author** cap. Reopen the SIGOPS call
+before committing to any of the offsets below.
 
-## The arc (backward from the deadline)
+## The arc (ATC 2027)
 
 ```text
-[T-0    Submission]      paired upload: 2-page extended abstract + full paper on atc26.hotcrp.com
-[Round one]             two reviewers judge each extended abstract; below-bar papers cut early
-[Round two]             3-4 reviewers read the full paper of survivors
-[Rebuttal]              ~1 page: correct factual misreadings; note prior-submission changes if any
-[Decision]              conditional accept / reject
+[19 Jan 2027, AoE]      submission on atc27.hotcrp.com (no extensions; author list frozen)
+[Round one]             first two pages read; out-of-scope / unmotivated / unclear / incremental /
+                        poorly positioned / weakly evaluated papers cut
+[Round two]             additional reviews for papers that advance
+[3-5 Apr 2027]          72-hour author response: factual corrections and answers only
+[27 Apr 2027]           notification: conditional accept / reject
 [Shepherding]           a PC shepherd signs off required revisions before final acceptance
-[Artifact evaluation]   separate post-acceptance AEC track -> Available / Functional / Reproduced
-[Camera-ready]          de-anonymize, satisfy shepherd, ACM Open Access metadata + production checks
-[Nov 15-18]             present at the Hong Kong conference; talk video/slides per the venue norm
+[Artifact evaluation]   separate post-acceptance AEC track (2027 call not yet published)
+[28 May 2027]           camera-ready: de-anonymize, satisfy shepherd, ACM Open Access metadata
+[28 Jun - 1 Jul 2027]   Rennes: oral and/or poster presentation; one author must attend
 ```
 
-## Backward plan from the June deadline
+## Backward plan from the January deadline
 
-- **T-10 to T-8 weeks:** lock the system and freeze the experiments. On a systems paper the testbed
-  and measurements are the long pole; leave prose churn for later. Pin environments now
-  (`atc-reproducibility`) — provenance cannot be reconstructed at the deadline.
-- **T-6 weeks:** full-paper draft complete against `atc-writing-style`; baselines and honest costs
-  in place per `atc-experiments`.
-- **T-3 weeks:** write and stress-test the **two-page extended abstract** — the round-one decision
-  surface. Have someone read *only* the abstract and tell you the problem, contribution, testbed,
-  and result. If they cannot, fix it.
-- **T-2 weeks:** build the anonymized, runnable artifact and the claim-to-experiment map.
-- **T-1 week:** double-blind sweep on the final PDF, abstract, and artifact; fill HotCRP fields and
-  conflicts; confirm the exact AoE deadline day.
-- **T-0:** upload both the extended abstract and the paper; re-download and read cold.
+- **T-10 to T-8 weeks (mid-November):** lock the system and freeze the experiments. On a systems
+  paper the testbed and measurements are the long pole, and the December holidays eat two of the
+  remaining weeks. Pin environments now (`atc-reproducibility`).
+- **T-6 weeks:** full-paper draft complete against `atc-writing-style`; baselines and honest costs in
+  place per `atc-experiments`; settle which **two** ATC submissions each author is on.
+- **T-3 weeks:** stress-test the **first two pages** — the round-one decision surface. Have someone
+  read *only* pages 1-2 and tell you the problem, idea, delta over prior work, positioning, and
+  evidence. If they cannot, fix the opening.
+- **T-2 weeks:** fit the 12/6-page budget **including any appendix**; build the anonymized,
+  runnable artifact and the claim-to-experiment map.
+- **T-1 week:** double-blind sweep on the final PDF and artifact; fill HotCRP fields, conflicts, and
+  any resubmission change summary.
+- **T-0:** upload; re-download and read cold.
 
 ## Between submission and decision
 
-- **Round one is silent from your side** — there is no action between upload and the round-one cut;
-  the abstract is your entire round-one argument. Do not start major new experiments hoping to swap
-  in a stronger paper mid-cycle.
-- **If you advance to round two,** prepare for the rebuttal: keep a running list of the measurements
-  and clarifications a skeptical reviewer would ask for, so the ~1-page window is spent well
-  (`atc-author-response`).
+- **Round one is silent from your side** — the first two pages are your entire round-one argument.
+- **Prepare the response before 3 April:** keep a running list of the clarifications a skeptical
+  reviewer would ask for, each pointing to evidence already in the paper, so the 72-hour window is
+  spent editing rather than drafting (`atc-author-response`). New experiments are not allowed in it.
+- Meanwhile, start the artifact package — the post-acceptance AE deadline will be short.
 
-## After a conditional accept
+## After a conditional accept (27 April 2027)
 
 - Treat the **shepherd's required revisions as binding**. Make each change or explicitly justify
   declining it; the shepherd holds final acceptance until satisfied.
-- Start the **artifact-evaluation** package immediately: the AEC track has its **own post-acceptance
-  deadline**, independent of the camera-ready (`atc-artifact-evaluation`). De-anonymize and archive
-  the artifact in a DOI-issuing repository for the Available badge.
-- Prepare the **camera-ready**: de-anonymize the paper, fold in the shepherd's changes, and complete
-  **ACM Open Access** metadata (`atc-camera-ready`). Budget for the transition **APC**
-  (subsidized for 2026; exact figure per the ACM/SIGOPS terms).
+- Submit the **artifact** on the AEC's own schedule (`atc-artifact-evaluation`); archive it in a
+  DOI-issuing repository for the Available badge.
+- Prepare the **camera-ready** for **28 May 2027**: de-anonymize, fold in the shepherd's changes,
+  complete **ACM Open Access** metadata, and settle any APC (authors outside ACM Open institutions;
+  the ATC call quotes no rate) (`atc-camera-ready`).
+- Plan travel to Rennes early: one author must attend, whether the paper gets an oral slot or a
+  poster.
 
 ## Calendar reconnaissance
 
 ```text
-[Deadline]     confirm the exact early-June AoE day on the SIGOPS call (1 vs 10 June — 待核实)
-[Conference]   Hong Kong (Hyatt, Shatin), Nov 15-18, 2026 — plan travel/visa early for HK
-[Rotation]     under SIGOPS, ATC rotates Asia/Europe/North America; next-year location differs
-[Artifact]     find the AEC submission date on the call for artifacts (separate from camera-ready)
-[Backup]       if rejected, line up OSDI/NSDI/EuroSys/FAST dates via atc-topic-selection
+[Deadline]     19 January 2027, AoE — confirm the HotCRP /deadlines clock once it is populated
+[Conference]   Rennes, Le Couvent des Jacobins, 28 June - 1 July 2027
+[Artifact]     find the AEC dates on the 2027 call for artifacts (待核实 — not yet published)
+[Backup]       if rejected (27 April), line up OSDI/NSDI/EuroSys/FAST dates via atc-topic-selection
+[History]      ATC 2026: 10 June 2026 deadline, Hong Kong 15-18 November 2026
 ```
 
 ## Reverify each cycle
 
-- The exact deadline day, notification/rebuttal dates, and camera-ready date.
-- Whether the two-round extended-abstract model and the reviewer counts persist.
-- Artifact-evaluation timing and the badge set; the Deployed Systems lane (**待核实**).
-- ACM Open Access / APC terms; template file (USENIX vs. ACM) (**待核实**).
+- The deadline, response window, notification, and camera-ready dates (ATC has moved its calendar
+  every year since the SIGOPS handover).
+- Whether round one still reads two pages, whether appendices still count, and the author cap.
+- Artifact-evaluation timing and the badge set (**待核实** for 2027).
+- ACM Open Access / APC terms and waivers.
 
 ## Output format
 
 ```text
-[ATC workflow stage] planning / drafting / abstract-hardening / submitted / round two / rebuttal / shepherding / artifact / camera-ready
-[Critical path] the long-pole task (usually testbed + measurements, then the extended abstract)
-[Deadline set] submission (early June AoE), rebuttal, shepherd sign-off, artifact, camera-ready
+[ATC workflow stage] planning / drafting / opening-hardening / submitted / round two / author response / shepherding / artifact / camera-ready
+[Critical path] the long-pole task (usually testbed + measurements, then the first two pages)
+[Deadline set] submission (19 Jan 2027 AoE), response (3-5 Apr), notification (27 Apr), camera-ready (28 May)
 [Next action] the single most schedule-critical step, with a date
-[Risk] the item most likely to slip (provenance pinning / abstract self-containment / shepherd changes)
+[Risk] the item most likely to slip (provenance pinning / opening self-containment / author cap / shepherd changes)
 ```

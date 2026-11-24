@@ -53,7 +53,7 @@ current JAR/Chookaszian Center and Wiley policies before using any resource.
 - Event-study returns: market-model / Fama-French abnormal returns; calendar-time portfolios for long-window tests.
 
 ### Experimental and analytical work
-- Experiments: `pwr`/`simr` (R) or G*Power for power; pre-registration via the JAR **Registered Reports** track (Stage 1 protocol) rather than only OSF/AsPredicted.
+- Experiments: `pwr`/`simr` (R) or G*Power for power; pre-registration via the JAR **Registered Reports** track (Stage 1 protocol) rather than only OSF/AsPredicted. Note that JAR's 2026 pre-registration policy makes pre-registration before data collection **mandatory** for studies generating their own data whose collection starts after January 1, 2027 (strongly encouraged after July 1, 2026).
 - Analytical/modeling: Mathematica or symbolic math for closed-form models that motivate empirical predictions.
 
 ## 3. Reference & Writing Tools

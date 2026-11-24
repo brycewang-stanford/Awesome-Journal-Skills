@@ -25,9 +25,9 @@ description: Use when running the final pre-submission preflight for an Academy 
 
 ### Format (verify exact current requirements on the AOM author page)
 - [ ] Manuscript is a Word file using Times New Roman 12-point body text, double spacing, 1-inch margins, and no page numbers or running heads
-- [ ] Title page separate from the manuscript body (for anonymous review)
+- [ ] Title page and all author-identifying references removed from the Word file (AOM adds a title page only after acceptance)
 - [ ] Abstract present and no more than 200 words
-- [ ] Within the journal's overall length expectation (verify; AMR articles are full-length)
+- [ ] Within AMR's length guide (as of 2026-11-23: initial submissions "should not be more than 30 double-spaced pages, excluding references, tables, and figures"; contribution-to-length ratio is assessed, shorter papers welcome)
 - [ ] Figures meet AOM resolution/format specs; each is a conceptual model/typology, not a data plot
 - [ ] Propositions numbered consistently and matched to the figure
 
@@ -48,12 +48,14 @@ description: Use when running the final pre-submission preflight for an Academy 
 ### Ethics & originality (AOM Code of Ethics)
 - [ ] Manuscript is original, unpublished, and not under review elsewhere
 - [ ] Authorship reflects genuine intellectual contribution; order agreed by all authors
-- [ ] Any prior conference/working-paper version is disclosed as required
+- [ ] Any prior conference/working-paper version is disclosed as required; any previously submitted AMR paper on the same topic is declared, with similarities/differences specified (AMR papers can be submitted only once)
+- [ ] Posted working-paper/draft versions taken down for the review period
 - [ ] Similarity check run (institutional tool); overlap acceptable and self-overlap disclosed
 
 ### Portal files (ScholarOne)
 - [ ] Anonymized main manuscript (body + figures + references), required format
-- [ ] Separate title page with author info and corresponding author
+- [ ] Author info entered in the ScholarOne author fields; acknowledgments placed in the cover letter (web-based submission)
+- [ ] Any AI use disclosed in the cover letter and acknowledgements per the AOM AI policy
 - [ ] Cover note / response to editor if requested
 - [ ] Any author-agreement or conflict-of-interest forms the system requires
 
@@ -74,6 +76,28 @@ description: Use when running the final pre-submission preflight for an Academy 
 - Choose the correct submission/article type (theoretical/conceptual article).
 - **Submission fee**: none — the Academy of Management does not charge submission fees. New users establish a ScholarOne account with name, affiliation, address details, and keywords before using the Author Center; check any portal-stage prompts at submission time.
 - Keep within the file-size and file-type limits the portal states.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue amr-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

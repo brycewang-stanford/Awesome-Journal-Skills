@@ -52,7 +52,7 @@ A multilevel paper claims a cross-level moderation: team climate strengthens the
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Journal of Management covers empirical management broadly (including meta-analysis); the chain below serves primary causal / panel work.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Journal of Management covers empirical management broadly (including meta-analysis); the chain below serves primary causal / panel work.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.
@@ -87,7 +87,7 @@ JOM's masked review and its data transparency table mean the analysis must be *d
 - **Mediation by two significant paths** or a bare Sobel test, no bootstrap CI
 - **Unprobed interactions** — a significant product term with no simple slopes or plot
 - **OLS on nested data**, ignoring non-independence
-- **p-stars without effect sizes** — JOM wants the magnitude, not just the verdict
+- **p-stars at all** — JOM's quantitative reporting requirements ask for SEs, test statistics and exact p values (no stars or cutoff bands), and the magnitude, not just the verdict
 - **Meta-analysis with no artifact corrections, no credibility interval, no bias check**
 
 ## Output format

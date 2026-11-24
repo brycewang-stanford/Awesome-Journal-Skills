@@ -14,7 +14,7 @@ description: Use to understand and plan around the Quantitative Economics (QE) e
 
 ## How QE review works (source map refreshed 2026-06-20; re-confirm on ES pages)
 
-QE runs **editor/coeditor-managed external peer review**. The handling coeditor may **desk-reject without external review** (typically within a couple of weeks); most — but not all — papers that pass desk go to **one or more outside referees**, often including an Associate Editor. The journal targets completing the review process in **about four to five months**. QE is **not double-blind**, and authors must **post the manuscript publicly during review**, so author identity is effectively open on the author side. **Revise offers are normally valid for 12 months.** Wiley product metadata checked on 2026-06-20 lists **Bernard Salanié** as editor; reopen the current official board page before naming the full coeditor or associate-editor roster.
+QE runs **editor/coeditor-managed external peer review**. The handling coeditor may **desk-reject without external review** (typically within a couple of weeks); most — but not all — papers that pass desk go to **one or more outside referees**, often including an Associate Editor. The journal targets completing the review process in **about four to five months**. QE is **not double-blind**, and authors must **post the manuscript publicly during review**, so author identity is effectively open on the author side. **Revise offers are normally valid for 12 months.** The ES editorial-board page (checked 2026-11-24) lists **Bernard Salanié** as Editor (2025–2029) and Chao Fu, Anna Mikusheva, Fabrizio Perri and Mikkel Plagborg-Møller as Co-Editors; reopen it before naming the roster, which rotates.
 
 ## Gates between submission and acceptance
 

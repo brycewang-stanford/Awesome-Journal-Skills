@@ -95,7 +95,7 @@ Theory papers are evaluated on logical and formal soundness:
 
 | Resource | Use |
 |----------|-----|
-| Editorial Manager (Psychological Review portal) | Submission and masked review |
+| Editorial Manager (Psychological Review portal) | Submission and review (open by default, masked on request) |
 | APA Psychological Review author page | Scope, length, format, article types, ethics — the binding source |
 | APA Style (apastyle.apa.org) | In-text and reference formatting; manuscript structure |
 | APA Ethics Code | Authorship, originality, disclosure, conflict-of-interest rules |

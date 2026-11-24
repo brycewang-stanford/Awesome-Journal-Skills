@@ -6,7 +6,7 @@ description: Use when you need to understand how Developmental Psychology (APA) 
 # Review Process (devpsych-review-process)
 
 Developmental Psychology combines theory-advancing selectivity with rigorous developmental-method
-scrutiny. The journal offers **masked peer review**, and editors and reviewers weigh not only whether the
+scrutiny. The journal uses **masked review for all submissions**, and editors and reviewers weigh not only whether the
 finding is interesting, but whether the **developmental claim is credible** (age vs. cohort, measurement
 invariance, attrition), whether reporting meets **JARS**, and whether transparency meets **TOP**. Knowing
 this lets you pre-empt the common rejection reasons.
@@ -14,14 +14,16 @@ this lets you pre-empt the common rejection reasons.
 ## When to trigger
 
 - Before submitting, to stress-test the manuscript
-- Deciding whether to request masked review and how to anonymize
+- Anonymizing the manuscript and shared links for the journal's mandatory masked review
 - Interpreting a decision letter and setting expectations
 
 ## How review works
 
-1. **Masked (anonymized) review available.** Authors may request masked review; if so, keep author
-   identity out of the manuscript **and** out of shared links (see `devpsych-submission`). Masked review
-   is intended to reduce bias against (e.g.) early-career or under-represented authors.
+1. **Masked (anonymized) review for all submissions.** The APA guidelines (re-verified 2026-11-24) state
+   "This journal uses masked review for all submissions": keep author identity out of the manuscript
+   **and** out of shared links (grant numbers, IRB institution names, self-citations, repository and
+   preregistration links); names and affiliations go only in the submission letter (see
+   `devpsych-submission`).
 2. **Editorial triage.** The handling editor assesses developmental significance, theory advance, design
    rigor, and fit; weak-fit or "not-developmental" papers may be declined without full review.
 3. **External review** assesses the theoretical contribution, the credibility of the **change claim**

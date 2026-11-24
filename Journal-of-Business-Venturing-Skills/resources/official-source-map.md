@@ -1,19 +1,29 @@
 # JBV Official Source Map
 
 Canonical sources for every Journal of Business Venturing (JBV) claim made in this skill pack.
-Sources were checked on **2026-06-20**. Live-check the ScienceDirect journal home, Guide for
-Authors, editorial-board page, and open-access page before final submission because mastheads,
-metrics, APCs, and author instructions can change.
+Sources were checked on **2026-06-20**. APC, metrics, Co-Editors-in-Chief, review model, abstract,
+keyword, highlights and generative-AI rules **re-verified 2026-11-24**. Live-check the ScienceDirect
+journal home, Guide for Authors, editorial-board page, and open-access page before final submission
+because mastheads, metrics, APCs, and author instructions can change.
+
+Access-method note (2026-11-24): www.sciencedirect.com answers automated clients (`curl`, the fetch
+tool) with a captcha/HTTP 403. The journal home was read from **Internet Archive captures of
+2026-10-12 and 2026-10-20** (`web.archive.org/web/20261020092402/https://www.sciencedirect.com/journal/journal-of-business-venturing`),
+compared with the 2026-05-01 capture to date the change; the Guide for Authors, open-access and
+editorial-board pages were read via **search-engine rendering restricted to sciencedirect.com**.
+**Changed since 2026-06-20:** the APC shown on the journal home is now **USD 4,210** (was USD 4,280
+through the 2026-05-01 capture); CiteScore **15.4** (was 16.6) and Impact Factor **8.1** (was 8.9).
 
 ## Official Elsevier / ScienceDirect sources
 
 - **https://www.sciencedirect.com/journal/journal-of-business-venturing** — ScienceDirect journal home.
-  Confirms JBV's aims and scope; current CiteScore **16.6** and Impact Factor **8.9** displayed on the
-  page; Article Publishing Charge **USD 4,280 excluding taxes** for open access; subscription route
+  Confirms JBV's aims and scope; CiteScore **15.4** and Impact Factor **8.1** displayed on the page
+  (archived 2026-10-20; 16.6 / 8.9 until mid-2026); Article Publishing Charge **USD 4,210 excluding
+  taxes** for open access (USD 4,280 in the 2026-05-01 capture); subscription route
   lists no publication fee charged to authors; insight metrics including submission-to-first-decision,
   submission-to-review-decision, submission-to-acceptance, and acceptance-to-online-publication; current
-  Co-Editors-in-Chief **Sophie Bacq** and **Simon Parker**; Print ISSN **0883-9026** and Online ISSN
-  **1873-2003**.
+  Co-Editors-in-Chief **Sophie Bacq** (IMD, Lausanne) and **Simon Parker** (Western University) —
+  re-verified 2026-11-24; Print ISSN **0883-9026** and Online ISSN **1873-2003**.
 - **https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors** —
   Elsevier Guide for Authors. Confirms JBV's scope, article-quality criteria, double-anonymized peer
   review, minimum two reviewers for suitable submissions, competing-interest declarations, generative-AI
@@ -22,17 +32,23 @@ metrics, APCs, and author instructions can change.
   abstract, tables and figures as editable/separate files, research-data **Option C** requirements,
   Data in Brief / MethodsX co-submission flow, CRediT author-contribution requirement, appendix
   numbering conventions, flexible reference formatting at submission, numbered reference style after
-  acceptance, and submission checklist.
+  acceptance, and submission checklist. Re-verified 2026-11-24 (search-engine rendering): double-
+  anonymized review; abstract not exceeding **250 words**; **1 to 7 keywords**; highlights required at
+  submission (**3 to 5** bullets, maximum **85** characters each including spaces); generative-AI use in
+  manuscript preparation declared at submission in a section titled "Declaration of generative AI and
+  AI-assisted technologies in the manuscript preparation process"; CRediT roles.
 - **https://www.sciencedirect.com/journal/journal-of-business-venturing/about/editorial-board** —
   Editorial-board page. Confirms current editorial-board structure: **307 editors and editorial-board
-  members in 27 countries/regions**, current Co-Editors-in-Chief Sophie Bacq and Simon Parker, and Area
+  members in 27 countries/regions** (2026-06-20; the 2026-11-24 search rendering shows 307 members but
+  26 countries/regions — see 待核实), current Co-Editors-in-Chief Sophie Bacq and Simon Parker, and Area
   Editors organized by domains such as Digital, AI and Entrepreneurship; Economics of Entrepreneurship;
   Entrepreneurship in Family Firms; Finance and Entrepreneurship; Gender and Entrepreneurship; and
   additional topical areas.
 - **https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/open-access-options** —
   Open-access information. Confirms JBV offers open-access and subscription publication routes; the
-  open-access route requires an APC paid by author, institution, or funder; current APC is **USD 4,280
-  excluding taxes**; publication choice has no effect on peer review or acceptance; subscription route
+  open-access route requires an APC paid by author, institution, or funder; APC **USD 4,210 excluding
+  taxes** (search rendering 2026-11-24, matching the archived journal home; the Insights page rendering
+  still showed USD 4,280 — Elsevier personalizes the charge at submission); publication choice has no effect on peer review or acceptance; subscription route
   has no open-access publication fee; authors can self-archive the accepted manuscript subject to the
   journal's embargo terms.
 - **https://www.editorialmanager.com/jbvi/** — Editorial Manager entry point linked from ScienceDirect.
@@ -82,9 +98,9 @@ metrics, APCs, and author instructions can change.
 | CRediT author-contribution statement required for corresponding authors | Guide for Authors |
 | References can be in any consistent style at submission if complete | Guide for Authors |
 | Journal reference style after acceptance uses numbered references in square brackets | Guide for Authors |
-| OA APC is USD 4,280 excluding taxes; publication route does not affect peer review or acceptance | ScienceDirect journal home; open-access page |
+| OA APC is USD 4,210 excluding taxes (re-verified 2026-11-24; was USD 4,280); publication route does not affect peer review or acceptance | ScienceDirect journal home; open-access page |
 | Subscription route lists no publication fee charged to authors | ScienceDirect journal home; open-access page |
-| Current ScienceDirect metrics: CiteScore 16.6 and Impact Factor 8.9 | ScienceDirect journal home |
+| Current ScienceDirect metrics: CiteScore 15.4 and Impact Factor 8.1 (re-verified 2026-11-24) | ScienceDirect journal home |
 
 ## Live-check items before upload
 
@@ -94,3 +110,37 @@ metrics, APCs, and author instructions can change.
 - Reopen the open-access page before quoting APCs, embargo terms, or self-archiving details.
 - Do not state acceptance rates, desk-rejection rates, or fixed timeline guarantees unless the current
   ScienceDirect page or Elsevier dashboard provides the exact metric.
+
+## UNVERIFIED / 待核实 (as of 2026-11-24)
+
+- Editorial-board country count: 27 countries/regions on 2026-06-20 vs 26 in the 2026-11-24 search
+  rendering (307 members in both); the page itself could not be opened (captcha).
+- Guide-for-Authors items not surfaced by the 2026-11-24 search rendering and therefore carried from
+  the 2026-06-20 check: separate title page, research-data Option C, data availability statement,
+  graphical abstract (encouraged), competing-interest declaration, reference style.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Journal of Business Venturing",
+  "verified": "2026-11-24",
+  "rules": {
+    "abstract_words_max": {"value": 250, "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors"},
+    "keywords_required": {"value": true, "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors"},
+    "keywords_min": {"value": 1, "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors"},
+    "keywords_max": {"value": 7, "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors"},
+    "review_mode": {"value": "double-blind", "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors", "note": "double-anonymized; separate title page and anonymized manuscript"},
+    "required_statements": {"value": ["keywords"], "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors", "note": "competing-interest declaration, CRediT statement and data availability statement were confirmed on 2026-06-20 but not re-surfaced on 2026-11-24"},
+    "separate_upload_statements": {"value": ["highlights"], "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors", "note": "3 to 5 bullets, maximum 85 characters each including spaces, required at submission"},
+    "conditional_statements": {"value": ["ai_use_disclosure"], "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors", "note": "only if generative AI was used in manuscript preparation"},
+    "portal": {"value": "Editorial Manager (https://www.editorialmanager.com/jbvi/)", "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing"},
+    "apc": {"value": "USD 4,210 excluding taxes for optional gold OA (personalized at submission); none on the subscription route", "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing"},
+    "llm_policy": {"value": "declare generative-AI use in manuscript preparation at submission in a dedicated declaration section", "source": "https://www.sciencedirect.com/journal/journal-of-business-venturing/publish/guide-for-authors"},
+    "main_text_words_max": {"value": null, "note": "no main-text word limit stated on the official pages as of 2026-11-24"}
+  }
+}
+```

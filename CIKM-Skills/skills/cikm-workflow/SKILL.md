@@ -1,32 +1,35 @@
 ---
 name: cikm-workflow
-description: Use when planning a CIKM project calendar across the May abstract/paper gates, June short-track gates, August notification and camera-ready, and the November conference, including the post-submission phase now live in the 2026 cycle, multi-track coordination, and fallback planning toward CIKM 2027 or sibling venues.
+description: Use when planning a CIKM project calendar across the May abstract/paper gates, June short-track gates, August notification and camera-ready, and the November conference, including multi-track coordination and planning toward CIKM 2027 (Sydney) or sibling venues.
 ---
 
 # CIKM Workflow
 
 CIKM runs a spring-submission, autumn-meeting year. The verified 2026 shape (source
-map, 2026-07-08): full-paper abstract May 16 and paper May 23; short, resource, and
-demo abstracts May 30 and papers June 6; notification for the listed tracks August 7;
-camera-ready August 20; conference November 7-11 in Rome — every cutoff 11:59 PM AoE.
+map, re-verified 2026-11-24): full-paper and applied-research abstracts May 16 and
+papers May 23; short, resource, and demo abstracts May 30 and papers June 6;
+notification for all tracks August 7; camera-ready and author registration August 23;
+conference November 7-11 in Rome (main conference November 9-11) — every cutoff
+11:59 PM AoE.
 Replace these anchors with the current important-dates page before acting on any of
 them; CIKM re-issues its calendar annually under a new host committee.
 
-## Where the 2026 cycle stands now
+## Where the cycle stands now
 
-As of 2026-07-08 all CIKM 2026 submission gates have closed. A team holding a
-submission is in the review-wait phase; a team without one is planning CIKM 2027.
-That split defines two working modes:
+As of 2026-11-24 CIKM 2026 has met in Rome. CIKM 2027 is announced for Sydney,
+Australia (CIKM series page), with no dates or call yet. The two working modes below
+describe the 2026 shape and remain the template for 2027:
 
 **Mode A — paper under review (July → August 7).** Do the work whose absence hurts in
 August: keep the experimental environment runnable rather than dismantled, pre-draft
 the camera-ready fixes you already know about, prepare the public artifact that the
 anonymized submission could not name, and hold arXiv or publicity moves that conflict
-with what was declared on the EasyChair form. If a response mechanism materializes
-(unconfirmed for 2026 — 待核实), `cikm-author-response` takes over on short notice.
+with what was declared on the EasyChair form. The 2026 full-paper review schedule had
+no author-response step; if a later cycle adds one, `cikm-author-response` takes over
+on short notice.
 
-**Mode B — aiming at the next edition.** The May/November rhythm is a planning prior
-only until the 2027 site posts dates. Build backward from a provisional mid-May gate
+**Mode B — aiming at the next edition (CIKM 2027, Sydney).** The May/November rhythm
+is a planning prior only until the 2027 site posts dates. Build backward from a provisional mid-May gate
 and treat the abstract deadline as the real freeze: title, abstract, author list —
 authorship is frozen there under the ACM policy — and the track choice.
 
@@ -111,7 +114,7 @@ Mar-Apr   results + draft in ACM format; internal cross-lane read
 mid-May   abstract gate (freeze) → paper gate
 June      short/resource/demo gates
 Jul-early Aug   review wait = artifact + camera-ready prep (Mode A)
-Aug       notification (7th in 2026) → 13-day camera-ready sprint (20th)
+Aug       notification (7th in 2026) → 16-day camera-ready sprint (23rd)
 Sep-Oct   presentation prep, travel, demo hardening
 Nov       conference; post-conference: absorb feedback, plan the next cycle
 ```

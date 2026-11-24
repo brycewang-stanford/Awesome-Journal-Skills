@@ -18,10 +18,11 @@ Official basis checked on **2026-07-09**: the EACL 2027 call for papers
 (20th Conference, Athens, Greece, March 9-14, 2027), the ARR CFP and cycle
 calendar and Responsible NLP checklist at aclrollingreview.org, the ARR
 OpenReview groups, the ACL Anthology's EACL and Findings volumes, and the ACL
-Member Portal announcements. The verification gateway blocked direct fetches
-of `2027.eacl.org`, `aclrollingreview.org`, and `dblp.org`, so those pages
-were read through search-engine renderings of exact official URLs and
-cross-checked against the ACL Anthology and the ACL Member Portal. The full
+Member Portal announcements. At build time the verification gateway blocked
+direct fetches of `2027.eacl.org`, `aclrollingreview.org`, and `dblp.org`, so
+those pages were read through search-engine renderings of exact official URLs
+and cross-checked against the ACL Anthology and the ACL Member Portal; on
+2026-11-24 the EACL 2027 and ARR pages were re-read by direct fetch. The full
 source trail, access methods, and every item still marked 待核实 are in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 

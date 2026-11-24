@@ -25,6 +25,13 @@ full trail, including everything still marked 待核实, is in
 > template, and the PAIS co-located track — returns for the next standalone edition. Several skills
 > turn on knowing **which regime** the target edition is in.
 >
+> **Next edition (checked 2026-11-23):** **ECAI 2027** — the 30th ECAI, standalone, **Athens,
+> Greece, 2-7 October 2027**, with the 15th PAIS. Posted dates: full paper **14 April 2027**,
+> phase 1 notification **15 May 2027**, rebuttal **15-18 June 2027**, notification **15 July
+> 2027**. Its main-track call still reads "Coming soon", so page budget, template and publisher are
+> 待核实; until it appears, plan on the last standalone call (ECAI 2025: 7 pages + 1 reference
+> page, `ecai.cls`, abstract registration before the paper deadline).
+>
 > Name-collision warnings: **FAIA** here is IOS Press's *Frontiers in Artificial Intelligence and
 > Applications* book series, **not** the *Federated AI Meeting (FAIM)*; and **ECCAI** is the former
 > name of **EurAI** (renamed 2015).
@@ -143,7 +150,8 @@ ECAI-Skills/
   Informatics Society GI). Abstract **12 Jan 2026**, paper **19 Jan 2026** (AoE); summary-reject
   notification **4 Mar 2026**; author response **7-10 Apr 2026**; notification **29 Apr 2026**.
   Body **7 pages + 2 reference pages** (optional ethics statement); **`ijcai.sty`**; per-author cap
-  **8**; **IJCAI open-access proceedings**. The exact ECAI edition ordinal for 2026 is **待核实**.
+  **8**; USD 100 fee per non-primary submission; **IJCAI open-access proceedings**. EurAI counts it
+  as the **29th** ECAI (ECAI 2025 in Bologna was the 28th; ECAI 2027 in Athens is the 30th).
 - **Standing ECAI identity (standalone, e.g. ECAI 2024, 27th, Santiago de Compostela):** IOS Press
   **FAIA** (ECAI 2024 = Vol. 392), **`ecai.cls`**, **7 pages + 1 reference page**, abstract-then-
   paper two-deadline flow, and the co-located **PAIS** track (PAIS 2024 = 13th).
@@ -160,9 +168,9 @@ distinguishable:
    co-location).
 2. **Reported facts** — read only via secondary renderings and labeled as such (e.g. exact organizer
    rosters, acceptance figures given as context).
-3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g. the 2026 ECAI edition
-   ordinal, ECAI 2025 specifics, whether a joint-year applied track substitutes for PAIS,
-   supplement mechanics per edition).
+3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g. the ECAI 2027 page
+   budget, template and publisher while its call reads "Coming soon", whether a joint-year applied
+   track substitutes for PAIS, supplement mechanics per edition).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it
 against the live official pages.

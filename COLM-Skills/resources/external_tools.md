@@ -1,6 +1,6 @@
 # External Tools - COLM
 
-Access date: 2026-07-08
+Access date: 2026-07-08; URLs re-verified 2026-11-23 (COLM moved its site from `colmweb.org` to `colm.cc`).
 
 These are the live official surfaces for a COLM cycle plus the author-side passes to
 run against them. COLM rewrites parts of its policy every edition — it is three
@@ -8,20 +8,23 @@ editions old — so nothing here substitutes for reopening the current pages.
 
 ## Official surfaces
 
-- COLM 2026 home (venue, dates, program): https://colmweb.org/
-- Key dates: https://colmweb.org/dates.html
-- Call for Papers (scope, LLM-usage policy): https://colmweb.org/cfp.html
-- Submission instructions (format, page limit, anonymity): https://colmweb.org/submission-instructions.html
-- Author guide (Code of Ethics, process): https://colmweb.org/AuthorGuide.html
-- FAQ (reciprocal reviewing, edge cases): https://colmweb.org/faq.html
+- COLM home (venue, dates, program; `colmweb.org` now redirects here): https://colm.cc/
+- Key dates: https://colm.cc/Conferences/2026/Dates
+- Call for Papers (scope, format, page limit, anonymity, LLM-usage policy): https://colm.cc/Conferences/2026/CallForPapers
+- Submission instructions (deadlines, template, double submission): https://colm.cc/Conferences/2026/SubmissionInstructions
+- Author guide (Code of Ethics, supplementary material, process): https://colm.cc/Conferences/2026/AuthorGuide
+- FAQ (reciprocal reviewing, camera-ready extra page, attendance, preprints): https://colm.cc/FAQ
+- Organizers: https://colm.cc/Conferences/2026/Organizers
+- Proceedings (pre-proceedings per edition): https://proceedings.colm.cc/
 - OpenReview venue (submission through decision): https://openreview.net/group?id=colmweb.org/COLM/2026/Conference
-- Past editions and their accepted-paper lists: https://colmweb.org/2024/AcceptedPapers.html · https://colmweb.org/2025/AcceptedPapers.html
+- Past editions and their accepted-paper lists: https://colmweb.org/2024/AcceptedPapers.html · https://colmweb.org/2025/AcceptedPapers.html · https://colm.cc/Conferences/2026/AcceptedPapers
 - Announcements list: https://groups.google.com/g/colm-announcements
 - Program-chair contact: colm-pcs@googlegroups.com
 
-If `colmweb.org` is unreachable from your network (it was blocked by the gateway used
-to build this pack), read the pages through a search engine's rendering of the exact
-URL and cross-check against the OpenReview group before acting.
+If `colm.cc` is unreachable from your network (`colmweb.org` was blocked by the
+gateway used to build this pack in July 2026; `colm.cc` answered direct fetches on
+2026-11-23), read the pages through a search engine's rendering of the exact URL and
+cross-check against the OpenReview group before acting.
 
 ## Author-side verification passes
 
@@ -43,10 +46,12 @@ URL and cross-check against the OpenReview group before acting.
 
 ## Do not infer
 
-- Do not project the 2026 timeline onto 2027; COLM has already moved its dates,
+- Do not project the 2026 timeline onto 2027 (no 2027 call was published as of
+  2026-11-23); COLM has already moved its dates,
   venue continent, and policy details between its first three editions.
-- Do not assume a camera-ready page bonus, an artifact track, an acceptance-rate
-  figure, or a virtual-attendance option — none of these was verifiable for 2026.
+- Do not assume an artifact track or an acceptance-rate figure — neither was
+  verifiable for 2026. The 2026 FAQ does grant one extra camera-ready page and rules
+  out remote presentation (in-person only); re-check both for the next edition.
 - Do not treat COLM as sharing machinery with ACL/EMNLP (no ARR, no anonymity
   embargo found) or with PMLR venues (no PMLR volume; papers live on OpenReview).
   Check the current COLM pages instead of importing sibling-venue rules.

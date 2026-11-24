@@ -13,18 +13,28 @@ advice, because CCS rules and dates are set per cycle.
 
 - Confirm the target is the main CCS research track, not a workshop, poster, or the SIGSAC
   co-located events.
-- Register the abstract in HotCRP before the registration deadline. CCS requires a mandatory
-  title, author list, abstract, and topics one week before the full-paper deadline; no
-  abstract, no paper. In 2026 registration led the paper deadline by seven days each cycle.
+- Register the abstract in HotCRP before the registration deadline. CCS 2026 required the
+  definitive title, abstract, track, and a track justification (about 200 words) one week
+  before the full-paper deadline, none changeable afterwards; no abstract, no paper. The
+  author list freezes at the submission deadline, and every author must have an ORCID on
+  HotCRP by then.
+- Confirm the paper is not an SoK or survey: CCS 2026 did not accept them (route those to
+  IEEE S&P).
 - Apply the unaltered ACM `sigconf` two-column template. CCS 2026 set a 12-page main-text
   limit excluding the bibliography, well-marked appendices, and supplementary material.
   Whitespace and margin tampering is forbidden and is a desk-reject trigger.
 - Enforce anonymization: cite your own prior work in the third person, blind references only
   where third-person phrasing is infeasible, and strip identity from text, PDF metadata,
   system names, and repository links.
-- Place the ethics considerations content in a dedicated section (in 2026, an appendix after
-  the 12-page body and bibliography) whenever the work touches human subjects, user data, or
-  real-world vulnerabilities.
+- Add the mandatory "Open Science" appendix (2026) after the body and bibliography: list
+  every artifact needed to evaluate the contributions with its anonymous URL (also entered on
+  HotCRP; live within 3 days of submission), justify anything withheld, or state that there
+  is no artifact.
+- Place the ethics considerations content in a dedicated "Ethical Considerations" appendix
+  after the 12-page body and bibliography whenever the work touches human subjects, user
+  data, or real-world vulnerabilities.
+- Disclose generative-AI use per the ACM authorship policy: minor editing in the
+  Acknowledgements, substantive use in a "Generative AI Usage" section after the bibliography.
 - Respect the per-cycle submission cap (2026: at most 7 papers per author per cycle) and the
   one-cycle rule — a first-cycle reject cannot return the same year.
 - Confirm the work is not concurrently under review at another archival venue.
@@ -35,6 +45,8 @@ advice, because CCS rules and dates are set per cycle.
 - Overlength main text or an altered `sigconf` template.
 - Identity leak in the PDF, metadata, artifact link, or a non-blinded system name.
 - Missing ethics considerations section for work that plainly needs one.
+- Missing Open Science appendix, or an artifact URL that is empty after the artifact deadline.
+- Hallucinated citations or prompt-injection text (both desk-reject triggers in 2026).
 - Dual submission to another archival security venue.
 - A threat model too vague for reviewers to score the attacker.
 
@@ -46,6 +58,7 @@ advice, because CCS rules and dates are set per cycle.
 | Overlength 12-page body or template tampering | Desk reject | None after the deadline |
 | Identity leak in PDF or artifact link | Desk reject | None |
 | Ethics section missing for human-subjects/vuln work | Desk reject or major flag | Only before the deadline |
+| No Open Science appendix, or empty/changed artifact URL | Desk reject | None after the artifact deadline |
 | Vague threat model | Review-stage damage | Fixable in the writing pass |
 
 ## Final-week sequence for an attack-plus-defense paper
@@ -62,6 +75,28 @@ advice, because CCS rules and dates are set per cycle.
   multi-column result tables that fit a one-column draft overflow, so compress early.
 - The page and cap numbers above describe the 2026 cycle; treat every number as provisional
   and recheck the current CFP before relying on it.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue acm-ccs-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

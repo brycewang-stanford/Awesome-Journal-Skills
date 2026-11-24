@@ -119,6 +119,7 @@ outside your language's community must still follow the claim.
 [Escalation] fits in 4pp / needs Long Paper / needs journal
 ```
 
-Format facts (4 content pages + references page; Long Paper track parameters)
-follow the 2026 cycle as logged in `resources/official-source-map.md`
-(2026-07-08); the paper kit of the current cycle is the sole format authority.
+Format facts (4 content pages + 2 reference/acknowledgment pages; Long Papers 8 + 2)
+follow the Interspeech 2027 call as logged in `resources/official-source-map.md`
+(re-verified 2026-11-24); the paper kit of the current cycle is the sole format
+authority.

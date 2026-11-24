@@ -74,7 +74,7 @@ style and reconcile against the current INFORMS / Organization Science guideline
 
 - **Submission portal**: ScholarOne Manuscripts at mc.manuscriptcentral.com/orsc (verify the current link).
 - **ORCID**: required for the submitting author.
-- **Contribution statement**: prepare the mandatory <500-word contribution statement for the cover letter (required since June 1, 2023).
+- **Contribution case**: prepare a concise cover-letter contribution case (not a stated requirement at Organization Science; the <500-word mandate since June 1, 2023 is Information Systems Research's rule) plus COI and overlapping-data disclosures.
 - **Anonymization**: the main manuscript and the separate standalone appendix must be fully anonymized for double-anonymous review.
 
 ## 5. Reproducibility & Transparency
@@ -82,7 +82,7 @@ style and reconcile against the current INFORMS / Organization Science guideline
 1. Keep clean, commented scripts (do-files, R scripts, simulation code, Mplus inputs) that regenerate every table, figure, and reported simulation result.
 2. Document data sources, sample-construction steps, coding schemes, and exclusion rules; for qualitative work, maintain an audit trail and representative-quotation table.
 3. Provide enough methodological detail and references to **permit replication**; be prepared to provide raw data for editorial review on request and to retain data for a reasonable time after publication.
-4. Note: Organization Science currently applies a replicability + data-retention/access-on-request standard rather than the mandatory code-and-data deposit mandate of sister journal Management Science — confirm current policy before making hard claims.
+4. Note: for submissions received on or after 2025-08-01 the Organization Science Data and Methods Transparency Policy applies — statistical code shared with the editor on request during review, and accepted quantitative papers publicly share data and code (e.g., OSF, openICPSR) unless an exception with an alternative transparency plan is approved; the uploaded Transparency Submission Checklist (effective March 12, 2025) records this at submission.
 5. Verify all licensing, IRB/ethics, and confidentiality terms (especially for field-site and trace data) before depositing or sharing.
 
 ## 6. Verify Before You Rely

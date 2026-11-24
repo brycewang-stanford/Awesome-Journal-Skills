@@ -7,7 +7,7 @@ description: Use when running the final pre-submission preflight for a Psycholog
 
 > Psychological Review is a theory journal. There is no experimental dataset or empirical
 > replication package to deposit. The preflight centers on the *theory paper's* format,
-> masking, APA style, and — for computational models — sharing the author's **own model
+> the review-mode choice (open by default, masked on request), APA style, and — for computational models — sharing the author's **own model
 > code** (not a shared empirical-analysis kit). 检索于 2026-06；以官网为准.
 
 ## When to trigger
@@ -26,13 +26,14 @@ description: Use when running the final pre-submission preflight for a Psycholog
 
 ### Format (verify exact current requirements on the APA author page)
 - [ ] **APA 7th-edition** formatting: double-spaced, 12-pt (e.g., Times New Roman), 1-inch margins (verify edition)
-- [ ] Separate **title page** with all authors, affiliations, ORCID iDs, contact (kept out of the masked body)
-- [ ] **Abstract ≤ 250 words** on a separate page (verify current limit)
-- [ ] No fixed upper length, but texts **> 15,000 words** carry a justification for the length (verify)
+- [ ] **Title page** with all authors, affiliations, ORCID iDs, contact (if you opt for masked review, these go only in the cover letter)
+- [ ] **Abstract ≤ 250 words** on a separate page, followed by **up to five keywords** (APA submission guidelines, re-verified 2026-11-24)
+- [ ] No fixed upper length, but texts **> 15,000 words** carry a justification for the length
 - [ ] Equations numbered; figures meet APA resolution/format specs; figures are diagrams/simulations, not experiments
-- [ ] Manuscript file in **Word / OpenOffice** format if the portal requires it (verify)
+- [ ] Manuscript file in **Word / Open Office** format (LaTeX: .tex + .bib/.bbl in a ZIP plus a PDF)
+- [ ] If any empirical work or quantitative analysis is reported: a **"Transparency and openness"** subsection in the Method meeting the TOP **disclosure** level (data/code/materials availability; whether any work was preregistered)
 
-### Masking (anonymous review)
+### Masking (only if you choose masked review — open review is the default)
 - [ ] No author-identifying content in the manuscript body
   - Self-citations phrased neutrally ("prior work (Author, 2020)"), not "in our earlier paper"
   - Acknowledgments/funding identifiers kept out of the body (added after acceptance)
@@ -53,11 +54,11 @@ description: Use when running the final pre-submission preflight for a Psycholog
 ### Ethics & originality (APA Ethics Code)
 - [ ] Manuscript is original, unpublished, and not under review elsewhere
 - [ ] Authorship reflects genuine intellectual contribution; order agreed by all authors
-- [ ] Any prior conference/preprint version disclosed as required; AI-assistance disclosed per current policy (verify)
+- [ ] Any prior conference/preprint version disclosed as required; generative-AI use in drafting **disclosed in the method section and cited** (AI cannot be an author — APA policy)
 - [ ] Similarity/overlap acceptable and self-overlap disclosed
 
 ### Portal files (Editorial Manager)
-- [ ] Masked main manuscript (body + figures + references), required format
+- [ ] Main manuscript (body + figures + references), masked only if you chose masked review
 - [ ] Separate title page with author info and corresponding author
 - [ ] Model code / supplemental files if applicable; cover letter if requested
 - [ ] Any author-agreement or conflict-of-interest forms the system requires
@@ -68,14 +69,36 @@ description: Use when running the final pre-submission preflight for a Psycholog
 2. **A literature survey / methods-and-design paper** — explicitly out of scope.
 3. **A "model" that only redescribes data** with free parameters and no falsifiable commitment.
 4. **Insufficient theoretical advance** — a relabel, a refit, or an incremental extension.
-5. **Masking or formatting failures**, or over-length with no justification.
+5. **Formatting failures** (or identity leaks after choosing masked review), or over-length with no justification.
 
 ## Editorial Manager operation notes
 
 - Psychological Review submits via **Editorial Manager** (editorialmanager.com/rev — confirm the exact URL; see source map).
-- Enter author metadata only in the system, never in the masked manuscript.
+- Choose open (default) or masked review; if masked, enter author metadata only in the system and cover letter, never in the manuscript.
 - Choose the correct article type (Theoretical article vs. Theoretical Note).
-- **Fees / open-access (APA Open) options**: confirm current policy on the author page — do not assume.
+- **Fees**: submitting for peer review is free of charge; an APC applies only if you choose gold open access (APA submission guidelines, re-verified 2026-11-24).
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue psychological-review-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 
@@ -90,16 +113,16 @@ description: Use when running the final pre-submission preflight for a Psycholog
 ```
 【Scope】theoretical contribution, data only constrains: yes / fix
 【Format】APA 7th / abstract ≤ 250 / length justified if > 15k / figures conceptual: pass / fix
-【Masking】body + properties + filenames clean: yes / fix
+【Review mode】open (default) / masked; if masked, body + properties + filenames clean: yes / fix
 【References】APA 7th; rivals' current form cited; all real: yes / fix
 【Model code】own simulation/fitting code prepared + README (if computational): yes / n-a
 【Ethics】original, not under review, authorship correct, AI disclosed: yes / fix
-【Portal files】masked MS + title page + code/forms: complete / missing [...]
+【Portal files】MS (masked if chosen) + title page/cover letter + code/forms: complete / missing [...]
 【Next step】await decision → psychrev-review-process; revise → psychrev-rebuttal
 ```
 
 ## Related resources
 
-- [`templates/checklist.md`](templates/checklist.md) — 8-section pre-submission self-check (scope / format / masking / abstract / theory / figures-code / references / ethics & portal)
+- [`templates/checklist.md`](templates/checklist.md) — 8-section pre-submission self-check (scope / format / optional masking / abstract / theory / figures-code / references / ethics & portal)
 - [`../../resources/external_tools.md`](../../resources/external_tools.md) — Theory/modeling tools (citation mapping, reference managers, modeling environments, diagram software, argument-logic aids)
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — Official APA Psychological Review scope, format, and portal facts (with verification dates)

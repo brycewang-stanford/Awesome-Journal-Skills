@@ -12,7 +12,7 @@ description: Use when drafting the revision and response letter after a Human Re
 - You must reconcile conflicting reviewer demands for the action editor
 - A later-round decision asks you to defend or further revise prior changes
 
-> Write the response letter **after** revising the manuscript, not before — it documents changes made, not promises. HRM's process is developmental and typically multi-round; resubmit the revised (still-anonymized) manuscript and the response document through Wiley **ScholarOne**, keeping the same action editor across rounds where possible (检索于 2026-06；以官网为准).
+> Write the response letter **after** revising the manuscript, not before — it documents changes made, not promises. HRM's process is developmental and typically multi-round; resubmit the revised (still-anonymized) manuscript and the response document through Wiley **Research Exchange**, keeping the same action editor across rounds where possible (检索于 2026-06；以官网为准).
 
 ## Response-document structure
 
@@ -77,5 +77,5 @@ description: Use when drafting the revision and response letter after a Human Re
 【Declined requests + justification】...
 【Reviewer conflicts resolved】...
 【Anonymization preserved】yes/no
-【Next step】resubmit via ScholarOne; on next decision → hrm-review-process
+【Next step】resubmit via Research Exchange; on next decision → hrm-review-process
 ```

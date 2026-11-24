@@ -1,57 +1,59 @@
 ---
 name: atc-supplementary
-description: Use when deciding what belongs in the ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) two-page extended abstract, the 12-page paper body, the optional appendix, and the artifact — splitting content by review round and decision-criticality so nothing that decides acceptance lives where a reviewer is not required to read.
+description: Use when deciding what belongs in an ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) paper's first two pages, the rest of the 12-page budget, the optional in-limit appendix, and the artifact — splitting content by review round and decision-criticality so nothing that decides acceptance lives where a reviewer is not required to read, now that ATC 2027 counts appendices toward the page limit.
 ---
 
 # ATC Supplementary
 
-ATC gives you four places to put content, each read by a different reviewer under a different rule:
-the **two-page extended abstract** (round one, two reviewers), the **12-page body** (round two, 3-4
-reviewers), the **appendix** (optional reading), and the **artifact** (opened during round two and
-evaluated post-acceptance). Placing content correctly is a strategic decision, not a formatting one,
-because reviewers are **not required** to read the appendix and a round-one reviewer may read **only**
-the abstract.
+ATC 2027 (call re-verified 2026-11-24) gives you four places to put content, each read under a
+different rule: the **first two pages** (the round-one surface), the **rest of the body** (round two),
+an **optional appendix** that now sits **inside** the 12/6-page limit, and the **artifact** (opened
+during review, evaluated post-acceptance). Placing content correctly is a strategic decision, not a
+formatting one: a round-one reviewer may read **only** pages 1-2, and the PC is **not required** to
+read supplementary material.
 
 ## The placement rule
 
 **Anything that decides acceptance goes in a place the deciding reviewer is required to read.**
 
-- Round-one acceptance is decided from the **extended abstract** → the problem, contribution,
-  headline result, and honest cost must be *in the abstract*.
+- Round-one survival is decided from the **first two pages** → scope, motivation, the main idea, the
+  delta over prior work, positioning, and a credible evaluation result must all appear there.
 - Round-two acceptance is decided from the **body** → every load-bearing design detail, baseline,
-  and result must be *in the 12 pages*.
-- The **appendix** holds support a curious reviewer *may* consult — extra graphs, proofs, parameter
-  tables — never a result the verdict depends on.
+  and result must be in the main text.
+- The **appendix** holds material "of interest to some reviewers" but not central — algorithm
+  details, proofs, code snippets. In 2027 it **counts toward the 12 (or 6) pages**, so it competes
+  with the body for space; it is no longer free overflow.
 - The **artifact** holds runnable evidence and full data — it strengthens trust and earns badges,
-  but the paper must be judgeable without executing it.
+  but the paper must be judgeable without executing it, and the author response may not lean on it.
 
 ## What goes where
 
 | Content | Home | Why |
 |---|---|---|
-| Problem, contribution, testbed, headline result, key cost | **Extended abstract** | The round-one decision surface; must stand alone |
-| Design rationale, implementation, main experiments, fair baselines, tails/variance | **Body (≤12 pp)** | The round-two decision surface; nothing acceptance-critical may leave it |
-| Extra sensitivity graphs, parameter sweeps, proofs, extended tables | **Appendix** | Optional depth; reviewers not required to read it |
-| Full code, traces/datasets, configs, claim-to-experiment scripts | **Artifact** | Runnable evidence + badge material; paper still judged without running it |
+| Problem, idea, delta, positioning, headline result, key cost | **First two pages** | The round-one decision surface; must stand alone |
+| Design rationale, implementation, main experiments, fair baselines, tails/variance | **Body** | The round-two decision surface; nothing acceptance-critical may leave it |
+| Algorithm details, proofs, code snippets | **Appendix (inside the page limit)** | Optional depth; costs pages, so keep it short |
+| Extra sensitivity graphs, parameter sweeps, full code, traces, configs | **Artifact** | Runnable evidence + badge material; the paper is still judged without it |
 
-## The extended abstract is not a teaser
+(History: ATC 2026 placed a separate, unpublished two-page **extended abstract** in front of the
+paper and let appendices sit outside the page limit. Neither holds in 2027.)
 
-The most common ATC mistake is treating the extended abstract as a marketing blurb that depends on
-the paper. It is a **self-contained argument** that must survive being read *instead of* the paper
-(see `atc-writing-style`). Move the real problem, the real contribution, and a real result into it;
-do not defer them to "as shown in the paper."
+## The first two pages are not a teaser
 
-## The appendix is not overflow
+The most common ATC mistake is an opening that only makes sense after reading section 4. Round one
+may never get there. Move the real problem, the real contribution, and a real measured result into
+the abstract and introduction (see `atc-writing-style`); do not defer them to "as shown in §5."
 
-The second common mistake is using the appendix to dodge the 12-page limit by exiling results a
-reviewer must weigh. If a graph is needed to believe a claim, it belongs in the body; if it is
-merely reassuring, it belongs in the appendix. Ask: **would a reviewer who skips this change their
-score?** If yes, it is body content.
+## The appendix is not overflow any more
+
+Because appendices now count toward the limit, exiling material to an appendix saves nothing. If a
+graph is needed to believe a claim, it belongs in the body; if it is merely reassuring, it belongs in
+the artifact. Ask: **would a reviewer who skips this change their score?** If yes, it is body
+content.
 
 ## Consistency across the four places
 
-- The number in the abstract, the body, the appendix, and the artifact output must **match**.
-  Divergent numbers across places are a credibility hit and a frequent reviewer catch.
+- The number in the opening, the body, the appendix, and the artifact output must **match**.
 - The claim-to-experiment map (see `atc-experiments`, `atc-reproducibility`) should let a reviewer
   trace each body claim to an artifact script and each artifact output back to a body figure.
 - Keep all four **double-blind**: an appendix or artifact often leaks identity (hostnames, owner
@@ -61,18 +63,18 @@ score?** If yes, it is body content.
 
 ```text
 [For each result] which round decides it? -> place it where that round's reviewer must read
-[Abstract test]   can a reviewer accept/reject from the 2 pages alone? if not, move content in
-[Body test]       is any acceptance-critical claim only in an appendix/artifact? if yes, move it in
-[Appendix test]   would skipping this change a score? if yes, it is body content, not appendix
-[Consistency]     do the numbers match across abstract/body/appendix/artifact? anonymity intact?
+[Opening test]    can a reviewer pass/reject from pages 1-2 alone? if not, move content forward
+[Body test]       is any acceptance-critical claim only in the appendix/artifact? if yes, move it in
+[Budget test]     body + appendix within 12 (long) / 6 (short) pages, references excluded?
+[Consistency]     do the numbers match across opening/body/appendix/artifact? anonymity intact?
 ```
 
 ## Output format
 
 ```text
-[Extended abstract] self-standing, decision-complete for round one? yes/no
-[Body] all acceptance-critical content inside 12 pages? leaks to appendix/artifact?
-[Appendix] optional-only? nothing score-changing exiled here?
+[First two pages] self-standing, decision-complete for round one? yes/no
+[Body] all acceptance-critical content in the main text? leaks to appendix/artifact?
+[Appendix] short, optional-only, and counted inside the page limit?
 [Artifact] runnable evidence + full data; paper judgeable without it? anonymized?
 [Move queue] <content to relocate, with target location and reason>
 ```

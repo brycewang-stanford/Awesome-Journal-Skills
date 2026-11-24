@@ -31,7 +31,7 @@ QJE imposes constraints that differ materially from a methods journal (Econometr
 | Robustness / appendix   | **Very extensive** online appendix expected                      | A thin appendix reads as an unfinished paper                 |
 | Presentation            | Increasingly **figure-forward**                                  | The headline should often be one clean graph                 |
 | References              | Author-date                                                      | Numbered/footnote styles read as off-template                |
-| Process                 | Editorial Express; submission fee; replication required          | Fast desk reject; few rounds with demanding referees          |
+| Process                 | Editorial Express; no submission fee; replication required       | Fast desk reject; few rounds with demanding referees          |
 | Over-claiming           | Punished                                                         | Claims must not exceed what the design supports              |
 
 Generic "scientific writing" or "econ writing" skill packs do not address these constraints. Volatile specifics (current editors, exact fee, deposit policy) change — **verify them on the official journal page**.

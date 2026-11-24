@@ -7,7 +7,7 @@ description: Use when designing or auditing the evaluation of an ICSE research-t
 
 Design the study to survive an empiricist's audit, because that is who reviews
 it. ICSE's rigor criterion scores "thoroughness and completeness of an
-evaluation" (2027 call wording, read 2026-07-08), and the community has strong
+evaluation" (ICSE 2028 call wording, unchanged from 2027; read 2026-11-24), and the community has strong
 default expectations per study type that function as unwritten checklists.
 
 ## Evidence proportional to claim

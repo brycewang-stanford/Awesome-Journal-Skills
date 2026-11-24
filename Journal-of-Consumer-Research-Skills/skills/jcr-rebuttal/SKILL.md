@@ -9,7 +9,7 @@ description: Use when responding to a Journal of Consumer Research (JCR) revise-
 
 - You received a JCR R&R and need a plan plus a response letter
 - Reviewers want additional studies, process evidence, or analyses
-- You must satisfy data/materials posting now required at invited revision
+- You must keep the data/materials availability commitments current at invited revision
 - You are reconciling conflicting reviewer requests across disciplines
 
 ## Revise first, write the letter second
@@ -23,7 +23,7 @@ A JCR response letter documents revisions that already exist. Sequence the work:
 
 ## Satisfy the transparency requirements that activate at revision
 
-At **invited revision**, JCR's transparency regime tightens: posting of **data and study materials to an approved repository** (OSF, Harvard Dataverse, Qualitative Data Repository, ResearchBox) becomes **required** (accessible to editors) unless an exemption is granted, and **replication code** must be provided. Update the **Data Collection Statement** to cover any new studies. Confirm your data-retention plan (**≥ 7 years**). Address any transparency reviewer concerns explicitly in the letter.
+Under JCR's research-ethics policy (revised September 24, 2026) anonymized data, stimuli, measures, protocols and code are expected from the **original submission** onward, documented in the **Data and Materials Availability Statement**; at **invited revision**, extend the repository and the statement to every new study and keep any non-sharing explanation current. Update the **Data Collection Statement** to cover any new studies. Confirm your data-retention plan (**≥ 7 years**). Address any transparency reviewer concerns explicitly in the letter.
 
 ## New-study economy
 

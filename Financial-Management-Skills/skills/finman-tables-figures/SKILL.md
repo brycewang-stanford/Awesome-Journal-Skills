@@ -36,7 +36,7 @@ FM's brand is "articles that people actually read," and that taste extends to th
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Financial Management is empirical corporate finance + asset pricing; corporate-causal chain (DiD/IV/RDD) plus the factor-zoo haircut for cross-sectional pricing.
 
 - **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
 - **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —

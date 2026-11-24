@@ -45,7 +45,7 @@ description: Use when the empirical identification strategy is the bottleneck fo
 ## 执行桥（StatsPAI / Stata MCP）
 
 把识别主张**跑出来并审计**,而不是只做论证。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
 
 1. `detect_design` → `recommend` → 用 `as_handle=true` 拟合 → `audit_result` 列出设计尚欠的检查。
 2. **交错 DID：**`callaway_santanna` / `sun_abraham` + `bacon_decomposition` +

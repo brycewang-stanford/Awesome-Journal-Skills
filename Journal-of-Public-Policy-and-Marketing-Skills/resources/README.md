@@ -12,6 +12,6 @@ Supporting material for the `jppm-*` skills: verified sources, exemplar guidance
 
 Shared-method references:
 
-- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
-- [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md)
-- [`../../shared-resources/empirical-methods/execution-with-mcp.md`](../../shared-resources/empirical-methods/execution-with-mcp.md)
+- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md)
+- [`../../shared-resources/empirical-methods/reporting-standards.md`](shared/empirical-methods/reporting-standards.md)
+- [`../../shared-resources/empirical-methods/execution-with-mcp.md`](shared/empirical-methods/execution-with-mcp.md)

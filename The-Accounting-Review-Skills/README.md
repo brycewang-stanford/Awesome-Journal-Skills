@@ -29,7 +29,7 @@ TAR imposes constraints that differ materially from management or generic social
 | Core bar                | **Significance of the contribution** to the accounting literature | A clean method with no contribution is not enough     |
 | Dominant method (de facto) | Large-sample **archival/empirical**, plus experimental & analytical streams | Identification, not just correlation, is expected |
 | Identification          | Shock / DiD / IV / RDD / setting that breaks endogeneity   | "We control for everything" does not identify an effect      |
-| Data authenticity       | Description **+ processing code** (public/abstracted/private rules) | Unreproducible samples and missing code are rejected  |
+| Data authenticity       | Description **+ processing code** (public/abstracted/private rules); Data Description Disclosures list + full code due at conditional acceptance (from July 1, 2026) | Unreproducible samples and missing code are rejected  |
 | Format                  | Chicago Manual of Style (16th ed.); 55-page initial limit incl. exhibits | APA references and overlong drafts are flagged    |
 | Abstract                | **≤ 150 words**, plus an **AI disclosure statement** after it | Vague/overlong abstracts and missing disclosure cost you  |
 | Review                  | **Double-blind**; editor + a minimum of two reviewers      | Any self-identification defeats the process                  |

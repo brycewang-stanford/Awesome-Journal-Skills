@@ -62,12 +62,12 @@ policy in [`official-source-map.md`](official-source-map.md).
 |------|------|
 | Submission portal | **Editorial Manager**, `editorialmanager.com/dvl` |
 | Publisher | **American Psychological Association (APA)** |
-| Editor | Koraly Pérez-Edgar (检索于 2026-06；以官网为准) |
-| Review model | **Masked peer review** available on request |
-| Length tiers | brief report (~4,500) / larger (~10,500) / multi-study or longitudinal (~15,000) — 检索于 2026-06；以官网为准 |
-| Front matter | APA abstract + **Public Significance Statement** (2–3 sentences, ~30–70 words) |
+| Editor | Koraly Pérez-Edgar (re-verified 2026-11-24；以官网为准) |
+| Review model | **Masked review for all submissions** |
+| Length tiers | brief report (≤ 4,500) / larger (≤ 10,500) / multi-study or longitudinal (≤ 15,000), total length — re-verified 2026-11-24 |
+| Front matter | APA abstract (≤ 250 words, with sample demographics) + up to six keywords + **Public Significance Statement** (2–3 sentences, ~30–70 words) |
 | Style / reporting | **APA 7th edition** + **JARS** (JARS-Quant / JARS-Qual / MARS) |
-| Transparency | **TOP** guidelines — data-availability statement, DOIs, preregistration, sample-size justification |
+| Transparency | **TOP "requirement" level** — "Transparency and Openness" Method subsection, DOIs, preregistration status, sample-size justification |
 
 ## 8. Cautions
 1. **Verify volatile specifics** (editor, exact length tiers, abstract ceiling, masked-review and TOP

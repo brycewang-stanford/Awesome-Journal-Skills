@@ -1,6 +1,6 @@
 ---
 name: cav-related-work
-description: Use when positioning a CAV (Computer Aided Verification) submission against the verification literature across CAV, TACAS, FMCAD, VMCAI, POPL/PLDI, and the journals (FMSD, JAR, TOCL, STTT), writing delta-first contrast rather than a citation catalog, crediting the right benchmark and tool lineages, keeping self-citations double-anonymous for the anonymized categories, and handling concurrent and prior-version overlap.
+description: Use when positioning a CAV (Computer Aided Verification) submission against the verification literature across CAV, TACAS, FMCAD, VMCAI, POPL/PLDI, and the journals (FMSD, JAR, TOCL, STTT), writing delta-first contrast rather than a citation catalog, crediting the right benchmark and tool lineages, keeping self-citations double-anonymous for Regular Papers, and handling concurrent and prior-version overlap.
 ---
 
 # CAV Related Work
@@ -24,9 +24,10 @@ rules before advising authors.
 - **Credit tool and benchmark lineages.** If you extend or compare against a solver/model checker or
   use a standard benchmark set, cite the tool paper and the benchmark/competition to their real
   origin — and to the right venue (Z3 is TACAS, not CAV; see the exemplars guardrails).
-- **Preserve double-anonymity where required.** For Regular and Application papers, cite your own
+- **Preserve double-anonymity where required.** For Regular Papers, cite your own
   prior work in the third person and never link reviewers to an identity-revealing preprint,
-  repository, or tool homepage. (Tool and Industrial papers are not anonymized.)
+  repository, or tool homepage. (In CAV 2027, Tool and Application/Industrial/Case Study papers
+  are single-blind and not anonymized.)
 - **Declare overlap** with any prior workshop/conference version or concurrent submission; do not
   re-submit archival work as new.
 
@@ -59,9 +60,9 @@ cite each to its correct venue.
 
 ```text
 [Concurrent arXiv work]   cite neutrally, state the technical difference, avoid unverifiable
-                          priority claims; keep the citation anonymous for Regular/Application
+                          priority claims; keep the citation anonymous for Regular Papers
 [Your workshop version]   often non-archival and citable, but confirm against the current CFP and
-                          phrase so anonymity survives (anonymized categories)
+                          phrase so anonymity survives (Regular Papers)
 [Prior tool-paper version] declare the overlap; state what the new paper adds beyond the tool release
 [Archival status unclear]  declare the overlap in the submission form rather than guessing
 ```

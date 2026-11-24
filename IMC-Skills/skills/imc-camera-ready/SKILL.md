@@ -80,7 +80,7 @@ eligibility.
 
 ## Calibration
 
-- Camera-ready deadlines are cycle-specific (cycle 1 ~mid-April 2026; cycle 2 ~1 Sep 2026);
+- Camera-ready deadlines are cycle-specific (IMC 2027: cycle 1 14 Apr 2027; cycle 2 2 Sep 2027);
   confirm yours and calendar the artifact release before it.
 - The exact rights form, template revision, and shepherding process vary by edition — confirm on
   the current camera-ready instructions.

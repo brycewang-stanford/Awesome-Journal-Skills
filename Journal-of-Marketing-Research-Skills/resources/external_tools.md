@@ -86,7 +86,7 @@ estimation details, and additional studies.
 
 ## 6. Verify Before You Rely
 
-Editorial team (mid-2026 handover from Hamilton to Thomadsen's team), submission links, the
+Editorial team (Thomadsen EIC since 1 July 2026; Hamilton's team finishing its revisions), submission links, the
 50-page limit, fees/APC, and the AMA Research Transparency Policy change over time. Always
 confirm current requirements on the SAGE author instructions and the AMA submission-guidelines
 page before submitting.

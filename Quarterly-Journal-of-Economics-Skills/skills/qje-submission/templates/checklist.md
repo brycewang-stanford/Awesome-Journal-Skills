@@ -58,9 +58,9 @@ submission URL, current anonymization rules) on the official journal page.
 ## 8. Submission system & files
 
 - [ ] Submitting through Editorial Express (confirm current URL)
-- [ ] Submission fee verified (current amount) and payment ready
+- [ ] Confirmed no submission fee is due (none stated on the official pages)
 - [ ] Manuscript PDF + separate online appendix + concise cover letter staged
-- [ ] Anonymized per current policy (body + file metadata); acknowledgments/funding separate
+- [ ] First page gives title, contributor names, corresponding author's address/email, and total word count (QJE does not ask for anonymization); funding/acknowledgments in the first footnote
 - [ ] Suggested / excluded referees prepared (expert, fair, conflict-free)
 - [ ] Conflict-of-interest, funding, and data disclosures prepared
 - [ ] Replication materials (data + code) staged for the accepted stage

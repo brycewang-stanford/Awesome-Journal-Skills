@@ -12,23 +12,24 @@ months, revise on the editor's clock, and present at whichever conference your
 acceptance lands in front of.** Planning a CSCW project therefore means planning a
 *revision campaign*, not a submission night.
 
-## The two regimes (as of 2026-07-08)
+## The two regimes (as of 2026-11-24)
 
 | Aspect | Fixed cycles (through the May 2025 cycle) | Rolling (CSCW 2027 and beyond) |
 | --- | --- | --- |
 | Deadline | Hard cutoff (last: May 14, 2025, 12:00 EDT) | None — submit when ready |
-| Platform | PCS | Manuscript Central (mc.manuscriptcentral.com/pacmhci) |
+| Platform | PCS | PACM HCI/CSCW track — Manuscript Central (mc.manuscriptcentral.com/pacmhci) per the July 2026 rolling CFP; ToCHI acceptances in CSCW scope also qualify |
 | Who handles the paper | Program committee (ACs) per cycle | Editorial board: EiC/AE by methodological track |
 | First decision | Batched (first-round decisions ~6 months in) | Rolling, ~3-4 months from submission |
 | Revision windows | Fixed dates (e.g., R&R due January 13, 2026) | Set per paper by the handling editor |
-| Conference tie | Cycle mapped to a specific conference year | Accepted papers invited to the *next* CSCW, pending space |
+| Conference tie | Cycle mapped to a specific conference year | Accepted before that year's program is set → that year's CSCW (or, on request, the next); accepted after → the following year's CSCW |
 
 The May 2025 cycle — the last of the old kind — is worth studying as a calibration
 anchor even though it will never recur: submissions May 14, 2025 → internal
 "Revise for External Review" resubmissions September 16, 2025 → first external
-decisions November 2025 (66.2% of papers got Revise and Resubmit; only a third got
+decisions November 11, 2025 (66.2% of papers got Revise and Resubmit; only a third got
 any final decision) → revised papers due January 13, 2026 → final decisions late
-March 2026 → presentation at CSCW 2026 (Salt Lake City, October 10-14, 2026). That
+March 2026 → presentation at CSCW 2026 (Salt Lake City, October 10-14, 2026; now
+met). The next edition is CSCW 2027, Philadelphia, October 16-20, 2027. That
 is a **17-month arc from submission to podium**, and two-thirds of surviving papers
 went through the full R&R loop.
 
@@ -43,9 +44,10 @@ now **a negotiation with time, not with a deadline table**. Practical consequenc
   you want to attend: with ~3-4 months to first decision and a realistic multi-week
   revision round (PACMHCI revision periods are measured in weeks-to-months, not
   days), a paper submitted less than ~8-10 months before a conference is betting on
-  a clean first decision. The exact cutoff by which a rolling acceptance is assigned
-  to CSCW 2027 versus 2028 was 待核实 at check time — confirm it on
-  cscw.acm.org/rolling.html before promising a travel year to anyone.
+  a clean first decision. The rule is now stated — an acceptance that arrives
+  after the year's program is set is offered the following year's conference — but
+  the date on which the CSCW 2027 program is set was still 待核实 on 2026-11-24;
+  confirm it on cscw.acm.org/2027/submit/ before promising a travel year to anyone.
 - **Revision capacity is the bottleneck.** An R&R that demands new data collection
   (a second interview wave, another deployment period) costs a season. Budget the
   team's field access *before* submitting, not when the decision arrives.
@@ -91,5 +93,5 @@ now **a negotiation with time, not with a deadline table**. Practical consequenc
 [Conference target] CSCW <year> — assignment confirmed? yes / no / 待核实
 ```
 
-Dates and statistics above are the 2026-07-08 snapshot of a venue mid-transition;
+Dates and statistics above are the 2026-11-24 snapshot of a venue mid-transition;
 recheck cscw.acm.org and the rolling CFP before treating any of them as current.

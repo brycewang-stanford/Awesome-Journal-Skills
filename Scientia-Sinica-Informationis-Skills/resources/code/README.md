@@ -7,12 +7,12 @@
 
 ## 共享套件
 
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
   —— 匿名评审与公开发布的通用检查，可迁移到任何信息科学可复现材料包。
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
   —— 依赖无关的打包 smoke 检查（校验目录结构与说明文件是否齐备）。
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
-  与 [`../../../shared-resources/submission-readiness/response-to-referees.md`](../../../shared-resources/submission-readiness/response-to-referees.md)
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
+  与 [`../../../shared-resources/submission-readiness/response-to-referees.md`](../shared/submission-readiness/response-to-referees.md)
   —— 通用投稿前自查与审稿答复脚手架；后者可适配到
   [`../../skills/ssi-author-response/SKILL.md`](../../skills/ssi-author-response/SKILL.md) 的中文修回说明。
 

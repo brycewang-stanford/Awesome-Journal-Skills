@@ -31,11 +31,11 @@ description: Use when running the final Mathematical Finance submission prefligh
 
 ### Metadata and declarations
 
-- [ ] Title, abstract, keywords
+- [ ] Title, abstract (100–200 words, structured or unstructured, written so the editor can match referees — Wiley author guidelines, re-checked 2026-11-24), keywords
 - [ ] JEL and AMS/MSC classifications where requested
 - [ ] Data Availability Statement
 - [ ] Funding, conflicts, acknowledgements
-- [ ] Open Access choice and APC implications checked if relevant — *Mathematical Finance* is a hybrid Wiley journal with **no submission fee**; optional OA APC was **USD 3,840 / GBP 2,590 / EUR 3,190** as of 2026-06-22 (re-verify on Wiley's APC page; may be covered by an institutional agreement). Editor as of 2026-06-22: **Rama Cont**.
+- [ ] Open Access choice and APC implications checked if relevant — *Mathematical Finance* is a hybrid Wiley journal with **no submission fee**; optional OA APC is **USD 4,230 / GBP 2,850 / EUR 3,520** as of 2026-11-24 (was USD 3,840 / GBP 2,590 / EUR 3,190 on 2026-06-22; re-verify on Wiley's APC page; may be covered by an institutional agreement). Editor-in-Chief as of 2026-11-24: **Rama Cont** (University of Oxford).
 
 ## LaTeX hygiene
 
@@ -101,6 +101,28 @@ Check the paper in this order:
 
 This order catches scientific blockers before metadata work. Do not spend time polishing upload forms while
 a theorem, appendix pointer, or data statement remains unstable.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue mathfin-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

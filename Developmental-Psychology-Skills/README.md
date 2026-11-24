@@ -45,7 +45,7 @@ Its constraints differ sharply from a general empirical-psychology or a social-s
 | Front matter          | **Public Significance Statement** (2–3 sentences, ~30–70 words)                  | Lay-accessible relevance, no overclaim                          |
 | Length                | Tiered: ~4,500 (brief) / ~10,500 (larger) / ~15,000 (multi-study/longitudinal)  | Pick the right tier (检索于 2026-06；以官网为准)                 |
 | Ethics                | Consent **+ child assent**; vulnerable-population protections                    | Age-appropriate measures and data handling                      |
-| Publisher / portal    | **APA** / **Editorial Manager** (`editorialmanager.com/dvl`); **masked review** | Anonymize the manuscript and the shared links                   |
+| Publisher / portal    | **APA** / **Editorial Manager** (`editorialmanager.com/dvl`); **masked review for all submissions** | Anonymize the manuscript and the shared links                   |
 | Transparency          | **TOP** — data-availability statement, DOIs, preregistration, sample-size justification | Plan deposits early; share minors' data via permission archives |
 
 Developmental Psychology is the **broad APA lifespan-development** journal — distinct from **Child

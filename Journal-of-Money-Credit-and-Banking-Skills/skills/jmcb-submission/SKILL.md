@@ -16,11 +16,11 @@ description: Use when running the final pre-submission preflight for a Journal o
 
 - **Owner/publisher:** the journal is owned by the **Ohio State University Department of Economics** and published by **Wiley-Blackwell**; it appears ~7 issues/year. Online content is on Wiley Online Library (ISSN 1538-4616).
 - **Submission portal:** submissions go through **Editorial Express** (editorialexpress.com/jmcb), *not* Wiley's ScholarOne or Editorial Manager — a common point of confusion for authors used to other Wiley journals.
-- **Submission fee:** **US$150 for subscribers / US$200 for non-subscribers** (待核实；以官网为准), paid at submission. If an editor declines **without consulting referees**, the fee is refunded **minus US$50** for administrative costs. **No fee for resubmissions** of invited revisions.
+- **Submission fee:** **US$150 for subscribers / US$200 for non-subscribers** (re-verified 2026-11-24 on the OSU submission-instructions page；以官网为准), paid at submission. If an editor declines **without consulting referees**, the fee is refunded **minus US$50** for administrative costs. **No fee for resubmissions** of invited revisions.
 - **Length:** the journal **strongly recommends manuscripts not exceed ~40 pages** with 1.5 line spacing, where the count **includes references, tables, and figures but excludes the online appendix**; excessively long submissions may be summarily rejected.
 - **Data/replication:** consistent with JMCB's archive heritage, expect a data/code expectation; if data are restricted, **request a data exemption at submission** and document the access path.
 - **Citation style:** author-year in text; reference list alphabetical by author then chronological.
-- **Editors (verified 2026-06-22):** the editorial group includes Sanjay Chugh and Pok-sang Lam (OSU), Robert DeYoung (Kansas), and Kenneth D. West (Wisconsin–Madison); other listings add Luc Laeven (ECB) and Jing Cynthia Wu (Illinois). Re-verify the current desks on the Wiley/OSU board before tailoring a cover letter.
+- **Editors (re-verified 2026-11-24 on the OSU JMCB Boards page):** Pok-Sang Lam (Ohio State), Kenneth D. West (Wisconsin), Luc Laeven (ECB), and Jing Cynthia Wu (Illinois Urbana-Champaign). Sanjay Chugh and Robert DeYoung, listed in the 2026-06 version of this pack, no longer appear on the Editors list. Re-verify the current desks on the OSU board before tailoring a cover letter.
 
 ## Preflight checklist
 
@@ -59,6 +59,28 @@ Budget for the submission fee now; the APC is a later, optional decision.
 ## The cover letter does real work here
 
 Because JMCB sits among close siblings, the cover letter should pre-empt the "wrong journal" reflex: state in two or three sentences why the paper is a JMCB contribution (the monetary/credit/banking mechanism and the policy payoff), not a JME, AEJ:Macro, or JBF paper. Name the contribution and the policy lever; do not merely summarize the abstract. If the data are restricted, note the data-exemption request in the letter so the editor is not surprised.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jmcb-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

@@ -22,7 +22,7 @@ re-anchor every one against the live calendar.
 | Jul 30 | Meta-reviews released | ARR |
 | Aug 2 | Commitment deadline for EMNLP | Conference |
 | Aug 20 | Acceptance notification (Main / Findings / reject) | Conference |
-| Sep 20 | Camera-ready | Conference |
+| Aug 30 | Camera-ready | Conference |
 | Oct 24-29 | EMNLP 2026, Budapest (hybrid) | Conference |
 
 Parallel option: the Industry Track took direct OpenReview submissions until June 16,

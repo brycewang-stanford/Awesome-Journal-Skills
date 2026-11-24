@@ -10,21 +10,22 @@ appendix-free pages, spending the two-week rebuttal/revision window on runs rath
 than rhetoric, and converting acceptance into a badged, artifact-backed entry in
 the ACM DL and IEEE Xplore.
 
-Official basis checked on **2026-07-08**: the MICRO 2026 (59th edition) hub, Call
-for Papers, and submission guidelines at `microarch.org/micro59/`, the
-`micro2026.hotcrp.com` site, the inaugural Industry Track CFP, the MICRO 2025
-artifact-evaluation pages, the SIGMICRO Test of Time and Hall of Fame pages, and
-ACM DL / IEEE Xplore / dblp proceedings records. Direct fetches of `microarch.org`
-and related hosts returned 403 in the verification environment, so official pages
-were read through search-engine renderings of the exact URLs and cross-checked
-against the digital libraries and SIGARCH/TCCA CFP mirrors; the full trail and
-every item still marked 待核实 live in
+Official basis checked on **2026-07-08** and **re-verified 2026-11-24**: the MICRO
+2026 (59th edition) hub, Call for Papers, and submission guidelines at
+`microarch.org/micro59/`, the `micro2026.hotcrp.com` site, the inaugural Industry
+Track CFP, the MICRO 2026 artifact-evaluation, organizing-committee and registration
+pages, the SIGMICRO Test of Time and Hall of Fame pages, and ACM DL / IEEE Xplore /
+dblp proceedings records. On 2026-07-08 `microarch.org` returned 403 and pages were
+read through search-engine renderings; on 2026-11-24 they were read directly. MICRO
+2026 has now met, and MICRO 2027 is not yet announced (no MICRO-60 page, dates or
+call on `microarch.org`). The full trail and every item still marked 待核实 live in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
-## Where the 2026 cycle stands (as of the check date)
+## Where the 2026 cycle stood (as of the first check date)
 
 MICRO 2026 notifications went out **July 7, 2026** — the day before this pack's
-verification date. The live work this pack lands in the middle of:
+first verification date (Athens has since met; the sibling deadlines below have
+passed as of 2026-11-24). The live work this pack landed in the middle of:
 
 - **Accepted papers** face the September 11 camera-ready with artifact evaluation
   running in parallel, then Athens (October 31 – November 4).
@@ -137,10 +138,17 @@ MICRO-Skills/
   no space-squeezing; dual visual/automated inspection.
 - Review: double-blind end to end; artifact links anonymized or removed; no
   acknowledgments at submission; conduct rules cover rebuttals.
-- Artifacts: post-acceptance AE with ACM badges (2025 pages verified; 2026
-  instance 待核实); Available badge needs Zenodo/FigShare/Dryad-class archiving.
+- Industry Track (inaugural): same deadlines, **single-blind**, industry-majority
+  author list, short track-justification statement.
+- Artifacts: post-acceptance AE with ACM badges, opt-out in 2026 (withdraw by
+  July 14; AE decision August 21); free two-page artifact appendix; Available badge
+  needs Zenodo/FigShare/Dryad-class archiving.
+- Camera-ready: up to 13 body pages excluding references and the AE appendix, plus
+  up to two purchasable pages at €150 each; author registration due September 11
+  (AoE).
 - Community fixtures: MICRO Test of Time Award (2025 winners: 3D die-stacking and
-  CACTI 6.0), MICRO Hall of Fame (8+ papers), IEEE Micro Top Picks eligibility.
+  CACTI 6.0; 2026 winners: flattened butterfly and stall-time fair memory
+  scheduling), MICRO Hall of Fame (8+ papers), IEEE Micro Top Picks eligibility.
 
 ## Fact discipline
 
@@ -151,8 +159,9 @@ The pack keeps three classes of statement distinguishable:
 2. **Derived or secondary facts** — labeled in place (the 1968 lineage is
    arithmetic from the 59th ordinal; reviewer-rubric text is a community-norm
    composite, not a quoted form).
-3. **待核实 items** — phrased as questions to resolve, never as facts (2026 AE
-   dates, chairs, camera-ready allowances, attendance rules, MICRO 2027 dates).
+3. **待核实 items** — phrased as questions to resolve, never as facts (rebuttal
+   mechanics, attendance rules, the exact camera-ready page arithmetic, any
+   AI-authorship policy, MICRO 2027 dates).
 
 A skill stating class-2 or class-3 material as class 1 is a bug; fix it against
 the live pages and update the source map.
@@ -163,9 +172,9 @@ the live pages and update the source map.
   tracks, and AE arrangements each edition — reopen `microarch.org/micro<NN>/`
   before advising on the next cycle, and note that 2026 introduced a track that
   did not exist in 2025.
-- The 待核实 register in the source map is the debt list: organizers' names, AE
-  calendar, Industry Track deadlines, rebuttal mechanics detail, camera-ready
-  allowances, attendance rules, and any AI-authorship policy.
+- The 待核实 register in the source map is the debt list: rebuttal mechanics
+  detail, camera-ready page arithmetic, attendance rules, Industry Track review
+  form, any AI-authorship policy, and MICRO 2027 dates.
 - Program leadership rotates per edition; nothing in this pack should be read as
   a standing editorial policy.
 - New exemplars enter only through the verification recipe at the bottom of

@@ -53,7 +53,7 @@ For LLM-based components:
 | Tool needs your exact machine | Reviewers cannot run it; artifact fails | Container/lockfile + minimal run path |
 | Subjects unpinned (branch, not SHA) | Numbers cannot be reproduced | Record SHAs + extraction date at collection |
 | LLM outputs uncached | Re-runs drift; comparison invalid | Cache outputs; record model IDs/dates |
-| Data Availability outside the 10 pages | Policy violation | Place it after Conclusions, inside the budget |
+| Data Availability section missing or misplaced | Policy violation | Place it after the Conclusion (2027: shares the 2 extra pages with references) |
 | Identity leak in artifact | Anonymity violation | Scrub owner/metadata; re-host anonymized |
 
 ## From submission to the ACM badges
@@ -70,7 +70,7 @@ now avoids a scramble later (see `ase-artifact-evaluation`):
 ## Output format
 
 ```text
-[Data Availability] present, after Conclusions, inside 10pp? matches the archive?
+[Data Availability] present, after the Conclusion, anonymous? matches the archive?
 [Tool] commit pinned, deps versioned, container/lockfile, minimal run path?
 [Subjects/data] SHAs + extraction date + selection/labeling protocol recorded?
 [LLM] model IDs/dates, prompts, cached outputs?

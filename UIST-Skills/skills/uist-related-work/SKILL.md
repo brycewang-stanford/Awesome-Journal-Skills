@@ -81,7 +81,7 @@ Ours        |     yes     |  yes ±2.1 mm  |       yes          |  11 ms median
 
 ## Anonymization interacts with self-citation
 
-UIST's 2026 rules (verified 2026-07-08) are specific and unusual in one respect:
+UIST's 2026 rules (re-verified 2026-11-24) are specific and unusual in one respect:
 
 - Cite your own prior work **in the third person with a full, non-redacted
   reference** — do not write "[anonymized for review]", which both leaks that the

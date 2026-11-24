@@ -52,7 +52,7 @@ For internationalization-as-process designs, address **dynamic endogeneity** exp
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JIBS is international business — cross-country panels with confounded institutions; emphasize fixed effects, clustering, and endogeneity of location / entry choices.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JIBS is international business — cross-country panels with confounded institutions; emphasize fixed effects, clustering, and endogeneity of location / entry choices.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

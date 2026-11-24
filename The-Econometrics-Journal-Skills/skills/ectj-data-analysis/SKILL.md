@@ -85,7 +85,7 @@ explains why the new procedure changes the applied conclusion.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). The Econometrics Journal is a methods venue — estimator validity + simulation; pair estimates with diagnostics.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). The Econometrics Journal is a methods venue — estimator validity + simulation; pair estimates with diagnostics.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

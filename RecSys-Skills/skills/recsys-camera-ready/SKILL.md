@@ -7,8 +7,10 @@ description: Use when preparing an accepted ACM RecSys paper for camera-ready, c
 
 Use this after a RecSys acceptance. Reopen the current camera-ready instructions, the ACM rights
 form, the registration page, and the decision email before advising authors. For 2026 the
-Reproducibility and Industry tracks listed a camera-ready deadline of July 27; the Main Track
-date was not extractable through the gateway (待核实) — confirm against the decision email.
+Main, Reproducibility and Industry tracks all listed a camera-ready deadline of July 27 (Main
+Track: "strict"), with a recorded video due within one week after it (re-verified 2026-11-23).
+Authors whose institutions are not in ACM Open also owe an APC at this stage ($250 ACM/SIG member
+/ $350 non-member at the 2026 subsidised rate) — check the ACM Open list before the rights form.
 
 ## Camera-ready audit
 

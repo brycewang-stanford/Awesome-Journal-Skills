@@ -1,6 +1,6 @@
 # External Tools - ICDE
 
-Access date: 2026-07-09
+Access date: 2026-07-09 (re-checked 2026-11-24)
 
 Open these before acting on any deadline-sensitive advice. ICDE stands up a new
 `icdeYYYY.github.io` site for every edition, and the research rules live across three pages
@@ -14,7 +14,7 @@ fetches, so a browser (or a search-engine rendering as a fallback) may be requir
 - Current-edition research call: https://icde2027.github.io/cf-research-papers.html
 - Current-edition important dates (both rounds): https://icde2027.github.io/important-dates.html
 - Current-edition submission guidelines (format, CMT, conflicts): https://icde2027.github.io/submission-guidelines.html
-- Microsoft CMT submission site (2026 instance shown; confirm the 2027 URL on the live call): https://cmt3.research.microsoft.com/ICDE2026
+- Microsoft CMT submission site (ICDE 2027 instance): https://cmt3.research.microsoft.com/ICDE2027
 - IEEE Xplore proceedings archive (where accepted ICDE papers publish): https://ieeexplore.ieee.org/
 - IEEE TKDE (extension and poster relationship): https://www.computer.org/csdl/journal/tk
 - IEEE TCDE Influential Paper Award records (exemplar lineage): https://tc.computer.org/tcde/icde-steering-committee/influential-papers/
@@ -22,9 +22,9 @@ fetches, so a browser (or a search-engine rendering as a fallback) may be requir
 
 ## Author-side verification loop
 
-1. Confirm which **round** you are targeting on the important-dates page. On 2026-07-09 the
-   ICDE 2027 Round 1 paper deadline (June 11, 2026) has passed, so the live target is Round 2
-   (November 11, 2026); do not plan around a round that has already closed.
+1. Confirm which **round** you are targeting on the important-dates page. On 2026-11-24 both
+   ICDE 2027 rounds (June 11 and November 11, 2026, 5:00 PM Pacific Time) have closed and no
+   ICDE 2028 site or call exists yet; do not plan around a round that has already closed.
 2. Confirm the **Microsoft CMT** site link published in the current call, then create profiles
    for every co-author and file both domain and individual conflicts there — CMT conflicts are
    author-declared, and a missing one is a review-integrity problem, not a formatting nit.
@@ -32,12 +32,12 @@ fetches, so a browser (or a search-engine rendering as a fallback) may be requir
    Do not strip identity the way a SIGMOD or double-blind submission would; that can look like
    a formatting error to a single-blind reviewer.
 4. Re-check the **revision mechanics** from the current call only. ICDE 2026 used a two-phase
-   round with a Revise & Resubmit outcome and a 4-week revision window; whether ICDE 2027 keeps
-   that or moves to binary accept/reject is exactly the detail that drifts between editions
-   (待核实 in the source map).
-5. Confirm the **page limit and IEEE template** on the guidelines page (12 pages plus
-   references is the ICDE norm, but re-declared each edition), and that supplemental material
-   is attached where the call expects it.
+   round with a Revise & Resubmit outcome and a 4-week revision window; ICDE 2027 dropped it
+   (rebuttal, then Accept/Reject only) — exactly the detail that drifts between editions.
+5. Confirm the **page limit and IEEE template** on the guidelines page (ICDE 2027: 12 pages
+   plus references and the AI-content acknowledgment, no appendix; re-declared each edition),
+   the per-author cap (5 per round in 2027), and that supplemental material is attached where
+   the call expects it.
 6. For the **TKDE lanes**, check whether the best-paper extension invitation and the TKDE
    Poster track are both running for this edition before promising anyone a journal path.
 

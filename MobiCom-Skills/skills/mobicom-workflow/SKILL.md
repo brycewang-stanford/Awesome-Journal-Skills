@@ -14,9 +14,13 @@ single "the deadline."
 
 Before scheduling anything, pin two facts on the live CFP / HotCRP `/deadlines` page:
 
-- **Which edition does this round feed?** The summer/fall round opening after MobiCom 2026
-  competes for **MobiCom 2027**. Submitting to it is a bet on next year's program, not this
-  year's.
+- **Which edition does this round feed?** As of 2026-11-24 both MobiCom 2027 rounds feed
+  **MobiCom 2027 (Athens, October 18-22, 2027)**: the summer round (abstracts August 26,
+  papers September 2, 2026, AoE; early reject October 23; rebuttal November 3-6; acceptance
+  November 19, 2026) has decided, and the **winter round's dates are "TBD"** on the official
+  pages. Plan against an unknown winter date and re-read the CFP weekly.
+- **Is the paper eligible?** A plain MobiCom reject cannot return for **11 months** after the
+  last MobiCom deadline it entered; a one-shot revision returns at the next deadline.
 - **What is the AoE cutoff in local time?** MobiCom prints an Eastern clock time for an
   AoE deadline; convert once, for every coauthor (`mobicom-submission`).
 
@@ -35,7 +39,7 @@ channels drift, and volunteers for mobility runs have to be scheduled. Work back
 | T-5 | Baselines on tuned hardware; energy and channel measurement complete (`mobicom-experiments`) |
 | T-3 | Full draft; provenance ledger closed (`mobicom-reproducibility`) |
 | T-2 | Writing-style and related-work passes; supplementary/appendix split |
-| T-1 (abstract cutoff) | Abstract registered on HotCRP; author list and conflicts entered |
+| T-1 (abstract cutoff) | Abstract (at least 100 words, no "TBD") registered on HotCRP; full author list, conflicts, and the senior reviewing author entered |
 | T-0 (paper cutoff, AoE) | Submission audit and upload (`mobicom-submission`) |
 
 The rule of thumb from wireless deadline archaeology: **the mobility and failure-condition
@@ -53,8 +57,13 @@ Decision space: accept / one-shot revision / reject
 
 - An **early reject after stage 1** returns reviews you can use for the *next* round — treat
   it as data, not just a loss (`mobicom-review-process`).
-- The **rebuttal** is short and bounded; plan the coauthor time for it now, because it lands
-  on a fixed clock you do not control (`mobicom-author-response`).
+- The **rebuttal** is optional, at most 500 words, and may not add experiments, data, or
+  figures; plan the coauthor time for it now, because it lands on a fixed clock you do not
+  control (`mobicom-author-response`).
+- An **accept** is conditional: budget **4-6 weeks of anonymous shepherding** that may demand
+  new experiments, then the camera-ready with a **90-second teaser video**.
+- The **reviewing author** owes up to three reviews in the same round — put that load on the
+  calendar too.
 - A **one-shot revision** is a months-long commitment to a required-changes list, often with
   the same reviewers — budget the experiments it will demand before accepting the plan.
 

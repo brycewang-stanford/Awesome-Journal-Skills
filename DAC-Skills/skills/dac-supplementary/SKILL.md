@@ -8,7 +8,7 @@ description: Use when deciding what belongs inside the six reviewed pages of an 
 Use this to split content between the reviewed pages and anything external. DAC's constraint is
 severe and specific: the manuscript is **6 pages of body plus one references-only page**, and unlike
 some venues DAC does **not** provide an unlimited reviewed appendix or a formal artifact-evaluation
-track (**待核实** per cycle). The governing rule follows directly: **anything that decides
+track (the DAC 2027 call lists neither). The governing rule follows directly: **anything that decides
 acceptance must fit inside the six body pages**, because a reviewer is neither obligated to nor
 guaranteed to open external material.
 
@@ -49,7 +49,7 @@ like the PDF:
 
 - **No formal reviewed appendix** — do not write "see the appendix" for anything decision-critical;
   there is no guaranteed extra reviewed space beyond the six pages.
-- **No standing ACM artifact-badging track** for research manuscripts (**待核实**) — so an artifact
+- **No artifact-badging track** for research manuscripts (none in the DAC 2027 call) — so an artifact
   earns you credibility and citations, not a badge; build it for reproducibility and community use,
   not for a review score (`../dac-artifact-evaluation`, `../dac-reproducibility`).
 

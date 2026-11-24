@@ -43,7 +43,7 @@ A clean identification section states, for each of these, whether the design bre
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JRU spans decision experiments and applied risk; randomization inference for experiments, DiD/IV for observational claims.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JRU spans decision experiments and applied risk; randomization inference for experiments, DiD/IV for observational claims.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

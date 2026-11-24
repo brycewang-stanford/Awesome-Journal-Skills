@@ -86,7 +86,7 @@ ties the numbers to the deposited script.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). ESR is comparative quantitative sociology; cross-country panels with confounded institutions — foreground fixed effects and clustering.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). ESR is comparative quantitative sociology; cross-country panels with confounded institutions — foreground fixed effects and clustering.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

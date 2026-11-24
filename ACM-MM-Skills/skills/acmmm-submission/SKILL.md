@@ -17,7 +17,8 @@ OpenReview group before giving deadline-ready advice — ACM MM rewrites these e
   mismatched area is a quiet source of off-topic reviews.
 - Apply the current **ACM `sigconf`** template with no margin, font, or spacing edits. ACM
   MM 2026 used a **6–8 page** body; references may spill onto up to two additional pages
-  that contain *only* references.
+  that contain *only* references. No appendix may follow the paper in the main file — move
+  it to the supplement (50Mb cap in 2026). Add ACM CCS Concepts and Keywords.
 - Enforce double-blind anonymity across the paper, appendix, supplement, code, media
   assets, filenames, PDF metadata, and repository links — **unless** submitting to the
   named single-blind tracks (Reproducibility, Open Source Software, Dataset), where the
@@ -26,6 +27,11 @@ OpenReview group before giving deadline-ready advice — ACM MM rewrites these e
   their own later deadlines (in 2026: abstract Mar 25, paper Apr 1, supplement Apr 8, AoE).
 - Check concurrent-submission rules and prior-publication status; do not keep the same work
   under review at another archival venue when ACM MM forbids it.
+- Count submissions per author: in 2026 the 11th and later papers by any author (Technical,
+  Brave New Ideas and Datasets jointly) were desk-rejected, and every author is enrolled as
+  a reviewer whose late or poor reviews can desk-reject their own papers.
+- Remove anything resembling a prompt to AI reviewers (visible or hidden) — a 2026
+  desk-reject trigger.
 
 ## Blocking risks
 
@@ -47,7 +53,8 @@ OpenReview group before giving deadline-ready advice — ACM MM rewrites these e
 | Author identity in a double-blind PDF/media | Desk reject | None |
 | Wrong thematic area | Off-topic reviews, not a desk reject | Fixable before the paper deadline |
 | Supplement that will not play for a reviewer | Lost evidence | Fixable before the supplement deadline |
-| Missing OpenReview coauthor profiles | Submission blocked | Before the deadline |
+| Missing or incomplete OpenReview coauthor profiles | Desk reject | Before the deadline |
+| Appendix appended to the main PDF | Format violation | Move to the supplement before the deadline |
 
 ## Last-week sequence for a cross-modal paper
 
@@ -92,6 +99,28 @@ the authors did not read the track call — fix it before upload, not after.
 - The page counts, deadlines, and track blinding cited here describe the 2026 cycle; treat
   every number as provisional and recheck the current CFP and track calls before relying on
   it.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue acm-mm-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

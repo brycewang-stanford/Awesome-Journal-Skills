@@ -20,12 +20,22 @@ the official page before relying on them.
 - **Owner / publisher:** American Political Science Association (APSA) / Cambridge University Press.
 - **Portal:** **Editorial Manager** (`editorialmanager.com/apsr`).
 - **Review model:** **double-anonymous** — anonymize the manuscript; provide a separate title page.
-- **Tracks:** Regular Article (< 11,000 words), Research Note (< 7,000 words — see 待核实 on the exact
+- **Tracks:** Regular Article — listed as "Research Articles" on the Cambridge page — (< 11,000 words), Research Note (< 7,000 words — see 待核实 on the exact
   cap), Replications and Reappraisals, Syntheses, Registered Reports.
 - **Abstract:** **≤ 150 words.**
 - **Word count:** put it on the **front page**; counts **include tables, figures, and printed
   footnotes**, **exclude** the reference list and online appendices.
-- **Style:** **APSA Style Manual for Political Science** (author-date).
+- **Style:** references in the **Chicago Manual of Style 17th ed. author-date** system with authors'
+  full first and last names (Cambridge "Preparing your materials", re-verified 2026-11-24); the
+  submission page also points to the APSA Style Manual. Initial submissions need not meet APSR's
+  stylistic requirements, but **every reference must be real** — references are checked before review
+  and a cited work that cannot be found means desk rejection with no resubmission.
+- **Cover letter:** discouraged — use the Comments field only for issues not handled in the manuscript.
+- **Author Questionnaire:** affirm human-participants ethics (discussed in text/appendix), APSA
+  human-subjects principles, conflicts of interest, **funders**, and the commitment to post data and
+  code on the APSR Dataverse (or a justification in the text/appendix).
+- **AI use:** declare generative or analytic AI use (acknowledgments/footnote, methods, or figure
+  captions) with tool, version, dates and description; minimal spelling/grammar use is exempt.
 - **ORCID:** required for the **corresponding author** (submissions after 1 Jan 2019).
 - **Fee:** no submission fee and no APSA-membership requirement (verified 2026-06-22). Hybrid Cambridge journal; post-acceptance Gold OA APC is optional — Cambridge 2026 standard **£2,610 / US $3,655** plus tax (re-verify the current rate before submission).
 
@@ -78,7 +88,7 @@ few hundred words of headroom — revisions grow papers, and an R&R should not b
 - [ ] Separate (non-anonymous) title page prepared as a distinct file
 
 ### Format & metadata
-- [ ] APSA Style Manual formatting; consistent author-date citations
+- [ ] Chicago 17th author-date references, full first names; every cited work verifiable
 - [ ] Corresponding-author **ORCID** ready
 - [ ] Figures/tables self-contained, accessible (see `apsr-tables-figures`)
 
@@ -87,6 +97,28 @@ few hundred words of headroom — revisions grow papers, and an R&R should not b
 - [ ] Original work; preprint status checked against Cambridge preprint policy
 - [ ] Reproducibility package staged for the APSR Dataverse at conditional acceptance
       (see `apsr-transparency-and-data-policy`)
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue apsr-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

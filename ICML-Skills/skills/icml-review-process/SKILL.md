@@ -11,15 +11,24 @@ forecast acceptance by score folklore; it is to identify the decision issue and 
 ## Process features
 
 - ICML uses OpenReview with double-blind review.
-- ICML 2026 aims for about three reviews per paper, though the number can vary.
-- Reviewers consider soundness, originality, significance, clarity, and whether rebuttal resolved
-  their main concerns.
-- Authors get a response period and then one additional reviewer-author discussion round.
+- ICML 2027 adds a two-stage process: the area chair decides whether a paper proceeds to full
+  review, a senior area chair must confirm any first-stage rejection, and first-stage rejections
+  arrive by February 23, 2027. Papers in doubt go to full review, so the first page and abstract
+  have to make the contribution legible to one AC.
+- Authors pick one of seven contribution types (General, Theory, Application-driven, Concept and
+  Feasibility, Negative Results, Datasets/Evaluations/Benchmarks, Position Papers); reviewers judge
+  the paper against that type's standard, not one they prefer.
+- Main-track reviewers score soundness, presentation, significance, and originality (1-4), plus an
+  overall recommendation (1-6) and confidence, and must consider whether the discussion resolved
+  their main concerns. The per-paper review count is not stated for 2027.
+- Authors get three discussion rounds (rebuttal, reviewer follow-up, author follow-up), each capped
+  at 5,000 characters.
 - Reviewers and ACs may discuss privately; ACs synthesize conflicts and unresolved concerns.
 - Reviews and author-reviewer discussion for accepted papers are made public.
-- ICML 2026 uses a Policy A / Policy B framework for reviewer LLM use, with authors indicating
-  whether their paper requires Policy A review.
-- Reciprocal reviewing links author behavior to reviewer obligations and policy compliance.
+- ICML 2027 applies Policy B (privacy-compliant LLM assistance only, no LLM-written judgment) to all
+  reviewing; the 2026 author-selected Policy A option is not offered.
+- Reciprocal reviewing links author behavior to reviewer obligations and policy compliance: a
+  reciprocal reviewer's missing or very low-quality reviews can get the submission desk-rejected.
 
 ## Diagnosis workflow
 
@@ -47,11 +56,11 @@ defend a decision on.
 
 The optimizer paper draws one champion citing the convergence theorem, one skeptic citing an
 untuned Adam baseline, and one borderline reviewer citing clarity. The AC-quotable issue is the
-baseline soundness concern, not clarity, so the response strategy concentrates the single discussion
-round on the tuned-baseline table. Because accepted reviews and discussion become public, the authors
-keep the tone measured. If the paper also flagged Policy A LLM-review handling, confirm that choice is
-consistent so it does not surface as a procedural risk. Verify the per-paper review count and policy
-labels against the current cycle rather than assuming the prior year's setup.
+baseline soundness concern, not clarity, so the response strategy puts the tuned-baseline table in the
+first 5,000-character rebuttal and saves the follow-up rounds for the skeptic's reply. Because accepted
+reviews and discussion become public, the authors keep the tone measured. Verify the per-paper review
+count, round limits, and LLM-review policy against the current cycle rather than assuming the prior
+year's setup.
 
 ## Output format
 

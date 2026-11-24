@@ -10,9 +10,9 @@ check even though SODA has no checklist to satisfy:
 
 ## Shared kit (packaging checks only)
 
-- [`../../../shared-resources/ml-conference-methods/README.md`](../../../shared-resources/ml-conference-methods/README.md)
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/README.md`](../shared/ml-conference-methods/README.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
 
 ```bash
 # Smoke-check an anonymity-safe verification archive before linking it:

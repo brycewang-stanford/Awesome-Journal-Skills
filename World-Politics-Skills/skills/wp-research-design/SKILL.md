@@ -52,7 +52,7 @@ design does not yet identify a contribution that travels.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the design, don't only describe it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). World Politics is comparative/IR with a strong qualitative tradition; apply the chain below to its quantitative-causal lane and say so when work is case-based.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). World Politics is comparative/IR with a strong qualitative tradition; apply the chain below to its quantitative-causal lane and say so when work is case-based.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result`.
 - **Observational causal claims:** staggered DiD (`callaway_santanna` / `sun_abraham` +

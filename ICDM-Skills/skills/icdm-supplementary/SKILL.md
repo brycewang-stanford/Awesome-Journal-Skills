@@ -1,6 +1,6 @@
 ---
 name: icdm-supplementary
-description: Use when organizing supplementary and appendix material for an ICDM (IEEE International Conference on Data Mining) paper - deciding what belongs in the body, in an appendix that counts inside the single 10-page IEEE cap, or in an external anonymized repository, plus planning the compression if the paper is accepted as a short paper.
+description: Use when organizing supplementary and appendix material for an ICDM (IEEE International Conference on Data Mining) paper - deciding what belongs in the body, in an appendix that counts inside the single 10-page IEEE cap, or in an external anonymized repository, plus a contingency compression plan in case a cycle shortens Short-designated papers.
 ---
 
 # ICDM Supplementary
@@ -49,9 +49,10 @@ Allocation worked example (10-page all-inclusive budget):
   PDF total       10.0 pages  <- hard cap; over 10 = rejected without review
 ```
 
-## Plan the short-paper compression now
+## Keep a short-paper compression map as insurance
 
-Because ICDM may accept a full submission **as a short paper**, keep a compression map ready:
+ICDM designates accepted papers Regular or Short. In 2026 both kept the ten-page limit, so no
+compression was required; earlier editions shortened short papers. Keep a light map ready:
 which body sections collapse to a paragraph, which figures merge, and which detail moves
 entirely to the repository, while the mechanism and its single strongest result stay in the
 (shorter) body. Deciding this before the notification saves the camera-ready week (see

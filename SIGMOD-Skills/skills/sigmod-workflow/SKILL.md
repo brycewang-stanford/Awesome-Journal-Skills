@@ -17,7 +17,7 @@ dates are not.
 
 ```text
 Act 1  Abstract + COIs        (deadline minus ~1 week)
-Act 2  Paper deadline         (the 17th of the round month, AoE, for 2027)
+Act 2  Paper deadline         (the 17th of the round month, AoE, for 2028)
 Act 3  Feedback phase         (~2 months in; one-week reply window)
 Act 4  First verdict          (~3 months in: accept / reject / revision)
 Act 5  Revision + final       (+1 month to resubmit, ~+3 weeks to decide)
@@ -94,9 +94,9 @@ The five-act structure assumes bench depth; without it, adjust:
 ## Conference layer
 
 Publication and presentation decouple: your issue ships on the round's
-schedule, and the talk happens at the next conference edition (SIGMOD 2027:
-June 13–19, 2027, Huntington Beach; SIGMOD 2026 was May 31–June 5,
-Bengaluru). Budget registration and travel when the acceptance lands, and
+schedule, and the talk happens at the next conference edition (SIGMOD 2028:
+June 17–23, 2028, Seoul; SIGMOD 2027: June 13–18, 2027, Huntington Beach;
+SIGMOD 2026 was May 31–June 5, Bengaluru). Budget registration and travel when the acceptance lands, and
 schedule the ARI artifact push (`sigmod-artifact-evaluation`) into the gap
 between issue and conference.
 

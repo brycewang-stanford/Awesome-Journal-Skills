@@ -6,9 +6,13 @@ description: Use when reasoning about how a MICRO submission is judged — the d
 # MICRO Review Process
 
 Model of the pipeline a MICRO submission enters, anchored to the 2026 (59th) cycle
-as verified 2026-07-08. Committee composition and internal mechanics vary by year
-and are only partly public — items marked 待核实 must be reconfirmed on
-`microarch.org/micro59/` before being repeated as fact.
+as verified 2026-07-08 and re-verified 2026-11-24. The 2026 Program Co-Chairs were
+Tushar Krishna (Georgia Tech) and Yakun Sophia Shao (UC Berkeley), with Gilles Pokam
+(AMD) chairing the Industry Track and Dimitris Gizopoulos as General Chair
+(`micro59/committees/org.php`); Program Chairs do not submit papers, while PC and
+organizing-committee members may. Internal mechanics vary by year and are only
+partly public — items marked 待核实 must be reconfirmed on the current edition's
+pages before being repeated as fact.
 
 ## 2026 cycle timeline (verified)
 
@@ -38,7 +42,8 @@ three weeks after the window close is discussion and the decision meeting.
   as a rejection ground.
 - **A separate Industry Track review.** The inaugural 2026 track advertises a
   review process tailored to production work — evidence standards that accommodate
-  proprietary constraints. Main-track novelty framing and industry-track deployment
+  proprietary constraints — and it is **single-blind**: affiliations are disclosed
+  so reviewers know which product and company the data come from. Main-track novelty framing and industry-track deployment
   framing are different games; know which one your paper entered.
 
 ## What reviewers weigh in a microarchitecture paper

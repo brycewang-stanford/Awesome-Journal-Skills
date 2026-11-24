@@ -1,16 +1,19 @@
 ---
 name: osdi-camera-ready
-description: Use when converting an OSDI acceptance into the published paper — the June final-paper deadline, expansion to 14 pages plus appendices, the two-page Artifact Appendix, de-anonymization and restored acknowledgments, USENIX open-access publication from day one, and presenter obligations in Seattle.
+description: Use when converting an OSDI acceptance into the published paper — the June final-paper deadline (June 3, 2027 for OSDI '27), expansion to 14 pages plus references, any appendix or Artifact Appendix the cycle allows, de-anonymization and restored acknowledgments, USENIX open-access publication from day one, and presenter obligations in Baltimore.
 ---
 
 # OSDI Camera-Ready
 
 Deliver the final paper and the conference obligations. Dates and budgets below are
-the OSDI '26 cycle (notification March 26; final printable PDF due **June 9, 2026**;
-conference July 13–15, Seattle — verified 2026-07-08); confirm the current
-Requirements for Authors page before trusting any of them for another year.
+the OSDI '27 cycle (notification **March 16, 2027**; final papers due **June 3, 2027**;
+conference **July 7–9, 2027, Baltimore** — re-verified 2026-11-24 from the CFP). The
+'27 CFP fixes the final budget at **14 pages plus references**; the detailed final-paper
+rules (appendices, the Artifact Appendix, forms) were not yet posted and are 待核实 — the
+OSDI '26 rules quoted below as history were 14 pages plus references **and appendices**,
+due June 9, 2026, with a two-page Artifact Appendix.
 
-## The June 9 deliverable
+## The June 3 deliverable
 
 The final paper is not the submission with names added. Between March and June three
 transformations happen, in this order:
@@ -18,8 +21,8 @@ transformations happen, in this order:
 1. **Shepherd-mandated changes** (conditional accepts): completed and approved, or
    the acceptance lapses — this dominates the calendar (`osdi-author-response`).
 2. **Expansion into the final budget**: up to **14 pages** including figures and
-   tables, plus unlimited pages for references **and appendices** — the appendix
-   right the submission never had. Execute the expansion plan annotated in the
+   tables, plus unlimited pages for references (and, if the '27 final rules again
+   allow them as the '26 rules did, appendices — 待核实). Execute the expansion plan annotated in the
    source at submission time (`osdi-supplementary`): restore cut failure cases,
    attach the full proof, publish the complete result grids.
 3. **De-anonymization**: real authors and institutions on the title page; the
@@ -27,9 +30,9 @@ transformations happen, in this order:
    update *every* occurrence (body, figures, artifact, README), and keep paper and
    artifact names consistent forever after.
 
-Plus the earned extra: papers that passed artifact evaluation may add a **two-page
-Artifact Appendix** in the standard format, condensed from the AE runbook
-(`osdi-artifact-evaluation`).
+Plus the earned extra under the '26 rules: papers that passed artifact evaluation could
+add a **two-page Artifact Appendix** in the standard format, condensed from the AE
+runbook (`osdi-artifact-evaluation`); confirm whether '27 keeps it (待核实).
 
 ## De-anonymization checklist
 
@@ -51,12 +54,15 @@ ACM conferences:
   the event begins — no paywall, no ACM DL entitlements, no separate "open access
   option" to purchase. Your paper's canonical, citable home is a free
   `usenix.org` URL.
-- **No author publication charge.** USENIX funds events through registration (with
-  hardship discounts offered for OSDI '26); there is no APC line item to budget.
+- **No author publication charge.** USENIX funds events through registration; there
+  is no APC line item to budget.
 - **Slides and video** posted after the event are likewise open. Assume the talk is
   a permanent public artifact and prepare it to that standard.
-- Registration rates and any presenter-registration requirement were not readable at
-  verification time (待核实) — confirm both on the attend pages before booking.
+- **Registration duty:** by submitting, the authors agreed that at least one author
+  registers at **full price** (not the student rate) and presents; an author presenting
+  several papers still needs one full-price registration per paper. Rates are 待核实 —
+  confirm on the attend pages before booking. An embargo before the event can be requested
+  from USENIX Production.
 
 Consequence worth planning for: the paper is public **during** the conference, so
 reproduction attempts, blog dissections, and follow-up emails start in July, not
@@ -64,7 +70,7 @@ after some embargo. Have the artifact live and the README polished by the event.
 
 ## Presentation and the event
 
-- One author presents in Seattle (July 13–15 for the '26 cycle); check the
+- One author presents in Baltimore (July 7–9, 2027); check the
   Instructions for Presenters page for slide specs, session logistics, and A/V
   deadlines.
 - The **Jay Lepreau Best Paper Awards** are announced from the accepted program —
@@ -72,16 +78,16 @@ after some embargo. Have the artifact live and the README polished by the event.
 - Prepare the talk against the same arc as the paper (pain → idea → evidence), not
   as a section tour; the audience holds the free PDF in their laps.
 
-## Between final paper and Seattle
+## Between final paper and Baltimore
 
-The five weeks from June 9 to the July 13 opening are not idle:
+The five weeks from June 3 to the July 7 opening are not idle:
 
 - **Talk first draft within a week** of the final paper, while the argument is warm;
   systems talks fail from cramming the evaluation, so pick the two results that
   carry the idea and cut the rest to backup slides.
 - **Dry-run twice**, once with systems people (they attack the design) and once with
   outsiders (they reveal which slide loses the room).
-- **Artifact final polish**: the README's public debut is effectively July 13; run
+- **Artifact final polish**: the README's public debut is effectively July 7; run
   one last cold-start reproduction on a fresh machine or fresh container.
 - **Coordinate the announcement**: with open-access publication at event start, the
   lab blog post, the repository going public under its real name, and any preprint
@@ -92,14 +98,14 @@ The five weeks from June 9 to the July 13 opening are not idle:
 ## Final-week mechanics
 
 ```text
-final-week checklist (against the '26 Requirements for Authors)
+final-week checklist (against the current Requirements for Authors)
 [ ] shepherd approval recorded (conditional accepts) — BLOCKING
-[ ] 14-page budget respected; appendices compile; refs unlimited but clean
-[ ] artifact appendix (if badged) in standard format, <= 2 pages
+[ ] 14-page budget respected; refs unlimited but clean; appendices only if allowed
+[ ] artifact appendix (if badged and allowed this cycle) in standard format
 [ ] de-anonymization table above executed; grep for the anonymized name
 [ ] figures regenerate from the ledger at the final commit (no stale panels)
 [ ] printable PDF validates: fonts embedded, no overfull cropping, metadata set
-[ ] uploaded to the submissions system before June 9; confirmation archived
+[ ] uploaded to the submissions system before June 3; confirmation archived
 [ ] consent/copyright forms: check current cycle's requirements (待核实)
 ```
 
@@ -117,7 +123,7 @@ lab's webpage.
 
 ```text
 [Deadline runway] days to final-paper due; shepherd status (n/a | pending | approved)
-[Expansion] 14-page budget used how; appendix plan executed? artifact appendix in?
+[Expansion] 14-page budget used how; appendix/artifact-appendix allowed this cycle? plan executed?
 [De-anonymization] checklist rows outstanding: <list>
 [Open-access readiness] artifact live + README public-grade before the event? yes/no
 [Presenter logistics] registration/attendance items confirmed vs 待核实

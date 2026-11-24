@@ -133,7 +133,7 @@ EMNLP-Skills/
 - EMNLP 2026: **Budapest, Hungary, October 24-29, 2026**, hybrid.
 - Pipeline: ARR May cycle submission **May 25** · author registration form May 27 ·
   reviews due Jul 6 · author discussion **Jul 7-13** · meta-reviews Jul 30 ·
-  **commitment Aug 2** · notification Aug 20 · camera-ready Sep 20.
+  **commitment Aug 2** · notification Aug 20 · camera-ready Aug 30.
 - Format: ACL templates only · long ≤ 8 / short ≤ 4 content pages · unlimited
   references · mandatory uncounted Limitations section.
 - Tiers: Main conference + Findings of EMNLP (2025 anchor: 1,810 main, 1,406 Findings,

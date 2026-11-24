@@ -1,26 +1,47 @@
 # Official Source Map - CVPR
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (dead links re-checked 2026-11-23). CVPR 2027 home page, Call for
+Papers, Author Guidelines, Dates page, Reviewer Guidelines, OpenReview-profile page and
+Organizers page **re-verified 2026-11-24** against the live `cvpr.thecvf.com` pages (direct
+fetch; the 2026-07-08 HTTP 403 no longer occurs), and the pack was moved to CVPR 2027.
 
 This map records the official sources behind every CVPR-specific fact in this pack.
 CVPR policy is rewritten by each edition's Program Chairs; before giving submission-ready
 advice, reopen the current-cycle Author Guidelines, Dates page, Call for Papers, Reviewer
 Guidelines, and the OpenReview group for the year you are targeting.
 
-**Access-method note (2026-07-08):** direct fetches of `cvpr.thecvf.com` and
-`openaccess.thecvf.com` returned HTTP 403 from the verification environment's gateway,
-so the contents of the official pages were read through search-engine renderings of the
-exact URLs below, and cross-checked against the CVPR OpenReview group, the CVF
-open-access repository index, the `cvpr-org/author-kit` GitHub repository, dblp records,
-and official CVPR press announcements mirrored on PR Newswire. Open the primary URLs
-directly before relying on any date, cap, or policy sentence.
+**Edition status, checked 2026-11-24.** The live edition is **CVPR 2027**, **Seattle, WA,
+June 20-24, 2027** (workshops and tutorials June 20-21, main conference June 22-24). Its Call
+for Papers (posted September 3, 2026), Author Guidelines and Dates page are published, so this
+pack now describes CVPR 2027. Its submission window has closed: paper registration (abstract
+and author enrollment) was due **November 10, 2026**, papers **November 16, 2026** and
+supplementary material **November 23, 2026** (all AoE, no extensions). Still ahead: reviews
+released **January 25, 2027**, rebuttal **January 25 - February 1, 2027**, final decisions
+**February 25, 2027**. CVPR 2026 (Denver, June 3-7, 2026) has met; its rows are kept below as
+labelled history. No later edition is published.
 
-**Cycle status at access time:** CVPR 2026 (Denver) concluded in June 2026 and is the
-most recent completed cycle; every verified fact below is a CVPR 2026-cycle snapshot.
-The CVPR 2027 cycle (Seattle) had an announced venue/date window but **no published CFP,
-deadlines, or policies** as of 2026-07-08 — everything about 2027 is 待核实.
+**Access-method note (2026-07-08, historical):** at build time direct fetches of
+`cvpr.thecvf.com` and `openaccess.thecvf.com` returned HTTP 403 from the verification
+environment's gateway, so the CVPR 2026 pages were read through search-engine renderings of
+the exact URLs and cross-checked against the CVPR OpenReview group, the CVF open-access
+repository index, the `cvpr-org/author-kit` GitHub repository, dblp records, and official
+CVPR press announcements mirrored on PR Newswire. The CVPR 2027 pages below were fetched
+directly on 2026-11-24.
 
-## Primary official sources
+## Primary official sources (CVPR 2027, read 2026-11-24)
+
+| # | Source URL | What it verifies | Access date |
+|---|---|---|---|
+| A1 | https://cvpr.thecvf.com/Conferences/2027/CallForPapers | CVPR 2027 topics list; dates (paper enrollment Nov 10, 2026 and submission Nov 16, 2026 AoE, both fixed; supplementary Nov 23, 2026; reviews released Jan 25, 2027; rebuttal Jan 25 - Feb 1, 2027; final decisions Feb 25, 2027); OpenReview `thecvf.com/CVPR/2027/Conference`; up-to-date OpenReview profiles for all co-authors (non-institutional profiles moderated for up to two weeks); dual-submission review period Nov 16, 2026 - Feb 22, 2027; mandatory reviewer service for all authors; IEEE submission policies; CVF releases accepted papers two weeks before the conference (patent disclosure date); contemporaneous work = online after Sept 15, 2026. | 2026-11-24 |
+| A2 | https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines | What is new in 2027: at most **25** submissions per author; new reciprocal-reviewer quota (at most one paper per author with no eligible reciprocal reviewer; eligibility = accepted main-track paper or journal article at listed venues by Nov 10, 2026, checked from the OpenReview profile only); consolidated Desk Rejection Policy (A quotas, B formatting/anonymity/administrative incl. missing LLM Usage Statement, C research integrity incl. dual submission, plagiarism, prompt injection, fabricated content, D highly irresponsible reviewing incl. uploading submissions to external LLMs, E papers that cannot be meaningfully reviewed); papers limited to **8** pages including figures and tables, with extra pages only for cited references and the **mandatory LLM Usage Statement** (after the main text, before the references, not counted, anonymous; missing = desk rejection); template `author-kit-CVPR2027-v1-latex.zip`; double-blind; author list frozen at the abstract deadline, order final at the paper deadline; dual submission = 20 percent or more overlap, publications are peer-reviewed works longer than four pages, arXiv is not a publication; supplementary material optional (videos, proofs, code encouraged), no formatting requirements; IRB statement required for human/animal-subject research; data-use and AI-processing consent at enrollment; conference-approved LLM tools in OpenReview process submissions during review (no opt-out; reviewers may not use external LLMs); one-page rebuttal PDF on the official template, no links, no new contributions, prompt-injection ban applies; media embargo until acceptance; at least one author registers and presents; Main Track and Findings Track with separate proceedings (Findings piloted at CVPR 2026, by AC recommendation and invitation); camera-ready discloses AI-generated content in the Acknowledgements (IEEE policy). | 2026-11-24 |
+| A3 | https://cvpr.thecvf.com/Conferences/2027/Dates | Meeting dates (workshops/tutorials June 20-21, main conference June 22-24, 2027); paper registration Nov 10, submission Nov 16, supplementary Nov 23, 2026; reviews due Jan 8, 2027; reviews released Jan 25, 2027; rebuttal Jan 25 - Feb 1, 2027; reviewer responses and AC-reviewer discussion Jan 25 - Feb 5; final reviewer recommendations Feb 5; AC triplets Feb 11-19; final decisions Feb 25, 2027 (all AoE). | 2026-11-24 |
+| A4 | https://cvpr.thecvf.com/Conferences/2027 | CVPR 2027 home page: Seattle WA, June 20-24, 2027; Call for Papers announced Sep 3, Call for Workshops Oct 2, 2026; IEEE/CVF co-sponsorship. | 2026-11-24 |
+| A5 | https://cvpr.thecvf.com/Conferences/2027/ReviewerGuidelines | Reviewer-side rules for 2027, including the dataset-release-by-camera-ready expectation and AC recommendation of papers to the Findings Track. | 2026-11-24 |
+| A6 | https://cvpr.thecvf.com/Conferences/2027/CompleteYourORProfile | OpenReview profile completion and DBLP import instructions used for conflicts and reciprocal-reviewer eligibility. | 2026-11-24 |
+| A7 | https://cvpr.thecvf.com/Conferences/2027/Organizers | CVPR 2027 General Chairs Deva Ramanan (Carnegie Mellon University) and Arun Ross (Michigan State University); Program Chairs Alexander Berg (UC Irvine), Liangliang Cao (Hong Kong Polytechnic University), Vicky Kalogeiton (École Polytechnique, IP Paris), Nicu Sebe (University of Trento), Humphrey Shi (NVIDIA / Georgia Tech), Angela Yao (NUS); Language Model Chairs from OpenReview. | 2026-11-24 |
+| A8 | https://openreview.net/group?id=thecvf.com/CVPR/2027/Conference | CVPR 2027 OpenReview submission group, as linked from the CFP and Author Guidelines (group page not opened). | 2026-11-24 |
+
+## CVPR 2026 sources (historical edition, met June 3-7, 2026)
 
 | # | Source URL | What it verifies | Access date |
 |---|---|---|---|
@@ -37,9 +58,57 @@ deadlines, or policies** as of 2026-07-08 — everything about 2027 is 待核实
 | 11 | https://github.com/cvpr-org/author-kit | The official CVPR author kit (LaTeX class, submission template, and `rebuttal.tex` one-page rebuttal template). | 2026-07-08 |
 | 12 | https://tc.computer.org/tcpami/cvpr/ and https://www.thecvf.com/?p=137 | CVPR co-sponsorship by the IEEE Computer Society (TC on Pattern Analysis and Machine Intelligence) and the Computer Vision Foundation; CVF list of upcoming sponsored conferences, including a Seattle listing for CVPR 2027. | 2026-07-08 |
 | 13 | https://dblp.org/rec/conf/cvpr/RedmonDGF16.html plus CVF open-access paper pages | Metadata verification (venue, authors, pages) for every exemplar in `exemplars/library.md`. | 2026-07-08 |
-| 14 | https://denverconvention.com/events/details/ieee-cvpr-2026 and https://cvpr.thecvf.com/Conferences/2026/ExpoSchedule | CVPR 2026 ran June 3–7, 2026 at the Colorado Convention Center, Denver: workshops/tutorials June 3–4, main conference and expo June 5–7. | 2026-07-08 |
+| 14 | https://cvpr.thecvf.com/Conferences/2026 (replaces the Colorado Convention Center event listing, removed after the event; the CVPR 2026 home page reads "Wed June 3 - Sun June 7, 2026 at the Colorado Convention Center", re-read 2026-11-23) and https://cvpr.thecvf.com/Conferences/2026/ExpoSchedule | CVPR 2026 ran June 3–7, 2026 at the Colorado Convention Center, Denver: workshops/tutorials June 3–4, main conference and expo June 5–7. | 2026-07-08 |
 
-## Verified 2026-cycle facts used in the skills
+## Verified CVPR 2027 facts used in the skills (re-verified 2026-11-24)
+
+- CVPR 2027 meets in Seattle, June 20-24, 2027 (workshops/tutorials June 20-21, main
+  conference June 22-24), under IEEE Computer Society and CVF co-sponsorship (A3, A4).
+- Submission runs on OpenReview (`thecvf.com/CVPR/2027/Conference`). Paper registration
+  (title, abstract, full author list with complete profiles and enrollment, including the
+  data-use and AI consent) closed November 10, 2026; papers November 16, 2026 and
+  supplementary material November 23, 2026, AoE, no extensions (A1, A2, A3).
+- Papers are capped at **8 pages including figures and tables**; extra pages are allowed
+  only for cited references and the mandatory **LLM Usage Statement**. Wrong template,
+  altered margins/fonts, over-length papers or a missing statement are desk-rejected (A2).
+- **Mandatory LLM Usage Statement (new for 2027):** a section titled "LLM Usage Statement"
+  after the main text and before the references, anonymous, not counted; it names any LLM
+  or generative-AI tool used in the research or writing (including editing and grammar),
+  the affected parts and the extent, or states "No LLMs or generative AI tools were used in
+  this work". At camera-ready, AI-generated content is disclosed in the Acknowledgements (A2).
+- **Conference-side LLM use (new for 2027):** conference-approved LLM tools inside OpenReview
+  process submissions, reviews and rebuttals at several stages; they make no decisions or
+  scores; there is no paper-level opt-out; reviewers and ACs may not upload content to any
+  other LLM, which is treated as misconduct and can desk-reject the reviewer's own papers (A2).
+- **Quotas (new for 2027):** at most 25 submissions per author; and at most one submission
+  per author on which no author is an eligible reciprocal reviewer (an accepted main-track
+  paper at a listed CV/ML/robotics/graphics/NLP venue or journal by November 10, 2026, as
+  shown on the OpenReview profile). Excess papers are desk-rejected from the highest paper
+  IDs (A2).
+- **Consolidated Desk Rejection Policy** with five classes (quotas; formatting, anonymity and
+  administrative; research integrity incl. prompt injection and fabricated citations; highly
+  irresponsible reviewing; papers that cannot be meaningfully reviewed); decisions are final (A2).
+- Dual submission: no substantially similar paper (20 percent or more overlap) under review
+  elsewhere during November 16, 2026 - February 22, 2027; a publication is a peer-reviewed
+  work longer than four pages; arXiv and technical reports are not publications (A1, A2).
+- Contemporaneous work: publicly available on or after September 15, 2026 (A1, A2).
+- Rebuttal: optional one-page PDF on the official template (rebuttal window January 25 -
+  February 1, 2027); anonymous, no external links, no unrequested new contributions; an
+  optional confidential comment to the AC only in exceptional circumstances (A2, A3).
+- All authors join the reviewer pool unless exempted; highly irresponsible reviewers can
+  have all their CVPR 2027 submissions desk-rejected (A1, A2).
+- Human- or animal-subject research must name the IRB (or equivalent) or explain why no
+  review took place, and report consent (A2).
+- Accepted papers: Main Track or Findings Track (separate proceedings); CVF releases papers
+  two weeks before the conference; at least one author registers and presents; a dataset
+  claimed as a contribution must be public by camera-ready (A1, A2, A5).
+- Reviews and author responses are never made public (A2).
+- The Compute Reporting Form used in 2026 is **not mentioned** in the CVPR 2027 CFP or
+  Author Guidelines (A1, A2); see 待核实.
+- CVPR 2027 General Chairs Deva Ramanan and Arun Ross; Program Chairs Alexander Berg,
+  Liangliang Cao, Vicky Kalogeiton, Nicu Sebe, Humphrey Shi, Angela Yao (A7).
+
+## Verified 2026-cycle facts (historical edition)
 
 - CVPR 2026 was held June 3–7, 2026 in Denver, Colorado (workshops/tutorials June 3–4,
   main program June 5–7), organized under IEEE Computer Society and CVF co-sponsorship.
@@ -93,17 +162,48 @@ deadlines, or policies** as of 2026-07-08 — everything about 2027 is 待核实
   were not directly fetchable; confirm at the official Organizers page.
 - CVPR 2026 described as the 43rd edition of the series (secondary press only).
 
-## Not found / cycle-volatile (待核实 every cycle)
+## Not found / cycle-volatile (待核实, as of 2026-11-24)
 
-- The supplementary-material size cap and permitted file types for 2026 (the deadline is
-  verified; the byte/format limits were not fetchable) — 待核实.
-- Camera-ready mechanics: the exact camera-ready deadline, page allowance, IEEE
+- **Compute Reporting Form in 2027.** The 2027 CFP and Author Guidelines (A1, A2) do not
+  mention a CRF; whether OpenReview still asks for one could not be checked without an
+  author login. Do not tell authors it is required for 2027.
+- The supplementary-material size cap and permitted file types (the 2027 guidelines say
+  supplementary PDFs have no formatting requirements but state no byte limit) — 待核实.
+- Camera-ready mechanics for 2027: the camera-ready deadline, page allowance, IEEE
   copyright/PDF-validation forms, and registration-per-paper requirements — 待核实.
-- Whether authors must disclose LLM assistance (no such requirement surfaced for 2026,
-  but absence was not provable from renderings) — 待核实.
-- In-person presentation obligations for accepted papers — 待核实.
-- CVPR 2027: Seattle, with aggregator listings around June 20–24, 2027 (some listings
-  June 19–26) at the Seattle Convention Center; no official CFP, deadlines, page limits,
-  or policy pages were published at access time. Treat every 2027 statement as 待核实.
-- All future OpenReview group IDs, template versions, CRF revisions, and review-form
-  changes.
+- Findings Track details for 2027 ("Detailed guidelines will follow") — 待核实.
+- Abstract length limit: none stated.
+- The edition after CVPR 2027: no page published.
+
+Resolved on 2026-11-24 and removed from this list: whether authors must disclose LLM
+assistance (yes — the mandatory LLM Usage Statement, A2); in-person presentation (at least
+one author must register and present, A2); CVPR 2027 dates, venue, deadlines and policies
+(A1-A4).
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and
+python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "CVPR 2027",
+  "verified": "2026-11-24",
+  "rules": {
+    "main_text_pages_max": {"value": 8, "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines", "note": "CVPR 2027: eight pages including figures and tables; extra pages only for cited references and the mandatory LLM Usage Statement"},
+    "page_limit_includes_references": {"value": false, "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines"},
+    "review_mode": {"value": "double-blind", "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines", "note": "reviews and author responses are never made public"},
+    "anonymized_supplement_required": {"value": true, "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines"},
+    "required_statements": {"value": ["ai_use_disclosure"], "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines", "note": "section titled 'LLM Usage Statement' after the main text and before the references, required even when no LLM was used; missing = desk rejection"},
+    "conditional_statements": {"value": ["ethics_approval", "informed_consent"], "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines", "note": "research on human or animal subjects must name the IRB or equivalent (or explain why none) and report consent; may go in the paper or the anonymized supplement"},
+    "template": {"value": "CVPR 2027 Submission Template (author-kit-CVPR2027-v1-latex.zip), incl. one-page rebuttal template", "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines"},
+    "portal": {"value": "OpenReview (thecvf.com/CVPR/2027/Conference)", "source": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"},
+    "supplement_policy": {"value": "optional, due one week after the paper (Nov 23, 2026); videos, proofs, extra results, code encouraged; anonymized; no external links that expand content; reviewers not obliged to read it", "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines"},
+    "preprint_policy": {"value": "arXiv posting allowed and not a publication; no media discussion of the submission until acceptance; do not advertise it as under submission to CVPR", "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines"},
+    "llm_policy": {"value": "authors may use LLMs but are fully responsible; mandatory LLM Usage Statement; LLMs cannot be authors; fabricated citations and prompt injection lead to (desk) rejection; submissions processed by conference-approved LLM tools in review, no opt-out", "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines"},
+    "data_code_policy": {"value": "code in the supplement encouraged, not required; a dataset claimed as a contribution must be public by camera-ready", "source": "https://cvpr.thecvf.com/Conferences/2027/AuthorGuidelines"},
+    "abstract_words_max": {"value": null, "note": "not stated on the official pages as of 2026-11-24"}
+  }
+}
+```

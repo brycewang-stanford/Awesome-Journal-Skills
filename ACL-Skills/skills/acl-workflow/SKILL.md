@@ -14,6 +14,22 @@ ACL is a conference with rotating per-edition program committees, not a
 journal: there is no standing editor and no APC. Costs are registration-based,
 and Anthology publication is free and open access.
 
+## The live edition: ACL 2027
+
+ACL 2027 (65th edition, Kyoto, August 17-22, 2027) published its main-conference
+call on September 29, 2026 (re-verified 2026-11-23):
+
+| Milestone | Date (ACL 2027 call) |
+|---|---|
+| ARR January 2027 cycle submission | January 4, 2027 (AoE) |
+| Eligible packages | January 2027 cycle or any earlier cycle |
+| Commitment to ACL 2027 | TBA |
+| Acceptance notification / camera-ready | TBA |
+| Tutorials · workshops · main conference | Aug 17 · Aug 18-19 · Aug 20-22, 2027 |
+
+ARR has not yet published the January 2027 cycle's review, response and
+meta-review dates, so the offsets below come from the previous edition.
+
 ## The 2026 rhythm as a worked anchor
 
 ACL 2026 (64th edition, San Diego, July 2-7, 2026) drew from the ARR October
@@ -33,20 +49,22 @@ ACL 2026 (64th edition, San Diego, July 2-7, 2026) drew from the ARR October
 The commitment table is the part authors get wrong, because it is set by ARR and not by
 the conference: a cycle can only commit to the venues ARR lists against it, so "I will
 aim for ACL" is a decision about *which month to submit to ARR*, often two or three
-cycles ahead. As published on `aclrollingreview.org/dates` (re-read 2026-08-27):
+cycles ahead. As published on `aclrollingreview.org/dates` (re-verified 2026-11-23):
 
 | Venue | Final ARR submission | Commitment |
 |---|---|---|
 | EMNLP 2026 · AACL 2026 | May 25, 2026 | August 2, 2026 |
 | EACL 2027 | August 3, 2026 | October 11, 2026 |
-| NAACL 2027 · COLING 2027 | October 12, 2026 | December 20, 2026 |
-| **ACL 2027** (Kyoto, Aug 17-22, 2027) | **January 2027** | not yet posted |
+| NAACL 2027 · COLING 2027 | October 12, 2026 | December 23, 2026 |
+| **ACL 2027** (Kyoto, Aug 17-22, 2027) | **January 2027** (Jan 4 per the ACL 2027 call) | not yet posted |
 
 Two things follow that a reader working from the 2026 anchor above would get wrong.
-**No 2026 cycle reaches ACL 2027** — the October 12 slot, the last one on the 2026
-calendar, commits to NAACL and COLING. And the October 2026 cycle publishes only its
-submission date and its cycle end (December 20); every date in between is still TBA, so
-a plan that needs a known author-response window cannot use it yet.
+**No 2026 cycle is a first-submission route to ACL 2027** — the October 12 slot, the
+last one on the 2026 calendar, commits to NAACL and COLING (its author response runs
+November 24-30, meta-reviews December 17, cycle end December 20). A package already
+reviewed in an earlier cycle can still be committed to ACL 2027, since the call accepts
+"the January 2027 cycle or an earlier cycle". And ARR lists no 2027 cycle rows yet, so
+a plan that needs the January cycle's author-response window cannot pin it yet.
 
 Every date here is cycle-volatile, including the ones that are printed: re-read
 `aclrollingreview.org/dates` before committing a team to any of them.
@@ -114,9 +132,13 @@ meta-review score forbids quick resubmission without wholesale revision.
   fallback is a real decision because commitment windows do not wait.
 - Reuse infrastructure deliberately: one anonymization script, one
   checklist template pre-filled with lab defaults, one supplement layout.
-- Reviewer-duty obligations may attach to submissions in current cycles;
-  budget senior-author reviewing time into the same calendar (verify the
-  current cycle's policy — this has changed over the years).
+- Reviewer duty is now per submission: from the October 2026 cycle, ARR's
+  sustainable reviewing policy guarantees review only to submissions naming a
+  qualified service contributor (max 2 submissions each, registered within 48
+  hours after the deadline); the rest go to a lottery and are desk rejected if
+  not drawn. Caps: 20 submissions per author, 5 as first or joint-first author.
+  Allocate contributors across the lab's papers before deadline week (verify
+  the current cycle's policy — this has changed repeatedly).
 
 ## Signals to re-plan immediately
 

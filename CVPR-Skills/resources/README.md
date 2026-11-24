@@ -19,8 +19,8 @@ page, and run pre-upload checks on a supplement package.
 This is a computer-vision conference pack. The evidence culture is benchmarks,
 ablations, and qualitative/video results — not econometrics, and not
 proof-per-theorem theory. Use the shared ML-conference kit for artifact packaging; use
-this pack's skills for the CVPR-specific layers (CRF, external-link ban, reviewer-duty
-enforcement, one-page rebuttal).
+this pack's skills for the CVPR-specific layers (LLM Usage Statement and quotas in 2027,
+the 2026 CRF, external-link ban, reviewer-duty enforcement, one-page rebuttal).
 
 ## Suggested route through the pack
 

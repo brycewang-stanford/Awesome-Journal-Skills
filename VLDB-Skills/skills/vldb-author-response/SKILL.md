@@ -1,6 +1,6 @@
 ---
 name: vldb-author-response
-description: Use when a PVLDB paper receives a revision verdict and the response package must be built, covering the one-shot revision rule, the three-month window, reading the reviewers' required-changes list, planning new experiments against the clock, and writing the change document that VLDB reviewers re-evaluate against.
+description: Use when a PVLDB paper receives a revision verdict and the response package must be built, covering the one-shot revision rule, the 2.5-month window, reading the reviewers' required-changes list, planning new experiments against the clock, and writing the change document that VLDB reviewers re-evaluate against.
 ---
 
 # VLDB Author Response
@@ -9,7 +9,7 @@ Use this when PVLDB reviews arrive — typically around the 15th of the month
 after your deadline — and the verdict is **revise**. PVLDB has no rebuttal
 phase before decisions: the reviews and the outcome land together, so the
 author-response genre at this venue *is* the revision package. You get exactly
-one revision, and up to three months to deliver it.
+one revision, and up to 2.5 months to deliver it.
 
 ## Read the verdict as a contract
 
@@ -22,19 +22,25 @@ revision must contain. Treat that list as the acceptance test.
 - Separate **required** changes from **suggested** ones. Required items decide
   the outcome; suggestions earn goodwill when cheap.
 - Estimate honestly whether the heaviest requirement — usually a new experiment
-  or a stronger baseline — fits inside three months on your hardware. If it
+  or a stronger baseline — fits inside 2.5 months on your hardware. If it
   cannot, decide now between a scoped-down response and a withdrawal, because a
-  failed revision consumes the only attempt.
+  failed revision consumes the only attempt — and under the Vol 20 guidelines a
+  withdrawal after a revision decision counts as a rejection, with the 12-month
+  resubmission embargo.
 
-## Budgeting the three months
+## Budgeting the 2.5 months
+
+Vol 20 revisions are due on the 1st of one of the three months after the
+revision notification (about 0.5, 1.5 or 2.5 months later); pick the slot
+when you build the ledger.
 
 | Weeks | Activity |
 |---|---|
 | 1 | Ledger built, requirements interpreted, infeasible items escalated |
-| 2-7 | New runs, added baselines, corrected analyses |
-| 8-9 | Text integration; every change traceable to a ledger item |
-| 10-11 | Change document drafted; internal re-review against the ledger |
-| 12 | Buffer for rerun failures; submit early, not at the wire |
+| 2-6 | New runs, added baselines, corrected analyses |
+| 7-8 | Text integration; every change traceable to a ledger item |
+| 9 | Change document drafted; internal re-review against the ledger |
+| 10 | Buffer for rerun failures; submit on the last 1st-of-month slot at the latest |
 
 The same reviewers return. They remember what they asked for, and they check
 the ledger items first — new prose that dodges a required experiment is the
@@ -85,5 +91,5 @@ R2.3 [quoted requirement]
 [Feasibility] fits window / at risk (item, reason) / infeasible
 [Heaviest item] <experiment or analysis, est. weeks>
 [Change-document status] <drafted sections / gaps>
-[Submit-by] <own target, ahead of the 3-month limit>
+[Submit-by] <own target, ahead of the 2.5-month limit>
 ```

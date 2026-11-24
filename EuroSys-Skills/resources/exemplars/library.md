@@ -73,10 +73,12 @@ evidence stack.
   - **Self-check:** does your paper give reviewers a vocabulary for the design space, not just
     a point solution in it?
 
-### Production experience — Borg (EuroSys 2015; Test-of-Time 2019)
+### Production experience — Borg (EuroSys 2015; EuroSys Test-of-Time Award)
 
 - **Verma, Pedrosa, Korupolu, Oppenheimer, Tune & Wilkes, "Large-scale cluster management at
-  Google with Borg."**
+  Google with Borg."** Listed among the past EuroSys Test-of-Time recipients on
+  `eurosys.org/awards/test-of-time-award` (entry carries no year label; re-checked
+  2026-11-24 — it is **not** the 2019 award, which went to SnowFlock).
   - **Lesson:** the definitive template for an experience paper: a decade of operation
     distilled into lessons others can act on, with warts documented. EuroSys is a first-class
     home for honest production retrospectives.
@@ -106,7 +108,7 @@ evidence stack.
 | Systems tooling on real codebases | Coccinelle collateral evolutions | 2008 (ToT 2018) | Tool with a thesis |
 | Scheduling mechanisms | Delay Scheduling | 2010 (ToT 2020) | Small idea, production evidence |
 | Scheduler architecture | Omega | 2013 (ToT 2023) | Design-space taxonomy + traces |
-| Production experience | Borg | 2015 (ToT 2019) | Operational retrospective |
+| Production experience | Borg | 2015 (ToT, year unlabeled) | Operational retrospective |
 | ML-serving systems | CacheBlend | 2025 (Best Paper) | Mechanism for LLM inference infra |
 
 The 2007→2025 spread is intentional: it shows the through-line (mechanism + believable

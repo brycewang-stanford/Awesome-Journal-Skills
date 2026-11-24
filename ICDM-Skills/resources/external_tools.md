@@ -11,7 +11,10 @@ last edition may point at a different regime this one. Note the gateway 403 on t
 
 - ICDM 2026 conference site: https://icdm2026.neu.edu.cn/
 - ICDM 2026 Research Track call: http://icdm2026.neu.edu.cn/CallforResearchTrack/list.htm
-- ICDM 2026 Applied Track call: http://icdm2026.neu.edu.cn/CallforAppliedTrackPapers/list.htm
+- ICDM 2026 Applied Track call: http://icdm2026.neu.edu.cn/CallforAppliedTrack/list.htm (the
+  older `/CallforAppliedTrackPapers/` address returned "not found" on 2026-11-24)
+- ICDM 2026 important dates: http://icdm2026.neu.edu.cn/ImportantDates/list.htm
+- ICDM 2026 author (camera-ready) instructions: http://icdm2026.neu.edu.cn/AuthorInstructions/list.htm
 - ICDM 2026 Blue Sky Track (CCC): https://cccblog.org/2026/04/07/call-for-papers-ccc-sponsored-blue-sky-track-at-icdm-2026/
 - IEEE ICDM awards (impact / best-paper history): https://icdm.zhonghuapu.com/Awards/Awards-All.shtml
 - IEEE Xplore ICDM proceedings: https://ieeexplore.ieee.org/ (search "IEEE International Conference on Data Mining")
@@ -29,10 +32,13 @@ last edition may point at a different regime this one. Note the gateway 403 on t
   body, figures, or citations.
 - Reproducibility and supplementary evidence packaged inside the anonymity regime of the chosen
   track.
-- Abstract registered by the abstract deadline; full paper uploaded by the paper deadline (AoE).
-- Post-acceptance: register at least one author, prepare IEEE camera-ready and copyright forms,
-  and handle a possible **short-paper acceptance** (a full-length draft compressed to the
-  short-paper camera-ready length).
+- Full paper uploaded by the paper deadline (AoE) — 2026 had no separate abstract deadline —
+  with the reproducibility checklist completed in the submission system.
+- No new preprint posted or publicized during review (preprints from before submission may
+  stay up).
+- Post-acceptance: register at least one author, prepare the IEEE camera-ready (PDF eXpress,
+  copyright), the required poster, and note the Regular/Short designation (both ten pages in
+  2026).
 
 ## Do not infer
 

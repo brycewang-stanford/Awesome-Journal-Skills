@@ -13,7 +13,7 @@ English | [简体中文](README.zh-CN.md)
 
 Agent skill stack for manuscripts targeted at the **Strategic Management Journal (SMJ)** — the flagship strategy journal, published by **Wiley** for the **Strategic Management Society (SMS)**.
 
-This repository is opinionated. It is **not** a generic management-writing toolbox. It is an **SMJ-specific** stack covering strategy-grounded topic selection, theory development, literature positioning, identification-aware research design, endogeneity-defeating data analysis, contribution framing, self-contained exhibits, house style, ScholarOne submission, the multi-round review process, and R&R rebuttals.
+This repository is opinionated. It is **not** a generic management-writing toolbox. It is an **SMJ-specific** stack covering strategy-grounded topic selection, theory development, literature positioning, identification-aware research design, endogeneity-defeating data analysis, contribution framing, self-contained exhibits, house style, Wiley Research Exchange submission, the multi-round review process, and R&R rebuttals.
 
 > Note on accuracy: this pack describes **durable norms**. Volatile specifics (current editors, exact word/length limits, fees or open-access options, reference style) change over time — always verify them on the official SMJ Author Guidelines page before submitting.
 
@@ -33,7 +33,7 @@ SMJ imposes constraints that differ materially from general-management journals 
 | Self-selection            | Selection into the strategic choice must be addressed             | Ignoring self-selection invites rejection                    |
 | Methods bar               | Panel FE + IV / DID / matching / Heckman; placebos & robustness   | OLS-with-controls rarely suffices                            |
 | Contribution              | A change in how strategy scholars think                           | A list of findings is not a contribution                     |
-| Process                   | ScholarOne; action editor + multiple reviewers; multi-round       | First-round Major Revision is normal and encouraging         |
+| Process                   | Wiley Research Exchange; action editor + multiple reviewers; multi-round | First-round Major Revision is normal and encouraging         |
 
 Generic "scientific writing" or "management writing" skill packs do not address these constraints.
 
@@ -111,7 +111,7 @@ smj-rebuttal
 | `smj-contribution-framing`  | Make the contribution land as strategy theory, not generic management   |
 | `smj-tables-figures`        | Self-contained exhibits, marginal-effects & event-study figures         |
 | `smj-writing-style`         | Late-stage prose polish and house conventions                           |
-| `smj-submission`            | ScholarOne preflight + checklist + manuscript template                  |
+| `smj-submission`            | Research Exchange preflight + checklist + manuscript template           |
 | `smj-review-process`        | Read the decision letter; plan the revision around the gating concern   |
 | `smj-rebuttal`              | Point-by-point R&R response-letter structure                            |
 

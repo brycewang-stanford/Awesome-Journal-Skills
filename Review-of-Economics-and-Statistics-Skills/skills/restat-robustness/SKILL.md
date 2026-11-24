@@ -37,7 +37,7 @@ REStat referees ask whether the headline number is **a fact about the world or a
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). REStat is applied econometrics/empirical micro — the home of careful identification; DiD/IV/RDD with weak-IV-robust CIs.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). REStat is applied econometrics/empirical micro — the home of careful identification; DiD/IV/RDD with weak-IV-robust CIs.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

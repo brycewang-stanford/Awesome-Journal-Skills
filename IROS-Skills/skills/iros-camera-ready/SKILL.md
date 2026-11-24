@@ -7,8 +7,9 @@ description: Use when preparing an accepted IROS paper for IEEE Xplore camera-re
 
 Use this after acceptance. Reopen the current IROS final-submission instructions, the IEEE PDF-eXpress
 and copyright pages, the registration page, and the presentation policy before advising authors. For the
-2026 cycle the camera-ready (final paper) deadline was **July 10, 2026**, close behind the **June 16**
-notification — a short turnaround, so plan it as part of submission, not an afterthought.
+2026 cycle the camera-ready (final paper) deadline was **July 16, 2026** — the same day as the author
+registration deadline — a month after the **June 16** notification (oral-format preference was due
+June 30). A short turnaround, so plan it as part of submission, not an afterthought.
 
 ## Camera-ready audit
 
@@ -22,8 +23,12 @@ notification — a short turnaround, so plan it as part of submission, not an af
   the **IEEE electronic copyright form (eCF)** — publication in Xplore is gated on it.
 - Prepare the **public artifact release** now that anonymity no longer applies: repository, logs, configs,
   datasets, and a citable archive; test every link from a logged-out browser.
-- Confirm **registration and in-person presentation** obligations; at least one author typically must
-  register and present.
+- Confirm **registration and in-person presentation** obligations: in 2026, papers whose authors had not
+  registered by July 16 were removed from the program and proceedings, and every accepted paper was
+  presented in person (talk plus poster), with proxy or remote arrangements only for visa, illness or
+  travel disruption.
+- If any AI-generated content was used, keep the disclosure in the **acknowledgments** (system named,
+  sections specified), as the 2026 generative-AI guidelines require.
 
 ## De-anonymization sweep
 

@@ -1,0 +1,37 @@
+【Preflight】paper.pdf (pdf) → AER: Insights
+【Venue rules】American Economic Review: Insights — verified 2026-11-23 (AER-Insights-Skills/resources/official-source-map.md)
+【Mechanical verdict】NO-GO  (3 FAIL · 1 FLAG · 5 INFO)
+【Counts】abstract_words=100, abstract_chars=100, main_text_words=5372, main_text_chars=5372, main_exhibits=5, word_cap_after_exhibits=6000, keywords=5, references=23, in_text_citations=31
+
+FAIL
+  ANON-AUTHOR       [front matter] Author block is not anonymized: 'Suguru Otani†'. Double-blind review requires removing names, affiliations and emails.
+                    → owner: *-submission (anonymization)
+  ANON-ACK          [page 1] Acknowledgments / funding / thanks present in a double-blind submission; remove them until the camera-ready version.
+                    → owner: *-submission (anonymization)
+  ANON-META         [file metadata] File metadata field 'author' = 'Suguru Otani; Chang Yang' identifies an author; clear document properties before upload.
+                    → owner: *-submission (anonymization)
+
+FLAG
+  EXH-STARS         [page 11] Significance asterisks in 60 table row(s) (first: '−0.272∗∗∗ (0.076)'); the venue does not allow them — report standard errors or confidence intervals instead.
+                    → owner: *-tables-figures
+
+INFO
+  NUM-MISMATCH      [page 2] '51.7 percent' in the introduction does not appear in any table or in the body text (also tried ×100, ÷100, rounding, and — for comparisons — differences within a table) — the paragraph cites a figure, so it may be printed in the image. Sentence: 'Visits from China fell by 51.7 percent from'
+  REF-UNRESOLVED    [page 18] Grey literature, not Crossref-indexed — check by hand: Kanayama, H., Miyaji, S. and Otani, S. (2026). Just after minimum wage hikes: Shortrun lab
+  REF-UNRESOLVED    [page 18] Grey literature, not Crossref-indexed — check by hand: Matsuura, T., Endoh, M. and Saito, H. (2026). Impact of Inbound Tourism on Regional Econom
+  REF-UNRESOLVED    [page 18] Grey literature, not Crossref-indexed — check by hand: Sekiya, K., Otani, S., Komatsu, Y., Fujii, Y., Ozeki, S. and Noda, S. (2026). Designing re
+  LEN-APPENDIX      [page 19] An appendix ('Supplementary Appendix') is bound into this file. It was excluded from the counts above; check whether the venue counts in-file appendices or wants them uploaded separately.
+
+【Portal checklist — from the venue rules, not testable in the file】
+  · Disclosure statement: required as a separate upload or form field, not inside the manuscript (keep it out of the anonymized file)
+  · Cover letter: optional
+  · AI/LLM policy: AI cannot be an author; AI use in preparing the manuscript (including drafting or editing text) must be briefly described at submission; authors responsible for checking AI output
+  · Data & code policy: AEA Data and Code Availability Policy: data, code and computation details sufficient for replication before acceptance; AEA Data Editor checks
+  · File format: PDF, under 10 MB where possible; anonymized manuscript with title and abstract on the first page plus a separate 'title page' PDF and the AEA word-count PDF
+  · Anonymized supplement required: yes
+  · Submission fee: AEA members USD 200 / 100 / 0, nonmembers USD 300 / 200 / 0 (high / middle / low income); 50% refund if rejected without review; plus USD 15 per typeset page publication fee for papers first submitted on or after 2024-02-01
+  · Portal: ScholarOne Manuscripts
+  · Reference style: author-date, based on the Chicago Manual of Style
+
+【Checked】abstract ≤ 100 words; ≤ 5 main-text exhibits; main text ≤ 6000 words (7000 − 200 × 5 exhibits); anonymization (double-blind); in-manuscript statements (the venue requires none; uploads listed in the portal checklist); author-year citations ↔ reference list; exhibit numbering and cross-references; table notes; abstract/introduction numbers traceable to the body or tables; placeholders, tracked changes, comments; online reference existence (Crossref; 20 checked, 0 not answered); no significance asterisks
+【Next】This is stage 0 (mechanics). Fix every FAIL, then run the readiness scorecard and the simulated referee panel (rt-submission-readiness → rt-simulated-referee).

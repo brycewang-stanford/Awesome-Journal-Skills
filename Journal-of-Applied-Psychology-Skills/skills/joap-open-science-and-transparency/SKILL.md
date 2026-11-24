@@ -9,8 +9,10 @@ JAP is a TOP-aligned APA journal. Empirical submissions (including meta-analyses
 **Transparency and Openness Promotion (TOP)** standards: share **data, materials, and analysis code**
 with **persistent identifiers**, provide a **data-availability / transparency statement**, and report
 **preregistration** where applicable — with transparency weighed in evaluation. Prepare this early, not
-at acceptance. Verify the **current TOP level and exact statement wording** on the official APA page
-(待核实).
+at acceptance. TOP levels re-verified 2026-11-24 on the APA guidelines page: Citation L2; Data, Code
+and Materials transparency **L1 (disclosure)**; Design & Analysis L2 (JAP methods checklist + JARS);
+Study and Analysis-plan preregistration **L2**. Report them in a one-paragraph Method subsection
+titled **"Transparency and openness"**.
 
 ## When to trigger
 
@@ -19,7 +21,7 @@ at acceptance. Verify the **current TOP level and exact statement wording** on t
 - Linking a preregistration and reporting its status
 - A reviewer or editor flagged transparency, data access, or reproducibility
 
-## What is expected (verify current wording on the official page)
+## What is expected (re-verified 2026-11-24)
 
 1. **Data, materials, and code availability.** Make the dataset, study materials (scales, manipulations,
    instructions), and analysis scripts available, or state precisely why not. Sensitive personnel /

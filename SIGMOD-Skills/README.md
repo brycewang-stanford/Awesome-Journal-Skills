@@ -9,19 +9,19 @@ a **12-month embargo** after rejection, and a flagship artifact program — the
 **Availability & Reproducibility Initiative (ARI)** — whose badges are embedded into the
 published PDF.
 
-Official basis checked on **2026-07-08**: the SIGMOD 2027 Call for Research Papers and
-important-dates calendar, the PACMMOD author guidelines, the ARI pages at
-`reproducibility.sigmod.org`, the SIGMOD 2026 conference site, and the sigmod.org awards
-pages used for exemplar verification. Exact URLs, verified facts, and the 待核实 ledger
-live in [`resources/official-source-map.md`](resources/official-source-map.md). Note the
-access caveat recorded there: several official hosts reject automated fetches, so facts
-were verified through search renderings of the exact URLs and cross-checked across
-independent official pages.
+Official basis checked on **2026-07-08** and **re-verified 2026-11-24**: the SIGMOD 2028
+Call for Research Papers and important-dates calendar (posted November 8, 2026), the
+SIGMOD 2027 site and industrial call, the PACMMOD author guidelines, the ARI pages at
+`reproducibility.sigmod.org`, and the sigmod.org awards pages used for exemplar
+verification. Exact URLs, verified facts, and the 待核实 ledger live in
+[`resources/official-source-map.md`](resources/official-source-map.md), together with the
+access-method note (the ACM Digital Library refuses automated fetches and was read via the
+Internet Archive).
 
 ## Why SIGMOD needs its own pack
 
-- **Round-hopping replaces the annual deadline.** SIGMOD 2027 takes papers on
-  Jan 17 / Apr 17 / Jul 17 / Oct 17, 2026 (abstract + conflict declarations one week
+- **Round-hopping replaces the annual deadline.** SIGMOD 2028 takes papers on
+  Jan 17 / Apr 17 / Jul 17 / Oct 17, 2027 (abstract + conflict declarations one week
   earlier, all 11:59 PM AoE), each round feeding its own PACMMOD issue. Choosing the
   round — and pricing the embargo if you lose it — is a strategic skill in itself.
 - **Revision is a first-class outcome.** A major/minor-revision verdict grants one extra
@@ -31,7 +31,7 @@ independent official pages.
   which changes how artifacts, preprints, and repositories must be handled.
 - **Reproducibility is institutionalized.** PACMMOD expects code, data, scripts, and
   notebooks to be shared; ARI evaluates artifacts post-acceptance for the Artifacts
-  Available / Artifacts Evaluated / Results Reproduced badge ladder, and confers a Best
+  Available / Artifacts Evaluated - Reusable / Results Reproduced badge ladder, and confers a Best
   Artifact award.
 - **The neighborhood is dense.** PVLDB accepts monthly on a rolling basis, PODS takes the
   theory, ICDE the broader engineering, KDD the mining, TODS the journal-length
@@ -90,20 +90,21 @@ Beyond the skills, [`resources/`](resources/README.md) carries:
   `sigmod-topic-selection`'s venue-race table (PVLDB's monthly gate, ICDE, TODS) plus
   `sigmod-review-process` to convert the reviews into the rework plan.
 
-## Verification snapshot (2026-07-08)
+## Verification snapshot (re-verified 2026-11-24)
 
 | Fact | Value | Source |
 | --- | --- | --- |
-| Publication vehicle | PACMMOD issues, one per round | 2027 CFP, PACMMOD pages |
-| SIGMOD 2027 round deadlines | Jan 17 / Apr 17 / Jul 17 / Oct 17, 2026 (AoE) | 2027 important dates |
-| Page budget | 12 pages + unlimited references, ACM template | 2027 CFP |
-| Platform | Microsoft CMT | 2027 CFP |
-| Revision terms | +1 page, ≤4-page letter, per-reviewer colors | 2027 CFP |
-| Rejection embargo | 12 months (late withdrawal counts) | 2027 CFP |
-| Author cap | 10 research submissions per cycle | 2027 CFP |
-| ARI badges | Available / Evaluated / Results Reproduced | reproducibility.sigmod.org |
+| Publication vehicle | PACMMOD issues, one per round | 2028 CFP, PACMMOD pages |
+| SIGMOD 2028 round deadlines | Jan 17 / Apr 17 / Jul 17 / Oct 17, 2027 (AoE) | 2028 important dates |
+| Page budget | 12 pages + unlimited references, ACM template; appendix only as a separate PDF | 2028 CFP |
+| Platform | Microsoft CMT (`cmt3.research.microsoft.com/SIGMOD2028`) | 2028 CFP |
+| Revision terms | +1 page, ≤4-page letter, per-reviewer colors, one month | 2028 CFP |
+| Rejection embargo | 1 year (12 months or 3 rounds; withdrawal after one week counts) | 2028 CFP |
+| Author cap | 10 research submissions across all rounds, at most 3 per round | 2028 CFP |
+| ARI badges | Available / Evaluated - Reusable / Results Reproduced | reproducibility.sigmod.org |
 | SIGMOD 2026 | Bengaluru, May 31 - June 5, 2026 | 2026.sigmod.org |
-| SIGMOD 2027 | Huntington Beach, June 13-19, 2027 | 2027.sigmod.org |
+| SIGMOD 2027 | Huntington Beach, June 13-18, 2027 | 2027.sigmod.org |
+| SIGMOD 2028 | Seoul (COEX), June 17-23, 2028 | 2028.sigmod.org |
 
 ## Installation
 
@@ -140,14 +141,14 @@ SIGMOD-Skills/
 ## Fact discipline
 
 Every deadline, page count, and policy statement in this pack carries one of two labels:
-verified against a named official URL on 2026-07-08, or explicitly marked 待核实. Items
-known to be unverifiable at build time — the SIGMOD 2027 industrial-track calendar, the
-current CMT site URL, ARI 2027 logistics, PACMMOD fee mechanics, in-PDF appendix
-permission — are listed in the source map's 待核实 section rather than guessed.
+verified against a named official URL (last re-check 2026-11-24), or explicitly marked
+待核实. Items not yet published or not stated — the SIGMOD 2028 industrial-track calendar,
+ARI 2027/2028 logistics, the PACMMOD APC amount — are listed in the source map's 待核实
+section rather than guessed.
 
 ## Maintenance notes
 
-- The SIGMOD 2027 round calendar quoted throughout is a dated observation; future cycles
+- The SIGMOD 2028 round calendar quoted throughout is a dated observation; future cycles
   republish dates, and only the quarterly pattern should be assumed durable.
 - Revision mechanics (extra page, letter length, highlighting rules), the author cap, and
   embargo wording are re-declared each cycle — reopen the live CFP before advising.

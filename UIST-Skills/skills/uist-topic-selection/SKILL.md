@@ -114,10 +114,11 @@ Routing is cheapest at conception and expensive after a rejection. Three checkpo
 
 ## Scope notes for the 2026 cycle
 
-- The 2026 CFP was verified via search renderings on 2026-07-08 (direct fetches were
-  blocked); the Papers deadline (March 31, 2026) has passed, so a routing decision
-  made today targets the adjunct tracks of UIST 2026 — Demos and Posters welcome work
-  already shown elsewhere — or the UIST 2027 Papers cycle.
+- The 2026 CFP was re-verified directly on 2026-11-24. UIST 2026 (Detroit,
+  November 2-5, 2026) has met and all its tracks are closed, so a routing decision
+  made today targets **UIST 2027** (Vienna, October 26-29, 2027; announced Papers
+  deadlines abstract March 31, full paper April 7, supplementary April 9) — its CFP is
+  not yet published, so its adjunct-track dates and format rules are still unknown.
 - Short papers (5 pages) exist for smaller-but-complete contributions; routing a
   half-built system to a short paper is legitimate, padding it to 10 pages is not.
 - Scope vocabulary drifts with the field (2026 chairs span video accessibility,

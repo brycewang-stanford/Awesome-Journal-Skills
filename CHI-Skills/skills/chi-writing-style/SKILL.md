@@ -11,7 +11,7 @@ the same submission. The prose must therefore do explicit work that a single-cul
 venue lets authors skip — naming the contribution type, justifying the method choice
 to outsiders, and calibrating claims to human evidence. And because CHI reviews
 length against contribution ("papers should be commensurate with their contribution";
-5,000–8,000 words encouraged, per the CHI 2027 Papers page, read 2026-07-08), every
+5,000–8,000 words encouraged and a 150-word abstract cap, per the CHI 2027 Papers page, re-read 2026-11-24), every
 paragraph is auditable: does this paragraph earn its words?
 
 ## The contribution statement is load-bearing

@@ -1,6 +1,6 @@
 # Official Source Map - SODA
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (dead links re-checked 2026-11-23)
 
 This map records the sources behind every SODA-specific fact in this pack. SODA
 (the ACM-SIAM Symposium on Discrete Algorithms) re-decides policy each cycle
@@ -38,7 +38,7 @@ not be pinned this way are explicitly marked 待核实 below and throughout the 
 | https://epubs.siam.org/doi/10.1137/1.9781611977912.111 | Henzinger, Li, Rao & Wang, "Deterministic Near-Linear Time Minimum Cut in Weighted Graphs," SODA 2024, pp. 3089-3139. |
 | https://www.cs.stanford.edu/moses-charikar-kangning-wang-and-prasanna-ramakrishnan-win-best-paper-award | SODA 2024 Best Paper (co-winner): Charikar, Wang & Ramakrishnan, "Breaking the Metric Voting Distortion Barrier." |
 | https://doi.org/10.1137/1.9781611978322.64 | Srivastava, "Improved List Size for Folded Reed-Solomon Codes," SODA 2025, pp. 2040-2050. |
-| http://dimacs.rutgers.edu/news_archive/shashank-award | SODA 2025 Best Paper (shared) and Best Student Paper to Srivastava; SODA 2025 held January 12-15, 2025, New Orleans. |
+| https://dimacs.rutgers.edu/news/news-details/shashank-srivastava-receives-best-paper-at-soda (moved from the dead `news_archive/shashank-award` path; re-read 2026-11-23) | SODA 2025 Best Paper (shared) and Best Student Paper to Srivastava; SODA 2025 held January 12-15, 2025, New Orleans. |
 
 ## Verified facts used across the skills (2027-cycle anchors)
 

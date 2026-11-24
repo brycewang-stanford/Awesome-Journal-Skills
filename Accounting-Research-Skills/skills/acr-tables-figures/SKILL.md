@@ -44,7 +44,7 @@ description: Use when finalizing tables and figures for a 《会计研究》 (Ac
 ## 执行桥（StatsPAI / Stata MCP）
 
 表格图形**从拟合结果生成**，不要手抄数字（正文与附录不一致的常见根源）。完整映射见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。《会计研究》是档案式会计实证——准则/监管变更的 DID、IV 与盈余类设计居多,正合企业因果链。
 
 - **表：**`etable`（多列）或 `did_summary_to_latex` 直接从 `result_id` 生成。
 - **图：**`plot_from_result` / `enhanced_event_study_plot` / `event_study_table`，坐标单位与

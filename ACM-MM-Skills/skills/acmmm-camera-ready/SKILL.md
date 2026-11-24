@@ -6,8 +6,9 @@ description: Use when preparing the ACM MM (ACM Multimedia) camera-ready version
 # ACM MM Camera-Ready
 
 Use this after acceptance to turn the reviewed PDF into the ACM Digital Library version of
-record. Camera-ready is a distinct piece of work with its own deadline (reported August 6 for
-2026) and its own failure modes — several of them ACM-specific.
+record. Camera-ready is a distinct piece of work with its own deadline (August 6 for 2026,
+with author registration due August 31) and its own failure modes — several of them
+ACM-specific.
 
 ## De-anonymization pass
 
@@ -29,8 +30,10 @@ carefully:
 | Reference/overflow | References may occupy the extra pages; the body stays within the accepted length |
 | Metadata | Title, authors, affiliations, and abstract match the ACM submission exactly |
 
-The exact ACM rights/OA options (including ACM Open) are settled here; confirm the current
-process (待核实 each cycle).
+Since January 1, 2026 every ACM paper is Open Access: if no author's institution is in ACM
+Open, an APC applies unless waived (2026 transition rate $250 for ACM/SIG members, $350 for
+non-members). Check the ACM Open participant list before the rights form, and reconfirm the
+amount each cycle.
 
 ## Artifact and badge release
 
@@ -46,8 +49,9 @@ the community pointing at a dead anonymous link.
 
 ## Registration and attendance
 
-- At least one author must register by the deadline and present; confirm the current
-  registration category and any presenter requirement.
+- At least one author must register by the deadline (August 31 in 2026) and present
+  **on-site**: ACM MM 2026 hosted no remote presentations, and papers not presented in
+  person were treated as no-shows and removed from the proceedings.
 - Check visa/travel needs for **Rio de Janeiro** early — international travel is the common
   logistical failure.
 

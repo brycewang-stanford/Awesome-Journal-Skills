@@ -28,7 +28,7 @@ Decisions weigh **importance, originality, clarity, validity, and relevance**, g
 - **Practice Platform** — a dedicated department for field-driven, practice-based OM.
 - **OM Grand Challenges (2026)** — SDG-aligned academic-practitioner proposals; accepted proposals presented at the 2026 MSOM Conference (12–14 July 2026) automatically advance into a second review cycle for a dedicated M&SOM special issue — a conference-to-journal fast-track.
 
-> Editor context: Georgia Perakis (MIT) is listed as Editor-in-Chief on the 2026-06-20 M&SOM pages; INFORMS announced that her final term expires 31 December 2026 and that the search committee aims to propose a successor by 1 July 2026. Check the editorial-board page before naming current DEs or AEs in a submission plan.
+> Editor context: Georgia Perakis (MIT) is Editor-in-Chief through 31 December 2026; INFORMS has named **Ming Hu** (University of Toronto) as the next Editor-in-Chief from **1 January 2027** (re-verified 2026-11-24). Check the editorial-board page before naming current DEs or AEs in a submission plan.
 
 ## Reading a decision letter
 

@@ -7,9 +7,9 @@ for econometric methods papers.
 
 ## Shared Kit
 
-- [`../../../shared-resources/econometrics-methods/README.md`](../../../shared-resources/econometrics-methods/README.md)
-- [`../../../shared-resources/econometrics-methods/simulation-and-replication-checklist.md`](../../../shared-resources/econometrics-methods/simulation-and-replication-checklist.md)
-- [`../../../shared-resources/econometrics-methods/code/check_simulation_package.py`](../../../shared-resources/econometrics-methods/code/check_simulation_package.py)
+- [`../../../shared-resources/econometrics-methods/README.md`](../shared/econometrics-methods/README.md)
+- [`../../../shared-resources/econometrics-methods/simulation-and-replication-checklist.md`](../shared/econometrics-methods/simulation-and-replication-checklist.md)
+- [`../../../shared-resources/econometrics-methods/code/check_simulation_package.py`](../shared/econometrics-methods/code/check_simulation_package.py)
 
 ## Typical Use
 

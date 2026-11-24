@@ -12,7 +12,7 @@
 ## 2. Length (the deductible budget)
 
 - [ ] Manuscript passes the current APS automated length check
-- [ ] Body + figures + equations + references counted together against the limit
+- [ ] Body + captions + figure/table/equation word equivalents ≤ 3750 words (abstract, references, acknowledgments excluded)
 - [ ] No double-column figure unless the data require it
 - [ ] Only claim-defining equations are displayed inline
 - [ ] Reference list pruned to importance + trust essentials

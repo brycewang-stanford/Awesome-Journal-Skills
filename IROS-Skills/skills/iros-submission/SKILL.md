@@ -14,11 +14,12 @@ year-site's call-for-papers page before trusting any value below.
 
 | Check | 2026 rule | Consequence if violated |
 |---|---|---|
-| Page count | Content-page limit with references and appendices counted *in* (2025 anchor: 6 + up to 2 paid) | Return without review or an unexpected page charge |
+| Page count | Up to 8 pages, US letter, with references and appendices counted *in*; no paid extra pages (replaced the old 6 + 2 model) | Return without review |
 | Format | IEEE two-column conference template, PDF only, file up to 6 MB | Compliance failure at upload |
 | Anonymity | Double-anonymous (2026): no authors/affiliations in the PDF; full list in PaperPlaza metadata | Administrative rejection |
 | Video attachment | ≤ 60 seconds, ≤ 10 MB, mpg/mpeg/mp4 | Rejected by the upload form |
-| Video deadline | Its own date, a few days after the paper (2026: March 5) | No video on record |
+| Video deadline | Its own date, a few days after the paper (2026: March 7 on the dates page, March 5 in the CFP text — plan to the earlier) | No video on record |
+| AI disclosure | AI-generated content disclosed in the acknowledgments (system + sections); AI cannot be an author | Policy breach |
 | Paper deadline | Per the CFP's stated zone — convert, do not assume AoE | Closed portal |
 
 The tighter video envelope is an IROS signature: where ICRA allows 180 seconds and 20 MB, IROS 2026
@@ -69,7 +70,7 @@ The same manuscript may not be under review at IROS and elsewhere at once. Note 
 
 ```text
 1. Rebuild the PDF from a clean clone; confirm the IEEE class file is untouched.
-2. Page audit: content + references + appendix all fit the current budget; note any page charge.
+2. Page audit: content + references + appendix all fit the 8-page budget (no paid pages in 2026).
 3. Anonymity sweep: pdfinfo metadata, acknowledgements, self-citations, figure backgrounds,
    embedded links, and every video frame and caption.
 4. Play the 60 s video end to end on a machine without lab codecs; verify duration, size, format.
@@ -77,11 +78,33 @@ The same manuscript may not be under review at IROS and elsewhere at once. Note 
 6. Upload paper and video; pass the compliance check; archive the confirmation email.
 ```
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue iros-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Output format
 
 ```text
 [IROS upload verdict] go / fix-first / no-go
-[Page audit] content+refs <n>/<limit>, page charge? <y/n>
+[Page audit] content+refs+appendix <n>/8 (2026 limit)
 [Anonymity audit] pass / leaks: <list>
 [Video audit] <s>s / <MB>MB / format / deadline ok?
 [Metadata audit] PINs collected? keywords chosen? abstract synced?

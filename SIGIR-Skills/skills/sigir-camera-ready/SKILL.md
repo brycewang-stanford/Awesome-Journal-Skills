@@ -7,10 +7,11 @@ description: Use when an accepted SIGIR paper must become the ACM Digital Librar
 
 SIGIR publishes through ACM: the version of record is produced by ACM's pipeline
 (e-rights, then TAPS) from your **source files**, and it appears in the Digital
-Library as both PDF and HTML (SIGIR 2025's volume is DOI 10.1145/3726302). The 2026
-camera-ready window sat in late April for the tracks whose dates were verifiable
-(April 29, 2026 for Resources / Low Resource Environments); take your own track's
-date from the acceptance email, and note the July conference leaves little slack.
+Library as both PDF and HTML (SIGIR 2025's volume is DOI 10.1145/3726302). For SIGIR
+2027 the camera-ready and author-registration deadline is **April 30, 2027** for full,
+Resource, Reproducibility and Replicability, Perspectives and Demonstration papers
+(sigir2027.org, checked 2026-11-24; April 29 in 2026); take your own track's date from
+the acceptance email, and note the July conference leaves little slack.
 
 ## What changes between the reviewed PDF and the record
 
@@ -28,9 +29,10 @@ date from the acceptance email, and note the July conference leaves little slack
 Two SIGIR-specific pressure points hide in that table:
 
 - **Acknowledgments and restored details consume the page budget**, because SIGIR
-  counts everything except references inside the limit. If the camera-ready allowance
-  for your track is the same as submission (whether acceptance buys an extra page was
-  not verifiable for 2026 — 待核实), something you wrote must shrink to make room.
+  counts everything except references inside the limit. SIGIR 2027 gives accepted
+  full papers **one extra page** (10 plus references) and Resource papers one extra page
+  (7 plus references); for other tracks confirm on the track page (待核实). Beyond that
+  allowance, something you wrote must shrink to make room.
 - **The anonymity aliases must be unwound consistently.** A paper that called its
   system "ANON-RANK" in review must not leave one stale alias in a figure caption or
   a run-file name cited in a table. Grep, don't skim.
@@ -97,11 +99,13 @@ real estate.
 
 ## Registration and presentation
 
-Author registration by the camera-ready date was confirmed for the Resources track in
-2026 (April 29); whether every accepted full/short paper requires a registered,
-in-person presenting author — and the fee schedule — was not verifiable at build time
-(待核实). Read the acceptance email as the controlling document, and budget for
-Melbourne travel early: July is conference high season in the IR calendar.
+SIGIR 2027 requires author registration by **April 30, 2027** and at least one author
+registering for and attending the conference (full-paper and track calls, checked
+2026-11-24); the conference is in person in **San Jose, California**, with a satellite
+location in Tianjin, China for presenters who cannot obtain a visa (apply through the
+satellite-presentation process). The fee schedule and the in-person/hybrid policy page
+are still TBA (待核实). Read the acceptance email as the controlling document, and
+budget for travel and visas early: July is conference high season in the IR calendar.
 
 ## Timeline discipline
 

@@ -8,12 +8,9 @@ ACM CCS 并称安全领域"四大"（big four）。本包覆盖一个 NDSS 周�
 Revision / Major Revision** 决定，并完成 Internet Society 开放获取的 camera-ready 与可选的
 artifact badges。
 
-官方依据核验日期：**2026-07-08**。已核验 NDSS 2027 Call for Papers 与 Call for Artifacts、
-`ndss27-summer.hotcrp.com` 现行周期站点、Internet Society 2026 年 6 月关于移师首尔的公告、
-NDSS 2026 co-located events 与开放出版页面、Test of Time 奖页面，以及 dblp `conf/ndss`。在
-核验环境中直接抓取 `ndss-symposium.org` 与 `dblp.org` 返回 HTTP 403，因此官方页面通过搜索
-引擎对精确 URL 的渲染阅读，并与 HotCRP、Internet Society 页面、dblp 记录交叉核对；完整链路
-（含所有 待核实 项）见 [`resources/official-source-map.md`](resources/official-source-map.md)。
+官方依据首次核验于 2026-07-08，并于 **2026-11-24 直接抓取复核**：NDSS 2027 Call for Papers、
+Call for Artifacts、主页与组委会页面。NDSS 2027 两个周期均已截稿（2026-05-06 与 2026-08-19）；
+NDSS 2028 尚未发布 CFP。本次复核纠正了大部分 2027 评审日程日期。完整链路（含所有 待核实 项）见 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## NDSS 与同类会议的区别
 
@@ -23,8 +20,8 @@ NDSS 2026 co-located events 与开放出版页面、Test of Time 奖页面，以
 - **一个刚刚改变的固定身份。** 数十年来 NDSS 就等于"二月的圣地亚哥"。2027 届刻意打破这一
   惯例：**韩国首尔，2027 年 3 月 22-26 日**，以扩大亚太参与。连举办城市都要当作逐届事实。
 - **两个投稿周期汇入同一届会议。** summer 周期（2027 论文截止 2026-05-06）与
-  **fall 周期（论文截止 2026-08-19）**，各自是完整流程。在同一届内某周期被拒的论文，不得
-  以重大重叠再投另一周期——周期选择是策略问题，且 fall 截止可能就在眼前。
+  fall 周期（论文截止 2026-08-19），各自是完整流程。被拒论文不得再投同一届，summer 被拒者
+  不得以重大重叠再投 fall——周期选择是策略问题。每位作者每周期最多 6 篇。
 - **带 early reject 的两轮评审。** Round 1 以快读筛除末段且无 rebuttal；进入 Round 2 者可见
   评审意见、提交 rebuttal，并进入与评审的 **interactive discussion** 阶段。
 - **偏重修订的决定集合。** 除 Accept 与 Reject 外，NDSS 还给出 **Minor Revision** 与
@@ -32,6 +29,7 @@ NDSS 2026 co-located events 与开放出版页面、Test of Time 奖页面，以
 - **Ethics 是结构性的。** 可选的 **Ethics Considerations section**（不计入页数）、由 TPC 成员
   组成、可因伦理问题拒稿的 **Ethics Review Board**、作为基准的 **Menlo Report**，以及对高影响
   漏洞的披露要求——单有 IRB 批准并不被视为充分。
+- **生成式 AI 须披露。** 允许使用，但投稿时的披露程度与生成内容的多少相称；仅改语法无需披露。
 - **13 页，豁免宽松。** NDSS 模板 13 页正文，ethics 部分、参考文献与附录不计入——但评审无需
   阅读附录，因此录用理由必须落在正文内。
 - **免费、开放获取的 proceedings。** Internet Society 向全世界免费发布论文与报告视频，无读者
@@ -60,7 +58,7 @@ NDSS 2026 co-located events 与开放出版页面、Test of Time 奖页面，以
 
 | 路径 | 内容 |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | 11 个官方来源（URL 与访问日期）、访问方式说明、已核验 2027 周期事实、reported facts 与 待核实 清单。 |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | 12 个官方来源（URL 与访问日期）、访问方式说明、已核验 2027 周期事实、reported facts 与 待核实 清单。 |
 | [`resources/external_tools.md`](resources/external_tools.md) | 官方入口，以及 cycle／format／anonymity／ethics／cap／post-acceptance 六项作者自查。 |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | 5 篇经元数据核验的 NDSS 论文（含 2 篇 Test of Time），附自检问题与已核验误标清单。 |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | 一篇虚构的 stale-delegation DNS 论文摘要与引言，围绕攻击者模型、测量纪律与披露改写，before → after。 |
@@ -90,11 +88,10 @@ claude plugin install ndss-skills
 各 skill 区分三类陈述：
 
 1. **已核验周期事实**——带日期／上限并追溯到 source map 中编号来源（2026-08-19 fall 截止、
-   13 页限制、Accept/Minor/Major 决定集合、移师首尔）。
-2. **Reported facts**——仅见于二手来源并如实标注（如个人页面上出现的某 Publication Chair）。
-3. **核验时不可确证项**——标 待核实、以待解问题呈现，绝不当作事实（fall HotCRP 网址、Major
-   Revision 重投窗口、2027 chairs、任何生成式 AI 政策、2027 co-located 工作坊清单、2027
-   artifact 截止）。
+   13 页限制、Accept/Minor/Major 决定集合、移师首尔、2027 chairs）。
+2. **Reported facts**——仅见于二手来源并如实标注。
+3. **核验时不可确证项**——标 待核实、以待解问题呈现，绝不当作事实（NDSS 2028 的一切信息、
+   2027 co-located 工作坊清单、出席政策）。
 
 若发现某 skill 将第 2、3 类当作第 1 类，请视为 bug 并对照官方页面修正。
 

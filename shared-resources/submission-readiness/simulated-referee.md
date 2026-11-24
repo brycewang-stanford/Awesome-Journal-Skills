@@ -22,6 +22,13 @@ Pull the venue's bar from the pack, not from generic intuition:
 - **Selectivity setting** — a ~5% top-3 venue desk-screens hard and expects general
   interest; a field journal weighs correctness and incremental contribution. Set the
   panel's strictness accordingly.
+- **The review form** — pick the venue family in [`review-forms.md`](review-forms.md)
+  (NeurIPS-style, ARR, economics, management, clinical, natural-science flagship, Chinese
+  journals). Referees fill *that* form, with its scales and decision vocabulary, and the
+  family's three lenses replace the generic ones in the table below.
+- **The preflight report** — referees receive the stage-0 JSON so they do not spend their
+  report on mechanics, and so a mechanical FAIL the author has not fixed is not mistaken
+  for a substantive weakness.
 
 ## Roles (give each a distinct lens — do not run identical referees)
 
@@ -37,12 +44,18 @@ Pull the venue's bar from the pack, not from generic intuition:
 1. **AE desk-screen.** Against the venue bar: in scope? general-interest enough? any
    fatal flaw? → **desk-reject risk** (low/med/high) with the deciding reason. If a clear
    desk reject, say so and stop before spending referee effort.
-2. **Independent referee reports.** Each referee, in its lens, writes a structured report
-   (template below) — independently, so concerns aren't anchored on each other.
-3. **Adversarial verification.** Every *major* concern must pass three filters or be
-   downgraded/dropped: **real** (not a misreading), **specific** (names the section/table
-   and the mechanism), **addressable** (the author can act on it). This kills the
-   plausible-but-unfair objections that waste revision cycles.
+2. **Independent referee reports.** Each referee, in its lens, fills the family's form
+   plus the template below — independently, so concerns aren't anchored on each other.
+   Each referee must read the whole manuscript, not a summary of it, and must quote or
+   cite the location of every major concern.
+3. **Adversarial verification.** A separate verifier (not one of the referees) takes each
+   *major* concern and tries to refute it against the manuscript text. It must pass three
+   filters or be downgraded/dropped: **real** (the paper really does or omits this — quote
+   the line; a concern the paper already answers elsewhere is dropped), **specific** (names
+   the section/table and the mechanism), **addressable** (the author can act on it). Record
+   for each concern `verdict: kept | downgraded | dropped` and the reason. This kills the
+   plausible-but-unfair objections that waste revision cycles — and it is what keeps the
+   panel's false-alarm rate on a clean paper low (see the benchmark).
 4. **AE synthesis.** Combine into one decision: **reject / major revision / minor
    revision / lean-accept**, naming the 1–3 *decisive* issues (the ones that actually move
    the decision), separated from the long tail of minors.
@@ -51,9 +64,9 @@ Pull the venue's bar from the pack, not from generic intuition:
    `*-identification` execution bridge → run `callaway_santanna` + `bacon_decomposition`;
    move pre-trends to the appendix."*
 
-## Referee report template (per referee)
+## Referee report template (per referee, after the family's form)
 
-```
+```text
 【Lens】identification / contribution / robustness
 【One-line summary of the paper as I read it】…
 【Recommendation】reject / major / minor / accept
@@ -66,7 +79,7 @@ Pull the venue's bar from the pack, not from generic intuition:
 
 ## AE synthesis output
 
-```
+```text
 【Venue】… (calibrated from pack + source-map)
 【Desk-screen】send out / desk reject — deciding reason; desk-reject risk: low/med/high
 【Decision band】reject / major / minor / lean-accept
@@ -78,13 +91,33 @@ Pull the venue's bar from the pack, not from generic intuition:
 
 ## Orchestration
 
-- **Inline** (1 agent): play the AE then each referee in turn — fine for a quick read.
-- **Multi-agent** (recommended for a real gauntlet): spawn one subagent per role with the
-  *same manuscript* + the *calibrated venue bar*, collect the independent reports, then a
-  final AE-synthesis agent. Distinct lenses + independence are what make it catch more
-  than a single read. (Use the Agent tool per role; for a larger panel with verification
-  rounds, a workflow that fans out referees → adversarially verifies each concern →
-  synthesizes is the natural shape.)
+- **Inline** (1 agent): play the AE then each referee in turn — fine for a quick read,
+  but the referees anchor on each other; label the output "inline panel".
+- **Multi-agent** (recommended for a real gauntlet): spawn one subagent per referee with
+  the *same manuscript file path* (not a summary), the *calibrated venue bar*, the
+  *family's review form* and the *preflight JSON*, and nothing about the other referees.
+  Then one verifier subagent receives all major concerns plus the manuscript and returns a
+  verdict per concern; then the AE synthesis. Brief each referee like this:
+
+  ```text
+  You are Referee 2 (contribution/fit lens) for <venue>. Read <path> in full.
+  Venue bar: <pack skills + source-map facts>. Fill review form <family letter> from
+  shared-resources/submission-readiness/review-forms.md, then the referee template.
+  Every major concern must cite §/table/line and name the owning <prefix>-* skill.
+  Mechanics are already covered by the attached preflight report; do not repeat them.
+  Do not soften: if a referee at <venue> would raise it, raise it.
+  ```
+
+  Distinct lenses + independence + verification are what make it catch more than a
+  single read.
+- **Choosing between them (measured, see `showcase/presubmission-benchmark/RESULTS.md`).**
+  On the seeded benchmark the inline panel kept 23/24 planted flaws as major. The
+  multi-agent panel also caught the one it had downgraded. It is more exhaustive in both
+  directions, though: on a clean top-3 paper it filed three times as many defensible
+  major concerns. Use inline for a quick first pass. Use multi-agent before a flagship
+  submission, when a long list of everything a demanding referee could raise is what the
+  author wants. In either case, tell the author how many concerns come with any clean
+  paper at that bar.
 
 ## Anti-patterns
 

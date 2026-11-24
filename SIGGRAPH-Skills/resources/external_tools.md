@@ -1,6 +1,6 @@
 # External Tools - ACM SIGGRAPH Technical Papers
 
-Access date: 2026-07-09
+Access date: 2026-07-09; links re-checked 2026-11-24 (siggraph.org conference sites fetch directly; `dl.acm.org` still blocks automated fetches).
 
 Use these surfaces after reopening the current SIGGRAPH cycle pages. SIGGRAPH mechanics — the two
 annual cycles, the page budget, the rebuttal length, the dual-track boundary, the acmart revision —
@@ -13,7 +13,9 @@ confuse the ACM SIGGRAPH conference with unrelated uses of the word "graph."
 - SIGGRAPH 2026 Technical Papers: https://s2026.siggraph.org/program/technical-papers/
 - SIGGRAPH 2026 Technical Papers submissions FAQ: https://s2026.siggraph.org/technical-papers-submissions-faq/
 - SIGGRAPH 2026 reviewer instructions & ethics (review model, rebuttal, decisions): https://s2026.siggraph.org/technical-papers-reviewer-instructions-ethics/
-- SIGGRAPH Asia 2026 Technical Papers (next-cycle target): https://asia.siggraph.org/2026/submissions/technical-papers/
+- SIGGRAPH 2026 Technical Papers anonymity policy: https://s2026.siggraph.org/anonymity-policy/
+- SIGGRAPH Asia 2026 Technical Papers (Kuala Lumpur, 1-4 Dec 2026; submissions closed): https://asia.siggraph.org/2026/submissions/technical-papers/
+- SIGGRAPH 2027 Technical Papers (next target; deadlines 21 / 28 / 29 Jan 2027 posted, full call pending as of 2026-11-24): https://s2027.siggraph.org/program/technical-papers/
 - ACM SIGGRAPH author instructions (acmart, representative image, supplemental): https://www.siggraph.org/preparing-your-content/author-instructions/
 - ACM Transactions on Graphics journal home: https://dl.acm.org/journal/tog
 - ACM TOG author guidelines (rolling direct submission via ScholarOne): https://dl.acm.org/journal/tog/author-guidelines
@@ -47,7 +49,7 @@ confuse the ACM SIGGRAPH conference with unrelated uses of the word "graph."
 - Do not infer the deadline: SIGGRAPH (North America, ~January) and SIGGRAPH Asia (~May) are
   separate cycles. Confirm which one and its exact **UTC** cutoff on the live submissions FAQ.
 - Do not assume the page budget, acmart revision, rebuttal length, dual-track availability, or
-  blinding policy carry over between editions — SIGGRAPH review has historically been single-blind,
-  but confirm each cycle (**待核实** for the exact 2026 wording).
+  anonymity-policy window carry over between editions — the 2026 call is **double-blind** (anonymous
+  `acmart` option, no acknowledgements, anonymous supplemental); confirm the 2027 call when it posts.
 - If pages disagree, treat the newest technical-papers call, the submissions FAQ, or a direct
   Technical Papers Chair announcement as controlling, and record the conflict.

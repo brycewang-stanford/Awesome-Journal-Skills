@@ -17,6 +17,9 @@ arriving from a single-round conference is that a good-but-incomplete measuremen
   reviewing.
 - Review proceeds in **several rounds**. Papers with a **consensus for rejection are notified
   early**, so authors can move the work to another venue without waiting for the full cycle.
+- **New for IMC 2027:** a short **rebuttal phase** after the early-reject cut (cycle 1: 26 Jan -
+  2 Feb 2027), for clarifying specific reviewer concerns before the final decision; the
+  submission instructions describe it as applying to Round 2 papers.
 - First decisions fall into **Accept**, **One-Shot-Revision**, or **Reject**. Reviewers weigh the
   significance of the measurement finding, the credibility of vantage points and ground truth, the
   soundness of methodology, honesty about limitations and confounds, the **Ethics** treatment, and
@@ -43,7 +46,7 @@ Treat it as a near-accept with obligations, not a coin flip (see `imc-author-res
 |---|---|---|
 | Accept | Finding and method hold; shepherding for availability | Deliver the promised artifact; do not reopen scope |
 | One-Shot-Revision | A champion exists; a bounded set of gaps (a missing vantage point, a confound to address, an ethics clarification) | Execute exactly the named action points; resubmit next deadline to the same reviewers |
-| Reject | Structural: unrepresentative vantage points, no ground truth, thin measurement, ethics failure | Reframe or reroute (SIGCOMM/NSDI/CoNEXT/PAM or a journal); do not lightly resubmit unchanged |
+| Reject | Structural: unrepresentative vantage points, no ground truth, thin measurement, ethics failure | Reframe or reroute (SIGCOMM/NSDI/CoNEXT/PAM or a journal); IMC itself bars resubmission for roughly 12 months after the deadline it was rejected at |
 
 Design the submission so its weakest point is **an addressable action item** (an extra vantage
 point, a longitudinal slice, a bounded confound) rather than a structural flaw (a study design you

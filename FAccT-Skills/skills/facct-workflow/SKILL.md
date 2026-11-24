@@ -1,6 +1,6 @@
 ---
 name: facct-workflow
-description: Use when planning an ACM FAccT project timeline from venue fit through abstract registration, OpenReview submission, the rebuttal window, the new Accept/Revise/Reject revise-and-resubmit round, two-round camera-ready, and in-person presentation, with backward-planning offsets for an interdisciplinary responsible-AI paper and honest handling of the single annual deadline.
+description: Use when planning an ACM FAccT project timeline from venue fit through abstract registration, OpenReview submission, the Accept/Revise/Reject decision, the combined revision-plus-rebuttal round, camera-ready, and presentation, with backward-planning offsets for an interdisciplinary responsible-AI paper and honest handling of the single annual deadline.
 ---
 
 # FAccT Workflow
@@ -8,33 +8,38 @@ description: Use when planning an ACM FAccT project timeline from venue fit thro
 Use this as the project-management skill for a FAccT submission. Replace every date with the current
 official Important Dates page and work backwards from the **abstract-registration deadline**, which
 precedes the paper deadline and is a hard gate: miss it and OpenReview will not accept your PDF.
-FAccT runs a **single annual research deadline**, and — new for the 2026 edition — a genuine
-**Revise-and-resubmit** round sits inside the review cycle, so plan for a possible revision, not just
-an accept/reject.
+FAccT runs a **single annual research deadline** — since FAccT 2027 it falls in late October /
+early November of the year *before* the conference — and a genuine **Revise-and-resubmit** round
+(introduced in 2026) sits inside the review cycle, so plan for a possible revision, not just an
+accept/reject. Every author must also sign up to review (FAccT 2027), so put that form on the plan.
 
 FAccT is a conference with **no standing editor-in-chief**; leadership is the per-edition General
-Chairs and Program Chair (FAccT 2026: General Chairs Su Lin Blodgett and Zeerak Talat, PC Chair
-Michael Madaio, verified 2026-07-09). Chairs rotate yearly; re-check the committees page rather than
+Chairs and Program Chairs (FAccT 2027 Program Chairs per the CFP: Remi Denton, David Leslie, Aurelia
+Tamò-Larrieux, Isabel Valera — a blog byline lists a different four, 待核实; 2027 General Chairs not
+yet announced; checked 2026-11-24). Chairs rotate yearly; re-check the committees page rather than
 carrying a name forward. Since 1 January 2026 all ACM proceedings are **Open Access**, so budget for
 the ACM Open / APC question early rather than at camera-ready.
 
-## Milestones (FAccT 2026 calendar as the worked example)
+## Milestones (FAccT 2027 calendar as the worked example)
 
 - **Venue fit:** confirm FAccT over a pure-ML/HCI/law venue and confirm the contribution is
   fairness/accountability/transparency-first (`facct-topic-selection`).
 - **Abstract registration:** submit real title, abstract, authors, and **focus areas** by the
-  abstract deadline (FAccT 2026: **8 January 2026**). This gate cannot be reopened.
+  abstract deadline (FAccT 2027: **27 October 2026**). This gate cannot be reopened, and the
+  author list and archival/non-archival choice freeze here.
 - **Paper submission:** upload the anonymized acmart PDF with its endmatter statements
-  (FAccT 2026: **13 January 2026**).
-- **Preliminary reviews + rebuttal:** reviews released (FAccT 2026: **20 February 2026**); a short
-  rebuttal window for **factual corrections**, not debate.
-- **First notification:** Accept / **Revise** / Reject (FAccT 2026: **2 March 2026**).
-- **Revision (if issued):** address Area-Chair-prioritized concerns and resubmit by the revision
-  deadline (FAccT 2026: **25 March 2026**); re-reviewed before a final decision.
-- **Camera-ready:** Round-1 accepts (FAccT 2026: **24 April 2026**); Revise-and-resubmit accepts
-  (FAccT 2026: **11 May 2026**).
-- **Present:** every accepted paper — archival or non-archival — is presented at the conference
-  (FAccT 2026: Montréal, **June 25-28, 2026**).
+  (FAccT 2027: **3 November 2026**).
+- **Reviews + first-round decision:** Accept / **Revise (major or minor)** / Reject, released with
+  the reviews and meta-review (FAccT 2027: **22 December 2026**). There is no separate rebuttal
+  before this decision in 2027 (FAccT 2026 had one, due 24 February 2026).
+- **Revision + rebuttal (if Revise):** address the Area-Chair-prioritized concerns, submit the
+  revised paper (up to 15 pages) with a rebuttal (FAccT 2027: **28 January 2027**); re-reviewed by
+  the same reviewers and AC.
+- **Final notification:** Accept (with minor revisions) / Reject (FAccT 2027: **23 March 2027**).
+- **Camera-ready:** FAccT 2027 date **TBD** on the CFP (FAccT 2026 used two: 24 April for round-1
+  accepts and 11 May 2026 for Revise accepts).
+- **Present:** every accepted paper — archival or non-archival — is presented at the conference,
+  in person by default with a virtual option (FAccT 2027: Porto, Portugal, **June 21-24, 2027**).
 
 ## Backward plan from the paper deadline
 
@@ -54,16 +59,18 @@ never to a previous cycle.
 
 ## The single-deadline calendar reality
 
-FAccT runs **one annual research deadline**. As of 2026-07-09 the FAccT 2026 edition has just
-concluded in Montréal, so the live next target is **FAccT 2027** (dates/venue 待核实). Two planning
-consequences:
+FAccT runs **one annual research deadline**. As of 2026-11-24 the FAccT 2027 paper deadline
+(3 November 2026) has passed and the cycle is in review; the next open target is **FAccT 2028**,
+whose call is not yet published — expect a similar autumn deadline, but do not plan on a date until
+it is posted. Two planning consequences:
 
 - **Missing the annual deadline costs roughly a year** at FAccT; if the work is time-sensitive, a
   sibling venue (AIES, a fairness-focused ML workshop, or a CHI/CSCW deadline) or the CRAFT track
   may have a nearer date — factor that into routing rather than idling.
 - **A Revise decision keeps you inside the same cycle** (revision deadline weeks after
-  notification), not a year later — but this revise-and-resubmit round is **new for 2026**, so
-  confirm it still exists and re-read its exact timing before relying on it.
+  notification), not a year later — the revision window in 2027 is about five weeks over the
+  December holidays (22 Dec 2026 to 28 Jan 2027); confirm it still exists and re-read its exact
+  timing before relying on it.
 
 ## Failure modes by stage
 
@@ -82,13 +89,13 @@ consequences:
 
 - Assign one owner for the **endmatter statements** (ethics, adverse impacts, Generative AI Usage)
   and another for the **anonymity sweep**; shared ownership is how both slip.
-- Archive the exact submitted PDF and, later, the rebuttal and revision response — the re-review
+- Archive the exact submitted PDF and, later, the revised PDF and its rebuttal — the re-review
   quotes them and the response must map each reviewer concern to a change.
 
 ## Output format
 
 ```text
-[Current stage] idea / evidence / writing / registration / submitted / rebuttal / revise / accepted
+[Current stage] idea / evidence / writing / registration / submitted / revise + rebuttal / accepted
 [Next official deadline] <date and source, or unknown>
 [Critical path] <three tasks that determine readiness>
 [Risk register] <abstract gate / anonymity / endmatter statements / evidence / revision window / presentation>

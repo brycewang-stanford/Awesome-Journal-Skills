@@ -46,7 +46,7 @@ A table reports "0.18***" for a transfer program on consumption. The WD fix: rep
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). World Development is multidisciplinary development studies; the chain serves its quantitative-causal lane, mixed-methods work uses its own standards.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). World Development is multidisciplinary development studies; the chain serves its quantitative-causal lane, mixed-methods work uses its own standards.
 
 - **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
 - **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —

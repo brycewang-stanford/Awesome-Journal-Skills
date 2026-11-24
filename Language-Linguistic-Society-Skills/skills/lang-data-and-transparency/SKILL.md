@@ -68,7 +68,7 @@ under the community agreement and says so in the data statement — transparent 
 
 Transparency is a property of the path from data to number, and the cheapest way to keep
 that path honest is not to have retyped anything along it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md).
 
 - **Run it, then cite it.** A number that was computed by a tool call can be recomputed by
   a reader with the same script; a number that was remembered cannot. If no server is

@@ -1,6 +1,6 @@
 ---
 name: icse-camera-ready
-description: Use when converting an accepted ICSE research-track paper into its final published form, covering the extra camera-ready page, de-anonymization order, finalizing the Data Availability section with archival DOIs, IEEE-template production checks, and conference-presentation obligations to verify.
+description: Use when converting an accepted ICSE research-track paper into its final published form, covering the extra camera-ready page, de-anonymization order, finalizing the Data Availability section with archival DOIs, ACM-template production checks, and conference-presentation obligations to verify.
 ---
 
 # ICSE Camera-Ready
@@ -13,8 +13,10 @@ artifact-evaluation prep, so run it as a checklist, not a rewrite.
 
 ## What actually changes
 
-The 2027 call (read 2026-07-08) grants accepted papers **one extra page of
-main text** for the camera-ready — 11 + 2 instead of 10 + 2. Spend it where
+The ICSE 2028 call (read 2026-11-24) grants accepted papers **one extra page
+of main text** for the camera-ready — 11 + 2 instead of 10 + 2 — due November
+25, 2027 for directly accepted papers and January 26, 2028 for papers accepted
+after Major Revision. Spend it where
 review friction was, in this order of value:
 
 1. Changes promised in the author response or Major Revision ledger that were
@@ -40,8 +42,12 @@ grep -n "our prior work\|the authors of \[" *.tex                   # third-pers
 pdfinfo camera-ready.pdf | grep -Ei 'author|title'                  # metadata now SHOULD carry authors
 ```
 
-Restore: the author block with affiliations, emails, and ORCIDs;
-acknowledgments and funding with grant numbers; self-citations rephrased into
+Remove the `review` and `anonymous` options from `\documentclass[sigconf,...]{acmart}`
+(the 2028 template is ACM; 2027 was IEEEtran). Restore: the author block with
+affiliations, emails, and ORCIDs;
+acknowledgments and funding with grant numbers (keeping any generative-AI
+disclosure the ACM/IEEE policy requires there); the citation of a PhD thesis
+the work came from (the 2028 Q&A says to cite it at camera-ready); self-citations rephrased into
 natural first person where it improves clarity; and — most consequentially —
 **the availability statement's links**, from anonymized mirrors to the
 permanent DOI-issuing archive (`icse-artifact-evaluation` covers minting it).
@@ -52,7 +58,7 @@ outlive the mirror.
 
 | Check | Detail |
 |---|---|
-| Template | Current IEEE conference class, unmodified; production vendors reject tampering the PC tolerated |
+| Template | ACM Primary Article Template (`sigconf`, review/anonymous options removed), unmodified; production vendors reject tampering the PC tolerated |
 | Metadata block | Copyright/DOI stamps per the acceptance instructions; correct year and conference string |
 | Author records | Name spellings, affiliations, ORCIDs consistent with the submission system — indexing errors are near-impossible to fix post-publication |
 | Fonts and figures | Fonts embedded, figures vector where possible, colorblind-legible; print-grayscale still distinguishable |
@@ -71,26 +77,29 @@ integrity problem; disclosed corrections are routine science.
 
 ## Obligations around the paper — verify, don't assume
 
-Several items were not published for the 2027 cycle at check time and are
-待核实 on the live pages once acceptance emails go out:
+The ICSE 2028 call states that at least one author of each accepted paper
+must register and present, and assumes an in-person conference (virtual
+presentation only if the event turns virtual or hybrid). Other items were not
+published for the 2028 cycle at check time (2026-11-24) and are 待核实 on the
+live pages once acceptance emails go out:
 
-- Camera-ready deadline and the exact submission system/vendor instructions.
-- Registration requirements tied to publication (one author registering at a
-  qualifying rate is the common conference pattern — confirm ICSE 2027's
-  wording before budgeting).
-- Presentation format and whether remote presentation exists; plan for
-  in-person in Dublin (Apr 25 – May 1, 2027; core days Apr 28–30).
+- The exact submission system/vendor instructions (the dates are posted:
+  November 25, 2027 and January 26, 2028).
+- Registration rate and fee tied to publication — confirm ICSE 2028's wording
+  before budgeting.
+- Remote-presentation exceptions; plan for in-person in Waikoloa, Hawaii
+  (Apr 29 – May 7, 2028; main conference May 3–5).
 - Page-purchase options beyond the granted extra page.
 - Video, poster, or preprint requirements attached to the final submission.
 
-Book Dublin logistics early regardless: late-April conference housing in a
-capital city is its own deadline.
+Book Hawaii logistics early regardless: resort-venue housing and trans-Pacific
+flights for a late-April/May conference are their own deadline.
 
 ## The December–January squeeze
 
-For Major-Revision papers the final decision (December 18 in the 2027
-cycle) lands directly against the artifact-evaluation window (early January
-in recent cycles) and, soon after, camera-ready production. Sequence
+For Major-Revision papers the final decision (December 19, 2027 in the 2028
+cycle) lands directly against the artifact-evaluation window (January in
+recent cycles) and the January 26, 2028 camera-ready deadline. Sequence
 deliberately: freeze the artifact container first (it feeds the badge
 deadline), then finalize the availability statement's DOI (the camera-ready
 needs it), then spend the extra page — because page-11 content that cites

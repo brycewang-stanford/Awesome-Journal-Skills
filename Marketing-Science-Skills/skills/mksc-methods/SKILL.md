@@ -41,7 +41,7 @@ Specify the equilibrium concept, solve it, and prove the claims; relegate long p
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full
-map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Marketing Science is heavily structural/analytical; the chain below serves its reduced-form / field-experiment lane — structural demand and analytical modeling are outside this causal-inference toolchain.
+map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Marketing Science is heavily structural/analytical; the chain below serves its reduced-form / field-experiment lane — structural demand and analytical modeling are outside this causal-inference toolchain.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

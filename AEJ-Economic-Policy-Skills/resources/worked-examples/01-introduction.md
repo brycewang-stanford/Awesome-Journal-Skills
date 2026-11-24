@@ -138,4 +138,4 @@ Mapped to this pack's skill checklists:
 > [`../../skills/aejpol-robustness/SKILL.md`](../../skills/aejpol-robustness/SKILL.md) for defending the
 > policy estimate, and [`../code/`](../code/) for a runnable empirical command chain. For the venue-neutral
 > referee objections a staggered-DID policy claim must pre-empt, see
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

@@ -136,6 +136,6 @@ Mapped to the skill checklists:
 > whose introductions execute this arc across experimental, formal, and observational work, and
 > [`../code/`](../code/) for the randomized-design command chain referenced above. Pre-empt referees with
 > the shared
-> [`reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > and report to the shared
-> [`reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md).
+> [`reporting-standards.md`](../shared/empirical-methods/reporting-standards.md).

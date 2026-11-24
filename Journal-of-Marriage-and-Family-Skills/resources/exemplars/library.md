@@ -27,7 +27,7 @@ lesson for the **interdisciplinary family-science audience** — the JMF bar (se
 [`../../skills/jmf-theory-and-conceptual-framework/SKILL.md`](../../skills/jmf-theory-and-conceptual-framework/SKILL.md),
 and [`../../skills/jmf-writing-style/SKILL.md`](../../skills/jmf-writing-style/SKILL.md)). For each, ask
 the self-check question before claiming your paper is "JMF-shaped." Cross-cutting design objections live
-in the shared hub: [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+in the shared hub: [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).
 
 ---
 

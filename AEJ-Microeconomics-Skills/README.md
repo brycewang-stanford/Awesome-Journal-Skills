@@ -14,7 +14,7 @@ English | [简体中文](README.zh-CN.md)
 Twelve agent skills for manuscripts targeted at the **American Economic Journal: Microeconomics
 (AEJ: Micro)** — the **American Economic Association's** quarterly journal (founded 2009, one of four AEJs)
 for **microeconomic theory and its applications** (Print ISSN 1945-7669 / Online ISSN 1945-7685), submitted
-via the AEA submission system.
+via the AEA ScholarOne system.
 
 This repository is opinionated and **theory-first**. AEJ: Micro "publishes theoretical work as well as both
 empirical and experimental work with a theoretical framework," and the deciding criterion is a **clean,
@@ -24,7 +24,7 @@ theory, and theory-grounded experiments. The **central skill is `aejmic-theory-m
 equilibrium concept, proof strategy, generality vs. tractability). Empirical, structural, and experimental
 work belongs here **only when the theory is the point**.
 
-Official basis checked 2026-06: AEJ: Micro journal home, editors, submission guidelines, and editorial
+Official basis checked 2026-06 and re-verified 2026-11-24: AEJ: Micro journal home, editors, submission guidelines, and editorial
 policy on aeaweb.org, plus the AEA Data and Code Availability Policy / Office of the AEA Data Editor. See
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
@@ -42,12 +42,12 @@ AEJ: Micro's constraints differ materially from an empirical flagship and from s
 | "Identification"      | Which **assumption is doing the work**; what makes it tight     | For pure theory there is no causal design — credibility is the proof   |
 | House style           | Numbered propositions; **proofs in appendix**; numerical examples | Narrative-empirical formatting reads as off-template                   |
 | Statistical reporting | **Standard errors / confidence sets, not significance asterisks** | Asterisk tables are an AEA house-style anti-pattern                    |
-| Review                | **Single-blind** (referee sees author; referee anonymous)       | No anonymization burden — the paper stands on rigor, not blinding      |
+| Review                | **Author-anonymized submission** (AEA RCT, launched fall 2026)  | Names, affiliations, acknowledgements go in a separate title page      |
 | Abstract              | **≤100 words**                                                  | A long abstract fails the format check                                 |
 | Data / replication    | **AEA Data and Code Availability Policy** (AEA Data Editor; openICPSR) | Empirical/simulation/experimental work verified **before acceptance**; theory deposits numerical-example code |
 
 Volatile specifics — the **current submission fee**, the exact **JEL-requirement wording**, and the
-**founding-year** statement — are confirmed for 2026-06 where possible and otherwise marked **待核实**. See
+**founding-year** statement — are confirmed for 2026-11-24 where possible and otherwise marked **待核实**. See
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 > **Submission fee vs. publication fee, do not conflate:** AEJ: Micro charges a **submission fee** (AEA
@@ -106,9 +106,9 @@ aejmic-replication-package     (proof appendix + numerical/structural/experiment
         ▼
 aejmic-referee-strategy        (pre-empt the objections theory referees raise)
         ▼
-aejmic-submission              (AEA system preflight: single-blind, 100-word abstract, fee)
+aejmic-submission              (AEA system preflight: anonymized manuscript, 100-word abstract, fee)
         ▼
-aejmic-rebuttal                (single-blind R&R response letter)
+aejmic-rebuttal                (R&R response letter, anonymized)
 ```
 
 `aejmic-workflow` is the router — it tells you which skill to use next based on where you are.
@@ -128,8 +128,8 @@ aejmic-rebuttal                (single-blind R&R response letter)
 | `aejmic-tables-figures`        | Propositions, numerical examples, schematic figures, empirical tables              |
 | `aejmic-writing-style`         | AEA house style and the theory-paper intro arc                                     |
 | `aejmic-replication-package`   | Proof appendix + AEA Data Editor code/data deposit (incl. numerical examples)      |
-| `aejmic-referee-strategy`      | Anticipate expert-referee objections; read the single-blind process               |
-| `aejmic-submission`            | AEA system preflight (single-blind, 100-word abstract, JEL, fee, data policy)      |
+| `aejmic-referee-strategy`      | Anticipate expert-referee objections; read the anonymized-review process          |
+| `aejmic-submission`            | AEA system preflight (anonymized, 100-word abstract, JEL, fee, data policy)        |
 | `aejmic-rebuttal`              | R&R response strategy (correctness / generality / exposition)                      |
 
 ### Resources
@@ -150,7 +150,7 @@ aejmic-rebuttal                (single-blind R&R response letter)
 | Lead with          | A broadly interesting theorem           | A general/technical theory advance| A causal empirical finding      |
 | "Identification"   | Which assumption is load-bearing        | Assumptions + maximal generality  | Design (RCT/DID/IV/RDD)         |
 | Audience / process | Broad micro + AEA editorial process     | Specialist theory community       | Applied-micro + AEA process     |
-| Review             | **Single-blind**                        | Single/double per journal         | Single-blind                    |
+| Review             | **Anonymized submission (AEA RCT)**     | Single/double per journal         | Anonymized submission (AEA RCT) |
 | Data / replication | AEA Data Editor; openICPSR              | Encouraged, varies                | AEA Data Editor; openICPSR      |
 | House style        | Numbered props; SEs not asterisks       | Theorem-proof, publisher LaTeX    | Author-date; SEs not asterisks  |
 
@@ -160,7 +160,7 @@ aejmic-rebuttal                (single-blind R&R response letter)
 
 - It does not write a submittable proof or manuscript for you
 - It does not check whether your theorem is correct — that is the author's and referees' job
-- It does not assert volatile metadata (current fee, exact JEL wording, founding year) — these are marked `待核实` or dated 2026-06; verify on the official AEA page
+- It does not assert volatile metadata (current fee, exact JEL wording, founding year) — these are marked `待核实` or dated 2026-11-24; verify on the official AEA page
 - It does not judge whether your contribution is genuinely original or broadly interesting — that is the researcher's call
 
 ---

@@ -14,7 +14,7 @@ description: Use when an American Economic Journal: Macroeconomics (AEJ: Macro) 
 
 ## The AEJ: Macro rebuttal posture
 
-AEJ: Macro review is **single-blind** and editor/coeditor-managed; the coeditor's letter is the **binding instruction set** — when a referee and the coeditor disagree, follow the coeditor. The response must show that the **broad-interest macro contribution survived** the scrutiny and that the identified-empirical and/or quantitative-model objections are answered with **new exhibits, not new prose alone**. Macro referees reward a response that re-runs the decisive check and reports the (possibly changed) number honestly.
+AEJ: Macro review is editor/coeditor-managed (submissions and response letters are author-anonymized under the AEA's 2026 RCT, so keep the response letter free of identifying details); the coeditor's letter is the **binding instruction set** — when a referee and the coeditor disagree, follow the coeditor. The response must show that the **broad-interest macro contribution survived** the scrutiny and that the identified-empirical and/or quantitative-model objections are answered with **new exhibits, not new prose alone**. Macro referees reward a response that re-runs the decisive check and reports the (possibly changed) number honestly.
 
 ## Building the response
 

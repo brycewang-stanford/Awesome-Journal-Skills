@@ -1,20 +1,27 @@
 # The Economic Journal (EJ) Official Source Map
 
 Primary and authoritative sources behind the EJ-specific facts injected into this
-skill pack. **Policy refresh date: 2026-06-20.** EJ is owned by the
+skill pack. **Policy refresh date: 2026-06-20.** Submission rules, fees, data policy
+and editorial board **re-verified 2026-11-23**: the OUP Instructions to Authors and
+Editorial Board pages were read through the WebFetch tool (plain `curl` is blocked by
+OUP), and the RES fee pages, the EJ Data Editor site and the Guide for Accepted Authors
+PDF were read directly. Changes found on 2026-11-23: the board of Editors changed
+(Adeline Delavande, Mathieu Parenti and Alexander Willén joined; Namrata Kala, Roland
+Rathelot and Basit Zafar are no longer listed), Brooke Sperry is now Head of
+Publications, and the replication-package folder is named `2-appendix`. EJ is owned by the
 **Royal Economic Society (RES)** and published by **Oxford University Press
 (OUP)**. Re-check the live pages before submission because editor rosters,
 fees, charges, and special-issue calls can change.
 
 ## Official OUP pages
 
-- **https://academic.oup.com/ej** — The Economic Journal home on Oxford
+- <https://academic.oup.com/ej> — The Economic Journal home on Oxford
   Academic. Verifies: first published in **1891**; one of the founding journals
   of modern economics; publishes high-quality economic research in **all fields
   of economics** for a **broad international readership**; current homepage
   submit link points to **Editorial Express**; online ISSN **1468-0297** and
   print ISSN **0013-0133**.
-- **https://academic.oup.com/ej/pages/general_instructions** — Instructions to
+- <https://academic.oup.com/ej/pages/general_instructions> — Instructions to
   Authors. Verifies: submission through **Editorial Express**; all submissions
   are first reviewed by one of the journal editors; manuscripts not instantly
   rejected are usually sent to **two independent reviewers**; EJ uses
@@ -24,7 +31,13 @@ fees, charges, and special-issue calls can change.
   short papers are welcomed in the **AER:Insights style (<6,000 words, 5
   exhibits)**; preprints are allowed; accepted articles may choose standard or
   open-access licensing; print colour figures cost **GBP 350 per figure**, while
-  online-only colour has no charge.
+  online-only colour has no charge. **Re-read 2026-11-23, unchanged:** single-blind;
+  usually two independent reviewers; one PDF with appendices (cover letter excluded);
+  JEL codes in Editorial Express; funding acknowledged in the manuscript and "no
+  conflicts of interest" declared if there are no disclosures; human/animal-subject
+  approval (IRB date and number) in the acknowledgments; short papers <6,000 words,
+  5 exhibits; preprints allowed; no abstract-length, keyword or AI/LLM rule on this
+  page.
 - The same Instructions verify the data/code policy: authors of empirical,
   experimental, or numerical papers must provide enough detail for replication;
   data exemptions must be requested at **first submission**; empirical-paper
@@ -33,18 +46,24 @@ fees, charges, and special-issue calls can change.
   to reproduce analysis data, tables, figures, and in-text numbers; acceptance is
   granted only after reproducibility checks; accepted packages are posted on the
   journal repository or another trusted repository.
-- **https://academic.oup.com/ej/pages/Editorial_Board** — official editorial
-  board. Verifies: **Francesco Lippi** as Editor-in-Chief; Editors **Esteban M.
-  Aucejo**, **Pauline Grosjean**, **Namrata Kala**, **Jin Li**, **Paola
-  Manzini**, **Franck Portier**, **Roland Rathelot**, **Marta Serra-Garcia**,
-  and **Basit Zafar**; Special Issues Editor **Alberto Bisin**; Senior
-  Publications Manager **Brooke Sperry**; Data Editor **Damian Clarke**.
+- <https://academic.oup.com/ej/pages/Editorial_Board> — official editorial
+  board. **Re-verified 2026-11-23:** **Francesco Lippi** (LUISS and EIEF) as
+  Editor-in-Chief; Editors **Esteban M. Aucejo**, **Adeline Delavande**, **Pauline
+  Grosjean**, **Jin Li**, **Paola Manzini**, **Mathieu Parenti**, **Franck Portier**,
+  **Marta Serra-Garcia**, and **Alexander Willén**; Special Issues Editor **Alberto
+  Bisin**; Head of Publications **Brooke Sperry**; Data Editor **Damian Clarke**
+  (Exeter and Universidad de Chile). On 2026-06-20 the Editors list also included
+  Namrata Kala, Roland Rathelot and Basit Zafar; RES thanked Zafar and Rathelot on
+  completing their terms in October and December 2026
+  (<https://res.org.uk/thank-you-basit-zafar-and-roland-rathelot/>, 23 October 2026), and
+  Kala is now a coeditor of AEJ: Applied.
   **Re-verified 2026-06-22:** Lippi has been Editor-in-Chief since **1 August 2021**
   and remains the sitting EiC (RES appointment news + RES spring-2026 editorial-
   appointment announcements confirm the board, with Aucejo, Grosjean and Serra-Garcia
   joining in 2026); Damian Clarke remains Data Editor.
-- **https://ejdataeditor.github.io/Guide-for-Accepted-Authors.pdf** — EJ Guide
-  for Accepted Authors, version dated **21 December 2025**. Verifies final-file
+- <https://ejdataeditor.github.io/Guide-for-Accepted-Authors.pdf> — EJ Guide
+  for Accepted Authors, version dated **21 December 2025** (still the current version on
+  2026-11-23). Verifies final-file
   and production-stage details: final files are submitted through Editorial
   Express as a single zip with `1-paper`, `2-appendix`, and signed checklist;
   LaTeX final files include `.tex`, PDF, and required inputs; the accepted-author
@@ -54,7 +73,7 @@ fees, charges, and special-issue calls can change.
   author-date references arranged alphabetically then chronologically. The PDF
   also gives concrete in-text and reference-list examples, including dataset and
   replication-package citations.
-- **https://academic.oup.com/pages/open-research/open-access/charges-licences-and-self-archiving**
+- <https://academic.oup.com/pages/open-research/open-access/charges-licences-and-self-archiving>
   — OUP charges, licences, and self-archiving. Verifies: optional APCs in hybrid
   journals are separate from other charges; charges are subject to change and
   exclude applicable taxes; authors may be eligible for Read and Publish
@@ -62,7 +81,7 @@ fees, charges, and special-issue calls can change.
 
 ## Royal Economic Society pages
 
-- **https://res.org.uk/submission-fee-policy/** — RES submission-fee policy.
+- <https://res.org.uk/submission-fee-policy/> — RES submission-fee policy.
   Verifies: EJ introduced a submission fee in autumn **2019**; authors pay a fee
   for each new submission; RES members receive reduced fees by membership
   category; all submission fees are subject to **20% VAT**; fees are not
@@ -70,21 +89,22 @@ fees, charges, and special-issue calls can change.
   by invoice or cheque is not received within 21 days, RES may remove the
   submission. Current EJ submission fees listed on the page are: non-member
   **GBP 248**, student / Tier A / unemployed member **GBP 50**, and Tier B-C-D
-  members / Fellows **GBP 113**, before VAT. **Re-verified 2026-06-22:** RES updated
+  members / Fellows **GBP 113**, before VAT (**re-verified 2026-11-23**, unchanged).
+  Re-verified 2026-06-22: RES updated
   the submission-fee policy with the **non-member GBP 248 rate effective 8 May 2026**
   (see also <https://res.org.uk/the-economic-journal-updated-submission-fee-policy/>);
   the 20% VAT and resubmission-exemption rules are unchanged.
-- **https://res.org.uk/oxford-university-press-to-publish-the-journals-of-the-royal-economic-society-from-2019/**
+- <https://res.org.uk/oxford-university-press-to-publish-the-journals-of-the-royal-economic-society-from-2019/>
   — RES news. Verifies that OUP has published the RES journals, including EJ,
   from 2019.
 
 ## EJ Data Editor site
 
-- **https://ejdataeditor.github.io/** — EJ Data Editor website. Verifies that
+- <https://ejdataeditor.github.io/> — EJ Data Editor website. Verifies that
   the site contains the information for the Data and Code Availability Policy
   and **pre-acceptance reproducibility checks** at EJ, and lists the Data Editor
   contact `ejdataeditor@gmail.com`.
-- **https://ejdataeditor.github.io/before.html** — Before first submission.
+- <https://ejdataeditor.github.io/before.html> — Before first submission.
   Verifies: exemptions can only be granted if requested at first submission; EJ
   requires authors of empirical, experimental, or numerical papers to document
   how results were obtained in enough detail to replicate them; final
@@ -92,9 +112,9 @@ fees, charges, and special-issue calls can change.
   posted to the journal's Zenodo repository or another trusted repository; the
   exemption request is made through the Data Policy box in Editorial Express and
   a cover letter.
-- **https://ejdataeditor.github.io/package.html** — Prepare and submit the
+- <https://ejdataeditor.github.io/package.html> — Prepare and submit the
   replication package. Verifies: package structure includes `1-paper`,
-  `2-appendices`, `README.pdf`, `3-replication-package.zip`, and optional
+  `2-appendix` (re-read 2026-11-23), `README.pdf`, `3-replication-package.zip`, and optional
   `4-confidential-data-not-for-publication.zip`; README must include a Data
   Availability Statement, rights statements, run instructions, software
   requirements, expected running time, and data citations; raw datasets require
@@ -139,3 +159,29 @@ fees, charges, and special-issue calls can change.
 - For empirical, experimental, and numerical papers, plan the replication
   package at first submission. Restricted-data exemptions requested late can
   block review or final acceptance.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "The Economic Journal",
+  "verified": "2026-11-23",
+  "rules": {
+    "review_mode": {"value": "single-blind", "source": "https://academic.oup.com/ej/pages/general_instructions", "note": "authors are not anonymized"},
+    "jel_codes_required": {"value": true, "source": "https://academic.oup.com/ej/pages/general_instructions", "note": "entered in Editorial Express"},
+    "required_statements": {"value": ["funding", "conflict_of_interest", "jel_codes"], "source": "https://academic.oup.com/ej/pages/general_instructions", "note": "funding acknowledged in the manuscript; declare no conflicts if none; IRB/ethics approval referenced in the acknowledgments only for human- or animal-subject research"},
+    "abstract_words_max": {"value": 100, "source": "https://ejdataeditor.github.io/Guide-for-Accepted-Authors.pdf", "note": "accepted-author/production rule; the Instructions to Authors state no abstract limit for initial submission"},
+    "submission_fee": {"value": "GBP 248 non-member; GBP 50 student/Tier A/unemployed member; GBP 113 Tier B-D member/Fellow; plus 20% VAT; new submissions only, no desk-reject refund", "source": "https://res.org.uk/submission-fee-policy/"},
+    "portal": {"value": "Editorial Express", "source": "https://academic.oup.com/ej/pages/general_instructions"},
+    "file_format": {"value": "one single PDF including appendices and referee supplementary material (cover letter separate)", "source": "https://academic.oup.com/ej/pages/general_instructions"},
+    "data_code_policy": {"value": "pre-acceptance reproducibility checks by the EJ Data Editor; README, raw data, code; package published on the EJ Zenodo community; data exemptions only if requested at first submission", "source": "https://ejdataeditor.github.io/before.html"},
+    "preprint_policy": {"value": "preprints allowed; do not prevent submission", "source": "https://academic.oup.com/ej/pages/general_instructions"},
+    "reference_style": {"value": "author-date, alphabetical then chronological reference list; datasets and replication packages cited", "source": "https://ejdataeditor.github.io/Guide-for-Accepted-Authors.pdf"},
+    "llm_policy": {"value": null, "note": "not stated on the official pages as of 2026-11-23"},
+    "main_text_words_max": {"value": null, "note": "no limit stated for full papers as of 2026-11-23; the short-paper route is <6,000 words and 5 exhibits"}
+  }
+}
+```

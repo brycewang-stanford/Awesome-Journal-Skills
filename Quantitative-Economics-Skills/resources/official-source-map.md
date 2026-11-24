@@ -2,6 +2,17 @@
 
 Primary sources behind the *Quantitative Economics* facts injected into this skill pack.
 Sources were checked on **2026-06-20**; editor/fee live-check verification **2026-06-22**.
+Submission instructions, fees, editorial procedures (AI, disclosure, replication policies) and the
+editorial board **re-verified 2026-11-24** against the live Econometric Society pages, all read directly.
+Changes found on 2026-11-24: the instructions page now announces that ES journals run the **AI tool
+Refine** on conditionally accepted papers (technical/expository checks only; submission implies consent;
+manuscripts are not used for training); the pre-registration for own-data studies is uploaded **as a
+separate file** with the submission; and the editorial-board page lists Co-Editors **Chao Fu, Anna
+Mikusheva, Fabrizio Perri and Mikkel Plagborg-Møller** under Editor **Bernard Salanié** (term
+2025–2029). Fees (US$100 / US$50; publication fee 100% of per-page production cost, US$24 per page at
+present, for papers submitted on or after 1 January 2026), the 150-word abstract, the 25-page
+Supplemental Appendix cap and the format rules are **unchanged**. The fact table's earlier
+"50 percent of production cost" row was stale and is corrected below.
 Live-check the Econometric Society instructions, editorial procedures, data/code policy, and
 Wiley journal metadata before final upload because fees, rosters, policy wording, and
 submission-system labels can change.
@@ -30,6 +41,9 @@ it). Re-verify all figures on the live ES pages before submission.
   without external referees, external referee / associate-editor path, approximate four-to-five-month
   review target, conflict and confidentiality rules, disclosure policy including the **US$10,000**
   interested-party threshold, AI-author policy, and multi-author responsibility-statement rule.
+- **https://www.econometricsociety.org/publications/quantitative-economics/editorial-board**
+  — QE editorial board (read 2026-11-24). Confirms Editor Bernard Salanié (Columbia; term 2025–2029)
+  and Co-Editors Chao Fu, Anna Mikusheva, Fabrizio Perri and Mikkel Plagborg-Møller.
 - **https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-preparing-articles-for-publication**
   — QE instructions for accepted articles. Use for current final-file, LaTeX, figure, reference,
   and public-posting details before acceptance-stage advice.
@@ -38,7 +52,9 @@ it). Re-verify all figures on the live ES pages before submission.
   Confirms the DCAS-compatible ES regime: empirical, experimental, and simulation papers require
   documented data and code; raw data, code, and documentation must be supplied before acceptance
   when required; reproducibility checks happen before final acceptance; restricted-data or partial
-  checks must be documented and requested through the ES process.
+  checks must be documented and requested through the ES process. (On 2026-11-24 this URL resolved
+  to the generic ES Publications page; the same policy was re-read in Section 4 "Replication Policy"
+  of the instructions page and Section 4 of the editorial-procedures page.)
 - **https://www.econometricsociety.org/publications/quantitative-economics/submissions**
   — QE submissions landing page. Use as the stable entry point for submission, editorial-procedure,
   data-code, and publication-preparation links.
@@ -74,7 +90,10 @@ it). Re-verify all figures on the live ES pages before submission.
 | No asterisks or boldface for statistical significance; report standard errors and confidence / coverage sets | ES instructions for submitting articles |
 | Manuscript must be posted on a publicly available website during review unless the editor grants an exception | ES instructions for submitting articles; ES instructions for accepted articles |
 | Certified random author ordering is not permitted; author contributions can be noted in a footnote | ES instructions for submitting articles |
-| Open Access uses a CC BY-NC license; post-proof publication fees are based on 50 percent of production cost per page at the current rate | ES instructions for submitting articles |
+| Open Access uses a CC BY-NC license; post-proof publication fee is 100% of production cost per page (US$24 per page at present) for papers submitted on or after 1 January 2026 — 50% for papers submitted earlier and for student authors; low/lower-middle-income and no-grant discounts on request | ES instructions for submitting articles (re-read 2026-11-24) |
+| ES journals run the AI tool Refine on conditionally accepted papers (technical/expository checks; consent implied by submission) | ES instructions for submitting articles (re-read 2026-11-24) |
+| Disclosure statement web form completed by each coauthor during submission; every article states its sources of financial support; IRB disclosure for human-subjects data | ES editorial procedures and policies (re-read 2026-11-24) |
+| Editor Bernard Salanié (2025–2029); Co-Editors Chao Fu, Anna Mikusheva, Fabrizio Perri, Mikkel Plagborg-Møller | ES QE editorial board (read 2026-11-24) |
 | Experimental submissions from January 1, 2026 require instructions / transcripts at submission; own-data studies require recognized pre-registration or editor-approved exemption | ES instructions for submitting articles |
 | Review is handled by editors / coeditors; desk decisions can occur without external referees; full review target is about four to five months | ES editorial procedures and policies |
 | Revise offers normally remain valid for 12 months | ES instructions for submitting articles |
@@ -95,3 +114,35 @@ it). Re-verify all figures on the live ES pages before submission.
   impact factor, ISSNs, or society metadata in author-facing advice.
 - Do not state acceptance rates, desk-rejection rates, fixed page/word caps for the main manuscript, or
   a full board roster unless the current official page provides the exact value.
+
+## Machine-readable submission rules
+
+Compiled from the prose above for tools/preflight.py; the prose is authoritative and python3 tools/venue_rules.py --check fails if the two disagree.
+
+```json
+{
+  "schema": "ajs-preflight-rules/1",
+  "venue": "Quantitative Economics",
+  "verified": "2026-11-24",
+  "rules": {
+    "abstract_words_max": {"value": 150, "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles"},
+    "keywords_required": {"value": true, "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles", "note": "keywords and complete affiliations on the title page; no count stated"},
+    "jel_codes_required": {"value": false, "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles", "note": "JEL numbers are optional"},
+    "main_text_pages_max": {"value": null, "note": "no main-manuscript page cap stated as of 2026-11-24; the Supplemental Appendix may not exceed 25 pages"},
+    "review_mode": {"value": null, "note": "not named on the official pages as of 2026-11-24; the submission must be posted publicly during review, so it is not double-blind"},
+    "cover_letter": {"value": "discouraged", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles", "note": "submit preferably without a cover letter unless it carries review-relevant information; required for Econometrica transfers"},
+    "required_statements": {"value": ["funding"], "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/editorial-procedures-and-policies", "note": "every submitted article must state its sources of financial support"},
+    "separate_upload_statements": {"value": ["disclosure_statement"], "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/editorial-procedures-and-policies", "note": "per-author disclosure web form during submission (US$10,000 interested-party threshold); visible to referees"},
+    "conditional_statements": {"value": ["trial_registration", "ethics_approval"], "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles", "note": "own-data studies pre-register (separate file) unless data collection began before 1 January 2026 or an exemption is granted; IRB approval disclosed for human-subjects data"},
+    "significance_stars": {"value": "prohibited", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles", "note": "no asterisks or bold face for statistical significance; report standard errors and confidence/coverage sets"},
+    "submission_fee": {"value": "USD 100 regular ES member / USD 50 student member; ES membership required; exempt for low-income countries and Econometrica transfers; not refunded on desk rejection", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles"},
+    "apc": {"value": "open access (CC BY-NC); post-proof publication fee of 100% of per-page production cost (USD 24 per page at present) for papers submitted on or after 1 January 2026, with discounts", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles"},
+    "file_format": {"value": "PDF; at least 12-pt font, 1.5 or double spacing, margins of at least 1.25 in, no more than 32 lines per page, figures and tables in the text, references after appendices", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles"},
+    "template": {"value": "ES LaTeX template recommended, not required", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles"},
+    "supplement_policy": {"value": "Supplemental Appendix at most 25 pages, clearly labelled, not for proofs of key results; main paper self-contained", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles"},
+    "preprint_policy": {"value": "the submission must be posted on a publicly available website during review (editors may grant exceptions)", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles"},
+    "data_code_policy": {"value": "ES Data and Code Availability Policy (DCAS-compatible): raw data, code and documentation before acceptance; reproducibility check by the ES Data Editor; exemption requests at initial submission only", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/instructions-for-submitting-articles"},
+    "llm_policy": {"value": "AI tools may be used; authors remain accountable; AI cannot be an author; ES runs the Refine AI tool on conditionally accepted papers", "source": "https://www.econometricsociety.org/publications/quantitative-economics/submissions/editorial-procedures-and-policies"}
+  }
+}
+```

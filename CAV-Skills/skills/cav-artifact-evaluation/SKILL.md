@@ -1,17 +1,29 @@
 ---
 name: cav-artifact-evaluation
-description: Use when packaging a CAV (Computer Aided Verification) artifact for the Artifact Evaluation Committee (AEC), covering the three badges (Available / Functional / Reusable), the smoke-test and full-review phases, ≥2 AEC reviewers per artifact, DOI-issuing archives, verification-tool packaging (solvers, benchmarks, seeds, resource limits, proof witnesses), and the fact that AE is invited, post-notification, and non-conditional.
+description: Use when packaging a CAV (Computer Aided Verification) artifact for the Artifact Evaluation Committee (AEC), covering the three badges (Available / Functional / Reusable), the two AE rounds (mandatory, pre-notification for Tool Papers; invited, post-notification and non-conditional for other categories), the smoke-test and full-review phases, the obligatory reviewer nomination, DOI-issuing archives, and verification-tool packaging (solvers, benchmarks, seeds, resource limits, proof witnesses).
 ---
 
 # CAV Artifact Evaluation
 
 Use this for the artifact track. CAV artifact evaluation is run by a dedicated **Artifact Evaluation
-Committee (AEC)**, is **invited but optional** after notification, and — importantly — **final paper
-acceptance is not conditional** on it. Authors declare **artifact intent at submission time**; the
-actual AEC submission comes after acceptance, on the artifact track's own deadline (CAV 2026 artifact
-registration: 22 Apr 2026). Two things to internalize: badges are earned by AEC members actually
-running your package, and for anonymized paper categories the review-time material and the AEC
-artifact are handled differently (the AEC artifact is post-notification, so de-anonymization is fine).
+Committee (AEC)**, and since **CAV 2027** it runs in **two rounds** (verified 2026-11-24 on
+`https://conferences.i-cav.org/2027/artifacts/`):
+
+- **Round 1 — Tool Papers, mandatory.** The artifact is reviewed in parallel with the paper and must
+  earn **at least the Functional badge**; a tool paper is accepted only if it passes both the paper
+  review and AE. CAV 2027: registration 8 Mar 2027, submission 11 Mar 2027, smoke-test response
+  22-25 Mar 2027, artifact and paper notification 23 Apr 2027. An exemption must be requested at
+  paper submission, with reasons; it is at the PC and AE chairs' discretion.
+- **Round 2 — all other categories, invited and non-conditional.** After notification; CAV 2027:
+  registration 26 Apr 2027, submission 3 May 2027, smoke-test response 11-14 May 2027, artifact
+  notification 28 May 2027.
+
+Authors declare **artifact intent at submission time** and it is shared with reviewers. AE is
+**single-blind**, so the artifact may carry your identity — but to preserve *reviewer* anonymity
+you confirm you cannot track who downloads the artifact URL. Every artifact submission must
+**nominate one distinct reviewer** (preferably a co-author, expected load about three artifacts),
+and you may optionally consent to reviewers using an LLM during the smoke test only. Badges are
+earned by AEC members actually running your package.
 
 ## The three badges (verify the current set and names)
 
@@ -26,9 +38,10 @@ require the AEC's own run to succeed, so the failure mode is almost always "it d
 their machine," not "the idea was weak." Reusable additionally requires that the artifact already be
 Available.
 
-## How the AEC evaluates (two phases, ≥2 reviewers)
+## How the AEC evaluates (two phases per round)
 
-Each artifact is examined by **at least two** AEC members across two phases:
+Each artifact is examined by AEC members across two phases (CAV 2026 stated at least two reviewers
+per artifact; the CAV 2027 page does not state a number):
 
 ```text
 [Smoke-test phase]  reviewers confirm the artifact downloads, unpacks, and the basic entry point
@@ -79,15 +92,22 @@ package on Zenodo for a DOI.
 
 ## Calibration
 
-- Artifact evaluation is **after** notification and **not** a condition of acceptance — plan it, but
-  do not block the camera-ready on the badge outcome.
-- Badge names, the exact set offered, the phase structure, and whether the AEC is single- or
-  double-anonymous vary by cycle — confirm on the current Artifact Evaluation page.
+- For Regular and Application/Industrial/Case Study papers, artifact evaluation is **after**
+  notification and **not** a condition of acceptance — plan it, but do not block the camera-ready
+  on the badge outcome. For **Tool Papers** it **is** a condition of acceptance and happens before
+  notification: start packaging before the paper deadline.
+- Accepted artifact formats (CAV 2027): a Docker image (not just a Dockerfile), a VirtualBox `.ova`
+  VM image, or a package for the CAV 2027 AE VM; the `.zip` must contain a README and a LICENSE.
+- Badge names, the exact set offered, the round structure, and whether the AEC is single- or
+  double-anonymous vary by cycle — CAV changed the tool-paper rule between 2026 and 2027; confirm on
+  the current Artifact Evaluation page.
 
 ## Output format
 
 ```text
+[Round] 1 (Tool Paper, mandatory, >= Functional) / 2 (other categories, optional)
 [Target badges] Available / Functional / Reusable
+[Nominated reviewer] <name, affiliation, aware of nomination? yes/no>
 [Phase readiness] smoke test passes in <10 min on a clean machine? yes/no
 [Contents] <tool/benchmarks(revision)/config(limits,seeds)/witnesses/license>
 [Claim mapping] <claim -> command -> expected result present? yes/no>

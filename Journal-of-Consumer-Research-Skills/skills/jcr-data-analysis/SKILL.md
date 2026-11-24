@@ -37,12 +37,12 @@ Where the design is interpretive, "analysis" means a defensible path from raw da
 
 ## Transparency reporting (JCR-specific)
 
-JCR's research-transparency regime governs reporting: prepare the **Data Collection Statement** (where/when/who collected and analyzed the data, where stored — hidden from reviewers, published if accepted), post data and materials to an **approved repository** (OSF, Harvard Dataverse, Qualitative Data Repository, ResearchBox) as required at invited revision, supply **statistical/programming replication code** (or a written description for proprietary code), and plan to **retain data ≥ 7 years**. Consult JCR's "Research Method Transparency Guidelines and Reporting Requirements."
+JCR's research-transparency regime governs reporting: prepare the **Data Collection Statement** (where/when/who collected and analyzed the data, where stored — hidden from reviewers, published if accepted), share anonymized data, stimuli, measures, protocols and analysis code via a third-party repository (e.g., Dataverse) from the original submission and document them in the **Data and Materials Availability Statement** (or explain why they cannot be shared), and plan to **retain data ≥ 7 years**. Consult JCR's "Research Method Transparency Guidelines and Reporting Requirements."
 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JCR is predominantly lab experiments; randomization-based inference and the many-outcome family-wise correction (`romano_wolf`) are the decisive tools.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JCR is predominantly lab experiments; randomization-based inference and the many-outcome family-wise correction (`romano_wolf`) are the decisive tools.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

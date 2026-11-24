@@ -85,7 +85,7 @@ Accepted articles at this journal commonly carry 6-10 main exhibits backed by a 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEG (growth) uses cross-country and long-run panels with deep endogeneity; foreground identification and robustness to alternatives.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JEG (growth) uses cross-country and long-run panels with deep endogeneity; foreground identification and robustness to alternatives.
 
 - **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
 - **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —

@@ -21,15 +21,15 @@ significance**, not just a clean lab result.
 
 | Situation | Type | Route to |
 |-----------|------|----------|
-| Full original study | **Research Article** (~7,000 words; 待核实) | normal pipeline below |
+| Full original study | **Research Article** (7,000 words) | normal pipeline below |
 | Urgent, high-impact result, short | **ES&T Letters** (Letter ≤3,000 words; separate journal) | tighten scope; `est-submission` |
-| Comprehensive synthesis of a field | **Critical Review** (~10,000 words; 待核实) | `est-literature-positioning` + `est-writing-style` |
-| Forward-looking opinion/synthesis | **Perspective** (~4,000 words; 待核实) | `est-literature-positioning` |
-| Magazine-style accessible piece | **Feature** (~5,000 words; 待核实) | `est-writing-style` |
-| Science–policy interface analysis | **Policy Analysis** (~7,000 words; 待核实) | `est-topic-selection` + `est-writing-style` |
+| Comprehensive synthesis of a field | **Review** (10,000 words) | `est-literature-positioning` + `est-writing-style` |
+| Forward-looking opinion/synthesis | **Perspective** (4,000 words) | `est-literature-positioning` |
+| Magazine-style accessible piece | **Feature** (5,000 words) | `est-writing-style` |
+| Science–policy interface analysis | **Policy Analysis** (7,000 words) | `est-topic-selection` + `est-writing-style` |
 
-> Word caps are volatile and figures/tables may count as word-equivalents — confirm on the live
-> guidelines page (see 待核实 in `resources/official-source-map.md`).
+> Word caps re-verified 2026-11-24; the count covers abstract + main text + figure/table captions
+> (references, tables and graphics excluded). Re-confirm on the live guidelines page before upload.
 
 ## Routing map (stage → skill)
 

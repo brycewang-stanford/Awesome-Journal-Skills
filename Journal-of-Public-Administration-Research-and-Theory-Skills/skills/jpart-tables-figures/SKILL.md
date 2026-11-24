@@ -76,7 +76,7 @@ online supplement unless they are necessary for the theory contribution.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JPART is public management — observational and experimental designs on public organizations; identification + clustered/multilevel inference.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JPART is public management — observational and experimental designs on public organizations; identification + clustered/multilevel inference.
 
 - **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
 - **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —

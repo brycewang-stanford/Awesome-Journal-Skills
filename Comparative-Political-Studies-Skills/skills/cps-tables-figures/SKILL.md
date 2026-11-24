@@ -53,7 +53,7 @@ but only if each one earns its place.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). CPS is comparative politics — cross-national and sub-national designs; emphasize identification and clustered / multiway inference.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). CPS is comparative politics — cross-national and sub-national designs; emphasize identification and clustered / multiway inference.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

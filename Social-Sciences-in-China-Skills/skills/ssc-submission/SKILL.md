@@ -14,7 +14,9 @@ description: Use when running the pre-submission preflight for 《中国社会�
 
 - 投稿系统：**https://sscp.portal.founderss.cn/**（亦可经官网 sscp.cssn.cn 入口）
 - 注释体例：**页下注（脚注）**，引文出处注遵该刊规范
-- 摘要 200–300 字；关键词 3–5；配中英文标题/摘要/关键词
+- 摘要 300 字以内（中、英文）；关键词 3—5（中、英）；配中英文标题/摘要/关键词
+- 篇幅：单篇稿件不超 2 万字
+- 上传 word 版原稿 + **签字版作者承诺书**；双向匿名专家审稿；不收任何费用；审阅周期一般 3 个月
 - 主办：中国社会科学院 / 中国社会科学杂志社；月刊
 
 > 体例与字数以官网**最新《投稿须知》**为准。规则会变，投前务必复核，不要凭记忆。
@@ -24,7 +26,8 @@ description: Use when running the pre-submission preflight for 《中国社会�
 - [ ] 注释统一为**页下注（脚注）**，格式符合该刊规范（作者、文献、出版信息、页码齐全）
 - [ ] 引文准确、可核查；直接引用标页码
 - [ ] 中英文标题、摘要、关键词齐全且对齐
-- [ ] 摘要 200–300 字、关键词 3–5
+- [ ] 摘要 300 字以内、关键词 3—5；全文不超 2 万字
+- [ ] 已下载并签署作者承诺书，随 word 原稿一并上传
 - [ ] 图表规范、编号连续、有出处
 - [ ] 基金项目、作者信息按系统要求填写
 
@@ -100,3 +103,25 @@ description: Use when running the pre-submission preflight for 《中国社会�
 【内容复核】命题□ 文献□ 论证□ 文风□
 【结论】可投 / 待修 <清单>
 ```
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue social-sciences-in-china-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

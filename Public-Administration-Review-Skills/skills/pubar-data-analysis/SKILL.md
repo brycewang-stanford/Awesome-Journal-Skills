@@ -48,7 +48,7 @@ covers execution and reporting; design decisions live in `pubar-research-design`
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). PAR is public administration — survey/observational and some experimental work; identification + clustered/multilevel inference, magnitude for practice.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). PAR is public administration — survey/observational and some experimental work; identification + clustered/multilevel inference, magnitude for practice.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

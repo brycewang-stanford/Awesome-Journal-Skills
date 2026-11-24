@@ -7,17 +7,18 @@ description: Use when auditing an IEEE ICSME research-track submission for EasyC
 
 Run this audit before uploading to the ICSME EasyChair site. ICSME research papers are IEEE
 conference papers that publish in **IEEE Xplore**, judged in a **single double-anonymous round**.
-Every number below was read from the ICSME 2026 research-papers call on 2026-07-09 via search
-renderings of the `conf.researchr.org` and EasyChair URLs (see `resources/official-source-map.md`);
-treat them as a one-cycle snapshot and reopen the live call first.
+Every number below was read from the ICSME 2027 research-papers call on 2026-11-23 by direct load
+of the `conf.researchr.org` page (see `resources/official-source-map.md`); treat them as a one-cycle
+snapshot and reopen the live call first. The 2027 EasyChair link was still "TBD" on that date.
 
 ## The abstract-then-paper two-step
 
 ICSME separates **abstract registration** from **full-paper upload**, and both are AoE:
 
-- **Abstract** locks in title, abstract, authors, and topic areas about a week early (ICSME 2026:
-  27 February 2026). New submissions are not accepted after this; only updates to registered ones.
-- **Full paper** uploads the anonymized PDF (ICSME 2026: 6 March 2026).
+- **Abstract** locks in title, abstract, authors, and topic areas about a week early (ICSME 2027:
+  19 February 2027). In 2026 new submissions were not accepted after this, only updates to
+  registered ones; expect the same rule.
+- **Full paper** uploads the anonymized PDF (ICSME 2027: 26 February 2027).
 
 Register with the *real* title and abstract, not a placeholder — the abstract drives reviewer
 bidding on EasyChair, and a registered abstract that diverges from the final paper worsens your PC
@@ -28,7 +29,7 @@ match and can strand the submission if you miss the abstract cutoff.
 - **IEEE two-column conference proceedings format**, `\documentclass[conference]{IEEEtran}` for
   LaTeX; Word users take the US-Letter IEEE template. This is the **IEEE path** — do not carry an
   ACM `acmart` single-column habit over from ICSE-adjacent ACM venues or from FSE.
-- **Page budget (verify per cycle):** ICSME 2026 posts **10 pages** including all text, figures,
+- **Page budget (verify per cycle):** ICSME 2027 posts **10 pages** including all text, figures,
   tables, and appendices, **plus up to 2 pages containing references only**. There is no separate
   unlimited appendix — anything reviewers must read to judge the paper lives inside the 10 pages.
 - Margins, font size, and column layout are fixed by IEEEtran; editorial compression, not template
@@ -90,9 +91,32 @@ ICSME's ROSE-Festival culture makes open science the default expectation, even a
 ## Reverify each cycle
 
 - Whether the abstract-then-paper two-step and its exact dates hold.
-- The page budget (10+2 in 2026) and which IEEEtran revision is required.
-- Supplementary handling, the ROSE-Festival timing, dual-submission wording, and any AI-disclosure
-  rule — all cycle-volatile; none should be assumed stable.
+- The page budget (10+2 in 2026 and 2027) and which IEEEtran revision is required.
+- Supplementary handling, the ROSE-Festival timing, dual-submission wording, and the AI-disclosure
+  rule (2027: IEEE's AI-generated-content guidelines — disclose all AI-generated content, name the
+  system, and note the sections) — all cycle-volatile; none should be assumed stable.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue icsme-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

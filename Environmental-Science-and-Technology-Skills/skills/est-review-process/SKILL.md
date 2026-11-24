@@ -22,8 +22,8 @@ manuscript must clear the editorial bar on significance and fit first.
    significant fraction are **declined without external review** when significance, fit, novelty, or
    rigor fall short.
 2. **Expert external review.** Manuscripts that pass are sent to expert reviewers — typically
-   **three** — who assess within a few weeks. Reviewer identities are kept anonymous; the
-   author-blinding model is not stated as a fixed rule (待核实).
+   **three** — who assess within a few weeks. Reviewer identities are kept anonymous; authors
+   are not blinded (the manuscript carries the author list), so treat it as single-anonymous.
 3. **Editor decision.** Associate editors and the editorial leadership make the call; typical outcomes
    are **reject / major or minor revision / accept**. Decisions are at editor discretion, informed by
    the reviews.

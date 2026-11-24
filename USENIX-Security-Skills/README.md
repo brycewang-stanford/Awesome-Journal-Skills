@@ -8,39 +8,43 @@ threat-model-faithful evidence, assembling the 13-page-plus-appendices submissio
 surviving the two-cycle HotCRP review and shepherding process, and delivering the
 open-access camera-ready plus the two-phase artifact evaluation.
 
-Official basis checked on **2026-07-08**: the USENIX Security '26 Call for Papers and
-Call for Artifacts, the per-cycle HotCRP deadline pages, the community artifact-evaluation
-instructions, the USENIX Security ethics guidelines, the '25 reviewing-model page (used as
-documented history), and the '27 conference page. Direct fetches of `usenix.org`,
-`*.usenix.hotcrp.com`, and `dblp.org` returned HTTP 403 in the verification environment,
-so official pages were read via search-engine renderings of the exact URLs and
-cross-checked against multiple renderings, USENIX accepted-paper listings, and secondary
-deadline trackers; the full trail, including everything still marked 待核实, is in
+Official basis first checked on 2026-07-08 and **re-verified 2026-11-24** by direct fetch
+of the USENIX Security '27 Call for Papers, the '27 Preliminary Call for Artifacts, the '27
+symposium page and the '26 Call for Papers. The pack now describes **USENIX Security '27**
+(Denver, August 11–13, 2027); its Cycle 2 is the open door (registration Jan 19, papers
+Jan 26, 2027, AoE). The full trail, including everything still marked 待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 ## What makes USENIX Security different from its siblings
 
-These venue mechanics, verified for the '26 cycle, drive most of the advice in the
+These venue mechanics, verified for the '27 cycles, drive most of the advice in the
 skills — and most of the mistakes made by authors arriving from other conferences:
 
 - **Two submission cycles a year, each a full HotCRP pipeline.** Every cycle opens with a
-  mandatory paper **registration** roughly a week before the paper deadline; an
-  unregistered paper cannot be uploaded. "When do we submit?" is a strategic choice, not
+  mandatory paper **registration** a week before the paper deadline (fixed title, authors
+  with ORCIDs, topics); an unregistered paper cannot be uploaded. Each author may submit at
+  most **seven papers per cycle**, and a '27 Cycle-1 reject may not enter '27 Cycle 2. "When do we submit?" is a strategic choice, not
   a fixed date.
 - **Major Revision is gone.** Beginning '26 the venue retired the Invited-Major-Revision
-  outcome. Papers are now Accepted, **Accepted on Shepherd Approval** (at most a two-week
-  shepherding pass — prose fixes, not new experiments), or rejected. The old
+  outcome, and '27 keeps it that way. Papers are Accepted, **Accepted on Shepherd
+  Approval** (a short shepherding pass — about 12 days in '27; prose fixes, not new
+  experiments), or rejected. The old
   submit-at-85%-and-revise safety net no longer exists.
 - **Open Science is mandatory and acceptance-conditional.** Every submission carries an
-  **Open Science appendix** stating where its artifacts live, and paper acceptance is
-  conditioned on a **Phase-1 artifact-availability check** passing before finals are due.
-- **Ethics is a gate, not a score.** A mandatory **Ethical Considerations appendix**,
-  vulnerability-disclosure expectations, and IRB/human-subjects documentation for
-  live-system work can sink a technically sound paper on their own.
+  **Open Science appendix** stating where its artifacts live (anonymous links, a 3-day
+  upload grace period, then frozen), and paper acceptance is conditioned on a **Phase-1
+  artifact-availability check** passing before finals are due.
+- **Ethics is a gate, not a score.** The **Ethical Considerations appendix** is no longer
+  mandatory in '27 but is strongly encouraged; reviewers judge every paper's ethics and may
+  reject on ethical grounds, so disclosure expectations and IRB/human-subjects documentation
+  for live-system work can still sink a technically sound paper.
+- **AI tools are allowed, fabrication is misconduct.** The '27 CFP permits AI assistance
+  but treats hallucinated references or invented results as grounds for desk rejection.
 - **Two-phase artifact evaluation with three independent badges** — Artifacts Available
   (mandatory), Artifacts Functional, and Results Reproduced (both optional, after finals).
 - **Open access, no author fee.** USENIX publishes proceedings and talk recordings freely
-  on usenix.org; the author-side obligation is presentation at the symposium.
+  on usenix.org; the author-side obligation is one full-price registration per paper and
+  presentation at the symposium.
 - **Auditable evidence is the house style.** The reviewer pool prizes reproducible attacks,
   measured populations with stated vantage, and defenses tested against adaptive attackers.
 
@@ -54,9 +58,9 @@ skills — and most of the mistakes made by authors arriving from other conferen
 | [`usenixsec-related-work`](skills/usenixsec-related-work/SKILL.md) | Cover the Big-Four and specialty lanes, handle concurrent work across the multi-cycle calendar, and cite your own work double-blind. |
 | [`usenixsec-experiments`](skills/usenixsec-experiments/SKILL.md) | Match experiments to claim type — adaptive attackers for defenses, base rates for detection, vantage validity for measurement, ethics for live systems. |
 | [`usenixsec-reproducibility`](skills/usenixsec-reproducibility/SKILL.md) | Write the Open Science appendix, decide what can and cannot be shared, and fingerprint time- and environment-coupled security experiments. |
-| [`usenixsec-supplementary`](skills/usenixsec-supplementary/SKILL.md) | Route material across the 13-page body, the two mandatory appendices, optional appendices, and external artifacts by reading guarantee. |
+| [`usenixsec-supplementary`](skills/usenixsec-supplementary/SKILL.md) | Route material across the 13-page body, the Open Science and Ethics appendices, optional appendices, and external artifacts by reading guarantee. |
 | [`usenixsec-artifact-evaluation`](skills/usenixsec-artifact-evaluation/SKILL.md) | Pass the mandatory Phase-1 availability check and package hazardous security artifacts safely for optional Phase-2 badges. |
-| [`usenixsec-submission`](skills/usenixsec-submission/SKILL.md) | Final HotCRP audit: registration, 13-page geometry, the two named appendices, mechanical anonymity sweeps, early-reject exposure. |
+| [`usenixsec-submission`](skills/usenixsec-submission/SKILL.md) | Final HotCRP audit: registration with ORCIDs, 13-page geometry, the named appendices, mechanical anonymity sweeps, early-reject exposure. |
 | [`usenixsec-review-process`](skills/usenixsec-review-process/SKILL.md) | Model the two-cycle pipeline, the retired Major Revision, shepherd-approval, and the resubmission restrictions between cycles. |
 | [`usenixsec-author-response`](skills/usenixsec-author-response/SKILL.md) | Write the mid-review response that survives online discussion, handle required ethics revisions, and work with a shepherd after acceptance. |
 | [`usenixsec-camera-ready`](skills/usenixsec-camera-ready/SKILL.md) | Convert acceptance into a correct open-access entry: de-anonymization, artifact-URL swap, Phase-1 sign-off, presenter obligations. |
@@ -65,7 +69,7 @@ skills — and most of the mistakes made by authors arriving from other conferen
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Ten official sources with URLs and access dates; the access-method note; verified '26/'27 facts; the explicit 待核实 list. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Ten official sources with URLs and access dates; the access-method note; verified '27 facts and '26 history; the explicit 待核实 list. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces (HotCRP, CFP, Call for Artifacts, ethics, proceedings) plus the author-side verification passes to run before upload. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five verified USENIX Security '24 Distinguished Paper Award winners across five topic × evidence-shape lanes, with self-check questions and an anti-misattribution guide. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional certificate-pinning measurement abstract and introduction rebuilt to the USENIX Security bar, before → after. |
@@ -129,21 +133,25 @@ USENIX-Security-Skills/
    `usenixsec-author-response` when reviews land, then `usenixsec-camera-ready` (with the
    Phase-1 artifact clock) or the rejection triage depending on the notification email.
 
-## 2026/2027 anchor facts (historical snapshot, not permanent rules)
+## USENIX Security '27 anchor facts (cycle snapshot, not permanent rules)
 
-- **USENIX Security '26** is the 35th Symposium: **Baltimore Marriott Waterfront,
-  August 12–14, 2026**. Program co-chairs: Elissa Redmiles (Georgetown) and Ben Stock
-  (CISPA).
-- **Sec '26 Cycle 1**: registration Aug 19, 2025 · submission Aug 26, 2025 · early reject
-  Oct 7, 2025 · notification Dec 4, 2025 · finals Jan 15, 2026.
-- **Sec '26 Cycle 2**: registration Jan 29, 2026 · submission Feb 5, 2026 · early reject
-  Mar 17, 2026 · notification May 14, 2026 · finals Jun 11, 2026. All deadlines 11:59 pm AoE.
-- **Format**: unaltered USENIX Security LaTeX template · ≤ 13-page body · mandatory
-  "Ethical Considerations" and "Open Science" appendices (≤ 1 page each) before references.
-- **USENIX Security '27** is the 36th Symposium: **Denver, August 11–13, 2027**, chairs
-  Adam Doupé (Arizona State) and Andrei Sabelfeld (Chalmers); Cycle 1 registration
-  Aug 18, 2026 / submission Aug 25, 2026; Cycle 2 registration Jan 19, 2027 / submission
-  Jan 26, 2027.
+- **USENIX Security '27** is the 36th Symposium: **Hyatt Regency Denver at Colorado
+  Convention Center, August 11–13, 2027**. Program co-chairs: Adam Doupé (Arizona State)
+  and Andrei Sabelfeld (Chalmers).
+- **Sec '27 Cycle 1**: registration Aug 18, 2026 · submission Aug 25, 2026 · artifacts
+  Aug 28 · early reject Oct 6 · rebuttal Nov 5–12 · notification Dec 3 · shepherded approval
+  Dec 15, 2026 · finals Jan 14, 2027.
+- **Sec '27 Cycle 2**: registration Jan 19, 2027 · submission Jan 26, 2027 · artifacts
+  Jan 29 · early reject Mar 9 · rebuttal Apr 8–15 · notification May 6 · shepherded approval
+  May 18 · finals Jun 3, 2027. All deadlines AoE.
+- **Format**: unaltered USENIX Security LaTeX template · ≤ 13-page body excluding references
+  and appendices · mandatory "Open Science" appendix · "Ethical Considerations" appendix
+  strongly encouraged · unlimited appendices at submission · **20 pages total** at
+  camera-ready.
+- **Policies**: at most 7 papers per author per cycle · SoK papers solicited ("SoK: "
+  prefix), no Replication submissions in '27 · AI tools allowed, fabrication is misconduct.
+- **History**: USENIX Security '26 (35th) met at the Baltimore Marriott Waterfront,
+  August 12–14, 2026, under Elissa Redmiles and Ben Stock; its Ethics appendix was mandatory.
 - **Proceedings**: USENIX open access, no author fee.
 
 ## Fact discipline
@@ -151,13 +159,12 @@ USENIX-Security-Skills/
 This pack separates three classes of statement, and the skills are written to keep them
 distinguishable:
 
-1. **Verified 2026/2027-cycle facts** — carry dates/caps and trace to a numbered source in
-   the source map (e.g., the 13-page body, the Feb 5 Cycle-2 deadline).
-2. **Reported facts** — found in secondary sources and labeled as such (e.g., the '27
-   program co-chairs, sourced from conference-tracker renderings).
+1. **Verified '27-cycle facts** — carry dates/caps and trace to a numbered source in
+   the source map (e.g., the 13-page body, the Jan 26, 2027 Cycle-2 deadline).
+2. **Reported facts** — found in secondary sources and labeled as such.
 3. **Unverifiable-at-check-time items** — explicitly marked 待核实 and phrased as questions
-   to resolve, never as facts (e.g., the '27 notification dates, resubmission restrictions,
-   any AI-use policy).
+   to resolve, never as facts (e.g., the '27 rebuttal format, the '27 presentation format,
+   the '27 Cycle-2 HotCRP URL).
 
 If you find any statement in the skills that presents class 2 or 3 material as class 1,
 treat it as a bug and fix it against the live official pages.
@@ -167,14 +174,15 @@ treat it as a bug and fix it against the live official pages.
 - Every date and cap above is a **cycle snapshot**; reopen the current
   `usenix.org/conference/usenixsecurity<NN>` pages and the per-cycle HotCRP site before
   giving deadline-sensitive advice.
-- Items that could not be verified live on 2026-07-08 are marked 待核实 in the source map —
-  notably the '27 early-reject/notification/finals dates, the '27 AoE convention,
-  cross-cycle resubmission restrictions, and any AI-assistance policy. Do not state these
-  as facts until confirmed.
+- Items that could not be verified live on 2026-11-24 are marked 待核实 in the source map —
+  notably the '27 rebuttal format, the '27 presentation format, and the '27 Cycle-2 HotCRP
+  URL. Do not state these as facts until confirmed.
 - USENIX Security chairs rotate per edition and policy is re-set annually; treat
   editor-style continuity assumptions (carried over from journal packs) as errors here.
-- **Major Revision was retired for '26** — if a skill or a memory says otherwise, it is
-  stale. The current intermediate outcome is shepherd approval.
+- **Major Revision was retired for '26 and stays retired in '27** — if a skill or a memory
+  says otherwise, it is stale. The current intermediate outcome is shepherd approval.
+- **The Ethics appendix became optional (strongly encouraged) in '27** — skills that call
+  it mandatory describe '26.
 - When adding exemplar papers, follow the verification recipe at the end of
   [`resources/exemplars/library.md`](resources/exemplars/library.md) — a matching title in
   a CVE or a talk does not prove the academic paper or the venue.

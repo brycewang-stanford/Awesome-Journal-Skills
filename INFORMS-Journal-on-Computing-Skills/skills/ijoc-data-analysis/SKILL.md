@@ -47,7 +47,7 @@ The README's replication section should let a reader regenerate each table/figur
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). INFORMS JoC is computing / algorithms and methodology; the causal-inference chain below applies only to its empirical-evaluation papers, not to algorithm design.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). INFORMS JoC is computing / algorithms and methodology; the causal-inference chain below applies only to its empirical-evaluation papers, not to algorithm design.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

@@ -1,48 +1,65 @@
 ---
 name: atc-submission
-description: Use when auditing an ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) submission for HotCRP readiness — the paired two-page extended abstract plus full paper, the two-column 12/6-page budget, the double-blind anonymity sweep, ACM Open Access publication, and desk-reject triage before the early-June AoE cutoff.
+description: Use when auditing an ATC (ACM SIGOPS Annual Technical Conference, formerly USENIX ATC) submission for HotCRP readiness — first two pages that survive the round-one read, the two-column 12/6-page budget with appendices inside it, the two-submissions-per-author cap, the double-blind anonymity sweep, ACM Open Access publication, and desk-reject triage before the 19 January 2027 AoE cutoff.
 ---
 
 # ATC Submission
 
-Run this audit before uploading to the ATC HotCRP site (`atc26.hotcrp.com`). ATC 2026 is the first
-**ACM SIGOPS Annual Technical Conference** — the continuation of the former **USENIX ATC** — so the
-process changed in the handover: a new **two-round, extended-abstract** review, a **June deadline**,
-a **Hong Kong / November** conference, and **ACM Open Access** publication. Every number below was
-read from the ATC 2026 SIGOPS call and the USENIX ATC '25 pages on 2026-07-09 via search renderings
-(see `resources/official-source-map.md`); treat them as a one-cycle snapshot and reopen the live
-call first.
+Run this audit before uploading to the ATC 2027 HotCRP site (`atc27.hotcrp.com`). ATC is the **ACM
+SIGOPS Annual Technical Conference** — the continuation of the retired **USENIX ATC** (USENIX ended
+it after ATC '25) — and it is still re-deciding its rules each year. For **ATC 2027 (Rennes, 28 June
+– 1 July 2027)** the submission deadline is **19 January 2027, AoE, no extensions**. Every number
+below was read from the ATC 2027 SIGOPS call on 2026-11-24 (direct fetch; see
+`resources/official-source-map.md`); treat it as a one-cycle snapshot and reopen the live call
+first.
 
-## The paired upload (the thing authors miss)
+## Round one reads your first two pages
 
-ATC's first review round judges a **two-page extended abstract**, uploaded **together with the full
-paper** in one HotCRP submission:
+ATC 2027 reviews in two rounds, and the **first round is based on the first two pages** of the
+paper. Reviewers can open the rest but are not obliged to. Round one rejects a paper when it is
+clear that:
 
-- The extended abstract gives the motivation and contribution and is **for review only — it is not
-  published**.
-- It must **stand on its own**: a round-one reviewer may read *only* the abstract, and a round-two
-  reviewer may read *only* the paper. Neither may assume the other.
-- A copy of the introduction can serve as the abstract **only if it fits two pages and reads
-  self-contained** — usually it needs tightening, not just truncation.
+- it is not relevant to ATC (the main contribution is not systems);
+- the problem is not clearly motivated;
+- the main idea or chief insight is hard to understand;
+- the contribution is too small or incremental over the state of the art;
+- the paper does not place itself properly against related work;
+- the evaluation is not rigorous (weak or inappropriate baselines, wrong workloads).
 
-If your submission has a strong paper but a weak, dependent abstract, you can be cut in round one
-before anyone opens the PDF. Audit the abstract as hard as the paper.
+So the abstract and introduction must answer all six on their own — make the introduction
+self-contained. (ATC 2026 used a separate two-page extended abstract for this; ATC 2027 does not
+ask for one.)
 
 ## Format and page budget
 
-- **Two-column** format: text block **178 × 229 mm (7 × 9 in)**, **10-point** Times Roman (or
-  similar) on 12-point single-spaced leading, A4 or US letter. This is the classic USENIX systems
-  layout; whether the SIGOPS edition mandates the USENIX template file or an ACM equivalent is
-  **待核实** — confirm on the call.
-- **Page budget:** **full papers ≤ 12 pages, short papers ≤ 6 pages**, excluding references and
-  appendices but **including** all text, figures, tables, and footnotes.
-- Reviewers are **not required** to read appendices; nothing that decides acceptance may live only
-  in an appendix (see `atc-supplementary`).
+- **PDF**, A4 or US letter; text and figures inside a **178 × 229 mm (7 × 9 in)** block; **two
+  columns** 8 mm apart; **10-point** Times Roman (or similar) on 12-point leading; numbered pages;
+  hyperlinked references. The call recommends `\documentclass[sigplan,10pt]{acmart}` (the ACM SIGPLAN
+  LaTeX or Word template), with the copyright block suppressed and page numbers printed.
+- **Page budget:** **long papers ≤ 12 pages, short papers ≤ 6 pages**, excluding references but
+  **including all text, figures, tables, footnotes, and appendices**. An optional appendix (algorithm
+  details, proofs, code snippets) must fit *inside* the limit — a change from ATC 2026, where
+  appendices sat outside it.
+- Violations may be desk-rejected with no extension to fix them; upload an early draft to check.
+- Reviewers are **not required** to read supplementary material; nothing that decides acceptance may
+  live only there (see `atc-supplementary`).
+
+## Two submissions per author
+
+New in 2027: each author may appear on **at most 2** ATC 2027 submissions, whatever the length or
+track, regardless of email or affiliation. After the deadline the PC chairs check, and a violation
+may get **every** submission listing that author desk-rejected. The author list cannot change after
+submission. Reconcile the group's ledger before anyone registers a paper.
 
 ## Double-blind sweep
 
-ATC review is **double-blind**: reviewer and author identities are mutually concealed. Because
-systems papers lean on code, testbeds, and system names, the leak surface is wide:
+ATC review is **double-blind**. Put the **paper ID** from registration on the first page instead of
+names; do not identify yourself or your institution explicitly or by implication; if your system's
+name is already public (arXiv, tech report, talk, social media — all explicitly permitted), use an
+**anonymized name**; cite your own work in the third person, never "reference removed"; for a
+concurrent related submission, cite an anonymized version, discuss the relation, and email the PC
+chairs a copy. **Operational Systems Track** papers may identify the organization behind the system
+when anonymization is impractical (ask the chairs if unsure).
 
 ```bash
 # Mechanical pass on the submission PDF and any anonymized artifact archive
@@ -53,52 +70,83 @@ grep -rniE 'university|@[a-z0-9.]+\.edu|cluster [a-z0-9-]+|internal-|corp\.' art
 ```
 
 The systems-specific leaks: a system named after your group or product, a cluster hostname in a log
-or config, a `git remote` inside a zipped repo, an acknowledgments/funding line, and citing your own
-prior system as "our system X." Cite your own work in the **third person** and never write
-"reference removed for blind review." Mirror any linked repository behind a blind service before
-upload.
+or config, a `git remote` inside a zipped repo, an acknowledgments/funding line, and "our system X"
+self-citation. Mirror any linked repository behind a blind service before upload.
+
+## Policies to clear on the form
+
+- **Resubmissions:** a paper under submission elsewhere may not be submitted. For a previously
+  rejected paper, upload the prior-submission information and an anonymized summary of changes
+  (aim for one page); reviewers see it only after writing their reviews.
+- **Prior work:** extensions of your own work must state the difference; workshop versions are fine
+  if the ATC paper adds significant content.
+- **Generative AI:** AI may help with editing and framing, but papers produced entirely or
+  substantively by generative AI must not be submitted; all text must reflect the authors' thoughts.
+- **Conflicts:** declare institutional (2 years), advisor, collaborator (2 years) and family
+  conflicts; former interns list supervisors, not the whole company. PC chairs do not submit.
 
 ## Desk-risk triage
 
 | Finding at audit time | Severity | Real fix |
 |---|---|---|
-| No extended abstract, or it does not stand alone | Round-one failure | Write/tighten a self-contained 2-page abstract; verify it reads without the paper |
-| Main text over the 12/6-page budget | Desk-reject-grade | Cut or move to an appendix; references/appendices do not absorb body text |
-| Format altered (margins, column width, shrunk font) | Desk-reject ground | Recompile to the two-column spec; recover space editorially |
+| First two pages do not stand alone | Round-one failure | Rewrite abstract + intro so scope, motivation, idea, delta, positioning, and evidence all appear by page 2 |
+| Body plus appendix over the 12/6-page budget | Desk-reject-grade | Cut, or move peripheral material to the artifact — the appendix no longer absorbs overflow |
+| An author on three or more submissions | Desk-reject for all that author's papers | Decide which two papers that author stays on before submission |
+| Format altered (margins, column width, shrunk font) | Desk-reject ground | Recompile with the recommended `acmart` setup; recover space editorially |
 | Identity leak in PDF, artifact, system name, or self-citation | Anonymity violation | Re-anonymize, re-host, scrub metadata, third-person self-cites |
-| Same work under review elsewhere | Concurrent-submission exposure | Withdraw one venue; verify the current concurrent-submission wording |
+| Same work under review elsewhere | Not permitted | Withdraw one venue before submitting |
 | Claims with no runnable evidence | Scored weakness | Add the anonymized artifact and a claim-to-experiment map |
 
 ## Final-week order of operations
 
 1. Freeze the system and results early; prose can churn, the measurements cannot.
-2. Write the extended abstract last but audit it first — read it cold, without the paper, and check
-   the problem, contribution, testbed, and result all land in two pages.
-3. Run the double-blind checks on the **final** PDF, the **final** extended abstract, and the
-   **final** artifact archive — not on drafts.
-4. Fill every HotCRP field — topic tags that match your evidence, conflicts for every coauthor's
-   institution and recent collaborators — a day early; late conflicts are the classic midnight
-   failure.
-5. Confirm the exact deadline day on the SIGOPS call (renderings disagree on **1 vs. 10 June 2026**
-   — 待核实) and target AoE, not local midnight.
-6. Re-download both uploaded PDFs and read them cold to confirm they are the files you meant.
+2. Read the first two pages cold, as a round-one reviewer, and check all six round-one criteria.
+3. Run the double-blind checks on the **final** PDF and the **final** artifact archive — not drafts.
+4. Fill every HotCRP field — track, topics, conflicts, resubmission summary — a day early; the
+   author list is frozen once submitted.
+5. Target **19 January 2027, AoE**, not local midnight (the HotCRP `/deadlines` page was still
+   empty on 2026-11-24 — confirm the clock there).
+6. Re-download the uploaded PDF and read it cold to confirm it is the file you meant.
 
 ## Reverify each cycle
 
-- The exact June deadline day, the abstract/paper pairing rule, and whether the two-round model
-  persists.
-- The page budget and which template file (USENIX vs. ACM) is required (**待核实**).
-- Whether the Deployed Systems / experience track is offered (**待核实**), the artifact-track timing,
-  concurrent-submission wording, and any AI-disclosure rule.
+- The deadline, the round-one page window ("may involve more pages" if submissions surge), and the
+  author cap.
+- The page budget and whether appendices count (they do in 2027, did not in 2026).
+- The Operational Systems Track rules, the artifact-evaluation call (2027 version not yet published),
+  and the AI policy.
 - ACM Open Access / APC terms and waivers.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue atc-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 
 ```text
 [ATC submission status] ready / blocked / needs work
-[Extended abstract] present and self-standing? yes/no
-[Format] pages used (body/refs), two-column template compliance
+[First two pages] stand alone against all six round-one criteria? yes/no
+[Format] pages used (body+appendix / refs), acmart sigplan 10pt compliance
+[Author cap] every author on at most 2 ATC 2027 submissions? yes/no
 [Anonymity] clean / leaks: <where>
 [Artifact] anonymized runnable package linked? claim-to-experiment map present?
-[Fix queue] <ordered, with owners and dates before the early-June AoE cutoff>
+[Fix queue] <ordered, with owners and dates before the 19 January 2027 AoE cutoff>
 ```

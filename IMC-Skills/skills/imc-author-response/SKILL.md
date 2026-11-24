@@ -25,7 +25,10 @@ institution, testbed, or vantage-point identity may leak.
 
 ## Turn 1 — the initial rebuttal
 
-Short and decision-focused. One decision-critical point per reviewer beats an exhaustive reply.
+The IMC 2027 call lists this turn as new for 2027 — a **short rebuttal phase** (cycle 1:
+26 Jan - 2 Feb 2027) for papers that survive the early-reject cut, meant to clarify specific
+reviewer concerns rather than add new work. Short and decision-focused. One decision-critical
+point per reviewer beats an exhaustive reply.
 Concede what is true, correct what is misread, and point to exactly where the answer lives in the
 submitted paper or appendix. For measurement papers the highest-value clarifications are usually:
 **why the vantage points are representative enough**, **why a snapshot generalizes (or how long

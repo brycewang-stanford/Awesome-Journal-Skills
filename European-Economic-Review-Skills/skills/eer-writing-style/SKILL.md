@@ -14,7 +14,7 @@ description: Use when revising prose for a European Economic Review (EER) manusc
 
 ## The EER writing bar
 
-EER is **general-interest**, so the writing must make a **non-specialist economist** see the question, the answer, and why it matters — fast — while satisfying specialists on rigor. Elsevier economics house elements: a **structured/concise abstract**, **research highlights** (a few bullet points capturing the core findings), **JEL codes** and **keywords**, a **declaration of interest**, and SEs reported in the text rather than significance-star prose. The introduction must execute a clear arc and the **headline result with its uncertainty** should appear early.
+EER is **general-interest**, so the writing must make a **non-specialist economist** see the question, the answer, and why it matters — fast — while satisfying specialists on rigor. Elsevier economics house elements: a **concise, factual abstract of no more than 250 words**, **research highlights** (encouraged; 3–5 bullets capturing the core findings), **JEL codes** and **keywords**, a **declaration of interest**, and SEs reported in the text rather than significance-star prose. The introduction must execute a clear arc and the **headline result with its uncertainty** should appear early.
 
 ## The EER introduction arc
 
@@ -30,7 +30,7 @@ EER is **general-interest**, so the writing must make a **non-specialist economi
 ## House elements
 
 - **Abstract**: concise, result-forward, generalist-legible; state the headline finding, not just the method (re-confirm any word limit on the guide for authors — 检索于 2026-06；以官网为准).
-- **Research highlights**: a few short bullets, each a concrete finding (Elsevier requirement).
+- **Research highlights** (encouraged at submission): 3–5 bullets of at most 85 characters each, each a concrete finding.
 - **JEL codes + keywords**: accurate and cross-field where the result travels.
 - **Declaration of interest** and funding statement present.
 - **Numbers in prose**: report point estimate + SE/CI, never an asterisk in a sentence.
@@ -54,7 +54,7 @@ EER is **general-interest**, so the writing must make a **non-specialist economi
 - Throat-clearing ("X has been studied extensively") with vague stakes
 - Field jargon that loses the general-interest reader on page one
 - Over-signposted roadmap doing the work the argument should do
-- Missing research highlights / declaration of interest (Elsevier requirements)
+- Missing declaration of interest (Elsevier requirement) or weak research highlights (encouraged)
 
 ## Worked vignette (illustrative)
 

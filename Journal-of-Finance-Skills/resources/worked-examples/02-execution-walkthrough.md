@@ -4,7 +4,7 @@
 > StatsPAI MCP call on that synthetic panel on 2026-06-23** — nothing here is
 > hand-typed or invented. This file is the *executed* companion to the narrative
 > vignette in [`jf-identification`](../../skills/jf-identification/SKILL.md); it shows
-> the [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)
+> the [`execution-with-mcp`](../shared/empirical-methods/execution-with-mcp.md)
 > bridge running end to end. Corresponding skills:
 > [`jf-identification`](../../skills/jf-identification/SKILL.md),
 > [`jf-robustness`](../../skills/jf-robustness/SKILL.md),
@@ -139,7 +139,7 @@ Following `jf-identification` and `jf-internet-appendix`:
 2. Run the chain in order: `detect_design` → `recommend` → `callaway_santanna`
    (`as_handle=true`) → `feols` (TWFE contrast) → `sun_abraham` → `audit_result` →
    `honest_did_from_result`. Full mapping:
-   [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md).
+   [`execution-with-mcp`](../shared/empirical-methods/execution-with-mcp.md).
 3. If StatsPAI is not connected, the same sequence exists in the vendored
    [`../code/`](../code/) Stata/Python skeleton (`03_did_modern.do`); say which number
    is unverified rather than reporting one you did not compute.

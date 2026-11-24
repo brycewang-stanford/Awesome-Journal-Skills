@@ -1,6 +1,7 @@
 # External Tools - MICRO
 
-Access date: 2026-07-08. Reopen every URL for the current cycle before acting on
+Access date: 2026-07-08; MICRO 2026 surfaces re-verified 2026-11-24 (read directly;
+MICRO 2027 not yet announced). Reopen every URL for the current cycle before acting on
 it; MICRO rules are re-set each edition. If a page 403s from your environment, use
 a search-engine rendering of the exact URL and cross-check ACM DL / IEEE Xplore /
 dblp, as documented in [`official-source-map.md`](official-source-map.md).
@@ -14,7 +15,9 @@ dblp, as documented in [`official-source-map.md`](official-source-map.md).
 - Industry Track CFP: https://www.microarch.org/micro59/submit/industrial.php
 - HotCRP submission site: https://micro2026.hotcrp.com/ (deadlines page: `/deadlines`)
 - Past symposia index (ordinal/lineage checks): https://microarch.org/past.html
-- AE pattern anchor (2025; check for a micro59 equivalent): https://www.microarch.org/micro58/submit/artifacts.php
+- MICRO 2026 artifact evaluation: https://www.microarch.org/micro59/submit/artifacts.php (2025 anchor: https://www.microarch.org/micro58/submit/artifacts.php)
+- MICRO 2026 organizing committee: https://www.microarch.org/micro59/committees/org.php
+- MICRO 2026 registration (camera-ready page allowance): https://www.microarch.org/micro59/attend/register.php
 
 ## Community and award surfaces
 

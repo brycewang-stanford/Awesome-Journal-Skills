@@ -23,7 +23,7 @@ substitute the current year's official dates before planning anything.
 | Author response | Apr 23 – May 2 | Evidence-anchored replies (uai-author-response) |
 | Reviewer–AC discussion | May 2–8 | Silence; the response argues for you |
 | Notification | Jun 1 | Triage outcome; celebrate or re-route |
-| Camera-ready | Jul 27 | PMLR files, public artifacts (uai-camera-ready) |
+| Camera-ready | Jul 8 | PMLR files, public artifacts (uai-camera-ready) |
 | Conference | Aug 17–21, Amsterdam | Tutorials Mon, main Tue–Thu, workshops Fri |
 
 ## Backward plan from the paper deadline

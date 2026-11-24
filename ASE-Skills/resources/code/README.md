@@ -1,20 +1,20 @@
 # ASE Replication-Package Code Adapter
 
 This directory routes ASE authors to the repository-level shared tooling. It stays deliberately
-thin: ASE-specific *policy* (the Accept/Revision/Reject model, the early-rejection stage,
-double-anonymous review, ACM artifact badging, the mandatory Data Availability Statement, dual
+thin: ASE-specific *policy* (the Accept/Major revision/Reject model, the early-rejection stage,
+double-anonymous review, ACM artifact badging, the required Data Availability section, dual
 IEEE/ACM proceedings) lives in the skills and in
 [`../official-source-map.md`](../official-source-map.md); reusable *tooling* lives in the shared
 kits so packs do not carry diverging copies.
 
 ## Shared kits
 
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
   — anonymous-review and public-release checks that transfer to any SE replication package.
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
   — dependency-free smoke checker for package layout.
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
-  and [`../../../shared-resources/submission-readiness/response-to-referees.md`](../../../shared-resources/submission-readiness/response-to-referees.md)
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
+  and [`../../../shared-resources/submission-readiness/response-to-referees.md`](../shared/submission-readiness/response-to-referees.md)
   — generic pre-submission and response scaffolding; adapt the latter to the ASE rebuttal and the
   revision-round summary-of-changes in
   [`../../skills/ase-author-response/SKILL.md`](../../skills/ase-author-response/SKILL.md).
@@ -36,8 +36,8 @@ research-track call and the ASE skills for experiments, reproducibility, and art
   outcome commits reviewers to accept-in-principle against explicit criteria; the point-by-point
   summary-of-changes that answers them must stay double-anonymous — no author names, no revealed
   repository owner (`../../skills/ase-author-response/SKILL.md`).
-- **The Data Availability Statement is mandatory and counts inside the 10 pages.** It sits after
-  the Conclusions, describes what exists and where it will live, and must match what the anonymized
+- **The Data Availability section is required.** For ASE 2027 it sits after the Conclusion and
+  shares the 2 extra pages with the references (it counted inside the 10 pages in 2026), describes what exists and where it will live, and must match what the anonymized
   archive actually contains; "available upon request" reads as a weakness
   (`../../skills/ase-reproducibility/SKILL.md`).
 - **Tool provenance is pinned.** Automated-SE artifacts are usually *tools*: pin the exact commit,

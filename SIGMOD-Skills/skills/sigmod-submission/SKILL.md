@@ -1,6 +1,6 @@
 ---
 name: sigmod-submission
-description: Use when readying a SIGMOD research-track submission for a PACMMOD round, covering the abstract-plus-COI pre-deadline, Microsoft CMT mechanics, the 12-page ACM-template limit, double-anonymous rules, the 10-paper author cap, the 12-month rejection embargo, and desk-reject hazards.
+description: Use when readying a SIGMOD research-track submission for a PACMMOD round, covering the abstract-plus-COI pre-deadline, Microsoft CMT mechanics, the 12-page ACM-template limit, double-anonymous rules, the 10-paper / 3-per-round author caps, the 1-year rejection embargo, and desk-reject hazards.
 ---
 
 # SIGMOD Submission
@@ -15,22 +15,31 @@ target before trusting any number quoted here.
 
 SIGMOD front-loads part of the deadline: the abstract and the declaration of
 conflicts of interest are due roughly one week before the paper itself
-(SIGMOD 2027: the 10th vs. the 17th of the round month, 11:59 PM AoE). Missing
+(SIGMOD 2028: the 10th vs. the 17th of the round month, 11:59 PM AoE). Missing
 the abstract stage closes the round entirely — there is no PDF-only entry.
 
 - Register the submission in Microsoft CMT with final title, abstract,
-  topic areas, and the complete author list.
+  topic areas, and the complete author list. For SIGMOD 2028 every author
+  needs a verified CMT account (one account for all their submissions), an
+  ORCID, and at least one author must use an institutional address.
+- Draft the 1000-character relevance justification the form demands: the
+  data-management challenge, the principled contribution, and the sections
+  that show it.
 - Declare COIs honestly and completely; PC assignment happens off this data.
-- Count your load: SIGMOD 2027 caps each author at ten research-track
-  submissions across all four rounds combined.
+- Count your load: SIGMOD 2028 caps each author at ten research-track
+  submissions across all four rounds combined and, new for 2028, three per
+  round; anything past either cap is desk rejected.
 - Decide now whether a weak draft should wait a round; a rejection triggers
-  a 12-month embargo, and a late withdrawal is treated as a rejection too.
+  a 1-year embargo, and a withdrawal more than one week after the deadline
+  is treated as a rejection too.
 
 ## Format and anonymity gate
 
-| Check | SIGMOD 2027 rule (verify per cycle) | Failure mode |
+| Check | SIGMOD 2028 rule (verify per cycle) | Failure mode |
 |---|---|---|
-| Length | 12 pages max, unlimited pages for references | Desk reject |
+| Length | 12 pages max, unlimited pages for references; nothing else after page 12 | Desk reject |
+| Appendix | Optional, separate PDF only; reviewers need not read it | Ignored if it expands scope |
+| File | PDF, at most 10 MB, US Letter | Upload rejected |
 | Template | Current ACM template, fonts/margins untouched | Desk reject |
 | PACMMOD format | Only for final publication, never for submission | Confused reviewers, chair flag |
 | Author identity | No names, affiliations, or funding acknowledgements | Desk reject |
@@ -75,17 +84,18 @@ D-1   Upload final PDF; confirm CMT shows the intended file version
 D-0   Re-download from CMT and open the PDF you actually submitted
 ```
 
-## Round calendar snapshot (SIGMOD 2027, verified 2026-07-08)
+## Round calendar snapshot (SIGMOD 2028, verified 2026-11-24)
 
 | Round | Abstract + COIs | Paper due | First verdict |
 |---|---|---|---|
-| 1 | Jan 10, 2026 | Jan 17, 2026 | Apr 19, 2026 |
-| 2 | Apr 10, 2026 | Apr 17, 2026 | Jul 19, 2026 |
-| 3 | Jul 10, 2026 | Jul 17, 2026 | Oct 19, 2026 |
-| 4 | Oct 10, 2026 | Oct 17, 2026 | Jan 19, 2027 |
+| 1 | Jan 10, 2027 | Jan 17, 2027 | Apr 25, 2027 |
+| 2 | Apr 10, 2027 | Apr 17, 2027 | Jul 28, 2027 |
+| 3 | Jul 10, 2027 | Jul 17, 2027 | Oct 23, 2027 |
+| 4 | Oct 10, 2027 | Oct 17, 2027 | Jan 23, 2028 |
 
 All cutoffs 11:59 PM AoE. Source:
-`https://2027.sigmod.org/calls_papers_important_dates.shtml`. Future cycles
+`https://2028.sigmod.org/calls_papers_important_dates.shtml`; submit at
+`https://cmt3.research.microsoft.com/SIGMOD2028/`. Future cycles
 will shift these dates; treat the pattern (quarterly rounds, abstract a week
 early) as the durable part and the dates as perishable.
 
@@ -121,6 +131,28 @@ publication series. Concretely:
 - Click every URL in the paper from an incognito window.
 - Confirm the abstract in CMT matches the PDF abstract verbatim.
 - Confirm the round you think you entered is the round CMT shows.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue sigmod-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

@@ -22,4 +22,4 @@ Well-known papers in the marketing-and-public-policy tradition to study for fram
 - Venue discipline: entries 8–12 are *adjacent* — cite them as context, but position the manuscript against the JPP&M stream itself (entries 1–7).
 - When citing a "program" row, pick a specific verified paper; do not cite the program as if it were one article.
 - The regulatory record (FTC staff reports, FDA rulemakings, CFPB studies) counts as citable prior work at this journal — pair exemplars with the current rule text.
-- Shared reviewer-objection reference: [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+- Shared reviewer-objection reference: [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

@@ -8,9 +8,13 @@ description: Use when preparing a MICRO artifact for post-acceptance evaluation 
 MICRO runs artifact evaluation **after acceptance**: authors of accepted papers are
 invited to submit artifacts, an Artifact Evaluation Committee reviews them, and
 successful papers carry ACM badges in the proceedings. Anchors here are the MICRO
-2025 AE pages (`micro58/submit/artifacts.php`, verified 2026-07-08); the 2026
-edition's AE page and calendar are 待核实 — expect the same architecture, verify
-the dates.
+2026 AE page (`micro59/submit/artifacts.php`, re-verified 2026-11-24) and the 2025
+page for the archival-repository examples. In 2026 AE became **opt-out**: every
+accepted paper was assumed to enter AE unless the authors withdrew it by July 14,
+2026 (AoE); artifacts were due July 24 and AE decisions came August 21, 2026. AE
+stays voluntary and does not affect the paper decision. AE reviewers may use
+AI-assisted tools to inspect artifacts, so ship nothing confidential or
+proprietary. Re-check the calendar for the next edition.
 
 ## Badge targets and what each demands
 
@@ -18,10 +22,10 @@ the dates.
 |---|---|---|
 | Artifact Available | Deposited on a **public archival repository** — Zenodo, FigShare, Dryad named in 2025 | A GitHub repo alone fails; it is not archival. Deposit a tagged snapshot, keep GitHub as the living mirror |
 | Artifact Functional | Documented, complete, exercisable | Simulator builds on a clean machine — your decade of dotfiles is not in the package |
-| Results Reproducible | Evaluators regenerate the paper's main claims | Simulation *time* is the enemy: full SPEC runs take days-weeks; provide a subset path |
+| Results Reproduced | Evaluators regenerate the paper's main claims | Simulation *time* is the enemy: full SPEC runs take days-weeks; provide a subset path |
 
-Papers passing AE also earned, in 2025, the right to a **two-page artifact
-appendix in the camera-ready, free of charge** — reproduction instructions
+Papers passing AE also earn (2025 and 2026 pages) the right to a **two-page-max
+artifact appendix in the camera-ready, free of charge** — reproduction instructions
 published with the paper.
 
 ## The time-budget problem is the design problem
@@ -83,8 +87,8 @@ with only the README, and watch — silently — where they stall.
 
 AE is collaborative, not adversarial: expect questions, fix breakage fast, and
 keep a changelog of package updates during the window. Budget author-time in
-August–September (the window overlaps the September 11 camera-ready in the 2026
-calendar — plan both, see `micro-camera-ready`). The final deposit that carries
+July–September (2026: AE submission July 24, decision August 21, camera-ready
+September 11 — plan both, see `micro-camera-ready`). The final deposit that carries
 the Available badge must be the *fixed* package, re-uploaded to the archival
 repository with a new version DOI.
 
@@ -117,5 +121,5 @@ exist — AE prep is then a de-anonymization pass plus the archival deposit.
 [Figure map] figures with regenerate-commands: N/M
 [Unshippables] licensed inputs + documented workaround each
 [Environment] container/build-script tested from scratch: yes / no
-[Calendar] AE dates vs camera-ready overlap plan (2026 dates 待核实)
+[Calendar] AE dates vs camera-ready overlap plan (2026: withdraw by Jul 14, submit Jul 24, decision Aug 21, camera-ready Sep 11; re-check next edition)
 ```

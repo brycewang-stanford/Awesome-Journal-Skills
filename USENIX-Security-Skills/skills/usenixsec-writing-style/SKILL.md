@@ -7,7 +7,7 @@ description: Use when drafting or revising prose for a USENIX Security Symposium
 
 A USENIX Security paper argues like an engineer under oath: state what the
 adversary can do, show what you built or broke, measure it honestly, and say
-plainly what does not follow. The style advice here is calibrated to the '26 CFP's
+plainly what does not follow. The style advice here is calibrated to the '27 CFP's
 format rules and to the venue's reviewing culture; format numbers are one cycle's
 snapshot.
 
@@ -35,7 +35,8 @@ A body plan that fits the 13 pages without heroics:
 | Discussion + limitations | 0.75–1 pp | What breaks, what it costs, what's unknown |
 | Related work | 0.75–1 pp | Positioning (see usenixsec-related-work) |
 
-Then the two mandatory appendices, then references — geometry per
+Then the Open Science appendix (mandatory) and the Ethics appendix (strongly
+encouraged), then references — geometry per
 `usenixsec-supplementary`.
 
 ## Claim calibration, the house dialect
@@ -63,8 +64,8 @@ scale"); failure cases appear in the same paragraph as the success rate.
 
 ## The disclosure narrative belongs in the prose
 
-Papers here often describe live harm potential. Beyond the mandatory Ethical
-Considerations appendix, weave the responsible-conduct thread into the body where
+Papers here often describe live harm potential. Beyond the Ethical Considerations appendix
+(strongly encouraged in '27), weave the responsible-conduct thread into the body where
 the reader needs it: the scan methodology paragraph states the rate limits and
 opt-out handling; the vulnerability section states "reported to the vendor on
 <date>; patched in version Y" at the moment the flaw is introduced. Reviewers
@@ -95,8 +96,10 @@ should never wonder, mid-section, whether the experiment was run responsibly.
 
 ## Reverify each cycle
 
-- Page budget and template version in the current CFP ('27 values 待核实).
-- Any new style-adjacent mandates (AI-writing disclosure, reporting checklists).
+- Page budget and template version in the current CFP ('27: 13-page body, 20 pages total
+  at camera-ready).
+- Any new style-adjacent mandates ('27 permits AI tools but treats fabricated references or
+  results as misconduct).
 
 ## Output format
 

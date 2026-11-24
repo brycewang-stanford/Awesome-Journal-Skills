@@ -9,9 +9,9 @@ Use this as the project-management skill for an AISTATS submission. Replace all 
 the current official timetable and work backwards from OpenReview cutoffs.
 
 AISTATS is a conference, not a journal: it has no standing editor-in-chief and no article-processing
-charge. The rotating leadership is the per-edition General Chairs and Program Chairs (2026 General
-Chairs: Emtiyaz Khan and Yingzhen Li; Program Chairs: Arno Solin and Aaditya Ramdas, verified
-2026-06-22), and the cost model is registration fees, not APCs — PMLR proceedings are open-access
+charge. The rotating leadership is the per-edition General Chairs and Program Chairs (AISTATS 2027
+General Chairs: Aaditya Ramdas and Arno Solin; Program Chairs: Quentin Berthet and Aymeric
+Dieuleveut, verified 2026-11-23), and the cost model is registration fees, not APCs — PMLR proceedings are open-access
 with no author fee. Conference organizers rotate yearly, so re-check the current CFP and organization
 page rather than carrying a name forward.
 
@@ -20,14 +20,17 @@ page rather than carrying a name forward.
 - Venue fit: confirm the contribution is genuinely at the AI, ML, and statistics interface.
 - Evidence lock: freeze theorem statements, assumptions, experiments, simulations,
   baselines, reproducibility checklist, and supplement contents.
-- Abstract deadline: submit real title, abstract, authors, subject areas, and conflicts.
-- Full-paper deadline: upload anonymous PDF and required OpenReview fields.
-- Supplement deadline: upload anonymized appendix/code/data if current cycle allows or
-  requires separate supplementary material.
+- Abstract deadline: submit real title, abstract, the final author list, subject areas, and
+  conflicts (AISTATS 2027: September 29, 2026; the author list froze here).
+- Full-paper deadline: upload anonymous PDF, AI Use Statement, reviewer nomination, and all
+  supplementary material (AISTATS 2027: October 6, 2026; no separate supplement deadline).
+- Supplement: if a later cycle restores a separate supplement deadline, upload anonymized
+  appendix/code/data by it.
 - Review release: triage correctness, statistical validity, novelty, clarity, and
   reproducibility concerns.
 - Discussion period: draft concise anonymous text-only clarifications; avoid forbidden links
-  or unsupported new results.
+  or unsupported new results (AISTATS 2027: reviews and AI review November 16, discussion
+  November 24 – December 3, 2026, decisions January 20, 2027).
 - Decision: archive reviews, discussion, meta-review, decision, and submitted versions.
 - Acceptance: prepare PMLR camera-ready files, registration, in-person presentation, and
   public artifact release.

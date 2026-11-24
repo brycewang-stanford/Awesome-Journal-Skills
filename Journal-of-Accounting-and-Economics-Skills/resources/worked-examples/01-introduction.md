@@ -118,6 +118,6 @@ Mapped to the skill checklists:
   experiment; the paper does not overreach beyond firms near the threshold (`jae-writing-style`).
 
 > Next: see [`../exemplars/library.md`](../exemplars/library.md) for verified real JAE papers whose intros
-> execute this arc, the [reviewer-objection-checklist](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> execute this arc, the [reviewer-objection-checklist](../shared/empirical-methods/reviewer-objection-checklist.md)
 > to stress-test the DiD before drafting, and [`../code/`](../code/) for the staggered-DiD command chain
 > ([`stata/03_did_modern.do`](../code/stata/03_did_modern.do)) referenced above.

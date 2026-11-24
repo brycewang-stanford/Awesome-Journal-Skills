@@ -43,7 +43,7 @@ AEJ: Applied is **identification-driven applied micro**: the **mapping from a so
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Estimate and audit the identification claim, don't only argue it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). AEJ: Applied is applied microeconomics — labor, health, education, and development field settings where a clean research design is the entry ticket.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). AEJ: Applied is applied microeconomics — labor, health, education, and development field settings where a clean research design is the entry ticket.
 
 1. `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to list
    the checks the design still owes.

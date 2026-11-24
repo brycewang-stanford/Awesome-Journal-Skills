@@ -36,7 +36,7 @@ QJE imposes **no hard page limit** and the modern QJE empirical paper carries a 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the robustness battery, don't just enumerate it. Full map:
-[`shared-resources/empirical-methods/execution-with-mcp.md`](../../../shared-resources/empirical-methods/execution-with-mcp.md). QJE instantiation:
+[`shared-resources/empirical-methods/execution-with-mcp.md`](../../resources/shared/empirical-methods/execution-with-mcp.md). QJE instantiation:
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down, FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold, not

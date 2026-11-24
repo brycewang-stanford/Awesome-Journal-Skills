@@ -8,8 +8,10 @@ description: Use when planning a USENIX Security Symposium project end to end �
 USENIX Security runs two independent submission cycles per year, so "when do we
 submit?" is a real strategic choice, not a fixed date. This skill turns a target
 cycle into a dated backward plan and assigns owners to the venue-specific risks.
-Dates below are the '26/'27 cycle values read on 2026-07-08 (via search renderings;
-usenix.org direct fetch 403'd) — reconfirm against the live CFP.
+Dates below are the USENIX Security '27 values re-read from the live '27 CFP on
+2026-11-24 ('26 kept for comparison). On that date '27 Cycle 1 is in review and
+**'27 Cycle 2 is the open door** (registration Jan 19, paper Jan 26, 2027, AoE) —
+reconfirm against the live CFP.
 
 ## Step 1: pick the cycle
 
@@ -18,11 +20,11 @@ usenix.org direct fetch 403'd) — reconfirm against the live CFP.
 | Readiness | Evaluation truly done now | Needs one more experiment done right |
 | Conference lead time | Cycle-1 accepts publish ~7 months pre-symposium | Cycle-2 accepts closer to the event |
 | Competing deadlines | Avoids clashing with a CCS/S&P/NDSS date | Room to route a reject to the next venue |
-| Resubmission runway | Reject still leaves the same-year second cycle open* | Reject pushes to next year |
+| Resubmission runway | None: a '27 Cycle-1 reject may not enter '27 Cycle 2* | Reject pushes to next year |
 
-\*Subject to the cycle's resubmission-restriction text — the '26 CFP delegated
-Cycle-2 reject restrictions to the '27 chairs, so verify before assuming a reject
-can re-enter (see `usenixsec-review-process`).
+\*Per the '27 CFP: papers rejected from '27 Cycle 1 may not be submitted to '27
+Cycle 2, while papers rejected from either '26 cycle may be submitted to '27 (see
+`usenixsec-review-process`).
 
 Reference calendar (verify per cycle):
 
@@ -30,22 +32,25 @@ Reference calendar (verify per cycle):
 |---|---|---|---|---|
 | Registration | Aug 19 '25 | Jan 29 '26 | Aug 18 '26 | Jan 19 '27 |
 | Submission | Aug 26 '25 | Feb 5 '26 | Aug 25 '26 | Jan 26 '27 |
-| Early reject | Oct 7 '25 | Mar 17 '26 | 待核实 | 待核实 |
-| Notification | Dec 4 '25 | May 14 '26 | 待核实 | 待核实 |
-| Finals | Jan 15 '26 | Jun 11 '26 | 待核实 | 待核实 |
+| Artifacts final (grace) | — | — | Aug 28 '26 | Jan 29 '27 |
+| Early reject | Oct 7 '25 | Mar 17 '26 | Oct 6 '26 | Mar 9 '27 |
+| Rebuttal | — | — | Nov 5–12 '26 | Apr 8–15 '27 |
+| Notification | Dec 4 '25 | May 14 '26 | Dec 3 '26 | May 6 '27 |
+| Shepherded approval | — | — | Dec 15 '26 | May 18 '27 |
+| Finals | Jan 15 '26 | Jun 11 '26 | Jan 14 '27 | Jun 3 '27 |
 | Symposium | Aug 12–14 '26 (Baltimore) | Aug 11–13 '27 (Denver) | | |
 
 ## Step 2: backward-plan from the registration date
 
-Registration, not submission, is the first hard wall (it freezes title, abstract,
-authors, conflicts a week early). Plan backward from it:
+Registration, not submission, is the first hard wall (it fixes title, authors with
+ORCIDs and topics a week early). Plan backward from it:
 
 ```text
 T-12 wk  Topic/venue fit locked (usenixsec-topic-selection); threat model drafted
 T-10 wk  Core experiments running; artifact repo scaffolded from day one
 T-8  wk  Related-work sweep of all Big-Four cycles closed since last pass
 T-6  wk  Adaptive-attacker / base-rate experiments (the ones that get demanded)
-T-4  wk  Full draft; Ethical Considerations + Open Science appendices written
+T-4  wk  Full draft; Open Science appendix (mandatory) + Ethics appendix written
 T-3  wk  Internal review + cold-reader pass on intro/threat model
 T-2  wk  Anonymization sweep; artifact anonymous mirror live and tested
 T-1  wk  REGISTRATION: freeze metadata; final polish only after this
@@ -72,8 +77,10 @@ compressed, since vendors set the pace.
 - **Waiting**: expect the early-reject gate first (a survivable-but-quiet signal),
   then full notification. Do not start the next paper assuming acceptance, but do
   keep the artifact repo warm — acceptance starts the Phase-1 clock immediately.
-- **Shepherd approval**: scope the change list within 48 hours; it fits a two-week
-  window and no more (see `usenixsec-author-response`).
+- **Rebuttal**: '27 runs a one-week rebuttal period before notification
+  (Nov 5–12, 2026; Apr 8–15, 2027) — see `usenixsec-author-response`.
+- **Shepherd approval**: scope the change list within 48 hours; it fits the
+  ~12-day window between notification and shepherded-approval due date and no more.
 - **Accept**: run camera-ready and Phase-1 artifact availability in parallel — they
   share a deadline (see `usenixsec-camera-ready`).
 - **Reject**: mine the reviews, check the resubmission restriction, decide between
@@ -88,7 +95,8 @@ rule per paper; the dual-submission bar is real and enforced.
 
 ## Reverify each cycle
 
-- All dates in the table above ('27 review/notification/finals are 待核实).
+- All dates in the table above (re-verified for '27 on 2026-11-24; the CFP still
+  governs).
 - Symposium location and dates for your target year.
 - Resubmission restrictions gating cycle-to-cycle and year-to-year moves.
 

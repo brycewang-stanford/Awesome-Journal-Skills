@@ -9,7 +9,7 @@ This pack is built for empirical and theory-backed finance papers that need a
 JBF-specific path from topic fit through Editorial Manager submission and R&R.
 Core policy facts were refreshed from official ScienceDirect/Elsevier pages on
 2026-06-20: Editorial Manager submission, USD 350 unsolicited-manuscript fee,
-double-anonymized review, 250-word abstract, required data statement / Option C
+double-anonymized review, 150-word abstract, required data statement / Option C
 data deposit-or-explain policy, and current Managing Editor Christa Bouwman.
 
 ## Skills

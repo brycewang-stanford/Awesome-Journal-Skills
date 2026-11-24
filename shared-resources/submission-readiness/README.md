@@ -1,48 +1,64 @@
-# Submission-Readiness — self-check + simulated referee
+# Submission-Readiness — the pre-submission polishing pipeline
 
-The last mile before you hit "submit": run the manuscript against the target venue's bar
-and get back (a) a **readiness scorecard** (is it structurally/mechanically complete and
-in-scope?) and (b) a **simulated referee report** (would a calibrated AE + referees send
-it out, and what would they attack?). Together they cut the most expensive delay in
-publishing — a desk reject or a first-round rejection that a pre-check would have caught.
+The last mile before you hit "submit": run the manuscript through a deterministic
+mechanical preflight, a venue-calibrated readiness scorecard, an independent referee panel
+written on the venue's own review form, a claim-to-evidence polish, and the venue's cover
+letter and statements — then re-run and show what changed. The goal is the most expensive
+avoidable delay in publishing: a desk reject or first-round rejection a pre-check would
+have caught.
 
-This closes the loop with the other two cross-journal capabilities:
-
+```text
+journal-match         →  pick the venue          (shared-resources/journal-selection/)
+execution-bridge      →  run the analysis        (shared-resources/empirical-methods/execution-with-mcp.md)
+submission-readiness  →  pass the bar             (this folder; entry skill: rt-submission-readiness)
 ```
-journal-match  →  pick the venue        (shared-resources/journal-selection/)
-execution-bridge →  run the analysis     (shared-resources/empirical-methods/execution-with-mcp.md)
-submission-readiness →  pass the bar before submitting   (this folder)
-```
+
+## The pipeline
+
+| Stage | What runs | Deterministic? | Where |
+|---|---|---|---|
+| **0 · Preflight** | `preflight.py` on the actual file (.tex/.md/.docx/.pdf): limits, anonymization, required statements, citations ↔ references, exhibit numbering & notes, abstract numbers ↔ tables, placeholders, tracked changes, metadata | yes | `tools/preflight.py` (vendored at `Research-Toolkit-Skills/resources/preflight/`), rules from `venue-rules.json` |
+| **1 · Readiness scorecard** | Nine dimensions PASS/FLAG/FAIL/UNKNOWN on the manuscript, with stage 0 as dimension 7's evidence | judgement, bounded | [`readiness-checklist.md`](readiness-checklist.md) |
+| **2 · Referee panel** | AE desk-screen + 2–3 independent referees on the venue family's review form, adversarial verification, AE synthesis | judgement | [`simulated-referee.md`](simulated-referee.md) + [`review-forms.md`](review-forms.md) |
+| **3 · Polish** | Claim-to-evidence audit, first-page test, title/abstract house style, consistency | judgement | [`prose-polish.md`](prose-polish.md) |
+| **4 · Letter & statements** | Cover letter only where policy wants one; every required statement drafted from author facts | template | [`cover-letter-and-disclosures.md`](cover-letter-and-disclosures.md) |
+| **5 · Re-run & diff** | `preflight.py --compare <previous.json>` on the revised file (resolved / still open / new), then the scorecard dimensions the edits touched | yes + judgement | `rt-submission-readiness` |
+
+After a real decision: [`response-to-referees.md`](response-to-referees.md).
 
 ## Contents
 
 | File | What it gives an agent |
 |---|---|
-| [`readiness-checklist.md`](readiness-checklist.md) | A venue-parameterized **go/no-go scorecard** run on the *user's* manuscript: fit, identification/method, robustness/inference, exhibits, exposition, venue mechanics (page limit / anonymization / fee / data-&-code policy), reproducibility. Per-dimension PASS / FLAG / FAIL + the blocking gaps. |
-| [`simulated-referee.md`](simulated-referee.md) | A multi-agent **referee protocol**: an AE desk-screen + 2–3 distinct-lens referees calibrated to the venue, adversarially verified, synthesized into a referee report + a recommendation + a prioritized, skill-mapped fix list. |
-| [`response-to-referees.md`](response-to-referees.md) | Turn a referee report (real R&R or the simulated rehearsal) into a **point-by-point response letter + revision plan** — editor first, every comment answered, each empirical fix backed by a real re-run via the pack skill + execution bridge. |
+| [`readiness-checklist.md`](readiness-checklist.md) | The nine-dimension go/no-go scorecard, with the preflight report wired in as evidence. |
+| [`simulated-referee.md`](simulated-referee.md) | Panel protocol: independent subagents per lens, verification filter, AE synthesis, skill-mapped fix list. |
+| [`review-forms.md`](review-forms.md) | The form each venue family's referees actually fill (NeurIPS-style, ARR, economics, management, clinical, natural-science flagships, Chinese journals) — fields read from official pages. |
+| [`prose-polish.md`](prose-polish.md) | Claim-to-evidence audit and house-style pass; suggest-don't-rewrite. |
+| [`cover-letter-and-disclosures.md`](cover-letter-and-disclosures.md) | Cover-letter decision by venue policy; drafting every required statement from author-supplied facts. |
+| [`response-to-referees.md`](response-to-referees.md) | Point-by-point response letter + revision plan after a real or simulated report. |
+| [`worked-example-referee-report.md`](worked-example-referee-report.md) | A worked panel output. |
+| `venue-rules.json` | **Generated** by `tools/venue_rules.py --write` from the rules block in each pack's `official-source-map.md`. Never hand-edit. |
 
-## Design principle (same as the other capabilities)
+## Evidence that it works
 
-- **Venue bar comes from the pack, live facts from the source-map.** The criteria are
-  read from the target pack's own skills (`*-topic-selection`, `*-identification` /
-  `*-methods`, `*-robustness`, `*-tables-figures`, `*-referee-strategy`,
-  `*-submission`) and the shared
-  [`reviewer-objection-checklist`](../empirical-methods/reviewer-objection-checklist.md) /
-  [`reporting-standards`](../empirical-methods/reporting-standards.md); mechanics
-  (page limit, fee, anonymization, data policy) from the pack's
-  `resources/official-source-map.md`. Nothing is hard-coded or recalled from memory.
-- **Built as a shared capability**, not a new SKILL/pack — so it adds no skill/pack to
-  the audit tripwires and any pack's `*-workflow` router can invoke it.
-- **A pre-check, not a verdict.** It reduces avoidable rejections; it does not replace
-  real peer review, and it never claims a paper "will" be accepted.
+The pipeline is measured on a seeded-defect benchmark — synthetic manuscripts for six
+venue families with known planted defects and clean controls — see
+[`showcase/presubmission-benchmark/`](../../showcase/presubmission-benchmark/README.md).
+Mechanical catch rate is asserted in CI (`tools/tests/test_preflight.py`); the panel's
+substantive catch rate and false-alarm rate are reported there, measured by hand.
 
-## How to use
+## Design principles
 
-1. Name the target venue (or run `journal-match` first). Load that pack + source-map.
-2. Run [`readiness-checklist.md`](readiness-checklist.md) for the mechanical/structural
-   go/no-go and the blocking gaps.
-3. If readiness passes, run [`simulated-referee.md`](simulated-referee.md) for the
-   substantive adversarial review and the prioritized fix list.
-4. Map every fix back to the pack's skills (e.g. a TWFE objection →
-   `*-identification` + the execution bridge) and iterate before submitting.
+- **Venue bar from the pack, live facts from the source map.** Criteria come from the
+  target pack's skills; limits, review mode and required statements from the rules block
+  compiled out of its `resources/official-source-map.md`, which `venue_rules.py --check`
+  keeps consistent with the prose. Nothing is recalled from memory.
+- **Deterministic first.** Anything a program can check (counts, anonymity, references,
+  numbering, numbers) is checked by a program, so the model's attention goes to what only
+  judgement can do.
+- **No false green.** A rule the venue does not state, or a check the input format does not
+  allow (exact pages from a .tex), is reported as *not checked* — never as PASS.
+- **A pre-check, not a verdict.** It reduces avoidable rejections; it never claims a paper
+  "will" be accepted.
+- **Built as a shared capability** invoked from `rt-submission-readiness` and any pack's
+  `*-submission` skill — no new skills or packs, so the inventory tripwires are untouched.

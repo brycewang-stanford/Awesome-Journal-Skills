@@ -17,7 +17,7 @@ description: Use when deciding what belongs in the journal-hosted Internet Appen
 RFS hosts an **Internet Appendix (IA)** alongside the published article. It is the standard home for material that supports the paper but would crowd the main text. Treat it as part of the submission, refereed alongside the manuscript — not a dumping ground.
 
 Two RFS facts shape what goes here:
-- **Code-release is mandatory.** RFS requires authors to **publicly release all code** underlying a published paper as a condition of publication (an exception must be requested in the cover letter to the editor). Plan the replication package from the start — do not treat it as a post-acceptance chore. This is a harder rule than the softer "available on request" norms at some journals.
+- **Code-release is mandatory.** RFS requires authors to **publicly release all code** underlying a published paper as a condition of publication. The **Code and Data Sharing Policy** (applies to papers conditionally accepted on/after **1 October 2025**) requires a full replication **package — data (or documented non-public data plus pseudo data), code, README with a Data Availability Statement, and a license** — which the **RFS Data Editors** verify by reproducing the key tables and figures before final acceptance; the package is published in the RFS Dataverse. Any withholding/exemption must be requested at submission. Plan the replication package from the start — do not treat it as a post-acceptance chore. This is a harder rule than the softer "available on request" norms at some journals.
 - **Registered Reports change the IA's role.** RFS was the first finance/economics journal to run **Registered Reports** (pre-results review). For a Registered Report, the Stage 1 protocol — design, sample, pre-specified tests — is the locked commitment; the IA then documents adherence and any deviations rather than housing a post-hoc specification search.
 
 ### What belongs in the main paper
@@ -57,7 +57,7 @@ Two RFS facts shape what goes here:
 - [ ] Proofs/derivations in the IA; intuition + key result in the main text
 - [ ] Data-construction and variable-definition detail documented in the IA
 - [ ] IA tables/figures use an IA prefix and are cross-referenced by number
-- [ ] Public code-release package planned (RFS condition of publication), or an exception requested in the cover letter
+- [ ] Replication package (data, code, README, license) planned for the RFS Data Editors, or a withholding/exemption requested at submission
 - [ ] IA notation and variable names match the main paper exactly
 
 ## Anti-patterns

@@ -23,7 +23,7 @@ JOM demands **both academic and practical relevance**. Explain operational const
 ## Format and length rules
 
 - **Length:** no strict page limit, but most manuscripts should not exceed **~40 pages**; very long manuscripts are returned for streamlining before review — cut, don't pad.
-- **Manuscript setup:** double-spaced, single-column, 12-point font, one-inch margins, numbered pages, **no running headers/footers**.
+- **Manuscript setup:** double-spaced, single-column, 11-point font, one-inch margins, numbered pages, **no running headers/footers**.
 - **Citation style:** **APA**; any consistent format accepted at first submission (journal style preferred); Wiley applies final reference styling at proof.
 
 ## Text-overlap discipline (enforced)
@@ -72,7 +72,7 @@ A draft opens with two pages on the resilience literature before naming its ques
 ```
 【Front-loaded?】operations point in first page ...
 【Dual audience】operational consequences stated for practitioners ...
-【Length/format】~40 pp, double-spaced 12-pt, APA — compliant? ...
+【Length/format】~40 pp, double-spaced 11-pt, APA — compliant? ...
 【Similarity risk】single-source <1% / overall <15% or justified ...
 【Next step】jom-submission
 ```

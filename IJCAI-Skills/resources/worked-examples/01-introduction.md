@@ -10,8 +10,8 @@
 This demonstrates the **IJCAI first-page arc** derived from `ijcai-writing-style` and
 `ijcai-topic-selection`:
 **problem → gap → core idea → evidence → why it matters beyond a narrow benchmark** — with the IJCAI
-rules that the **AI contribution lands on the first page**, the body is **page-limited** (IJCAI-ECAI
-2026 used a 7-page body), the submission is **self-contained and double-blind**, and every claim maps to
+rules that the **AI contribution lands on the first page**, the body is **page-limited** (IJCAI
+2027 uses a 7-page body), the submission is **self-contained and double-blind**, and every claim maps to
 evidence a broad program committee can verify quickly.
 
 **Illustrative paper (fictional):** *"Anytime Constraint-Guided Search for Combinatorial Optimization
@@ -106,7 +106,7 @@ Mapped to the skill checklists:
   claim → evidence map; ablate the core mechanism; uncertainty estimates).
 - **Page-limited discipline** — the roadmap is one line and the body pages are reserved for formal setup,
   algorithm, guarantee, and experiments (`ijcai-writing-style`: spend the body on claims reviewers can
-  verify; IJCAI-ECAI 2026 7-page body).
+  verify; IJCAI 2027 7-page body).
 - **Self-contained and double-blind-ready** — the argument stands without the supplement, and the draft
   carries no acknowledgements, contribution statement, or identifying phrasing (`ijcai-writing-style`,
   `ijcai-submission`).

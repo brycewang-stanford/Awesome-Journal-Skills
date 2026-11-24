@@ -68,17 +68,17 @@ JIBS/AIB and DART transparency policies before using any resource.
 
 | Tool | Note |
 |------|------|
-| Zotero | Free; configure an author-date (name, year) style to match the JIBS Style Guide |
+| Zotero | Free; configure APA style (author-date) to match the JIBS Style Guide |
 | EndNote | Broad journal-style support; reconcile against the JIBS Style Guide |
 | Mendeley | Elsevier |
 | Overleaf / LaTeX | Optional; confirm the submission portal accepts the format |
 | DeepL / professional translation | Useful for multi-language survey instruments and back-translation |
 
-The JIBS Style Guide specifies 11-point Times New Roman, double-spaced, with author-date in-text citations; configure your reference manager accordingly and reconcile against the current guide.
+The JIBS Style Guide specifies 11-point Times New Roman, double-spaced, with APA-style author-date in-text citations; configure your reference manager accordingly and reconcile against the current guide.
 
 ## 4. Submission & transparency (JIBS-specific)
 
-- **Submission portal:** JIBS uses the online submission tool at **mc.manuscriptcentral.com**, reached from
+- **Submission portal:** JIBS uses the online submission tool at **mc.manuscriptcentral.com/jibs**, reached from
   the Springer/AIB JIBS pages; verify the live link before upload.
 - **DART / Data Accessibility Statement:** prepare a Data Accessibility Statement describing data availability; where data can be shared, deposit in a reputable repository with a **DOI** (e.g., OSF, ICPSR, Harvard Dataverse, Zenodo) and record the DOI.
 - **Code of Ethics:** read the JIBS Code of Ethics before submitting.

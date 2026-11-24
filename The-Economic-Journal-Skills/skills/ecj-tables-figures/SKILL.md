@@ -38,7 +38,7 @@ For a **short paper** (AER:Insights-style), the exhibit budget is tight (5 exhib
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). The Economic Journal is general-interest economics; the DiD/IV/RDD chain serves its broad applied lane.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). The Economic Journal is general-interest economics; the DiD/IV/RDD chain serves its broad applied lane.
 
 - **Tables:** `etable` (multi-model) or `did_summary_to_latex` straight from the `result_id`.
 - **Figures:** `plot_from_result` / `enhanced_event_study_plot` / `event_study_table` —

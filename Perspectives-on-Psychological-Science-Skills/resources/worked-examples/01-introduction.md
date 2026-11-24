@@ -47,4 +47,4 @@ stated up front. (Numbers are invented for illustration.)
 - [`../../skills/ppsych-topic-selection/SKILL.md`](../../skills/ppsych-topic-selection/SKILL.md) — is the claim PoPS-shaped (broad, superordinate)?
 - [`../../skills/ppsych-organizing-framework/SKILL.md`](../../skills/ppsych-organizing-framework/SKILL.md) — designing the taxonomy spine
 - [`../../skills/ppsych-writing-style/SKILL.md`](../../skills/ppsych-writing-style/SKILL.md) — the opening arc and the ≤200-word abstract
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md) — generic reporting standards (background only)
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md) — generic reporting standards (background only)

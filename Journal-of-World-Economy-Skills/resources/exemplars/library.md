@@ -46,8 +46,8 @@
   跨境渠道与贸易边际上（[`jwe-transmission-channel`](../../skills/jwe-transmission-channel/SKILL.md)）。
 - **数据要带国际属性。** 这几篇的共性是企业 - 产品 - 目的国海关微观或跨国 / GVC 数据，而非省级 /
   上市公司通用面板（[`jwe-data-sources`](../../skills/jwe-data-sources/SKILL.md)）。
-- **核对方法规范**见共享中枢：[审稿人异议清单](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)、
-  [报告规范](../../../shared-resources/empirical-methods/reporting-standards.md)；该刊格式以本包
+- **核对方法规范**见共享中枢：[审稿人异议清单](../shared/empirical-methods/reviewer-objection-checklist.md)、
+  [报告规范](../shared/empirical-methods/reporting-standards.md)；该刊格式以本包
   [`official-source-map.md`](../official-source-map.md) 为准。
 - **务必补全 `待核实` 行**：投稿前到 `www.jweonline.cn` / 维普 / 万方 查最新目录，坐实标题 - 作者 -
   卷期 - 页码后再引用。

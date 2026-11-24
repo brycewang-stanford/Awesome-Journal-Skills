@@ -11,7 +11,7 @@ no-links-in-rebuttal rule makes so consequential.
 | --- | --- |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | Rewrite a generic-ML abstract/introduction into the KDD register: data regime, mechanism, scale evidence, availability. Fictional paper; no policy invented. |
 | [`exemplars/library.md`](exemplars/library.md) | Position against real, DOI-verified KDD papers (XGBoost, node2vec, DeepWalk, metapath2vec, Ad Click Prediction) and dodge ICDM/NeurIPS/RecSys misattribution traps. |
-| [`official-source-map.md`](official-source-map.md) | Check which 2026-cycle facts are verified (dual cycles, page budgets, ADS deployment rule, no-links rebuttal) and which remain 待核实. |
+| [`official-source-map.md`](official-source-map.md) | Check which KDD 2027 facts are verified (edition status, dual cycles, page budgets, per-track review mode and caps, ADS deployment rule, no-links rebuttal), which remain 待核实, and the machine-readable rules block. |
 | [`external_tools.md`](external_tools.md) | Jump to the track CFPs, OpenReview groups, ACM DL proceedings, and the per-cycle author checks. |
 | [`code/README.md`](code/README.md) | Adapt the shared ML-conference reproducibility kit for mining experiments and ADS deployment packages. |
 

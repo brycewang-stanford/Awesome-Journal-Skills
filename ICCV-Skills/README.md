@@ -20,9 +20,10 @@ access dates, reported-only facts, and everything marked 待核实 — is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 **Cycle status:** ICCV 2025 (Honolulu, October 19–23, 2025) is the most recent
-completed edition and supplies every verified anchor here. ICCV 2027 is announced
-for **Hong Kong, October 2–8, 2027**, but had published no CFP, deadlines, or
-policies at check time — all 2027 process details are 待核实.
+completed edition and supplies every verified anchor here. ICCV 2027 has an official
+site and committee — **Hong Kong, October 3–7, 2027** (workshops Oct 3–4, main
+conference Oct 5–7; venue booked Oct 2–8) — but as of the 2026-11-23 re-check had
+published no CFP, deadlines, or policies; all 2027 process details are 待核实.
 
 ## The facts this pack is built around
 
@@ -131,8 +132,7 @@ Statements in this pack come in three grades, kept distinguishable everywhere:
    unified March 7 deadline and its HST clock, the 8-page inclusive cap, the
    every-author-reviews rule, the 29-paper enforcement outcome, the 24% rate).
 2. **Reported facts** — consistent secondary sources, labeled as reported (the
-   263 Highlights, the ~0.56% oral share, the exact late-June decision date, the
-   2027 chair rosters as listed by CVF).
+   263 Highlights, the ~0.56% oral share).
 3. **待核实 items** — phrased as open questions (2025 camera-ready mechanics,
    supplement size caps, presentation obligations, and the *entire* 2027 process).
 

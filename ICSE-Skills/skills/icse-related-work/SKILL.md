@@ -6,8 +6,8 @@ description: Use when building the related-work and positioning sections of an I
 # ICSE Related Work
 
 Positioning at ICSE is scored twice: once under novelty ("sufficiently
-original with respect to the state-of-the-art", per the 2027 criteria read
-2026-07-08) and once implicitly when the assigned reviewers — likely authors
+original with respect to the state-of-the-art", per the ICSE 2028 criteria read
+2026-11-24) and once implicitly when the assigned reviewers — likely authors
 of the nearest prior work — check whether they and their neighbors are
 represented fairly. Cover the lanes below before writing a word of the section.
 
@@ -28,7 +28,7 @@ checking, the DLs for full text.
 
 ## Currency in fast lanes
 
-LLM4SE and AI-for-SE turn over in months. For a June 30 submission, run a
+LLM4SE and AI-for-SE turn over in months. For a July 1 submission (ICSE 2028), run a
 final sweep in the last two weeks: new arXiv postings, the just-published
 ICSE/FSE proceedings, and the accepted-papers lists that venues post before
 official publication. Concurrent work (public after your study was designed)

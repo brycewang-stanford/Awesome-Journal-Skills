@@ -29,8 +29,8 @@ Pick the row whose **method × question** is closest to yours, then study how th
 [`../../skills/jbv-theory-development/SKILL.md`](../../skills/jbv-theory-development/SKILL.md), and
 [`../../skills/jbv-contribution-framing/SKILL.md`](../../skills/jbv-contribution-framing/SKILL.md)). For
 each, ask the self-check question before claiming your paper is "JBV-shaped." For the matching analysis
-template, see [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
-and [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+template, see [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)
+and [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).
 
 ---
 

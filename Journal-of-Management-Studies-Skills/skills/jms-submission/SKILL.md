@@ -12,7 +12,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Confirming the manuscript meets double-blind anonymisation and house format
 - Choosing the right article type (Original, Review, Point–CounterPoint, JMS Says)
 
-## Process facts (source map refreshed 2026-06; re-confirm on the official Wiley/SAMS pages)
+## Process facts (source map re-verified 2026-11-24; re-confirm on journalofmanagementstudies.ac.uk and the Wiley pages)
 
 - JMS is the **Society for the Advancement of Management Studies (SAMS)** journal, published by **Wiley**; content is hosted on **Wiley Online Library** (the journal home is `onlinelibrary.wiley.com/journal/14676486`). The editorial office is at **Durham University**. `(检索于 2026-06；以官网为准)`
 - **Submission portal:** Wiley **ScholarOne / Manuscript Central** at **mc.manuscriptcentral.com/jmstudies**. `(检索于 2026-06；以官网为准)`
@@ -21,7 +21,8 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Abstract:** **≤200 words**; **4–6 keywords** in alphabetical order. `(检索于 2026-06；以官网为准)`
 - **Article types:** Original Articles, Review Articles, Special Issues, **Point–CounterPoints** (Point ~9,000–12,000 words; CounterPoint ~7,000 words, editorially curated), and **JMS Says** essays. Confirm the current set and length rules. `(检索于 2026-06；以官网为准)`
 - **No submission fee** is charged at submission for standard articles; open-access APCs apply only if the author chooses OA at acceptance (Wiley hybrid). Do not treat any APC as a submission-time fee. `(verified 2026-06-22; re-verify the exact OA APC figure before submission)`
-- **General Editors (team-based; no single EiC):** **Johann Fortwengel, Corinne Post, and Kristina Potočnik** (verified 2026-06-22 via Wiley/SAMS; re-verify before naming an editor in a cover letter).
+- **General Editors (team-based; no single EiC):** **Mirko Benischke, Johann Fortwengel, and Kristina Potočnik** (re-verified 2026-11-24 on journalofmanagementstudies.ac.uk; Corinne Post's General Editor term ran 2023–2026; re-verify before naming an editor in a cover letter).
+- **Cover letter (required):** how the paper advances specific JMS debates (cite the JMS papers it builds on), confirmation of compliance with the JMS AI policy — **state it explicitly even if no AI was used** — any prior use of the same data, and the people already familiar with the paper (re-verified 2026-11-24).
 
 ## Preflight checklist
 
@@ -45,6 +46,28 @@ description: Use when running the final pre-submission preflight for a Journal o
 - [ ] **AI use declared** (including copy-editing) per current policy
 - [ ] Data/transparency statement included if required for the design
 - [ ] Confirmed the paper is not under review elsewhere; no AI listed as an author
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jms-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

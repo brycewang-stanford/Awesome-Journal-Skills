@@ -1,6 +1,6 @@
 ---
 name: uist-supplementary
-description: Use when producing the video figure and supplementary materials for a UIST submission — treating the 3-minute video as near-mandatory evidence in a demo-culture venue, scripting it around claims, meeting the 1080p/4K H.264 spec, anonymizing frames and audio, and deciding what else ships alongside the PDF.
+description: Use when producing the video figure and supplementary materials for a UIST submission — treating the video figure (at most 5 minutes in 2026) as near-mandatory evidence in a demo-culture venue, scripting it around claims, meeting the 1080p/4K H.264 spec, anonymizing frames and audio, and deciding what else ships alongside the PDF.
 ---
 
 # UIST Supplementary
@@ -13,23 +13,27 @@ through that belief. The 2026 Author Guide calls it optional but highly encourag
 for any paper whose contribution moves, responds, or renders, treat "optional" as
 theoretical.
 
-## The 2026 video spec (verified 2026-07-08)
+## The 2026 video spec (re-verified 2026-11-24 against the UIST 2026 CFP)
 
 | Property | Requirement |
 |---|---|
-| Length | At most 3 minutes |
+| Length | No more than 5 minutes |
+| Size | < 250 MB (all submission files together < 300 MB) |
+| Subtitles | Required, as a separate .srt or .sbv file (not burned in) |
 | Resolution | 1080p (1920×1080) or 4K (3840×2160) |
 | Container/codec | MP4, H.264 |
 | Anonymity | Same standard as the paper — frames, audio, and filenames |
 | Role | Helps reviewers evaluate the submission |
+| Due | With the materials deadline (April 9 in 2026), nine days after the paper PDF |
 
-Captions/subtitles make the video robust to reviewers watching without audio and
-prefigure the accessibility work required at camera-ready (see `uist-camera-ready`).
+Subtitles are mandatory, not optional polish: they make the video robust to reviewers
+watching without audio and prefigure the accessibility work required at camera-ready (see `uist-camera-ready`).
 
 ## Script the video around claims, not features
 
 Build the shot list from the paper's contribution list — the video is the visual
-twin of `uist-experiments`' claim-evidence audit:
+twin of `uist-experiments`' claim-evidence audit. The template runs three minutes —
+deliberately well under the 5-minute cap, because reviewers rarely reward the extra two:
 
 ```text
 0:00-0:15  Problem in one shot: the interaction that is impossible/painful today

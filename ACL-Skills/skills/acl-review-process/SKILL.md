@@ -82,8 +82,10 @@ weeks 7-8   meta-review written
 ```
 
 Offsets drift by cycle; the January 2026 cycle ran Jan 5 → reviews by early
-March → ACL 2026 commitment March 14. Always re-derive from the current
-dates page.
+March → ACL 2026 commitment March 14, and the October 2026 cycle ran Oct 12 →
+reviews due Nov 16 → response Nov 24-30 → meta-reviews Dec 17. The January 2027
+cycle (submission Jan 4, 2027) feeds ACL 2027, whose commitment date is still
+TBA. Always re-derive from the current dates page.
 
 ## Reading reviewer language for what it predicts
 

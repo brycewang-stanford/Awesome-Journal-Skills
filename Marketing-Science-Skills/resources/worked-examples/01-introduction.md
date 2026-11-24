@@ -142,6 +142,6 @@ Mapped to the skill checklists:
 > here. For what counts as a contribution and how to name its primary dimension, see
 > [`../../skills/mksc-contribution-framing/SKILL.md`](../../skills/mksc-contribution-framing/SKILL.md); for
 > the shared, venue-neutral inference audit, see
-> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
+> [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)
 > and
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

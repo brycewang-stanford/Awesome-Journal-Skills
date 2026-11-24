@@ -15,7 +15,7 @@ description: Use when the main results of a The Review of Economic Studies (RESt
 
 ## The REStud standard
 
-REStud referees are demanding and the journal is known for *developing strong papers across rounds*. A robust REStud result is one that **does not hinge on one fragile specification**. The goal of this stage is to find the weak point before a referee does, and either fix it or report it honestly. Robustness is not a wall of extra tables — it is targeted evidence against the most plausible alternative explanations. Two REStud-specific facts shape how you stage it: (1) bulk robustness belongs in the **online appendix / supplementary file**, with only the decisive checks in the main text; (2) for an *accepted* empirical paper, every robustness number must be reproducible, because the **Data Editor (Miklós Koren) reruns your code before publication** under the AEA DCAS standard (see `restud-replication-package`) — a check you cannot regenerate from the deposit is a liability, not a defense.
+REStud referees are demanding and the journal is known for *developing strong papers across rounds*. A robust REStud result is one that **does not hinge on one fragile specification**. The goal of this stage is to find the weak point before a referee does, and either fix it or report it honestly. Robustness is not a wall of extra tables — it is targeted evidence against the most plausible alternative explanations. Two REStud-specific facts shape how you stage it: (1) bulk robustness belongs in the **online appendix / supplementary file**, with only the decisive checks in the main text; (2) for an *accepted* empirical paper, every robustness number must be reproducible, because the **Data Editor (Andrea Moro) reruns your code before publication** under the DCAS standard (see `restud-replication-package`) — a check you cannot regenerate from the deposit is a liability, not a defense.
 
 ## Priority of checks
 
@@ -48,7 +48,7 @@ Before submission, ask: "What single change would a hostile referee make to brea
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). REStud is top-5 general-interest economics; credible identification with modern estimators is the bar across applied fields.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). REStud is top-5 general-interest economics; credible identification with modern estimators is the bar across applied fields.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

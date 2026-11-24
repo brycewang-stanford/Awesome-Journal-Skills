@@ -32,7 +32,7 @@ items are in [`resources/official-source-map.md`](resources/official-source-map.
 | Lead-with-the-result writing | The answer (with SE/CI) appears in the first paragraph, not Section 4 |
 | No traditional R&R | First decision is conditional accept or reject — pre-empt objections **before** submitting |
 | Conditional accept (~8 weeks, usually no second referee round) | The revision is finishing, not relitigating |
-| AEA house presentation | **Single-blind** review; title/byline/affiliations on the first page; no significance asterisks |
+| AEA house presentation | **Anonymized submission** (AEA author-anonymization RCT, fall 2026): title + abstract on the first page, authors/affiliations/acknowledgements in a separate "title page" PDF; no significance asterisks |
 | AEA Data & Code Availability Policy | openICPSR deposit verified by the AEA Data Editor **before** publication (appendix in scope) |
 
 ## Quick Start

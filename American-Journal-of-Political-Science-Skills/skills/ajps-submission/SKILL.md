@@ -33,7 +33,13 @@ self-citation). Official AJPS baseline checked 2026-06-20; live-check Editorial 
 - **Human subjects:** IRB approval/exemption where an author has IRB access, else an appendix answering
   the human-subjects questions; not required when relying on publicly available data approved at
   original collection.
-- **Fee:** no submission fee. Wiley OnlineOpen (Gold OA) is optional after acceptance — APC US $4,300 (verified 2026-06-22; re-verify the current rate before submission). Confirm any ORCID, Wiley-license/open-access, or portal-specific prompt during upload/production.
+- **AI disclosure:** if AI shaped the research or manuscript (text, figures, data, code, analysis,
+  design), add **one consolidated footnote** naming each tool/provider, the tasks and human oversight,
+  mirroring the Author Questionnaire statement; failure to disclose is grounds for decline (AI Policy
+  updated 2026-08-11). Spelling/grammar/minor formatting uses need no declaration.
+- **Submission cap:** at most **three** AJPS submissions per author in any rolling twelve months
+  (effective 2026-11-04); every coauthor counts, and the team declares compliance in Editorial Manager.
+- **Fee:** no submission fee. Wiley OnlineOpen (Gold OA) is optional after acceptance — APC US $4,510 (re-verified 2026-11-24; previously US $4,300; re-verify the current rate before submission). Confirm any ORCID, Wiley-license/open-access, or portal-specific prompt during upload/production.
 
 ## Preflight checklist
 
@@ -56,6 +62,8 @@ self-citation). Official AJPS baseline checked 2026-06-20; live-check Editorial 
 ### Compliance & reproducibility
 - [ ] Human-subjects / IRB documentation ready per the portal's questions
 - [ ] Original work; preprint/prior-publication status checked
+- [ ] AI-use footnote present if AI shaped the work, matching the Author Questionnaire answer
+- [ ] No author on the team is over the three-submissions-in-twelve-months cap
 - [ ] Replication package being staged for the AJPS Dataverse — verified after acceptance
       (see `ajps-replication-and-verification`)
 
@@ -83,6 +91,28 @@ Dataverse pending verification.
 
 Calibration anchor: AJPS is Wiley-published for the MPSA, uses Editorial Manager, and is double-blind with a
 strict anonymizing standard; confirm portal-specific prompts against the live Editorial Manager workflow.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue ajps-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

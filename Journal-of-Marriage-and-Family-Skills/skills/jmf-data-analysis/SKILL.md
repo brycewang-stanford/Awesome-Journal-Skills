@@ -83,7 +83,7 @@ documentation.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMF is quantitative family demography/sociology; emphasize identification, selection, and decomposition methods.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JMF is quantitative family demography/sociology; emphasize identification, selection, and decomposition methods.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

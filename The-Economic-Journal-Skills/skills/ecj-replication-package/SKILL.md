@@ -50,7 +50,7 @@ description: Use when assembling the data and code replication package for a The
 
 - [ ] README follows the DCAS template (overview, data availability, requirements, run instructions, exhibit map)
 - [ ] Deposit goes to the journal's Zenodo repository (or another trusted repository) with a license allowing replication
-- [ ] Package layout matches EJ guidance: `1-paper`, `2-appendices`, `README.pdf`, `3-replication-package.zip`, and optional `4-confidential-data-not-for-publication.zip`
+- [ ] Package layout matches EJ guidance: `1-paper`, `2-appendix`, `README.pdf`, `3-replication-package.zip`, and optional `4-confidential-data-not-for-publication.zip`
 - [ ] Single master script reproduces every table, figure, and in-text number from inputs
 - [ ] Software and package versions pinned and recorded
 - [ ] Random seeds set and documented

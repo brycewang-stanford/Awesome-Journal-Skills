@@ -38,24 +38,24 @@ ES&T's constraints differ from a pure-chemistry journal or a general-science ven
 | Scope                 | Environmental **chemistry + engineering + tox/health + biogeochem + policy**  | The paper must reach a multidisciplinary audience                |
 | Rigor                 | **QA/QC**, honest uncertainty, **closed mass balances**                       | Blanks, recoveries, LOD/LOQ, replicates are expected             |
 | Publisher             | **American Chemical Society (ACS)**                                            | Submitted via the **ACS Publishing Center** / **ACS Paragon Plus** |
-| Exhibits              | **Mandatory TOC/abstract graphic**; figures/tables may count as words         | Build the visual abstract; budget exhibit word-equivalents       |
+| Exhibits              | **Mandatory TOC/abstract graphic**; figure/table captions count as words      | Build the visual abstract; keep captions lean                    |
 | Transparency          | **Data-availability statement** + public-database deposition; **SI** alongside | Build the SI and data deposit as you go                          |
 | Review                | Editor desk-screen (declines a large fraction), then ~3 expert reviewers      | Clear the editorial bar on significance before review            |
 | Style                 | **ACS** numbered-citation style; SI units                                     | Not a generic author-date style                                  |
 | Companion             | **ES&T Letters** for urgent, high-impact short results                        | Match urgency to venue                                           |
 
-Volatile specifics (exact word limits and word-equivalents, submission-system name, blinding model,
+Volatile specifics (exact word limits and what they count, submission-system name, blinding model,
 current editor, metrics, any APC) change — items not directly confirmed are marked **待核实** in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 **Verify on the official journal page.**
 
-### Article types (word limits 待核实)
+### Article types (word limits re-verified 2026-11-24)
 
-- **Research Article** — full original study (~7,000 words); requires a TOC graphic.
-- **Critical Review** — comprehensive analytical synthesis (~10,000 words).
-- **Feature** — accessible, magazine-style piece for the broad community (~5,000 words).
-- **Perspective** — focused, forward-looking opinion/synthesis (~4,000 words).
-- **Policy Analysis** — science/engineering at the **policy interface** (~7,000 words).
+- **Research Article** — full original study (7,000 words); requires a TOC graphic.
+- **Review** — comprehensive analytical synthesis (10,000 words).
+- **Feature** — accessible, magazine-style piece for the broad community (5,000 words).
+- **Perspective** — focused, forward-looking opinion/synthesis (4,000 words).
+- **Policy Analysis** — science/engineering at the **policy interface** (7,000 words).
 - **Viewpoint / Correspondence / Letter to the Editor** — short opinion / comment formats.
 - **ES&T Letters** — the companion journal for the rapid disclosure of **urgent** results (Letter ≤3,000 words).
 
@@ -150,7 +150,7 @@ result is **urgent and high-impact** but short, route to `est-workflow` early to
 
 - It does not write a submittable manuscript for you
 - It does not simulate any specific editor's or reviewer's taste
-- It does not assert volatile metadata (exact word limits/word-equivalents, submission-system name, blinding model, editor, metrics, APC) — verify on the official page; unverified items are marked 待核实
+- It does not assert volatile metadata (exact word limits and counting rules, submission-system name, blinding model, editor, metrics, APC) — verify on the official page; unverified items are marked 待核实
 - It does not decide whether your work has environmental significance — that is the researcher's call
 
 ---

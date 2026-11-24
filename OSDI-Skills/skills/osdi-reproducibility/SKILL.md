@@ -6,7 +6,8 @@ description: Use when building reproducibility into an OSDI systems project — 
 # OSDI Reproducibility
 
 Make the numbers survivable. OSDI-specific hooks below (artifact timing, badge scope,
-open-access exposure) are 2026-cycle facts verified 2026-07-08; the provenance
+open-access exposure) are OSDI '27-cycle facts re-verified 2026-11-24 — with the
+artifact rules taken from the latest published call, OSDI '26; the provenance
 discipline is venue-independent engineering.
 
 ## Why the bar is high at OSDI specifically
@@ -17,7 +18,7 @@ Two venue mechanics raise the stakes beyond generic good practice:
   including the teams whose systems you outperformed — gets the free PDF immediately
   and can attempt your numbers. Errors get found publicly and fast.
 - **Artifact evaluation happens after acceptance** (May 8, 2026, 8:59 pm PDT in the
-  '26 cycle), when the experiments are months old. If provenance was not recorded
+  '26 cycle; the '27 date is 待核实), when the experiments are months old. If provenance was not recorded
   while runs happened, the artifact reconstructs a memory, not an experiment.
 
 Reproducibility at OSDI is therefore a *recording* problem during the project, not a
@@ -95,17 +96,21 @@ The shared smoke checker in
 gaps (missing README/manifest/license) but none of the above — licensing and
 provenance are judgment calls only the authors can make.
 
-## Timing against the 2026 cycle
+## Timing against the OSDI '27 cycle
 
 - **During experiments (autumn)** — the ledger above, enforced by the harness.
 - **Silent review window (Dec–Mar)** — freeze the testbed image, trace archives, and
-  environment; the '26 Call for Artifacts encouraged preparing artifacts while the
+  environment; the latest ('26) Call for Artifacts encouraged preparing artifacts while the
   paper was under consideration, and a conditional accept may demand new runs on the
   frozen setup (`osdi-author-response`).
-- **After notification (Mar 26)** — packaging sprint to the May 8 artifact deadline;
-  in 2026 the badge evaluated was **Artifacts Available**, so permanent archiving is
-  the floor — but a ledger-backed artifact is what makes the optional two-page
-  Artifact Appendix in the final paper worth writing (`osdi-camera-ready`).
+- **After notification (March 16, 2027)** — packaging sprint to the artifact deadline
+  (待核实 for '27; May 8 in the '26 cycle); in the '26 call the only badge evaluated was
+  **Artifacts Available**, so permanent archiving is the floor — but a ledger-backed
+  artifact is what makes an Artifact Appendix in the final paper worth writing, if the
+  '27 final rules keep it (`osdi-camera-ready`).
+- **If coding agents helped build the system** — the OSDI '27 CFP requires disclosing
+  that in the paper (e.g., the Implementation section); record which components and
+  which agent in the ledger as you go.
 
 ## The handoff test
 

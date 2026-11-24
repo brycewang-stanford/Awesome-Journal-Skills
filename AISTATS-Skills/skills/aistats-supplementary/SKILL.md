@@ -13,8 +13,10 @@ paper, but the main submission must remain understandable without it.
 - Put theorem proofs, derivations, extra ablations, simulation details, dataset
   documentation, and robustness tables in a clean appendix or supplementary manuscript.
 - Put executable assets in a separate archive when current OpenReview forms allow it.
-- Respect the current supplementary deadline. AISTATS 2026 placed supplementary-material
-  submission after the paper deadline but before review.
+- Respect the current supplementary deadline. AISTATS 2027 has none of its own: all
+  supplementary material is due with the full paper (October 6, 2026), either appended to
+  the main PDF after the references, AI Use Statement and checklist, or as one separate
+  PDF or ZIP. (AISTATS 2026 had a separate deadline a week after the paper.)
 - Keep all supplementary files double-blind: no authors, institutions, acknowledgements,
   private paths, repository owners, grants, or identifying metadata.
 - Do not use the supplement to hide essential motivation, core method description, main

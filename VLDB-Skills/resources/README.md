@@ -8,7 +8,7 @@ style demonstration, and the artifact tooling pointer.
 
 | File | What it is for |
 | --- | --- |
-| [`official-source-map.md`](official-source-map.md) | Every PVLDB/VLDB fact in the pack with its URL and 2026-07-08 access date, the access-method note for the blocked hosts, and the 待核实 ledger. Open this before trusting any deadline. |
+| [`official-source-map.md`](official-source-map.md) | Every PVLDB/VLDB fact in the pack with its URL and 2026-07-08 access date (re-verified 2026-11-24), the access-method note, the edition status, and the 待核实 ledger. Open this before trusting any deadline. |
 | [`external_tools.md`](external_tools.md) | The live official surfaces (volume guidelines, research-track calls, reproducibility pages) plus the do-not-infer rules for a venue that resets its policies every volume. |
 | [`exemplars/library.md`](exemplars/library.md) | Four award-anchored real VLDB/PVLDB papers spanning the EA&B, architecture, scale-out, and industrial genres — and a list of famous papers that are *not* VLDB papers. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | A fictional LSM-store paper's abstract and introduction rewritten before → after against the pack's page-one rules. |

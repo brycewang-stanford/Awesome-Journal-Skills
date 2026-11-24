@@ -29,6 +29,17 @@ Numbers are verbatim tool output, reproducible from the listed calls.
 五条案例覆盖共享执行手册的全部五个设计族；案例 3/5 共用同一数据，
 刻意演示「函数形式 vs 内生性」的方法论分界。
 
+## 投稿前打磨 · Pre-submission polishing, executed
+
+| # | 内容 | 案例 | 状态 |
+| --- | --- | --- | --- |
+| 6 | 植入缺陷基准：6 个 venue 家族 × 12 处植入缺陷 + 干净对照，预检与审稿模拟分别计分 | [presubmission-benchmark](presubmission-benchmark/README.md) · [结果](presubmission-benchmark/RESULTS.md) | ✅ 已运行 (2026-11-23) |
+| 7 | 真实预印本全流程：arXiv:2611.21070 (CC BY 4.0) → 假设投 AER: Insights，预检 → 打分卡 → 审稿模拟 → 润色 → 投稿信 | [presubmission-real-preprint](presubmission-real-preprint/README.md) | ✅ 已运行 (2026-11-23) |
+
+These two cases are the evidence layer for `rt-submission-readiness`, in the same way
+cases 1–5 are for the execution bridge. Every number is either tool output or a grade
+against a committed manifest, and every miss is listed.
+
 ## 复现纪律
 
 1. 数据来源必须写明（内置基准数据集或公开数据），并附加载方式。

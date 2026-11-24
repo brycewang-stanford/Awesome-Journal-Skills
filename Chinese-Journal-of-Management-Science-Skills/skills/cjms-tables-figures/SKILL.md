@@ -42,7 +42,7 @@ description: Use when preparing tables, figures, formulas and pseudocode exhibit
 ## 执行桥（StatsPAI / Stata MCP）
 
 三线表的数字应当从拟合结果里长出来，不是从另一份稿子里抄过来。工具全表见
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md)。
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md)。
 
 - **主对比表**：`etable` 直接吃 `result_id` 出多列对照，正文与附录同源，避免本刊
   形式审查最常打回的"正文一个数、附录另一个数"。

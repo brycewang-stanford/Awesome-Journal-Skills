@@ -31,6 +31,10 @@ which affects the submission fee.]
 - [If applicable] **Code-sharing exception request:** we request an exception to the
   Code Sharing and Data Availability Policy because [reason]. [This request is made
   here, at initial submission, as the policy requires.]
+- **AI-tool use.** [None / AI tools were used for (language editing / coding assistance /
+  data handling); this use is also acknowledged in the manuscript. If the method uses LLM or
+  AI-agent inputs or outputs: model name and version, and access dates.] (Required under
+  the RoF LLM policy updated 30 October 2026.)
 
 **Data and code.** [State data sources. If proprietary (e.g., CRSP/Compustat/TRACE/
 vendor), note that a pseudo-dataset and log files will be provided per the policy.]

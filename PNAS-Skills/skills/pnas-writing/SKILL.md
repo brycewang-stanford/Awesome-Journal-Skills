@@ -33,7 +33,7 @@ PNAS keeps a **Materials and Methods** section in the main text — unlike *Cell
 
 ## Length budget
 
-- Research articles have **length limits** (commonly framed as up to ~6 journal pages, roughly on the order of ~8 figures/tables and a corresponding word/character budget). PNAS counts the **whole package** — abstract, main text, figures/tables, and references — against the page/character allowance.
+- Research Reports have a **preferred length of 6 pages and a maximum of 12 pages**; a standard 6-page article is roughly **4,000 words, 50 references, and 4 medium-size figures/tables** (PNAS author center, re-verified 2026-11-23). Budget the **whole package** — abstract, Significance Statement, main text, figures/tables, and references — against the page allowance.
 - **Confirm the current word/character/page caps and the figure-table allowance in PNAS author guidelines** before finalizing; treat any number here as a working target, not a rule.
 - Over-length material (extended methods, supporting figures/tables, supplementary text) → **SI Appendix**.
 
@@ -43,7 +43,7 @@ PNAS requires a **Classification** for every research article:
 
 - **Major category — exactly one division:** **Biological Sciences**, **Physical Sciences**, or **Social Sciences**.
 - **Minor subject area:** one (sometimes a permitted second) subject within that division (e.g., Biological Sciences → Genetics; Physical Sciences → Applied Physical Sciences; Social Sciences → Economic Sciences). Pick from the PNAS list.
-- **Keywords:** a short set (commonly up to ~5) for indexing.
+- **Keywords:** at least three and no more than five (PNAS main-manuscript template).
 
 Choose the classification that matches the **handling and review community** you want, consistent with the venue call in `pnas-fit` and the editor choice in `pnas-track`/`pnas-submission`.
 
@@ -69,7 +69,7 @@ Each Results paragraph: **claim sentence first**, then evidence (figure callout 
 【Order check】 Title / authors / Significance / Abstract / Intro / Results / Discussion / Materials and Methods / refs — gaps?
 【Methods location】 in main text? yes (FIX if missing) — extended detail in SI Appendix?
 【Length】 package within budget? N vs cap (confirm guidelines)
-【Classification】 major (Bio/Phys/Social) + minor subject chosen? + keywords (≤~5)?
+【Classification】 major (Bio/Phys/Social) + minor subject chosen? + keywords (3–5)?
 【Results order】 argument-ordered, claim-first? yes/no
 【Items in main vs SI】 main: [...] / SI Appendix: [...]
 【Next】 pnas-figures

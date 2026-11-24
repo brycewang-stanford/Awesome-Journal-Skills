@@ -13,7 +13,8 @@ cycle-specific.
 
 - RecSys review is **mutually anonymous** (double-blind). Each submission is read by **at least
   three PC members** and overseen by a **Senior PC member** who synthesizes the recommendation.
-- There is an author **rebuttal** phase (2026: June 4-9) for a short clarifying narrative.
+- There is an author **rebuttal** phase (2026: June 4-9) for a short clarifying narrative —
+  500 characters in 2026, for factual errors and misconceptions only.
 - Reviewers weigh recommendation novelty, evaluation validity, reproducibility, clarity, and
   relevance to the recommender community — not raw metric wins alone.
 - The most useful reply is a decision-focused clarification that gives the Senior PC a clean

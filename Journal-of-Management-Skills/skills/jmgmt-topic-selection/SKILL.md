@@ -36,7 +36,7 @@ If you have data but the literature is too thin for a meta-analysis and too unse
 
 ## Sizing the question against the 50-page wall
 
-JOM's **50-page limit includes everything** — text, notes, references, tables, and figures (检索于 2026-06；以官网为准). A sprawling multi-study program or a 200-effect meta-analysis must be scoped so the *core* contribution fits; supplementary material lives in an online appendix. Decide at topic-selection time what the paper is *not* about.
+JOM's **50-page limit includes everything** — text, notes, references, tables, and figures (re-verified 2026-11-24；以官网为准). A sprawling multi-study program or a 200-effect meta-analysis must be scoped so the *core* contribution fits — and **a first submission may not include any online supplement**, so nothing can be parked outside the 50 pages at that stage. Decide at topic-selection time what the paper is *not* about.
 
 ## Worked example (illustrative)
 

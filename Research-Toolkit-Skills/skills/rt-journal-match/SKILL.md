@@ -1,17 +1,17 @@
 ---
 name: rt-journal-match
-description: Use when an author asks "which journal should I send this to?" or needs the best resubmission target after a reject. Profiles the paper, shortlists candidates from an index of 743 venues with tools/match_venues.py, and ranks them into reach / match / safe with a resubmission ladder. Reads live venue facts from each pack's source-map; defers fit judgment to the venue's own topic-selection skill.
+description: Use when an author asks "which journal should I send this to?" or needs the best resubmission target after a reject. Profiles the paper, shortlists candidates from an index of 744 venues with tools/match_venues.py, and ranks them into reach / match / safe with a resubmission ladder. Reads live venue facts from each pack's source-map; defers fit judgment to the venue's own topic-selection skill.
 ---
 
 # Journal-Match (rt-journal-match)
 
 The missing front-door question — *which venue?* — across the whole repository. Full
 methodology + the stable venue index live in
-[`shared-resources/journal-selection/journal-match.md`](../../../shared-resources/journal-selection/journal-match.md)
-and [`venue-index.tsv`](../../../shared-resources/journal-selection/venue-index.tsv).
+[`shared-resources/journal-selection/journal-match.md`](../../resources/shared/journal-selection/journal-match.md)
+and [`venue-index.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/venue-index.tsv).
 
 Worked end to end, with real output:
-[`worked-example.md`](../../../shared-resources/journal-selection/worked-example.md).
+[`worked-example.md`](../../resources/shared/journal-selection/worked-example.md).
 
 ## When to trigger
 
@@ -23,10 +23,15 @@ Worked end to end, with real output:
 
 1. **Profile the paper** — discipline + subfield, method/design, contribution type,
    setting/data/region, ambition (be honest). Write it down once, in the shape of
-   [`paper-profile.yml`](../../../shared-resources/journal-selection/paper-profile.md);
+   [`paper-profile.yml`](../../resources/shared/journal-selection/paper-profile.md);
    every later skill reads the same file instead of re-deriving it.
 
-2. **Shortlist** — run the matcher rather than reading the index by eye:
+2. **Shortlist** — run the matcher rather than reading the index by eye. The command runs
+   from the repository root. An installed plugin does not carry the 15 MB index, but
+   `/plugin marketplace add` already cloned the whole repository: use
+   `~/.claude/plugins/marketplaces/awesome-journal-skills/` (or the same path under
+   `$CLAUDE_CONFIG_DIR`) as the root, and only if neither exists,
+   `git clone --depth 1 https://github.com/brycewang-stanford/Awesome-Journal-Skills`.
 
    ```bash
    python3 tools/match_venues.py \
@@ -35,7 +40,7 @@ Worked end to end, with real output:
    ```
 
    `--discipline` is a **prior, not a filter**: the discipline and its adjacents
-   ([`discipline-adjacency.tsv`](../../../shared-resources/journal-selection/discipline-adjacency.tsv))
+   ([`discipline-adjacency.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/discipline-adjacency.tsv))
    are boosted, but a strong match elsewhere still surfaces, because Step 1 is a
    judgement that is sometimes wrong. Add `--only-discipline` when you are certain,
    `--exclude <venue_id>` for venues that have already rejected the paper,
@@ -56,7 +61,7 @@ Worked end to end, with real output:
    [`rt-venue-integrity`](../rt-venue-integrity/SKILL.md).
 
    The matcher is measured: **R@10 = 41.5%** from a bare title, on a held-out half of a
-   1,738-paper gold set ([`eval/RESULTS.md`](../../../shared-resources/journal-selection/eval/RESULTS.md)).
+   1,738-paper gold set ([`eval/RESULTS.md`](../../resources/shared/journal-selection/eval/RESULTS.md)).
    That is a floor for one thin query, not the capability — it is why step 3 exists.
    The per-discipline table there is worth reading before trusting a result: coverage is
    uneven, and life sciences and natural science are visibly the thinnest.
@@ -67,7 +72,7 @@ Worked end to end, with real output:
 
 4. **Return reach / match / safe** (≈2–3 each) with one-line rationales + the live facts,
    then a **submit order and resubmission ladder** — seed the ladder from
-   [`ladder.tsv`](../../../shared-resources/journal-selection/ladder.tsv) (candidate
+   [`ladder.tsv`](https://github.com/brycewang-stanford/Awesome-Journal-Skills/blob/main/shared-resources/journal-selection/ladder.tsv) (candidate
    adjacency, not a ranking) and apply your own fit/odds judgement to it.
 
 5. **Cost the ladder** with [`rt-ladder-ev`](../rt-ladder-ev/SKILL.md) whenever the

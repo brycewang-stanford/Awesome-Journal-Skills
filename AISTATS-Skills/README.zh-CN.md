@@ -4,9 +4,18 @@
 论文的选会、OpenReview 投稿、统计证据、匿名补充材料、可复现性 checklist、author-reviewer
 discussion、PMLR camera-ready 与现场报告规划。
 
-官方依据核验日期：2026-06-01。已核验 AISTATS 2026 Call for Papers、OpenReview
-conference group、PMLR proceedings 页面、AISTATS Code of Conduct，以及 AISTATS / PMLR
-作者出版惯例。精确来源见 `resources/official-source-map.md`。
+官方依据复核日期：2026-11-23。已复核 AISTATS 2027 Call for Papers、Submission FAQ、
+Dates、Rebuttal Guidelines 与组委会页面、AISTATS 2027 paper pack 与 OpenReview group、
+PMLR proceedings 页面及 AISTATS Code of Conduct。精确来源见
+`resources/official-source-map.md`。
+
+**当前届次：** AISTATS 2027——第 30 届，2027 年 5 月 3–6 日在加拿大蒙特利尔线下举行。
+投稿截止已过（摘要 2026-09-29，全文 2026-10-06）；2026-11-23 时处于 rebuttal 阶段
+（author–reviewer discussion 2026-11-24 至 12-03；2027-01-20 出结果）。2027 年新规：
+强制 AI Use Statement（缺失即 desk reject）、每篇投稿都有 AI 事实核查审稿、投稿配额
+（每位作者至多 12 篇；未在 ICLR/ICML/NeurIPS/AISTATS 发表过的作者至多 3 篇）、摘要截止后
+作者名单冻结、不再设单独的补充材料截止、每篇须提名一位作者审稿、rebuttal 每条不超过
+5,000 字符且不得含外部链接。
 
 ## Skills
 
@@ -39,4 +48,4 @@ conference group、PMLR proceedings 页面、AISTATS Code of Conduct，以及 AI
 
 - 涉及 deadline、页数、补充材料、discussion、PMLR forms、注册与报告要求时，必须重新打开当年
   官方页面。
-- 本包中的 AISTATS 2026 事实是历史锚点，不应当被当成永久规则。
+- 本包描述 AISTATS 2027；AISTATS 2026 事实仅作为标注清楚的历史保留。

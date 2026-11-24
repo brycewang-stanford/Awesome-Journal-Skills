@@ -95,6 +95,20 @@ and `tools/match_venues.py` marks it `°` — a visible gap rather than a silent
   with missing URLs, missing check dates, or heavy unresolved-flag loads. The
   tool is report-only unless run with `--strict`.
 
+- **Machine-readable submission rules.** When you re-verify a venue's limits or
+  policies, update (or add) the `ajs-preflight-rules/1` JSON block at the end of its
+  `official-source-map.md` in the same edit. The block is a compiled view of the prose:
+  every number must already appear in the prose, every `source` must be a URL the prose
+  cites, and `verified` must equal the newest re-verification date the prose states.
+  Validate one map with `python3 tools/venue_rules.py --pack <Pack>`, then regenerate
+  with `python3 tools/venue_rules.py --write && python3 tools/vendor_shared.py --write`.
+  Include only rules read from an official page that day. A limit the venue words as
+  guidance ("about", "preferably no more than") gets `"soft": true`.
+- **Shared resources are vendored.** Never edit anything under a pack's
+  `resources/shared/` or `Research-Toolkit-Skills/resources/preflight/`. Edit the
+  original under `shared-resources/` (or `tools/preflight.py`) and run
+  `python3 tools/vendor_shared.py --write`; `run_checks.py` fails on stale copies.
+
 ## Minimum acceptance bar for a new pack（新 pack 最小验收线）
 
 A new depth pack is mergeable only when ALL of the following hold. This is the

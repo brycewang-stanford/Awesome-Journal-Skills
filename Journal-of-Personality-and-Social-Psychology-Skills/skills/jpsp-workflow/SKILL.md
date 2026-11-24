@@ -28,7 +28,7 @@ stage.
 
 > One paper, one section. The sections are edited separately and apply their **own** length rules
 > (ASC intro+discussion ≤ 3,500 words; IRGP ≤ 5,000 words and ≤ 5 studies in the main text; PPID
-> "as succinctly as possible"). Confirm the live per-section page — see 待核实 in the source map.
+> "as succinctly as possible"). Re-verified 2026-11-24 on the APA submission-guidelines page (ASC's cap is a strong recommendation).
 
 ## Routing map (stage → skill)
 

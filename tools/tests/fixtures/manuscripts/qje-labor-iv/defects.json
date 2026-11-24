@@ -1,0 +1,149 @@
+{
+  "id": "qje-labor-iv",
+  "pack": "Quarterly-Journal-of-Economics-Skills",
+  "venue": "The Quarterly Journal of Economics",
+  "format": "tex",
+  "synthetic": true,
+  "summary": "Admission lotteries at a fictional statewide sectoral job-training program identify the earnings return to enrollment by 2SLS (offer as instrument), with a strong first stage, Anderson-Rubin sets and an exclusion-restriction defense.",
+  "defects": [
+    {
+      "id": "M1",
+      "kind": "mechanical",
+      "check": "REF-MISSING",
+      "find": "\\bibitem[Kline and Walters(2016)]{klinewalters2016}\nKline, Patrick, and Christopher R. Walters. 2016. ``Evaluating Public Programs with Close Substitutes: The Case of Head Start.'' \\textit{Quarterly Journal of Economics} 131 (4): 1795--1848.\n\n",
+      "replace": "",
+      "description": "Kline and Walters (2016) is still cited (\\citep/\\citet{klinewalters2016}) but its \\bibitem has been deleted.",
+      "rule_basis": "universal; also Quarterly-Journal-of-Economics-Skills/skills/qje-submission/SKILL.md Format & style: references in author-date style, consistent"
+    },
+    {
+      "id": "M2",
+      "kind": "mechanical",
+      "check": "REF-UNCITED",
+      "find": "documented by \\citet{ashenfelter1978}",
+      "replace": "that is common among training applicants",
+      "description": "The only citation of Ashenfelter (1978) has been removed, leaving an uncited bibliography entry.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M3",
+      "kind": "mechanical",
+      "check": "EXH-UNREFERENCED",
+      "find": "Second, Figure~\\ref{fig:distribution} plots the earnings distributions",
+      "replace": "Second, we compare the earnings distributions",
+      "description": "Figure 2 (complier earnings distributions) is no longer referenced anywhere in the text.",
+      "rule_basis": "universal; also Quarterly-Journal-of-Economics-Skills/skills/qje-submission/SKILL.md Format & style: 'Tables and figures numbered, called out in order'"
+    },
+    {
+      "id": "M4",
+      "kind": "mechanical",
+      "check": "EXH-NUMBERING",
+      "find": "\\caption{Heterogeneity in the Earnings Returns to Enrollment}",
+      "replace": "\\addtocounter{table}{1}\n\\caption{Heterogeneity in the Earnings Returns to Enrollment}",
+      "description": "A counter bump makes the compiled tables run 1, 2, 3, 5 (Table 4 is skipped).",
+      "rule_basis": "universal; also Quarterly-Journal-of-Economics-Skills/skills/qje-submission/SKILL.md Format & style: 'Tables and figures numbered, called out in order'"
+    },
+    {
+      "id": "M5",
+      "kind": "mechanical",
+      "check": "EXH-SE-NOTE",
+      "find": " Heteroskedasticity-robust standard errors for the 2SLS estimates are in parentheses.",
+      "replace": "",
+      "description": "The Table 4 note no longer states what the standard errors in parentheses are.",
+      "rule_basis": "universal; also Quarterly-Journal-of-Economics-Skills/skills/qje-submission/SKILL.md Format & style: tables with 'self-contained notes'"
+    },
+    {
+      "id": "M6",
+      "kind": "mechanical",
+      "check": "NUM-MISMATCH",
+      "find": "by \\$3,049, or 16.4 percent of the complier control mean",
+      "replace": "by \\$3,049, or 19.4 percent of the complier control mean",
+      "description": "The abstract reports a 19.4 percent return, but the results text reports 16.4 percent (3,049 / 18,640).",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M7",
+      "kind": "mechanical",
+      "check": "LEFTOVER-MARKER",
+      "find": "which yields 108 lottery strata.",
+      "replace": "which yields 108 lottery strata. \\textbf{[TODO: confirm the fall 2017 intake counts with the state agency.]}",
+      "description": "A TODO note has been left in the program-description section.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "S1",
+      "kind": "substantive",
+      "lens": "identification",
+      "severity": "major",
+      "find": "The exclusion restriction requires that a lottery offer affects earnings only through enrollment in the program. Three features of the setting support it. First, the offer letter reserved a seat and set a start date; it carried no stipend, placement service, or priority for other benefits, and winners who declined their seat returned to the same job-center services available to losers. Second, the offer did not change job search through the notification itself: the offer has no effect on UI claims filed in the quarter of the lottery (a difference of 0.3 percentage points, standard error 0.6), and the quarterly earnings of winners and losers are identical in the quarter of the lottery, before training begins. Third, lottery losers retained access to other services, and 21.4 percent of losers and 9.8 percent of winners enrolled in other publicly funded training within two years. This substitution affects the interpretation of our estimate, which measures the effect of the program relative to a counterfactual that includes other training, but it operates through training enrollment rather than through the offer directly. Section~\\ref{sec:robust} reports estimates that account for it.",
+      "replace": "The exclusion restriction requires that a lottery offer affects earnings only through enrollment in the program. Along with a reserved seat, lottery winners received a \\$1,500 job-search bonus, paid when they returned the signed offer letter, and were assigned a dedicated career navigator for twelve months, whether or not they ultimately enrolled. Because the offer was randomly assigned, these features do not threaten identification, and we interpret the 2SLS estimate as the return to program enrollment.",
+      "description": "The offer now bundles a cash bonus and twelve months of career-navigator services for all winners, so the offer affects earnings through channels other than enrollment; the paper conflates random assignment with the exclusion restriction and offers no defense or bound.",
+      "match_terms": [
+        "exclusion restriction",
+        "direct effect",
+        "job-search bonus",
+        "career navigator",
+        "only through enrollment",
+        "randomization does not imply exclusion",
+        "bundled",
+        "other channels"
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "substantive",
+      "lens": "inference",
+      "severity": "major",
+      "find": "Our lottery estimates apply to applicants at oversubscribed centers between 2012 and 2017. To probe external validity, we use 7,930 applicants from 2018 and 2019, when no center was oversubscribed, and instrument enrollment with the distance from the applicant's residence to the nearest training center, controlling for commuting-zone fixed effects, application year, and baseline characteristics. Each additional 10 kilometers of distance reduces enrollment by 3.8 percentage points (standard error 0.6), which implies an effective first-stage F-statistic of 40.1. The 2SLS estimate of the earnings return in years three to five is \\$2,720 (standard error 1,140), with an Anderson--Rubin 95 percent confidence set of [560, 5,190]. Distance could be correlated with local labor market conditions within commuting zones; the estimate changes little when we add controls for tract-level median income and the distance to the nearest job center (Online Appendix C). The distance-based estimate is less precise than the lottery estimate but statistically indistinguishable from it.",
+      "replace": "Our lottery estimates apply to applicants at oversubscribed centers between 2012 and 2017. To probe external validity, we use 7,930 applicants from 2018 and 2019, when no center was oversubscribed, and instrument enrollment with the distance from the applicant's residence to the nearest training center, controlling for commuting-zone fixed effects, application year, and baseline characteristics. Each additional 10 kilometers of distance reduces enrollment by 1.1 percentage points (standard error 0.6). The 2SLS estimate of the earnings return in years three to five is \\$9,840 (standard error 4,310), statistically significant at the 5 percent level using conventional standard errors, which suggests that the returns to training at non-oversubscribed centers are, if anything, larger than in the lottery sample. Distance could be correlated with local labor market conditions within commuting zones; the estimate changes little when we add controls for tract-level median income and the distance to the nearest job center (Online Appendix C).",
+      "description": "The external-validity extension now rests on a weak distance instrument (first-stage t of about 1.8, implied F of about 3.4) with no first-stage F reported and conventional Wald inference, and draws a substantive conclusion from an implausibly large, weakly identified 2SLS estimate.",
+      "match_terms": [
+        "weak instrument",
+        "first-stage F",
+        "weak-IV",
+        "Anderson-Rubin",
+        "Stock-Yogo",
+        "Montiel Olea",
+        "first stage is imprecise",
+        "conventional standard errors"
+      ]
+    },
+    {
+      "id": "S3",
+      "kind": "substantive",
+      "lens": "robustness",
+      "severity": "major",
+      "find": "We link applicants to quarterly UI wage records using Social Security numbers. Overall, 97.2 percent of applicants are linked: 97.4 percent of lottery winners and 97.0 percent of lottery losers, a strata-adjusted difference of 0.4 percentage points (standard error 0.3). Linked applicants with no UI earnings in a quarter are coded as having zero earnings. Because UI records cover only in-state employment, applicants who move out of state appear to have zero earnings. The offer has no effect on the probability of having no in-state earnings in every quarter of years three to five (a difference of $-0.4$ percentage points, standard error 0.6), and bounds that trim the sample to equalize linkage rates across lottery groups \\citep{lee2009} yield an interval of [2,610, 3,390] for our main estimate. Our outcome sample therefore contains the 11,161 linked applicants.",
+      "replace": "We link applicants to quarterly UI wage records using Social Security numbers and restrict the analysis to linked applicants. The linkage rate is 89.6 percent for lottery winners and 81.3 percent for lottery losers, because winners' program intake forms collected verified identifiers. Linked applicants with no UI earnings in a quarter are coded as having zero earnings. Our outcome sample therefore contains the 11,161 linked applicants.",
+      "description": "Outcome data are now missing at sharply different rates for winners and losers (89.6 vs. 81.3 percent linked) for a reason tied to the offer, yet the paper analyzes linked applicants only, with no balance check on the linked sample and no Lee bounds, so the lottery comparison is no longer guaranteed to be balanced.",
+      "match_terms": [
+        "differential attrition",
+        "attrition",
+        "linkage rate",
+        "Lee bounds",
+        "sample selection",
+        "missing outcomes",
+        "balance in the linked sample",
+        "selective"
+      ]
+    },
+    {
+      "id": "S4",
+      "kind": "substantive",
+      "lens": "reporting",
+      "severity": "major",
+      "find": "Our estimates are local average treatment effects for compliers, applicants who enroll if and only if offered a seat at an oversubscribed center. Compliers have lower prior earnings and are more likely to be women than the average UI claimant in the state (Online Appendix D), and returns at a larger scale could differ if an expansion drew in less motivated applicants or if trained workers displaced other job seekers in the targeted sectors \\citep{crepon2013}. These caveats argue for scaling such programs gradually and for evaluating expansions with the same lottery design.",
+      "replace": "Because the lotteries randomize access, our estimate of \\$3,049 per year is the average return to training for unemployed workers in the state. Scaling the program to the roughly 210,000 workers who file UI claims in the state each year would therefore raise aggregate annual earnings by about \\$640 million, and similar programs would deliver comparable returns in other states.",
+      "description": "The conclusion now treats the complier LATE from oversubscribed centers as the average effect for all UI claimants and extrapolates it to a statewide scale-up and to other states, ignoring complier selection, heterogeneity, and displacement/general-equilibrium effects.",
+      "match_terms": [
+        "LATE",
+        "local average treatment effect",
+        "compliers",
+        "average treatment effect",
+        "external validity",
+        "extrapolate",
+        "scale-up",
+        "displacement"
+      ]
+    }
+  ]
+}

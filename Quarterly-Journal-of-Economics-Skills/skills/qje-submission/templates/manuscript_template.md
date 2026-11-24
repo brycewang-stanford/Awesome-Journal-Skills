@@ -9,7 +9,7 @@ verify current author guidelines on the official page.
 
 > [Title — concrete and informative; the question or the finding, not the method]
 >
-> [Author names, affiliations — supply separately if the round is double-blind]
+> [Author names centered; corresponding author's address + email; total word count — QJE's first page must give these (affiliations go after the last line of text)]
 
 ## Abstract (state the finding)
 
@@ -18,7 +18,7 @@ verify current author guidelines on the official page.
 > studies the important question of"; a general-interest reader should know what you
 > found from the abstract alone.
 
-**JEL codes:** [at least two] · **Keywords:** [3–5]
+**JEL codes:** [required; place at the end of the abstract] · **Keywords:** [optional — not required by QJE]
 
 ## 1. Introduction (the top-5 arc)
 

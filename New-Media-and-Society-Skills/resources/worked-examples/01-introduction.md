@@ -129,4 +129,4 @@ Mapped to the pack's skill checklists:
 > Next: see [`../exemplars/library.md`](../exemplars/library.md) for **real, web-verified NM&S papers**
 > whose introductions execute this arc across methods. Cross-cutting method craft for the
 > computational/quantitative strand (venue-neutral) lives in the shared hub, e.g.
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

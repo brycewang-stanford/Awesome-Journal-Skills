@@ -8,9 +8,10 @@ description: Use when auditing an IEEE VIS full-paper submission for PCS readine
 Run this audit before uploading to the **Precision Conference System (PCS)**. IEEE VIS full papers
 are published as **journal articles in IEEE TVCG**, so the submission is judged at a journal bar
 even though it also earns a conference slot. Every number below was read from the IEEE VIS 2026
-Call for Full Papers and Paper Submission Guidelines on 2026-07-09 via search renderings of the
-`ieeevis.org` URLs (see `resources/official-source-map.md`); treat them as a one-cycle snapshot and
-reopen the live call first.
+Call for Full Papers and Paper Submission Guidelines, re-read directly on `ieeevis.org` on
+2026-11-24 (see `resources/official-source-map.md`). VIS 2026 has met and the IEEE VIS 2027
+(Chicago) call is not yet published, so treat these as the latest published snapshot and reopen the
+live call first.
 
 ## The two-deadline structure (abstract, then paper)
 
@@ -37,12 +38,17 @@ they determine your reviewers.
 
 ## Format and page budget
 
-- **IEEE VGTC / TVCG-conference template**, unmodified. This is the VGTC document class (LaTeX
-  template at `github.com/ieee-vgtc/vis-latex-submission-template`; a Typst port exists) — not
+- **IEEE VGTC / TVCG-conference template**, unmodified. This is the VGTC document class (the
+  journal template for special-issue TVCG papers, linked from `tc.computer.org/vgtc/publications/journal/`:
+  LaTeX at `github.com/ieeevgtc/tvcg-journal-latex`, plus Word and Typst versions; the older
+  `ieee-vgtc/vis-latex-submission-template` repo was archived in March 2026) — not
   `acmart`, and not a generic two-column IEEEtran habit carried from another IEEE venue.
 - **Page budget (verify per cycle):** **up to 9 pages of content** plus **up to 2 pages that
-  contain only references and acknowledgements** — the "9+2" budget. Figures, tables, and text all
-  count toward the 9; nothing decision-critical can hide in the reference pages.
+  contain only references, links to supplemental material, figure credits and acknowledgements** —
+  the "9+2" budget. Figures, tables, and text all count toward the 9; nothing decision-critical can
+  hide in the reference pages. More than 2 reference pages needs a justification and TVCG approval.
+- **Appendices (new in 2026):** may be appended to the main PDF *after* page 11 (not counted), or
+  uploaded separately; each submitted file is capped at **300 MB**.
 - Margins, font, and columns are fixed by the template; recover space by editorial compression, not
   by shrinking the template.
 
@@ -99,7 +105,35 @@ double-blind.
 - The abstract/paper/supplemental dates and the second-round timeline.
 - The page budget and which VGTC/TVCG template revision is required.
 - Whether double-blind is optional or mandatory this year, and the anonymization guidance.
-- Dual-submission wording and any generative-AI disclosure rule — all cycle-volatile.
+- Dual-submission wording and the generative-AI disclosure rule (2026: IEEE policy — disclose
+  AI-generated text, figures, images or code, name the system and the sections; editing/grammar use
+  exempt). The VSC's 2026 town hall flagged tentative 2027 AI-use guidelines and an optional
+  author-contribution-statement pilot — check the IEEE VIS 2027 call when it appears.
+- Human-participant studies: state IRB/ethics approval (or exemption) and informed consent; at
+  submission the statement may be anonymized. Not a desk-reject ground in 2026, but checked at
+  acceptance.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue vis-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

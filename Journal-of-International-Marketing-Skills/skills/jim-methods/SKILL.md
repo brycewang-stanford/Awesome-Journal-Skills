@@ -47,7 +47,7 @@ Code country context (dimension scores, development indicators) for every primar
 
 ## Execution bridge (StatsPAI / Stata MCP)
 
-For quasi-experimental and panel lanes, run the design checks rather than merely listing them. Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Typical JIM chain: `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` for the owed diagnostics — staggered-policy DiD via `callaway_santanna` plus `honest_did_from_result`, IV via `effective_f_test`, few-country clustering via `wild_cluster_bootstrap`. Invariance and multilevel execution details are in `jim-data-analysis`.
+For quasi-experimental and panel lanes, run the design checks rather than merely listing them. Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Typical JIM chain: `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` for the owed diagnostics — staggered-policy DiD via `callaway_santanna` plus `honest_did_from_result`, IV via `effective_f_test`, few-country clustering via `wild_cluster_bootstrap`. Invariance and multilevel execution details are in `jim-data-analysis`.
 
 ## Checklist
 

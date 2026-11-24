@@ -5,14 +5,14 @@ description: Use when turning an accepted CIKM paper into its ACM proceedings ve
 
 # CIKM Camera Ready
 
-CIKM 2026 notifies on August 7 and collects camera-ready on August 20 — a thirteen-day
-window (source map, 2026-07-08). Because CIKM publishes through ACM's Digital Library
+CIKM 2026 notified on August 7 and collected camera-ready on August 23 — a sixteen-day
+window that also closed author registration (source map, re-verified 2026-11-24). Because CIKM publishes through ACM's Digital Library
 (the CIKM '25 volume is DOI 10.1145/3746252), that window contains not just editing
 but ACM's production machinery: e-rights completion, then source upload through TAPS,
 whose validation rejects malformed LaTeX. Start the clock at notification, not when
 the camera-ready email arrives.
 
-## Thirteen-day sequence
+## Sixteen-day sequence
 
 | Day | Action |
 |---|---|
@@ -21,7 +21,7 @@ the camera-ready email arrives.
 | 3-5 | e-rights form completed by the designated author; copyright block generated |
 | 5-9 | TAPS-clean source: standard `acmart`, no forbidden packages, rights commands in place |
 | 9-11 | Metadata layer: CCS concepts, keywords, author ORCIDs, affiliations as they should appear forever |
-| 11-13 | Final validated PDF; artifact links live and public; buffer for TAPS rejects |
+| 11-16 | Final validated PDF; artifact links live and public; buffer for TAPS rejects; author registration done by the same deadline |
 
 ## De-anonymization is more than adding names
 
@@ -113,11 +113,15 @@ Teams that handle this transparently keep the baseline-citation afterlife
 
 ## Rome logistics strand (parallel, not sequential)
 
-Registration, visa lead time for Italy/Schengen, and presentation format
-(presenter-attendance and registration obligations for CIKM 2026 were not verifiable
-— 待核实, check the acceptance email) run in parallel with production. Assign the
-logistics strand to a different author than the TAPS strand; the thirteen days do
-not fit both jobs for one person.
+Registration, visa lead time for Italy/Schengen, and presentation format run in
+parallel with production. CIKM 2026 required at least one author to register by the
+August 23 author-registration deadline (listing the papers they present) and to
+present **in person** — no pre-recorded videos or remote talks, a proxy presenter only
+in exceptional circumstances, and unpresented papers risk removal from the
+proceedings. ACM is Open Access from 2026: check whether an author's institution is in
+ACM Open, otherwise budget the APC (2026 subsidy USD 250 for ACM/SIG members, USD 350
+for non-members) unless a waiver applies. Assign the logistics strand to a different
+author than the TAPS strand; the sixteen days do not fit both jobs for one person.
 
 ## Output format
 

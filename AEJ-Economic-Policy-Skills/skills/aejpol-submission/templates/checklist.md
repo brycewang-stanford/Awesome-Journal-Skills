@@ -1,9 +1,9 @@
 # AEJ: Economic Policy — Pre-Submission Self-Check
 
 An 8-section checklist to run before submitting to the *American Economic Journal: Economic Policy*
-via the AEA submission system. Pair with [`../SKILL.md`](../SKILL.md) and the
+via the AEA ScholarOne system. Pair with [`../SKILL.md`](../SKILL.md) and the
 [`../../../resources/official-source-map.md`](../../../resources/official-source-map.md).
-Volatile items (fee, codes, editors) — official AEA pages checked 2026-06-20; re-confirm at submission.
+Volatile items (fee, codes, editors) — official AEA pages re-verified 2026-11-24; re-confirm at submission.
 
 ## 1. Policy fit & contribution
 - [ ] A specific policy lever is named (instrument + who is affected)
@@ -35,16 +35,17 @@ Volatile items (fee, codes, editors) — official AEA pages checked 2026-06-20; 
 - [ ] Tables note sample, units, estimator, controls, clustering, N, dep-var mean
 - [ ] Figures show effects with uncertainty bands; readable in greyscale
 
-## 6. Front matter (single-blind)
-- [ ] Title, byline, and author affiliations on the first page (single-blind — do not anonymize)
-- [ ] Acknowledgement footnote: author emails, funding/grants, acknowledgments, IRB/pre-registration where applicable
+## 6. Front matter (author-anonymized submission)
+- [ ] Manuscript anonymized (AEA three-year RCT of author-anonymized review, launched fall 2026): title + abstract on page 1; no names, affiliations, or acknowledgement footnote
+- [ ] Self-citations by author name, never "my/our previous work"; no identifying study sites, IRB approvals, or personal-website links; online appendix anonymized
+- [ ] Separate "title page" PDF: authors, affiliations, contact information, acknowledgement footnote (funding/grants, acknowledgments, IRB/pre-registration where applicable)
 - [ ] Abstract is 100 words or fewer
 
 ## 7. Files, codes & declarations
-- [ ] Main manuscript with front matter + online appendix
-- [ ] JEL codes + keywords supplied on the form
+- [ ] Anonymized manuscript PDF (under 10 MB) + title-page PDF + anonymized online appendix
+- [ ] JEL codes + keywords supplied (customary; not stated as a rule on the current pages)
 - [ ] Data and Code Availability Statement drafted (public vs. restricted; sources cited)
-- [ ] AEA disclosure statement for every author (funding / interested parties)
+- [ ] AEA Disclosure Statement PDF for every author (funding / interested parties / IRB; incomplete submissions are not reviewed)
 - [ ] Submission fee ready / eligible category confirmed (verify current amount)
 - [ ] Not under review elsewhere; AI not listed as an author
 

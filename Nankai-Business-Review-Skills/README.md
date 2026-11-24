@@ -31,7 +31,7 @@ NBR imposes constraints that differ from economics / macro-policy journals (经�
 | Measurement | Reliability (α, CR) + validity (convergent/discriminant, AVE) + CMV test | Borrowed scales with no psychometrics fail review |
 | Method | Survey-SEM / experiment / multi-case — serves the theory | Causal-identification cleanliness is not the bar |
 | China context | Context must enter the theory | A China sample is not contextualization |
-| Abstract | 100–300 chars, 3–8 keywords, bilingual | Lead with the proposition, not background |
+| Abstract | Bilingual title/abstract; 3–6 keywords (abstract length not set by the official guide — ~300 chars is the usual practice) | Lead with the proposition, not background |
 
 ---
 

@@ -53,7 +53,7 @@ The defining feature of robustness at a rigor journal is that **honest fragility
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). IER is theory-forward and quantitative; the chain below serves its empirical lane — structural / quantitative estimation uses the field's own solvers.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). IER is theory-forward and quantitative; the chain below serves its empirical lane — structural / quantitative estimation uses the field's own solvers.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER, accounts for
   cross-test correlation) or `benjamini_hochberg` — report the adjusted threshold.

@@ -14,8 +14,8 @@ Default assumption: unless the user names a different venue, the manuscript targ
 ## REStud-specific anchors (carry these through every stage)
 
 - **Identity:** founded 1933, theory and applied weighted equally; home of the **REStud Tour** (former May Meetings, annual since 1989) for promising young economists — calibrate ambition to that bar.
-- **Submission:** **Editorial Express** portal, **USD 250 fee** (reduced **USD 150** if every author is a student / within 6 years of PhD / in a low-or-middle-income economy; rate effective 1 June 2026), **double-anonymous** review, **Harvard author-date** references, JEL codes, **~45-page** limit; editors desk-reject ~20–23% before refereeing.
-- **Replication:** the **Data Editor (Miklós Koren)** runs an **AEA DCAS** pre-publication reproducibility check; packages deposit at **Zenodo**.
+- **Submission:** **Editorial Express** portal, **USD 250 fee** (reduced **USD 150** if every author is a student / within 6 years of PhD / in a low-or-middle-income economy; rate effective 1 June 2026), title page with author names (no anonymization requested), **Harvard author-date** references, JEL codes, **~45-page** limit, **≤150-word** abstract, **≤30-page** Online Appendix; editors desk-reject ~20–23% before refereeing.
+- **Replication:** the **Data Editor (Andrea Moro, Vanderbilt)** runs a **DCAS** pre-publication reproducibility check; packages deposit at **Zenodo**.
 - **Editors (2026):** Joint Managing Editors include Jan De Loecker, Antonio Penta, Jakub Steiner (verify the full current roster).
 
 ## When to Use
@@ -39,7 +39,7 @@ Default assumption: unless the user names a different venue, the manuscript targ
 | Prose is bloated; abstract over length; contribution buried              | `restud-writing-style`         |
 | Preparing the data/code deposit or auditing reproducibility              | `restud-replication-package`   |
 | Want to anticipate who referees and what they will demand                | `restud-referee-strategy`      |
-| Final preflight before clicking submit (format, length, anonymity)       | `restud-submission`            |
+| Final preflight before clicking submit (format, length, title page)      | `restud-submission`            |
 | A referee report / R&R arrived and a response letter is needed           | `restud-rebuttal`              |
 
 ## Default Sequence
@@ -55,7 +55,7 @@ For a typical REStud-track manuscript, prefer this order:
 7. `restud-writing-style` — only now polish prose, abstract, and introduction
 8. `restud-replication-package` — assemble the deposit while results are fresh in code
 9. `restud-referee-strategy` — map the likely referee pool and pre-empt objections
-10. `restud-submission` — final preflight: length, anonymity, format, files
+10. `restud-submission` — final preflight: length, title page, format, files
 11. `restud-rebuttal` — after review, revise the manuscript first, then write the letter
 
 > `restud-identification` and `restud-theory-model` are **parallel branches**: empirical papers lean on the first, theory papers on the second, and many REStud papers (theory-with-empirics) need both. `restud-writing-style` is a **late polish** — do not run it before the contribution and design are stable.
@@ -90,7 +90,7 @@ If the paper is finance-specific (JF / JFE / RFS) or theory so abstract it is re
 
 - Polishing prose (`restud-writing-style`) before the identification or model is stable
 - Treating `restud-theory-model` as optional for an empirical paper that has a model — REStud referees check that the model's assumptions map to the empirics
-- Assembling the replication package only after acceptance — REStud's **Data Editor (Miklós Koren) runs an AEA DCAS reproducibility check before publication** (Zenodo deposit), so it is part of the production timeline, not an afterthought
+- Assembling the replication package only after acceptance — REStud's **Data Editor (Andrea Moro) runs a DCAS reproducibility check before publication** (Zenodo deposit), so it is part of the production timeline, not an afterthought
 - Writing the rebuttal against the old draft instead of the revised manuscript
 - Skipping `restud-referee-strategy` because "the design is obviously fine" — REStud referees are demanding and develop strong papers across rounds
 

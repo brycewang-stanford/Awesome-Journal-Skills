@@ -1,6 +1,6 @@
 ---
 name: nbr-submission
-description: Use for the pre-submission preflight to 《南开管理评论》 (Nankai Business Review) — checking abstract/keyword limits, manuscript length, bilingual title/abstract, reference style (GB/T 7714 plus the journal's 来稿规范说明), the online submission system at nbr.nankai.edu.cn, anonymity, and document hygiene. Use right before submitting; verify every rule against the journal's current 来稿规范说明.
+description: Use for the pre-submission preflight to 《南开管理评论》 (Nankai Business Review) — checking keyword limits (3–6), manuscript length (1.5–2万字), bilingual title/abstract, numbered reference style (≤60 refs, not Harvard), the required cover letter and CV attachments, the online submission system at nbr.nankai.edu.cn, anonymity, and document hygiene. Use right before submitting; verify every rule against the journal's current 来稿规范说明.
 ---
 
 # 投稿前 preflight（nbr-submission）
@@ -14,11 +14,14 @@ description: Use for the pre-submission preflight to 《南开管理评论》 (N
 
 - 投稿系统 / 官网：**https://nbr.nankai.edu.cn/**（在线投稿经官网入口）
 - 主管 / 主办：教育部主管；南开大学（商学院）主办
-- 摘要 **100–300 字**（多数指引建议 300 字左右）；关键词 **3–8 个**
-- 篇幅：以 **8–15 千字**为宜，一般不超过 **2 万字**
-- 配**中英文**标题 / 摘要（英文约 300 词，可不与中文严格对应）/ 关键词
-- 参考文献：正文内实引、文末对应；著录参照 **GB/T 7714** 及官网《来稿规范说明》
+- 关键词 **3–6 个**；中文标题**不超过 20 个字**；摘要字数官网未规定（常见约 300 字，经验值）
+- 篇幅：正文**以 1.5 万—2 万字为宜**
+- 配**中英文**标题 / 摘要 / 关键词（英文部分置于注释之后、附录之前）
+- 参考文献：限公开发表、**一般不超过 60 篇**、自引建议 ≤ 3；按文中出现先后**顺序编号 [1]**（不用哈佛著录法）；格式参考本刊已发表论文；注释用 ①
+- 附件：**投稿信**（写明主要研究方法、创新点、不足及局限）+ **作者学术简历**；案例论文另附一页「案例研究贡献说明」
+- 基金：只在系统中填写（≤ 3 个），**正文切勿出现基金名称**；Word 格式、图表可编辑
 - 一稿一投，勿重复投稿
+- （以上据官网「投稿指南」页，2026-11-24 复核）
 
 > 字数、篇幅、体例均**以官网公告栏最新《来稿规范说明》为准**。规则会变，投前务必复核，不要凭记忆。现行刊期（月刊/双月刊）以官网为准。
 
@@ -36,7 +39,7 @@ description: Use for the pre-submission preflight to 《南开管理评论》 (N
 再叙事"命题，廓清转型路径的边界条件。
 ```
 
-写完后自查：四要素能否在 100–300 字内各占一两句；英文摘要按同一骨架重写，而非逐句机翻。
+写完后自查：四要素能否在约 300 字内各占一两句（官网未规定摘要字数，此为经验值）；英文摘要按同一骨架重写，而非逐句机翻。
 
 ## 标题与小节惯例（校准锚）
 
@@ -47,14 +50,15 @@ description: Use for the pre-submission preflight to 《南开管理评论》 (N
 
 ## 体例 checklist
 
-- [ ] 中文标题（建议不超过 20 字）、作者与单位齐全
-- [ ] 摘要 100–300 字、关键词 3–8 个
+- [ ] 中文标题不超过 20 个字；作者与单位**不出现在正文**（系统填报）
+- [ ] 摘要约 300 字以内（经验值）、关键词 3–6 个
 - [ ] 中英文标题 / 摘要 / 关键词齐备（英文质量过关）
 - [ ] 结构顺序：标题→摘要→关键词→引言→正文→结论→参考文献→注释→英文部分→附录
-- [ ] 参考文献文中实引、标号对应、GB/T 7714 + 官网规范
+- [ ] 参考文献顺序编号 [1]、文中实引、标号对应、≤ 60 篇、自引 ≤ 3；格式对照本刊已发表论文
 - [ ] 图表规范、编号连续、有出处
-- [ ] 基金项目、作者简介按系统要求填写
-- [ ] 篇幅 8–15 千字（不超 2 万字）
+- [ ] 基金项目（≤ 3 个）只在系统中填写，正文无基金名称
+- [ ] 篇幅 1.5 万—2 万字
+- [ ] 投稿信（方法 / 创新点 / 不足与局限）与作者学术简历已作为附件备好；案例稿已附「案例研究贡献说明」
 
 ## 匿名评审 hygiene
 
@@ -74,7 +78,7 @@ description: Use for the pre-submission preflight to 《南开管理评论》 (N
 ## 反模式
 
 - 凭记忆套体例，不查官网最新《来稿规范说明》
-- 摘要超 300 字 / 关键词超 8 个 / 篇幅超 2 万字
+- 关键词超 6 个 / 篇幅超 2 万字 / 参考文献超 60 篇 / 中文标题超 20 字
 - 英文摘要机翻、质量差
 - 忘清匿名信息就投盲审
 
@@ -90,10 +94,32 @@ description: Use for the pre-submission preflight to 《南开管理评论》 (N
 ## 输出格式
 
 ```
-【体例】摘要 X 字 / 关键词 X 个｜中英对齐□ 参考文献 GB/T 7714□
-【篇幅】X 千字（≤ 2 万）
+【体例】摘要 X 字 / 关键词 X 个（3–6）｜中英对齐□ 参考文献顺序编号≤60□ 投稿信+简历□
+【篇幅】X 千字（1.5–2 万为宜）
 【匿名】已清理 / 待清理 <点>
 【系统】nbr.nankai.edu.cn 入口已确认
 【内容复核】缺口□ 假设机理□ 信效度CMV□ 分析□ 情境□ 讨论□
 【结论】可投 / 待修 <清单>
 ```
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue nankai-business-review-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

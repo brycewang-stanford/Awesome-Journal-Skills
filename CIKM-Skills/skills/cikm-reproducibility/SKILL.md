@@ -82,7 +82,7 @@ one that accumulates citations as a baseline.
 Anonymized review artifact during submission (see `cikm-supplementary` for what the
 budget permits); public repository at camera-ready, with license, versioned release
 tag, and the exact commit that produced the proceedings numbers. The 2026
-notification-to-camera-ready window is thirteen days — build the release *during*
+notification-to-camera-ready window is sixteen days (2026) — build the release *during*
 the review wait (`cikm-workflow` Mode A), not inside that window.
 
 ## Honest-failure disclosure

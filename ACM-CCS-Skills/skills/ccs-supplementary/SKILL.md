@@ -14,8 +14,11 @@ committee is not obligated to read them.
 - Put formal proofs, full protocol transcripts, extra measurements, and additional evaluation
   tables in well-marked appendices after the bibliography.
 - Place the ethics considerations content where the CFP directs it. CCS 2026 required a
-  dedicated ethics section as an appendix after the 12-page body and the bibliography for work
-  touching human subjects, user data, or real-world vulnerabilities.
+  dedicated "Ethical Considerations" appendix after the 12-page body and the bibliography for
+  work touching human subjects, user data, or real-world vulnerabilities.
+- Include the mandatory "Open Science" appendix (CCS 2026): every artifact needed to evaluate
+  the contributions, with its anonymous URL, or a justified statement that it cannot be shared
+  or does not exist. Neither appendix counts toward the 12 pages.
 - Keep every supplementary file double-blind: no authors, institutions, acknowledgements,
   private paths, repository owners, or identifying metadata, including in code and datasets.
 - Do not hide the core threat model, the main attack description, the headline defense, or the

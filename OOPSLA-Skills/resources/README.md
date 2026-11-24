@@ -37,6 +37,6 @@ wins inside the pack, and the live official page wins over both.
 ## Scope guard
 
 This pack serves the OOPSLA research-paper track only. Onward! Papers, Onward! Essays,
-posters, workshops, and the co-located ISSTA program at SPLASH 2026 have their own calls and
+posters, workshops, and co-located programs at SPLASH (ISSTA in 2026; MPLR and SAS in 2027) have their own calls and
 their own bars — route to their pages via [`external_tools.md`](external_tools.md) rather
 than stretching these skills to cover them.

@@ -15,13 +15,13 @@ description: Use when running the final pre-submission preflight for Research Po
 ## Process facts (source map refreshed 2026-06，editor/fee 项再核实于 2026-06-22；以官网为准)
 
 - RP is **Elsevier's** flagship innovation-studies journal (Print ISSN 0048-7333); manuscripts go through the **Elsevier online submission system** (Editorial Manager), which assembles a single PDF for review; editable source files (Word/LaTeX) are required at acceptance for typesetting.
-- **Review model: double-blind** — the manuscript must be anonymized; author identities are concealed from referees and vice versa (检索于 2026-06；以官网为准).
-- **Article types & length:** full articles ~**8,000–10,000 words** including footnotes, references, and text in tables; **Research Notes** ~**3,000–5,000 words** (not a faster, lighter article — a Note requires a cover letter explaining its rationale, contribution, and why the Note format) (检索于 2026-06；以官网为准).
+- **Review model: double-blind** — upload author names and affiliations on a separate title page; the manuscript must be anonymized; author identities are concealed from referees and vice versa (re-verified 2026-11-24).
+- **Article types & length:** full articles ~**8,000–10,000 words** including footnotes, references, and text in tables; **Research Notes** ~**3,000–5,000 words** (not a faster, lighter article — a Note requires a cover letter explaining its rationale, contribution, and why the Note format) (re-verified 2026-11-24).
 - **Scope desk-screen:** a paper whose literature is "almost entirely economics or management journals" is likely desk-rejected as out of scope; the cover letter and references must show innovation-studies (SPRU-tradition) grounding (检索于 2026-06；以官网为准).
 - **Data & code:** include a data (and, where relevant, code) availability statement; verify the exact policy and any mandatory statement wording on the guide for authors (待核实).
-- **Editorial routing:** RP runs a **distributed editorial team (no single Editor-in-Chief)**; **Maria Savona** (SPRU / Luiss) is the **Coordinating Editor** (verified 2026-06-22). Address the cover letter to the journal and name the *innovation-studies area* so it routes to the right handling editor, rather than to one person by name.
-- **Fees:** publishing via the **subscription route carries no APC and no submission fee**; the optional gold **open-access APC is reported around USD 3,700 for 2026** (verified 2026-06-22; Elsevier shows a personalized APC by country/affiliation, so confirm the exact figure live). There is no society-style per-submission fee.
-- Exact current abstract word limit and keyword/JEL requirements: 待核实 — confirm on the live guide for authors before submitting.
+- **Editorial routing:** RP runs a **distributed editorial team (no single Editor-in-Chief)**; **Maria Savona** (SPRU / Luiss) is the **Coordinating Editor** (verified 2026-06-22; on 2026-11-24 the board page still lists her under Editors, title 待核实). Address the cover letter to the journal and name the *innovation-studies area* so it routes to the right handling editor, rather than to one person by name.
+- **Fees:** publishing via the **subscription route carries no APC and no submission fee**; the optional gold **open-access APC is USD 4,500 excluding taxes** on the journal home (re-verified 2026-11-24; Elsevier shows a personalized APC by country/affiliation, so confirm the exact figure live). There is no society-style per-submission fee.
+- **Front matter (re-verified 2026-11-24):** abstract ≤ **250 words**; **1 to 7 keywords**; **highlights required at submission** (3 to 5 bullets, ≤ 85 characters each, separate editable file); a generative-AI declaration section if AI was used. Whether JEL codes are still requested is 待核实.
 
 ## Preflight checklist
 
@@ -31,9 +31,9 @@ description: Use when running the final pre-submission preflight for Research Po
 - [ ] The cover letter names the innovation-studies contribution and the suggested handling-editor area
 
 ### Format & anonymization
-- [ ] Length within the article-type limit (full ~8–10k incl. notes/refs/tables; Note ~3–5k) — 待核实 exact figure on the guide
+- [ ] Length within the article-type limit (full up to 8–10k incl. notes/refs/tables; Note ~3–5k)
 - [ ] Manuscript fully **anonymized** for double-blind review (no author names, acknowledgements, self-citations that reveal identity, or identifying file metadata)
-- [ ] Abstract within the journal's limit; keywords (and JEL if requested) present — 待核实
+- [ ] Abstract ≤ 250 words; 1–7 keywords (JEL if the form requests them — 待核实); highlights file (3–5 bullets, ≤ 85 characters) uploaded
 - [ ] Tables and figures legible, numbered, with self-contained notes; reference style per the Elsevier guide
 - [ ] Editable source files (Word/LaTeX) ready for the acceptance stage
 
@@ -46,10 +46,32 @@ description: Use when running the final pre-submission preflight for Research Po
 
 | | Full article | Research Note |
 |---|---|---|
-| Length (待核实 exact) | ~8,000–10,000 words incl. notes/refs/tables | ~3,000–5,000 words |
+| Length | up to 8,000–10,000 words incl. notes/refs/tables | ~3,000–5,000 words |
 | Best for | a developed mechanism + full evidence and robustness | a focused, complete contribution (a finding, a measurement, a replication-with-twist) |
 | Cover letter | states the innovation-studies contribution | **must additionally justify the Note format** — RP stresses a Note is *not* a faster/lighter article |
 | Common mistake | padding a Note-sized idea into a thin full article | submitting an underdeveloped full article as a "Note" to dodge rigor |
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue research-policy-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

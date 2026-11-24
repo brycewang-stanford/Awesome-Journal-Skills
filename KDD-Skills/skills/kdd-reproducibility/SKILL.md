@@ -5,7 +5,7 @@ description: Use when hardening the reproducibility story of a KDD paper, where 
 
 # KDD Reproducibility
 
-Use this before the paper freezes. The KDD 2026 CFP lists **reproducibility of
+Use this before the paper freezes. The KDD 2027 Research Track CFP (like 2026's) lists **reproducibility of
 results** among the factors area chairs weigh in acceptance recommendations — at this
 venue it is a scored dimension, not a virtue. The bar is shaped by what KDD papers
 claim: pipelines over large, messy, sometimes proprietary data, where the reader must

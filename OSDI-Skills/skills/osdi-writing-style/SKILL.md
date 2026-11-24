@@ -1,14 +1,15 @@
 ---
 name: osdi-writing-style
-description: Use when drafting or revising an OSDI paper's prose and structure — building the pain → abstraction → mechanism → measurement narrative, fitting it into the 12-page reviewed body with no appendix escape hatch, and writing for a PC told to down-rank padded papers and given no rebuttal to clarify with.
+description: Use when drafting or revising an OSDI paper's prose and structure — building the pain → abstraction → mechanism → measurement narrative, fitting it into the 12-page reviewed body with no appendix escape hatch (supplementary files are optional reading), front-loading the first two pages for OSDI '27's possible early review round, avoiding padding, and writing for a PC given no rebuttal to clarify with.
 ---
 
 # OSDI Writing Style
 
-Shape the paper the way OSDI reviewers read. Format numbers below are the OSDI '26
+Shape the paper the way OSDI reviewers read. Format numbers below are the OSDI '27
 rules (12 reviewed pages including figures and tables, unlimited references, no
-appendices at submission — verified 2026-07-08); recheck the live CFP before trusting
-any of them for a later cycle.
+appendices in the PDF, optional separate supplementary files that PC members need not
+read — re-verified 2026-11-24); recheck the live CFP before trusting any of them for a
+later cycle.
 
 ## The narrative arc
 
@@ -37,21 +38,28 @@ it for real.
 
 ## Writing under the 12-page regime
 
-Two 2026 rules jointly define the discipline:
+Three rules jointly define the discipline:
 
-- **No appendices in the submission.** References are unlimited, but everything
-  reviewers may weigh lives in the 12 pages. There is no "details in Appendix B"
-  move — either the detail earns body space or the paper must be convincing without
-  it.
-- **Padding is penalized, not just wasted.** The CFP tells authors the paper should
-  be "the right length," possibly under 12 pages, and tells reviewers to down-rank
-  overly padded papers. Twelve pages is a cap, not a target.
+- **No appendices in the submission PDF.** References are unlimited, but everything
+  reviewers may weigh lives in the 12 pages. OSDI '27 allows supplementary material in
+  separate files, but PC members are not required to read it — so there is still no
+  "details in Appendix B" move: either the detail earns body space or the paper must be
+  convincing without it.
+- **The first two pages may be all a reviewer reads.** If submission volume requires,
+  OSDI '27 runs an early review round in which reviewers read at least the first two
+  pages and vote on whether the paper is in scope, understandable, and likely to make a
+  significant contribution.
+- **Padding is penalized, not just wasted.** The OSDI '26 CFP told authors the paper
+  should be "the right length," possibly under 12 pages, and told reviewers to down-rank
+  overly padded papers; the '27 CFP does not repeat the wording, but twelve pages is
+  still a cap, not a target.
 
 Practical consequences:
 
-| Draft habit | Under OSDI '26 rules | Replacement |
+| Draft habit | Under OSDI '27 rules | Replacement |
 |---|---|---|
-| "See appendix for proof/protocol" | Nothing to point at | Compress the invariant into the body or cut the claim |
+| "See appendix for proof/protocol" | No appendix; a supplement reviewers may skip | Compress the invariant into the body; full proof to the supplementary file |
+| Contribution revealed on page 4 | Possible early-round exit | State problem, idea and evidence by page 2 |
 | Restating results in intro, design, and eval | Down-rank bait | Say each result once, where it lands hardest |
 | Screenshot-quality figure walls | Page cost without argument | One figure per claim; captions that state the takeaway |
 | Ten-line contribution bullet lists | First-page budget burned | Three claims a reviewer can test |
@@ -71,15 +79,18 @@ Practical consequences:
 - **No unresolved forward references.** With no rebuttal, a reviewer confused on page
   4 stays confused into the PC meeting.
 
-## Mechanical format anchors (2026 cycle)
+## Mechanical format anchors (OSDI '27 cycle)
 
 ```text
 Body:        <= 12 pages, single-spaced, 8.5" x 11", incl. figures & tables
 References:  unlimited pages, excluded from the 12
-Appendices:  NOT permitted in the submission (final papers: allowed, 14pp body)
+Appendices:  NOT permitted in the submission PDF; supplementary files separate
+             (final papers: 14pp body + refs; appendix rules 待核实 for '27)
 Type:        10-point Times-like font on 12-point leading
 Layout:      two columns, text block 7" wide x 9" deep
+Pages:       numbered; figures legible in black and white
 Anonymity:   authors AND institutions anonymized (see osdi-submission)
+Track:       Operational Systems titles end with "(Operational Systems)"
 ```
 
 Use the current USENIX template unmodified. Space is recovered by cutting argument

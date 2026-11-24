@@ -1,6 +1,6 @@
 ---
 name: fse-review-process
-description: Use when reasoning about how an ESEC/FSE research submission is evaluated, covering double-anonymous "heavy" review, the at-least-three-reviewer PC model, the Accept / Major Revision / Reject decision categories, the journal-style revise-and-resubmit round of PACMSE, and how FSE's process differs from ICSE's cycles and ISSTA's rounds.
+description: Use when reasoning about how an ESEC/FSE research submission is evaluated, covering double-anonymous "heavy" review, the PC model with early rejection, the Accept / Major Revision / Reject decision categories, the journal-style revise-and-resubmit round of PACMSE, and how FSE's process differs from ICSE's cycles and ISSTA's rounds.
 ---
 
 # FSE Review Process
@@ -15,11 +15,15 @@ journal R&R than to a rebuttal.
 
 - Submission and review run on **HotCRP** with **heavy double-anonymity**: identities are hidden
   through all reviewing *and* discussion, and any Major Revision response must itself be anonymous.
-- Each paper is read by **at least three** program-committee members (FSE 2027 call), who weigh
-  the significance of the SE contribution, soundness of the method, quality and honesty of the
+- Each paper is reviewed by the program committee — normally three reviewers, but the FSE 2027 call
+  adds **early rejection**: when the available reviews are consistently negative, a paper may be
+  rejected before all planned reviews are in, so it may get fewer than three (FSE 2026 promised at
+  least three). Reviewers weigh originality, importance, the significance of the SE contribution, soundness of the method, quality and honesty of the
   empirical evidence, threats-to-validity reasoning, clarity, and open-science support.
 - First decisions fall into **Accept**, **Major Revision**, or **Reject**. A Major Revision is
-  re-reviewed — generally by the original reviewers — against the revision and its response letter.
+  re-reviewed by the same reviewers who requested it, against the revision (≤20 + 4 pages) and its
+  anonymous response letter (FSE 2027: initial notification 22 Jan 2027, revision due 5 Mar 2027,
+  final notification 31 Mar 2027).
 - Accepted papers publish in **PACMSE**, so final metadata, camera-ready compliance, and artifact
   follow-through matter as much as the initial verdict.
 
@@ -50,7 +54,7 @@ study design you cannot redo in weeks). The process is built to reward repairabl
 
 ## Who reads you
 
-Expect three SE-empiricist reviewers. They look for the threats-to-validity section, check whether
+Expect up to three SE-empiricist reviewers, with an area chair overseeing the subarea. They look for the threats-to-validity section, check whether
 claims outrun evidence, ask whether subjects and baselines are real and fair, and often open the
 artifact. Because FSE spans techniques, empirical studies, and human factors, a paper is usually
 matched to reviewers from its own subarea — vague method descriptions get caught, not skimmed.

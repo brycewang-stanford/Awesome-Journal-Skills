@@ -9,6 +9,132 @@ project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.2.0] — 2026-11-23
+
+**The pre-submission release.** The repository already covered most venues an author
+might target, but its pre-submission skills were protocols for a model to follow from
+memory: nothing read the manuscript, venue rules were prose, and the shared resources
+those skills linked to did not exist after `/plugin install`. This release turns them
+into a pipeline that runs on the author's file. It also measures the pipeline on a
+seeded-defect benchmark and publishes the misses.
+
+### Added — pre-submission polishing
+
+- **`tools/preflight.py`**, a deterministic stage 0 that reads `.tex`, `.md`, `.docx`
+  and `.pdf` manuscripts. It checks abstract, word, page and title limits (hard, or
+  FLAG-only where the venue words a limit as guidance). It checks double-blind
+  anonymization: author block, emails, first-person self-citation in English and
+  Chinese, acknowledgments and grant numbers, non-anonymous code links, and PDF/Word
+  metadata. It confirms every venue-required statement, and checks citations against
+  references (LaTeX keys and `.bib`/`.bbl`, author-year in English and Chinese, numeric),
+  with an optional Crossref existence check. It checks exhibit numbering (Arabic and
+  Roman), cross-references and standard-error notes. It traces abstract and introduction
+  numbers to the tables, and flags placeholders, tracked changes and Word comments.
+  Every finding carries a location and the pack skill that owns the fix. Rules the
+  venue does not state are reported as *not checked*, never passed.
+  - **Re-runs:** `--compare previous.json` turns a re-run into a diff of resolved,
+    still-open and new findings (stage 5).
+  - **Reference cap:** `references_max` is enforced.
+  - **Word:** heading styles are resolved through `styles.xml`, so Chinese-locale Word
+    files work.
+  - **PDF:** two-column papers are detected from their gutter and extracted in stream
+    order. The PDF reader also handles AMA/Vancouver and corporate-author references,
+    Chinese headings and references, URLs and table notes broken across lines, and a
+    missing citation rendered as "(?)".
+- **Machine-readable venue rules.** A `ajs-preflight-rules/1` JSON block at the end of
+  each pack's `official-source-map.md` is compiled into
+  `shared-resources/submission-readiness/venue-rules.json` by `tools/venue_rules.py`.
+  `--check` fails when a block disagrees with its own prose: a number absent from the
+  prose, an uncited source, or a different verification date. **163 venue packs** (2086
+  rules) were re-verified against their official pages and received blocks: 46 on
+  2026-11-23 and 117 on 2026-11-24. They cover economics, finance and econometrics
+  (flagships and field journals), management, marketing, accounting, IS/OM, psychology,
+  sociology and political science, 59 CS/AI conferences, the science and medicine
+  flagships, and twelve Chinese journals.
+- **Pipeline documents:** `review-forms.md` gives the review form each venue family
+  actually uses, read from the official NeurIPS and ARR pages and CONSORT 2025,
+  SPIRIT 2025 and PRISMA 2020. `prose-polish.md` covers the claim-to-evidence audit,
+  the first-page test and house style. `cover-letter-and-disclosures.md` covers when
+  a venue wants a cover letter and how to draft each statement from facts the author
+  supplies.
+- **Seeded-defect benchmark:** six synthetic manuscripts across six venue families,
+  each with 12 planted defects and a clean twin, in `tools/tests/fixtures/manuscripts/`.
+  It is asserted in CI for preflight and measured by hand for the panel; results are in
+  `showcase/presubmission-benchmark/`.
+  - **Formats:** preflight catches 45/47 with zero false alarms on clean controls as
+    source, as PDF (single- and two-column) and as Word.
+  - **Panel:** the inline panel keeps 23/24 planted substantive flaws as major. Two
+    targeted multi-agent runs caught its one miss, but raised more concerns on a clean
+    paper.
+  - **Fixture v2:** fixes the genuine errors the panel found in three "clean" fixtures.
+- **`tools/vendor_shared.py`:** every shared bundle a pack links to is copied into
+  `<Pack>/resources/shared/`, byte-identical across packs and checked in CI. The
+  Research Toolkit also carries `resources/preflight/`, with preflight and the compiled
+  rules.
+- **Weekly live-check**, activated from the copy staged since July. It now targets the
+  official pages behind the rules blocks (`live_check_fetch.py --from-rules`).
+
+### Changed
+
+- **`rt-submission-readiness` is now the single pre-submission entry point.** It runs
+  preflight → scorecard → referee panel → polish → cover letter and statements →
+  re-run diff.
+- **`rt-simulated-referee`:** referees fill the venue family's real review form and run
+  as independent subagents, and a separate verifier drops unfair concerns.
+- **Every depth pack's `*-submission` skill points to the preflight.**
+- `rt-desk-reject-risk` takes preflight FAILs as its evidence for format triggers.
+- `rt-journal-match` and `rt-ladder-ev` find the repository data in the marketplace
+  clone after an install.
+- Both READMEs lead with the pre-submission workflow.
+
+### Fixed
+
+- **Installed packs had dead links.** `claude plugin install` copies only the plugin
+  directory, so every skill link into `shared-resources/` was dead for installed users
+  (489 links to the execution manual alone). This was confirmed with a clean install in
+  an isolated config directory.
+- **CI had been red on every weekly run since 2026-10-12.** The quality tripwire read
+  the backlog score, which loses currency points every day, so a pack aged past the
+  floor with no commit. The tripwire now reads the date-independent `static_score`.
+- **Stale or wrong venue facts corrected during re-verification:**
+  - Editors-in-chief of 《经济研究》, 《中国工业经济》 and 《世界经济》.
+  - AER: Insights editor and its anonymized-review trial; AEJ: Applied likewise
+    requires anonymized submissions.
+  - AEJ: Applied forbids significance stars; the pack had said they were allowed.
+  - QJE abstract limit (250 words) and review mode; REStud and Econometrica review mode.
+  - JPE portal: Editorial Manager.
+  - RFS data-and-code policy and fees.
+  - 《世界经济》 limits had been taken from a different journal's page.
+  - ICML, IJCAI, KDD, ACL, COLT, AISTATS, ICSME, IMC, CVPR, NAACL, SIGIR and DAC
+    moved to their 2027 editions. DAC 2027 switched to IEEE templates, which settles
+    an ACM/IEEE conflict the map had flagged.
+  - 9 dead citations repaired, plus IMC's dead link.
+  - Second-tranche corrections, for example:
+    - JAE's submission portal pointed at a different journal;
+    - 《经济学(季刊)》 does charge submission and review fees;
+    - 《南开管理评论》 keyword and length limits;
+    - MISQ page limits, and JOM's 11-point font rule;
+    - the PRL word-count scope and APC;
+    - three AEJs now require anonymized submissions;
+    - mastheads at Review of Finance, JFQA, JDE, Journal of Econometrics, M&SOM, JAR
+      and AMR.
+  - Third-tranche corrections, for example:
+    - MobiSys is single-blind (the pack told authors to anonymize);
+    - IEEE S&P has no Revise outcome; SIGCOMM 2027 drops rebuttals; ICDE has no
+      revisions; SIGGRAPH is double-blind;
+    - Journal of Management forbids significance stars and first-round supplements;
+    - Human Relations excludes exhibits from its word cap;
+    - Psychological Review is open review by default; Developmental Psychology and
+      JAP require masking;
+    - JFM's editors were wrong;
+    - USENIX ATC continues as the ACM SIGOPS ATC.
+    - 27 more conferences moved to their next edition, among them ICSE 2028, SIGMOD
+      2028, OSDI '27, RSS 2027 (extended abstracts due 2026-12-04), Interspeech 2027,
+      CSCW 2027 and FAccT 2027.
+
+### Earlier in this release (2026-08 → 2026-09)
+
+
 Two of the repository's own instruments had stopped working, and neither said so. The
 quality scorecard reported a mean of 99.2/100 while measuring almost nothing; the
 abstract harvester recorded "no such paper" for papers an API had merely refused to

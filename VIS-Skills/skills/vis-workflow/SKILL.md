@@ -12,8 +12,8 @@ full-paper deadline and locks your author list. VIS publishes in **IEEE TVCG**, 
 
 VIS is a conference whose full papers are journal articles: the **conference** has no standing
 editor-in-chief, and the rotating analogue is the per-edition VIS Executive Committee, Overall Paper
-Chairs, and the six Area Paper Chairs (verify the roster on the current organizing page — **待核实**
-beyond named chairs). The cost model is conference registration; at least one author presents.
+Chairs, and the six areas' Area Paper Chairs (VIS 2026 OPCs: Melanie Tory, Tobias Isenberg, Alex
+Endert; the full APC roster is on the 2026 conference-committee page — re-check it for VIS 2027). The cost model is conference registration; at least one author presents.
 
 ## Milestones
 

@@ -4,10 +4,11 @@
 Information Retrieval）** 投稿的 12 个 agent skills。SIGIR 是搜索、排序、推荐与检索
 评价方向的旗舰会议，本包围绕四个使 SIGIR 策略不同于一般 ML 会议经验的结构性事实来组织：
 
-1. **多轨道投稿体系，而非单一 CFP。** SIGIR 2026 设有 Full、Short、Perspectives、
-   Resources、Reproducibility、Industry、Low Resource Environments 等轨道，规则分散在
-   各轨道页面；Resources 轨道甚至采用**单盲**评审。把贡献路由到正确轨道是第一优先决策。
-2. **没有附录逃生舱。** 长文 9 页、短文 4 页，仅参考文献不计页——附录计入正文页数，
+1. **多轨道投稿体系，而非单一 CFP。** SIGIR 2027 设有 Full、Short、Resource、
+   Reproducibility and Replicability、Demonstration、Perspectives、SIRIP/industry、
+   tutorial、workshop、Doctoral Colloquium 等轨道，规则分散在各轨道页面；Resource 与
+   Demonstration 轨道采用**单盲**评审。把贡献路由到正确轨道是第一优先决策。
+2. **没有附录逃生舱。** 长文 9 页（2027 短文页数尚未公布；2026 为 4 页），仅参考文献不计页——附录计入正文页数，
    放不下的内容只能进论文引用的代码仓库，或者删掉。
 3. **TREC 血统的评价文化。** 审稿人先审 protocol 再看创新性：测试集选择、baseline 调参
    对称性、指标 cutoff 纪律、逐 topic 配对显著性检验；"significantly" 在 IR 写作中是
@@ -15,30 +16,31 @@ Information Retrieval）** 投稿的 12 个 agent skills。SIGIR 是搜索、排
 4. **ACM 出版管线。** 录用论文经 e-rights 与 TAPS 进入 ACM Digital Library
    （SIGIR 2025 卷：DOI 10.1145/3726302），CCS concepts 与元数据会伴随论文终身。
 
-官方依据核验日期：**2026-07-08**。已核验：SIGIR 2026 官网（第 49 届，2026 年 7 月
-20-24 日，澳大利亚墨尔本 | Naarm）、各轨道投稿页面与跨轨道政策页、SIGIR OpenReview
-venue groups、ACM DL proceedings 记录、sigir.org，以及作为上一周期锚点的 SIGIR 2025
-CFP。精确来源（含访问方式披露：部分官方域名只能通过搜索渲染核验）与全部 待核实 条目见
+官方依据于 **2026-11-24 重新核验**：SIGIR 2027 官网（第 50 届，2027 年 7 月 19-24 日，
+美国加州圣何塞）的首页、轨道总览、Full Paper / Resource / Reproducibility and
+Replicability / Perspectives / Demonstration 征稿页与组委会页面；2026-07-08 核验的
+SIGIR 2026（墨尔本）页面作为历史保留。精确来源与全部 待核实 条目见
 [`resources/official-source-map.md`](resources/official-source-map.md)。
 
-## 已核验的 2026 周期锚点
+## 已核验的 SIGIR 2027 锚点
 
-| 事实 | 2026 取值 | 变动性 |
+| 事实 | SIGIR 2027 取值 | 变动性 |
 |---|---|---|
-| 届次 | 第 49 届，2026-07-20 至 24，墨尔本 \| Naarm | 每届 |
-| 长文 | ≤ 9 页（参考文献除外；附录计入页数）；双盲 | 每周期 |
-| 短文 | ≤ 4 页（参考文献除外）；独立 OpenReview group | 每周期 |
-| Resources 轨道 | ≤ 6 页 + 参考文献；**单盲**；摘要 2/5 → 通知 4/2 → camera-ready 4/29 | 每周期 |
-| Reproducibility | 2026 起独立成轨（从原合并轨道拆出） | 每周期 |
-| 模板 | ACM Primary Article Template（LaTeX `sigconf` / Word Interim） | 每周期 |
-| PC 义务 | 长文每篇需提名一位作者进入 PC | 每周期 |
-| 平台 | OpenReview，按轨道分 group | 每周期 |
-| 政策 | ACM 署名与 AI 使用披露；一稿多投直接拒；跨轨道重复投稿禁止 | 每周期 |
+| 届次 | 第 50 届，2027-07-19 至 24，美国加州圣何塞（线下；签证受阻者可申请天津卫星会场） | 每届 |
+| 长文 | ≤ 9 页（参考文献除外；附录计入页数）；双盲；评审阶段即须 CCS concepts 与关键词；录用后 +1 页 | 每周期 |
+| 长文日期 | 摘要 1/14 → 全文 1/21 → 通知 4/5 → camera-ready 与作者注册 4/30（2027，AoE） | 每周期 |
+| 短文 | 征稿 TBA（2026 为 ≤ 4 页，参考文献除外） | 每周期 |
+| Resource 轨道 | ≤ 6 页 + 参考文献；**单盲**；EasyChair；摘要 2/4 → 全文 2/11 → 通知 4/5；无 rebuttal | 每周期 |
+| Reproducibility and Replicability | 更名后的轨道；≤ 9 页 + 参考文献；双盲；日期同 Resource | 每周期 |
+| 模板 | ACM `sigconf`（长文用 `anonymous=true`）/ Word Interim | 每周期 |
+| 审稿义务 | 每篇投稿指定一位作者担任审稿人（不同投稿须不同作者） | 每周期 |
+| 平台 | 长文 OpenReview；Resource、R&R、Perspectives 用 EasyChair | 每周期 |
+| 政策 | ACM 署名与 AI 政策；摘要截止后作者名单冻结；禁止并行投稿（含 SIGIR 其他轨道）；代码链接须匿名；新设 Integrity and Robustness 主席 | 每周期 |
+| 主席 | 大会主席 Yi Zhang、Yi Fang、Chenyan Xiong；程序主席 Mounia Lalmas、Qiaozhu Mei、Mark Sanderson | 每届 |
 | 出版 | ACM DL，经 e-rights + TAPS | 每年 |
 
-2026 长短文的精确截稿日（第三方 tracker 报告摘要 1/15、全文 1/22 AoE，与 2025 模式
-一致）、rebuttal 机制、camera-ready 页数、主席名单与费用等均无法在线核实，已在来源图中
-标注 待核实，不作断言。
+短文与 SIRIP/industry 征稿、SIGIR 2027 预印本/匿名政策、长文是否有 rebuttal、费用等在
+2026-11-24 尚未公布，已在来源图中标注 待核实，不作断言。
 
 ## Skills 一览
 
@@ -117,7 +119,7 @@ CFP。精确来源（含访问方式披露：部分官方域名只能通过搜�
 3. **裸用 "significantly"**：没有配对检验与多重比较校正就使用该词，是这个社区
    最容易识别的信誉漏洞。
 4. **baseline 调参不对称**：SIGIR 最常见的致命审稿意见；调参预算要对称并写进论文。
-5. **数据集与方法论文跨轨道双投**：2026 政策明令禁止，投稿前先分配好每个贡献的归属。
+5. **数据集与方法论文跨轨道双投**：2026 政策明令禁止，2027 征稿（Resource 页）同样禁止，投稿前先分配好每个贡献的归属。
 6. **忘记 PC 提名义务**：长文每篇需提名一位作者进 PC，临截稿再找人选是自造危机。
 
 ## 安装
@@ -134,8 +136,8 @@ claude plugin install sigir-skills
 
 - 本包提供投稿策略、结构与证据建议，不是 CFP 本身：任何与当届轨道页面冲突之处，
   以官方页面为准。
-- 所有具体事实核验于 2026-07-08，且按"周期锚点"措辞。SIGIR 在 2025→2026 之间就重组过
-  轨道（Resource & Reproducibility 拆分），未来同样可能变化。
+- 所有具体事实核验于 2026-11-24（SIGIR 2027），且按"周期锚点"措辞。SIGIR 在 2025→2026
+  之间重组过轨道（Resource & Reproducibility 拆分），2027 又将后者更名，未来同样可能变化。
 - 标注 待核实 的条目（截稿日、rebuttal、费用、主席、camera-ready 页数）在向作者陈述
   之前必须在线核实。
 - 包内文字不应粘贴进论文；worked example 是刻意虚构的，exemplar library 记录的是
@@ -146,4 +148,4 @@ claude plugin install sigir-skills
 - 给出任何 deadline 敏感建议前，重开**对应轨道**页面而非记忆中的"SIGIR CFP"。
 - 每届会后更新：届次/城市、轨道阵容、页数预算、各轨道匿名制度、OpenReview group id、
   ACM Open 状态说明。
-- SIGIR 2027 是第 50 届、按轮换规则在美洲举办——周年届往往有额外变动，逐项重验。
+- SIGIR 2027 是第 50 届（圣何塞，按轮换规则属美洲年），已调整主题领域、轨道名称与投稿平台——逐项重验；SIGIR 2028 征稿发布后再迁移本包。

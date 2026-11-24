@@ -19,7 +19,7 @@ effort where it changes outcomes. Stage dates below are the published 2026 pipel
 | Author response | Apr 23 – May 2 | Authors | High on misreadings; low on true weaknesses |
 | Reviewer–AC discussion | May 2–8 | Reviewers + ACs | Only via the response already filed |
 | Notification | Jun 1 | Program Chairs | None |
-| Camera-ready | Jul 27 | Authors | Presentation of accepted content |
+| Camera-ready | Jul 8 | Authors | Presentation of accepted content |
 | Conference | Aug 17–21 | Everyone | Talks, posters, corridor conversations — reputation, not decision |
 
 Note the gaps: reviews are written weeks before authors see them, and the decisive
@@ -117,9 +117,11 @@ outperform any generic advice about "what UAI wants".
 - The AUAI code of conduct covers the review ecosystem, official communication
   channels, and social media, and names fabrication, falsification, and plagiarism as
   misconduct.
-- LLM-use policy for authors or reviewers was not published for 2026 (待核实); where a
-  cycle is silent, default to the confidentiality rule — no feeding others' submissions
-  or reviews into external services.
+- UAI 2026's LLM policy (re-verified 2026-11-23): authors may use LLMs as a
+  general-purpose writing aid and bear full responsibility, LLMs cannot be authors, and
+  reviewers/ACs may not use LLMs to write reviews or meta-reviews beyond grammar checks.
+  Beyond that, default to the confidentiality rule — no feeding others' submissions or
+  reviews into external services.
 
 ## Output format
 

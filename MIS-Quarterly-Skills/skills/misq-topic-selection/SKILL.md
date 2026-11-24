@@ -30,11 +30,11 @@ MISQ explicitly welcomes **cross-tradition blends** (e.g., a design-science arti
 ## Choose the matching manuscript category
 
 Self-select the genre up front, because length and evaluation criteria differ:
-- **Research Article** — primary empirical category (50 pp).
-- **Research Notes** — focused contribution, roughly half a Research Article.
+- **Research Article** — primary empirical category (55 pp).
+- **Research Notes** — focused contribution (30 pp).
 - **Theory Development** — a substantive new theory (55 pp).
 - **Theory-Generative Research Synthesis** — synthesis that generates theory (65 pp).
-- **Issues and Opinions** and **Design Science** — verify exact limits at misq.umn.edu/categories-lengths (待核实 for some).
+- **Methods Article** (55 pp) and **Issues and Opinions** (30 pp); Research Commentaries (30 pp) are invited by the EIC. Design science is a tradition, not a length category.
 
 Page limits count **everything** (text, tables, figures, references, appendices), so the category constrains the scope of the question.
 
@@ -59,7 +59,7 @@ If the mechanism survives deleting the technology, it is not yet a MISQ paper; r
 
 | Situation | Category | Why |
 |-----------|----------|-----|
-| A single clean field experiment on IT-enabled nudging | Research Note | Focused single contribution; ~half a Research Article |
+| A single clean field experiment on IT-enabled nudging | Research Note | Focused single contribution; 30-page Research Note |
 | A build-and-evaluate of a novel ML pipeline with design principles | Design Science | Prescriptive design knowledge is the contribution |
 | A new theory of algorithmic control at work, lightly empirical | Theory Development (55pp) | Theory is the primary output |
 | A synthesis of the IS-security literature that generates propositions | Theory-Generative Synthesis (65pp) | Synthesis that yields theory |
@@ -77,7 +77,7 @@ Because the page limit counts *everything*, choose the category before scoping t
 ```
 【IS question?】central IT artifact: yes/no — why
 【Tradition】behavioral / design science / economics / organizational (+ blend)
-【Category】Research Article / Research Notes / Theory Dev / Synthesis / Design Science / I&O
+【Category】Research Article / Research Note / Methods Article / Theory Dev / Synthesis / I&O
 【Scope fits page budget?】yes / trim needed
 【Next step】misq-theory-development
 ```

@@ -37,12 +37,34 @@ description: Use when running the final pre-submission preflight for Quantitativ
 - [ ] Main manuscript PDF (exhibits embedded in-text); extra files combined into one `.zip`
 - [ ] Membership confirmed for ≥1 author; submission fee ready (or transfer route chosen)
 - [ ] Manuscript posted to a public website (link ready)
-- [ ] Experimental papers: instructions/survey transcripts included; own-data studies pre-registered (effective Jan 1, 2026)
+- [ ] Experimental papers: instructions/survey transcripts included; own-data studies pre-registered (effective Jan 1, 2026), with the pre-registration uploaded as a separate file
 
 ### Declarations
 - [ ] Disclosure statement (ES policy; US$10,000 interested-party threshold; funding sources)
 - [ ] Multi-author responsibility statement prepared (required for accepted papers, effective Jan 2026)
-- [ ] Confirmed the paper is not under review elsewhere; AI is not listed as an author
+- [ ] Confirmed the paper is not under review elsewhere; AI is not listed as an author (note: ES journals run the AI tool Refine on conditionally accepted papers; submission implies consent — checked 2026-11-24)
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue qe-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

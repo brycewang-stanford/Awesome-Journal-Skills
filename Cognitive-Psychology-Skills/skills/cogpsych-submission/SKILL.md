@@ -17,7 +17,7 @@ on the official guide for authors first (检索于 2026-06；以官网为准).
 - Unsure what the scope, format, and declaration requirements demand
 - Confirming the abstract, exhibits, model comparison, code deposit, and declarations are in order
 
-## Process facts (verify volatile items on the official page)
+## Process facts (re-checked 2026-11-24; verify volatile items on the official page)
 
 - **Owner / publisher:** Elsevier. (检索于 2026-06；以官网为准)
 - **Portal:** **Elsevier Editorial Manager** (linked from the ScienceDirect guide for authors).
@@ -31,8 +31,12 @@ on the official guide for authors first (检索于 2026-06；以官网为准).
 - **Open science:** authors are strongly encouraged to share **data, model/analysis code, and
   materials**; complete the Elsevier **research-data statement** and **declaration of competing
   interest**.
-- **Review model / length / abstract limits:** volatile — confirm single- vs. double-anonymized review,
-  any word/length guidance, and the abstract limit on the live page. 待核实.
+- **Review model / length / abstract limits** (re-checked 2026-11-24 via search-engine rendering of the
+  Guide for Authors): **single-anonymized** review, editor suitability screen, typically ≥ 2 reviewers;
+  **abstract ≤ 250 words**; **1–7 keywords**; **highlights required** (3–5 bullets, ≤ 85 characters
+  each, separate file); generative-AI use declared at submission. No numeric article-length cap.
+- **Fees:** hybrid; APC **USD 3,730** excl. taxes (journal home, 2026-10-17 snapshot); no fee on the
+  subscription route.
 
 ## Preflight checklist
 
@@ -42,7 +46,7 @@ on the official guide for authors first (检索于 2026-06；以官网为准).
 - [ ] Not a single-effect / atheoretical paper better suited to a short-report venue
 
 ### Front matter & format
-- [ ] Abstract present (confirm length/structure on the official page); keywords included
+- [ ] Abstract ≤ 250 words; 1–7 keywords; highlights file (3–5 bullets, ≤ 85 characters each)
 - [ ] APA-style statistics (effect sizes + intervals; model-comparison criteria) and references
 - [ ] Exhibits show observed data + model fit (not bars of means); model-comparison table included
 - [ ] Manuscript follows Elsevier formatting/section conventions per the guide for authors
@@ -91,6 +95,28 @@ Verdict:    ready to upload to Editorial Manager.
 > Volatile specifics (length guidance, abstract limit, review model, current editor, exact declarations)
 > change. Re-confirm every item above against the journal's current guide for authors before relying on
 > it (检索于 2026-06；以官网为准).
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue cognitive-psychology-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

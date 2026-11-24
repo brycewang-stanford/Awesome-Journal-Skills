@@ -20,4 +20,4 @@ This is a fictional example. It does not describe a real paper.
 
 - [`../../skills/jeem-topic-selection/SKILL.md`](../../skills/jeem-topic-selection/SKILL.md)
 - [`../../skills/jeem-writing-style/SKILL.md`](../../skills/jeem-writing-style/SKILL.md)
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)

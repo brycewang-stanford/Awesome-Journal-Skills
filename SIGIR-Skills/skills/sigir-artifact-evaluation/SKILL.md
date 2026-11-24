@@ -13,15 +13,16 @@ skill covers packaging that artifact — and the routing decision that comes fir
 
 ## Routing: artifact-in-paper vs Resources paper
 
-SIGIR 2026 explicitly forbids double-dipping: the same dataset cannot be both a
-Resources track submission and the contribution of another paper. Decide ownership:
+SIGIR explicitly forbids double-dipping (2026 policy page; SIGIR 2027 Resource call: "a
+resource paper and a paper in another track may not describe the construction of the
+same resource"). Decide ownership:
 
 | Situation | Route |
 |---|---|
 | Code/runs that back a method claim | Repository cited from the full/short paper |
-| New corpus/judgments, and the *resource itself* is the contribution | Resources track (6 pages + refs, **single-anonymous** in 2026) |
+| New corpus/judgments, and the *resource itself* is the contribution | Resource track (6 pages + refs, **single-anonymous**; SIGIR 2027, as in 2026) |
 | New resource used incidentally by a method paper | Method paper cites it; release separately; do not also submit it as a Resource paper in the same cycle |
-| Reproduction study of published results | Reproducibility track (own track in 2026; budget 待核实) |
+| Reproduction study of published results | Reproducibility and Replicability track (SIGIR 2027: 9 pages + refs, double-anonymous) |
 
 The anonymity asymmetry matters operationally: Resources reviewers may inspect the
 real, non-anonymized resource, while full-paper reviewers must see an anonymized

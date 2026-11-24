@@ -1,6 +1,6 @@
 ---
 name: misq-submission
-description: Use for the final pre-submission preflight of a MIS Quarterly manuscript — confirming the ScholarOne workflow, Word-file format, double-anonymous compliance, the correct manuscript category and its page limit, the pluralistic transparency commitment uploaded at Step 2, and the reviewer-service agreement. Verifies submission readiness; it does not polish prose (misq-writing-style) or interpret decisions (misq-review-process).
+description: Use for the final pre-submission preflight of a MIS Quarterly manuscript — confirming the ScholarOne workflow, template-based file format, double-anonymous compliance, the correct manuscript category and its page limit, the pluralistic transparency commitment uploaded at Step 2, and the reviewer-service agreement. Verifies submission readiness; it does not polish prose (misq-writing-style) or interpret decisions (misq-review-process).
 ---
 
 # Submission Preflight (misq-submission)
@@ -14,17 +14,20 @@ description: Use for the final pre-submission preflight of a MIS Quarterly manus
 
 ## Submission channel and file
 
-- **ScholarOne Manuscripts is the only accepted submission method.** Submit the manuscript as a **Word (.doc/.docx)** file following the MISQ Style Guide.
+- **ScholarOne Manuscripts is the only accepted submission method.** Prepare the manuscript with the MISQ **Word or LaTeX manuscript template** (Times New Roman 12pt, double-spaced, 1-inch margins).
 - **No fee to submit** a manuscript for review.
 
 ## Declare the right category and check the page limit
 
 Self-select the manuscript category and confirm the page count — which includes **all content (text, tables, figures, references, appendices)**:
-- Research Article — **50 pp** (primary category)
-- Research Notes — roughly **half** a Research Article
-- Theory Development — **55 pp**
-- Theory-Generative Research Synthesis — **65 pp**
-- Issues and Opinions / Design Science — verify exact limits at misq.umn.edu/categories-lengths (待核实)
+- Research Article — **55 pp** (primary category)
+- Research Note — **30 pp**
+- Methods Article — **55 pp**
+- Theory and Review — Theory Development **55 pp**; Theory-Generative Research Synthesis **65 pp**
+- Issues and Opinions — **30 pp**
+- Research Commentary — **30 pp** (invited by the EIC)
+
+(Category table re-verified 2026-11-24 on misq.umn.edu/pages/submission_guidelines; design science is a research tradition, not a length category.)
 
 Over-length submissions and revisions are returned to authors, and **supplementary materials are generally discouraged** — all primary evidence and main claims must fit inside the page limit.
 
@@ -48,13 +51,35 @@ By submitting, **authors agree to review up to three papers per year** for the j
 
 ## Checklist
 
-- [ ] Submitting via ScholarOne as a Word (.doc/.docx) file
+- [ ] Submitting via ScholarOne, prepared with the MISQ Word or LaTeX template
 - [ ] Correct category declared and within its page limit (limit counts everything)
 - [ ] No supplementary materials relied on to carry main evidence
 - [ ] Manuscript fully anonymized (no identifying information)
 - [ ] Transparency commitment prepared for Step 2 (procedures/code for replication)
 - [ ] First page has title, abstract, 5–10 keywords; APA 7 / MISQ style applied
 - [ ] Aware of the up-to-three-reviews-per-year service obligation
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue misq-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 
@@ -76,7 +101,7 @@ Use this as a second-pass capability check. First lock the IS phenomenon, artifa
 ## Output format
 
 ```
-【Channel/file】ScholarOne + Word: ready
+【Channel/file】ScholarOne + MISQ template: ready
 【Category/length】declared category within limit (counts all): yes/trim
 【Anonymity】no identifying info: yes/fix
 【Transparency commitment】procedures/code package for Step 2: ready/gaps

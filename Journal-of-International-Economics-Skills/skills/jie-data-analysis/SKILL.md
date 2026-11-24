@@ -36,7 +36,7 @@ JIE referees come from international trade or international macro/finance and ap
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JIE is international trade/macro; cross-country/firm panels — emphasize identification and clustering.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JIE is international trade/macro; cross-country/firm panels — emphasize identification and clustering.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or `benjamini_hochberg`.
 - **OVB sensitivity:** `oster_delta` / `sensemakr`.

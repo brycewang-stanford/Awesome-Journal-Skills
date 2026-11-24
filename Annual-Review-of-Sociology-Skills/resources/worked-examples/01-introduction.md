@@ -58,4 +58,4 @@ paper. The (invented) topic is "the sociology of credentialing and labor-market 
 - [`../../skills/arsoc-organizing-framework/SKILL.md`](../../skills/arsoc-organizing-framework/SKILL.md)
 - [`../../skills/arsoc-comprehensiveness-and-balance/SKILL.md`](../../skills/arsoc-comprehensiveness-and-balance/SKILL.md)
 - [`../../skills/arsoc-writing-style/SKILL.md`](../../skills/arsoc-writing-style/SKILL.md)
-- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../../../shared-resources/empirical-methods/reporting-standards.md)
+- [`../../../shared-resources/empirical-methods/reporting-standards.md`](../shared/empirical-methods/reporting-standards.md)

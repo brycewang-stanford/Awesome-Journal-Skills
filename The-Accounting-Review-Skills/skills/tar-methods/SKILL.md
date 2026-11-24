@@ -58,7 +58,7 @@ skeptic believe the variation is as-good-as-random conditional on controls.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 For the **empirical / causal lane**, estimate and audit rather than only specify. Full
-map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). TAR is archival accounting — DiD around regulation / standard changes, IV, and earnings-based designs; the corporate-causal chain fits directly.
+map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). TAR is archival accounting — DiD around regulation / standard changes, IV, and earnings-based designs; the corporate-causal chain fits directly.
 
 - `detect_design` → `recommend` → fit with `as_handle=true` → `audit_result` to
   enumerate the checks the design owes.

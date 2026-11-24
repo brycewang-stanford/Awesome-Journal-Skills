@@ -15,7 +15,7 @@ most preventable losses happen in the upload week, not in review.
 An S&P cycle has a **registration deadline** and a **paper deadline** about a
 week apart, and the registration is binding: title, full abstract, complete
 author list, ORCIDs, and conflicts are frozen when registration closes
-(cycle1.sp2027.ieee-security.org/deadlines, checked 2026-07-08). Audit
+(sp2027.ieee-security.org/cfpapers.html, re-verified 2026-11-24). Audit
 registration as its own deliverable:
 
 - Every author has an ORCID whose **email and name match the HotCRP record**
@@ -28,16 +28,21 @@ registration as its own deliverable:
   registration time (see `ieeesp-review-process` for how the REC uses it).
 - SoK papers have the `SoK:` title prefix **and** the SoK checkbox — one
   without the other misroutes reviewing.
+- No author is on more than **6 registrations in the cycle**: the cap is
+  counted at the registration deadline, and exceeding it desk-rejects every
+  registration that author made in the cycle.
+- If generative AI was used or studied, the **"Generative AI usage
+  considerations"** HotCRP field is completed at registration.
 
 ## Format gate
 
-| Rule (2027 CFP, checked 2026-07-08) | Enforcement |
+| Rule (2027 CFP, re-verified 2026-11-24) | Enforcement |
 |---|---|
 | ≤ 13 pages of body text | Over-length ⇒ rejected without review |
 | ≤ 5 further pages, references + appendices only | Same |
 | Hard ceiling 18 pages total | Same |
 | Everything past page 13 clearly marked as appendix | Reviewer-visible violation |
-| IEEE "compsoc" conference-proceedings LaTeX template | Tampering ⇒ desk-level flag |
+| IEEE "compsoc" template: IEEEtran.cls 1.8b, `conference,compsoc`, US letter | Wrong template or tampering ⇒ rejected without review |
 | Anonymized submission | Identity leak ⇒ desk reject |
 
 Two S&P-specific implications. Reviewers are **not required to read
@@ -89,6 +94,28 @@ grep -rniE '(\.edu|\.ac\.|corp)/|/home/[a-z]' figures/ scripts/ || true
 | Identity leak in PDF or artifact | No |
 | Weak Ethics Considerations entry | No new entry; damage lands in review/REC |
 | Thin adaptive-attack evaluation | Review-stage damage; fix before, not after |
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue ieee-sp-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

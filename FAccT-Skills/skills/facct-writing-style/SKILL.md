@@ -27,8 +27,9 @@ paper that is excellent inside one discipline and illegible or naive to the othe
 - **Make the interdisciplinarity native.** If you borrow a construct from law or the social sciences,
   use it the way that field uses it, cite its real origin, and carry it through the analysis — not
   as a one-line garnish.
-- **Respect the acmart page budget as a design constraint.** FAccT 2026 allows up to 14 content
-  pages (+1 endmatter page; 15 if Revised/accepted), references unlimited — generous but finite. A
+- **Respect the acmart page budget as a design constraint.** FAccT 2027 allows up to 14 content
+  pages (+1 endmatter page; 15 if Revised/accepted), references and appendices unlimited — generous
+  but finite, and reviewers need not read the appendix. A
   paper that only fits by shrinking its limitations or method is over-scoped.
 - **Preserve mutual anonymity** in self-citations, system names, acknowledgements, funding, and —
   critically — keep the **Positionality** statement out of the anonymous submission entirely.

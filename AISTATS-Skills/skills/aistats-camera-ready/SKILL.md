@@ -13,16 +13,20 @@ authors.
 
 - Convert the anonymous submission to the public proceedings version: names, affiliations,
   acknowledgements, funding, code/data links, and author metadata.
-- Apply the current final-page limit. AISTATS 2026 allowed a 9-page camera-ready body,
-  excluding references and supplementary material.
+- Apply the current final-page limit. AISTATS 2027 allows a 9-page camera-ready body,
+  excluding references, the AI Use Statement, the reproducibility checklist, and appendices;
+  switch to author–year citations and include the completed checklist. The 2027
+  camera-ready deadline was still "to be announced" on 2026-11-23.
 - Check PMLR formatting, title/abstract metadata, author order, bibliography, appendix
   placement, and any required release or copyright forms.
 - Resolve reviewer and meta-review concerns without changing the accepted contribution beyond
   normal camera-ready clarification.
 - Prepare public artifacts: repository, data, model checkpoints, environment files, and
   archival links after anonymity no longer matters.
-- Confirm registration and presentation obligations. AISTATS 2026 required in-person
-  attendance by at least one author for each accepted paper, with no remote presentation.
+- Confirm registration and presentation obligations. AISTATS 2027 (Montréal, May 3–6,
+  2027) expects at least one author of each accepted paper to register and present in
+  person, with exceptions only for travel emergencies or visa issues. The author list
+  cannot change after the abstract deadline, even now; only the order may.
 
 ## PMLR two-column reflow
 

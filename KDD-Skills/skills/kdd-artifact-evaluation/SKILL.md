@@ -22,6 +22,10 @@ with a link.
 
 ## Building the anonymized repository
 
+Anonymize for the Research Track, which is double-blind in KDD 2027. ADS, Datasets and
+Benchmarks, and AI for Sciences are single-blind in KDD 2027, so their repositories need
+not hide authorship — but the no-links-after-the-deadline rule applies to every track.
+
 - Create a **fresh** repository, never a scrubbed clone: git history, CI configs,
   issue templates, and `.git` metadata leak identity that no README edit removes.
 - Sweep for: usernames in paths, institutional cluster names, cloud bucket names,
@@ -76,8 +80,11 @@ never ships. Reviewers accept that trade when the package contains:
   camera-ready must carry the durable link (see `kdd-camera-ready`).
 - Prefer an archival deposit (DOI-stamped release) over a bare git URL for the version
   that the proceedings reference.
-- Check the current cycle for artifact-badging or code-availability initiatives before
-  assuming none exists (待核实 — such programs change year to year).
+- KDD 2027 (Research, Datasets and Benchmarks): authors may pledge artifact availability
+  at submission, reneging on the pledge can retract acceptance, the ACM "Artifacts
+  Available" badge needs an archival repository with a DOI, and an artifact evaluation
+  committee checks artifacts after acceptance. Re-check each cycle — such programs
+  change year to year.
 
 ## Vignette: packaging a billion-edge graph paper
 

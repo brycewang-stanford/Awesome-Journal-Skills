@@ -6,28 +6,29 @@ Endowment). VLDB is one of the two flagship database venues, and it is structura
 unlike almost every other CS conference: there is no annual deadline. Research papers
 are submitted to a PVLDB volume on a **rolling monthly calendar** — a deadline on the
 1st of every month, twelve chances a year — with journal-style **accept / revise /
-reject** outcomes, a one-shot revision with a three-month window, and publication in
+reject** outcomes, a one-shot revision with a 2.5-month window, and publication in
 monthly issues months before the conference itself convenes.
 
-Official basis checked on **2026-07-08**: the PVLDB Volume 20 submission guidelines,
+Official basis checked on **2026-07-08** and **re-verified 2026-11-24**: the PVLDB Volume 20 submission guidelines,
 the VLDB 2027 research-track call, the PVLDB Volume 19 guidelines and VLDB 2026
 research-track call, the VLDB 2026/2027 conference sites, the pVLDB reproducibility
 pages, and VLDB Endowment award records used for exemplar verification. Exact URLs,
 dated facts, and the 待核实 ledger live in
 [`resources/official-source-map.md`](resources/official-source-map.md). Note the
-access-method caveat recorded there: `vldb.org`, `dl.acm.org`, and `dblp.org` refused
-direct automated fetches, so page contents were verified through search renderings of
-the exact URLs and cross-checked across independent official and institutional pages.
+access-method note recorded there: the July build read search renderings because
+`vldb.org` refused automated fetches; the November re-check fetched the live `vldb.org`
+pages directly, including the VLDB 2028 site, whose calls are still under construction.
 
 ## The PVLDB model in one paragraph
 
 You register an abstract by the **25th** of a month, submit the paper by the **1st**
 of the next month at **5:00 PM Pacific Time** (not AoE — mind the conversion), and
 receive reviews with a verdict around the **15th** of the month after that. A *revise*
-verdict grants up to **three months** for exactly **one** revision, re-judged by the
+verdict grants up to **2.5 months** for exactly **one** revision, re-judged by the
 same reviewers against their explicit required-changes list. Accepted papers publish
 in the volume's monthly issues, and papers accepted by the volume's cutoff (June 15,
-2026 for Vol 19) present at the matching conference. On the build date the live volume
+2026 for Vol 19; July 1, 2027 for Vol 20, with June 1, 2027 the last revision deadline
+that still counts) present at the matching conference. On the build date the live volume
 is **Vol 20** (first deadline April 1, 2026; final deadline March 1, 2027), feeding
 **VLDB 2027 in Athens, August 23-27, 2027**; VLDB 2026 meets in **Boston, August 31 -
 September 4, 2026** on Vol 19's papers.
@@ -36,14 +37,15 @@ September 4, 2026** on Vol 19's papers.
 
 - **Month-picking as arithmetic.** With twelve deadlines a year, the strategic skill
   is computing the right month backward — from the conference cutoff, the review
-  latency, and the three-month revision runway — instead of submitting whatever
+  latency, and the 2.5-month revision runway — instead of submitting whatever
   exists on the nearest 1st. `vldb-workflow` teaches the computation.
 - **The revision as the author-response genre.** PVLDB has no rebuttal: reviews and
   verdict arrive together, so your one conversation with reviewers is the revision
   package. `vldb-author-response` builds the requirement ledger and change document.
 - **Single-blind candor.** Author names stay on the paper, extended technical reports
   go on arXiv under your name, and self-citation is direct — the inverse of the
-  double-anonymous venues nearby (reconfirm on the live guidelines; see 待核实).
+  double-anonymous venues nearby — the Vol 20 guidelines say verbatim that "VLDB is a
+  single-blind conference".
 - **Reproducibility with teeth.** Artifact availability earns an ACM badge, the pVLDB
   Reproducibility Evaluation reruns experiments, EA&B papers *must* participate, and
   a Best Reproducible Paper Award exists. Two skills cover the engineering and the
@@ -57,7 +59,7 @@ September 4, 2026** on Vol 19's papers.
 - `vldb-submission` - audit a monthly cycle: the 25th abstract gate, CMT window,
   5:00 PM PT cutoff, category budgets, single-blind cover page, author caps.
 - `vldb-author-response` - turn a revise verdict into a requirement ledger, a
-  three-month plan, and a change document the same reviewers accept.
+  2.5-month plan, and a change document the same reviewers accept.
 - `vldb-camera-ready` - produce the PVLDB issue version: volume template, PDF/A and
   font embedding, availability paragraph, naming/copyright steps, conference leg.
 - `vldb-artifact-evaluation` - package the four artifact surfaces for the pVLDB
@@ -105,7 +107,7 @@ September 4, 2026** on Vol 19's papers.
   overlap almost entirely, so the answer is usually calendar geometry and category
   fit, not topic.
 - **"We got a revise with five required changes."** → `vldb-author-response`, then
-  `vldb-experiments` for the demanded runs. Check three-month feasibility before
+  `vldb-experiments` for the demanded runs. Check 2.5-month feasibility before
   celebrating.
 - **"The abstract deadline is the 25th — are we ready?"** → `vldb-submission`'s
   audit sequence, two weeks out.
@@ -149,11 +151,12 @@ VLDB-Skills/
 ## Fact discipline
 
 Every date, page count, cap, and policy in this pack is either tied to a named URL
-checked on 2026-07-08 or explicitly marked 待核实. The deliberately-unguessed items —
-the exact single-blind wording on the live Vol 20 page, any post-rejection embargo,
-Vol 20 camera-ready mechanics, demo/tutorial budgets, the Vol 20 conference cutoff
-date, officer names on the official page — are listed in the source map's 待核实
-section.
+checked on 2026-07-08 or re-verified on 2026-11-24, or explicitly marked 待核实. The
+deliberately-unguessed items — Volume 21 / VLDB 2028 rules (pages under construction),
+Vol 20 camera-ready mechanics, the tutorial budget, registration pricing, any
+generative-AI policy — are listed in the source map's 待核实 section. The single-blind
+wording, the 12-month post-rejection embargo, the Vol 20 conference cutoff, the
+4-page demo budget and the Editors-in-Chief are now confirmed on official pages.
 
 ## Maintenance notes
 

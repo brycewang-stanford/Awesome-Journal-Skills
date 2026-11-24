@@ -32,7 +32,7 @@ Marketing Science imposes constraints that differ materially from behavior-first
 | Analysis                | GMM/MLE/SMM estimation, counterfactuals, comparative statics       | A regression table without a model or policy experiment is thin |
 | Review                  | **Double-anonymous**; strict author-blinding for regular submissions | Single-blind habits from economics outlets do not apply      |
 | Transparency            | Mandatory **data + estimation code** deposit on acceptance         | Plan replication-ready code from day one                       |
-| Format                  | INFORMS style; author-year cites; LaTeX/Word; succinct main text   | Verify current limits; Frontiers is a strict 6,000-word cap    |
+| Format                  | INFORMS style; author-year cites; LaTeX/Word; ~40 double-spaced pages | Regular ~40 pages all-in; Frontiers is a strict 6,000-word cap |
 | Process                 | ScholarOne; Senior-Editor / Associate-Editor routing; multi-round R&R | First-round accepts are essentially unheard of              |
 
 Generic "scientific writing," consumer-behavior, or "social-science methods" packs do not address these constraints.

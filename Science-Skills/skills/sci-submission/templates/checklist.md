@@ -6,12 +6,12 @@
 ## 1. Significance & framing
 - [ ] Broad significance / general interest established (sci-fit rung ≥ 3)
 - [ ] One-sentence advance demonstrated (not asserted)
-- [ ] Title declarative, specific, < ~90 characters
+- [ ] Title declarative, specific, ≤96 characters incl. spaces (official max)
 
 ## 2. Format & length
-- [ ] Format: ☐ Report (~2,500 words, ≤4 items)  ☐ Research Article (~4,500 words, ≤6 items)
+- [ ] Format: ☐ Research Article, standard (≤3,000 words, 3–5 items, ~50 refs)  ☐ Research Article, extended online format (≤6,000 words, ≤6 items, ≤100 refs; justify in cover letter)
 - [ ] Main-text word count within budget: ______ words
-- [ ] Methods in Supplementary Materials (for Reports)
+- [ ] Materials and Methods in Supplementary Materials
 - [ ] Results ordered by argument; claim-first paragraphs
 
 ## 3. Abstract & one-sentence summary

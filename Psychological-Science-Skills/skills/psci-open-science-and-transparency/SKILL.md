@@ -17,15 +17,21 @@ Prepare this early, not at acceptance.
 - Linking preregistration and reporting its status
 - A reviewer or editor flagged transparency or reproducibility
 
-## What is required (verify current wording on the official page)
+## What is required (re-verified 2026-11-24 on the APS submission guidelines)
 
 1. **Open data and materials.** Make data, analysis scripts, and study materials openly available,
    with **case-by-case exemptions** that must be **justified** (e.g., legal, ethical, or
    confidentiality constraints). It is a requirement, not a bonus.
-2. **Research Transparency Statement.** A **required separate section placed between the Introduction
-   and the Methods** for empirical manuscripts. It reports the availability of data, analysis scripts,
-   materials, and preregistrations, is shared with editors and reviewers, and is **evaluated** —
-   constraints must be explained.
+2. **Research Transparency Statement.** A **required separate section placed between the end of the
+   Introduction and the start of the Methods** for empirical manuscripts (it does not count toward the
+   word limit). It now covers **preregistration, materials, data, analysis scripts** *and* **conflicts
+   of interest, funding, artificial-intelligence use, and ethics approval**, is shared with editors
+   and reviewers, and is **evaluated** — constraints must be explained. (Caution: the separate APS
+   *Manuscript Structure* page, checked 2026-11-24, places it between the Abstract and the
+   Introduction; the journal's submission guidelines say Introduction → RTS → Methods. Follow the
+   submission guidelines and ask the STAR team if in doubt.)
+2b. **Online samples.** If you collected data online, the Method must state how automated or
+   AI-generated responses were prevented/detected — or why no screening was needed.
 3. **Persistent identifiers (DOIs).** Provide DOIs for all shared data and materials (OSF, Dataverse,
    Zenodo, ICPSR, etc.) — not transient personal links.
 4. **Preregistration.** Its presence and **quality are factored into editorial decisions**; report
@@ -37,7 +43,8 @@ Prepare this early, not at acceptance.
 - [ ] **Analysis scripts** deposited; results regenerate in a fresh session
 - [ ] **Materials** (stimuli, instruments, instructions) deposited with a DOI
 - [ ] **Preregistration** linked (anonymized for review); confirmatory vs. exploratory consistent with it
-- [ ] **Research Transparency Statement** drafted and placed **between Intro and Methods**
+- [ ] **Research Transparency Statement** drafted (prereg / materials / data / scripts + COI / funding / AI / ethics) and placed **between Intro and Methods**
+- [ ] Online data collection: bot / AI-response prevention-and-detection statement in the Method
 - [ ] Any **exemption** clearly justified (what cannot be shared, why, and what *is* shared instead)
 - [ ] Shared links **anonymized** for initial (masked) submission
 
@@ -50,7 +57,9 @@ Prepare this early, not at acceptance.
 ## Research Transparency Statement — worked draft (illustrative)
 
 A model statement for the two-study attention package, placed verbatim between Introduction and
-Methods. Confirm the exact required headings against the journal's current submission guidelines.
+Methods. The 2026 guidelines template uses two lines of labels — "Conflicts of interest / Funding /
+Artificial intelligence / Ethics" and, per study, "Preregistration / Materials / Data / Analysis
+scripts" — so mirror those labels.
 
 ```
 Research Transparency Statement
@@ -65,6 +74,9 @@ Preregistration: Study 1 (aspredicted.org/XXXX) and Study 2
              one Study-1 anxiety analysis is reported as exploratory.
 Exemptions:  None. (If applicable: state what is withheld, why, and the
              access path.)
+Conflicts of interest: none. Funding: [grant]; funder had no role.
+Artificial intelligence: no AI-assisted technologies were used.
+Ethics: approved by [IRB name withheld for review] (ID withheld).
 ```
 
 ## Transparency-readiness decision table

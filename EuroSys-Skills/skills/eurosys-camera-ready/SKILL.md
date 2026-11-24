@@ -7,10 +7,14 @@ description: Use when converting an accepted EuroSys paper into its ACM proceedi
 
 Use this after a EuroSys acceptance (direct or via a satisfied revision). EuroSys
 proceedings are published by ACM and land in the ACM Digital Library
-(`dl.acm.org/conference/eurosys`, confirmed 2026-07-08). For the 2027 edition, a
-single camera-ready date around March 5, 2027 was reported for both decision
-cohorts — that date comes from a third-party calendar, so treat it as 待核实 and
-take the controlling date from the acceptance email and the conference site.
+(`dl.acm.org/conference/eurosys`). For the 2027 edition the official CFP (re-verified
+2026-11-24) sets **two** camera-ready dates: **September 25, 2026** for the spring cohort and
+**March 5, 2027** for the fall cohort. Every acceptance is **tentative until the PC
+shepherd approves the revised version**, so the shepherd's sign-off gates the camera-ready.
+
+ACM publications are fully open access: if the corresponding author's institution is not
+in ACM Open, an APC applies unless waived (2027 subsidized: $500 for ACM/SIG members, $750
+for non-members). Every author needs an ORCID iD.
 
 ## What changes between acceptance and print
 
@@ -48,9 +52,9 @@ pdfinfo camera.pdf | grep -E 'Pages|Page size'
 
 - Fold in every change the reviews or revision conditions required, and nothing
   that alters the evaluated contribution.
-- If the paper went through the one-shot revision path, keep the condition →
-  change map from `eurosys-author-response`; publication chairs and shepherds
-  (if the edition assigns them — 待核实) may ask for exactly that document.
+- Accepted papers are shepherded by a PC member; if the paper went through the
+  revise-and-resubmit path, keep the concern → change map from
+  `eurosys-author-response` — the shepherd may ask for exactly that document.
 - Keep section and figure numbering stable where possible so citations of the
   preprint stay meaningful.
 
@@ -92,9 +96,10 @@ The published record has more surfaces than the PDF; they must agree:
 
 ## Presentation logistics
 
-EuroSys 2027 takes place in Rabat, Morocco, in April 2027. Registration
-requirements and any in-person presentation obligation for accepted papers are
-edition policy — 待核实 on the attendee pages before booking or skipping travel.
+EuroSys 2027 takes place in Rabat, Morocco, in April 2027 (the official page gives both
+April 19—22 and April 19 to 23; workshops Monday April 19). The CFP requires **at least one
+full registration** (ACM member or non-member) per accepted paper; registration rates are
+待核实 on the attendee pages.
 Both spring-cohort and fall-cohort papers present at the same April conference.
 
 ## Output format
@@ -105,5 +110,6 @@ Both spring-cohort and fall-cohort papers present at the same April conference.
 [ACM workflow] eRights / DOI block / CCS+keywords / ORCID status
 [Review-change ledger] <required change -> where applied>
 [Artifact coupling] DOI minted? badge status? availability text final?
-[待核实] <camera-ready date, page allowance, shepherding, attendance rule>
+[Deadlines] <cohort camera-ready date; shepherd sign-off; APC/ACM Open status>
+[待核实] <camera-ready page allowance, registration rate>
 ```

@@ -78,7 +78,7 @@ change — verify current availability through your institution and the provider
 - LaTeX (TeX Live / MacTeX; Overleaf for collaboration); `booktabs` for tables; `estout`/`esttab`, `outreg2`, `stargazer` for regression tables
 - Reference management: Zotero, EndNote, BibTeX
 - Reproducibility: Git + GitHub/GitLab; project structure with raw/derived data separation; a master script that reproduces every exhibit
-- Internet Appendix and replication package prepared for RFS's **public code-release condition** (RFS requires public release of all code underlying a published paper, as a condition of publication; an exception must be requested in the cover letter)
+- Internet Appendix and replication package prepared for RFS's **public code-release condition**: RFS's **Code and Data Sharing Policy** (applies to papers conditionally accepted on/after **1 October 2025**) requires a full replication **package — data (or documented non-public data plus pseudo data), code, README with a Data Availability Statement, and a license** — which the **RFS Data Editors** verify by reproducing the key tables and figures before final acceptance; the package is published in the RFS Dataverse. Any withholding/exemption request must be made **at submission** (uploaded in Editorial Express, Step 4); requests for licensed, non-public data are not needed
 
 ## 5. Useful links
 | Site | URL | Purpose |
@@ -91,7 +91,7 @@ change — verify current availability through your institution and the provider
 | WRDS | https://wrds-www.wharton.upenn.edu/ | Data access portal |
 | Ken French Data Library | https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html | Factor data |
 
-> The handling structure (2026) is Executive Editor **Tarun Ramadorai** (LSE/Imperial, 2024–2027)
+> The handling structure (2026) is Executive Editor **Tarun Ramadorai** (LSE, 2024–2027)
 > with editors including Viral Acharya, Xavier Giroud, Andrey Malenko, Anna Pavlova,
 > Clemens Sialm, David Sraer, and Jessica Wachter. Verify the current board before relying on it.
 

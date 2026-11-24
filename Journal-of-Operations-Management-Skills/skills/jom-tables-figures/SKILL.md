@@ -27,7 +27,7 @@ A typical JOM empirical paper carries:
 
 - **APA conventions** for tables, figures, notes, and references (JOM uses APA; Wiley applies final styling at proof). Keep formatting *consistent* — at first submission any consistent style is accepted, journal style preferred.
 - Number tables/figures; give each a stand-alone title and a complete note (estimator, SE type, significance thresholds, N, units).
-- Manuscript body is **double-spaced, single-column, 12-point, one-inch margins, numbered pages, no running headers/footers**; place exhibits per the author guidelines.
+- Manuscript body is **double-spaced, single-column, 11-point, one-inch margins, numbered pages, no running headers/footers**; place exhibits per the author guidelines.
 - Every exhibit must be readable without the text and must report the *operational* units (days, defects per million, inventory turns, on-time %).
 
 ## Self-explanation test
@@ -37,7 +37,7 @@ A reviewer should grasp each table/figure from its title, note, and labels alone
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JOM is empirical operations / supply-chain — survey and archival panel data; foreground endogeneity of operational choices and clustered / multilevel inference.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JOM is empirical operations / supply-chain — survey and archival panel data; foreground endogeneity of operational choices and clustered / multilevel inference.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

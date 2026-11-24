@@ -12,15 +12,23 @@ deadline-ready advice.
 ## Submission audit
 
 - Confirm the target is the main AISTATS conference, not a workshop or tutorial.
-- Verify OpenReview profiles, conflicts, subject areas, title, abstract, author list, and
-  reviewer-volunteer obligations before the abstract and full-paper deadlines.
+- Verify OpenReview profiles, conflicts, subject areas, title, abstract, and author list
+  before the abstract deadline. In AISTATS 2027 the author list froze at the abstract
+  deadline (no additions or removals, even at camera-ready), every submission had to
+  nominate one author as a reciprocal reviewer, and no author could appear on more than 12
+  submissions (3 for authors without an accepted ICLR/ICML/NeurIPS/AISTATS paper).
 - Apply the current style file without spacing, margin, font, or bibliography hacks.
-  AISTATS 2026 used 8 pages of main text for submission, excluding references and
-  appendices.
-- Submit supplementary material by the current supplement deadline. In 2026 this was a
-  separate deadline after the main paper deadline, and supplementary uploads were optional
-  but had to remain anonymous.
-- Include or complete the reproducibility checklist if the current cycle requires it.
+  AISTATS 2027 allows 8 pages of main text at submission (9 at camera-ready), excluding
+  references, the AI Use Statement, the reproducibility checklist, and appendices;
+  over-length main text is desk-rejected.
+- Include the AI Use Statement. AISTATS 2027 desk-rejects any submission without an "AI Use
+  Statement" section placed before the references; if no generative AI was used, say so.
+- Submit supplementary material with the full paper. AISTATS 2027 has no separate
+  supplement deadline (2026 had one a week later): append it to the PDF or upload one PDF
+  or ZIP by the full-paper deadline, anonymized.
+- Complete the reproducibility checklist after the references. In AISTATS 2027 omitting it
+  does not trigger desk rejection, but it is then requested during the author response
+  and required for the camera-ready.
 - Enforce double-blind anonymity in paper text, appendix, supplement, code/data, file names,
   metadata, repository links, acknowledgements, grants, and self-citations.
 - Check concurrent-submission rules and prior-publication status. Do not put the same work
@@ -40,6 +48,9 @@ deadline-ready advice.
 | Trigger | Severity at AISTATS | Repair window |
 |---|---|---|
 | Overlength main text | Desk reject | None after the deadline |
+| Missing AI Use Statement (AISTATS 2027) | Desk reject | None after the deadline |
+| Author over the submission quota | Random desk reject of excess papers | Before the full-paper deadline |
+| No reciprocal-reviewer nomination | Desk reject possible | Before the full-paper deadline |
 | Style-file tampering | Desk reject or chair flag | None |
 | Identity leak in PDF or supplement | Desk reject | None |
 | Checklist contradicting the paper | Review-stage damage | Only before the deadline |
@@ -58,8 +69,33 @@ deadline-ready advice.
 - AISTATS uses a two-column PMLR-style layout; display equations and algorithm blocks that
   fit a one-column draft routinely overflow, so compress math early rather than on deadline
   night.
-- The page counts cited above describe the 2026 cycle; treat every number as provisional and
-  recheck the current Call for Papers before relying on it.
+- The page counts and rules cited above describe the AISTATS 2027 cycle (checked
+  2026-11-23); treat every number as provisional and recheck the current Call for Papers
+  before relying on it.
+- Citations may be author–year or numeric at submission if used consistently; the
+  camera-ready must use author–year (AISTATS 2027).
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue aistats-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Output format
 

@@ -43,5 +43,5 @@ reproducible meta-science** — not data collection.
 
 ## Background references (shared, not journal-specific)
 
-- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — generic reviewer-objection patterns (background only)
-- [`../../shared-resources/empirical-methods/reporting-standards.md`](../../shared-resources/empirical-methods/reporting-standards.md) — generic reporting standards (background only)
+- [`../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](shared/empirical-methods/reviewer-objection-checklist.md) — generic reviewer-objection patterns (background only)
+- [`../../shared-resources/empirical-methods/reporting-standards.md`](shared/empirical-methods/reporting-standards.md) — generic reporting standards (background only)

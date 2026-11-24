@@ -33,7 +33,7 @@ bar (see [`../../skills/jhr-identification-strategy/SKILL.md`](../../skills/jhr-
 [`../../skills/jhr-contribution-framing/SKILL.md`](../../skills/jhr-contribution-framing/SKILL.md), and
 [`../../skills/jhr-writing-style/SKILL.md`](../../skills/jhr-writing-style/SKILL.md)). For each, ask the
 self-check question before claiming your paper is "JHR-shaped." The cross-cutting design checks live in
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).
 
 ---
 

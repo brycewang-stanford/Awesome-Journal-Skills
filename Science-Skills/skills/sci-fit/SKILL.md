@@ -45,7 +45,7 @@ If you cannot place the work at rung 3+, Science is a long shot — be honest wi
 
 | Situation                                                        | Recommend              |
 |-----------------------------------------------------------------|------------------------|
-| Rung 4–5, decisive, broad, timely                               | **Science** (Report/Article) |
+| Rung 4–5, decisive, broad, timely                               | **Science** (Research Article) |
 | Solid, broad-ish, but not top-1% novelty                        | **Science Advances** / **PNAS** |
 | Deep but specialist                                             | top **field journal**  |
 | Clinical/medical with patient outcomes                          | **NEJM / Lancet** (use those packs) |

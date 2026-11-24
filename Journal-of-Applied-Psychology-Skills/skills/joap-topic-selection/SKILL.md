@@ -70,7 +70,7 @@ Candidate B (strong): two-wave multilevel field study (N = 612 in 74 teams)
 | If the work is... | Target type | Why |
 |-------------------|-------------|-----|
 | Programmatic, multi-study, theory + rigor | Feature Article | the standard high-impact empirical slot |
-| Focused, shorter, still a clear contribution | Research Report | tighter budget; confirm current cap (待核实) |
+| Focused, shorter, still a clear contribution | Research Report | ≤ 19 manuscript pages excl. title page, abstract, refs, tables, figures |
 | A conceptual advance with no new data | Theory-development article | `joap-theory-and-hypotheses` is the spine |
 | A cumulative synthesis of an effect | Meta-analysis / integrative review | transparency of coding decisions is essential |
 | A qualitative I-O contribution | Qualitative research | state trustworthiness/credibility criteria |

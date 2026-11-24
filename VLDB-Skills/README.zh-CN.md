@@ -7,21 +7,21 @@
 采用期刊式的 **accept / revise / reject** 三值结果，revise 只有一次机会、最长三个
 月修改期，论文先按月出版、数月后才在会议上报告。
 
-官方依据核验日期：**2026-07-08**。已核验 PVLDB Volume 20 submission guidelines、
+官方依据核验日期：**2026-07-08**，并于 **2026-11-24 复核**。已核验 PVLDB Volume 20 submission guidelines、
 VLDB 2027 research-track call、PVLDB Volume 19 guidelines 与 VLDB 2026 research-track
 call、VLDB 2026/2027 会议网站、pVLDB reproducibility 页面，以及用于 exemplar 验证的
 VLDB Endowment 获奖记录。精确 URL、带日期的事实与 待核实 清单见
 [`resources/official-source-map.md`](resources/official-source-map.md)。注意其中记录的
-访问方式说明：`vldb.org`、`dl.acm.org`、`dblp.org` 拒绝自动化直接抓取，页面内容
-通过对精确 URL 的搜索引擎渲染核验，并与多个独立官方/机构页面交叉比对。
+访问方式说明：7 月构建时 `vldb.org` 拒绝自动化抓取，只能读搜索引擎渲染；11 月复核
+直接抓取了现行 `vldb.org` 页面，包括 VLDB 2028 网站（其征稿页面仍在建设中）。
 
 ## PVLDB 模型一段话讲清
 
 每月 **25 日**前在 CMT 注册 abstract，下月 **1 日太平洋时间下午 5:00**（不是
 AoE —— 务必换算时区）提交全文，再下月 **15 日**左右收到评审意见和结果。拿到
-*revise* 意味着最多 **三个月**内完成**仅有的一次**修改，由同一批审稿人对照他们
+*revise* 意味着最多 **2.5 个月**内完成**仅有的一次**修改，由同一批审稿人对照他们
 明确列出的 required changes 重新评判。录用论文进入该卷的月度 issue 出版；在该卷
-cutoff（Vol 19 为 2026 年 6 月 15 日）前录用的论文在对应会议上报告。构建日当前
+cutoff（Vol 19 为 2026 年 6 月 15 日；Vol 20 为 2027 年 7 月 1 日，最后一个仍计入的修改截止为 2027 年 6 月 1 日）前录用的论文在对应会议上报告。构建日当前
 开放的是 **Vol 20**（首个截稿 2026-04-01，最后截稿 2027-03-01），对应 **VLDB 2027
 雅典，2027 年 8 月 23-27 日**；VLDB 2026 在**波士顿，2026 年 8 月 31 日 - 9 月
 4 日**举行，收录 Vol 19 论文。
@@ -29,13 +29,13 @@ cutoff（Vol 19 为 2026 年 6 月 15 日）前录用的论文在对应会议上
 ## 本包的深度投放在哪里
 
 - **选月是算术题。** 一年十二个 deadline 时，策略能力体现在从会议 cutoff、评审
-  时长、三个月修改期倒推出正确的投稿月份，而不是把手头的稿子丢给最近的 1 日。
+  时长、2.5 个月修改期倒推出正确的投稿月份，而不是把手头的稿子丢给最近的 1 日。
   `vldb-workflow` 教这套倒推。
 - **revision 就是 author response。** PVLDB 没有 rebuttal 阶段：评审与结果一起
   到达，与审稿人唯一的一次对话就是修改包。`vldb-author-response` 教 requirement
   ledger 和 change document 的写法。
 - **单盲下的坦率。** 作者姓名保留在论文上，扩展版技术报告可以实名挂 arXiv，
-  自引直接写 —— 与周边双盲会议正好相反（以现行 guidelines 原文为准，见待核实）。
+  自引直接写 —— 与周边双盲会议正好相反（Vol 20 guidelines 原文："VLDB is a single-blind conference"）。
 - **有牙齿的可复现性。** 提供 artifact 可获 ACM badge；pVLDB Reproducibility
   Evaluation 会实际重跑实验；EA&B 类论文**必须**参加；设有 Best Reproducible
   Paper Award。两个 skill 分别覆盖工程侧与打包侧。
@@ -46,7 +46,7 @@ cutoff（Vol 19 为 2026 年 6 月 15 日）前录用的论文在对应会议上
 
 - `vldb-submission`：审计一个月度周期 —— 25 日 abstract 关口、CMT 窗口、太平洋
   时间下午 5 点截稿、类别页数预算、单盲封面页、作者投稿上限。
-- `vldb-author-response`：把 revise 结果变成 requirement ledger、三个月计划和
+- `vldb-author-response`：把 revise 结果变成 requirement ledger、2.5 个月计划和
   能让同一批审稿人接受的 change document。
 - `vldb-camera-ready`：制作 PVLDB issue 版本 —— 卷专属模板、PDF/A 与字体嵌入、
   availability 段落、命名/版权流程、会议报告安排。
@@ -92,7 +92,7 @@ cutoff（Vol 19 为 2026 年 6 月 15 日）前录用的论文在对应会议上
 - **"这是 VLDB 论文还是 SIGMOD 论文？"** → `vldb-topic-selection`；两家 scope
   几乎完全重叠，答案通常取决于日历几何与类别匹配，而不是主题。
 - **"拿到 revise，五条 required changes。"** → `vldb-author-response`，需要补
-  实验再进 `vldb-experiments`。庆祝之前先算三个月是否够用。
+  实验再进 `vldb-experiments`。庆祝之前先算 2.5 个月是否够用。
 - **"25 日 abstract 截稿前我们准备好了吗？"** → 提前两周跑 `vldb-submission`
   的审计序列。
 - **"录用了 —— 现在哪里会出问题？"** → `vldb-camera-ready`（PDF/A 总在最后
@@ -134,11 +134,11 @@ VLDB-Skills/
 
 ## 事实纪律
 
-本包中每个日期、页数、上限与政策，要么绑定到 2026-07-08 核验过的具名 URL，
-要么明确标注 待核实。刻意不猜的条目 —— 现行 Vol 20 页面上单盲政策的原文、
-被拒后是否存在再投稿禁入期、Vol 20 camera-ready 流程、demo/tutorial 页数、
-Vol 20 的会议 cutoff 日期、官方页面上的 EiC 名单 —— 都列在 source map 的
-待核实一节。
+本包中每个日期、页数、上限与政策，要么绑定到 2026-07-08 核验或 2026-11-24 复核过的
+具名 URL，要么明确标注 待核实。刻意不猜的条目 —— Volume 21 / VLDB 2028 规则（页面
+仍在建设中）、Vol 20 camera-ready 流程、tutorial 页数、注册费、生成式 AI 政策 —— 都列在
+source map 的待核实一节。单盲原文、被拒后 12 个月禁投期、Vol 20 会议 cutoff、demo
+4 页上限与 EiC 名单已在官方页面确认。
 
 ## 维护说明
 

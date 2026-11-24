@@ -8,7 +8,7 @@ description: Use when positioning a EuroSys submission in the systems literature
 Use this to audit novelty positioning before the abstract gate. EuroSys sits
 inside a tightly interconnected systems publication circuit; its reviewers
 usually know the neighboring venues' recent programs from memory, and the free
-reference pages (EuroSys 2027 CFP, rendered 2026-07-08) remove every excuse
+reference pages (EuroSys 2027 CFP, re-verified 2026-11-24) remove every excuse
 for thin citation.
 
 ## Search the circuit, not just the venue
@@ -47,17 +47,21 @@ comparison or soften the claim.
 ```text
 Decision ladder for earlier versions of this work:
 1. Workshop paper (short, non-archival systems workshop)?
-   -> usually fine to build on; cite it in third person, do not claim it.
-      Confirm the current CFP's wording on prior publication. (待核实 per round)
+   -> fine to build on; the 2027 CFP asks you to upload the workshop paper and a
+      short explanation of the new material in the submission form, and the PC
+      evaluates the whole contribution if the submission adds substantially.
 2. arXiv preprint by the authors?
-   -> double-blind survives if the paper does not point at it; do not cite
-      your own preprint in a way that de-anonymizes.
+   -> allowed (not a concurrent submission), but the submitted version needs a
+      substantially different title and system/tool name; do not cite your own
+      preprint in a way that de-anonymizes.
 3. Prior EuroSys submission of this paper?
-   -> rejected at a round: barred until the same round next edition;
+   -> not accepted: ineligible for the immediately following cycle;
       revision offer: this is a resubmission with a condition list, not a
       fresh submission — follow eurosys-author-response.
 4. Under review elsewhere right now?
    -> dual submission to another archival venue is prohibited. Full stop.
+      Related work of yours under review elsewhere is cited anonymously, the
+      difference explained, and a copy emailed to the PC chairs.
 ```
 
 Concurrent third-party work discovered late: cite it, mark it concurrent, and

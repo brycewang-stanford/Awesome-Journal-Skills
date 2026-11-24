@@ -143,4 +143,4 @@ To keep the list zero-hallucination, the following were **excluded** after check
 Before adding any new paper to this library, confirm it on `aeaweb.org/articles?id=…` (article page with
 volume/issue/pages) **and** that the DOI begins `10.1257/pol`, then update the access-date header. When in
 doubt, omit. Shared-hub method guidance:
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

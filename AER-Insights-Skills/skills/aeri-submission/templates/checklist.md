@@ -27,10 +27,10 @@ editor) on the official AEA pages.
 ## 4. Abstract & metadata
 - [ ] Abstract **≤100 words** and states the result
 - [ ] Keywords and JEL classifications prepared if the portal prompts for them
-- [ ] No separate title page; title, byline, and affiliations appear on the first page
+- [ ] Anonymized manuscript: title + abstract on the first page; names, affiliations, and acknowledgement footnote moved to a separate "title page" PDF (AEA author-anonymization RCT)
 
-## 5. Author declarations and first-page metadata
-- [ ] Acknowledgement footnote includes emails, author-order statement, funding, personal acknowledgements, IRB details if applicable, and RCT registration if applicable
+## 5. Author declarations and title-page metadata
+- [ ] Acknowledgement footnote (in the separate title-page PDF) includes emails, author-order statement, funding, personal acknowledgements, IRB details if applicable, and RCT registration if applicable
 - [ ] Separate disclosure statement prepared for each author
 - [ ] AI is not listed as an author; AI use disclosed during submission if applicable
 

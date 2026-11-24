@@ -118,3 +118,25 @@ SSI 覆盖计算机、控制、通信、微电子等多个子学科，评审专�
 参见 [`../ssi-writing-style/SKILL.md`](../ssi-writing-style/SKILL.md) 打磨双语摘要，
 [`../ssi-topic-selection/SKILL.md`](../ssi-topic-selection/SKILL.md) 判断栏目与是否改投兄弟刊，
 以及 [`../../resources/official-source-map.md`](../../resources/official-source-map.md) 的信源与待核实清单。
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue ssi-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.

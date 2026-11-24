@@ -14,8 +14,8 @@ specifically requires.
 | [`exemplars/library.md`](exemplars/library.md) | Well-known works associated with *Language* by subfield, with a sibling-journal omission guard. Design positioning only — read the originals before citing specifics. |
 | [`worked-examples/01-introduction.md`](worked-examples/01-introduction.md) | A before→after rewrite of a *Language*-style article introduction (generalization + analysis + prediction + evidence + cross-subfield stakes). Illustrative fictional paper. |
 | [`code/`](code/) | Optional quantitative-lane skeleton (clean → descriptive → modeling → robustness → tables). Vendored from the Economic-Research-Journal-Skills library (Stata/Python causal-inference tooling); useful for the sociolinguistic/experimental lane, but **most *Language* work is analytic/glossed** — adapt only where a quantitative design applies, and prefer mixed-effects modeling in R (see `external_tools.md`). |
-| [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | Objections referees raise by identification strategy — stress-test any quantitative design before drafting. |
-| [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | Inference and reporting table stakes for quantitative work: clustering, multiple testing, reproducibility. |
+| [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) | Objections referees raise by identification strategy — stress-test any quantitative design before drafting. |
+| [reporting-standards](shared/empirical-methods/reporting-standards.md) | Inference and reporting table stakes for quantitative work: clustering, multiple testing, reproducibility. |
 
 ## How to use
 

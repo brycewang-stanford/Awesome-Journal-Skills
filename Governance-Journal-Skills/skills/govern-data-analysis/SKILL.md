@@ -62,7 +62,7 @@ robustness values, E-values). State the benchmark covariate you compare against.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Governance is public administration and institutions research — comparative and causal designs on governance reforms; the chain serves its quantitative-causal lane, while comparative-historical / qualitative work uses its own standards.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Governance is public administration and institutions research — comparative and causal designs on governance reforms; the chain serves its quantitative-causal lane, while comparative-historical / qualitative work uses its own standards.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

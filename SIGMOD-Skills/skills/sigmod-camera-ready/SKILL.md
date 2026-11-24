@@ -47,8 +47,9 @@ URLs before upload.
 
 Because each round feeds its own PACMMOD issue, your publication date is set
 by the round you cleared, not by the conference week. A Round 1 acceptance
-can be citable in the ACM DL long before the conference convenes (SIGMOD 2027:
-June 13–19, 2027, Huntington Beach, California). Plan announcements, preprint
+can be citable in the ACM DL long before the conference convenes (SIGMOD 2028:
+June 17–23, 2028, Seoul, Korea; SIGMOD 2027 is June 13–18, 2027, Huntington
+Beach, California). Plan announcements, preprint
 updates, and artifact releases against the issue date, and registration,
 travel, and talk preparation against the conference date.
 
@@ -80,15 +81,15 @@ package into the public artifact:
 
 ## Concrete timeline: a Round 1 acceptance
 
-Trace the SIGMOD 2027 Round 1 path to see the two clocks diverge:
+Trace the SIGMOD 2028 Round 1 path to see the two clocks diverge:
 
-- Jan 17, 2026 — paper submitted.
-- Apr 19 or Jun 12, 2026 — acceptance (direct, or after revision).
+- Jan 17, 2027 — paper submitted.
+- Apr 25 or Jun 18, 2027 — acceptance (direct, or after revision).
 - Following weeks — PACMMOD port, rights forms, metadata; the Round 1
   issue publishes on the journal's schedule.
-- Summer/fall 2026 — paper citable in the ACM DL; artifact public; ARI
+- Summer/fall 2027 — paper citable in the ACM DL; artifact public; ARI
   participation window per the current edition.
-- Jun 13-19, 2027 — the talk, up to a year after the science was public.
+- Jun 17-23, 2028 — the talk in Seoul, up to a year after the science was public.
 
 Teams routinely under-use the gap: it is enough time to earn an ARI badge,
 gather adoption or feedback, and walk into the conference presenting a

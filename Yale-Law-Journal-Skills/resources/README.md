@@ -20,8 +20,8 @@ piece is usually doctrinal/theoretical, but if your Article relies on **empirica
 original dataset, a regression, an event study), skim them as background for reporting and review
 expectations — they are not a substitute for this pack's law-specific skills:
 
-- [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — common objections to empirical identification strategies (DiD / IV / RDD / matching), each with a preemption. Relevant only to empirical-legal-studies pieces.
-- [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) — inference and reporting table stakes (clustering, weak-IV diagnostics, multiple testing) for any quantitative component.
+- [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) — common objections to empirical identification strategies (DiD / IV / RDD / matching), each with a preemption. Relevant only to empirical-legal-studies pieces.
+- [reporting-standards](shared/empirical-methods/reporting-standards.md) — inference and reporting table stakes (clustering, weak-IV diagnostics, multiple testing) for any quantitative component.
 
 ## How to use
 

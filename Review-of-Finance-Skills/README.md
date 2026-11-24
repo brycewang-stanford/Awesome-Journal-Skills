@@ -32,7 +32,8 @@ RoF imposes constraints that differ materially from a generic finance journal:
 | References            | **Chicago** style                                                                | Numbered/footnote styles read as non-compliant             |
 | Review                | **Double-blind**, **two-round** decision philosophy                              | Round one is decisive; new round-two issues may be ignored |
 | Fee                   | **EUR 350** (EUR 300 EFA members); **Fast-Track EUR 900, 14-day** decision       | Budget the fee; EFA membership lowers it                   |
-| Citation duty         | Authors **must** find and cite relevant work; lack of awareness is no defense    | Omissions can be sanctioned                                |
+| Citation duty         | Authors **must** find and cite relevant work; lack of awareness is no defense    | Knowing omissions → **2-year ban** for all authors         |
+| AI use                | Any AI-tool use disclosed in cover letter + manuscript (policy of 30 Oct 2026)   | Hidden text → rejection, no refund, 1-year suspension      |
 | Strategic submission  | Non-disclosed resubmission or dual submission → **2-year ban**                   | Disclose in the cover letter                               |
 | Replication           | Code/data policy is a **condition of publication**                               | Build the package as you go                                |
 

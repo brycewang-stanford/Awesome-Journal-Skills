@@ -38,4 +38,4 @@ Psychology*, or *Current Directions* and present it as a PoPS exemplar; verify t
 | Forward-agenda / "future of the field" piece | Add a verified PoPS perspective | 待核实 | Confirm provocation + agenda, not "more research needed" |
 
 Background reviewer-objection reference (generic, not PoPS-specific):
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

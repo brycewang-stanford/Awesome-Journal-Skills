@@ -8,9 +8,9 @@ description: Use when reviews arrive from a USENIX Security Symposium cycle and 
 USENIX Security gives authors two distinct speaking moments, and they obey different
 rules: the mid-review response to reviewers, and the post-decision exchange with a
 shepherd. This skill covers both. Mechanics shift per cycle — the '25 model was
-documented in detail on the reviewing-model page, the '26 model partially, and the
-'27 mechanics are 待核实 — so confirm the current instructions in HotCRP before
-drafting.
+documented in detail on the reviewing-model page; the '27 CFP confirms a one-week
+rebuttal period per cycle (Nov 5–12, 2026; Apr 8–15, 2027) but not its length or
+format — so confirm the current instructions in HotCRP before drafting.
 
 ## Where the response sits in the pipeline
 
@@ -49,7 +49,7 @@ does not offset an unanswered disclosure question.
   phase skims, and unanchored prose gets skipped.
 - Give evidence that already exists (a table row, an appendix reference, a number)
   priority over promises. Since '26 the largest change a paper can absorb after
-  decision is a **two-week shepherding pass** — never promise revisions bigger than
+  decision is a **short shepherding pass** (about 12 days in '27) — never promise revisions bigger than
   that window can hold.
 - Keep anonymity discipline: no identifying links, no "in our lab" phrasing.
 - If a reviewer misread, demonstrate the misreading with a page/section pointer and
@@ -69,7 +69,7 @@ does not offset an unanswered disclosure question.
 
 ## After the decision: shepherd mode
 
-"Accepted on Shepherd Approval" (the '26 outcome replacing major revisions) means
+"Accepted on Shepherd Approval" (the '26/'27 outcome replacing major revisions) means
 the committee wants the paper but conditions publication on named changes —
 clarifications, limitation discussions, toned-down claims — that are unlikely to
 change enthusiasm. Working rules:
@@ -84,8 +84,8 @@ change enthusiasm. Working rules:
 
 ## Reverify each cycle
 
-- Whether the current cycle includes an author response phase at all, its length,
-  and its format (HotCRP field vs PDF) — '27 values 待核实.
+- The rebuttal's length and format (HotCRP field vs PDF) — '27 confirms the periods,
+  not the format (待核实).
 - The shepherding window length and whether "Accepted on Shepherd Approval" remains
   the intermediate outcome.
 - Any word/character limit on responses.

@@ -31,7 +31,7 @@ the RJE bar (see [`../../skills/rje-identification-strategy/SKILL.md`](../../ski
 [`../../skills/rje-contribution-framing/SKILL.md`](../../skills/rje-contribution-framing/SKILL.md), and
 [`../../skills/rje-writing-style/SKILL.md`](../../skills/rje-writing-style/SKILL.md)). For each, ask the
 self-check question before claiming your paper is "RJE-shaped." The cross-cutting design checks live in
-[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+[`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).
 
 ---
 

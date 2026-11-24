@@ -1,6 +1,6 @@
 # SMJ Pre-Submission Checklist
 
-> Verify all volatile specifics (word limit, fee/open-access options, required statements, reference style) on the **current SMJ Author Guidelines** before submitting. SMJ is published by Wiley for the Strategic Management Society and uses ScholarOne Manuscripts. This checklist covers the durable items.
+> Verify all volatile specifics (word limit, fee/open-access options, required statements, reference style) on the **current SMJ Author Guidelines** before submitting. SMJ is published by Wiley for the Strategic Management Society; new submissions go through Wiley Research Exchange (wiley.atyponrex.com/journal/SMJ), with ScholarOne kept for legacy papers. This checklist covers the durable items.
 
 ## 1. Scope & contribution
 
@@ -53,11 +53,11 @@
 - [ ] File metadata/properties scrubbed; file names contain no identity
 - [ ] Funding/acknowledgments only where the system requests them
 
-## 7. Files & metadata (ScholarOne)
+## 7. Files & metadata (Research Exchange)
 
 - [ ] Anonymized main manuscript
-- [ ] Separate title page with author details (if required)
-- [ ] Cover letter (states the strategy contribution; confirms originality and exclusivity)
+- [ ] Separate title page file: authors, titles, emails, affiliations, running head (≤60 characters), acknowledgments
+- [ ] Cover letter (states the strategy contribution; confirms originality and exclusivity; **answers SMJ's three required questions** on same-database papers and citing all relevant prior work)
 - [ ] Online appendix / supplementary materials (if any)
 - [ ] Required statements present (data availability, conflict of interest, ethics) — confirm current requirements
 - [ ] Correct article type selected (regular vs. special issue)

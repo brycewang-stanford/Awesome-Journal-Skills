@@ -7,10 +7,10 @@ automated by the shared script.
 
 ## Shared kit entry points
 
-- [`../../../shared-resources/ml-conference-methods/README.md`](../../../shared-resources/ml-conference-methods/README.md)
-- [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../../../shared-resources/ml-conference-methods/experiment-matrix.md)
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/README.md`](../shared/ml-conference-methods/README.md)
+- [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../shared/ml-conference-methods/experiment-matrix.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
 
 ```bash
 # Smoke-check the anonymous supplement's code directory before zipping it
@@ -19,8 +19,11 @@ python3 ../../../shared-resources/ml-conference-methods/code/check_repro_package
 
 ## What the shared kit does NOT check (CVPR-specific, do manually)
 
-- **Compute Reporting Form consistency** — the hardware row in CRF Section 1 must match
-  every latency/"real-time" claim in the paper (`../../skills/cvpr-reproducibility/SKILL.md`).
+- **Compute consistency** — the hardware you report (CRF Section 1 in 2026; the paper's
+  own compute disclosure in 2027, where no form is stated) must match every
+  latency/"real-time" claim in the paper (`../../skills/cvpr-reproducibility/SKILL.md`).
+- **LLM Usage Statement** (CVPR 2027) — present after the main text, anonymous, and naming
+  any AI help with code or experiments; the script does not check it.
 - **External-link ban** — no URLs in the supplement that expand content; the script does
   not scan PDFs or videos for links.
 - **Video metadata** — MP4/MOV containers carry author tags; strip them

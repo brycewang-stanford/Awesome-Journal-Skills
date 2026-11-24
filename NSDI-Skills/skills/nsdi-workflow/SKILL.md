@@ -8,7 +8,7 @@ description: Use when planning an NSDI campaign across the spring and fall deadl
 NSDI is a calendar problem disguised as a conference. One edition, two submission
 gates, two decision cohorts, and a revision mechanism that spans deadlines — a team
 that plans "for NSDI" without naming the gate usually discovers it planned for
-neither. Dates below are the NSDI '27 cycle as rendered on 2026-07-08; treat them as
+neither. Dates below are the NSDI '27 cycle as re-verified on 2026-11-24; treat them as
 this cycle's snapshot and re-pull the HotCRP `/deadlines` pages before acting.
 
 ## The '27 clock
@@ -21,11 +21,21 @@ this cycle's snapshot and re-pull the HotCRP `/deadlines` pages before acting.
 | Fall abstracts | September 10, 2026 | fall |
 | Fall full papers | September 17, 2026 | fall |
 | Fall notification | December 8, 2026 | fall |
+| Spring artifacts due / decisions | August 7 / October 13, 2026 | spring |
+| Spring final papers | October 20, 2026 | spring |
+| Fall artifacts due / decisions | December 18, 2026 / February 19, 2027 | fall |
+| Fall final papers | March 4, 2027 | fall |
 | Symposium | May 11-13, 2027, Providence, RI | both |
 
-Where "today" (2026-07-08) sits: spring authors are two weeks from notification; a
-fresh submission has nine weeks to the fall abstract gate. Camera-ready dates and the
-'27 artifact schedule were not yet rendered — 待核实, watch the conference page.
+(Submission cutoffs are 11:59 pm US EDT; the artifact cutoffs are 11:59 PM US PDT for
+spring and US PST for fall.)
+
+Where "today" (2026-11-24) sits: both '27 submission gates are closed; fall authors
+await the December 8 notification, and accepted fall papers face a tight December 18
+artifact deadline. A fresh paper's next gate is the **NSDI '28 spring deadline**, whose
+CFP (dates, time zone, rule changes) was not yet published — the NSDI '28 page is an
+empty placeholder — so plan the backward schedule against an unknown date and re-pull
+it the day the CFP appears.
 
 ## One project, four legal paths through the cycle
 

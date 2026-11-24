@@ -1,6 +1,6 @@
 # External Tools - MobiCom
 
-Access date: 2026-07-09
+Access date: 2026-07-09; links moved to MobiCom 2027 and re-checked by direct fetch 2026-11-24.
 
 Open these surfaces at the start of every MobiCom engagement. The venue reissues its rules
 per edition and runs two deadlines per year, so a link that answered a winter-round
@@ -10,17 +10,19 @@ feed different editions.
 ## Live official surfaces
 
 - MobiCom current-edition site: https://www.sigmobile.org/mobicom/ (navigate to the year)
-- MobiCom 2026 conference page: https://www.sigmobile.org/mobicom/2026/
-- MobiCom 2026 Call for Papers: https://www.sigmobile.org/mobicom/2026/cfp.html
+- MobiCom 2027 conference page: https://www.sigmobile.org/mobicom/2027/
+- MobiCom 2027 Call for Papers: https://www.sigmobile.org/mobicom/2027/cfp.html
+- MobiCom 2027 committees: https://www.sigmobile.org/mobicom/2027/committee.html
 - Per-edition HotCRP site: `https://mobicom<yy>.hotcrp.com/` — the `/deadlines` page on it
-  is the authoritative clock (e.g., https://mobicom26.hotcrp.com/deadlines).
-- MobiCom artifact evaluation (model page): https://www.sigmobile.org/mobicom/2025/artifact_cfp.html
+  is the authoritative clock (e.g., https://mobicom27.hotcrp.com/deadlines).
+- MobiCom 2027 Call for Artifacts: https://www.sigmobile.org/mobicom/2027/artifact_cfp.html
+- MobiCom 2026 pages (history): https://www.sigmobile.org/mobicom/2026/
 - SIGMOBILE Test-of-Time Paper Award: https://www.sigmobile.org/grav/awards/test-of-time-paper
 - dblp MobiCom stream (venue verification for citations): https://dblp.org/db/conf/mobicom/
 - ACM Digital Library MobiCom proceedings: https://dl.acm.org/conference/mobicom
 
 If `sigmobile.org`, `hotcrp.com`, or `dblp.org` refuses direct fetches (all three returned
-HTTP 403 during this pack's verification), read the exact URLs through search-engine
+HTTP 403 in July 2026; `sigmobile.org` and `hotcrp.com` answered directly on 2026-11-24), read the exact URLs through search-engine
 renderings and cross-check at least two independent renderings before trusting a date.
 
 ## Author-side verification passes
@@ -29,8 +31,8 @@ Run each pass against the exact files you will upload, not the working draft.
 
 1. **Clock pass.** Confirm on the HotCRP `/deadlines` page which **round** is open, its
    **abstract-registration** date, its **paper** date, and that the cutoff is **AoE** — the
-   page may print a US-Eastern clock time (the March 14, 2026 winter round showed 7:59 am
-   EDT for an 11:59 pm AoE deadline). Confirm which **edition** the round feeds. Write each
+   page may print a US-Eastern clock time (the MobiCom 2027 summer round's September 2, 2026
+   23:59 AoE paper deadline showed as Thursday Sep 3, 2026, 7:59:59 AM EDT). Confirm which **edition** the round feeds. Write each
    coauthor's local-time equivalent from the page, not from memory.
 2. **Budget pass.** 12 single-spaced numbered pages **including figures and tables**, in
    the double-column geometry (columns 9.25in x 3.33in, 0.33in gutter, ≤55 lines/column,
@@ -51,8 +53,9 @@ grep -rnEi '/Users/|/home/|github\.com/[a-z0-9-]+|testbed-[a-z]+' *.tex figures/
 4. **Status pass.** In HotCRP, "complete" is the only state that counts; the abstract must
    be registered at the earlier deadline, all authors and conflicts entered, topic
    selections set for the reviewer profile you want, and title/abstract matching the PDF.
-5. **Revision/rebuttal pass.** For a **rebuttal**, confirm the length limit and that every
-   response maps to a specific reviewer point. For a **one-shot revision**, confirm the
+5. **Revision/rebuttal pass.** For a **rebuttal**, confirm the 500-word limit, that every
+   response maps to a specific reviewer point, and that it adds no new experiments, data, or
+   figures. For a **one-shot revision**, confirm the
    change-highlighted PDF and change summary are attached and that every item on the
    reviewers' required-changes list maps to a visible edit.
 

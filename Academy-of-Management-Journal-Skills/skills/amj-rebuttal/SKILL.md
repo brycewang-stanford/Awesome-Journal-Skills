@@ -12,7 +12,7 @@ description: Use when drafting the revision and response letter after an Academy
 - You must reconcile conflicting reviewer demands for the action editor
 - A later-round decision asks you to defend or further revise prior changes
 
-> Write the response letter **after** revising the manuscript, not before. The letter documents changes you have made, not promises. AMJ's process is developmental and typically multi-round; resubmit the revised manuscript and response document through ScholarOne (mc.manuscriptcentral.com/AMJ), keeping the same action editor across rounds where possible, and remember the revised main body still must respect the **40-page limit** (text + references + appendices).
+> Write the response letter **after** revising the manuscript, not before. The letter documents changes you have made, not promises. AMJ's process is developmental and typically multi-round; resubmit the revised manuscript and response document through ScholarOne (mc.manuscriptcentral.com/AMJ), keeping the same action editor across rounds where possible, and remember the revised manuscript should still respect the **~40-page guideline** (inclusive of all content: text, references, tables, figures, appendices).
 
 ## Response-document structure
 

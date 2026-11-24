@@ -1,16 +1,18 @@
 ---
 name: dac-author-response
-description: Use when handling reviewer feedback for an ACM/IEEE Design Automation Conference (DAC) Research Manuscript — writing a concise, evidence-first rebuttal IF the cycle runs an author-response period (verify; DAC has historically not), and otherwise converting DAC reviews into a targeted response-to-reviewers when rerouting a rejected paper to ICCAD, DATE, ASP-DAC, or a journal.
+description: Use when handling reviewer feedback for an ACM/IEEE Design Automation Conference (DAC) Research Manuscript — writing a concise, evidence-first rebuttal IF a cycle ever runs an author-response period (DAC 2027 does not), and otherwise converting DAC reviews into a targeted response-to-reviewers when rerouting a rejected paper to ICCAD, DATE, ASP-DAC, or a journal.
 ---
 
 # DAC Author Response
 
 Handle reviews with DAC's process in mind. The single most important fact: DAC's Research-Manuscript
-review has **historically been TPC-driven without an author rebuttal period**, and whether the
-current cycle runs one is **待核实** (`resources/official-source-map.md`). So this skill covers two
-situations, and the second is the common one.
+review is **TPC-driven without an author rebuttal period** — the DAC 2027 timeline goes straight
+from the 18 November 2026 manuscript deadline to the 8 March 2027 notifications
+(`resources/official-source-map.md`). So this skill covers two situations, and the second is the
+normal one. A non-accepted manuscript may also be invited to a Work-in-Progress poster (not
+published), which needs no response letter.
 
-## Situation A — the cycle runs a response period (verify first)
+## Situation A — a future cycle runs a response period (verify first)
 
 If — and only if — the live DAC cycle offers an author response, treat it as a **short, factual
 correction channel**, not a debate. EDA reviewers reject mostly on **baseline fairness, benchmark
@@ -38,7 +40,7 @@ Response: We compare against [SOTA router] in Table 2 (columns 4-6); on the full
 overflow by X% at equal wirelength. We will make this comparison more prominent.
 ```
 
-## Situation B — no rebuttal, then a reject (the common case)
+## Situation B — no rebuttal, then a reject (the DAC 2027 case)
 
 With no response channel, the review packet arrives *with the decision*. The productive use of DAC
 reviews is then to **repair the paper and reroute it well**. DAC, ICCAD, DATE, and ASP-DAC share

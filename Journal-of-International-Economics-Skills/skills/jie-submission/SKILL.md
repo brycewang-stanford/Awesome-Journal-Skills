@@ -50,6 +50,28 @@ description: Use when running the final pre-submission preflight for the Journal
 
 Three errors cause the most avoidable bounces, all fixable in minutes: editor mismatch (a trade paper with no suggested trade editor risks routing to a macro editor, and vice versa — set the suggestion to your scope half); a PRP misfire (selecting PRP without a qualifying AER/Econometrica/JPE/QJE/REStud letter plus the full reports, favorable and critical); and an over-long or citation-laden abstract (the cap is 150 words, references avoided). Re-confirm the fee amount, editor roster, and upload flow against the live author guide before relying on them.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jie-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Treating the fee as refundable or skipping it (submission will not proceed)

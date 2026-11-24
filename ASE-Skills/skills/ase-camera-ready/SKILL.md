@@ -43,8 +43,9 @@ criteria you met become visible in the final paper.
 
 ## Template and metadata (IEEE/ACM dual)
 
-- Use the **mandated camera-ready template** — for ASE 2026 the ACM `acmart` (switch out the
-  `review`/`anonymous` options for the final class options the instructions specify). Because ASE is
+- Use the **mandated camera-ready template** — for ASE 2027 the IEEE conference template
+  (`\documentclass[10pt,conference]{IEEEtran}`, 11 content pages + 2 pages of references and Data
+  Availability; ASE 2026 used ACM `acmart`). Because ASE is
   dual IEEE/ACM sponsored, the required template and the rights/metadata step can differ per
   edition; **confirm which publisher's pipeline this edition uses** and follow that kit.
 - Complete the **rights/copyright** step (the e-rights form) and paste the correct rights block into

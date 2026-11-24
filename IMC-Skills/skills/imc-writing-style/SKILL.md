@@ -64,8 +64,8 @@ the reviewer sees the posture immediately.
 
 ## Page-budget discipline (acmart)
 
-IMC's `acmart` budget (IMC 2025: up to 13 pages full / 6 pages short of text+figures, plus an
-unlimited appendix) is generous but finite for the body. Recover space by **cutting redundancy**,
+IMC's `acmart` budget (IMC 2027: up to 13 pages full / 6 pages short of technical content, plus
+unlimited references and appendices) is generous but finite for the body. Recover space by **cutting redundancy**,
 not by exiling decision-critical evidence to the appendix (`imc-supplementary`). Every figure earns
 its space by supporting a claim; a vantage-point map that clarifies coverage is worth more than a
 decorative architecture diagram.

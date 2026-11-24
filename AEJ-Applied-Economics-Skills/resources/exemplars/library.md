@@ -28,8 +28,8 @@ Pick the row whose **method × question** is closest to yours, then study how th
 identified* estimate answer a *substantive applied-micro* question — the AEJ: Applied bar (see
 [`../../skills/aeja-topic-selection/SKILL.md`](../../skills/aeja-topic-selection/SKILL.md) and
 [`../../skills/aeja-identification/SKILL.md`](../../skills/aeja-identification/SKILL.md)). For each, ask the
-self-check question before claiming your paper is "AEJ: Applied-shaped." Remember the AEA house rule: AEA
-permits significance stars but **expects standard errors**, and the identification figure carries half the
+self-check question before claiming your paper is "AEJ: Applied-shaped." Remember the AEA house rule: **no significance
+asterisks, standard errors in parentheses** (AEJ: Applied style guide), and the identification figure carries half the
 persuasion ([`aeja-tables-figures`](../../skills/aeja-tables-figures/SKILL.md)).
 
 ---

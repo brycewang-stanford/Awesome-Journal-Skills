@@ -12,10 +12,10 @@ the skills and in [`../official-source-map.md`](../official-source-map.md).
 
 ## Shared kits (use only what transfers to a theory paper)
 
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
   — generic pre-submission checklist; adapt it to the ICDT proof-completeness and anonymity items
   rather than to code packaging.
-- [`../../../shared-resources/submission-readiness/response-to-referees.md`](../../../shared-resources/submission-readiness/response-to-referees.md)
+- [`../../../shared-resources/submission-readiness/response-to-referees.md`](../shared/submission-readiness/response-to-referees.md)
   — response scaffolding; adapt it to the **Cycle-1 revision letter** in
   [`../../skills/icdt-author-response/SKILL.md`](../../skills/icdt-author-response/SKILL.md).
 

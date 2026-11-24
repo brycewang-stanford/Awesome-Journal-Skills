@@ -84,7 +84,7 @@ Figure 1. Adjusted transfer-comprehension by condition, with mediation.
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-supplement drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JEdPsych mixes field/lab experiments and observational school data; multilevel (student-in-class-in-school) inference and many-outcome corrections matter most.
+body-vs-supplement drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JEdPsych mixes field/lab experiments and observational school data; multilevel (student-in-class-in-school) inference and many-outcome corrections matter most.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.

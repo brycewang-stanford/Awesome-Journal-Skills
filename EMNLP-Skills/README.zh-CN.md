@@ -113,7 +113,7 @@ EMNLP-Skills/
 - EMNLP 2026：**匈牙利布达佩斯，2026 年 10 月 24-29 日**，hybrid 形式。
 - 流水线：ARR May 周期截稿 **5 月 25 日** · 作者注册表 5 月 27 日 · 审稿人交稿 7 月
   6 日 · 作者讨论 **7 月 7-13 日** · meta-review 发布 7 月 30 日 · **commitment 8 月
-  2 日** · 录用通知 8 月 20 日 · camera-ready 9 月 20 日。
+  2 日** · 录用通知 8 月 20 日 · camera-ready 8 月 30 日。
 - 格式：只用 ACL 模板 · long ≤ 8 页 / short ≤ 4 页正文 · 参考文献不限 · 强制且不计页
   的 Limitations 章节。
 - 录用层级：主会 + Findings of EMNLP（2025 年锚点：主会 1,810 篇、Findings 1,406 篇、

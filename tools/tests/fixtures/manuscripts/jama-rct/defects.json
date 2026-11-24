@@ -1,0 +1,159 @@
+{
+  "id": "jama-rct",
+  "pack": "JAMA-Skills",
+  "venue": "JAMA (Original Investigation)",
+  "format": "md",
+  "synthetic": true,
+  "summary": "Fictional 1,208-participant randomized clinical trial (TEXT-BP) of automated tailored text messaging vs attention control on 12-month systolic blood pressure in 12 US community health centers.",
+  "defects": [
+    {
+      "id": "M1",
+      "kind": "mechanical",
+      "check": "ABS-STRUCTURE",
+      "find": "**Importance:** Uncontrolled hypertension is common among adults who receive care in community health centers, and poor medication adherence is a modifiable contributor. Whether low-cost automated text messaging improves blood pressure in this setting is uncertain.\n\n**Objective:** To determine whether 12 months of automated, tailored text messages improves systolic blood pressure (SBP) compared with attention-control messages.\n\n**Design, Setting, and Participants:** Parallel-group randomized clinical trial at 12 federally qualified community health centers in Ohio. Adults aged 18 to 80 years with office SBP of 140 mm Hg or higher taking at least 1 antihypertensive medication were enrolled from March 2022 to August 2023; final follow-up was in September 2024.\n\n**Interventions:** Participants were randomized 1:1 to tailored text messaging (adherence reminders, education, and 2-way refill prompts; n = 604) or attention-control messages (monthly general health messages; n = 604), each added to usual care.\n\n",
+      "replace": "Uncontrolled hypertension is common among adults who receive care in community health centers, and poor medication adherence is a modifiable contributor. Whether low-cost automated text messaging improves blood pressure in this setting is uncertain. To determine whether 12 months of automated, tailored text messages improves systolic blood pressure (SBP) compared with attention-control messages. Parallel-group randomized clinical trial at 12 federally qualified community health centers in Ohio. Adults aged 18 to 80 years with office SBP of 140 mm Hg or higher taking at least 1 antihypertensive medication were enrolled from March 2022 to August 2023; final follow-up was in September 2024. Participants were randomized 1:1 to tailored text messaging (adherence reminders, education, and 2-way refill prompts; n = 604) or attention-control messages (monthly general health messages; n = 604), each added to usual care.\n\n",
+      "description": "The Importance, Objective, Design/Setting/Participants, and Interventions headings of the JAMA structured abstract are removed and the text is merged into one unlabeled paragraph.",
+      "rule_basis": "JAMA-Skills jama-structured-abstract SKILL (JAMA Original Investigation heading set) and jama-submission SKILL: 'Abstract follows the JAMA structured headings'; source map has no abstract rule"
+    },
+    {
+      "id": "M2",
+      "kind": "mechanical",
+      "check": "NUM-MISMATCH",
+      "find": "adjusted difference in SBP change, −4.2 mm Hg [95% CI, −6.1 to −2.3]",
+      "replace": "adjusted difference in SBP change, −5.4 mm Hg [95% CI, −6.1 to −2.3]",
+      "description": "The abstract reports the primary between-group difference as −5.4 mm Hg, but Table 2, the Results, and Key Points report −4.2 mm Hg.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M3",
+      "kind": "mechanical",
+      "check": "STMT-MISSING",
+      "statement": "data_availability",
+      "find": "## Data Sharing Statement\n\nDeidentified individual participant data, the data dictionary, the trial protocol, the statistical analysis plan, and the analytic code will be made available beginning 6 months after publication to researchers who provide a methodologically sound proposal approved by an independent review committee. Requests should be directed to the corresponding author; a data use agreement will be required.\n\n",
+      "replace": "",
+      "description": "The Data Sharing Statement section is deleted; the manuscript no longer states what trial data will be shared, when, or how.",
+      "rule_basis": "JAMA-Skills jama-submission SKILL 'Required statements: Data-sharing statement' (ICMJE requirement for trial reports); not stated in official-source-map.md"
+    },
+    {
+      "id": "M4",
+      "kind": "mechanical",
+      "check": "REF-MISSING",
+      "find": "consistent with meta-analytic evidence (Thakkar et al., 2016).",
+      "replace": "consistent with meta-analytic evidence (Thakkar et al., 2016). Similar adherence-mediated reductions have been reported for home blood pressure telemonitoring combined with pharmacist management (Margolis et al., 2013).",
+      "description": "A citation to Margolis et al., 2013 is added in the Discussion with no corresponding entry in the reference list.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M5",
+      "kind": "mechanical",
+      "check": "REF-UNCITED",
+      "find": "; study data were collected in REDCap (Harris et al., 2009).",
+      "replace": "; study data were collected in REDCap.",
+      "description": "The only in-text citation of Harris et al., 2009 is removed, leaving that reference-list entry uncited.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M6",
+      "kind": "mechanical",
+      "check": "EXH-NUMBERING",
+      "find": "**Table 3: Adverse Events During 12 Months of Follow-up**",
+      "replace": "**Table 4: Adverse Events During 12 Months of Follow-up**",
+      "description": "The adverse-events table is captioned Table 4, so tables run 1, 2, 4 and the text's reference to Table 3 has no target.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M7",
+      "kind": "mechanical",
+      "check": "EXH-SE-NOTE",
+      "find": "; 95% CIs are based on heteroskedasticity-robust (HC2) standard errors, combined across 20 multiply imputed data sets with Rubin's rules.",
+      "replace": ". Estimates were combined across 20 multiply imputed data sets.",
+      "description": "The Table 2 note no longer states how standard errors and 95% CIs were computed (HC2 robust SEs, Rubin's rules).",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M8",
+      "kind": "mechanical",
+      "check": "LEFTOVER-MARKER",
+      "find": "which captures medication possession rather than ingestion.",
+      "replace": "which captures medication possession rather than ingestion. TODO: add electronic pill-cap substudy results here.",
+      "description": "A TODO drafting note is left in the Limitations paragraph.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "S1",
+      "kind": "substantive",
+      "lens": "identification",
+      "severity": "major",
+      "find": "Blood pressure at baseline, 6 months, and 12 months was measured by trained research assistants who were not involved in recruitment or intervention delivery and who were masked to group assignment; participants were asked not to disclose their messages.",
+      "replace": "Blood pressure at baseline, 6 months, and 12 months was measured by the health center nurse care coordinators, who also enrolled participants and responded to flagged text-message replies and were therefore aware of group assignment.",
+      "description": "The primary outcome (office SBP) is measured by unmasked staff who deliver part of the intervention, creating detection/observer bias in an open-label trial.",
+      "match_terms": [
+        "masked",
+        "unmasked",
+        "blinded",
+        "blinding",
+        "assessor",
+        "detection bias",
+        "observer bias",
+        "ascertainment bias"
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "substantive",
+      "lens": "inference",
+      "severity": "major",
+      "find": "The primary analysis followed the intention-to-treat principle and included all 1,208 randomized participants in the group to which they were assigned, regardless of the number of messages received or opt-out. The 12-month change in SBP was compared between groups with linear regression adjusted for the stratification factors (health center and baseline SBP stratum) and baseline SBP, with heteroskedasticity-robust standard errors. Missing 12-month values were handled with multiple imputation by chained equations under a missing-at-random assumption, using 20 imputed data sets that included baseline characteristics, 6-month blood pressure, and adherence, with estimates combined by Rubin's rules (Rubin, 1987; White et al., 2011).",
+      "replace": "The primary analysis was restricted to the per-protocol population: participants who did not opt out of messaging and who attended the 12-month visit. Participants without a 12-month measurement were excluded; an intention-to-treat analysis with multiple imputation (Rubin, 1987; White et al., 2011) was not performed because the per-protocol population best reflects the effect among engaged users. The 12-month change in SBP was compared between groups with linear regression adjusted for the stratification factors (health center and baseline SBP stratum) and baseline SBP, with heteroskedasticity-robust standard errors.",
+      "description": "The primary analysis is per-protocol/complete-case only with no intention-to-treat analysis or principled handling of the 9% missing outcomes, so randomization is broken and the effect may be biased.",
+      "match_terms": [
+        "intention-to-treat",
+        "intention to treat",
+        "ITT",
+        "per-protocol",
+        "per protocol",
+        "missing data",
+        "multiple imputation",
+        "attrition"
+      ]
+    },
+    {
+      "id": "S3",
+      "kind": "substantive",
+      "lens": "reporting",
+      "severity": "major",
+      "find": "The prespecified primary outcome, unchanged from the registered protocol, was the change in office SBP from baseline to 12 months. Prespecified secondary outcomes were change in office DBP at 12 months; change in SBP at 6 months; BP control, defined as office blood pressure below 140/90 mm Hg at 12 months;",
+      "replace": "The primary outcome was BP control, defined as office blood pressure below 140/90 mm Hg at 12 months; this outcome replaced change in office SBP, the primary outcome in the trial registration, after review of the 6-month data. Secondary outcomes were change in office SBP and DBP at 12 months; change in SBP at 6 months;",
+      "description": "The primary outcome was switched from the registered SBP change to BP control after an unblinded look at interim data, a post hoc outcome switch that invalidates the confirmatory claim.",
+      "match_terms": [
+        "outcome switching",
+        "switched",
+        "registered",
+        "registration",
+        "prespecified",
+        "post hoc",
+        "primary outcome",
+        "selective reporting"
+      ]
+    },
+    {
+      "id": "S4",
+      "kind": "substantive",
+      "lens": "contribution",
+      "severity": "major",
+      "find": "In this randomized clinical trial among adults with uncontrolled hypertension receiving care in community health centers, automated tailored text messaging added to usual care modestly reduced SBP at 12 months compared with attention-control messages. Longer follow-up is needed to determine whether the effect is sustained and whether it reduces cardiovascular events.",
+      "replace": "In this randomized clinical trial, automated tailored text messaging lowered blood pressure enough to prevent strokes and myocardial infarctions, and it should be adopted as standard care for all adults with hypertension in all practice settings, where it can replace pharmacist- and nurse-led adherence programs.",
+      "description": "The Conclusions claim prevention of cardiovascular events (never measured; 12-month surrogate outcome only) and universal generalizability from 1 Ohio safety-net network, overstating the evidence.",
+      "match_terms": [
+        "overstate",
+        "overclaim",
+        "cardiovascular events",
+        "surrogate",
+        "generalizability",
+        "generalize",
+        "extrapolat",
+        "not measured"
+      ]
+    }
+  ]
+}

@@ -14,12 +14,12 @@ description: Use when running the final pre-submission preflight for a Journal o
 
 ## Process facts (检索于 2026-06，费用项再核实于 2026-06-22；以官网为准; re-confirm on the JFM guide for authors before submitting)
 
-- JFM is an **Elsevier** journal (ISSN 1386-4181 print / 1878-576X online); submission is via **Elsevier Editorial Manager** (待核实 the exact portal link on the journal's guide-for-authors page).
+- JFM is an **Elsevier** journal (ISSN 1386-4181 print / 1878-576X online); submission is via Elsevier's submission system — the journal home's "Submit your article" button points to **https://submit.elsevier.com/JFM** (seen on the 2026-10-17 archive capture of the home page). **Managing Editor (re-verified 2026-11-24): Paolo Pasquariello (University of Michigan)** — the Lehmann / Seppi / Subrahmanyam slate in earlier versions of this pack came from stale aggregator listings.
 - **Review model:** double-blind reported by secondary sources (待核实 against the official guide). If double-blind, the manuscript file must be **fully anonymized** — no author names, no acknowledgments, no self-citation tells like "in our earlier work," no identifying file metadata; author details go on a separate title page.
 - **Reference style, abstract word limit, and any structured-abstract / JEL requirements:** 待核实 on the guide for authors. Elsevier finance journals typically use an author-date style; confirm the exact format.
 - **Declarations (Elsevier-standard):** Declaration of Competing Interest; funding sources; CRediT author-contribution statement; data-availability statement; statement on generative-AI use (AI may not be listed as an author). Verify the current required set.
-- **Submission fee:** JFM charges a **US$170 submission fee** for original *and* revised submissions; the manuscript is only considered once the fee is paid (verified 2026-06-22 via the Elsevier guide for authors; re-confirm live, and check the developing-country/limited-means waiver if relevant). Do **not** assume JFM is fee-free.
-- **APC / open access:** JFM offers subscription (no APC) and open-access routes; the OA **APC is USD 3,040 excluding taxes** (verified 2026-06-22, single source — treat as indicative and re-confirm the exact figure live before opting into open access).
+- **Submission fee:** JFM charges a submission fee; the manuscript is only considered once it is paid. The 2026-06-22 search snippets gave **US$170** for original *and* revised submissions, but a 2026-11-24 search-engine rendering of the Guide for Authors quotes **US$275 for new submissions**, half refunded on a desk rejection without review (index date uncertain) — **待核实: re-open the live guide for the current amount**, and check the developing-country/limited-means waiver if relevant. Do **not** assume JFM is fee-free.
+- **APC / open access:** JFM offers subscription (no APC) and open-access routes; the OA **APC is USD 3,230 excluding taxes** (official journal home, Internet Archive capture of 2026-10-17; was USD 3,040 on 2026-06-22 — re-confirm the exact figure live before opting into open access).
 
 ## Preflight checklist
 
@@ -59,11 +59,33 @@ The cover letter is read by the handling editor as a triage signal. In a tight p
 
 If the portal requests suggested reviewers, treat it as a real lever. Propose three to five **microstructure specialists** whose own work your paper engages, excluding recent coauthors, advisors/advisees, and same-institution colleagues — a conflicted suggestion is worse than none. The point is to signal which sub-field expertise the paper needs (information-based, market design, HFT), helping the editor route it well. If there are scholars who should be excluded for a genuine conflict, the portal usually allows that too; use it sparingly and only for real conflicts, since over-exclusion reads as gaming the process. None of this substitutes for the paper standing on its own at desk screen.
 
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jfm-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
+
 ## Anti-patterns
 
 - Uploading a non-anonymized manuscript when the model is double-blind (self-citation/metadata tells)
 - A data-availability statement that contradicts the replication package's access path
-- Forgetting the US$170 submission fee (due on original *and* revised submissions), or assuming a fixed word limit, without checking the live guide
+- Forgetting the submission fee (amount 待核实: US$170 in 2026-06 snippets vs US$275 in a 2026-11-24 rendering of the guide), or assuming a fixed word limit, without checking the live guide
 - A cover letter that pitches the paper as broad finance instead of microstructure
 - Treating any volatile fact above as settled when it is marked 待核实
 

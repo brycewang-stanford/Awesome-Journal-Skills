@@ -6,10 +6,10 @@ library; it is a scaffold for packaging the computational half of an RSS submiss
 
 ## Shared kit
 
-- [`../../../shared-resources/ml-conference-methods/README.md`](../../../shared-resources/ml-conference-methods/README.md)
-- [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../../../shared-resources/ml-conference-methods/experiment-matrix.md)
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/README.md`](../shared/ml-conference-methods/README.md)
+- [`../../../shared-resources/ml-conference-methods/experiment-matrix.md`](../shared/ml-conference-methods/experiment-matrix.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
 
 ## Typical use
 
@@ -34,7 +34,8 @@ manifests). An RSS supplement carries evidence the script cannot see:
    colors, and file metadata that would break double-blind review
    (`rss-supplementary`).
 5. **Self-containment of the PDF** — nothing decision-critical may live only in the
-   archive; the 2026 CFP requires the main paper to stand alone.
+   archive; the RSS 2027 CFP reviews nothing beyond the 6-page Stage 1 PDF and does not
+   oblige reviewers to read the Stage 2 supplement, so the main paper must stand alone.
 
 Venue policy always comes from [`../official-source-map.md`](../official-source-map.md)
 and the live CFP, never from this adapter.

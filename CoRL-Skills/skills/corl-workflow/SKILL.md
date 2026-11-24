@@ -6,30 +6,32 @@ description: Use when planning a CoRL submission cycle end to end — the late-M
 # CoRL Workflow
 
 CoRL runs one cycle per year on a spring-submit / autumn-decide / November-meet
-rhythm. This skill turns the 2026 calendar (verified 2026-07-08 via corl.org,
-OpenReview, and the conference's public timeline) into a working plan, including
-what a team should be doing *right now* in each phase.
+rhythm. This skill turns the CoRL 2026 calendar (re-verified 2026-11-24 against the
+corl.org Instruction for Authors key-dates table) into a working plan for each phase.
+As of 2026-11-24 the 2026 cycle is complete and CoRL 2027 has not been announced.
 
 ## The 2026 cycle as a reference timeline
 
-| Milestone | CoRL 2026 date | Status on 2026-07-08 |
+| Milestone | CoRL 2026 date (AoE) | Status on 2026-11-24 |
 |---|---|---|
-| Abstract registration | May 26, 2026 | passed |
-| Paper + supplementary deadline | May 29, 2026 | passed |
-| Review period (reviewers, ACs, SACs) | June – early August 2026 | **in progress** |
-| Reviews released / first-round rejections | early August 2026 [exact date 待核实] | upcoming |
-| One-page PDF rebuttal due | August 11, 2026, 11:59 PM AoE | upcoming |
-| Reviewer–AC discussion window | August 12–19, 2026 | upcoming |
-| Decision notification | September 2026 [exact date 待核实] | upcoming |
-| Camera-ready to PMLR pipeline | October 12, 2026, 23:59 AoE | upcoming |
-| Conference (JW Marriott, Austin, TX) | November 9–12, 2026 (workshops Nov 9) | upcoming |
+| OpenReview submission opens | May 8, 2026 | passed |
+| Abstract registration (authors frozen) | May 25, 2026 | passed |
+| Paper deadline | May 28, 2026 (a Thursday) | passed |
+| Supplementary deadline | June 4, 2026 | passed |
+| Initial reviews due (reviewers) | July 28, 2026 | passed |
+| Reviews released / early rejections | August 4, 2026 | passed |
+| One-page PDF rebuttal due | August 11, 2026, 11:59 PM AoE | passed |
+| Reviewer–AC discussion window | August 12–19, 2026 | passed |
+| Acceptance notification | September 4, 2026 | passed |
+| Camera-ready to PMLR pipeline | October 12, 2026, 23:59 AoE | passed |
+| Conference (Austin, TX) | main conference November 9–11, workshops November 12, 2026 | held |
 
 Every date above is a single cycle's snapshot. The 2027 cycle will publish its own
 timeline at the corl.org year-site; nothing here transfers automatically.
 
 ## Phase playbooks
 
-### Now: the submitted-paper quiet period (June–July)
+### The submitted-paper quiet period (June–July)
 
 - **Do not update the OpenReview PDF** — the submission is frozen; focus energy on
   experiments you may need for the rebuttal instead.
@@ -40,9 +42,9 @@ timeline at the corl.org year-site; nothing here transfers automatically.
 - Keep the anonymized project site (if any) untouched and unlinked from any
   identity; review is double-anonymous until decisions.
 - Decide the fallback venue now (see `corl-topic-selection`), so a first-round
-  rejection in early August converts to a resubmission plan the same week.
+  rejection (August 4 in 2026) converts to a resubmission plan the same week.
 
-### Reviews land (early August)
+### Reviews land (early August; August 4 in 2026)
 
 - Triage against the first-round rejection rule first: in the 2026 process, a paper
   with no score of weak-accept-or-above from any reviewer or the AC is a candidate
@@ -51,7 +53,7 @@ timeline at the corl.org year-site; nothing here transfers automatically.
 - Map each concern to: (a) already answered in the paper, (b) answerable with a
   prepared experiment, (c) requires concession. One page forces this triage anyway.
 
-### Rebuttal through decision (mid-August – September)
+### Rebuttal through decision (mid-August – early September; notification September 4 in 2026)
 
 - Submit the one-page PDF by August 11, 11:59 PM AoE; then remain reachable — the
   reviewer–AC discussion (Aug 12–19) can surface follow-ups, and reviewers are
@@ -82,10 +84,10 @@ rebuttal_prep:
   real_robot_spotcheck:   {owner: , status: }
   one_page_template_ready: {owner: , status: }  # LaTeX skeleton compiled
 dates_to_watch:
-  reviews_released: "early Aug 2026 (待核实 — watch OpenReview + corl.org)"
+  reviews_released: "2026-08-04 AoE (2026 pattern; reread the live key dates)"
   rebuttal_due: "2026-08-11 23:59 AoE"
   discussion: "2026-08-12..19"
-  decision: "Sep 2026 (待核实)"
+  decision: "2026-09-04 AoE"
   camera_ready: "2026-10-12 23:59 AoE"
 fallback:
   venue: ""                          # decided BEFORE decisions arrive
@@ -94,7 +96,8 @@ fallback:
 
 ## Planning a CoRL 2027 submission from scratch
 
-Working backward from a late-May deadline (the 2026 pattern; 2027 dates 待核实):
+Working backward from a late-May deadline (the 2026 pattern; CoRL 2027 dates, venue
+and call not announced as of 2026-11-24):
 
 1. **T minus 9–12 months** — lock the task suite and data-collection plan; hardware
    time and teleop data are the long poles in robot-learning projects.
@@ -106,7 +109,8 @@ Working backward from a late-May deadline (the 2026 pattern; 2027 dates 待核�
 4. **T minus 1 month** — supplementary video storyboarded and shot
    (`corl-supplementary`); anonymization sweep of paper, video, and any site.
 5. **Deadline week** — abstract registration a few days before the paper deadline
-   (2026 spacing: May 26 vs May 29); final OpenReview form checks per
+   (2026 spacing: May 25 vs May 28, with the supplement a week later on June 4);
+   final OpenReview form checks per
    `corl-submission`.
 
 ## Risks specific to this venue's shape
@@ -119,4 +123,4 @@ Working backward from a late-May deadline (the 2026 pattern; 2027 dates 待核�
   real-robot table in the final month.
 
 Reconfirm every date at https://www.corl.org/ (2026 cycle) or the 2027 year-site
-before acting; this file records the 2026-07-08 state of knowledge.
+before acting; this file records the 2026-11-24 state of knowledge.

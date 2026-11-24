@@ -10,13 +10,14 @@ packaging the author-optional double-blind PCS submission with its supplemental 
 materials; navigating the **two-phase review** with its **conditional-accept second round**; and
 delivering the TVCG camera-ready plus a Graphics Replicability Stamp.
 
-Official basis checked on **2026-07-09**: the IEEE VIS 2026 Call for Full Papers, Paper Submission
-Guidelines, Review Instructions, Area Model, and Open Practices pages; the VIS 2026 review-process
-changes blog; the IEEE VGTC/TVCG template; and the Graphics Replicability Stamp Initiative. Direct
-fetches of `ieeevis.org`, `ieeexplore.ieee.org`, and `precisionconference.com` returned 403 in the
-verification environment, so official pages were read via search-engine renderings of the exact URLs
-and cross-checked against the official `@ieeevis` announcements, IEEE Xplore/TVCG, the IEEE VIS
-Wikipedia entry, and dblp; the full trail, including everything still marked 待核实, is in
+Official basis **re-verified 2026-11-24**: the IEEE VIS 2026 Call for Full Papers, Paper Submission
+Guidelines, Review Instructions, Area Model, Short Papers and Open Practices pages, the VIS 2026
+welcome page and OPC blog were re-read directly on ieeevis.org (they were 403 from the July build
+environment and had then been read via search-engine renderings); the IEEE VGTC/TVCG template and
+the Graphics Replicability Stamp Initiative complete the base. IEEE VIS 2026 (Boston, 9-13 November
+2026) has met; **IEEE VIS 2027** is announced for Chicago but its call is not yet published, so the
+2026 rules stay as the latest published edition. The full trail, including everything still marked
+待核实, is in
 [`resources/official-source-map.md`](resources/official-source-map.md).
 
 > Scope-collision warning: IEEE VIS is **not** IEEE VR and **not** ISMAR — sibling VGTC conferences
@@ -60,7 +61,7 @@ of the mistakes made by authors arriving from CHI, from a vision/ML venue, or fr
 | [`vis-reproducibility`](skills/vis-reproducibility/SKILL.md) | Build the open-practices story: an honest open-materials statement, preregistration for studies, provenance, and a runnable archive. |
 | [`vis-supplementary`](skills/vis-supplementary/SKILL.md) | Split content between the reviewed 9 pages and the supplement — including the first-class video — by decision-criticality. |
 | [`vis-submission`](skills/vis-submission/SKILL.md) | Final PCS audit: the abstract-then-paper deadlines, the VGTC template and 9+2 budget, the optional double-blind sweep, open materials, desk-risk triage. |
-| [`vis-review-process`](skills/vis-review-process/SKILL.md) | Model the pipeline — six-area routing, primary/secondary/external/student reviewers, the two-phase conditional-accept second round — and where author leverage exists. |
+| [`vis-review-process`](skills/vis-review-process/SKILL.md) | Model the pipeline — six-area routing, primary/secondary/external/junior reviewers, the two-phase conditional-accept second round — and where author leverage exists. |
 | [`vis-author-response`](skills/vis-author-response/SKILL.md) | Write both turns: the first-round engagement and the conditional-accept summary-of-changes that maps every required change to a tracked edit. |
 | [`vis-artifact-evaluation`](skills/vis-artifact-evaluation/SKILL.md) | Convert the accepted paper's package into a Graphics Replicability Stamp via an independent volunteer's reproduction, plus Open Practices disclosures. |
 | [`vis-camera-ready`](skills/vis-camera-ready/SKILL.md) | De-anonymize, complete TVCG journal metadata, permanentize open-materials links, and pass IEEE production checks. |
@@ -69,7 +70,7 @@ of the mistakes made by authors arriving from CHI, from a vision/ML venue, or fr
 
 | Path | Contents |
 | --- | --- |
-| [`resources/official-source-map.md`](resources/official-source-map.md) | Eleven sources with URLs and access dates; verified 2026 facts; the access-method note; the explicit 待核实 list. |
+| [`resources/official-source-map.md`](resources/official-source-map.md) | Fifteen sources with URLs and access dates; the edition-status paragraph; verified 2026 facts; the access-method note; the explicit 待核实 list; the machine-readable rules block. |
 | [`resources/external_tools.md`](resources/external_tools.md) | Live official surfaces plus cross-check sources for when the gateway blocks a direct fetch, and author-side verification passes. |
 | [`resources/exemplars/library.md`](resources/exemplars/library.md) | Five archival-verified IEEE VIS / TVCG papers across five contribution types — Test-of-Time honorees — with self-check questions. |
 | [`resources/worked-examples/01-introduction.md`](resources/worked-examples/01-introduction.md) | A fictional uncertainty-encoding study's abstract and introduction rebuilt to the VIS arc, before → after. |
@@ -132,13 +133,16 @@ VIS-Skills/
 
 ## 2026-cycle anchor facts (historical snapshot, not permanent rules)
 
-- IEEE VIS 2026 is in **Boston, Massachusetts, USA**, in **November 2026** (reported as 9-13 Nov;
-  confirm the day span — 待核实). Abstract deadline **21 March 2026**, full paper **31 March 2026**,
-  supplemental **7 April 2026**, first-round notification **15 July 2026** (all 23:59 AoE).
+- IEEE VIS 2026 was held in **Boston, Massachusetts, USA**, **9-13 November 2026** (official welcome
+  page). Abstract deadline **21 March 2026**, full paper **31 March 2026**, supplemental **7 April
+  2026**, first-round notification **6 June 2026**, second-round paper **1 July 2026**, final
+  notification **15 July 2026**, camera-ready **8 August 2026** (all 23:59 AoE). IEEE VIS 2027 is
+  announced for **Chicago, Illinois, USA**; its call is not yet published (checked 2026-11-24).
 - Publication: **IEEE TVCG**, journal-integrated. Submission: **PCS** under **VGTC**. Review:
   **two-phase, author-optional double-blind**, with a **conditional-accept second round**. Reviewers:
-  **primary + secondary + external** (2026 adds an optional student reviewer). Template: **IEEE
-  VGTC/TVCG**, **9+2** pages.
+  **primary + secondary + one external** (plus an optional **junior** reviewer the primary may
+  invite). Template: **IEEE VGTC/TVCG**, **9+2** pages. Short papers: **4+1** pages, VGTC conference
+  format, IEEE Xplore proceedings (not TVCG).
 
 ## Fact discipline
 
@@ -147,10 +151,10 @@ distinguishable:
 
 1. **Verified 2026 facts** — carry dates/budgets and trace to a numbered source in the source map
    (e.g., the TVCG publication, the 9+2 budget, the two-phase review, the six-area model).
-2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., the exact
-   conference day-span, the full Area Paper Chair roster).
-3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the exact VIS 2026 day span,
-   short-paper length and cycle, any generative-AI disclosure policy).
+2. **Reported facts** — read only via secondary renderings and labeled as such (e.g., the full Area
+   Paper Chair roster).
+3. **Unverifiable-at-check-time items** — explicitly marked 待核实 (e.g., the IEEE VIS 2027 dates,
+   page budget and AI-use guidelines, none of which are published yet).
 
 If any statement presents class 2 or 3 material in class 1 voice, treat it as a bug and fix it against
 the live official pages.

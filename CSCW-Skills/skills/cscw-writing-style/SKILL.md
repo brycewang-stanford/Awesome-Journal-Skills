@@ -86,5 +86,6 @@ re-reader can verify against your own data sections:
 Run the audit again on the revised manuscript before any R&R resubmission — the
 introduction is where reviewers first test whether the revision was real.
 
-The word-band and template facts reflect the 2026-cycle CFP checked 2026-07-08;
-confirm they carry into the rolling model before citing them to a co-author.
+The word-band and template facts reflect the 2026-cycle CFP re-checked 2026-11-24;
+the July 2026 rolling CFP carried the same band and template, but confirm them on the
+live PACMHCI CSCW track page before citing them to a co-author.

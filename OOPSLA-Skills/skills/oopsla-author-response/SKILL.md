@@ -6,12 +6,13 @@ description: Use when writing an OOPSLA author response inside the short per-rou
 # OOPSLA Author Response
 
 Each OOPSLA round gives authors one written response before decisions are
-finalized; the 2026 call scheduled it as a four-day Tuesday-to-Friday window
-per round (exact 2026 dates 待核实 — read them off the live HotCRP instance).
+finalized; the 2027 dates are Round 1 December 1–5, 2026 and Round 2
+June 15–19, 2027 (2026 used a four-day Tuesday-to-Friday window). Papers
+rejected after two clearly negative reviews get no response window.
 What makes the OOPSLA response unlike a classic rebuttal is the decision
 space: reviewers are not only choosing accept-or-reject, they are choosing
 among **Accept, Minor Revision, Major Revision, and Reject** (2026 merged the
-old Conditional Accept into Minor Revision). Your response is an argument
+old Conditional Accept into Minor Revision, kept in 2027). Your response is an argument
 about *which bucket the paper's problems belong in*.
 
 ## Reframe every objection as a bucket question

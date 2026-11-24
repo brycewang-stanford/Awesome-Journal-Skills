@@ -1,13 +1,13 @@
 ---
 name: ssc-abstract-keywords
-description: Use when writing or fixing the abstract and keywords for 《中国社会科学》 (Social Sciences in China) — a 200–300 Chinese-character abstract that leads with the original proposition and contribution (not background), 3–5 keywords, and an aligned high-quality English abstract. Use at the polishing stage.
+description: Use when writing or fixing the abstract and keywords for 《中国社会科学》 (Social Sciences in China) — a ≤300 Chinese-character abstract that leads with the original proposition and contribution (not background), 3–5 keywords, and an aligned high-quality English abstract. Use at the polishing stage.
 ---
 
 # 摘要与关键词（ssc-abstract-keywords）
 
 ## 规范（据官网《投稿须知》，详见 resources/journal-profile.md）
 
-- 摘要 **200–300 字**
+- 摘要 **300 字以内**（中、英文摘要均需提供）
 - 关键词 **3–5 个**
 - 配中英文标题、摘要、关键词；**英文摘要质量要求高**（以投稿系统要求为准）
 
@@ -45,7 +45,7 @@ description: Use when writing or fixing the abstract and keywords for 《中国�
 
 ## 摘要压缩法
 
-先写 4 句，再压到 200–300 字：
+先写 4 句，再压到 300 字以内：
 
 1. 本文回应什么理论分歧。
 2. 本文提出什么原创命题或框架。
@@ -86,7 +86,7 @@ description: Use when writing or fixing the abstract and keywords for 《中国�
 
 ## 自检清单
 
-- [ ] 摘要 200–300 字
+- [ ] 摘要 300 字以内
 - [ ] 第 1–2 句即给出命题/贡献，不是背景
 - [ ] 含问题、命题、支撑、意义四要素
 - [ ] 关键词 3–5 个，含原创概念，无过泛词
@@ -101,7 +101,7 @@ description: Use when writing or fixing the abstract and keywords for 《中国�
 ## 输出格式
 
 ```
-【字数】X（目标 200–300）
+【字数】X（上限 300）
 【命题前置】是 / 否
 【四要素】问题□ 命题□ 支撑□ 意义□
 【关键词】<3–5 个>（含原创概念：是/否）

@@ -1,0 +1,159 @@
+{
+  "id": "icml-ml-method",
+  "pack": "ICML-Skills",
+  "venue": "International Conference on Machine Learning (ICML)",
+  "format": "tex",
+  "synthetic": true,
+  "summary": "A fictional ICML methods paper proposing Group-Spectrum Alignment, a Ky Fan k-norm covariance regularizer over inferred pseudo-groups that improves worst-group accuracy under subpopulation shift on Waterbirds, CelebA, MultiNLI and CivilComments.",
+  "defects": [
+    {
+      "id": "M1",
+      "kind": "mechanical",
+      "check": "STMT-MISSING",
+      "statement": "broader_impact",
+      "find": "\\section*{Impact Statement}\n\nThis work aims to make classifiers less dependent on spurious correlations, which can improve performance for under-represented groups. Two of our benchmarks define groups by demographic attributes (gender in CelebA and identity mentions in CivilComments). Higher worst-group accuracy on these benchmarks does not establish fairness in deployment: real populations contain groups not annotated in any benchmark, and a method that improves the worst annotated group can still fail on unannotated ones. Practitioners should evaluate on the groups relevant to their own application. We do not foresee direct negative uses specific to this method beyond those of classification models in general.\n\n",
+      "replace": "",
+      "description": "The required Impact Statement section is deleted.",
+      "rule_basis": "ICML-Skills/resources/official-source-map.md: 'Main-track papers require an impact statement' (source 2, ICML 2026 Author Instructions); icml-submission skill: 'Include the impact statement in the required place for main-track papers.'"
+    },
+    {
+      "id": "M2",
+      "kind": "mechanical",
+      "check": "ANON-AUTHOR",
+      "find": "\\author{Anonymous Authors}",
+      "replace": "\\author{Marisol Q. Vantreese \\\\ Department of Computer Science, Northlake Institute of Technology \\\\ \\texttt{m.vantreese@northlake-tech.edu}}",
+      "description": "A named author, affiliation and email appear in a double-blind submission.",
+      "rule_basis": "official-source-map.md: 'All submissions are double-blind; author identity leaks in paper or supplement can lead to rejection.'"
+    },
+    {
+      "id": "M3",
+      "kind": "mechanical",
+      "check": "ANON-URL",
+      "find": "\\url{https://anonymous.4open.science/r/gsa-subpop-3F7C}",
+      "replace": "\\url{https://github.com/mvantreese/gsa-subpop}",
+      "description": "The code link points to a personal GitHub account instead of an anonymized repository.",
+      "rule_basis": "official-source-map.md: 'anonymized repositories are allowed' and supplementary code/data 'must be anonymized'; icml-submission: no repo or link leak."
+    },
+    {
+      "id": "M4",
+      "kind": "mechanical",
+      "check": "ANON-ACK",
+      "find": "\\begin{thebibliography}{99}",
+      "replace": "\\section*{Acknowledgments}\nWe thank Priya Okonjo-Halvard for feedback on early drafts. This work was supported by the Northlake Institute of Technology AI Initiative and by Example Science Foundation grant EXF-2024-118734.\n\n\\begin{thebibliography}{99}",
+      "description": "An acknowledgments section naming a colleague, the institution and a grant number is added to the anonymous submission.",
+      "rule_basis": "icml-submission skill: confirm double-blind compliance in 'acknowledgments, grant numbers, and links'; official-source-map.md double-blind policy."
+    },
+    {
+      "id": "M5",
+      "kind": "mechanical",
+      "check": "REF-MISSING",
+      "find": "and the gap can exceed thirty points on standard benchmarks.",
+      "replace": "and the gap can exceed thirty points on standard benchmarks, mirroring the brittleness of image classifiers under common corruptions \\citep{hendrycks2019benchmarking}.",
+      "description": "A citation key (hendrycks2019benchmarking) is cited in the introduction but has no bibliography entry.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M6",
+      "kind": "mechanical",
+      "check": "EXH-UNREFERENCED",
+      "find": "Table~\\ref{tab:sensitivity} reports test worst-group accuracy over a grid",
+      "replace": "We also report test worst-group accuracy over a grid",
+      "description": "The only in-text reference to Table 3 (tab:sensitivity) is removed, leaving the table unreferenced.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M7",
+      "kind": "mechanical",
+      "check": "NUM-MISMATCH",
+      "find": "GSA raises mean worst-group accuracy from 61.5\\% under ERM to 82.8\\%",
+      "replace": "GSA raises mean worst-group accuracy from 61.5\\% under ERM to 84.6\\%",
+      "description": "The abstract reports a mean worst-group accuracy of 84.6%, while Table 1 and the results text report 82.8.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "M8",
+      "kind": "mechanical",
+      "check": "LEFTOVER-MARKER",
+      "find": "and we have not tested problems with hundreds of classes.",
+      "replace": "and we have not tested problems with hundreds of classes (TODO: add ImageNet-scale experiment before the deadline).",
+      "description": "A TODO note is left in the Limitations section.",
+      "rule_basis": "universal"
+    },
+    {
+      "id": "S1",
+      "kind": "substantive",
+      "lens": "identification",
+      "severity": "major",
+      "find": "Following the recommendations of \\citet{gulrajani2021search}, we select the configuration and the early-stopping epoch for every method by worst-group accuracy on the validation split, which carries group labels. The test split is evaluated once per seed, after selection, with the chosen configuration; no test-set quantity influences any choice.",
+      "replace": "Because the validation split contains very few minority-group examples on some datasets, we select the configuration and the early-stopping epoch for every method by worst-group accuracy on the test split, which gives a more reliable estimate of the quantity of interest.",
+      "description": "Hyperparameters and early stopping are selected on test worst-group accuracy, so all reported test numbers are optimistically biased (test-set leakage / oracle selection).",
+      "match_terms": [
+        "test set",
+        "test split",
+        "model selection",
+        "early stopping",
+        "leakage",
+        "oracle",
+        "validation",
+        "optimistic"
+      ]
+    },
+    {
+      "id": "S2",
+      "kind": "substantive",
+      "lens": "inference",
+      "severity": "major",
+      "find": "On Waterbirds, the difference from DFR is 0.6 points, which is within one standard deviation of either method, so we do not claim an improvement there.",
+      "replace": "On Waterbirds, GSA also significantly outperforms DFR by 0.6 points, establishing a new state of the art on all four benchmarks; GSA is therefore uniformly superior to DFR.",
+      "description": "A 0.6-point gain that lies within one seed standard deviation (0.6 vs 0.7) is declared significant without any test, and used to claim uniform superiority.",
+      "match_terms": [
+        "standard deviation",
+        "within noise",
+        "not significant",
+        "statistical significance",
+        "overlap",
+        "seeds",
+        "variance",
+        "statistical test"
+      ]
+    },
+    {
+      "id": "S3",
+      "kind": "substantive",
+      "lens": "robustness",
+      "severity": "major",
+      "find": "Every method, including all baselines, receives the same budget: a random search of 24 configurations per dataset over learning rate, weight decay and the method's own hyperparameters (for GSA, $\\lambda \\in [0.01, 3]$ on a log scale, $k \\in \\{1, 2, 4, 8, 16\\}$ and $T_{\\mathrm{id}} \\in \\{1, 2, 5\\}$ epochs; for baselines, the ranges recommended in their original papers). Search ranges for all methods are listed in the released configuration files.",
+      "replace": "We tune GSA with a random search of 96 configurations per dataset over learning rate, weight decay, $\\lambda \\in [0.01, 3]$ on a log scale, $k \\in \\{1, 2, 4, 8, 16\\}$ and $T_{\\mathrm{id}} \\in \\{1, 2, 5\\}$ epochs. For the baselines we use the hyperparameters reported in their original papers without further tuning, since re-tuning every baseline would be prohibitively expensive.",
+      "description": "The proposed method receives a 96-configuration search while baselines run at untuned published defaults, so the comparison is not at equal tuning budget.",
+      "match_terms": [
+        "tuning budget",
+        "hyperparameter search",
+        "unequal",
+        "default hyperparameters",
+        "fair comparison",
+        "same budget",
+        "untuned",
+        "baselines"
+      ]
+    },
+    {
+      "id": "S4",
+      "kind": "substantive",
+      "lens": "contribution",
+      "severity": "major",
+      "find": "Our evidence is limited to subpopulation shift defined by a single spurious attribute; whether the same penalty helps under domain shift or covariate shift without group structure is an open question that our experiments do not address.",
+      "replace": "Because GSA removes group-specific directions from the representation, it provides a general solution to distribution shift: we expect it to deliver the same gains under domain generalization, covariate shift and label shift without modification, making dedicated robustness methods for those settings unnecessary.",
+      "description": "The conclusion claims GSA solves distribution shift in general (domain generalization, covariate and label shift) although only subpopulation-shift benchmarks with a single spurious attribute were evaluated.",
+      "match_terms": [
+        "overclaim",
+        "general solution",
+        "domain generalization",
+        "covariate shift",
+        "label shift",
+        "subpopulation shift",
+        "not evaluated",
+        "scope"
+      ]
+    }
+  ]
+}

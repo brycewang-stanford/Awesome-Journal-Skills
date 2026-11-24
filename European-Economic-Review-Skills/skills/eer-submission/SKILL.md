@@ -15,7 +15,7 @@ description: Use when running the final pre-submission preflight for the Europea
 ## Process facts (检索于 2026-06；以官网为准)
 
 - EER is **Elsevier's** general-interest European economics journal (founded 1969), hosted on **ScienceDirect** (ISSN 0014-2921). Submission is via **Editorial Manager** at `https://www.editorialmanager.com/eerev`.
-- **Editors-in-Chief (verified 2026-06-22):** Evi Pappa (Universidad Carlos III de Madrid), David K. Levine (Royal Holloway), Stefania Garetto (Boston University), Peter Rupert (UC Santa Barbara), and Robert Sauer (Royal Holloway). EER uses a multi-editor masthead; re-verify the current editor on the ScienceDirect editorial-board page before naming one in a cover letter.
+- **Editors-in-Chief (verified 2026-06-22):** Evi Pappa (Universidad Carlos III de Madrid), David K. Levine (Royal Holloway), Stefania Garetto (Boston University), Peter Rupert (UC Santa Barbara), and Robert Sauer (Royal Holloway). EER uses a multi-editor masthead; re-verify the current editor on the ScienceDirect editorial-board page before naming one in a cover letter — a 2026-11-24 re-check could not open that page (HTTP 403), and search snippets of it disagreed on roles and affiliations and also listed Donna Gilleskie (UNC Chapel Hill), so the roster is 待核实.
 - **Review model:** **single-anonymized** (single-blind) — referees see author identities; editors desk-screen for scope/novelty before sending to **≥2 referees**. First decision is typically fast.
 - **Submission fee (verified 2026-06-22):** **non-refundable EUR 125** for new submissions (**EUR 100** if the contact author is a PhD student; **EUR 50** if from a Research4Life **Group B** country); **Research4Life Group A** countries eligible for a **full waiver via a voucher** requested before submission. Submissions are considered only after the fee is paid. Re-verify current amounts and waiver routes before filing.
 - **Mandatory replication policy:** accepted papers with empirical/simulation/experimental content must provide data, programs, and computational details **before publication** (see `eer-replication-package`).
@@ -26,8 +26,8 @@ description: Use when running the final pre-submission preflight for the Europea
 
 ### Format & house style (Elsevier economics)
 - [ ] Manuscript in an **editable format** (LaTeX or Word) — editable source is required to typeset the final article
-- [ ] **Abstract**, **JEL codes**, and **keywords** present (re-confirm any abstract word limit — 检索于 2026-06)
-- [ ] **Research highlights** included (a few concise bullet findings)
+- [ ] **Abstract** of no more than **250 words**, **JEL codes**, and **1–7 keywords** present (guide for authors, checked 2026-11-24)
+- [ ] **Research highlights** (encouraged, not mandatory): 3–5 bullets of at most 85 characters each, uploaded as a separate file with "highlights" in the file name
 - [ ] Figures/tables legible for review; **editable/vector source** ready for final files
 - [ ] **Standard errors reported**; significance stars do not replace SEs/magnitudes
 - [ ] References complete and consistent (Elsevier reference style; re-confirm exact style — 检索于 2026-06)
@@ -41,8 +41,30 @@ description: Use when running the final pre-submission preflight for the Europea
 ### Declarations & policy
 - [ ] **Declaration of interest** statement (Elsevier requirement) + funding sources
 - [ ] **Data and code availability statement** consistent with the replication package
-- [ ] Confirmed not under review elsewhere; **AI not listed as an author**; authorship/CRediT roles set
+- [ ] Confirmed not under review elsewhere; **AI not listed as an author**; any generative-AI use in preparing the manuscript **declared at submission** (Elsevier template statement); authorship/CRediT roles set
 - [ ] Experimental papers: instructions/transcripts included; pre-registration noted where applicable
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue eer-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

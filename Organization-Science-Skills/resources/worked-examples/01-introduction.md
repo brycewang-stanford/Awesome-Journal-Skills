@@ -137,6 +137,6 @@ Mapped to the skill checklists:
 - **Boundary condition stated as theory** — worker standing is part of the mechanism's scope, not a
   limitations afterthought.
 
-> Next: turn this introduction arc into the mandatory **<500-word contribution statement** with
+> Next: turn this introduction arc into a concise **cover-letter contribution case** with
 > [`orgsci-contribution-framing`](../../skills/orgsci-contribution-framing/SKILL.md), and adapt the
 > reproducible analysis skeleton in [`../code/`](../code/) for the archival-panel arm.

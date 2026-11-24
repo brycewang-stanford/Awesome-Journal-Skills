@@ -13,7 +13,7 @@ description: Use when you want to understand how Organization Science review and
 
 ## The decentralized senior-editor model
 
-Organization Science runs a **decentralized model**: **Senior Editors** plus an **Editorial Review Board**, under Editor-in-Chief **Lamar Pierce** (Washington University in St. Louis). Each **Senior Editor has strong autonomy** — an SE can independently **accept, reject, or request an R&R**. This differs sharply from sister journal Management Science's fixed **departmental area-editor** routing: here the SE decides your paper, not a department head dispatching to an area editor. Routing follows a **conflict-of-interest cascade** — the **EIC handles deputy-editor submissions** and **deputy editors handle senior-editor submissions** — so editors do not adjudicate their own work.
+Organization Science runs a **decentralized model**: **Senior Editors** plus an **Editorial Review Board**, under Editor-in-Chief **Lamar Pierce** (Washington University in St. Louis; final term ends June 30, 2027 — INFORMS opened the successor search in 2026). Each **Senior Editor has strong autonomy** — an SE can independently **accept, reject, or request an R&R**. This differs sharply from sister journal Management Science's fixed **departmental area-editor** routing: here the SE decides your paper, not a department head dispatching to an area editor. Routing follows a **conflict-of-interest cascade** — the **EIC handles deputy-editor submissions** and **deputy editors handle senior-editor submissions** — so editors do not adjudicate their own work.
 
 ## What happens to your submission
 

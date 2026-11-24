@@ -7,7 +7,7 @@ description: Use when writing the response to a Developmental Psychology (APA) r
 
 A Developmental Psychology **R&R** typically asks for **a measurement-invariance test, an attrition
 analysis, added robustness, fuller JARS disclosure, or stronger transparency** — and all of it must fit
-back inside the **length tier**, with masking intact if review is masked. The response letter must convert
+back inside the **length tier**, with masking intact (review is masked for all submissions). The response letter must convert
 every reviewer and reassure the handling editor that the **developmental claim is credible**.
 
 ## When to trigger
@@ -29,8 +29,8 @@ every reviewer and reassure the handling editor that the **developmental claim i
    main text stays within budget; summarize briefly in the main text and point to the supplement.
 5. **Concede or rebut with evidence.** Did what was asked (cite the location), or push back respectfully
    with a reason — and never add an analysis that quietly undercuts the change claim without disclosing it.
-6. **Keep masking and sync deposits.** Keep the revised manuscript and links anonymized if review is
-   masked, and ensure new analyses are reflected in the shared scripts/data
+6. **Keep masking and sync deposits.** Keep the revised manuscript and links anonymized (masked review
+   applies to all submissions), and ensure new analyses are reflected in the shared scripts/data
    (see `devpsych-open-science-and-transparency`).
 
 ## Response-letter format

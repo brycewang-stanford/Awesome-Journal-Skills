@@ -34,14 +34,14 @@ At HR, exhibits are part of the *theoretical* apparatus, not an appendix of proo
 ## House-style and submission constraints
 
 - **SAGE Harvard (author-date)** governs in-text references and notes within exhibits (检索于 2026-06；以官网为准).
-- The **13,000-word total cap** includes everything; bloated tables and a long appendix compete with the main text for that budget — every exhibit must earn its space.
+- The **13,000-word total cap** counts the abstract, text, endnotes, references and appendices but **excludes tables and figures** (re-verified 2026-11-24, HR "How to prepare your submission", Jan 2026). Tables are not a loophole, though: a long appendix still eats the budget, and every exhibit must earn its space with reviewers.
 - **Anonymize all exhibits** for double-anonymous review: no organization names, no identifying figures, no author-revealing acknowledgements in notes.
 - Figures should be legible in greyscale and at the journal's column width.
 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Generate exhibits from the fitted result, not by retyping numbers (the usual source of
-body-vs-appendix drift). Full map: [`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Human Relations blends critical/qualitative and quantitative work; apply the chain below to its survey / experimental quantitative papers.
+body-vs-appendix drift). Full map: [`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Human Relations blends critical/qualitative and quantitative work; apply the chain below to its survey / experimental quantitative papers.
 
 - **Tables:** `etable` (multi-model columns) or `did_summary_to_latex` straight from the
   `result_id`.
@@ -58,7 +58,7 @@ See a full fitted-result → exhibit chain in the [JF execution walkthrough](../
 - [ ] Process papers: a phase/temporal model figure is present
 - [ ] Quant: SEs/CIs reported; magnitudes interpreted in text, not via asterisks alone
 - [ ] Interactions are plotted; multilevel results labelled by level
-- [ ] Every exhibit earns its place against the 13k word budget
+- [ ] Every exhibit earns its place (tables/figures sit outside the 13k count; appendices do not)
 - [ ] All exhibits anonymized (no site/organization/author tells)
 - [ ] References within exhibits follow SAGE Harvard
 

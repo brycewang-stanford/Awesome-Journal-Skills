@@ -15,7 +15,8 @@ committee. Decide venue by community and contribution type, never by prestige ra
   a defense with measured cost, an applied-cryptography protocol, a systems or web-security
   mechanism, or a measurement study — aimed at the cross-area SIGSAC community.
 - Route to IEEE S&P (Oakland) when the work suits that PC's taste for foundational or
-  systematization framing and the November cycle fits your calendar better.
+  systematization framing and the November cycle fits your calendar better. An SoK or survey
+  must go elsewhere: the CCS 2026 call stated that CCS does not accept SoK or survey papers.
 - Route to USENIX Security when the contribution is artifact-heavy systems security whose
   evidence lives in a runnable tool and open benchmark.
 - Route to NDSS when the core is network- and distributed-system security (protocols, DNS,

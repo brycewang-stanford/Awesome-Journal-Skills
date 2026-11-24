@@ -9,11 +9,11 @@ kits so packs do not carry diverging copies.
 
 ## Shared kits
 
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
   — anonymous-review and public-release checks that transfer to any networking replication package.
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
   — dependency-free smoke checker for package layout.
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
   — generic pre-submission scaffolding; adapt it to the EDAS abstract-then-paper flow and the
   double-blind sweep in [`../../skills/infocom-submission/SKILL.md`](../../skills/infocom-submission/SKILL.md).
 

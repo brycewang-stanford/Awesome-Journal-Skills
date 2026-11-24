@@ -48,14 +48,20 @@ TAR requires authors to enable confirmation of data authenticity, with different
 - **Privately collected data** (proprietary field data, experiments): provide enough detail for
   reader confidence; **corroborating third parties** are acceptable.
 
-Code/data sufficiency is part of the submission and acceptance requirements (待核实 whether a named
-public repository deposit is mandated at acceptance). Build clean, commented scripts from raw
+Under the AAA Data Integrity and Research Record policy (re-verified 2026-11-24 on the Guide for
+Authors), TAR manuscripts **conditionally accepted on or after July 1, 2026** must supply a separate,
+editors-only **Data Description Disclosures** list (databases and download dates, collection decisions,
+simulation/AI-prompt steps, proprietary-data provenance) plus **all computer code** used to produce
+the results, documented so an independent researcher can reproduce the analysis; where code cannot
+legally be shared, a step-by-step description and the reason. Materials are kept in a private
+AAA-managed repository; final datasets must be archived by the authors for at least 7 years, and
+public deposit is strongly encouraged but **not** required. Build clean, commented scripts from raw
 extract to every table now — not after the R&R.
 
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). TAR is archival accounting — DiD around regulation / standard changes, IV, and earnings-based designs; the corporate-causal chain fits directly.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). TAR is archival accounting — DiD around regulation / standard changes, IV, and earnings-based designs; the corporate-causal chain fits directly.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

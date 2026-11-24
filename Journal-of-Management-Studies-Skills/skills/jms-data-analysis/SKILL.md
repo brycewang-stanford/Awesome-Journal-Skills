@@ -36,7 +36,7 @@ JMS judges analysis by whether it **credibly supports the theoretical claim**, i
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). JMS mixes qualitative and quantitative management research; the chain below is for the quantitative-empirical lane.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). JMS mixes qualitative and quantitative management research; the chain below is for the quantitative-empirical lane.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

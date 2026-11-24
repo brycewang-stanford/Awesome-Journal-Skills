@@ -1,0 +1,83 @@
+{
+  "manuscript": "arXiv-2611.21070/src/07_1_main_tourism_shock.tex",
+  "format": "tex",
+  "venue": "American Economic Review: Insights",
+  "pack": "AER-Insights-Skills",
+  "rules_verified": "2026-11-23",
+  "verdict": "NO-GO",
+  "stats": {
+    "abstract_words": 100,
+    "abstract_chars": 100,
+    "main_text_words": 5051,
+    "main_text_chars": 5051,
+    "main_exhibits": 5,
+    "word_cap_after_exhibits": 6000,
+    "keywords": 5
+  },
+  "findings": [
+    {
+      "check": "ANON-AUTHOR",
+      "severity": "FAIL",
+      "message": "Author block is not anonymized: 'Suguru Otanisuguru.otani@e.u-tokyo.ac.jp mailto:suguru.otani@e.u-tokyo.ac.jp, Market Desig'. Double-blind review requires removing names, affiliations and emails.",
+      "where": "front matter",
+      "owner": "*-submission (anonymization)",
+      "statement": ""
+    },
+    {
+      "check": "ANON-ACK",
+      "severity": "FAIL",
+      "message": "Acknowledgments / funding / thanks present in a double-blind submission; remove them until the camera-ready version.",
+      "where": "line 80",
+      "owner": "*-submission (anonymization)",
+      "statement": ""
+    },
+    {
+      "check": "STMT-MISSING",
+      "severity": "INFO",
+      "message": "Commented-out statement section(s) in the source, e.g. '\\section*{Declaration of Competing Interest}' — if the venue needs it, restore it; if not, delete it before uploading source.",
+      "where": "line 300",
+      "owner": "*-submission (required statements)",
+      "statement": ""
+    },
+    {
+      "check": "EXH-STARS",
+      "severity": "FLAG",
+      "message": "Significance asterisks in 23 table row(s) (first: 'Share $\\times$ Post & $-0.272^{***}$ & $-0.350^{***}$ & $-0.269^{***}$'); the venue does not allow them — report standard errors or confidence intervals instead.",
+      "where": "line 217 of the source with \\input files expanded",
+      "owner": "*-tables-figures",
+      "statement": ""
+    },
+    {
+      "check": "LEN-APPENDIX",
+      "severity": "INFO",
+      "message": "An appendix ('Appendix') is bound into this file. It was excluded from the counts above; check whether the venue counts in-file appendices or wants them uploaded separately.",
+      "where": "line 313",
+      "owner": "*-submission (move material to the appendix/supplement per *-internet-appendix or *-supplementary)",
+      "statement": ""
+    }
+  ],
+  "checked": [
+    "abstract ≤ 100 words",
+    "≤ 5 main-text exhibits",
+    "main text ≤ 6000 words (7000 − 200 × 5 exhibits)",
+    "anonymization (double-blind)",
+    "in-manuscript statements (the venue requires none; uploads listed in the portal checklist)",
+    "citations ↔ bibliography",
+    "exhibits referenced; table notes",
+    "abstract/introduction numbers traceable to the body or tables",
+    "placeholders, tracked changes, comments",
+    "no significance asterisks"
+  ],
+  "not_checked": [],
+  "portal_checklist": [
+    "Disclosure statement: required as a separate upload or form field, not inside the manuscript (keep it out of the anonymized file)",
+    "Cover letter: optional",
+    "AI/LLM policy: AI cannot be an author; AI use in preparing the manuscript (including drafting or editing text) must be briefly described at submission; authors responsible for checking AI output",
+    "Data & code policy: AEA Data and Code Availability Policy: data, code and computation details sufficient for replication before acceptance; AEA Data Editor checks",
+    "File format: PDF, under 10 MB where possible; anonymized manuscript with title and abstract on the first page plus a separate 'title page' PDF and the AEA word-count PDF",
+    "Anonymized supplement required: yes",
+    "Submission fee: AEA members USD 200 / 100 / 0, nonmembers USD 300 / 200 / 0 (high / middle / low income); 50% refund if rejected without review; plus USD 15 per typeset page publication fee for papers first submitted on or after 2024-02-01",
+    "Portal: ScholarOne Manuscripts",
+    "Reference style: author-date, based on the Chicago Manual of Style"
+  ]
+}

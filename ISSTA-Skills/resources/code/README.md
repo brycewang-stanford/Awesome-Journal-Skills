@@ -12,12 +12,12 @@ notebooks and benchmark-ranking framing out of this directory.
 
 ## Shared kits
 
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
   — anonymous-review and public-release checks that transfer directly to an ISSTA replication
   package.
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
   — dependency-free smoke checker for package layout (README, entry script, environment file).
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
   — generic pre-submission scaffolding; adapt it to the HotCRP audit in
   `../../skills/issta-submission/SKILL.md`.
 
@@ -45,7 +45,7 @@ or *Results Reproduced* is decided by the evaluators actually running it, not by
 - **Result tables regenerate from logged data** — the numbers in the PDF trace to a script over
   stored outputs, so paper and artifact cannot drift apart.
 - **Availability is Zenodo-backed** — the *Artifacts Available* badge requires a DOI-issuing public
-  archive (Zenodo), and that deposit is a distinct step from the anonymous review upload
+  archive (Zenodo, FigShare, Dryad or similar), and that deposit is a distinct step from the anonymous review upload
   (`../../skills/issta-artifact-evaluation/SKILL.md`).
 - **The review-time copy is anonymized** — repository owners, commit authors, and container labels
   scrubbed, because artifact review at ISSTA is double-anonymous alongside the paper.

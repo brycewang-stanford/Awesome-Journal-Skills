@@ -22,9 +22,10 @@ older IROS habits. Verify before trusting any number below.
 
 Run these in order; each is a distinct failure surface, not a restatement of the last.
 
-1. **Geometry pass.** Confirm the current content-page count and whether references and
-   appendices sit inside the limit (IROS counts them in; do not import an ML-venue "8 pages
-   excluding references" assumption). Check the extra-page charge, if any.
+1. **Geometry pass.** Confirm the current page count and whether references and appendices
+   sit inside the limit (IROS 2026: up to 8 pages *including* references and appendices; do
+   not import an ML-venue "8 pages excluding references" assumption). IROS 2026 dropped the
+   old 6 + 2 paid-page model — there is no extra-page purchase to fall back on.
 2. **Anonymity pass.** For the 2026 double-anonymous cycle: no author block, no
    affiliations, no grant numbers, no "our prior platform [x]" tells in text, figures, or
    the video. Keep the full author list only in PaperPlaza metadata.
@@ -46,5 +47,7 @@ Run these in order; each is a distinct failure surface, not a restatement of the
   decision and no author response window.
 - Do not treat the RA-L presentation pathway as a submission channel into IROS; in the 2026
   cycle it is a transfer of an already-published journal paper, not a joint submission.
-- If official pages disagree (as the March-2 vs April-30 deadline mention shows), use the
-  current year-site CFP and important-dates page as controlling, and record the conflict.
+- If official pages disagree (as the 2026 video deadline did: March 7 on the dates page,
+  March 5 in the CFP text), use the earlier date for planning, treat the current year-site
+  CFP and important-dates page as controlling, and record the conflict. Secondary
+  mentions (such as a LinkedIn "April 30" deadline in 2026) do not override them.

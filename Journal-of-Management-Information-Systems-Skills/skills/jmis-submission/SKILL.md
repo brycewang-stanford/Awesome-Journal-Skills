@@ -12,7 +12,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - Confirming the paper is double-blind-ready and inside the page/abstract limits
 - The team assumed a ScholarOne/T&F portal and needs the actual intake route
 
-## Process facts (source map refreshed 2026-06; re-confirm on jmis-web.org / tandfonline)
+## Process facts (source map re-verified 2026-11-24 on jmis-web.org; re-confirm on jmis-web.org / tandfonline)
 
 - JMIS is the Taylor & Francis (Routledge) quarterly founded in 1984 and edited by **Vladimir Zwass** (Fairleigh Dickinson University); Online ISSN 1557-928X.
 - **Intake is by email, not a portal.** Manuscripts are submitted to the EIC at **jmis@fdu.edu** with the subject line **"JMIS Submission"**, as MS Word or PDF attachments. There is no ScholarOne/T&F submission system at the intake stage. (检索于 2026-06；以官网为准.)
@@ -20,7 +20,7 @@ description: Use when running the final pre-submission preflight for a Journal o
 - **Length:** the complete manuscript should **not exceed 50 pages**; text in **12-point, double-spaced, left-justified**, pages numbered.
 - **Abstract:** **up to 150 words**, with **no citations**; include a set of **keywords/phrases**.
 - **References:** numbered in brackets (e.g., **[9]**) with an **alphabetized reference list** — an IEEE-like numbered style, not author-date.
-- **Attachments:** a cover letter (author affiliations, contact info, brief biographies) sent separately from the anonymized paper; **online appendixes** may be submitted separately; **survey instruments** must be provided as separate anonymized attachments if not in the paper.
+- **Attachments:** a cover letter (author affiliations, postal/email addresses and phone numbers, corresponding author, brief biographies, and the paper's title page with all author names and **funding sources**) sent separately from the anonymized paper; **online appendixes** may be submitted separately; **survey instruments** must be provided as separate anonymized attachments if not in the paper.
 - No submission fee is stated in the author guidelines. **待核实** if a fee or APC appears at acceptance.
 
 ## Preflight checklist
@@ -53,6 +53,28 @@ Because JMIS is published by Taylor & Francis, authors reasonably assume the sub
 ## A two-file discipline for double-blind
 
 Keep the package as two deliberately separated parts. (1) The **anonymized manuscript** — no names, affiliations, emails, funding IDs, acknowledgments, or revealing self-citations, and with document metadata stripped (a leftover author name in PDF/Word properties defeats blinding). (2) The **cover letter**, sent separately, carrying the identifying information (affiliations, contact, brief bios) the anonymized file must not. Survey instruments and online appendixes ride as additional **anonymized** attachments. Treat anything that could de-anonymize the authors in the manuscript file as a defect to fix before sending.
+
+## Automated preflight (run this first)
+
+Before working through this checklist by hand, run the repository's deterministic preflight
+on the actual file (`.tex`, `.md`, `.docx` or `.pdf`):
+
+```bash
+python3 tools/preflight.py paper.pdf --venue jmis-skills   # from a clone of the AJS repository
+```
+
+It reports, with a location for each finding:
+
+- this venue's machine-readable limits, review mode and required statements, when the venue has a
+  rules block (`--list-venues`);
+- citations ↔ references;
+- table and figure numbering, cross-references and standard-error notes;
+- abstract numbers traced to the tables;
+- placeholders and tracked changes.
+
+With the Research Toolkit pack installed, `rt-submission-readiness` runs the same check as stage 0
+of the full pre-submission pipeline (scorecard → referee panel → polish → cover letter). Anything
+it lists as *not checked* still needs the manual items below.
 
 ## Anti-patterns
 

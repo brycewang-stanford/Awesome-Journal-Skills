@@ -1,6 +1,6 @@
 ---
 name: issta-writing-style
-description: Use when revising an ISSTA paper for a clear testing/analysis contribution, covering the threat-model-then-technique structure, the evaluation contract, a threats-to-validity section that is not boilerplate, claims scoped to the subjects tested, double-anonymous phrasing, and 18-page ACM sigconf discipline that survives specialist reviewers.
+description: Use when revising an ISSTA paper for a clear testing/analysis contribution, covering the threat-model-then-technique structure, the evaluation contract, a threats-to-validity section that is not boilerplate, claims scoped to the subjects tested, double-anonymous phrasing, and 18-page single-column ACM acmsmall discipline that survives specialist reviewers.
 ---
 
 # ISSTA Writing Style
@@ -32,7 +32,7 @@ showed — to a reviewer who already knows the nearest tool and benchmark.
   flaky tests" when you tested one subclass is not.
 - Separate what the technique guarantees from what it empirically achieves; mixing a soundness claim
   with a benchmark number in one sentence is a credibility leak.
-- Define the analysis or measurement once, in one place; two-column ACM pages punish redefinition.
+- Define the analysis or measurement once, in one place; 18 single-column pages punish redefinition.
 - When a result is best-effort or unsound-but-useful, say so; ISSTA reviewers respect a scoped,
   honest technique over an overclaimed "sound" one.
 

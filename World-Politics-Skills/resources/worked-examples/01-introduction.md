@@ -121,4 +121,4 @@ Mapped to the skill checklists:
 > Politics* articles whose intros execute this arc across method and topic, and [`../code/`](../code/)
 > for the analysis skeleton when the design is quantitative. For cross-cutting method guidance see the
 > shared hub:
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md).
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md).

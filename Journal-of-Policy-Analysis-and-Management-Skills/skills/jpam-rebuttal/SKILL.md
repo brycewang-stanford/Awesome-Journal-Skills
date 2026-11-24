@@ -81,4 +81,4 @@ the location of the change so the editor can verify quickly.
 ## Supplementary resources
 
 - [`../../resources/official-source-map.md`](../../resources/official-source-map.md) — decision categories and review-model guardrails
-- [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md) — pre-empt the identification objections before they recur
+- [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../resources/shared/empirical-methods/reviewer-objection-checklist.md) — pre-empt the identification objections before they recur

@@ -16,7 +16,7 @@ evaluation track unless the current cycle announces one.
 - Keep essential evidence in the paper whenever space allows because reviewers are not
   required to read supplementary material.
 - Put optional evidence in the Technical Appendix or ZIP, respecting the current size and
-  format limit. IJCAI-ECAI 2026 allowed up to 50MB in PDF or ZIP form.
+  format limit. IJCAI 2027 allows up to 50MB in PDF or ZIP form.
 - Anonymize repository paths, user names, institutions, license headers, model checkpoints,
   data provenance, and notebook metadata.
 - Include a minimal run map: environment, dependencies, hardware, commands, expected outputs,

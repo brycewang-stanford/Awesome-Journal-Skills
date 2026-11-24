@@ -21,8 +21,8 @@ exhibits for general readers, balance, and the editor-driven process.**
 | [`exemplars/library.md`](exemplars/library.md) | Benchmark against **real, web-verified JEP articles/symposia** (confirmed `10.1257/jep…` DOI stem) by theme. Positioning only — no fabricated facts; includes a sibling-confusion guard vs. *Journal of Economic Literature* (JEL) and the AER. |
 | [`official-source-map.md`](official-source-map.md) | Venue-specific facts (open access, proposal length, accessibility bar, editors, disclosure) with official URLs and honest 待核实 markers. |
 | [`external_tools.md`](external_tools.md) | Literature-discovery, reference, readability, and exhibit tooling for building an accessible synthesis. |
-| [reviewer-objection-checklist](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | **Background only.** The objections referees raise about empirical designs (DiD / IV / RDD / DML / matching / mechanism) — use it as a lens to judge whether a study you are *citing* is credible, not as something to run. |
-| [reporting-standards](../../shared-resources/empirical-methods/reporting-standards.md) | **Background only.** Modern inference/reporting norms — use it to gauge whether the evidence your synthesis leans on is solid before you feature it. |
+| [reviewer-objection-checklist](shared/empirical-methods/reviewer-objection-checklist.md) | **Background only.** The objections referees raise about empirical designs (DiD / IV / RDD / DML / matching / mechanism) — use it as a lens to judge whether a study you are *citing* is credible, not as something to run. |
+| [reporting-standards](shared/empirical-methods/reporting-standards.md) | **Background only.** Modern inference/reporting norms — use it to gauge whether the evidence your synthesis leans on is solid before you feature it. |
 
 ## How to use
 

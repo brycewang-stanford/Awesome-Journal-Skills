@@ -10,8 +10,8 @@
 | 资源 | 给智能体的能力 |
 |------|----------------|
 | [`code/`](code/) | 可复现的 Stata + Python 因果推断骨架（清洗→描述→DiD/IV/RDD/DML→机制→稳健性→出表）。自已验证的 Economic-Research-Journal-Skills 代码库引入（Stata 18 MP，2026-06 实跑）。服务本包金融工程实证与政策冲击支线；复制后按需改造，勿盲目照跑。 |
-| [审稿人异议清单](../../shared-resources/empirical-methods/reviewer-objection-checklist.md) | 按识别策略分类的审稿异议与预防动作——实证支线适用。 |
-| [报告规范](../../shared-resources/empirical-methods/reporting-standards.md) | 现代推断与报告的底线（聚类、多重检验、DiD/RDD 报告、可复现性）。 |
+| [审稿人异议清单](shared/empirical-methods/reviewer-objection-checklist.md) | 按识别策略分类的审稿异议与预防动作——实证支线适用。 |
+| [报告规范](shared/empirical-methods/reporting-standards.md) | 现代推断与报告的底线（聚类、多重检验、DiD/RDD 报告、可复现性）。 |
 | [`official-source-map.md`](official-source-map.md) | 本包全部已核实事实的官方来源 URL（核验 2026-07-16）与「待核实」清单——费用、主编、匿名模式等易变项的诚实登记。 |
 | [`external_tools.md`](external_tools.md) | 三条主线的工具箱：求解器与标准测试集、分解-预测-集成软件栈、金融数据库、顺序编码制文献工具。 |
 | [`worked-examples/`](worked-examples/) | 改写前 → 改写后的本刊式引言示范（虚构班轮联盟舱位互换论文），演示"情境冲突→双线缺口→可命名增量→带量级预告"的弧线。 |

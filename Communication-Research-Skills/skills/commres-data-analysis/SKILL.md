@@ -50,7 +50,7 @@ live in `commres-research-design`, and deposit live in `commres-transparency-and
 ## Execution bridge (StatsPAI / Stata MCP)
 
 Run the battery, don't just enumerate it. Full map:
-[`execution-with-mcp`](../../../shared-resources/empirical-methods/execution-with-mcp.md). Communication Research is experiment- and survey-heavy; emphasize randomization inference, mediation done right, and family-wise corrections.
+[`execution-with-mcp`](../../resources/shared/empirical-methods/execution-with-mcp.md). Communication Research is experiment- and survey-heavy; emphasize randomization inference, mediation done right, and family-wise corrections.
 
 - **Many outcomes / specifications:** `romano_wolf` (step-down FWER) or
   `benjamini_hochberg` — report the adjusted threshold.

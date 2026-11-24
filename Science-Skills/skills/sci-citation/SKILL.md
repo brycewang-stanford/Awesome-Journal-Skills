@@ -54,7 +54,7 @@ Most general journals keep main-text and supplement references separate. Science
 
 ## Worked micro-example (illustrative)
 
-A Report cites three sources in its first paragraph, then introduces a fourth source only in the Supplementary Methods:
+A Research Article cites three sources in its first paragraph, then introduces a fourth source only in the Supplementary Methods:
 
 - Main text: "...prior surveys disagreed *(1, 2)*, and the standard model predicts otherwise *(3)*."
 - SM Methods: "We adapted the assay of *(4)*."

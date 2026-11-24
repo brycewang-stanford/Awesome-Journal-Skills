@@ -5,9 +5,10 @@ description: Use when packaging the artifacts behind a UIST paper — code, tool
 
 # UIST Artifact Evaluation
 
-UIST has no artifact-evaluation committee or badge track (none was found for the
-2026 cycle — 待核实 each year); the CFP-level instrument of proof is the video
-figure. That absence raises rather than lowers the packaging bar: your artifacts are
+UIST has no artifact-evaluation committee or badge track: the 2026 CFP (re-verified
+2026-11-24) welcomes open source and other artifacts but calls them "completely
+optional" and says they "will not be used for evaluation criteria" — the paper must
+stand on its own. The CFP-level instrument of proof is the video figure. That absence raises rather than lowers the packaging bar: your artifacts are
 judged twice, informally — at review time as *evidence the system exists as
 claimed*, and after publication as *infrastructure other builders adopt*. Nobody
 will certify either; both simply succeed or fail.

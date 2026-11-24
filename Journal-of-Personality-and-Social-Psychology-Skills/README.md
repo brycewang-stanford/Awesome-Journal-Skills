@@ -35,7 +35,7 @@ JPSP's constraints differ sharply from a short-report journal:
 | Structure             | **Three sections**, separately edited                                         | Pick **ASC / IRGP / PPID** before anything else                  |
 | Format                | **Long-format, multi-study** theory papers                                    | A single small study rarely fits; build a package                |
 | Review model          | **Masked** review (both directions)                                           | Anonymize the manuscript                                         |
-| Abstract              | **≤ 250 words**                                                               | Longer than many journals' 150-word caps                         |
+| Abstract              | **≤ 250 words**, then up to five keywords; ASC adds a ≤ 200-word limitations statement | Longer than many journals' 150-word caps                         |
 | Section length        | ASC intro+discussion **≤ 3,500 words**; IRGP **≤ 5,000 words & ≤ 5 studies** in main text; PPID "as succinctly as possible" | Section rules differ — check yours |
 | Style / reporting     | **APA 7th edition** + **JARS** (Journal Article Reporting Standards)           | Structured, standardized reporting                               |
 | Transparency          | **TOP Guidelines Level 2** (requirement); data/code/materials + preregistration disclosure | Disclose and deposit to a trusted repository           |

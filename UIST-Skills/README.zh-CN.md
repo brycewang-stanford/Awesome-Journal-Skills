@@ -6,23 +6,25 @@ skills。UIST 是 SIGCHI 社区的界面**系统**主场：新交互技术、使
 就是贡献本体、为系统类主张设计匹配的评估、制作 demo 文化下近乎必需的 video figure、写好
 5,000 字符 rebuttal，并完成带无障碍要求的 ACM TAPS camera-ready。
 
-官方依据核验日期：**2026-07-08**。核验对象：UIST 2026 主页、Call for Participation、
-Author Guide、organizers 页面，ACM Digital Library 的 UIST 2025 主会与 adjunct
-proceedings 记录，dblp 会议索引，以及用于 Lasting Impact 谱系的 UIST awards/archive
-页面。核验环境中对 `uist.acm.org` 的直接抓取返回 403，因此官方页面内容经由精确 URL 的
-搜索引擎渲染读取，并与 ACM DL、dblp、SIGCHI 交叉核对；完整链路（含所有仍标注 待核实 的
-条目）见 [`resources/official-source-map.md`](resources/official-source-map.md)。
+官方依据首次核验于 2026-07-08，**2026-11-24 复核**：直接抓取 UIST 2026 主页、Call for
+Participation、Author Guide、organizers、awards、archive 与 attending 页面，以及 UIST 2027
+主页与 organizers 页面，并核对 UIST 2025/2026 的 ACM DL / Crossref proceedings 记录和
+dblp 会议索引。**届次状态：** UIST 2026（底特律，2026 年 11 月 2-5 日）已举行；UIST 2027
+已公布于**奥地利维也纳，2027 年 10 月 26-29 日**（Papers：abstract 3 月 31 日、正文
+4 月 7 日、补充材料 4 月 9 日），但其 CFP 与 Author Guide 尚未发布，因此下文规则仍以
+UIST 2026 为准。完整链路（含所有仍标注 待核实 的条目）见
+[`resources/official-source-map.md`](resources/official-source-map.md)。
 
 ## UIST 与姊妹会议的差异
 
 - **Artifact 即贡献。** UIST 的门槛是一个能运行的界面系统，其新颖性是一种**能力**：
   用户从此能做到此前任何已发表系统都做不到的事。再严谨的"关于人的发现"也应改投 CHI 或
   CSCW——`uist-topic-selection` 把这条路由判断讲成显式流程。
-- **Demo 文化就是评审文化。** Video figure（2026 年规格：≤ 3 分钟、1080p/4K、
+- **Demo 文化就是评审文化。** Video figure（2026 年规格：≤ 5 分钟、1080p/4K、
   MP4/H.264）名义可选、实际近乎决定性——评审先看视频判断系统是否真实，再权衡文字。
 - **硬页数上限 + PCS 流程。** 2026 年评审版采用双栏 `acmart`：标准论文 10 页、短论文
   5 页（参考文献与附录不计），超限直接 desk reject；投稿走 PCS，abstract 截止早于正文
-  一周。
+  一周，视频/补充材料/alt text 截止晚于正文九天。
 - **Rebuttal 会变成合同。** 5,000 字符的回应是 PC 决策的正式输入，且录用是有条件的——
   条件正是 rebuttal 里你自己承诺的修改。
 - **一个社区、两个存档容器。** Papers 进主 proceedings；Demos 与 Posters（独立主席、
@@ -114,26 +116,33 @@ UIST-Skills/
 
 - UIST 2026 是第 **39** 届：**美国密歇根州底特律（GM Renaissance Center），2026 年
   11 月 2-5 日**；Doctoral Symposium 于 11 月 2 日线下举行。
-- Papers 时间线：abstract **3 月 24 日**、正文 **3 月 31 日**（11:59 pm AoE）、
-  rebuttal **5 月 28 日 - 6 月 5 日**（≤ 5,000 字符）、通知 **6 月 27 日**、
-  camera-ready **7 月 24 日**。
+- Papers 时间线：abstract **3 月 24 日**、正文 **3 月 31 日**、材料 **4 月 9 日**
+  （11:59 pm AoE）、rebuttal **5 月 28 日 - 6 月 5 日**（≤ 5,000 字符）、通知
+  **6 月 27 日**、PCS/TAPS camera-ready 上传 **7 月 31 日**、最终录用 **8 月 7 日**、
+  30 秒 video preview（必交）**8 月 14 日**。
 - 格式：双栏 `acmart`（评审版 `[sigconf,review,anonymous]`），正文 **标准 10 页 /
-  短文 5 页**（参考文献与附录不计），超限 desk reject，camera-ready 可增 10%。
-- Video figure：≤ 3 分钟、1080p 或 4K、MP4/H.264、匿名，"可选但强烈鼓励"。
+  短文 5 页**（参考文献与附录不计，致谢计入），超限 desk reject，camera-ready 可增 10%；
+  论文 PDF < 20 MB，全部文件 < 300 MB。
+- Video figure：≤ 5 分钟、1080p 或 4K、MP4/H.264、< 250 MB、字幕须为独立 .srt/.sbv
+  文件、匿名，"可选但强烈鼓励"。
+- 生成式 AI：应避免用 LLM/AI agent 生成内容，但可用于编辑和检查作者自己的文字。ACM 开放
+  获取：非 ACM Open 机构作者 2026 年 APC 为 $250（ACM/SIG 会员）/ $350（非会员）。
 - 匿名规则：自引用第三人称并保留完整文献信息；与本稿重叠较大的既往投稿需附匿名副本作为
   补充材料。
 - 出版：主 proceedings 经 ACM TAPS（APTARA 无障碍标注），每个图、子图、表格必须有
   alt text。UIST 2025（第 38 届）在釜山举行（2025-09-28 至 10-01），proceedings DOI
-  10.1145/3746059，adjunct 10.1145/3746058。
+  10.1145/3746059，adjunct 10.1145/3746058；UIST 2026 为 10.1145/3830398 与
+  10.1145/3830397。
 
 ## 事实分级
 
 包内所有陈述被划成三个等级，且在行文中保持可辨认：
 
 1. **已核验的 2026 周期事实**——带日期/上限，可追溯到 source map 的编号来源。
-2. **转述事实**——仅见于二手来源并如实标注（如 Sikuli 的最佳学生论文奖出自作者简历）。
-3. **核验时无法确认的条目**——显式标注 待核实，只写成待解决的问题（adjunct 截止、注册
-   规则、AI 使用政策、PCS 文件上限、开放获取条款等）。
+2. **转述事实**——仅见于二手来源并如实标注（目前没有：Sikuli 的最佳学生论文奖原出自作者
+   简历，已于 2026-11-24 在 UIST 官方 archive 上确认）。
+3. **核验时无法确认的条目**——显式标注 待核实，只写成待解决的问题（远程报告选项、2026
+   录用率、尚未发布的 UIST 2027 规则等）。
 
 任何把第 2、3 级材料写成第 1 级口吻的句子都算缺陷，应对照在线官方页面订正。
 

@@ -20,9 +20,11 @@ at *commitment* time, which gives topic strategy an unusual second chance.
   method and half unvalidated resource read as neither.
 - Evidence proportional to breadth (see `acl-experiments`) and an error
   analysis that says something about language, not just scores.
-- Work engaging the current field conversation — for ACL 2026, the special
-  theme was explainability of NLP models, with a dedicated Thematic Paper
-  Award; each edition names its own theme.
+- Work engaging the current field conversation — for ACL 2027 the theme track
+  is "Homogenization and knowledge collapse in LLMs" (output diversity,
+  cultural flattening, knowledge collapse), with an anticipated special session
+  and Thematic Paper Award; ACL 2026's theme was explainability of NLP models.
+  Each edition names its own theme.
 
 ## Family routing
 

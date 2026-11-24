@@ -8,10 +8,10 @@ description: Use when planning a FOCS (IEEE Symposium on Foundations of Computer
 The FOCS year is anchored in spring: the 2026 cycle closed submissions on
 Wednesday, April 1, 2026, 5:00 PM EDT (21:00 UTC) on `focs26.hotcrp.com`, for a
 conference in New York on November 8–11, 2026 (67th edition, checked
-2026-07-08). As of that check date the cycle is in its post-submission phase:
-papers are with the program committee, notification and camera-ready dates were
-not yet published (待核实), and the workshop-proposal window is open. This
-skill manages both the live phases and the planning of the next attempt.
+2026-07-08). Re-checked 2026-11-24: the 2026 cycle is complete (notification
+July 3, 2026; camera-ready October 1, 2026; conference held November 8–11), so
+the table below is a worked record of one cycle, and the live task is the
+next attempt. This skill covers both.
 
 ## The 2026 cycle, seen from mid-July
 
@@ -19,9 +19,9 @@ skill manages both the live phases and the planning of the next attempt.
 |---|---|---|
 | Submission (Apr 1, 5 PM EDT) | Closed | None — do not contact reviewers |
 | PC evaluation (spring–summer) | In progress | Keep the arXiv/ECCC version stable; log any bug fixes separately |
-| Notification | Date 待核实 (historically midsummer) | Pre-draft both outcomes: camera-ready plan and resubmission memo |
+| Notification | July 3, 2026 (confirmed 2026-11-24) | Pre-draft both outcomes: camera-ready plan and resubmission memo |
 | Workshop proposals | Open until **July 31, 2026 AoE** (to the workshop chairs; decisions August 14) | Consider proposing a Sunday Nov 8 workshop independent of paper outcome |
-| Camera-ready | Date 待核实 (acceptance packet controls) | Reserve a two-week block after notification |
+| Camera-ready | October 1, 2026 (confirmed 2026-11-24) | Reserve a two-week block after notification |
 | Conference (Nov 8–11, New York) | Fixed | Budget travel early; November NYC hotel prices climb fast |
 
 Two live rules for the waiting months: first, if you discover a genuine error
@@ -32,7 +32,9 @@ IEEE venue and stays in force until decisions arrive.
 
 ## Backward plan for a FOCS 2027 attempt
 
-FOCS 2027 had no published CFP, venue, or deadline at the check date (待核实).
+FOCS 2027 is announced for San Diego, November 8–11, 2027 (PC chair Yuval
+Rabani; FOCS 2026 business meeting, checked 2026-11-24), but it has no
+published CFP or deadline yet (待核实).
 The historical rhythm — CFP in late winter, deadline at the start of April,
 conference in late autumn — is a pattern to plan by, not a fact to rely on.
 A realistic backward schedule against a presumed early-April deadline:

@@ -7,8 +7,12 @@ description: Use when drafting an ACM RecSys rebuttal during the author-response
 
 Use this after RecSys reviews are released and the rebuttal window opens. RecSys runs a brief
 author-response phase (2026: June 4-9) in which authors add a short narrative to clarify
-misconceptions. Reopen the current instructions before drafting — the length and mechanics are
-cycle-specific and the phase is short.
+misconceptions. In 2026 the rebuttal was capped at **500 characters** and limited to indicating
+factual errors or misconceptions in the reviews — revision suggestions, new material, or
+point-by-point responses disqualified it (re-verified 2026-11-23). Reopen the current
+instructions before drafting — the length and mechanics are cycle-specific and the phase is
+short. Under a 500-character cap, the drafting pattern below collapses to one or two sentences:
+the correction plus its evidence anchor.
 
 ## Triage
 

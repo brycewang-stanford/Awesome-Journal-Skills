@@ -149,5 +149,5 @@ Mapped to the skill checklists:
 
 > Next: see [`../exemplars/library.md`](../exemplars/library.md) for **real, web-verified** Journal of
 > Communication papers whose intros execute a version of this arc, and
-> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../../../shared-resources/empirical-methods/reviewer-objection-checklist.md)
+> [`../../../shared-resources/empirical-methods/reviewer-objection-checklist.md`](../shared/empirical-methods/reviewer-objection-checklist.md)
 > plus the [`code/`](../code/) skeleton for stress-testing and estimating the design referenced above.

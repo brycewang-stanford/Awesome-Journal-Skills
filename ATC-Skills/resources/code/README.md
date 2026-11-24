@@ -1,20 +1,20 @@
 # ATC Replication-Package Code Adapter
 
 This directory routes ATC authors to the repository-level shared tooling. It stays deliberately
-thin: ATC-specific *policy* (the ACM SIGOPS transition, the two-round extended-abstract review,
+thin: ATC-specific *policy* (the ACM SIGOPS transition, the two-round review with its first-two-pages gate,
 double-blind reviewing, shepherded conditional acceptance, the Available/Functional/Reproduced
 badges) lives in the skills and in [`../official-source-map.md`](../official-source-map.md);
 reusable *tooling* lives in the shared kits so packs do not carry diverging copies.
 
 ## Shared kits
 
-- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md)
+- [`../../../shared-resources/ml-conference-methods/reproducibility-artifact-checklist.md`](../shared/ml-conference-methods/reproducibility-artifact-checklist.md)
   — anonymous-review and public-release checks that transfer to any systems replication package.
-- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../../../shared-resources/ml-conference-methods/code/check_repro_package.py)
+- [`../../../shared-resources/ml-conference-methods/code/check_repro_package.py`](../shared/ml-conference-methods/code/check_repro_package.py)
   — dependency-free smoke checker for package layout.
-- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../../../shared-resources/submission-readiness/readiness-checklist.md)
-  and [`../../../shared-resources/submission-readiness/response-to-referees.md`](../../../shared-resources/submission-readiness/response-to-referees.md)
-  — generic pre-submission and response scaffolding; adapt the latter to the ATC rebuttal and the
+- [`../../../shared-resources/submission-readiness/readiness-checklist.md`](../shared/submission-readiness/readiness-checklist.md)
+  and [`../../../shared-resources/submission-readiness/response-to-referees.md`](../shared/submission-readiness/response-to-referees.md)
+  — generic pre-submission and response scaffolding; adapt the latter to the ATC 72-hour author response and the
   shepherd's description-of-changes in [`../../skills/atc-author-response/SKILL.md`](../../skills/atc-author-response/SKILL.md).
 
 ## Typical use for an ATC package
@@ -31,10 +31,11 @@ artifact evaluation.
 
 ## ATC-specific checks the generic tooling cannot make
 
-- **The extended abstract must stand alone.** ATC 2026's first review round judges a two-page
-  extended abstract that a reviewer may read *instead of* the full paper. The generic kit checks
-  the code package, not the paper; verify the abstract carries the problem, contribution, and key
-  result on its own (`../../skills/atc-writing-style/SKILL.md`).
+- **The first two pages must stand alone.** ATC 2027's first review round is based on the paper's
+  first two pages, which a reviewer may read *instead of* the full paper (ATC 2026 used a separate
+  two-page extended abstract for the same purpose). The generic kit checks the code package, not
+  the paper; verify the opening carries the problem, contribution, and key result on its own
+  (`../../skills/atc-writing-style/SKILL.md`).
 - **Double-blind extends to the repository.** A linked repo, a system named after your group, or a
   cluster hostname in a log can de-anonymize the submission. Anonymize or mirror the artifact behind
   a blind service before upload (`../../skills/atc-submission/SKILL.md`).

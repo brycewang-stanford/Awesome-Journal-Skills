@@ -26,11 +26,15 @@ compounds — a fair concession is worth more than winning every argument.
 
 ## Writing the rebuttal
 
-The rebuttal is short and lands on a fixed clock; its exact length/format is 待核实 for the
-current cycle, so read the instructions and budget to them.
+The rebuttal is short and lands on a fixed clock. For MobiCom 2027 (CFP re-verified
+2026-11-24) it is **optional**, at most **500 words**, typed into the submission form, and
+limited to **(a) correcting factual errors or (b) directly answering reviewer questions**. It
+**must not include new experiments, new data, or new figures**, describe work done since
+submission, or promise future work. The 2027 summer round's window was November 3-6, 2026; more
+reviews may be added after it.
 
 ```text
-Rebuttal structure (fit to the length limit):
+Rebuttal structure (fit to 500 words):
   1. Open with the 1-2 issues that most affect the decision — not point R1.1.
   2. Correct factual misreadings with a section/figure pointer.
   3. Answer the highest-severity questions with concrete evidence (a number, a
@@ -41,22 +45,28 @@ Rebuttal structure (fit to the length limit):
 
 Rules that keep a rebuttal from backfiring:
 
-- **No new unverifiable claims.** A rebuttal is not a place to add an experiment the
-  reviewers cannot see; it invites distrust.
+- **No new results at all.** The CFP forbids new experiments, data, or figures in the
+  rebuttal; point to evidence already in the submission.
 - **Answer, do not deflect.** "We will address this in the final version" is a non-answer to
   a substantive question.
-- **Promises become obligations.** Anything you commit to is the revision/camera-ready
-  checklist — do not promise what you cannot measure.
+- **No promises.** The 2027 CFP bars promising additional work in the rebuttal; clarify the
+  submitted work instead. Anything you do concede still becomes part of the record the
+  shepherd and continuing reviewers read.
 
 ## Executing the one-shot revision
 
-A one-shot revision is a **contract**: reviewers list required changes; you return the paper
-against that list, re-reviewed by the same reviewers where possible.
+A one-shot revision is a **contract**: reviewers list **at most three** major
+changes/clarifications; you resubmit at the **next deadline** and are judged on whether they
+were properly addressed. The items may demand new experiments with specific results and can
+take longer than 4-6 weeks; meanwhile the paper is still under review at MobiCom and cannot go
+elsewhere unless withdrawn.
 
 ```text
 Revision packet:
   - change-highlighted PDF (edits visibly marked)
   - change summary mapping EACH required item -> the visible change that addresses it
+    (the 2027 CFP requires reporting the prior reviewers' major concerns and how each was
+    addressed, kept anonymous)
   - the revised paper within the same 12-page double-column cap
 ```
 

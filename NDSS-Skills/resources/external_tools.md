@@ -1,6 +1,6 @@
 # External Tools - NDSS
 
-Access date: 2026-07-08
+Access date: 2026-07-08 (re-verified 2026-11-24)
 
 Open the live cycle pages before acting on anything below; NDSS re-issues its rules with
 every symposium, and the 2027 edition already broke the venue's oldest constant (San Diego).
@@ -11,7 +11,7 @@ every symposium, and the 2027 edition already broke the venue's oldest constant 
 - NDSS 2027 Call for Papers: https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/
 - NDSS 2027 submissions index (all calls): https://www.ndss-symposium.org/ndss2027/submissions/
 - NDSS 2027 Call for Artifacts: https://www.ndss-symposium.org/ndss2027/submissions/call-for-artifacts/
-- Summer-cycle HotCRP: https://ndss27-summer.hotcrp.com/ (fall-cycle URL 待核实)
+- Cycle HotCRP sites: https://ndss27-summer.hotcrp.com/ · https://ndss27-fall.hotcrp.com/
 - NDSS 2027 organizing committee: https://www.ndss-symposium.org/ndss2027/leadership/organizing-committee/
 - Artifact-evaluation platform (2026 anchor): https://secartifacts.github.io/ndss2026/call
 - Test of Time award: https://www.ndss-symposium.org/ndss-test-of-time-award/
@@ -35,7 +35,7 @@ URL and cross-check against the HotCRP site and Internet Society pages, as this 
    remember IRB paperwork alone does not satisfy the ERB.
 5. **Cap pass** — count every submission each coauthor is on this cycle against the
    six-per-author limit, and check nothing overlaps a paper rejected in the earlier cycle.
-6. **Post-acceptance pass** — camera-ready date (January 6, 2027 for the 2027 edition),
+6. **Post-acceptance pass** — camera-ready date (2027 edition: September 30, 2026 summer / February 7, 2027 fall),
    artifact-evaluation opt-in timing, badge requirements, Seoul registration and travel.
 
 ## Do not infer

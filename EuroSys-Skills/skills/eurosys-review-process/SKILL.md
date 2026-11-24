@@ -6,9 +6,9 @@ description: Use when reasoning about how EuroSys decides papers — the two ind
 # EuroSys Review Process
 
 Use this to model the decision machinery around a EuroSys submission. Facts
-below are the 2026/2027 cycles as rendered on 2026-07-08 from the EuroSys CFPs
-and conference pages; per-round mechanics (rebuttal windows, review counts,
-online PC meeting format) are set inside each HotCRP instance — 待核实 there.
+below are the EuroSys 2027 cycle as re-verified on 2026-11-24 from the CFP and
+conference pages; review counts and the PC-meeting format are not published and
+live inside each HotCRP instance.
 
 ## One conference, two juries
 
@@ -19,23 +19,23 @@ published in the same proceedings and presented at the same April conference.
 Strategically this means:
 
 - Your competition is round-local; the PC calibrates within the round it reads.
-- A spring reject cannot simply "try again in the fall": the CFP bars a
-  rejected paper from returning **until the same round of the next edition** —
-  a full year, not one deadline.
+- A spring reject cannot simply "try again in the fall": the CFP makes a paper
+  that was not accepted **ineligible for the immediately following cycle** — in
+  practice it returns at the same round of the next edition, a full year later.
 - A revision offer, by contrast, explicitly bridges rounds: revise-and-resubmit
-  at the *subsequent* deadline, judged against the issued condition list.
+  at the *following* cycle, against the issued list of concerns; the revision is
+  treated as a submission to that later deadline and is not guaranteed acceptance.
 
 ## The outcome triple
 
 | Outcome | What it means | Author's next move |
 |---|---|---|
-| Accept | Into the edition's proceedings | Camera-ready + artifact evaluation |
-| One-shot revision | Conditional path to the next round | Condition-by-condition execution plan |
-| Reject | One-year same-season ban | Substantial rework, or a different venue |
+| Accept | Tentative until a PC shepherd approves the revised version | Shepherd revision, camera-ready + artifact evaluation |
+| Revise-and-resubmit | Conditional path to the following cycle | Concern-by-concern execution plan |
+| Reject | Ineligible for the immediately following cycle | Substantial rework, or a different venue |
 
-"One-shot" is literal: the revision is evaluated once, against the conditions,
-by a process designed for continuity with the original reviews. There is no
-second revision offer downstream of the first.
+The revision is evaluated once, against the concerns; a rejected revision is
+ineligible for the cycle after it, so there is no chain of revision offers.
 
 ## Who is reading
 
@@ -73,23 +73,25 @@ nearly silent. What happens behind it, in the standard HotCRP shape:
 1. Bidding and assignment off the registered topics and conflicts.
 2. First-round reviews; possibly a cut before additional reviews are
    commissioned on papers still alive.
-3. Rebuttal or author-reviewer interaction if the round runs one (待核实
-   in the round's HotCRP announcements).
+3. Reviews released, then a two-day optional **author response** (2027 spring:
+   July 29 → July 31, 2026; fall: January 6 → January 8, 2027), limited to factual
+   corrections and answers to reviewer questions, ideally within 500 words.
 4. Online PC discussion converging each paper into one of the three bins,
    with revision-condition lists drafted for the middle bin.
 5. Notification, reviews, and — for the middle bin — the condition list.
 
 The author-controllable inputs are all front-loaded: the registered
 abstract (bidding quality), the conflicts (assignment sanity), and the
-paper itself. Mid-round, the only lever is the response phase, if any.
+paper itself. Mid-round, the only lever is the two-day response.
 
 ## Conduct boundaries
 
 - No reviewer contact outside the platform, no identity fishing, no
   parallel submission of the same work to another archival venue.
-- Public talks and preprints during review are governed by the round's
-  anonymity wording — 待核实 before scheduling a seminar on the submitted
-  work under its submission title.
+- Public talks, arXiv versions, tech reports and social-media posts are not
+  concurrent submissions under the 2027 CFP, but the submitted version must use a
+  substantially different title and system/tool name — so a seminar under the
+  submission title is exactly what to avoid.
 
 ## Reading your reviews structurally
 
@@ -100,7 +102,7 @@ For each review, extract:
                   identity-level objection    -> reject-compatible
   round-awareness: does the reviewer propose revision conditions?
 Then ask: across reviewers, is there a coherent, enumerable condition list?
-  yes -> argue toward the revision bin in the rebuttal (if the round has one)
+  yes -> argue toward the revision bin in the author response (facts and answers only)
   no  -> maximize the accept case on the strongest review's terms
 ```
 
@@ -111,5 +113,5 @@ Then ask: across reviewers, is there a coherent, enumerable condition list?
 [Outcome forecast] accept / revision / reject, with the driving signal
 [Condition-list coherence] <enumerable fixes or identity-level objections>
 [Ban exposure] <date this paper may legally return if rejected>
-[待核实] <this round's rebuttal window, review counts, PC-meeting form>
+[Response window] <reviews-available date -> responses-due date for this round>
 ```

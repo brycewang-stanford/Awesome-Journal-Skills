@@ -1,6 +1,6 @@
 ---
 name: cav-author-response
-description: Use when drafting a CAV (Computer Aided Verification) author response (rebuttal) for a paper that has passed the two-stage review's first filter, covering how to answer soundness/proof objections, benchmark-fairness challenges, and novelty-delta doubts with verifiable evidence while preserving double-anonymity for Regular and Application papers.
+description: Use when drafting a CAV (Computer Aided Verification) author response (rebuttal) for a paper that has passed the two-stage review's first filter, covering how to answer soundness/proof objections, benchmark-fairness challenges, and novelty-delta doubts with verifiable evidence while preserving double-anonymity for Regular Papers.
 ---
 
 # CAV Author Response
@@ -8,8 +8,8 @@ description: Use when drafting a CAV (Computer Aided Verification) author respon
 Use this after CAV stage-2 reviews are released. At CAV the rebuttal exists **only for papers that
 passed the stage-1 filter** — the two-stage process means a rejected paper never reaches this turn.
 So the rebuttal is a focused instrument: answer what the two additional reviewers, and the two from
-stage 1, need in order to advocate for the paper in the PC discussion. For Regular and Application
-papers, the response must respect double-anonymity — do not reveal authors, the tool's real name, or
+stage 1, need in order to advocate for the paper in the PC discussion. For Regular Papers (the
+only double-blind CAV 2027 category), the response must respect double-anonymity — do not reveal authors, the tool's real name, or
 identity-revealing repositories.
 
 ## Triage
@@ -22,8 +22,9 @@ identity-revealing repositories.
   experiments as if they were results.
 - Correct factual misreadings first; a reviewer who misread a theorem's assumption or a benchmark
   subset is often persuadable.
-- Keep every word anonymous for anonymized categories. (Tool and Industrial papers are not
-  double-blind, so this constraint relaxes — but still avoid gratuitous self-promotion.)
+- Keep every word anonymous for Regular Papers. (In CAV 2027, Tool and Application/Industrial/Case
+  Study papers are single-blind, so this constraint relaxes — but still avoid gratuitous
+  self-promotion. CAV 2027 response window: 5-8 April 2027.)
 
 ## The verification rebuttal, point by point
 
@@ -56,7 +57,7 @@ something they can verify** — a section pointer, a proof step, or a benchmark 
 | "The tool did not build / is missing" | Reproducibility gap | Clarify the build path; note the artifact plan (AEC is post-acceptance) |
 | "Claim generality is over-stated" | Scope objection | Narrow the claim in the response and promise the camera-ready scoping edit |
 
-## Anonymity in the response (anonymized categories)
+## Anonymity in the response (Regular Papers)
 
 - Refer to your own prior work in the third person, as in the paper.
 - Describe tool/benchmark changes without naming the real tool or linking an identity-revealing
@@ -78,5 +79,5 @@ something they can verify** — a section pointer, a proof step, or a benchmark 
 [Priority issue] <reviewer concern>
 [Decision dimension] soundness/proof / benchmark-fairness / novelty / scope / clarity / tool
 [Claim ledger] <concern -> resolved with (proof step / number / pointer) or scoped>
-[Anonymity check] <no identity leak for Regular/Application: passed/issues>
+[Anonymity check] <no identity leak for Regular Papers: passed/issues>
 ```

@@ -29,7 +29,7 @@ JAE imposes constraints that differ materially from a general-interest flagship 
 | Hallmark                | **Replicability**: results must be regeneratable from deposited code/data | A non-reproducible result is a non-starter                        |
 | Data policy             | **Mandatory JAE Data Archive deposit** on acceptance (unless confidential) | Plan archive-ready data + code from day one                       |
 | Archive format          | Plain **ASCII / CSV** + readme; **`.dta` / SAS not acceptable alone**     | Export everything to text; never deposit a bare `.dta`            |
-| Length                  | **Hard 35-page** article limit; online appendices **excluded**           | Put detail in unlimited online supporting material                |
+| Length                  | **Hard 35-page** article limit (double-spaced, 12 pt); online appendices **excluded**; over 50 pages auto-rejected | Put detail in unlimited online supporting material                |
 | Abstract                | **100-word summary, no citations**; up to **six keywords**               | A long, citation-laden abstract is off-template                   |
 | References              | **Any consistent style** ("Free Format")                                 | No house citation style is enforced                               |
 | Review                  | **Single-blind**; Editor-in-Chief has final accept/reject                | Authors are not anonymized; reviewers are                         |
